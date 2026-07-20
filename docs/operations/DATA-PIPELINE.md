@@ -20,6 +20,8 @@ Les seules compétitions configurées sont :
 
 La collecte de cotes utilise uniquement le marché `h2h`, la région `fr`, le format décimal et le bookmaker `betclic_fr` — Betclic (FR). Un événement sans les trois issues domicile, nul et extérieur est exclu.
 
+Avant les appels de cotes payants, le pipeline appelle gratuitement `/v4/sports` afin de ne conserver que les compétitions configurées actuellement actives. Une compétition hors saison est ignorée normalement et apparaît dans `metadata.json` sous `inactiveCompetitions`. Si aucune compétition n’est active, la collecte produit un snapshot vide valide sans appeler `/odds` ; zéro événement n’est donc pas un échec.
+
 Les scores sont demandés uniquement pour les compétitions de pronostics réels non réglés. Un résultat incomplet ou ambigu reste explicitement non terminé et n’est jamais converti en `WON`, `LOST` ou `VOID`.
 
 ## Fichiers produits
@@ -32,13 +34,13 @@ snapshots/results.json
 snapshots/metadata.json
 ```
 
-Les fichiers ont un schéma versionné, des timestamps UTC, un tri déterministe et uniquement les champs nécessaires. Les cotes sont des chaînes décimales. Aucun secret, URL d’appel ou en-tête sensible n’est persisté. Une collecte partielle conserve le dernier snapshot de l’autre mode ; lors de la première initialisation, un snapshot vide valide est créé.
+Les fichiers ont un schéma versionné, des timestamps UTC avec millisecondes, un tri déterministe et uniquement les champs nécessaires. Les paramètres temporels envoyés à The Odds API sont, eux, normalisés à la seconde au format `YYYY-MM-DDTHH:mm:ssZ`. Les cotes sont des chaînes décimales. Aucun secret, URL d’appel ou en-tête sensible n’est persisté. Une collecte partielle conserve le dernier snapshot de l’autre mode ; lors de la première initialisation, un snapshot vide valide est créé.
 
 ## Budget API
 
 La limite absolue est de 500 crédits par mois, avec une marge minimale de 50 et une cible opérationnelle inférieure à 450 crédits utilisés. Le client lit `x-requests-used`, `x-requests-remaining` et `x-requests-last`. Une valeur absente ou invalide reste `null` et produit un avertissement. Dès que la marge est atteinte, aucun nouvel appel n’est lancé. Les requêtes identiques sont dédupliquées pendant une exécution.
 
-Chaque compétition coûte normalement un crédit pour les cotes (`h2h`, un bookmaker) et deux crédits pour les scores demandés avec `daysFrom=3`. Les appels de résultats utilisent `eventIds` et ne concernent que les compétitions utiles.
+Chaque compétition active coûte normalement un crédit pour les cotes (`h2h`, un bookmaker) et deux crédits pour les scores demandés avec `daysFrom=3`. L’appel `/sports` utilisé pour détecter les compétitions actives n’est pas compté comme une requête payante dans les métadonnées. Les appels de résultats utilisent `eventIds` et ne concernent que les compétitions utiles.
 
 ## Utilisation locale
 
@@ -66,7 +68,7 @@ Le secret GitHub `THE_ODDS_API_KEY` doit être configuré par le propriétaire. 
 ## Limites connues
 
 - Le endpoint courant des scores remonte au maximum trois jours avec `daysFrom=3`.
-- Une compétition hors saison peut retourner une liste vide.
+- Une compétition configurée mais hors saison est ignorée après la vérification `/sports`.
 - Betclic peut être temporairement absent ; l’événement est alors exclu.
 - Les règles de règlement des matchs reportés, abandonnés ou interrompus restent hors de ce pipeline.
 - Aucune collecte réelle n’est garantie sans secret GitHub valide.

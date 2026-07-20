@@ -5,8 +5,15 @@ export async function collectOdds({ client, generatedAt }) {
   const startingRequests = client.getStats().requests;
   const events = [];
   let eventsReceived = 0;
+  const activeSports = new Set((await client.getActiveSports()).data);
+  const activeCompetitions = COMPETITIONS.filter((competition) =>
+    activeSports.has(competition.key),
+  );
+  const inactiveCompetitions = COMPETITIONS.filter(
+    (competition) => !activeSports.has(competition.key),
+  ).map((competition) => competition.key);
 
-  for (const competition of COMPETITIONS) {
+  for (const competition of activeCompetitions) {
     const response = await client.getOdds(competition.key, generatedAt);
     eventsReceived += response.data.length;
     events.push(
@@ -31,7 +38,8 @@ export async function collectOdds({ client, generatedAt }) {
       events,
     },
     metadata: {
-      competitions: COMPETITIONS.map((competition) => competition.key),
+      competitions: activeCompetitions.map((competition) => competition.key),
+      inactiveCompetitions,
       requests: stats.requests - startingRequests,
       eventsReceived,
       eventsPublished: events.length,

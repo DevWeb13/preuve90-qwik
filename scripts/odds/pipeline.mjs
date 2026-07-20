@@ -17,11 +17,15 @@ function emptyResultsSnapshot(generatedAt) {
 
 function aggregateMetadata(mode, generatedAt, parts, client) {
   const competitions = [...new Set(parts.flatMap((part) => part.competitions))].sort();
+  const inactiveCompetitions = [
+    ...new Set(parts.flatMap((part) => part.inactiveCompetitions ?? [])),
+  ].sort();
   return {
     schemaVersion: 1,
     generatedAt,
     mode,
     competitions,
+    inactiveCompetitions,
     requests: parts.reduce((total, part) => total + part.requests, 0),
     eventsReceived: parts.reduce((total, part) => total + part.eventsReceived, 0),
     eventsPublished: parts.reduce((total, part) => total + part.eventsPublished, 0),

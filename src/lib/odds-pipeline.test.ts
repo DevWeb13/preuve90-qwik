@@ -4,7 +4,11 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
-import { createOddsApiClient, requireApiKey } from "../../scripts/odds/api-client.mjs";
+import {
+  createOddsApiClient,
+  formatApiTimestamp,
+  requireApiKey,
+} from "../../scripts/odds/api-client.mjs";
 import { createApiBudget, readQuotaHeaders } from "../../scripts/odds/budget.mjs";
 import { collectResults, findPendingPredictions } from "../../scripts/odds/collect-results.mjs";
 import { normalizeOddsEvents, normalizeScoreEvents } from "../../scripts/odds/normalize.mjs";
@@ -13,6 +17,11 @@ import { validateSnapshotSet } from "../../scripts/odds/write-snapshots.mjs";
 
 const FAKE_KEY = "known-fake-secret-never-log";
 const NOW = "2026-07-20T08:00:00.000Z";
+const COMPETITION_KEYS = [
+  "soccer_france_ligue_one",
+  "soccer_epl",
+  "soccer_uefa_champs_league",
+];
 const fixtureDirectory = fileURLToPath(
   new URL("../../tests/fixtures/odds-api/", import.meta.url),
 );
@@ -79,14 +88,17 @@ async function makeTemporaryDirectory() {
   return directory;
 }
 
-function pipelineFetch() {
+function pipelineFetch(activeSportKeys = COMPETITION_KEYS) {
   let used = 0;
   return vi.fn(async (request: RequestInfo | URL) => {
-    used += 1;
     const url =
       request instanceof Request
         ? new URL(request.url)
         : new URL(typeof request === "string" ? request : request.toString());
+    if (url.pathname === "/v4/sports") {
+      return jsonResponse(activeSportKeys.map((key) => ({ key, active: true })));
+    }
+    used += 1;
     const sportKey = url.pathname.split("/")[3];
     const headers = quotaHeaders({
       "x-requests-used": String(used),
@@ -102,6 +114,10 @@ function pipelineFetch() {
 }
 
 describe("configuration et client The Odds API", () => {
+  it("normalise les timestamps des paramètres API à la seconde", () => {
+    expect(formatApiTimestamp("2026-07-20T08:30:15.000Z")).toBe("2026-07-20T08:30:15Z");
+  });
+
   it("refuse un secret absent sans révéler la fausse clé", () => {
     expect(() => requireApiKey({})).toThrow("THE_ODDS_API_KEY est requis");
     try {
@@ -132,13 +148,31 @@ describe("configuration et client The Odds API", () => {
     expect(requestedUrl.pathname).toBe("/v4/sports/soccer_france_ligue_one/odds");
     expect(Object.fromEntries(requestedUrl.searchParams)).toEqual({
       bookmakers: "betclic_fr",
-      commenceTimeFrom: NOW,
+      commenceTimeFrom: "2026-07-20T08:00:00Z",
       dateFormat: "iso",
       markets: "h2h",
       oddsFormat: "decimal",
       regions: "fr",
       apiKey: FAKE_KEY,
     });
+  });
+
+  it("récupère les sports actifs sans incrémenter les requêtes payantes", async () => {
+    const requestedUrls: URL[] = [];
+    const client = createOddsApiClient({
+      apiKey: FAKE_KEY,
+      fetchImpl: async (request) => {
+        requestedUrls.push(request instanceof URL ? request : new URL(request.toString()));
+        return jsonResponse([
+          { key: "soccer_france_ligue_one", active: true },
+          { key: "soccer_epl", active: false },
+        ]);
+      },
+    });
+    const response = await client.getActiveSports();
+    expect(response.data).toEqual(["soccer_france_ligue_one"]);
+    expect(requestedUrls[0].pathname).toBe("/v4/sports");
+    expect(client.getStats().requests).toBe(0);
   });
 
   it("filtre la requête de scores par compétition et identifiants utiles", async () => {
@@ -208,10 +242,19 @@ describe("configuration et client The Odds API", () => {
     await expect(client.getOdds("soccer_epl", NOW)).rejects.toThrow("réponse de cotes");
   });
 
-  it("signale une erreur HTTP sans corps, URL ni clé", async () => {
+  it("signale une erreur HTTP 422 avec un code sûr, sans URL complète ni clé", async () => {
+    const warn = vi.fn();
     const client = createOddsApiClient({
       apiKey: FAKE_KEY,
-      fetchImpl: async () => jsonResponse({ message: FAKE_KEY }, { status: 429 }),
+      logger: { warn } as unknown as Console,
+      fetchImpl: async () =>
+        jsonResponse(
+          {
+            error_code: "INVALID_COMMENCE_TIME_FROM",
+            message: `${FAKE_KEY} https://api.the-odds-api.com/v4/sports`,
+          },
+          { status: 422 },
+        ),
     });
     let message = "";
     try {
@@ -219,9 +262,25 @@ describe("configuration et client The Odds API", () => {
     } catch (error) {
       message = String(error);
     }
-    expect(message).toContain("HTTP 429");
+    expect(message).toBe(
+      "OddsApiError: The Odds API a répondu avec le statut HTTP 422 (INVALID_COMMENCE_TIME_FROM).",
+    );
     expect(message).not.toContain(FAKE_KEY);
     expect(message).not.toContain("apiKey=");
+    expect(message).not.toContain("https://");
+    expect(JSON.stringify(warn.mock.calls)).not.toContain(FAKE_KEY);
+  });
+
+  it("ignore un code d’erreur non sûr", async () => {
+    const uppercaseFakeKey = "KNOWN_FAKE_SECRET_NEVER_LOG";
+    const client = createOddsApiClient({
+      apiKey: uppercaseFakeKey,
+      fetchImpl: async () =>
+        jsonResponse({ error_code: uppercaseFakeKey, message: "corps non journalisé" }, { status: 422 }),
+    });
+    await expect(client.getOdds("soccer_epl", NOW)).rejects.toThrow(
+      "The Odds API a répondu avec le statut HTTP 422.",
+    );
   });
 });
 
@@ -316,6 +375,68 @@ describe("snapshots et modes", () => {
     expect(await readFile(path.join(outputDirectory, "metadata.json"), "utf8")).toContain(
       `"mode": "${mode}"`,
     );
+    expect(fetchImpl).toHaveBeenCalledTimes(mode === "odds" ? 4 : mode === "all" ? 5 : 1);
+  });
+
+  it("ne collecte les cotes que pour les compétitions configurées actives", async () => {
+    const outputDirectory = await makeTemporaryDirectory();
+    const fetchImpl = pipelineFetch(["soccer_epl"]);
+    const snapshotSet = await runPipeline({
+      mode: "odds",
+      outputDirectory,
+      environment: { THE_ODDS_API_KEY: FAKE_KEY },
+      fetchImpl,
+      clock: () => new Date(NOW),
+      logger: { info: vi.fn(), warn: vi.fn() } as unknown as Console,
+    });
+    const requestedPaths = fetchImpl.mock.calls.map(([request]) => new URL(request.toString()).pathname);
+    expect(requestedPaths).toEqual(["/v4/sports", "/v4/sports/soccer_epl/odds"]);
+    expect(snapshotSet.metadata.competitions).toEqual(["soccer_epl"]);
+    expect(snapshotSet.metadata.inactiveCompetitions).toEqual([
+      "soccer_france_ligue_one",
+      "soccer_uefa_champs_league",
+    ]);
+    expect(snapshotSet.metadata.requests).toBe(1);
+  });
+
+  it("produit un snapshot vide sans appel de cotes si aucune compétition n’est active", async () => {
+    const outputDirectory = await makeTemporaryDirectory();
+    const fetchImpl = pipelineFetch([]);
+    const snapshotSet = await runPipeline({
+      mode: "odds",
+      outputDirectory,
+      environment: { THE_ODDS_API_KEY: FAKE_KEY },
+      fetchImpl,
+      clock: () => new Date(NOW),
+      logger: { info: vi.fn(), warn: vi.fn() } as unknown as Console,
+    });
+    expect(fetchImpl).toHaveBeenCalledOnce();
+    expect(new URL(fetchImpl.mock.calls[0][0].toString()).pathname).toBe("/v4/sports");
+    expect(snapshotSet.odds.events).toEqual([]);
+    expect(snapshotSet.metadata.competitions).toEqual([]);
+    expect(snapshotSet.metadata.inactiveCompetitions).toEqual([...COMPETITION_KEYS].sort());
+    expect(snapshotSet.metadata.requests).toBe(0);
+    expect(() => validateSnapshotSet(snapshotSet)).not.toThrow();
+  });
+
+  it("conserve les timestamps des snapshots avec des millisecondes", async () => {
+    const outputDirectory = await makeTemporaryDirectory();
+    const snapshotSet = await runPipeline({
+      mode: "odds",
+      outputDirectory,
+      environment: { THE_ODDS_API_KEY: FAKE_KEY },
+      fetchImpl: pipelineFetch(["soccer_france_ligue_one"]),
+      clock: () => new Date(NOW),
+      logger: { info: vi.fn(), warn: vi.fn() } as unknown as Console,
+    });
+    expect(snapshotSet.metadata.generatedAt).toBe(NOW);
+    expect(snapshotSet.odds.generatedAt).toBe(NOW);
+    expect(snapshotSet.odds.events).toEqual([
+      expect.objectContaining({
+        observedAt: NOW,
+        kickoffAt: "2026-07-21T18:45:00.000Z",
+      }),
+    ]);
   });
 
   it("ne publie ni secret, ni URL sensible, ni donnée brute", async () => {
