@@ -15,6 +15,7 @@ export const ODDS_QUERY = Object.freeze({
 export const SCAN_CONFIG = Object.freeze({
   minimumLeadMinutes: PRODUCT_CONTRACT.minimumLeadMinutes,
   maximumLeadHours: PRODUCT_CONTRACT.maximumLeadHours,
+  maximumSnapshotAgeMinutes: PRODUCT_CONTRACT.maximumSnapshotAgeMinutes,
   maximumPublishedPerScan: PRODUCT_CONTRACT.maximumPublishedPerScan,
   maximumUpcomingEvents: PRODUCT_CONTRACT.maximumUpcomingEvents,
   virtualStakeCents: PRODUCT_CONTRACT.virtualStakeCents,
