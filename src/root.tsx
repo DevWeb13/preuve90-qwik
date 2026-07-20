@@ -16,10 +16,12 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charset="utf-8" />
+        <meta name="theme-color" content="#050711" />
+        {isDev && <meta name="robots" content="noindex, nofollow" />}
         {!isDev && <link rel="manifest" href={`${import.meta.env.BASE_URL}manifest.json`} />}
         <RouterHead />
       </head>
-      <body lang="en">
+      <body lang="fr">
         <RouterOutlet />
       </body>
     </QwikCityProvider>

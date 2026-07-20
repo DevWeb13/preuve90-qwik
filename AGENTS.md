@@ -19,14 +19,16 @@ Ces règles ne peuvent pas être assouplies sans décision explicite du proprié
 - football uniquement ;
 - marché simple 1N2 uniquement ;
 - temps réglementaire uniquement ;
-- au maximum un pronostic publié par jour ;
+- zéro, un ou plusieurs pronostics peuvent être publiés le même jour, sans plafond quotidien codé en dur ;
+- chaque pronostic doit rester pertinent et aucun ne doit être créé uniquement pour augmenter le volume ;
+- un identifiant interne et un match ne peuvent apparaître qu’une seule fois ;
 - mise virtuelle fixe de 5 EUR ;
 - aucun argent réel ;
 - aucun compte joueur ;
 - aucun pari combiné ou hippique ;
 - aucun lien commercial vers un bookmaker au lancement ;
 - aucune promesse de gain ou formulation laissant entendre un rendement futur garanti ;
-- bookmaker français de référence fixe et clairement affiché ;
+- bookmaker français de référence fixe Betclic (FR), clé `betclic_fr`, clairement affiché ;
 - cote, bookmaker et horodatage enregistrés avant le début du match ;
 - une cote publiée est immuable ;
 - un pronostic publié n'est jamais supprimé, antidaté ou réécrit après le résultat ;
@@ -66,6 +68,10 @@ Les calculs doivent rester centralisés et déterministes.
 Utiliser des montants décimaux maîtrisés. Ne jamais laisser des approximations flottantes produire des valeurs financières incohérentes dans l'interface.
 
 ## Données et traçabilité
+
+- La V1 charge des publications et règlements JSON distincts, immuables et versionnés dans Git.
+- Le chargement utilise `import.meta.glob` au build ; ne jamais utiliser `fs` au runtime Vercel Edge.
+- Les données de démonstration sont autorisées uniquement en développement et ne remplacent jamais un état vide de production.
 
 - The Odds API est limitée au forfait gratuit de 500 crédits mensuels.
 - Toute intégration doit mesurer ou journaliser la consommation estimée.
