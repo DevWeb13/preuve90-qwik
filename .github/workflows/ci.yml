@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   quality:
-    name: Format, lint, types and build
+    name: Format, lint, types, tests and build
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -42,6 +42,9 @@ jobs:
 
       - name: Check TypeScript
         run: npm run build.types
+
+      - name: Run unit tests
+        run: npm run test:run
 
       - name: Build application
         run: npm run build
