@@ -9,7 +9,7 @@ on:
       - master
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
@@ -23,36 +23,16 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+        uses: actions/checkout@v6
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 22.12.0
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Format supported files
-        run: npm run fmt
-
-      - name: Commit formatting changes once
-        if: github.event_name == 'pull_request' && github.head_ref == 'chore/codex-workflow'
-        shell: bash
-        run: |
-          if git diff --quiet; then
-            echo "No formatting changes required."
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --all
-          git commit -m "style: format project files"
-          git push origin HEAD:chore/codex-workflow
 
       - name: Check formatting
         run: npm run fmt.check
