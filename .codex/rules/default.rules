@@ -1,0 +1,86 @@
+# Project-level execution policy for commands requested outside the sandbox.
+# These rules load only after the repository is trusted by Codex.
+
+prefix_rule(
+    pattern = ["git", "push", "--force"],
+    decision = "forbidden",
+    justification = "Do not rewrite shared history. Create a new commit or ask the owner for an exceptional manual intervention.",
+    match = ["git push --force", "git push --force origin master"],
+)
+
+prefix_rule(
+    pattern = ["git", "push", "-f"],
+    decision = "forbidden",
+    justification = "Do not rewrite shared history. Create a new commit instead.",
+    match = ["git push -f", "git push -f origin master"],
+)
+
+prefix_rule(
+    pattern = ["git", "reset", "--hard"],
+    decision = "prompt",
+    justification = "A hard reset can destroy uncommitted work and requires explicit review.",
+    match = ["git reset --hard", "git reset --hard HEAD~1"],
+)
+
+prefix_rule(
+    pattern = ["git", "clean", ["-fd", "-fdx", "-df", "-dfx"]],
+    decision = "prompt",
+    justification = "Cleaning untracked files can delete local work and environment files.",
+    match = ["git clean -fd", "git clean -fdx"],
+)
+
+prefix_rule(
+    pattern = ["git", "branch", "-D"],
+    decision = "prompt",
+    justification = "Force-deleting a branch requires explicit review.",
+    match = ["git branch -D feature/example"],
+)
+
+prefix_rule(
+    pattern = ["rm", "-rf"],
+    decision = "prompt",
+    justification = "Recursive forced deletion requires explicit review and a verified target path.",
+    match = ["rm -rf dist", "rm -rf ./temporary-directory"],
+)
+
+prefix_rule(
+    pattern = ["vercel", ["--prod", "deploy"], "--prod"],
+    decision = "prompt",
+    justification = "Production deployments must be explicitly approved.",
+    match = ["vercel deploy --prod"],
+)
+
+prefix_rule(
+    pattern = ["vercel", "--prod"],
+    decision = "prompt",
+    justification = "Production deployments must be explicitly approved.",
+    match = ["vercel --prod"],
+)
+
+prefix_rule(
+    pattern = ["npx", "vercel", ["--prod", "deploy"]],
+    decision = "prompt",
+    justification = "Production-capable Vercel commands require explicit review.",
+    match = ["npx vercel --prod", "npx vercel deploy --prod"],
+)
+
+prefix_rule(
+    pattern = ["gh", "pr", "merge"],
+    decision = "prompt",
+    justification = "Merging a pull request is a release decision and requires explicit approval.",
+    match = ["gh pr merge 12", "gh pr merge 12 --squash"],
+)
+
+prefix_rule(
+    pattern = ["gh", "repo", "delete"],
+    decision = "forbidden",
+    justification = "Repository deletion must only be performed manually by the owner.",
+    match = ["gh repo delete DevWeb13/preuve90-qwik"],
+)
+
+prefix_rule(
+    pattern = ["npm", "publish"],
+    decision = "forbidden",
+    justification = "This private application is not an npm package and must not be published.",
+    match = ["npm publish", "npm publish --access public"],
+)
