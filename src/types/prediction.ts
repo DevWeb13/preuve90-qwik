@@ -1,0 +1,93 @@
+export type PredictionSelection = "HOME" | "DRAW" | "AWAY";
+export type SettlementStatus = "WON" | "LOST" | "VOID";
+export type PredictionStatus = SettlementStatus | "PENDING";
+
+export interface Prediction {
+  id: string;
+  publicationDate: string;
+  publishedAt: string;
+  kickoffAt: string;
+  competition: {
+    key: string;
+    name: string;
+    country?: string;
+  };
+  match: {
+    eventId: string;
+    homeTeam: string;
+    awayTeam: string;
+  };
+  selection: PredictionSelection;
+  recordedOdds: string;
+  bookmaker: {
+    key: "betclic_fr";
+    name: "Betclic (FR)";
+    observedAt: string;
+  };
+  virtualStakeCents: 500;
+  reasoning: {
+    summary: string;
+    factors: string[];
+    uncertainty: string;
+  };
+  source: {
+    provider: "the-odds-api";
+    eventId: string;
+  };
+}
+
+export interface Settlement {
+  predictionId: string;
+  settledAt: string;
+  status: SettlementStatus;
+  finalScore: {
+    home: number;
+    away: number;
+  };
+  source: {
+    provider: "the-odds-api";
+    eventId: string;
+  };
+}
+
+export interface PredictionView extends Prediction {
+  settlement?: Settlement;
+  status: PredictionStatus;
+  realizedReturnCents: number | null;
+  netResultCents: number | null;
+}
+
+export interface CumulativePerformancePoint {
+  predictionId: string;
+  publicationDate: string;
+  netResultCents: number;
+}
+
+export interface PredictionStatistics {
+  totalPredictions: number;
+  settledPredictions: number;
+  pendingPredictions: number;
+  wonPredictions: number;
+  lostPredictions: number;
+  voidPredictions: number;
+  totalVirtualStakeCents: number;
+  totalSettledStakeCents: number;
+  totalRealizedReturnCents: number;
+  netResultCents: number;
+  successRate: number | null;
+  roi: number | null;
+  daysSinceFirstPublication: number;
+  statusDistribution: Record<PredictionStatus, number>;
+  cumulativePerformance: CumulativePerformancePoint[];
+}
+
+export interface ContentSnapshot {
+  predictions: PredictionView[];
+  statistics: PredictionStatistics;
+  isDemo: boolean;
+}
+
+export type ContentResult =
+  | { state: "ready"; snapshot: ContentSnapshot }
+  | { state: "empty"; snapshot: ContentSnapshot }
+  | { state: "error"; message: string };
