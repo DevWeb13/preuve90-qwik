@@ -12,6 +12,9 @@ on:
           - odds
           - results
           - all
+  schedule:
+    - cron: "0 0,6,12,18 * * *"
+    - cron: "45 6,18 * * *"
 
 permissions:
   contents: write
@@ -43,11 +46,22 @@ jobs:
         run: npm ci
 
       - name: Test data pipeline
-        run: npm run test:run -- src/lib/odds-pipeline.test.ts
+        run: npm run test:run -- src/lib/odds-pipeline.test.ts src/lib/collection-mode.test.ts
+
+      - name: Resolve collection mode
+        id: collection-mode
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_INPUT_MODE: ${{ inputs.mode }}
+        run: |
+          COLLECTION_MODE="$(node scripts/odds/resolve-collection-mode.mjs "$EVENT_NAME" "$EVENT_SCHEDULE" "$MANUAL_INPUT_MODE")"
+          echo "Mode de collecte résolu : $COLLECTION_MODE"
+          echo "mode=$COLLECTION_MODE" >> "$GITHUB_OUTPUT"
 
       - name: Collect requested data
         env:
-          COLLECTION_MODE: ${{ inputs.mode }}
+          COLLECTION_MODE: ${{ steps.collection-mode.outputs.mode }}
           SNAPSHOT_OUTPUT: ${{ runner.temp }}/preuve90-snapshots
           THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
         run: node scripts/odds/run-pipeline.mjs --mode "$COLLECTION_MODE" --output "$SNAPSHOT_OUTPUT"
@@ -59,7 +73,7 @@ jobs:
 
       - name: Publish automation-data branch
         env:
-          COLLECTION_MODE: ${{ inputs.mode }}
+          COLLECTION_MODE: ${{ steps.collection-mode.outputs.mode }}
           SNAPSHOT_OUTPUT: ${{ runner.temp }}/preuve90-snapshots
         run: |
           git fetch origin automation-data || true

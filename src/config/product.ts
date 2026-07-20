@@ -5,6 +5,7 @@ export const PRODUCT_CONFIG = {
   market: productContract.market as "h2h",
   minimumLeadMinutes: productContract.minimumLeadMinutes,
   maximumLeadHours: productContract.maximumLeadHours,
+  maximumSnapshotAgeMinutes: productContract.maximumSnapshotAgeMinutes,
   maximumPublishedPerScan: productContract.maximumPublishedPerScan,
   maximumUpcomingEvents: productContract.maximumUpcomingEvents,
   timezone: "Europe/Paris",

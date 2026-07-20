@@ -1,4 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { demoPredictions } from "~/content/demo/predictions";
+import { demoSettlements } from "~/content/demo/settlements";
 import { assemblePredictions } from "./content";
 import { calendarDayNumber, differenceInCalendarDays, getDateKeyInTimeZone } from "./calendar";
 import {
@@ -48,7 +50,12 @@ function prediction(overrides: Partial<Prediction> = {}): Prediction {
       factors: ["Facteur test"],
       uncertainty: "Incertitude test",
     },
-    source: { provider: "the-odds-api", eventId: "event-1" },
+    source: {
+      provider: "the-odds-api",
+      eventId: "event-1",
+      snapshotGeneratedAt: "2026-01-02T07:50:00Z",
+      snapshotSha: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
     ...overrides,
   };
 }
@@ -85,7 +92,16 @@ function sameDayPrediction(index: number): Prediction {
       ],
     },
     selection: { name: `Participant A ${index}` },
-    source: { provider: "the-odds-api", eventId },
+    bookmaker: {
+      ...prediction().bookmaker,
+      observedAt: `2026-01-02T${String(7 + index).padStart(2, "0")}:55:00Z`,
+    },
+    source: {
+      provider: "the-odds-api",
+      eventId,
+      snapshotGeneratedAt: `2026-01-02T${String(7 + index).padStart(2, "0")}:50:00Z`,
+      snapshotSha: String(index + 1).repeat(40),
+    },
   });
 }
 
@@ -143,7 +159,12 @@ describe("contenu multisport", () => {
       selection: { name: "Knicks" },
       recordedOdds: "2.20",
       reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 4800 },
-      source: { provider: "the-odds-api", eventId: "basket-event" },
+      source: {
+        provider: "the-odds-api",
+        eventId: "basket-event",
+        snapshotGeneratedAt: "2026-01-02T07:50:00Z",
+        snapshotSha: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      },
     });
     expect(assemblePredictions([basket], [
       settlement({
@@ -171,7 +192,12 @@ describe("contenu multisport", () => {
       selection: { name: "Draw" },
       recordedOdds: "3.40",
       reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 3200 },
-      source: { provider: "the-odds-api", eventId: "football-event" },
+      source: {
+        provider: "the-odds-api",
+        eventId: "football-event",
+        snapshotGeneratedAt: "2026-01-02T07:50:00Z",
+        snapshotSha: "cccccccccccccccccccccccccccccccccccccccc",
+      },
     });
     expect(assemblePredictions([football], [])).toHaveLength(1);
   });
@@ -207,10 +233,70 @@ describe("contenu multisport", () => {
     ).toThrow("strictement positive");
   });
 
-  it("rejette une publication au début ou après l’événement", () => {
+  it("impose snapshotGeneratedAt <= observedAt <= publishedAt < startsAt", () => {
+    expect(() =>
+      assemblePredictions(
+        [
+          prediction({
+            source: {
+              ...prediction().source,
+              snapshotGeneratedAt: "2026-01-02T07:56:00Z",
+            },
+          }),
+        ],
+        [],
+      ),
+    ).toThrow("génération du snapshot");
+    expect(() =>
+      assemblePredictions(
+        [
+          prediction({
+            bookmaker: { ...prediction().bookmaker, observedAt: "2026-01-02T08:01:00Z" },
+          }),
+        ],
+        [],
+      ),
+    ).toThrow("observation");
     expect(() => assemblePredictions([{ ...prediction(), publishedAt: prediction().startsAt }], [])).toThrow(
       "précéder",
     );
+  });
+
+  it.each([
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    " aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  ])("rejette le snapshotSha invalide %s", (snapshotSha) => {
+    expect(() =>
+      assemblePredictions(
+        [prediction({ source: { ...prediction().source, snapshotSha } })],
+        [],
+      ),
+    ).toThrow("blob SHA GitHub");
+  });
+
+  it("rejette un timestamp de snapshot impossible et un eventId source incohérent", () => {
+    expect(() =>
+      assemblePredictions(
+        [
+          prediction({
+            source: {
+              ...prediction().source,
+              snapshotGeneratedAt: "2026-02-30T07:50:00Z",
+            },
+          }),
+        ],
+        [],
+      ),
+    ).toThrow("timestamp est invalide");
+    expect(() =>
+      assemblePredictions(
+        [prediction({ source: { ...prediction().source, eventId: "another-event" } })],
+        [],
+      ),
+    ).toThrow("correspondre à l’événement");
   });
 
   it("accepte des règlements gagné, perdu et VOID cohérents", () => {
@@ -242,12 +328,29 @@ describe("contenu multisport", () => {
     ).toThrow("VOID exige");
   });
 
-  it("rejette un doublon d’événement mais accepte plusieurs publications le même jour", () => {
+  it("rejette un doublon d’événement mais accepte plusieurs snapshots le même jour", () => {
     expect(assemblePredictions([sameDayPrediction(0), sameDayPrediction(1)], [])).toHaveLength(2);
     const duplicate = { ...sameDayPrediction(1), event: sameDayPrediction(0).event, source: sameDayPrediction(0).source };
     expect(() => assemblePredictions([sameDayPrediction(0), duplicate], [])).toThrow(
       "Événement publié plusieurs fois",
     );
+  });
+
+  it("rejette deux événements différents issus du même snapshot", () => {
+    const first = sameDayPrediction(0);
+    const second = sameDayPrediction(1);
+    const duplicateSnapshot = {
+      ...second,
+      source: { ...second.source, snapshotSha: first.source.snapshotSha },
+    };
+    expect(() => assemblePredictions([first, duplicateSnapshot], [])).toThrow(
+      `Snapshot déjà utilisé pour une publication : ${first.source.snapshotSha}`,
+    );
+  });
+
+  it("valide les démonstrations avec des SHA distincts", () => {
+    expect(assemblePredictions(demoPredictions, demoSettlements)).toHaveLength(5);
+    expect(new Set(demoPredictions.map((item) => item.source.snapshotSha)).size).toBe(5);
   });
 
   it("trie les jours et événements de manière déterministe", () => {
@@ -294,6 +397,19 @@ describe("statistiques multisports", () => {
     expect(stats.roi).toBe(-0.075);
     expect(stats.averageEstimatedProbabilityBps).toBe(5800);
     expect(stats.averageEstimatedValueBps).toBe(730);
+  });
+
+  it("ne change pas les statistiques lorsque seule la provenance change", () => {
+    const original = prediction();
+    const withAnotherSnapshot = prediction({
+      source: {
+        ...original.source,
+        snapshotSha: "dddddddddddddddddddddddddddddddddddddddd",
+      },
+    });
+    expect(calculateStatistics([createPredictionView(original)])).toEqual(
+      calculateStatistics([createPredictionView(withAnotherSnapshot)]),
+    );
   });
 });
 

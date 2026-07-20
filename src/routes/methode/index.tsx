@@ -22,7 +22,7 @@ const STEPS = [
   ],
   [
     "Publication préalable",
-    "La publication et la cote doivent être horodatées avant le début de l’événement. Toute publication tardive est rejetée.",
+    `Le snapshot doit dater d’au plus ${PRODUCT_CONFIG.maximumSnapshotAgeMinutes} minutes et la fenêtre est revérifiée à l’analyse. La génération du snapshot précède l’observation, qui précède ou égale la publication, elle-même strictement antérieure au début.`,
   ],
   [
     "Référence fixe",
@@ -46,7 +46,7 @@ const STEPS = [
   ],
   [
     "Immutabilité",
-    "Une publication rejoint Git comme un fait versionné. Elle n’est jamais supprimée, antidatée ou réécrite après le résultat.",
+    "Une publication rejoint Git avec le blob SHA exact du snapshot de cotes utilisé. Un snapshot ne produit qu’un pronostic, jamais supprimé, antidaté ou réécrit après le résultat.",
   ],
   [
     "Règlement séparé",
@@ -62,7 +62,7 @@ const STEPS = [
   ],
   [
     "Budget de source",
-    `The Odds API est limitée à ${PRODUCT_CONFIG.monthlyApiCreditLimit} crédits mensuels. Le plan futur prévoit quatre scans quotidiens, environ 120 crédits mensuels pour les cotes, sans garantir le coût réel. Les résultats ne sont demandés que pour les pronostics non réglés.`,
+    `The Odds API est limitée à ${PRODUCT_CONFIG.monthlyApiCreditLimit} crédits mensuels. Quatre scans de cotes et deux collectes de résultats sont planifiés chaque jour, sans garantie de coût réel. Aucun appel de résultats n’est effectué sans pronostic non réglé.`,
   ],
   [
     "Aucun pari réel",

@@ -42,7 +42,13 @@ Sont exclus les événements commencés, trop proches ou trop lointains, sans Be
 
 ## Publication immuable
 
-Chaque pronostic conserve définitivement : identifiant, date et heure de publication, heure de début, sport, participants, identifiant externe, marché et issues exactes, sélection exacte, cote, bookmaker et observation, mise virtuelle, probabilité estimée en points de base, justification, facteurs, incertitude et source.
+Chaque pronostic conserve définitivement : identifiant, date et heure de publication, heure de début, sport, participants, identifiant externe, marché et issues exactes, sélection exacte, cote, bookmaker et observation, mise virtuelle, probabilité estimée en points de base, justification, facteurs, incertitude et source. La source recopie le `generatedAt` exact du snapshot et le blob SHA GitHub exact de `snapshots/odds.json` sur `automation-data`. Un même blob SHA ne peut produire qu’un pronostic.
+
+La chronologie est déterministe :
+
+```text
+snapshotGeneratedAt <= bookmaker.observedAt <= publishedAt < startsAt
+```
 
 La sélection doit correspondre exactement à une issue et `recordedOdds` à sa cote. La probabilité estimée est comprise entre 1 et 9 999 points de base et doit produire une espérance strictement positive :
 
@@ -73,13 +79,13 @@ Les vues conservent le nombre de pronostics, chaque statut, mises, retours, rés
 
 La V1 n’a ni base de données ni route API d’administration. Publications et règlements sont des JSON distincts, immuables et versionnés dans Git, chargés au build avec `import.meta.glob`. Les fixtures TypeScript sont réservées au développement et ne remplacent jamais l’état vide de production.
 
-Les futurs robots travaillent sur une branche dédiée, ajoutent uniquement un nouveau JSON, exécutent les validations et ne modifient jamais un fait existant. Les opérations sont idempotentes.
+Les tâches ChatGPT sont créées manuellement hors du dépôt avec le plugin GitHub et des permissions configurées manuellement. Lorsqu’elles disposent des droits nécessaires, elles travaillent sur une branche dédiée, ajoutent uniquement de nouveaux JSON, exécutent les validations et proposent une pull request vers `master`. Elles ne poussent jamais directement sur `master`, ne fusionnent jamais et ne modifient jamais un fait existant. Les opérations sont idempotentes et la fusion reste humaine.
 
 ## Source et budget
 
-Le pipeline GitHub Actions interroge The Odds API sans exposer la clé à l’application ou aux futures tâches ChatGPT. Le forfait absolu est de 500 crédits, avec arrêt opérationnel à 450 utilisés ou 50 restants.
+Le pipeline GitHub Actions interroge The Odds API sans exposer la clé à l’application ou aux tâches ChatGPT externes. Le forfait absolu est de 500 crédits, avec arrêt opérationnel à 450 utilisés ou 50 restants.
 
-Le plan futur, non activé, prévoit quatre scans de cotes par jour, au maximum un crédit par scan non vide, soit environ 120 crédits mensuels. Ce chiffre est une estimation et non une promesse de coût exact. Les résultats ne sont demandés que lorsqu’il existe des pronostics non réglés.
+Le workflow planifie quatre scans de cotes par jour et deux collectes de résultats par jour, aux horaires UTC documentés dans le pipeline. Un snapshot de cotes n’est exploitable par la tâche de publication que pendant 150 minutes après son `generatedAt`, sans dispenser de revérifier la fenêtre de 30 minutes à 8 heures. Les résultats ne déclenchent aucun appel fournisseur lorsqu’il n’existe aucun pronostic non réglé. Le coût reste mesuré et n’est jamais présenté comme garanti.
 
 ## Avertissements obligatoires
 

@@ -43,6 +43,8 @@ export interface Prediction {
   source: {
     provider: "the-odds-api";
     eventId: string;
+    snapshotGeneratedAt: string;
+    snapshotSha: string;
   };
 }
 
