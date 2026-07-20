@@ -1,6 +1,6 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
-import { isAllowedSportKey } from "./config.mjs";
+import { isValidSportKey } from "./config.mjs";
 import { normalizeScoreEvents } from "./normalize.mjs";
 
 function requiredString(value, pathLabel) {
@@ -59,26 +59,26 @@ export function findPendingPredictions(predictions, settlements, now) {
     const prefix = `predictions[${index}]`;
     const id = requiredString(prediction?.id, `${prefix}.id`);
     if (settledPredictionIds.has(id)) return;
-    const sportKey = requiredString(prediction?.competition?.key, `${prefix}.competition.key`);
-    if (!isAllowedSportKey(sportKey)) return;
-    const kickoffAt = canonicalTimestamp(prediction?.kickoffAt, `${prefix}.kickoffAt`);
-    if (Date.parse(kickoffAt) > Date.parse(now)) return;
-    const eventId = requiredString(prediction?.match?.eventId, `${prefix}.match.eventId`);
-    if (eventIds.has(eventId)) throw new Error(`Identifiant de match dupliqué : ${eventId}.`);
+    const sportKey = requiredString(prediction?.sport?.key, `${prefix}.sport.key`);
+    if (!isValidSportKey(sportKey)) throw new Error(`${prefix}.sport.key est invalide.`);
+    const startsAt = canonicalTimestamp(prediction?.startsAt, `${prefix}.startsAt`);
+    if (Date.parse(startsAt) > Date.parse(now)) return;
+    const eventId = requiredString(prediction?.event?.eventId, `${prefix}.event.eventId`);
+    if (eventIds.has(eventId)) throw new Error(`Identifiant d’événement dupliqué : ${eventId}.`);
     eventIds.add(eventId);
     pending.push({
       predictionId: id,
       eventId,
       sportKey,
-      homeTeam: requiredString(prediction?.match?.homeTeam, `${prefix}.match.homeTeam`),
-      awayTeam: requiredString(prediction?.match?.awayTeam, `${prefix}.match.awayTeam`),
-      kickoffAt,
+      participantA: requiredString(prediction?.event?.participantA, `${prefix}.event.participantA`),
+      participantB: requiredString(prediction?.event?.participantB, `${prefix}.event.participantB`),
+      startsAt,
     });
   });
 
   return pending.sort(
     (left, right) =>
-      left.kickoffAt.localeCompare(right.kickoffAt) || left.eventId.localeCompare(right.eventId),
+      left.startsAt.localeCompare(right.startsAt) || left.eventId.localeCompare(right.eventId),
   );
 }
 
@@ -89,11 +89,11 @@ export async function collectResults(options) {
     predictions && settlements ? { predictions, settlements } : await loadContentFacts(contentRoot);
   const pending = findPendingPredictions(facts.predictions, facts.settlements, generatedAt);
   const startingRequests = client.getStats().requests;
-  const competitions = [...new Set(pending.map((prediction) => prediction.sportKey))].sort();
+  const sportKeys = [...new Set(pending.map((prediction) => prediction.sportKey))].sort();
   const events = [];
   let eventsReceived = 0;
 
-  for (const sportKey of competitions) {
+  for (const sportKey of sportKeys) {
     const targets = pending.filter((prediction) => prediction.sportKey === sportKey);
     const response = await client.getScores(
       sportKey,
@@ -105,14 +105,13 @@ export async function collectResults(options) {
 
   events.sort(
     (left, right) =>
-      left.kickoffAt.localeCompare(right.kickoffAt) || left.eventId.localeCompare(right.eventId),
+      left.startsAt.localeCompare(right.startsAt) || left.eventId.localeCompare(right.eventId),
   );
   const stats = client.getStats();
 
   return {
-    snapshot: { schemaVersion: 1, generatedAt, events },
+    snapshot: { schemaVersion: 2, generatedAt, events },
     metadata: {
-      competitions,
       requests: stats.requests - startingRequests,
       eventsReceived,
       eventsPublished: events.length,

@@ -1,4 +1,4 @@
-import { API_BASE_URL, BOOKMAKER, ODDS_QUERY, isAllowedSportKey } from "./config.mjs";
+import { API_BASE_URL, BOOKMAKER, ODDS_QUERY, isValidSportKey } from "./config.mjs";
 import { createApiBudget } from "./budget.mjs";
 
 export class OddsApiError extends Error {
@@ -14,14 +14,6 @@ function isRecord(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
-export function formatApiTimestamp(value) {
-  const parsed = new Date(value);
-  if (Number.isNaN(parsed.getTime())) {
-    throw new OddsApiError("Le timestamp destiné à The Odds API est invalide.");
-  }
-  return parsed.toISOString().replace(/\.\d{3}Z$/, "Z");
-}
-
 export function requireApiKey(environment = process.env) {
   const apiKey = environment.THE_ODDS_API_KEY;
   if (typeof apiKey !== "string" || apiKey.trim() === "") {
@@ -35,9 +27,9 @@ function canonicalRequestKey(pathname, parameters) {
   return `${pathname}?${new URLSearchParams(entries).toString()}`;
 }
 
-function assertAllowedCompetition(sportKey) {
-  if (!isAllowedSportKey(sportKey)) {
-    throw new OddsApiError(`Compétition The Odds API non autorisée : ${sportKey}.`);
+function assertValidSport(sportKey) {
+  if (!isValidSportKey(sportKey)) {
+    throw new OddsApiError(`Clé de sport The Odds API invalide : ${sportKey}.`);
   }
 }
 
@@ -117,32 +109,12 @@ export function createOddsApiClient({
   }
 
   return {
-    async getActiveSports() {
-      const response = await request("sports", {}, { paid: false });
-      if (
-        !Array.isArray(response.data) ||
-        response.data.some(
-          (sport) =>
-            !isRecord(sport) || typeof sport.key !== "string" || typeof sport.active !== "boolean",
-        )
-      ) {
-        throw new OddsApiError("La réponse des sports actifs The Odds API est invalide.");
-      }
-      return {
-        ...response,
-        data: response.data.filter((sport) => sport.active).map((sport) => sport.key),
-      };
-    },
-
-    async getOdds(sportKey, commenceTimeFrom) {
-      assertAllowedCompetition(sportKey);
-      const response = await request(`sports/${sportKey}/odds`, {
+    async getUpcomingOdds() {
+      const response = await request("sports/upcoming/odds", {
         bookmakers: BOOKMAKER.key,
-        commenceTimeFrom: formatApiTimestamp(commenceTimeFrom),
         dateFormat: ODDS_QUERY.dateFormat,
         markets: ODDS_QUERY.market,
         oddsFormat: ODDS_QUERY.oddsFormat,
-        regions: ODDS_QUERY.region,
       });
       if (!Array.isArray(response.data)) {
         throw new OddsApiError("La réponse de cotes The Odds API est invalide.");
@@ -151,7 +123,7 @@ export function createOddsApiClient({
     },
 
     async getScores(sportKey, eventIds) {
-      assertAllowedCompetition(sportKey);
+      assertValidSport(sportKey);
       const uniqueEventIds = [...new Set(eventIds)].sort();
       if (uniqueEventIds.length === 0) {
         return { data: [], observedAt: clock().toISOString(), quota: budget.getQuota() };

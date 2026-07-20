@@ -1,4 +1,4 @@
-name: Collect football data
+name: Collect Betclic data
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: collect-football-data
+  group: collect-betclic-data
   cancel-in-progress: false
 
 jobs:
@@ -97,5 +97,5 @@ jobs:
             echo "Aucune modification de snapshot à publier."
             exit 0
           fi
-          git commit -m "chore(data): update football snapshots"
+          git commit -m "chore(data): update Betclic snapshots"
           git push origin automation-data
