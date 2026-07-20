@@ -3,7 +3,7 @@
     "id": "event-ligue-1-valid",
     "sport_key": "soccer_france_ligue_one",
     "sport_title": "Ligue 1 - France",
-    "commence_time": "2026-07-21T18:45:00Z",
+    "commence_time": "2026-07-20T12:00:00Z",
     "home_team": "Paris FC",
     "away_team": "Lyon FC",
     "bookmakers": [

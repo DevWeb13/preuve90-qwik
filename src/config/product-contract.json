@@ -1,0 +1,12 @@
+{
+  "minimumLeadMinutes": 30,
+  "maximumLeadHours": 8,
+  "maximumPublishedPerScan": 1,
+  "maximumUpcomingEvents": 8,
+  "virtualStakeCents": 500,
+  "bookmaker": {
+    "key": "betclic_fr",
+    "name": "Betclic (FR)"
+  },
+  "market": "h2h"
+}

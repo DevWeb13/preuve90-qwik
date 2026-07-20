@@ -1,32 +1,45 @@
-# Pipeline de données football
+# Pipeline de données Betclic multisport
 
 ## Architecture
-
-Le pipeline serveur minimal suit ce flux :
 
 ```text
 The Odds API → GitHub Action manuelle → branche automation-data → snapshots JSON nettoyés
 ```
 
-Il n’ajoute ni base de données, ni route API Qwik, ni endpoint d’administration. Le secret reste dans GitHub Actions. Les futures tâches ChatGPT, actuellement inactives, ne recevront que les snapshots nettoyés.
+Le pipeline n’ajoute ni base de données, ni route API Qwik, ni endpoint d’administration. Le secret reste dans GitHub Actions. Les futures tâches ChatGPT, inactives, ne reçoivent que les snapshots nettoyés.
 
-## Périmètre
+## Scan des cotes
 
-Les seules compétitions configurées sont :
+La collecte utilise exactement :
 
-- Ligue 1 : `soccer_france_ligue_one` ;
-- Premier League : `soccer_epl` ;
-- Ligue des champions UEFA : `soccer_uefa_champs_league`.
+```text
+GET /v4/sports/upcoming/odds
+bookmakers=betclic_fr
+markets=h2h
+oddsFormat=decimal
+dateFormat=iso
+```
 
-La collecte de cotes utilise uniquement le marché `h2h`, la région `fr`, le format décimal et le bookmaker `betclic_fr` — Betclic (FR). Un événement sans les trois issues domicile, nul et extérieur est exclu.
+Le paramètre `bookmakers` suffit : aucune région ni autre bookmaker n’est demandé. Aucun `commenceTimeFrom` ou `commenceTimeTo` n’est transmis avec la clé `upcoming`, et l’ancien appel préalable à `/sports` a été supprimé.
 
-Avant les appels de cotes payants, le pipeline appelle gratuitement `/v4/sports` afin de ne conserver que les compétitions configurées actuellement actives. Une compétition hors saison est ignorée normalement et apparaît dans `metadata.json` sous `inactiveCompetitions`. Si aucune compétition n’est active, la collecte produit un snapshot vide valide sans appeler `/odds` ; zéro événement n’est donc pas un échec.
+`upcoming` fournit les événements en direct et les 8 prochains événements tous sports confondus. Preuve90 ne prétend donc pas analyser tout Betclic. Le filtrage local exclut le direct et conserve uniquement :
 
-Les scores sont demandés uniquement pour les compétitions de pronostics réels non réglés. Un résultat incomplet ou ambigu reste explicitement non terminé et n’est jamais converti en `WON`, `LOST` ou `VOID`.
+```text
+observedAt + 30 minutes <= startsAt
+startsAt <= observedAt + 8 heures
+```
 
-## Fichiers produits
+Un événement doit avoir exactement une offre Betclic `h2h`, deux ou trois issues uniques et valides, ainsi que les deux participants identifiables. Les noms d’issues et les clés/titres de sport proviennent de l’API sans conversion `HOME`, `DRAW` ou `AWAY`. Le tri est `startsAt`, puis `eventId`.
 
-La branche technique mutable `automation-data` contient les derniers fichiers :
+## Résultats
+
+Le mode résultats lit uniquement les pronostics multisports réels non réglés et déjà commencés. Il regroupe les identifiants par `sport.key`, n’appelle aucun endpoint si la liste est vide et demande seulement les événements utiles à `/v4/sports/{sportKey}/scores`.
+
+Le snapshot conserve des scores génériques `{ name, value }` et un état technique `complete`, `incomplete` ou `ambiguous`. Il ne produit jamais `WON`, `LOST` ou `VOID` et n’invente pas d’issue gagnante. Une source officielle pourra compléter ultérieurement un sport non couvert ou un cas réglementaire incertain.
+
+## Snapshots version 2
+
+La branche technique mutable `automation-data` contient :
 
 ```text
 snapshots/odds.json
@@ -34,17 +47,27 @@ snapshots/results.json
 snapshots/metadata.json
 ```
 
-Les fichiers ont un schéma versionné, des timestamps UTC avec millisecondes, un tri déterministe et uniquement les champs nécessaires. Les paramètres temporels envoyés à The Odds API sont, eux, normalisés à la seconde au format `YYYY-MM-DDTHH:mm:ssZ`. Les cotes sont des chaînes décimales. Aucun secret, URL d’appel ou en-tête sensible n’est persisté. Une collecte partielle conserve le dernier snapshot de l’autre mode ; lors de la première initialisation, un snapshot vide valide est créé.
+`odds.json` contient `schemaVersion`, `generatedAt`, le bookmaker, la fenêtre et les événements normalisés avec sport, participants, début, observation et marché `h2h`. `results.json` contient les résultats techniques génériques. `metadata.json` contient le mode, `sourceMode`, la couverture limitée à 8 événements, la possibilité de live en amont, la fenêtre, les compteurs et le quota.
+
+Les trois fichiers ont des timestamps UTC millisecondés, un schéma strict, un tri déterministe et aucun champ brut inutile. Aucun secret, URL API ou en-tête sensible n’est persisté. Une collecte partielle remplace uniquement le snapshot du mode demandé dans le workflow ; l’autre mode est préservé. Lors de la première initialisation, un snapshot vide valide est disponible.
 
 ## Budget API
 
-La limite absolue est de 500 crédits par mois, avec une marge minimale de 50 et une cible opérationnelle inférieure à 450 crédits utilisés. Le client lit `x-requests-used`, `x-requests-remaining` et `x-requests-last`. Une valeur absente ou invalide reste `null` et produit un avertissement. Dès que la marge est atteinte, aucun nouvel appel n’est lancé. Les requêtes identiques sont dédupliquées pendant une exécution.
+La limite absolue est de 500 crédits par mois. Le garde-fou refuse un nouvel appel dès 450 crédits utilisés ou 50 crédits restants. Le client lit `x-requests-used`, `x-requests-remaining` et `x-requests-last`; une valeur absente reste `null` avec avertissement. Les requêtes identiques sont dédupliquées pendant une exécution.
 
-Chaque compétition active coûte normalement un crédit pour les cotes (`h2h`, un bookmaker) et deux crédits pour les scores demandés avec `daysFrom=3`. L’appel `/sports` utilisé pour détecter les compétitions actives n’est pas compté comme une requête payante dans les métadonnées. Les appels de résultats utilisent `eventIds` et ne concernent que les compétitions utiles.
+Plan futur, documenté mais non activé :
 
-## Utilisation locale
+```text
+4 scans de cotes par jour
+1 crédit maximum par scan non vide
+environ 120 crédits par mois
+```
 
-Le secret serveur requis est `THE_ODDS_API_KEY`. Ne jamais le préfixer par `PUBLIC_`, l’afficher ou le committer.
+Le coût réel dépend de la tarification et des réponses du fournisseur ; il n’est pas garanti. Les vérifications de résultats sont déclenchées uniquement lorsqu’il existe des pronostics non réglés et restent soumises au garde-fou global.
+
+## Utilisation locale et GitHub
+
+Le secret serveur est `THE_ODDS_API_KEY`. Ne jamais le préfixer par `PUBLIC_`, l’afficher ou le committer.
 
 ```bash
 npm run odds:collect -- --output ./tmp/snapshots
@@ -53,29 +76,4 @@ npm run odds:pipeline -- --mode all --output ./tmp/snapshots
 npm run odds:validate -- --output ./tmp/snapshots
 ```
 
-Les tests n’utilisent pas de vraie clé ni le réseau :
-
-```bash
-npm run test:run -- src/lib/odds-pipeline.test.ts
-```
-
-## Déclenchement GitHub
-
-Dans l’onglet Actions, sélectionner « Collect football data », lancer « Run workflow » et choisir `odds`, `results` ou `all`. Le workflow part de `master`, teste le pipeline, collecte dans un dossier temporaire, valide les fichiers puis crée ou met à jour uniquement `automation-data`. Il ne crée aucune pull request et ne pousse jamais sur `master`.
-
-Le secret GitHub `THE_ODDS_API_KEY` doit être configuré par le propriétaire. Le workflow ne le crée pas et ne l’affiche pas.
-
-## Limites connues
-
-- Le endpoint courant des scores remonte au maximum trois jours avec `daysFrom=3`.
-- Une compétition configurée mais hors saison est ignorée après la vérification `/sports`.
-- Betclic peut être temporairement absent ; l’événement est alors exclu.
-- Les règles de règlement des matchs reportés, abandonnés ou interrompus restent hors de ce pipeline.
-- Aucune collecte réelle n’est garantie sans secret GitHub valide.
-- Aucun cron ni tâche ChatGPT/Codex n’est actif au lancement.
-
-## Références officielles
-
-- [Documentation API v4](https://the-odds-api.com/liveapi/guides/v4/) : endpoints, paramètres, coûts et en-têtes de quota.
-- [Clés des sports](https://the-odds-api.com/sports-odds-data/sports-apis.html) : compétitions et prise en charge des scores.
-- [Clés des bookmakers](https://the-odds-api.com/sports-odds-data/bookmaker-apis.html) : région `fr` et clé `betclic_fr`.
+Les tests utilisent uniquement des réponses simulées. Dans GitHub Actions, lancer manuellement « Collect Betclic data » avec `odds`, `results` ou `all`. Le workflow part de `master`, teste, collecte dans un dossier temporaire, valide, puis met à jour uniquement `automation-data`. Il ne crée aucune pull request, ne fusionne rien et ne pousse jamais sur `master`. Aucun cron n’est actif.

@@ -2,7 +2,7 @@
 
 ## Mission
 
-Preuve90 est une expérience publique et transparente qui mesure la capacité d'une IA à produire des pronostics de football avant les matchs.
+Preuve90 est une expérience publique et transparente qui mesure la capacité d'une IA à rechercher une valeur estimée parmi des événements sportifs avant leur début.
 
 Le produit n'est pas un service de paris, ne place aucun pari réel et ne doit jamais promettre de gain.
 
@@ -16,24 +16,25 @@ Avant toute modification significative, lire :
 
 Ces règles ne peuvent pas être assouplies sans décision explicite du propriétaire du projet :
 
-- football uniquement ;
-- marché simple 1N2 uniquement ;
-- temps réglementaire uniquement ;
-- zéro, un ou plusieurs pronostics peuvent être publiés le même jour, sans plafond quotidien codé en dur ;
+- tous sports et tous pays parmi les événements effectivement retournés par The Odds API ;
+- marché simple principal `h2h` uniquement, avec deux ou trois issues Betclic exactes ;
+- zéro ou un pronostic peut être publié par scan, sans plafond quotidien codé en dur ;
 - chaque pronostic doit rester pertinent et aucun ne doit être créé uniquement pour augmenter le volume ;
-- un identifiant interne et un match ne peuvent apparaître qu’une seule fois ;
+- un identifiant interne et un événement ne peuvent apparaître qu’une seule fois ;
 - mise virtuelle fixe de 5 EUR ;
 - aucun argent réel ;
 - aucun compte joueur ;
-- aucun pari combiné ou hippique ;
+- aucun pari combiné, en direct, handicap, total, score exact ou pari joueur ;
 - aucun lien commercial vers un bookmaker au lancement ;
 - aucune promesse de gain ou formulation laissant entendre un rendement futur garanti ;
 - bookmaker français de référence fixe Betclic (FR), clé `betclic_fr`, clairement affiché ;
-- cote, bookmaker et horodatage enregistrés avant le début du match ;
+- cote, issues, bookmaker et horodatage enregistrés avant le début de l’événement ;
 - une cote publiée est immuable ;
 - un pronostic publié n'est jamais supprimé, antidaté ou réécrit après le résultat ;
 - le règlement d'un pronostic est ajouté comme un fait distinct et traçable ;
 - les données manquantes ne doivent jamais être inventées.
+- les probabilités et espérances sont toujours présentées comme des estimations de l’IA, jamais comme une garantie ;
+- la formulation autorisée est « meilleur candidat parmi les prochains événements analysés », jamais « meilleur pari absolu ».
 
 ## Stack et conventions
 

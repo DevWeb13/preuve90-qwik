@@ -1,17 +1,23 @@
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
+const PRODUCT_CONTRACT = require("../../src/config/product-contract.json");
+
 export const API_BASE_URL = "https://api.the-odds-api.com/v4/";
 
-export const COMPETITIONS = Object.freeze([
-  Object.freeze({ key: "soccer_france_ligue_one", name: "Ligue 1" }),
-  Object.freeze({ key: "soccer_epl", name: "Premier League" }),
-  Object.freeze({ key: "soccer_uefa_champs_league", name: "Ligue des champions UEFA" }),
-]);
-
-export const BOOKMAKER = Object.freeze({ key: "betclic_fr", name: "Betclic (FR)" });
+export const BOOKMAKER = Object.freeze({ ...PRODUCT_CONTRACT.bookmaker });
 export const ODDS_QUERY = Object.freeze({
-  region: "fr",
-  market: "h2h",
+  market: PRODUCT_CONTRACT.market,
   oddsFormat: "decimal",
   dateFormat: "iso",
+});
+
+export const SCAN_CONFIG = Object.freeze({
+  minimumLeadMinutes: PRODUCT_CONTRACT.minimumLeadMinutes,
+  maximumLeadHours: PRODUCT_CONTRACT.maximumLeadHours,
+  maximumPublishedPerScan: PRODUCT_CONTRACT.maximumPublishedPerScan,
+  maximumUpcomingEvents: PRODUCT_CONTRACT.maximumUpcomingEvents,
+  virtualStakeCents: PRODUCT_CONTRACT.virtualStakeCents,
 });
 
 export const API_BUDGET = Object.freeze({
@@ -26,12 +32,6 @@ export const QUOTA_HEADERS = Object.freeze({
   lastRequestCost: "x-requests-last",
 });
 
-const competitionByKey = new Map(COMPETITIONS.map((competition) => [competition.key, competition]));
-
-export function getCompetition(sportKey) {
-  return competitionByKey.get(sportKey) ?? null;
-}
-
-export function isAllowedSportKey(sportKey) {
-  return competitionByKey.has(sportKey);
+export function isValidSportKey(sportKey) {
+  return typeof sportKey === "string" && /^[a-z0-9_]+$/.test(sportKey);
 }

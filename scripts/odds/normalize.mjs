@@ -1,4 +1,4 @@
-import { BOOKMAKER, getCompetition } from "./config.mjs";
+import { BOOKMAKER, ODDS_QUERY, SCAN_CONFIG, isValidSportKey } from "./config.mjs";
 
 function isRecord(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -17,33 +17,46 @@ function utcTimestamp(value) {
 function decimalOdds(value) {
   if (typeof value !== "number" || !Number.isFinite(value) || value <= 1) return null;
   const raw = String(value);
+  if (!/^\d+(?:\.\d+)?$/.test(raw)) return null;
   if (!raw.includes(".")) return `${raw}.00`;
   const [integer, fraction] = raw.split(".");
   return `${integer}.${fraction.padEnd(2, "0")}`;
 }
 
 function compareEvents(left, right) {
-  return left.kickoffAt.localeCompare(right.kickoffAt) || left.eventId.localeCompare(right.eventId);
+  return left.startsAt.localeCompare(right.startsAt) || left.eventId.localeCompare(right.eventId);
 }
 
-export function normalizeOddsEvents(rawEvents, { sportKey, observedAt }) {
-  const competition = getCompetition(sportKey);
-  if (!competition || !Array.isArray(rawEvents) || !utcTimestamp(observedAt)) return [];
+function isInsideScanWindow(startsAt, observedAt) {
+  const leadMilliseconds = Date.parse(startsAt) - Date.parse(observedAt);
+  return (
+    leadMilliseconds >= SCAN_CONFIG.minimumLeadMinutes * 60_000 &&
+    leadMilliseconds <= SCAN_CONFIG.maximumLeadHours * 60 * 60_000
+  );
+}
+
+export function normalizeOddsEvents(rawEvents, { observedAt }) {
+  const canonicalObservedAt = utcTimestamp(observedAt);
+  if (!Array.isArray(rawEvents) || !canonicalObservedAt) return [];
 
   const normalized = [];
   for (const rawEvent of rawEvents) {
-    if (!isRecord(rawEvent) || rawEvent.sport_key !== sportKey) continue;
+    if (!isRecord(rawEvent) || !isValidSportKey(rawEvent.sport_key)) continue;
     const eventId = nonEmptyString(rawEvent.id);
-    const homeTeam = nonEmptyString(rawEvent.home_team);
-    const awayTeam = nonEmptyString(rawEvent.away_team);
-    const kickoffAt = utcTimestamp(rawEvent.commence_time);
+    const sportKey = nonEmptyString(rawEvent.sport_key);
+    const sportTitle = nonEmptyString(rawEvent.sport_title);
+    const participantA = nonEmptyString(rawEvent.home_team);
+    const participantB = nonEmptyString(rawEvent.away_team);
+    const startsAt = utcTimestamp(rawEvent.commence_time);
     if (
       !eventId ||
-      !homeTeam ||
-      !awayTeam ||
-      homeTeam === awayTeam ||
-      !kickoffAt ||
-      Date.parse(kickoffAt) <= Date.parse(observedAt) ||
+      !sportKey ||
+      !sportTitle ||
+      !participantA ||
+      !participantB ||
+      participantA === participantB ||
+      !startsAt ||
+      !isInsideScanWindow(startsAt, canonicalObservedAt) ||
       !Array.isArray(rawEvent.bookmakers)
     ) {
       continue;
@@ -54,55 +67,60 @@ export function normalizeOddsEvents(rawEvents, { sportKey, observedAt }) {
     );
     if (bookmakers.length !== 1 || !Array.isArray(bookmakers[0].markets)) continue;
     const markets = bookmakers[0].markets.filter(
-      (market) => isRecord(market) && market.key === "h2h",
+      (market) => isRecord(market) && market.key === ODDS_QUERY.market,
     );
     if (markets.length !== 1 || !Array.isArray(markets[0].outcomes)) continue;
-    const outcomes = markets[0].outcomes;
-    if (outcomes.length !== 3 || outcomes.some((outcome) => !isRecord(outcome))) continue;
-
-    const prices = new Map();
-    for (const outcome of outcomes) {
-      const name = nonEmptyString(outcome.name);
-      const price = decimalOdds(outcome.price);
-      if (!name || !price || prices.has(name)) continue;
-      prices.set(name, price);
+    const rawOutcomes = markets[0].outcomes;
+    if (
+      rawOutcomes.length < 2 ||
+      rawOutcomes.length > 3 ||
+      rawOutcomes.some((outcome) => !isRecord(outcome))
+    ) {
+      continue;
     }
-    const home = prices.get(homeTeam);
-    const draw = prices.get("Draw");
-    const away = prices.get(awayTeam);
-    if (!home || !draw || !away || prices.size !== 3) continue;
+
+    const outcomes = [];
+    const outcomeNames = new Set();
+    let invalidOutcome = false;
+    for (const rawOutcome of rawOutcomes) {
+      const name = nonEmptyString(rawOutcome.name);
+      const odds = decimalOdds(rawOutcome.price);
+      if (!name || !odds || outcomeNames.has(name)) {
+        invalidOutcome = true;
+        break;
+      }
+      outcomeNames.add(name);
+      outcomes.push({ name, odds });
+    }
+    if (invalidOutcome || !outcomeNames.has(participantA) || !outcomeNames.has(participantB)) {
+      continue;
+    }
 
     normalized.push({
       eventId,
       sportKey,
-      competitionName: competition.name,
-      homeTeam,
-      awayTeam,
-      kickoffAt,
-      observedAt: new Date(observedAt).toISOString(),
-      odds: { home, draw, away },
+      sportTitle,
+      participantA,
+      participantB,
+      startsAt,
+      observedAt: canonicalObservedAt,
+      market: { key: ODDS_QUERY.market, outcomes },
     });
   }
 
   return normalized.sort(compareEvents);
 }
 
-function parseScore(value) {
-  if (typeof value !== "string" || !/^\d+$/.test(value)) return null;
-  const score = Number(value);
-  return Number.isSafeInteger(score) ? score : null;
-}
-
 function ambiguousResult(target) {
   return {
     eventId: target.eventId,
     sportKey: target.sportKey,
-    homeTeam: target.homeTeam,
-    awayTeam: target.awayTeam,
-    kickoffAt: target.kickoffAt,
+    participantA: target.participantA,
+    participantB: target.participantB,
+    startsAt: target.startsAt,
     completed: false,
     status: "ambiguous",
-    score: null,
+    scores: null,
   };
 }
 
@@ -126,12 +144,12 @@ export function normalizeScoreEvents(rawEvents, targets) {
     }
 
     const rawEvent = matches[0];
-    const kickoffAt = utcTimestamp(rawEvent.commence_time);
+    const startsAt = utcTimestamp(rawEvent.commence_time);
     if (
       rawEvent.sport_key !== target.sportKey ||
-      rawEvent.home_team !== target.homeTeam ||
-      rawEvent.away_team !== target.awayTeam ||
-      kickoffAt !== target.kickoffAt
+      rawEvent.home_team !== target.participantA ||
+      rawEvent.away_team !== target.participantB ||
+      startsAt !== target.startsAt
     ) {
       normalized.push(ambiguousResult(target));
       continue;
@@ -142,17 +160,32 @@ export function normalizeScoreEvents(rawEvents, targets) {
       continue;
     }
 
-    if (!Array.isArray(rawEvent.scores) || rawEvent.scores.length !== 2) {
+    if (!Array.isArray(rawEvent.scores) || rawEvent.scores.length < 2) {
       normalized.push(ambiguousResult(target));
       continue;
     }
-    const scores = new Map();
-    for (const item of rawEvent.scores) {
-      if (!isRecord(item) || typeof item.name !== "string" || scores.has(item.name)) continue;
-      const score = parseScore(item.score);
-      if (score !== null) scores.set(item.name, score);
+    const scores = [];
+    const scoreNames = new Set();
+    let invalidScore = false;
+    for (const rawScore of rawEvent.scores) {
+      if (!isRecord(rawScore)) {
+        invalidScore = true;
+        break;
+      }
+      const name = nonEmptyString(rawScore.name);
+      const value = nonEmptyString(rawScore.score);
+      if (!name || !value || scoreNames.has(name)) {
+        invalidScore = true;
+        break;
+      }
+      scoreNames.add(name);
+      scores.push({ name, value });
     }
-    if (scores.size !== 2 || !scores.has(target.homeTeam) || !scores.has(target.awayTeam)) {
+    if (
+      invalidScore ||
+      !scoreNames.has(target.participantA) ||
+      !scoreNames.has(target.participantB)
+    ) {
       normalized.push(ambiguousResult(target));
       continue;
     }
@@ -160,12 +193,12 @@ export function normalizeScoreEvents(rawEvents, targets) {
     normalized.push({
       eventId: target.eventId,
       sportKey: target.sportKey,
-      homeTeam: target.homeTeam,
-      awayTeam: target.awayTeam,
-      kickoffAt: target.kickoffAt,
+      participantA: target.participantA,
+      participantB: target.participantB,
+      startsAt: target.startsAt,
       completed: true,
       status: "complete",
-      score: { home: scores.get(target.homeTeam), away: scores.get(target.awayTeam) },
+      scores,
     });
   }
 

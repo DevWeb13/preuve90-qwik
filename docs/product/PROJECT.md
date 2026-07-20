@@ -2,166 +2,85 @@
 
 ## Résumé
 
-Preuve90 publie une expérience publique sur la capacité d'une IA à effectuer des prévisions sportives.
+Preuve90 publie une expérience publique sur la capacité d’une IA à rechercher une valeur estimée positive parmi les prochains événements sportifs analysés. Le nom Preuve90 est conservé.
 
-L'application publie avant leur commencement des pronostics sur des matchs de football. Chaque pronostic simule une mise fixe de 5 EUR. Aucun argent réel n'est engagé et aucune interaction avec un bookmaker n'a lieu.
+Chaque publication précède le début de l’événement, porte sur une issue Betclic (FR) exacte du marché principal `h2h` et simule une mise fixe de 5 EUR. Aucun argent réel n’est engagé et aucune interaction avec un bookmaker n’a lieu.
 
 ## Positionnement
 
-Le produit doit être présenté comme une expérience mesurable et auditable, jamais comme une méthode pour gagner de l'argent.
+Le produit est une expérience mesurable et auditable, jamais une méthode pour gagner de l’argent. La formulation correcte est « meilleur candidat parmi les prochains événements analysés ». Preuve90 ne prétend ni analyser tout Betclic, ni trouver un pari sûr, ni battre le bookmaker.
 
-Le ton éditorial doit être factuel, prudent et transparent. Les performances historiques sont affichées sans extrapolation commerciale et sans garantie de performance future.
+Une valeur estimée positive signifie que la probabilité évaluée par l’IA dépasse le seuil nécessaire pour rentabiliser la cote. Cette estimation peut être erronée. L’espérance estimée ne doit jamais être présentée comme un bénéfice réalisé ou garanti.
 
-## Périmètre initial
+## Périmètre
 
-- Football uniquement.
-- Paris simples 1N2 uniquement.
-- Résultat au terme du temps réglementaire uniquement.
-- Zéro, un ou plusieurs pronostics pertinents peuvent être publiés le même jour, sans plafond quotidien arbitraire.
-- Un même match ne peut jamais faire l’objet de plusieurs publications.
-- Aucun pari hippique.
-- Aucun pari combiné.
-- Aucun argent réel.
-- Aucun compte joueur.
-- Aucun lien commercial ou d'affiliation vers un bookmaker au lancement.
-- Aucune promesse de gain.
+- Tous sports et tous pays effectivement retournés par The Odds API `upcoming`.
+- Betclic (FR), clé `betclic_fr`, exclusivement.
+- Paris simples, marché principal `h2h`, exactement deux ou trois issues.
+- Noms d’issues conservés exactement ; aucune conversion en `HOME`, `DRAW` ou `AWAY`.
+- Événements commençant entre 30 minutes et 8 heures après l’observation, bornes incluses.
+- Zéro ou un pronostic par scan ; aucun plafond journalier.
+- Mise virtuelle fixe de 500 centimes.
+- Aucun live, combiné, handicap, total, score exact ou pari joueur.
+- Aucun compte, dépôt, affiliation, lien bookmaker ou argent réel.
+- Aucune promesse de gain ou de rentabilité.
 
-## Sources de données
+The Odds API indique que `upcoming` contient les événements en direct et les 8 prochains événements tous sports confondus. Preuve90 exclut le direct localement et choisit donc uniquement parmi ce sous-ensemble limité.
 
-Les cotes et les résultats sont récupérés avec The Odds API en utilisant uniquement son forfait gratuit de 500 crédits mensuels.
+## Candidature au scan
 
-Betclic (FR), clé technique `betclic_fr`, sert de référence fixe. Pour chaque pronostic, l'application affiche clairement :
+La configuration unique fixe : bookmaker `betclic_fr`, marché `h2h`, mise 500 centimes, avance minimale 30 minutes, avance maximale 8 heures et maximum publié par scan 1.
 
-- le bookmaker de référence réellement interrogé ;
-- la cote observée ;
-- la date et l'heure du relevé ;
-- le fait que cette cote observée ne prouve pas qu'elle aurait été acceptée pour un utilisateur donné.
-
-Cette référence est consignée dans l’ADR-007 et ne peut pas changer opportunément selon les matchs.
-
-## Architecture des faits V1
-
-La V1 ne possède aucune base de données ni route API d’administration. Les publications et règlements sont des fichiers JSON distincts, immuables et versionnés dans Git. Vite les intègre au build avec `import.meta.glob` ; aucun accès au système de fichiers n’a lieu au runtime Vercel Edge.
-
-Les futurs robots ChatGPT travailleront sur une branche dédiée, ajouteront un fichier distinct par fait et soumettront leur proposition à une revue humaine. Ils ne modifieront jamais une publication existante.
-
-En développement uniquement, des fixtures TypeScript déterministes rendent l’interface vérifiable lorsque la collection réelle est vide. Elles sont identifiées par un bandeau et ne remplacent jamais l’état vide de production.
-
-## Enregistrement immuable d'un pronostic
-
-Chaque pronostic publié conserve définitivement :
-
-- un identifiant stable ;
-- le sport et la compétition ;
-- les deux équipes ;
-- l'identifiant externe du match ;
-- l'heure prévue du coup d'envoi ;
-- la sélection 1, N ou 2 ;
-- la cote observée ;
-- le bookmaker ;
-- la date et l'heure du relevé ;
-- la date et l'heure de publication ;
-- la mise virtuelle de 5 EUR ;
-- la justification du pronostic ;
-- sa justification et son incertitude.
-
-La partie publiée avant le match est immuable. Le résultat et le règlement sont ajoutés comme des événements ou enregistrements distincts afin de préserver la preuve originale.
-
-## États
-
-Les états métier visibles sont :
-
-- `pending` : le match n'est pas encore réglé ;
-- `won` : la sélection est correcte ;
-- `lost` : la sélection est incorrecte ;
-- `void` : le pronostic est annulé selon une règle documentée.
-
-Un état inconnu ou ambigu ne doit jamais être transformé automatiquement en victoire, défaite ou annulation.
-
-## Calculs
-
-La mise virtuelle est toujours de 5 EUR.
-
-Pour un pronostic gagné :
+Un événement est candidat uniquement si :
 
 ```text
-simulatedReturn = 5 * recordedOdds
+observedAt + 30 minutes <= startsAt
+startsAt <= observedAt + 8 heures
 ```
 
-Pour un pronostic perdu :
+Sont exclus les événements commencés, trop proches ou trop lointains, sans Betclic, avec un autre marché, un marché incomplet, moins de deux ou plus de trois issues, des noms dupliqués, une cote invalide ou un résultat qui ne pourra pas être raisonnablement identifié.
+
+## Publication immuable
+
+Chaque pronostic conserve définitivement : identifiant, date et heure de publication, heure de début, sport, participants, identifiant externe, marché et issues exactes, sélection exacte, cote, bookmaker et observation, mise virtuelle, probabilité estimée en points de base, justification, facteurs, incertitude et source.
+
+La sélection doit correspondre exactement à une issue et `recordedOdds` à sa cote. La probabilité estimée est comprise entre 1 et 9 999 points de base et doit produire une espérance strictement positive :
 
 ```text
-simulatedReturn = 0
+espérance estimée = probabilité estimée × cote − 1
 ```
 
-Pour un pronostic annulé, la mise est rendue :
+Cette valeur n’est pas stockée : elle est recalculée de manière déterministe pour éviter les incohérences.
 
-```text
-simulatedReturn = 5
-```
+## Règlements génériques
 
-Les agrégats affichés comprennent au minimum :
+Le règlement est un fait distinct comportant `WON`, `LOST` ou `VOID`, une issue gagnante éventuellement nulle, des scores génériques facultatifs et une source The Odds API ou officielle.
 
-- total virtuellement misé ;
-- retour total ;
-- résultat net ;
-- taux de réussite ;
-- rendement sur les mises ;
-- nombre de jours depuis le lancement ;
-- historique complet des gains, pertes et annulations.
+- `WON` exige que l’issue gagnante soit exactement la sélection.
+- `LOST` exige une issue gagnante non nulle et différente de la sélection.
+- `VOID` exige une issue gagnante nulle.
+- Un résultat ambigu reste sans règlement.
+- Prolongation, tirs au but, abandon, forfait et interruption exigent une vérification des règles du marché.
+- Un score seul ne suffit pas lorsque sa portée réglementaire est incertaine.
 
-Définitions initiales :
+## Calculs et statistiques
 
-```text
-netResult = totalReturn - totalStaked
-roi = netResult / totalStaked
-successRate = won / (won + lost)
-```
+Pour une mise virtuelle de 500 centimes : gagné = mise × cote enregistrée, perdu = 0, annulé = restitution de la mise. Le résultat net vaut retours moins mises réglées, le ROI vaut résultat net divisé par mises réglées et le taux de réussite vaut gagnés divisé par gagnés plus perdus.
 
-Le cas sans pronostic réglé doit produire une valeur neutre et compréhensible, jamais `NaN` ou `Infinity`.
+Les vues conservent le nombre de pronostics, chaque statut, mises, retours, résultat net, taux de réussite, ROI et historique cumulé. Elles peuvent ajouter la probabilité estimée moyenne et l’espérance estimée moyenne au moment de la publication, clairement séparées des résultats réalisés. Les divisions sans dénominateur produisent une valeur neutre, jamais `NaN` ou `Infinity`.
 
-## Transparence et preuve
+## Architecture des faits
 
-- Un pronostic doit être publié avant le début du match.
-- Une publication tardive est rejetée, pas antidatée.
-- Les données publiées avant match ne sont jamais supprimées ou réécrites après le résultat.
-- La cote enregistrée n'est jamais remplacée par une cote ultérieure.
-- Les corrections exceptionnelles sont ajoutées sous forme d'événements explicites, motivés et horodatés ; elles ne masquent pas l'information originale.
-- L'historique complet reste accessible, y compris les pertes.
+La V1 n’a ni base de données ni route API d’administration. Publications et règlements sont des JSON distincts, immuables et versionnés dans Git, chargés au build avec `import.meta.glob`. Les fixtures TypeScript sont réservées au développement et ne remplacent jamais l’état vide de production.
+
+Les futurs robots travaillent sur une branche dédiée, ajoutent uniquement un nouveau JSON, exécutent les validations et ne modifient jamais un fait existant. Les opérations sont idempotentes.
+
+## Source et budget
+
+Le pipeline GitHub Actions interroge The Odds API sans exposer la clé à l’application ou aux futures tâches ChatGPT. Le forfait absolu est de 500 crédits, avec arrêt opérationnel à 450 utilisés ou 50 restants.
+
+Le plan futur, non activé, prévoit quatre scans de cotes par jour, au maximum un crédit par scan non vide, soit environ 120 crédits mensuels. Ce chiffre est une estimation et non une promesse de coût exact. Les résultats ne sont demandés que lorsqu’il existe des pronostics non réglés.
 
 ## Avertissements obligatoires
 
-Le site doit indiquer clairement :
-
-- qu'aucun pari réel n'a été placé ;
-- que la mise de 5 EUR est entièrement virtuelle ;
-- que les cotes sont observées à un instant donné ;
-- que les performances passées ne garantissent pas les performances futures ;
-- que les jeux d'argent comportent des risques financiers et d'addiction ;
-- que les jeux d'argent sont interdits aux mineurs.
-
-Les formulations juridiques définitives devront être validées avant ouverture publique.
-
-## Automatisation
-
-Deux tâches ChatGPT distinctes sont prévues, mais restent inactives tant que leurs préconditions opérationnelles ne sont pas toutes décidées :
-
-1. recherche, analyse et publication éventuelle de pronostics pertinents ;
-2. vérification des matchs terminés, règlement des pronostics et recalcul des statistiques.
-
-Leurs contrats d'exécution sont définis dans `docs/automations/`.
-
-## Critères de lancement minimal
-
-Le lancement public ne peut pas avoir lieu avant que les éléments suivants existent :
-
-- stockage immuable des publications et règlements dans Git ;
-- validation stricte des données externes ;
-- Betclic (FR) comme bookmaker de référence ;
-- suivi de la consommation The Odds API ;
-- tâches idempotentes de publication et de règlement ;
-- affichage de l'historique complet ;
-- tests du moteur de calcul ;
-- avertissements et mentions légales visibles ;
-- journalisation technique sans secret ;
-- déploiement de production vérifié.
+Le site indique qu’aucun pari réel n’est placé, que la mise de 5 EUR est virtuelle, que les cotes sont des observations horodatées, que les estimations de l’IA peuvent être fausses, que les performances passées ne garantissent rien et que les jeux d’argent comportent des risques financiers et d’addiction et sont interdits aux mineurs.

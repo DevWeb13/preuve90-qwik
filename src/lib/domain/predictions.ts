@@ -7,17 +7,11 @@ export interface PredictionDayGroup {
   predictions: PredictionView[];
 }
 
-export function getMatchOutcome(finalScore: Settlement["finalScore"]): Prediction["selection"] {
-  if (finalScore.home > finalScore.away) return "HOME";
-  if (finalScore.home < finalScore.away) return "AWAY";
-  return "DRAW";
-}
-
 export function getExpectedSettlementStatus(
-  selection: Prediction["selection"],
-  finalScore: Settlement["finalScore"],
+  selectionName: string,
+  winningOutcomeName: string,
 ): "WON" | "LOST" {
-  return selection === getMatchOutcome(finalScore) ? "WON" : "LOST";
+  return selectionName === winningOutcomeName ? "WON" : "LOST";
 }
 
 export function createPredictionView(
@@ -47,9 +41,9 @@ export function sortPredictionsNewestFirst<T extends Prediction>(predictions: T[
   );
 }
 
-export function sortPredictionsByKickoff<T extends Prediction>(predictions: T[]): T[] {
+export function sortPredictionsByStart<T extends Prediction>(predictions: T[]): T[] {
   return [...predictions].sort(
-    (left, right) => Date.parse(left.kickoffAt) - Date.parse(right.kickoffAt),
+    (left, right) => Date.parse(left.startsAt) - Date.parse(right.startsAt),
   );
 }
 
@@ -58,7 +52,7 @@ export function selectPredictionsForDate(
   dateKey: string,
   timeZone: string,
 ): PredictionView[] {
-  return sortPredictionsByKickoff(
+  return sortPredictionsByStart(
     predictions.filter(
       (prediction) => getDateKeyInTimeZone(prediction.publishedAt, timeZone) === dateKey,
     ),
@@ -82,6 +76,6 @@ export function groupPredictionsByPublicationDay(
     .sort(([leftDate], [rightDate]) => rightDate.localeCompare(leftDate))
     .map(([dateKey, group]) => ({
       dateKey,
-      predictions: sortPredictionsByKickoff(group),
+      predictions: sortPredictionsByStart(group),
     }));
 }

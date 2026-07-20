@@ -34,9 +34,9 @@ export default component$(() => (
     <section class="legal-copy">
       <h2>Objet du site</h2>
       <p>
-        Preuve90 documente une expérience publique sur des pronostics de football produits par une
+        Preuve90 documente une expérience publique de recherche multisport de valeur estimée par une
         IA. Le site présente des publications horodatées, leurs règlements et des statistiques
-        dérivées.
+        dérivées. Il ne prétend pas analyser tout Betclic.
       </p>
       <h2>Aucun pari réel</h2>
       <p>
@@ -53,6 +53,12 @@ export default component$(() => (
       <p>
         Une cote enregistrée est une observation horodatée chez Betclic (FR). Elle ne prouve ni sa
         disponibilité ultérieure ni son acceptation pour une personne donnée.
+      </p>
+      <h2>Estimations de l’IA</h2>
+      <p>
+        Une valeur estimée positive signifie seulement que la probabilité évaluée par l’IA dépasse
+        le seuil nécessaire pour rentabiliser la cote. Cette estimation peut être erronée et ne
+        constitue ni un bénéfice acquis ni une garantie de rentabilité.
       </p>
       <h2>Contenu</h2>
       <p>

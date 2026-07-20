@@ -49,7 +49,7 @@ export default component$(() => {
     <DashboardIntro>
       {snapshot.isDemo && <DemoBanner />}
       <header class="home-hero" data-intro-title>
-        <span class="eyebrow">EXPÉRIENCE PUBLIQUE · FOOTBALL 1N2</span>
+        <span class="eyebrow">EXPÉRIENCE PUBLIQUE · MULTISPORT H2H</span>
         <h1>{SITE_CONFIG.tagline}</h1>
         <p>{SITE_CONFIG.description}</p>
       </header>
@@ -63,7 +63,7 @@ export default component$(() => {
       ) : (
         <EmptyState
           title="Aucun pronostic publié aujourd’hui"
-          message="Le protocole ne force aucune sélection lorsqu’aucun match ne présente un niveau de pertinence suffisant."
+          message="Le protocole ne force aucune sélection lorsqu’aucun événement analysé ne présente une valeur estimée positive suffisamment défendable."
           actionHref="/methode/"
           actionLabel="Découvrir le protocole"
         />
@@ -85,7 +85,7 @@ export default component$(() => {
 });
 
 export const head = createDocumentHead(
-  "Pronostics IA publics, résultats compris | Preuve90",
+  "Valeur multisport estimée par l’IA, résultats compris | Preuve90",
   SITE_CONFIG.description,
   "/",
 );

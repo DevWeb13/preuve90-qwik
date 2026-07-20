@@ -152,7 +152,7 @@ Stocker les publications et règlements dans deux collections JSON distinctes ve
 
 ## ADR-007 — Betclic France comme bookmaker de référence
 
-- **Statut :** accepted
+- **Statut :** superseded par ADR-013
 - **Date :** 2026-07-20
 - **Auteur :** propriétaire du projet
 
@@ -196,7 +196,7 @@ Utiliser des données TypeScript déterministes uniquement lorsque `import.meta.
 
 ## ADR-009 — Cyber Football Lab et mouvement progressif
 
-- **Statut :** accepted
+- **Statut :** superseded par ADR-013 pour l’identité football ; principes visuels conservés
 - **Date :** 2026-07-20
 - **Auteur :** propriétaire du projet
 
@@ -265,7 +265,7 @@ Autoriser zéro, une ou plusieurs publications pour une même date civile `Europ
 
 ## ADR-012 — Collecte The Odds API via GitHub Actions
 
-- **Statut :** accepted
+- **Statut :** superseded par ADR-013 pour le périmètre et l’endpoint ; architecture GitHub Actions conservée
 - **Date :** 2026-07-20
 - **Auteur :** propriétaire du projet
 
@@ -289,13 +289,45 @@ Les futures tâches ChatGPT ne reçoivent que les snapshots nettoyés. Le workfl
 
 ---
 
+## ADR-013 — Pivot vers la recherche multisport de valeur estimée
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+- **Remplace :** les restrictions football/1N2 des ADR-007, ADR-009 et ADR-012 ; le mécanisme GitHub Actions et les garanties d’immutabilité restent applicables
+
+### Contexte
+
+Le périmètre football limité à trois compétitions ne mesure pas la capacité de l’IA à rechercher une valeur estimée dans la couverture réellement disponible. The Odds API fournit un endpoint transversal `upcoming`, mais sa couverture reste volontairement réduite.
+
+### Décision
+
+Preuve90 devient une expérience tous sports et tous pays, limitée aux événements effectivement retournés par `GET /v4/sports/upcoming/odds`. La requête utilise uniquement Betclic France (`betclic_fr`), le marché principal `h2h`, les cotes décimales et les dates ISO. L’endpoint retourne les événements en direct et les 8 prochains événements tous sports confondus ; le direct est exclu localement.
+
+Un candidat commence entre 30 minutes et 8 heures après l’observation, bornes incluses. Chaque scan publie zéro ou un pronostic, le meilleur candidat défendable du scan, sans plafond journalier. Les deux ou trois issues Betclic sont conservées sous leur nom exact et la sélection correspond exactement à l’une d’elles.
+
+Chaque analyse publie une probabilité estimée en points de base et doit avoir une espérance estimée strictement positive, calculée par `probabilité × cote − 1`. Ces valeurs sont explicitement des estimations de l’IA, jamais une promesse de rentabilité.
+
+La publication reste strictement antérieure au début de l’événement. Le règlement multisport ne dépend plus d’un score domicile/extérieur : il consigne une issue gagnante certaine, des scores génériques facultatifs et une source. Tout résultat ambigu, y compris lorsque les règles du marché après prolongation, abandon, forfait ou interruption sont incertaines, reste en attente.
+
+### Conséquences
+
+- Preuve90 ne prétend jamais analyser tout Betclic ni trouver un « meilleur pari absolu ».
+- Les trois compétitions football fixes et l’appel préalable à `/sports` disparaissent du scan de cotes.
+- Le snapshot de cotes et sa métadonnée passent au schéma version 2.
+- Les résultats sont demandés uniquement pour les pronostics non réglés, regroupés par `sport.key`.
+- Le design sombre, responsive et progressif est conservé sous la signature « AI Value Lab ».
+- Les statistiques réalisées restent fondées sur la mise de 500 centimes et la cote immuable ; les moyennes estimées restent séparées.
+- Aucune garantie de gain, de bénéfice ou de coût API exact n’est formulée.
+
+---
+
 ## Décisions ouvertes avant l'activation des automatisations
 
 Les points suivants nécessitent une ADR dédiée avant leur implémentation :
 
-1. fenêtre temporelle exacte analysée par la future tâche de publication ;
-2. source et format des informations complémentaires utilisées par l’IA ;
-3. procédure Git et droits exacts des futurs robots ChatGPT ;
-4. politique de correction en cas d’erreur factuelle publiée ;
-5. règles des matchs reportés, abandonnés ou interrompus ;
-6. formulation juridique et dispositif de prévention des risques liés aux jeux d’argent.
+1. source et format des informations complémentaires utilisées par l’IA ;
+2. procédure Git et droits exacts des futurs robots ChatGPT ;
+3. politique de correction en cas d’erreur factuelle publiée ;
+4. règles détaillées par sport et marché pour les événements reportés, abandonnés ou interrompus ;
+5. formulation juridique et dispositif de prévention des risques liés aux jeux d’argent.

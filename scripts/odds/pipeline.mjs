@@ -1,6 +1,6 @@
 import path from "node:path";
 import { createOddsApiClient, requireApiKey } from "./api-client.mjs";
-import { BOOKMAKER } from "./config.mjs";
+import { BOOKMAKER, SCAN_CONFIG } from "./config.mjs";
 import { collectOdds } from "./collect-odds.mjs";
 import { collectResults } from "./collect-results.mjs";
 import { writeSnapshotSet } from "./write-snapshots.mjs";
@@ -8,24 +8,36 @@ import { writeSnapshotSet } from "./write-snapshots.mjs";
 const MODES = new Set(["odds", "results", "all"]);
 
 function emptyOddsSnapshot(generatedAt) {
-  return { schemaVersion: 1, generatedAt, bookmaker: BOOKMAKER, events: [] };
+  return {
+    schemaVersion: 2,
+    generatedAt,
+    bookmaker: BOOKMAKER,
+    window: {
+      minimumLeadMinutes: SCAN_CONFIG.minimumLeadMinutes,
+      maximumLeadHours: SCAN_CONFIG.maximumLeadHours,
+    },
+    events: [],
+  };
 }
 
 function emptyResultsSnapshot(generatedAt) {
-  return { schemaVersion: 1, generatedAt, events: [] };
+  return { schemaVersion: 2, generatedAt, events: [] };
 }
 
 function aggregateMetadata(mode, generatedAt, parts, client) {
-  const competitions = [...new Set(parts.flatMap((part) => part.competitions))].sort();
-  const inactiveCompetitions = [
-    ...new Set(parts.flatMap((part) => part.inactiveCompetitions ?? [])),
-  ].sort();
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt,
     mode,
-    competitions,
-    inactiveCompetitions,
+    sourceMode: mode === "odds" ? "upcoming" : mode === "results" ? "scores" : "upcoming+scores",
+    coverage: {
+      maximumUpcomingEvents: SCAN_CONFIG.maximumUpcomingEvents,
+      liveEventsMayBeReturnedUpstream: true,
+    },
+    window: {
+      minimumLeadMinutes: SCAN_CONFIG.minimumLeadMinutes,
+      maximumLeadHours: SCAN_CONFIG.maximumLeadHours,
+    },
     requests: parts.reduce((total, part) => total + part.requests, 0),
     eventsReceived: parts.reduce((total, part) => total + part.eventsReceived, 0),
     eventsPublished: parts.reduce((total, part) => total + part.eventsPublished, 0),

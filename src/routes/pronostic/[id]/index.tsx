@@ -2,7 +2,8 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import {
-  MatchDisplay,
+  EstimatedValueDisplay,
+  EventDisplay,
   OddsDisplay,
   PredictionReasoning,
   ProofTimeline,
@@ -10,7 +11,7 @@ import {
   TransparencyNotice,
   VirtualStakeDisplay,
 } from "~/components/domain/predictions";
-import { PredictionReel } from "~/components/motion/motion";
+import { OutcomeReel } from "~/components/motion/motion";
 import {
   Badge,
   ButtonLink,
@@ -21,7 +22,7 @@ import {
   Panel,
   StatusBadge,
 } from "~/components/ui/primitives";
-import { formatDateTime, getSelectionLabel } from "~/lib/formatting/format";
+import { formatDateTime } from "~/lib/formatting/format";
 import { createDocumentHead } from "~/lib/formatting/seo";
 import { loadContentResult } from "~/lib/server/content-repository.server";
 
@@ -58,7 +59,7 @@ export default component$(() => {
       {isDemo && <DemoBanner />}
       <PageHeader
         eyebrow="PREUVE PERMANENTE"
-        title={`${prediction.match.homeTeam} — ${prediction.match.awayTeam}`}
+        title={`${prediction.event.participantA} — ${prediction.event.participantB}`}
         description="La publication d’origine et son règlement éventuel sont présentés comme deux faits distincts."
       />
       <Panel class="proof-panel">
@@ -72,29 +73,30 @@ export default component$(() => {
         </div>
         <div class="proof-match-grid">
           <div>
-            <span class="eyebrow">
-              {prediction.competition.name}
-              {prediction.competition.country ? ` · ${prediction.competition.country}` : ""}
-            </span>
-            <MatchDisplay prediction={prediction} />
+            <span class="eyebrow">{prediction.sport.title}</span>
+            <EventDisplay prediction={prediction} />
             <p>
-              <strong>Sélection :</strong> {getSelectionLabel(prediction.selection)}
+              <strong>Issue sélectionnée :</strong> {prediction.selection.name}
             </p>
           </div>
-          <PredictionReel selection={prediction.selection} />
+          <OutcomeReel
+            outcomes={prediction.market.outcomes}
+            selectionName={prediction.selection.name}
+          />
         </div>
         <div class="data-grid proof-data-grid">
           <OddsDisplay prediction={prediction} />
           <VirtualStakeDisplay cents={prediction.virtualStakeCents} />
+          <EstimatedValueDisplay prediction={prediction} />
           <div class="data-cell">
             <span class="data-label">Publication UTC</span>
             <strong>{formatDateTime(prediction.publishedAt)}</strong>
             <small>{prediction.publishedAt}</small>
           </div>
           <div class="data-cell">
-            <span class="data-label">Coup d’envoi</span>
-            <strong>{formatDateTime(prediction.kickoffAt)}</strong>
-            <small>Temps réglementaire uniquement</small>
+            <span class="data-label">Début de l’événement</span>
+            <strong>{formatDateTime(prediction.startsAt)}</strong>
+            <small>Marché principal h2h avant événement</small>
           </div>
           <div class="data-cell">
             <span class="data-label">Observation</span>
@@ -102,6 +104,12 @@ export default component$(() => {
             <small>{prediction.bookmaker.name}</small>
           </div>
         </div>
+      </Panel>
+      <Panel class="value-explanation">
+        <p>
+          Une valeur estimée positive signifie que la probabilité évaluée par l’IA dépasse le seuil
+          nécessaire pour rentabiliser la cote. Cette estimation peut être erronée.
+        </p>
       </Panel>
       <div class="proof-content-grid">
         <PredictionReasoning prediction={prediction} detailed />
@@ -126,8 +134,8 @@ export const head: DocumentHead = ({ resolveValue }) => {
   }
   const { prediction } = detail;
   return createDocumentHead(
-    `${prediction.match.homeTeam} – ${prediction.match.awayTeam} : pronostic publié | Preuve90`,
-    `Preuve horodatée du pronostic ${getSelectionLabel(prediction.selection)}, cote ${prediction.recordedOdds} observée chez ${prediction.bookmaker.name}.`,
+    `${prediction.event.participantA} – ${prediction.event.participantB} : pronostic publié | Preuve90`,
+    `Preuve horodatée de l’issue ${prediction.selection.name}, cote ${prediction.recordedOdds} observée chez ${prediction.bookmaker.name}.`,
     `/pronostic/${prediction.id}/`,
     detail.isDemo,
   );

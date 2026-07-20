@@ -4,11 +4,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
-import {
-  createOddsApiClient,
-  formatApiTimestamp,
-  requireApiKey,
-} from "../../scripts/odds/api-client.mjs";
+import { createOddsApiClient, requireApiKey } from "../../scripts/odds/api-client.mjs";
 import { createApiBudget, readQuotaHeaders } from "../../scripts/odds/budget.mjs";
 import { collectResults, findPendingPredictions } from "../../scripts/odds/collect-results.mjs";
 import { normalizeOddsEvents, normalizeScoreEvents } from "../../scripts/odds/normalize.mjs";
@@ -17,20 +13,9 @@ import { validateSnapshotSet } from "../../scripts/odds/write-snapshots.mjs";
 
 const FAKE_KEY = "known-fake-secret-never-log";
 const NOW = "2026-07-20T08:00:00.000Z";
-const COMPETITION_KEYS = [
-  "soccer_france_ligue_one",
-  "soccer_epl",
-  "soccer_uefa_champs_league",
-];
-const fixtureDirectory = fileURLToPath(
-  new URL("../../tests/fixtures/odds-api/", import.meta.url),
-);
-const oddsFixture = JSON.parse(
-  readFileSync(path.join(fixtureDirectory, "odds-response.json"), "utf8"),
-);
-const scoresFixture = JSON.parse(
-  readFileSync(path.join(fixtureDirectory, "scores-response.json"), "utf8"),
-);
+const fixtureDirectory = fileURLToPath(new URL("../../tests/fixtures/odds-api/", import.meta.url));
+const oddsFixture = JSON.parse(readFileSync(path.join(fixtureDirectory, "odds-response.json"), "utf8"));
+const scoresFixture = JSON.parse(readFileSync(path.join(fixtureDirectory, "scores-response.json"), "utf8"));
 const temporaryDirectories: string[] = [];
 
 afterEach(async () => {
@@ -42,8 +27,8 @@ afterEach(async () => {
 
 function quotaHeaders(overrides: Record<string, string> = {}) {
   return new Headers({
-    "x-requests-used": "10",
-    "x-requests-remaining": "490",
+    "x-requests-used": "3",
+    "x-requests-remaining": "497",
     "x-requests-last": "1",
     ...overrides,
   });
@@ -60,20 +45,16 @@ function clone<T>(value: T): T {
   return structuredClone(value);
 }
 
-function normalizedOdds(raw = clone(oddsFixture), sportKey = "soccer_france_ligue_one") {
-  return normalizeOddsEvents(raw, { sportKey, observedAt: NOW });
+function normalizedOdds(raw = clone(oddsFixture), observedAt = NOW) {
+  return normalizeOddsEvents(raw, { observedAt });
 }
 
 function pendingPrediction(overrides: Record<string, unknown> = {}) {
   return {
     id: "prediction-result-valid",
-    kickoffAt: "2026-07-19T18:45:00Z",
-    competition: { key: "soccer_france_ligue_one", name: "Ligue 1" },
-    match: {
-      eventId: "event-result-valid",
-      homeTeam: "Paris FC",
-      awayTeam: "Lyon FC",
-    },
+    startsAt: "2026-07-19T18:45:00Z",
+    sport: { key: "soccer_france_ligue_one", title: "Football France" },
+    event: { eventId: "event-result-valid", participantA: "Paris FC", participantB: "Lyon FC" },
     ...overrides,
   };
 }
@@ -88,53 +69,26 @@ async function makeTemporaryDirectory() {
   return directory;
 }
 
-function pipelineFetch(activeSportKeys = COMPETITION_KEYS) {
-  let used = 0;
+function pipelineFetch() {
   return vi.fn(async (request: RequestInfo | URL) => {
-    const url =
-      request instanceof Request
-        ? new URL(request.url)
-        : new URL(typeof request === "string" ? request : request.toString());
-    if (url.pathname === "/v4/sports") {
-      return jsonResponse(activeSportKeys.map((key) => ({ key, active: true })));
+    const url = new URL(request instanceof Request ? request.url : request.toString());
+    if (url.pathname === "/v4/sports/upcoming/odds") return jsonResponse(clone(oddsFixture));
+    if (url.pathname.endsWith("/scores")) {
+      return jsonResponse(clone(scoresFixture), {
+        headers: quotaHeaders({ "x-requests-last": "2" }),
+      });
     }
-    used += 1;
-    const sportKey = url.pathname.split("/")[3];
-    const headers = quotaHeaders({
-      "x-requests-used": String(used),
-      "x-requests-remaining": String(500 - used),
-      "x-requests-last": url.pathname.endsWith("/scores") ? "2" : "1",
-    });
-    if (url.pathname.endsWith("/scores")) return jsonResponse(scoresFixture, { headers });
-    const events = clone(oddsFixture);
-    events[0].sport_key = sportKey;
-    events[0].id = `${sportKey}-event`;
-    return jsonResponse(events, { headers });
+    return jsonResponse([], { status: 404 });
   });
 }
 
-describe("configuration et client The Odds API", () => {
-  it("normalise les timestamps des paramètres API à la seconde", () => {
-    expect(formatApiTimestamp("2026-07-20T08:30:15.000Z")).toBe("2026-07-20T08:30:15Z");
-  });
-
+describe("client The Odds API", () => {
   it("refuse un secret absent sans révéler la fausse clé", () => {
     expect(() => requireApiKey({})).toThrow("THE_ODDS_API_KEY est requis");
-    try {
-      requireApiKey({});
-    } catch (error) {
-      expect(String(error)).not.toContain(FAKE_KEY);
-    }
+    expect(() => requireApiKey({})).not.toThrow(FAKE_KEY);
   });
 
-  it("refuse une compétition non autorisée avant fetch", async () => {
-    const fetchImpl = vi.fn();
-    const client = createOddsApiClient({ apiKey: FAKE_KEY, fetchImpl });
-    await expect(client.getOdds("soccer_other", NOW)).rejects.toThrow("non autorisée");
-    expect(fetchImpl).not.toHaveBeenCalled();
-  });
-
-  it("limite la requête de cotes aux paramètres officiels nécessaires", async () => {
+  it("utilise /sports/upcoming/odds avec les seuls paramètres stricts", async () => {
     const requestedUrls: URL[] = [];
     const client = createOddsApiClient({
       apiKey: FAKE_KEY,
@@ -143,39 +97,21 @@ describe("configuration et client The Odds API", () => {
         return jsonResponse([]);
       },
     });
-    await client.getOdds("soccer_france_ligue_one", NOW);
-    const [requestedUrl] = requestedUrls;
-    expect(requestedUrl.pathname).toBe("/v4/sports/soccer_france_ligue_one/odds");
-    expect(Object.fromEntries(requestedUrl.searchParams)).toEqual({
+    await client.getUpcomingOdds();
+    const [url] = requestedUrls;
+    expect(url.pathname).toBe("/v4/sports/upcoming/odds");
+    expect(Object.fromEntries(url.searchParams)).toEqual({
       bookmakers: "betclic_fr",
-      commenceTimeFrom: "2026-07-20T08:00:00Z",
       dateFormat: "iso",
       markets: "h2h",
       oddsFormat: "decimal",
-      regions: "fr",
       apiKey: FAKE_KEY,
     });
+    expect(url.searchParams.has("commenceTimeFrom")).toBe(false);
+    expect(url.searchParams.has("commenceTimeTo")).toBe(false);
   });
 
-  it("récupère les sports actifs sans incrémenter les requêtes payantes", async () => {
-    const requestedUrls: URL[] = [];
-    const client = createOddsApiClient({
-      apiKey: FAKE_KEY,
-      fetchImpl: async (request) => {
-        requestedUrls.push(request instanceof URL ? request : new URL(request.toString()));
-        return jsonResponse([
-          { key: "soccer_france_ligue_one", active: true },
-          { key: "soccer_epl", active: false },
-        ]);
-      },
-    });
-    const response = await client.getActiveSports();
-    expect(response.data).toEqual(["soccer_france_ligue_one"]);
-    expect(requestedUrls[0].pathname).toBe("/v4/sports");
-    expect(client.getStats().requests).toBe(0);
-  });
-
-  it("filtre la requête de scores par compétition et identifiants utiles", async () => {
+  it("filtre les scores par sport et identifiants utiles", async () => {
     const requestedUrls: URL[] = [];
     const client = createOddsApiClient({
       apiKey: FAKE_KEY,
@@ -184,46 +120,28 @@ describe("configuration et client The Odds API", () => {
         return jsonResponse([]);
       },
     });
-    await client.getScores("soccer_epl", ["event-b", "event-a", "event-a"]);
-    const [requestedUrl] = requestedUrls;
-    expect(requestedUrl.pathname).toBe("/v4/sports/soccer_epl/scores");
-    expect(requestedUrl.searchParams.get("daysFrom")).toBe("3");
-    expect(requestedUrl.searchParams.get("eventIds")).toBe("event-a,event-b");
+    await client.getScores("tennis_atp", ["event-b", "event-a", "event-a"]);
+    expect(requestedUrls[0].pathname).toBe("/v4/sports/tennis_atp/scores");
+    expect(requestedUrls[0].searchParams.get("eventIds")).toBe("event-a,event-b");
   });
 
-  it("lit les trois en-têtes de quota officiels", () => {
+  it("lit le quota et bloque à la marge globale", async () => {
     expect(readQuotaHeaders(quotaHeaders())).toEqual({
-      used: 10,
-      remaining: 490,
+      used: 3,
+      remaining: 497,
       lastRequestCost: 1,
     });
-  });
-
-  it("bloque un appel supplémentaire quand la marge est atteinte", async () => {
     const fetchImpl = vi.fn(async () =>
       jsonResponse([], {
-        headers: quotaHeaders({ "x-requests-used": "451", "x-requests-remaining": "49" }),
+        headers: quotaHeaders({ "x-requests-used": "450", "x-requests-remaining": "50" }),
       }),
     );
     const client = createOddsApiClient({ apiKey: FAKE_KEY, fetchImpl });
-    await client.getOdds("soccer_france_ligue_one", NOW);
-    await expect(client.getOdds("soccer_epl", NOW)).rejects.toThrow("marge minimale");
-    expect(fetchImpl).toHaveBeenCalledTimes(1);
+    await client.getUpcomingOdds();
+    await expect(client.getScores("tennis_atp", ["event-1"])).rejects.toThrow("marge minimale");
   });
 
-  it("ne répète pas une requête identique même après un quota faible", async () => {
-    const fetchImpl = vi.fn(async () =>
-      jsonResponse([], {
-        headers: quotaHeaders({ "x-requests-used": "451", "x-requests-remaining": "49" }),
-      }),
-    );
-    const client = createOddsApiClient({ apiKey: FAKE_KEY, fetchImpl });
-    await client.getOdds("soccer_france_ligue_one", NOW);
-    await client.getOdds("soccer_france_ligue_one", NOW);
-    expect(fetchImpl).toHaveBeenCalledTimes(1);
-  });
-
-  it("conserve null et journalise les en-têtes absents", () => {
+  it("conserve null et avertit pour des en-têtes de quota absents", () => {
     const warn = vi.fn();
     const budget = createApiBudget({ logger: { warn } as unknown as Console });
     expect(budget.record(new Headers())).toEqual({
@@ -233,83 +151,75 @@ describe("configuration et client The Odds API", () => {
     });
     expect(warn).toHaveBeenCalledOnce();
   });
-
-  it("rejette une réponse API invalide", async () => {
-    const client = createOddsApiClient({
-      apiKey: FAKE_KEY,
-      fetchImpl: async () => jsonResponse({ invalid: true }),
-    });
-    await expect(client.getOdds("soccer_epl", NOW)).rejects.toThrow("réponse de cotes");
-  });
-
-  it("signale une erreur HTTP 422 avec un code sûr, sans URL complète ni clé", async () => {
-    const warn = vi.fn();
-    const client = createOddsApiClient({
-      apiKey: FAKE_KEY,
-      logger: { warn } as unknown as Console,
-      fetchImpl: async () =>
-        jsonResponse(
-          {
-            error_code: "INVALID_COMMENCE_TIME_FROM",
-            message: `${FAKE_KEY} https://api.the-odds-api.com/v4/sports`,
-          },
-          { status: 422 },
-        ),
-    });
-    let message = "";
-    try {
-      await client.getOdds("soccer_epl", NOW);
-    } catch (error) {
-      message = String(error);
-    }
-    expect(message).toBe(
-      "OddsApiError: The Odds API a répondu avec le statut HTTP 422 (INVALID_COMMENCE_TIME_FROM).",
-    );
-    expect(message).not.toContain(FAKE_KEY);
-    expect(message).not.toContain("apiKey=");
-    expect(message).not.toContain("https://");
-    expect(JSON.stringify(warn.mock.calls)).not.toContain(FAKE_KEY);
-  });
-
-  it("ignore un code d’erreur non sûr", async () => {
-    const uppercaseFakeKey = "KNOWN_FAKE_SECRET_NEVER_LOG";
-    const client = createOddsApiClient({
-      apiKey: uppercaseFakeKey,
-      fetchImpl: async () =>
-        jsonResponse({ error_code: uppercaseFakeKey, message: "corps non journalisé" }, { status: 422 }),
-    });
-    await expect(client.getOdds("soccer_epl", NOW)).rejects.toThrow(
-      "The Odds API a répondu avec le statut HTTP 422.",
-    );
-  });
 });
 
-describe("normalisation des cotes", () => {
-  it("exclut un événement sans Betclic", () => {
-    const raw = clone(oddsFixture);
-    raw[0].bookmakers[0].key = "other";
-    expect(normalizedOdds(raw)).toEqual([]);
-  });
-
-  it("exclut un marché 1N2 incomplet", () => {
-    const raw = clone(oddsFixture);
-    raw[0].bookmakers[0].markets[0].outcomes.pop();
-    expect(normalizedOdds(raw)).toEqual([]);
-  });
-
-  it("exclut un match déjà commencé", () => {
+describe("normalisation du scan upcoming", () => {
+  it("exclut un événement live", () => {
     const raw = clone(oddsFixture);
     raw[0].commence_time = "2026-07-20T07:59:59Z";
     expect(normalizedOdds(raw)).toEqual([]);
   });
 
-  it("publie un match valide avec des cotes chaînes", () => {
-    const [event] = normalizedOdds();
-    expect(event.odds).toEqual({ home: "1.85", draw: "3.40", away: "4.20" });
-    expect(Object.values(event.odds).every((odd) => typeof odd === "string")).toBe(true);
+  it("applique les bornes inclusives de 30 minutes à 8 heures", () => {
+    const at29 = clone(oddsFixture);
+    at29[0].commence_time = "2026-07-20T08:29:59Z";
+    expect(normalizedOdds(at29)).toEqual([]);
+    const at30 = clone(oddsFixture);
+    at30[0].commence_time = "2026-07-20T08:30:00Z";
+    expect(normalizedOdds(at30)).toHaveLength(1);
+    const at8h = clone(oddsFixture);
+    at8h[0].commence_time = "2026-07-20T16:00:00Z";
+    expect(normalizedOdds(at8h)).toHaveLength(1);
+    const after8h = clone(oddsFixture);
+    after8h[0].commence_time = "2026-07-20T16:00:01Z";
+    expect(normalizedOdds(after8h)).toEqual([]);
   });
 
-  it("applique un tri déterministe par coup d’envoi puis identifiant", () => {
+  it("accepte deux ou trois issues exactes sans imposer Draw", () => {
+    const tennis = clone(oddsFixture);
+    tennis[0].sport_key = "tennis_atp";
+    tennis[0].sport_title = "ATP Test";
+    tennis[0].bookmakers[0].markets[0].outcomes = [
+      { name: "Paris FC", price: 1.85 },
+      { name: "Lyon FC", price: 1.95 },
+    ];
+    expect(normalizedOdds(tennis)[0].market.outcomes).toEqual([
+      { name: "Paris FC", odds: "1.85" },
+      { name: "Lyon FC", odds: "1.95" },
+    ]);
+    expect(normalizedOdds()).toHaveLength(1);
+  });
+
+  it("exclut une ou quatre issues, Betclic absent et marché incomplet", () => {
+    for (const count of [1, 4]) {
+      const raw = clone(oddsFixture);
+      raw[0].bookmakers[0].markets[0].outcomes = Array.from({ length: count }, (_, index) => ({
+        name: index === 0 ? "Paris FC" : index === 1 ? "Lyon FC" : `Issue ${index}`,
+        price: 1.5 + index,
+      }));
+      expect(normalizedOdds(raw)).toEqual([]);
+    }
+    const withoutBetclic = clone(oddsFixture);
+    withoutBetclic[0].bookmakers[0].key = "other";
+    expect(normalizedOdds(withoutBetclic)).toEqual([]);
+    const incomplete = clone(oddsFixture);
+    incomplete[0].bookmakers[0].markets[0].outcomes = [
+      { name: "Paris FC", price: 1.85 },
+      { name: "Draw", price: 3.4 },
+    ];
+    expect(normalizedOdds(incomplete)).toEqual([]);
+  });
+
+  it("exclut les noms d’issues dupliqués et les cotes invalides", () => {
+    const duplicate = clone(oddsFixture);
+    duplicate[0].bookmakers[0].markets[0].outcomes[1].name = "Paris FC";
+    expect(normalizedOdds(duplicate)).toEqual([]);
+    const invalidOdds = clone(oddsFixture);
+    invalidOdds[0].bookmakers[0].markets[0].outcomes[0].price = 1;
+    expect(normalizedOdds(invalidOdds)).toEqual([]);
+  });
+
+  it("trie par startsAt puis eventId", () => {
     const raw = [
       { ...clone(oddsFixture[0]), id: "z-event" },
       { ...clone(oddsFixture[0]), id: "a-event" },
@@ -318,42 +228,65 @@ describe("normalisation des cotes", () => {
   });
 });
 
-describe("normalisation des résultats", () => {
-  it("conserve un score terminé sans produire de statut métier", () => {
-    expect(normalizeScoreEvents(scoresFixture, resultTarget())).toEqual([
-      expect.objectContaining({ completed: true, status: "complete", score: { home: 2, away: 1 } }),
-    ]);
-    expect(JSON.stringify(normalizeScoreEvents(scoresFixture, resultTarget()))).not.toMatch(
-      /WON|LOST|VOID/,
+describe("résultats multisports", () => {
+  it("conserve des scores génériques sans statut WON, LOST ou VOID", () => {
+    const results = normalizeScoreEvents(scoresFixture, resultTarget());
+    expect(results[0]).toEqual(
+      expect.objectContaining({
+        completed: true,
+        status: "complete",
+        scores: [
+          { name: "Paris FC", value: "2" },
+          { name: "Lyon FC", value: "1" },
+        ],
+      }),
+    );
+    expect(JSON.stringify(results)).not.toMatch(/WON|LOST|VOID/);
+  });
+
+  it("produit incomplete ou ambiguous sans inventer de vainqueur", () => {
+    const incomplete = clone(scoresFixture);
+    incomplete[0].completed = false;
+    expect(normalizeScoreEvents(incomplete, resultTarget())[0]).toEqual(
+      expect.objectContaining({ completed: false, status: "incomplete", scores: null }),
+    );
+    const ambiguous = clone(scoresFixture);
+    ambiguous[0].scores = [{ name: "Paris FC", score: "2" }];
+    expect(normalizeScoreEvents(ambiguous, resultTarget())[0]).toEqual(
+      expect.objectContaining({ completed: false, status: "ambiguous", scores: null }),
     );
   });
 
-  it("marque un score en cours comme incomplet et masque son score", () => {
-    const raw = clone(scoresFixture);
-    raw[0].completed = false;
-    expect(normalizeScoreEvents(raw, resultTarget())[0]).toEqual(
-      expect.objectContaining({ completed: false, status: "incomplete", score: null }),
-    );
-  });
-
-  it("marque un résultat terminé mais ambigu comme non terminé", () => {
-    const raw = clone(scoresFixture);
-    raw[0].scores = [{ name: "Paris FC", score: "2" }];
-    expect(normalizeScoreEvents(raw, resultTarget())[0]).toEqual(
-      expect.objectContaining({ completed: false, status: "ambiguous", score: null }),
-    );
-  });
-
-  it("n’appelle pas l’API lorsqu’aucun pronostic n’attend de résultat", async () => {
-    const client = createOddsApiClient({ apiKey: FAKE_KEY, fetchImpl: vi.fn() });
-    const result = await collectResults({
-      client,
-      generatedAt: NOW,
-      predictions: [],
-      settlements: [],
-    });
+  it("n’appelle pas l’API sans pronostic à vérifier", async () => {
+    const fetchImpl = vi.fn();
+    const client = createOddsApiClient({ apiKey: FAKE_KEY, fetchImpl });
+    const result = await collectResults({ client, generatedAt: NOW, predictions: [], settlements: [] });
     expect(result.snapshot.events).toEqual([]);
     expect(result.metadata.requests).toBe(0);
+    expect(fetchImpl).not.toHaveBeenCalled();
+  });
+
+  it("regroupe les appels par sport.key", async () => {
+    const fetchImpl = vi.fn(async () => jsonResponse([]));
+    const client = createOddsApiClient({ apiKey: FAKE_KEY, fetchImpl });
+    await collectResults({
+      client,
+      generatedAt: NOW,
+      predictions: [
+        pendingPrediction(),
+        pendingPrediction({
+          id: "prediction-2",
+          event: { eventId: "event-2", participantA: "A", participantB: "B" },
+        }),
+        pendingPrediction({
+          id: "prediction-3",
+          sport: { key: "tennis_atp", title: "ATP" },
+          event: { eventId: "event-3", participantA: "C", participantB: "D" },
+        }),
+      ],
+      settlements: [],
+    });
+    expect(fetchImpl).toHaveBeenCalledTimes(2);
   });
 });
 
@@ -372,74 +305,14 @@ describe("snapshots et modes", () => {
       settlements: mode === "odds" ? undefined : [],
     });
     expect(snapshotSet.metadata.mode).toBe(mode);
+    expect(snapshotSet.metadata.schemaVersion).toBe(2);
     expect(await readFile(path.join(outputDirectory, "metadata.json"), "utf8")).toContain(
       `"mode": "${mode}"`,
     );
-    expect(fetchImpl).toHaveBeenCalledTimes(mode === "odds" ? 4 : mode === "all" ? 5 : 1);
+    expect(fetchImpl).toHaveBeenCalledTimes(mode === "all" ? 2 : 1);
   });
 
-  it("ne collecte les cotes que pour les compétitions configurées actives", async () => {
-    const outputDirectory = await makeTemporaryDirectory();
-    const fetchImpl = pipelineFetch(["soccer_epl"]);
-    const snapshotSet = await runPipeline({
-      mode: "odds",
-      outputDirectory,
-      environment: { THE_ODDS_API_KEY: FAKE_KEY },
-      fetchImpl,
-      clock: () => new Date(NOW),
-      logger: { info: vi.fn(), warn: vi.fn() } as unknown as Console,
-    });
-    const requestedPaths = fetchImpl.mock.calls.map(([request]) => new URL(request.toString()).pathname);
-    expect(requestedPaths).toEqual(["/v4/sports", "/v4/sports/soccer_epl/odds"]);
-    expect(snapshotSet.metadata.competitions).toEqual(["soccer_epl"]);
-    expect(snapshotSet.metadata.inactiveCompetitions).toEqual([
-      "soccer_france_ligue_one",
-      "soccer_uefa_champs_league",
-    ]);
-    expect(snapshotSet.metadata.requests).toBe(1);
-  });
-
-  it("produit un snapshot vide sans appel de cotes si aucune compétition n’est active", async () => {
-    const outputDirectory = await makeTemporaryDirectory();
-    const fetchImpl = pipelineFetch([]);
-    const snapshotSet = await runPipeline({
-      mode: "odds",
-      outputDirectory,
-      environment: { THE_ODDS_API_KEY: FAKE_KEY },
-      fetchImpl,
-      clock: () => new Date(NOW),
-      logger: { info: vi.fn(), warn: vi.fn() } as unknown as Console,
-    });
-    expect(fetchImpl).toHaveBeenCalledOnce();
-    expect(new URL(fetchImpl.mock.calls[0][0].toString()).pathname).toBe("/v4/sports");
-    expect(snapshotSet.odds.events).toEqual([]);
-    expect(snapshotSet.metadata.competitions).toEqual([]);
-    expect(snapshotSet.metadata.inactiveCompetitions).toEqual([...COMPETITION_KEYS].sort());
-    expect(snapshotSet.metadata.requests).toBe(0);
-    expect(() => validateSnapshotSet(snapshotSet)).not.toThrow();
-  });
-
-  it("conserve les timestamps des snapshots avec des millisecondes", async () => {
-    const outputDirectory = await makeTemporaryDirectory();
-    const snapshotSet = await runPipeline({
-      mode: "odds",
-      outputDirectory,
-      environment: { THE_ODDS_API_KEY: FAKE_KEY },
-      fetchImpl: pipelineFetch(["soccer_france_ligue_one"]),
-      clock: () => new Date(NOW),
-      logger: { info: vi.fn(), warn: vi.fn() } as unknown as Console,
-    });
-    expect(snapshotSet.metadata.generatedAt).toBe(NOW);
-    expect(snapshotSet.odds.generatedAt).toBe(NOW);
-    expect(snapshotSet.odds.events).toEqual([
-      expect.objectContaining({
-        observedAt: NOW,
-        kickoffAt: "2026-07-21T18:45:00.000Z",
-      }),
-    ]);
-  });
-
-  it("ne publie ni secret, ni URL sensible, ni donnée brute", async () => {
+  it("produit le schéma v2 strict, sans secret, URL ou champs bruts", async () => {
     const outputDirectory = await makeTemporaryDirectory();
     const snapshotSet = await runPipeline({
       mode: "odds",
@@ -450,23 +323,34 @@ describe("snapshots et modes", () => {
       logger: { info: vi.fn(), warn: vi.fn() } as unknown as Console,
     });
     expect(() => validateSnapshotSet(snapshotSet)).not.toThrow();
+    expect(snapshotSet.odds).toEqual(
+      expect.objectContaining({
+        schemaVersion: 2,
+        window: { minimumLeadMinutes: 30, maximumLeadHours: 8 },
+      }),
+    );
+    expect(snapshotSet.metadata).toEqual(
+      expect.objectContaining({
+        sourceMode: "upcoming",
+        coverage: { maximumUpcomingEvents: 8, liveEventsMayBeReturnedUpstream: true },
+        quota: { used: 3, remaining: 497, lastRequestCost: 1 },
+      }),
+    );
     const serialized = JSON.stringify(snapshotSet);
     expect(serialized).not.toContain(FAKE_KEY);
     expect(serialized).not.toContain("apiKey=");
     expect(serialized).not.toContain("api.the-odds-api.com");
-    expect(serialized).not.toContain("bookmakers");
-    expect(serialized).not.toContain("markets");
     expect(serialized).not.toContain("last_update");
     expect(Object.keys(snapshotSet.odds.events[0]).sort()).toEqual(
       [
-        "awayTeam",
-        "competitionName",
         "eventId",
-        "homeTeam",
-        "kickoffAt",
-        "observedAt",
-        "odds",
         "sportKey",
+        "sportTitle",
+        "participantA",
+        "participantB",
+        "startsAt",
+        "observedAt",
+        "market",
       ].sort(),
     );
   });

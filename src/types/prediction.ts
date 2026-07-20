@@ -1,23 +1,32 @@
-export type PredictionSelection = "HOME" | "DRAW" | "AWAY";
 export type SettlementStatus = "WON" | "LOST" | "VOID";
 export type PredictionStatus = SettlementStatus | "PENDING";
+
+export interface MarketOutcome {
+  name: string;
+  odds: string;
+}
 
 export interface Prediction {
   id: string;
   publicationDate: string;
   publishedAt: string;
-  kickoffAt: string;
-  competition: {
+  startsAt: string;
+  sport: {
     key: string;
-    name: string;
-    country?: string;
+    title: string;
   };
-  match: {
+  event: {
     eventId: string;
-    homeTeam: string;
-    awayTeam: string;
+    participantA: string;
+    participantB: string;
   };
-  selection: PredictionSelection;
+  market: {
+    key: "h2h";
+    outcomes: MarketOutcome[];
+  };
+  selection: {
+    name: string;
+  };
   recordedOdds: string;
   bookmaker: {
     key: "betclic_fr";
@@ -26,6 +35,7 @@ export interface Prediction {
   };
   virtualStakeCents: 500;
   reasoning: {
+    estimatedProbabilityBps: number;
     summary: string;
     factors: string[];
     uncertainty: string;
@@ -40,13 +50,18 @@ export interface Settlement {
   predictionId: string;
   settledAt: string;
   status: SettlementStatus;
-  finalScore: {
-    home: number;
-    away: number;
+  result: {
+    winningOutcomeName: string | null;
+    scores: Array<{
+      name: string;
+      value: string;
+    }> | null;
+    note?: string;
   };
   source: {
-    provider: "the-odds-api";
+    provider: "the-odds-api" | "official-source";
     eventId: string;
+    reference?: string;
   };
 }
 
@@ -76,6 +91,8 @@ export interface PredictionStatistics {
   netResultCents: number;
   successRate: number | null;
   roi: number | null;
+  averageEstimatedProbabilityBps: number | null;
+  averageEstimatedValueBps: number | null;
   daysSinceFirstPublication: number;
   statusDistribution: Record<PredictionStatus, number>;
   cumulativePerformance: CumulativePerformancePoint[];
