@@ -663,6 +663,46 @@ time,
   font-size: 0.76rem;
 }
 
+.prediction-card-data em {
+  display: block;
+  margin-top: var(--space-1);
+  color: var(--color-text-subtle);
+  font-size: 0.65rem;
+  font-style: normal;
+}
+
+.daily-predictions-grid,
+.history-groups,
+.history-day {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.history-groups {
+  gap: var(--space-8);
+}
+
+.history-day > header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.history-day h2 {
+  margin: 0;
+  font-size: clamp(1.2rem, 4vw, 1.65rem);
+  text-transform: capitalize;
+}
+
+.history-day > header > span {
+  color: var(--color-text-subtle);
+  font: 0.7rem/1 var(--font-mono);
+  white-space: nowrap;
+}
+
 .section-action {
   justify-self: start;
 }
@@ -1305,6 +1345,9 @@ time,
   }
   .prediction-card {
     padding: var(--space-6);
+  }
+  .daily-predictions-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

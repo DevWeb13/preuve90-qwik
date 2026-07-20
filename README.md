@@ -10,7 +10,7 @@ La V1 fournit une interface Qwik responsive « Cyber Football Lab », un histori
 
 Routes publiques :
 
-- `/` : tableau de bord et dernier pronostic ;
+- `/` : tableau de bord et publications du jour ;
 - `/historique/` : journal complet filtrable par statut ;
 - `/pronostic/[id]/` : preuve permanente ;
 - `/statistiques/` : agrégats et courbe cumulative SVG ;
@@ -38,13 +38,15 @@ src/content/
 └── demo/              # fixtures TypeScript, développement uniquement
 ```
 
-Les JSON sont intégrés au build avec `import.meta.glob` en mode eager. La couche serveur valide les schémas, l’unicité des identifiants, la limite d’une publication par date `Europe/Paris`, Betclic (FR), la mise de 500 centimes et l’association des règlements. Elle n’utilise jamais `fs` au runtime Edge.
+Les JSON sont intégrés au build avec `import.meta.glob` en mode eager. La couche serveur valide les schémas, l’unicité des identifiants et des matchs, Betclic (FR), la mise de 500 centimes, la cohérence entre score et statut, ainsi que l’association des règlements. Elle n’utilise jamais `fs` au runtime Edge.
+
+Zéro, un ou plusieurs pronostics peuvent partager une même date `Europe/Paris`. Aucun plafond quotidien n’est codé : la pertinence de chaque analyse, les matchs disponibles et le budget The Odds API limitent naturellement le volume. Chaque publication conserve sa mise virtuelle individuelle de 500 centimes.
 
 Une publication ne contient pas son statut. L’absence de règlement dérive `PENDING`; un règlement distinct porte `WON`, `LOST` ou `VOID`. Les retours et statistiques sont toujours recalculés au centime depuis ces faits.
 
 ## Mode démonstration
 
-En développement, si aucun fichier réel n’existe, sept scénarios déterministes et explicitement fictifs rendent toutes les vues testables. Un bandeau affiche :
+En développement, si aucun fichier réel n’existe, neuf scénarios déterministes et explicitement fictifs rendent toutes les vues testables, dont trois publications le même jour. Un bandeau affiche :
 
 ```text
 MODE DÉMONSTRATION — Ces données ne sont pas des pronostics publiés.
@@ -74,7 +76,8 @@ npm run fmt.check    # contrôle du formatage
 npm run lint         # ESLint Qwik/TypeScript
 npm run build.types  # TypeScript strict
 npm run build        # build Qwik + Vercel Edge
-npm run check        # format + lint + types + tests + build
+npm run check:content-integrity # vérifier que les anciens JSON sont inchangés
+npm run check        # intégrité + format + lint + types + tests + build
 ```
 
 ## Contribution et faits immuables
@@ -83,7 +86,7 @@ npm run check        # format + lint + types + tests + build
 2. ne jamais modifier directement `master` ni réécrire l’historique partagé ;
 3. ajouter une publication dans `src/content/predictions/` sans modifier les faits existants ;
 4. ajouter son règlement séparément dans `src/content/settlements/` ;
-5. exécuter `npm run check` ;
+5. exécuter `npm run check`, qui refuse toute modification, suppression ou renommage d’un JSON présent sur la branche de base ;
 6. soumettre la branche à une revue humaine.
 
 Les futurs robots ChatGPT suivront ce même modèle Git append-only. Ils restent inactifs tant que leurs préconditions (compétitions, budget API, règles des matchs ambigus et droits Git) ne sont pas décidées.

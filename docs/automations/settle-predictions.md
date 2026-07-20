@@ -28,8 +28,8 @@ Si une précondition manque, terminer avec `blocked` sans créer de règlement.
 6. Retenir le score au temps réglementaire, jamais celui après prolongation ou tirs au but.
 7. Déterminer `HOME`, `DRAW` ou `AWAY`, le comparer à la sélection publiée et produire `WON`, `LOST` ou, uniquement avec une règle acceptée, `VOID`.
 8. Construire un JSON `Settlement` contenant l’identifiant de publication, `settledAt` UTC, le statut, le score final et la source The Odds API avec le même identifiant d’événement.
-9. Vérifier qu’aucun règlement n’existe, que la publication reste inchangée et que l’heure de règlement suit le coup d’envoi.
-10. Ajouter un fichier par règlement dans `src/content/settlements/`, sans modifier les publications ni les règlements existants.
+9. Vérifier qu’aucun règlement n’existe, que la publication reste inchangée, que l’heure de règlement suit le coup d’envoi et que `WON` ou `LOST` correspond exactement au score réglementaire.
+10. Ajouter un fichier par règlement dans `src/content/settlements/`, sans modifier, supprimer ou renommer les publications ou règlements existants.
 11. Exécuter `npm run test:run` et `npm run check`, puis vérifier les retours dérivés : gagné = mise × cote enregistrée, perdu = 0, annulé = 500 centimes.
 12. Examiner le diff, committer les seuls faits attendus, pousser la branche et soumettre à la revue humaine selon la procédure approuvée.
 13. Terminer avec le rapport défini dans `docs/automations/README.md`.

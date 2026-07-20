@@ -19,7 +19,9 @@ Ces règles ne peuvent pas être assouplies sans décision explicite du proprié
 - football uniquement ;
 - marché simple 1N2 uniquement ;
 - temps réglementaire uniquement ;
-- au maximum un pronostic publié par jour ;
+- zéro, un ou plusieurs pronostics peuvent être publiés le même jour, sans plafond quotidien codé en dur ;
+- chaque pronostic doit rester pertinent et aucun ne doit être créé uniquement pour augmenter le volume ;
+- un identifiant interne et un match ne peuvent apparaître qu’une seule fois ;
 - mise virtuelle fixe de 5 EUR ;
 - aucun argent réel ;
 - aucun compte joueur ;

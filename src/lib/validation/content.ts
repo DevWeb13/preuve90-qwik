@@ -6,6 +6,7 @@ import type {
   SettlementStatus,
 } from "~/types/prediction";
 import { parseDecimalOdds } from "~/lib/domain/money";
+import { calendarDayNumber, getDateKeyInTimeZone } from "~/lib/domain/calendar";
 
 export class ContentValidationError extends Error {
   constructor(message: string) {
@@ -44,22 +45,14 @@ function asUtcTimestamp(value: unknown, path: string): string {
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(timestamp)) {
     fail(path, "un timestamp ISO 8601 UTC est attendu");
   }
-  if (Number.isNaN(Date.parse(timestamp))) {
+  const parsed = new Date(timestamp);
+  const canonicalTimestamp = timestamp.includes(".")
+    ? timestamp
+    : timestamp.replace("Z", ".000Z");
+  if (Number.isNaN(parsed.getTime()) || parsed.toISOString() !== canonicalTimestamp) {
     fail(path, "le timestamp est invalide");
   }
   return timestamp;
-}
-
-function parisDateKey(timestamp: string): string {
-  const parts = new Intl.DateTimeFormat("en-GB", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    timeZone: PRODUCT_CONFIG.timezone,
-  }).formatToParts(new Date(timestamp));
-  const get = (type: Intl.DateTimeFormatPartTypes) =>
-    parts.find((part) => part.type === type)?.value ?? "";
-  return `${get("year")}-${get("month")}-${get("day")}`;
 }
 
 function asSelection(value: unknown, path: string): PredictionSelection {
@@ -101,7 +94,12 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   if (!/^\d{4}-\d{2}-\d{2}$/.test(publicationDate)) {
     fail(`${path}.publicationDate`, "le format YYYY-MM-DD est attendu");
   }
-  if (publicationDate !== parisDateKey(publishedAt)) {
+  try {
+    calendarDayNumber(publicationDate);
+  } catch {
+    fail(`${path}.publicationDate`, "la date calendaire est impossible");
+  }
+  if (publicationDate !== getDateKeyInTimeZone(publishedAt, PRODUCT_CONFIG.timezone)) {
     fail(`${path}.publicationDate`, "la date doit correspondre à la publication Europe/Paris");
   }
   if (Date.parse(observedAt) > Date.parse(publishedAt)) {

@@ -4,12 +4,12 @@ import { PRODUCT_CONFIG } from "~/config/product";
 import {
   formatDateTime,
   formatMoney,
-  formatShortDate,
+  formatShortDateTime,
   formatSignedMoney,
   getSelectionLabel,
 } from "~/lib/formatting/format";
 import type { PredictionView } from "~/types/prediction";
-import { PredictionReel, ResultMotion } from "~/components/motion/motion";
+import { ResultMotion } from "~/components/motion/motion";
 import { Badge, ButtonLink, Card, SectionHeader, StatusBadge } from "~/components/ui/primitives";
 import { Icon } from "~/components/ui/icon";
 
@@ -127,45 +127,6 @@ export const ProofTimeline = component$<{ prediction: PredictionView }>(({ predi
   </section>
 ));
 
-export const PredictionHero = component$<{ prediction: PredictionView }>(({ prediction }) => (
-  <article class="prediction-hero" data-intro-panel>
-    <div class="prediction-hero-topline">
-      <div>
-        <span class="eyebrow">PRONOSTIC DU JOUR · {prediction.competition.name}</span>
-        <time dateTime={prediction.kickoffAt}>{formatDateTime(prediction.kickoffAt)}</time>
-      </div>
-      <StatusBadge status={prediction.status} />
-    </div>
-
-    <div class="prediction-main-grid">
-      <div>
-        <MatchDisplay prediction={prediction} />
-        <div class="selection-copy">
-          <span class="data-label">Sélection publiée</span>
-          <strong>{getSelectionLabel(prediction.selection)}</strong>
-        </div>
-      </div>
-      <PredictionReel selection={prediction.selection} />
-    </div>
-
-    <div class="data-grid">
-      <OddsDisplay prediction={prediction} />
-      <VirtualStakeDisplay cents={prediction.virtualStakeCents} />
-      <div class="data-cell">
-        <span class="data-label">Cote observée</span>
-        <strong>{formatDateTime(prediction.bookmaker.observedAt)}</strong>
-        <small>Avant publication</small>
-      </div>
-    </div>
-
-    <PredictionReasoning prediction={prediction} />
-    <div class="prediction-hero-actions">
-      <ButtonLink href={`/pronostic/${prediction.id}/`} label="Voir la preuve complète" />
-      <span class="proof-id">ID · {prediction.id}</span>
-    </div>
-  </article>
-));
-
 export const PredictionCard = component$<{ prediction: PredictionView }>(({ prediction }) => (
   <Card class={`prediction-card status-border-${prediction.status.toLowerCase()}`}>
     <Link
@@ -176,7 +137,7 @@ export const PredictionCard = component$<{ prediction: PredictionView }>(({ pred
     <div class="prediction-card-head">
       <div>
         <span class="eyebrow">{prediction.competition.name}</span>
-        <time dateTime={prediction.kickoffAt}>{formatShortDate(prediction.kickoffAt)}</time>
+        <time dateTime={prediction.kickoffAt}>{formatShortDateTime(prediction.kickoffAt)}</time>
       </div>
       <StatusBadge status={prediction.status} />
     </div>
@@ -193,6 +154,7 @@ export const PredictionCard = component$<{ prediction: PredictionView }>(({ pred
       <span>
         <small>COTE</small>
         <strong>{prediction.recordedOdds}</strong>
+        <em>{prediction.bookmaker.name}</em>
       </span>
       <span>
         <small>NET</small>
@@ -202,6 +164,25 @@ export const PredictionCard = component$<{ prediction: PredictionView }>(({ pred
       </span>
     </div>
   </Card>
+));
+
+export const DailyPredictions = component$<{
+  predictions: PredictionView[];
+  dateLabel: string;
+  isDemo: boolean;
+}>(({ predictions, dateLabel, isDemo }) => (
+  <section class="section-block daily-predictions" data-intro-panel>
+    <SectionHeader
+      eyebrow={isDemo ? "PRONOSTICS DE DÉMONSTRATION" : "PRONOSTICS DU JOUR"}
+      title={`${predictions.length} pronostic${predictions.length > 1 ? "s" : ""} publié${predictions.length > 1 ? "s" : ""}`}
+      description={`${dateLabel} · Chaque publication possède sa propre preuve, sa cote enregistrée et sa mise virtuelle fixe.`}
+    />
+    <div class="prediction-list daily-predictions-grid">
+      {predictions.map((prediction) => (
+        <PredictionCard key={prediction.id} prediction={prediction} />
+      ))}
+    </div>
+  </section>
 ));
 
 export const RecentPredictions = component$<{ predictions: PredictionView[] }>(

@@ -6,6 +6,9 @@ import { STATUS_LABELS } from "~/config/product";
 import { createDocumentHead } from "~/lib/formatting/seo";
 import { loadContentResult } from "~/lib/server/content-repository.server";
 import type { PredictionStatus } from "~/types/prediction";
+import { PRODUCT_CONFIG } from "~/config/product";
+import { groupPredictionsByPublicationDay } from "~/lib/domain/predictions";
+import { formatCalendarDate } from "~/lib/formatting/format";
 
 const FILTERS: { value: PredictionStatus | "ALL"; label: string }[] = [
   { value: "ALL", label: "Tous" },
@@ -29,6 +32,7 @@ export default component$(() => {
   const visiblePredictions = snapshot.predictions.filter(
     (prediction) => activeFilter.value === "ALL" || prediction.status === activeFilter.value,
   );
+  const dayGroups = groupPredictionsByPublicationDay(visiblePredictions, PRODUCT_CONFIG.timezone);
 
   return (
     <div class="route-stack">
@@ -69,9 +73,28 @@ export default component$(() => {
           message="Les faits publiés restent disponibles dans les autres catégories."
         />
       ) : (
-        <div class="prediction-list" aria-live="polite">
-          {visiblePredictions.map((prediction) => (
-            <PredictionCard key={prediction.id} prediction={prediction} />
+        <div class="history-groups" aria-live="polite">
+          {dayGroups.map((group) => (
+            <section
+              key={group.dateKey}
+              class="history-day"
+              aria-labelledby={`history-day-${group.dateKey}`}
+            >
+              <header>
+                <h2 id={`history-day-${group.dateKey}`}>
+                  <time dateTime={group.dateKey}>{formatCalendarDate(group.dateKey)}</time>
+                </h2>
+                <span>
+                  {group.predictions.length} publication
+                  {group.predictions.length > 1 ? "s" : ""}
+                </span>
+              </header>
+              <div class="prediction-list">
+                {group.predictions.map((prediction) => (
+                  <PredictionCard key={prediction.id} prediction={prediction} />
+                ))}
+              </div>
+            </section>
           ))}
         </div>
       )}

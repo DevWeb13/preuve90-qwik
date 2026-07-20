@@ -74,8 +74,8 @@ Un lien d’évitement « Aller au contenu » apparaît au focus. Les pages lég
 
 ## Anatomie des pages
 
-- Accueil : preuve du jour dominante, indicateurs essentiels, derniers faits, transparence.
-- Historique : en-tête, compteur, filtres d’état, cartes chronologiques.
+- Accueil : publications du jour en grille lisible, indicateurs essentiels, derniers faits, transparence.
+- Historique : en-tête, compteur, filtres d’état et cartes regroupées par journée civile.
 - Preuve : identité immuable, match, cote et mise, raisonnement, règlement, chronologie.
 - Statistiques : indicateurs, répartition, courbe cumulative SVG, formules et taille d’échantillon.
 - Méthode : protocole séquentiel, limites et budget de source.
@@ -86,7 +86,7 @@ Un lien d’évitement « Aller au contenu » apparaît au focus. Les pages lég
 
 Les composants génériques (`Card`, `Panel`, `Badge`, `ButtonLink`, en-têtes et états) partagent les mêmes tokens. Les composants métier n’abritent aucun calcul financier : ils reçoivent des vues déjà dérivées.
 
-`PredictionReel` reprend seulement le rythme visuel d’un rouleau `1 / N / 2`. Il n’est ni cliquable ni associé à une action de pari. `PredictionHero` concentre la preuve du jour. Les graphiques restent en SVG natif et proposent toujours un résumé textuel.
+`PredictionReel` reprend seulement le rythme visuel d’un rouleau `1 / N / 2`. Il n’est ni cliquable ni associé à une action de pari. `DailyPredictions` présente les preuves du jour sans empiler de grands panneaux ni imposer de carrousel. Les graphiques restent en SVG natif et proposent toujours un résumé textuel.
 
 ## Animations
 
@@ -128,7 +128,7 @@ Les données locales sont rendues immédiatement côté serveur : aucun spinner 
 
 ## Critères de validation visuelle
 
-- le pronostic et son statut se comprennent en moins de cinq secondes ;
+- les publications du jour et leurs statuts se comprennent en moins de cinq secondes ;
 - la preuve, la cote observée, Betclic (FR) et la mise virtuelle sont visibles sans ambiguïté ;
 - aucun écran ne ressemble à un tunnel de pari ;
 - aucune largeur entre 320 px et 1440 px ne produit de débordement horizontal ;

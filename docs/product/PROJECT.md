@@ -17,7 +17,8 @@ Le ton éditorial doit être factuel, prudent et transparent. Les performances h
 - Football uniquement.
 - Paris simples 1N2 uniquement.
 - Résultat au terme du temps réglementaire uniquement.
-- Au maximum un pronostic pertinent par jour.
+- Zéro, un ou plusieurs pronostics pertinents peuvent être publiés le même jour, sans plafond quotidien arbitraire.
+- Un même match ne peut jamais faire l’objet de plusieurs publications.
 - Aucun pari hippique.
 - Aucun pari combiné.
 - Aucun argent réel.
@@ -42,7 +43,7 @@ Cette référence est consignée dans l’ADR-007 et ne peut pas changer opportu
 
 La V1 ne possède aucune base de données ni route API d’administration. Les publications et règlements sont des fichiers JSON distincts, immuables et versionnés dans Git. Vite les intègre au build avec `import.meta.glob` ; aucun accès au système de fichiers n’a lieu au runtime Vercel Edge.
 
-Les futurs robots ChatGPT travailleront sur une branche dédiée, ajouteront au plus un nouveau fichier par fait et soumettront leur proposition à une revue humaine. Ils ne modifieront jamais une publication existante.
+Les futurs robots ChatGPT travailleront sur une branche dédiée, ajouteront un fichier distinct par fait et soumettront leur proposition à une revue humaine. Ils ne modifieront jamais une publication existante.
 
 En développement uniquement, des fixtures TypeScript déterministes rendent l’interface vérifiable lorsque la collection réelle est vide. Elles sont identifiées par un bandeau et ne remplacent jamais l’état vide de production.
 
@@ -145,7 +146,7 @@ Les formulations juridiques définitives devront être validées avant ouverture
 
 Deux tâches ChatGPT distinctes sont prévues, mais restent inactives tant que leurs préconditions opérationnelles ne sont pas toutes décidées :
 
-1. recherche, analyse et publication d'un nouveau pronostic ;
+1. recherche, analyse et publication éventuelle de pronostics pertinents ;
 2. vérification des matchs terminés, règlement des pronostics et recalcul des statistiques.
 
 Leurs contrats d'exécution sont définis dans `docs/automations/`.

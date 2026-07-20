@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import { DashboardIntro } from "~/components/motion/motion";
 import {
-  PredictionHero,
+  DailyPredictions,
   RecentPredictions,
   TransparencyNotice,
 } from "~/components/domain/predictions";
@@ -11,22 +11,39 @@ import { DataError, DemoBanner, EmptyState } from "~/components/ui/primitives";
 import { SITE_CONFIG } from "~/config/site";
 import { loadContentResult } from "~/lib/server/content-repository.server";
 import { createDocumentHead } from "~/lib/formatting/seo";
+import { PRODUCT_CONFIG } from "~/config/product";
+import { getDateKeyInTimeZone } from "~/lib/domain/calendar";
+import { selectPredictionsForDate } from "~/lib/domain/predictions";
+import { formatCalendarDate } from "~/lib/formatting/format";
 
-export const useHomeContent = routeLoader$(() => loadContentResult());
+export const useHomeContent = routeLoader$(() => {
+  const referenceDate = new Date();
+  return {
+    content: loadContentResult(referenceDate),
+    todayDateKey: getDateKeyInTimeZone(referenceDate, PRODUCT_CONFIG.timezone),
+  };
+});
 
 export default component$(() => {
   const content = useHomeContent();
 
-  if (content.value.state === "error") {
+  if (content.value.content.state === "error") {
     return (
       <div class="route-stack">
-        <DataError message={content.value.message} />
+        <DataError message={content.value.content.message} />
       </div>
     );
   }
 
-  const { snapshot } = content.value;
-  const featured = snapshot.predictions[0];
+  const { snapshot } = content.value.content;
+  const todayPredictions = selectPredictionsForDate(
+    snapshot.predictions,
+    content.value.todayDateKey,
+    PRODUCT_CONFIG.timezone,
+  );
+  const recentHistorical = snapshot.predictions
+    .filter((prediction) => !todayPredictions.some((today) => today.id === prediction.id))
+    .slice(0, 3);
 
   return (
     <DashboardIntro>
@@ -37,12 +54,16 @@ export default component$(() => {
         <p>{SITE_CONFIG.description}</p>
       </header>
 
-      {featured ? (
-        <PredictionHero prediction={featured} />
+      {todayPredictions.length > 0 ? (
+        <DailyPredictions
+          predictions={todayPredictions}
+          dateLabel={formatCalendarDate(content.value.todayDateKey)}
+          isDemo={snapshot.isDemo}
+        />
       ) : (
         <EmptyState
-          title="Aucun pronostic publié"
-          message="L’expérience n’a pas encore enregistré de pronostic réel. Rien n’est fabriqué pour remplir cet espace."
+          title="Aucun pronostic publié aujourd’hui"
+          message="Le protocole ne force aucune sélection lorsqu’aucun match ne présente un niveau de pertinence suffisant."
           actionHref="/methode/"
           actionLabel="Découvrir le protocole"
         />
@@ -57,9 +78,7 @@ export default component$(() => {
         <StatisticsGrid statistics={snapshot.statistics} />
       </section>
 
-      {snapshot.predictions.length > 1 && (
-        <RecentPredictions predictions={snapshot.predictions.slice(1, 4)} />
-      )}
+      {recentHistorical.length > 0 && <RecentPredictions predictions={recentHistorical} />}
       <TransparencyNotice />
     </DashboardIntro>
   );

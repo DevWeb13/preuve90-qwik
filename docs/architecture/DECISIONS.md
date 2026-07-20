@@ -144,7 +144,8 @@ Stocker les publications et règlements dans deux collections JSON distinctes ve
 
 - Aucun accès `fs` ni base de données au runtime.
 - Une publication ou un règlement est ajouté par un futur robot via une branche et une revue humaine, jamais modifié en place.
-- Le dépôt valide les schémas, les identifiants, l’unicité quotidienne et les associations avant exposition.
+- La contrainte d’unicité quotidienne initialement envisagée est remplacée par l’ADR-011.
+- Le dépôt valide les schémas, les identifiants, les matchs et les associations avant exposition.
 - Aucune route API d’administration n’existe en V1.
 
 ---
@@ -234,6 +235,31 @@ Tester avec Vitest les fonctions pures de calcul, validation, assemblage et stat
 - Les tests ne ciblent pas les détails de rendu Qwik.
 - `npm run check` inclut les tests unitaires.
 - Une branche rouge ne doit pas être publiée.
+
+---
+
+## ADR-011 — Plusieurs publications autorisées par journée
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+- **Remplace :** l’hypothèse d’unicité quotidienne mentionnée avant cette décision
+
+### Contexte
+
+La limite d’un pronostic quotidien ne reflète ni le nombre variable de matchs pertinents ni l’objectif de mesurer chaque analyse indépendamment. Elle écarterait artificiellement des candidats valides sans améliorer la traçabilité.
+
+### Décision
+
+Autoriser zéro, une ou plusieurs publications pour une même date civile `Europe/Paris`, sans plafond journalier codé en dur. L’unicité reste obligatoire pour l’identifiant interne et l’identifiant externe du match. Chaque publication et chaque règlement demeurent des faits distincts et individuellement immuables.
+
+### Conséquences
+
+- Les statistiques additionnent toutes les mises et tous les règlements individuels.
+- La pertinence, les compétitions autorisées, les matchs disponibles et le budget absolu de 500 crédits The Odds API empêchent une publication massive sans intérêt.
+- Une exécution peut toujours conclure qu’aucun candidat n’est pertinent.
+- Les appels API groupés et économiques sont privilégiés, même lorsque plusieurs matchs sont analysés.
+- La CI refuse la modification, la suppression ou le renommage d’un JSON déjà présent sur la branche de base.
 
 ---
 

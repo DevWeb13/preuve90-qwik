@@ -1,9 +1,6 @@
 import type { PredictionStatistics, PredictionView } from "~/types/prediction";
-
-function dayNumber(dateKey: string): number {
-  const [year, month, day] = dateKey.split("-").map(Number);
-  return Date.UTC(year, month - 1, day) / 86_400_000;
-}
+import { PRODUCT_CONFIG } from "~/config/product";
+import { differenceInCalendarDays, getDateKeyInTimeZone } from "./calendar";
 
 export function calculateStatistics(
   predictions: PredictionView[],
@@ -35,16 +32,13 @@ export function calculateStatistics(
     };
   });
   const firstDate = predictions.reduce<string | null>((earliest, prediction) => {
-    if (earliest === null || prediction.publicationDate < earliest) {
-      return prediction.publicationDate;
+    const dateKey = getDateKeyInTimeZone(prediction.publishedAt, PRODUCT_CONFIG.timezone);
+    if (earliest === null || dateKey < earliest) {
+      return dateKey;
     }
     return earliest;
   }, null);
-  const referenceKey = [
-    referenceDate.getUTCFullYear(),
-    String(referenceDate.getUTCMonth() + 1).padStart(2, "0"),
-    String(referenceDate.getUTCDate()).padStart(2, "0"),
-  ].join("-");
+  const referenceKey = getDateKeyInTimeZone(referenceDate, PRODUCT_CONFIG.timezone);
 
   return {
     totalPredictions: predictions.length,
@@ -66,7 +60,9 @@ export function calculateStatistics(
         ? null
         : (totalRealizedReturnCents - totalSettledStakeCents) / totalSettledStakeCents,
     daysSinceFirstPublication:
-      firstDate === null ? 0 : Math.max(1, dayNumber(referenceKey) - dayNumber(firstDate) + 1),
+      firstDate === null
+        ? 0
+        : Math.max(1, differenceInCalendarDays(firstDate, referenceKey) + 1),
     statusDistribution: {
       PENDING: predictions.length - settled.length,
       WON: wonPredictions,

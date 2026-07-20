@@ -2,6 +2,20 @@ import type { Settlement } from "~/types/prediction";
 
 export const demoSettlements: Settlement[] = [
   {
+    predictionId: "demo-2026-07-20-reims-auxerre",
+    settledAt: "2026-07-20T17:05:00Z",
+    status: "LOST",
+    finalScore: { home: 2, away: 0 },
+    source: { provider: "the-odds-api", eventId: "demo-event-009" },
+  },
+  {
+    predictionId: "demo-2026-07-20-lorient-strasbourg",
+    settledAt: "2026-07-20T14:10:00Z",
+    status: "WON",
+    finalScore: { home: 1, away: 1 },
+    source: { provider: "the-odds-api", eventId: "demo-event-008" },
+  },
+  {
     predictionId: "demo-2026-07-19-nantes-lille",
     settledAt: "2026-07-19T19:10:00Z",
     status: "WON",
