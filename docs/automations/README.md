@@ -8,7 +8,7 @@ GitHub est la source d’autorité des instructions et des faits publics. À cha
 2. ce fichier ;
 3. son fichier d’instructions dédié.
 
-Deux tâches sont prévues : publication éventuelle de pronostics pertinents et règlement des rencontres terminées. Elles restent **inactives** tant que toutes leurs préconditions opérationnelles ne sont pas acceptées. La collecte GitHub Actions décrite par l’ADR-012 ne les active pas.
+Deux tâches sont prévues : publication éventuelle du meilleur candidat multisport du scan et règlement des événements terminés. Elles restent **inactives** tant que toutes leurs préconditions opérationnelles ne sont pas acceptées. La collecte GitHub Actions décrite par les ADR-012 et ADR-013 ne les active pas.
 
 ## Architecture V1
 
@@ -26,7 +26,7 @@ La tâche ne modifie jamais un fait existant, ne fusionne pas sa propre proposit
 - Une erreur ou ambiguïté produit un arrêt sûr sans fichier partiel.
 - Les timestamps persistés sont en UTC ISO 8601 ; la date de publication utilise `Europe/Paris`.
 - Aucun pronostic n’est forcé pour remplir un quota.
-- Plusieurs faits peuvent être proposés le même jour, sans plafond codé, si chaque match est distinct et chaque analyse pertinente.
+- Une exécution publie au maximum un fait ; plusieurs exécutions peuvent proposer plusieurs faits le même jour, sans plafond journalier, si chaque événement est distinct et chaque analyse défendable.
 - Chaque appel The Odds API est groupé autant que possible et son coût consommé ou estimé est tracé.
 - Le contrôle append-only du dépôt doit réussir avant toute proposition.
 

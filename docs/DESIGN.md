@@ -1,10 +1,10 @@
-# Preuve90 — Cyber Football Lab
+# Preuve90 — AI Value Lab
 
-Ce document est la référence visuelle de la V1. L’interface doit évoquer un laboratoire de données football et une borne d’arcade futuriste, sans reprendre les codes transactionnels d’un bookmaker ou d’un casino réel.
+Ce document est la référence visuelle de la V1. L’interface évoque un laboratoire de données multisport et une borne d’arcade futuriste, sans reprendre les codes transactionnels d’un bookmaker ou d’un casino réel.
 
 ## Vision
 
-Le pronostic publié est une preuve, pas un produit à acheter. L’écran met donc d’abord en scène le match, la sélection immuable et son état, puis les chiffres observés et la méthode. Le décor cyberpunk reste un système de repères : grille, numéros, traits lumineux et surfaces techniques.
+Le pronostic publié est une preuve, pas un produit à acheter. L’écran met donc d’abord en scène l’événement, l’issue sélectionnée et son état, puis la cote, la probabilité et la valeur estimées par l’IA. Le décor cyberpunk reste un système de repères : grille, numéros, traits lumineux et surfaces techniques.
 
 Principes directeurs :
 
@@ -68,7 +68,7 @@ Le contenu mobile reçoit un espace inférieur incluant `env(safe-area-inset-bot
 
 ## Navigation
 
-Le header porte le logo `PREUVE90`, la signature `AI MATCH LAB` et quatre liens : Accueil, Historique, Statistiques, Méthode. Sous 768 px, ces liens deviennent une barre inférieure à quatre zones tactiles d’au moins 44 px. Une capsule ou ligne cyan indique la route active avec `aria-current="page"`.
+Le header porte le logo `PREUVE90`, la signature `AI VALUE LAB` et quatre liens : Accueil, Historique, Statistiques, Méthode. Sous 768 px, ces liens deviennent une barre inférieure à quatre zones tactiles d’au moins 44 px. Une capsule ou ligne cyan indique la route active avec `aria-current="page"`.
 
 Un lien d’évitement « Aller au contenu » apparaît au focus. Les pages légales restent dans le pied de page.
 
@@ -76,7 +76,7 @@ Un lien d’évitement « Aller au contenu » apparaît au focus. Les pages lég
 
 - Accueil : publications du jour en grille lisible, indicateurs essentiels, derniers faits, transparence.
 - Historique : en-tête, compteur, filtres d’état et cartes regroupées par journée civile.
-- Preuve : identité immuable, match, cote et mise, raisonnement, règlement, chronologie.
+- Preuve : identité immuable, sport, participants, issues, cote, mise, estimations, raisonnement, règlement et chronologie.
 - Statistiques : indicateurs, répartition, courbe cumulative SVG, formules et taille d’échantillon.
 - Méthode : protocole séquentiel, limites et budget de source.
 - Pages légales : texte éditorial sobre, champs d’éditeur explicitement à compléter.
@@ -86,14 +86,14 @@ Un lien d’évitement « Aller au contenu » apparaît au focus. Les pages lég
 
 Les composants génériques (`Card`, `Panel`, `Badge`, `ButtonLink`, en-têtes et états) partagent les mêmes tokens. Les composants métier n’abritent aucun calcul financier : ils reçoivent des vues déjà dérivées.
 
-`PredictionReel` reprend seulement le rythme visuel d’un rouleau `1 / N / 2`. Il n’est ni cliquable ni associé à une action de pari. `DailyPredictions` présente les preuves du jour sans empiler de grands panneaux ni imposer de carrousel. Les graphiques restent en SVG natif et proposent toujours un résumé textuel.
+`OutcomeReel` reprend le rythme visuel du rouleau historique avec les deux ou trois noms d’issues exacts. Il n’est ni cliquable ni associé à une action de pari. Les cartes affichent sport, participants, début, issue, cote, mise, probabilité estimée, valeur estimée, statut, justification et incertitude. `DailyPredictions` présente les preuves du jour sans imposer de carrousel. Les graphiques restent en SVG natif et proposent toujours un résumé textuel.
 
 ## Animations
 
 CSS couvre focus, hover, navigation active et transitions simples. GSAP est chargé dynamiquement uniquement pour :
 
 1. l’introduction du tableau de bord, sous 900 ms ;
-2. l’arrêt bref du rouleau sur la sélection publiée ;
+2. l’arrêt bref du rouleau sur l’issue sélectionnée ;
 3. la montée visuelle des compteurs ;
 4. le signal discret des états réglés.
 
@@ -128,7 +128,7 @@ Les données locales sont rendues immédiatement côté serveur : aucun spinner 
 
 ## Critères de validation visuelle
 
-- les publications du jour et leurs statuts se comprennent en moins de cinq secondes ;
+- les publications du jour, leur sport, leurs estimations et leurs statuts se comprennent en moins de cinq secondes ;
 - la preuve, la cote observée, Betclic (FR) et la mise virtuelle sont visibles sans ambiguïté ;
 - aucun écran ne ressemble à un tunnel de pari ;
 - aucune largeur entre 320 px et 1440 px ne produit de débordement horizontal ;
