@@ -265,7 +265,7 @@ Autoriser zéro, une ou plusieurs publications pour une même date civile `Europ
 
 ## ADR-012 — Collecte The Odds API via GitHub Actions
 
-- **Statut :** superseded par ADR-013 pour le périmètre et l’endpoint ; architecture GitHub Actions conservée
+- **Statut :** superseded par ADR-013 pour le périmètre et l’endpoint, puis par ADR-014 pour la planification ; architecture GitHub Actions conservée
 - **Date :** 2026-07-20
 - **Auteur :** propriétaire du projet
 
@@ -322,12 +322,46 @@ La publication reste strictement antérieure au début de l’événement. Le r�
 
 ---
 
+## ADR-014 — Automatisation planifiée et provenance des scans
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+- **Remplace :** le déclenchement exclusivement manuel et l’absence de cron de l’ADR-012
+
+### Contexte
+
+Le scanner multisport et les snapshots version 2 sont prêts, mais une collecte uniquement manuelle ne permet pas aux tâches ChatGPT externes de travailler régulièrement. La publication doit aussi prouver exactement quel fichier de cotes a servi et empêcher qu’un scan génère plusieurs pronostics.
+
+### Décision
+
+Planifier quatre collectes de cotes par jour avec `0 0,6,12,18 * * *` et deux collectes de résultats par jour avec `45 6,18 * * *`. Ces expressions GitHub sont en UTC. `workflow_dispatch` conserve les choix `odds`, `results` et `all`, tandis que chaque événement `schedule` est résolu explicitement depuis son expression exacte : aucun cron ne sélectionne `all` et toute valeur inconnue échoue.
+
+Les tâches ChatGPT de publication et de règlement sont créées manuellement hors du dépôt. Le plugin GitHub et ses permissions sont configurés manuellement par l’utilisateur ; leur disponibilité n’est jamais supposée. The Odds API reste exclusivement appelée depuis GitHub Actions et aucun secret n’est transmis à ChatGPT.
+
+Un snapshot de cotes peut être utilisé pendant au maximum 150 minutes après son `generatedAt`. La tâche de publication revérifie toujours au moment de l’analyse `maintenant + 30 minutes <= startsAt <= observedAt + 8 heures`, même si le snapshot est frais.
+
+Chaque pronostic recopie dans `source.snapshotGeneratedAt` la valeur exacte `generatedAt` de `snapshots/odds.json` et dans `source.snapshotSha` le blob SHA GitHub exact de ce fichier sur `automation-data`. Ce SHA n’est ni un SHA de commit, ni le SHA de `metadata.json`, ni un hash recalculé. Un blob SHA ne peut être associé qu’à un seul pronostic.
+
+Lorsqu’elles disposent des droits GitHub nécessaires, les tâches créent une branche dédiée et une pull request vers `master`. Elles ne poussent jamais directement sur `master`, ne fusionnent jamais et n’activent pas l’auto-merge. Toute fusion reste humaine.
+
+### Conséquences
+
+- La collecte continue de pousser uniquement les snapshots nettoyés sur `automation-data` avec `contents: write` et sans créer de pull request.
+- L’heure d’été ou d’hiver Europe/Paris n’altère pas les crons UTC ; la fraîcheur réelle protège l’analyse contre le décalage et les retards.
+- La chronologie publique devient `snapshotGeneratedAt <= bookmaker.observedAt <= publishedAt < startsAt`.
+- Plusieurs pronostics le même jour restent possibles uniquement depuis des événements et des blobs SHA distincts.
+- Un snapshot ancien, déjà utilisé ou invalide produit `blocked` sans pronostic, branche ni pull request.
+- L’absence d’accès ou de permission GitHub produit `blocked` sans supposer une configuration externe réussie.
+- Le modèle `Settlement` ne reçoit pas cette provenance de scan.
+
+---
+
 ## Décisions ouvertes avant l'activation des automatisations
 
 Les points suivants nécessitent une ADR dédiée avant leur implémentation :
 
 1. source et format des informations complémentaires utilisées par l’IA ;
-2. procédure Git et droits exacts des futurs robots ChatGPT ;
-3. politique de correction en cas d’erreur factuelle publiée ;
-4. règles détaillées par sport et marché pour les événements reportés, abandonnés ou interrompus ;
-5. formulation juridique et dispositif de prévention des risques liés aux jeux d’argent.
+2. politique de correction en cas d’erreur factuelle publiée ;
+3. règles détaillées par sport et marché pour les événements reportés, abandonnés ou interrompus ;
+4. formulation juridique et dispositif de prévention des risques liés aux jeux d’argent.

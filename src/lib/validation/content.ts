@@ -54,6 +54,14 @@ function asUtcTimestamp(value: unknown, path: string): string {
   return timestamp;
 }
 
+function asSnapshotSha(value: unknown, path: string): string {
+  const sha = asString(value, path);
+  if (!/^[0-9a-f]{40}$/.test(sha)) {
+    fail(path, "un blob SHA GitHub hexadécimal minuscule de 40 caractères est attendu");
+  }
+  return sha;
+}
+
 function asSettlementStatus(value: unknown, path: string): SettlementStatus {
   if (value !== "WON" && value !== "LOST" && value !== "VOID") {
     fail(path, "WON, LOST ou VOID est attendu");
@@ -118,6 +126,11 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   const publishedAt = asUtcTimestamp(input.publishedAt, `${path}.publishedAt`);
   const startsAt = asUtcTimestamp(input.startsAt, `${path}.startsAt`);
   const observedAt = asUtcTimestamp(bookmaker.observedAt, `${path}.bookmaker.observedAt`);
+  const snapshotGeneratedAt = asUtcTimestamp(
+    source.snapshotGeneratedAt,
+    `${path}.source.snapshotGeneratedAt`,
+  );
+  const snapshotSha = asSnapshotSha(source.snapshotSha, `${path}.source.snapshotSha`);
   const recordedOdds = asString(input.recordedOdds, `${path}.recordedOdds`);
   const eventId = asString(event.eventId, `${path}.event.eventId`);
   const participantA = asString(event.participantA, `${path}.event.participantA`);
@@ -139,6 +152,12 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   }
   if (publicationDate !== getDateKeyInTimeZone(publishedAt, PRODUCT_CONFIG.timezone)) {
     fail(`${path}.publicationDate`, "la date doit correspondre à la publication Europe/Paris");
+  }
+  if (Date.parse(snapshotGeneratedAt) > Date.parse(observedAt)) {
+    fail(
+      `${path}.source.snapshotGeneratedAt`,
+      "la génération du snapshot ne peut pas suivre l’observation",
+    );
   }
   if (Date.parse(observedAt) > Date.parse(publishedAt)) {
     fail(`${path}.bookmaker.observedAt`, "l’observation ne peut pas suivre la publication");
@@ -204,7 +223,12 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
       factors: asStringArray(reasoning.factors, `${path}.reasoning.factors`),
       uncertainty: asString(reasoning.uncertainty, `${path}.reasoning.uncertainty`),
     },
-    source: { provider: PRODUCT_CONFIG.oddsProvider, eventId },
+    source: {
+      provider: PRODUCT_CONFIG.oddsProvider,
+      eventId,
+      snapshotGeneratedAt,
+      snapshotSha,
+    },
   };
 }
 

@@ -19,6 +19,7 @@ Ces règles ne peuvent pas être assouplies sans décision explicite du proprié
 - tous sports et tous pays parmi les événements effectivement retournés par The Odds API ;
 - marché simple principal `h2h` uniquement, avec deux ou trois issues Betclic exactes ;
 - zéro ou un pronostic peut être publié par scan, sans plafond quotidien codé en dur ;
+- un même blob de snapshot de cotes ne peut produire qu’un seul pronostic ;
 - chaque pronostic doit rester pertinent et aucun ne doit être créé uniquement pour augmenter le volume ;
 - un identifiant interne et un événement ne peuvent apparaître qu’une seule fois ;
 - mise virtuelle fixe de 5 EUR ;
@@ -79,11 +80,14 @@ Utiliser des montants décimaux maîtrisés. Ne jamais laisser des approximation
 - Éviter les appels par match lorsqu'un appel groupé suffit.
 - Mettre en cache les réponses lorsque cela ne compromet pas l'actualité de la cote.
 - Ne jamais remplacer une cote enregistrée par une cote plus récente.
+- Chaque pronostic recopie le `generatedAt` et le blob SHA GitHub exact de `snapshots/odds.json` utilisé.
 - Conserver les timestamps en UTC au format ISO 8601 et afficher les dates dans le fuseau approprié côté interface.
 - Les opérations de publication et de règlement doivent être idempotentes.
 - Une nouvelle exécution ne doit jamais créer un doublon ni modifier silencieusement un fait publié.
 
 ## Automatisations ChatGPT
+
+Les tâches ChatGPT sont créées manuellement hors du dépôt. Le plugin GitHub et ses permissions sont configurés manuellement ; leur disponibilité ne doit jamais être supposée. Aucun secret The Odds API n’est transmis à ChatGPT.
 
 Une tâche planifiée doit :
 

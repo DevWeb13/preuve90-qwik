@@ -11,6 +11,7 @@ Chaque scan examine uniquement les prochains événements fournis par The Odds A
 - marché `h2h` simple, avec exactement deux ou trois issues conservées sous leur nom exact ;
 - début compris entre 30 minutes et 8 heures après l’observation, bornes incluses ;
 - zéro ou un pronostic par scan, sans plafond journalier ;
+- un seul pronostic maximum par blob de snapshot de cotes ;
 - cote, observation, probabilité estimée et publication immuables ;
 - aucun pari réel, live, combiné, handicap, total, score exact ou pari joueur ;
 - aucune garantie de gain ou de rentabilité et aucun lien bookmaker.
@@ -41,9 +42,11 @@ src/content/
 └── demo/              # fixtures TypeScript, développement uniquement
 ```
 
-Les JSON sont intégrés au build avec `import.meta.glob` en mode eager, sans `fs` au runtime Edge. Une publication ne contient pas son statut : l’absence de règlement dérive `PENDING`; un règlement distinct porte `WON`, `LOST` ou `VOID`. Les retours et statistiques sont recalculés au centime depuis ces faits.
+Les JSON sont intégrés au build avec `import.meta.glob` en mode eager, sans `fs` au runtime Edge. Chaque publication conserve le `generatedAt` exact et le blob SHA GitHub de `snapshots/odds.json` utilisé. Une publication ne contient pas son statut : l’absence de règlement dérive `PENDING`; un règlement distinct porte `WON`, `LOST` ou `VOID`. Les retours et statistiques sont recalculés au centime depuis ces faits.
 
-Un workflow GitHub Actions exclusivement manuel collecte des snapshots nettoyés dans la branche technique `automation-data`. Le mode cotes effectue `GET /v4/sports/upcoming/odds` avec `bookmakers=betclic_fr`, `markets=h2h`, `oddsFormat=decimal` et `dateFormat=iso`. Le mode résultats regroupe uniquement les pronostics non réglés par `sport.key`. Aucun appel réel n’est effectué par les tests.
+Un workflow GitHub Actions collecte les snapshots nettoyés dans la branche technique `automation-data` : cotes à `00:00`, `06:00`, `12:00` et `18:00` UTC, résultats à `06:45` et `18:45` UTC, avec les modes `odds`, `results` et `all` toujours disponibles manuellement. Le mode cotes effectue `GET /v4/sports/upcoming/odds` avec `bookmakers=betclic_fr`, `markets=h2h`, `oddsFormat=decimal` et `dateFormat=iso`. Le mode résultats regroupe uniquement les pronostics non réglés par `sport.key`. Aucun appel réel n’est effectué par les tests.
+
+Les tâches ChatGPT de publication et de règlement sont configurées manuellement hors du dépôt avec le plugin GitHub et des permissions choisies par l’utilisateur. Le dépôt ne les crée pas et ne suppose pas leurs droits disponibles. Elles peuvent proposer une branche et une pull request vers `master`, mais la fusion reste toujours humaine.
 
 ## Mode démonstration
 

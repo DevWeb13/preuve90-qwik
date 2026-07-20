@@ -30,7 +30,12 @@ export const demoPredictions: Prediction[] = [
       factors: ["Forces simulées proches", "Cote entièrement fictive"],
       uncertainty: "Aucune donnée sportive réelle n’est utilisée dans cette démonstration.",
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-football" },
+    source: {
+      provider: "the-odds-api",
+      eventId: "demo-event-football",
+      snapshotGeneratedAt: "2026-07-20T08:00:00Z",
+      snapshotSha: "1111111111111111111111111111111111111111",
+    },
   },
   {
     id: "demo-2026-07-20-tennis-a",
@@ -60,7 +65,12 @@ export const demoPredictions: Prediction[] = [
       factors: ["Forme récente simulée", "Conditions de jeu inventées"],
       uncertainty: "Les joueurs et l’analyse sont entièrement fictifs.",
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-tennis-a" },
+    source: {
+      provider: "the-odds-api",
+      eventId: "demo-event-tennis-a",
+      snapshotGeneratedAt: "2026-07-20T08:20:00Z",
+      snapshotSha: "2222222222222222222222222222222222222222",
+    },
   },
   {
     id: "demo-2026-07-20-basket-b",
@@ -90,7 +100,12 @@ export const demoPredictions: Prediction[] = [
       factors: ["Rotation simulée", "Projection fictive du rythme"],
       uncertainty: "Cette publication ne décrit aucun événement réel.",
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-basket-b" },
+    source: {
+      provider: "the-odds-api",
+      eventId: "demo-event-basket-b",
+      snapshotGeneratedAt: "2026-07-20T08:50:00Z",
+      snapshotSha: "3333333333333333333333333333333333333333",
+    },
   },
   {
     id: "demo-2026-07-19-tennis-void",
@@ -120,7 +135,12 @@ export const demoPredictions: Prediction[] = [
       factors: ["Signal simulé", "Cas d’annulation purement illustratif"],
       uncertainty: "Aucune règle de marché réelle n’est appliquée à cette fixture.",
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-tennis-void" },
+    source: {
+      provider: "the-odds-api",
+      eventId: "demo-event-tennis-void",
+      snapshotGeneratedAt: "2026-07-19T07:50:00Z",
+      snapshotSha: "4444444444444444444444444444444444444444",
+    },
   },
   {
     id: "demo-2026-07-20-basket-pending",
@@ -150,6 +170,11 @@ export const demoPredictions: Prediction[] = [
       factors: ["Efficacité simulée", "Cote fictive"],
       uncertainty: "Le statut en attente sert uniquement à vérifier l’interface.",
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-basket-pending" },
+    source: {
+      provider: "the-odds-api",
+      eventId: "demo-event-basket-pending",
+      snapshotGeneratedAt: "2026-07-20T09:55:00Z",
+      snapshotSha: "5555555555555555555555555555555555555555",
+    },
   },
 ];

@@ -3,10 +3,22 @@
 ## Architecture
 
 ```text
-The Odds API → GitHub Action manuelle → branche automation-data → snapshots JSON nettoyés
+The Odds API → GitHub Action planifiée ou manuelle → branche automation-data → snapshots JSON nettoyés
 ```
 
-Le pipeline n’ajoute ni base de données, ni route API Qwik, ni endpoint d’administration. Le secret reste dans GitHub Actions. Les futures tâches ChatGPT, inactives, ne reçoivent que les snapshots nettoyés.
+Le pipeline n’ajoute ni base de données, ni route API Qwik, ni endpoint d’administration. Le secret reste dans GitHub Actions. Les tâches ChatGPT, configurées manuellement hors du dépôt, ne reçoivent que les snapshots nettoyés et leur accès GitHub n’est jamais supposé.
+
+## Déclenchements et modes
+
+GitHub interprète les expressions en UTC :
+
+```text
+0 0,6,12,18 * * *  → odds
+45 6,18 * * *       → results
+workflow_dispatch   → odds, results ou all selon inputs.mode
+```
+
+La commande `scripts/odds/resolve-collection-mode.mjs` résout explicitement le mode depuis le nom d’événement, l’expression planifiée exacte et l’entrée manuelle. Toute valeur inconnue échoue ; aucun cron ne sélectionne `all`. Sa sortie unique est réutilisée pour la collecte, les logs et le choix des snapshots publiés. La concurrence reste limitée à une collecte à la fois.
 
 ## Scan des cotes
 
@@ -49,13 +61,15 @@ snapshots/metadata.json
 
 `odds.json` contient `schemaVersion`, `generatedAt`, le bookmaker, la fenêtre et les événements normalisés avec sport, participants, début, observation et marché `h2h`. `results.json` contient les résultats techniques génériques. `metadata.json` contient le mode, `sourceMode`, la couverture limitée à 8 événements, la possibilité de live en amont, la fenêtre, les compteurs et le quota.
 
-Les trois fichiers ont des timestamps UTC millisecondés, un schéma strict, un tri déterministe et aucun champ brut inutile. Aucun secret, URL API ou en-tête sensible n’est persisté. Une collecte partielle remplace uniquement le snapshot du mode demandé dans le workflow ; l’autre mode est préservé. Lors de la première initialisation, un snapshot vide valide est disponible.
+Les trois fichiers ont des timestamps UTC millisecondés, un schéma strict, un tri déterministe et aucun champ brut inutile. Aucun secret, URL API ou en-tête sensible n’est persisté. Une collecte partielle remplace uniquement le snapshot du mode résolu dans le workflow ; l’autre mode est préservé. Lors de la première initialisation, un snapshot vide valide est disponible.
+
+La tâche ChatGPT de publication relève le blob SHA GitHub exact de `snapshots/odds.json` sur `automation-data` et recopie son `generatedAt`. Ce snapshot est bloqué au-delà de 150 minutes et ne peut servir qu’à une publication. Même frais, il ne dispense jamais de revérifier au moment de l’analyse `maintenant + 30 minutes <= startsAt <= observedAt + 8 heures`.
 
 ## Budget API
 
 La limite absolue est de 500 crédits par mois. Le garde-fou refuse un nouvel appel dès 450 crédits utilisés ou 50 crédits restants. Le client lit `x-requests-used`, `x-requests-remaining` et `x-requests-last`; une valeur absente reste `null` avec avertissement. Les requêtes identiques sont dédupliquées pendant une exécution.
 
-Plan futur, documenté mais non activé :
+Planification active des cotes :
 
 ```text
 4 scans de cotes par jour
@@ -63,7 +77,7 @@ Plan futur, documenté mais non activé :
 environ 120 crédits par mois
 ```
 
-Le coût réel dépend de la tarification et des réponses du fournisseur ; il n’est pas garanti. Les vérifications de résultats sont déclenchées uniquement lorsqu’il existe des pronostics non réglés et restent soumises au garde-fou global.
+Le coût réel dépend de la tarification et des réponses du fournisseur ; il n’est pas garanti. Les collectes de résultats sont planifiées deux fois par jour. Elles n’effectuent aucun appel fournisseur lorsqu’aucun pronostic non réglé n’est éligible et restent soumises au garde-fou global.
 
 ## Utilisation locale et GitHub
 
@@ -76,4 +90,4 @@ npm run odds:pipeline -- --mode all --output ./tmp/snapshots
 npm run odds:validate -- --output ./tmp/snapshots
 ```
 
-Les tests utilisent uniquement des réponses simulées. Dans GitHub Actions, lancer manuellement « Collect Betclic data » avec `odds`, `results` ou `all`. Le workflow part de `master`, teste, collecte dans un dossier temporaire, valide, puis met à jour uniquement `automation-data`. Il ne crée aucune pull request, ne fusionne rien et ne pousse jamais sur `master`. Aucun cron n’est actif.
+Les tests utilisent uniquement des réponses simulées. Dans GitHub Actions, « Collect Betclic data » peut aussi être lancé manuellement avec `odds`, `results` ou `all`. Le workflow part de `master`, teste, résout le mode, collecte dans un dossier temporaire, valide, puis met à jour uniquement `automation-data`. Il ne crée aucune pull request, ne fusionne rien et ne pousse jamais sur `master`.
