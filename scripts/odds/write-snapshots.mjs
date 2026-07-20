@@ -148,6 +148,7 @@ function validateMetadata(metadata) {
       "generatedAt",
       "mode",
       "competitions",
+      "inactiveCompetitions",
       "requests",
       "eventsReceived",
       "eventsPublished",
@@ -158,7 +159,22 @@ function validateMetadata(metadata) {
   assert(metadata.schemaVersion === 1, "metadata.schemaVersion doit valoir 1.");
   assertTimestamp(metadata.generatedAt, "metadata.generatedAt");
   assert(["odds", "results", "all"].includes(metadata.mode), "metadata.mode est invalide.");
-  assert(Array.isArray(metadata.competitions), "metadata.competitions doit être une liste.");
+  const allowedCompetitionKeys = new Set(COMPETITIONS.map((competition) => competition.key));
+  for (const field of ["competitions", "inactiveCompetitions"]) {
+    assert(Array.isArray(metadata[field]), `metadata.${field} doit être une liste.`);
+    assert(
+      metadata[field].every((key) => allowedCompetitionKeys.has(key)),
+      `metadata.${field} contient une compétition non autorisée.`,
+    );
+    assert(
+      new Set(metadata[field]).size === metadata[field].length,
+      `metadata.${field} contient un doublon.`,
+    );
+    assert(
+      metadata[field].join(",") === [...metadata[field]].sort().join(","),
+      `metadata.${field} doit être trié.`,
+    );
+  }
   for (const field of ["requests", "eventsReceived", "eventsPublished"]) {
     assert(
       Number.isSafeInteger(metadata[field]) && metadata[field] >= 0,

@@ -8,6 +8,20 @@ export class OddsApiError extends Error {
   }
 }
 
+const SAFE_ERROR_CODE = /^[A-Z][A-Z0-9_]{1,63}$/;
+
+function isRecord(value) {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+export function formatApiTimestamp(value) {
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) {
+    throw new OddsApiError("Le timestamp destiné à The Odds API est invalide.");
+  }
+  return parsed.toISOString().replace(/\.\d{3}Z$/, "Z");
+}
+
 export function requireApiKey(environment = process.env) {
   const apiKey = environment.THE_ODDS_API_KEY;
   if (typeof apiKey !== "string" || apiKey.trim() === "") {
@@ -27,6 +41,18 @@ function assertAllowedCompetition(sportKey) {
   }
 }
 
+async function readSafeErrorCode(response, apiKey) {
+  try {
+    const body = await response.json();
+    const code = isRecord(body) ? (body.error_code ?? body.code) : null;
+    return typeof code === "string" && SAFE_ERROR_CODE.test(code) && !code.includes(apiKey)
+      ? code
+      : null;
+  } catch {
+    return null;
+  }
+}
+
 export function createOddsApiClient({
   apiKey,
   fetchImpl = globalThis.fetch,
@@ -42,18 +68,18 @@ export function createOddsApiClient({
   }
 
   const requests = new Map();
-  let requestCount = 0;
+  let paidRequestCount = 0;
 
-  async function request(pathname, parameters) {
+  async function request(pathname, parameters, { paid = true } = {}) {
     const requestKey = canonicalRequestKey(pathname, parameters);
     if (requests.has(requestKey)) return requests.get(requestKey);
 
-    budget.assertCanRequest();
+    if (paid) budget.assertCanRequest();
     const pendingRequest = (async () => {
       const url = new URL(pathname, API_BASE_URL);
       for (const [name, value] of Object.entries(parameters)) url.searchParams.set(name, value);
       url.searchParams.set("apiKey", apiKey);
-      requestCount += 1;
+      if (paid) paidRequestCount += 1;
 
       let response;
       try {
@@ -62,9 +88,13 @@ export function createOddsApiClient({
         throw new OddsApiError("The Odds API est temporairement inaccessible.");
       }
 
-      const quota = budget.record(response.headers);
+      const quota = paid ? budget.record(response.headers) : budget.getQuota();
       if (!response.ok) {
-        throw new OddsApiError(`The Odds API a répondu avec le statut HTTP ${response.status}.`);
+        const errorCode = await readSafeErrorCode(response, apiKey);
+        const suffix = errorCode ? ` (${errorCode})` : "";
+        throw new OddsApiError(
+          `The Odds API a répondu avec le statut HTTP ${response.status}${suffix}.`,
+        );
       }
 
       let data;
@@ -87,11 +117,28 @@ export function createOddsApiClient({
   }
 
   return {
+    async getActiveSports() {
+      const response = await request("sports", {}, { paid: false });
+      if (
+        !Array.isArray(response.data) ||
+        response.data.some(
+          (sport) =>
+            !isRecord(sport) || typeof sport.key !== "string" || typeof sport.active !== "boolean",
+        )
+      ) {
+        throw new OddsApiError("La réponse des sports actifs The Odds API est invalide.");
+      }
+      return {
+        ...response,
+        data: response.data.filter((sport) => sport.active).map((sport) => sport.key),
+      };
+    },
+
     async getOdds(sportKey, commenceTimeFrom) {
       assertAllowedCompetition(sportKey);
       const response = await request(`sports/${sportKey}/odds`, {
         bookmakers: BOOKMAKER.key,
-        commenceTimeFrom,
+        commenceTimeFrom: formatApiTimestamp(commenceTimeFrom),
         dateFormat: ODDS_QUERY.dateFormat,
         markets: ODDS_QUERY.market,
         oddsFormat: ODDS_QUERY.oddsFormat,
@@ -121,7 +168,7 @@ export function createOddsApiClient({
     },
 
     getStats() {
-      return { requests: requestCount, quota: budget.getQuota() };
+      return { requests: paidRequestCount, quota: budget.getQuota() };
     },
   };
 }
