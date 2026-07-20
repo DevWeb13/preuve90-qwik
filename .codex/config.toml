@@ -1,0 +1,24 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+# Keep the model selectable from ChatGPT/Codex so the project follows the
+# best available coding model without pinning a soon-to-be-stale identifier.
+model_reasoning_effort = "high"
+plan_mode_reasoning_effort = "high"
+personality = "pragmatic"
+
+# Codex may edit the repository, but risky or external actions require review.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+web_search = "live"
+
+# The repository instructions are intentionally detailed and may later be
+# complemented by narrower AGENTS.md files in specific directories.
+project_doc_max_bytes = 65536
+
+[sandbox_workspace_write]
+network_access = true
+
+[features]
+multi_agent = true
+hooks = true
+prevent_idle_sleep = true

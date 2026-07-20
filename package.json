@@ -1,27 +1,28 @@
 {
-  "name": "my-qwik-empty-starter",
-  "description": "Blank project with routing included",
-  "engines": {
-    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
-  },
-  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
+  "name": "preuve90-qwik",
+  "description": "Expérience publique et transparente de pronostics football produits par une IA.",
   "private": true,
   "type": "module",
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "qwik check-client src dist && vite build -c adapters/vercel-edge/vite.config.ts",
     "build.types": "tsc --incremental --noEmit",
+    "check": "npm run fmt.check && npm run lint && npm run build.types && npm run build",
     "deploy": "vercel deploy",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
-    "fmt": "prettier --write .",
-    "fmt.check": "prettier --check .",
+    "fmt": "prettier --write --ignore-unknown .",
+    "fmt.check": "prettier --check --ignore-unknown .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
-    "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "start": "vite --open --mode ssr"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.20.0",
