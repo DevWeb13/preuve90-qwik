@@ -1,20 +1,22 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-20T18:16:59.935Z",
-  "mode": "odds",
-  "competitions": [
-    "soccer_epl",
-    "soccer_france_ligue_one"
-  ],
-  "inactiveCompetitions": [
-    "soccer_uefa_champs_league"
-  ],
-  "requests": 2,
-  "eventsReceived": 19,
-  "eventsPublished": 19,
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-20T19:57:26.699Z",
+  "mode": "all",
+  "sourceMode": "upcoming+scores",
+  "coverage": {
+    "maximumUpcomingEvents": 8,
+    "liveEventsMayBeReturnedUpstream": true
+  },
+  "window": {
+    "minimumLeadMinutes": 30,
+    "maximumLeadHours": 8
+  },
+  "requests": 1,
+  "eventsReceived": 8,
+  "eventsPublished": 8,
   "quota": {
-    "used": 2,
-    "remaining": 498,
+    "used": 3,
+    "remaining": 497,
     "lastRequestCost": 1
   }
 }
