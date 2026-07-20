@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-20T18:16:59.935Z",
+  "bookmaker": {
+    "key": "betclic_fr",
+    "name": "Betclic (FR)"
+  },
+  "events": [
+    {
+      "eventId": "600aeb3560814afc9a02bec5126b249d",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Marseille",
+      "awayTeam": "Strasbourg",
+      "kickoffAt": "2026-08-21T18:45:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "1.54",
+        "draw": "3.93",
+        "away": "4.20"
+      }
+    },
+    {
+      "eventId": "eb2553d10d63dc912b99f8fd0d675721",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Coventry City",
+      "kickoffAt": "2026-08-21T19:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "1.12",
+        "draw": "5.90",
+        "away": "13.25"
+      }
+    },
+    {
+      "eventId": "95bb16d19debff3ec39919f361f072a4",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Hull City",
+      "awayTeam": "Manchester United",
+      "kickoffAt": "2026-08-22T11:30:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "6.40",
+        "draw": "4.25",
+        "away": "1.34"
+      }
+    },
+    {
+      "eventId": "01615d9573ef1e5aa8c09eb32a4a983b",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Ipswich Town",
+      "awayTeam": "Sunderland",
+      "kickoffAt": "2026-08-22T14:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "2.53",
+        "draw": "3.08",
+        "away": "2.37"
+      }
+    },
+    {
+      "eventId": "cd1f0173ec061d9b8a8b22ab8f2f8393",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Everton",
+      "awayTeam": "Crystal Palace",
+      "kickoffAt": "2026-08-22T14:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "1.97",
+        "draw": "3.20",
+        "away": "3.13"
+      }
+    },
+    {
+      "eventId": "ee99154f8db029efcf567c5f7f7a0c0b",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Leeds United",
+      "kickoffAt": "2026-08-22T14:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "2.07",
+        "draw": "3.18",
+        "away": "2.93"
+      }
+    },
+    {
+      "eventId": "1835d30f4ac2e1f3462f0654e0ea984a",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "RC Lens",
+      "awayTeam": "Auxerre",
+      "kickoffAt": "2026-08-22T15:15:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "1.51",
+        "draw": "3.85",
+        "away": "4.60"
+      }
+    },
+    {
+      "eventId": "8b4b033209bb204516cbd1f523614f25",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Brentford",
+      "awayTeam": "Tottenham Hotspur",
+      "kickoffAt": "2026-08-22T16:30:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "2.10",
+        "draw": "3.38",
+        "away": "2.72"
+      }
+    },
+    {
+      "eventId": "0fe221a0fc71ab3ecfbecf8f1a224b89",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Le Mans FC",
+      "awayTeam": "Brest",
+      "kickoffAt": "2026-08-22T18:45:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "2.32",
+        "draw": "3.20",
+        "away": "2.52"
+      }
+    },
+    {
+      "eventId": "78431f1842f3312e28537492ec14f081",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Troyes",
+      "awayTeam": "Paris FC",
+      "kickoffAt": "2026-08-22T18:45:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "2.55",
+        "draw": "3.15",
+        "away": "2.32"
+      }
+    },
+    {
+      "eventId": "dd38b144d1f20e8eee148914f68f482c",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Nice",
+      "awayTeam": "Lorient",
+      "kickoffAt": "2026-08-22T18:45:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "2.02",
+        "draw": "3.23",
+        "away": "2.97"
+      }
+    },
+    {
+      "eventId": "e2b33e2f28135088d12b464684414353",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "Lyon",
+      "kickoffAt": "2026-08-22T18:45:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "3.15",
+        "draw": "3.32",
+        "away": "1.92"
+      }
+    },
+    {
+      "eventId": "0a88bfab377a4bbddf8aec2983bf4c15",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Paris Saint Germain",
+      "awayTeam": "Rennes",
+      "kickoffAt": "2026-08-22T19:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "1.34",
+        "draw": "4.70",
+        "away": "5.60"
+      }
+    },
+    {
+      "eventId": "38b23d1127eb086d775f97b935bbf992",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Le Havre",
+      "awayTeam": "AS Monaco",
+      "kickoffAt": "2026-08-22T19:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "3.13",
+        "draw": "3.43",
+        "away": "1.89"
+      }
+    },
+    {
+      "eventId": "48df026b72fffa82898ff0cfcb02878d",
+      "sportKey": "soccer_france_ligue_one",
+      "competitionName": "Ligue 1",
+      "homeTeam": "Angers",
+      "awayTeam": "Lille",
+      "kickoffAt": "2026-08-22T19:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.181Z",
+      "odds": {
+        "home": "4.55",
+        "draw": "3.45",
+        "away": "1.59"
+      }
+    },
+    {
+      "eventId": "87c7c9bfd5e3072bded20c702f553c63",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "kickoffAt": "2026-08-23T13:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "1.38",
+        "draw": "4.50",
+        "away": "5.25"
+      }
+    },
+    {
+      "eventId": "f5086c74d4a767e3ad7ea69bd4a66b76",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Brighton and Hove Albion",
+      "awayTeam": "Aston Villa",
+      "kickoffAt": "2026-08-23T13:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "2.12",
+        "draw": "3.37",
+        "away": "2.70"
+      }
+    },
+    {
+      "eventId": "ea0bacc4c23f813c6af97ec9b306a850",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Liverpool",
+      "kickoffAt": "2026-08-23T15:30:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "2.70",
+        "draw": "3.55",
+        "away": "2.05"
+      }
+    },
+    {
+      "eventId": "4e4a813bf4218cc527e6f8ef2351170d",
+      "sportKey": "soccer_epl",
+      "competitionName": "Premier League",
+      "homeTeam": "Fulham",
+      "awayTeam": "Chelsea",
+      "kickoffAt": "2026-08-24T19:00:00.000Z",
+      "observedAt": "2026-07-20T18:17:00.229Z",
+      "odds": {
+        "home": "2.85",
+        "draw": "3.37",
+        "away": "2.03"
+      }
+    }
+  ]
+}

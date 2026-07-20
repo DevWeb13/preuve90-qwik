@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-20T18:16:59.935Z",
+  "mode": "odds",
+  "competitions": [
+    "soccer_epl",
+    "soccer_france_ligue_one"
+  ],
+  "inactiveCompetitions": [
+    "soccer_uefa_champs_league"
+  ],
+  "requests": 2,
+  "eventsReceived": 19,
+  "eventsPublished": 19,
+  "quota": {
+    "used": 2,
+    "remaining": 498,
+    "lastRequestCost": 1
+  }
+}
