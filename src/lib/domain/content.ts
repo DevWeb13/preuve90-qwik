@@ -23,11 +23,13 @@ export function assemblePredictions(
     if (predictionIds.has(prediction.id)) {
       throw new ContentValidationError(`Identifiant de prédiction dupliqué : ${prediction.id}`);
     }
-    if (eventIds.has(prediction.match.eventId)) {
-      throw new ContentValidationError(`Match publié plusieurs fois : ${prediction.match.eventId}`);
+    if (eventIds.has(prediction.event.eventId)) {
+      throw new ContentValidationError(
+        `Événement publié plusieurs fois : ${prediction.event.eventId}`,
+      );
     }
     predictionIds.add(prediction.id);
-    eventIds.add(prediction.match.eventId);
+    eventIds.add(prediction.event.eventId);
   }
 
   const settlementsByPrediction = new Map<string, (typeof settlements)[number]>();
@@ -43,23 +45,28 @@ export function assemblePredictions(
         `Plusieurs règlements existent pour ${settlement.predictionId}`,
       );
     }
-    if (settlement.source.eventId !== prediction.match.eventId) {
+    if (settlement.source.eventId !== prediction.event.eventId) {
       throw new ContentValidationError(
-        `Le règlement ${settlement.predictionId} référence un autre match`,
+        `Le règlement ${settlement.predictionId} référence un autre événement`,
       );
     }
-    if (Date.parse(settlement.settledAt) <= Date.parse(prediction.kickoffAt)) {
+    if (Date.parse(settlement.settledAt) <= Date.parse(prediction.startsAt)) {
       throw new ContentValidationError(
-        `Le règlement ${settlement.predictionId} doit suivre le coup d’envoi`,
+        `Le règlement ${settlement.predictionId} doit suivre le début de l’événement`,
       );
     }
+    const winningOutcomeName = settlement.result.winningOutcomeName;
     if (
-      settlement.status !== "VOID" &&
-      settlement.status !==
-        getExpectedSettlementStatus(prediction.selection, settlement.finalScore)
+      winningOutcomeName !== null &&
+      !prediction.market.outcomes.some((outcome) => outcome.name === winningOutcomeName)
     ) {
       throw new ContentValidationError(
-        `Statut ${settlement.status} incohérent pour ${settlement.predictionId} : sélection ${prediction.selection}, score ${settlement.finalScore.home}-${settlement.finalScore.away}`,
+        `L’issue gagnante du règlement ${settlement.predictionId} n’existe pas dans le marché publié`,
+      );
+    }
+    if (settlement.status !== "VOID" && winningOutcomeName !== null && settlement.status !== getExpectedSettlementStatus(prediction.selection.name, winningOutcomeName)) {
+      throw new ContentValidationError(
+        `Statut ${settlement.status} incohérent pour ${settlement.predictionId} : sélection ${prediction.selection.name}, issue gagnante ${winningOutcomeName}`,
       );
     }
     settlementsByPrediction.set(settlement.predictionId, settlement);

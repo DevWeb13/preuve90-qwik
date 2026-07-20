@@ -1,6 +1,7 @@
 import type { PredictionStatistics, PredictionView } from "~/types/prediction";
 import { PRODUCT_CONFIG } from "~/config/product";
 import { differenceInCalendarDays, getDateKeyInTimeZone } from "./calendar";
+import { getEstimatedValueBps } from "./money";
 
 export function calculateStatistics(
   predictions: PredictionView[],
@@ -39,6 +40,16 @@ export function calculateStatistics(
     return earliest;
   }, null);
   const referenceKey = getDateKeyInTimeZone(referenceDate, PRODUCT_CONFIG.timezone);
+  const totalEstimatedProbabilityBps = predictions.reduce(
+    (total, prediction) => total + prediction.reasoning.estimatedProbabilityBps,
+    0,
+  );
+  const totalEstimatedValueBps = predictions.reduce(
+    (total, prediction) =>
+      total +
+      getEstimatedValueBps(prediction.reasoning.estimatedProbabilityBps, prediction.recordedOdds),
+    0,
+  );
 
   return {
     totalPredictions: predictions.length,
@@ -59,6 +70,10 @@ export function calculateStatistics(
       totalSettledStakeCents === 0
         ? null
         : (totalRealizedReturnCents - totalSettledStakeCents) / totalSettledStakeCents,
+    averageEstimatedProbabilityBps:
+      predictions.length === 0 ? null : Math.round(totalEstimatedProbabilityBps / predictions.length),
+    averageEstimatedValueBps:
+      predictions.length === 0 ? null : Math.round(totalEstimatedValueBps / predictions.length),
     daysSinceFirstPublication:
       firstDate === null
         ? 0

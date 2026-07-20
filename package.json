@@ -1,6 +1,6 @@
 {
   "name": "preuve90-qwik",
-  "description": "Expérience publique et transparente de pronostics football produits par une IA.",
+  "description": "Expérience publique et transparente de recherche multisport de valeur estimée par une IA.",
   "private": true,
   "type": "module",
   "packageManager": "npm@10.9.2",

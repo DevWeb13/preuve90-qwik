@@ -1,11 +1,6 @@
 import { PRODUCT_CONFIG } from "~/config/product";
-import type {
-  Prediction,
-  PredictionSelection,
-  Settlement,
-  SettlementStatus,
-} from "~/types/prediction";
-import { parseDecimalOdds } from "~/lib/domain/money";
+import type { MarketOutcome, Prediction, Settlement, SettlementStatus } from "~/types/prediction";
+import { hasPositiveEstimatedValue, parseDecimalOdds } from "~/lib/domain/money";
 import { calendarDayNumber, getDateKeyInTimeZone } from "~/lib/domain/calendar";
 
 export class ContentValidationError extends Error {
@@ -33,6 +28,10 @@ function asString(value: unknown, path: string): string {
   return value;
 }
 
+function asOptionalString(value: unknown, path: string): string | undefined {
+  return value === undefined ? undefined : asString(value, path);
+}
+
 function asStringArray(value: unknown, path: string): string[] {
   if (!Array.isArray(value) || value.length === 0) {
     fail(path, "une liste non vide est attendue");
@@ -55,13 +54,6 @@ function asUtcTimestamp(value: unknown, path: string): string {
   return timestamp;
 }
 
-function asSelection(value: unknown, path: string): PredictionSelection {
-  if (value !== "HOME" && value !== "DRAW" && value !== "AWAY") {
-    fail(path, "HOME, DRAW ou AWAY est attendu");
-  }
-  return value;
-}
-
 function asSettlementStatus(value: unknown, path: string): SettlementStatus {
   if (value !== "WON" && value !== "LOST" && value !== "VOID") {
     fail(path, "WON, LOST ou VOID est attendu");
@@ -69,27 +61,73 @@ function asSettlementStatus(value: unknown, path: string): SettlementStatus {
   return value;
 }
 
-function asScore(value: unknown, path: string): number {
-  if (!Number.isInteger(value) || (value as number) < 0) {
-    fail(path, "un score entier positif est attendu");
+function asEstimatedProbabilityBps(value: unknown, path: string): number {
+  if (!Number.isInteger(value) || (value as number) < 1 || (value as number) > 9_999) {
+    fail(path, "un entier compris entre 1 et 9 999 est attendu");
   }
   return value as number;
 }
 
+function validateOutcomes(value: unknown, path: string): MarketOutcome[] {
+  if (!Array.isArray(value) || value.length < 2 || value.length > 3) {
+    fail(path, "exactement deux ou trois issues sont attendues");
+  }
+
+  const names = new Set<string>();
+  return value.map((item, index) => {
+    const outcome = asRecord(item, `${path}[${index}]`);
+    const name = asString(outcome.name, `${path}[${index}].name`);
+    const odds = asString(outcome.odds, `${path}[${index}].odds`);
+    if (names.has(name)) fail(`${path}[${index}].name`, "les noms d’issues doivent être uniques");
+    names.add(name);
+    try {
+      parseDecimalOdds(odds);
+    } catch (error) {
+      fail(`${path}[${index}].odds`, error instanceof Error ? error.message : "cote invalide");
+    }
+    return { name, odds };
+  });
+}
+
+function validateScores(value: unknown, path: string): Settlement["result"]["scores"] {
+  if (value === null) return null;
+  if (!Array.isArray(value) || value.length === 0) {
+    fail(path, "une liste non vide ou null est attendu");
+  }
+  const names = new Set<string>();
+  return value.map((item, index) => {
+    const score = asRecord(item, `${path}[${index}]`);
+    const name = asString(score.name, `${path}[${index}].name`);
+    if (names.has(name)) fail(`${path}[${index}].name`, "les noms de scores doivent être uniques");
+    names.add(name);
+    return { name, value: asString(score.value, `${path}[${index}].value`) };
+  });
+}
+
 export function validatePrediction(value: unknown, path = "prediction"): Prediction {
   const input = asRecord(value, path);
-  const competition = asRecord(input.competition, `${path}.competition`);
-  const match = asRecord(input.match, `${path}.match`);
+  const sport = asRecord(input.sport, `${path}.sport`);
+  const event = asRecord(input.event, `${path}.event`);
+  const market = asRecord(input.market, `${path}.market`);
+  const selection = asRecord(input.selection, `${path}.selection`);
   const bookmaker = asRecord(input.bookmaker, `${path}.bookmaker`);
   const reasoning = asRecord(input.reasoning, `${path}.reasoning`);
   const source = asRecord(input.source, `${path}.source`);
   const id = asString(input.id, `${path}.id`);
   const publicationDate = asString(input.publicationDate, `${path}.publicationDate`);
   const publishedAt = asUtcTimestamp(input.publishedAt, `${path}.publishedAt`);
-  const kickoffAt = asUtcTimestamp(input.kickoffAt, `${path}.kickoffAt`);
+  const startsAt = asUtcTimestamp(input.startsAt, `${path}.startsAt`);
   const observedAt = asUtcTimestamp(bookmaker.observedAt, `${path}.bookmaker.observedAt`);
   const recordedOdds = asString(input.recordedOdds, `${path}.recordedOdds`);
-  const eventId = asString(match.eventId, `${path}.match.eventId`);
+  const eventId = asString(event.eventId, `${path}.event.eventId`);
+  const participantA = asString(event.participantA, `${path}.event.participantA`);
+  const participantB = asString(event.participantB, `${path}.event.participantB`);
+  const outcomes = validateOutcomes(market.outcomes, `${path}.market.outcomes`);
+  const selectionName = asString(selection.name, `${path}.selection.name`);
+  const estimatedProbabilityBps = asEstimatedProbabilityBps(
+    reasoning.estimatedProbabilityBps,
+    `${path}.reasoning.estimatedProbabilityBps`,
+  );
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(publicationDate)) {
     fail(`${path}.publicationDate`, "le format YYYY-MM-DD est attendu");
@@ -105,16 +143,26 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   if (Date.parse(observedAt) > Date.parse(publishedAt)) {
     fail(`${path}.bookmaker.observedAt`, "l’observation ne peut pas suivre la publication");
   }
-  if (Date.parse(publishedAt) >= Date.parse(kickoffAt)) {
-    fail(`${path}.publishedAt`, "la publication doit précéder le coup d’envoi");
+  if (Date.parse(publishedAt) >= Date.parse(startsAt)) {
+    fail(`${path}.publishedAt`, "la publication doit précéder le début de l’événement");
+  }
+  if (participantA === participantB) {
+    fail(`${path}.event`, "les deux participants doivent être distincts");
+  }
+  if (market.key !== PRODUCT_CONFIG.market) {
+    fail(`${path}.market.key`, `la valeur ${PRODUCT_CONFIG.market} est obligatoire`);
   }
 
-  try {
-    parseDecimalOdds(recordedOdds);
-  } catch (error) {
-    fail(`${path}.recordedOdds`, error instanceof Error ? error.message : "cote invalide");
+  const selectedOutcome = outcomes.find((outcome) => outcome.name === selectionName);
+  if (!selectedOutcome) {
+    fail(`${path}.selection.name`, "la sélection doit correspondre exactement à une issue");
   }
-
+  if (recordedOdds !== selectedOutcome.odds) {
+    fail(`${path}.recordedOdds`, "la cote doit correspondre exactement à l’issue sélectionnée");
+  }
+  if (!hasPositiveEstimatedValue(estimatedProbabilityBps, recordedOdds)) {
+    fail(`${path}.reasoning.estimatedProbabilityBps`, "l’espérance estimée doit être strictement positive");
+  }
   if (bookmaker.key !== PRODUCT_CONFIG.bookmaker.key) {
     fail(`${path}.bookmaker.key`, `la valeur ${PRODUCT_CONFIG.bookmaker.key} est obligatoire`);
   }
@@ -128,30 +176,21 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
     fail(`${path}.source.provider`, "the-odds-api est obligatoire");
   }
   if (source.eventId !== eventId) {
-    fail(`${path}.source.eventId`, "l’identifiant source doit correspondre au match");
-  }
-
-  const country = competition.country;
-  if (country !== undefined && (typeof country !== "string" || country.trim() === "")) {
-    fail(`${path}.competition.country`, "une chaîne non vide est attendue lorsqu’elle existe");
+    fail(`${path}.source.eventId`, "l’identifiant source doit correspondre à l’événement");
   }
 
   return {
     id,
     publicationDate,
     publishedAt,
-    kickoffAt,
-    competition: {
-      key: asString(competition.key, `${path}.competition.key`),
-      name: asString(competition.name, `${path}.competition.name`),
-      ...(country === undefined ? {} : { country }),
+    startsAt,
+    sport: {
+      key: asString(sport.key, `${path}.sport.key`),
+      title: asString(sport.title, `${path}.sport.title`),
     },
-    match: {
-      eventId,
-      homeTeam: asString(match.homeTeam, `${path}.match.homeTeam`),
-      awayTeam: asString(match.awayTeam, `${path}.match.awayTeam`),
-    },
-    selection: asSelection(input.selection, `${path}.selection`),
+    event: { eventId, participantA, participantB },
+    market: { key: PRODUCT_CONFIG.market, outcomes },
+    selection: { name: selectionName },
     recordedOdds,
     bookmaker: {
       key: PRODUCT_CONFIG.bookmaker.key,
@@ -160,38 +199,49 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
     },
     virtualStakeCents: PRODUCT_CONFIG.virtualStakeCents,
     reasoning: {
+      estimatedProbabilityBps,
       summary: asString(reasoning.summary, `${path}.reasoning.summary`),
       factors: asStringArray(reasoning.factors, `${path}.reasoning.factors`),
       uncertainty: asString(reasoning.uncertainty, `${path}.reasoning.uncertainty`),
     },
-    source: {
-      provider: PRODUCT_CONFIG.oddsProvider,
-      eventId,
-    },
+    source: { provider: PRODUCT_CONFIG.oddsProvider, eventId },
   };
 }
 
 export function validateSettlement(value: unknown, path = "settlement"): Settlement {
   const input = asRecord(value, path);
-  const finalScore = asRecord(input.finalScore, `${path}.finalScore`);
+  const result = asRecord(input.result, `${path}.result`);
   const source = asRecord(input.source, `${path}.source`);
-  const eventId = asString(source.eventId, `${path}.source.eventId`);
-
-  if (source.provider !== PRODUCT_CONFIG.oddsProvider) {
-    fail(`${path}.source.provider`, "the-odds-api est obligatoire");
+  const status = asSettlementStatus(input.status, `${path}.status`);
+  const winningOutcomeName =
+    result.winningOutcomeName === null
+      ? null
+      : asString(result.winningOutcomeName, `${path}.result.winningOutcomeName`);
+  if (status === "VOID" && winningOutcomeName !== null) {
+    fail(`${path}.result.winningOutcomeName`, "VOID exige une issue gagnante null");
+  }
+  if (status !== "VOID" && winningOutcomeName === null) {
+    fail(`${path}.result.winningOutcomeName`, `${status} exige une issue gagnante`);
+  }
+  if (source.provider !== "the-odds-api" && source.provider !== "official-source") {
+    fail(`${path}.source.provider`, "the-odds-api ou official-source est attendu");
   }
 
+  const note = asOptionalString(result.note, `${path}.result.note`);
+  const reference = asOptionalString(source.reference, `${path}.source.reference`);
   return {
     predictionId: asString(input.predictionId, `${path}.predictionId`),
     settledAt: asUtcTimestamp(input.settledAt, `${path}.settledAt`),
-    status: asSettlementStatus(input.status, `${path}.status`),
-    finalScore: {
-      home: asScore(finalScore.home, `${path}.finalScore.home`),
-      away: asScore(finalScore.away, `${path}.finalScore.away`),
+    status,
+    result: {
+      winningOutcomeName,
+      scores: validateScores(result.scores, `${path}.result.scores`),
+      ...(note === undefined ? {} : { note }),
     },
     source: {
-      provider: PRODUCT_CONFIG.oddsProvider,
-      eventId,
+      provider: source.provider,
+      eventId: asString(source.eventId, `${path}.source.eventId`),
+      ...(reference === undefined ? {} : { reference }),
     },
   };
 }

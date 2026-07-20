@@ -47,6 +47,43 @@ export function multiplyCentsByDecimal(cents: number, decimal: string): number {
   return result;
 }
 
+function divideAndRound(numerator: bigint, denominator: bigint): number {
+  const rounded = (numerator + denominator / 2n) / denominator;
+  const result = Number(rounded);
+  if (!Number.isSafeInteger(result)) {
+    throw new Error("Le résultat dépasse la plage des entiers sûrs.");
+  }
+  return result;
+}
+
+export function getBreakEvenProbabilityBps(recordedOdds: string): number {
+  const { numerator, denominator } = parseDecimalOdds(recordedOdds);
+  return divideAndRound(10_000n * denominator, numerator);
+}
+
+export function hasPositiveEstimatedValue(
+  estimatedProbabilityBps: number,
+  recordedOdds: string,
+): boolean {
+  if (!Number.isInteger(estimatedProbabilityBps) || estimatedProbabilityBps < 1 || estimatedProbabilityBps > 9_999) {
+    return false;
+  }
+  const { numerator, denominator } = parseDecimalOdds(recordedOdds);
+  return BigInt(estimatedProbabilityBps) * numerator > 10_000n * denominator;
+}
+
+export function getEstimatedValueBps(
+  estimatedProbabilityBps: number,
+  recordedOdds: string,
+): number {
+  if (!Number.isInteger(estimatedProbabilityBps) || estimatedProbabilityBps < 1 || estimatedProbabilityBps > 9_999) {
+    throw new Error("La probabilité estimée doit être comprise entre 1 et 9 999 points de base.");
+  }
+  const { numerator, denominator } = parseDecimalOdds(recordedOdds);
+  const grossValue = divideAndRound(BigInt(estimatedProbabilityBps) * numerator, denominator);
+  return grossValue - 10_000;
+}
+
 export function getRealizedReturnCents(
   status: PredictionStatus,
   virtualStakeCents: number,

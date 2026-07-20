@@ -1,6 +1,5 @@
 import { component$, Slot, useSignal, useVisibleTask$ } from "@builder.io/qwik";
-import { getSelectionShortLabel } from "~/lib/formatting/format";
-import type { PredictionSelection, PredictionStatus } from "~/types/prediction";
+import type { MarketOutcome, PredictionStatus } from "~/types/prediction";
 
 export const DashboardIntro = component$(() => {
   const root = useSignal<HTMLElement>();
@@ -37,13 +36,13 @@ export const DashboardIntro = component$(() => {
   );
 });
 
-interface PredictionReelProps {
-  selection: PredictionSelection;
+interface OutcomeReelProps {
+  outcomes: MarketOutcome[];
+  selectionName: string;
 }
 
-export const PredictionReel = component$<PredictionReelProps>(({ selection }) => {
+export const OutcomeReel = component$<OutcomeReelProps>(({ outcomes, selectionName }) => {
   const root = useSignal<HTMLDivElement>();
-  const selected = getSelectionShortLabel(selection);
 
   // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(({ cleanup }) => {
@@ -72,19 +71,20 @@ export const PredictionReel = component$<PredictionReelProps>(({ selection }) =>
   });
 
   return (
-    <div ref={root} class="prediction-reel" aria-label={`Sélection publiée : ${selected}`}>
-      {(["1", "N", "2"] as const).map((option) => (
+    <div ref={root} class="prediction-reel" aria-label={`Issue sélectionnée : ${selectionName}`}>
+      {outcomes.map((outcome) => (
         <span
-          key={option}
+          key={outcome.name}
           aria-hidden="true"
-          class={{ "reel-option": true, "is-selected": option === selected }}
+          class={{ "reel-option": true, "is-selected": outcome.name === selectionName }}
           data-reel-option
-          data-selected={option === selected ? "true" : "false"}
+          data-selected={outcome.name === selectionName ? "true" : "false"}
         >
-          {option}
+          <strong>{outcome.name}</strong>
+          <small>{outcome.odds}</small>
         </span>
       ))}
-      <span class="sr-only">Sélection finale {selected}</span>
+      <span class="sr-only">Issue finale {selectionName}</span>
     </div>
   );
 });

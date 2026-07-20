@@ -6,7 +6,7 @@ import {
   StatusDistribution,
 } from "~/components/domain/statistics";
 import { DataError, DemoBanner, PageHeader, Panel } from "~/components/ui/primitives";
-import { formatMoney } from "~/lib/formatting/format";
+import { formatBasisPoints, formatMoney, formatSignedBasisPoints } from "~/lib/formatting/format";
 import { createDocumentHead } from "~/lib/formatting/seo";
 import { loadContentResult } from "~/lib/server/content-repository.server";
 
@@ -51,10 +51,28 @@ export default component$(() => {
               <dt>Pronostics réglés</dt>
               <dd>{statistics.settledPredictions}</dd>
             </div>
+            <div>
+              <dt>Probabilité moyenne estimée par l’IA</dt>
+              <dd>{formatBasisPoints(statistics.averageEstimatedProbabilityBps)}</dd>
+            </div>
+            <div>
+              <dt>Espérance moyenne estimée à la publication</dt>
+              <dd>
+                {statistics.averageEstimatedValueBps === null
+                  ? "—"
+                  : formatSignedBasisPoints(statistics.averageEstimatedValueBps)}
+              </dd>
+            </div>
           </dl>
         </Panel>
       </div>
       <CumulativePerformanceChart statistics={statistics} />
+      <Panel class="value-explanation">
+        <p>
+          Les probabilités et espérances sont des estimations de l’IA au moment de la publication.
+          Elles ne décrivent pas un bénéfice réalisé et peuvent être erronées.
+        </p>
+      </Panel>
       <Panel class="formula-panel">
         <h2>Formules publiques</h2>
         <div class="formula-grid">

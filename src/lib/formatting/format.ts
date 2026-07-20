@@ -1,5 +1,4 @@
-import { PRODUCT_CONFIG, SELECTION_LABELS, SELECTION_SHORT_LABELS } from "~/config/product";
-import type { PredictionSelection } from "~/types/prediction";
+import { PRODUCT_CONFIG } from "~/config/product";
 
 const dateTimeFormatter = new Intl.DateTimeFormat(PRODUCT_CONFIG.locale, {
   dateStyle: "long",
@@ -42,6 +41,7 @@ export const formatSignedMoney = (cents: number) =>
   `${cents > 0 ? "+" : ""}${moneyFormatter.format(cents / 100)}`;
 export const formatPercent = (value: number | null) =>
   value === null ? "—" : percentFormatter.format(value);
-export const getSelectionLabel = (selection: PredictionSelection) => SELECTION_LABELS[selection];
-export const getSelectionShortLabel = (selection: PredictionSelection) =>
-  SELECTION_SHORT_LABELS[selection];
+export const formatBasisPoints = (value: number | null) =>
+  value === null ? "—" : percentFormatter.format(value / 10_000);
+export const formatSignedBasisPoints = (value: number) =>
+  `${value > 0 ? "+" : ""}${percentFormatter.format(value / 10_000)}`;

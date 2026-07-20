@@ -51,7 +51,7 @@ export const AppShell = component$(() => {
         <div class="footer-grid">
           <div>
             <strong>PREUVE90</strong>
-            <p>Une expérience de pronostics football publics, mesurés et vérifiables.</p>
+            <p>Une expérience de pronostics multisports publics, mesurés et vérifiables.</p>
           </div>
           <nav aria-label="Informations légales">
             <Link href="/mentions-legales/">Mentions légales</Link>

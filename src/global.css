@@ -385,7 +385,7 @@ time,
 .prediction-reel {
   display: grid;
   width: min(100%, 16rem);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   padding: var(--space-2);
   overflow: hidden;
   border: 1px solid var(--color-border-strong);
@@ -402,8 +402,17 @@ time,
   place-items: center;
   border-right: 1px solid var(--color-border);
   color: var(--color-text-subtle);
-  font: 800 clamp(2rem, 8vw, 4rem) / 1 var(--font-mono);
+  padding: var(--space-2);
+  font: 800 clamp(0.72rem, 2.4vw, 1rem) / 1.2 var(--font-mono);
   opacity: 0.28;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.reel-option small {
+  display: block;
+  margin-top: var(--space-2);
+  font-size: 0.72rem;
 }
 
 .reel-option:last-of-type {
@@ -622,6 +631,7 @@ time,
 
 .prediction-card-head,
 .prediction-card-match,
+.prediction-card-outcomes,
 .prediction-card-data {
   pointer-events: none;
 }
@@ -639,9 +649,30 @@ time,
   color: var(--color-text-subtle);
 }
 
+.prediction-card-outcomes {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.prediction-card-outcomes > span {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  color: var(--color-text-muted);
+  font: 0.62rem/1.3 var(--font-mono);
+  overflow-wrap: anywhere;
+}
+
+.prediction-card-outcomes > span.selected {
+  border-color: var(--color-cyan);
+  color: var(--color-cyan);
+}
+
 .prediction-card-data {
   display: grid;
-  grid-template-columns: 1.5fr 0.55fr 0.75fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-3);
 }
 
@@ -669,6 +700,21 @@ time,
   color: var(--color-text-subtle);
   font-size: 0.65rem;
   font-style: normal;
+}
+
+.prediction-card-analysis {
+  display: grid;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+}
+
+.prediction-card-analysis p,
+.prediction-card-analysis small {
+  margin: 0;
 }
 
 .daily-predictions-grid,
@@ -979,6 +1025,13 @@ time,
   font-size: 2.4rem !important;
 }
 
+.score-list {
+  display: block;
+  margin-top: var(--space-2);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
 .result-motion.status-won {
   box-shadow: inset 0 0 40px rgba(168, 255, 96, 0.05);
 }
@@ -1226,6 +1279,9 @@ time,
   }
   .proof-data-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .prediction-card-data {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

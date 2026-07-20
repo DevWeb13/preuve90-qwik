@@ -3,21 +3,23 @@ import { Link } from "@builder.io/qwik-city";
 import { PRODUCT_CONFIG } from "~/config/product";
 import {
   formatDateTime,
+  formatBasisPoints,
   formatMoney,
   formatShortDateTime,
+  formatSignedBasisPoints,
   formatSignedMoney,
-  getSelectionLabel,
 } from "~/lib/formatting/format";
+import { getBreakEvenProbabilityBps, getEstimatedValueBps } from "~/lib/domain/money";
 import type { PredictionView } from "~/types/prediction";
 import { ResultMotion } from "~/components/motion/motion";
 import { Badge, ButtonLink, Card, SectionHeader, StatusBadge } from "~/components/ui/primitives";
 import { Icon } from "~/components/ui/icon";
 
-export const MatchDisplay = component$<{ prediction: PredictionView }>(({ prediction }) => (
+export const EventDisplay = component$<{ prediction: PredictionView }>(({ prediction }) => (
   <div class="match-display">
-    <span>{prediction.match.homeTeam}</span>
+    <span>{prediction.event.participantA}</span>
     <strong aria-label="contre">VS</strong>
-    <span>{prediction.match.awayTeam}</span>
+    <span>{prediction.event.participantB}</span>
   </div>
 ));
 
@@ -36,6 +38,32 @@ export const VirtualStakeDisplay = component$<{ cents: number }>(({ cents }) => 
     <small>Aucun argent réel</small>
   </div>
 ));
+
+export const EstimatedValueDisplay = component$<{ prediction: PredictionView }>(
+  ({ prediction }) => {
+    const estimatedValueBps = getEstimatedValueBps(
+      prediction.reasoning.estimatedProbabilityBps,
+      prediction.recordedOdds,
+    );
+    return (
+      <>
+        <div class="data-cell">
+          <span class="data-label">Probabilité estimée par l’IA</span>
+          <strong>{formatBasisPoints(prediction.reasoning.estimatedProbabilityBps)}</strong>
+          <small>
+            Seuil de rentabilité :{" "}
+            {formatBasisPoints(getBreakEvenProbabilityBps(prediction.recordedOdds))}
+          </small>
+        </div>
+        <div class="data-cell">
+          <span class="data-label">Valeur estimée par l’IA</span>
+          <strong>{formatSignedBasisPoints(estimatedValueBps)}</strong>
+          <small>Estimation incertaine, pas un bénéfice réalisé</small>
+        </div>
+      </>
+    );
+  },
+);
 
 export const PredictionReasoning = component$<{
   prediction: PredictionView;
@@ -71,10 +99,15 @@ export const SettlementSummary = component$<{ prediction: PredictionView }>(({ p
       {prediction.settlement ? (
         <>
           <div>
-            <span class="data-label">Score final</span>
-            <strong class="score">
-              {prediction.settlement.finalScore.home} — {prediction.settlement.finalScore.away}
-            </strong>
+            <span class="data-label">Issue gagnante</span>
+            <strong>{prediction.settlement.result.winningOutcomeName ?? "Événement annulé"}</strong>
+            {prediction.settlement.result.scores && (
+              <small class="score-list">
+                {prediction.settlement.result.scores
+                  .map((score) => `${score.name} : ${score.value}`)
+                  .join(" · ")}
+              </small>
+            )}
           </div>
           <div>
             <span class="data-label">Retour virtuel</span>
@@ -106,8 +139,8 @@ export const ProofTimeline = component$<{ prediction: PredictionView }>(({ predi
       <li>
         <Icon name="clock" size={19} />
         <div>
-          <strong>Coup d’envoi prévu</strong>
-          <time dateTime={prediction.kickoffAt}>{formatDateTime(prediction.kickoffAt)}</time>
+          <strong>Début prévu</strong>
+          <time dateTime={prediction.startsAt}>{formatDateTime(prediction.startsAt)}</time>
         </div>
       </li>
       <li>
@@ -130,26 +163,33 @@ export const ProofTimeline = component$<{ prediction: PredictionView }>(({ predi
 export const PredictionCard = component$<{ prediction: PredictionView }>(({ prediction }) => (
   <Card class={`prediction-card status-border-${prediction.status.toLowerCase()}`}>
     <Link
-      aria-label={`Ouvrir la preuve ${prediction.match.homeTeam} contre ${prediction.match.awayTeam}`}
+      aria-label={`Ouvrir la preuve ${prediction.event.participantA} contre ${prediction.event.participantB}`}
       class="card-cover-link"
       href={`/pronostic/${prediction.id}/`}
     />
     <div class="prediction-card-head">
       <div>
-        <span class="eyebrow">{prediction.competition.name}</span>
-        <time dateTime={prediction.kickoffAt}>{formatShortDateTime(prediction.kickoffAt)}</time>
+        <span class="eyebrow">{prediction.sport.title}</span>
+        <time dateTime={prediction.startsAt}>{formatShortDateTime(prediction.startsAt)}</time>
       </div>
       <StatusBadge status={prediction.status} />
     </div>
     <div class="prediction-card-match">
-      <strong>{prediction.match.homeTeam}</strong>
+      <strong>{prediction.event.participantA}</strong>
       <span>—</span>
-      <strong>{prediction.match.awayTeam}</strong>
+      <strong>{prediction.event.participantB}</strong>
+    </div>
+    <div class="prediction-card-outcomes" aria-label="Issues du marché h2h">
+      {prediction.market.outcomes.map((outcome) => (
+        <span key={outcome.name} class={{ selected: outcome.name === prediction.selection.name }}>
+          {outcome.name} <strong>{outcome.odds}</strong>
+        </span>
+      ))}
     </div>
     <div class="prediction-card-data">
       <span>
         <small>SÉLECTION</small>
-        <strong>{getSelectionLabel(prediction.selection)}</strong>
+        <strong>{prediction.selection.name}</strong>
       </span>
       <span>
         <small>COTE</small>
@@ -157,11 +197,38 @@ export const PredictionCard = component$<{ prediction: PredictionView }>(({ pred
         <em>{prediction.bookmaker.name}</em>
       </span>
       <span>
-        <small>NET</small>
+        <small>MISE VIRTUELLE</small>
+        <strong>{formatMoney(prediction.virtualStakeCents)}</strong>
+      </span>
+      <span>
+        <small>PROBABILITÉ IA</small>
+        <strong>{formatBasisPoints(prediction.reasoning.estimatedProbabilityBps)}</strong>
+      </span>
+      <span>
+        <small>VALEUR IA</small>
         <strong>
-          {prediction.netResultCents === null ? "—" : formatSignedMoney(prediction.netResultCents)}
+          {formatSignedBasisPoints(
+            getEstimatedValueBps(
+              prediction.reasoning.estimatedProbabilityBps,
+              prediction.recordedOdds,
+            ),
+          )}
         </strong>
       </span>
+      <span>
+        <small>STATUT / NET</small>
+        <strong>
+          {prediction.netResultCents === null
+            ? "En attente"
+            : formatSignedMoney(prediction.netResultCents)}
+        </strong>
+      </span>
+    </div>
+    <div class="prediction-card-analysis">
+      <p>{prediction.reasoning.summary}</p>
+      <small>
+        <strong>Incertitude :</strong> {prediction.reasoning.uncertainty}
+      </small>
     </div>
   </Card>
 ));
@@ -191,7 +258,7 @@ export const RecentPredictions = component$<{ predictions: PredictionView[] }>(
       <SectionHeader
         eyebrow="JOURNAL IMMUABLE"
         title="Derniers résultats"
-        description="Chaque issue reste visible, y compris les pertes et annulations."
+        description="Chaque résultat reste visible, y compris les pertes et annulations."
       />
       <div class="prediction-list compact-list">
         {predictions.map((prediction) => (

@@ -6,31 +6,39 @@ import { createDocumentHead } from "~/lib/formatting/seo";
 const STEPS = [
   [
     "But de l’expérience",
-    "Mesurer publiquement la capacité d’une IA à produire des pronostics football avant les matchs, résultats compris.",
+    "Mesurer publiquement la capacité d’une IA à identifier une valeur estimée positive avant des événements sportifs, résultats compris.",
   ],
   [
-    "Sélection des matchs",
-    "L’automatisation pourra choisir zéro ou un match pertinent par jour. Une absence de publication vaut mieux qu’une donnée incertaine.",
+    "Couverture du scan",
+    "The Odds API retourne les événements en direct et les 8 prochains événements tous sports confondus. Preuve90 exclut le direct et choisit uniquement dans ce sous-ensemble ; il ne prétend pas analyser tout Betclic.",
   ],
   [
-    "Marché 1N2",
-    "La sélection est exclusivement 1 (domicile), N (nul) ou 2 (extérieur). Aucun combiné n’est accepté.",
+    "Fenêtre locale",
+    "Un candidat doit commencer entre 30 minutes et 8 heures après l’observation, bornes incluses. Les événements déjà commencés sont exclus.",
   ],
   [
-    "Temps réglementaire",
-    "Le résultat est celui observé après le temps réglementaire, hors prolongation et tirs au but.",
+    "Marché principal h2h",
+    "La sélection correspond exactement à l’une des deux ou trois issues Betclic publiées. Aucun handicap, total, score exact, pari joueur ou combiné n’est accepté.",
   ],
   [
     "Publication préalable",
-    "La publication et la cote doivent être horodatées avant le coup d’envoi. Toute publication tardive est rejetée.",
+    "La publication et la cote doivent être horodatées avant le début de l’événement. Toute publication tardive est rejetée.",
   ],
   [
     "Référence fixe",
     `Le bookmaker de référence unique est ${PRODUCT_CONFIG.bookmaker.name}, clé ${PRODUCT_CONFIG.bookmaker.key}.`,
   ],
   [
-    "Cote observée",
-    "La cote est conservée comme chaîne décimale exacte avec son heure d’observation. Elle ne prouve pas qu’elle aurait été acceptée pour une personne donnée.",
+    "Meilleur candidat du scan",
+    "Chaque exécution analyse tous les candidats défendables et peut publier au maximum un pronostic : celui dont la valeur estimée est la meilleure. Zéro publication est un résultat normal et il n’existe aucun plafond journalier.",
+  ],
+  [
+    "Valeur estimée par l’IA",
+    "L’espérance estimée vaut probabilité estimée × cote − 1. Elle doit être strictement positive, sans jamais être présentée comme un bénéfice réalisé ou garanti.",
+  ],
+  [
+    "Cote observée immuable",
+    "La cote et les noms exacts des issues sont conservés comme chaînes décimales avec l’heure d’observation. La cote ne prouve pas qu’elle aurait été acceptée pour une personne donnée.",
   ],
   [
     "Mise virtuelle",
@@ -42,7 +50,7 @@ const STEPS = [
   ],
   [
     "Règlement séparé",
-    "Le score final et l’état gagné, perdu ou annulé sont ajoutés dans un autre fichier. L’absence de règlement produit l’état en attente.",
+    "L’issue gagnante certaine et l’état gagné, perdu ou annulé sont ajoutés dans un autre fichier. Un score générique peut compléter la preuve ; tout résultat ambigu reste en attente.",
   ],
   [
     "Statistiques dérivées",
@@ -54,7 +62,7 @@ const STEPS = [
   ],
   [
     "Budget de source",
-    `The Odds API est limitée à ${PRODUCT_CONFIG.monthlyApiCreditLimit} crédits mensuels. Les futurs robots devront grouper les appels et tracer le coût.`,
+    `The Odds API est limitée à ${PRODUCT_CONFIG.monthlyApiCreditLimit} crédits mensuels. Le plan futur prévoit quatre scans quotidiens, environ 120 crédits mensuels pour les cotes, sans garantir le coût réel. Les résultats ne sont demandés que pour les pronostics non réglés.`,
   ],
   [
     "Aucun pari réel",
@@ -71,7 +79,7 @@ export default component$(() => (
     <PageHeader
       eyebrow="PROTOCOLE OUVERT"
       title="Comment fonctionne Preuve90 ?"
-      description="Quinze règles simples rendent chaque observation comparable, vérifiable et honnête sur ses limites."
+      description="Des règles explicites rendent chaque observation multisport comparable, vérifiable et honnête sur ses limites."
     />
     <ol class="method-steps">
       {STEPS.map(([title, description], index) => (
