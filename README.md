@@ -40,6 +40,8 @@ src/content/
 
 Les JSON sont intégrés au build avec `import.meta.glob` en mode eager. La couche serveur valide les schémas, l’unicité des identifiants et des matchs, Betclic (FR), la mise de 500 centimes, la cohérence entre score et statut, ainsi que l’association des règlements. Elle n’utilise jamais `fs` au runtime Edge.
 
+Un workflow GitHub Actions exclusivement manuel peut collecter les cotes et scores The Odds API puis publier des snapshots nettoyés dans la branche technique `automation-data`. Il ne crée aucun pronostic et n’expose pas la clé à l’application. Voir [`docs/operations/DATA-PIPELINE.md`](./docs/operations/DATA-PIPELINE.md).
+
 Zéro, un ou plusieurs pronostics peuvent partager une même date `Europe/Paris`. Aucun plafond quotidien n’est codé : la pertinence de chaque analyse, les matchs disponibles et le budget The Odds API limitent naturellement le volume. Chaque publication conserve sa mise virtuelle individuelle de 500 centimes.
 
 Une publication ne contient pas son statut. L’absence de règlement dérive `PENDING`; un règlement distinct porte `WON`, `LOST` ou `VOID`. Les retours et statistiques sont toujours recalculés au centime depuis ces faits.
@@ -71,6 +73,9 @@ Le serveur est généralement disponible sur `http://localhost:5173`. Ne jamais 
 npm run dev          # serveur de développement
 npm run test         # Vitest en surveillance
 npm run test:run     # tests unitaires non interactifs
+npm run odds:collect # snapshot des cotes (clé serveur requise)
+npm run odds:results # snapshot des résultats utiles (clé serveur requise)
+npm run odds:validate # validation locale des snapshots
 npm run fmt          # formatage Prettier
 npm run fmt.check    # contrôle du formatage
 npm run lint         # ESLint Qwik/TypeScript
@@ -95,7 +100,7 @@ Les futurs robots ChatGPT suivront ce même modèle Git append-only. Ils restent
 
 - `ORIGIN` : origine utilisée par Qwik City ;
 - `PUBLIC_ORIGIN` : origine publique optionnelle pour les canonical absolues ;
-- `THE_ODDS_API_KEY` : future clé serveur, jamais utilisée dans le client ;
+- `THE_ODDS_API_KEY` : clé serveur utilisée uniquement par le pipeline de collecte, jamais par le client web ;
 - `REFERENCE_BOOKMAKER_KEY` : valeur fixe `betclic_fr`.
 
 Les champs `publisherName`, `publisherAddress` et `contactEmail` dans `src/config/site.ts` doivent être complétés avant lancement public.

@@ -263,14 +263,39 @@ Autoriser zéro, une ou plusieurs publications pour une même date civile `Europ
 
 ---
 
+## ADR-012 — Collecte The Odds API via GitHub Actions
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+
+### Contexte
+
+Les cotes Betclic France et les résultats doivent être collectés sans exposer la clé The Odds API à l’application ou aux futures tâches ChatGPT. Le forfait gratuit impose une limite mensuelle stricte de 500 crédits.
+
+### Décision
+
+Utiliser un workflow GitHub Actions manuel pour interroger The Odds API et publier des snapshots JSON nettoyés dans la branche technique mutable `automation-data`. GitHub Actions conserve seul le secret `THE_ODDS_API_KEY`. Les compétitions initiales sont la Ligue 1 (`soccer_france_ligue_one`), la Premier League (`soccer_epl`) et la Ligue des champions UEFA (`soccer_uefa_champs_league`). Les cotes sont limitées à Betclic (FR), au marché `h2h` et à la région française.
+
+Les futures tâches ChatGPT ne reçoivent que les snapshots nettoyés. Le workflow reste manuel au lancement et ne publie aucun pronostic, règlement ou changement directement sur `master`.
+
+### Conséquences
+
+- Les derniers snapshots vivent dans `automation-data` et ne sont pas soumis à l’immutabilité des preuves publiques.
+- Aucun secret, URL authentifiée ou payload brut n’est enregistré dans les snapshots.
+- Le budget centralisé refuse de poursuivre à partir de 450 crédits utilisés ou de 50 crédits restants.
+- Aucun cron, aucune base de données, aucune API applicative et aucun stockage supplémentaire ne sont introduits.
+- L’activation des tâches ChatGPT reste soumise aux autres préconditions documentées.
+
+---
+
 ## Décisions ouvertes avant l'activation des automatisations
 
 Les points suivants nécessitent une ADR dédiée avant leur implémentation :
 
-1. compétitions et fenêtres temporelles analysées ;
+1. fenêtre temporelle exacte analysée par la future tâche de publication ;
 2. source et format des informations complémentaires utilisées par l’IA ;
 3. procédure Git et droits exacts des futurs robots ChatGPT ;
-4. méthode exacte de comptage des crédits The Odds API ;
-5. politique de correction en cas d’erreur factuelle publiée ;
-6. règles des matchs reportés, abandonnés ou interrompus ;
-7. formulation juridique et dispositif de prévention des risques liés aux jeux d’argent.
+4. politique de correction en cas d’erreur factuelle publiée ;
+5. règles des matchs reportés, abandonnés ou interrompus ;
+6. formulation juridique et dispositif de prévention des risques liés aux jeux d’argent.

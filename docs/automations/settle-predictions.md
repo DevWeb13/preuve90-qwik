@@ -12,7 +12,7 @@ Identifier les publications sans règlement dont le résultat réglementaire est
 
 - source de scores et interprétation du temps réglementaire documentées ;
 - règles acceptées pour matchs reportés, annulés, interrompus ou abandonnés ;
-- suivi du budget The Odds API disponible ;
+- snapshot nettoyé de résultats et suivi du budget The Odds API disponibles ;
 - droits Git minimaux et procédure branche/revue humaine définis ;
 - validations et calculs métier du dépôt verts.
 
@@ -24,7 +24,7 @@ Si une précondition manque, terminer avec `blocked` sans créer de règlement.
 2. Vérifier l’état Git, partir de `master` à jour et créer une branche unique dédiée.
 3. Charger les publications et règlements JSON ; dériver `PENDING` uniquement pour les publications sans règlement.
 4. Ne traiter que les rencontres passées après la marge de sécurité acceptée.
-5. Vérifier le budget, grouper les recherches de résultats et n’utiliser qu’un résultat déclaré final.
+5. Lire `results.json` et `metadata.json` depuis `automation-data`, relever leur SHA, vérifier le budget et n’utiliser qu’un résultat déclaré final ; ne jamais demander ou manipuler la clé The Odds API.
 6. Retenir le score au temps réglementaire, jamais celui après prolongation ou tirs au but.
 7. Déterminer `HOME`, `DRAW` ou `AWAY`, le comparer à la sélection publiée et produire `WON`, `LOST` ou, uniquement avec une règle acceptée, `VOID`.
 8. Construire un JSON `Settlement` contenant l’identifiant de publication, `settledAt` UTC, le statut, le score final et la source The Odds API avec le même identifiant d’événement.
