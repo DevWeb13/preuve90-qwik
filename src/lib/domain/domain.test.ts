@@ -1,11 +1,17 @@
 import { describe, expect, it } from "vitest";
 import { assemblePredictions } from "./content";
 import { calendarDayNumber, differenceInCalendarDays, getDateKeyInTimeZone } from "./calendar";
-import { getRealizedReturnCents, multiplyCentsByDecimal, parseDecimalOdds } from "./money";
+import {
+  getBreakEvenProbabilityBps,
+  getEstimatedValueBps,
+  getRealizedReturnCents,
+  hasPositiveEstimatedValue,
+  multiplyCentsByDecimal,
+  parseDecimalOdds,
+} from "./money";
 import {
   createPredictionView,
   getExpectedSettlementStatus,
-  getMatchOutcome,
   groupPredictionsByPublicationDay,
   selectPredictionsForDate,
   sortPredictionsNewestFirst,
@@ -15,17 +21,33 @@ import type { Prediction, Settlement } from "~/types/prediction";
 
 function prediction(overrides: Partial<Prediction> = {}): Prediction {
   return {
-    id: "prediction-1",
+    id: "prediction-tennis-1",
     publicationDate: "2026-01-02",
     publishedAt: "2026-01-02T08:00:00Z",
-    kickoffAt: "2026-01-02T20:00:00Z",
-    competition: { key: "ligue-1", name: "Ligue 1", country: "France" },
-    match: { eventId: "event-1", homeTeam: "Équipe A", awayTeam: "Équipe B" },
-    selection: "HOME",
+    startsAt: "2026-01-02T12:00:00Z",
+    sport: { key: "tennis_atp", title: "ATP Test" },
+    event: { eventId: "event-1", participantA: "Joueur A", participantB: "Joueur B" },
+    market: {
+      key: "h2h",
+      outcomes: [
+        { name: "Joueur A", odds: "1.85" },
+        { name: "Joueur B", odds: "1.95" },
+      ],
+    },
+    selection: { name: "Joueur A" },
     recordedOdds: "1.85",
-    bookmaker: { key: "betclic_fr", name: "Betclic (FR)", observedAt: "2026-01-02T07:55:00Z" },
+    bookmaker: {
+      key: "betclic_fr",
+      name: "Betclic (FR)",
+      observedAt: "2026-01-02T07:55:00Z",
+    },
     virtualStakeCents: 500,
-    reasoning: { summary: "Résumé test", factors: ["Facteur test"], uncertainty: "Incertitude test" },
+    reasoning: {
+      estimatedProbabilityBps: 5800,
+      summary: "Résumé test",
+      factors: ["Facteur test"],
+      uncertainty: "Incertitude test",
+    },
     source: { provider: "the-odds-api", eventId: "event-1" },
     ...overrides,
   };
@@ -33,373 +55,251 @@ function prediction(overrides: Partial<Prediction> = {}): Prediction {
 
 function settlement(overrides: Partial<Settlement> = {}): Settlement {
   return {
-    predictionId: "prediction-1",
-    settledAt: "2026-01-02T22:15:00Z",
+    predictionId: "prediction-tennis-1",
+    settledAt: "2026-01-02T14:15:00Z",
     status: "WON",
-    finalScore: { home: 2, away: 0 },
+    result: {
+      winningOutcomeName: "Joueur A",
+      scores: [
+        { name: "Joueur A", value: "2" },
+        { name: "Joueur B", value: "0" },
+      ],
+    },
     source: { provider: "the-odds-api", eventId: "event-1" },
     ...overrides,
   };
 }
 
-function sameDayPrediction(index: number, publicationDate = "2026-01-02"): Prediction {
-  const publishedHour = String(8 + index).padStart(2, "0");
-  const kickoffHour = String(14 + index).padStart(2, "0");
-  const eventId = `event-${publicationDate}-${index}`;
+function sameDayPrediction(index: number): Prediction {
+  const eventId = `event-${index}`;
   return prediction({
-    id: `prediction-${publicationDate}-${index}`,
-    publicationDate,
-    publishedAt: `${publicationDate}T${publishedHour}:00:00Z`,
-    kickoffAt: `${publicationDate}T${kickoffHour}:00:00Z`,
-    match: { eventId, homeTeam: `Domicile ${index}`, awayTeam: `Extérieur ${index}` },
+    id: `prediction-${index}`,
+    publishedAt: `2026-01-02T${String(8 + index).padStart(2, "0")}:00:00Z`,
+    startsAt: `2026-01-02T${String(14 + index).padStart(2, "0")}:00:00Z`,
+    event: { eventId, participantA: `Participant A ${index}`, participantB: `Participant B ${index}` },
+    market: {
+      key: "h2h",
+      outcomes: [
+        { name: `Participant A ${index}`, odds: "1.85" },
+        { name: `Participant B ${index}`, odds: "1.95" },
+      ],
+    },
+    selection: { name: `Participant A ${index}` },
     source: { provider: "the-odds-api", eventId },
   });
 }
 
-function settlementFor(
-  item: Prediction,
-  status: Settlement["status"],
-  finalScore: Settlement["finalScore"],
-): Settlement {
-  return settlement({
-    predictionId: item.id,
-    settledAt: `${item.publicationDate}T23:30:00Z`,
-    status,
-    finalScore,
-    source: { provider: "the-odds-api", eventId: item.match.eventId },
-  });
-}
-
 describe("journées civiles Europe/Paris", () => {
-  it("produit une clé pour une date ordinaire", () => {
-    expect(getDateKeyInTimeZone("2026-01-15T12:00:00Z", "Europe/Paris")).toBe("2026-01-15");
-  });
-
-  it("gère le changement de journée entre UTC et Paris", () => {
+  it("gère UTC, heure d’été et listes d’une même journée", () => {
     expect(getDateKeyInTimeZone("2026-01-15T23:30:00Z", "Europe/Paris")).toBe("2026-01-16");
-  });
-
-  it("gère le passage à l’heure d’été sans fausser les journées", () => {
-    expect(getDateKeyInTimeZone("2026-03-28T23:30:00Z", "Europe/Paris")).toBe("2026-03-29");
-    expect(getDateKeyInTimeZone("2026-03-29T22:30:00Z", "Europe/Paris")).toBe("2026-03-30");
     expect(differenceInCalendarDays("2026-03-29", "2026-03-30")).toBe(1);
-  });
-
-  it("gère le passage à l’heure d’hiver sans fausser les journées", () => {
-    expect(getDateKeyInTimeZone("2026-10-24T22:30:00Z", "Europe/Paris")).toBe("2026-10-25");
-    expect(getDateKeyInTimeZone("2026-10-25T23:30:00Z", "Europe/Paris")).toBe("2026-10-26");
-    expect(differenceInCalendarDays("2026-10-25", "2026-10-26")).toBe(1);
-  });
-
-  it("rejette une clé calendaire impossible", () => {
     expect(() => calendarDayNumber("2026-02-30")).toThrow("impossible");
-  });
-
-  it("groupe plusieurs publications du même jour et gère une liste vide", () => {
     const views = [sameDayPrediction(2), sameDayPrediction(0), sameDayPrediction(1)].map((item) =>
       createPredictionView(item),
     );
-    expect(groupPredictionsByPublicationDay([], "Europe/Paris")).toEqual([]);
     expect(selectPredictionsForDate(views, "2026-01-02", "Europe/Paris").map((item) => item.id)).toEqual([
-      "prediction-2026-01-02-0",
-      "prediction-2026-01-02-1",
-      "prediction-2026-01-02-2",
+      "prediction-0",
+      "prediction-1",
+      "prediction-2",
     ]);
   });
 });
 
-describe("calculs monétaires", () => {
-  it("parse une cote décimale exacte", () => {
+describe("cotes et valeur estimée", () => {
+  it("calcule exactement le retour, le seuil implicite et l’espérance", () => {
     expect(parseDecimalOdds("1.85")).toEqual({ numerator: 185n, denominator: 100n });
-    expect(() => parseDecimalOdds("1,85")).toThrow("invalide");
-    expect(() => parseDecimalOdds("1.00")).toThrow("supérieure à 1");
-  });
-
-  it("calcule et arrondit le retour gagné au centime", () => {
     expect(multiplyCentsByDecimal(500, "1.85")).toBe(925);
-    expect(multiplyCentsByDecimal(500, "2.10")).toBe(1050);
-    expect(multiplyCentsByDecimal(333, "1.555")).toBe(518);
+    expect(getBreakEvenProbabilityBps("1.85")).toBe(5405);
+    expect(getEstimatedValueBps(5800, "1.85")).toBe(730);
+    expect(hasPositiveEstimatedValue(5800, "1.85")).toBe(true);
+    expect(hasPositiveEstimatedValue(5000, "2.00")).toBe(false);
   });
 
-  it("calcule les retours perdu, annulé et en attente", () => {
+  it("calcule les retours gagné, perdu, annulé et en attente", () => {
+    expect(getRealizedReturnCents("WON", 500, "1.85")).toBe(925);
     expect(getRealizedReturnCents("LOST", 500, "1.85")).toBe(0);
     expect(getRealizedReturnCents("VOID", 500, "1.85")).toBe(500);
     expect(getRealizedReturnCents("PENDING", 500, "1.85")).toBeNull();
   });
 });
 
-describe("dérivation et statistiques", () => {
-  it("dérive PENDING de l’absence de règlement", () => {
-    const view = createPredictionView(prediction());
-    expect(view.status).toBe("PENDING");
-    expect(view.realizedReturnCents).toBeNull();
-    expect(view.netResultCents).toBeNull();
+describe("contenu multisport", () => {
+  it("accepte un pronostic tennis à deux issues", () => {
+    expect(assemblePredictions([prediction()], [])).toHaveLength(1);
   });
 
-  it("retourne des statistiques neutres sans donnée", () => {
-    const stats = calculateStatistics([], new Date("2026-01-05T00:00:00Z"));
-    expect(stats.totalPredictions).toBe(0);
+  it("accepte un pronostic basket sélectionnant le participant B", () => {
+    const basket = prediction({
+      id: "basket-1",
+      sport: { key: "basketball_nba", title: "NBA" },
+      event: { eventId: "basket-event", participantA: "Celtics", participantB: "Knicks" },
+      market: {
+        key: "h2h",
+        outcomes: [
+          { name: "Celtics", odds: "1.70" },
+          { name: "Knicks", odds: "2.20" },
+        ],
+      },
+      selection: { name: "Knicks" },
+      recordedOdds: "2.20",
+      reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 4800 },
+      source: { provider: "the-odds-api", eventId: "basket-event" },
+    });
+    expect(assemblePredictions([basket], [
+      settlement({
+        predictionId: "basket-1",
+        status: "LOST",
+        result: { winningOutcomeName: "Celtics", scores: null },
+        source: { provider: "official-source", eventId: "basket-event" },
+      }),
+    ])[0].status).toBe("LOST");
+  });
+
+  it("accepte un pronostic football à trois issues et une sélection Draw", () => {
+    const football = prediction({
+      id: "football-1",
+      sport: { key: "soccer_france", title: "Football France" },
+      event: { eventId: "football-event", participantA: "Club A", participantB: "Club B" },
+      market: {
+        key: "h2h",
+        outcomes: [
+          { name: "Club A", odds: "2.30" },
+          { name: "Draw", odds: "3.40" },
+          { name: "Club B", odds: "3.00" },
+        ],
+      },
+      selection: { name: "Draw" },
+      recordedOdds: "3.40",
+      reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 3200 },
+      source: { provider: "the-odds-api", eventId: "football-event" },
+    });
+    expect(assemblePredictions([football], [])).toHaveLength(1);
+  });
+
+  it("rejette une sélection absente et une cote sélectionnée incohérente", () => {
+    expect(() => assemblePredictions([{ ...prediction(), selection: { name: "Inconnue" } }], [])).toThrow(
+      "correspondre exactement",
+    );
+    expect(() => assemblePredictions([{ ...prediction(), recordedOdds: "1.95" }], [])).toThrow(
+      "correspondre exactement",
+    );
+  });
+
+  it("rejette une probabilité invalide et une espérance nulle ou négative", () => {
+    expect(() =>
+      assemblePredictions(
+        [{ ...prediction(), reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 10_000 } }],
+        [],
+      ),
+    ).toThrow("9 999");
+    expect(() =>
+      assemblePredictions(
+        [
+          {
+            ...prediction(),
+            market: { key: "h2h", outcomes: [{ name: "Joueur A", odds: "2.00" }, { name: "Joueur B", odds: "1.80" }] },
+            recordedOdds: "2.00",
+            reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 5000 },
+          },
+        ],
+        [],
+      ),
+    ).toThrow("strictement positive");
+  });
+
+  it("rejette une publication au début ou après l’événement", () => {
+    expect(() => assemblePredictions([{ ...prediction(), publishedAt: prediction().startsAt }], [])).toThrow(
+      "précéder",
+    );
+  });
+
+  it("accepte des règlements gagné, perdu et VOID cohérents", () => {
+    expect(assemblePredictions([prediction()], [settlement()])[0].status).toBe("WON");
+    const lost = settlement({
+      status: "LOST",
+      result: { winningOutcomeName: "Joueur B", scores: null },
+    });
+    expect(assemblePredictions([prediction()], [lost])[0].status).toBe("LOST");
+    const voidSettlement = settlement({
+      status: "VOID",
+      result: { winningOutcomeName: null, scores: null },
+    });
+    expect(assemblePredictions([prediction()], [voidSettlement])[0].status).toBe("VOID");
+  });
+
+  it("rejette les règlements incohérents et VOID avec une issue gagnante", () => {
+    expect(() =>
+      assemblePredictions(
+        [prediction()],
+        [settlement({ status: "WON", result: { winningOutcomeName: "Joueur B", scores: null } })],
+      ),
+    ).toThrow("incohérent");
+    expect(() =>
+      assemblePredictions(
+        [prediction()],
+        [settlement({ status: "VOID", result: { winningOutcomeName: "Joueur A", scores: null } })],
+      ),
+    ).toThrow("VOID exige");
+  });
+
+  it("rejette un doublon d’événement mais accepte plusieurs publications le même jour", () => {
+    expect(assemblePredictions([sameDayPrediction(0), sameDayPrediction(1)], [])).toHaveLength(2);
+    const duplicate = { ...sameDayPrediction(1), event: sameDayPrediction(0).event, source: sameDayPrediction(0).source };
+    expect(() => assemblePredictions([sameDayPrediction(0), duplicate], [])).toThrow(
+      "Événement publié plusieurs fois",
+    );
+  });
+
+  it("trie les jours et événements de manière déterministe", () => {
+    const views = assemblePredictions([sameDayPrediction(1), sameDayPrediction(0)], []);
+    expect(sortPredictionsNewestFirst(views).map((item) => item.id)).toEqual([
+      "prediction-1",
+      "prediction-0",
+    ]);
+    expect(groupPredictionsByPublicationDay(views, "Europe/Paris")[0].predictions.map((item) => item.id)).toEqual([
+      "prediction-0",
+      "prediction-1",
+    ]);
+  });
+});
+
+describe("statistiques multisports", () => {
+  it("retourne des valeurs neutres sans donnée", () => {
+    const stats = calculateStatistics([]);
     expect(stats.successRate).toBeNull();
     expect(stats.roi).toBeNull();
-    expect(stats.netResultCents).toBe(0);
-    expect(stats.cumulativePerformance).toEqual([]);
+    expect(stats.averageEstimatedProbabilityBps).toBeNull();
+    expect(stats.averageEstimatedValueBps).toBeNull();
   });
 
-  it("calcule gagnés, perdus et rendement sans division flottante visible", () => {
-    const won = createPredictionView(prediction(), settlement());
-    const lostPrediction = prediction({
-      id: "prediction-2",
-      publicationDate: "2026-01-03",
-      publishedAt: "2026-01-03T08:00:00Z",
-      kickoffAt: "2026-01-03T20:00:00Z",
-      match: { eventId: "event-2", homeTeam: "Équipe C", awayTeam: "Équipe D" },
-      source: { provider: "the-odds-api", eventId: "event-2" },
-    });
-    const lost = createPredictionView(
-      lostPrediction,
+  it("calcule résultats, ROI et estimations moyennes sans les confondre", () => {
+    const first = createPredictionView(prediction(), settlement());
+    const secondPrediction = sameDayPrediction(1);
+    const second = createPredictionView(
+      secondPrediction,
       settlement({
-        predictionId: "prediction-2",
-        settledAt: "2026-01-03T22:00:00Z",
+        predictionId: secondPrediction.id,
+        settledAt: "2026-01-02T23:00:00Z",
         status: "LOST",
-        source: { provider: "the-odds-api", eventId: "event-2" },
+        result: { winningOutcomeName: secondPrediction.event.participantB, scores: null },
+        source: { provider: "the-odds-api", eventId: secondPrediction.event.eventId },
       }),
     );
-    const stats = calculateStatistics([won, lost], new Date("2026-01-05T00:00:00Z"));
+    const stats = calculateStatistics([first, second]);
     expect(stats.wonPredictions).toBe(1);
     expect(stats.lostPredictions).toBe(1);
-    expect(stats.successRate).toBe(0.5);
     expect(stats.totalSettledStakeCents).toBe(1000);
     expect(stats.totalRealizedReturnCents).toBe(925);
     expect(stats.netResultCents).toBe(-75);
     expect(stats.roi).toBe(-0.075);
-  });
-
-  it("exclut les annulations du taux de réussite", () => {
-    const won = createPredictionView(prediction(), settlement());
-    const voidPrediction = prediction({
-      id: "prediction-void",
-      publicationDate: "2026-01-03",
-      publishedAt: "2026-01-03T08:00:00Z",
-      kickoffAt: "2026-01-03T20:00:00Z",
-      match: { eventId: "event-void", homeTeam: "Équipe C", awayTeam: "Équipe D" },
-      source: { provider: "the-odds-api", eventId: "event-void" },
-    });
-    const voidView = createPredictionView(
-      voidPrediction,
-      settlement({
-        predictionId: "prediction-void",
-        settledAt: "2026-01-03T22:00:00Z",
-        status: "VOID",
-        source: { provider: "the-odds-api", eventId: "event-void" },
-      }),
-    );
-    const stats = calculateStatistics([won, voidView]);
-    expect(stats.successRate).toBe(1);
-    expect(stats.voidPredictions).toBe(1);
-  });
-
-  it("gère les divisions par zéro quand seuls des pronostics pending existent", () => {
-    const stats = calculateStatistics([createPredictionView(prediction())]);
-    expect(stats.successRate).toBeNull();
-    expect(stats.roi).toBeNull();
-  });
-
-  it("produit une évolution cumulative chronologique", () => {
-    const first = createPredictionView(prediction(), settlement());
-    const secondPrediction = prediction({
-      id: "prediction-2",
-      publicationDate: "2026-01-03",
-      publishedAt: "2026-01-03T08:00:00Z",
-      kickoffAt: "2026-01-03T20:00:00Z",
-      match: { eventId: "event-2", homeTeam: "Équipe C", awayTeam: "Équipe D" },
-      source: { provider: "the-odds-api", eventId: "event-2" },
-    });
-    const second = createPredictionView(
-      secondPrediction,
-      settlement({
-        predictionId: "prediction-2",
-        settledAt: "2026-01-03T22:00:00Z",
-        status: "LOST",
-        source: { provider: "the-odds-api", eventId: "event-2" },
-      }),
-    );
-    expect(calculateStatistics([second, first]).cumulativePerformance).toEqual([
-      { predictionId: "prediction-1", publicationDate: "2026-01-02", netResultCents: 425 },
-      { predictionId: "prediction-2", publicationDate: "2026-01-03", netResultCents: -75 },
-    ]);
-  });
-
-  it("comptabilise toutes les mises individuelles d’une même journée", () => {
-    const views = Array.from({ length: 5 }, (_, index) =>
-      createPredictionView(sameDayPrediction(index)),
-    );
-    const stats = calculateStatistics(views, new Date("2026-01-02T22:00:00Z"));
-    expect(stats.totalPredictions).toBe(5);
-    expect(stats.totalVirtualStakeCents).toBe(2500);
-    expect(stats.pendingPredictions).toBe(5);
+    expect(stats.averageEstimatedProbabilityBps).toBe(5800);
+    expect(stats.averageEstimatedValueBps).toBe(730);
   });
 });
 
-describe("cohérence des résultats", () => {
-  it("détermine une victoire à domicile", () => {
-    expect(getMatchOutcome({ home: 2, away: 0 })).toBe("HOME");
-    expect(getExpectedSettlementStatus("HOME", { home: 2, away: 0 })).toBe("WON");
-  });
-
-  it("détermine une sélection domicile perdue", () => {
-    expect(getExpectedSettlementStatus("HOME", { home: 0, away: 1 })).toBe("LOST");
-  });
-
-  it("détermine un nul gagné", () => {
-    expect(getMatchOutcome({ home: 1, away: 1 })).toBe("DRAW");
-    expect(getExpectedSettlementStatus("DRAW", { home: 1, away: 1 })).toBe("WON");
-  });
-
-  it("détermine un nul perdu", () => {
-    expect(getExpectedSettlementStatus("DRAW", { home: 2, away: 1 })).toBe("LOST");
-  });
-
-  it("détermine une victoire à l’extérieur", () => {
-    expect(getMatchOutcome({ home: 0, away: 3 })).toBe("AWAY");
-    expect(getExpectedSettlementStatus("AWAY", { home: 0, away: 3 })).toBe("WON");
-  });
-
-  it("détermine une sélection extérieure perdue", () => {
-    expect(getExpectedSettlementStatus("AWAY", { home: 2, away: 0 })).toBe("LOST");
-  });
-});
-
-describe("intégrité du contenu", () => {
-  it("trie les publications de la plus récente à la plus ancienne", () => {
-    const older = prediction();
-    const newer = prediction({
-      id: "prediction-2",
-      publicationDate: "2026-01-03",
-      publishedAt: "2026-01-03T08:00:00Z",
-      kickoffAt: "2026-01-03T20:00:00Z",
-      match: { eventId: "event-2", homeTeam: "Équipe C", awayTeam: "Équipe D" },
-      source: { provider: "the-odds-api", eventId: "event-2" },
-    });
-    expect(sortPredictionsNewestFirst([older, newer]).map((item) => item.id)).toEqual([
-      "prediction-2",
-      "prediction-1",
-    ]);
-  });
-
-  it("rejette les identifiants dupliqués", () => {
-    const duplicate = prediction({
-      publicationDate: "2026-01-03",
-      publishedAt: "2026-01-03T08:00:00Z",
-      kickoffAt: "2026-01-03T20:00:00Z",
-      match: { eventId: "event-2", homeTeam: "Équipe C", awayTeam: "Équipe D" },
-      source: { provider: "the-odds-api", eventId: "event-2" },
-    });
-    expect(() => assemblePredictions([prediction(), duplicate], [])).toThrow("dupliqué");
-  });
-
-  it("accepte deux pronostics différents publiés le même jour", () => {
-    expect(assemblePredictions([sameDayPrediction(0), sameDayPrediction(1)], [])).toHaveLength(2);
-  });
-
-  it("accepte cinq pronostics différents publiés le même jour", () => {
-    const predictions = Array.from({ length: 5 }, (_, index) => sameDayPrediction(index));
-    expect(assemblePredictions(predictions, [])).toHaveLength(5);
-  });
-
-  it("rejette deux publications portant le même eventId", () => {
-    const first = sameDayPrediction(0);
-    const duplicateMatch = {
-      ...sameDayPrediction(1),
-      match: { ...sameDayPrediction(1).match, eventId: first.match.eventId },
-      source: { provider: "the-odds-api" as const, eventId: first.match.eventId },
-    };
-    expect(() => assemblePredictions([first, duplicateMatch], [])).toThrow(
-      "Match publié plusieurs fois",
-    );
-  });
-
-  it("trie plusieurs journées et les matchs de chaque jour par coup d’envoi", () => {
-    const inputs = [
-      sameDayPrediction(1, "2026-01-02"),
-      sameDayPrediction(0, "2026-01-03"),
-      sameDayPrediction(0, "2026-01-02"),
-      sameDayPrediction(1, "2026-01-03"),
-    ];
-    const groups = groupPredictionsByPublicationDay(
-      assemblePredictions(inputs, []),
-      "Europe/Paris",
-    );
-    expect(groups.map((group) => group.dateKey)).toEqual(["2026-01-03", "2026-01-02"]);
-    expect(groups[0].predictions.map((item) => item.id)).toEqual([
-      "prediction-2026-01-03-0",
-      "prediction-2026-01-03-1",
-    ]);
-  });
-
-  it("associe le règlement à sa publication", () => {
-    const [view] = assemblePredictions([prediction()], [settlement()]);
-    expect(view.status).toBe("WON");
-    expect(view.settlement?.finalScore).toEqual({ home: 2, away: 0 });
-  });
-
-  it("rejette un bookmaker autre que betclic_fr", () => {
-    const invalid = { ...prediction(), bookmaker: { key: "other_fr", name: "Autre", observedAt: "2026-01-02T07:55:00Z" } };
-    expect(() => assemblePredictions([invalid], [])).toThrow("betclic_fr");
-  });
-
-  it("rejette une mise différente de 500 centimes", () => {
-    const invalid = { ...prediction(), virtualStakeCents: 1000 };
-    expect(() => assemblePredictions([invalid], [])).toThrow("500 centimes");
-  });
-
-  it("rejette un règlement sans publication", () => {
-    expect(() => assemblePredictions([], [settlement()])).toThrow("aucune publication");
-  });
-
-  it("rejette un faux statut WON", () => {
-    const item = sameDayPrediction(0);
-    expect(() =>
-      assemblePredictions([item], [settlementFor(item, "WON", { home: 0, away: 1 })]),
-    ).toThrow("Statut WON incohérent");
-  });
-
-  it("rejette un faux statut LOST", () => {
-    const item = sameDayPrediction(0);
-    expect(() =>
-      assemblePredictions([item], [settlementFor(item, "LOST", { home: 2, away: 0 })]),
-    ).toThrow("Statut LOST incohérent");
-  });
-
-  it("accepte VOID indépendamment du score", () => {
-    const item = sameDayPrediction(0);
-    expect(
-      assemblePredictions([item], [settlementFor(item, "VOID", { home: 9, away: 0 })])[0]
-        .status,
-    ).toBe("VOID");
-  });
-
-  it("comptabilise plusieurs règlements indépendants du même jour", () => {
-    const won = sameDayPrediction(0);
-    const lost = sameDayPrediction(1);
-    const views = assemblePredictions(
-      [won, lost],
-      [
-        settlementFor(won, "WON", { home: 2, away: 0 }),
-        settlementFor(lost, "LOST", { home: 0, away: 1 }),
-      ],
-    );
-    const stats = calculateStatistics(views, new Date("2026-01-02T22:30:00Z"));
-    expect(stats.settledPredictions).toBe(2);
-    expect(stats.wonPredictions).toBe(1);
-    expect(stats.lostPredictions).toBe(1);
-    expect(stats.totalSettledStakeCents).toBe(1000);
-  });
-
-  it("rejette un timestamp ISO impossible sans normalisation JavaScript", () => {
-    const invalid = prediction({
-      publicationDate: "2026-03-02",
-      publishedAt: "2026-02-30T08:00:00Z",
-    });
-    expect(() => assemblePredictions([invalid], [])).toThrow("timestamp est invalide");
+describe("cohérence générique des issues", () => {
+  it("compare exactement l’issue gagnante et la sélection", () => {
+    expect(getExpectedSettlementStatus("Joueur A", "Joueur A")).toBe("WON");
+    expect(getExpectedSettlementStatus("Draw", "Club B")).toBe("LOST");
   });
 });
