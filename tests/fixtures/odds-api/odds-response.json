@@ -1,0 +1,28 @@
+[
+  {
+    "id": "event-ligue-1-valid",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2026-07-21T18:45:00Z",
+    "home_team": "Paris FC",
+    "away_team": "Lyon FC",
+    "bookmakers": [
+      {
+        "key": "betclic_fr",
+        "title": "Betclic (FR)",
+        "last_update": "2026-07-20T07:59:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-07-20T07:59:00Z",
+            "outcomes": [
+              { "name": "Paris FC", "price": 1.85 },
+              { "name": "Draw", "price": 3.4 },
+              { "name": "Lyon FC", "price": 4.2 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

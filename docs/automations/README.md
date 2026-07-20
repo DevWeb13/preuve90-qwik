@@ -8,11 +8,11 @@ GitHub est la source d’autorité des instructions et des faits publics. À cha
 2. ce fichier ;
 3. son fichier d’instructions dédié.
 
-Deux tâches sont prévues : publication éventuelle de pronostics pertinents et règlement des rencontres terminées. Elles restent **inactives** tant que toutes leurs préconditions opérationnelles ne sont pas acceptées.
+Deux tâches sont prévues : publication éventuelle de pronostics pertinents et règlement des rencontres terminées. Elles restent **inactives** tant que toutes leurs préconditions opérationnelles ne sont pas acceptées. La collecte GitHub Actions décrite par l’ADR-012 ne les active pas.
 
 ## Architecture V1
 
-La V1 n’expose aucune route API d’administration et ne possède aucune base de données. Une future tâche travaille dans Git : elle crée une branche unique, ajoute un fichier JSON immuable dans `src/content/predictions/` ou `src/content/settlements/`, exécute les validations et soumet le changement à une revue humaine selon les droits qui seront décidés.
+La V1 n’expose aucune route API d’administration et ne possède aucune base de données. The Odds API alimente séparément des snapshots nettoyés dans la branche technique `automation-data` ; les futures tâches ChatGPT n’accèdent ni à la clé ni aux réponses brutes. Une future tâche travaille ensuite dans Git : elle crée une branche unique, ajoute un fichier JSON immuable dans `src/content/predictions/` ou `src/content/settlements/`, exécute les validations et soumet le changement à une revue humaine selon les droits qui seront décidés.
 
 La tâche ne modifie jamais un fait existant, ne fusionne pas sa propre proposition et ne pousse jamais sur `master`. Le déploiement public n’intervient qu’après le workflow Git humain normal.
 
