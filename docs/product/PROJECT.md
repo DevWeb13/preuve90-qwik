@@ -29,14 +29,22 @@ Le ton éditorial doit être factuel, prudent et transparent. Les performances h
 
 Les cotes et les résultats sont récupérés avec The Odds API en utilisant uniquement son forfait gratuit de 500 crédits mensuels.
 
-Un bookmaker français fixe sert de référence. Pour chaque pronostic, l'application affiche clairement :
+Betclic (FR), clé technique `betclic_fr`, sert de référence fixe. Pour chaque pronostic, l'application affiche clairement :
 
 - le bookmaker de référence réellement interrogé ;
 - la cote observée ;
 - la date et l'heure du relevé ;
 - le fait que cette cote observée ne prouve pas qu'elle aurait été acceptée pour un utilisateur donné.
 
-Le bookmaker de référence sera choisi et consigné dans une décision d'architecture avant l'activation de la publication automatique.
+Cette référence est consignée dans l’ADR-007 et ne peut pas changer opportunément selon les matchs.
+
+## Architecture des faits V1
+
+La V1 ne possède aucune base de données ni route API d’administration. Les publications et règlements sont des fichiers JSON distincts, immuables et versionnés dans Git. Vite les intègre au build avec `import.meta.glob` ; aucun accès au système de fichiers n’a lieu au runtime Vercel Edge.
+
+Les futurs robots ChatGPT travailleront sur une branche dédiée, ajouteront au plus un nouveau fichier par fait et soumettront leur proposition à une revue humaine. Ils ne modifieront jamais une publication existante.
+
+En développement uniquement, des fixtures TypeScript déterministes rendent l’interface vérifiable lorsque la collection réelle est vide. Elles sont identifiées par un bandeau et ne remplacent jamais l’état vide de production.
 
 ## Enregistrement immuable d'un pronostic
 
@@ -54,7 +62,7 @@ Chaque pronostic publié conserve définitivement :
 - la date et l'heure de publication ;
 - la mise virtuelle de 5 EUR ;
 - la justification du pronostic ;
-- son état de règlement.
+- sa justification et son incertitude.
 
 La partie publiée avant le match est immuable. Le résultat et le règlement sont ajoutés comme des événements ou enregistrements distincts afin de préserver la preuve originale.
 
@@ -135,7 +143,7 @@ Les formulations juridiques définitives devront être validées avant ouverture
 
 ## Automatisation
 
-Deux tâches ChatGPT distinctes sont prévues :
+Deux tâches ChatGPT distinctes sont prévues, mais restent inactives tant que leurs préconditions opérationnelles ne sont pas toutes décidées :
 
 1. recherche, analyse et publication d'un nouveau pronostic ;
 2. vérification des matchs terminés, règlement des pronostics et recalcul des statistiques.
@@ -146,9 +154,9 @@ Leurs contrats d'exécution sont définis dans `docs/automations/`.
 
 Le lancement public ne peut pas avoir lieu avant que les éléments suivants existent :
 
-- stockage immuable ou append-only des publications ;
+- stockage immuable des publications et règlements dans Git ;
 - validation stricte des données externes ;
-- sélection du bookmaker de référence ;
+- Betclic (FR) comme bookmaker de référence ;
 - suivi de la consommation The Odds API ;
 - tâches idempotentes de publication et de règlement ;
 - affichage de l'historique complet ;

@@ -126,16 +126,125 @@ Ne pas définir de champ `model` dans `.codex/config.toml`. Définir uniquement 
 
 ---
 
-## Décisions ouvertes avant l'implémentation métier
+## ADR-006 — Faits JSON immuables versionnés dans Git
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+
+### Contexte
+
+La V1 doit rester simple, auditable et compatible avec Vercel Edge sans base de données.
+
+### Décision
+
+Stocker les publications et règlements dans deux collections JSON distinctes versionnées dans Git. Les charger au build avec `import.meta.glob` en mode eager et dériver toutes les vues et statistiques de ces faits.
+
+### Conséquences
+
+- Aucun accès `fs` ni base de données au runtime.
+- Une publication ou un règlement est ajouté par un futur robot via une branche et une revue humaine, jamais modifié en place.
+- Le dépôt valide les schémas, les identifiants, l’unicité quotidienne et les associations avant exposition.
+- Aucune route API d’administration n’existe en V1.
+
+---
+
+## ADR-007 — Betclic France comme bookmaker de référence
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+
+### Contexte
+
+Une référence française fixe est requise pour rendre les cotes comparables et empêcher un changement opportuniste de source.
+
+### Décision
+
+Utiliser exclusivement Betclic (FR), clé technique `betclic_fr`, pour les publications V1 sur le marché football 1N2 en temps réglementaire.
+
+### Conséquences
+
+- Une publication portant une autre clé ou un autre nom est invalide.
+- La cote, la source et l’heure d’observation sont figées avant le coup d’envoi.
+- L’affichage rappelle qu’une cote observée ne garantit pas son acceptation pour une personne donnée.
+
+---
+
+## ADR-008 — Démonstration strictement locale au développement
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+
+### Contexte
+
+L’interface doit être testable avant la première publication réelle sans confondre fixtures et preuve publique.
+
+### Décision
+
+Utiliser des données TypeScript déterministes uniquement lorsque `import.meta.env.DEV` est vrai et qu’aucun JSON réel n’existe. En production, une collection vide reste vide.
+
+### Conséquences
+
+- Le mode démo porte un avertissement visible.
+- Une vraie publication désactive entièrement les fixtures.
+- Les pages de démo ne constituent pas des preuves indexables.
+
+---
+
+## ADR-009 — Cyber Football Lab et mouvement progressif
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+
+### Contexte
+
+La V1 a besoin d’une identité originale sans nuire à la crédibilité, à l’accessibilité ou au poids client.
+
+### Décision
+
+Adopter le thème sombre unique « Cyber Football Lab » décrit dans `docs/DESIGN.md`. Réserver GSAP aux animations signatures chargées côté client et utiliser CSS pour les micro-interactions.
+
+### Conséquences
+
+- Le contenu essentiel est rendu côté serveur avant toute animation.
+- Le mouvement réduit désactive rouleau, compteurs et balayages.
+- Aucune bibliothèque UI, de graphique ou d’animation supplémentaire n’est utilisée.
+
+---
+
+## ADR-010 — Tests métier avec Vitest
+
+- **Statut :** accepted
+- **Date :** 2026-07-20
+- **Auteur :** propriétaire du projet
+
+### Contexte
+
+Les calculs en centimes et les règles d’intégrité doivent être vérifiables indépendamment de Qwik.
+
+### Décision
+
+Tester avec Vitest les fonctions pures de calcul, validation, assemblage et statistiques. Ajouter l’exécution non interactive à la CI.
+
+### Conséquences
+
+- Les tests ne ciblent pas les détails de rendu Qwik.
+- `npm run check` inclut les tests unitaires.
+- Une branche rouge ne doit pas être publiée.
+
+---
+
+## Décisions ouvertes avant l'activation des automatisations
 
 Les points suivants nécessitent une ADR dédiée avant leur implémentation :
 
-1. système de persistance et stratégie append-only ;
-2. bookmaker français de référence ;
-3. compétitions et fenêtres temporelles analysées ;
-4. source et format des informations complémentaires utilisées par l'IA ;
-5. mécanisme d'appel sécurisé entre les tâches ChatGPT et l'application ;
-6. méthode exacte de comptage des crédits The Odds API ;
-7. politique de correction en cas d'erreur factuelle publiée ;
-8. stratégie de tests unitaires, intégration et navigateur ;
-9. formulation juridique et dispositif de prévention des risques liés aux jeux d'argent.
+1. compétitions et fenêtres temporelles analysées ;
+2. source et format des informations complémentaires utilisées par l’IA ;
+3. procédure Git et droits exacts des futurs robots ChatGPT ;
+4. méthode exacte de comptage des crédits The Odds API ;
+5. politique de correction en cas d’erreur factuelle publiée ;
+6. règles des matchs reportés, abandonnés ou interrompus ;
+7. formulation juridique et dispositif de prévention des risques liés aux jeux d’argent.

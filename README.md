@@ -1,45 +1,56 @@
 # Preuve90
 
-**Preuve90** est une expérience publique et transparente qui mesure la capacité d'une IA à produire des pronostics de football avant les matchs.
+Preuve90 est une expérience publique et transparente qui mesure la capacité d’une IA à produire des pronostics de football avant les matchs, résultats compris.
 
-Chaque pronostic simule une mise fixe de **5 EUR**. Aucun argent réel n'est engagé, aucun compte joueur n'est proposé et l'application n'interagit pas avec un bookmaker.
+Chaque publication porte sur le marché simple 1N2 au temps réglementaire et simule une mise fixe de **5 EUR**. Aucun argent réel n’est engagé, aucun compte joueur n’existe et l’application n’interagit pas avec un bookmaker.
 
-## État du projet
+## V1
 
-Le projet est en phase d'initialisation. Le socle Qwik et Vercel Edge est présent, ainsi que les règles de développement et les contrats des futures automatisations.
+La V1 fournit une interface Qwik responsive « Cyber Football Lab », un historique immuable, des preuves permanentes, des statistiques dérivées et une méthode publique. Betclic (FR), clé `betclic_fr`, est l’unique bookmaker de référence.
 
-Les tâches planifiées de publication et de règlement sont volontairement **inactives** jusqu'à la validation des décisions d'architecture nécessaires : persistance, bookmaker de référence, interface sécurisée et suivi du budget The Odds API.
+Routes publiques :
 
-## Périmètre initial
-
-- football uniquement ;
-- paris simples 1N2 uniquement ;
-- temps réglementaire uniquement ;
-- au maximum un pronostic par jour ;
-- mise virtuelle fixe de 5 EUR ;
-- aucun pari combiné ou hippique ;
-- aucun argent réel ;
-- aucun compte joueur ;
-- aucun lien commercial vers un bookmaker au lancement ;
-- aucune promesse de gain.
-
-## Principes de transparence
-
-- Chaque pronostic est publié et horodaté avant le coup d'envoi.
-- La cote observée, le bookmaker et l'heure du relevé sont conservés définitivement.
-- Une publication originale n'est jamais supprimée, antidatée ou réécrite après le résultat.
-- Le règlement est ajouté séparément et reste traçable.
-- L'historique complet inclut les gains, les pertes et les annulations.
-- Les performances passées ne garantissent aucune performance future.
+- `/` : tableau de bord et dernier pronostic ;
+- `/historique/` : journal complet filtrable par statut ;
+- `/pronostic/[id]/` : preuve permanente ;
+- `/statistiques/` : agrégats et courbe cumulative SVG ;
+- `/methode/` : protocole détaillé ;
+- `/mentions-legales/` et `/confidentialite/` : informations légales ;
+- toute route inconnue : état 404 cohérent.
 
 ## Stack
 
-- [Qwik](https://qwik.dev/) et Qwik City ;
-- TypeScript strict ;
-- Node.js 22.12 ;
-- npm ;
-- adaptateur Vercel Edge ;
-- The Odds API pour les cotes et résultats, avec un plafond de 500 crédits mensuels.
+- Qwik 1 et Qwik City, TypeScript strict ;
+- Vite 7 et adaptateur Vercel Edge ;
+- GSAP chargé dynamiquement pour quatre animations signatures ;
+- Vitest pour les fonctions métier pures ;
+- CSS natif, SVG inline, aucune bibliothèque UI ou de graphique ;
+- Node.js 22.12 ou version compatible avec `engines`, npm 10.
+
+## Architecture des données
+
+Il n’existe ni base de données, ni ORM, ni route API d’administration en V1.
+
+```text
+src/content/
+├── predictions/       # futures publications réelles *.json
+├── settlements/       # futurs règlements réels *.json
+└── demo/              # fixtures TypeScript, développement uniquement
+```
+
+Les JSON sont intégrés au build avec `import.meta.glob` en mode eager. La couche serveur valide les schémas, l’unicité des identifiants, la limite d’une publication par date `Europe/Paris`, Betclic (FR), la mise de 500 centimes et l’association des règlements. Elle n’utilise jamais `fs` au runtime Edge.
+
+Une publication ne contient pas son statut. L’absence de règlement dérive `PENDING`; un règlement distinct porte `WON`, `LOST` ou `VOID`. Les retours et statistiques sont toujours recalculés au centime depuis ces faits.
+
+## Mode démonstration
+
+En développement, si aucun fichier réel n’existe, sept scénarios déterministes et explicitement fictifs rendent toutes les vues testables. Un bandeau affiche :
+
+```text
+MODE DÉMONSTRATION — Ces données ne sont pas des pronostics publiés.
+```
+
+Une vraie publication désactive les fixtures. Un build de production n’utilise jamais ces données et présente un état vide propre si les collections JSON sont vides. Les pages de détail de démo portent `noindex`.
 
 ## Installation locale
 
@@ -50,59 +61,54 @@ cp .env.example .env
 npm run dev
 ```
 
-Le serveur de développement est généralement accessible sur `http://localhost:5173`.
+Le serveur est généralement disponible sur `http://localhost:5173`. Ne jamais committer `.env`, afficher une clé API ou préfixer un secret avec `PUBLIC_`.
 
-Ne jamais committer le fichier `.env` ni afficher son contenu dans un prompt, un log ou une pull request.
-
-## Commandes principales
+## Commandes
 
 ```bash
-npm run dev        # lancer Qwik en développement
-npm run fmt        # formater le dépôt
-npm run fmt.check  # vérifier le formatage
-npm run lint       # exécuter ESLint
-npm run build.types
-npm run build
-npm run check      # contrôle complet utilisé par la CI
+npm run dev          # serveur de développement
+npm run test         # Vitest en surveillance
+npm run test:run     # tests unitaires non interactifs
+npm run fmt          # formatage Prettier
+npm run fmt.check    # contrôle du formatage
+npm run lint         # ESLint Qwik/TypeScript
+npm run build.types  # TypeScript strict
+npm run build        # build Qwik + Vercel Edge
+npm run check        # format + lint + types + tests + build
 ```
+
+## Contribution et faits immuables
+
+1. partir de `master` à jour et créer une branche ciblée ;
+2. ne jamais modifier directement `master` ni réécrire l’historique partagé ;
+3. ajouter une publication dans `src/content/predictions/` sans modifier les faits existants ;
+4. ajouter son règlement séparément dans `src/content/settlements/` ;
+5. exécuter `npm run check` ;
+6. soumettre la branche à une revue humaine.
+
+Les futurs robots ChatGPT suivront ce même modèle Git append-only. Ils restent inactifs tant que leurs préconditions (compétitions, budget API, règles des matchs ambigus et droits Git) ne sont pas décidées.
+
+## Configuration
+
+- `ORIGIN` : origine utilisée par Qwik City ;
+- `PUBLIC_ORIGIN` : origine publique optionnelle pour les canonical absolues ;
+- `THE_ODDS_API_KEY` : future clé serveur, jamais utilisée dans le client ;
+- `REFERENCE_BOOKMAKER_KEY` : valeur fixe `betclic_fr`.
+
+Les champs `publisherName`, `publisherAddress` et `contactEmail` dans `src/config/site.ts` doivent être complétés avant lancement public.
 
 ## Documentation
 
-- [`AGENTS.md`](./AGENTS.md) : instructions permanentes pour Codex et les agents de développement ;
-- [`docs/product/PROJECT.md`](./docs/product/PROJECT.md) : contrat produit et invariants ;
-- [`docs/architecture/DECISIONS.md`](./docs/architecture/DECISIONS.md) : registre des décisions d'architecture ;
-- [`docs/automations/README.md`](./docs/automations/README.md) : fonctionnement commun des tâches planifiées ;
-- [`docs/automations/publish-prediction.md`](./docs/automations/publish-prediction.md) : contrat de publication ;
-- [`docs/automations/settle-predictions.md`](./docs/automations/settle-predictions.md) : contrat de règlement ;
-- [`CONTRIBUTING.md`](./CONTRIBUTING.md) : workflow local, Git et Codex.
+- [`docs/product/PROJECT.md`](./docs/product/PROJECT.md) : contrat produit ;
+- [`docs/architecture/DECISIONS.md`](./docs/architecture/DECISIONS.md) : décisions acceptées et ouvertes ;
+- [`docs/DESIGN.md`](./docs/DESIGN.md) : référence « Cyber Football Lab » ;
+- [`docs/automations/`](./docs/automations/) : contrats des futurs robots ;
+- [`AGENTS.md`](./AGENTS.md) : invariants permanents.
 
-## Codex
+## Validation continue
 
-Le dépôt contient une configuration locale dans `.codex/` :
-
-- effort de raisonnement élevé ;
-- modèle non figé afin d'utiliser le meilleur modèle Codex disponible ;
-- écriture limitée au workspace ;
-- approbation demandée pour les opérations externes ou destructrices ;
-- règles interdisant notamment la réécriture forcée de l'historique Git.
-
-À la première ouverture dans Codex ou l'extension VS Code, marquer le dépôt comme fiable afin que la configuration locale soit chargée.
-
-## Automatisations ChatGPT
-
-À terme, deux tâches planifiées liront leurs consignes depuis la branche par défaut à chaque exécution :
-
-1. recherche et publication éventuelle d'un nouveau pronostic ;
-2. règlement des rencontres terminées et recalcul des statistiques.
-
-Une exécution peut légitimement conclure qu'aucune action n'est nécessaire. Les tâches ne doivent jamais forcer une publication, inventer une donnée ou dépasser le budget API.
-
-## Déploiement
-
-Le starter utilise l'adaptateur Qwik Vercel Edge et produit sa sortie dans `.vercel/output`.
-
-La variable `ORIGIN` doit correspondre à l'origine publique du site dans chaque environnement. Les clés API et secrets d'automatisation restent exclusivement côté serveur dans les variables d'environnement Vercel.
+La CI installe avec `npm ci`, vérifie le formatage, ESLint, TypeScript, les tests unitaires et le build. Elle dispose uniquement du droit de lecture et ne modifie ni ne pousse de code.
 
 ## Avertissement
 
-Preuve90 ne place aucun pari réel et ne constitue pas un conseil financier. Les jeux d'argent comportent des risques de pertes et d'addiction et sont interdits aux mineurs. La cote affichée est une cote observée à un instant donné, pas la preuve qu'un bookmaker l'aurait acceptée pour un utilisateur particulier.
+Preuve90 ne place aucun pari réel et ne constitue pas un conseil financier. Les jeux d’argent comportent des risques de pertes et d’addiction et sont interdits aux mineurs. Une cote affichée est une observation horodatée, pas la preuve qu’un bookmaker l’aurait acceptée pour une personne particulière. Les performances passées ne garantissent aucun résultat futur.

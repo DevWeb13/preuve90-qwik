@@ -6,102 +6,48 @@
 
 ## Objectif
 
-Rechercher les matchs éligibles, analyser les informations disponibles et publier au maximum un pronostic 1N2 pertinent pour la journée civile dans le fuseau `Europe/Paris`.
-
-La bonne exécution peut être `no_action`. Ne jamais publier uniquement pour atteindre un quota quotidien.
+Rechercher les matchs éligibles et proposer au maximum un pronostic football 1N2 pour la journée civile `Europe/Paris`. `no_action` est un résultat normal ; aucune publication ne doit être forcée.
 
 ## Préconditions obligatoires
 
-Avant toute activation, vérifier que :
+- compétitions et fenêtre temporelle autorisées par une ADR ;
+- intégration The Odds API serveur disponible et budget mensuel mesuré ;
+- droits Git minimaux et procédure branche/revue humaine définis ;
+- validations du dépôt vertes ;
+- environnement de tâche capable d’utiliser les secrets sans les révéler ;
+- aucune publication existante pour la date de référence.
 
-- le système de persistance immuable est implémenté et documenté ;
-- le bookmaker français de référence est défini dans une ADR acceptée ;
-- les compétitions et fenêtres temporelles autorisées sont définies ;
-- l'intégration The Odds API est disponible côté serveur ;
-- la consommation mensuelle est mesurée ;
-- une opération authentifiée de préparation et de publication existe ;
-- les validations empêchent les doublons et les publications tardives ;
-- l'environnement de production expose les variables nécessaires sans les révéler à ChatGPT ;
-- le moteur de calcul et le schéma de données sont testés.
+Si une précondition manque, terminer avec `blocked` et ne créer aucun fichier.
 
-Si une précondition manque, terminer avec `blocked` et ne rien publier.
+## Instructions
 
-## Instructions d'exécution
-
-1. Lire `AGENTS.md`, `docs/automations/README.md` et ce fichier depuis la branche par défaut.
-2. Relever le SHA Git correspondant aux instructions.
-3. Obtenir l'état courant via l'interface serveur prévue pour l'automatisation.
-4. Vérifier qu'aucun pronostic n'est déjà publié pour la journée `Europe/Paris`.
-5. Vérifier le budget The Odds API avant tout appel externe.
-6. Refuser l'appel si le suivi mensuel est absent, incohérent ou risque de dépasser le plafond de 500 crédits.
-7. Récupérer les matchs et cotes éligibles avec le minimum d'appels groupés possible.
-8. Ne conserver que :
-   - le football ;
-   - les matchs non commencés ;
-   - le marché 1N2 en temps réglementaire ;
-   - les compétitions explicitement autorisées ;
-   - une cote réellement disponible chez le bookmaker de référence.
-9. Analyser les candidats avec les sources autorisées par l'architecture. Ne jamais utiliser une rumeur ou une donnée non vérifiable comme fait certain.
-10. Choisir zéro ou un pronostic. En cas d'incertitude forte, choisir zéro.
-11. Produire une justification concise qui distingue clairement les faits observés de l'interprétation de l'IA.
-12. Préparer la publication en mode validation ou `dry-run`.
-13. Contrôler avant validation finale :
-    - identifiant externe unique du match ;
-    - équipes et compétition cohérentes ;
-    - coup d'envoi futur ;
-    - sélection strictement `1`, `N` ou `2` ;
-    - cote numérique supérieure à 1 ;
-    - bookmaker égal au bookmaker de référence ;
-    - horodatage du relevé antérieur au coup d'envoi ;
-    - mise virtuelle exactement égale à 5 EUR ;
-    - absence de pronostic déjà publié ce jour-là ;
-    - absence de doublon pour ce match.
-14. Publier de manière atomique avec une clé d'idempotence stable.
-15. Relire l'enregistrement créé et vérifier que la cote, le bookmaker et les timestamps correspondent exactement à la préparation validée.
-16. Terminer avec un rapport structuré conforme à `docs/automations/README.md`.
-
-## Budget API
-
-- Plafond absolu : 500 crédits par mois.
-- Cible opérationnelle : rester sous 450 crédits afin de conserver une marge de sécurité.
-- Ne jamais multiplier les régions, marchés ou bookmakers sans nécessité documentée.
-- Ne jamais répéter un appel identique dans la même exécution si une réponse valide est déjà disponible.
-- Enregistrer le coût retourné par l'API lorsque cette information est disponible.
-
-## Contenu publié
-
-La publication doit enregistrer définitivement :
-
-- identifiant interne ;
-- identifiant externe du match ;
-- compétition ;
-- équipes ;
-- coup d'envoi ;
-- sélection ;
-- cote observée ;
-- bookmaker ;
-- heure du relevé ;
-- heure de publication ;
-- mise virtuelle de 5 EUR ;
-- justification ;
-- version du schéma ;
-- version Git des instructions ;
-- identifiant de l'exécution.
+1. Lire `AGENTS.md`, `docs/automations/README.md` et ce fichier depuis `master`, puis relever leur SHA.
+2. Vérifier l’état Git, partir de `master` à jour et créer une branche unique dédiée.
+3. Lire les fichiers de `src/content/predictions/` et vérifier qu’aucune publication n’existe pour la journée `Europe/Paris`.
+4. Vérifier le budget avant tout appel ; refuser tout risque de dépasser 500 crédits mensuels et viser moins de 450.
+5. Récupérer les matchs et cotes par appels groupés, sans répéter une requête valide.
+6. Conserver uniquement le football, le marché 1N2 réglementaire, les compétitions autorisées, les matchs non commencés et une cote réellement disponible chez Betclic (FR), clé `betclic_fr`.
+7. Choisir zéro ou un candidat. Distinguer les faits observés de l’interprétation et expliciter l’incertitude.
+8. Construire un unique JSON conforme au type `Prediction` : identifiant stable, date de référence, timestamps UTC, compétition, match, sélection `HOME|DRAW|AWAY`, cote décimale en chaîne, Betclic (FR), mise `500`, justification et source The Odds API.
+9. Vérifier que l’observation précède la publication, que la publication précède le coup d’envoi et que l’identifiant source correspond au match.
+10. Ajouter le fichier dans `src/content/predictions/` sans modifier ni supprimer aucun fait existant.
+11. Exécuter `npm run test:run` et `npm run check`. En cas d’échec, ne pas pousser une branche rouge.
+12. Examiner le diff, committer le seul fait attendu, pousser la branche et soumettre à la revue humaine selon la procédure approuvée.
+13. Relire le fichier proposé et terminer avec le rapport défini dans `docs/automations/README.md`.
 
 ## Interdictions
 
-- Ne pas publier après le début du match.
-- Ne pas remplacer une cote indisponible par une cote moyenne ou estimée.
-- Ne pas changer de bookmaker pour sauver une sélection.
-- Ne pas utiliser une cote relevée après la publication.
-- Ne pas créer plus d'un pronostic pour la même journée.
-- Ne pas présenter le pronostic comme un conseil financier ou une garantie de gain.
-- Ne pas inclure de lien d'affiliation ou d'incitation à parier.
-- Ne pas modifier un ancien pronostic.
+- publication après le coup d’envoi ou antidatée ;
+- cote moyenne, estimée, remplacée ou relevée chez un autre bookmaker ;
+- plus d’un pronostic par date ou doublon de match ;
+- modification d’une publication existante ;
+- donnée inventée, lien d’affiliation ou incitation à parier ;
+- écriture directe sur `master`, fusion automatique ou déploiement manuel ;
+- ajout d’un endpoint d’administration pour contourner le workflow Git.
 
-## Résultats possibles
+## Résultats
 
-- `success` : un pronostic unique a été publié et relu avec succès ;
-- `no_action` : aucun candidat suffisamment pertinent ou un pronostic existe déjà ;
-- `blocked` : précondition, budget ou source indisponible ;
-- `failed` : erreur technique sans publication partielle.
+- `success` : un fichier unique a été proposé sur une branche et les validations sont vertes ;
+- `no_action` : aucun candidat suffisamment fiable ou une publication existe déjà ;
+- `blocked` : précondition, budget, source ou accès Git indisponible ;
+- `failed` : erreur technique sans fait partiel publié.
