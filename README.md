@@ -1,109 +1,108 @@
-# Qwik City App ⚡️
+# Preuve90
 
-- [Qwik Docs](https://qwik.dev/)
-- [Discord](https://qwik.dev/chat)
-- [Qwik GitHub](https://github.com/QwikDev/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+**Preuve90** est une expérience publique et transparente qui mesure la capacité d'une IA à produire des pronostics de football avant les matchs.
 
----
+Chaque pronostic simule une mise fixe de **5 EUR**. Aucun argent réel n'est engagé, aucun compte joueur n'est proposé et l'application n'interagit pas avec un bookmaker.
 
-## Project Structure
+## État du projet
 
-This project is using Qwik with [QwikCity](https://qwik.dev/qwikcity/overview/). QwikCity is just an extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
+Le projet est en phase d'initialisation. Le socle Qwik et Vercel Edge est présent, ainsi que les règles de développement et les contrats des futures automatisations.
 
-Inside your project, you'll see the following directory structure:
+Les tâches planifiées de publication et de règlement sont volontairement **inactives** jusqu'à la validation des décisions d'architecture nécessaires : persistance, bookmaker de référence, interface sécurisée et suivi du budget The Odds API.
 
-```
-├── public/
-│   └── ...
-└── src/
-    ├── components/
-    │   └── ...
-    └── routes/
-        └── ...
-```
+## Périmètre initial
 
-- `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.dev/qwikcity/routing/overview/) for more info.
+- football uniquement ;
+- paris simples 1N2 uniquement ;
+- temps réglementaire uniquement ;
+- au maximum un pronostic par jour ;
+- mise virtuelle fixe de 5 EUR ;
+- aucun pari combiné ou hippique ;
+- aucun argent réel ;
+- aucun compte joueur ;
+- aucun lien commercial vers un bookmaker au lancement ;
+- aucune promesse de gain.
 
-- `src/components`: Recommended directory for components.
+## Principes de transparence
 
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
+- Chaque pronostic est publié et horodaté avant le coup d'envoi.
+- La cote observée, le bookmaker et l'heure du relevé sont conservés définitivement.
+- Une publication originale n'est jamais supprimée, antidatée ou réécrite après le résultat.
+- Le règlement est ajouté séparément et reste traçable.
+- L'historique complet inclut les gains, les pertes et les annulations.
+- Les performances passées ne garantissent aucune performance future.
 
-## Add Integrations and deployment
+## Stack
 
-Use the `npm run qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.dev/qwikcity/guides/static-site-generation/).
+- [Qwik](https://qwik.dev/) et Qwik City ;
+- TypeScript strict ;
+- Node.js 22.12 ;
+- npm ;
+- adaptateur Vercel Edge ;
+- The Odds API pour les cotes et résultats, avec un plafond de 500 crédits mensuels.
 
-```shell
-npm run qwik add # or `yarn qwik add`
-```
+## Installation locale
 
-## Development
-
-Development mode uses [Vite's development server](https://vitejs.dev/). The `dev` command will server-side render (SSR) the output during development.
-
-```shell
-npm start # or `yarn start`
-```
-
-> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
-
-## Preview
-
-The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to preview a production build locally and should not be used as a production server.
-
-```shell
-npm run preview # or `yarn preview`
+```bash
+nvm use
+npm ci
+cp .env.example .env
+npm run dev
 ```
 
-## Production
+Le serveur de développement est généralement accessible sur `http://localhost:5173`.
 
-The production build will generate client and server modules by running both client and server build commands. The build command will use Typescript to run a type check on the source code.
+Ne jamais committer le fichier `.env` ni afficher son contenu dans un prompt, un log ou une pull request.
 
-```shell
-npm run build # or `yarn build`
-```
+## Commandes principales
 
-## Vercel Edge
-
-This starter site is configured to deploy to [Vercel Edge Functions](https://vercel.com/docs/concepts/functions/edge-functions), which means it will be rendered at an edge location near to your users.
-
-## Installation
-
-The adaptor will add a new `vite.config.ts` within the `adapters/` directory, and a new entry file will be created, such as:
-
-```
-└── adapters/
-    └── vercel-edge/
-        └── vite.config.ts
-└── src/
-    └── entry.vercel-edge.tsx
-```
-
-Additionally, within the `package.json`, the `build.server` script will be updated with the Vercel Edge build.
-
-## Production build
-
-To build the application for production, use the `build` command, this command will automatically run `npm run build.server` and `npm run build.client`:
-
-```shell
+```bash
+npm run dev        # lancer Qwik en développement
+npm run fmt        # formater le dépôt
+npm run fmt.check  # vérifier le formatage
+npm run lint       # exécuter ESLint
+npm run build.types
 npm run build
+npm run check      # contrôle complet utilisé par la CI
 ```
 
-[Read the full guide here](https://github.com/QwikDev/qwik/blob/main/starters/adapters/vercel-edge/README.md)
+## Documentation
 
-## Dev deploy
+- [`AGENTS.md`](./AGENTS.md) : instructions permanentes pour Codex et les agents de développement ;
+- [`docs/product/PROJECT.md`](./docs/product/PROJECT.md) : contrat produit et invariants ;
+- [`docs/architecture/DECISIONS.md`](./docs/architecture/DECISIONS.md) : registre des décisions d'architecture ;
+- [`docs/automations/README.md`](./docs/automations/README.md) : fonctionnement commun des tâches planifiées ;
+- [`docs/automations/publish-prediction.md`](./docs/automations/publish-prediction.md) : contrat de publication ;
+- [`docs/automations/settle-predictions.md`](./docs/automations/settle-predictions.md) : contrat de règlement ;
+- [`CONTRIBUTING.md`](./CONTRIBUTING.md) : workflow local, Git et Codex.
 
-To deploy the application for development:
+## Codex
 
-```shell
-npm run deploy
-```
+Le dépôt contient une configuration locale dans `.codex/` :
 
-Notice that you might need a [Vercel account](https://docs.Vercel.com/get-started/) in order to complete this step!
+- effort de raisonnement élevé ;
+- modèle non figé afin d'utiliser le meilleur modèle Codex disponible ;
+- écriture limitée au workspace ;
+- approbation demandée pour les opérations externes ou destructrices ;
+- règles interdisant notamment la réécriture forcée de l'historique Git.
 
-## Production deploy
+À la première ouverture dans Codex ou l'extension VS Code, marquer le dépôt comme fiable afin que la configuration locale soit chargée.
 
-The project is ready to be deployed to Vercel. However, you will need to create a git repository and push the code to it.
+## Automatisations ChatGPT
 
-You can [deploy your site to Vercel](https://vercel.com/docs/concepts/deployments/overview) either via a Git provider integration or through the Vercel CLI.
+À terme, deux tâches planifiées liront leurs consignes depuis la branche par défaut à chaque exécution :
+
+1. recherche et publication éventuelle d'un nouveau pronostic ;
+2. règlement des rencontres terminées et recalcul des statistiques.
+
+Une exécution peut légitimement conclure qu'aucune action n'est nécessaire. Les tâches ne doivent jamais forcer une publication, inventer une donnée ou dépasser le budget API.
+
+## Déploiement
+
+Le starter utilise l'adaptateur Qwik Vercel Edge et produit sa sortie dans `.vercel/output`.
+
+La variable `ORIGIN` doit correspondre à l'origine publique du site dans chaque environnement. Les clés API et secrets d'automatisation restent exclusivement côté serveur dans les variables d'environnement Vercel.
+
+## Avertissement
+
+Preuve90 ne place aucun pari réel et ne constitue pas un conseil financier. Les jeux d'argent comportent des risques de pertes et d'addiction et sont interdits aux mineurs. La cote affichée est une cote observée à un instant donné, pas la preuve qu'un bookmaker l'aurait acceptée pour un utilisateur particulier.
