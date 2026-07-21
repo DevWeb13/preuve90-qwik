@@ -10,7 +10,7 @@ const STEPS = [
   ],
   [
     "Couverture du scan",
-    "The Odds API retourne les événements en direct et les 8 prochains événements tous sports confondus. Preuve90 exclut le direct et choisit uniquement dans ce sous-ensemble ; il ne prétend pas analyser tout Betclic.",
+    "Chaque exécution consulte les pages publiques actuelles de Betclic France. Preuve90 exclut le direct, choisit uniquement parmi les événements effectivement consultés et ne prétend pas analyser tout Betclic.",
   ],
   [
     "Fenêtre locale",
@@ -22,7 +22,7 @@ const STEPS = [
   ],
   [
     "Publication préalable",
-    `Le snapshot doit dater d’au plus ${PRODUCT_CONFIG.maximumSnapshotAgeMinutes} minutes et la fenêtre est revérifiée à l’analyse. La génération du snapshot précède l’observation, qui précède ou égale la publication, elle-même strictement antérieure au début.`,
+    "L’heure d’observation de la cote précède ou égale la publication, elle-même strictement antérieure au début de l’événement.",
   ],
   [
     "Référence fixe",
@@ -46,7 +46,7 @@ const STEPS = [
   ],
   [
     "Immutabilité",
-    "Une publication rejoint Git avec le blob SHA exact du snapshot de cotes utilisé. Un snapshot ne produit qu’un pronostic, jamais supprimé, antidaté ou réécrit après le résultat.",
+    "Une publication rejoint Git avec l’identifiant de l’événement et la référence publique Betclic consultée. Elle n’est jamais supprimée, antidatée ou réécrite après le résultat.",
   ],
   [
     "Règlement séparé",
@@ -61,8 +61,8 @@ const STEPS = [
     "Un modèle peut mal interpréter un signal, ignorer une information ou produire une conclusion incorrecte. L’historique expose ces erreurs.",
   ],
   [
-    "Budget de source",
-    `The Odds API est limitée à ${PRODUCT_CONFIG.monthlyApiCreditLimit} crédits mensuels. Quatre scans de cotes et deux collectes de résultats sont planifiés chaque jour, sans garantie de coût réel. Aucun appel de résultats n’est effectué sans pronostic non réglé.`,
+    "Source publique traçable",
+    "Chaque pronostic conserve la référence de la page publique Betclic France consultée. Un règlement cite Betclic ou une source officielle publique et reste en attente si le résultat est ambigu.",
   ],
   [
     "Aucun pari réel",

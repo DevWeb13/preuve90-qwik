@@ -12,7 +12,7 @@
 - [ ] Aucune cote enregistrée n'est remplacée après publication.
 - [ ] Aucun secret ni donnée sensible n'est exposé.
 - [ ] Aucun comportement de pari réel, lien bookmaker ou promesse de gain n'est ajouté.
-- [ ] La consommation The Odds API reste contrôlée si elle est concernée.
+- [ ] Les références publiques de provenance sont présentes si du contenu est ajouté.
 - [ ] La documentation et les ADR sont à jour si le comportement change.
 
 ## Validation

@@ -31,10 +31,9 @@ export const demoPredictions: Prediction[] = [
       uncertainty: "Aucune donnée sportive réelle n’est utilisée dans cette démonstration.",
     },
     source: {
-      provider: "the-odds-api",
+      provider: "betclic-public",
       eventId: "demo-event-football",
-      snapshotGeneratedAt: "2026-07-20T08:00:00Z",
-      snapshotSha: "1111111111111111111111111111111111111111",
+      reference: "https://www.betclic.fr/sport/demo-event-football",
     },
   },
   {
@@ -66,10 +65,9 @@ export const demoPredictions: Prediction[] = [
       uncertainty: "Les joueurs et l’analyse sont entièrement fictifs.",
     },
     source: {
-      provider: "the-odds-api",
+      provider: "betclic-public",
       eventId: "demo-event-tennis-a",
-      snapshotGeneratedAt: "2026-07-20T08:20:00Z",
-      snapshotSha: "2222222222222222222222222222222222222222",
+      reference: "https://www.betclic.fr/sport/demo-event-tennis-a",
     },
   },
   {
@@ -101,10 +99,9 @@ export const demoPredictions: Prediction[] = [
       uncertainty: "Cette publication ne décrit aucun événement réel.",
     },
     source: {
-      provider: "the-odds-api",
+      provider: "betclic-public",
       eventId: "demo-event-basket-b",
-      snapshotGeneratedAt: "2026-07-20T08:50:00Z",
-      snapshotSha: "3333333333333333333333333333333333333333",
+      reference: "https://www.betclic.fr/sport/demo-event-basket-b",
     },
   },
   {
@@ -136,10 +133,9 @@ export const demoPredictions: Prediction[] = [
       uncertainty: "Aucune règle de marché réelle n’est appliquée à cette fixture.",
     },
     source: {
-      provider: "the-odds-api",
+      provider: "betclic-public",
       eventId: "demo-event-tennis-void",
-      snapshotGeneratedAt: "2026-07-19T07:50:00Z",
-      snapshotSha: "4444444444444444444444444444444444444444",
+      reference: "https://www.betclic.fr/sport/demo-event-tennis-void",
     },
   },
   {
@@ -171,10 +167,9 @@ export const demoPredictions: Prediction[] = [
       uncertainty: "Le statut en attente sert uniquement à vérifier l’interface.",
     },
     source: {
-      provider: "the-odds-api",
+      provider: "betclic-public",
       eventId: "demo-event-basket-pending",
-      snapshotGeneratedAt: "2026-07-20T09:55:00Z",
-      snapshotSha: "5555555555555555555555555555555555555555",
+      reference: "https://www.betclic.fr/sport/demo-event-basket-pending",
     },
   },
 ];

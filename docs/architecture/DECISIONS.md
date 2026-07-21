@@ -256,16 +256,15 @@ Autoriser zéro, une ou plusieurs publications pour une même date civile `Europ
 ### Conséquences
 
 - Les statistiques additionnent toutes les mises et tous les règlements individuels.
-- La pertinence, les compétitions autorisées, les matchs disponibles et le budget absolu de 500 crédits The Odds API empêchent une publication massive sans intérêt.
+- La pertinence des événements analysés empêche une publication massive sans intérêt.
 - Une exécution peut toujours conclure qu’aucun candidat n’est pertinent.
-- Les appels API groupés et économiques sont privilégiés, même lorsque plusieurs matchs sont analysés.
 - La CI refuse la modification, la suppression ou le renommage d’un JSON déjà présent sur la branche de base.
 
 ---
 
 ## ADR-012 — Collecte The Odds API via GitHub Actions
 
-- **Statut :** superseded par ADR-013 pour le périmètre et l’endpoint, puis par ADR-014 pour la planification ; architecture GitHub Actions conservée
+- **Statut :** superseded par ADR-015
 - **Date :** 2026-07-20
 - **Auteur :** propriétaire du projet
 
@@ -291,7 +290,7 @@ Les futures tâches ChatGPT ne reçoivent que les snapshots nettoyés. Le workfl
 
 ## ADR-013 — Pivot vers la recherche multisport de valeur estimée
 
-- **Statut :** accepted
+- **Statut :** superseded par ADR-015
 - **Date :** 2026-07-20
 - **Auteur :** propriétaire du projet
 - **Remplace :** les restrictions football/1N2 des ADR-007, ADR-009 et ADR-012 ; le mécanisme GitHub Actions et les garanties d’immutabilité restent applicables
@@ -324,7 +323,7 @@ La publication reste strictement antérieure au début de l’événement. Le r�
 
 ## ADR-014 — Automatisation planifiée et provenance des scans
 
-- **Statut :** accepted
+- **Statut :** superseded par ADR-015
 - **Date :** 2026-07-20
 - **Auteur :** propriétaire du projet
 - **Remplace :** le déclenchement exclusivement manuel et l’absence de cron de l’ADR-012
@@ -354,6 +353,34 @@ Lorsqu’elles disposent des droits GitHub nécessaires, les tâches créent une
 - Un snapshot ancien, déjà utilisé ou invalide produit `blocked` sans pronostic, branche ni pull request.
 - L’absence d’accès ou de permission GitHub produit `blocked` sans supposer une configuration externe réussie.
 - Le modèle `Settlement` ne reçoit pas cette provenance de scan.
+
+---
+
+## ADR-015 — Consultation publique directe de Betclic France
+
+- **Statut :** accepted
+- **Date :** 2026-07-21
+- **Auteur :** propriétaire du projet
+- **Remplace :** ADR-012, ADR-013 et ADR-014 ; le périmètre multisport et les invariants métier d’ADR-013 sont conservés
+
+### Contexte
+
+Le pipeline de collecte intermédiaire, sa branche technique et ses fichiers temporaires complexifient le dépôt alors que la tâche ChatGPT peut consulter directement les pages publiques actuelles de Betclic France.
+
+### Décision
+
+Supprimer le pipeline, sa planification, ses secrets, ses scripts et son stockage intermédiaire. Une unique tâche ChatGPT, configurée hors du dépôt et régie par `docs/automations/preuve90.md`, vérifie d’abord les résultats certains puis consulte les pages publiques Betclic France et peut publier au maximum un nouveau pronostic défendable.
+
+Le périmètre reste multisport et limité aux événements Betclic France effectivement consultés, hors direct, commençant entre 30 minutes et 8 heures après l’observation. Seul le marché principal `h2h` à deux ou trois issues exactes est accepté.
+
+La provenance d’un pronostic devient `{ provider: "betclic-public", eventId, reference }`. Celle d’un règlement utilise `betclic-public` ou `official-source`, avec `eventId` et une référence publique. La chronologie obligatoire reste `bookmaker.observedAt <= publishedAt < startsAt`.
+
+### Conséquences
+
+- Aucun workflow de collecte, stockage technique séparé, secret fournisseur ou dépendance de collecte n’est conservé.
+- La tâche ajoute uniquement de nouveaux faits JSON sur une branche dédiée et propose une pull request vers `master` si ses permissions GitHub le permettent.
+- Aucun fait n’est modifié, aucune publication n’est forcée, aucune fusion n’est automatique et aucun push direct sur `master` n’est autorisé.
+- La suppression éventuelle de l’ancienne branche distante et de l’ancien secret GitHub reste une action manuelle après fusion.
 
 ---
 

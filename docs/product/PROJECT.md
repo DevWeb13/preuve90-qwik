@@ -14,7 +14,7 @@ Une valeur estimée positive signifie que la probabilité évaluée par l’IA d
 
 ## Périmètre
 
-- Tous sports et tous pays effectivement retournés par The Odds API `upcoming`.
+- Tous sports et tous pays parmi les événements visibles sur les pages publiques Betclic France consultées.
 - Betclic (FR), clé `betclic_fr`, exclusivement.
 - Paris simples, marché principal `h2h`, exactement deux ou trois issues.
 - Noms d’issues conservés exactement ; aucune conversion en `HOME`, `DRAW` ou `AWAY`.
@@ -25,11 +25,11 @@ Une valeur estimée positive signifie que la probabilité évaluée par l’IA d
 - Aucun compte, dépôt, affiliation, lien bookmaker ou argent réel.
 - Aucune promesse de gain ou de rentabilité.
 
-The Odds API indique que `upcoming` contient les événements en direct et les 8 prochains événements tous sports confondus. Preuve90 exclut le direct localement et choisit donc uniquement parmi ce sous-ensemble limité.
+Preuve90 exclut le direct et ne prétend jamais analyser l’intégralité du catalogue Betclic. La couverture d’une exécution se limite aux pages publiques effectivement consultées.
 
 ## Candidature au scan
 
-La configuration unique fixe : bookmaker `betclic_fr`, marché `h2h`, mise 500 centimes, avance minimale 30 minutes, avance maximale 8 heures et maximum publié par scan 1.
+La configuration unique fixe : bookmaker `betclic_fr`, marché `h2h`, mise 500 centimes, avance minimale 30 minutes, avance maximale 8 heures et maximum publié par exécution 1.
 
 Un événement est candidat uniquement si :
 
@@ -42,12 +42,12 @@ Sont exclus les événements commencés, trop proches ou trop lointains, sans Be
 
 ## Publication immuable
 
-Chaque pronostic conserve définitivement : identifiant, date et heure de publication, heure de début, sport, participants, identifiant externe, marché et issues exactes, sélection exacte, cote, bookmaker et observation, mise virtuelle, probabilité estimée en points de base, justification, facteurs, incertitude et source. La source recopie le `generatedAt` exact du snapshot et le blob SHA GitHub exact de `snapshots/odds.json` sur `automation-data`. Un même blob SHA ne peut produire qu’un pronostic.
+Chaque pronostic conserve définitivement : identifiant, date et heure de publication, heure de début, sport, participants, identifiant d’événement, marché et issues exactes, sélection exacte, cote, bookmaker et observation, mise virtuelle, probabilité estimée en points de base, justification, facteurs, incertitude et provenance publique Betclic. Cette provenance contient `provider: "betclic-public"`, `eventId` et `reference`.
 
 La chronologie est déterministe :
 
 ```text
-snapshotGeneratedAt <= bookmaker.observedAt <= publishedAt < startsAt
+bookmaker.observedAt <= publishedAt < startsAt
 ```
 
 La sélection doit correspondre exactement à une issue et `recordedOdds` à sa cote. La probabilité estimée est comprise entre 1 et 9 999 points de base et doit produire une espérance strictement positive :
@@ -60,7 +60,7 @@ Cette valeur n’est pas stockée : elle est recalculée de manière déterminis
 
 ## Règlements génériques
 
-Le règlement est un fait distinct comportant `WON`, `LOST` ou `VOID`, une issue gagnante éventuellement nulle, des scores génériques facultatifs et une source The Odds API ou officielle.
+Le règlement est un fait distinct comportant `WON`, `LOST` ou `VOID`, une issue gagnante éventuellement nulle, des scores génériques facultatifs et une provenance `betclic-public` ou `official-source` accompagnée d’une référence publique.
 
 - `WON` exige que l’issue gagnante soit exactement la sélection.
 - `LOST` exige une issue gagnante non nulle et différente de la sélection.
@@ -79,13 +79,11 @@ Les vues conservent le nombre de pronostics, chaque statut, mises, retours, rés
 
 La V1 n’a ni base de données ni route API d’administration. Publications et règlements sont des JSON distincts, immuables et versionnés dans Git, chargés au build avec `import.meta.glob`. Les fixtures TypeScript sont réservées au développement et ne remplacent jamais l’état vide de production.
 
-Les tâches ChatGPT sont créées manuellement hors du dépôt avec le plugin GitHub et des permissions configurées manuellement. Lorsqu’elles disposent des droits nécessaires, elles travaillent sur une branche dédiée, ajoutent uniquement de nouveaux JSON, exécutent les validations et proposent une pull request vers `master`. Elles ne poussent jamais directement sur `master`, ne fusionnent jamais et ne modifient jamais un fait existant. Les opérations sont idempotentes et la fusion reste humaine.
+La tâche planifiée ChatGPT est créée manuellement hors du dépôt et suit uniquement `docs/automations/preuve90.md`. Lorsqu’elle dispose des droits GitHub nécessaires, elle travaille sur une branche dédiée, ajoute uniquement de nouveaux JSON, exécute les validations et propose une pull request vers `master`. Elle ne pousse jamais directement sur `master`, ne fusionne jamais et ne modifie jamais un fait existant. Les opérations sont idempotentes et la fusion reste humaine.
 
-## Source et budget
+## Source publique
 
-Le pipeline GitHub Actions interroge The Odds API sans exposer la clé à l’application ou aux tâches ChatGPT externes. Le forfait absolu est de 500 crédits, avec arrêt opérationnel à 450 utilisés ou 50 restants.
-
-Le workflow planifie quatre scans de cotes par jour et deux collectes de résultats par jour, aux horaires UTC documentés dans le pipeline. Un snapshot de cotes n’est exploitable par la tâche de publication que pendant 150 minutes après son `generatedAt`, sans dispenser de revérifier la fenêtre de 30 minutes à 8 heures. Les résultats ne déclenchent aucun appel fournisseur lorsqu’il n’existe aucun pronostic non réglé. Le coût reste mesuré et n’est jamais présenté comme garanti.
+La tâche consulte directement les pages publiques actuelles de Betclic France. Elle conserve pour chaque pronostic l’identifiant de l’événement et une référence publique traçable, sans collecte intermédiaire ni stockage technique séparé. Une page inaccessible, une cote périmée ou une identification ambiguë interdit la publication.
 
 ## Avertissements obligatoires
 

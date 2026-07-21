@@ -51,10 +51,9 @@ function prediction(overrides: Partial<Prediction> = {}): Prediction {
       uncertainty: "Incertitude test",
     },
     source: {
-      provider: "the-odds-api",
+      provider: "betclic-public",
       eventId: "event-1",
-      snapshotGeneratedAt: "2026-01-02T07:50:00Z",
-      snapshotSha: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      reference: "https://www.betclic.fr/sport/event-1",
     },
     ...overrides,
   };
@@ -72,7 +71,11 @@ function settlement(overrides: Partial<Settlement> = {}): Settlement {
         { name: "Joueur B", value: "0" },
       ],
     },
-    source: { provider: "the-odds-api", eventId: "event-1" },
+    source: {
+      provider: "betclic-public",
+      eventId: "event-1",
+      reference: "https://www.betclic.fr/sport/event-1",
+    },
     ...overrides,
   };
 }
@@ -97,10 +100,9 @@ function sameDayPrediction(index: number): Prediction {
       observedAt: `2026-01-02T${String(7 + index).padStart(2, "0")}:55:00Z`,
     },
     source: {
-      provider: "the-odds-api",
+      provider: "betclic-public",
       eventId,
-      snapshotGeneratedAt: `2026-01-02T${String(7 + index).padStart(2, "0")}:50:00Z`,
-      snapshotSha: String(index + 1).repeat(40),
+      reference: `https://www.betclic.fr/sport/${eventId}`,
     },
   });
 }
@@ -160,10 +162,9 @@ describe("contenu multisport", () => {
       recordedOdds: "2.20",
       reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 4800 },
       source: {
-        provider: "the-odds-api",
+        provider: "betclic-public",
         eventId: "basket-event",
-        snapshotGeneratedAt: "2026-01-02T07:50:00Z",
-        snapshotSha: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        reference: "https://www.betclic.fr/sport/basket-event",
       },
     });
     expect(assemblePredictions([basket], [
@@ -171,7 +172,11 @@ describe("contenu multisport", () => {
         predictionId: "basket-1",
         status: "LOST",
         result: { winningOutcomeName: "Celtics", scores: null },
-        source: { provider: "official-source", eventId: "basket-event" },
+        source: {
+          provider: "official-source",
+          eventId: "basket-event",
+          reference: "https://example.test/official/basket-event",
+        },
       }),
     ])[0].status).toBe("LOST");
   });
@@ -193,10 +198,9 @@ describe("contenu multisport", () => {
       recordedOdds: "3.40",
       reasoning: { ...prediction().reasoning, estimatedProbabilityBps: 3200 },
       source: {
-        provider: "the-odds-api",
+        provider: "betclic-public",
         eventId: "football-event",
-        snapshotGeneratedAt: "2026-01-02T07:50:00Z",
-        snapshotSha: "cccccccccccccccccccccccccccccccccccccccc",
+        reference: "https://www.betclic.fr/sport/football-event",
       },
     });
     expect(assemblePredictions([football], [])).toHaveLength(1);
@@ -233,20 +237,7 @@ describe("contenu multisport", () => {
     ).toThrow("strictement positive");
   });
 
-  it("impose snapshotGeneratedAt <= observedAt <= publishedAt < startsAt", () => {
-    expect(() =>
-      assemblePredictions(
-        [
-          prediction({
-            source: {
-              ...prediction().source,
-              snapshotGeneratedAt: "2026-01-02T07:56:00Z",
-            },
-          }),
-        ],
-        [],
-      ),
-    ).toThrow("génération du snapshot");
+  it("impose observedAt <= publishedAt < startsAt", () => {
     expect(() =>
       assemblePredictions(
         [
@@ -262,35 +253,19 @@ describe("contenu multisport", () => {
     );
   });
 
-  it.each([
-    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    "gggggggggggggggggggggggggggggggggggggggg",
-    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-    " aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  ])("rejette le snapshotSha invalide %s", (snapshotSha) => {
+  it("exige une référence publique et un eventId source cohérent", () => {
     expect(() =>
       assemblePredictions(
-        [prediction({ source: { ...prediction().source, snapshotSha } })],
+        [prediction({ source: { ...prediction().source, reference: "" } })],
         [],
       ),
-    ).toThrow("blob SHA GitHub");
-  });
-
-  it("rejette un timestamp de snapshot impossible et un eventId source incohérent", () => {
+    ).toThrow("chaîne non vide");
     expect(() =>
       assemblePredictions(
-        [
-          prediction({
-            source: {
-              ...prediction().source,
-              snapshotGeneratedAt: "2026-02-30T07:50:00Z",
-            },
-          }),
-        ],
+        [prediction({ source: { ...prediction().source, reference: "ftp://example.test/event-1" } })],
         [],
       ),
-    ).toThrow("timestamp est invalide");
+    ).toThrow("URL publique HTTP(S)");
     expect(() =>
       assemblePredictions(
         [prediction({ source: { ...prediction().source, eventId: "another-event" } })],
@@ -313,6 +288,32 @@ describe("contenu multisport", () => {
     expect(assemblePredictions([prediction()], [voidSettlement])[0].status).toBe("VOID");
   });
 
+  it("rejette un ancien fournisseur et un règlement sans référence publique", () => {
+    expect(() =>
+      assemblePredictions(
+        [
+          {
+            ...prediction(),
+            source: { ...prediction().source, provider: "legacy-provider" },
+          },
+        ],
+        [],
+      ),
+    ).toThrow("betclic-public est obligatoire");
+
+    expect(() =>
+      assemblePredictions(
+        [prediction()],
+        [
+          {
+            ...settlement(),
+            source: { provider: "betclic-public", eventId: "event-1" },
+          },
+        ],
+      ),
+    ).toThrow("chaîne non vide");
+  });
+
   it("rejette les règlements incohérents et VOID avec une issue gagnante", () => {
     expect(() =>
       assemblePredictions(
@@ -328,7 +329,7 @@ describe("contenu multisport", () => {
     ).toThrow("VOID exige");
   });
 
-  it("rejette un doublon d’événement mais accepte plusieurs snapshots le même jour", () => {
+  it("rejette un doublon d’événement mais accepte plusieurs publications le même jour", () => {
     expect(assemblePredictions([sameDayPrediction(0), sameDayPrediction(1)], [])).toHaveLength(2);
     const duplicate = { ...sameDayPrediction(1), event: sameDayPrediction(0).event, source: sameDayPrediction(0).source };
     expect(() => assemblePredictions([sameDayPrediction(0), duplicate], [])).toThrow(
@@ -336,21 +337,9 @@ describe("contenu multisport", () => {
     );
   });
 
-  it("rejette deux événements différents issus du même snapshot", () => {
-    const first = sameDayPrediction(0);
-    const second = sameDayPrediction(1);
-    const duplicateSnapshot = {
-      ...second,
-      source: { ...second.source, snapshotSha: first.source.snapshotSha },
-    };
-    expect(() => assemblePredictions([first, duplicateSnapshot], [])).toThrow(
-      `Snapshot déjà utilisé pour une publication : ${first.source.snapshotSha}`,
-    );
-  });
-
-  it("valide les démonstrations avec des SHA distincts", () => {
+  it("valide les démonstrations avec des références publiques", () => {
     expect(assemblePredictions(demoPredictions, demoSettlements)).toHaveLength(5);
-    expect(new Set(demoPredictions.map((item) => item.source.snapshotSha)).size).toBe(5);
+    expect(demoPredictions.every((item) => item.source.reference.startsWith("https://"))).toBe(true);
   });
 
   it("trie les jours et événements de manière déterministe", () => {
@@ -385,7 +374,11 @@ describe("statistiques multisports", () => {
         settledAt: "2026-01-02T23:00:00Z",
         status: "LOST",
         result: { winningOutcomeName: secondPrediction.event.participantB, scores: null },
-        source: { provider: "the-odds-api", eventId: secondPrediction.event.eventId },
+        source: {
+          provider: "betclic-public",
+          eventId: secondPrediction.event.eventId,
+          reference: `https://www.betclic.fr/sport/${secondPrediction.event.eventId}`,
+        },
       }),
     );
     const stats = calculateStatistics([first, second]);
@@ -401,14 +394,14 @@ describe("statistiques multisports", () => {
 
   it("ne change pas les statistiques lorsque seule la provenance change", () => {
     const original = prediction();
-    const withAnotherSnapshot = prediction({
+    const withAnotherReference = prediction({
       source: {
         ...original.source,
-        snapshotSha: "dddddddddddddddddddddddddddddddddddddddd",
+        reference: "https://www.betclic.fr/sport/event-1?view=alternate",
       },
     });
     expect(calculateStatistics([createPredictionView(original)])).toEqual(
-      calculateStatistics([createPredictionView(withAnotherSnapshot)]),
+      calculateStatistics([createPredictionView(withAnotherReference)]),
     );
   });
 });
