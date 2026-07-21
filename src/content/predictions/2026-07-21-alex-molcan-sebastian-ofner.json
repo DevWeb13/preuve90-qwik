@@ -1,0 +1,53 @@
+{
+  "id": "2026-07-21-tennis-alex-molcan-sebastian-ofner",
+  "publicationDate": "2026-07-21",
+  "publishedAt": "2026-07-21T10:02:24Z",
+  "startsAt": "2026-07-21T11:20:00Z",
+  "sport": {
+    "key": "tennis_atp",
+    "title": "Tennis ATP — Kitzbühel"
+  },
+  "event": {
+    "eventId": "8660358",
+    "participantA": "Alex Molcan",
+    "participantB": "Sebastian Ofner"
+  },
+  "market": {
+    "key": "h2h",
+    "outcomes": [
+      {
+        "name": "Alex Molcan",
+        "odds": "1.69"
+      },
+      {
+        "name": "Sebastian Ofner",
+        "odds": "2.14"
+      }
+    ]
+  },
+  "selection": {
+    "name": "Alex Molcan"
+  },
+  "recordedOdds": "1.69",
+  "bookmaker": {
+    "key": "betclic_fr",
+    "name": "Betclic (FR)",
+    "observedAt": "2026-07-21T10:02:05Z"
+  },
+  "virtualStakeCents": 500,
+  "reasoning": {
+    "estimatedProbabilityBps": 6104,
+    "summary": "Alex Molcan présente une probabilité estimée de 61,04 %, supérieure au seuil implicite de la cote Betclic 1,69, pour une espérance estimée d’environ +3,16 %.",
+    "factors": [
+      "Molcan est classé ATP 101 contre ATP 125 pour Ofner sur la page consultée.",
+      "La forme affichée sur les six derniers matchs est de trois victoires pour Molcan contre une pour Ofner.",
+      "Molcan a remporté leur confrontation précédente à Kitzbühel en 2023, deux sets à un."
+    ],
+    "uncertainty": "L’estimation reste fragile : la forme récente est limitée à un petit échantillon, les conditions du jour peuvent modifier le rapport de forces et les cotes peuvent évoluer avant le début du match."
+  },
+  "source": {
+    "provider": "betclic-public",
+    "eventId": "8660358",
+    "reference": "https://www.wincomparator.com/fr-fr/pronostics/alex-molcan-sebastian-ofner-8660358/"
+  }
+}
