@@ -19,7 +19,15 @@ export const AppShell = component$(() => {
       <header class="site-header">
         <div class="site-header-inner">
           <Link aria-label="Preuve90 — accueil" class="brand" href="/">
-            <span class="brand-mark">P90</span>
+            <img
+              alt=""
+              aria-hidden="true"
+              class="brand-mark"
+              height={42}
+              src="/favicon.svg"
+              style="border: 0; box-shadow: none;"
+              width={42}
+            />
             <span>
               <strong>PREUVE90</strong>
               <small>{SITE_CONFIG.signature}</small>
