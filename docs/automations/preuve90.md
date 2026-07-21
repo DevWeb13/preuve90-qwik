@@ -1,68 +1,132 @@
 # Tâche planifiée Preuve90
 
-## Rôle et limites
+## Objectif
 
-Cette instruction est l’unique procédure de la tâche planifiée ChatGPT, créée et configurée manuellement hors du dépôt. La tâche mesure une recherche de valeur estimée ; elle ne place aucun pari réel, ne promet aucun gain et ne force jamais une publication.
+À chaque exécution :
 
-À chaque exécution, traiter dans cet ordre les règlements en attente puis, seulement ensuite, la recherche d’un éventuel nouveau pronostic. Une exécution peut ajouter plusieurs règlements certains, mais au maximum un pronostic.
+1. régler les pronostics terminés qui n’ont pas encore de résultat ;
+2. chercher ensuite un événement sportif commençant prochainement ;
+3. publier au maximum un nouveau pronostic ;
+4. ajouter directement les nouveaux fichiers JSON sur la branche `master`.
 
-## Préconditions
+Preuve90 utilise uniquement une mise virtuelle fixe de 5 EUR. Aucun pari réel n’est placé et aucun gain n’est promis.
 
-1. Accéder à la branche `master` et charger tous les fichiers existants de `src/content/predictions/*.json` et `src/content/settlements/*.json`.
-2. Vérifier leur cohérence avec les types et validations du dépôt avant toute écriture.
-3. Construire les ensembles des identifiants de pronostics, identifiants d’événements et pronostics déjà réglés afin d’empêcher tout doublon.
-4. Utiliser uniquement des pages publiques actuelles et accessibles. Ne jamais contourner une authentification, une restriction d’accès ou une mesure technique.
-5. S’arrêter sans écriture pour toute donnée, cote, date, issue, identité d’événement ou règle de marché ambiguë. Ne jamais inventer ni compléter une donnée manquante.
+## Accès au projet
 
-## 1. Régler d’abord les pronostics terminés
+Travailler avec GitHub sur le dépôt `DevWeb13/preuve90-qwik`, branche `master`.
 
-Pour chaque pronostic sans règlement dont l’événement est terminé :
+Avant toute écriture :
 
-1. Consulter la page publique Betclic France correspondante ou une source officielle publique faisant autorité.
-2. Vérifier que `eventId`, les participants, la compétition et la date identifient sans ambiguïté le même événement.
-3. Vérifier la règle du marché `h2h`, notamment en cas de prolongation, tirs au but, abandon, forfait, report ou interruption.
-4. Ajouter un règlement uniquement si l’issue est certaine :
-   - `WON` si l’issue gagnante correspond exactement à la sélection ;
-   - `LOST` si l’issue gagnante est certaine et différente ;
-   - `VOID` uniquement si l’annulation du marché est certaine.
-5. Utiliser une provenance contenant `provider: "betclic-public"` ou `provider: "official-source"`, l’`eventId` publié et une `reference` publique précise.
-6. Laisser le pronostic en attente si le résultat ou son application au marché n’est pas certain.
+- lire la version la plus récente de `master` ;
+- lire les types et validations actuels du dépôt ;
+- charger tous les fichiers présents dans `src/content/predictions/` et `src/content/settlements/` ;
+- vérifier qu’aucun identifiant de pronostic ou d’événement n’existe déjà.
 
-Chaque règlement est un nouveau fichier JSON dans `src/content/settlements/`. Ne modifier, supprimer, renommer ou remplacer aucun fait existant.
+Ne jamais modifier, supprimer ou renommer un pronostic ou un règlement existant.
 
-## 2. Consulter Betclic France et analyser les cotes
+## 1. Régler les pronostics terminés
 
-Après les règlements :
+Pour chaque pronostic terminé qui n’a pas encore de règlement :
 
-1. Consulter directement les pages publiques actuelles de Betclic France pour les événements à venir, tous sports et pays confondus parmi les pages effectivement accessibles.
-2. Exclure le direct et tout événement commençant à moins de 30 minutes ou à plus de 8 heures de l’observation.
-3. Conserver uniquement Betclic (FR), clé `betclic_fr`, et le marché simple principal `h2h` comportant exactement deux ou trois issues distinctes.
-4. Recopier exactement les participants, les noms des issues, les cotes décimales, l’heure de début et l’heure d’observation. Ne jamais convertir les issues en catégories génériques.
-5. Exclure un événement dont l’identifiant a déjà été publié, dont les données sont incomplètes, ou dont la page publique ne fournit pas une référence traçable.
-6. Estimer pour chaque candidat défendable une probabilité en points de base entre 1 et 9 999, documenter les facteurs et l’incertitude, puis calculer l’espérance estimée `probabilité × cote − 1`.
-7. Comparer honnêtement les candidats analysés. Les estimations de l’IA peuvent être fausses et ne constituent jamais une garantie.
+- rechercher le résultat final auprès d’une source publique fiable ;
+- privilégier une source officielle lorsque celle-ci est disponible ;
+- vérifier les participants, la date et le résultat ;
+- ajouter un règlement `WON`, `LOST` ou `VOID` conforme au schéma actuel du dépôt ;
+- enregistrer l’URL exacte de la source utilisée.
 
-## 3. Publier au maximum un pronostic
+Si un résultat particulier est ambigu, laisser uniquement ce pronostic en attente et continuer le traitement des autres pronostics.
 
-Publier zéro ou un nouveau pronostic : le meilleur candidat défendable parmi les prochains événements effectivement analysés. Zéro publication est un résultat normal.
+Ajouter chaque règlement dans un nouveau fichier sous `src/content/settlements/`.
 
-Le pronostic doit notamment respecter :
+## 2. Rechercher un pronostic
 
-- `bookmaker.observedAt <= publishedAt < startsAt` ;
-- une mise virtuelle fixe de 500 centimes ;
-- une sélection correspondant exactement à une issue et une cote enregistrée identique à celle de cette issue ;
-- une espérance estimée strictement positive ;
-- une provenance `{ provider: "betclic-public", eventId, reference }`, où `reference` désigne la page publique Betclic consultée ;
-- l’unicité de l’identifiant interne et de l’événement.
+Rechercher activement sur le Web des événements sportifs :
 
-Ajouter le pronostic dans un nouveau fichier JSON de `src/content/predictions/`. Ne modifier, supprimer, renommer, antidater ou réécrire aucun fait existant.
+- commençant entre 30 minutes et 8 heures après la recherche ;
+- non commencés et non proposés en direct ;
+- tous sports et pays autorisés ;
+- avec un marché simple `h2h` à deux ou trois issues ;
+- avec des cotes clairement attribuées à Betclic France.
 
-## 4. Valider et proposer la modification
+Ne pas se limiter à l’ouverture directe de `betclic.fr`.
 
-1. Vérifier que seuls de nouveaux fichiers JSON de pronostics ou règlements ont été ajoutés.
-2. Exécuter les validations de contenu et les tests ciblés applicables. Si une validation échoue, corriger uniquement le nouveau fichier ou abandonner l’écriture ; ne jamais modifier un fait existant.
-3. Produire une trace concise : règlements examinés et ajoutés, pages Betclic consultées, nombre de candidats analysés, décision de publication ou d’abstention, validations exécutées et ambiguïtés rencontrées.
-4. Si les permissions GitHub le permettent, créer une branche dédiée, y committer les seuls nouveaux JSON et proposer une pull request vers `master`.
-5. Si les permissions ne permettent pas la branche, le commit ou la pull request, signaler précisément le blocage sans supposer l’accès disponible.
+Les cotes Betclic peuvent être relevées :
 
-Ne jamais pousser directement sur `master`, activer une fusion automatique ou fusionner la pull request. La revue et la fusion restent humaines.
+- sur une page publique de Betclic ;
+- sur une page publique de comparaison de cotes ;
+- sur une autre page publique qui indique clairement les cotes de Betclic France.
+
+Les différentes issues du marché doivent provenir du même relevé Betclic. Ne jamais mélanger les meilleures cotes de plusieurs bookmakers.
+
+Enregistrer :
+
+- l’URL exacte de la page consultée ;
+- l’heure du relevé ;
+- les participants ;
+- l’heure de début ;
+- toutes les issues du marché ;
+- les cotes Betclic correspondantes.
+
+Si une page ou une cote est inutilisable, ignorer ce candidat et poursuivre la recherche avec d’autres événements. Ne pas arrêter toute l’exécution au premier candidat incomplet.
+
+## 3. Choisir au maximum un pronostic
+
+Analyser les candidats trouvés à l’aide d’informations sportives publiques et récentes : forme, absences, niveau des participants, contexte, calendrier et autres facteurs pertinents.
+
+Pour chaque candidat sérieux :
+
+- estimer la probabilité de l’issue envisagée ;
+- comparer cette probabilité au seuil implicite de la cote ;
+- ne retenir le candidat que si l’espérance estimée est strictement positive ;
+- expliquer brièvement les facteurs favorables et les incertitudes.
+
+Publier au maximum le meilleur candidat défendable. Aucun pronostic n’est obligatoire si aucun candidat sérieux n’est trouvé.
+
+L’identifiant de l’événement doit être stable :
+
+- utiliser l’identifiant public de la source lorsqu’il existe ;
+- sinon créer un identifiant déterministe à partir de la date, du sport et des participants.
+
+Créer le pronostic en respectant exactement le type `Prediction` et les validations actuelles du dépôt.
+
+La provenance reste :
+
+```json
+{
+  "provider": "betclic-public",
+  "eventId": "identifiant-de-levenement",
+  "reference": "URL publique exacte du relevé"
+}
+```
+
+Dans ce contexte, `betclic-public` signifie que les cotes Betclic ont été observées publiquement. La page référencée peut être une page Betclic ou une page publique qui attribue clairement ces cotes à Betclic France.
+
+Ajouter le pronostic dans un nouveau fichier sous `src/content/predictions/`.
+
+## 4. Publier sur GitHub
+
+Écrire les nouveaux pronostics et règlements directement sur la branche `master`.
+
+- Ne créer aucune branche.
+- Ne créer aucune pull request.
+- Ne modifier aucun autre fichier.
+- Regrouper les nouveaux fichiers dans un même commit lorsque cela est possible.
+- Utiliser un message de commit clair commençant par `content:`.
+- Après l’écriture, relire chaque nouveau fichier depuis GitHub.
+- Vérifier le commit créé et confirmer que seuls les nouveaux fichiers JSON attendus ont été ajoutés.
+
+Ne jamais modifier ce fichier d’instructions pendant une exécution.
+
+## Rapport final
+
+Toujours indiquer :
+
+- les règlements examinés et ajoutés ;
+- les événements et sources principales consultés ;
+- le pronostic publié ou la raison de l’absence de publication ;
+- les cotes Betclic relevées et l’heure du relevé ;
+- les fichiers créés ;
+- le hash du commit GitHub ;
+- les validations effectuées.
+
+Ne jamais annoncer une publication tant que le nouveau fichier n’a pas été relu depuis `master`.
