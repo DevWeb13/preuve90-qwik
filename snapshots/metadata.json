@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-20T19:57:26.699Z",
-  "mode": "all",
-  "sourceMode": "upcoming+scores",
+  "generatedAt": "2026-07-21T02:23:58.156Z",
+  "mode": "odds",
+  "sourceMode": "upcoming",
   "coverage": {
     "maximumUpcomingEvents": 8,
     "liveEventsMayBeReturnedUpstream": true
@@ -12,11 +12,11 @@
     "maximumLeadHours": 8
   },
   "requests": 1,
-  "eventsReceived": 8,
-  "eventsPublished": 8,
+  "eventsReceived": 21,
+  "eventsPublished": 7,
   "quota": {
-    "used": 3,
-    "remaining": 497,
+    "used": 4,
+    "remaining": 496,
     "lastRequestCost": 1
   }
 }

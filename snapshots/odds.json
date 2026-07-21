@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-20T19:57:26.699Z",
+  "generatedAt": "2026-07-21T02:23:58.156Z",
   "bookmaker": {
     "key": "betclic_fr",
     "name": "Betclic (FR)"
@@ -11,177 +11,155 @@
   },
   "events": [
     {
-      "eventId": "ed99d6d31957cf5543b0733a49085559",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "Cleveland Guardians",
-      "participantB": "Minnesota Twins",
-      "startsAt": "2026-07-20T22:41:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
+      "eventId": "66e98bfa32cb3f1fcad305b06c3ebe61",
+      "sportKey": "baseball_npb",
+      "sportTitle": "NPB",
+      "participantA": "Tokyo Yakult Swallows",
+      "participantB": "Chunichi Dragons",
+      "startsAt": "2026-07-21T09:00:00.000Z",
+      "observedAt": "2026-07-21T02:23:58.396Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
-            "name": "Cleveland Guardians",
-            "odds": "2.06"
+            "name": "Chunichi Dragons",
+            "odds": "1.88"
           },
           {
-            "name": "Minnesota Twins",
-            "odds": "1.74"
+            "name": "Tokyo Yakult Swallows",
+            "odds": "1.76"
           }
         ]
       }
     },
     {
-      "eventId": "29d4af8b2386afc600f412243c22a53b",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "New York Yankees",
-      "participantB": "Pittsburgh Pirates",
-      "startsAt": "2026-07-20T23:06:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
+      "eventId": "a19cc478bc582fab01ebbd66ba2ed04e",
+      "sportKey": "baseball_npb",
+      "sportTitle": "NPB",
+      "participantA": "Hanshin Tigers",
+      "participantB": "Yokohama DeNA BayStars",
+      "startsAt": "2026-07-21T09:00:00.000Z",
+      "observedAt": "2026-07-21T02:23:58.396Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
-            "name": "New York Yankees",
-            "odds": "1.82"
+            "name": "Hanshin Tigers",
+            "odds": "1.64"
           },
           {
-            "name": "Pittsburgh Pirates",
-            "odds": "1.96"
+            "name": "Yokohama DeNA BayStars",
+            "odds": "2.03"
           }
         ]
       }
     },
     {
-      "eventId": "f237d860c80df8632a4717d53fee1c25",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "Toronto Blue Jays",
-      "participantB": "Tampa Bay Rays",
-      "startsAt": "2026-07-20T23:08:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
+      "eventId": "de6cab2ac1e759439cb25e067f576fc3",
+      "sportKey": "baseball_npb",
+      "sportTitle": "NPB",
+      "participantA": "Fukuoka SoftBank Hawks",
+      "participantB": "Orix Buffaloes",
+      "startsAt": "2026-07-21T09:00:00.000Z",
+      "observedAt": "2026-07-21T02:23:58.396Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
-            "name": "Tampa Bay Rays",
-            "odds": "2.32"
-          },
-          {
-            "name": "Toronto Blue Jays",
+            "name": "Fukuoka SoftBank Hawks",
             "odds": "1.59"
+          },
+          {
+            "name": "Orix Buffaloes",
+            "odds": "2.12"
           }
         ]
       }
     },
     {
-      "eventId": "0dd84d01f2970e524c07c9ff2a747b7f",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "Boston Red Sox",
-      "participantB": "Baltimore Orioles",
-      "startsAt": "2026-07-20T23:11:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
+      "eventId": "fd40e6b4989c2a4a7ed8cd8a0e2a813f",
+      "sportKey": "baseball_npb",
+      "sportTitle": "NPB",
+      "participantA": "Yomiuri Giants",
+      "participantB": "Hiroshima Toyo Carp",
+      "startsAt": "2026-07-21T09:00:00.000Z",
+      "observedAt": "2026-07-21T02:23:58.396Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
-            "name": "Baltimore Orioles",
-            "odds": "2.29"
+            "name": "Hiroshima Toyo Carp",
+            "odds": "2.18"
           },
           {
-            "name": "Boston Red Sox",
-            "odds": "1.61"
+            "name": "Yomiuri Giants",
+            "odds": "1.56"
           }
         ]
       }
     },
     {
-      "eventId": "128e4328bfe1ffa187a85b1e5e2b5ec6",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "Philadelphia Phillies",
-      "participantB": "Los Angeles Dodgers",
-      "startsAt": "2026-07-20T23:11:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
+      "eventId": "349b5aa2a38519607ea8ba901b71cf3f",
+      "sportKey": "baseball_kbo",
+      "sportTitle": "KBO",
+      "participantA": "Kia Tigers",
+      "participantB": "Hanwha Eagles",
+      "startsAt": "2026-07-21T09:30:00.000Z",
+      "observedAt": "2026-07-21T02:23:58.396Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
-            "name": "Los Angeles Dodgers",
-            "odds": "2.19"
+            "name": "Hanwha Eagles",
+            "odds": "1.99"
           },
           {
-            "name": "Philadelphia Phillies",
-            "odds": "1.66"
+            "name": "Kia Tigers",
+            "odds": "1.65"
           }
         ]
       }
     },
     {
-      "eventId": "b829b2871533d73401916f919c2b485a",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "Atlanta Braves",
-      "participantB": "San Diego Padres",
-      "startsAt": "2026-07-20T23:16:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
+      "eventId": "76585bca5453d06199428f406fb462af",
+      "sportKey": "baseball_kbo",
+      "sportTitle": "KBO",
+      "participantA": "KT Wiz",
+      "participantB": "Doosan Bears",
+      "startsAt": "2026-07-21T09:30:00.000Z",
+      "observedAt": "2026-07-21T02:23:58.396Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
-            "name": "Atlanta Braves",
-            "odds": "1.73"
+            "name": "Doosan Bears",
+            "odds": "1.56"
           },
           {
-            "name": "San Diego Padres",
-            "odds": "2.07"
+            "name": "KT Wiz",
+            "odds": "2.13"
           }
         ]
       }
     },
     {
-      "eventId": "b6936af60f2ffed1b270c119f7127ae7",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "Milwaukee Brewers",
-      "participantB": "New York Mets",
-      "startsAt": "2026-07-20T23:41:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
+      "eventId": "e2f9533f18387e090135ba3251a0206a",
+      "sportKey": "baseball_kbo",
+      "sportTitle": "KBO",
+      "participantA": "Kiwoom Heroes",
+      "participantB": "Samsung Lions",
+      "startsAt": "2026-07-21T09:30:00.000Z",
+      "observedAt": "2026-07-21T02:23:58.396Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
-            "name": "Milwaukee Brewers",
-            "odds": "1.43"
+            "name": "Kiwoom Heroes",
+            "odds": "2.50"
           },
           {
-            "name": "New York Mets",
-            "odds": "2.80"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "c9a69923caed0afdda9fd6b94171b189",
-      "sportKey": "baseball_mlb",
-      "sportTitle": "MLB",
-      "participantA": "Kansas City Royals",
-      "participantB": "San Francisco Giants",
-      "startsAt": "2026-07-20T23:41:00.000Z",
-      "observedAt": "2026-07-20T19:57:26.973Z",
-      "market": {
-        "key": "h2h",
-        "outcomes": [
-          {
-            "name": "Kansas City Royals",
-            "odds": "1.78"
-          },
-          {
-            "name": "San Francisco Giants",
-            "odds": "2.01"
+            "name": "Samsung Lions",
+            "odds": "1.40"
           }
         ]
       }
