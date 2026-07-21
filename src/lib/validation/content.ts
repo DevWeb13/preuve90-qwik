@@ -138,6 +138,12 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
     reasoning.estimatedProbabilityBps,
     `${path}.reasoning.estimatedProbabilityBps`,
   );
+  const observedAtMs = Date.parse(observedAt);
+  const publishedAtMs = Date.parse(publishedAt);
+  const startsAtMs = Date.parse(startsAt);
+  const leadTimeMs = startsAtMs - observedAtMs;
+  const minimumLeadMs = PRODUCT_CONFIG.minimumLeadMinutes * 60_000;
+  const maximumLeadMs = PRODUCT_CONFIG.maximumLeadHours * 60 * 60_000;
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(publicationDate)) {
     fail(`${path}.publicationDate`, "le format YYYY-MM-DD est attendu");
@@ -150,11 +156,23 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   if (publicationDate !== getDateKeyInTimeZone(publishedAt, PRODUCT_CONFIG.timezone)) {
     fail(`${path}.publicationDate`, "la date doit correspondre à la publication Europe/Paris");
   }
-  if (Date.parse(observedAt) > Date.parse(publishedAt)) {
+  if (observedAtMs > publishedAtMs) {
     fail(`${path}.bookmaker.observedAt`, "l’observation ne peut pas suivre la publication");
   }
-  if (Date.parse(publishedAt) >= Date.parse(startsAt)) {
+  if (publishedAtMs >= startsAtMs) {
     fail(`${path}.publishedAt`, "la publication doit précéder le début de l’événement");
+  }
+  if (leadTimeMs < minimumLeadMs) {
+    fail(
+      `${path}.startsAt`,
+      `le début doit suivre l’observation d’au moins ${PRODUCT_CONFIG.minimumLeadMinutes} minutes`,
+    );
+  }
+  if (leadTimeMs > maximumLeadMs) {
+    fail(
+      `${path}.startsAt`,
+      `le début doit suivre l’observation de ${PRODUCT_CONFIG.maximumLeadHours} heures au maximum`,
+    );
   }
   if (participantA === participantB) {
     fail(`${path}.event`, "les deux participants doivent être distincts");
