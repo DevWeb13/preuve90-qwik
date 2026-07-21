@@ -58,6 +58,10 @@ Les cotes Betclic peuvent être relevées :
 
 Les différentes issues du marché doivent provenir du même relevé Betclic. Ne jamais mélanger les meilleures cotes de plusieurs bookmakers.
 
+Lorsqu’un comparateur affiche d’abord les meilleures cotes de plusieurs bookmakers, rechercher son onglet, son filtre ou son tableau détaillé consacré à Betclic France, puis consulter d’autres sources publiques pour le même événement.
+
+Ne rejeter un événement pour absence de ligne Betclic complète qu’après avoir consulté au moins trois sources publiques pertinentes ou constaté qu’aucune vue détaillée par bookmaker n’est disponible.
+
 Enregistrer :
 
 - l’URL exacte de la page consultée ;
