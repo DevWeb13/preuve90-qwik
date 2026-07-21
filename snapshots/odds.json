@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-21T02:23:58.156Z",
+  "generatedAt": "2026-07-21T08:23:09.211Z",
   "bookmaker": {
     "key": "betclic_fr",
     "name": "Betclic (FR)"
@@ -17,17 +17,17 @@
       "participantA": "Tokyo Yakult Swallows",
       "participantB": "Chunichi Dragons",
       "startsAt": "2026-07-21T09:00:00.000Z",
-      "observedAt": "2026-07-21T02:23:58.396Z",
+      "observedAt": "2026-07-21T08:23:09.447Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
             "name": "Chunichi Dragons",
-            "odds": "1.88"
+            "odds": "1.93"
           },
           {
             "name": "Tokyo Yakult Swallows",
-            "odds": "1.76"
+            "odds": "1.72"
           }
         ]
       }
@@ -39,13 +39,13 @@
       "participantA": "Hanshin Tigers",
       "participantB": "Yokohama DeNA BayStars",
       "startsAt": "2026-07-21T09:00:00.000Z",
-      "observedAt": "2026-07-21T02:23:58.396Z",
+      "observedAt": "2026-07-21T08:23:09.447Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
             "name": "Hanshin Tigers",
-            "odds": "1.64"
+            "odds": "1.65"
           },
           {
             "name": "Yokohama DeNA BayStars",
@@ -61,17 +61,17 @@
       "participantA": "Fukuoka SoftBank Hawks",
       "participantB": "Orix Buffaloes",
       "startsAt": "2026-07-21T09:00:00.000Z",
-      "observedAt": "2026-07-21T02:23:58.396Z",
+      "observedAt": "2026-07-21T08:23:09.447Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
             "name": "Fukuoka SoftBank Hawks",
-            "odds": "1.59"
+            "odds": "1.56"
           },
           {
             "name": "Orix Buffaloes",
-            "odds": "2.12"
+            "odds": "2.17"
           }
         ]
       }
@@ -83,17 +83,17 @@
       "participantA": "Yomiuri Giants",
       "participantB": "Hiroshima Toyo Carp",
       "startsAt": "2026-07-21T09:00:00.000Z",
-      "observedAt": "2026-07-21T02:23:58.396Z",
+      "observedAt": "2026-07-21T08:23:09.447Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
             "name": "Hiroshima Toyo Carp",
-            "odds": "2.18"
+            "odds": "2.23"
           },
           {
             "name": "Yomiuri Giants",
-            "odds": "1.56"
+            "odds": "1.53"
           }
         ]
       }
@@ -105,17 +105,17 @@
       "participantA": "Kia Tigers",
       "participantB": "Hanwha Eagles",
       "startsAt": "2026-07-21T09:30:00.000Z",
-      "observedAt": "2026-07-21T02:23:58.396Z",
+      "observedAt": "2026-07-21T08:23:09.447Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
             "name": "Hanwha Eagles",
-            "odds": "1.99"
+            "odds": "2.12"
           },
           {
             "name": "Kia Tigers",
-            "odds": "1.65"
+            "odds": "1.61"
           }
         ]
       }
@@ -127,17 +127,17 @@
       "participantA": "KT Wiz",
       "participantB": "Doosan Bears",
       "startsAt": "2026-07-21T09:30:00.000Z",
-      "observedAt": "2026-07-21T02:23:58.396Z",
+      "observedAt": "2026-07-21T08:23:09.447Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
             "name": "Doosan Bears",
-            "odds": "1.56"
+            "odds": "1.62"
           },
           {
             "name": "KT Wiz",
-            "odds": "2.13"
+            "odds": "2.12"
           }
         ]
       }
@@ -149,17 +149,17 @@
       "participantA": "Kiwoom Heroes",
       "participantB": "Samsung Lions",
       "startsAt": "2026-07-21T09:30:00.000Z",
-      "observedAt": "2026-07-21T02:23:58.396Z",
+      "observedAt": "2026-07-21T08:23:09.447Z",
       "market": {
         "key": "h2h",
         "outcomes": [
           {
             "name": "Kiwoom Heroes",
-            "odds": "2.50"
+            "odds": "2.60"
           },
           {
             "name": "Samsung Lions",
-            "odds": "1.40"
+            "odds": "1.42"
           }
         ]
       }

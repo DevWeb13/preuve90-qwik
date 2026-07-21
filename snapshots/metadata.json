@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-21T02:23:58.156Z",
+  "generatedAt": "2026-07-21T08:23:09.211Z",
   "mode": "odds",
   "sourceMode": "upcoming",
   "coverage": {
@@ -12,11 +12,11 @@
     "maximumLeadHours": 8
   },
   "requests": 1,
-  "eventsReceived": 21,
+  "eventsReceived": 8,
   "eventsPublished": 7,
   "quota": {
-    "used": 4,
-    "remaining": 496,
+    "used": 5,
+    "remaining": 495,
     "lastRequestCost": 1
   }
 }
