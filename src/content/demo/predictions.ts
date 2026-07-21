@@ -158,7 +158,7 @@ export const demoPredictions: Prediction[] = [
     },
     selection: { name: "Atlas Five" },
     recordedOdds: "1.65",
-    bookmaker: { key: "betclic_fr", name: "Betclic (FR)", observedAt: "2026-07-20T09:58:00Z" },
+    bookmaker: { key: "betclic_fr", name: "Betclic (FR)", observedAt: "2026-07-20T10:00:00Z" },
     virtualStakeCents: 500,
     reasoning: {
       estimatedProbabilityBps: 6400,
