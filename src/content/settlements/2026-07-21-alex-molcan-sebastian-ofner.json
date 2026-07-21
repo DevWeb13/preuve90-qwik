@@ -1,0 +1,20 @@
+{
+  "predictionId": "2026-07-21-tennis-alex-molcan-sebastian-ofner",
+  "settledAt": "2026-07-21T17:57:26Z",
+  "status": "WON",
+  "result": {
+    "winningOutcomeName": "Alex Molcan",
+    "scores": [
+      {
+        "name": "Score final",
+        "value": "6-4, 6-4"
+      }
+    ],
+    "note": "Alex Molcan a battu Sebastian Ofner en deux sets au premier tour de l'ATP 250 de Kitzbühel."
+  },
+  "source": {
+    "provider": "official-source",
+    "eventId": "8660358",
+    "reference": "https://www.atptour.com/en/scores/stats-centre/live/2026/319/MS018"
+  }
+}
