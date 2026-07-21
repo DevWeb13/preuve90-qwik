@@ -41,10 +41,9 @@ export interface Prediction {
     uncertainty: string;
   };
   source: {
-    provider: "the-odds-api";
+    provider: "betclic-public";
     eventId: string;
-    snapshotGeneratedAt: string;
-    snapshotSha: string;
+    reference: string;
   };
 }
 
@@ -61,9 +60,9 @@ export interface Settlement {
     note?: string;
   };
   source: {
-    provider: "the-odds-api" | "official-source";
+    provider: "betclic-public" | "official-source";
     eventId: string;
-    reference?: string;
+    reference: string;
   };
 }
 

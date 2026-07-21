@@ -12,7 +12,11 @@ export const demoSettlements: Settlement[] = [
         { name: "Lyon Lumière", value: "1" },
       ],
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-football" },
+    source: {
+      provider: "betclic-public",
+      eventId: "demo-event-football",
+      reference: "https://www.betclic.fr/sport/demo-event-football",
+    },
   },
   {
     predictionId: "demo-2026-07-20-tennis-a",
@@ -25,7 +29,11 @@ export const demoSettlements: Settlement[] = [
         { name: "Joueur Corail", value: "0" },
       ],
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-tennis-a" },
+    source: {
+      provider: "betclic-public",
+      eventId: "demo-event-tennis-a",
+      reference: "https://www.betclic.fr/sport/demo-event-tennis-a",
+    },
   },
   {
     predictionId: "demo-2026-07-20-basket-b",
@@ -38,7 +46,11 @@ export const demoSettlements: Settlement[] = [
         { name: "Nova Basket", value: "81" },
       ],
     },
-    source: { provider: "the-odds-api", eventId: "demo-event-basket-b" },
+    source: {
+      provider: "betclic-public",
+      eventId: "demo-event-basket-b",
+      reference: "https://www.betclic.fr/sport/demo-event-basket-b",
+    },
   },
   {
     predictionId: "demo-2026-07-19-tennis-void",
@@ -52,7 +64,7 @@ export const demoSettlements: Settlement[] = [
     source: {
       provider: "official-source",
       eventId: "demo-event-tennis-void",
-      reference: "Référence fictive de démonstration",
+      reference: "https://example.test/official/demo-event-tennis-void",
     },
   },
 ];

@@ -18,7 +18,6 @@ export function assemblePredictions(
   );
   const predictionIds = new Set<string>();
   const eventIds = new Set<string>();
-  const snapshotShas = new Set<string>();
 
   for (const prediction of predictions) {
     if (predictionIds.has(prediction.id)) {
@@ -29,14 +28,8 @@ export function assemblePredictions(
         `Événement publié plusieurs fois : ${prediction.event.eventId}`,
       );
     }
-    if (snapshotShas.has(prediction.source.snapshotSha)) {
-      throw new ContentValidationError(
-        `Snapshot déjà utilisé pour une publication : ${prediction.source.snapshotSha}`,
-      );
-    }
     predictionIds.add(prediction.id);
     eventIds.add(prediction.event.eventId);
-    snapshotShas.add(prediction.source.snapshotSha);
   }
 
   const settlementsByPrediction = new Map<string, (typeof settlements)[number]>();

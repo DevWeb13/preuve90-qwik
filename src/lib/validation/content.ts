@@ -28,10 +28,6 @@ function asString(value: unknown, path: string): string {
   return value;
 }
 
-function asOptionalString(value: unknown, path: string): string | undefined {
-  return value === undefined ? undefined : asString(value, path);
-}
-
 function asStringArray(value: unknown, path: string): string[] {
   if (!Array.isArray(value) || value.length === 0) {
     fail(path, "une liste non vide est attendue");
@@ -54,12 +50,18 @@ function asUtcTimestamp(value: unknown, path: string): string {
   return timestamp;
 }
 
-function asSnapshotSha(value: unknown, path: string): string {
-  const sha = asString(value, path);
-  if (!/^[0-9a-f]{40}$/.test(sha)) {
-    fail(path, "un blob SHA GitHub hexadécimal minuscule de 40 caractères est attendu");
+function asPublicReference(value: unknown, path: string): string {
+  const reference = asString(value, path);
+  try {
+    const url = new URL(reference);
+    if ((url.protocol !== "https:" && url.protocol !== "http:") || url.username || url.password) {
+      fail(path, "une URL publique HTTP(S) sans identifiants est attendue");
+    }
+  } catch (error) {
+    if (error instanceof ContentValidationError) throw error;
+    fail(path, "une URL publique HTTP(S) valide est attendue");
   }
-  return sha;
+  return reference;
 }
 
 function asSettlementStatus(value: unknown, path: string): SettlementStatus {
@@ -126,11 +128,6 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   const publishedAt = asUtcTimestamp(input.publishedAt, `${path}.publishedAt`);
   const startsAt = asUtcTimestamp(input.startsAt, `${path}.startsAt`);
   const observedAt = asUtcTimestamp(bookmaker.observedAt, `${path}.bookmaker.observedAt`);
-  const snapshotGeneratedAt = asUtcTimestamp(
-    source.snapshotGeneratedAt,
-    `${path}.source.snapshotGeneratedAt`,
-  );
-  const snapshotSha = asSnapshotSha(source.snapshotSha, `${path}.source.snapshotSha`);
   const recordedOdds = asString(input.recordedOdds, `${path}.recordedOdds`);
   const eventId = asString(event.eventId, `${path}.event.eventId`);
   const participantA = asString(event.participantA, `${path}.event.participantA`);
@@ -152,12 +149,6 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   }
   if (publicationDate !== getDateKeyInTimeZone(publishedAt, PRODUCT_CONFIG.timezone)) {
     fail(`${path}.publicationDate`, "la date doit correspondre à la publication Europe/Paris");
-  }
-  if (Date.parse(snapshotGeneratedAt) > Date.parse(observedAt)) {
-    fail(
-      `${path}.source.snapshotGeneratedAt`,
-      "la génération du snapshot ne peut pas suivre l’observation",
-    );
   }
   if (Date.parse(observedAt) > Date.parse(publishedAt)) {
     fail(`${path}.bookmaker.observedAt`, "l’observation ne peut pas suivre la publication");
@@ -191,8 +182,8 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
   if (input.virtualStakeCents !== PRODUCT_CONFIG.virtualStakeCents) {
     fail(`${path}.virtualStakeCents`, "la mise doit être exactement de 500 centimes");
   }
-  if (source.provider !== PRODUCT_CONFIG.oddsProvider) {
-    fail(`${path}.source.provider`, "the-odds-api est obligatoire");
+  if (source.provider !== PRODUCT_CONFIG.sourceProvider) {
+    fail(`${path}.source.provider`, "betclic-public est obligatoire");
   }
   if (source.eventId !== eventId) {
     fail(`${path}.source.eventId`, "l’identifiant source doit correspondre à l’événement");
@@ -224,10 +215,9 @@ export function validatePrediction(value: unknown, path = "prediction"): Predict
       uncertainty: asString(reasoning.uncertainty, `${path}.reasoning.uncertainty`),
     },
     source: {
-      provider: PRODUCT_CONFIG.oddsProvider,
+      provider: PRODUCT_CONFIG.sourceProvider,
       eventId,
-      snapshotGeneratedAt,
-      snapshotSha,
+      reference: asPublicReference(source.reference, `${path}.source.reference`),
     },
   };
 }
@@ -247,12 +237,12 @@ export function validateSettlement(value: unknown, path = "settlement"): Settlem
   if (status !== "VOID" && winningOutcomeName === null) {
     fail(`${path}.result.winningOutcomeName`, `${status} exige une issue gagnante`);
   }
-  if (source.provider !== "the-odds-api" && source.provider !== "official-source") {
-    fail(`${path}.source.provider`, "the-odds-api ou official-source est attendu");
+  if (source.provider !== "betclic-public" && source.provider !== "official-source") {
+    fail(`${path}.source.provider`, "betclic-public ou official-source est attendu");
   }
 
-  const note = asOptionalString(result.note, `${path}.result.note`);
-  const reference = asOptionalString(source.reference, `${path}.source.reference`);
+  const note = result.note === undefined ? undefined : asString(result.note, `${path}.result.note`);
+  const reference = asPublicReference(source.reference, `${path}.source.reference`);
   return {
     predictionId: asString(input.predictionId, `${path}.predictionId`),
     settledAt: asUtcTimestamp(input.settledAt, `${path}.settledAt`),
@@ -265,7 +255,7 @@ export function validateSettlement(value: unknown, path = "settlement"): Settlem
     source: {
       provider: source.provider,
       eventId: asString(source.eventId, `${path}.source.eventId`),
-      ...(reference === undefined ? {} : { reference }),
+      reference,
     },
   };
 }

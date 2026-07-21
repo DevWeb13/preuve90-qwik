@@ -1,9 +1,7 @@
 {
   "minimumLeadMinutes": 30,
   "maximumLeadHours": 8,
-  "maximumSnapshotAgeMinutes": 150,
   "maximumPublishedPerScan": 1,
-  "maximumUpcomingEvents": 8,
   "virtualStakeCents": 500,
   "bookmaker": {
     "key": "betclic_fr",
