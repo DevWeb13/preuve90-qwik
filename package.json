@@ -1,6 +1,6 @@
 {
   "name": "preuve90-qwik",
-  "description": "Expérience publique et transparente de recherche multisport de valeur estimée par une IA.",
+  "description": "Application Qwik de la nouvelle expérience publique Preuve90.",
   "private": true,
   "type": "module",
   "packageManager": "npm@10.9.2",
@@ -13,8 +13,7 @@
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "qwik check-client src dist && vite build -c adapters/vercel-edge/vite.config.ts",
     "build.types": "tsc --incremental --noEmit",
-    "check": "npm run check:content-integrity && npm run fmt.check && npm run lint && npm run build.types && npm run test:run && npm run build",
-    "check:content-integrity": "node scripts/check-content-append-only.mjs",
+    "check": "npm run fmt.check && npm run lint && npm run build.types && npm run test:run && npm run build",
     "deploy": "vercel deploy",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",

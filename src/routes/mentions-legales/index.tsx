@@ -7,7 +7,7 @@ export default component$(() => (
   <div class="route-stack legal-page">
     <PageHeader
       eyebrow="INFORMATIONS"
-      title="Mentions légales et avertissements"
+      title="Mentions légales"
       description="Les informations d’édition ci-dessous doivent être finalisées avant toute ouverture publique."
     />
     <Panel class="completion-panel">
@@ -34,37 +34,13 @@ export default component$(() => (
     <section class="legal-copy">
       <h2>Objet du site</h2>
       <p>
-        Preuve90 documente une expérience publique de recherche multisport de valeur estimée par une
-        IA. Le site présente des publications horodatées, leurs règlements et des statistiques
-        dérivées. Il ne prétend pas analyser tout Betclic.
-      </p>
-      <h2>Aucun pari réel</h2>
-      <p>
-        La mise affichée est entièrement virtuelle. Le site ne reçoit aucun dépôt, ne place aucun
-        pari, ne propose aucun compte joueur et ne fournit aucun lien commercial vers un bookmaker.
-      </p>
-      <h2>Prévention et absence de garantie</h2>
-      <p>
-        Les jeux d’argent comportent des risques financiers et d’addiction et sont interdits aux
-        mineurs. Les performances passées ne garantissent aucun résultat futur. Les informations du
-        site ne constituent ni un conseil financier ni une incitation à parier.
-      </p>
-      <h2>Limites des cotes observées</h2>
-      <p>
-        Une cote enregistrée est une observation horodatée chez Betclic (FR). Elle ne prouve ni sa
-        disponibilité ultérieure ni son acceptation pour une personne donnée.
-      </p>
-      <h2>Estimations de l’IA</h2>
-      <p>
-        Une valeur estimée positive signifie seulement que la probabilité évaluée par l’IA dépasse
-        le seuil nécessaire pour rentabiliser la cote. Cette estimation peut être erronée et ne
-        constitue ni un bénéfice acquis ni une garantie de rentabilité.
+        Preuve90 prépare une nouvelle expérience publique de pronostics football produits par une
+        IA. Le service est actuellement en cours de conception.
       </p>
       <h2>Contenu</h2>
       <p>
-        La structure, les textes et les éléments graphiques originaux de Preuve90 sont protégés par
-        les règles applicables à la propriété intellectuelle. Les marques citées appartiennent à
-        leurs titulaires respectifs.
+        La structure, les textes, le logo et les éléments graphiques originaux de Preuve90 sont
+        protégés par les règles applicables à la propriété intellectuelle.
       </p>
       <h2>Hébergement</h2>
       <p>
@@ -77,7 +53,7 @@ export default component$(() => (
 
 export const head = createDocumentHead(
   "Mentions légales",
-  "Informations légales, avertissements et limites de l’expérience publique Preuve90.",
+  "Informations légales relatives au site Preuve90.",
   "/mentions-legales/",
   true,
 );

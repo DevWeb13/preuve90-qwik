@@ -7,13 +7,13 @@ export default component$(() => (
     <PageHeader
       eyebrow="VIE PRIVÉE"
       title="Politique de confidentialité"
-      description="La V1 est volontairement minimale et ne crée aucun profil utilisateur."
+      description="Le site est volontairement minimal et ne crée aucun profil utilisateur."
     />
     <Panel class="privacy-summary">
       <h2>Ce que Preuve90 ne collecte pas volontairement</h2>
       <ul>
         <li>aucun compte ni donnée de profil ;</li>
-        <li>aucun moyen de paiement ni donnée de pari ;</li>
+        <li>aucun moyen de paiement ;</li>
         <li>aucun cookie marketing ou outil publicitaire ;</li>
         <li>aucune newsletter, commentaire ou notification.</li>
       </ul>
@@ -29,14 +29,8 @@ export default component$(() => (
       <h2>Cookies</h2>
       <p>
         L’application n’installe aucun outil marketing ou dispositif nécessitant un consentement.
-        Une bannière de cookies n’est donc pas affichée dans cette V1. Cette position devra être
+        Une bannière de cookies n’est donc pas affichée actuellement. Cette position devra être
         revue avant l’ajout de tout outil de mesure ou service tiers.
-      </p>
-      <h2>Données publiques</h2>
-      <p>
-        Les fichiers de pronostics et de règlements portent uniquement sur des événements sportifs
-        et sont publiés dans Git pour assurer leur traçabilité. Ils ne contiennent aucune donnée de
-        compte joueur.
       </p>
       <h2>Contact et droits</h2>
       <p>
@@ -50,7 +44,7 @@ export default component$(() => (
 
 export const head = createDocumentHead(
   "Politique de confidentialité",
-  "Données collectées, journaux techniques et absence de cookies marketing dans la V1 de Preuve90.",
+  "Données collectées, journaux techniques et absence de cookies marketing sur Preuve90.",
   "/confidentialite/",
   true,
 );

@@ -1,15 +1,14 @@
 export const SITE_CONFIG = {
   name: "Preuve90",
-  signature: "AI VALUE LAB",
-  tagline: "La valeur estimée par l’IA, résultats compris.",
+  signature: "AI FOOTBALL LAB",
+  tagline: "Une nouvelle expérience se prépare.",
   description:
-    "Une expérience publique et vérifiable qui recherche un candidat multisport à valeur estimée positive parmi les prochains événements analysés.",
+    "Preuve90 prépare une nouvelle expérience publique de pronostics football produits par une IA.",
   publicOrigin: import.meta.env.PUBLIC_ORIGIN?.replace(/\/$/, "") ?? "",
   navigation: [
     { href: "/", label: "Accueil", icon: "home" },
-    { href: "/historique/", label: "Historique", icon: "history" },
-    { href: "/statistiques/", label: "Statistiques", icon: "chart" },
-    { href: "/methode/", label: "Méthode", icon: "method" },
+    { href: "/mentions-legales/", label: "Mentions légales", icon: "legal" },
+    { href: "/confidentialite/", label: "Confidentialité", icon: "privacy" },
   ],
   legal: {
     publisherName: "À compléter avant le lancement public",
