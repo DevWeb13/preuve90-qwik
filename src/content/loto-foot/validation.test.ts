@@ -3,7 +3,11 @@ import { calculateVirtualStakeCents } from "./model";
 import { getLotoFootPublicationById, loadLotoFootPublications } from "./publications";
 import { validateLotoFootPublication } from "./validation";
 
-function createValidPublication(id = "lf7-2026-001", publishedAt = "2026-07-22T08:00:00Z") {
+function createValidPublication(
+  id = "lf7-2026-001",
+  publishedAt = "2026-07-22T08:00:00Z",
+  matchCount = 7,
+) {
   return {
     id,
     gridNumber: 1,
@@ -11,7 +15,7 @@ function createValidPublication(id = "lf7-2026-001", publishedAt = "2026-07-22T0
     validationDeadline: "2026-07-23T18:00:00Z",
     publishedAt,
     methodVersion: "1.0.0",
-    matches: Array.from({ length: 7 }, (_, index) => ({
+    matches: Array.from({ length: matchCount }, (_, index) => ({
       position: index + 1,
       homeTeam: `Équipe domicile ${index + 1}`,
       awayTeam: `Équipe extérieure ${index + 1}`,
@@ -35,7 +39,7 @@ function createValidPublication(id = "lf7-2026-001", publishedAt = "2026-07-22T0
       {
         id: "principal",
         label: "Choix principal",
-        selections: ["1", "N", "2", "1", "N", "2", "1"],
+        selections: Array.from({ length: matchCount }, (_, index) => ["1", "N", "2"][index % 3]),
         rationale: "Combinaison issue des probabilités les plus fortes.",
       },
     ],
@@ -43,15 +47,20 @@ function createValidPublication(id = "lf7-2026-001", publishedAt = "2026-07-22T0
 }
 
 describe("validation d’une publication Loto Foot 7", () => {
-  it("accepte une publication valide", () => {
+  it("accepte une publication valide à sept matchs", () => {
     expect(validateLotoFootPublication(createValidPublication()).id).toBe("lf7-2026-001");
   });
 
-  it("refuse un nombre de matchs différent de 7", () => {
-    const publication = createValidPublication();
-    publication.matches.pop();
+  it("accepte une publication valide à six matchs", () => {
+    expect(
+      validateLotoFootPublication(createValidPublication("lf6-2026-001", undefined, 6)).id,
+    ).toBe("lf6-2026-001");
+  });
 
-    expect(() => validateLotoFootPublication(publication)).toThrow(/exactement 7 matchs/);
+  it.each([5, 8])("refuse une publication contenant %i matchs", (matchCount) => {
+    expect(() =>
+      validateLotoFootPublication(createValidPublication(undefined, undefined, matchCount)),
+    ).toThrow(/exactement 6 ou 7 matchs/);
   });
 
   it("refuse une position absente", () => {
@@ -90,11 +99,21 @@ describe("validation d’une publication Loto Foot 7", () => {
     expect(() => validateLotoFootPublication(publication)).toThrow(/strictement antérieure/);
   });
 
-  it.each([6, 8])("refuse une combinaison contenant %i choix", (selectionCount) => {
-    const publication = createValidPublication();
-    publication.tickets[0].selections = Array.from({ length: selectionCount }, () => "1");
+  it.each([6, 8])(
+    "refuse une combinaison contenant %i choix pour sept matchs",
+    (selectionCount) => {
+      const publication = createValidPublication();
+      publication.tickets[0].selections = Array.from({ length: selectionCount }, () => "1");
 
-    expect(() => validateLotoFootPublication(publication)).toThrow(/exactement 7 choix/);
+      expect(() => validateLotoFootPublication(publication)).toThrow(/exactement 7 choix/);
+    },
+  );
+
+  it("refuse sept choix pour une publication à six matchs", () => {
+    const publication = createValidPublication(undefined, undefined, 6);
+    publication.tickets[0].selections.push("1");
+
+    expect(() => validateLotoFootPublication(publication)).toThrow(/exactement 6 choix/);
   });
 
   it("refuse une sélection invalide", () => {
@@ -124,6 +143,16 @@ describe("validation d’une publication Loto Foot 7", () => {
     });
 
     expect(() => validateLotoFootPublication(publication)).toThrow(/unique dans la publication/);
+  });
+
+  it("refuse des positions valides mais désordonnées", () => {
+    const publication = createValidPublication();
+    [publication.matches[0], publication.matches[1]] = [
+      publication.matches[1],
+      publication.matches[0],
+    ];
+
+    expect(() => validateLotoFootPublication(publication)).toThrow(/ordonnées exactement/);
   });
 });
 

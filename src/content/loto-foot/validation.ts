@@ -1,4 +1,4 @@
-import { LOTO_FOOT_MATCH_COUNT, LOTO_FOOT_SELECTIONS, type LotoFootPublication } from "./model";
+import { LOTO_FOOT_MATCH_COUNTS, LOTO_FOOT_SELECTIONS, type LotoFootPublication } from "./model";
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -131,19 +131,20 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
   }
 
   const matches = requireArray(publication.matches, "publication.matches");
-  if (matches.length !== LOTO_FOOT_MATCH_COUNT) {
-    fail("publication.matches", `doit contenir exactement ${LOTO_FOOT_MATCH_COUNT} matchs`);
+  if (!(LOTO_FOOT_MATCH_COUNTS as readonly number[]).includes(matches.length)) {
+    fail("publication.matches", "doit contenir exactement 6 ou 7 matchs");
   }
 
   const positions = matches.map((match) => requireRecord(match, "match").position);
   const invalidPositions = positions.filter(
     (position) =>
-      !Number.isInteger(position) || (position as number) < 1 || (position as number) > 7,
+      !Number.isInteger(position) ||
+      (position as number) < 1 ||
+      (position as number) > matches.length,
   );
-  const missingPositions = Array.from(
-    { length: LOTO_FOOT_MATCH_COUNT },
-    (_, index) => index + 1,
-  ).filter((position) => !positions.includes(position));
+  const missingPositions = Array.from({ length: matches.length }, (_, index) => index + 1).filter(
+    (position) => !positions.includes(position),
+  );
   const duplicatedPositions = positions.filter(
     (position, index) => positions.indexOf(position) !== index,
   );
@@ -154,7 +155,9 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
     duplicatedPositions.length > 0
   ) {
     const reasons = [
-      invalidPositions.length > 0 ? "chaque position doit être un entier compris entre 1 et 7" : "",
+      invalidPositions.length > 0
+        ? `chaque position doit être un entier compris entre 1 et ${matches.length}`
+        : "",
       missingPositions.length > 0 ? `position(s) ${missingPositions.join(", ")} absente(s)` : "",
       duplicatedPositions.length > 0
         ? `position(s) ${[...new Set(duplicatedPositions)].join(", ")} dupliquée(s)`
@@ -165,7 +168,10 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
 
   positions.forEach((position, index) => {
     if (position !== index + 1) {
-      fail("publication.matches", "les positions doivent être ordonnées exactement de 1 à 7");
+      fail(
+        "publication.matches",
+        `les positions doivent être ordonnées exactement de 1 à ${matches.length}`,
+      );
     }
   });
   matches.forEach(validateMatch);
@@ -187,8 +193,11 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
     ticketIds.add(id);
 
     const selections = requireArray(ticket.selections, `${path}.selections`);
-    if (selections.length !== LOTO_FOOT_MATCH_COUNT) {
-      fail(`${path}.selections`, `doit contenir exactement ${LOTO_FOOT_MATCH_COUNT} choix`);
+    if (selections.length !== matches.length) {
+      fail(
+        `${path}.selections`,
+        `doit contenir exactement ${matches.length} choix, comme la publication contient de matchs`,
+      );
     }
     selections.forEach((selection, selectionIndex) => {
       if (
