@@ -1,0 +1,295 @@
+{
+  "id": "lf7-91-2026-07-22",
+  "gridNumber": 91,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+  "validationDeadline": "2026-07-22T23:50:00+02:00",
+  "publishedAt": "2026-07-22T23:01:01+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Inter Miami",
+      "awayTeam": "Chicago Fire",
+      "competition": "MLS",
+      "startsAt": "2026-07-23T01:30:00+02:00",
+      "probabilities": {
+        "home": 48,
+        "draw": 24,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Inter Miami garde un léger avantage à domicile, mais Chicago arrive avec une première moitié de saison solide et une attaque renforcée, ce qui réduit l’écart entre les deux équipes.",
+        "keyFactors": [
+          "Avantage du terrain pour Inter Miami.",
+          "Chicago occupait la troisième place de la conférence Est à la pause avec Hugo Cuypers en tête des buteurs.",
+          "La présence de nombreuses stars des deux côtés augmente la variance tactique et individuelle."
+        ],
+        "uncertainty": "La reprise après une longue pause et l’intégration récente de recrues majeures rendent les compositions et automatismes difficiles à anticiper.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°91",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "MLS — Bilan de mi-saison de la conférence Est",
+            "url": "https://www.mlssoccer.com/news/mls-eastern-conference-your-team-s-season-so-far-what-s-next",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "New England Revolution",
+      "awayTeam": "Toronto FC",
+      "competition": "MLS",
+      "startsAt": "2026-07-23T01:30:00+02:00",
+      "probabilities": {
+        "home": 64,
+        "draw": 21,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "New England est nettement favori grâce à son excellent bilan à domicile, tandis que Toronto reste sur une longue période sans victoire.",
+        "keyFactors": [
+          "New England affichait un bilan de 7 victoires et 1 défaite à domicile.",
+          "Les Revolution étaient quatrièmes de la conférence Est avec 25 points en 14 matchs.",
+          "Toronto n’avait plus gagné depuis le début du mois d’avril."
+        ],
+        "uncertainty": "New England reprend après deux mois sans match de championnat, ce qui peut atténuer son avantage de forme.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°91",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "New England Revolution — Guide du match contre Toronto FC",
+            "url": "https://www.revolutionsoccer.net/news/matchday-guide-revs-vs-toronto-fc-july-22-2026",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Philadelphia Union",
+      "awayTeam": "New York Red Bulls",
+      "competition": "MLS",
+      "startsAt": "2026-07-23T01:30:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 27,
+        "away": 46
+      },
+      "analysis": {
+        "summary": "Red Bull New York part avec l’avantage au vu de son classement et de sa dynamique, malgré le retour de cadres et le changement d’entraîneur à Philadelphie.",
+        "keyFactors": [
+          "Philadelphie était dernier de MLS avec une victoire, quatre nuls et dix défaites.",
+          "Red Bull New York occupait la cinquième place de l’Est avec un bilan positif.",
+          "Kai Wagner revient à Philadelphie et Quinn Sullivan peut retrouver la compétition."
+        ],
+        "uncertainty": "Le premier match de Philadelphie sous Ryan Richter et les retours de joueurs peuvent provoquer une réaction difficile à quantifier.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°91",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "Philadelphia Union — Avant-match contre Red Bull New York",
+            "url": "https://www.philadelphiaunion.com/news/preview-union-set-to-reignite-rivalry-against-red-bull-new-york",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Columbus Crew",
+      "awayTeam": "New York City FC",
+      "competition": "MLS",
+      "startsAt": "2026-07-23T01:30:00+02:00",
+      "probabilities": {
+        "home": 48,
+        "draw": 28,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Columbus est légèrement favori à domicile après des signes de redressement avant la pause et plusieurs renforts estivaux, mais NYCFC reste capable de punir une équipe encore irrégulière.",
+        "keyFactors": [
+          "Columbus retrouvait de la confiance avant la pause sous la direction intérimaire de Patrice Courtois.",
+          "Le Crew joue à domicile et a ajouté plusieurs renforts, dont Brais Méndez et Eric Bailly.",
+          "La longue interruption rend la continuité de la dynamique incertaine."
+        ],
+        "uncertainty": "Les nouvelles recrues de Columbus et l’état de forme réel des deux équipes après la pause sont difficiles à mesurer avant le coup d’envoi.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°91",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "MLS — Columbus Crew au retour de la pause Coupe du monde",
+            "url": "https://www.mlssoccer.com/news/columbus-crew-of-old-soar-into-world-cup-break",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "Columbus Crew — Actualités et mouvements récents",
+            "url": "https://www.columbuscrew.com/news/",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "San Jose Earthquakes",
+      "awayTeam": "Orlando City",
+      "competition": "MLS",
+      "startsAt": "2026-07-23T04:30:00+02:00",
+      "probabilities": {
+        "home": 58,
+        "draw": 24,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "San Jose est favori à domicile après une première moitié de saison très supérieure aux attentes, face à un Orlando talentueux mais moins convaincant dans cette configuration à l’extérieur.",
+        "keyFactors": [
+          "San Jose était deuxième de la conférence Ouest avec 32 points et un bilan de 10-3-2.",
+          "Les Earthquakes combinaient une attaque dangereuse et une base défensive solide.",
+          "Orlando dispose de créateurs confirmés avec Martín Ojeda et Marco Pašalić."
+        ],
+        "uncertainty": "La disponibilité et le rythme de joueurs clés comme Niko Tsakiris et Timo Werner peuvent modifier fortement le potentiel offensif de San Jose.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°91",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "MLS — Bilan de mi-saison de la conférence Ouest",
+            "url": "https://www.mlssoccer.com/news/western-conference-your-team-s-season-so-far-what-s-next",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "MLS — Présentation de la saison 2026 d’Orlando City",
+            "url": "https://www.mlssoccer.com/news/orlando-city-2026-season-preview",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Los Angeles FC",
+      "awayTeam": "Real Salt Lake",
+      "competition": "MLS",
+      "startsAt": "2026-07-23T04:30:00+02:00",
+      "probabilities": {
+        "home": 53,
+        "draw": 26,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "LAFC est favori à domicile après sa victoire nette dans le derby, mais Real Salt Lake possède un bilan solide et suffisamment de qualité offensive pour rendre le match disputé.",
+        "keyFactors": [
+          "LAFC restait sur deux victoires de suite en MLS, dont un succès 3-0 contre le Galaxy.",
+          "LAFC présentait un bilan de 5-2-1 à domicile.",
+          "Real Salt Lake affichait 8 victoires, 4 défaites et 2 nuls avec une différence de buts positive."
+        ],
+        "uncertainty": "L’état physique de Diego Luna et l’efficacité immédiate des attaques après la pause peuvent déplacer l’équilibre du match.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°91",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "LAFC — Avant-match contre Real Salt Lake",
+            "url": "https://www.lafc.com/news/preview-lafc-vs-real-salt-lake-2026-mls-season-july-22",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "LA Galaxy",
+      "awayTeam": "St. Louis CITY SC",
+      "competition": "MLS",
+      "startsAt": "2026-07-23T04:30:00+02:00",
+      "probabilities": {
+        "home": 39,
+        "draw": 31,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Le Galaxy conserve un léger avantage à domicile, mais l’historique très équilibré et la proximité des bilans rendent le nul presque aussi plausible.",
+        "keyFactors": [
+          "Le Galaxy avait un bilan de 5-6-5 après la défaite dans le derby.",
+          "Le Galaxy n’a encore jamais battu St. Louis en six confrontations, avec quatre nuls.",
+          "St. Louis avait un bilan proche et cherchait à renforcer une attaque peu productive."
+        ],
+        "uncertainty": "L’intégration de nouvelles recrues offensives des deux côtés et l’historique riche en nuls créent une forte variance.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°91",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          },
+          {
+            "label": "LA Galaxy — Avant-match contre St. Louis CITY SC",
+            "url": "https://www.lagalaxy.com/news/match-preview-presented-by-digalert-la-galaxy-vs-st-louis-city-sc-july-22-2026",
+            "accessedAt": "2026-07-22T23:01:01+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Combinaison principale",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Retient les favoris les plus nets et donne l’avantage du terrain à Columbus et au Galaxy."
+    },
+    {
+      "id": "nuls-cibles",
+      "label": "Couverture des matchs serrés",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre le nul sur Columbus–NYCFC et Galaxy–St. Louis, les deux rencontres les plus équilibrées de la sélection principale."
+    },
+    {
+      "id": "scenario-alternatif",
+      "label": "Scénario alternatif",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Protège une victoire de Chicago et un nul entre LAFC et Real Salt Lake sans modifier les trois favoris les plus marqués."
+    }
+  ]
+}
