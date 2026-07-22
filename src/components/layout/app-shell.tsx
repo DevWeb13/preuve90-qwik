@@ -2,14 +2,12 @@ import { component$, Slot } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import { SITE_CONFIG } from "~/config/site";
 import { Icon } from "~/components/ui/icon";
+import Preuve90Mark from "../../../public/favicon.svg?jsx";
 
 export const AppShell = component$(() => {
   const location = useLocation();
   const isActive = (href: string) =>
-    href === "/"
-      ? location.url.pathname === "/"
-      : location.url.pathname.startsWith(href) ||
-        (href === "/historique/" && location.url.pathname.startsWith("/pronostic/"));
+    href === "/" ? location.url.pathname === "/" : location.url.pathname.startsWith(href);
 
   return (
     <>
@@ -19,15 +17,7 @@ export const AppShell = component$(() => {
       <header class="site-header">
         <div class="site-header-inner">
           <Link aria-label="Preuve90 — accueil" class="brand" href="/">
-            <img
-              alt=""
-              aria-hidden="true"
-              class="brand-mark"
-              height={42}
-              src="/favicon.svg"
-              style="border: 0; box-shadow: none;"
-              width={42}
-            />
+            <Preuve90Mark aria-hidden="true" class="brand-mark" />
             <span>
               <strong>PREUVE90</strong>
               <small>{SITE_CONFIG.signature}</small>
@@ -45,8 +35,8 @@ export const AppShell = component$(() => {
               </Link>
             ))}
           </nav>
-          <span class="live-indicator">
-            <span aria-hidden="true" /> PROTOCOLE PUBLIC
+          <span class="site-status">
+            <span aria-hidden="true" /> EN PRÉPARATION
           </span>
         </div>
       </header>
@@ -59,18 +49,14 @@ export const AppShell = component$(() => {
         <div class="footer-grid">
           <div>
             <strong>PREUVE90</strong>
-            <p>Une expérience de pronostics multisports publics, mesurés et vérifiables.</p>
+            <p>Une nouvelle expérience publique autour du football et de l’IA.</p>
           </div>
           <nav aria-label="Informations légales">
             <Link href="/mentions-legales/">Mentions légales</Link>
             <Link href="/confidentialite/">Confidentialité</Link>
           </nav>
         </div>
-        <p class="legal-warning">
-          Preuve90 est une expérience publique. Aucun pari réel n’est placé. Les performances
-          passées ne garantissent aucun résultat futur. Les jeux d’argent comportent des risques et
-          sont interdits aux mineurs.
-        </p>
+        <p class="footer-note">Le service est actuellement en préparation.</p>
       </footer>
 
       <nav aria-label="Navigation principale mobile" class="mobile-nav">

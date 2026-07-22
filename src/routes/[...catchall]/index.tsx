@@ -19,7 +19,7 @@ export default component$(() => {
         title="Signal introuvable"
         message="Cette route ne correspond à aucune zone publique de Preuve90."
         actionHref="/"
-        actionLabel="Retour au tableau de bord"
+        actionLabel="Retour à l’accueil"
         headingLevel="h1"
       />
     </div>
