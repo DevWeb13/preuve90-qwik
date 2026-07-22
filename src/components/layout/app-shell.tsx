@@ -36,7 +36,7 @@ export const AppShell = component$(() => {
             ))}
           </nav>
           <span class="site-status">
-            <span aria-hidden="true" /> EN PRÉPARATION
+            <span aria-hidden="true" /> PUBLICATIONS OUVERTES
           </span>
         </div>
       </header>
@@ -49,14 +49,16 @@ export const AppShell = component$(() => {
         <div class="footer-grid">
           <div>
             <strong>PREUVE90</strong>
-            <p>Une nouvelle expérience publique autour du football et de l’IA.</p>
+            <p>Des analyses football publiques, datées et vérifiables.</p>
           </div>
           <nav aria-label="Informations légales">
             <Link href="/mentions-legales/">Mentions légales</Link>
             <Link href="/confidentialite/">Confidentialité</Link>
           </nav>
         </div>
-        <p class="footer-note">Le service est actuellement en préparation.</p>
+        <p class="footer-note">
+          Simulations uniquement · Aucun argent réel joué · Aucun lien avec FDJ ou Parions Sport.
+        </p>
       </footer>
 
       <nav aria-label="Navigation principale mobile" class="mobile-nav">

@@ -11,6 +11,7 @@
 
 ## Git et livraison
 
+- `AGENTS.md` contient les règles de travail de Codex.
 - Partir de `master` à jour.
 - Créer avant toute modification une branche dédiée préfixée par `codex/`.
 - Ne jamais travailler ou pousser directement sur `master`.
@@ -19,6 +20,12 @@
 - Ne jamais créer de pull request, fusionner, activer l’auto-merge, forcer un push ou modifier une autre branche distante sans instruction explicite.
 - En cas de correction après revue, ajouter un commit correctif sans réécrire l’historique distant.
 - Ne pas déclarer la mission terminée tant que le commit et le push demandés ne sont pas confirmés.
+
+## Publication planifiée
+
+- Les instructions de la tâche planifiée ChatGPT vivent dans `docs/automations/preuve90.md`.
+- Seule cette tâche peut pousser directement sur `master`, uniquement pour ajouter un nouveau fichier de contenu immuable et conforme.
+- Cette exception ne l’autorise jamais à modifier un contenu existant, le code, la configuration, la documentation ou les instructions.
 
 ## Sécurité
 

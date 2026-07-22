@@ -1,9 +1,9 @@
 export const SITE_CONFIG = {
   name: "Preuve90",
   signature: "AI FOOTBALL LAB",
-  tagline: "Une nouvelle expérience se prépare.",
+  tagline: "Des pronostics publiés avant le coup d’envoi.",
   description:
-    "Preuve90 prépare une nouvelle expérience publique de pronostics football produits par une IA.",
+    "Preuve90 publie des analyses et des combinaisons virtuelles Loto Foot, horodatées avant leur date limite.",
   publicOrigin: import.meta.env.PUBLIC_ORIGIN?.replace(/\/$/, "") ?? "",
   navigation: [
     { href: "/", label: "Accueil", icon: "home" },
