@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "publications": [
     "src/content/loto-foot/publications/lf7-91-2026-07-22.json"
   ],
   "results": [
     "src/content/loto-foot/results/lf7-91-2026-07-22.json"
-  ]
+  ],
+  "pendingPublications": []
 }
