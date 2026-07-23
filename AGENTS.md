@@ -24,8 +24,11 @@
 ## Publication planifiée
 
 - Les instructions de la tâche planifiée ChatGPT vivent dans `docs/automations/preuve90.md`.
-- Seule cette tâche peut pousser directement sur `master`, uniquement pour ajouter un nouveau fichier de contenu immuable et conforme.
+- Cette tâche peut pousser directement sur `master`, uniquement pour ajouter un nouveau fichier de contenu immuable et conforme.
 - Cette exception ne l’autorise jamais à modifier un contenu existant, le code, la configuration, la documentation ou les instructions.
+- Le workflow GitHub Actions `sync-loto-foot-inventory.yml` peut également pousser directement sur `master`, uniquement après une modification des JSON métier et uniquement pour mettre à jour `src/content/loto-foot/inventory.json`.
+- Cette exception n’autorise le workflow à modifier ni les publications, ni les résultats, ni le code, ni la documentation, ni la configuration.
+- Aucune autre GitHub Action ne bénéficie d’une exception de push direct sur `master`.
 
 ## Sécurité
 
