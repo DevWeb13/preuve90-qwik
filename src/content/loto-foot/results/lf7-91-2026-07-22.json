@@ -1,0 +1,54 @@
+{
+  "id": "lf7-91-2026-07-22-result",
+  "publicationId": "lf7-91-2026-07-22",
+  "gridNumber": 91,
+  "settledAt": "2026-07-23T12:05:26+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "1"
+    },
+    {
+      "position": 2,
+      "selection": "N"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "2"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "2"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 7,
+      "amountCents": 121000
+    },
+    {
+      "correctSelections": 6,
+      "amountCents": 9210
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ — Résultats et rapports officiels Loto Foot 7 n°91",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4908",
+      "accessedAt": "2026-07-23T12:05:26+02:00"
+    }
+  ]
+}
