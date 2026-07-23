@@ -1,0 +1,74 @@
+name: Sync Loto Foot inventory
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - src/content/loto-foot/publications/*.json
+      - src/content/loto-foot/results/*.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-loto-foot-inventory-master
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Synchronize inventory
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v6
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+
+      - name: Generate and push the latest inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            git fetch origin master
+            git checkout --detach origin/master
+
+            npm run loto-foot:inventory
+
+            if git diff --quiet -- src/content/loto-foot/inventory.json &&
+              git ls-files --error-unmatch src/content/loto-foot/inventory.json >/dev/null 2>&1; then
+              echo "Loto Foot inventory is already up to date."
+              exit 0
+            fi
+
+            git add -- src/content/loto-foot/inventory.json
+
+            if [ "$(git diff --cached --name-only)" != "src/content/loto-foot/inventory.json" ]; then
+              echo "Refusing to commit files outside the Loto Foot inventory." >&2
+              exit 1
+            fi
+
+            git commit -m "chore: sync Loto Foot inventory"
+
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+
+            echo "Concurrent master update detected (attempt ${attempt}/3)." >&2
+          done
+
+          echo "Unable to synchronize the inventory after 3 attempts." >&2
+          exit 1

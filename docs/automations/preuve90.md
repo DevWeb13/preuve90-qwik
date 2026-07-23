@@ -23,32 +23,41 @@ La gestion de la planification appartient uniquement à l’utilisateur.
    - `src/content/loto-foot/settlement.ts`
    - `src/content/loto-foot/statistics.ts`
 
-4. Lire tous les fichiers JSON existants dans :
-   - `src/content/loto-foot/publications/`
-   - `src/content/loto-foot/results/`
+4. Lire `src/content/loto-foot/inventory.json`, puis vérifier avant de l’utiliser :
+   - que `version` vaut exactement `1` ;
+   - que `publications` et `results` sont présents et sont des tableaux ;
+   - que chaque tableau est trié alphabétiquement et ne contient aucun doublon ;
+   - que chaque chemin de `publications` commence exactement par `src/content/loto-foot/publications/` ;
+   - que chaque chemin de `results` commence exactement par `src/content/loto-foot/results/` ;
+   - que chaque chemin désigne directement un fichier portant l’extension `.json`, sans sous-dossier ;
+   - qu’aucun chemin ne contient `..` et qu’aucun fichier ne se trouve en dehors des deux dossiers autorisés.
 
-   Utiliser les fonctions GitHub de consultation du dépôt. Ne pas utiliser la recherche de code comme seule méthode de découverte.
+5. Avec l’app GitHub, lire individuellement sur `master` chaque fichier référencé par l’inventaire. Ne pas utiliser la recherche de code comme source de vérité.
 
-   Si l’app GitHub ne permet temporairement pas de consulter ces fichiers, ne rien écrire, expliquer précisément le blocage et terminer normalement l’exécution sans désactiver la planification.
+   Interrompre sans écriture, expliquer précisément le blocage et terminer normalement l’exécution sans désactiver la planification si :
+   - l’inventaire est absent ou invalide ;
+   - un fichier référencé est absent ou inaccessible ;
+   - une publication ou un résultat est invalide ;
+   - une incohérence ou un doublon est détecté.
 
-5. Ne jamais modifier, supprimer ou renommer une publication ou un résultat existant. Ne jamais réutiliser un identifiant.
+6. Ne jamais modifier, supprimer ou renommer une publication ou un résultat existant. Ne jamais réutiliser un identifiant.
 
-6. Identifier les publications qui ne possèdent pas encore de résultat.
+7. Utiliser tous les fichiers chargés depuis l’inventaire pour identifier les publications qui ne possèdent pas encore de résultat, vérifier les identifiants et numéros de grille, et vérifier les résultats existants.
 
-7. Pour la plus ancienne publication sans résultat, rechercher auprès de FDJ les résultats et rapports officiels.
+8. Pour la plus ancienne publication sans résultat, rechercher auprès de FDJ les résultats et rapports officiels.
 
-8. Une publication n’est réglable que lorsque les résultats et rapports officiels nécessaires sont complets, certains et non ambigus.
+9. Une publication n’est réglable que lorsque les résultats et rapports officiels nécessaires sont complets, certains et non ambigus.
 
-9. Rechercher également la prochaine grille officielle Loto Foot 7 dont la validation est encore ouverte.
+10. Rechercher également la prochaine grille officielle Loto Foot 7 dont la validation est encore ouverte.
 
-10. Vérifier auprès de la source officielle :
+11. Vérifier auprès de la source officielle :
     - le numéro de la grille ;
     - ses six ou sept matchs dans l’ordre ;
     - sa date et heure limites de validation.
 
-11. Pour chaque match d’une nouvelle publication, rechercher des informations sportives récentes, fiables et publiques. Conserver le libellé, l’URL et la date d’accès de chaque source.
+12. Pour chaque match d’une nouvelle publication, rechercher des informations sportives récentes, fiables et publiques. Conserver le libellé, l’URL et la date d’accès de chaque source.
 
-12. Choisir au maximum une seule action par exécution, dans cet ordre :
+13. Choisir au maximum une seule action par exécution, dans cet ordre :
     - publier une nouvelle grille lorsque la prochaine exécution risquerait d’avoir lieu après sa clôture ;
     - sinon régler la plus ancienne publication éligible ;
     - sinon publier la prochaine grille ouverte éligible ;
@@ -56,26 +65,26 @@ La gestion de la planification appartient uniquement à l’utilisateur.
 
 ## Nouvelle publication
 
-13. Produire pour chaque match :
+14. Produire pour chaque match :
     - trois probabilités entières `home`, `draw` et `away` totalisant exactement 100 ;
     - un résumé ;
     - des facteurs principaux ;
     - une incertitude ;
     - au moins une source publique.
 
-14. Produire une ou plusieurs combinaisons distinctes.
+15. Produire une ou plusieurs combinaisons distinctes.
 
-15. Chaque combinaison doit :
+16. Chaque combinaison doit :
     - avoir un identifiant unique ;
     - contenir exactement autant de sélections que la grille contient de matchs ;
     - utiliser uniquement `1`, `N` ou `2` ;
     - posséder un libellé et une justification.
 
-16. Chaque combinaison représente une mise strictement virtuelle de 100 centimes.
+17. Chaque combinaison représente une mise strictement virtuelle de 100 centimes.
 
 ## Nouveau règlement
 
-17. Produire uniquement les données officielles exigées par le modèle courant :
+18. Produire uniquement les données officielles exigées par le modèle courant :
     - l’identifiant de la publication ;
     - le numéro de la grille ;
     - la date du règlement ;
@@ -85,51 +94,55 @@ La gestion de la planification appartient uniquement à l’utilisateur.
     - les rapports officiels par nombre de bons choix ;
     - au moins une source officielle.
 
-18. Lorsqu’un score est fourni, vérifier sa cohérence :
+19. Lorsqu’un score est fourni, vérifier sa cohérence :
     - victoire à domicile : `1` ;
     - égalité : `N` ;
     - victoire à l’extérieur : `2`.
 
-19. Ne jamais recopier dans le JSON les calculs dérivables par le code :
+20. Ne jamais recopier dans le JSON les calculs dérivables par le code :
     - bons choix par combinaison ;
     - gains par combinaison ;
     - retour total ;
     - résultat net ;
     - statistiques cumulées.
 
-20. Ne jamais inventer un rapport ou un seuil gagnant absent de la source officielle.
+21. Ne jamais inventer un rapport ou un seuil gagnant absent de la source officielle.
 
 ## Validation et écriture
 
-21. Préparer au maximum un seul nouveau fichier JSON par exécution :
+22. Préparer au maximum un seul nouveau fichier JSON par exécution :
     - publication dans `src/content/loto-foot/publications/` ;
     - résultat dans `src/content/loto-foot/results/`.
 
-22. Utiliser un chemin et un identifiant stables et uniques.
+23. Conserver le modèle actuel de chemin déterministe : une publication et son résultat utilisent le même nom de fichier, dans leurs dossiers respectifs. Utiliser un identifiant stable et unique.
 
-23. Pour une publication, `publishedAt` doit être strictement antérieur à `validationDeadline`.
+24. Pour une publication, `publishedAt` doit être strictement antérieur à `validationDeadline`.
 
-24. Pour un résultat, `settledAt` ne doit pas être antérieur à `validationDeadline`.
+25. Pour un résultat, `settledAt` ne doit pas être antérieur à `validationDeadline`.
 
-25. Contrôler le nouveau fichier avec les modèles et validations actuels du projet.
+26. Contrôler le nouveau fichier avec les modèles et validations actuels du projet.
 
-26. Si une donnée est incertaine, incomplète, ambiguë ou invalide, ne rien écrire et terminer normalement l’exécution.
+27. Si une donnée est incertaine, incomplète, ambiguë ou invalide, ne rien écrire et terminer normalement l’exécution.
 
-27. Immédiatement avant toute écriture :
+28. Immédiatement avant toute écriture :
     - relire le `master` courant ;
-    - relire les publications et résultats existants ;
-    - vérifier que le chemin prévu est libre ;
-    - vérifier que l’identifiant n’existe pas ;
+    - relire `src/content/loto-foot/inventory.json` et refaire toutes les vérifications de l’étape 4 ;
+    - relire individuellement tous les fichiers référencés et refaire leurs validations ;
+    - revérifier tous les doublons et toutes les incohérences ;
+    - tester directement avec l’app GitHub que le chemin déterministe du futur fichier n’existe pas ;
+    - vérifier dans tous les fichiers relus que l’identifiant prévu n’existe pas ;
     - vérifier que le numéro de grille n’est pas déjà publié ;
-    - vérifier qu’aucun résultat n’existe déjà pour la publication.
+    - vérifier qu’aucun résultat n’existe déjà pour la publication concernée.
 
-28. En cas de doublon ou de changement incompatible, ne rien écrire et terminer normalement l’exécution.
+29. En cas de doublon, d’incohérence, de désynchronisation connue de l’inventaire ou de changement incompatible, ne rien écrire, expliquer clairement la situation et terminer normalement l’exécution. Ne pas attendre la synchronisation de l’inventaire pendant l’exécution et ne pas désactiver les prochaines exécutions.
 
-29. Ajouter directement sur `master` uniquement le nouveau fichier JSON :
+30. Ajouter directement sur `master` uniquement le nouveau fichier JSON :
     - message `content: add ...` pour une publication ;
     - message `content: settle ...` pour un résultat.
 
-30. Ne modifier aucun autre fichier, notamment :
+31. Ne jamais modifier soi-même `src/content/loto-foot/inventory.json`. Après le commit métier, cet inventaire est synchronisé séparément par GitHub Actions.
+
+32. Ne modifier aucun autre fichier, notamment :
     - une publication ou un résultat existant ;
     - le code ;
     - la configuration ;
@@ -137,10 +150,10 @@ La gestion de la planification appartient uniquement à l’utilisateur.
     - ce fichier d’instructions ;
     - la planification ChatGPT.
 
-31. Après le commit :
+33. Après le commit :
     - relire le nouveau fichier depuis `master` ;
     - vérifier qu’il correspond exactement au contenu validé ;
     - fournir son chemin exact ;
     - fournir le hash complet du commit.
 
-32. Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser la planification active pour l’exécution suivante.
+34. Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser la planification active pour l’exécution suivante.
