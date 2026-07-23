@@ -14,7 +14,7 @@ function createValidPublication(
     officialUrl: "https://example.com/grilles/1",
     validationDeadline: "2026-07-23T18:00:00Z",
     publishedAt,
-    methodVersion: "1.0.0",
+    methodVersion: "loto-foot-v1",
     matches: Array.from({ length: matchCount }, (_, index) => ({
       position: index + 1,
       homeTeam: `Équipe domicile ${index + 1}`,
@@ -30,7 +30,7 @@ function createValidPublication(
           {
             label: "Source publique",
             url: "https://example.com/source",
-            accessedAt: "2026-07-22T07:00:00Z",
+            accessedAt: publishedAt,
           },
         ],
       },
@@ -99,6 +99,53 @@ describe("validation d’une publication Loto Foot 7", () => {
     expect(() => validateLotoFootPublication(publication)).toThrow(/strictement antérieure/);
   });
 
+  it("refuse une source consultée après la publication", () => {
+    const publication = createValidPublication();
+    publication.matches[0].analysis.sources[0].accessedAt = "2026-07-22T08:00:01Z";
+
+    expect(() => validateLotoFootPublication(publication)).toThrow(
+      /accessedAt.*postérieure à publication\.publishedAt/,
+    );
+  });
+
+  it("accepte une source consultée exactement à l’heure de publication", () => {
+    const publication = createValidPublication();
+    publication.matches[0].analysis.sources[0].accessedAt = publication.publishedAt;
+
+    expect(validateLotoFootPublication(publication).id).toBe(publication.id);
+  });
+
+  it("conserve la compatibilité avec la valeur methodVersion historique v1", () => {
+    const publication = createValidPublication();
+    publication.methodVersion = "v1";
+
+    expect(validateLotoFootPublication(publication).methodVersion).toBe("v1");
+  });
+
+  it.each(["v2", "foo"])("refuse la valeur methodVersion inconnue %s", (methodVersion) => {
+    const publication = createValidPublication();
+    publication.methodVersion = methodVersion;
+
+    expect(() => validateLotoFootPublication(publication)).toThrow(
+      /methodVersion.*loto-foot-v1 ou v1/,
+    );
+  });
+
+  it.each([1, 3, 10])("accepte une publication avec %i combinaison(s)", (ticketCount) => {
+    const publication = createValidPublication();
+    publication.tickets = Array.from({ length: ticketCount }, (_, ticketIndex) => ({
+      id: `ticket-${ticketIndex + 1}`,
+      label: `Ticket ${ticketIndex + 1}`,
+      selections: Array.from({ length: 7 }, (_, selectionIndex) => {
+        const divisor = 3 ** selectionIndex;
+        return ["1", "N", "2"][Math.floor(ticketIndex / divisor) % 3];
+      }),
+      rationale: `Scénario distinct ${ticketIndex + 1}.`,
+    }));
+
+    expect(validateLotoFootPublication(publication).tickets).toHaveLength(ticketCount);
+  });
+
   it.each([6, 8])(
     "refuse une combinaison contenant %i choix pour sept matchs",
     (selectionCount) => {
@@ -159,7 +206,9 @@ describe("validation d’une publication Loto Foot 7", () => {
 describe("mise virtuelle", () => {
   it("calcule 100 centimes par combinaison sans plafond", () => {
     expect(calculateVirtualStakeCents(0)).toBe(0);
+    expect(calculateVirtualStakeCents(1)).toBe(100);
     expect(calculateVirtualStakeCents(3)).toBe(300);
+    expect(calculateVirtualStakeCents(10)).toBe(1_000);
     expect(calculateVirtualStakeCents(10_000)).toBe(1_000_000);
   });
 });

@@ -2,6 +2,8 @@ import { LOTO_FOOT_MATCH_COUNTS, LOTO_FOOT_SELECTIONS, type LotoFootPublication 
 
 type UnknownRecord = Record<string, unknown>;
 
+const LOTO_FOOT_METHOD_VERSIONS = ["loto-foot-v1", "v1"] as const;
+
 function fail(path: string, message: string): never {
   throw new Error(`${path} : ${message}`);
 }
@@ -63,14 +65,17 @@ function validateProbability(value: unknown, path: string): void {
   }
 }
 
-function validateSource(value: unknown, path: string): void {
+function validateSource(value: unknown, path: string, publishedAt: number): void {
   const source = requireRecord(value, path);
   requireNonEmptyString(source.label, `${path}.label`);
   requireHttpUrl(source.url, `${path}.url`);
-  requireTimestamp(source.accessedAt, `${path}.accessedAt`);
+  const accessedAt = requireTimestamp(source.accessedAt, `${path}.accessedAt`);
+  if (accessedAt > publishedAt) {
+    fail(`${path}.accessedAt`, "ne peut pas être postérieure à publication.publishedAt");
+  }
 }
 
-function validateMatch(value: unknown, index: number): void {
+function validateMatch(value: unknown, index: number, publishedAt: number): void {
   const path = `matches[${index}]`;
   const match = requireRecord(value, path);
 
@@ -107,7 +112,7 @@ function validateMatch(value: unknown, index: number): void {
   const sources = requireArray(analysis.sources, `${path}.analysis.sources`);
   if (sources.length === 0) fail(`${path}.analysis.sources`, "doit contenir au moins une source");
   sources.forEach((source, sourceIndex) =>
-    validateSource(source, `${path}.analysis.sources[${sourceIndex}]`),
+    validateSource(source, `${path}.analysis.sources[${sourceIndex}]`, publishedAt),
   );
 }
 
@@ -119,7 +124,13 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
     fail("publication.gridNumber", "doit être un entier positif");
   }
   requireHttpUrl(publication.officialUrl, "publication.officialUrl");
-  requireNonEmptyString(publication.methodVersion, "publication.methodVersion");
+  const methodVersion = requireNonEmptyString(
+    publication.methodVersion,
+    "publication.methodVersion",
+  );
+  if (!(LOTO_FOOT_METHOD_VERSIONS as readonly string[]).includes(methodVersion)) {
+    fail("publication.methodVersion", "doit valoir loto-foot-v1 ou v1");
+  }
 
   const publishedAt = requireTimestamp(publication.publishedAt, "publication.publishedAt");
   const validationDeadline = requireTimestamp(
@@ -174,7 +185,7 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
       );
     }
   });
-  matches.forEach(validateMatch);
+  matches.forEach((match, index) => validateMatch(match, index, publishedAt));
 
   const tickets = requireArray(publication.tickets, "publication.tickets");
   if (tickets.length === 0) fail("publication.tickets", "doit contenir au moins une combinaison");
