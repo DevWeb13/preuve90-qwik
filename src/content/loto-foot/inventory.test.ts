@@ -35,40 +35,45 @@ afterEach(async () => {
 });
 
 describe("générateur de l’inventaire Loto Foot", () => {
-  it("détecte, trie et déduplique les JSON directs des publications et résultats", async () => {
+  it("détecte les JSON directs et ne garde en attente que les publications sans résultat", async () => {
     const rootDirectory = await createRepositoryDirectories();
     await Promise.all([
       createFile(rootDirectory, "src/content/loto-foot/publications/z-publication.json"),
       createFile(rootDirectory, "src/content/loto-foot/publications/a-publication.json"),
       createFile(rootDirectory, "src/content/loto-foot/publications/notes.txt"),
       createFile(rootDirectory, "src/content/loto-foot/publications/nested/ignored.json"),
+      createFile(rootDirectory, "src/content/loto-foot/results/a-publication.json"),
       createFile(rootDirectory, "src/content/loto-foot/results/z-result.json"),
-      createFile(rootDirectory, "src/content/loto-foot/results/a-result.json"),
       createFile(rootDirectory, "src/content/loto-foot/results/result.JSON"),
     ]);
 
     const inventory = await createLotoFootInventory(rootDirectory);
 
-    expect(inventory.publications).toEqual([
-      "src/content/loto-foot/publications/a-publication.json",
-      "src/content/loto-foot/publications/z-publication.json",
-    ]);
-    expect(inventory.results).toEqual([
-      "src/content/loto-foot/results/a-result.json",
-      "src/content/loto-foot/results/z-result.json",
-    ]);
-    expect(new Set(inventory.publications).size).toBe(inventory.publications.length);
-    expect(new Set(inventory.results).size).toBe(inventory.results.length);
+    expect(inventory).toEqual({
+      version: 2,
+      publications: [
+        "src/content/loto-foot/publications/a-publication.json",
+        "src/content/loto-foot/publications/z-publication.json",
+      ],
+      results: [
+        "src/content/loto-foot/results/a-publication.json",
+        "src/content/loto-foot/results/z-result.json",
+      ],
+      pendingPublications: ["src/content/loto-foot/publications/z-publication.json"],
+    });
     expect(
-      [...inventory.publications, ...inventory.results].every((value) => !value.includes("\\")),
+      [...inventory.publications, ...inventory.results, ...inventory.pendingPublications].every(
+        (value) => !value.includes("\\"),
+      ),
     ).toBe(true);
   });
 
   it("sérialise un contenu stable avec un saut de ligne final", () => {
     const inventory = {
-      version: 1,
+      version: 2,
       publications: ["src/content/loto-foot/publications/a.json"],
       results: ["src/content/loto-foot/results/a.json"],
+      pendingPublications: [],
     };
 
     const first = serializeLotoFootInventory(inventory);
