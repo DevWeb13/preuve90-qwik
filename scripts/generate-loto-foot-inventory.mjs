@@ -39,11 +39,16 @@ export async function createLotoFootInventory(rootDirectory) {
     listJsonFiles(rootDirectory, INVENTORY_DIRECTORIES.publications),
     listJsonFiles(rootDirectory, INVENTORY_DIRECTORIES.results),
   ]);
+  const settledFileNames = new Set(results.map((resultPath) => path.posix.basename(resultPath)));
+  const pendingPublications = publications.filter(
+    (publicationPath) => !settledFileNames.has(path.posix.basename(publicationPath)),
+  );
 
   return {
-    version: 1,
+    version: 2,
     publications,
     results,
+    pendingPublications,
   };
 }
 
