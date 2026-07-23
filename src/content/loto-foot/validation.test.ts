@@ -1,16 +1,26 @@
 import { describe, expect, it } from "vitest";
-import { calculateVirtualStakeCents } from "./model";
-import { getLotoFootPublicationById, loadLotoFootPublications } from "./publications";
+import {
+  LOTO_FOOT_MATCH_COUNTS_BY_FORMULA,
+  calculateVirtualStakeCents,
+  type LotoFootFormula,
+} from "./model";
+import {
+  getLotoFootPublicationById,
+  loadLotoFootPublications,
+  lotoFootPublications,
+} from "./publications";
 import { validateLotoFootPublication } from "./validation";
 
 function createValidPublication(
-  id = "lf7-2026-001",
+  formula: LotoFootFormula = 7,
+  matchCount = LOTO_FOOT_MATCH_COUNTS_BY_FORMULA[formula].at(-1) as number,
+  gridNumber = 1,
   publishedAt = "2026-07-22T08:00:00Z",
-  matchCount = 7,
 ) {
   return {
-    id,
-    gridNumber: 1,
+    id: `lf${formula}-${gridNumber}-2026-07-23`,
+    formula,
+    gridNumber,
     officialUrl: "https://example.com/grilles/1",
     validationDeadline: "2026-07-23T18:00:00Z",
     publishedAt,
@@ -46,21 +56,56 @@ function createValidPublication(
   };
 }
 
-describe("validation d’une publication Loto Foot 7", () => {
-  it("accepte une publication valide à sept matchs", () => {
-    expect(validateLotoFootPublication(createValidPublication()).id).toBe("lf7-2026-001");
+describe("validation d’une publication Loto Foot", () => {
+  it.each([
+    [7, 6],
+    [7, 7],
+    [8, 7],
+    [8, 8],
+    [12, 9],
+    [12, 10],
+    [12, 11],
+    [12, 12],
+    [15, 12],
+    [15, 13],
+    [15, 14],
+    [15, 15],
+  ] as const)("accepte la formule LF%i avec %i matchs", (formula, matchCount) => {
+    expect(validateLotoFootPublication(createValidPublication(formula, matchCount)).formula).toBe(
+      formula,
+    );
   });
 
-  it("accepte une publication valide à six matchs", () => {
-    expect(
-      validateLotoFootPublication(createValidPublication("lf6-2026-001", undefined, 6)).id,
-    ).toBe("lf6-2026-001");
+  it.each([
+    [7, 8],
+    [8, 6],
+    [12, 8],
+    [12, 13],
+    [15, 11],
+    [15, 16],
+  ] as const)("refuse la formule LF%i avec %i matchs", (formula, matchCount) => {
+    expect(() => validateLotoFootPublication(createValidPublication(formula, matchCount))).toThrow(
+      new RegExp(`formule ${formula}`),
+    );
   });
 
-  it.each([5, 8])("refuse une publication contenant %i matchs", (matchCount) => {
-    expect(() =>
-      validateLotoFootPublication(createValidPublication(undefined, undefined, matchCount)),
-    ).toThrow(/exactement 6 ou 7 matchs/);
+  it("refuse une formule inconnue ou absente", () => {
+    const unknownFormula = { ...createValidPublication(), formula: 9 };
+    const missingFormula: Record<string, unknown> = { ...createValidPublication() };
+    Reflect.deleteProperty(missingFormula, "formula");
+
+    expect(() => validateLotoFootPublication(unknownFormula)).toThrow(/formula.*7, 8, 12 ou 15/);
+    expect(() => validateLotoFootPublication(missingFormula)).toThrow(/formula.*7, 8, 12 ou 15/);
+  });
+
+  it("refuse un identifiant dont la formule ou le numéro est incohérent", () => {
+    const wrongFormula = createValidPublication(12, 12);
+    wrongFormula.id = "lf15-1-2026-07-23";
+    const wrongGridNumber = createValidPublication();
+    wrongGridNumber.id = "lf7-2-2026-07-23";
+
+    expect(() => validateLotoFootPublication(wrongFormula)).toThrow(/préfixe/);
+    expect(() => validateLotoFootPublication(wrongGridNumber)).toThrow(/même numéro/);
   });
 
   it("refuse une position absente", () => {
@@ -157,7 +202,7 @@ describe("validation d’une publication Loto Foot 7", () => {
   );
 
   it("refuse sept choix pour une publication à six matchs", () => {
-    const publication = createValidPublication(undefined, undefined, 6);
+    const publication = createValidPublication(7, 6);
     publication.tickets[0].selections.push("1");
 
     expect(() => validateLotoFootPublication(publication)).toThrow(/exactement 6 choix/);
@@ -219,15 +264,84 @@ describe("chargement des publications", () => {
   });
 
   it("trie les publications de la plus récente à la plus ancienne et les retrouve par id", () => {
-    const older = createValidPublication("ancienne", "2026-07-20T08:00:00Z");
-    const newer = createValidPublication("recente", "2026-07-22T08:00:00Z");
+    const older = createValidPublication(7, 7, 1, "2026-07-20T08:00:00Z");
+    const newer = createValidPublication(8, 8, 2, "2026-07-22T08:00:00Z");
     const publications = loadLotoFootPublications({
-      "./publications/ancienne.json": older,
-      "./publications/recente.json": newer,
+      [`./publications/${older.id}.json`]: older,
+      [`./publications/${newer.id}.json`]: newer,
     });
 
-    expect(publications.map(({ id }) => id)).toEqual(["recente", "ancienne"]);
-    expect(getLotoFootPublicationById("ancienne", publications)).toMatchObject({ id: "ancienne" });
+    expect(publications.map(({ id }) => id)).toEqual([newer.id, older.id]);
+    expect(getLotoFootPublicationById(older.id, publications)).toMatchObject({ id: older.id });
     expect(getLotoFootPublicationById("inconnue", publications)).toBeUndefined();
+  });
+
+  it.each([
+    ["lf7-91-2026-07-22", 91],
+    ["lf7-92-2026-07-24", 92],
+  ])("normalise uniquement au chargement la publication historique %s", (id, gridNumber) => {
+    const historicalPublication: Record<string, unknown> = {
+      ...createValidPublication(7, 7, gridNumber),
+      id,
+    };
+    Reflect.deleteProperty(historicalPublication, "formula");
+    const publications = loadLotoFootPublications({
+      [`./publications/${id}.json`]: historicalPublication,
+    });
+
+    expect(publications[0].formula).toBe(7);
+    expect(() => validateLotoFootPublication(historicalPublication)).toThrow(/formula/);
+  });
+
+  it("refuse une future publication lf7 sans formule", () => {
+    const futurePublication: Record<string, unknown> = {
+      ...createValidPublication(7, 7, 93),
+      id: "lf7-93-2026-07-26",
+    };
+    Reflect.deleteProperty(futurePublication, "formula");
+
+    expect(() =>
+      loadLotoFootPublications({
+        "./publications/lf7-93-2026-07-26.json": futurePublication,
+      }),
+    ).toThrow(/publication\.formula/);
+    expect(() => validateLotoFootPublication(futurePublication)).toThrow(/publication\.formula/);
+  });
+
+  it("refuse un nom de fichier incohérent", () => {
+    expect(() =>
+      loadLotoFootPublications({
+        "./publications/lf7-2-2026-07-23.json": createValidPublication(),
+      }),
+    ).toThrow(/nom du fichier/);
+  });
+
+  it("refuse un doublon formule + numéro mais accepte le même numéro sur deux formules", () => {
+    const lf7 = createValidPublication(7, 7, 3);
+    const duplicateLf7 = {
+      ...createValidPublication(7, 6, 3),
+      id: "lf7-3-2026-07-24",
+    };
+    const lf15 = createValidPublication(15, 15, 3);
+
+    expect(() =>
+      loadLotoFootPublications({
+        [`./publications/${lf7.id}.json`]: lf7,
+        [`./publications/${duplicateLf7.id}.json`]: duplicateLf7,
+      }),
+    ).toThrow(/Loto Foot 7 n°3 dupliquée/);
+    expect(
+      loadLotoFootPublications({
+        [`./publications/${lf7.id}.json`]: lf7,
+        [`./publications/${lf15.id}.json`]: lf15,
+      }),
+    ).toHaveLength(2);
+  });
+
+  it("conserve les publications historiques 91 et 92 sans modifier leurs JSON", () => {
+    expect(lotoFootPublications.map(({ id, formula }) => ({ id, formula }))).toEqual([
+      { id: "lf7-92-2026-07-24", formula: 7 },
+      { id: "lf7-91-2026-07-22", formula: 7 },
+    ]);
   });
 });

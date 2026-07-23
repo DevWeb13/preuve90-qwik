@@ -1,16 +1,18 @@
 import { describe, expect, it } from "vitest";
+import type { LotoFootFormula } from "./model";
 import { validateLotoFootPublication } from "./validation";
 import { validateLotoFootResult } from "./result-validation";
-import { getLotoFootResultByPublicationId, loadLotoFootResults } from "./results";
+import { getLotoFootResultByPublicationId, loadLotoFootResults, lotoFootResults } from "./results";
 
-function createPublication(matchCount = 7) {
+function createPublication(matchCount = 7, formula: LotoFootFormula = 7, gridNumber = 42) {
   return validateLotoFootPublication({
-    id: `publication-${matchCount}`,
-    gridNumber: 42,
+    id: `lf${formula}-${gridNumber}-2026-07-23`,
+    formula,
+    gridNumber,
     officialUrl: "https://example.com/grid/42",
     validationDeadline: "2026-07-23T18:00:00Z",
     publishedAt: "2026-07-22T08:00:00Z",
-    methodVersion: "test",
+    methodVersion: "loto-foot-v1",
     matches: Array.from({ length: matchCount }, (_, index) => ({
       position: index + 1,
       homeTeam: `Domicile ${index + 1}`,
@@ -40,11 +42,12 @@ function createPublication(matchCount = 7) {
   });
 }
 
-function createResult(matchCount = 7) {
+function createResult(matchCount = 7, formula: LotoFootFormula = 7, gridNumber = 42) {
+  const publicationId = `lf${formula}-${gridNumber}-2026-07-23`;
   return {
-    id: `result-${matchCount}`,
-    publicationId: `publication-${matchCount}`,
-    gridNumber: 42,
+    id: `${publicationId}-result`,
+    publicationId,
+    gridNumber,
     settledAt: "2026-07-24T18:00:00Z",
     officialUrl: "https://example.com/results/42",
     matches: Array.from({ length: matchCount }, (_, index) => {
@@ -69,11 +72,17 @@ function createResult(matchCount = 7) {
 }
 
 describe("validation d’un résultat Loto Foot", () => {
-  it.each([6, 7])("accepte un résultat complet à %i matchs", (matchCount) => {
-    const publication = createPublication(matchCount);
-    expect(validateLotoFootResult(createResult(matchCount), [publication]).publicationId).toBe(
-      publication.id,
-    );
+  it.each([
+    [7, 6],
+    [7, 7],
+    [8, 8],
+    [12, 12],
+    [15, 15],
+  ] as const)("accepte un résultat LF%i complet à %i matchs", (formula, matchCount) => {
+    const publication = createPublication(matchCount, formula);
+    expect(
+      validateLotoFootResult(createResult(matchCount, formula), [publication]).publicationId,
+    ).toBe(publication.id);
   });
 
   it("refuse un résultat orphelin", () => {
@@ -207,16 +216,21 @@ describe("chargement Edge compatible des résultats", () => {
     const publication = createPublication();
     const result = createResult();
     expect(() =>
-      loadLotoFootResults({ "./results/a.json": result, "./results/b.json": result }, [
-        publication,
-      ]),
+      loadLotoFootResults(
+        {
+          [`./results/${publication.id}.json`]: result,
+          [`./other/${publication.id}.json`]: result,
+        },
+        [publication],
+      ),
     ).toThrow(/Identifiant.*dupliqué/);
 
+    const alternateResult = { ...result, id: "autre-resultat" };
     expect(() =>
       loadLotoFootResults(
         {
-          "./results/a.json": result,
-          "./results/b.json": { ...result, id: "autre-resultat" },
+          [`./results/${publication.id}.json`]: result,
+          [`./other/${publication.id}.json`]: alternateResult,
         },
         [publication],
       ),
@@ -225,7 +239,27 @@ describe("chargement Edge compatible des résultats", () => {
 
   it("retrouve un résultat par publication", () => {
     const publication = createPublication();
-    const results = loadLotoFootResults({ "./results/result.json": createResult() }, [publication]);
-    expect(getLotoFootResultByPublicationId(publication.id, results)?.id).toBe("result-7");
+    const results = loadLotoFootResults({ [`./results/${publication.id}.json`]: createResult() }, [
+      publication,
+    ]);
+    expect(getLotoFootResultByPublicationId(publication.id, results)?.id).toBe(
+      `${publication.id}-result`,
+    );
+  });
+
+  it("refuse un résultat dont le nom de fichier ne correspond pas à la publication", () => {
+    const publication = createPublication();
+
+    expect(() =>
+      loadLotoFootResults({ "./results/lf7-43-2026-07-23.json": createResult() }, [publication]),
+    ).toThrow(/nom du fichier/);
+  });
+
+  it("conserve le résultat historique de la publication 91", () => {
+    expect(lotoFootResults).toHaveLength(1);
+    expect(lotoFootResults[0]).toMatchObject({
+      publicationId: "lf7-91-2026-07-22",
+      gridNumber: 91,
+    });
   });
 });

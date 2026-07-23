@@ -38,12 +38,14 @@ describe("générateur de l’inventaire Loto Foot", () => {
   it("détecte les JSON directs et ne garde en attente que les publications sans résultat", async () => {
     const rootDirectory = await createRepositoryDirectories();
     await Promise.all([
-      createFile(rootDirectory, "src/content/loto-foot/publications/z-publication.json"),
-      createFile(rootDirectory, "src/content/loto-foot/publications/a-publication.json"),
+      createFile(rootDirectory, "src/content/loto-foot/publications/lf7-1-2026-07-23.json"),
+      createFile(rootDirectory, "src/content/loto-foot/publications/lf8-2-2026-07-24.json"),
+      createFile(rootDirectory, "src/content/loto-foot/publications/lf12-3-2026-07-25.json"),
+      createFile(rootDirectory, "src/content/loto-foot/publications/lf15-4-2026-07-26.json"),
       createFile(rootDirectory, "src/content/loto-foot/publications/notes.txt"),
       createFile(rootDirectory, "src/content/loto-foot/publications/nested/ignored.json"),
-      createFile(rootDirectory, "src/content/loto-foot/results/a-publication.json"),
-      createFile(rootDirectory, "src/content/loto-foot/results/z-result.json"),
+      createFile(rootDirectory, "src/content/loto-foot/results/lf7-1-2026-07-23.json"),
+      createFile(rootDirectory, "src/content/loto-foot/results/lf12-3-2026-07-25.json"),
       createFile(rootDirectory, "src/content/loto-foot/results/result.JSON"),
     ]);
 
@@ -52,14 +54,19 @@ describe("générateur de l’inventaire Loto Foot", () => {
     expect(inventory).toEqual({
       version: 2,
       publications: [
-        "src/content/loto-foot/publications/a-publication.json",
-        "src/content/loto-foot/publications/z-publication.json",
+        "src/content/loto-foot/publications/lf12-3-2026-07-25.json",
+        "src/content/loto-foot/publications/lf15-4-2026-07-26.json",
+        "src/content/loto-foot/publications/lf7-1-2026-07-23.json",
+        "src/content/loto-foot/publications/lf8-2-2026-07-24.json",
       ],
       results: [
-        "src/content/loto-foot/results/a-publication.json",
-        "src/content/loto-foot/results/z-result.json",
+        "src/content/loto-foot/results/lf12-3-2026-07-25.json",
+        "src/content/loto-foot/results/lf7-1-2026-07-23.json",
       ],
-      pendingPublications: ["src/content/loto-foot/publications/z-publication.json"],
+      pendingPublications: [
+        "src/content/loto-foot/publications/lf15-4-2026-07-26.json",
+        "src/content/loto-foot/publications/lf8-2-2026-07-24.json",
+      ],
     });
     expect(
       [...inventory.publications, ...inventory.results, ...inventory.pendingPublications].every(
@@ -71,8 +78,8 @@ describe("générateur de l’inventaire Loto Foot", () => {
   it("sérialise un contenu stable avec un saut de ligne final", () => {
     const inventory = {
       version: 2,
-      publications: ["src/content/loto-foot/publications/a.json"],
-      results: ["src/content/loto-foot/results/a.json"],
+      publications: ["src/content/loto-foot/publications/lf7-1-2026-07-23.json"],
+      results: ["src/content/loto-foot/results/lf7-1-2026-07-23.json"],
       pendingPublications: [],
     };
 
@@ -85,7 +92,7 @@ describe("générateur de l’inventaire Loto Foot", () => {
 
   it("ne réécrit pas un inventaire déjà identique", async () => {
     const rootDirectory = await createRepositoryDirectories();
-    await createFile(rootDirectory, "src/content/loto-foot/publications/a.json");
+    await createFile(rootDirectory, "src/content/loto-foot/publications/lf8-2-2026-07-24.json");
     const firstRun = await syncLotoFootInventory({ rootDirectory });
     const inventoryPath = path.join(rootDirectory, "src/content/loto-foot/inventory.json");
     const firstContent = await readFile(inventoryPath, "utf8");
@@ -105,6 +112,15 @@ describe("générateur de l’inventaire Loto Foot", () => {
 
     await expect(createLotoFootInventory(rootDirectory)).rejects.toThrow(
       /Impossible de lire le dossier attendu « src\/content\/loto-foot\/results »/,
+    );
+  });
+
+  it("refuse un préfixe de formule inconnu", async () => {
+    const rootDirectory = await createRepositoryDirectories();
+    await createFile(rootDirectory, "src/content/loto-foot/publications/lf9-1-2026-07-23.json");
+
+    await expect(createLotoFootInventory(rootDirectory)).rejects.toThrow(
+      /Nom\(s\) de fichier Loto Foot invalide/,
     );
   });
 

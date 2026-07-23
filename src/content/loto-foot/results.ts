@@ -13,7 +13,14 @@ export function loadLotoFootResults(
 ): readonly LotoFootResult[] {
   const results = Object.entries(modules).map(([path, value]) => {
     try {
-      return validateLotoFootResult(value, publications);
+      const result = validateLotoFootResult(value, publications);
+      const fileName = path.split("/").at(-1);
+
+      if (fileName !== `${result.publicationId}.json`) {
+        throw new Error("le nom du fichier doit correspondre exactement à la publication associée");
+      }
+
+      return result;
     } catch (error) {
       const reason = error instanceof Error ? error.message : "erreur de validation inconnue";
       throw new Error(`Résultat Loto Foot invalide (${path}) : ${reason}`);

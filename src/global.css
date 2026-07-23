@@ -902,7 +902,7 @@ code,
   bottom: 0;
   left: 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   padding-bottom: env(safe-area-inset-bottom);
   border-top: 1px solid var(--color-border-strong);
   background: rgba(5, 7, 17, 0.96);
@@ -916,9 +916,9 @@ code,
   place-items: center;
   align-content: center;
   gap: 0.25rem;
-  padding: var(--space-2);
+  padding: var(--space-2) var(--space-1);
   color: var(--color-text-subtle);
-  font-size: clamp(0.61rem, 2.6vw, 0.72rem);
+  font-size: clamp(0.58rem, 2.6vw, 0.72rem);
   text-align: center;
 }
 
@@ -1018,7 +1018,7 @@ code,
   }
 }
 
-@media (min-width: 68rem) {
+@media (min-width: 82rem) {
   .site-status {
     display: inline-flex;
   }
@@ -1295,6 +1295,47 @@ code,
 .performance-deck {
   display: grid;
   gap: var(--space-4);
+}
+
+.formula-navigation {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.formula-link {
+  display: grid;
+  min-width: 0;
+  min-height: 7.5rem;
+  align-content: center;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  background: linear-gradient(145deg, rgba(19, 29, 51, 0.9), rgba(8, 12, 24, 0.94));
+  clip-path: var(--hud-cut);
+}
+
+.formula-link:hover,
+.formula-link.active {
+  border-color: var(--color-cyan);
+  background: linear-gradient(145deg, rgba(46, 232, 255, 0.1), rgba(8, 12, 24, 0.94));
+}
+
+.formula-link > span,
+.formula-link > small {
+  color: var(--color-text-subtle);
+  font: 700 0.65rem/1.4 var(--font-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.formula-link > strong {
+  color: var(--color-text);
+  font-size: clamp(1rem, 4vw, 1.35rem);
+}
+
+.formula-link.active > span {
+  color: var(--color-cyan);
 }
 
 .yield-readout,
@@ -2238,6 +2279,10 @@ code,
 
   .performance-deck {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .formula-navigation {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .yield-readout {

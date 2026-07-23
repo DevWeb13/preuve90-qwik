@@ -1,8 +1,15 @@
-import { LOTO_FOOT_MATCH_COUNTS, LOTO_FOOT_SELECTIONS, type LotoFootPublication } from "./model";
+import {
+  LOTO_FOOT_FORMULAS,
+  LOTO_FOOT_MATCH_COUNTS_BY_FORMULA,
+  LOTO_FOOT_SELECTIONS,
+  type LotoFootFormula,
+  type LotoFootPublication,
+} from "./model";
 
 type UnknownRecord = Record<string, unknown>;
 
 const LOTO_FOOT_METHOD_VERSIONS = ["loto-foot-v1", "v1"] as const;
+const LOTO_FOOT_PUBLICATION_ID_PATTERN = /^lf(7|8|12|15)-([1-9]\d*)-(\d{4}-\d{2}-\d{2})$/;
 
 function fail(path: string, message: string): never {
   throw new Error(`${path} : ${message}`);
@@ -119,9 +126,26 @@ function validateMatch(value: unknown, index: number, publishedAt: number): void
 export function validateLotoFootPublication(value: unknown): LotoFootPublication {
   const publication = requireRecord(value, "publication");
 
-  requireNonEmptyString(publication.id, "publication.id");
+  const id = requireNonEmptyString(publication.id, "publication.id");
+  if (
+    !Number.isInteger(publication.formula) ||
+    !(LOTO_FOOT_FORMULAS as readonly number[]).includes(publication.formula as number)
+  ) {
+    fail("publication.formula", "doit valoir 7, 8, 12 ou 15");
+  }
+  const formula = publication.formula as LotoFootFormula;
   if (!Number.isInteger(publication.gridNumber) || (publication.gridNumber as number) <= 0) {
     fail("publication.gridNumber", "doit être un entier positif");
+  }
+  const idParts = LOTO_FOOT_PUBLICATION_ID_PATTERN.exec(id);
+  if (!idParts) {
+    fail("publication.id", "doit respecter le format lf<formule>-<numero>-<date>");
+  }
+  if (Number(idParts[1]) !== formula) {
+    fail("publication.id", "doit utiliser le préfixe correspondant à publication.formula");
+  }
+  if (Number(idParts[2]) !== publication.gridNumber) {
+    fail("publication.id", "doit contenir le même numéro que publication.gridNumber");
   }
   requireHttpUrl(publication.officialUrl, "publication.officialUrl");
   const methodVersion = requireNonEmptyString(
@@ -142,8 +166,12 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
   }
 
   const matches = requireArray(publication.matches, "publication.matches");
-  if (!(LOTO_FOOT_MATCH_COUNTS as readonly number[]).includes(matches.length)) {
-    fail("publication.matches", "doit contenir exactement 6 ou 7 matchs");
+  const allowedMatchCounts = LOTO_FOOT_MATCH_COUNTS_BY_FORMULA[formula] as readonly number[];
+  if (!allowedMatchCounts.includes(matches.length)) {
+    fail(
+      "publication.matches",
+      `doit contenir ${allowedMatchCounts.join(", ")} matchs pour la formule ${formula}`,
+    );
   }
 
   const positions = matches.map((match) => requireRecord(match, "match").position);
