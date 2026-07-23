@@ -2,12 +2,14 @@
   "version": 2,
   "publications": [
     "src/content/loto-foot/publications/lf7-91-2026-07-22.json",
-    "src/content/loto-foot/publications/lf7-92-2026-07-24.json"
+    "src/content/loto-foot/publications/lf7-92-2026-07-24.json",
+    "src/content/loto-foot/publications/lf8-96-2026-07-25.json"
   ],
   "results": [
     "src/content/loto-foot/results/lf7-91-2026-07-22.json"
   ],
   "pendingPublications": [
-    "src/content/loto-foot/publications/lf7-92-2026-07-24.json"
+    "src/content/loto-foot/publications/lf7-92-2026-07-24.json",
+    "src/content/loto-foot/publications/lf8-96-2026-07-25.json"
   ]
 }
