@@ -47,12 +47,13 @@ function createResult(matchCount = 7) {
     gridNumber: 42,
     settledAt: "2026-07-24T18:00:00Z",
     officialUrl: "https://example.com/results/42",
-    matches: Array.from({ length: matchCount }, (_, index) => ({
-      position: index + 1,
-      selection: ["1", "N", "2"][index % 3],
-      homeScore: index,
-      awayScore: 0,
-    })),
+    matches: Array.from({ length: matchCount }, (_, index) => {
+      const selection = ["1", "N", "2"][index % 3];
+      const [homeScore, awayScore] =
+        selection === "1" ? [2, 1] : selection === "N" ? [1, 1] : [0, 1];
+
+      return { position: index + 1, selection, homeScore, awayScore };
+    }),
     payouts: [
       { correctSelections: matchCount, amountCents: 12_500 },
       { correctSelections: matchCount - 1, amountCents: 900 },
@@ -124,6 +125,35 @@ describe("validation d’un résultat Loto Foot", () => {
     decimalScore.matches[0].homeScore = 1.5;
     expect(() => validateLotoFootResult(decimalScore, [createPublication()])).toThrow(/entier/);
   });
+
+  it.each([
+    ["1", 2, 1],
+    ["N", 1, 1],
+    ["2", 0, 1],
+  ])("accepte la sélection %s cohérente avec le score %i-%i", (selection, homeScore, awayScore) => {
+    const result = createResult();
+    result.matches[0] = { position: 1, selection, homeScore, awayScore };
+
+    expect(validateLotoFootResult(result, [createPublication()]).matches[0].selection).toBe(
+      selection,
+    );
+  });
+
+  it.each([
+    ["N", 2, 1, "1"],
+    ["2", 1, 1, "N"],
+    ["1", 0, 1, "2"],
+  ])(
+    "refuse la sélection %s contradictoire avec le score %i-%i",
+    (selection, homeScore, awayScore, expectedSelection) => {
+      const result = createResult();
+      result.matches[0] = { position: 1, selection, homeScore, awayScore };
+
+      expect(() => validateLotoFootResult(result, [createPublication()])).toThrow(
+        new RegExp(`doit valoir ${expectedSelection} pour correspondre au score`),
+      );
+    },
+  );
 
   it("refuse un règlement antérieur à la clôture", () => {
     const result = createResult();

@@ -26,6 +26,7 @@ export function calculateLotoFootStatistics(
   const settled = settlements.filter(({ status }) => status === "settled");
   const stakeCents = settlements.reduce((total, grid) => total + grid.stakeCents, 0);
   const returnCents = settled.reduce((total, grid) => total + grid.returnCents, 0);
+  const netCents = returnCents - stakeCents;
   const bestSettledGrid = settled.reduce<LotoFootPublicationSettlement | undefined>(
     (best, grid) => (!best || grid.netCents > best.netCents ? grid : best),
     undefined,
@@ -38,13 +39,13 @@ export function calculateLotoFootStatistics(
     ticketCount: publications.reduce((total, publication) => total + publication.tickets.length, 0),
     stakeCents,
     returnCents,
-    netCents: returnCents - stakeCents,
+    netCents,
     winningTicketCount: settled.reduce(
       (total, grid) =>
         total + grid.ticketSettlements.filter(({ payoutCents }) => payoutCents > 0).length,
       0,
     ),
-    yieldPercentage: stakeCents > 0 ? (returnCents / stakeCents) * 100 : undefined,
+    yieldPercentage: stakeCents > 0 ? (netCents / stakeCents) * 100 : undefined,
     bestSettledGrid,
     settlements,
   };

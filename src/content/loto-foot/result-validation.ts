@@ -107,8 +107,16 @@ export function validateLotoFootResult(
       fail(path, "doit fournir les deux scores ou aucun score");
     }
     if (hasHomeScore) {
-      requireNonNegativeInteger(match.homeScore, `${path}.homeScore`);
-      requireNonNegativeInteger(match.awayScore, `${path}.awayScore`);
+      const homeScore = requireNonNegativeInteger(match.homeScore, `${path}.homeScore`);
+      const awayScore = requireNonNegativeInteger(match.awayScore, `${path}.awayScore`);
+      const expectedSelection = homeScore > awayScore ? "1" : homeScore === awayScore ? "N" : "2";
+
+      if (match.selection !== expectedSelection) {
+        fail(
+          `${path}.selection`,
+          `doit valoir ${expectedSelection} pour correspondre au score ${homeScore}-${awayScore}`,
+        );
+      }
     }
   });
 

@@ -47,7 +47,7 @@ describe("statistiques cumulées", () => {
       netCents: 200,
       winningTicketCount: 1,
     });
-    expect(statistics.yieldPercentage).toBeCloseTo(166.67, 2);
+    expect(statistics.yieldPercentage).toBeCloseTo(66.67, 2);
     expect(statistics.bestSettledGrid?.publication.id).toBe("settled");
   });
 
