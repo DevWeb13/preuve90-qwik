@@ -10,6 +10,9 @@
   --color-text-subtle: #7e8ca8;
   --color-cyan: #2ee8ff;
   --color-magenta: #ff3dc8;
+  --color-positive: #5ff2a5;
+  --color-negative: #ff647c;
+  --color-warning: #ffd36a;
   --color-border: rgba(127, 224, 255, 0.18);
   --color-border-strong: rgba(127, 224, 255, 0.38);
   --font-sans:
@@ -28,5 +31,14 @@
   --radius-lg: 1.5rem;
   --shadow-panel: 0 20px 60px rgba(0, 0, 0, 0.34);
   --shadow-cyan: 0 0 34px rgba(46, 232, 255, 0.11);
+  --shadow-magenta: 0 0 34px rgba(255, 61, 200, 0.1);
+  --hud-cut: polygon(
+    0 0,
+    calc(100% - 1.25rem) 0,
+    100% 1.25rem,
+    100% 100%,
+    1.25rem 100%,
+    0 calc(100% - 1.25rem)
+  );
   --content-width: 75rem;
 }
