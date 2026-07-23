@@ -2,6 +2,8 @@ import { LOTO_FOOT_MATCH_COUNTS, LOTO_FOOT_SELECTIONS, type LotoFootPublication 
 
 type UnknownRecord = Record<string, unknown>;
 
+const LOTO_FOOT_METHOD_VERSIONS = ["loto-foot-v1", "v1"] as const;
+
 function fail(path: string, message: string): never {
   throw new Error(`${path} : ${message}`);
 }
@@ -122,7 +124,13 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
     fail("publication.gridNumber", "doit être un entier positif");
   }
   requireHttpUrl(publication.officialUrl, "publication.officialUrl");
-  requireNonEmptyString(publication.methodVersion, "publication.methodVersion");
+  const methodVersion = requireNonEmptyString(
+    publication.methodVersion,
+    "publication.methodVersion",
+  );
+  if (!(LOTO_FOOT_METHOD_VERSIONS as readonly string[]).includes(methodVersion)) {
+    fail("publication.methodVersion", "doit valoir loto-foot-v1 ou v1");
+  }
 
   const publishedAt = requireTimestamp(publication.publishedAt, "publication.publishedAt");
   const validationDeadline = requireTimestamp(

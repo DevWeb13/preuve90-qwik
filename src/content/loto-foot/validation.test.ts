@@ -122,6 +122,15 @@ describe("validation d’une publication Loto Foot 7", () => {
     expect(validateLotoFootPublication(publication).methodVersion).toBe("v1");
   });
 
+  it.each(["v2", "foo"])("refuse la valeur methodVersion inconnue %s", (methodVersion) => {
+    const publication = createValidPublication();
+    publication.methodVersion = methodVersion;
+
+    expect(() => validateLotoFootPublication(publication)).toThrow(
+      /methodVersion.*loto-foot-v1 ou v1/,
+    );
+  });
+
   it.each([1, 3, 10])("accepte une publication avec %i combinaison(s)", (ticketCount) => {
     const publication = createValidPublication();
     publication.tickets = Array.from({ length: ticketCount }, (_, ticketIndex) => ({
