@@ -52,8 +52,11 @@ export const AppShell = component$(() => {
             <p>Des analyses football publiques, datées et vérifiables.</p>
           </div>
           <nav aria-label="Informations légales">
-            <Link href="/mentions-legales/">Mentions légales</Link>
-            <Link href="/confidentialite/">Confidentialité</Link>
+            {SITE_CONFIG.footerNavigation.map((item) => (
+              <Link href={item.href} key={item.href}>
+                {item.label}
+              </Link>
+            ))}
           </nav>
         </div>
         <p class="footer-note">
@@ -69,7 +72,7 @@ export const AppShell = component$(() => {
             class={{ "mobile-nav-link": true, active: isActive(item.href) }}
             href={item.href}
           >
-            <Icon name={item.icon} size={20} />
+            <Icon name={item.icon} size={18} />
             <span>{item.label}</span>
           </Link>
         ))}

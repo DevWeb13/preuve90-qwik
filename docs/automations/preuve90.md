@@ -1,212 +1,185 @@
-# Publication et règlement planifiés des grilles Loto Foot 7
+# Publication et règlement planifiés des grilles Loto Foot
 
 ## Règle absolue concernant la planification
 
 Ne jamais suspendre, désactiver, modifier, supprimer ou recréer la planification ChatGPT.
 
-Un blocage temporaire, une absence de nouvelle grille, des résultats indisponibles ou une exécution sans écriture ne doivent jamais arrêter les prochaines exécutions.
+Un blocage temporaire, une absence de nouvelle grille, des résultats indisponibles ou une exécution
+sans écriture ne doivent jamais arrêter les prochaines exécutions. La gestion de la planification
+appartient uniquement à l’utilisateur.
 
-La gestion de la planification appartient uniquement à l’utilisateur.
+## Sources officielles
+
+Utiliser comme sources de vérité :
+
+- grilles ouvertes :
+  `https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot` ;
+- prochaines grilles :
+  `https://www.pointdevente.parionssport.fdj.fr/grilles/prochaines/loto-foot` ;
+- règles : `https://www.pointdevente.parionssport.fdj.fr/aide/comprendre-pari/loto-foot`.
+
+Les formules autorisées et leurs nombres de matchs sont :
+
+- LF7 : 6 ou 7 ;
+- LF8 : 7 ou 8 ;
+- LF12 : 9, 10, 11 ou 12 ;
+- LF15 : 12, 13, 14 ou 15.
+
+La formule officielle doit toujours être relevée explicitement. Ne jamais la déduire uniquement du
+nombre de matchs.
 
 ## À chaque exécution
 
-1. Utiliser l’app GitHub connectée sur le dépôt `DevWeb13/preuve90-qwik`.
+1. Utiliser l’app GitHub connectée sur le dépôt `DevWeb13/preuve90-qwik` et relire la version la
+   plus récente de `master`.
 
-2. Relire la version la plus récente de la branche `master`.
+2. Lire directement sur `master` :
+   - `src/content/loto-foot/model.ts` ;
+   - `src/content/loto-foot/validation.ts` ;
+   - `src/content/loto-foot/publications.ts` ;
+   - `src/content/loto-foot/result-validation.ts` ;
+   - `src/content/loto-foot/results.ts` ;
+   - `src/content/loto-foot/settlement.ts` ;
+   - `src/content/loto-foot/statistics.ts` ;
+   - `src/content/loto-foot/inventory.json`.
 
-3. Lire directement sur `master` les fichiers suivants par leur chemin exact :
-   - `src/content/loto-foot/model.ts`
-   - `src/content/loto-foot/validation.ts`
-   - `src/content/loto-foot/publications.ts`
-   - `src/content/loto-foot/result-validation.ts`
-   - `src/content/loto-foot/results.ts`
-   - `src/content/loto-foot/settlement.ts`
-   - `src/content/loto-foot/statistics.ts`
+3. Vérifier l’inventaire avant de l’utiliser :
+   - `version` vaut exactement `2` ;
+   - `publications`, `results` et `pendingPublications` sont des tableaux triés sans doublon ;
+   - leurs chemins utilisent leur dossier attendu, désignent directement un `.json`, sans
+     sous-dossier ni segment `..` ;
+   - chaque nom respecte `lf<formule>-<numero>-<date>.json` avec une formule autorisée ;
+   - chaque chemin en attente figure dans `publications` et n’a pas de fichier homonyme dans
+     `results` ;
+   - chaque publication absente de `pendingPublications` possède un résultat homonyme.
 
-4. Lire `src/content/loto-foot/inventory.json`, puis vérifier avant de l’utiliser :
-   - que `version` vaut exactement `2` ;
-   - que `publications`, `results` et `pendingPublications` sont présents et sont des tableaux ;
-   - que chaque tableau est trié alphabétiquement et ne contient aucun doublon ;
-   - que chaque chemin de `publications` commence exactement par `src/content/loto-foot/publications/` ;
-   - que chaque chemin de `results` commence exactement par `src/content/loto-foot/results/` ;
-   - que chaque chemin de `pendingPublications` commence exactement par `src/content/loto-foot/publications/` ;
-   - que chaque chemin désigne directement un fichier `.json`, sans sous-dossier ni segment `..` ;
-   - que chaque chemin de `pendingPublications` figure aussi dans `publications` ;
-   - que, pour chaque publication en attente, aucun chemin portant le même nom de fichier ne figure dans `results` ;
-   - que chaque publication absente de `pendingPublications` possède dans `results` un chemin portant le même nom de fichier.
+4. Lire uniquement les fichiers référencés par `pendingPublications`. Pour chacun, relever et
+   valider `formula`, `gridNumber`, `publishedAt` et `validationDeadline`. Une publication
+   historique `lf7-*` sans `formula` est traitée en formule 7 uniquement selon la normalisation du
+   chargeur courant.
 
-5. Lire individuellement sur `master` uniquement les fichiers référencés par `pendingPublications`. Une publication déjà réglée ne doit pas être relue. Ne pas lire les anciens résultats uniquement pour reconstituer leur existence : les listes de l’inventaire servent à ce contrôle.
+5. Pour chaque publication en attente :
+   - avant ou exactement à `validationDeadline`, ne rechercher aucun résultat, score ou rapport ;
+   - strictement après `validationDeadline`, elle devient seulement éligible à la recherche ;
+   - ne la régler que lorsque tous les résultats et rapports officiels nécessaires sont complets,
+     certains et non ambigus.
 
-   Interrompre sans écriture, expliquer précisément le blocage et terminer normalement sans désactiver la planification si :
-   - l’inventaire est absent ou invalide ;
-   - une publication en attente est absente, inaccessible ou invalide ;
-   - les identifiants ou chemins des publications en attente sont incohérents ;
-   - une désynchronisation connue de l’inventaire est détectée.
+6. Consulter les grilles ouvertes et prochaines des quatre formules. Relever uniquement leur
+   formule, numéro, nombre de matchs et clôture. Une publication en attente ne bloque jamais la
+   découverte d’une nouvelle grille de la même formule.
 
-6. Ne jamais modifier, supprimer ou renommer une publication ou un résultat existant. Ne jamais réutiliser un identifiant.
+7. Considérer une grille déjà publiée avec le couple `formula + gridNumber`. Un même numéro peut
+   exister sur deux formules différentes. Ne jamais refaire l’analyse d’un couple déjà publié.
 
-7. Utiliser :
-   - `publications` pour connaître les chemins et identifiants de publication déjà utilisés ;
-   - `results` pour connaître les chemins de résultat déjà utilisés ;
-   - les seuls fichiers chargés depuis `pendingPublications` pour rechercher un règlement.
+8. Choisir au maximum une action métier, dans cet ordre :
+   1. nouvelle grille non publiée risquant de fermer avant la prochaine exécution ;
+   2. règlement de la plus ancienne publication éligible ;
+   3. nouvelle grille non publiée dont la clôture est la plus proche ;
+   4. aucune écriture.
 
-8. Si plusieurs publications sont en attente, choisir la plus ancienne selon `publishedAt`, puis lire sa `validationDeadline`.
+   Pour les règlements, « plus ancienne » signifie le plus ancien `publishedAt`. Pour les nouvelles
+   grilles, départager une clôture strictement identique dans l’ordre LF7, LF8, LF12, LF15.
 
-9. Pour cette publication :
-   - si l’heure courante est antérieure ou égale à `validationDeadline`, ne rechercher ni résultat, ni score, ni rapport officiel et la conserver comme publication en attente ;
-   - seulement si l’heure courante est strictement postérieure à `validationDeadline`, rechercher auprès de FDJ les résultats et rapports officiels.
+9. Ne faire les recherches sportives détaillées que pour la nouvelle grille effectivement choisie.
+   Ne pas analyser en détail les autres grilles découvertes pendant la même exécution.
 
-10. La clôture autorise uniquement le début de la recherche. Une publication n’est réglable que lorsque tous les matchs sont terminés et que les résultats et rapports officiels nécessaires sont disponibles, complets, certains et non ambigus.
-
-11. Rechercher également la prochaine grille officielle Loto Foot 7 dont la validation est encore ouverte, y compris lorsqu’une publication en attente n’a pas encore atteint sa `validationDeadline`.
-
-12. Vérifier auprès de la source officielle :
-    - le numéro de la grille ;
-    - ses six ou sept matchs dans l’ordre ;
-    - sa date et heure limites de validation.
-
-13. Pour chaque match d’une nouvelle publication, rechercher des informations sportives récentes, fiables et publiques selon cette hiérarchie :
-    1. source officielle de la grille FDJ ;
-    2. clubs, ligues, fédérations et compétitions officielles ;
-    3. médias sportifs reconnus avec une page précise sur le match ou l’équipe ;
-    4. sources de données sportives neutres et vérifiables ;
-    5. autres sources uniquement en complément.
-
-    Privilégier au moins une source primaire ou officielle lorsqu’elle existe. Utiliser des URL précises vers l’article, le résultat ou la page qui justifie l’information, plutôt qu’une page d’accueil. Recouper les affirmations importantes lorsque cela est raisonnablement possible.
-
-    Ne jamais reprendre les probabilités ou le pronostic d’un autre site. Un site de pronostics, de paris ou d’affiliation ne peut jamais être l’unique fondement d’une analyse ; il peut seulement servir de source factuelle secondaire si l’information est confirmée ailleurs. Ne jamais présenter une source commerciale comme officielle.
-
-    Conserver le libellé, l’URL précise et l’heure réelle d’accès de chaque source. Ne rien publier si les informations utiles sont trop faibles, contradictoires ou invérifiables. FDJ reste la source de vérité pour le numéro de grille, l’ordre des matchs et la clôture.
-
-14. Choisir au maximum une seule action par exécution, dans cet ordre :
-    - publier une nouvelle grille lorsque la prochaine exécution risquerait d’avoir lieu après sa clôture ;
-    - sinon régler la plus ancienne publication éligible ;
-    - sinon publier la prochaine grille ouverte éligible ;
-    - sinon ne rien écrire.
+10. Interrompre sans écriture, expliquer le blocage et laisser la planification active si
+    l’inventaire est invalide, si un fichier en attente est absent ou invalide, ou si une
+    désynchronisation connue est détectée.
 
 ## Nouvelle publication
 
-15. Produire pour chaque match :
+11. Utiliser l’identifiant et le nom de fichier
+    `lf<formule>-<numero>-<date>`, ajouter obligatoirement `formula` et utiliser exactement
+    `loto-foot-v1` comme `methodVersion`. Ne jamais employer l’alias historique `v1` pour un nouveau
+    fichier.
+
+12. Vérifier la cohérence entre la formule, l’identifiant, le préfixe du fichier, le numéro et le
+    nombre de matchs autorisé. Vérifier le doublon avec `formula + gridNumber`.
+
+13. Pour chaque match, produire :
     - trois probabilités entières `home`, `draw` et `away` totalisant exactement 100 ;
-    - un résumé ;
-    - des facteurs principaux ;
-    - une incertitude ;
-    - au moins une source publique.
+    - un résumé, des facteurs principaux et une incertitude ;
+    - au moins une source publique précise.
 
-16. Utiliser exactement `loto-foot-v1` comme `methodVersion` pour toute nouvelle publication. Interdire toute autre valeur tant qu’une nouvelle méthode n’a pas été explicitement définie et documentée. Ne pas modifier les publications historiques ; lorsque des comparaisons ou regroupements sont nécessaires, traiter leur valeur historique `v1` comme un alias de `loto-foot-v1`.
+14. Hiérarchie des sources :
+    1. grille officielle FDJ ;
+    2. clubs, ligues, fédérations et compétitions officielles ;
+    3. médias sportifs reconnus ;
+    4. données sportives neutres et vérifiables ;
+    5. autres sources uniquement en complément.
 
-17. Produire une ou plusieurs combinaisons distinctes, sans nombre par défaut et sans maximum arbitraire de trois. Une seule combinaison est valide si elle constitue le meilleur choix. N’ajouter une combinaison que pour couvrir un scénario supplémentaire distinct, plausible et réellement justifié.
+    Ne jamais reprendre les probabilités ou le pronostic d’un autre site. FDJ reste la source de
+    vérité pour la formule, le numéro, l’ordre des matchs et la clôture. Ne rien publier si les
+    informations utiles sont trop faibles, contradictoires ou invérifiables.
 
-18. Utiliser le plus petit nombre de combinaisons permettant la stratégie retenue. Arrêter d’en ajouter dès que leur valeur marginale estimée ne justifie plus 100 centimes de mise virtuelle supplémentaire, en tenant compte :
-    - des probabilités estimées ;
-    - de la confiance et de l’incertitude de chaque match ;
-    - de la complémentarité entre les combinaisons ;
-    - du coût virtuel supplémentaire ;
-    - du risque de dilution de la mise.
+15. Produire librement une ou plusieurs combinaisons distinctes, sans nombre par défaut ni plafond
+    arbitraire de trois. Utiliser le plus petit nombre couvrant les scénarios plausibles réellement
+    justifiés. Chaque combinaison :
+    - possède un identifiant, un libellé et une justification ;
+    - contient exactement autant de choix que la publication contient de matchs ;
+    - utilise uniquement `1`, `N` ou `2`.
 
-    Ne jamais ajouter une combinaison uniquement pour augmenter artificiellement la couverture. L’objectif est d’améliorer le rendement net virtuel à long terme, sans garantir de victoire ni de rentabilité. Les rapports futurs étant inconnus, ne jamais prétendre avoir calculé avec certitude une espérance de gain positive.
+16. Chaque combinaison représente exactement 100 centimes, soit 1 € de mise virtuelle. La mise
+    totale est `nombre de combinaisons × 100 centimes`.
 
-19. Chaque combinaison doit :
-    - avoir un identifiant unique ;
-    - contenir exactement autant de sélections que la grille contient de matchs ;
-    - utiliser uniquement `1`, `N` ou `2` ;
-    - posséder un libellé et une justification.
-
-20. Chaque combinaison représente exactement 100 centimes, soit 1 €, de mise strictement virtuelle. La mise totale d’une publication est égale au nombre de combinaisons multiplié par 100 centimes.
+17. Pour les horodatages :
+    - utiliser l’heure réelle en Europe/Paris, au format ISO avec les secondes ;
+    - conserver l’heure réelle d’accès de chaque source ;
+    - garantir `accessedAt <= publishedAt < validationDeadline` ;
+    - ne jamais écrire un horodatage futur.
 
 ## Nouveau règlement
 
-21. Produire uniquement les données officielles exigées par le modèle courant :
-    - l’identifiant de la publication ;
-    - le numéro de la grille ;
-    - la date du règlement ;
+18. Le résultat utilise le même nom de fichier que sa publication, dans
+    `src/content/loto-foot/results/`. Ne pas dupliquer `formula` : elle provient de la publication.
+
+19. Produire uniquement :
+    - `publicationId` identique à la publication ;
+    - `gridNumber` identique ;
+    - `settledAt >= validationDeadline` ;
     - l’URL officielle ;
-    - les résultats `1`, `N` ou `2` dans l’ordre ;
-    - les deux scores ou aucun score pour chaque match ;
-    - les rapports officiels par nombre de bons choix ;
+    - autant de résultats ordonnés que la publication contient de matchs ;
+    - les sélections `1`, `N` ou `2`, avec deux scores cohérents ou aucun score ;
+    - les rapports officiels, sans niveau dépassant le nombre réel de matchs ;
     - au moins une source officielle.
 
-22. Lorsqu’un score est fourni, vérifier sa cohérence :
-    - victoire à domicile : `1` ;
-    - égalité : `N` ;
-    - victoire à l’extérieur : `2`.
-
-23. Ne jamais recopier dans le JSON les calculs dérivables par le code :
-    - bons choix par combinaison ;
-    - gains par combinaison ;
-    - retour total ;
-    - résultat net ;
-    - statistiques cumulées.
-
-24. Ne jamais inventer un rapport ou un seuil gagnant absent de la source officielle.
+20. Ne jamais inventer de rapport ni stocker un calcul dérivable : bons choix par combinaison,
+    gains calculés, retour total, résultat net ou statistiques cumulées.
 
 ## Validation et écriture
 
-25. Préparer au maximum un seul nouveau fichier JSON par exécution :
+21. Préparer au maximum un seul nouveau fichier JSON métier :
     - publication dans `src/content/loto-foot/publications/` ;
     - résultat dans `src/content/loto-foot/results/`.
 
-26. Conserver le modèle actuel de chemin déterministe : une publication et son résultat utilisent le même nom de fichier dans leurs dossiers respectifs. L’identifiant du JSON doit correspondre exactement au nom de fichier sans l’extension `.json`.
+22. Immédiatement avant l’écriture :
+    - relire `master`, l’inventaire et uniquement ses `pendingPublications` ;
+    - refaire les contrôles des étapes 3 à 7 ;
+    - vérifier directement avec l’app GitHub que le futur chemin n’existe pas ;
+    - revalider le fichier avec le modèle courant ;
+    - actualiser les horodatages réels d’une publication si nécessaire.
 
-27. Pour les horodatages d’une nouvelle publication :
-    - utiliser l’heure réelle de l’exécution en Europe/Paris, au format ISO avec les secondes ;
-    - ne jamais arrondir vers une minute future, ni inventer une heure approximative ;
-    - enregistrer dans chaque `accessedAt` le moment réel où la source correspondante a été consultée ;
-    - garantir que chaque `accessedAt` est inférieur ou égal à `publishedAt` ;
-    - garantir que `publishedAt` est strictement antérieur à `validationDeadline`.
+23. Ne jamais modifier, supprimer ou renommer un contenu existant. Ne jamais réutiliser un
+    identifiant. En cas de doublon, d’ambiguïté ou d’incohérence, ne rien écrire.
 
-28. Pour un résultat, `settledAt` ne doit pas être antérieur à `validationDeadline`.
+24. Ajouter directement sur `master` uniquement le nouveau fichier métier :
+    - `content: add ...` pour une publication ;
+    - `content: settle ...` pour un résultat.
 
-29. Contrôler le nouveau fichier avec les modèles et validations actuels du projet.
+    Ne modifier ni le code, ni la configuration, ni la documentation, ni la planification pendant
+    cette exécution. Ne jamais modifier soi-même `inventory.json` : GitHub Actions le synchronise
+    séparément.
 
-30. Si une donnée est incertaine, incomplète, ambiguë ou invalide, ne rien écrire et terminer normalement l’exécution.
+25. Après le commit, relire le nouveau fichier sur `master` et fournir :
+    - formule, numéro, nombre de matchs et clôture ;
+    - chemin exact et hash complet du commit ;
+    - nombre de combinaisons et mise totale pour une publication ;
+    - `methodVersion` pour une publication ;
+    - qualité et hiérarchie des sources ;
+    - état synthétique des trois autres formules ;
+    - confirmation que l’inventaire est synchronisé séparément.
 
-31. Immédiatement avant toute écriture :
-    - relire le `master` courant ;
-    - relire `src/content/loto-foot/inventory.json` et refaire toutes les vérifications de l’étape 4 ;
-    - relire et revalider uniquement les fichiers alors référencés par `pendingPublications` ;
-    - tester directement avec l’app GitHub que le chemin déterministe du futur fichier n’existe pas ;
-    - pour une publication, vérifier que son chemin n’est pas dans `publications` et qu’aucun nom de fichier de `publications` ne correspond déjà au même numéro de grille ;
-    - pour un résultat, vérifier que la publication correspondante figure dans `pendingPublications` et que son chemin de résultat ne figure pas dans `results` ;
-    - vérifier que l’identifiant prévu correspond exactement au nom du fichier sans extension ;
-    - pour une publication, actualiser `publishedAt` avec une heure réelle qui n’est pas postérieure à l’heure courante, puis revalider tous les horodatages ;
-    - si une source a été consultée après la valeur provisoire de `publishedAt`, recalculer `publishedAt` avant le commit ;
-    - ne jamais créer un fichier dont un horodatage se situe dans le futur au moment de l’écriture.
-
-32. En cas de doublon, d’incohérence, de désynchronisation connue de l’inventaire ou de changement incompatible, ne rien écrire, expliquer clairement la situation et terminer normalement. Ne pas attendre la synchronisation de l’inventaire pendant l’exécution et ne pas désactiver les prochaines exécutions.
-
-33. Ajouter directement sur `master` uniquement le nouveau fichier JSON :
-    - message `content: add ...` pour une publication ;
-    - message `content: settle ...` pour un résultat.
-
-34. Ne jamais modifier soi-même `src/content/loto-foot/inventory.json`. Après le commit métier, cet inventaire est synchronisé séparément par GitHub Actions.
-
-35. Ne modifier aucun autre fichier, notamment :
-    - une publication ou un résultat existant ;
-    - le code ;
-    - la configuration ;
-    - la documentation ;
-    - ce fichier d’instructions ;
-    - la planification ChatGPT.
-
-36. Après le commit :
-    - relire le nouveau fichier depuis `master` ;
-    - vérifier qu’il correspond exactement au contenu validé ;
-    - fournir son chemin exact ;
-    - fournir le hash complet du commit.
-
-37. Après une nouvelle publication, inclure dans le rapport :
-    - le numéro de la grille ;
-    - le chemin exact du fichier ;
-    - le hash complet du commit métier ;
-    - la clôture ;
-    - le nombre de combinaisons et la mise virtuelle totale correspondante ;
-    - pourquoi ce nombre a été retenu et pourquoi aucune combinaison supplémentaire n’a été ajoutée ;
-    - la valeur de `methodVersion` ;
-    - la confirmation qu’aucun horodatage n’était futur au moment de l’écriture ;
-    - un résumé de la qualité et de la hiérarchie des sources utilisées ;
-    - le fait que la synchronisation de l’inventaire est effectuée séparément par GitHub Actions.
-
-    Ne pas prétendre que le commit de synchronisation de l’inventaire ou le déploiement Vercel est terminé sans l’avoir effectivement vérifié. S’ils ont seulement été déclenchés, l’indiquer et préciser qu’ils restent à confirmer séparément.
-
-38. Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser la planification active pour l’exécution suivante.
+    Ne jamais prétendre que la synchronisation de l’inventaire ou un déploiement est terminé sans
+    l’avoir vérifié. Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser
+    la planification active.

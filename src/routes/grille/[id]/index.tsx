@@ -7,6 +7,7 @@ import { getLotoFootResultByPublicationId } from "~/content/loto-foot/results";
 import { calculatePublicationSettlement } from "~/content/loto-foot/settlement";
 import {
   formatCorrectAnswerScore,
+  getLotoFootFormulaLabel,
   getNetPresentation,
   getPublicationDisplayStatus,
   getPublicationStatusLabel,
@@ -53,7 +54,7 @@ export default component$(() => {
         </span>
         <EmptyState
           title="Grille introuvable"
-          message="Cette publication Loto Foot 7 n’existe pas ou n’est plus accessible."
+          message="Cette publication Loto Foot n’existe pas ou n’est plus accessible."
           actionHref="/"
           actionLabel="Retour aux publications"
           headingLevel="h1"
@@ -65,6 +66,7 @@ export default component$(() => {
   const { publication, result } = data;
   const settlement = calculatePublicationSettlement(publication, result);
   const displayStatus = getPublicationDisplayStatus(publication, result);
+  const formulaLabel = getLotoFootFormulaLabel(publication.formula);
   const net = getNetPresentation(settlement.netCents);
   const bestScore =
     settlement.status === "settled"
@@ -79,8 +81,10 @@ export default component$(() => {
 
       <header class="detail-command-header">
         <div class="detail-title-block">
-          <span class="eyebrow">LOTO FOOT {publication.matches.length} · TRACE HORODATÉE</span>
-          <h1>Grille n° {publication.gridNumber}</h1>
+          <span class="eyebrow">{formulaLabel.toUpperCase()} · TRACE HORODATÉE</span>
+          <h1>
+            {formulaLabel} — grille n°{publication.gridNumber}
+          </h1>
           <span class={`status-chip status-${displayStatus}`}>
             <span aria-hidden="true" />
             {getPublicationStatusLabel(displayStatus)}
@@ -608,7 +612,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
   if (!data) {
     return createDocumentHead(
       "Grille introuvable",
-      "Cette publication Loto Foot 7 n’existe pas.",
+      "Cette publication Loto Foot n’existe pas.",
       "/",
       true,
     );
@@ -617,7 +621,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
   const { publication } = data;
 
   return createDocumentHead(
-    `Grille Loto Foot ${publication.matches.length} n° ${publication.gridNumber}`,
+    `${getLotoFootFormulaLabel(publication.formula)} — grille n°${publication.gridNumber}`,
     `Résultats, rapports officiels et performances des combinaisons de la grille n° ${publication.gridNumber}.`,
     `/grille/${encodeURIComponent(publication.id)}/`,
   );

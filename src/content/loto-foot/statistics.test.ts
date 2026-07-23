@@ -1,10 +1,15 @@
 import { describe, expect, it } from "vitest";
-import type { LotoFootPublication, LotoFootResult } from "./model";
+import type { LotoFootFormula, LotoFootPublication, LotoFootResult } from "./model";
 import { calculateLotoFootStatistics } from "./statistics";
 
-function createPublication(id: string, ticketCount: number): LotoFootPublication {
+function createPublication(
+  id: string,
+  ticketCount: number,
+  formula: LotoFootFormula = 7,
+): LotoFootPublication {
   return {
     id,
+    formula,
     gridNumber: id === "settled" ? 1 : 2,
     officialUrl: "https://example.com/grid",
     validationDeadline: "2026-07-23T18:00:00Z",
@@ -64,6 +69,37 @@ describe("statistiques cumulées", () => {
       yieldPercentage: undefined,
       bestSettledGrid: undefined,
       settlements: [],
+    });
+  });
+
+  it("filtre les mêmes agrégats par formule sans modifier le calcul global", () => {
+    const lf7 = createPublication("settled", 2, 7);
+    const lf15 = createPublication("pending-lf15", 10, 15);
+    const publications = [lf7, lf15];
+
+    expect(calculateLotoFootStatistics(publications, [result])).toMatchObject({
+      publicationCount: 2,
+      ticketCount: 12,
+      stakeCents: 1_200,
+      returnCents: 500,
+      netCents: -700,
+    });
+    expect(calculateLotoFootStatistics(publications, [result], 7)).toMatchObject({
+      publicationCount: 1,
+      settledCount: 1,
+      ticketCount: 2,
+      stakeCents: 200,
+      returnCents: 500,
+      netCents: 300,
+    });
+    expect(calculateLotoFootStatistics(publications, [result], 15)).toMatchObject({
+      publicationCount: 1,
+      settledCount: 0,
+      pendingCount: 1,
+      ticketCount: 10,
+      stakeCents: 1_000,
+      returnCents: 0,
+      netCents: -1_000,
     });
   });
 });

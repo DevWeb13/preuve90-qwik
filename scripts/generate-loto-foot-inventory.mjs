@@ -7,6 +7,7 @@ const INVENTORY_DIRECTORIES = {
   publications: "src/content/loto-foot/publications",
   results: "src/content/loto-foot/results",
 };
+const LOTO_FOOT_FILE_NAME_PATTERN = /^lf(?:7|8|12|15)-[1-9]\d*-\d{4}-\d{2}-\d{2}\.json$/;
 
 function errorMessage(error) {
   return error instanceof Error ? error.message : String(error);
@@ -25,12 +26,21 @@ async function listJsonFiles(rootDirectory, relativeDirectory) {
     );
   }
 
+  const jsonFileNames = entries
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+    .map((entry) => entry.name);
+  const invalidFileNames = jsonFileNames.filter(
+    (fileName) => !LOTO_FOOT_FILE_NAME_PATTERN.test(fileName),
+  );
+
+  if (invalidFileNames.length > 0) {
+    throw new Error(
+      `Nom(s) de fichier Loto Foot invalide(s) dans « ${relativeDirectory} » : ${invalidFileNames.join(", ")}`,
+    );
+  }
+
   return [
-    ...new Set(
-      entries
-        .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
-        .map((entry) => path.posix.join(relativeDirectory, entry.name)),
-    ),
+    ...new Set(jsonFileNames.map((fileName) => path.posix.join(relativeDirectory, fileName))),
   ].sort();
 }
 

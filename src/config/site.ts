@@ -7,8 +7,14 @@ export const SITE_CONFIG = {
   publicOrigin: import.meta.env.PUBLIC_ORIGIN?.replace(/\/$/, "") ?? "",
   navigation: [
     { href: "/", label: "Accueil", icon: "home" },
-    { href: "/mentions-legales/", label: "Mentions légales", icon: "legal" },
-    { href: "/confidentialite/", label: "Confidentialité", icon: "privacy" },
+    { href: "/loto-foot/7/", label: "LF7", icon: "grid" },
+    { href: "/loto-foot/8/", label: "LF8", icon: "grid" },
+    { href: "/loto-foot/12/", label: "LF12", icon: "grid" },
+    { href: "/loto-foot/15/", label: "LF15", icon: "grid" },
+  ],
+  footerNavigation: [
+    { href: "/mentions-legales/", label: "Mentions légales" },
+    { href: "/confidentialite/", label: "Confidentialité" },
   ],
   legal: {
     publisherName: "À compléter avant le lancement public",

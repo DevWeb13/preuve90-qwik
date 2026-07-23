@@ -1,4 +1,8 @@
-import type { LotoFootPublication, LotoFootResult } from "~/content/loto-foot/model";
+import type {
+  LotoFootFormula,
+  LotoFootPublication,
+  LotoFootResult,
+} from "~/content/loto-foot/model";
 import type { LotoFootPublicationSettlement } from "~/content/loto-foot/settlement";
 
 export type PublicationDisplayStatus = "open" | "pending" | "settled";
@@ -30,6 +34,10 @@ export function getNetPresentation(netCents: number): {
 
 export function formatCorrectAnswerScore(correct: number, total: number): string {
   return `${correct} ${correct === 1 ? "bonne réponse" : "bonnes réponses"} sur ${total}`;
+}
+
+export function getLotoFootFormulaLabel(formula: LotoFootFormula): string {
+  return `Loto Foot ${formula}`;
 }
 
 export function getBestTicketPerformance(

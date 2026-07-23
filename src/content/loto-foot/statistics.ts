@@ -1,4 +1,4 @@
-import type { LotoFootPublication, LotoFootResult } from "./model";
+import type { LotoFootFormula, LotoFootPublication, LotoFootResult } from "./model";
 import { calculatePublicationSettlement, type LotoFootPublicationSettlement } from "./settlement";
 
 export interface LotoFootStatistics {
@@ -18,9 +18,13 @@ export interface LotoFootStatistics {
 export function calculateLotoFootStatistics(
   publications: readonly LotoFootPublication[],
   results: readonly LotoFootResult[],
+  formula?: LotoFootFormula,
 ): LotoFootStatistics {
+  const selectedPublications = formula
+    ? publications.filter((publication) => publication.formula === formula)
+    : publications;
   const resultsByPublicationId = new Map(results.map((result) => [result.publicationId, result]));
-  const settlements = publications.map((publication) =>
+  const settlements = selectedPublications.map((publication) =>
     calculatePublicationSettlement(publication, resultsByPublicationId.get(publication.id)),
   );
   const settled = settlements.filter(({ status }) => status === "settled");
@@ -33,10 +37,13 @@ export function calculateLotoFootStatistics(
   );
 
   return {
-    publicationCount: publications.length,
+    publicationCount: selectedPublications.length,
     settledCount: settled.length,
-    pendingCount: publications.length - settled.length,
-    ticketCount: publications.reduce((total, publication) => total + publication.tickets.length, 0),
+    pendingCount: selectedPublications.length - settled.length,
+    ticketCount: selectedPublications.reduce(
+      (total, publication) => total + publication.tickets.length,
+      0,
+    ),
     stakeCents,
     returnCents,
     netCents,
