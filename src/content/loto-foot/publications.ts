@@ -6,13 +6,15 @@ const publicationModules = import.meta.glob("./publications/*.json", {
   import: "default",
 }) as Record<string, unknown>;
 
+const HISTORICAL_LF7_IDS_WITHOUT_FORMULA = new Set(["lf7-91-2026-07-22", "lf7-92-2026-07-24"]);
+
 function normalizeHistoricalLotoFootPublication(value: unknown): unknown {
   if (typeof value !== "object" || value === null || Array.isArray(value)) return value;
 
   const publication = value as Record<string, unknown>;
   return publication.formula === undefined &&
     typeof publication.id === "string" &&
-    publication.id.startsWith("lf7-")
+    HISTORICAL_LF7_IDS_WITHOUT_FORMULA.has(publication.id)
     ? { ...publication, formula: 7 }
     : value;
 }

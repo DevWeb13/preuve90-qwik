@@ -18,6 +18,10 @@ Utiliser comme sources de vérité :
   `https://www.pointdevente.parionssport.fdj.fr/grilles/prochaines/loto-foot` ;
 - règles : `https://www.pointdevente.parionssport.fdj.fr/aide/comprendre-pari/loto-foot`.
 
+La page des prochaines grilles sert uniquement à anticiper les échéances et à identifier les
+formules futures. Elle ne constitue jamais une autorisation de publier. Une grille ne peut devenir
+candidate à une publication que lorsqu’elle figure officiellement dans les grilles ouvertes.
+
 Les formules autorisées et leurs nombres de matchs sont :
 
 - LF7 : 6 ou 7 ;
@@ -54,9 +58,9 @@ nombre de matchs.
    - chaque publication absente de `pendingPublications` possède un résultat homonyme.
 
 4. Lire uniquement les fichiers référencés par `pendingPublications`. Pour chacun, relever et
-   valider `formula`, `gridNumber`, `publishedAt` et `validationDeadline`. Une publication
-   historique `lf7-*` sans `formula` est traitée en formule 7 uniquement selon la normalisation du
-   chargeur courant.
+   valider `formula`, `gridNumber`, `publishedAt` et `validationDeadline`. Seules les publications
+   historiques `lf7-91-2026-07-22` et `lf7-92-2026-07-24` sans `formula` sont traitées en formule 7
+   selon la normalisation du chargeur courant.
 
 5. Pour chaque publication en attente :
    - avant ou exactement à `validationDeadline`, ne rechercher aucun résultat, score ou rapport ;
@@ -64,24 +68,35 @@ nombre de matchs.
    - ne la régler que lorsque tous les résultats et rapports officiels nécessaires sont complets,
      certains et non ambigus.
 
-6. Consulter les grilles ouvertes et prochaines des quatre formules. Relever uniquement leur
-   formule, numéro, nombre de matchs et clôture. Une publication en attente ne bloque jamais la
-   découverte d’une nouvelle grille de la même formule.
+6. Consulter séparément les grilles ouvertes et les prochaines grilles des quatre formules :
+   - utiliser les prochaines grilles uniquement pour anticiper les échéances et identifier les
+     formules futures ;
+   - ne jamais lancer de recherche sportive détaillée ni publier une grille seulement annoncée
+     comme prochaine ;
+   - une telle grille peut seulement être mentionnée dans le rapport comme future grille non encore
+     ouverte ;
+   - utiliser uniquement les grilles ouvertes comme candidates à une nouvelle publication ;
+   - confirmer sur la page officielle des grilles ouvertes la formule, le numéro, la composition
+     complète, l’ordre des matchs et la clôture avant toute recherche sportive détaillée.
+
+   Une publication en attente ne bloque jamais la découverte d’une nouvelle grille ouverte de la
+   même formule.
 
 7. Considérer une grille déjà publiée avec le couple `formula + gridNumber`. Un même numéro peut
    exister sur deux formules différentes. Ne jamais refaire l’analyse d’un couple déjà publié.
 
 8. Choisir au maximum une action métier, dans cet ordre :
-   1. nouvelle grille non publiée risquant de fermer avant la prochaine exécution ;
+   1. nouvelle grille ouverte et non publiée risquant de fermer avant la prochaine exécution ;
    2. règlement de la plus ancienne publication éligible ;
-   3. nouvelle grille non publiée dont la clôture est la plus proche ;
+   3. nouvelle grille ouverte et non publiée dont la clôture est la plus proche ;
    4. aucune écriture.
 
    Pour les règlements, « plus ancienne » signifie le plus ancien `publishedAt`. Pour les nouvelles
    grilles, départager une clôture strictement identique dans l’ordre LF7, LF8, LF12, LF15.
 
-9. Ne faire les recherches sportives détaillées que pour la nouvelle grille effectivement choisie.
-   Ne pas analyser en détail les autres grilles découvertes pendant la même exécution.
+9. Ne faire les recherches sportives détaillées que pour la grille ouverte effectivement choisie,
+   après confirmation complète sur la source officielle ouverte. Ne pas analyser en détail les
+   autres grilles ouvertes ni les prochaines grilles découvertes pendant la même exécution.
 
 10. Interrompre sans écriture, expliquer le blocage et laisser la planification active si
     l’inventaire est invalide, si un fichier en attente est absent ou invalide, ou si une
@@ -92,7 +107,7 @@ nombre de matchs.
 11. Utiliser l’identifiant et le nom de fichier
     `lf<formule>-<numero>-<date>`, ajouter obligatoirement `formula` et utiliser exactement
     `loto-foot-v1` comme `methodVersion`. Ne jamais employer l’alias historique `v1` pour un nouveau
-    fichier.
+    fichier. Refuser toute publication si la grille ne figure pas encore dans les grilles ouvertes.
 
 12. Vérifier la cohérence entre la formule, l’identifiant, le préfixe du fichier, le numéro et le
     nombre de matchs autorisé. Vérifier le doublon avec `formula + gridNumber`.
@@ -181,5 +196,7 @@ nombre de matchs.
     - confirmation que l’inventaire est synchronisé séparément.
 
     Ne jamais prétendre que la synchronisation de l’inventaire ou un déploiement est terminé sans
-    l’avoir vérifié. Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser
-    la planification active.
+    l’avoir vérifié. Une grille seulement présente dans les prochaines grilles peut être signalée
+    comme future grille non encore ouverte, sans recherche sportive détaillée et sans publication.
+    Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser la planification
+    active.

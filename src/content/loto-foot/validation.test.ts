@@ -276,15 +276,36 @@ describe("chargement des publications", () => {
     expect(getLotoFootPublicationById("inconnue", publications)).toBeUndefined();
   });
 
-  it("normalise uniquement au chargement une publication historique lf7 sans formule", () => {
-    const historicalPublication: Record<string, unknown> = { ...createValidPublication() };
+  it.each([
+    ["lf7-91-2026-07-22", 91],
+    ["lf7-92-2026-07-24", 92],
+  ])("normalise uniquement au chargement la publication historique %s", (id, gridNumber) => {
+    const historicalPublication: Record<string, unknown> = {
+      ...createValidPublication(7, 7, gridNumber),
+      id,
+    };
     Reflect.deleteProperty(historicalPublication, "formula");
     const publications = loadLotoFootPublications({
-      [`./publications/${String(historicalPublication.id)}.json`]: historicalPublication,
+      [`./publications/${id}.json`]: historicalPublication,
     });
 
     expect(publications[0].formula).toBe(7);
     expect(() => validateLotoFootPublication(historicalPublication)).toThrow(/formula/);
+  });
+
+  it("refuse une future publication lf7 sans formule", () => {
+    const futurePublication: Record<string, unknown> = {
+      ...createValidPublication(7, 7, 93),
+      id: "lf7-93-2026-07-26",
+    };
+    Reflect.deleteProperty(futurePublication, "formula");
+
+    expect(() =>
+      loadLotoFootPublications({
+        "./publications/lf7-93-2026-07-26.json": futurePublication,
+      }),
+    ).toThrow(/publication\.formula/);
+    expect(() => validateLotoFootPublication(futurePublication)).toThrow(/publication\.formula/);
   });
 
   it("refuse un nom de fichier incohérent", () => {
