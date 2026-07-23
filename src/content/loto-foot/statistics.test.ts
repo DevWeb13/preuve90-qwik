@@ -1,0 +1,69 @@
+import { describe, expect, it } from "vitest";
+import type { LotoFootPublication, LotoFootResult } from "./model";
+import { calculateLotoFootStatistics } from "./statistics";
+
+function createPublication(id: string, ticketCount: number): LotoFootPublication {
+  return {
+    id,
+    gridNumber: id === "settled" ? 1 : 2,
+    officialUrl: "https://example.com/grid",
+    validationDeadline: "2026-07-23T18:00:00Z",
+    publishedAt: "2026-07-22T08:00:00Z",
+    methodVersion: "test",
+    matches: Array.from({ length: 6 }, (_, index) => ({ position: index + 1 })),
+    tickets: Array.from({ length: ticketCount }, (_, index) => ({
+      id: `ticket-${index}`,
+      label: `Ticket ${index}`,
+      selections: ["1", "1", "1", "1", "1", index === 0 ? "1" : "2"],
+    })),
+  } as unknown as LotoFootPublication;
+}
+
+const result = {
+  id: "result",
+  publicationId: "settled",
+  gridNumber: 1,
+  settledAt: "2026-07-24T18:00:00Z",
+  officialUrl: "https://example.com/result",
+  matches: Array.from({ length: 6 }, (_, index) => ({ position: index + 1, selection: "1" })),
+  payouts: [{ correctSelections: 6, amountCents: 500 }],
+  sources: [],
+} as unknown as LotoFootResult;
+
+describe("statistiques cumulées", () => {
+  it("agrège les grilles réglées et en attente sans total stocké", () => {
+    const statistics = calculateLotoFootStatistics(
+      [createPublication("settled", 2), createPublication("pending", 1)],
+      [result],
+    );
+
+    expect(statistics).toMatchObject({
+      publicationCount: 2,
+      settledCount: 1,
+      pendingCount: 1,
+      ticketCount: 3,
+      stakeCents: 300,
+      returnCents: 500,
+      netCents: 200,
+      winningTicketCount: 1,
+    });
+    expect(statistics.yieldPercentage).toBeCloseTo(66.67, 2);
+    expect(statistics.bestSettledGrid?.publication.id).toBe("settled");
+  });
+
+  it("fonctionne sans publication ni résultat", () => {
+    expect(calculateLotoFootStatistics([], [])).toMatchObject({
+      publicationCount: 0,
+      settledCount: 0,
+      pendingCount: 0,
+      ticketCount: 0,
+      stakeCents: 0,
+      returnCents: 0,
+      netCents: 0,
+      winningTicketCount: 0,
+      yieldPercentage: undefined,
+      bestSettledGrid: undefined,
+      settlements: [],
+    });
+  });
+});

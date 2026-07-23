@@ -119,7 +119,7 @@
       "analysis": {
         "summary": "Columbus est légèrement favori à domicile après des signes de redressement avant la pause et plusieurs renforts estivaux, mais NYCFC reste capable de punir une équipe encore irrégulière.",
         "keyFactors": [
-          "Columbus retrouvait de la confiance avant la pause sous la direction intérimaire de Patrice Courtois.",
+          "Columbus retrouvait de la confiance avant la pause sous la direction intérimaire de Laurent Courtois.",
           "Le Crew joue à domicile et a ajouté plusieurs renforts, dont Brais Méndez et Eric Bailly.",
           "La longue interruption rend la continuité de la dynamique incertaine."
         ],
@@ -252,43 +252,19 @@
     {
       "id": "principal",
       "label": "Combinaison principale",
-      "selections": [
-        "1",
-        "1",
-        "2",
-        "1",
-        "1",
-        "1",
-        "1"
-      ],
+      "selections": ["1", "1", "2", "1", "1", "1", "1"],
       "rationale": "Retient les favoris les plus nets et donne l’avantage du terrain à Columbus et au Galaxy."
     },
     {
       "id": "nuls-cibles",
       "label": "Couverture des matchs serrés",
-      "selections": [
-        "1",
-        "1",
-        "2",
-        "N",
-        "1",
-        "1",
-        "N"
-      ],
+      "selections": ["1", "1", "2", "N", "1", "1", "N"],
       "rationale": "Couvre le nul sur Columbus–NYCFC et Galaxy–St. Louis, les deux rencontres les plus équilibrées de la sélection principale."
     },
     {
       "id": "scenario-alternatif",
       "label": "Scénario alternatif",
-      "selections": [
-        "2",
-        "1",
-        "2",
-        "1",
-        "1",
-        "N",
-        "1"
-      ],
+      "selections": ["2", "1", "2", "1", "1", "N", "1"],
       "rationale": "Protège une victoire de Chicago et un nul entre LAFC et Real Salt Lake sans modifier les trois favoris les plus marqués."
     }
   ]

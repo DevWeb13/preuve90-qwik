@@ -1,11 +1,13 @@
-export const LOTO_FOOT_MATCH_COUNT = 7;
+export const LOTO_FOOT_MATCH_COUNTS = [6, 7] as const;
 export const VIRTUAL_STAKE_PER_TICKET_CENTS = 100;
 
 export const LOTO_FOOT_SELECTIONS = ["1", "N", "2"] as const;
 
 export type LotoFootSelection = (typeof LOTO_FOOT_SELECTIONS)[number];
 
+export type SixItems<T> = readonly [T, T, T, T, T, T];
 export type SevenItems<T> = readonly [T, T, T, T, T, T, T];
+export type LotoFootItems<T> = SixItems<T> | SevenItems<T>;
 
 export interface LotoFootSource {
   label: string;
@@ -39,7 +41,7 @@ export interface LotoFootMatch {
 export interface LotoFootTicket {
   id: string;
   label: string;
-  selections: SevenItems<LotoFootSelection>;
+  selections: LotoFootItems<LotoFootSelection>;
   rationale: string;
 }
 
@@ -50,8 +52,29 @@ export interface LotoFootPublication {
   validationDeadline: string;
   publishedAt: string;
   methodVersion: string;
-  matches: SevenItems<LotoFootMatch>;
+  matches: LotoFootItems<LotoFootMatch>;
   tickets: readonly [LotoFootTicket, ...LotoFootTicket[]];
+}
+
+export type LotoFootOfficialMatchResult = {
+  position: number;
+  selection: LotoFootSelection;
+} & ({ homeScore: number; awayScore: number } | { homeScore?: never; awayScore?: never });
+
+export interface LotoFootOfficialPayout {
+  correctSelections: number;
+  amountCents: number;
+}
+
+export interface LotoFootResult {
+  id: string;
+  publicationId: string;
+  gridNumber: number;
+  settledAt: string;
+  officialUrl: string;
+  matches: LotoFootItems<LotoFootOfficialMatchResult>;
+  payouts: readonly [LotoFootOfficialPayout, ...LotoFootOfficialPayout[]];
+  sources: readonly [LotoFootSource, ...LotoFootSource[]];
 }
 
 export function calculateVirtualStakeCents(ticketCount: number): number {

@@ -367,6 +367,7 @@ code,
 }
 
 .publication-section,
+.statistics-panel,
 .publication-detail > section {
   display: grid;
   gap: var(--space-6);
@@ -447,12 +448,74 @@ code,
 }
 
 .pending-status,
+.settled-status,
 .results-status {
   color: #ffd272;
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.settled-status {
+  color: #7fffc1;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.statistics-panel {
+  padding: clamp(1.2rem, 4vw, 2rem);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  background: rgba(10, 16, 30, 0.82);
+}
+
+.statistics-grid,
+.settlement-summary,
+.ticket-result {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.statistics-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+}
+
+.statistics-grid div,
+.settlement-summary div,
+.ticket-result div {
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: rgba(8, 12, 24, 0.72);
+}
+
+.statistics-grid dt,
+.settlement-summary dt,
+.ticket-result dt {
+  color: var(--color-text-subtle);
+  font: 700 0.68rem/1.4 var(--font-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.statistics-grid dd,
+.settlement-summary dd,
+.ticket-result dd {
+  margin: 0;
+  color: var(--color-text);
+  font-weight: 800;
+}
+
+.best-grid {
+  margin-bottom: 0;
+  color: var(--color-text-muted);
 }
 
 .publication-card h3 {
@@ -465,6 +528,19 @@ code,
 .probability-grid {
   display: grid;
   margin: 0;
+}
+
+.official-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  padding: var(--space-3);
+  border: 1px solid rgba(127, 255, 193, 0.35);
+  border-radius: var(--radius-sm);
+  color: #7fffc1;
+  font-family: var(--font-mono);
 }
 
 .publication-facts {
@@ -700,10 +776,55 @@ code,
 }
 
 .ticket-selections {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
   overflow-wrap: anywhere;
   color: var(--color-cyan);
   font: 900 clamp(1rem, 5vw, 1.35rem) / 1.6 var(--font-mono);
   letter-spacing: 0.04em;
+}
+
+.ticket-selections span {
+  display: inline-grid;
+  min-width: 2rem;
+  min-height: 2rem;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.ticket-selections .selection-correct {
+  border-color: #7fffc1;
+  color: #7fffc1;
+}
+
+.ticket-selections .selection-incorrect {
+  border-color: rgba(255, 100, 120, 0.6);
+  color: #ff8fa2;
+}
+
+.ticket-result {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: var(--space-4);
+}
+
+.settlement-summary {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+}
+
+.result-sources {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  padding: clamp(1.2rem, 4vw, 2rem);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.result-sources h3,
+.result-sources ul {
+  margin-bottom: 0;
 }
 
 .not-found-page {

@@ -73,7 +73,7 @@ Conserver l’identité sombre Preuve90 décrite dans `docs/DESIGN.md`. Réserve
 
 ### Décision
 
-Enregistrer chaque publication dans un fichier JSON distinct sous `src/content/loto-foot/publications/`. Charger ces fichiers avec `import.meta.glob` en mode eager et valider explicitement leur structure au chargement.
+Enregistrer chaque publication dans un fichier JSON distinct sous `src/content/loto-foot/publications/`. Enregistrer chaque règlement officiel dans un autre fichier JSON sous `src/content/loto-foot/results/`. Charger ces fichiers avec `import.meta.glob` en mode eager et valider explicitement leur structure au chargement.
 
 ### Conséquences
 
@@ -81,6 +81,7 @@ Enregistrer chaque publication dans un fichier JSON distinct sous `src/content/l
 - le dossier de publications fonctionne lorsqu’il est vide ;
 - une publication invalide ou un identifiant de publication dupliqué fait échouer la validation ;
 - les publications sont triées par date de publication décroissante et accessibles par identifiant.
+- un résultat orphelin, dupliqué ou incohérent avec sa publication fait échouer la validation.
 
 ## ADR-011 — Une combinaison simple vaut 1 EUR virtuel
 
@@ -90,13 +91,13 @@ Enregistrer chaque publication dans un fichier JSON distinct sous `src/content/l
 
 ### Décision
 
-Une publication contient exactement sept matchs et au moins une combinaison distincte de sept choix `1`, `N` ou `2`. Chaque combinaison représente 100 centimes virtuels, sans nombre maximal défini.
+Une publication contient exactement six ou sept matchs et au moins une combinaison distincte ayant le même nombre de choix `1`, `N` ou `2`. Chaque combinaison représente 100 centimes virtuels, sans nombre maximal défini.
 
 ### Conséquences
 
 - la mise virtuelle totale est calculée depuis le nombre de combinaisons et n’est pas stockée ;
 - aucun argent réel n’est joué et aucun gain n’est garanti ;
-- le modèle des résultats et des performances financières reste hors périmètre.
+- les gains par combinaison, retours, résultats nets et statistiques cumulées sont calculés depuis les publications et résultats, jamais stockés comme totaux manuels.
 
 ## ADR-012 — Séparation entre développement et publication planifiée
 
@@ -106,14 +107,26 @@ Une publication contient exactement sept matchs et au moins une combinaison dist
 
 ### Décision
 
-Codex travaille toujours sur une branche dédiée. Seule la tâche planifiée décrite dans `docs/automations/preuve90.md` peut pousser directement sur `master`, uniquement pour ajouter un nouveau fichier JSON de publication immuable et conforme.
+Codex travaille toujours sur une branche dédiée. Seule la tâche planifiée décrite dans `docs/automations/preuve90.md` peut pousser directement sur `master`, uniquement pour ajouter un nouveau fichier JSON de publication ou de résultat conforme.
 
 ### Conséquences
 
-- la tâche planifiée ne modifie jamais une publication existante, le code, la configuration, la documentation ou les instructions ;
+- la tâche planifiée ne modifie jamais un contenu existant, le code, la configuration, la documentation ou les instructions ;
 - les modifications fonctionnelles continuent à suivre le processus de branche dédié ;
-- chaque publication automatisée utilise un commit préfixé par `content:` et fait l’objet d’une relecture depuis `master` après le commit.
+- chaque ajout automatisé utilise le préfixe `content:` prévu pour son type et fait l’objet d’une relecture depuis `master` après le commit.
 
-## Décisions ouvertes
+## ADR-013 — Immutabilité des pronostics et ajout séparé des résultats
 
-Le modèle des résultats et des performances financières devra être conçu dans une mission séparée.
+- **Statut :** accepted
+- **Date :** 2026-07-23
+- **Auteur :** propriétaire du projet
+
+### Décision
+
+Les probabilités, combinaisons, dates de publication, mises et décisions prises avant la clôture ne sont jamais réécrites rétroactivement. Les résultats officiels sont ajoutés dans des fichiers séparés. Une erreur factuelle ou rédactionnelle peut être corrigée dans un commit traçable si elle ne modifie ni le sens du pronostic ni sa performance. Une correction ne doit jamais servir à améliorer rétroactivement une prédiction.
+
+### Conséquences
+
+- la publication d’origine reste la preuve horodatée de la décision prise avant clôture ;
+- un règlement référence sa publication et ne recopie pas les calculs dérivables par ticket ;
+- toute correction admissible d’un contenu existant doit rester visible dans l’historique Git.
