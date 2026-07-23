@@ -1,0 +1,202 @@
+{
+  "id": "lf8-96-2026-07-25",
+  "formula": 8,
+  "gridNumber": 96,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+  "validationDeadline": "2026-07-25T17:55:00+02:00",
+  "publishedAt": "2026-07-24T00:58:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Servette FC",
+      "awayTeam": "FC Bâle",
+      "competition": "D1 Suisse",
+      "probabilities": { "home": 31, "draw": 29, "away": 40 },
+      "analysis": {
+        "summary": "Bâle part avec un léger avantage structurel, mais Servette reçoit lors d'une première journée où les automatismes et les effectifs encore en rodage augmentent la part d'incertitude.",
+        "keyFactors": [
+          "Première journée de Super League, donc peu de données officielles 2026-2027",
+          "Bâle dispose d'une profondeur d'effectif supérieure sur le papier",
+          "Servette bénéficie du terrain et peut réduire l'écart dans un match de reprise"
+        ],
+        "uncertainty": "La reprise de championnat rend la forme réelle des deux équipes difficile à mesurer.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Swiss Football League - lancement de la saison 2026-2027", "url": "https://sfl.ch/de/articles/das-warten-hat-ein-ende", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lucerne",
+      "awayTeam": "FC Thun",
+      "competition": "D1 Suisse",
+      "probabilities": { "home": 49, "draw": 29, "away": 22 },
+      "analysis": {
+        "summary": "Lucerne possède l'avantage du terrain et davantage de repères récents au plus haut niveau, tandis que Thoune aborde cette ouverture avec le profil plus volatil d'un promu.",
+        "keyFactors": [
+          "Lucerne reçoit pour la première journée",
+          "Thoune découvre la nouvelle saison de Super League",
+          "Le contexte d'ouverture maintient un risque de nul non négligeable"
+        ],
+        "uncertainty": "Les promus peuvent être difficiles à évaluer lors de la première journée et surprendre avant que les hiérarchies se stabilisent.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Swiss Football League - calendrier officiel 2026-2027", "url": "https://sfl.ch/articles/lescalendriersde-la-saison-202627", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "FC Lausanne",
+      "awayTeam": "Grasshoppers",
+      "competition": "D1 Suisse",
+      "probabilities": { "home": 45, "draw": 30, "away": 25 },
+      "analysis": {
+        "summary": "Lausanne est légèrement favori à domicile dans une opposition qui reste ouverte, car la première journée limite la fiabilité des tendances et Grasshopper conserve une capacité à accrocher le nul.",
+        "keyFactors": [
+          "Avantage du terrain pour Lausanne",
+          "Première journée sans tendance récente suffisamment robuste",
+          "Écart théorique modéré entre les deux équipes"
+        ],
+        "uncertainty": "Les compositions et la forme compétitive de reprise peuvent modifier sensiblement l'équilibre attendu.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Swiss Football League - calendrier officiel 2026-2027", "url": "https://sfl.ch/articles/lescalendriersde-la-saison-202627", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Sligo",
+      "awayTeam": "Drogheda",
+      "competition": "D1 Irlande",
+      "probabilities": { "home": 36, "draw": 31, "away": 33 },
+      "analysis": {
+        "summary": "L'affiche paraît très équilibrée : Sligo reçoit, mais aucun avantage suffisamment net ne se dégage pour écarter le nul ou une victoire de Drogheda.",
+        "keyFactors": [
+          "Avantage du terrain pour Sligo au Showgrounds",
+          "Opposition de championnat à forte variabilité",
+          "Écart théorique trop faible pour dégager un favori solide"
+        ],
+        "uncertainty": "Les informations publiques récentes disponibles ne permettent pas d'établir une supériorité nette d'une équipe.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Sligo Rovers - billetterie officielle du match", "url": "https://sligorovers.ticketco.events/ie/en/e/sligo_rovers_vs_drogheda_utd", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Galway",
+      "awayTeam": "Waterford",
+      "competition": "D1 Irlande",
+      "probabilities": { "home": 32, "draw": 29, "away": 39 },
+      "analysis": {
+        "summary": "Waterford arrive avec une dynamique récente plus convaincante, mais Galway reste dangereux à domicile et le changement de stade maintient une part importante d'incertitude.",
+        "keyFactors": [
+          "Waterford reste sur plusieurs résultats positifs récents",
+          "Galway a battu Sligo lors de sa dernière rencontre de championnat publiée",
+          "Le match se joue à Pearse Stadium après une modification officielle"
+        ],
+        "uncertainty": "Le changement de stade et la capacité de Galway à réagir à domicile rendent l'avantage de Waterford modéré plutôt que net.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "League of Ireland - modification officielle du match Galway - Waterford", "url": "https://www.leagueofireland.ie/news/galway-united-fixture-updates-sse-airtricity-mens-premier-division/", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Waterford FC - forme récente et fiche officielle du match", "url": "https://waterfordfc.ie/match/galway-united-fc-waterford-fc-2026-07-25/", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "DinamoBucarest",
+      "awayTeam": "Uni.Craiova",
+      "competition": "D1 Roumanie",
+      "probabilities": { "home": 28, "draw": 29, "away": 43 },
+      "analysis": {
+        "summary": "Universitatea Craiova possède l'avantage après une première journée très productive, tandis que Dinamo a commencé la saison avec un résultat moins favorable.",
+        "keyFactors": [
+          "Craiova a marqué quatre buts lors de la première journée",
+          "Dinamo figure derrière Craiova au classement après un match",
+          "Le déplacement à Bucarest réduit toutefois l'écart théorique"
+        ],
+        "uncertainty": "Une seule journée a été disputée, ce qui rend les écarts statistiques encore fragiles.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "LPF - programme officiel de la deuxième journée", "url": "https://lpf.ro/etape-liga-1/2", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "LPF - fiche officielle Universitatea Craiova", "url": "https://lpf.ro/cluburi/universitatea-craiova/9/calendar", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Lech Poznan",
+      "awayTeam": "KS Cracovia",
+      "competition": "D1 Pologne",
+      "probabilities": { "home": 62, "draw": 23, "away": 15 },
+      "analysis": {
+        "summary": "Lech Poznań est le favori le plus net de la grille grâce à l'avantage du terrain et à deux victoires officielles récentes, dont un succès européen 4-1 à Aarhus.",
+        "keyFactors": [
+          "Lech a battu Górnik Zabrze 3-1",
+          "Lech vient de gagner 4-1 à Aarhus en compétition européenne",
+          "Le match se joue à l'ENEA Stadion"
+        ],
+        "uncertainty": "La proximité d'une rencontre européenne retour peut influencer la rotation et la fraîcheur de Lech.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Lech Poznań - calendrier et résultats officiels", "url": "https://www.lechpoznan.pl/en/first-team%2C61.html", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Cracovia - fiche officielle du match", "url": "https://www.cracovia.pl/games/219/lech-poznan-cracovia", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Aarhus GF",
+      "awayTeam": "Brøndby",
+      "competition": "D1 Danemark",
+      "probabilities": { "home": 52, "draw": 27, "away": 21 },
+      "analysis": {
+        "summary": "AGF conserve un avantage à domicile après son titre national et sa victoire 2-0 à Brøndby au printemps, même si la lourde défaite européenne récente invite à rester prudent.",
+        "keyFactors": [
+          "AGF est champion du Danemark 2025-2026",
+          "AGF a gagné 2-0 à Brøndby lors de leur confrontation décisive de mai",
+          "AGF reçoit devant un stade annoncé complet mais sort d'une défaite 1-4 contre Lech"
+        ],
+        "uncertainty": "La charge européenne et la défaite récente contre Lech peuvent peser sur la fraîcheur et la confiance d'AGF.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "AGF - programme officiel du début de saison", "url": "https://agf.dk/nyheder/2026/juni/naest-ar-naermer-sig-de-forste-sl-kampe-pa-plads", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "AGF - titre remporté à Brøndby", "url": "https://www.agf.dk/nyheder/2026/maj/sadan-vandt-vi-dm-i-brondby", "accessedAt": "2026-07-24T00:56:00+02:00" },
+          { "label": "Lech Poznań - victoire récente 4-1 à Aarhus", "url": "https://www.lechpoznan.pl/pl/", "accessedAt": "2026-07-24T00:56:00+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "lf8-96-base",
+      "label": "Base équilibrée",
+      "selections": ["2", "1", "1", "1", "2", "2", "1", "1"],
+      "rationale": "Retient les favoris modérés et le scénario domicile sur l'affiche très équilibrée de Sligo."
+    },
+    {
+      "id": "lf8-96-nuls",
+      "label": "Couverture des matchs serrés",
+      "selections": ["N", "1", "N", "N", "2", "2", "1", "1"],
+      "rationale": "Couvre les nuls les plus plausibles à Genève, Lausanne et Sligo."
+    },
+    {
+      "id": "lf8-96-exterieurs",
+      "label": "Scénario visiteurs",
+      "selections": ["2", "N", "2", "2", "2", "2", "1", "1"],
+      "rationale": "Protège les scénarios où Grasshopper et Drogheda profitent de l'incertitude de reprise."
+    },
+    {
+      "id": "lf8-96-prudente",
+      "label": "Variante prudente",
+      "selections": ["1", "1", "1", "N", "N", "2", "1", "N"],
+      "rationale": "Réduit l'exposition aux favoris visiteurs et couvre un partage des points à Galway et Aarhus."
+    }
+  ]
+}
