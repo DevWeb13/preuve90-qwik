@@ -1,0 +1,269 @@
+{
+  "id": "lf7-92-2026-07-24",
+  "gridNumber": 92,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+  "validationDeadline": "2026-07-24T18:55:00+02:00",
+  "publishedAt": "2026-07-23T15:05:00+02:00",
+  "methodVersion": "v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "St Patricks",
+      "awayTeam": "Dundalk",
+      "competition": "D1 Irlande",
+      "probabilities": {
+        "home": 62,
+        "draw": 22,
+        "away": 16
+      },
+      "analysis": {
+        "summary": "St Patrick's reste favori à Richmond Park grâce à une dynamique domestique supérieure, tandis que Dundalk arrive fragilisé par trois défaites de championnat consécutives malgré un récent renfort offensif.",
+        "keyFactors": [
+          "Avantage du terrain et série récente solide de St Patrick's à Richmond Park",
+          "Dundalk a perdu ses trois derniers matchs de championnat",
+          "Le recrutement de Cian Dillon apporte une option offensive nouvelle mais encore peu intégrée"
+        ],
+        "uncertainty": "Un derby national peut réduire l'écart théorique, et l'impact immédiat des nouvelles recrues de Dundalk reste difficile à mesurer.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°92",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+            "accessedAt": "2026-07-23T15:02:00+02:00"
+          },
+          {
+            "label": "St Patrick's Athletic - match preview",
+            "url": "https://stpatsfc.com/preview.php?id=2017",
+            "accessedAt": "2026-07-23T15:03:00+02:00"
+          },
+          {
+            "label": "Dundalk FC - site officiel et actualités récentes",
+            "url": "https://www.dundalkfc.com/",
+            "accessedAt": "2026-07-23T15:03:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FC Arges",
+      "awayTeam": "Pet.Ploiesti",
+      "competition": "D1 Roumanie",
+      "probabilities": {
+        "home": 34,
+        "draw": 31,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "L'affiche paraît très équilibrée : FC Argeș reçoit après une défaite 2-0 contre le FCSB, alors que Petrolul a démarré par une victoire 1-0 contre le Dinamo Bucarest.",
+        "keyFactors": [
+          "Petrolul a gagné son premier match de championnat 1-0",
+          "FC Argeș a perdu 2-0 lors de la première journée",
+          "Le terrain de Mioveni rééquilibre une opposition serrée"
+        ],
+        "uncertainty": "Le championnat vient de reprendre et l'échantillon 2026-2027 est encore trop réduit pour dégager une tendance robuste.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°92",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+            "accessedAt": "2026-07-23T15:02:00+02:00"
+          },
+          {
+            "label": "FC Argeș - site officiel",
+            "url": "https://argesfc.ro/",
+            "accessedAt": "2026-07-23T15:03:00+02:00"
+          },
+          {
+            "label": "FC Petrolul - résultats récents officiels",
+            "url": "https://fcpetrolul.ro/",
+            "accessedAt": "2026-07-23T15:03:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Pogon Szczecin",
+      "awayTeam": "Legia Varsovie",
+      "competition": "D1 Pologne",
+      "probabilities": {
+        "home": 25,
+        "draw": 29,
+        "away": 46
+      },
+      "analysis": {
+        "summary": "Legia possède l'avantage théorique au lancement de la saison, mais Pogoń reste capable de profiter du terrain et d'une préparation ponctuée de plusieurs résultats positifs.",
+        "keyFactors": [
+          "Pogoń a terminé neuvième la saison précédente avec un bilan irrégulier",
+          "La préparation de Pogoń comprend notamment des victoires contre BFC Dynamo et Chrobry Głogów",
+          "Legia aborde cette première journée avec un effectif plus profond et l'ambition de jouer le haut du tableau"
+        ],
+        "uncertainty": "Il s'agit de la première journée de championnat, avec une forte incertitude sur les automatismes et les compositions définitives.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°92",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+            "accessedAt": "2026-07-23T15:02:00+02:00"
+          },
+          {
+            "label": "Legia Varsovie - présentation officielle du match",
+            "url": "https://legia.com/articles/pko-bank-polski-ekstraklasa-zapowiedz-meczu-pogon-szczecin-legia-warszawa-wracamy",
+            "accessedAt": "2026-07-23T15:03:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Arda",
+      "awayTeam": "Slavia Sofia",
+      "competition": "D1 Bulgarie",
+      "probabilities": {
+        "home": 50,
+        "draw": 29,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "Arda bénéficie d'un léger avantage à domicile après un nul lors de la première journée, face à un Slavia Sofia également invaincu mais historiquement moins à l'aise sur ce terrain.",
+        "keyFactors": [
+          "Arda reste sur quatre matchs de championnat sans défaite en comptant la fin de saison précédente",
+          "Slavia Sofia a débuté par un nul 0-0 contre le CSKA Sofia",
+          "Arda a remporté plusieurs confrontations récentes à domicile contre Slavia Sofia"
+        ],
+        "uncertainty": "Les deux équipes ont seulement disputé une journée officielle cette saison, ce qui limite fortement la fiabilité des tendances.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°92",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+            "accessedAt": "2026-07-23T15:02:00+02:00"
+          },
+          {
+            "label": "SportyTrader - état de forme Arda Kardzhali - Slavia Sofia",
+            "url": "https://www.sportytrader.com/pronostics/fk-arda-kurdzhali-slavia-sofia-360574/",
+            "accessedAt": "2026-07-23T15:04:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Viborg FF",
+      "awayTeam": "Odense",
+      "competition": "D1 Danemark",
+      "probabilities": {
+        "home": 47,
+        "draw": 30,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Viborg part légèrement devant à domicile, mais une préparation mitigée et l'absence de victoire récente dans cette confrontation maintiennent un risque de nul important.",
+        "keyFactors": [
+          "Avantage du terrain pour Viborg lors de l'ouverture de la saison",
+          "Viborg n'a gagné que deux de ses cinq matchs de préparation",
+          "Odense n'a pas perdu contre Viborg depuis deux ans"
+        ],
+        "uncertainty": "Les matchs de préparation sont peu prédictifs et les deux équipes débutent leur saison officielle.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°92",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+            "accessedAt": "2026-07-23T15:02:00+02:00"
+          },
+          {
+            "label": "Sports Mole - présentation Viborg FF - Odense",
+            "url": "https://www.sportsmole.co.uk/football/viborg-ff/preview/viborg-vs-odense-prediction-team-news-lineups_601689.html",
+            "accessedAt": "2026-07-23T15:04:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Vasteras SK",
+      "awayTeam": "Örgryte",
+      "competition": "D1 Suède",
+      "probabilities": {
+        "home": 57,
+        "draw": 27,
+        "away": 16
+      },
+      "analysis": {
+        "summary": "Västerås est favori au vu de son classement et de sa série récente, même si Örgryte vient de prendre quatre points contre Häcken et Djurgården.",
+        "keyFactors": [
+          "Västerås est huitième avec 19 points après 13 journées",
+          "Västerås a pris sept points sur ses trois derniers matchs",
+          "Örgryte reste avant-dernier malgré une victoire contre Häcken et un nul contre Djurgården"
+        ],
+        "uncertainty": "Le regain récent d'Örgryte et plusieurs confrontations historiquement serrées augmentent la probabilité d'un match moins déséquilibré qu'attendu.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°92",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+            "accessedAt": "2026-07-23T15:02:00+02:00"
+          },
+          {
+            "label": "Sports Mole - présentation Västerås SK - Örgryte",
+            "url": "https://www.sportsmole.co.uk/football/vasteras-sk/preview/vasteras-vs-orgryte-prediction-team-news-lineups_601667.html",
+            "accessedAt": "2026-07-23T15:04:00+02:00"
+          },
+          {
+            "label": "Aftonbladet - nul récent d'Örgryte contre Djurgården",
+            "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/7pBEjW/allsvenskan-orgryte-nollade-djurgarden-pa-hemmaplan",
+            "accessedAt": "2026-07-23T15:04:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Gimnasia Y Esg",
+      "awayTeam": "CentralCordoba",
+      "competition": "D1 Argentine",
+      "probabilities": {
+        "home": 43,
+        "draw": 31,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Gimnasia Mendoza reçoit avec un léger avantage grâce à trois victoires consécutives à domicile en fin d'Apertura, mais Central Córdoba conserve une probabilité significative dans un match de reprise.",
+        "keyFactors": [
+          "Gimnasia a terminé l'Apertura sur trois victoires consécutives à domicile",
+          "Le terrain de Mendoza favorise légèrement l'équipe locale",
+          "La reprise de compétition augmente la volatilité du résultat"
+        ],
+        "uncertainty": "Le nouveau segment de championnat débute et les informations récentes sur les compositions restent limitées.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°92",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+            "accessedAt": "2026-07-23T15:02:00+02:00"
+          },
+          {
+            "label": "BetMines - présentation Gimnasia Mendoza - Central Córdoba",
+            "url": "https://betmines.com/match-preview/gimnasia-y-esgrima-mendoza-vs-central-cordoba-sde-prediction-match-preview-and-analysis-liga-profesional-de-futbol-24-07-2026",
+            "accessedAt": "2026-07-23T15:04:00+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "lf7-92-base",
+      "label": "Sélection principale",
+      "selections": ["1", "N", "2", "1", "1", "1", "1"],
+      "rationale": "Combinaison centrée sur les favoris les plus nets, avec un nul de couverture sur FC Argeș - Petrolul."
+    },
+    {
+      "id": "lf7-92-prudente",
+      "label": "Variante prudente",
+      "selections": ["1", "2", "N", "1", "N", "1", "1"],
+      "rationale": "Variante qui couvre Petrolul, un nul possible à Szczecin et l'incertitude du match de reprise au Danemark."
+    },
+    {
+      "id": "lf7-92-contrariante",
+      "label": "Variante contrariante",
+      "selections": ["N", "1", "2", "N", "1", "N", "2"],
+      "rationale": "Combinaison plus risquée destinée à couvrir plusieurs scénarios de surprise ou de partage des points."
+    }
+  ]
+}
