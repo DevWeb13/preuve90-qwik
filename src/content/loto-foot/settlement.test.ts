@@ -58,6 +58,8 @@ describe("calcul du règlement", () => {
     expect(calculatePublicationStakeCents(publication)).toBe(200);
     expect(calculatePublicationReturnCents(publication, result)).toBe(1_200);
     expect(calculatePublicationNetCents(publication, result)).toBe(1_000);
+    expect(calculatePublicationReturnCents(publication)).toBeUndefined();
+    expect(calculatePublicationNetCents(publication)).toBeUndefined();
     expect(getPublicationStatus()).toBe("pending");
     expect(getPublicationStatus(result)).toBe("settled");
     expect(calculatePublicationSettlement(publication, result)).toMatchObject({
@@ -69,8 +71,8 @@ describe("calcul du règlement", () => {
     expect(calculatePublicationSettlement(publication)).toMatchObject({
       status: "pending",
       stakeCents: 200,
-      returnCents: 0,
-      netCents: -200,
     });
+    expect(calculatePublicationSettlement(publication)).not.toHaveProperty("returnCents");
+    expect(calculatePublicationSettlement(publication)).not.toHaveProperty("netCents");
   });
 });

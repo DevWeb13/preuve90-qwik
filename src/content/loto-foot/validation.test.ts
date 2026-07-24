@@ -339,7 +339,11 @@ describe("chargement des publications", () => {
   });
 
   it("conserve les publications historiques 91 et 92 sans modifier leurs JSON", () => {
-    expect(lotoFootPublications.map(({ id, formula }) => ({ id, formula }))).toEqual([
+    expect(
+      lotoFootPublications
+        .filter(({ id }) => id === "lf7-91-2026-07-22" || id === "lf7-92-2026-07-24")
+        .map(({ id, formula }) => ({ id, formula })),
+    ).toEqual([
       { id: "lf7-92-2026-07-24", formula: 7 },
       { id: "lf7-91-2026-07-22", formula: 7 },
     ]);

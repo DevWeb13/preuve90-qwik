@@ -35,6 +35,7 @@ describe("présentation Loto Foot", () => {
     expect(getNetPresentation(100)).toEqual({ label: "Bénéfice", tone: "positive" });
     expect(getNetPresentation(-100)).toEqual({ label: "Perte", tone: "negative" });
     expect(getNetPresentation(0)).toEqual({ label: "Équilibre", tone: "neutral" });
+    expect(getNetPresentation(undefined)).toEqual({ label: "En attente", tone: "pending" });
   });
 
   it("formule les scores et extrait la meilleure performance déjà calculée", () => {

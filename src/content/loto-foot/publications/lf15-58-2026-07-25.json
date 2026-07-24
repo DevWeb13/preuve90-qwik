@@ -4,7 +4,7 @@
   "gridNumber": 58,
   "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
   "validationDeadline": "2026-07-25T23:50:00+02:00",
-  "publishedAt": "2026-07-24T02:04:00+02:00",
+  "publishedAt": "2026-07-24T10:43:12+02:00",
   "methodVersion": "loto-foot-v1",
   "matches": [
     {
@@ -12,15 +12,26 @@
       "homeTeam": "Orlando City",
       "awayTeam": "Nashville SC",
       "competition": "MLS",
-      "probabilities": { "home": 28, "draw": 29, "away": 43 },
+      "probabilities": { "home": 22, "draw": 26, "away": 52 },
       "analysis": {
-        "summary": "Nashville présente le profil le plus solide, mais Orlando conserve un avantage de terrain capable de resserrer l'affiche.",
-        "keyFactors": ["Nashville figure parmi les équipes les mieux placées à l'Est", "Orlando reste compétitif à domicile", "La reprise après la longue pause estivale augmente l'incertitude"],
-        "uncertainty": "Le retour à la compétition après la pause Coupe du monde peut modifier les rapports de force habituels.",
+        "summary": "Nashville arrive en leader de l'Est et sur cinq victoires consécutives face à un Orlando dixième, très perméable malgré son avantage de terrain.",
+        "keyFactors": [
+          "Nashville compte 39 points et une différence de buts de +22 après 16 matchs",
+          "Orlando a encaissé 44 buts en 16 rencontres",
+          "Nashville n'a perdu qu'une fois et reste solide en déplacement"
+        ],
+        "uncertainty": "Orlando marque régulièrement à domicile et la reprise après la longue pause peut encore perturber les automatismes.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - Orlando City vs Nashville SC, forme et statistiques du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-orlando-city-vs-nashville-sc-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -29,15 +40,26 @@
       "homeTeam": "NY City FC",
       "awayTeam": "Chicago Fire",
       "competition": "MLS",
-      "probabilities": { "home": 42, "draw": 29, "away": 29 },
+      "probabilities": { "home": 45, "draw": 29, "away": 26 },
       "analysis": {
-        "summary": "New York City bénéficie du terrain, tandis que Chicago possède assez de qualité offensive pour maintenir une rencontre équilibrée.",
-        "keyFactors": ["Avantage du terrain pour New York City", "Chicago est annoncé dans la première moitié de l'Est", "Les deux équipes restent proches dans la hiérarchie"],
-        "uncertainty": "La forme réelle après la reprise de juillet reste encore peu documentée.",
+        "summary": "New York City garde un léger avantage à domicile et reste invaincu lors des neuf dernières confrontations avec Chicago, pourtant mieux classé.",
+        "keyFactors": [
+          "NYCFC vient de gagner 2-1 à Columbus",
+          "Chicago est troisième de l'Est et performant à l'extérieur",
+          "NYCFC a remporté les deux confrontations de 2025 sur le score de 3-1"
+        ],
+        "uncertainty": "NYCFC cumule plusieurs absences, tandis que l'intégration récente de Robert Lewandowski rend le potentiel offensif de Chicago moins prévisible.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Sports Mole - NYCFC vs Chicago, forme et absences du 23 juillet 2026",
+            "url": "https://www.sportsmole.co.uk/football/new-york-city-fc/preview/ny-city-vs-chicago-fire-prediction-team-news-lineups_601748.html",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -46,15 +68,31 @@
       "homeTeam": "Los Angeles FC",
       "awayTeam": "Kansas City",
       "competition": "MLS",
-      "probabilities": { "home": 63, "draw": 22, "away": 15 },
+      "probabilities": { "home": 70, "draw": 19, "away": 11 },
       "analysis": {
-        "summary": "LAFC part nettement favori à domicile face à un Sporting Kansas City moins bien armé sur la profondeur d'effectif.",
-        "keyFactors": ["LAFC appartient aux favoris structurels de l'Ouest", "Avantage du terrain important", "Kansas City est attendu dans le bas de la conférence"],
-        "uncertainty": "Les rotations post-Coupe du monde peuvent réduire l'écart théorique.",
+        "summary": "Troisième à l'Ouest et porté par trois victoires de suite, LAFC est nettement favori à domicile contre le dernier de la conférence.",
+        "keyFactors": [
+          "LAFC reste sur des succès contre le Galaxy et Real Salt Lake",
+          "Son Heung-min et Denis Bouanga animent une attaque en réussite",
+          "Kansas City affiche 14 points et une différence de buts de -22"
+        ],
+        "uncertainty": "Kansas City vient de battre Minnesota et LAFC dispute son troisième match en neuf jours, ce qui peut imposer des rotations.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - LAFC vs Sporting Kansas City, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-lafc-vs-sporting-kc-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "LAFC - reprise et enchaînement de trois matchs en neuf jours",
+            "url": "https://www.lafc.com/news/lafc-returns-looking-ahead-to-the-second-half",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -63,15 +101,26 @@
       "homeTeam": "CF Montreal",
       "awayTeam": "Inter Miami",
       "competition": "MLS",
-      "probabilities": { "home": 16, "draw": 22, "away": 62 },
+      "probabilities": { "home": 17, "draw": 23, "away": 60 },
       "analysis": {
-        "summary": "Inter Miami dispose d'un avantage net sur la qualité individuelle et la profondeur, même en déplacement à Montréal.",
-        "keyFactors": ["Inter Miami est le favori annoncé de l'Est", "Montréal est attendu dans le bas du classement", "Écart marqué de qualité offensive"],
-        "uncertainty": "La disponibilité exacte des internationaux d'Inter Miami reste un facteur majeur.",
+        "summary": "Inter Miami reste nettement supérieur à Montréal par son classement et sa production offensive, même sans certitude sur Lionel Messi.",
+        "keyFactors": [
+          "Miami est deuxième de l'Est avec 34 points contre 15 pour Montréal",
+          "Luis Suárez vient de signer deux buts et une passe face à Chicago",
+          "Miami a gagné les trois derniers duels pour un total de 11 buts à 5"
+        ],
+        "uncertainty": "Lionel Messi est annoncé incertain après la finale de Coupe du monde et Miami enchaîne un deuxième déplacement en quelques jours.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - CF Montréal vs Inter Miami, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/en/news/cf-montreal-vs-inter-miami-predictions-25-07-26/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -80,15 +129,26 @@
       "homeTeam": "NY Red Bulls",
       "awayTeam": "Charlotte FC",
       "competition": "MLS",
-      "probabilities": { "home": 37, "draw": 30, "away": 33 },
+      "probabilities": { "home": 39, "draw": 29, "away": 32 },
       "analysis": {
-        "summary": "Le terrain donne un léger avantage aux Red Bulls, mais Charlotte possède un niveau collectif comparable.",
-        "keyFactors": ["Équipes proches dans les projections de conférence", "Avantage du terrain pour New York", "Match potentiellement fermé"],
-        "uncertainty": "La dynamique de reprise peut faire basculer cette affiche très équilibrée.",
+        "summary": "Les Red Bulls gardent un court avantage à domicile, mais Charlotte se présente avec une dynamique légèrement supérieure et peut prendre un point.",
+        "keyFactors": [
+          "New York sort d'une défaite 3-1 à Philadelphia",
+          "Charlotte a mené 2-0 avant de concéder le nul contre Atlanta",
+          "Les deux équipes restent proches de la zone des séries"
+        ],
+        "uncertainty": "La jeunesse de New York et le court délai depuis les rencontres de milieu de semaine rendent l'équilibre fragile.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "The Stats Zone - Red Bulls vs Charlotte, forme du 23 juillet 2026",
+            "url": "https://www.thestatszone.com/new-york-red-bulls-vs-charlotte-preview-prediction-2026-mls-209009",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -97,15 +157,26 @@
       "homeTeam": "Columbus Crew",
       "awayTeam": "FC Cincinnati",
       "competition": "MLS",
-      "probabilities": { "home": 33, "draw": 30, "away": 37 },
+      "probabilities": { "home": 39, "draw": 29, "away": 32 },
       "analysis": {
-        "summary": "Cincinnati possède un léger avantage structurel, mais Columbus reste très difficile à dominer à domicile.",
-        "keyFactors": ["Cincinnati est placé parmi les candidats au titre à l'Est", "Columbus reste une équipe de haut de tableau", "Rivalité régionale souvent serrée"],
-        "uncertainty": "Le derby réduit la fiabilité d'un avantage théorique faible.",
+        "summary": "Cincinnati est mieux classé et vient de marquer quatre buts, mais le terrain et le contexte du derby ramènent Columbus légèrement devant.",
+        "keyFactors": [
+          "Cincinnati est cinquième avec 23 points contre 16 pour Columbus",
+          "Cincinnati vient de battre Vancouver 4-3",
+          "Columbus retrouve son public après une défaite 2-1 contre NYCFC"
+        ],
+        "uncertainty": "Le derby Hell is Real et les défenses exposées rendent les trois issues crédibles.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - Columbus Crew vs FC Cincinnati, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-columbus-crew-vs-fc-cincinnati-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -114,15 +185,26 @@
       "homeTeam": "Saint Louis SC",
       "awayTeam": "Colorado",
       "competition": "MLS",
-      "probabilities": { "home": 45, "draw": 29, "away": 26 },
+      "probabilities": { "home": 54, "draw": 26, "away": 20 },
       "analysis": {
-        "summary": "Saint Louis est légèrement favori à domicile face à Colorado, dont les performances à l'extérieur sont plus incertaines.",
-        "keyFactors": ["Avantage du terrain pour Saint Louis", "Colorado est projeté dans le bas de l'Ouest", "Écart modéré de profondeur d'effectif"],
-        "uncertainty": "Les deux équipes ont connu des trajectoires irrégulières, ce qui augmente le risque de nul.",
+        "summary": "Saint Louis est favori grâce à son terrain et à une série de cinq victoires en six matchs, mais Colorado arrive également sur un succès.",
+        "keyFactors": [
+          "Saint Louis a battu Kansas City puis le Galaxy depuis la reprise",
+          "CITY vise une sixième victoire en sept matchs",
+          "Colorado a dominé San Diego 1-0 sur un but tardif"
+        ],
+        "uncertainty": "La bonne reprise des Rapids et la faible marge récente de leurs victoires laissent une vraie place au nul.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Sports Mole - St. Louis CITY vs Colorado Rapids, forme du 23 juillet 2026",
+            "url": "https://www.sportsmole.co.uk/football/saint-louis-city/preview/st-louis-city-vs-colorado-rapidsprediction-team-news-lineups_601736.html",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -131,15 +213,26 @@
       "homeTeam": "Minnesota Utd",
       "awayTeam": "Vancouver",
       "competition": "MLS",
-      "probabilities": { "home": 34, "draw": 31, "away": 35 },
+      "probabilities": { "home": 25, "draw": 28, "away": 47 },
       "analysis": {
-        "summary": "Minnesota et Vancouver apparaissent presque à égalité, avec un léger avantage qualitatif pour les visiteurs compensé par le terrain.",
-        "keyFactors": ["Vancouver reste une équipe solide de l'Ouest", "Minnesota bénéficie du terrain", "Écart théorique très faible"],
-        "uncertainty": "Les absences et rotations de reprise peuvent modifier fortement cette rencontre.",
+        "summary": "Vancouver, leader de l'Ouest, possède un avantage net face à un Minnesota neuvième et sans victoire depuis cinq matchs.",
+        "keyFactors": [
+          "Vancouver reste l'une des équipes les plus solides de la conférence",
+          "Minnesota vient de perdre 2-1 à Kansas City",
+          "Les Whitecaps ont encore marqué trois buts lors de leur défaite 4-3 à Cincinnati"
+        ],
+        "uncertainty": "Vancouver enchaîne un deuxième déplacement et vient de montrer des failles défensives inhabituelles.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Minnesota United - présentation du match contre Vancouver du 25 juillet 2026",
+            "url": "https://www.mnufc.com/news/preview-loons-look-to-bounce-back-against-conference-leading-vancouver",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -148,15 +241,26 @@
       "homeTeam": "Houston",
       "awayTeam": "Austin FC",
       "competition": "MLS",
-      "probabilities": { "home": 44, "draw": 30, "away": 26 },
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
       "analysis": {
-        "summary": "Houston possède un avantage mesuré à domicile contre Austin, dans une affiche texane qui peut rester longtemps indécise.",
-        "keyFactors": ["Avantage du terrain pour Houston", "Austin est projeté plus bas dans l'Ouest", "Contexte de derby régional"],
-        "uncertainty": "Les derbies sont souvent moins prévisibles que les écarts de classement.",
+        "summary": "Houston est clairement favori à domicile contre Austin, quatorzième de l'Ouest malgré son succès convaincant de mercredi.",
+        "keyFactors": [
+          "Houston est septième avec un match en moins",
+          "Austin reste à six points de la zone qualificative",
+          "Austin vient néanmoins de battre Seattle 3-1"
+        ],
+        "uncertainty": "Le derby texan et le regain offensif d'Austin peuvent réduire l'écart attendu.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - Houston Dynamo vs Austin FC, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-houston-dynamo-vs-austin-fc-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -165,15 +269,26 @@
       "homeTeam": "Philadelphia",
       "awayTeam": "Seattle",
       "competition": "MLS",
-      "probabilities": { "home": 45, "draw": 29, "away": 26 },
+      "probabilities": { "home": 48, "draw": 27, "away": 25 },
       "analysis": {
-        "summary": "Philadelphia part légèrement devant à domicile, mais Seattle dispose de suffisamment d'expérience pour menacer en transition.",
-        "keyFactors": ["Philadelphia est annoncé dans le haut de l'Est", "Avantage du terrain", "Seattle conserve une forte expérience collective"],
-        "uncertainty": "Le déplacement interconférence et la reprise estivale augmentent l'incertitude.",
+        "summary": "Philadelphia, pourtant dernier à l'Est, a l'avantage de la dynamique et du terrain contre un Seattle en forte difficulté à l'extérieur.",
+        "keyFactors": [
+          "Philadelphia vient de battre les Red Bulls 3-1",
+          "Seattle reste sur quatre défaites consécutives",
+          "Seattle a encaissé lors de ses neuf derniers matchs"
+        ],
+        "uncertainty": "Le classement très bas de Philadelphia et l'expérience de Seattle empêchent d'écarter le nul ou un réveil visiteur.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - Philadelphia Union vs Seattle Sounders, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-philadelphia-union-vs-seattle-sounders-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -182,15 +297,26 @@
       "homeTeam": "Portland",
       "awayTeam": "Salt Lake",
       "competition": "MLS",
-      "probabilities": { "home": 43, "draw": 29, "away": 28 },
+      "probabilities": { "home": 44, "draw": 29, "away": 27 },
       "analysis": {
-        "summary": "Portland bénéficie d'un léger avantage à domicile, tandis que Real Salt Lake reste capable de punir les déséquilibres.",
-        "keyFactors": ["Avantage du terrain pour Portland", "Équipes de niveau intermédiaire proche", "RSL possède une expérience significative des matchs serrés"],
-        "uncertainty": "La hiérarchie de l'Ouest demeure compacte derrière les favoris.",
+        "summary": "Portland est légèrement favori à domicile grâce à sa reprise offensive, même si Real Salt Lake reste mieux classé.",
+        "keyFactors": [
+          "Portland a marqué lors de ses trois derniers matchs",
+          "Les Timbers viennent d'enchaîner un 5-1 à Seattle puis un nul 2-2 contre Dallas",
+          "RSL est quatrième mais vient de perdre 3-1 contre LAFC"
+        ],
+        "uncertainty": "Real Salt Lake a huit points d'avance et les deux équipes disposent de peu de récupération après leur match de mercredi.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - Portland Timbers vs Real Salt Lake, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-portland-timbers-vs-real-salt-lake-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -199,15 +325,31 @@
       "homeTeam": "San Diego FC",
       "awayTeam": "Dallas FC",
       "competition": "MLS",
-      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "probabilities": { "home": 50, "draw": 27, "away": 23 },
       "analysis": {
-        "summary": "San Diego part favori grâce à son avantage de terrain et à un projet sportif plus convaincant que celui de Dallas.",
-        "keyFactors": ["San Diego est annoncé dans le haut de l'Ouest", "Dallas est projeté plus bas", "Avantage du terrain"],
-        "uncertainty": "Dallas peut néanmoins profiter d'une reprise encore irrégulière chez l'équipe locale.",
+        "summary": "San Diego conserve l'avantage à domicile et a déjà battu Dallas cette saison, mais les dynamiques de mercredi resserrent la rencontre.",
+        "keyFactors": [
+          "San Diego s'était imposé 3-2 à Dallas en mars",
+          "Dallas vient d'obtenir un nul 2-2 à Portland",
+          "San Diego retrouve Snapdragon Stadium après une défaite 1-0 à Colorado"
+        ],
+        "uncertainty": "La défaite de reprise de San Diego et les deux buts inscrits par Dallas mercredi réduisent la solidité du favori.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "San Diego FC - victoire 3-2 à Dallas en 2026",
+            "url": "https://www.sandiegofc.com/news/match-recap-san-diego-fc-rallies-to-beat-fc-dallas-3-2-at-toyota-stadium",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "FC Dallas - nul 2-2 à Portland du 22 juillet 2026",
+            "url": "https://www.fcdallas.com/news/fc-dallas-draws-2-2-with-portland-timbers",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -216,15 +358,26 @@
       "homeTeam": "New England",
       "awayTeam": "Atlanta Utd",
       "competition": "MLS",
-      "probabilities": { "home": 40, "draw": 30, "away": 30 },
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
       "analysis": {
-        "summary": "New England bénéficie du terrain, mais Atlanta possède assez de talent individuel pour maintenir les trois issues ouvertes.",
-        "keyFactors": ["Avantage du terrain pour New England", "Projections de conférence proches", "Atlanta reste dangereux offensivement"],
-        "uncertainty": "Les deux équipes ont manqué de régularité, ce qui rend le nul très plausible.",
+        "summary": "Quatrième de l'Est, New England est favori à domicile contre un Atlanta quatorzième et sans victoire depuis cinq matchs.",
+        "keyFactors": [
+          "New England compte 26 points contre 12 pour Atlanta",
+          "Atlanta a encaissé lors de ses onze derniers matchs",
+          "New England affiche une différence de buts positive"
+        ],
+        "uncertainty": "Atlanta vient de remonter deux buts à Charlotte et garde assez de talent offensif pour exploiter un relâchement.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - New England Revolution vs Atlanta United, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-new-england-revolution-vs-atlanta-united-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -233,15 +386,26 @@
       "homeTeam": "DC United",
       "awayTeam": "Toronto FC",
       "competition": "MLS",
-      "probabilities": { "home": 42, "draw": 30, "away": 28 },
+      "probabilities": { "home": 47, "draw": 32, "away": 21 },
       "analysis": {
-        "summary": "D.C. United est légèrement favori à domicile contre Toronto, dans une confrontation entre équipes annoncées dans le bas de l'Est.",
-        "keyFactors": ["Avantage du terrain pour D.C. United", "Deux équipes proches dans les projections", "Faible marge qualitative"],
-        "uncertainty": "La faiblesse relative des repères récents rend cette rencontre très volatile.",
+        "summary": "D.C. United a l'avantage à domicile, mais les deux équipes accumulent les nuls et Toronto reste difficile à battre depuis la reprise.",
+        "keyFactors": [
+          "D.C. reste invaincu lors de ses deux derniers matchs à domicile",
+          "Toronto vient d'enchaîner deux 0-0",
+          "Toronto n'a marqué que deux buts en seconde période à l'extérieur cette saison"
+        ],
+        "uncertainty": "Les nombreuses absences possibles des deux côtés et leur faible production récente renforcent nettement le scénario nul.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Sports Mole - D.C. United vs Toronto FC, forme et absences du 23 juillet 2026",
+            "url": "https://www.sportsmole.co.uk/football/dc-united/preview/dc-united-vs-toronto-prediction-team-news-lineups_601755.html",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     },
@@ -250,24 +414,65 @@
       "homeTeam": "San Jose",
       "awayTeam": "LA Galaxy",
       "competition": "MLS",
-      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "probabilities": { "home": 55, "draw": 25, "away": 20 },
       "analysis": {
-        "summary": "Le Galaxy possède un léger avantage qualitatif, mais San Jose peut exploiter son terrain dans un derby californien ouvert.",
-        "keyFactors": ["LA Galaxy dispose d'un effectif plus profond", "San Jose bénéficie du terrain", "Derby californien favorable aux scénarios ouverts"],
-        "uncertainty": "La rivalité et les possibles rotations rendent l'écart théorique peu robuste.",
+        "summary": "Deuxième à l'Ouest, San Jose est favori au Stanford Stadium contre un Galaxy fragilisé par ses résultats de reprise et des départs importants.",
+        "keyFactors": [
+          "San Jose affiche 32 points et une différence de buts largement positive",
+          "Le Galaxy a perdu 3-0 contre LAFC puis 3-1 à Saint Louis",
+          "Le Galaxy a perdu Gabriel Pec pendant la fenêtre estivale"
+        ],
+        "uncertainty": "Le California Clásico reste un derby à forte variance et San Jose joue dans un stade différent de son enceinte habituelle.",
         "sources": [
-          { "label": "FDJ - Loto Foot 15 n°58", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - classement officiel 2026", "url": "https://www.mlssoccer.com/standings/", "accessedAt": "2026-07-24T01:58:00+02:00" },
-          { "label": "MLS - projections officielles 2026", "url": "https://www.mlssoccer.com/news/expert-predictions-2026-mls-eastern-conference-western-conference-standings", "accessedAt": "2026-07-24T01:58:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 15 n°58",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "Squawka - San Jose Earthquakes vs LA Galaxy, forme du 25 juillet 2026",
+            "url": "https://www.squawka.com/us/news/mls/match-preview-san-jose-earthquakes-vs-la-galaxy-07-25-26-mls/",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          },
+          {
+            "label": "San Jose Earthquakes - California Clásico 2026 au Stanford Stadium",
+            "url": "https://www.sjearthquakes.com/news/news-earthquakes-announce-tickets-on-sale-this-week-for-105th-california-clasico-vs-la-galaxy-at-stanford-stadium",
+            "accessedAt": "2026-07-24T10:43:06+02:00"
+          }
         ]
       }
     }
   ],
   "tickets": [
-    { "id": "lf15-58-base", "label": "Scénario principal", "selections": ["2","1","1","2","1","2","1","2","1","1","1","1","1","1","2"], "rationale": "Sélections correspondant à l'issue la plus probable de chaque analyse." },
-    { "id": "lf15-58-nuls", "label": "Couverture des matchs serrés", "selections": ["N","N","1","2","N","N","1","N","N","1","N","1","N","N","2"], "rationale": "Renforce la couverture des affiches dont la probabilité de nul est proche des deux autres issues." },
-    { "id": "lf15-58-est", "label": "Variante Est", "selections": ["2","1","1","2","2","1","1","2","1","1","1","1","2","1","2"], "rationale": "Couvre Charlotte, Columbus et Atlanta sur trois rencontres équilibrées de la conférence Est." },
-    { "id": "lf15-58-ouest", "label": "Variante Ouest", "selections": ["2","1","1","2","1","2","1","1","1","1","2","1","1","1","1"], "rationale": "Couvre Minnesota, Salt Lake et San Jose dans les matchs les plus incertains à l'Ouest." },
-    { "id": "lf15-58-surprises", "label": "Scénario de surprises", "selections": ["1","2","N","2","1","2","2","2","2","2","1","N","1","2","N"], "rationale": "Introduit plusieurs résultats extérieurs ou nuls plausibles sans multiplier artificiellement les combinaisons." }
+    {
+      "id": "lf15-58-base",
+      "label": "Scénario principal",
+      "selections": ["2", "1", "1", "2", "1", "1", "1", "2", "1", "1", "1", "1", "1", "1", "1"],
+      "rationale": "Sélections correspondant à l'issue la plus probable de chaque analyse actualisée."
+    },
+    {
+      "id": "lf15-58-nuls",
+      "label": "Couverture des matchs serrés",
+      "selections": ["N", "N", "1", "2", "N", "N", "1", "N", "1", "N", "N", "1", "1", "N", "1"],
+      "rationale": "Renforce la couverture des affiches où le nul conserve un poids significatif après les matchs de reprise."
+    },
+    {
+      "id": "lf15-58-est",
+      "label": "Variante Est",
+      "selections": ["2", "2", "1", "2", "2", "2", "1", "2", "1", "1", "1", "1", "N", "1", "1"],
+      "rationale": "Couvre Chicago, Charlotte, Cincinnati et une résistance d'Atlanta dans les rencontres les plus ouvertes à l'Est."
+    },
+    {
+      "id": "lf15-58-ouest",
+      "label": "Variante Ouest",
+      "selections": ["2", "1", "1", "2", "1", "1", "2", "2", "1", "1", "2", "N", "1", "1", "N"],
+      "rationale": "Couvre Colorado, Real Salt Lake, Dallas et le nul du California Clásico sans renier les favoris les plus solides."
+    },
+    {
+      "id": "lf15-58-surprises",
+      "label": "Scénario de surprises",
+      "selections": ["1", "N", "N", "N", "2", "N", "2", "1", "2", "2", "2", "2", "2", "2", "2"],
+      "rationale": "Introduit des résultats contraires aux favoris lorsque la reprise, les rotations ou le contexte de derby le permettent."
+    }
   ]
 }

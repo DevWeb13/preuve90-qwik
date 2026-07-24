@@ -31,8 +31,12 @@ const signedCurrencyFormatter = new Intl.NumberFormat("fr-FR", {
   signDisplay: "always",
 });
 
-const formatNet = (netCents: number) =>
-  netCents === 0 ? currencyFormatter.format(0) : signedCurrencyFormatter.format(netCents / 100);
+const formatNet = (netCents?: number) =>
+  netCents === undefined
+    ? "—"
+    : netCents === 0
+      ? currencyFormatter.format(0)
+      : signedCurrencyFormatter.format(netCents / 100);
 
 export const usePublication = routeLoader$(({ params, status }) => {
   const publication = getLotoFootPublicationById(params.id);
@@ -135,15 +139,21 @@ export default component$(() => {
             <div data-finance-item>
               <dt>Retour total</dt>
               <dd>
-                <span
-                  class="animated-amount"
-                  data-count-cents={settlement.returnCents}
-                  aria-hidden="true"
-                >
-                  {currencyFormatter.format(settlement.returnCents / 100)}
-                </span>
+                {settlement.returnCents === undefined ? (
+                  <span>En attente</span>
+                ) : (
+                  <span
+                    class="animated-amount"
+                    data-count-cents={settlement.returnCents}
+                    aria-hidden="true"
+                  >
+                    {currencyFormatter.format(settlement.returnCents / 100)}
+                  </span>
+                )}
                 <span class="sr-only">
-                  {currencyFormatter.format(settlement.returnCents / 100)}
+                  {settlement.returnCents === undefined
+                    ? "En attente"
+                    : currencyFormatter.format(settlement.returnCents / 100)}
                 </span>
               </dd>
             </div>
@@ -151,14 +161,18 @@ export default component$(() => {
               <dt>Résultat net</dt>
               <dd>
                 <span class="net-state-label">{net.label}</span>
-                <span
-                  class="animated-amount"
-                  data-count-cents={settlement.netCents}
-                  data-count-signed="true"
-                  aria-hidden="true"
-                >
-                  {formatNet(settlement.netCents)}
-                </span>
+                {settlement.netCents === undefined ? (
+                  <span>—</span>
+                ) : (
+                  <span
+                    class="animated-amount"
+                    data-count-cents={settlement.netCents}
+                    data-count-signed="true"
+                    aria-hidden="true"
+                  >
+                    {formatNet(settlement.netCents)}
+                  </span>
+                )}
                 <span class="sr-only">{formatNet(settlement.netCents)}</span>
               </dd>
             </div>

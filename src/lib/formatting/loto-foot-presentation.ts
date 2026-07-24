@@ -6,7 +6,7 @@ import type {
 import type { LotoFootPublicationSettlement } from "~/content/loto-foot/settlement";
 
 export type PublicationDisplayStatus = "open" | "pending" | "settled";
-export type FinancialTone = "positive" | "negative" | "neutral";
+export type FinancialTone = "positive" | "negative" | "neutral" | "pending";
 
 export function getPublicationDisplayStatus(
   publication: LotoFootPublication,
@@ -23,10 +23,11 @@ export function getPublicationStatusLabel(status: PublicationDisplayStatus): str
   return "En attente";
 }
 
-export function getNetPresentation(netCents: number): {
-  label: "Bénéfice" | "Perte" | "Équilibre";
+export function getNetPresentation(netCents?: number): {
+  label: "Bénéfice" | "Perte" | "Équilibre" | "En attente";
   tone: FinancialTone;
 } {
+  if (netCents === undefined) return { label: "En attente", tone: "pending" };
   if (netCents > 0) return { label: "Bénéfice", tone: "positive" };
   if (netCents < 0) return { label: "Perte", tone: "negative" };
   return { label: "Équilibre", tone: "neutral" };

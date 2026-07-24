@@ -41,12 +41,16 @@ const percentageFormatter = new Intl.NumberFormat("fr-FR", {
   maximumFractionDigits: 1,
 });
 
-const formatNet = (netCents: number) =>
-  netCents === 0 ? currencyFormatter.format(0) : signedCurrencyFormatter.format(netCents / 100);
+const formatNet = (netCents?: number) =>
+  netCents === undefined
+    ? "—"
+    : netCents === 0
+      ? currencyFormatter.format(0)
+      : signedCurrencyFormatter.format(netCents / 100);
 
 export const LotoFootDashboard = component$<LotoFootDashboardProps>(({ formula }) => {
   const statistics = calculateLotoFootStatistics(lotoFootPublications, lotoFootResults, formula);
-  const cumulativeNet = getNetPresentation(statistics.netCents);
+  const cumulativeNet = getNetPresentation(statistics.settledNetCents);
   const bestTicketPerformance = getBestTicketPerformance(statistics.settlements);
   const formulaLabel = formula === undefined ? undefined : getLotoFootFormulaLabel(formula);
 
@@ -85,53 +89,91 @@ export const LotoFootDashboard = component$<LotoFootDashboardProps>(({ formula }
           <span class="technical-sweep" data-motion-line aria-hidden="true" />
           <dl class="financial-readout">
             <div class="financial-value financial-stake" data-finance-item>
-              <dt>Mise virtuelle cumulée</dt>
+              <dt>Mise totale engagée</dt>
               <dd>
                 <span
                   class="animated-amount"
-                  data-count-cents={statistics.stakeCents}
+                  data-count-cents={statistics.totalStakeCents}
                   aria-hidden="true"
                 >
-                  {currencyFormatter.format(statistics.stakeCents / 100)}
-                </span>
-                <span class="sr-only">{currencyFormatter.format(statistics.stakeCents / 100)}</span>
-              </dd>
-              <small>Capital simulé engagé</small>
-            </div>
-            <div class="financial-value financial-return" data-finance-item>
-              <dt>Retours cumulés</dt>
-              <dd>
-                <span
-                  class="animated-amount"
-                  data-count-cents={statistics.returnCents}
-                  aria-hidden="true"
-                >
-                  {currencyFormatter.format(statistics.returnCents / 100)}
+                  {currencyFormatter.format(statistics.totalStakeCents / 100)}
                 </span>
                 <span class="sr-only">
-                  {currencyFormatter.format(statistics.returnCents / 100)}
+                  {currencyFormatter.format(statistics.totalStakeCents / 100)}
                 </span>
               </dd>
-              <small>Rapports obtenus au total</small>
+              <small>Toutes les publications, réglées ou non</small>
+            </div>
+            <div class="financial-value financial-settled-stake" data-finance-item>
+              <dt>Mise des grilles réglées</dt>
+              <dd>
+                <span
+                  class="animated-amount"
+                  data-count-cents={statistics.settledStakeCents}
+                  aria-hidden="true"
+                >
+                  {currencyFormatter.format(statistics.settledStakeCents / 100)}
+                </span>
+                <span class="sr-only">
+                  {currencyFormatter.format(statistics.settledStakeCents / 100)}
+                </span>
+              </dd>
+              <small>Seules les grilles avec un résultat officiel</small>
+            </div>
+            <div class="financial-value financial-pending-stake" data-finance-item>
+              <dt>Mise encore en attente</dt>
+              <dd>
+                <span
+                  class="animated-amount"
+                  data-count-cents={statistics.pendingStakeCents}
+                  aria-hidden="true"
+                >
+                  {currencyFormatter.format(statistics.pendingStakeCents / 100)}
+                </span>
+                <span class="sr-only">
+                  {currencyFormatter.format(statistics.pendingStakeCents / 100)}
+                </span>
+              </dd>
+              <small>Engagée, mais jamais comptée comme une perte</small>
+            </div>
+            <div class="financial-value financial-return" data-finance-item>
+              <dt>Retours des grilles réglées</dt>
+              <dd>
+                <span
+                  class="animated-amount"
+                  data-count-cents={statistics.settledReturnCents}
+                  aria-hidden="true"
+                >
+                  {currencyFormatter.format(statistics.settledReturnCents / 100)}
+                </span>
+                <span class="sr-only">
+                  {currencyFormatter.format(statistics.settledReturnCents / 100)}
+                </span>
+              </dd>
+              <small>Rapports officiels obtenus</small>
             </div>
             <div
               class={`financial-value financial-net tone-${cumulativeNet.tone}`}
               data-finance-item
             >
-              <dt>Résultat net cumulé</dt>
+              <dt>Résultat net des grilles réglées</dt>
               <dd>
                 <span class="net-state-label">{cumulativeNet.label}</span>
-                <span
-                  class="animated-amount net-amount"
-                  data-count-cents={statistics.netCents}
-                  data-count-signed="true"
-                  aria-hidden="true"
-                >
-                  {formatNet(statistics.netCents)}
-                </span>
-                <span class="sr-only">{formatNet(statistics.netCents)}</span>
+                {statistics.settledNetCents === undefined ? (
+                  <span class="net-amount">—</span>
+                ) : (
+                  <span
+                    class="animated-amount net-amount"
+                    data-count-cents={statistics.settledNetCents}
+                    data-count-signed="true"
+                    aria-hidden="true"
+                  >
+                    {formatNet(statistics.settledNetCents)}
+                  </span>
+                )}
+                <span class="sr-only">{formatNet(statistics.settledNetCents)}</span>
               </dd>
-              <small>Mises déduites des retours</small>
+              <small>Retours moins mises réglées uniquement</small>
             </div>
           </dl>
         </MotionSection>
@@ -149,11 +191,15 @@ export const LotoFootDashboard = component$<LotoFootDashboardProps>(({ formula }
           <div class="yield-readout" data-stat-item>
             <span class="technical-index">RDT / {formula ? `LF${formula}` : "GLOBAL"}</span>
             <strong>
-              {statistics.yieldPercentage === undefined
+              {statistics.settledYieldPercentage === undefined
                 ? "—"
-                : `${percentageFormatter.format(statistics.yieldPercentage)} %`}
+                : `${percentageFormatter.format(statistics.settledYieldPercentage)} %`}
             </strong>
-            <span>Rendement virtuel</span>
+            <span>
+              {statistics.settledYieldPercentage === undefined
+                ? "Aucun rendement définitif"
+                : "Rendement sur mises réglées"}
+            </span>
             <i data-motion-line aria-hidden="true" />
           </div>
 
@@ -281,7 +327,11 @@ export const LotoFootDashboard = component$<LotoFootDashboardProps>(({ formula }
                     </div>
                     <div>
                       <dt>Retour</dt>
-                      <dd>{currencyFormatter.format(settlement.returnCents / 100)}</dd>
+                      <dd>
+                        {settlement.returnCents === undefined
+                          ? "En attente"
+                          : currencyFormatter.format(settlement.returnCents / 100)}
+                      </dd>
                     </div>
                     <div class={`archive-net tone-${net.tone}`}>
                       <dt>{net.label}</dt>

@@ -1,17 +1,23 @@
 import type { LotoFootFormula, LotoFootPublication, LotoFootResult } from "./model";
-import { calculatePublicationSettlement, type LotoFootPublicationSettlement } from "./settlement";
+import {
+  calculatePublicationSettlement,
+  type LotoFootPublicationSettlement,
+  type LotoFootSettledPublicationSettlement,
+} from "./settlement";
 
 export interface LotoFootStatistics {
   publicationCount: number;
   settledCount: number;
   pendingCount: number;
   ticketCount: number;
-  stakeCents: number;
-  returnCents: number;
-  netCents: number;
+  totalStakeCents: number;
+  settledStakeCents: number;
+  pendingStakeCents: number;
+  settledReturnCents: number;
+  settledNetCents?: number;
   winningTicketCount: number;
-  yieldPercentage?: number;
-  bestSettledGrid?: LotoFootPublicationSettlement;
+  settledYieldPercentage?: number;
+  bestSettledGrid?: LotoFootSettledPublicationSettlement;
   settlements: readonly LotoFootPublicationSettlement[];
 }
 
@@ -27,11 +33,17 @@ export function calculateLotoFootStatistics(
   const settlements = selectedPublications.map((publication) =>
     calculatePublicationSettlement(publication, resultsByPublicationId.get(publication.id)),
   );
-  const settled = settlements.filter(({ status }) => status === "settled");
-  const stakeCents = settlements.reduce((total, grid) => total + grid.stakeCents, 0);
-  const returnCents = settled.reduce((total, grid) => total + grid.returnCents, 0);
-  const netCents = returnCents - stakeCents;
-  const bestSettledGrid = settled.reduce<LotoFootPublicationSettlement | undefined>(
+  const settled = settlements.filter(
+    (settlement): settlement is LotoFootSettledPublicationSettlement =>
+      settlement.status === "settled",
+  );
+  const pending = settlements.filter(({ status }) => status === "pending");
+  const totalStakeCents = settlements.reduce((total, grid) => total + grid.stakeCents, 0);
+  const settledStakeCents = settled.reduce((total, grid) => total + grid.stakeCents, 0);
+  const pendingStakeCents = pending.reduce((total, grid) => total + grid.stakeCents, 0);
+  const settledReturnCents = settled.reduce((total, grid) => total + grid.returnCents, 0);
+  const settledNetCents = settled.length > 0 ? settledReturnCents - settledStakeCents : undefined;
+  const bestSettledGrid = settled.reduce<LotoFootSettledPublicationSettlement | undefined>(
     (best, grid) => (!best || grid.netCents > best.netCents ? grid : best),
     undefined,
   );
@@ -44,15 +56,20 @@ export function calculateLotoFootStatistics(
       (total, publication) => total + publication.tickets.length,
       0,
     ),
-    stakeCents,
-    returnCents,
-    netCents,
+    totalStakeCents,
+    settledStakeCents,
+    pendingStakeCents,
+    settledReturnCents,
+    settledNetCents,
     winningTicketCount: settled.reduce(
       (total, grid) =>
         total + grid.ticketSettlements.filter(({ payoutCents }) => payoutCents > 0).length,
       0,
     ),
-    yieldPercentage: stakeCents > 0 ? (netCents / stakeCents) * 100 : undefined,
+    settledYieldPercentage:
+      settledNetCents === undefined || settledStakeCents === 0
+        ? undefined
+        : (settledNetCents / settledStakeCents) * 100,
     bestSettledGrid,
     settlements,
   };
