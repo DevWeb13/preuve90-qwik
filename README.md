@@ -23,23 +23,25 @@ La page d’accueil présente :
 - les accès aux quatre formules ;
 - toutes les grilles publiées.
 
-Une page de formule reprend uniquement les données de la formule choisie. Une formule sans publication affiche un état vide simple.
+Une page de formule reprend uniquement les données de la formule choisie. Elle commence par le fil d’Ariane `Accueil / Loto Foot [formule]`, et son URL imbriquée active automatiquement la formule correspondante dans le header. Une formule sans publication affiche un état vide simple.
 
 Une page de grille distingue deux états principaux :
 
 - avant le règlement : clôture, combinaisons publiées, analyses et sources ;
 - après le règlement : bilan virtuel, résultats, rapports officiels et verdict de chaque choix.
 
-Les combinaisons sont affichées comme des grilles accessibles à colonnes `1`, `N` et `2`. Le temps restant avant la clôture, ou écoulé depuis celle-ci, est calculé sans estimer l’heure de publication des résultats.
+Les résultats officiels utilisent une bande compacte de cases cyan dans l’ordre des matchs. Les combinaisons restent des tables accessibles à colonnes `1`, `N` et `2` : cercle plein pour le choix publié, anneau cyan pour le résultat officiel, coche verte pour un choix correct et croix rouge pour un choix incorrect. Le verdict textuel reste visible sous les équipes. Le temps restant avant la clôture, ou écoulé depuis celle-ci, est calculé sans estimer l’heure de publication des résultats.
 
 ## Routes publiques
 
 - `/` : vue d’ensemble, bilan et grilles publiées ;
 - `/loto-foot/7/`, `/loto-foot/8/`, `/loto-foot/12/`, `/loto-foot/15/` : vues par formule ;
-- `/grille/[id]/` : détail d’une publication et de son éventuel règlement ;
+- `/loto-foot/[formula]/grilles/[id]/` : détail d’une publication et de son éventuel règlement, avec validation de la formule ;
 - `/mentions-legales/` : mentions légales ;
 - `/confidentialite/` : politique de confidentialité ;
 - toute autre URL renvoie une page 404 cohérente.
+
+La route historique de détail a été supprimée sans redirection.
 
 ## Socle technique
 

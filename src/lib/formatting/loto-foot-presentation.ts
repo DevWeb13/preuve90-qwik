@@ -21,6 +21,13 @@ export interface PublicationDetailSections {
   payouts: boolean;
 }
 
+export type SelectionSymbolState =
+  | "empty"
+  | "published"
+  | "official"
+  | "correct"
+  | "incorrect";
+
 export function getPublicationDisplayStatus(
   publication: LotoFootPublication,
   result?: LotoFootResult,
@@ -103,6 +110,28 @@ export function getSelectionPresentation(
           ? "correct"
           : "incorrect",
   };
+}
+
+export function getSelectionSymbolPresentation(selection: {
+  isSelected: boolean;
+  isOfficial: boolean;
+  verdict?: "correct" | "incorrect";
+}): { state: SelectionSymbolState; symbol: "○" | "●" | "◎" | "✓" | "×" } {
+  if (selection.verdict === "correct") return { state: "correct", symbol: "✓" };
+  if (selection.verdict === "incorrect") return { state: "incorrect", symbol: "×" };
+  if (selection.isOfficial) return { state: "official", symbol: "◎" };
+  if (selection.isSelected) return { state: "published", symbol: "●" };
+  return { state: "empty", symbol: "○" };
+}
+
+export function getMatchVerdictLabel(
+  publishedSelection: LotoFootSelection,
+  officialSelection?: LotoFootSelection,
+): string | undefined {
+  if (officialSelection === undefined) return undefined;
+  return publishedSelection === officialSelection
+    ? "Choix correct"
+    : `Choix incorrect · Résultat officiel : ${officialSelection}`;
 }
 
 export function getBestTicketPerformance(

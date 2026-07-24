@@ -1,6 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import { MotionSection } from "~/components/motion/motion";
+import { Breadcrumbs } from "~/components/navigation/breadcrumbs";
 import { EmptyState } from "~/components/ui/primitives";
 import { SITE_CONFIG } from "~/config/site";
 import { LOTO_FOOT_FORMULAS, type LotoFootFormula } from "~/content/loto-foot/model";
@@ -16,6 +17,7 @@ import {
   getPublicationDisplayStatus,
   getPublicationStatusLabel,
 } from "~/lib/formatting/loto-foot-presentation";
+import { getLotoFootGridPath } from "~/lib/routing/loto-foot-grid";
 
 interface LotoFootDashboardProps {
   formula?: LotoFootFormula;
@@ -58,21 +60,26 @@ export const LotoFootDashboard = component$<LotoFootDashboardProps>(({ formula }
 
   return (
     <div class="home-dashboard">
-      <header class="dashboard-heading">
-        <div>
-          <span class="eyebrow">
+      <div class={{ "formula-page-intro": formula !== undefined }}>
+        {formula !== undefined && formulaLabel && (
+          <Breadcrumbs items={[{ label: "Accueil", href: "/" }, { label: formulaLabel }]} />
+        )}
+        <header class="dashboard-heading">
+          <div>
+            <span class="eyebrow">
+              {formulaLabel
+                ? `PREUVE90 · ${formulaLabel.toUpperCase()}`
+                : "PREUVE90 · VUE D’ENSEMBLE"}
+            </span>
+            <h1>{formulaLabel ?? SITE_CONFIG.tagline}</h1>
+          </div>
+          <p>
             {formulaLabel
-              ? `PREUVE90 · ${formulaLabel.toUpperCase()}`
-              : "PREUVE90 · VUE D’ENSEMBLE"}
-          </span>
-          <h1>{formulaLabel ?? SITE_CONFIG.tagline}</h1>
-        </div>
-        <p>
-          {formulaLabel
-            ? "Grilles publiées, résultats officiels et bilan de la formule."
-            : "Chaque combinaison est publiée avant la clôture, puis comparée aux résultats et rapports officiels."}
-        </p>
-      </header>
+              ? "Grilles publiées, résultats officiels et bilan de la formule."
+              : "Chaque combinaison est publiée avant la clôture, puis comparée aux résultats et rapports officiels."}
+          </p>
+        </header>
+      </div>
 
       {formula !== undefined && (
         <nav class="formula-navigation formula-navigation-compact" aria-label="Formules Loto Foot">
@@ -366,10 +373,7 @@ export const LotoFootDashboard = component$<LotoFootDashboardProps>(({ formula }
                         )}
                       </div>
 
-                      <Link
-                        class="card-link"
-                        href={`/grille/${encodeURIComponent(settlement.publication.id)}/`}
-                      >
+                      <Link class="card-link" href={getLotoFootGridPath(settlement.publication)}>
                         Voir la grille <span aria-hidden="true">→</span>
                       </Link>
                     </article>
