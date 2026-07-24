@@ -1,22 +1,25 @@
 import { component$ } from "@builder.io/qwik";
-import { Link, routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
+import { routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
 import { DeadlineStatus } from "~/components/loto-foot/deadline-status";
 import { MotionSection } from "~/components/motion/motion";
+import { Breadcrumbs } from "~/components/navigation/breadcrumbs";
 import { EmptyState } from "~/components/ui/primitives";
 import { LOTO_FOOT_SELECTIONS } from "~/content/loto-foot/model";
-import { getLotoFootPublicationById } from "~/content/loto-foot/publications";
 import { getLotoFootResultByPublicationId } from "~/content/loto-foot/results";
 import { calculatePublicationSettlement } from "~/content/loto-foot/settlement";
 import {
   formatCorrectAnswerScore,
   getLotoFootFormulaLabel,
+  getMatchVerdictLabel,
   getNetPresentation,
   getPublicationDetailSections,
   getPublicationDisplayStatus,
   getPublicationStatusLabel,
   getSelectionPresentation,
+  getSelectionSymbolPresentation,
 } from "~/lib/formatting/loto-foot-presentation";
 import { createDocumentHead } from "~/lib/formatting/seo";
+import { getLotoFootGridPath, resolveLotoFootGridPublication } from "~/lib/routing/loto-foot-grid";
 
 const dateFormatter = new Intl.DateTimeFormat("fr-FR", {
   dateStyle: "long",
@@ -43,7 +46,7 @@ const formatNet = (netCents?: number) =>
       : signedCurrencyFormatter.format(netCents / 100);
 
 export const usePublication = routeLoader$(({ params, status }) => {
-  const publication = getLotoFootPublicationById(params.id);
+  const publication = resolveLotoFootGridPublication(params.id, params.formula);
 
   if (!publication) status(404);
   return publication
@@ -84,40 +87,46 @@ export default component$(() => {
 
   return (
     <div class="publication-detail">
-      <Link class="back-link" href={`/loto-foot/${publication.formula}/`}>
-        <span aria-hidden="true">←</span> Retour aux grilles
-      </Link>
+      <div class="publication-detail-intro">
+        <Breadcrumbs
+          items={[
+            { label: "Accueil", href: "/" },
+            { label: formulaLabel, href: `/loto-foot/${publication.formula}/` },
+            { label: `Grille ${publication.gridNumber}` },
+          ]}
+        />
 
-      <header class="detail-command-header">
-        <div class="detail-title-block">
-          <span class="eyebrow">{formulaLabel.toUpperCase()} · GRILLE PUBLIÉE</span>
-          <h1>
-            {formulaLabel} : grille n°{publication.gridNumber}
-          </h1>
-          <span class={`status-chip status-${displayStatus}`}>
-            <span aria-hidden="true" />
-            {getPublicationStatusLabel(displayStatus)}
-          </span>
-        </div>
-        <dl class="detail-identity">
-          <div>
-            <dt>Clôture</dt>
-            <dd>{dateFormatter.format(new Date(publication.validationDeadline))}</dd>
+        <header class="detail-command-header">
+          <div class="detail-title-block">
+            <span class="eyebrow">{formulaLabel.toUpperCase()} · GRILLE PUBLIÉE</span>
+            <h1>
+              {formulaLabel} : grille n°{publication.gridNumber}
+            </h1>
+            <span class={`status-chip status-${displayStatus}`}>
+              <span aria-hidden="true" />
+              {getPublicationStatusLabel(displayStatus)}
+            </span>
           </div>
-          <div>
-            <dt>Publication</dt>
-            <dd>{dateFormatter.format(new Date(publication.publishedAt))}</dd>
-          </div>
-          <div>
-            <dt>Combinaisons</dt>
-            <dd>{publication.tickets.length}</dd>
-          </div>
-        </dl>
-        <a class="official-link" href={publication.officialUrl} target="_blank" rel="noreferrer">
-          Grille officielle <span aria-hidden="true">↗</span>
-        </a>
-        {!result && <DeadlineStatus validationDeadline={publication.validationDeadline} />}
-      </header>
+          <dl class="detail-identity">
+            <div>
+              <dt>Clôture</dt>
+              <dd>{dateFormatter.format(new Date(publication.validationDeadline))}</dd>
+            </div>
+            <div>
+              <dt>Publication</dt>
+              <dd>{dateFormatter.format(new Date(publication.publishedAt))}</dd>
+            </div>
+            <div>
+              <dt>Combinaisons</dt>
+              <dd>{publication.tickets.length}</dd>
+            </div>
+          </dl>
+          <a class="official-link" href={publication.officialUrl} target="_blank" rel="noreferrer">
+            Grille officielle <span aria-hidden="true">↗</span>
+          </a>
+          {!result && <DeadlineStatus validationDeadline={publication.validationDeadline} />}
+        </header>
+      </div>
 
       {!result && (
         <p class="waiting-summary">
@@ -199,26 +208,27 @@ export default component$(() => {
 
       {detailSections.results && result && (
         <section class="official-results-section" aria-labelledby="official-results-title">
-          <div class="section-heading">
-            <div>
-              <span class="eyebrow">RÉSULTATS</span>
-              <h2 id="official-results-title">Résultats officiels</h2>
-            </div>
-          </div>
           <MotionSection kind="result" class="official-result-board">
-            <p>Suite officielle des résultats, dans l’ordre des matchs :</p>
+            <header class="official-result-heading">
+              <div>
+                <span class="eyebrow">RÉSULTATS</span>
+                <h2 id="official-results-title">Résultats officiels</h2>
+              </div>
+              <p>
+                Suite officielle dans l’ordre des matchs.
+                <time dateTime={result.settledAt}>
+                  Enregistrés le {dateFormatter.format(new Date(result.settledAt))}
+                </time>
+              </p>
+            </header>
             <ol class="official-result-sequence" aria-label="Suite officielle des résultats">
               {result.matches.map((matchResult) => (
                 <li data-result-pill key={matchResult.position}>
-                  <small>Match {matchResult.position}</small>
+                  <small>{String(matchResult.position).padStart(2, "0")}</small>
                   <strong>{matchResult.selection}</strong>
                 </li>
               ))}
             </ol>
-            <span class="result-confirmation">
-              <span aria-hidden="true">✓</span> Résultats enregistrés le{" "}
-              {dateFormatter.format(new Date(result.settledAt))}
-            </span>
           </MotionSection>
         </section>
       )}
@@ -266,17 +276,36 @@ export default component$(() => {
             {publication.tickets.length === 1 ? "combinaison" : "combinaisons"}
           </span>
         </div>
-        {result && (
-          <p class="selection-legend">
-            <span class="legend-correct">
-              <span aria-hidden="true">✓</span> Correct
+        <ul class="selection-legend" aria-label="Légende des choix">
+          <li>
+            <span class="choice-symbol symbol-published" aria-hidden="true">
+              ●
             </span>
-            <span class="legend-incorrect">
-              <span aria-hidden="true">×</span> Incorrect
-            </span>
-            <span>Résultat : choix officiel non sélectionné</span>
-          </p>
-        )}
+            Choix publié
+          </li>
+          {result && (
+            <>
+              <li>
+                <span class="choice-symbol symbol-official" aria-hidden="true">
+                  ◎
+                </span>
+                Résultat officiel
+              </li>
+              <li>
+                <span class="choice-symbol symbol-correct" aria-hidden="true">
+                  ✓
+                </span>
+                Choix correct
+              </li>
+              <li>
+                <span class="choice-symbol symbol-incorrect" aria-hidden="true">
+                  ×
+                </span>
+                Choix incorrect
+              </li>
+            </>
+          )}
+        </ul>
         <MotionSection kind="tickets" class="ticket-grid">
           {publication.tickets.map((ticket, ticketIndex) => {
             const ticketSettlement = settlement.ticketSettlements.find(
@@ -342,6 +371,10 @@ export default component$(() => {
                         officialSelection === undefined
                           ? undefined
                           : publishedSelection === officialSelection;
+                      const matchVerdict = getMatchVerdictLabel(
+                        publishedSelection,
+                        officialSelection,
+                      );
 
                       return (
                         <tr
@@ -353,7 +386,21 @@ export default component$(() => {
                         >
                           <th scope="row">{String(match.position).padStart(2, "0")}</th>
                           <td class="ticket-match">
-                            {match.homeTeam} contre {match.awayTeam}
+                            <span class="match-teams">
+                              {match.homeTeam} contre {match.awayTeam}
+                            </span>
+                            {matchVerdict && (
+                              <small
+                                class={{
+                                  "match-verdict": true,
+                                  "verdict-correct": selectedIsCorrect === true,
+                                  "verdict-incorrect": selectedIsCorrect === false,
+                                }}
+                              >
+                                <span aria-hidden="true">{selectedIsCorrect ? "✓" : "×"}</span>{" "}
+                                {matchVerdict}
+                              </small>
+                            )}
                           </td>
                           {LOTO_FOOT_SELECTIONS.map((displayedSelection) => {
                             const choice = getSelectionPresentation(
@@ -361,6 +408,7 @@ export default component$(() => {
                               displayedSelection,
                               officialSelection,
                             );
+                            const symbol = getSelectionSymbolPresentation(choice);
                             const accessibleState = choice.isSelected
                               ? choice.verdict === "correct"
                                 ? "choix publié correct et résultat officiel"
@@ -383,18 +431,15 @@ export default component$(() => {
                                 }}
                                 key={displayedSelection}
                               >
-                                <span class="choice-marker" aria-hidden="true">
-                                  {choice.isSelected ? "●" : "○"}
+                                <span
+                                  class={{
+                                    "choice-symbol": true,
+                                    [`symbol-${symbol.state}`]: true,
+                                  }}
+                                  aria-hidden="true"
+                                >
+                                  {symbol.symbol}
                                 </span>
-                                {choice.verdict === "correct" && (
-                                  <small class="choice-verdict">✓ Correct · Résultat</small>
-                                )}
-                                {choice.verdict === "incorrect" && (
-                                  <small class="choice-verdict">× Incorrect</small>
-                                )}
-                                {!choice.isSelected && choice.isOfficial && (
-                                  <small class="choice-official-label">Résultat</small>
-                                )}
                               </td>
                             );
                           })}
@@ -568,6 +613,6 @@ export const head: DocumentHead = ({ resolveValue }) => {
   return createDocumentHead(
     `${getLotoFootFormulaLabel(publication.formula)} : grille n°${publication.gridNumber}`,
     `Résultats, rapports officiels et performances des combinaisons de la grille n° ${publication.gridNumber}.`,
-    `/grille/${encodeURIComponent(publication.id)}/`,
+    getLotoFootGridPath(publication),
   );
 };

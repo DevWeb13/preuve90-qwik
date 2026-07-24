@@ -18,34 +18,37 @@ L’ordre de la page d’accueil est :
 
 L’ordre d’une page de formule contenant des publications est :
 
-1. identité de la formule ;
-2. navigation compacte sur tablette et ordinateur ;
-3. bilan des grilles terminées de la formule ;
-4. mise encore en attente ;
-5. rendement et performances ;
-6. grilles publiées ;
-7. avertissement.
+1. fil d’Ariane compact ;
+2. identité de la formule ;
+3. navigation compacte sur tablette et ordinateur ;
+4. bilan des grilles terminées de la formule ;
+5. mise encore en attente ;
+6. rendement et performances ;
+7. grilles publiées ;
+8. avertissement.
 
-Une page de formule sans publication affiche uniquement son identité, la navigation adaptée à la largeur disponible et un état vide.
+Une page de formule sans publication affiche uniquement son fil d’Ariane, son identité, la navigation adaptée à la largeur disponible et un état vide.
 
 L’ordre d’une page de grille sans résultat officiel est :
 
-1. identité, statut, clôture et publication ;
-2. temps restant avant la clôture ou écoulé depuis celle-ci ;
-3. message synthétique sur l’attente des résultats ;
-4. combinaisons publiées ;
-5. analyses des matchs ;
-6. sources et avertissement.
+1. fil d’Ariane compact ;
+2. identité, statut, clôture et publication ;
+3. temps restant avant la clôture ou écoulé depuis celle-ci ;
+4. message synthétique sur l’attente des résultats ;
+5. combinaisons publiées ;
+6. analyses des matchs ;
+7. sources et avertissement.
 
 L’ordre d’une page de grille réglée est :
 
-1. identité et statut ;
-2. bilan virtuel de la grille ;
-3. résultats officiels ;
-4. rapports officiels ;
-5. combinaisons avec leurs scores, verdicts et gains ;
-6. analyses des matchs ;
-7. sources et avertissement.
+1. fil d’Ariane compact ;
+2. identité et statut ;
+3. bilan virtuel de la grille ;
+4. résultats officiels ;
+5. rapports officiels ;
+6. combinaisons avec leurs scores, verdicts et gains ;
+7. analyses des matchs ;
+8. sources et avertissement.
 
 Les combinaisons précèdent toujours les analyses longues. Aucune donnée décisive n’est enfermée dans un accordéon.
 
@@ -109,6 +112,10 @@ Sur une page de formule :
 - à partir de 48 rem, la navigation mobile fixe disparaît et une navigation compacte affiche la vue d’ensemble ainsi que LF7, LF8, LF12 et LF15 ;
 - la formule active est indiquée avec `aria-current` et un traitement visuel distinct.
 
+Les pages de formule affichent `Accueil / Loto Foot [formule]`. Les pages de grille affichent `Accueil / Loto Foot [formule] / Grille [numéro]`. Le fil d’Ariane est une navigation à liste ordonnée, sans cadre dominant, dont le dernier élément porte `aria-current="page"`.
+
+Une page de grille utilise la route imbriquée `/loto-foot/[formula]/grilles/[id]/`. La formule de l’URL doit correspondre à celle de la publication, sinon la page répond 404. Cette structure rend automatiquement actif le lien LF7, LF8, LF12 ou LF15 du header, sur ordinateur comme sur mobile, grâce à la logique existante basée sur le préfixe du chemin. La route historique de détail est supprimée sans redirection.
+
 ### Carte de publication
 
 Chaque carte expose :
@@ -136,7 +143,7 @@ Il ne prédit jamais l’heure de publication des résultats. Le rendu initial e
 
 ### Résultats officiels
 
-La suite officielle est une liste ordonnée de grandes pastilles `1`, `N` et `2`. Chaque pastille est associée au numéro du match. La suite reste du texte HTML et n’est ni dessinée dans un canvas ni injectée après chargement.
+La suite officielle est une liste ordonnée dans une bande compacte. Une case cyan régulière associe chaque sélection `1`, `N` ou `2` au numéro du match. Toutes les sélections partagent le même traitement cyan ; le magenta reste un accent décoratif sans valeur sémantique. L’en-tête interne rappelle l’ordre officiel et affiche la date d’enregistrement. La grille s’adapte sur plusieurs lignes sans écraser les cellules ni créer de défilement horizontal. La suite reste du texte HTML et n’est ni dessinée dans un canvas ni injectée après chargement.
 
 Cette section n’apparaît que lorsqu’un résultat officiel existe.
 
@@ -153,14 +160,15 @@ Chaque combinaison utilise une table non interactive avec :
 - numéro du match ;
 - rencontre sous la forme `équipe à domicile contre équipe à l’extérieur` ;
 - colonnes `1`, `N` et `2` ;
-- choix publié ;
-- résultat officiel lorsque disponible ;
-- verdict correct ou incorrect lorsque disponible ;
+- choix publié représenté par un cercle plein ;
+- résultat officiel non sélectionné représenté par un anneau cyan ;
+- choix correct représenté par une coche verte ;
+- choix incorrect représenté par une croix rouge ;
 - nom, index et justification ;
 - score global et gain officiel après règlement ;
 - état `En attente`, `Gagnante` ou `Perdue`.
 
-La sélection reste identifiable sans la couleur. Une marque textuelle ou symbolique accessible accompagne toujours le traitement visuel.
+Un cercle vide indique un choix non sélectionné. Les cellules étroites contiennent uniquement ces symboles compacts et conservent un `aria-label` complet. Le verdict textuel se place sous les équipes : `Choix correct` ou `Choix incorrect · Résultat officiel : N`. La légende reprend les mêmes symboles et libellés courts. Aucun état ne dépend uniquement de la couleur.
 
 La grille conserve les trois colonnes `1`, `N` et `2` sur petit écran. Les noms d’équipes peuvent revenir à la ligne et aucun défilement horizontal ne doit être imposé.
 
@@ -270,6 +278,7 @@ Le contenu reste complet sans JavaScript. Un échec de chargement de GSAP ne peu
 - `details` et `summary` natifs pour les analyses ;
 - tables de combinaison avec en-têtes de colonnes et de lignes ;
 - résultats officiels exposés comme listes ordonnées ;
+- fils d’Ariane exposés comme navigations à listes ordonnées ;
 - montants animés doublés d’une valeur finale accessible inchangée ;
 - symboles décoratifs ignorés lorsque le texte accessible porte déjà le sens ;
 - statut, verdict et résultat financier exprimés par des mots ;
@@ -277,7 +286,7 @@ Le contenu reste complet sans JavaScript. Un échec de chargement de GSAP ne peu
 
 ## 9. Critères de validation
 
-Les routes `/`, `/loto-foot/[formule]/` et `/grille/[id]/` sont vérifiées à 320, 375, 768, 1024 et 1440 px. À chaque largeur :
+Les routes `/`, `/loto-foot/[formule]/` et `/loto-foot/[formula]/grilles/[id]/` sont vérifiées à 320, 375, 768, 1024 et 1440 px. À chaque largeur :
 
 - aucune barre de défilement horizontale ;
 - la navigation ne masque pas le contenu ;

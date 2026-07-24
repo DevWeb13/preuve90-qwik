@@ -2,12 +2,12 @@ import { component$, Slot } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import { SITE_CONFIG } from "~/config/site";
 import { Icon } from "~/components/ui/icon";
+import { isNavigationItemActive } from "~/lib/routing/navigation";
 import Preuve90Mark from "../../../public/favicon.svg?jsx";
 
 export const AppShell = component$(() => {
   const location = useLocation();
-  const isActive = (href: string) =>
-    href === "/" ? location.url.pathname === "/" : location.url.pathname.startsWith(href);
+  const isActive = (href: string) => isNavigationItemActive(location.url.pathname, href);
 
   return (
     <>

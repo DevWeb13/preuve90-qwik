@@ -10,11 +10,13 @@ import {
   getBestTicketPerformance,
   getDashboardPresentation,
   getLotoFootFormulaLabel,
+  getMatchVerdictLabel,
   getNetPresentation,
   getPublicationDetailSections,
   getPublicationDisplayStatus,
   getPublicationStatusLabel,
   getSelectionPresentation,
+  getSelectionSymbolPresentation,
 } from "./loto-foot-presentation";
 
 const publication = {
@@ -151,5 +153,48 @@ describe("présentation Loto Foot", () => {
       isOfficial: true,
       verdict: undefined,
     });
+  });
+
+  it("réduit les cellules 1, N et 2 à des symboles compacts pour tous les états", () => {
+    expect(
+      getSelectionSymbolPresentation({
+        isSelected: false,
+        isOfficial: false,
+      }),
+    ).toEqual({ state: "empty", symbol: "○" });
+    expect(
+      getSelectionSymbolPresentation({
+        isSelected: true,
+        isOfficial: false,
+      }),
+    ).toEqual({ state: "published", symbol: "●" });
+    expect(
+      getSelectionSymbolPresentation({
+        isSelected: false,
+        isOfficial: true,
+      }),
+    ).toEqual({ state: "official", symbol: "◎" });
+    expect(
+      getSelectionSymbolPresentation({
+        isSelected: true,
+        isOfficial: true,
+        verdict: "correct",
+      }),
+    ).toEqual({ state: "correct", symbol: "✓" });
+    expect(
+      getSelectionSymbolPresentation({
+        isSelected: true,
+        isOfficial: false,
+        verdict: "incorrect",
+      }),
+    ).toEqual({ state: "incorrect", symbol: "×" });
+  });
+
+  it("place le verdict textuel dans le match sans répétition inutile", () => {
+    expect(getMatchVerdictLabel("N")).toBeUndefined();
+    expect(getMatchVerdictLabel("N", "N")).toBe("Choix correct");
+    expect(getMatchVerdictLabel("1", "N")).toBe(
+      "Choix incorrect · Résultat officiel : N",
+    );
   });
 });
