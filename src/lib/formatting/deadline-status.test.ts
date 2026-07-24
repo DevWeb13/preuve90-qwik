@@ -36,4 +36,20 @@ describe("statut de clôture", () => {
       secondary: "Résultats officiels en attente",
     });
   });
+
+  it("retourne un état neutre avec une date de clôture invalide", () => {
+    expect(getDeadlineStatus("date-invalide", new Date("2026-07-24T18:00:00+02:00"))).toEqual({
+      phase: "invalid",
+      duration: "",
+      primary: "Clôture indisponible",
+    });
+  });
+
+  it("retourne un état neutre avec une date courante invalide", () => {
+    expect(getDeadlineStatus("2026-07-24T18:45:00+02:00", new Date("date-invalide"))).toEqual({
+      phase: "invalid",
+      duration: "",
+      primary: "Clôture indisponible",
+    });
+  });
 });

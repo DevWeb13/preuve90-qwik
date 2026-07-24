@@ -1,5 +1,5 @@
 export interface DeadlineStatus {
-  phase: "before" | "after";
+  phase: "before" | "after" | "invalid";
   duration: string;
   primary: string;
   secondary?: "Résultats officiels en attente";
@@ -38,8 +38,18 @@ export function getDeadlineStatus(
   validationDeadline: string | Date,
   now: Date = new Date(),
 ): DeadlineStatus {
-  const difference =
-    new Date(validationDeadline).getTime() - now.getTime();
+  const deadlineTimestamp = new Date(validationDeadline).getTime();
+  const nowTimestamp = now.getTime();
+
+  if (!Number.isFinite(deadlineTimestamp) || !Number.isFinite(nowTimestamp)) {
+    return {
+      phase: "invalid",
+      duration: "",
+      primary: "Clôture indisponible",
+    };
+  }
+
+  const difference = deadlineTimestamp - nowTimestamp;
   const duration = formatDeadlineDuration(difference);
 
   if (difference > 0) {
