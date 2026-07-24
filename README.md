@@ -1,6 +1,6 @@
 # Preuve90
 
-Preuve90 publie avant leur date limite des analyses et des combinaisons virtuelles pour les grilles Loto Foot 7, 8, 12 et 15, puis les confronte aux résultats et rapports officiels.
+Preuve90 publie avant leur date limite des analyses et des combinaisons virtuelles pour les grilles Loto Foot 7, 8, 12 et 15, puis les compare aux résultats et rapports officiels.
 
 Chaque publication conserve la formule, le numéro de grille, les matchs dans leur ordre officiel, les probabilités et sources de l’analyse, ainsi qu’une ou plusieurs combinaisons de même longueur composées de `1`, `N` ou `2`.
 
@@ -13,9 +13,28 @@ Une combinaison représente une mise strictement virtuelle de 1 EUR. Les mises, 
 - Loto Foot 12 : 9 à 12 matchs ;
 - Loto Foot 15 : 12 à 15 matchs.
 
+## Expérience publique
+
+La page d’accueil présente :
+
+- le bilan des grilles terminées ;
+- les mises encore en attente dans un encart séparé ;
+- les performances calculées depuis les grilles réglées ;
+- les accès aux quatre formules ;
+- toutes les grilles publiées.
+
+Une page de formule reprend uniquement les données de la formule choisie. Une formule sans publication affiche un état vide simple.
+
+Une page de grille distingue deux états principaux :
+
+- avant le règlement : clôture, combinaisons publiées, analyses et sources ;
+- après le règlement : bilan virtuel, résultats, rapports officiels et verdict de chaque choix.
+
+Les combinaisons sont affichées comme des grilles accessibles à colonnes `1`, `N` et `2`. Le temps restant avant la clôture, ou écoulé depuis celle-ci, est calculé sans estimer l’heure de publication des résultats.
+
 ## Routes publiques
 
-- `/` : tableau de contrôle global et dernières publications ;
+- `/` : vue d’ensemble, bilan et grilles publiées ;
 - `/loto-foot/7/`, `/loto-foot/8/`, `/loto-foot/12/`, `/loto-foot/15/` : vues par formule ;
 - `/grille/[id]/` : détail d’une publication et de son éventuel règlement ;
 - `/mentions-legales/` : mentions légales ;
@@ -59,10 +78,13 @@ npm run lint
 npm run build.types
 npm run test:run
 npm run build
+npm run check:typography
 npm run check
 ```
 
-`npm run check` vérifie successivement le formatage, le lint, les types, les tests et le build de production.
+`npm run check:typography` refuse les caractères U+2013 et U+2014 dans les fichiers textuels suivis par Git.
+
+`npm run check` vérifie successivement la typographie, le formatage, le lint, les types, les tests et le build de production.
 
 ## Documentation
 
