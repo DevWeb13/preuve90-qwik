@@ -146,10 +146,14 @@ nombre de matchs.
 
 17. Pour les horodatages :
     - utiliser l’heure réelle en Europe/Paris, au format ISO avec les secondes ;
-    - une fois toutes les recherches terminées, relever et actualiser les heures réelles
-      `accessedAt` de chaque source ;
-    - relever ensuite, juste avant la validation et l’écriture, une nouvelle heure courante réelle
-      destinée à `publishedAt` ;
+    - relever `accessedAt` au moment réel où chaque source précise est consultée ;
+    - conserver ensuite cet horodatage sans le modifier ;
+    - ne relever un nouvel `accessedAt` pour une source que si cette même source est réellement
+      rouverte, et remplacer alors uniquement l’horodatage correspondant à cette nouvelle
+      consultation ;
+    - ne jamais appliquer après les recherches un horodatage final commun à toutes les sources ;
+    - après toutes les recherches et les dernières consultations, relever, immédiatement avant la
+      validation et l’écriture, une nouvelle heure courante réelle destinée à `publishedAt` ;
     - garantir `accessedAt <= publishedAt < validationDeadline` ;
     - ne jamais arrondir, estimer ou anticiper `publishedAt`, et ne jamais écrire un horodatage
       futur.
@@ -184,9 +188,11 @@ nombre de matchs.
     - vérifier directement avec l’app GitHub que le futur chemin n’existe pas ;
     - pour une publication, respecter strictement cet ordre final :
       1. terminer toutes les recherches ;
-      2. relever et actualiser les heures réelles `accessedAt` ;
-      3. relever l’heure courante réelle en Europe/Paris destinée à `publishedAt`, avec les
-         secondes, sans arrondi, estimation ni heure future ;
+      2. terminer les dernières consultations en conservant pour chacune l’heure `accessedAt`
+         relevée lors de son ouverture réelle, sans horodatage final commun ;
+      3. relever ensuite l’heure courante réelle en Europe/Paris destinée à `publishedAt`, avec les
+         secondes, immédiatement avant la validation et l’écriture, sans arrondi, estimation ni
+         heure future ;
       4. valider le fichier avec le modèle courant ;
       5. écrire immédiatement le fichier.
 
