@@ -1292,6 +1292,10 @@ code,
   color: var(--color-text) !important;
 }
 
+.tone-pending {
+  color: var(--color-text-subtle) !important;
+}
+
 .performance-deck {
   display: grid;
   gap: var(--space-4);
@@ -2252,7 +2256,7 @@ code,
 
   .financial-readout {
     grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
-    grid-template-rows: repeat(2, minmax(8.5rem, auto));
+    grid-template-rows: repeat(3, minmax(8.5rem, auto));
   }
 
   .financial-value + .financial-value {
@@ -2265,14 +2269,26 @@ code,
     border-bottom: 1px solid var(--color-border);
   }
 
-  .financial-return {
+  .financial-settled-stake {
     grid-column: 1;
     grid-row: 2;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .financial-pending-stake {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .financial-return {
+    grid-column: 2;
+    grid-row: 1;
+    border-bottom: 1px solid var(--color-border);
   }
 
   .financial-net {
     grid-column: 2;
-    grid-row: 1 / span 2;
+    grid-row: 2 / span 2;
     order: initial;
     margin-bottom: 0;
   }

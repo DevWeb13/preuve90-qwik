@@ -47,13 +47,34 @@ describe("statistiques cumulées", () => {
       settledCount: 1,
       pendingCount: 1,
       ticketCount: 3,
-      stakeCents: 300,
-      returnCents: 500,
-      netCents: 200,
+      totalStakeCents: 300,
+      settledStakeCents: 200,
+      pendingStakeCents: 100,
+      settledReturnCents: 500,
+      settledNetCents: 300,
       winningTicketCount: 1,
     });
-    expect(statistics.yieldPercentage).toBeCloseTo(66.67, 2);
+    expect(statistics.settledYieldPercentage).toBe(150);
     expect(statistics.bestSettledGrid?.publication.id).toBe("settled");
+  });
+
+  it("ne présente ni perte ni rendement définitif avec uniquement des grilles en attente", () => {
+    const statistics = calculateLotoFootStatistics(
+      [createPublication("pending-a", 2), createPublication("pending-b", 3)],
+      [],
+    );
+
+    expect(statistics).toMatchObject({
+      publicationCount: 2,
+      settledCount: 0,
+      pendingCount: 2,
+      totalStakeCents: 500,
+      settledStakeCents: 0,
+      pendingStakeCents: 500,
+      settledReturnCents: 0,
+      settledNetCents: undefined,
+      settledYieldPercentage: undefined,
+    });
   });
 
   it("fonctionne sans publication ni résultat", () => {
@@ -62,11 +83,13 @@ describe("statistiques cumulées", () => {
       settledCount: 0,
       pendingCount: 0,
       ticketCount: 0,
-      stakeCents: 0,
-      returnCents: 0,
-      netCents: 0,
+      totalStakeCents: 0,
+      settledStakeCents: 0,
+      pendingStakeCents: 0,
+      settledReturnCents: 0,
+      settledNetCents: undefined,
       winningTicketCount: 0,
-      yieldPercentage: undefined,
+      settledYieldPercentage: undefined,
       bestSettledGrid: undefined,
       settlements: [],
     });
@@ -80,26 +103,33 @@ describe("statistiques cumulées", () => {
     expect(calculateLotoFootStatistics(publications, [result])).toMatchObject({
       publicationCount: 2,
       ticketCount: 12,
-      stakeCents: 1_200,
-      returnCents: 500,
-      netCents: -700,
+      totalStakeCents: 1_200,
+      settledStakeCents: 200,
+      pendingStakeCents: 1_000,
+      settledReturnCents: 500,
+      settledNetCents: 300,
     });
     expect(calculateLotoFootStatistics(publications, [result], 7)).toMatchObject({
       publicationCount: 1,
       settledCount: 1,
       ticketCount: 2,
-      stakeCents: 200,
-      returnCents: 500,
-      netCents: 300,
+      totalStakeCents: 200,
+      settledStakeCents: 200,
+      pendingStakeCents: 0,
+      settledReturnCents: 500,
+      settledNetCents: 300,
     });
     expect(calculateLotoFootStatistics(publications, [result], 15)).toMatchObject({
       publicationCount: 1,
       settledCount: 0,
       pendingCount: 1,
       ticketCount: 10,
-      stakeCents: 1_000,
-      returnCents: 0,
-      netCents: -1_000,
+      totalStakeCents: 1_000,
+      settledStakeCents: 0,
+      pendingStakeCents: 1_000,
+      settledReturnCents: 0,
+      settledNetCents: undefined,
+      settledYieldPercentage: undefined,
     });
   });
 });

@@ -22,8 +22,16 @@
         ],
         "uncertainty": "La reprise de championnat rend la forme réelle des deux équipes difficile à mesurer.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Swiss Football League - lancement de la saison 2026-2027", "url": "https://sfl.ch/de/articles/das-warten-hat-ein-ende", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Swiss Football League - lancement de la saison 2026-2027",
+            "url": "https://sfl.ch/de/articles/das-warten-hat-ein-ende",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     },
@@ -42,8 +50,16 @@
         ],
         "uncertainty": "Les promus peuvent être difficiles à évaluer lors de la première journée et surprendre avant que les hiérarchies se stabilisent.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Swiss Football League - calendrier officiel 2026-2027", "url": "https://sfl.ch/articles/lescalendriersde-la-saison-202627", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Swiss Football League - calendrier officiel 2026-2027",
+            "url": "https://sfl.ch/articles/lescalendriersde-la-saison-202627",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     },
@@ -62,8 +78,16 @@
         ],
         "uncertainty": "Les compositions et la forme compétitive de reprise peuvent modifier sensiblement l'équilibre attendu.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Swiss Football League - calendrier officiel 2026-2027", "url": "https://sfl.ch/articles/lescalendriersde-la-saison-202627", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Swiss Football League - calendrier officiel 2026-2027",
+            "url": "https://sfl.ch/articles/lescalendriersde-la-saison-202627",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     },
@@ -82,8 +106,16 @@
         ],
         "uncertainty": "Les informations publiques récentes disponibles ne permettent pas d'établir une supériorité nette d'une équipe.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Sligo Rovers - billetterie officielle du match", "url": "https://sligorovers.ticketco.events/ie/en/e/sligo_rovers_vs_drogheda_utd", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Sligo Rovers - billetterie officielle du match",
+            "url": "https://sligorovers.ticketco.events/ie/en/e/sligo_rovers_vs_drogheda_utd",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     },
@@ -102,9 +134,21 @@
         ],
         "uncertainty": "Le changement de stade et la capacité de Galway à réagir à domicile rendent l'avantage de Waterford modéré plutôt que net.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "League of Ireland - modification officielle du match Galway - Waterford", "url": "https://www.leagueofireland.ie/news/galway-united-fixture-updates-sse-airtricity-mens-premier-division/", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Waterford FC - forme récente et fiche officielle du match", "url": "https://waterfordfc.ie/match/galway-united-fc-waterford-fc-2026-07-25/", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "League of Ireland - modification officielle du match Galway - Waterford",
+            "url": "https://www.leagueofireland.ie/news/galway-united-fixture-updates-sse-airtricity-mens-premier-division/",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Waterford FC - forme récente et fiche officielle du match",
+            "url": "https://waterfordfc.ie/match/galway-united-fc-waterford-fc-2026-07-25/",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     },
@@ -123,9 +167,21 @@
         ],
         "uncertainty": "Une seule journée a été disputée, ce qui rend les écarts statistiques encore fragiles.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "LPF - programme officiel de la deuxième journée", "url": "https://lpf.ro/etape-liga-1/2", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "LPF - fiche officielle Universitatea Craiova", "url": "https://lpf.ro/cluburi/universitatea-craiova/9/calendar", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "LPF - programme officiel de la deuxième journée",
+            "url": "https://lpf.ro/etape-liga-1/2",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "LPF - fiche officielle Universitatea Craiova",
+            "url": "https://lpf.ro/cluburi/universitatea-craiova/9/calendar",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     },
@@ -144,9 +200,21 @@
         ],
         "uncertainty": "La proximité d'une rencontre européenne retour peut influencer la rotation et la fraîcheur de Lech.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Lech Poznań - calendrier et résultats officiels", "url": "https://www.lechpoznan.pl/en/first-team%2C61.html", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Cracovia - fiche officielle du match", "url": "https://www.cracovia.pl/games/219/lech-poznan-cracovia", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Lech Poznań - calendrier et résultats officiels",
+            "url": "https://www.lechpoznan.pl/en/first-team%2C61.html",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Cracovia - fiche officielle du match",
+            "url": "https://www.cracovia.pl/games/219/lech-poznan-cracovia",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     },
@@ -165,10 +233,26 @@
         ],
         "uncertainty": "La charge européenne et la défaite récente contre Lech peuvent peser sur la fraîcheur et la confiance d'AGF.",
         "sources": [
-          { "label": "FDJ - Loto Foot 8 n°96", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "AGF - programme officiel du début de saison", "url": "https://agf.dk/nyheder/2026/juni/naest-ar-naermer-sig-de-forste-sl-kampe-pa-plads", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "AGF - titre remporté à Brøndby", "url": "https://www.agf.dk/nyheder/2026/maj/sadan-vandt-vi-dm-i-brondby", "accessedAt": "2026-07-24T00:56:00+02:00" },
-          { "label": "Lech Poznań - victoire récente 4-1 à Aarhus", "url": "https://www.lechpoznan.pl/pl/", "accessedAt": "2026-07-24T00:56:00+02:00" }
+          {
+            "label": "FDJ - Loto Foot 8 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "AGF - programme officiel du début de saison",
+            "url": "https://agf.dk/nyheder/2026/juni/naest-ar-naermer-sig-de-forste-sl-kampe-pa-plads",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "AGF - titre remporté à Brøndby",
+            "url": "https://www.agf.dk/nyheder/2026/maj/sadan-vandt-vi-dm-i-brondby",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          },
+          {
+            "label": "Lech Poznań - victoire récente 4-1 à Aarhus",
+            "url": "https://www.lechpoznan.pl/pl/",
+            "accessedAt": "2026-07-24T00:56:00+02:00"
+          }
         ]
       }
     }

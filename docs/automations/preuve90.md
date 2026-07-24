@@ -115,7 +115,8 @@ nombre de matchs.
 13. Pour chaque match, produire :
     - trois probabilités entières `home`, `draw` et `away` totalisant exactement 100 ;
     - un résumé, des facteurs principaux et une incertitude ;
-    - au moins une source publique précise.
+    - au moins une source sportive récente, publique et directement pertinente pour cette
+      rencontre ou pour les équipes concernées.
 
 14. Hiérarchie des sources :
     1. grille officielle FDJ ;
@@ -125,8 +126,13 @@ nombre de matchs.
     5. autres sources uniquement en complément.
 
     Ne jamais reprendre les probabilités ou le pronostic d’un autre site. FDJ reste la source de
-    vérité pour la formule, le numéro, l’ordre des matchs et la clôture. Ne rien publier si les
-    informations utiles sont trop faibles, contradictoires ou invérifiables.
+    vérité pour la formule, le numéro, la composition des matchs, leur ordre et la clôture.
+
+    Un classement général, une projection de début de saison ou une source générique peut
+    compléter l’analyse, mais ne peut jamais constituer à lui seul la recherche sportive détaillée
+    d’un match. Refuser la publication si les informations récentes et vérifiables sont
+    insuffisantes pour produire une analyse sérieuse de l’ensemble de la grille, ou si un seul
+    match ne dispose pas de la source sportive directement pertinente exigée à l’étape 13.
 
 15. Produire librement une ou plusieurs combinaisons distinctes, sans nombre par défaut ni plafond
     arbitraire de trois. Utiliser le plus petit nombre couvrant les scénarios plausibles réellement
@@ -140,9 +146,17 @@ nombre de matchs.
 
 17. Pour les horodatages :
     - utiliser l’heure réelle en Europe/Paris, au format ISO avec les secondes ;
-    - conserver l’heure réelle d’accès de chaque source ;
+    - relever `accessedAt` au moment réel où chaque source précise est consultée ;
+    - conserver ensuite cet horodatage sans le modifier ;
+    - ne relever un nouvel `accessedAt` pour une source que si cette même source est réellement
+      rouverte, et remplacer alors uniquement l’horodatage correspondant à cette nouvelle
+      consultation ;
+    - ne jamais appliquer après les recherches un horodatage final commun à toutes les sources ;
+    - après toutes les recherches et les dernières consultations, relever, immédiatement avant la
+      validation et l’écriture, une nouvelle heure courante réelle destinée à `publishedAt` ;
     - garantir `accessedAt <= publishedAt < validationDeadline` ;
-    - ne jamais écrire un horodatage futur.
+    - ne jamais arrondir, estimer ou anticiper `publishedAt`, et ne jamais écrire un horodatage
+      futur.
 
 ## Nouveau règlement
 
@@ -172,8 +186,15 @@ nombre de matchs.
     - relire `master`, l’inventaire et uniquement ses `pendingPublications` ;
     - refaire les contrôles des étapes 3 à 7 ;
     - vérifier directement avec l’app GitHub que le futur chemin n’existe pas ;
-    - revalider le fichier avec le modèle courant ;
-    - actualiser les horodatages réels d’une publication si nécessaire.
+    - pour une publication, respecter strictement cet ordre final :
+      1. terminer toutes les recherches ;
+      2. terminer les dernières consultations en conservant pour chacune l’heure `accessedAt`
+         relevée lors de son ouverture réelle, sans horodatage final commun ;
+      3. relever ensuite l’heure courante réelle en Europe/Paris destinée à `publishedAt`, avec les
+         secondes, immédiatement avant la validation et l’écriture, sans arrondi, estimation ni
+         heure future ;
+      4. valider le fichier avec le modèle courant ;
+      5. écrire immédiatement le fichier.
 
 23. Ne jamais modifier, supprimer ou renommer un contenu existant. Ne jamais réutiliser un
     identifiant. En cas de doublon, d’ambiguïté ou d’incohérence, ne rien écrire.

@@ -11,15 +11,30 @@ export interface LotoFootTicketSettlement {
   payoutCents: number;
 }
 
-export interface LotoFootPublicationSettlement {
+interface LotoFootPublicationSettlementBase {
   publication: LotoFootPublication;
-  result?: LotoFootResult;
-  status: "pending" | "settled";
-  ticketSettlements: readonly LotoFootTicketSettlement[];
   stakeCents: number;
+}
+
+export interface LotoFootPendingPublicationSettlement extends LotoFootPublicationSettlementBase {
+  result?: undefined;
+  status: "pending";
+  ticketSettlements: readonly [];
+  returnCents?: undefined;
+  netCents?: undefined;
+}
+
+export interface LotoFootSettledPublicationSettlement extends LotoFootPublicationSettlementBase {
+  result: LotoFootResult;
+  status: "settled";
+  ticketSettlements: readonly LotoFootTicketSettlement[];
   returnCents: number;
   netCents: number;
 }
+
+export type LotoFootPublicationSettlement =
+  | LotoFootPendingPublicationSettlement
+  | LotoFootSettledPublicationSettlement;
 
 export function countCorrectSelections(ticket: LotoFootTicket, result: LotoFootResult): number {
   if (ticket.selections.length !== result.matches.length) {
@@ -61,8 +76,8 @@ export function calculatePublicationStakeCents(publication: LotoFootPublication)
 export function calculatePublicationReturnCents(
   publication: LotoFootPublication,
   result?: LotoFootResult,
-): number {
-  if (!result) return 0;
+): number | undefined {
+  if (!result) return undefined;
   return publication.tickets.reduce(
     (total, ticket) => total + calculateTicketSettlement(ticket, result).payoutCents,
     0,
@@ -72,11 +87,11 @@ export function calculatePublicationReturnCents(
 export function calculatePublicationNetCents(
   publication: LotoFootPublication,
   result?: LotoFootResult,
-): number {
-  return (
-    calculatePublicationReturnCents(publication, result) -
-    calculatePublicationStakeCents(publication)
-  );
+): number | undefined {
+  const returnCents = calculatePublicationReturnCents(publication, result);
+  return returnCents === undefined
+    ? undefined
+    : returnCents - calculatePublicationStakeCents(publication);
 }
 
 export function calculatePublicationSettlement(
@@ -88,15 +103,24 @@ export function calculatePublicationSettlement(
   }
 
   const stakeCents = calculatePublicationStakeCents(publication);
-  const ticketSettlements = result
-    ? publication.tickets.map((ticket) => calculateTicketSettlement(ticket, result))
-    : [];
+  if (!result) {
+    return {
+      publication,
+      status: "pending",
+      ticketSettlements: [],
+      stakeCents,
+    };
+  }
+
+  const ticketSettlements = publication.tickets.map((ticket) =>
+    calculateTicketSettlement(ticket, result),
+  );
   const returnCents = ticketSettlements.reduce((total, ticket) => total + ticket.payoutCents, 0);
 
   return {
     publication,
     result,
-    status: getPublicationStatus(result),
+    status: "settled",
     ticketSettlements,
     stakeCents,
     returnCents,
