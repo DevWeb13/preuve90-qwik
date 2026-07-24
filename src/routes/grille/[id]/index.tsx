@@ -1,7 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import { Link, routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
+import { DeadlineStatus } from "~/components/loto-foot/deadline-status";
 import { MotionSection } from "~/components/motion/motion";
 import { EmptyState } from "~/components/ui/primitives";
+import { LOTO_FOOT_SELECTIONS } from "~/content/loto-foot/model";
 import { getLotoFootPublicationById } from "~/content/loto-foot/publications";
 import { getLotoFootResultByPublicationId } from "~/content/loto-foot/results";
 import { calculatePublicationSettlement } from "~/content/loto-foot/settlement";
@@ -9,8 +11,10 @@ import {
   formatCorrectAnswerScore,
   getLotoFootFormulaLabel,
   getNetPresentation,
+  getPublicationDetailSections,
   getPublicationDisplayStatus,
   getPublicationStatusLabel,
+  getSelectionPresentation,
 } from "~/lib/formatting/loto-foot-presentation";
 import { createDocumentHead } from "~/lib/formatting/seo";
 
@@ -33,7 +37,7 @@ const signedCurrencyFormatter = new Intl.NumberFormat("fr-FR", {
 
 const formatNet = (netCents?: number) =>
   netCents === undefined
-    ? "—"
+    ? "-"
     : netCents === 0
       ? currencyFormatter.format(0)
       : signedCurrencyFormatter.format(netCents / 100);
@@ -69,6 +73,7 @@ export default component$(() => {
 
   const { publication, result } = data;
   const settlement = calculatePublicationSettlement(publication, result);
+  const detailSections = getPublicationDetailSections(result !== undefined);
   const displayStatus = getPublicationDisplayStatus(publication, result);
   const formulaLabel = getLotoFootFormulaLabel(publication.formula);
   const net = getNetPresentation(settlement.netCents);
@@ -79,15 +84,15 @@ export default component$(() => {
 
   return (
     <div class="publication-detail">
-      <Link class="back-link" href="/">
-        <span aria-hidden="true">←</span> Retour au tableau de contrôle
+      <Link class="back-link" href={`/loto-foot/${publication.formula}/`}>
+        <span aria-hidden="true">←</span> Retour aux grilles
       </Link>
 
       <header class="detail-command-header">
         <div class="detail-title-block">
-          <span class="eyebrow">{formulaLabel.toUpperCase()} · TRACE HORODATÉE</span>
+          <span class="eyebrow">{formulaLabel.toUpperCase()} · GRILLE PUBLIÉE</span>
           <h1>
-            {formulaLabel} — grille n°{publication.gridNumber}
+            {formulaLabel} : grille n°{publication.gridNumber}
           </h1>
           <span class={`status-chip status-${displayStatus}`}>
             <span aria-hidden="true" />
@@ -96,7 +101,7 @@ export default component$(() => {
         </div>
         <dl class="detail-identity">
           <div>
-            <dt>Date limite</dt>
+            <dt>Clôture</dt>
             <dd>{dateFormatter.format(new Date(publication.validationDeadline))}</dd>
           </div>
           <div>
@@ -111,59 +116,60 @@ export default component$(() => {
         <a class="official-link" href={publication.officialUrl} target="_blank" rel="noreferrer">
           Grille officielle <span aria-hidden="true">↗</span>
         </a>
+        {!result && <DeadlineStatus validationDeadline={publication.validationDeadline} />}
       </header>
 
-      <section class="grid-financial-section" aria-labelledby="grid-financial-title">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">BILAN FINANCIER</span>
-            <h2 id="grid-financial-title">Performance virtuelle de la grille</h2>
-          </div>
-        </div>
-        <MotionSection kind="finance" class="grid-financial-stage">
-          <span class="technical-sweep" data-motion-line aria-hidden="true" />
-          <dl class="grid-financial-readout">
-            <div data-finance-item>
-              <dt>Mise totale</dt>
-              <dd>
-                <span
-                  class="animated-amount"
-                  data-count-cents={settlement.stakeCents}
-                  aria-hidden="true"
-                >
-                  {currencyFormatter.format(settlement.stakeCents / 100)}
-                </span>
-                <span class="sr-only">{currencyFormatter.format(settlement.stakeCents / 100)}</span>
-              </dd>
+      {!result && (
+        <p class="waiting-summary">
+          Les résultats et rapports officiels seront affichés dès leur publication officielle.
+        </p>
+      )}
+
+      {detailSections.financial && (
+        <section class="grid-financial-section" aria-labelledby="grid-financial-title">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">BILAN VIRTUEL</span>
+              <h2 id="grid-financial-title">Bilan de la grille</h2>
             </div>
-            <div data-finance-item>
-              <dt>Retour total</dt>
-              <dd>
-                {settlement.returnCents === undefined ? (
-                  <span>En attente</span>
-                ) : (
+          </div>
+          <MotionSection kind="finance" class="grid-financial-stage">
+            <span class="technical-sweep" data-motion-line aria-hidden="true" />
+            <dl class="grid-financial-readout">
+              <div data-finance-item>
+                <dt>Mise totale</dt>
+                <dd>
+                  <span
+                    class="animated-amount"
+                    data-count-cents={settlement.stakeCents}
+                    aria-hidden="true"
+                  >
+                    {currencyFormatter.format(settlement.stakeCents / 100)}
+                  </span>
+                  <span class="sr-only">
+                    {currencyFormatter.format(settlement.stakeCents / 100)}
+                  </span>
+                </dd>
+              </div>
+              <div data-finance-item>
+                <dt>Retour total</dt>
+                <dd>
                   <span
                     class="animated-amount"
                     data-count-cents={settlement.returnCents}
                     aria-hidden="true"
                   >
-                    {currencyFormatter.format(settlement.returnCents / 100)}
+                    {currencyFormatter.format((settlement.returnCents ?? 0) / 100)}
                   </span>
-                )}
-                <span class="sr-only">
-                  {settlement.returnCents === undefined
-                    ? "En attente"
-                    : currencyFormatter.format(settlement.returnCents / 100)}
-                </span>
-              </dd>
-            </div>
-            <div class={`grid-net tone-${net.tone}`} data-finance-item>
-              <dt>Résultat net</dt>
-              <dd>
-                <span class="net-state-label">{net.label}</span>
-                {settlement.netCents === undefined ? (
-                  <span>—</span>
-                ) : (
+                  <span class="sr-only">
+                    {currencyFormatter.format((settlement.returnCents ?? 0) / 100)}
+                  </span>
+                </dd>
+              </div>
+              <div class={`grid-net tone-${net.tone}`} data-finance-item>
+                <dt>Résultat net</dt>
+                <dd>
+                  <span class="net-state-label">{net.label}</span>
                   <span
                     class="animated-amount"
                     data-count-cents={settlement.netCents}
@@ -172,38 +178,33 @@ export default component$(() => {
                   >
                     {formatNet(settlement.netCents)}
                   </span>
-                )}
-                <span class="sr-only">{formatNet(settlement.netCents)}</span>
-              </dd>
-            </div>
-            <div class="grid-best-score" data-finance-item>
-              <dt>Meilleur score obtenu</dt>
-              <dd>
-                {bestScore === undefined ? (
-                  "En attente"
-                ) : (
-                  <>
-                    <strong>
-                      {bestScore}/{publication.matches.length}
-                    </strong>
-                    <small>{formatCorrectAnswerScore(bestScore, publication.matches.length)}</small>
-                  </>
-                )}
-              </dd>
-            </div>
-          </dl>
-        </MotionSection>
-      </section>
+                  <span class="sr-only">{formatNet(settlement.netCents)}</span>
+                </dd>
+              </div>
+              <div class="grid-best-score" data-finance-item>
+                <dt>Meilleur score</dt>
+                <dd>
+                  <strong>
+                    {bestScore}/{publication.matches.length}
+                  </strong>
+                  <small>
+                    {formatCorrectAnswerScore(bestScore ?? 0, publication.matches.length)}
+                  </small>
+                </dd>
+              </div>
+            </dl>
+          </MotionSection>
+        </section>
+      )}
 
-      <section class="official-results-section" aria-labelledby="official-results-title">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">ISSUE DE LA GRILLE</span>
-            <h2 id="official-results-title">Résultat officiel</h2>
+      {detailSections.results && result && (
+        <section class="official-results-section" aria-labelledby="official-results-title">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">RÉSULTATS</span>
+              <h2 id="official-results-title">Résultats officiels</h2>
+            </div>
           </div>
-          {result && <span class="method-badge">Publié par la source officielle</span>}
-        </div>
-        {result ? (
           <MotionSection kind="result" class="official-result-board">
             <p>Suite officielle des résultats, dans l’ordre des matchs :</p>
             <ol class="official-result-sequence" aria-label="Suite officielle des résultats">
@@ -215,74 +216,67 @@ export default component$(() => {
               ))}
             </ol>
             <span class="result-confirmation">
-              <span aria-hidden="true">✓</span> Résultats réglés le{" "}
+              <span aria-hidden="true">✓</span> Résultats enregistrés le{" "}
               {dateFormatter.format(new Date(result.settledAt))}
             </span>
           </MotionSection>
-        ) : (
-          <div class="waiting-panel">
-            <strong>Résultat officiel en attente</strong>
-            <p>La suite 1, N et 2 apparaîtra ici après publication officielle.</p>
-          </div>
-        )}
-      </section>
+        </section>
+      )}
 
-      <section class="official-payouts-section" aria-labelledby="official-payouts-title">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">BARÈME DE RÈGLEMENT</span>
-            <h2 id="official-payouts-title">Rapports officiels de la grille</h2>
+      {detailSections.payouts && result && (
+        <section class="official-payouts-section" aria-labelledby="official-payouts-title">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">RAPPORTS OFFICIELS</span>
+              <h2 id="official-payouts-title">Rapports de la grille</h2>
+            </div>
           </div>
-        </div>
-        {result ? (
-          <>
-            <p class="section-intro">
-              Chaque montant correspond au rapport officiel de cette grille pour le nombre de bonnes
-              réponses indiqué.
-            </p>
-            <MotionSection kind="payouts" class="official-payout-list">
-              {result.payouts.map((payout) => (
-                <article data-payout-item key={payout.correctSelections}>
-                  <span class="payout-score">
-                    <strong>{payout.correctSelections}</strong>
-                    <small>
-                      bonne{payout.correctSelections > 1 ? "s" : ""} réponse
-                      {payout.correctSelections > 1 ? "s" : ""}
-                    </small>
-                  </span>
-                  <span class="payout-amount">
-                    {currencyFormatter.format(payout.amountCents / 100)}
-                  </span>
-                  <span class="payout-caption">Rapport officiel</span>
-                </article>
-              ))}
-            </MotionSection>
-          </>
-        ) : (
-          <div class="waiting-panel">
-            <strong>Rapports en attente</strong>
-            <p>Rapports officiels disponibles après publication des résultats.</p>
-          </div>
-        )}
-      </section>
+          <p class="section-intro">
+            Chaque montant correspond au rapport officiel de cette grille pour le nombre de bonnes
+            réponses indiqué.
+          </p>
+          <MotionSection kind="payouts" class="official-payout-list">
+            {result.payouts.map((payout) => (
+              <article data-payout-item key={payout.correctSelections}>
+                <span class="payout-score">
+                  <strong>{payout.correctSelections}</strong>
+                  <small>
+                    bonne{payout.correctSelections > 1 ? "s" : ""} réponse
+                    {payout.correctSelections > 1 ? "s" : ""}
+                  </small>
+                </span>
+                <span class="payout-amount">
+                  {currencyFormatter.format(payout.amountCents / 100)}
+                </span>
+                <span class="payout-caption">Rapport officiel</span>
+              </article>
+            ))}
+          </MotionSection>
+        </section>
+      )}
 
       <section class="tickets-section" aria-labelledby="tickets-title">
         <div class="section-heading">
           <div>
-            <span class="eyebrow">PERFORMANCE DES COMBINAISONS</span>
-            <h2 id="tickets-title">Les choix confrontés au réel</h2>
+            <span class="eyebrow">COMBINAISONS PUBLIÉES</span>
+            <h2 id="tickets-title">Choix 1, N, 2</h2>
           </div>
-          <span class="count-badge">{publication.tickets.length} combinaison(s)</span>
+          <span class="count-badge">
+            {publication.tickets.length}{" "}
+            {publication.tickets.length === 1 ? "combinaison" : "combinaisons"}
+          </span>
         </div>
-        <p class="selection-legend">
-          <span class="legend-correct">
-            <span aria-hidden="true">✓</span> Correct
-          </span>
-          <span class="legend-incorrect">
-            <span aria-hidden="true">×</span> Incorrect
-          </span>
-          {!result && <span>· Verdicts disponibles après les résultats</span>}
-        </p>
+        {result && (
+          <p class="selection-legend">
+            <span class="legend-correct">
+              <span aria-hidden="true">✓</span> Correct
+            </span>
+            <span class="legend-incorrect">
+              <span aria-hidden="true">×</span> Incorrect
+            </span>
+            <span>Résultat : choix officiel non sélectionné</span>
+          </p>
+        )}
         <MotionSection kind="tickets" class="ticket-grid">
           {publication.tickets.map((ticket, ticketIndex) => {
             const ticketSettlement = settlement.ticketSettlements.find(
@@ -311,63 +305,104 @@ export default component$(() => {
                     {ticketStateLabel}
                   </span>
                   <h3>{ticket.label}</h3>
-                </header>
-
-                <div class="ticket-scoreline">
-                  <strong>
-                    {ticketSettlement
-                      ? formatCorrectAnswerScore(
+                  {ticketSettlement && (
+                    <div class="ticket-scoreline">
+                      <strong>
+                        {formatCorrectAnswerScore(
                           ticketSettlement.correctSelections,
                           publication.matches.length,
-                        )
-                      : `Score en attente sur ${publication.matches.length}`}
-                  </strong>
-                  <span>
-                    Gain :{" "}
-                    {ticketSettlement
-                      ? currencyFormatter.format(ticketSettlement.payoutCents / 100)
-                      : "en attente"}
-                  </span>
-                </div>
-
-                <div class="ticket-selections" role="list" aria-label={`Choix de ${ticket.label}`}>
-                  {ticket.selections.map((selection, index) => {
-                    const isCorrect = result
-                      ? selection === result.matches[index].selection
-                      : undefined;
-                    return (
-                      <span
-                        class={{
-                          "ticket-selection": true,
-                          "selection-correct": isCorrect === true,
-                          "selection-incorrect": isCorrect === false,
-                        }}
-                        aria-label={`Match ${index + 1} : choix ${selection}${
-                          isCorrect === undefined
-                            ? ", en attente"
-                            : isCorrect
-                              ? ", correct"
-                              : ", incorrect"
-                        }`}
-                        role="listitem"
-                        key={`${ticket.id}-${index}`}
-                      >
-                        <small>M{index + 1}</small>
-                        <strong>{selection}</strong>
-                        <span class="selection-verdict">
-                          {isCorrect === undefined ? "…" : isCorrect ? "✓" : "×"}
-                          <span class="sr-only">
-                            {isCorrect === undefined
-                              ? "En attente"
-                              : isCorrect
-                                ? "Correct"
-                                : "Incorrect"}
-                          </span>
-                        </span>
+                        )}
+                      </strong>
+                      <span>
+                        Gain officiel :{" "}
+                        {currencyFormatter.format(ticketSettlement.payoutCents / 100)}
                       </span>
-                    );
-                  })}
-                </div>
+                    </div>
+                  )}
+                </header>
+
+                <table class="ticket-choice-table">
+                  <caption class="sr-only">Choix publiés pour {ticket.label}</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">N°</th>
+                      <th scope="col">Match</th>
+                      {LOTO_FOOT_SELECTIONS.map((selection) => (
+                        <th scope="col" key={selection}>
+                          {selection}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {publication.matches.map((match, matchIndex) => {
+                      const publishedSelection = ticket.selections[matchIndex];
+                      const officialSelection = result?.matches[matchIndex].selection;
+                      const selectedIsCorrect =
+                        officialSelection === undefined
+                          ? undefined
+                          : publishedSelection === officialSelection;
+
+                      return (
+                        <tr
+                          class={{
+                            "choice-row-correct": selectedIsCorrect === true,
+                            "choice-row-incorrect": selectedIsCorrect === false,
+                          }}
+                          key={match.position}
+                        >
+                          <th scope="row">{String(match.position).padStart(2, "0")}</th>
+                          <td class="ticket-match">
+                            {match.homeTeam} contre {match.awayTeam}
+                          </td>
+                          {LOTO_FOOT_SELECTIONS.map((displayedSelection) => {
+                            const choice = getSelectionPresentation(
+                              publishedSelection,
+                              displayedSelection,
+                              officialSelection,
+                            );
+                            const accessibleState = choice.isSelected
+                              ? choice.verdict === "correct"
+                                ? "choix publié correct et résultat officiel"
+                                : choice.verdict === "incorrect"
+                                  ? "choix publié incorrect"
+                                  : "choix publié"
+                              : choice.isOfficial
+                                ? "résultat officiel"
+                                : "non sélectionné";
+
+                            return (
+                              <td
+                                aria-label={`${displayedSelection} : ${accessibleState}`}
+                                class={{
+                                  "choice-cell": true,
+                                  "choice-selected": choice.isSelected,
+                                  "choice-official": choice.isOfficial,
+                                  "choice-correct": choice.verdict === "correct",
+                                  "choice-incorrect": choice.verdict === "incorrect",
+                                }}
+                                key={displayedSelection}
+                              >
+                                <span class="choice-marker" aria-hidden="true">
+                                  {choice.isSelected ? "●" : "○"}
+                                </span>
+                                {choice.verdict === "correct" && (
+                                  <small class="choice-verdict">✓ Correct · Résultat</small>
+                                )}
+                                {choice.verdict === "incorrect" && (
+                                  <small class="choice-verdict">× Incorrect</small>
+                                )}
+                                {!choice.isSelected && choice.isOfficial && (
+                                  <small class="choice-official-label">Résultat</small>
+                                )}
+                              </td>
+                            );
+                          })}
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
                 <p class="ticket-rationale">{ticket.rationale}</p>
               </article>
             );
@@ -375,129 +410,13 @@ export default component$(() => {
         </MotionSection>
       </section>
 
-      <section class="comparison-section" aria-labelledby="comparison-title">
-        <div class="section-heading">
-          <div>
-            <span class="eyebrow">LECTURE CROISÉE</span>
-            <h2 id="comparison-title">Comparaison match par match</h2>
-          </div>
-        </div>
-        <MotionSection kind="comparison" class="comparison-board">
-          <div class="comparison-desktop">
-            <table>
-              <caption class="sr-only">
-                Résultat officiel et choix de chaque combinaison pour chaque match
-              </caption>
-              <thead>
-                <tr>
-                  <th scope="col">Match</th>
-                  <th scope="col">Officiel</th>
-                  {publication.tickets.map((ticket) => (
-                    <th scope="col" key={ticket.id}>
-                      {ticket.label}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {publication.matches.map((match, matchIndex) => {
-                  const officialSelection = result?.matches[matchIndex].selection;
-                  return (
-                    <tr data-comparison-row key={match.position}>
-                      <th scope="row">
-                        <span>{String(match.position).padStart(2, "0")}</span>
-                        {match.homeTeam} — {match.awayTeam}
-                      </th>
-                      <td>
-                        <strong class="comparison-official">{officialSelection ?? "—"}</strong>
-                      </td>
-                      {publication.tickets.map((ticket) => {
-                        const selection = ticket.selections[matchIndex];
-                        const isCorrect =
-                          officialSelection === undefined
-                            ? undefined
-                            : selection === officialSelection;
-                        return (
-                          <td key={ticket.id}>
-                            <span
-                              class={{
-                                "comparison-choice": true,
-                                "choice-correct": isCorrect === true,
-                                "choice-incorrect": isCorrect === false,
-                              }}
-                            >
-                              <strong>{selection}</strong>
-                              <small>
-                                {isCorrect === undefined
-                                  ? "En attente"
-                                  : isCorrect
-                                    ? "✓ Correct"
-                                    : "× Incorrect"}
-                              </small>
-                            </span>
-                          </td>
-                        );
-                      })}
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-
-          <div class="comparison-mobile">
-            {publication.matches.map((match, matchIndex) => {
-              const officialSelection = result?.matches[matchIndex].selection;
-              return (
-                <article data-comparison-row key={match.position}>
-                  <header>
-                    <span>Match {match.position}</span>
-                    <h3>
-                      {match.homeTeam} — {match.awayTeam}
-                    </h3>
-                    <strong>Résultat officiel : {officialSelection ?? "en attente"}</strong>
-                  </header>
-                  <ul>
-                    {publication.tickets.map((ticket) => {
-                      const selection = ticket.selections[matchIndex];
-                      const isCorrect =
-                        officialSelection === undefined
-                          ? undefined
-                          : selection === officialSelection;
-                      return (
-                        <li key={ticket.id}>
-                          <span>{ticket.label}</span>
-                          <strong>{selection}</strong>
-                          <small>
-                            {isCorrect === undefined
-                              ? "En attente"
-                              : isCorrect
-                                ? "✓ Correct"
-                                : "× Incorrect"}
-                          </small>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </article>
-              );
-            })}
-          </div>
-        </MotionSection>
-      </section>
-
       <section class="analyses-section" aria-labelledby="analyses-title">
         <div class="section-heading">
           <div>
-            <span class="eyebrow">DOSSIER D’AVANT-MATCH</span>
-            <h2 id="analyses-title">Analyses détaillées</h2>
+            <span class="eyebrow">ANALYSES</span>
+            <h2 id="analyses-title">Analyse des matchs</h2>
           </div>
-          <span class="method-badge">Méthode {publication.methodVersion}</span>
         </div>
-        <p class="section-intro">
-          Ces éléments ont été publiés avant la date limite. Ils documentent le raisonnement, sans
-          modifier le bilan présenté ci-dessus.
-        </p>
         <div class="analysis-accordion">
           {publication.matches.map((match) => {
             const officialResult = result?.matches[match.position - 1];
@@ -508,18 +427,18 @@ export default component$(() => {
                   <span>
                     {match.competition && <small>{match.competition}</small>}
                     <strong>
-                      {match.homeTeam} — {match.awayTeam}
+                      {match.homeTeam} contre {match.awayTeam}
                     </strong>
                   </span>
                   {officialResult && (
-                    <span class="summary-result">Officiel : {officialResult.selection}</span>
+                    <span class="summary-result">Résultat : {officialResult.selection}</span>
                   )}
-                  <span class="summary-action">Voir l’analyse</span>
+                  <span class="summary-action">Afficher l’analyse</span>
                 </summary>
                 <div class="analysis-details-body">
                   {officialResult && officialResult.homeScore !== undefined && (
                     <p class="official-score">
-                      Score final : {officialResult.homeScore}–{officialResult.awayScore}
+                      Score final : {officialResult.homeScore}-{officialResult.awayScore}
                     </p>
                   )}
                   <dl
@@ -581,30 +500,42 @@ export default component$(() => {
 
       <section class="sources-section" aria-labelledby="sources-title">
         <div>
-          <span class="eyebrow">TRAÇABILITÉ</span>
-          <h2 id="sources-title">Sources et avertissements</h2>
+          <span class="eyebrow">SOURCES</span>
+          <h2 id="sources-title">Sources et transparence</h2>
         </div>
         <div class="sources-layout">
           <div class="result-sources">
-            <h3>Sources officielles</h3>
             {result ? (
-              <ul class="source-list">
-                {result.sources.map((source) => (
-                  <li key={`${source.url}-${source.accessedAt}`}>
-                    <a href={source.url} target="_blank" rel="noreferrer">
-                      {source.label} <span aria-hidden="true">↗</span>
-                    </a>
-                    <small>Consultée le {dateFormatter.format(new Date(source.accessedAt))}</small>
-                  </li>
-                ))}
-              </ul>
+              <>
+                <h3>Sources officielles</h3>
+                <ul class="source-list">
+                  {result.sources.map((source) => (
+                    <li key={`${source.url}-${source.accessedAt}`}>
+                      <a href={source.url} target="_blank" rel="noreferrer">
+                        {source.label} <span aria-hidden="true">↗</span>
+                      </a>
+                      <small>
+                        Consultée le {dateFormatter.format(new Date(source.accessedAt))}
+                      </small>
+                    </li>
+                  ))}
+                </ul>
+                <a class="official-link" href={result.officialUrl} target="_blank" rel="noreferrer">
+                  Résultat officiel <span aria-hidden="true">↗</span>
+                </a>
+              </>
             ) : (
-              <p>Les sources de règlement seront ajoutées avec les résultats officiels.</p>
-            )}
-            {result && (
-              <a class="official-link" href={result.officialUrl} target="_blank" rel="noreferrer">
-                Résultat officiel <span aria-hidden="true">↗</span>
-              </a>
+              <>
+                <h3>Grille officielle</h3>
+                <a
+                  class="official-link"
+                  href={publication.officialUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Voir la grille officielle <span aria-hidden="true">↗</span>
+                </a>
+              </>
             )}
           </div>
           <aside class="disclaimer-panel" aria-label="Avertissement">
@@ -635,7 +566,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
   const { publication } = data;
 
   return createDocumentHead(
-    `${getLotoFootFormulaLabel(publication.formula)} — grille n°${publication.gridNumber}`,
+    `${getLotoFootFormulaLabel(publication.formula)} : grille n°${publication.gridNumber}`,
     `Résultats, rapports officiels et performances des combinaisons de la grille n° ${publication.gridNumber}.`,
     `/grille/${encodeURIComponent(publication.id)}/`,
   );

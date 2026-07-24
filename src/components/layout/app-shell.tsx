@@ -16,7 +16,7 @@ export const AppShell = component$(() => {
       </a>
       <header class="site-header">
         <div class="site-header-inner">
-          <Link aria-label="Preuve90 — accueil" class="brand" href="/">
+          <Link aria-label="Preuve90 : accueil" class="brand" href="/">
             <Preuve90Mark aria-hidden="true" class="brand-mark" />
             <span>
               <strong>PREUVE90</strong>
@@ -36,7 +36,7 @@ export const AppShell = component$(() => {
             ))}
           </nav>
           <span class="site-status">
-            <span aria-hidden="true" /> PUBLICATIONS OUVERTES
+            <span aria-hidden="true" /> PUBLICATIONS VÉRIFIABLES
           </span>
         </div>
       </header>

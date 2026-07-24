@@ -6,7 +6,7 @@ import { createDocumentHead } from "~/lib/formatting/seo";
 export default component$(() => <LotoFootDashboard />);
 
 export const head = createDocumentHead(
-  "Preuve90 — Publications Loto Foot 7, 8, 12 et 15",
+  "Preuve90 : Publications Loto Foot 7, 8, 12 et 15",
   SITE_CONFIG.description,
   "/",
 );

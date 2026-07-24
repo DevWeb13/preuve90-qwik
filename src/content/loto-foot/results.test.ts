@@ -63,7 +63,7 @@ function createResult(matchCount = 7, formula: LotoFootFormula = 7, gridNumber =
     ],
     sources: [
       {
-        label: "FDJ — rapport officiel",
+        label: "FDJ - rapport officiel",
         url: "https://example.com/results/42/report",
         accessedAt: "2026-07-24T19:00:00Z",
       },

@@ -1,4 +1,4 @@
-# Preuve90 — Système d’interface produit
+# Preuve90 : Système d’interface produit
 
 Ce document est la référence de l’expérience publique Preuve90. L’interface rend vérifiables des pronostics Loto Foot publiés avant leur date limite, puis confrontés aux résultats et rapports officiels. Elle ne promet aucun gain et n’emploie que les données validées et les calculs du produit.
 
@@ -140,8 +140,8 @@ Aucun état ne dépend uniquement de la couleur. Le contraste reste suffisant m�
 
 Le socle commence à 320 px. Les contenus ont une largeur minimale de zéro, les nombres restent contenus et les libellés longs peuvent revenir à la ligne.
 
-- 320–767 px : bilan empilé avec net en premier, archives sur une colonne, comparaison en cartes, navigation fixe compensée par l’espace sûr ;
-- 768–1023 px : bilan accueil en composition asymétrique, statistiques et cartes sur deux colonnes lorsque l’espace le permet ;
+- 320-767 px : bilan empilé avec net en premier, archives sur une colonne, comparaison en cartes, navigation fixe compensée par l’espace sûr ;
+- 768-1023 px : bilan accueil en composition asymétrique, statistiques et cartes sur deux colonnes lorsque l’espace le permet ;
 - 1024 px et plus : comparaison en tableau, bilan de grille sur quatre zones, combinaisons sur trois colonnes ;
 - jusqu’à 1440 px : largeur de lecture plafonnée par le conteneur produit, sans grandes zones vides.
 

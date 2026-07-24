@@ -2,7 +2,7 @@
 
 Ce fichier conserve uniquement les décisions encore applicables à l’application.
 
-## ADR-001 — Qwik et Qwik City
+## ADR-001 - Qwik et Qwik City
 
 - **Statut :** accepted
 - **Date :** 2026-07-20
@@ -18,7 +18,7 @@ Utiliser Qwik avec Qwik City et TypeScript strict pour fournir une application w
 - les dépendances doivent être compatibles avec la résumabilité et la cible de rendu ;
 - le contenu essentiel doit rester disponible dans le HTML initial.
 
-## ADR-002 — Déploiement Vercel Edge
+## ADR-002 - Déploiement Vercel Edge
 
 - **Statut :** accepted
 - **Date :** 2026-07-20
@@ -34,7 +34,7 @@ Conserver l’adaptateur Vercel Edge comme cible initiale de déploiement.
 - les secrets sont fournis par l’environnement et ne sont jamais exposés au client ;
 - l’introduction d’une API Node indisponible à l’edge exige une nouvelle décision.
 
-## ADR-005 — Aucun modèle Codex figé dans le dépôt
+## ADR-005 - Aucun modèle Codex figé dans le dépôt
 
 - **Statut :** accepted
 - **Date :** 2026-07-20
@@ -49,7 +49,7 @@ Ne pas définir de modèle dans `.codex/config.toml` et laisser le client choisi
 - la configuration ne dépend pas d’un nom de modèle amené à évoluer ;
 - les tâches critiques reposent sur des validations vérifiables.
 
-## ADR-009 — Identité sombre et mouvement progressif
+## ADR-009 - Identité sombre et mouvement progressif
 
 - **Statut :** accepted
 - **Date :** 2026-07-20
@@ -65,7 +65,7 @@ Conserver l’identité sombre Preuve90 décrite dans `docs/DESIGN.md`. Réserve
 - le mouvement réduit est respecté ;
 - aucune bibliothèque visuelle supplémentaire n’est nécessaire pour l’interface temporaire.
 
-## ADR-010 — Publications Loto Foot statiques et validées
+## ADR-010 - Publications Loto Foot statiques et validées
 
 - **Statut :** accepted
 - **Date :** 2026-07-22
@@ -82,7 +82,7 @@ Prendre en charge les formules Loto Foot 7, 8, 12 et 15. Enregistrer chaque publ
 - une publication invalide, dupliquée ou incohérente fait échouer la validation ;
 - un résultat orphelin, dupliqué ou incohérent avec sa publication fait échouer la validation.
 
-## ADR-011 — Une combinaison simple vaut 1 EUR virtuel
+## ADR-011 - Une combinaison simple vaut 1 EUR virtuel
 
 - **Statut :** accepted
 - **Date :** 2026-07-22
@@ -98,7 +98,7 @@ Une combinaison contient exactement autant de choix `1`, `N` ou `2` que la grill
 - aucun argent réel n’est joué et aucun gain n’est garanti ;
 - les gains, retours, résultats nets et statistiques sont calculés depuis les publications et résultats.
 
-## ADR-012 — Séparation entre développement et publication planifiée
+## ADR-012 - Séparation entre développement et publication planifiée
 
 - **Statut :** accepted
 - **Date :** 2026-07-22
@@ -114,7 +114,7 @@ Codex travaille sur une branche dédiée. Seule la tâche planifiée décrite da
 - les modifications fonctionnelles suivent le processus de branche dédié ;
 - l’inventaire est synchronisé séparément par GitHub Actions.
 
-## ADR-013 — Immutabilité des publications retenues comme preuve
+## ADR-013 - Immutabilité des publications retenues comme preuve
 
 - **Statut :** accepted
 - **Date :** 2026-07-23
