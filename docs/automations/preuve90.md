@@ -128,6 +128,13 @@ nombre de matchs.
     Ne jamais reprendre les probabilités ou le pronostic d’un autre site. FDJ reste la source de
     vérité pour la formule, le numéro, la composition des matchs, leur ordre et la clôture.
 
+    Ne jamais utiliser comme source d’analyse une page dont l’objet principal est un pronostic, une
+    cote, un pari sportif, un comparateur de bookmakers ou une affiliation commerciale. Ne jamais
+    enregistrer de lien vers un bookmaker.
+
+    Les pourcentages de répartition affichés par FDJ décrivent les choix des joueurs. Ils ne sont
+    pas les probabilités de l’IA et ne doivent pas servir à construire l’analyse ou les combinaisons.
+
     Un classement général, une projection de début de saison ou une source générique peut
     compléter l’analyse, mais ne peut jamais constituer à lui seul la recherche sportive détaillée
     d’un match. Refuser la publication si les informations récentes et vérifiables sont
@@ -213,6 +220,8 @@ nombre de matchs.
     - nombre de combinaisons et mise totale pour une publication ;
     - `methodVersion` pour une publication ;
     - qualité et hiérarchie des sources ;
+    - pour une publication, confirmation que chaque `accessedAt <= publishedAt` et que `publishedAt`
+      n’est pas postérieur à l’horodatage GitHub du commit ;
     - état synthétique des trois autres formules ;
     - confirmation que l’inventaire est synchronisé séparément.
 
