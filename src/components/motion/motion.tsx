@@ -1,6 +1,6 @@
 import { component$, Slot, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 
-type MotionKind = "archive" | "comparison" | "finance" | "payouts" | "result" | "stats" | "tickets";
+type MotionKind = "archive" | "finance" | "payouts" | "result" | "stats" | "tickets";
 
 interface MotionSectionProps {
   kind: MotionKind;
@@ -9,7 +9,6 @@ interface MotionSectionProps {
 
 const itemSelectors: Record<MotionKind, string> = {
   archive: "[data-archive-item]",
-  comparison: "[data-comparison-row]",
   finance: "[data-finance-item]",
   payouts: "[data-payout-item]",
   result: "[data-result-pill]",

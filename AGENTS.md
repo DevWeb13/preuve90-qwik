@@ -38,6 +38,8 @@
 
 - Respecter les conventions, outils et dépendances existants du dépôt.
 - Ne pas ajouter de dépendance ou d’abstraction sans besoin démontré.
+- Ne jamais ajouter les caractères U+2013 ou U+2014 dans un fichier textuel.
+- Utiliser selon le contexte le tiret ASCII, les deux-points, des parenthèses ou le mot "contre".
 - Exécuter d’abord les validations ciblées, puis la validation globale lorsqu’elle est pertinente pour les changements réalisés.
 - Relire le diff complet et exécuter `git diff --check` avant le commit.
 - Signaler toute validation non exécutée avec sa raison et garder le compte rendu final bref.

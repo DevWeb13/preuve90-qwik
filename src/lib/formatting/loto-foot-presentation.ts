@@ -2,11 +2,24 @@ import type {
   LotoFootFormula,
   LotoFootPublication,
   LotoFootResult,
+  LotoFootSelection,
 } from "~/content/loto-foot/model";
 import type { LotoFootPublicationSettlement } from "~/content/loto-foot/settlement";
 
 export type PublicationDisplayStatus = "open" | "pending" | "settled";
 export type FinancialTone = "positive" | "negative" | "neutral" | "pending";
+export type DashboardFinancialState = "settled" | "pending" | "empty";
+
+export interface DashboardPresentation {
+  financialState: DashboardFinancialState;
+  isEmptyFormula: boolean;
+}
+
+export interface PublicationDetailSections {
+  financial: boolean;
+  results: boolean;
+  payouts: boolean;
+}
 
 export function getPublicationDisplayStatus(
   publication: LotoFootPublication,
@@ -39,6 +52,57 @@ export function formatCorrectAnswerScore(correct: number, total: number): string
 
 export function getLotoFootFormulaLabel(formula: LotoFootFormula): string {
   return `Loto Foot ${formula}`;
+}
+
+export function getDashboardPresentation(
+  statistics: {
+    publicationCount: number;
+    settledCount: number;
+    pendingStakeCents: number;
+  },
+  isFormulaPage: boolean,
+): DashboardPresentation {
+  return {
+    financialState:
+      statistics.settledCount > 0
+        ? "settled"
+        : statistics.pendingStakeCents > 0
+          ? "pending"
+          : "empty",
+    isEmptyFormula: isFormulaPage && statistics.publicationCount === 0,
+  };
+}
+
+export function getPublicationDetailSections(hasResult: boolean): PublicationDetailSections {
+  return {
+    financial: hasResult,
+    results: hasResult,
+    payouts: hasResult,
+  };
+}
+
+export function getSelectionPresentation(
+  publishedSelection: LotoFootSelection,
+  displayedSelection: LotoFootSelection,
+  officialSelection?: LotoFootSelection,
+): {
+  isSelected: boolean;
+  isOfficial: boolean;
+  verdict?: "correct" | "incorrect";
+} {
+  const isSelected = publishedSelection === displayedSelection;
+  const isOfficial = officialSelection === displayedSelection;
+
+  return {
+    isSelected,
+    isOfficial,
+    verdict:
+      officialSelection === undefined || !isSelected
+        ? undefined
+        : publishedSelection === officialSelection
+          ? "correct"
+          : "incorrect",
+  };
 }
 
 export function getBestTicketPerformance(
