@@ -28,6 +28,8 @@ describe("routage des pages de grille Loto Foot", () => {
     expect(resolveLotoFootGridPublication("publication-inexistante", "7")).toBeUndefined();
     expect(resolveLotoFootGridPublication("lf7-91-2026-07-22", "8")).toBeUndefined();
     expect(resolveLotoFootGridPublication("lf7-91-2026-07-22", "invalide")).toBeUndefined();
+    expect(resolveLotoFootGridPublication("lf7-91-2026-07-22", "07")).toBeUndefined();
+    expect(resolveLotoFootGridPublication("lf7-91-2026-07-22", "7.0")).toBeUndefined();
   });
 
   it("valide uniquement les formules prises en charge", () => {
@@ -36,6 +38,11 @@ describe("routage des pages de grille Loto Foot", () => {
     expect(parseLotoFootFormula("12")).toBe(12);
     expect(parseLotoFootFormula("15")).toBe(15);
     expect(parseLotoFootFormula("9")).toBeUndefined();
+    expect(parseLotoFootFormula("07")).toBeUndefined();
+    expect(parseLotoFootFormula("7.0")).toBeUndefined();
+    expect(parseLotoFootFormula("7e0")).toBeUndefined();
+    expect(parseLotoFootFormula(" 7")).toBeUndefined();
+    expect(parseLotoFootFormula("7 ")).toBeUndefined();
   });
 
   it("génère le chemin unique utilisé par les liens et la canonical", () => {

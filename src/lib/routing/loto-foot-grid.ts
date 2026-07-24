@@ -9,9 +9,7 @@ import {
 } from "~/content/loto-foot/publications";
 
 export function parseLotoFootFormula(value: string): LotoFootFormula | undefined {
-  const formula = Number(value);
-
-  return LOTO_FOOT_FORMULAS.find((availableFormula) => availableFormula === formula);
+  return LOTO_FOOT_FORMULAS.find((formula) => String(formula) === value);
 }
 
 export function getLotoFootGridPath(
