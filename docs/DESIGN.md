@@ -4,13 +4,13 @@ Ce document est la référence de l’expérience publique Preuve90. L’interfa
 
 ## 1. Hiérarchie de l’information
 
-Le bilan financier virtuel est toujours le premier niveau de lecture. Il répond immédiatement à trois questions : combien a été misé, combien a été récupéré et quel est le résultat net. Le résultat net est la valeur dominante ; son signe reste affiché et un mot explicite l’accompagne : `Bénéfice`, `Perte` ou `Équilibre`.
+Le bilan financier virtuel est toujours le premier niveau de lecture. Il distingue immédiatement la mise totale engagée, la part déjà réglée, la part encore en attente, les retours officiels et le résultat net calculé uniquement sur les grilles réglées. Une grille non réglée n’est jamais présentée comme une perte.
 
 L’ordre de la page d’accueil est :
 
 1. promesse produit compacte ;
-2. mise cumulée, retours cumulés et résultat net cumulé ;
-3. rendement et statistiques secondaires ;
+2. mises engagées, réglées et en attente, retours officiels et résultat net réglé ;
+3. rendement des grilles réglées et statistiques secondaires ;
 4. archives des grilles ;
 5. avertissement.
 
@@ -51,17 +51,19 @@ Les variables exécutables vivent dans `src/styles/tokens.css`. Le cyan et le ma
 
 ### Bilan financier
 
-Le bilan contient trois valeurs issues du règlement calculé :
+Le bilan distingue cinq valeurs calculées :
 
-- mise virtuelle ;
-- retours ;
-- résultat net.
+- mise totale engagée ;
+- mise des grilles réglées ;
+- mise des grilles en attente ;
+- retours officiels des grilles réglées ;
+- résultat net des grilles réglées.
 
-Le net occupe le plus grand espace et utilise une taille nettement supérieure. Le libellé sémantique, le signe et le montant sont tous visibles. Les montants emploient des chiffres tabulaires. L’état neutre affiche `Équilibre` sans suggérer un bénéfice.
+Le résultat net réglé occupe le plus grand espace et utilise une taille nettement supérieure. Son libellé sémantique, son signe et son montant sont visibles lorsqu’au moins une grille est réglée. Sans grille réglée, le net et le rendement affichent un état d’attente, jamais une perte. Les montants emploient des chiffres tabulaires.
 
 ### Statistiques secondaires
 
-Le rendement reçoit une lecture propre, distincte des compteurs. Les nombres de grilles et de combinaisons sont regroupés par famille. Le meilleur score est un signal autonome sous la forme `x/y`, accompagné de sa formulation en toutes lettres. Ces éléments ne forment pas une grille uniforme de petites cartes.
+Le rendement est calculé uniquement sur les mises réglées et reçoit une lecture propre, distincte des compteurs. Les nombres de grilles et de combinaisons sont regroupés par famille. Le meilleur score est un signal autonome sous la forme `x/y`, accompagné de sa formulation en toutes lettres. Ces éléments ne forment pas une grille uniforme de petites cartes.
 
 ### Carte d’archive
 
@@ -70,7 +72,8 @@ Chaque archive expose :
 - numéro et format de grille ;
 - statut explicite ;
 - date limite ;
-- mise, retour et net ;
+- mise ;
+- retour et net lorsqu’elle est réglée, ou état d’attente sinon ;
 - meilleur score si la grille est réglée ;
 - appel à l’action décrivant la destination.
 
@@ -122,7 +125,8 @@ Chaque match utilise un élément natif `details` avec un `summary` d’au moins
 
 - positif : `Bénéfice`, signe `+`, vert ;
 - négatif : `Perte`, signe `−`, rouge ;
-- nul : `Équilibre`, montant nul, traitement neutre.
+- nul : `Équilibre`, montant nul, traitement neutre ;
+- non réglé : `En attente`, sans montant net ni rendement définitif.
 
 ### Choix et combinaison
 
@@ -147,7 +151,7 @@ Le socle commence à 320 px. Les contenus ont une largeur minimale de zéro, les
 
 Les animations renforcent l’ordre de lecture :
 
-- arrivée successive des trois indicateurs financiers ;
+- arrivée successive des indicateurs financiers ;
 - interpolation visuelle des montants depuis zéro ;
 - apparition progressive des statistiques secondaires ;
 - révélation successive des pastilles officielles ;

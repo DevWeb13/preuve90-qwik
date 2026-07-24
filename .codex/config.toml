@@ -15,6 +15,9 @@ web_search = "live"
 # complemented by narrower AGENTS.md files in specific directories.
 project_doc_max_bytes = 65536
 
+[agents]
+max_concurrent_threads_per_session = 3
+
 [sandbox_workspace_write]
 network_access = true
 

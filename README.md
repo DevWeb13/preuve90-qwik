@@ -1,13 +1,23 @@
 # Preuve90
 
-Preuve90 publie avant leur date limite des analyses et des combinaisons virtuelles pour les grilles Loto Foot 7, puis les règle depuis les résultats et rapports officiels. Chaque publication conserve ses six ou sept matchs ordonnés, les probabilités et sources de l’analyse, ainsi qu’une ou plusieurs combinaisons de même longueur composées de `1`, `N` ou `2`.
+Preuve90 publie avant leur date limite des analyses et des combinaisons virtuelles pour les grilles Loto Foot 7, 8, 12 et 15, puis les confronte aux résultats et rapports officiels.
 
-Une combinaison représente une mise strictement virtuelle de 1 EUR. Mises, gains par ticket, retours, résultats nets et statistiques cumulées sont calculés automatiquement depuis les fichiers de contenu. Aucun argent réel n’est joué, les pronostics peuvent être faux et aucun gain n’est garanti.
+Chaque publication conserve la formule, le numéro de grille, les matchs dans leur ordre officiel, les probabilités et sources de l’analyse, ainsi qu’une ou plusieurs combinaisons de même longueur composées de `1`, `N` ou `2`.
+
+Une combinaison représente une mise strictement virtuelle de 1 EUR. Les mises, retours, résultats nets et statistiques sont calculés automatiquement depuis les fichiers de contenu. Aucun argent réel n’est joué, les pronostics peuvent être faux et aucun gain n’est garanti.
+
+## Formules prises en charge
+
+- Loto Foot 7 : 6 ou 7 matchs ;
+- Loto Foot 8 : 7 ou 8 matchs ;
+- Loto Foot 12 : 9 à 12 matchs ;
+- Loto Foot 15 : 12 à 15 matchs.
 
 ## Routes publiques
 
-- `/` : statistiques cumulées et liste des publications Loto Foot 7, avec un état vide lorsqu’aucune grille n’existe ;
-- `/grille/[id]/` : détail d’une publication et de son éventuel règlement, ou réponse HTTP 404 pour un identifiant inconnu ;
+- `/` : tableau de contrôle global et dernières publications ;
+- `/loto-foot/7/`, `/loto-foot/8/`, `/loto-foot/12/`, `/loto-foot/15/` : vues par formule ;
+- `/grille/[id]/` : détail d’une publication et de son éventuel règlement ;
 - `/mentions-legales/` : mentions légales ;
 - `/confidentialite/` : politique de confidentialité ;
 - toute autre URL renvoie une page 404 cohérente.
@@ -18,19 +28,16 @@ Une combinaison représente une mise strictement virtuelle de 1 EUR. Mises, gain
 - rendu serveur et adaptateur Vercel Edge ;
 - ESLint et Prettier ;
 - Vitest ;
-- GSAP, chargé côté client uniquement pour l’introduction visuelle ;
-- identité sombre Preuve90, logo, favicon et composants d’interface génériques.
+- GSAP chargé côté client uniquement pour les animations utiles.
 
-Les publications et résultats officiels sont des fichiers JSON distincts et validés, chargés au build sans accès au système de fichiers au runtime. Les dossiers peuvent rester vides et aucune base de données, API ou route d’administration n’est nécessaire.
+Les publications et résultats sont des fichiers JSON distincts, validés et chargés au build. Aucune base de données ni route d’administration n’est nécessaire.
 
-## Publications et automatisation
+## Contenu Loto Foot
 
-- publications immuables : [`src/content/loto-foot/publications/`](./src/content/loto-foot/publications/) ;
-- résultats officiels séparés : [`src/content/loto-foot/results/`](./src/content/loto-foot/results/) ;
-- types, validation et chargeur : [`src/content/loto-foot/`](./src/content/loto-foot/) ;
-- instructions de la tâche planifiée ChatGPT : [`docs/automations/preuve90.md`](./docs/automations/preuve90.md).
-
-Codex modifie le projet uniquement sur une branche dédiée et ne pousse jamais directement sur `master`. La tâche planifiée ChatGPT dispose d’une exception étroite : elle peut ajouter sur `master` un nouveau fichier JSON de publication ou de résultat conforme, sans modifier ni supprimer aucun contenu existant, code ou document.
+- publications : `src/content/loto-foot/publications/` ;
+- résultats officiels : `src/content/loto-foot/results/` ;
+- inventaire généré : `src/content/loto-foot/inventory.json` ;
+- modèle, validation et calculs : `src/content/loto-foot/`.
 
 ## Installation
 
@@ -47,6 +54,7 @@ npm run dev
 
 ```bash
 npm run fmt
+npm run fmt.check
 npm run lint
 npm run build.types
 npm run test:run
@@ -56,6 +64,9 @@ npm run check
 
 `npm run check` vérifie successivement le formatage, le lint, les types, les tests et le build de production.
 
-## Contribution
+## Documentation
 
-Les règles de travail du dépôt vivent dans [`AGENTS.md`](./AGENTS.md). Les décisions techniques actives sont consignées dans [`docs/architecture/DECISIONS.md`](./docs/architecture/DECISIONS.md) et la référence visuelle actuelle dans [`docs/DESIGN.md`](./docs/DESIGN.md).
+- règles de travail de Codex : `AGENTS.md` ;
+- référence de l’interface : `docs/DESIGN.md` ;
+- décisions techniques actives : `docs/architecture/DECISIONS.md` ;
+- procédure de publication et de règlement planifiés : `docs/automations/preuve90.md`.

@@ -65,7 +65,7 @@ Conserver l’identité sombre Preuve90 décrite dans `docs/DESIGN.md`. Réserve
 - le mouvement réduit est respecté ;
 - aucune bibliothèque visuelle supplémentaire n’est nécessaire pour l’interface temporaire.
 
-## ADR-010 — Publications Loto Foot 7 statiques et validées
+## ADR-010 — Publications Loto Foot statiques et validées
 
 - **Statut :** accepted
 - **Date :** 2026-07-22
@@ -73,14 +73,13 @@ Conserver l’identité sombre Preuve90 décrite dans `docs/DESIGN.md`. Réserve
 
 ### Décision
 
-Enregistrer chaque publication dans un fichier JSON distinct sous `src/content/loto-foot/publications/`. Enregistrer chaque règlement officiel dans un autre fichier JSON sous `src/content/loto-foot/results/`. Charger ces fichiers avec `import.meta.glob` en mode eager et valider explicitement leur structure au chargement.
+Prendre en charge les formules Loto Foot 7, 8, 12 et 15. Enregistrer chaque publication dans un fichier JSON distinct sous `src/content/loto-foot/publications/` et chaque règlement officiel dans un fichier JSON distinct sous `src/content/loto-foot/results/`. Charger et valider explicitement ces fichiers au build.
 
 ### Conséquences
 
 - aucun accès au système de fichiers n’est requis au runtime Vercel Edge ;
-- le dossier de publications fonctionne lorsqu’il est vide ;
-- une publication invalide ou un identifiant de publication dupliqué fait échouer la validation ;
-- les publications sont triées par date de publication décroissante et accessibles par identifiant.
+- les dossiers de publications et de résultats peuvent rester vides ;
+- une publication invalide, dupliquée ou incohérente fait échouer la validation ;
 - un résultat orphelin, dupliqué ou incohérent avec sa publication fait échouer la validation.
 
 ## ADR-011 — Une combinaison simple vaut 1 EUR virtuel
@@ -91,13 +90,13 @@ Enregistrer chaque publication dans un fichier JSON distinct sous `src/content/l
 
 ### Décision
 
-Une publication contient exactement six ou sept matchs et au moins une combinaison distincte ayant le même nombre de choix `1`, `N` ou `2`. Chaque combinaison représente 100 centimes virtuels, sans nombre maximal défini.
+Une combinaison contient exactement autant de choix `1`, `N` ou `2` que la grille contient de matchs et représente 100 centimes virtuels. Les nombres de matchs autorisés sont ceux de la formule officielle : LF7 de 6 à 7, LF8 de 7 à 8, LF12 de 9 à 12 et LF15 de 12 à 15.
 
 ### Conséquences
 
 - la mise virtuelle totale est calculée depuis le nombre de combinaisons et n’est pas stockée ;
 - aucun argent réel n’est joué et aucun gain n’est garanti ;
-- les gains par combinaison, retours, résultats nets et statistiques cumulées sont calculés depuis les publications et résultats, jamais stockés comme totaux manuels.
+- les gains, retours, résultats nets et statistiques sont calculés depuis les publications et résultats.
 
 ## ADR-012 — Séparation entre développement et publication planifiée
 
@@ -107,15 +106,15 @@ Une publication contient exactement six ou sept matchs et au moins une combinais
 
 ### Décision
 
-Codex travaille toujours sur une branche dédiée. Seule la tâche planifiée décrite dans `docs/automations/preuve90.md` peut pousser directement sur `master`, uniquement pour ajouter un nouveau fichier JSON de publication ou de résultat conforme.
+Codex travaille sur une branche dédiée. Seule la tâche planifiée décrite dans `docs/automations/preuve90.md` peut pousser directement sur `master`, uniquement pour ajouter un nouveau fichier JSON de publication ou de résultat conforme.
 
 ### Conséquences
 
 - la tâche planifiée ne modifie jamais un contenu existant, le code, la configuration, la documentation ou les instructions ;
-- les modifications fonctionnelles continuent à suivre le processus de branche dédié ;
-- chaque ajout automatisé utilise le préfixe `content:` prévu pour son type et fait l’objet d’une relecture depuis `master` après le commit.
+- les modifications fonctionnelles suivent le processus de branche dédié ;
+- l’inventaire est synchronisé séparément par GitHub Actions.
 
-## ADR-013 — Immutabilité des pronostics et ajout séparé des résultats
+## ADR-013 — Immutabilité des publications retenues comme preuve
 
 - **Statut :** accepted
 - **Date :** 2026-07-23
@@ -123,10 +122,13 @@ Codex travaille toujours sur une branche dédiée. Seule la tâche planifiée d�
 
 ### Décision
 
-Les probabilités, combinaisons, dates de publication, mises et décisions prises avant la clôture ne sont jamais réécrites rétroactivement. Les résultats officiels sont ajoutés dans des fichiers séparés. Une erreur factuelle ou rédactionnelle peut être corrigée dans un commit traçable si elle ne modifie ni le sens du pronostic ni sa performance. Une correction ne doit jamais servir à améliorer rétroactivement une prédiction.
+Une publication ajoutée sur `master` par la procédure planifiée devient une preuve horodatée : ses probabilités, combinaisons, dates et décisions ne sont pas améliorées rétroactivement. Les résultats officiels sont ajoutés dans des fichiers séparés.
+
+Pendant la mise au point du projet, une donnée explicitement traitée comme contenu de préproduction peut être corrigée dans un commit traçable. Cette exception cesse dès que la publication est retenue comme preuve publique définitive.
 
 ### Conséquences
 
-- la publication d’origine reste la preuve horodatée de la décision prise avant clôture ;
-- un règlement référence sa publication et ne recopie pas les calculs dérivables par ticket ;
-- toute correction admissible d’un contenu existant doit rester visible dans l’historique Git.
+- la publication définitive conserve la décision prise avant clôture ;
+- un règlement référence sa publication et ne recopie pas les calculs dérivables ;
+- une correction admissible reste visible dans l’historique Git ;
+- aucune correction ne peut servir à améliorer rétroactivement la performance d’une publication définitive.
