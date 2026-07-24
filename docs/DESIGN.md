@@ -1,148 +1,221 @@
 # Preuve90 : Système d’interface produit
 
-Ce document est la référence de l’expérience publique Preuve90. L’interface rend vérifiables des pronostics Loto Foot publiés avant leur date limite, puis confrontés aux résultats et rapports officiels. Elle ne promet aucun gain et n’emploie que les données validées et les calculs du produit.
+Ce document est la référence de l’expérience publique Preuve90. L’interface rend vérifiables des pronostics Loto Foot publiés avant leur clôture, puis comparés aux résultats et rapports officiels. Elle ne promet aucun gain et n’emploie que les données validées et les calculs du produit.
 
 ## 1. Hiérarchie de l’information
 
-Le bilan financier virtuel est toujours le premier niveau de lecture. Il distingue immédiatement la mise totale engagée, la part déjà réglée, la part encore en attente, les retours officiels et le résultat net calculé uniquement sur les grilles réglées. Une grille non réglée n’est jamais présentée comme une perte.
+L’interface sépare toujours les résultats définitifs des montants encore en attente. Une grille non réglée n’est jamais présentée comme une perte.
 
 L’ordre de la page d’accueil est :
 
 1. promesse produit compacte ;
-2. mises engagées, réglées et en attente, retours officiels et résultat net réglé ;
-3. rendement des grilles réglées et statistiques secondaires ;
-4. archives des grilles ;
-5. avertissement.
+2. bilan des grilles terminées ;
+3. mise totale encore en attente, dans un encart séparé ;
+4. rendement et performances ;
+5. accès aux quatre formules ;
+6. grilles publiées ;
+7. avertissement.
 
-L’ordre d’une page de grille est :
+L’ordre d’une page de formule contenant des publications est :
 
-1. identité compacte, statut et date limite ;
-2. bilan financier et meilleur score ;
-3. suite officielle des résultats ;
+1. identité de la formule ;
+2. navigation compacte sur tablette et ordinateur ;
+3. bilan des grilles terminées de la formule ;
+4. mise encore en attente ;
+5. rendement et performances ;
+6. grilles publiées ;
+7. avertissement.
+
+Une page de formule sans publication affiche uniquement son identité, la navigation adaptée à la largeur disponible et un état vide.
+
+L’ordre d’une page de grille sans résultat officiel est :
+
+1. identité, statut, clôture et publication ;
+2. temps restant avant la clôture ou écoulé depuis celle-ci ;
+3. message synthétique sur l’attente des résultats ;
+4. combinaisons publiées ;
+5. analyses des matchs ;
+6. sources et avertissement.
+
+L’ordre d’une page de grille réglée est :
+
+1. identité et statut ;
+2. bilan virtuel de la grille ;
+3. résultats officiels ;
 4. rapports officiels ;
-5. performances des combinaisons ;
-6. comparaison match par match ;
-7. analyses d’avant-match repliables ;
-8. sources et avertissements.
+5. combinaisons avec leurs scores, verdicts et gains ;
+6. analyses des matchs ;
+7. sources et avertissement.
 
-Les combinaisons et leurs scores précèdent donc toujours les analyses longues. Aucune donnée décisive n’est enfermée dans un accordéon.
+Les combinaisons précèdent toujours les analyses longues. Aucune donnée décisive n’est enfermée dans un accordéon.
 
 ## 2. Identité visuelle
 
-Preuve90 évoque un tableau de contrôle sportif futuriste : précis, nocturne, énergique. L’inspiration cyberpunk et casino reste une tension graphique, jamais un décor littéral.
+Preuve90 évoque une interface sportive technologique : précise, nocturne et énergique. L’inspiration cyberpunk reste une tension graphique, jamais un décor littéral.
 
-- fond bleu nuit presque noir avec grille CSS extrêmement discrète ;
+- fond bleu nuit presque noir avec grille CSS très discrète ;
 - cyan électrique et magenta comme couleurs de marque ;
-- vert exclusivement réservé aux résultats positifs ou corrects ;
-- rouge exclusivement réservé aux résultats négatifs ou incorrects ;
+- vert réservé aux résultats positifs ou corrects ;
+- rouge réservé aux résultats négatifs ou incorrects ;
 - jaune réservé à l’attente ;
 - textes principaux presque blancs et textes secondaires bleu-gris ;
 - labels, index, statuts et données techniques en monospace système ;
 - titres et montants en pile sans-serif système, sans police distante ;
 - halos courts et localisés, jamais un néon permanent ;
-- cadres HUD, angles découpés, lignes de mesure et repères lumineux ;
-- surfaces différenciées par la composition, la densité, l’accent et la profondeur.
+- effets HUD réservés aux zones importantes ;
+- contenus longs présentés sur des surfaces plus sobres.
 
-L’interface ne doit jamais devenir une collection de rectangles identiques. Une valeur dominante peut employer un cadre découpé, une liste de rapports une ligne d’énergie latérale, une archive une dalle technique et un accordéon une surface éditoriale plus calme.
+L’interface ne doit pas devenir une collection de rectangles identiques. Les zones dominantes peuvent employer un cadre plus expressif, tandis que les combinaisons, analyses, sources et archives privilégient la lisibilité.
 
 Les variables exécutables vivent dans `src/styles/tokens.css`. Le cyan et le magenta identifient la marque ; ils ne remplacent pas les couleurs sémantiques.
 
+Les caractères U+2013 et U+2014 sont interdits. Utiliser selon le contexte le tiret ASCII, les deux-points, des parenthèses ou le mot `contre`.
+
 ## 3. Composants principaux
 
-### Bilan financier
+### Bilan des grilles terminées
 
-Le bilan distingue cinq valeurs calculées :
+Le bilan principal affiche trois valeurs calculées :
 
-- mise totale engagée ;
-- mise des grilles réglées ;
-- mise des grilles en attente ;
-- retours officiels des grilles réglées ;
-- résultat net des grilles réglées.
+- résultat net des grilles terminées ;
+- mises des grilles terminées ;
+- retours officiels des grilles terminées.
 
-Le résultat net réglé occupe le plus grand espace et utilise une taille nettement supérieure. Son libellé sémantique, son signe et son montant sont visibles lorsqu’au moins une grille est réglée. Sans grille réglée, le net et le rendement affichent un état d’attente, jamais une perte. Les montants emploient des chiffres tabulaires.
+Le résultat net occupe le plus grand espace et utilise une taille nettement supérieure. Son libellé sémantique, son signe et son montant sont visibles lorsqu’au moins une grille est réglée. Les montants emploient des chiffres tabulaires.
 
-### Statistiques secondaires
+La mise des grilles encore en attente ne figure pas dans ce bilan. Lorsqu’elle est positive, elle apparaît dans un encart secondaire sous la forme d’une phrase simple. Sans grille terminée, le bilan affiche un état neutre et ne présente pas un résultat nul comme une performance.
 
-Le rendement est calculé uniquement sur les mises réglées et reçoit une lecture propre, distincte des compteurs. Les nombres de grilles et de combinaisons sont regroupés par famille. Le meilleur score est un signal autonome sous la forme `x/y`, accompagné de sa formulation en toutes lettres. Ces éléments ne forment pas une grille uniforme de petites cartes.
+### Performances
 
-### Carte d’archive
+Le rendement est calculé uniquement sur les mises des grilles terminées. Les nombres de grilles et de combinaisons sont regroupés par famille. Le meilleur score est affiché sous la forme `x/y`, accompagné de sa formulation en toutes lettres.
 
-Chaque archive expose :
+Les libellés publics restent simples :
 
-- numéro et format de grille ;
+- grilles publiées ;
+- terminées ;
+- en attente ;
+- combinaisons publiées ;
+- combinaisons gagnantes ;
+- meilleur score ;
+- rendement des grilles terminées.
+
+### Navigation des formules
+
+Sur l’accueil, quatre cartes donnent accès à LF7, LF8, LF12 et LF15.
+
+Sur une page de formule :
+
+- sous 48 rem, seule la navigation mobile fixe est visible ;
+- à partir de 48 rem, la navigation mobile fixe disparaît et une navigation compacte affiche la vue d’ensemble ainsi que LF7, LF8, LF12 et LF15 ;
+- la formule active est indiquée avec `aria-current` et un traitement visuel distinct.
+
+### Carte de publication
+
+Chaque carte expose :
+
+- numéro et formule ;
 - statut explicite ;
-- date limite ;
-- mise ;
-- retour et net lorsqu’elle est réglée, ou état d’attente sinon ;
-- meilleur score si la grille est réglée ;
-- appel à l’action décrivant la destination.
+- clôture ;
+- mise virtuelle ;
+- retour officiel ou état d’attente ;
+- résultat net lorsqu’il existe ;
+- meilleur score lorsqu’il existe ;
+- lien `Voir la grille`.
 
-Le statut peut être `Ouverte`, `En attente` ou `Réglée`. Une grille ouverte n’a pas dépassé sa date limite ; une grille en attente l’a dépassée sans résultat ; une grille réglée possède un résultat officiel.
+Le statut peut être `Ouverte`, `En attente` ou `Réglée`. Une grille ouverte n’a pas dépassé sa clôture. Une grille en attente l’a dépassée sans résultat. Une grille réglée possède un résultat officiel.
 
-### Résultat officiel
+Les cartes utilisent une bordure et un rayon simples. Les effets lumineux ne doivent pas concurrencer les informations.
 
-La suite officielle est une liste ordonnée de grandes pastilles `1`, `N` et `2`. Chaque pastille est associée au numéro du match et la section porte le titre explicite `Résultat officiel`. La suite reste du texte HTML : elle n’est ni dessinée dans un canvas ni injectée après chargement.
+### Indication temporelle
+
+Le composant de clôture utilise uniquement `validationDeadline`.
+
+Avant la clôture, il affiche le temps restant sans secondes. Après la clôture et avant le règlement, il affiche le temps écoulé et le texte `Résultats officiels en attente`.
+
+Il ne prédit jamais l’heure de publication des résultats. Le rendu initial est valable côté serveur et la valeur est actualisée au maximum une fois par minute côté client. Une date invalide produit un état neutre `Clôture indisponible`.
+
+### Résultats officiels
+
+La suite officielle est une liste ordonnée de grandes pastilles `1`, `N` et `2`. Chaque pastille est associée au numéro du match. La suite reste du texte HTML et n’est ni dessinée dans un canvas ni injectée après chargement.
+
+Cette section n’apparaît que lorsqu’un résultat officiel existe.
 
 ### Rapports officiels
 
-La section `Rapports officiels de la grille` affiche exactement tous les éléments présents dans `result.payouts`. Chaque ligne associe le nombre de bonnes réponses, le montant et le libellé `Rapport officiel`. Une phrase explique qu’il s’agit du montant officiel correspondant à ce palier pour cette grille.
+La section affiche exactement les éléments présents dans `result.payouts`. Chaque ligne associe le nombre de bonnes réponses et le montant officiel correspondant.
 
-Un rapport absent n’est jamais inféré. Sans règlement, la section affiche : `Rapports officiels disponibles après publication des résultats.`
+Un rapport absent n’est jamais inféré. La section complète n’apparaît pas avant le règlement.
 
-### Carte de combinaison
+### Grille de combinaison
 
-Chaque combinaison présente :
+Chaque combinaison utilise une table non interactive avec :
 
-- nom et index ;
-- score en toutes lettres ;
-- état `Gagnante`, `Perdue` ou `En attente` ;
-- gain calculé ou état d’attente ;
-- choix pour chaque match ;
-- marque `✓ Correct`, `× Incorrect` ou état d’attente ;
-- justification publiée.
+- numéro du match ;
+- rencontre sous la forme `équipe à domicile contre équipe à l’extérieur` ;
+- colonnes `1`, `N` et `2` ;
+- choix publié ;
+- résultat officiel lorsque disponible ;
+- verdict correct ou incorrect lorsque disponible ;
+- nom, index et justification ;
+- score global et gain officiel après règlement ;
+- état `En attente`, `Gagnante` ou `Perdue`.
 
-Une combinaison est gagnante uniquement si son rapport calculé est positif. La couleur accompagne toujours un mot ou un symbole compris via la légende et les libellés accessibles.
+La sélection reste identifiable sans la couleur. Une marque textuelle ou symbolique accessible accompagne toujours le traitement visuel.
 
-### Comparaison match par match
+La grille conserve les trois colonnes `1`, `N` et `2` sur petit écran. Les noms d’équipes peuvent revenir à la ligne et aucun défilement horizontal ne doit être imposé.
 
-À partir de 1024 px, un tableau à colonnes fixes compare l’affiche, le résultat officiel et les choix de toutes les combinaisons. Chaque choix porte un verdict textuel.
-
-Sous 1024 px, la même information devient une pile de cartes par match. Le résultat officiel est dans l’en-tête, puis chaque combinaison occupe une ligne. Aucun tableau horizontal n’est imposé sur mobile.
+La grille de combinaison porte elle-même la comparaison avec le résultat officiel. Aucune section distincte de comparaison match par match ne doit être ajoutée.
 
 ### Analyses
 
-Chaque match utilise un élément natif `details` avec un `summary` d’au moins 44 px. Une fois ouvert, il contient probabilités, analyse, facteurs principaux, incertitude et sources. La fermeture initiale réduit leur poids visuel sans cacher une donnée essentielle au bilan.
+Chaque match utilise un élément natif `details` avec un `summary` d’au moins 44 px. Une fois ouvert, il contient :
+
+- probabilités `1`, `N` et `2` ;
+- résumé ;
+- facteurs principaux ;
+- incertitude ;
+- sources ;
+- date de consultation ;
+- résultat et score final lorsque disponibles.
+
+La fermeture initiale réduit le poids visuel sans cacher une donnée essentielle au bilan.
+
+### Sources et transparence
+
+Les sources sportives restent associées à chaque analyse. La zone finale contient le lien officiel de la grille, les sources de règlement lorsqu’elles existent et l’avertissement public.
+
+Une grille non réglée ne présente pas de bloc vide annonçant de futures sources de règlement.
 
 ## 4. États
 
 ### Cycle d’une grille
 
-- `Ouverte` : résultat indisponible et date limite future ; cyan et mot explicite.
-- `En attente` : date limite passée et résultat indisponible ; jaune et mot explicite.
+- `Ouverte` : résultat indisponible et clôture future ; cyan et mot explicite.
+- `En attente` : clôture passée et résultat indisponible ; jaune et mot explicite.
 - `Réglée` : résultat officiel disponible ; vert et mot explicite.
 
 ### Résultat financier
 
 - positif : `Bénéfice`, signe `+`, vert ;
-- négatif : `Perte`, signe `−`, rouge ;
+- négatif : `Perte`, signe `-`, rouge ;
 - nul : `Équilibre`, montant nul, traitement neutre ;
-- non réglé : `En attente`, sans montant net ni rendement définitif.
+- non réglé : aucun résultat net définitif.
 
 ### Choix et combinaison
 
 - correct ou gagnante : symbole ou mot explicite avec vert ;
 - incorrect ou perdue : symbole ou mot explicite avec rouge ;
-- non réglé : `En attente` avec jaune ou traitement neutre.
+- non réglé : choix publié sans verdict par ligne, avec un état général d’attente.
 
-Aucun état ne dépend uniquement de la couleur. Le contraste reste suffisant même lorsque l’effet lumineux est supprimé.
+Aucun état ne dépend uniquement de la couleur. Le contraste reste suffisant lorsque les effets lumineux et les animations sont supprimés.
 
 ## 5. Responsive
 
 Le socle commence à 320 px. Les contenus ont une largeur minimale de zéro, les nombres restent contenus et les libellés longs peuvent revenir à la ligne.
 
-- 320-767 px : bilan empilé avec net en premier, archives sur une colonne, comparaison en cartes, navigation fixe compensée par l’espace sûr ;
-- 768-1023 px : bilan accueil en composition asymétrique, statistiques et cartes sur deux colonnes lorsque l’espace le permet ;
-- 1024 px et plus : comparaison en tableau, bilan de grille sur quatre zones, combinaisons sur trois colonnes ;
+- 320-767 px : navigation mobile fixe, navigation compacte masquée, bilan empilé, cartes sur une colonne et tables de combinaison resserrées ;
+- 768-1023 px : navigation compacte visible, bilan en composition asymétrique, statistiques et cartes sur deux colonnes lorsque l’espace le permet ;
+- 1024 px et plus : cartes de publication sur trois colonnes lorsque le conteneur le permet, bilan de grille sur quatre zones et combinaisons sur une colonne de lecture ;
 - jusqu’à 1440 px : largeur de lecture plafonnée par le conteneur produit, sans grandes zones vides.
 
 À 200 % de zoom, les règles responsive doivent naturellement revenir aux compositions mobiles. Aucun composant critique ne fixe une largeur provoquant un défilement horizontal.
@@ -153,11 +226,11 @@ Les animations renforcent l’ordre de lecture :
 
 - arrivée successive des indicateurs financiers ;
 - interpolation visuelle des montants depuis zéro ;
-- apparition progressive des statistiques secondaires ;
-- révélation successive des pastilles officielles ;
+- apparition progressive des performances ;
+- révélation successive des résultats officiels ;
 - apparition des rapports ;
 - décalage court entre les cartes de combinaison ;
-- progression des lignes de comparaison ;
+- apparition progressive des cartes de publication ;
 - balayage ou tracé technique ponctuel sur les zones clés.
 
 Chaque groupe animé est encapsulé dans un composant Qwik dédié. `useVisibleTask$` déclenche le chargement lorsque ce groupe entre dans la zone visible. GSAP reste chargé dynamiquement par `src/lib/client/gsap.client.ts`.
@@ -166,7 +239,7 @@ Règles d’implémentation :
 
 - le HTML serveur contient toujours les valeurs finales visibles et accessibles ;
 - l’animation des compteurs ne modifie que leur copie visuelle, masquée aux technologies d’assistance ;
-- aucun contenu n’est masqué avant que GSAP soit effectivement disponible ;
+- aucun contenu n’est masqué avant que GSAP soit disponible ;
 - `gsap.context` limite chaque animation à sa section ;
 - chaque contexte est annulé au démontage ;
 - `transform` et `opacity` sont privilégiés ;
@@ -190,13 +263,13 @@ Le contenu reste complet sans JavaScript. Un échec de chargement de GSAP ne peu
 
 ## 8. Accessibilité
 
-- un lien d’évitement mène au contenu principal ;
+- lien d’évitement vers le contenu principal ;
 - hiérarchie de titres unique et continue ;
 - focus clavier visible avec contraste renforcé ;
 - cibles interactives d’au moins 44 px ;
 - `details` et `summary` natifs pour les analyses ;
-- tableaux dotés d’en-têtes de colonnes et de lignes ;
-- suites officielles exposées comme listes ordonnées ;
+- tables de combinaison avec en-têtes de colonnes et de lignes ;
+- résultats officiels exposés comme listes ordonnées ;
 - montants animés doublés d’une valeur finale accessible inchangée ;
 - symboles décoratifs ignorés lorsque le texte accessible porte déjà le sens ;
 - statut, verdict et résultat financier exprimés par des mots ;
@@ -204,11 +277,14 @@ Le contenu reste complet sans JavaScript. Un échec de chargement de GSAP ne peu
 
 ## 9. Critères de validation
 
-Les routes `/` et `/grille/[id]/` sont vérifiées à 320, 375, 768, 1024 et 1440 px. À chaque largeur :
+Les routes `/`, `/loto-foot/[formule]/` et `/grille/[id]/` sont vérifiées à 320, 375, 768, 1024 et 1440 px. À chaque largeur :
 
 - aucune barre de défilement horizontale ;
 - la navigation ne masque pas le contenu ;
-- le bilan financier apparaît avant les analyses ;
+- aucune navigation de formule n’est dupliquée sur mobile ;
+- le bilan financier distingue les grilles terminées des mises en attente ;
+- une formule vide n’affiche pas un tableau de zéros ;
+- une grille non réglée n’affiche pas de sections de règlement vides ;
 - les rapports proviennent uniquement des données officielles ;
 - les scores proviennent uniquement des règlements calculés ;
 - les choix corrects et incorrects restent identifiables sans couleur ;
