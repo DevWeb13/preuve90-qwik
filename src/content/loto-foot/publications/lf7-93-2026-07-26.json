@@ -1,0 +1,129 @@
+{
+  "id": "lf7-93-2026-07-26",
+  "formula": 7,
+  "gridNumber": 93,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4910",
+  "validationDeadline": "2026-07-26T19:10:00+02:00",
+  "publishedAt": "2026-07-25T05:58:39+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Bahia Salvador",
+      "awayTeam": "Corinthians",
+      "competition": "D1 Brésil",
+      "startsAt": "2026-07-26T21:00:00+02:00",
+      "probabilities": { "home": 46, "draw": 30, "away": 24 },
+      "analysis": {
+        "summary": "Bahia conserve un léger avantage à l'Arena Fonte Nova, mais Corinthians reste assez solide pour maintenir le nul parmi les scénarios majeurs.",
+        "keyFactors": ["Rencontre officielle de Série A confirmée à Salvador", "Avantage du terrain pour Bahia", "Match de reprise après l'interruption internationale"],
+        "uncertainty": "Les compositions de reprise et les rotations peuvent modifier l'équilibre attendu.",
+        "sources": [{ "label": "CBF - Bahia x Corinthians", "url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/bahia-x-corinthians/832088", "accessedAt": "2026-07-25T05:57:40+02:00" }]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Botafogo",
+      "competition": "D1 Brésil",
+      "startsAt": "2026-07-26T21:00:00+02:00",
+      "probabilities": { "home": 38, "draw": 31, "away": 31 },
+      "analysis": {
+        "summary": "Cruzeiro profite du Mineirão, mais Botafogo possède suffisamment de qualité pour rendre les trois issues proches.",
+        "keyFactors": ["Rencontre officielle de la 20e journée", "Avantage du terrain pour Cruzeiro", "Écart théorique limité entre les équipes"],
+        "uncertainty": "La reprise et les choix de rotation limitent la confiance dans un favori net.",
+        "sources": [{ "label": "CBF - Cruzeiro x Botafogo", "url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/cruzeiro-x-botafogo/832085", "accessedAt": "2026-07-25T05:57:44+02:00" }]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Tucuman",
+      "awayTeam": "Ind. Rivadavia",
+      "competition": "D1 Argentine",
+      "startsAt": "2026-07-26T20:00:00+02:00",
+      "probabilities": { "home": 42, "draw": 32, "away": 26 },
+      "analysis": {
+        "summary": "Atlético Tucumán part légèrement devant à domicile, avec un risque de nul élevé dans un match de reprise encore peu lisible.",
+        "keyFactors": ["Avantage du terrain au Monumental José Fierro", "Début d'un nouveau segment de championnat", "Repères récents encore limités"],
+        "uncertainty": "La première journée après une longue interruption rend la forme réelle difficile à mesurer.",
+        "sources": [{ "label": "Club Atlético Tucumán - site officiel", "url": "https://clubatleticotucuman.com.ar/", "accessedAt": "2026-07-25T05:57:48+02:00" }]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Csikszereda",
+      "awayTeam": "FCSB",
+      "competition": "D1 Roumanie",
+      "startsAt": "2026-07-26T19:30:00+02:00",
+      "probabilities": { "home": 18, "draw": 25, "away": 57 },
+      "analysis": {
+        "summary": "FCSB possède un avantage structurel net face à un Csikszereda encore en phase d'adaptation au plus haut niveau.",
+        "keyFactors": ["FCSB a remporté son premier match de championnat", "Déplacement officiellement confirmé à Csikszereda", "Écart d'expérience entre les effectifs"],
+        "uncertainty": "Une rotation ou un déplacement mal négocié peut réduire l'écart attendu.",
+        "sources": [{ "label": "LPF - calendrier officiel FCSB", "url": "https://lpf.ro/cluburi/fcsb/3/calendar", "accessedAt": "2026-07-25T05:57:52+02:00" }]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Aalesunds",
+      "awayTeam": "Viking FK",
+      "competition": "D1 Norvège",
+      "startsAt": "2026-07-26T19:15:00+02:00",
+      "probabilities": { "home": 24, "draw": 27, "away": 49 },
+      "analysis": {
+        "summary": "Viking est favori, mais l'historique des confrontations et le terrain d'Aalesund empêchent d'écarter complètement le nul.",
+        "keyFactors": ["Match confirmé au Color Line Stadion", "Viking présente un bilan direct légèrement supérieur", "Aalesund conserve l'avantage du terrain"],
+        "uncertainty": "Les confrontations passées restent partagées et réduisent la marge du favori.",
+        "sources": [{ "label": "NFF - Aalesund contre Viking", "url": "https://www.fotball.no/fotballdata/kamp/?fiksId=8986248", "accessedAt": "2026-07-25T05:57:56+02:00" }]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "IA Akranes",
+      "awayTeam": "Stjarnan",
+      "competition": "D1 Islande",
+      "startsAt": "2026-07-26T21:15:00+02:00",
+      "probabilities": { "home": 39, "draw": 29, "away": 32 },
+      "analysis": {
+        "summary": "IA Akranes obtient un léger avantage à domicile, mais l'écart réduit avec Stjarnan conserve les trois résultats plausibles.",
+        "keyFactors": ["Rencontre confirmée sur le calendrier fédéral", "Avantage du terrain pour IA Akranes", "Équilibre relatif entre deux équipes irrégulières"],
+        "uncertainty": "La volatilité du championnat islandais réduit fortement la marge entre les issues.",
+        "sources": [{ "label": "KSI - calendrier Stjarnan", "url": "https://www.ksi.is/oll-mot/mot/lid?banner-tab=matches&competitionId=7025510&id=5730", "accessedAt": "2026-07-25T05:58:00+02:00" }]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Fram Reykjavik",
+      "awayTeam": "Hafnarfjordur",
+      "competition": "D1 Islande",
+      "startsAt": "2026-07-26T21:15:00+02:00",
+      "probabilities": { "home": 41, "draw": 30, "away": 29 },
+      "analysis": {
+        "summary": "Fram reçoit avec un léger avantage, mais Hafnarfjordur reste suffisamment proche pour maintenir le nul et l'issue extérieure dans le jeu.",
+        "keyFactors": ["Rencontre programmée sur le terrain de Fram", "Avantage du terrain pour Fram", "Écart limité entre les deux équipes"],
+        "uncertainty": "Les données récentes détaillées restent limitées avant la rencontre.",
+        "sources": [{ "label": "Fram - calendrier officiel", "url": "https://fram.is/venue/framvollur/", "accessedAt": "2026-07-25T05:58:04+02:00" }]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "lf7-93-base",
+      "label": "Scénario principal",
+      "selections": ["1", "1", "1", "2", "2", "1", "1"],
+      "rationale": "Suit les favoris ou avantages locaux les plus nets de chaque rencontre."
+    },
+    {
+      "id": "lf7-93-nuls",
+      "label": "Scénario prudent",
+      "selections": ["N", "N", "N", "2", "2", "N", "N"],
+      "rationale": "Couvre les rencontres les plus équilibrées par des nuls tout en conservant les deux favoris extérieurs les plus solides."
+    },
+    {
+      "id": "lf7-93-variance",
+      "label": "Scénario de variance",
+      "selections": ["1", "2", "1", "N", "1", "2", "2"],
+      "rationale": "Ajoute des issues alternatives plausibles sur les matchs les plus volatils sans multiplier inutilement les combinaisons."
+    }
+  ]
+}
