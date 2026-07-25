@@ -1,0 +1,68 @@
+{
+  "id": "lf7-92-2026-07-24-result",
+  "publicationId": "lf7-92-2026-07-24",
+  "gridNumber": 92,
+  "settledAt": "2026-07-25T14:01:50+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 2,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "position": 3,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "position": 4,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "position": 5,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "position": 6,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "position": 7,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 7,
+      "amountCents": 10100
+    },
+    {
+      "correctSelections": 6,
+      "amountCents": 780
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 7 n°92",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
+      "accessedAt": "2026-07-25T14:00:30+02:00"
+    }
+  ]
+}
