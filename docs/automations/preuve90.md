@@ -16,7 +16,8 @@ Utiliser comme sources de vérité :
   `https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot` ;
 - prochaines grilles :
   `https://www.pointdevente.parionssport.fdj.fr/grilles/prochaines/loto-foot` ;
-- règles : `https://www.pointdevente.parionssport.fdj.fr/aide/comprendre-pari/loto-foot`.
+- règles :
+  `https://www.pointdevente.parionssport.fdj.fr/aide/comprendre-pari/loto-foot`.
 
 La page des prochaines grilles sert uniquement à anticiper les échéances et à identifier les
 formules futures. Elle ne constitue jamais une autorisation de publier. Une grille ne peut devenir
@@ -31,6 +32,24 @@ Les formules autorisées et leurs nombres de matchs sont :
 
 La formule officielle doit toujours être relevée explicitement. Ne jamais la déduire uniquement du
 nombre de matchs.
+
+## Recherche et preuves
+
+La recherche peut consulter librement les sources publiques utiles pour découvrir, vérifier ou
+recouper une information.
+
+Une source consultée n’est pas nécessairement une source à enregistrer. Les informations finalement
+utilisées doivent être appuyées par les sources les plus fiables disponibles, en privilégiant :
+
+1. FDJ et les organisateurs officiels ;
+2. clubs, ligues, fédérations et compétitions officielles ;
+3. médias sportifs reconnus ;
+4. données sportives neutres et vérifiables ;
+5. autres sources uniquement pour découvrir ou recouper une meilleure source.
+
+Une page de pronostics, de paris, de cotes, de bookmaker ou d’affiliation commerciale peut servir
+uniquement à découvrir une piste. Ne jamais reprendre ni enregistrer son pronostic, ses probabilités,
+ses cotes ou sa recommandation.
 
 ## À chaque exécution
 
@@ -65,8 +84,8 @@ nombre de matchs.
 5. Pour chaque publication en attente :
    - avant ou exactement à `validationDeadline`, ne rechercher aucun résultat, score ou rapport ;
    - strictement après `validationDeadline`, elle devient seulement éligible à la recherche ;
-   - ne la régler que lorsque tous les résultats et rapports officiels nécessaires sont complets,
-     certains et non ambigus.
+   - ne la régler que lorsque tous les résultats et rapports nécessaires sont complets, certains et
+     non ambigus selon les règles de la section « Nouveau règlement ».
 
 6. Consulter séparément les grilles ouvertes et les prochaines grilles des quatre formules :
    - utiliser les prochaines grilles uniquement pour anticiper les échéances et identifier les
@@ -115,10 +134,10 @@ nombre de matchs.
 13. Pour chaque match, produire :
     - trois probabilités entières `home`, `draw` et `away` totalisant exactement 100 ;
     - un résumé, des facteurs principaux et une incertitude ;
-    - au moins une source sportive récente, publique et directement pertinente pour cette
-      rencontre ou pour les équipes concernées.
+    - au moins une information sportive récente, publique et directement pertinente pour cette
+      rencontre ou pour les équipes concernées, appuyée par une source enregistrable fiable.
 
-14. Hiérarchie des sources :
+14. Hiérarchie des sources enregistrées :
     1. grille officielle FDJ ;
     2. clubs, ligues, fédérations et compétitions officielles ;
     3. médias sportifs reconnus ;
@@ -128,18 +147,22 @@ nombre de matchs.
     Ne jamais reprendre les probabilités ou le pronostic d’un autre site. FDJ reste la source de
     vérité pour la formule, le numéro, la composition des matchs, leur ordre et la clôture.
 
-    Ne jamais utiliser comme source d’analyse une page dont l’objet principal est un pronostic, une
-    cote, un pari sportif, un comparateur de bookmakers ou une affiliation commerciale. Ne jamais
-    enregistrer de lien vers un bookmaker.
+    Ne jamais enregistrer comme source d’analyse une page dont l’objet principal est un pronostic,
+    une cote, un pari sportif, un comparateur de bookmakers ou une affiliation commerciale. Ne
+    jamais enregistrer de lien vers un bookmaker.
 
     Les pourcentages de répartition affichés par FDJ décrivent les choix des joueurs. Ils ne sont
     pas les probabilités de l’IA et ne doivent pas servir à construire l’analyse ou les combinaisons.
 
-    Un classement général, une projection de début de saison ou une source générique peut
-    compléter l’analyse, mais ne peut jamais constituer à lui seul la recherche sportive détaillée
-    d’un match. Refuser la publication si les informations récentes et vérifiables sont
-    insuffisantes pour produire une analyse sérieuse de l’ensemble de la grille, ou si un seul
-    match ne dispose pas de la source sportive directement pertinente exigée à l’étape 13.
+    Un classement général, une projection de début de saison ou une source générique peut compléter
+    l’analyse, mais ne doit pas constituer à lui seul toute la recherche d’un match.
+
+    Lorsque les sources directement consacrées au match sont rares, recouper plusieurs informations
+    fiables sur les résultats récents, le classement, le calendrier, les absences, les compositions
+    ou le contexte sportif, puis signaler clairement la faiblesse documentaire dans `uncertainty`.
+
+    Refuser la publication uniquement si les informations disponibles ne permettent pas une analyse
+    honnête, cohérente et vérifiable de l’ensemble de la grille.
 
 15. Produire librement une ou plusieurs combinaisons distinctes, sans nombre par défaut ni plafond
     arbitraire de trois. Utiliser le plus petit nombre couvrant les scénarios plausibles réellement
@@ -170,26 +193,46 @@ nombre de matchs.
 18. Le résultat utilise le même nom de fichier que sa publication, dans
     `src/content/loto-foot/results/`. Ne pas dupliquer `formula` : elle provient de la publication.
 
-19. Produire uniquement :
+19. Les rapports et montants gagnants doivent provenir d’une publication officielle FDJ.
+
+20. Pour chaque rencontre, rechercher la sélection gagnante dans cet ordre :
+    1. page ou données officielles FDJ ;
+    2. score final publié par la compétition, la ligue, la fédération ou l’un des clubs ;
+    3. à défaut, deux sources sportives indépendantes, fiables et concordantes.
+
+    La conversion d’un score final certain en sélection est autorisée et ne constitue pas une
+    déduction interdite :
+    - victoire de l’équipe à domicile : `1` ;
+    - match nul : `N` ;
+    - victoire de l’équipe à l’extérieur : `2`.
+
+    Enregistrer les deux scores lorsqu’ils sont disponibles. Le validateur doit confirmer leur
+    cohérence avec la sélection.
+
+21. Ne pas régler une rencontre si son résultat reste ambigu, notamment en cas de report,
+    annulation, abandon, décision sur tapis vert incertaine ou contradiction entre les sources
+    fiables.
+
+22. Produire uniquement :
     - `publicationId` identique à la publication ;
     - `gridNumber` identique ;
     - `settledAt >= validationDeadline` ;
-    - l’URL officielle ;
+    - l’URL officielle FDJ ;
     - autant de résultats ordonnés que la publication contient de matchs ;
     - les sélections `1`, `N` ou `2`, avec deux scores cohérents ou aucun score ;
     - les rapports officiels, sans niveau dépassant le nombre réel de matchs ;
     - au moins une source officielle.
 
-20. Ne jamais inventer de rapport ni stocker un calcul dérivable : bons choix par combinaison,
-    gains calculés, retour total, résultat net ou statistiques cumulées.
+23. Ne jamais inventer de résultat ni de rapport, et ne jamais stocker un calcul dérivable : bons
+    choix par combinaison, gains calculés, retour total, résultat net ou statistiques cumulées.
 
 ## Validation et écriture
 
-21. Préparer au maximum un seul nouveau fichier JSON métier :
+24. Préparer au maximum un seul nouveau fichier JSON métier :
     - publication dans `src/content/loto-foot/publications/` ;
     - résultat dans `src/content/loto-foot/results/`.
 
-22. Immédiatement avant l’écriture :
+25. Immédiatement avant l’écriture :
     - relire `master`, l’inventaire et uniquement ses `pendingPublications` ;
     - refaire les contrôles des étapes 3 à 7 ;
     - vérifier directement avec l’app GitHub que le futur chemin n’existe pas ;
@@ -203,10 +246,10 @@ nombre de matchs.
       4. valider le fichier avec le modèle courant ;
       5. écrire immédiatement le fichier.
 
-23. Ne jamais modifier, supprimer ou renommer un contenu existant. Ne jamais réutiliser un
+26. Ne jamais modifier, supprimer ou renommer un contenu existant. Ne jamais réutiliser un
     identifiant. En cas de doublon, d’ambiguïté ou d’incohérence, ne rien écrire.
 
-24. Ajouter directement sur `master` uniquement le nouveau fichier métier :
+27. Ajouter directement sur `master` uniquement le nouveau fichier métier :
     - `content: add ...` pour une publication ;
     - `content: settle ...` pour un résultat.
 
@@ -214,7 +257,7 @@ nombre de matchs.
     cette exécution. Ne jamais modifier soi-même `inventory.json` : GitHub Actions le synchronise
     séparément.
 
-25. Après le commit, relire le nouveau fichier sur `master` et fournir :
+28. Après le commit, relire le nouveau fichier sur `master` et fournir :
     - formule, numéro, nombre de matchs et clôture ;
     - chemin exact et hash complet du commit ;
     - nombre de combinaisons et mise totale pour une publication ;
@@ -228,5 +271,6 @@ nombre de matchs.
     Ne jamais prétendre que la synchronisation de l’inventaire ou un déploiement est terminé sans
     l’avoir vérifié. Une grille seulement présente dans les prochaines grilles peut être signalée
     comme future grille non encore ouverte, sans recherche sportive détaillée et sans publication.
+
     Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser la planification
     active.
