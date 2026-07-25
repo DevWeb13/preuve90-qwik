@@ -1,0 +1,199 @@
+{
+  "id": "lf12-63-2026-07-26",
+  "formula": 12,
+  "gridNumber": 63,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/555",
+  "validationDeadline": "2026-07-26T16:25:00+02:00",
+  "publishedAt": "2026-07-25T01:59:10+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Bahia Salvador",
+      "awayTeam": "Corinthians",
+      "competition": "D1 Brésil",
+      "startsAt": "2026-07-26T21:00:00+02:00",
+      "probabilities": { "home": 46, "draw": 30, "away": 24 },
+      "analysis": {
+        "summary": "Bahia reçoit avec un léger avantage lié au terrain, mais Corinthians conserve assez de solidité pour rendre le nul très plausible.",
+        "keyFactors": ["Match de Série A confirmé à l'Arena Fonte Nova", "Contexte de reprise après la Coupe du monde", "Avantage du terrain pour Bahia"],
+        "uncertainty": "Les compositions définitives et la forme immédiate de reprise peuvent modifier l'équilibre.",
+        "sources": [{ "label": "CBF - Bahia x Corinthians", "url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/bahia-x-corinthians/832088", "accessedAt": "2026-07-25T01:57:20+02:00" }]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Botafogo",
+      "competition": "D1 Brésil",
+      "startsAt": "2026-07-26T21:00:00+02:00",
+      "probabilities": { "home": 38, "draw": 31, "away": 31 },
+      "analysis": {
+        "summary": "Cruzeiro bénéficie du Mineirão, mais Botafogo possède suffisamment de qualité pour maintenir un duel très équilibré.",
+        "keyFactors": ["Rencontre officielle de la 20e journée", "Avantage du terrain pour Cruzeiro", "Écart réduit entre les trois issues"],
+        "uncertainty": "Le retour de trêve et les choix de rotation limitent la confiance.",
+        "sources": [{ "label": "CBF - Cruzeiro x Botafogo", "url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/cruzeiro-x-botafogo/832085", "accessedAt": "2026-07-25T01:57:24+02:00" }]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Tucuman",
+      "awayTeam": "Ind. Rivadavia",
+      "competition": "D1 Argentine",
+      "startsAt": "2026-07-26T20:00:00+02:00",
+      "probabilities": { "home": 42, "draw": 32, "away": 26 },
+      "analysis": {
+        "summary": "Atlético Tucumán part légèrement devant à domicile pour son entrée dans le Clausura, mais le manque de repères récents augmente le risque de nul.",
+        "keyFactors": ["Début du Clausura 2026", "Match au Monumental José Fierro", "Reprise avec effectifs récemment ajustés"],
+        "uncertainty": "Première journée après une longue interruption, donc dynamique difficile à mesurer.",
+        "sources": [{ "label": "Club Atlético Tucumán - prochain match", "url": "https://clubatleticotucuman.com.ar/", "accessedAt": "2026-07-25T01:57:29+02:00" }]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Csikszereda",
+      "awayTeam": "FCSB",
+      "competition": "D1 Roumanie",
+      "startsAt": "2026-07-26T19:30:00+02:00",
+      "probabilities": { "home": 18, "draw": 25, "away": 57 },
+      "analysis": {
+        "summary": "FCSB possède un net avantage structurel face à un Csikszereda encore en phase d'adaptation au plus haut niveau.",
+        "keyFactors": ["FCSB a gagné son premier match de championnat", "Csikszereda a subi un départ difficile", "Écart d'expérience entre les effectifs"],
+        "uncertainty": "Le déplacement et une possible rotation peuvent réduire l'écart attendu.",
+        "sources": [{ "label": "LPF - calendrier FCSB", "url": "https://lpf.ro/cluburi/fcsb/3/calendar", "accessedAt": "2026-07-25T01:57:34+02:00" }]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Aalesunds",
+      "awayTeam": "Viking FK",
+      "competition": "D1 Norvège",
+      "startsAt": "2026-07-26T19:15:00+02:00",
+      "probabilities": { "home": 24, "draw": 27, "away": 49 },
+      "analysis": {
+        "summary": "Viking est favori au regard de sa position de leader, même si Aalesund a déjà montré qu'il pouvait le gêner en confrontation directe.",
+        "keyFactors": ["Viking évolue en tête du championnat", "Aalesund est dans le bas de tableau", "Historique récent plus serré qu'attendu"],
+        "uncertainty": "Aalesund à domicile peut rendre la rencontre plus disputée.",
+        "sources": [{ "label": "NFF - Aalesund contre Viking", "url": "https://www.fotball.no/fotballdata/kamp/?fiksId=8986248", "accessedAt": "2026-07-25T01:57:39+02:00" }]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "IA Akranes",
+      "awayTeam": "Stjarnan",
+      "competition": "D1 Islande",
+      "startsAt": "2026-07-26T21:15:00+02:00",
+      "probabilities": { "home": 39, "draw": 29, "away": 32 },
+      "analysis": {
+        "summary": "IA Akranes dispose d'un léger avantage à domicile, mais Stjarnan reste suffisamment proche pour couvrir aussi le nul et l'issue extérieure.",
+        "keyFactors": ["Stjarnan présente un bilan de 4 victoires, 3 nuls et 8 défaites", "Match confirmé sur le calendrier fédéral", "Équilibre relatif entre deux équipes irrégulières"],
+        "uncertainty": "La volatilité du championnat islandais réduit la marge entre les trois résultats.",
+        "sources": [{ "label": "KSI - calendrier Stjarnan", "url": "https://www.ksi.is/oll-mot/mot/lid?banner-tab=matches&competitionId=7025510&id=5730", "accessedAt": "2026-07-25T01:58:34+02:00" }]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Fram Reykjavik",
+      "awayTeam": "Hafnarfjordur",
+      "competition": "D1 Islande",
+      "startsAt": "2026-07-26T21:15:00+02:00",
+      "probabilities": { "home": 41, "draw": 30, "away": 29 },
+      "analysis": {
+        "summary": "Fram reçoit et obtient un léger avantage, mais la rencontre reste assez ouverte pour conserver une forte probabilité de nul.",
+        "keyFactors": ["Rencontre confirmée au Lambhagavöllur", "Avantage du terrain pour Fram", "Écart limité entre les équipes"],
+        "uncertainty": "Les données de forme détaillées restent limitées avant la rencontre.",
+        "sources": [{ "label": "Fram - calendrier officiel", "url": "https://fram.is/venue/framvollur/", "accessedAt": "2026-07-25T01:57:44+02:00" }]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Malmö",
+      "awayTeam": "Elfsborg",
+      "competition": "D1 Suède",
+      "startsAt": "2026-07-26T16:30:00+02:00",
+      "probabilities": { "home": 47, "draw": 29, "away": 24 },
+      "analysis": {
+        "summary": "Malmö garde l'avantage à l'Eleda Stadion, mais sa récente irrégularité empêche d'écarter Elfsborg.",
+        "keyFactors": ["Match officiel à domicile pour Malmö", "Malmö reste sur un nul 2-2 contre Kalmar", "Elfsborg se déplace avec un profil compétitif"],
+        "uncertainty": "Les mouvements d'effectif estivaux peuvent influencer les automatismes.",
+        "sources": [{ "label": "Malmö FF - Malmö contre Elfsborg", "url": "https://www.mff.se/matcher/malmo-ff-herr-vs-if-elfsborg-2026-07-26/", "accessedAt": "2026-07-25T01:57:49+02:00" }]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Sarpsborg 08",
+      "awayTeam": "HamKam",
+      "competition": "D1 Norvège",
+      "startsAt": "2026-07-26T17:00:00+02:00",
+      "probabilities": { "home": 39, "draw": 31, "away": 30 },
+      "analysis": {
+        "summary": "Les deux équipes sont à égalité de points, ce qui produit un match très serré avec un petit avantage au terrain pour Sarpsborg.",
+        "keyFactors": ["Sarpsborg et HamKam comptent chacun 18 points", "Avantage du terrain pour Sarpsborg", "Confrontations directes récentes contrastées"],
+        "uncertainty": "L'équilibre du classement rend le nul particulièrement plausible.",
+        "sources": [{ "label": "NFF - Sarpsborg contre HamKam", "url": "https://www.fotball.no/fotballdata/kamp/?fiksId=8986246", "accessedAt": "2026-07-25T01:57:54+02:00" }]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Sandefjord",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "D1 Norvège",
+      "startsAt": "2026-07-26T17:00:00+02:00",
+      "probabilities": { "home": 17, "draw": 23, "away": 60 },
+      "analysis": {
+        "summary": "Bodø/Glimt est nettement favori grâce à sa deuxième place et à sa dynamique offensive récente.",
+        "keyFactors": ["Bodø/Glimt est deuxième avec 32 points", "Victoire récente 3-0 contre HamKam", "Écart de qualité collective marqué"],
+        "uncertainty": "Le déplacement et la rotation avant les échéances européennes peuvent réduire l'avantage.",
+        "sources": [{ "label": "Bodø/Glimt - prochain match et classement", "url": "https://www.glimt.no/", "accessedAt": "2026-07-25T01:57:59+02:00" }]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "FC Lugano",
+      "awayTeam": "FC Vaduz",
+      "competition": "D1 Suisse",
+      "startsAt": "2026-07-26T16:30:00+02:00",
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
+      "analysis": {
+        "summary": "Lugano part favori pour l'ouverture de saison face au promu Vaduz, avec en plus l'effet attendu de son nouveau stade.",
+        "keyFactors": ["Vaduz est promu", "Première journée à la nouvelle AIL Arena", "Avantage d'expérience pour Lugano"],
+        "uncertainty": "Une première journée reste exposée aux surprises et aux automatismes incomplets.",
+        "sources": [{ "label": "FC Lugano - ouverture contre Vaduz", "url": "https://fclugano.com/en/news/super-league-26-27-esordio-alla-ail-arena-con-il-vaduz", "accessedAt": "2026-07-25T01:58:04+02:00" }]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Saint Gall",
+      "awayTeam": "FC Zurich",
+      "competition": "D1 Suisse",
+      "startsAt": "2026-07-26T16:30:00+02:00",
+      "probabilities": { "home": 51, "draw": 28, "away": 21 },
+      "analysis": {
+        "summary": "Saint-Gall reçoit avec une dynamique forte après son succès européen contre Benfica, tandis que Zurich débute un nouveau cycle avec Marcel Koller.",
+        "keyFactors": ["Victoire 2-1 de Saint-Gall contre Benfica", "Avantage du terrain", "Zurich change d'entraîneur et de plusieurs cadres"],
+        "uncertainty": "La fatigue européenne de Saint-Gall peut rééquilibrer le match.",
+        "sources": [{ "label": "FC Saint-Gall - présentation du match contre Zurich", "url": "https://www.fcsg.ch/pages/news/super-league-start-gegen-zurich", "accessedAt": "2026-07-25T01:58:39+02:00" }]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "lf12-63-base",
+      "label": "Scénario principal",
+      "selections": ["1", "N", "1", "2", "2", "1", "1", "1", "1", "2", "1", "1"],
+      "rationale": "Retient les favoris structurels et l'avantage du terrain, avec le nul sur Cruzeiro-Botafogo."
+    },
+    {
+      "id": "lf12-63-prudente",
+      "label": "Variante prudente",
+      "selections": ["N", "1", "N", "2", "2", "N", "N", "1", "N", "2", "1", "1"],
+      "rationale": "Renforce la couverture des rencontres équilibrées et des reprises de championnat."
+    },
+    {
+      "id": "lf12-63-exterieure",
+      "label": "Variante extérieure",
+      "selections": ["2", "N", "1", "2", "N", "2", "2", "N", "2", "2", "1", "N"],
+      "rationale": "Couvre plusieurs surprises extérieures plausibles sans remettre en cause les favoris les plus nets."
+    }
+  ]
+}
