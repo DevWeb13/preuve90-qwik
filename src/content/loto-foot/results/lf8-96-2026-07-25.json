@@ -1,0 +1,114 @@
+{
+  "id": "lf8-96-2026-07-25-result",
+  "publicationId": "lf8-96-2026-07-25",
+  "gridNumber": 96,
+  "settledAt": "2026-07-26T06:00:59+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 1
+    },
+    {
+      "position": 2,
+      "selection": "2",
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "position": 3,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 4,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "position": 5,
+      "selection": "N",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "position": 6,
+      "selection": "1",
+      "homeScore": 5,
+      "awayScore": 1
+    },
+    {
+      "position": 7,
+      "selection": "N",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "position": 8,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 8,
+      "amountCents": 2412000
+    },
+    {
+      "correctSelections": 7,
+      "amountCents": 34880
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 8 n°96",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/793",
+      "accessedAt": "2026-07-26T05:59:10+02:00"
+    },
+    {
+      "label": "FC Lucerne - compte rendu officiel de la défaite contre Thoune",
+      "url": "https://fcl.ch/publication/niederlage-gegen-thun/",
+      "accessedAt": "2026-07-26T05:59:24+02:00"
+    },
+    {
+      "label": "RTÉ Sport - Galway United 0-0 Waterford",
+      "url": "https://www.rte.ie/sport/soccer/2026/0725/1585040-galway-and-waterford-draw-at-a-soggy-pearse-stadium/",
+      "accessedAt": "2026-07-26T05:59:41+02:00"
+    },
+    {
+      "label": "RTÉ Sport - Sligo Rovers 2-2 Drogheda United",
+      "url": "https://www.rte.ie/sport/soccer/2026/0725/1585042-sligo-slip-up-as-drogheda-hit-late-leveller/",
+      "accessedAt": "2026-07-26T05:59:43+02:00"
+    },
+    {
+      "label": "Digi Sport - Dinamo Bucarest 5-1 Universitatea Craiova",
+      "url": "https://www.digisport.ro/fotbal/liga-1/prima-reactie-de-la-dinamo-dupa-umilinta-aplicata-universitatii-craiova-4398959",
+      "accessedAt": "2026-07-26T05:59:46+02:00"
+    },
+    {
+      "label": "LechNews - Lech Poznań 0-0 Cracovia",
+      "url": "https://lechnews.pl/oceny-pilkarzy-po-meczu-lech-poznan-cracovia-25-07-2026/",
+      "accessedAt": "2026-07-26T05:59:49+02:00"
+    },
+    {
+      "label": "AZScore - Lausanne-Sport 1-1 Grasshopper",
+      "url": "https://azscore.com/football/game/lausanne-sport-grasshopper-club-zurich-2026-07-25",
+      "accessedAt": "2026-07-26T05:59:52+02:00"
+    },
+    {
+      "label": "Online Betting Academy - AGF 1-1 Brøndby",
+      "url": "https://www.onlinebettingacademy.com/stats/match/denmark/superliga/agf/brondby/EGoYjeBRRQqba",
+      "accessedAt": "2026-07-26T05:59:55+02:00"
+    },
+    {
+      "label": "Live Soccer TV - Servette 0-1 FC Bâle",
+      "url": "https://www.livesoccertv.com/match/basel-vs-servette/553vc",
+      "accessedAt": "2026-07-26T05:59:58+02:00"
+    }
+  ]
+}
