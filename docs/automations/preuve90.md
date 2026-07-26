@@ -82,21 +82,17 @@ ses cotes ou sa recommandation.
    selon la normalisation du chargeur courant.
 
 5. Pour chaque publication en attente :
-   - avant ou exactement à `validationDeadline`, ne rechercher aucun résultat, score ou rapport ;
-   - strictement après `validationDeadline`, elle devient seulement éligible à la recherche ;
-   - ne la régler que lorsque tous les résultats et rapports nécessaires sont complets, certains et
-     non ambigus selon les règles de la section « Nouveau règlement ».
+   - avant ou exactement à `validationDeadline`, ne rechercher aucun signe gagnant ni rapport ;
+   - strictement après `validationDeadline`, elle devient éligible au règlement ;
+   - la régler dès que tous les signes gagnants et rapports officiels requis sont disponibles,
+     conformément à la section « Nouveau règlement ».
 
 6. Consulter séparément les grilles ouvertes et les prochaines grilles des quatre formules :
-   - utiliser les prochaines grilles uniquement pour anticiper les échéances et identifier les
-     formules futures ;
-   - ne jamais lancer de recherche sportive détaillée ni publier une grille seulement annoncée
-     comme prochaine ;
-   - une telle grille peut seulement être mentionnée dans le rapport comme future grille non encore
-     ouverte ;
+   - utiliser les prochaines grilles uniquement pour anticiper les échéances et les mentionner dans
+     le rapport, sans recherche sportive détaillée ni publication ;
    - utiliser uniquement les grilles ouvertes comme candidates à une nouvelle publication ;
-   - confirmer sur la page officielle des grilles ouvertes la formule, le numéro, la composition
-     complète, l’ordre des matchs et la clôture avant toute recherche sportive détaillée.
+   - confirmer sur leur page officielle la formule, le numéro, la composition complète, l’ordre des
+     matchs et la clôture avant toute recherche sportive détaillée.
 
    Une publication en attente ne bloque jamais la découverte d’une nouvelle grille ouverte de la
    même formule.
@@ -193,35 +189,34 @@ ses cotes ou sa recommandation.
 18. Le résultat utilise le même nom de fichier que sa publication, dans
     `src/content/loto-foot/results/`. Ne pas dupliquer `formula` : elle provient de la publication.
 
-19. Les rapports et montants gagnants doivent provenir d’une publication officielle FDJ.
+19. La page officielle FDJ de la grille est la source de vérité pour les signes gagnants et les
+    rapports. Le règlement porte sur la grille officielle, pas sur la reconstitution des scores
+    exacts de chaque rencontre.
 
-20. Pour chaque rencontre, rechercher la sélection gagnante dans cet ordre :
-    1. page ou données officielles FDJ ;
-    2. score final publié par la compétition, la ligue, la fédération ou l’un des clubs ;
-    3. à défaut, deux sources sportives indépendantes, fiables et concordantes.
+20. Relever dans l’ordre tous les signes gagnants officiels `1`, `N` ou `2` et les rapports FDJ.
+    Si l’extraction textuelle ne conserve pas les cases sélectionnées, inspecter le rendu visuel,
+    une capture ou une représentation officielle qui conserve leur état.
 
-    La conversion d’un score final certain en sélection est autorisée et ne constitue pas une
-    déduction interdite :
-    - victoire de l’équipe à domicile : `1` ;
-    - match nul : `N` ;
-    - victoire de l’équipe à l’extérieur : `2`.
+    Les scores exacts sont facultatifs et leur absence ne doit jamais bloquer le règlement. Ne pas
+    rechercher les scores match par match lorsque les signes officiels FDJ sont disponibles.
 
-    Enregistrer les deux scores lorsqu’ils sont disponibles. Le validateur doit confirmer leur
-    cohérence avec la sélection.
+    Seulement si un signe officiel reste réellement indisponible, le déduire d’un score final publié
+    par la compétition, la ligue, la fédération ou l’un des clubs, ou à défaut par deux sources
+    sportives indépendantes, fiables et concordantes : victoire à domicile `1`, nul `N`, victoire à
+    l’extérieur `2`.
 
-21. Ne pas régler une rencontre si son résultat reste ambigu, notamment en cas de report,
-    annulation, abandon, décision sur tapis vert incertaine ou contradiction entre les sources
-    fiables.
+21. Ne pas régler uniquement si un signe gagnant ou un rapport officiel reste manquant ou ambigu,
+    notamment en cas de report, annulation, abandon ou décision sur tapis vert incertaine. L’absence
+    d’un score exact n’est pas une ambiguïté.
 
 22. Produire uniquement :
-    - `publicationId` identique à la publication ;
-    - `gridNumber` identique ;
-    - `settledAt >= validationDeadline` ;
-    - l’URL officielle FDJ ;
+    - `publicationId` et `gridNumber` identiques à la publication ;
+    - `settledAt >= validationDeadline` et l’URL officielle FDJ ;
     - autant de résultats ordonnés que la publication contient de matchs ;
-    - les sélections `1`, `N` ou `2`, avec deux scores cohérents ou aucun score ;
+    - les sélections `1`, `N` ou `2` ; les scores sont facultatifs, mais doivent être fournis par
+      paire et rester cohérents avec la sélection lorsqu’ils sont présents ;
     - les rapports officiels, sans niveau dépassant le nombre réel de matchs ;
-    - au moins une source officielle.
+    - au moins la source officielle FDJ.
 
 23. Ne jamais inventer de résultat ni de rapport, et ne jamais stocker un calcul dérivable : bons
     choix par combinaison, gains calculés, retour total, résultat net ou statistiques cumulées.
@@ -235,16 +230,9 @@ ses cotes ou sa recommandation.
 25. Immédiatement avant l’écriture :
     - relire `master`, l’inventaire et uniquement ses `pendingPublications` ;
     - refaire les contrôles des étapes 3 à 7 ;
-    - vérifier directement avec l’app GitHub que le futur chemin n’existe pas ;
-    - pour une publication, respecter strictement cet ordre final :
-      1. terminer toutes les recherches ;
-      2. terminer les dernières consultations en conservant pour chacune l’heure `accessedAt`
-         relevée lors de son ouverture réelle, sans horodatage final commun ;
-      3. relever ensuite l’heure courante réelle en Europe/Paris destinée à `publishedAt`, avec les
-         secondes, immédiatement avant la validation et l’écriture, sans arrondi, estimation ni
-         heure future ;
-      4. valider le fichier avec le modèle courant ;
-      5. écrire immédiatement le fichier.
+    - vérifier avec l’app GitHub que le futur chemin n’existe pas ;
+    - valider avec le modèle courant puis écrire immédiatement ; pour une publication, appliquer
+      aussi les règles d’horodatage de l’étape 17.
 
 26. Ne jamais modifier, supprimer ou renommer un contenu existant. Ne jamais réutiliser un
     identifiant. En cas de doublon, d’ambiguïté ou d’incohérence, ne rien écrire.
@@ -269,8 +257,7 @@ ses cotes ou sa recommandation.
     - confirmation que l’inventaire est synchronisé séparément.
 
     Ne jamais prétendre que la synchronisation de l’inventaire ou un déploiement est terminé sans
-    l’avoir vérifié. Une grille seulement présente dans les prochaines grilles peut être signalée
-    comme future grille non encore ouverte, sans recherche sportive détaillée et sans publication.
+    l’avoir vérifié.
 
     Lorsqu’aucune écriture n’est réalisée, expliquer brièvement pourquoi et laisser la planification
     active.
