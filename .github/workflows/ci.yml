@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   quality:
-    name: Typography, format, lint, types, tests and build
+    name: Typography, lint, types, tests and build
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -40,6 +40,7 @@ jobs:
         run: npm run check:typography
 
       - name: Check formatting
+        if: github.event_name == 'pull_request'
         run: npm run fmt.check
 
       - name: Lint source
