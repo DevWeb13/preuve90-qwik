@@ -1,0 +1,159 @@
+{
+  "id": "lf8-97-2026-07-27",
+  "formula": 8,
+  "gridNumber": 97,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794",
+  "validationDeadline": "2026-07-27T18:55:00+02:00",
+  "publishedAt": "2026-07-26T13:58:43+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Rosenborg",
+      "awayTeam": "Fredrikstad",
+      "competition": "D1 Norvège",
+      "startsAt": "2026-07-27T19:00:00+02:00",
+      "probabilities": { "home": 50, "draw": 27, "away": 23 },
+      "analysis": {
+        "summary": "Rosenborg garde un avantage à Lerkendal malgré une saison irrégulière, tandis que Fredrikstad reste proche au classement et peut profiter de la fatigue laissée par le match amical contre Manchester United.",
+        "keyFactors": ["Rosenborg joue à domicile", "Rosenborg compte 15 points après 13 matchs contre 14 pour Fredrikstad", "Le lourd amical contre Manchester United peut peser sur la fraîcheur"],
+        "uncertainty": "L'écart de niveau est réduit et le contexte physique inhabituel de Rosenborg augmente le risque de nul ou de surprise.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" },
+          { "label": "Fredrikstad FK - classement et affiche Rosenborg-Fredrikstad", "url": "https://www.fredrikstadfk.no/", "accessedAt": "2026-07-26T13:57:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Randers FC",
+      "awayTeam": "Silkeborg",
+      "competition": "D1 Danemark",
+      "startsAt": "2026-07-27T19:00:00+02:00",
+      "probabilities": { "home": 38, "draw": 32, "away": 30 },
+      "analysis": {
+        "summary": "Ce match d'ouverture paraît équilibré entre deux équipes restées dans la seconde moitié du classement la saison passée, avec un léger avantage à Randers grâce au terrain.",
+        "keyFactors": ["Première journée de championnat", "Randers reçoit à Cepheus Park", "Les deux équipes ont connu une préparation estivale contrastée"],
+        "uncertainty": "L'absence de forme compétitive récente et les changements de début de saison rendent les trois issues crédibles.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" },
+          { "label": "Randers FC - calendrier officiel 2026-2027", "url": "https://randersfc.dk/nyheder-superliga/2026/juni/kampprogrammet-for-3f-superligaen-2026-27-er-nu-ude", "accessedAt": "2026-07-26T13:57:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Häcken",
+      "awayTeam": "AIK Solna",
+      "competition": "D1 Suède",
+      "startsAt": "2026-07-27T19:00:00+02:00",
+      "probabilities": { "home": 35, "draw": 31, "away": 34 },
+      "analysis": {
+        "summary": "Häcken possède le terrain et une légère avance au classement, mais AIK arrive avec trois victoires consécutives et une dynamique supérieure.",
+        "keyFactors": ["Häcken est troisième avec 23 points", "AIK compte 21 points et reste sur trois victoires", "Häcken a connu des écarts défensifs récents"],
+        "uncertainty": "Les forces sont très proches et la bonne série d'AIK neutralise presque entièrement l'avantage du terrain.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" },
+          { "label": "Sports Mole - présentation Häcken-AIK", "url": "https://www.sportsmole.co.uk/football/hacken/preview/hacken-vs-aik-prediction-team-news-lineups_601826.html", "accessedAt": "2026-07-26T13:57:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Breidablik",
+      "awayTeam": "Vestmannaeyjar",
+      "competition": "D1 Islande",
+      "startsAt": "2026-07-27T20:00:00+02:00",
+      "probabilities": { "home": 62, "draw": 22, "away": 16 },
+      "analysis": {
+        "summary": "Breidablik est nettement favori à domicile grâce à une série récente plus régulière et plusieurs victoires convaincantes, alors que Vestmannaeyjar a davantage subi défensivement.",
+        "keyFactors": ["Breidablik a gagné quatre de ses cinq derniers matchs recensés", "Breidablik reste performant à domicile", "Vestmannaeyjar a récemment encaissé cinq buts à Reykjavik"],
+        "uncertainty": "Le championnat islandais reste volatil et Vestmannaeyjar a déjà montré qu'il pouvait accrocher des équipes mieux classées.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" },
+          { "label": "Mackolik - forme récente Breidablik et Vestmannaeyjar", "url": "https://www.mackolik.com/mac/breidablik-vs-vestmannaeyjar/karsilastirma/6n9ii6bzwrix2tvuix18mzthw", "accessedAt": "2026-07-26T13:57:35+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "KA Akureyri",
+      "awayTeam": "Thor Akureyri",
+      "competition": "D1 Islande",
+      "probabilities": { "home": 52, "draw": 28, "away": 20 },
+      "analysis": {
+        "summary": "KA reçoit dans un derby local où l'avantage du terrain et le statut apparent de favori lui donnent une avance mesurée sur Thor.",
+        "keyFactors": ["KA évolue à domicile", "Derby d'Akureyri susceptible de réduire les écarts", "La grille officielle place KA comme équipe de référence"],
+        "uncertainty": "Les informations sportives récentes directement exploitables sont limitées, ce qui impose une confiance modérée malgré l'avantage accordé à KA.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "MTK Budapest",
+      "awayTeam": "Zalaegerszeg",
+      "competition": "D1 Hongrie",
+      "startsAt": "2026-07-27T19:30:00+02:00",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "MTK aborde l'ouverture du championnat à domicile avec une préparation offensive encourageante, ce qui lui donne un avantage clair mais non décisif.",
+        "keyFactors": ["MTK reçoit au stade Hidegkuti", "MTK a gagné 4-2 puis 3-1 lors de deux matchs de préparation officiels", "Première journée avec une incertitude habituelle sur les automatismes"],
+        "uncertainty": "Zalaegerszeg reste difficile à situer avant son premier match officiel et peut profiter d'un excès de confiance du favori.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" },
+          { "label": "MTK Budapest - calendrier et résultats de préparation", "url": "https://www.mtkbudapest.hu/en/matches", "accessedAt": "2026-07-26T13:57:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Zaglebie Lubin",
+      "awayTeam": "Piast Gliwice",
+      "competition": "D1 Pologne",
+      "startsAt": "2026-07-27T19:00:00+02:00",
+      "probabilities": { "home": 34, "draw": 34, "away": 32 },
+      "analysis": {
+        "summary": "La rencontre s'annonce très serrée entre deux équipes restées sur des résultats mitigés en fin de saison, avec un léger correctif en faveur de Zaglebie grâce au terrain.",
+        "keyFactors": ["Les deux équipes ont terminé la saison précédente avec plusieurs résultats négatifs", "Zaglebie reçoit pour l'ouverture du championnat", "Les derniers résultats disponibles suggèrent peu d'écart entre les deux formations"],
+        "uncertainty": "Le début de saison et l'absence de repères compétitifs récents rendent le nul presque aussi probable qu'une victoire d'un camp.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" },
+          { "label": "Zaglebie Lubin - annonce officielle du match contre Piast", "url": "https://www.zaglebie.com/", "accessedAt": "2026-07-26T13:57:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "FC Botosani",
+      "awayTeam": "Rapid Bucarest",
+      "competition": "D1 Roumanie",
+      "startsAt": "2026-07-27T21:30:00+02:00",
+      "probabilities": { "home": 28, "draw": 34, "away": 38 },
+      "analysis": {
+        "summary": "Rapid arrive avec un léger avantage après sa victoire inaugurale, mais Botosani a déjà montré de la résistance avec un nul à l'extérieur et bénéficie du terrain.",
+        "keyFactors": ["Botosani a débuté par un nul 2-2 à Voluntari", "Rapid a gagné 1-0 contre Sepsi", "Botosani joue son premier match à domicile de la saison"],
+        "uncertainty": "Le faible échantillon d'une seule journée et l'avantage du terrain maintiennent une forte probabilité de nul.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°97", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794", "accessedAt": "2026-07-26T13:56:30+02:00" },
+          { "label": "FC Botosani - calendrier et résultat de la première journée", "url": "https://fcbt.ro/", "accessedAt": "2026-07-26T13:57:50+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["1", "N", "N", "1", "1", "1", "N", "2"],
+      "rationale": "Combinaison centrée sur les avantages les plus nets, tout en conservant les nuls sur les affiches les plus équilibrées."
+    },
+    {
+      "id": "alternative",
+      "label": "Scénario alternatif",
+      "selections": ["1", "1", "2", "1", "N", "1", "1", "N"],
+      "rationale": "Variante couvrant la dynamique d'AIK, l'avantage de Randers et des issues moins tranchées dans les derbys et matchs de reprise."
+    }
+  ]
+}
