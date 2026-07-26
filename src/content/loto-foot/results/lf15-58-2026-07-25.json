@@ -1,0 +1,42 @@
+{
+  "id": "lf15-58-2026-07-25-result",
+  "publicationId": "lf15-58-2026-07-25",
+  "gridNumber": 58,
+  "settledAt": "2026-07-26T12:50:57+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+  "matches": [
+    { "position": 1, "selection": "1" },
+    { "position": 2, "selection": "1" },
+    { "position": 3, "selection": "1" },
+    { "position": 4, "selection": "2" },
+    { "position": 5, "selection": "2" },
+    { "position": 6, "selection": "1" },
+    { "position": 7, "selection": "1" },
+    { "position": 8, "selection": "N" },
+    { "position": 9, "selection": "1" },
+    { "position": 10, "selection": "1" },
+    { "position": 11, "selection": "1" },
+    { "position": 12, "selection": "1" },
+    { "position": 13, "selection": "1" },
+    { "position": 14, "selection": "1" },
+    { "position": 15, "selection": "N" }
+  ],
+  "payouts": [
+    { "correctSelections": 15, "amountCents": 3407100 },
+    { "correctSelections": 14, "amountCents": 43680 },
+    { "correctSelections": 13, "amountCents": 4440 },
+    { "correctSelections": 12, "amountCents": 530 }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°58",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2006",
+      "accessedAt": "2026-07-26T12:50:09+02:00"
+    },
+    {
+      "label": "ProbWin - Suite complète des signes Loto Foot 15 n°58",
+      "url": "https://probwin.com/loto-foot/resultats/",
+      "accessedAt": "2026-07-26T12:50:45+02:00"
+    }
+  ]
+}
