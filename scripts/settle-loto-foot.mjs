@@ -168,13 +168,21 @@ function parseFrenchAmountCents(value) {
 export function parsePayouts(html) {
   const text = decodeHtmlEntities(
     html
-      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
       .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
       .replace(/<[^>]+>/g, " ")
       .replace(/\\n|\\r|\\t/g, " ")
       .replace(/\s+/g, " "),
   );
   const payouts = new Map();
+  const tablePattern = /(\d+)\s+sur\s+\d+\s+\d[\d\s.]*?\s+(\d{1,3}(?:[\s.\u00a0\u202f]\d{3})*,\d{2})\s*(?:€|euros?)/giu;
+  for (const match of text.matchAll(tablePattern)) {
+    const correctSelections = Number.parseInt(match[1], 10);
+    const amountCents = parseFrenchAmountCents(match[2]);
+    if (Number.isInteger(correctSelections) && amountCents !== undefined) {
+      payouts.set(correctSelections, { correctSelections, amountCents });
+    }
+  }
+
   const reportPattern = /\d[\d\s.]*\s+gagnants?\s+(?:à|avec)\s+(\d+)\s*(?:\/\s*\d+|bons?\s+r[ée]sultats?)/giu;
   const reports = [...text.matchAll(reportPattern)];
 
