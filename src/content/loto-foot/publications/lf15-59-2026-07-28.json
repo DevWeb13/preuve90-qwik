@@ -1,0 +1,220 @@
+{
+  "id": "lf15-59-2026-07-28",
+  "formula": 15,
+  "gridNumber": 59,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007",
+  "validationDeadline": "2026-07-28T18:55:00+02:00",
+  "publishedAt": "2026-07-27T10:09:25+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Hearts",
+      "awayTeam": "Sturm Graz",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 32, "draw": 29, "away": 39 },
+      "analysis": {
+        "summary": "Affiche équilibrée où Sturm Graz conserve un léger avantage structurel, mais Hearts peut peser fortement à domicile.",
+        "keyFactors": ["Sturm Graz est légèrement davantage soutenu sur la grille ouverte", "Le terrain de Hearts réduit l'écart", "Le nul reste crédible dans un match européen serré"],
+        "uncertainty": "Le début de saison et les rotations européennes limitent la fiabilité des repères récents.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Shamrock",
+      "awayTeam": "Ararat Armenia",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "analysis": {
+        "summary": "Shamrock possède un avantage net à domicile, sans être assez dominant pour écarter complètement le nul.",
+        "keyFactors": ["Avantage du terrain", "Soutien majoritaire des joueurs FDJ", "Écart mesuré entre les deux équipes"],
+        "uncertainty": "Les confrontations européennes à élimination directe peuvent produire un match plus fermé qu'attendu.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "NK Celje",
+      "awayTeam": "KS Egnatia",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 78, "draw": 14, "away": 8 },
+      "analysis": {
+        "summary": "NK Celje se détache nettement et constitue l'un des favoris les plus solides de la grille.",
+        "keyFactors": ["Très fort consensus en faveur de Celje", "Avantage du terrain", "Faible soutien accordé à Egnatia"],
+        "uncertainty": "Une prudence reste nécessaire dans un tour européen où la gestion du score peut modifier le rythme.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "FC Thun",
+      "competition": "ChampionsLeague",
+      "probabilities": { "home": 59, "draw": 23, "away": 18 },
+      "analysis": {
+        "summary": "Le Dinamo Zagreb est favori grâce à son expérience européenne et à l'avantage du terrain.",
+        "keyFactors": ["Expérience continentale du Dinamo", "Match à Zagreb", "Thun conserve une capacité de surprise"],
+        "uncertainty": "Le début de saison et la fraîcheur physique des deux équipes restent difficiles à mesurer précisément.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "FC CSKA 1948",
+      "awayTeam": "Spartak Trnava",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 62, "draw": 24, "away": 14 },
+      "analysis": {
+        "summary": "Le CSKA 1948 dispose d'un avantage clair à domicile, mais Trnava peut rendre la rencontre plus fermée.",
+        "keyFactors": ["Avantage du terrain", "Consensus favorable au CSKA", "Profil potentiellement prudent du match"],
+        "uncertainty": "La qualité relative des championnats et la forme immédiate restent difficiles à comparer.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "KF Drita",
+      "awayTeam": "Floriana FC",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 70, "draw": 19, "away": 11 },
+      "analysis": {
+        "summary": "Drita est nettement favori et devrait imposer davantage de maîtrise dans cette confrontation.",
+        "keyFactors": ["Fort avantage perçu à domicile", "Très faible soutien à Floriana", "Écart de confiance important"],
+        "uncertainty": "Le manque de repères interchampionnats impose de conserver une marge pour le nul.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Riga FC",
+      "awayTeam": "Vardar Skopje",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 68, "draw": 20, "away": 12 },
+      "analysis": {
+        "summary": "Riga FC possède un avantage sérieux à domicile et part avec la meilleure base de contrôle du match.",
+        "keyFactors": ["Avantage du terrain", "Soutien très majoritaire à Riga", "Vardar reste outsider"],
+        "uncertainty": "Un match aller ou une gestion prudente peut maintenir le score serré plus longtemps que prévu.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Kairat Almaty",
+      "awayTeam": "Omonia Nicosie",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 45, "draw": 31, "away": 24 },
+      "analysis": {
+        "summary": "Kairat garde un léger avantage grâce au terrain, mais Omonia et le nul restent des scénarios solides.",
+        "keyFactors": ["Avantage local", "Répartition plus équilibrée que sur les favoris nets", "Risque de match tactique"],
+        "uncertainty": "Le déplacement long et les conditions locales peuvent amplifier ou réduire l'avantage de Kairat.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Kauno Zalgiris",
+      "awayTeam": "KI Klaksvik",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 53, "draw": 26, "away": 21 },
+      "analysis": {
+        "summary": "Kauno Zalgiris est légèrement favori, mais Klaksvik reste assez compétitif pour menacer en transition.",
+        "keyFactors": ["Avantage du terrain", "Soutien majoritaire mais non écrasant", "Klaksvik conserve une vraie crédibilité européenne"],
+        "uncertainty": "Le rapport de force entre les championnats reste délicat à calibrer.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Lech Poznan",
+      "awayTeam": "Aarhus GF",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 69, "draw": 20, "away": 11 },
+      "analysis": {
+        "summary": "Lech Poznan est favori à domicile et dispose d'une base plus convaincante pour prendre l'initiative.",
+        "keyFactors": ["Forte confiance en Lech", "Avantage du terrain", "Aarhus reste peu soutenu"],
+        "uncertainty": "Le rythme de reprise et l'efficacité offensive peuvent réduire l'écart théorique.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Hap.Beer Sheva",
+      "awayTeam": "Vikingur Reyk.",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 64, "draw": 21, "away": 15 },
+      "analysis": {
+        "summary": "Hapoel Beer Sheva possède un avantage net, tout en gardant un risque de nul face à une équipe islandaise habituée aux matchs engagés.",
+        "keyFactors": ["Avantage local", "Confiance nettement supérieure accordée à Beer Sheva", "Vikingur peut rester dangereux sur phases arrêtées"],
+        "uncertainty": "Le contexte géographique et les conditions de préparation peuvent peser sur l'intensité réelle.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Uni.Craiova",
+      "awayTeam": "Levski Sofia",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 37, "draw": 29, "away": 34 },
+      "analysis": {
+        "summary": "C'est l'une des affiches les plus ouvertes de la grille, avec un léger avantage au terrain pour Craiova mais trois issues crédibles.",
+        "keyFactors": ["Répartition presque équilibrée", "Avantage du terrain limité", "Risque élevé de scénario tactique"],
+        "uncertainty": "Le faible écart entre les équipes rend la rencontre très sensible au premier but.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Etoile Rouge",
+      "awayTeam": "FC Larne",
+      "competition": "ChampionsLeague",
+      "probabilities": { "home": 88, "draw": 8, "away": 4 },
+      "analysis": {
+        "summary": "L'Étoile Rouge est le favori le plus net de la grille et devrait dominer territorialement.",
+        "keyFactors": ["Très fort consensus en faveur de l'Étoile Rouge", "Écart d'expérience européenne", "Avantage du terrain"],
+        "uncertainty": "Le principal risque vient d'une inefficacité prolongée ou d'une gestion prudente du match.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Slo.Bratislava",
+      "awayTeam": "Iberia 1999",
+      "competition": "ChampionsLeague",
+      "probabilities": { "home": 72, "draw": 18, "away": 10 },
+      "analysis": {
+        "summary": "Le Slovan Bratislava possède une supériorité théorique claire et un avantage important à domicile.",
+        "keyFactors": ["Forte confiance dans le Slovan", "Expérience européenne", "Iberia reste nettement outsider"],
+        "uncertainty": "Le risque principal réside dans un match fermé si le Slovan gère davantage qu'il n'attaque.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Gornik Zabrze",
+      "awayTeam": "Fenerbahce",
+      "competition": "Europa Conf.",
+      "probabilities": { "home": 10, "draw": 18, "away": 72 },
+      "analysis": {
+        "summary": "Fenerbahce part largement favori malgré le déplacement, avec une supériorité individuelle et collective attendue.",
+        "keyFactors": ["Très fort soutien à Fenerbahce", "Écart de qualité perçu", "Gornik conserve l'avantage du terrain"],
+        "uncertainty": "Une rotation importante ou un rythme de pré-saison peut réduire l'écart attendu.",
+        "sources": [{ "label": "FDJ - Loto Foot 15 n°59", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007", "accessedAt": "2026-07-27T10:09:05+02:00" }]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Sélection principale",
+      "selections": ["2", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "N", "1", "1", "2"],
+      "rationale": "Combinaison centrée sur les favoris les plus nets, avec couverture du nul sur Craiova-Levski."
+    },
+    {
+      "id": "prudente",
+      "label": "Variante prudente",
+      "selections": ["N", "1", "1", "1", "1", "1", "1", "N", "1", "1", "1", "2", "1", "1", "2"],
+      "rationale": "Variante couvrant deux affiches plus équilibrées et une issue extérieure sur Craiova-Levski."
+    }
+  ]
+}
