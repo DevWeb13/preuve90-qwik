@@ -40,7 +40,12 @@ sources. Une source claire peut suffire. En cas de doute ou de contradiction, po
 jusqu'à obtenir une information cohérente.
 
 Les sources externes servent à informer l'analyse. Les probabilités et les combinaisons publiées
-restent celles produites par l'IA.
+restent celles produites par l'IA. Il n'est jamais nécessaire qu'une source externe fournisse des
+probabilités pour chaque rencontre.
+
+Une source qui ne couvre qu'une partie de la grille ne constitue pas un blocage. Poursuivre la
+recherche avec d'autres sources publiques et synthétiser les informations disponibles. L'absence d'un
+site unique couvrant toute la grille n'est jamais, à elle seule, un motif de refus.
 
 ## À chaque exécution
 
@@ -78,45 +83,63 @@ restent celles produites par l'IA.
 7. Une grille est déjà publiée lorsque le couple `formula + gridNumber` existe. Ne jamais republier ce
    couple.
 
-8. Choisir au maximum une action métier, dans cet ordre :
-   1. nouvelle grille ouverte non publiée qui risque de fermer avant la prochaine exécution ;
-   2. règlement de la plus ancienne publication éligible ;
-   3. nouvelle grille ouverte non publiée dont la clôture est la plus proche ;
-   4. aucune écriture.
+8. Traiter toutes les actions métier réalisables découvertes pendant l'exécution. Les priorités
+   déterminent uniquement l'ordre des tentatives et ne limitent jamais l'exécution à une seule action :
+   1. nouvelles grilles ouvertes non publiées qui risquent de fermer avant la prochaine exécution,
+      classées par clôture croissante ;
+   2. règlements éligibles, du plus ancien `publishedAt` au plus récent ;
+   3. autres nouvelles grilles ouvertes non publiées, classées par clôture croissante.
 
-9. Une publication en attente ne bloque jamais la découverte ou la publication d'une autre grille
-   ouverte.
+   Pour des clôtures strictement identiques, départager les nouvelles grilles dans l'ordre LF7, LF8,
+   LF12, LF15.
 
-10. Interrompre sans écriture uniquement si l'inventaire ou un fichier métier est invalide, absent ou
-    désynchronisé. Expliquer alors brièvement le problème et laisser la planification active.
+9. Lorsqu'une action ne peut pas être terminée honnêtement, relever précisément son blocage, la marquer
+   comme non réalisable pour l'exécution courante et continuer immédiatement avec l'action suivante.
+   Un règlement incomplet, une recherche insuffisante pour une grille ou une source indisponible ne
+   doit jamais bloquer les autres règlements ou publications réalisables.
+
+10. Continuer jusqu'à ce que chaque action découverte ait été soit réalisée, soit explicitement
+    bloquée. Avant de terminer, consulter une dernière fois les grilles ouvertes et vérifier qu'aucune
+    nouvelle action réalisable n'a été omise. Ne pas retenter indéfiniment la même action bloquée au
+    cours d'une seule exécution, sauf si une nouvelle information fiable apparaît entre-temps.
+
+11. Interrompre globalement les écritures uniquement si l'inventaire ou un fichier métier est invalide,
+    absent ou désynchronisé, ou si une incohérence empêche de garantir l'intégrité du dépôt. Expliquer
+    alors brièvement le problème et laisser la planification active.
 
 ## Nouvelle publication
 
-11. Utiliser l'identifiant et le nom de fichier `lf<formule>-<numero>-<date>`, ajouter `formula` et
+12. Utiliser l'identifiant et le nom de fichier `lf<formule>-<numero>-<date>`, ajouter `formula` et
     utiliser exactement `loto-foot-v1` comme `methodVersion`.
 
-12. Vérifier la cohérence entre la formule, le numéro, le nom du fichier, le nombre de matchs et
+13. Vérifier la cohérence entre la formule, le numéro, le nom du fichier, le nombre de matchs et
     l'absence de doublon.
 
-13. Pour chaque match, produire :
+14. Pour chaque match, produire :
     - trois probabilités entières `home`, `draw` et `away` totalisant exactement 100 ;
     - un résumé, les facteurs principaux et une incertitude ;
     - une analyse fondée sur les informations jugées utiles pendant la recherche.
 
-14. Utiliser librement les informations disponibles : forme récente, classement, absences,
+15. Utiliser librement les informations disponibles : forme récente, classement, absences,
     compositions, calendrier, contexte, statistiques, cotes, mouvements de marché, avis et
-    pronostics externes. L'IA choisit elle-même les éléments utiles et produit sa propre analyse.
+    pronostics externes. L'IA choisit elle-même les éléments utiles et produit ses propres
+    probabilités, son analyse et ses combinaisons.
 
-15. Produire librement une ou plusieurs combinaisons distinctes. Utiliser le plus petit nombre qui
+    Ne jamais attendre qu'une source fournisse directement les probabilités finales. Lorsque les
+    informations d'une première source sont partielles, consulter d'autres sources adaptées à chaque
+    rencontre. Refuser une publication uniquement si, après une recherche raisonnable et diversifiée,
+    une ou plusieurs rencontres ne peuvent toujours pas faire l'objet d'une analyse honnête.
+
+16. Produire librement une ou plusieurs combinaisons distinctes. Utiliser le plus petit nombre qui
     couvre les scénarios jugés plausibles. Chaque combinaison :
     - possède un identifiant, un libellé et une justification ;
     - contient exactement autant de choix que la publication contient de matchs ;
     - utilise uniquement `1`, `N` ou `2`.
 
-16. Chaque combinaison représente 100 centimes, soit 1 € de mise virtuelle. La mise totale est
+17. Chaque combinaison représente 100 centimes, soit 1 € de mise virtuelle. La mise totale est
     `nombre de combinaisons x 100 centimes`.
 
-17. Pour les horodatages :
+18. Pour les horodatages :
     - utiliser l'heure réelle en Europe/Paris avec les secondes ;
     - relever chaque `accessedAt` au moment réel de la consultation ;
     - relever `publishedAt` immédiatement avant la validation et l'écriture ;
@@ -125,23 +148,23 @@ restent celles produites par l'IA.
 
 ## Nouveau règlement
 
-18. Le résultat utilise le même nom de fichier que sa publication dans
+19. Le résultat utilise le même nom de fichier que sa publication dans
     `src/content/loto-foot/results/`. Ne pas dupliquer `formula`.
 
-19. Rechercher la suite complète des signes gagnants `1`, `N` ou `2` de la grille et les rapports.
+20. Rechercher la suite complète des signes gagnants `1`, `N` ou `2` de la grille et les rapports.
     Chercher où cela fonctionne. Utiliser FDJ lorsqu'elle fournit clairement l'information, sinon
     utiliser immédiatement une autre source publique claire.
 
-20. Ne pas rechercher les scores précis des rencontres. Les scores sont inutiles au règlement et leur
+21. Ne pas rechercher les scores précis des rencontres. Les scores sont inutiles au règlement et leur
     absence ne doit jamais bloquer l'écriture.
 
-21. Une seule source claire peut suffire. Recouper seulement en cas de doute, d'incohérence ou de
+22. Une seule source claire peut suffire. Recouper seulement en cas de doute, d'incohérence ou de
     contradiction.
 
-22. Dès que la suite complète des signes gagnants et les rapports sont disponibles, créer le fichier
+23. Dès que la suite complète des signes gagnants et les rapports sont disponibles, créer le fichier
     de règlement. Ne pas différer l'écriture pour obtenir davantage de preuves.
 
-23. Produire uniquement :
+24. Produire uniquement :
     - `publicationId` et `gridNumber` identiques à la publication ;
     - `settledAt >= validationDeadline` ;
     - l'URL officielle FDJ de la grille ;
@@ -150,40 +173,52 @@ restent celles produites par l'IA.
     - les rapports ;
     - les sources réellement utilisées.
 
-24. Ne jamais inventer un signe ou un rapport. En cas de contradiction réelle non résolue, ne rien
-    écrire et expliquer précisément la contradiction.
+25. Ne jamais inventer un signe ou un rapport. En cas de contradiction réelle non résolue, ne pas
+    écrire ce règlement, expliquer précisément la contradiction et continuer avec les autres actions
+    réalisables.
 
 ## Validation et écriture
 
-25. Préparer au maximum un seul nouveau fichier JSON métier :
-    - publication dans `src/content/loto-foot/publications/` ;
-    - résultat dans `src/content/loto-foot/results/`.
+26. Préparer et écrire autant de nouveaux fichiers JSON métier distincts que d'actions réalisables :
+    - publications dans `src/content/loto-foot/publications/` ;
+    - résultats dans `src/content/loto-foot/results/`.
 
-26. Immédiatement avant l'écriture :
+    Chaque fichier métier doit être écrit dans son propre commit. Ne jamais regrouper plusieurs
+    publications ou règlements dans un même commit.
+
+27. Immédiatement avant chaque écriture :
     - relire `master`, l'inventaire et ses `pendingPublications` ;
     - refaire les contrôles utiles ;
     - vérifier que le futur chemin n'existe pas ;
     - valider le fichier avec le modèle courant ;
     - écrire immédiatement.
 
-27. Ne jamais modifier, supprimer ou renommer un contenu métier existant. Ne jamais réutiliser un
-    identifiant. En cas de doublon ou d'incohérence, ne rien écrire.
+28. Après chaque commit métier :
+    - relire le nouveau fichier directement depuis `master` ;
+    - vérifier le hash complet du commit et son contenu ;
+    - vérifier la synchronisation séparée de `inventory.json` par GitHub Actions avant l'écriture
+      métier suivante ;
+    - si la synchronisation n'est pas encore terminée, ne jamais modifier l'inventaire manuellement.
 
-28. Ajouter directement sur `master` uniquement le nouveau fichier métier :
+29. Ne jamais modifier, supprimer ou renommer un contenu métier existant. Ne jamais réutiliser un
+    identifiant. En cas de doublon ou d'incohérence concernant une action, ne pas l'écrire et continuer
+    avec les autres actions réalisables lorsque l'intégrité du dépôt le permet.
+
+30. Ajouter directement sur `master` uniquement un nouveau fichier métier par commit :
     - `content: add ...` pour une publication ;
     - `content: settle ...` pour un résultat.
 
     Ne modifier ni le code, ni la configuration, ni la documentation, ni la planification pendant
     cette exécution. Ne jamais modifier `inventory.json` manuellement : GitHub Actions le synchronise.
 
-29. Après le commit, relire le nouveau fichier sur `master` et fournir :
-    - la formule, le numéro, le nombre de matchs et la clôture ;
-    - le chemin exact et le hash complet du commit ;
-    - le nombre de combinaisons et la mise totale pour une publication ;
-    - `methodVersion` pour une publication ;
-    - les principales sources utilisées ;
-    - l'état synthétique des trois autres formules ;
-    - la confirmation que l'inventaire est synchronisé séparément.
+31. À la fin de l'exécution, fournir un rapport unique qui récapitule :
+    - toutes les actions réalisées, avec formule, numéro, chemin exact et hash complet de chaque commit ;
+    - le nombre de matchs, la clôture, `methodVersion`, le nombre de combinaisons et la mise totale pour
+      chaque publication ;
+    - les rapports et les principales sources pour chaque règlement ;
+    - chaque action bloquée et sa raison précise ;
+    - l'état synthétique des quatre formules ;
+    - l'état vérifié de la synchronisation des inventaires et des déploiements concernés.
 
 Ne jamais annoncer une synchronisation ou un déploiement comme terminé sans l'avoir vérifié.
 Lorsqu'aucune écriture n'est réalisée, expliquer brièvement pourquoi et laisser la planification
