@@ -1,0 +1,67 @@
+name: Settle Loto Foot results
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - scripts/settle-loto-foot.mjs
+      - .github/workflows/settle-loto-foot-results.yml
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: settle-loto-foot-master
+  cancel-in-progress: false
+
+jobs:
+  settle:
+    name: Settle oldest eligible grid
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v6
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+
+      - name: Find one complete settlement
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node scripts/settle-loto-foot.mjs | tee /tmp/settlement-output.txt
+
+      - name: Commit the generated result
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          result_path="$(sed -n 's/^RESULT_PATH=//p' /tmp/settlement-output.txt | tail -n 1)"
+          publication_id="$(sed -n 's/^RESULT_ID=//p' /tmp/settlement-output.txt | tail -n 1)"
+
+          if [ -z "$result_path" ]; then
+            echo "No settlement file was generated."
+            exit 0
+          fi
+
+          if [ "$(git status --short | awk '{print $2}')" != "$result_path" ]; then
+            echo "Refusing to commit unexpected files." >&2
+            git status --short
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$result_path"
+          git commit -m "content: settle ${publication_id}"
+          git push origin HEAD:master
