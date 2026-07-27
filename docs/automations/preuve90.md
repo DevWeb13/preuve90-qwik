@@ -1,24 +1,18 @@
 # Publication et règlement planifiés des grilles Loto Foot
 
-## Règle absolue concernant la planification
+## Planification
 
-Ne jamais suspendre, désactiver, modifier, supprimer ou recréer la planification ChatGPT.
+La planification doit rester active et ne doit jamais être modifiée par cette tâche, y compris lorsqu’une exécution ne produit aucune écriture ou rencontre un blocage temporaire.
 
-Une exécution sans écriture, une information indisponible ou un blocage temporaire ne doit jamais
-arrêter les prochaines exécutions. La gestion de la planification appartient uniquement à
-l'utilisateur.
+## Sources FDJ
 
-## Sources FDJ utiles
+Source officielle des grilles ouvertes :
+`https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot`
 
-- grilles ouvertes :
-  `https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot` ;
-- prochaines grilles :
-  `https://www.pointdevente.parionssport.fdj.fr/grilles/prochaines/loto-foot` ;
-- règles :
-  `https://www.pointdevente.parionssport.fdj.fr/aide/comprendre-pari/loto-foot`.
+Seules les grilles figurant dans cette liste peuvent être publiées.
 
-Les prochaines grilles servent uniquement à anticiper. Une grille ne peut être publiée que lorsqu'elle
-figure dans les grilles ouvertes.
+Documentation FDJ de référence :
+`https://www.pointdevente.parionssport.fdj.fr/aide/comprendre-pari/loto-foot`
 
 Formules autorisées :
 
@@ -27,85 +21,38 @@ Formules autorisées :
 - LF12 : 9, 10, 11 ou 12 matchs ;
 - LF15 : 12, 13, 14 ou 15 matchs.
 
-Toujours relever la formule officielle. Ne pas la déduire uniquement du nombre de matchs.
+Relever la formule indiquée explicitement par la FDJ. Ne jamais déterminer la formule à partir du seul nombre de matchs, car certaines formules se chevauchent.
 
 ## Recherche
 
-La recherche est libre. Consulter toute source publique utile, notamment FDJ, clubs, ligues,
-fédérations, médias, bases de données sportives, sites de statistiques, bookmakers, cotes, marchés,
-comparateurs et sites de pronostics.
+Agir comme un analyste sportif indépendant et rechercher, pour chaque rencontre, les informations publiques, récentes et vérifiables nécessaires pour produire le pronostic le plus solide possible.
 
-Croiser les informations lorsque cela améliore l'analyse, mais ne pas imposer un nombre fixe de
-sources. Une source claire peut suffire. En cas de doute ou de contradiction, poursuivre la recherche
-jusqu'à obtenir une information cohérente.
+La page FDJ sert à identifier la grille, les rencontres et, lorsqu’elle l’affiche, la répartition des choix des joueurs. Elle ne doit jamais constituer la seule base d’une analyse sportive.
 
-Les sources externes servent à informer l'analyse. Les probabilités et les combinaisons publiées
-restent celles produites par l'IA. Il n'est jamais nécessaire qu'une source externe fournisse des
-probabilités pour chaque rencontre.
+Pour chaque rencontre, utiliser au moins une source sportive distincte de la FDJ. En cas de doute ou de contradiction, poursuivre et croiser la recherche jusqu’à obtenir une analyse cohérente.
 
-Une source qui ne couvre qu'une partie de la grille ne constitue pas un blocage. Poursuivre la
-recherche avec d'autres sources publiques et synthétiser les informations disponibles. L'absence d'un
-site unique couvrant toute la grille n'est jamais, à elle seule, un motif de refus.
+Les probabilités et les combinaisons finales sont produites par l’IA à partir des informations recueillies.
 
 ## À chaque exécution
 
-1. Utiliser l'app GitHub connectée sur le dépôt `DevWeb13/preuve90-qwik` et relire la version la plus
-   récente de `master`.
+1. Travailler sur la branche `master` du dépôt `DevWeb13/preuve90-qwik` et lire `src/content/loto-foot/inventory.json`.
 
-2. Lire sur `master` :
-   - `src/content/loto-foot/model.ts` ;
-   - `src/content/loto-foot/validation.ts` ;
-   - `src/content/loto-foot/publications.ts` ;
-   - `src/content/loto-foot/result-validation.ts` ;
-   - `src/content/loto-foot/results.ts` ;
-   - `src/content/loto-foot/settlement.ts` ;
-   - `src/content/loto-foot/statistics.ts` ;
-   - `src/content/loto-foot/inventory.json`.
+   Si l’inventaire ne peut pas être lu, ne rien écrire et signaler l’erreur.
 
-3. Vérifier que l'inventaire :
-   - utilise la version `2` ;
-   - contient des tableaux triés et sans doublon ;
-   - référence des fichiers JSON valides dans les bons dossiers ;
-   - relie correctement publications, résultats et publications en attente.
+2. Traiter les publications en attente dont la clôture est passée, de la plus ancienne à la plus récente.
 
-4. Lire les fichiers de `pendingPublications` et valider leurs champs essentiels. Les publications
-   historiques `lf7-91-2026-07-22` et `lf7-92-2026-07-24` sans `formula` sont traitées en formule 7.
+   Pour chacune :
+   - rechercher les signes gagnants et les rapports ;
+   - lorsqu’ils sont complets et cohérents, lire `model.ts`, `result-validation.ts` et le fichier de la publication concernée, puis créer le règlement ;
+   - si le règlement ne peut pas être créé, noter précisément la raison et continuer avec la publication suivante.
 
-5. Pour chaque publication en attente :
-   - avant ou exactement à `validationDeadline`, ne rechercher aucun résultat ;
-   - strictement après `validationDeadline`, rechercher les signes gagnants et les rapports ;
-   - créer le règlement dès que ces informations sont complètes et cohérentes.
+3. Consulter la liste officielle des grilles ouvertes et traiter les grilles non publiées par ordre de clôture, de la plus proche à la plus éloignée.
 
-6. Consulter les grilles ouvertes et les prochaines grilles des quatre formules. Les prochaines
-   grilles servent seulement à anticiper. Seules les grilles ouvertes sont candidates à une
-   publication.
-
-7. Une grille est déjà publiée lorsque le couple `formula + gridNumber` existe. Ne jamais republier ce
-   couple.
-
-8. Traiter toutes les actions métier réalisables découvertes pendant l'exécution. Les priorités
-   déterminent uniquement l'ordre des tentatives et ne limitent jamais l'exécution à une seule action :
-   1. nouvelles grilles ouvertes non publiées qui risquent de fermer avant la prochaine exécution,
-      classées par clôture croissante ;
-   2. règlements éligibles, du plus ancien `publishedAt` au plus récent ;
-   3. autres nouvelles grilles ouvertes non publiées, classées par clôture croissante.
-
-   Pour des clôtures strictement identiques, départager les nouvelles grilles dans l'ordre LF7, LF8,
-   LF12, LF15.
-
-9. Lorsqu'une action ne peut pas être terminée honnêtement, relever précisément son blocage, la marquer
-   comme non réalisable pour l'exécution courante et continuer immédiatement avec l'action suivante.
-   Un règlement incomplet, une recherche insuffisante pour une grille ou une source indisponible ne
-   doit jamais bloquer les autres règlements ou publications réalisables.
-
-10. Continuer jusqu'à ce que chaque action découverte ait été soit réalisée, soit explicitement
-    bloquée. Avant de terminer, consulter une dernière fois les grilles ouvertes et vérifier qu'aucune
-    nouvelle action réalisable n'a été omise. Ne pas retenter indéfiniment la même action bloquée au
-    cours d'une seule exécution, sauf si une nouvelle information fiable apparaît entre-temps.
-
-11. Interrompre globalement les écritures uniquement si l'inventaire ou un fichier métier est invalide,
-    absent ou désynchronisé, ou si une incohérence empêche de garantir l'intégrité du dépôt. Expliquer
-    alors brièvement le problème et laisser la planification active.
+   Pour chacune :
+   - vérifier dans l’inventaire qu’une publication ayant la même formule et le même numéro n’existe pas déjà ;
+   - effectuer la recherche nécessaire au pronostic ;
+   - lire `model.ts` et `validation.ts`, puis créer la publication si l’analyse est suffisamment solide et complète ;
+   - si la publication ne peut pas être créée, noter précisément la raison et continuer avec la grille suivante.
 
 ## Nouvelle publication
 
