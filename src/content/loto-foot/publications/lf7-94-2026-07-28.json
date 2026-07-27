@@ -1,0 +1,141 @@
+{
+  "id": "lf7-94-2026-07-28",
+  "formula": 7,
+  "gridNumber": 94,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911",
+  "validationDeadline": "2026-07-28T18:55:00+02:00",
+  "publishedAt": "2026-07-27T04:12:30+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Hearts",
+      "awayTeam": "Sturm Graz",
+      "competition": "Ligue des champions - qualifications",
+      "probabilities": { "home": 38, "draw": 30, "away": 32 },
+      "analysis": {
+        "summary": "Hearts reçoit pour le retour après une première manche serrée, avec un léger avantage du terrain mais un adversaire plus expérimenté en Europe.",
+        "keyFactors": ["Hearts joue à domicile", "Sturm Graz possède davantage d'expérience européenne récente", "Le contexte de match retour maintient les trois issues ouvertes"],
+        "uncertainty": "Les nombreux changements estivaux à Hearts et la gestion du score cumulé rendent l'écart entre les issues limité.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°94", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911", "accessedAt": "2026-07-27T04:10:50+02:00" },
+          { "label": "AP - tirage Hearts contre Sturm Graz", "url": "https://apnews.com/article/a0613dbdce109be7e35caad81fff111b", "accessedAt": "2026-07-27T04:11:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Shamrock",
+      "awayTeam": "Ararat Armenia",
+      "competition": "Ligue des champions - qualifications",
+      "probabilities": { "home": 49, "draw": 28, "away": 23 },
+      "analysis": {
+        "summary": "Shamrock doit attaquer après sa défaite 2-0 à l'aller et bénéficie de Tallaght Stadium, mais Ararat-Armenia peut gérer son avance.",
+        "keyFactors": ["Ararat-Armenia mène 2-0 après l'aller", "Shamrock a récemment marqué cinq buts contre Floriana", "Le retour se joue à Dublin"],
+        "uncertainty": "L'obligation de remonter deux buts peut aussi exposer Shamrock aux contre-attaques.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°94", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911", "accessedAt": "2026-07-27T04:10:50+02:00" },
+          { "label": "Sports Mole - Shamrock contre Ararat-Armenia", "url": "https://www.sportsmole.co.uk/football/shamrock-rovers/champions-league/preview/shamrock-vs-ararat-armenia-prediction-team-news-lineups_601882.html", "accessedAt": "2026-07-27T04:11:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "NK Celje",
+      "awayTeam": "KS Egnatia",
+      "competition": "Ligue des champions - qualifications",
+      "probabilities": { "home": 48, "draw": 29, "away": 23 },
+      "analysis": {
+        "summary": "Celje reçoit après un spectaculaire 3-3 à l'aller, ce qui lui donne un léger avantage sans réduire fortement le risque de nul.",
+        "keyFactors": ["Le match aller s'est terminé 3-3", "Celje joue le retour à domicile", "Les deux équipes ont déjà montré une forte capacité offensive"],
+        "uncertainty": "Le scénario très ouvert de l'aller augmente la volatilité du retour.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°94", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911", "accessedAt": "2026-07-27T04:10:50+02:00" },
+          { "label": "NK Celje - prochain match contre Egnatia", "url": "https://www.nk-celje.si/en/", "accessedAt": "2026-07-27T04:11:15+02:00" },
+          { "label": "Football UEFA - Egnatia 3-3 Celje", "url": "https://football-uefa.com/match_preview/egnatia-rrogozhine-vs-celje-22-jul-2026/", "accessedAt": "2026-07-27T04:11:18+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "FC Thun",
+      "competition": "Ligue des champions - qualifications",
+      "probabilities": { "home": 56, "draw": 26, "away": 18 },
+      "analysis": {
+        "summary": "Dinamo Zagreb reçoit après un nul 1-1 arraché en Suisse et dispose d'un avantage d'expérience et de terrain.",
+        "keyFactors": ["Le match aller s'est terminé 1-1", "Dinamo joue le retour au Maksimir", "Thun reste sur une longue série sans défaite"],
+        "uncertainty": "La solidité récente de Thun empêche de considérer la victoire croate comme certaine.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°94", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911", "accessedAt": "2026-07-27T04:10:50+02:00" },
+          { "label": "Dinamo Zagreb - dates du duel contre Thun", "url": "https://gnkdinamo.hr/en/news/dinamo-protiv-thuna-21-i-28-srpnja", "accessedAt": "2026-07-27T04:11:22+02:00" },
+          { "label": "Sports Mole - Dinamo Zagreb contre Thun", "url": "https://www.sportsmole.co.uk/football/dinamo-zagreb/champions-league/preview/dinamo-zagreb-vs-thun-prediction-team-news-lineups_601880.html", "accessedAt": "2026-07-27T04:11:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "FC CSKA 1948",
+      "awayTeam": "Spartak Trnava",
+      "competition": "Ligue Conférence - qualifications",
+      "probabilities": { "home": 39, "draw": 32, "away": 29 },
+      "analysis": {
+        "summary": "Le 0-0 de l'aller laisse le duel entièrement ouvert, avec un léger avantage à CSKA 1948 grâce au terrain.",
+        "keyFactors": ["Le match aller s'est terminé 0-0", "CSKA 1948 reçoit au retour", "Spartak Trnava a récemment battu Besiktas en préparation"],
+        "uncertainty": "L'absence de but à l'aller confirme un équilibre élevé et une forte probabilité de match serré.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°94", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911", "accessedAt": "2026-07-27T04:10:50+02:00" },
+          { "label": "Spartak Trnava - calendrier et résultat de l'aller", "url": "https://fcspartaktrnava.com/", "accessedAt": "2026-07-27T04:11:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "KF Drita",
+      "awayTeam": "Floriana FC",
+      "competition": "Ligue Conférence - qualifications",
+      "probabilities": { "home": 47, "draw": 30, "away": 23 },
+      "analysis": {
+        "summary": "Drita reçoit après un score cumulé à égalité et obtient un avantage modéré grâce au terrain.",
+        "keyFactors": ["Le score cumulé est de 1-1", "Drita joue à domicile", "UEFA confirme le match retour du 28 juillet"],
+        "uncertainty": "Le faible écart au score cumulé et le manque de données récentes détaillées imposent de conserver le nul comme scénario majeur.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°94", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911", "accessedAt": "2026-07-27T04:10:50+02:00" },
+          { "label": "UEFA - calendrier de Drita", "url": "https://www.uefa.com/uefaconferenceleague/clubs/2608290--drita/matches/", "accessedAt": "2026-07-27T04:11:35+02:00" },
+          { "label": "beIN SPORTS - Drita contre Floriana", "url": "https://www.beinsports.com/en-us/soccer/uefa-conference-league/drita-vs-floriana-2026-07-30", "accessedAt": "2026-07-27T04:11:38+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Riga FC",
+      "awayTeam": "Vardar Skopje",
+      "competition": "Ligue Conférence - qualifications",
+      "probabilities": { "home": 52, "draw": 27, "away": 21 },
+      "analysis": {
+        "summary": "Riga reçoit avec un avantage d'un but au score cumulé et paraît légèrement supérieur dans ce retour.",
+        "keyFactors": ["Riga mène 3-2 au score cumulé", "Le retour se joue au Skonto Stadium", "Vardar reste champion national mais doit prendre davantage de risques"],
+        "uncertainty": "Un avantage cumulé d'un seul but reste fragile et peut modifier rapidement le scénario tactique.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°94", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911", "accessedAt": "2026-07-27T04:10:50+02:00" },
+          { "label": "Vardar - prochain match contre Riga", "url": "https://fcvardar.com/", "accessedAt": "2026-07-27T04:11:42+02:00" },
+          { "label": "beIN SPORTS - Riga contre Vardar", "url": "https://www.beinsports.com/en-mena/football/uefa-conference-league/riga-vs-vardar-skopje-2026-07-30", "accessedAt": "2026-07-27T04:11:45+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["1", "1", "1", "1", "1", "1", "1"],
+      "rationale": "Cette combinaison suit les avantages de terrain sur les sept retours, avec une confiance plus forte pour Dinamo Zagreb et Riga FC."
+    },
+    {
+      "id": "alternatif",
+      "label": "Scénario prudent",
+      "selections": ["N", "1", "N", "1", "N", "N", "1"],
+      "rationale": "Cette combinaison couvre les matchs retour les plus équilibrés, notamment Hearts-Sturm Graz, Celje-Egnatia, CSKA 1948-Spartak Trnava et Drita-Floriana."
+    }
+  ]
+}
