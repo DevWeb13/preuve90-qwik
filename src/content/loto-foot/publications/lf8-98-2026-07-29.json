@@ -1,0 +1,161 @@
+{
+  "id": "lf8-98-2026-07-29",
+  "formula": 8,
+  "gridNumber": 98,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795",
+  "validationDeadline": "2026-07-29T18:55:00+02:00",
+  "publishedAt": "2026-07-28T01:58:30+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Gornik Zabrze",
+      "awayTeam": "Fenerbahce",
+      "competition": "UEFA Champions League - 2e tour de qualification",
+      "startsAt": "2026-07-29T20:00:00+02:00",
+      "probabilities": { "home": 25, "draw": 28, "away": 47 },
+      "analysis": {
+        "summary": "Fenerbahce garde l'avantage après son succès 1-0 à l'aller, mais Gornik conserve une chance réelle à domicile dans un retour qui peut rester fermé.",
+        "keyFactors": ["Fenerbahce a remporté le match aller 1-0", "Gornik reçoit le retour", "Un seul but sépare les deux équipes"],
+        "uncertainty": "L'écart minimal à l'aller maintient le nul et une réaction de Gornik comme scénarios crédibles.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - calendrier et résultats du 2e tour de qualification de Ligue des champions", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Etoile Rouge",
+      "awayTeam": "FC Larne",
+      "competition": "UEFA Champions League - 2e tour de qualification",
+      "startsAt": "2026-07-29T20:00:00+02:00",
+      "probabilities": { "home": 82, "draw": 12, "away": 6 },
+      "analysis": {
+        "summary": "L'Etoile Rouge aborde ce retour avec une avance massive après sa victoire 4-0 à Larne et reste très nettement favorite à domicile.",
+        "keyFactors": ["Victoire 4-0 de l'Etoile Rouge à l'aller", "Retour disputé à domicile", "Larne doit prendre de grands risques pour revenir"],
+        "uncertainty": "Une rotation importante de l'équipe serbe peut réduire l'écart sans remettre en cause son net avantage.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - calendrier et résultats du 2e tour de qualification de Ligue des champions", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Slo.Bratislava",
+      "awayTeam": "Iberia 1999",
+      "competition": "UEFA Champions League - 2e tour de qualification",
+      "startsAt": "2026-07-29T20:15:00+02:00",
+      "probabilities": { "home": 67, "draw": 21, "away": 12 },
+      "analysis": {
+        "summary": "Slovan Bratislava a gagné 2-0 à l'extérieur et dispose d'une marge solide avant de recevoir Iberia 1999.",
+        "keyFactors": ["Succès 2-0 du Slovan à l'aller", "Avantage du terrain au retour", "Iberia doit se découvrir pour combler deux buts"],
+        "uncertainty": "Une gestion prudente du score peut favoriser un match plus fermé et augmenter la probabilité du nul.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - calendrier et résultats du 2e tour de qualification de Ligue des champions", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Uni.Craiova",
+      "awayTeam": "Levski Sofia",
+      "competition": "UEFA Champions League - 2e tour de qualification",
+      "startsAt": "2026-07-29T19:30:00+02:00",
+      "probabilities": { "home": 43, "draw": 30, "away": 27 },
+      "analysis": {
+        "summary": "Universitatea Craiova doit remonter une défaite 1-0 subie à Sofia et bénéficie de son terrain, mais Levski peut défendre son avance.",
+        "keyFactors": ["Levski a gagné l'aller 1-0", "Craiova joue le retour à domicile", "Levski peut évoluer en transition"],
+        "uncertainty": "Le scénario dépend fortement du premier but, ce qui laisse les trois issues ouvertes.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - calendrier et résultats du 2e tour de qualification de Ligue des champions", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hap.Beer Sheva",
+      "awayTeam": "Vikingur Reykjavik",
+      "competition": "UEFA Champions League - 2e tour de qualification",
+      "startsAt": "2026-07-29T19:30:00+02:00",
+      "probabilities": { "home": 45, "draw": 28, "away": 27 },
+      "analysis": {
+        "summary": "Hapoel Beer-Sheva doit renverser un revers 2-1 concédé en Islande et possède un léger avantage à domicile, sans garantie face à un Vikingur déjà efficace à l'aller.",
+        "keyFactors": ["Vikingur a remporté l'aller 2-1", "Beer-Sheva reçoit le retour", "Un seul but sépare les équipes"],
+        "uncertainty": "L'obligation d'attaquer de Beer-Sheva peut aussi offrir des espaces au club islandais.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - calendrier et résultats du 2e tour de qualification de Ligue des champions", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Lech Poznan",
+      "awayTeam": "Aarhus GF",
+      "competition": "UEFA Champions League - 2e tour de qualification",
+      "startsAt": "2026-07-29T19:00:00+02:00",
+      "probabilities": { "home": 70, "draw": 19, "away": 11 },
+      "analysis": {
+        "summary": "Lech Poznan a pris une avance décisive en gagnant 4-1 à Aarhus et reste favori chez lui pour confirmer sa qualification.",
+        "keyFactors": ["Victoire 4-1 du Lech à l'aller", "Retour à Poznan", "Aarhus doit marquer au moins trois fois pour revenir"],
+        "uncertainty": "Lech peut gérer son avance et faire tourner, ce qui augmente légèrement le risque de nul.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - calendrier et résultats du 2e tour de qualification de Ligue des champions", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Rapid Vienne",
+      "awayTeam": "FC SantaColoma",
+      "competition": "UEFA Conference League - 2e tour de qualification",
+      "startsAt": "2026-07-29T20:30:00+02:00",
+      "probabilities": { "home": 75, "draw": 17, "away": 8 },
+      "analysis": {
+        "summary": "Rapid Vienne a déjà gagné 3-1 en Andorre et possède un avantage net avant le retour à domicile.",
+        "keyFactors": ["Victoire 3-1 de Rapid à l'aller", "Retour à Vienne", "Santa Coloma doit prendre des risques offensifs"],
+        "uncertainty": "Une rotation autrichienne reste possible compte tenu de l'avance acquise.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - résultats et calendrier des qualifications de Conference League", "url": "https://www.uefa.com/uefaconferenceleague/news/02a6-20e5e911587f-cc10425958b3-1000--conference-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:15+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "FC Copenhague",
+      "awayTeam": "Zhytomyr",
+      "competition": "UEFA Conference League - 2e tour de qualification",
+      "startsAt": "2026-07-29T19:00:00+02:00",
+      "probabilities": { "home": 58, "draw": 24, "away": 18 },
+      "analysis": {
+        "summary": "Copenhague revient à domicile après un spectaculaire nul 3-3 en Ukraine et dispose d'un avantage modéré, mais Polissya a déjà montré sa capacité à marquer.",
+        "keyFactors": ["Match aller terminé sur un nul 3-3", "Copenhague reçoit le retour", "Polissya a inscrit trois buts à l'aller"],
+        "uncertainty": "La forte production offensive des deux équipes à l'aller augmente la variance du résultat.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°98", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795", "accessedAt": "2026-07-28T01:56:35+02:00" },
+          { "label": "UEFA - résultats et calendrier des qualifications de Conference League", "url": "https://www.uefa.com/uefaconferenceleague/news/02a6-20e5e911587f-cc10425958b3-1000--conference-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T01:57:15+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["2", "1", "1", "1", "1", "1", "1", "1"],
+      "rationale": "Privilégie les équipes ayant l'avantage sportif ou le terrain, avec Fenerbahce à l'extérieur après sa victoire à l'aller."
+    },
+    {
+      "id": "prudent",
+      "label": "Couverture des retours serrés",
+      "selections": ["2", "1", "1", "N", "N", "1", "1", "1"],
+      "rationale": "Couvre les deux confrontations les plus équilibrées, Craiova-Levski et Beer-Sheva-Vikingur, par le nul."
+    }
+  ]
+}
