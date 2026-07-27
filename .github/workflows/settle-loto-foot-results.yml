@@ -8,7 +8,7 @@ on:
       - scripts/settle-loto-foot.mjs
       - .github/workflows/settle-loto-foot-results.yml
   schedule:
-    - cron: "17,47 * * * *"
+    - cron: "17 */2 * * *"
   workflow_dispatch:
 
 permissions:
