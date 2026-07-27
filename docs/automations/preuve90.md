@@ -70,28 +70,31 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - avec un identifiant, un libellé et une justification ;
    - contenant exactement un choix par rencontre ;
    - utilisant uniquement `1`, `N` ou `2` ;
-   - en conservant le plus petit nombre de combinaisons couvrant les scénarios jugés plausibles.
+   - choisir librement le nombre de combinaisons à partir de l’analyse, en tenant compte du coût de 1 € par combinaison afin de couvrir les scénarios plausibles tout en visant un rapport potentiel supérieur à la mise virtuelle totale.
 
-   Chaque combinaison représente une mise virtuelle de 100 centimes.
+Chaque combinaison représente une mise virtuelle de 100 centimes.
 
-   Pour les horodatages :
-   - utiliser l’heure réelle en Europe/Paris avec les secondes ;
-   - relever chaque `accessedAt` au moment de la consultation ;
-   - relever `publishedAt` immédiatement avant la validation et l’écriture ;
-   - garantir `accessedAt <= publishedAt < validationDeadline` ;
-   - ne jamais utiliser un horodatage futur.
+Pour les horodatages :
 
-   Immédiatement avant l’écriture :
-   - relire `master` et `inventory.json` ;
-   - vérifier à nouveau que la grille et le futur chemin n’existent pas ;
-   - valider le fichier avec le modèle courant.
+- utiliser l’heure réelle en Europe/Paris avec les secondes ;
+- relever chaque `accessedAt` au moment de la consultation ;
+- relever `publishedAt` immédiatement avant la validation et l’écriture ;
+- garantir `accessedAt <= publishedAt < validationDeadline` ;
+- ne jamais utiliser un horodatage futur.
 
-   Ajouter uniquement cette publication sur `master` dans un commit nommé `content: add ...`.
+Immédiatement avant l’écriture :
 
-   Après le commit :
-   - relire le fichier depuis `master` ;
-   - vérifier son contenu et le hash complet du commit ;
-   - vérifier la synchronisation de `inventory.json` et le déploiement avant de passer à la grille suivante.
+- relire `master` et `inventory.json` ;
+- vérifier à nouveau que la grille et le futur chemin n’existent pas ;
+- valider le fichier avec le modèle courant.
+
+Ajouter uniquement cette publication sur `master` dans un commit nommé `content: add ...`.
+
+Après le commit :
+
+- relire le fichier depuis `master` ;
+- vérifier son contenu et le hash complet du commit ;
+- vérifier la synchronisation de `inventory.json` et le déploiement avant de passer à la grille suivante.
 
 3. À la fin de l’exécution, fournir un rapport unique indiquant :
    - chaque publication créée, avec sa formule, son numéro, son chemin et le hash complet du commit ;
