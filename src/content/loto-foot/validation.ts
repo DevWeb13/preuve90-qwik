@@ -8,7 +8,11 @@ import {
 
 type UnknownRecord = Record<string, unknown>;
 
-const LOTO_FOOT_METHOD_VERSIONS = ["loto-foot-v1", "v1"] as const;
+type LotoFootPublicationValidationOptions = {
+  requireStartsAt?: boolean;
+};
+
+const LOTO_FOOT_METHOD_VERSION = "loto-foot-v1";
 const LOTO_FOOT_PUBLICATION_ID_PATTERN = /^lf(7|8|12|15)-([1-9]\d*)-(\d{4}-\d{2}-\d{2})$/;
 
 function fail(path: string, message: string): never {
@@ -82,14 +86,23 @@ function validateSource(value: unknown, path: string, publishedAt: number): void
   }
 }
 
-function validateMatch(value: unknown, index: number, publishedAt: number): void {
+function validateMatch(
+  value: unknown,
+  index: number,
+  publishedAt: number,
+  requireStartsAt: boolean,
+): void {
   const path = `matches[${index}]`;
   const match = requireRecord(value, path);
 
   requireNonEmptyString(match.homeTeam, `${path}.homeTeam`);
   requireNonEmptyString(match.awayTeam, `${path}.awayTeam`);
   requireOptionalNonEmptyString(match.competition, `${path}.competition`);
-  if (match.startsAt !== undefined) requireTimestamp(match.startsAt, `${path}.startsAt`);
+  if (requireStartsAt) {
+    requireTimestamp(match.startsAt, `${path}.startsAt`);
+  } else if (match.startsAt !== undefined) {
+    requireTimestamp(match.startsAt, `${path}.startsAt`);
+  }
 
   const probabilities = requireRecord(match.probabilities, `${path}.probabilities`);
   validateProbability(probabilities.home, `${path}.probabilities.home`);
@@ -123,7 +136,10 @@ function validateMatch(value: unknown, index: number, publishedAt: number): void
   );
 }
 
-export function validateLotoFootPublication(value: unknown): LotoFootPublication {
+export function validateLotoFootPublication(
+  value: unknown,
+  options: LotoFootPublicationValidationOptions = {},
+): LotoFootPublication {
   const publication = requireRecord(value, "publication");
 
   const id = requireNonEmptyString(publication.id, "publication.id");
@@ -152,8 +168,8 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
     publication.methodVersion,
     "publication.methodVersion",
   );
-  if (!(LOTO_FOOT_METHOD_VERSIONS as readonly string[]).includes(methodVersion)) {
-    fail("publication.methodVersion", "doit valoir loto-foot-v1 ou v1");
+  if (methodVersion !== LOTO_FOOT_METHOD_VERSION) {
+    fail("publication.methodVersion", `doit valoir ${LOTO_FOOT_METHOD_VERSION}`);
   }
 
   const publishedAt = requireTimestamp(publication.publishedAt, "publication.publishedAt");
@@ -213,7 +229,9 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
       );
     }
   });
-  matches.forEach((match, index) => validateMatch(match, index, publishedAt));
+  matches.forEach((match, index) =>
+    validateMatch(match, index, publishedAt, options.requireStartsAt ?? false),
+  );
 
   const tickets = requireArray(publication.tickets, "publication.tickets");
   if (tickets.length === 0) fail("publication.tickets", "doit contenir au moins une combinaison");
@@ -255,4 +273,8 @@ export function validateLotoFootPublication(value: unknown): LotoFootPublication
   });
 
   return publication as unknown as LotoFootPublication;
+}
+
+export function validateNewLotoFootPublication(value: unknown): LotoFootPublication {
+  return validateLotoFootPublication(value, { requireStartsAt: true });
 }

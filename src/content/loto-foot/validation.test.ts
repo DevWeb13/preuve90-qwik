@@ -9,7 +9,7 @@ import {
   loadLotoFootPublications,
   lotoFootPublications,
 } from "./publications";
-import { validateLotoFootPublication } from "./validation";
+import { validateLotoFootPublication, validateNewLotoFootPublication } from "./validation";
 
 function createValidPublication(
   formula: LotoFootFormula = 7,
@@ -137,6 +137,20 @@ describe("validation d’une publication Loto Foot", () => {
     expect(() => validateLotoFootPublication(publication)).toThrow(/compris entre 0 et 100/);
   });
 
+  it("refuse une nouvelle publication sans heure de coup d’envoi", () => {
+    const publication = createValidPublication();
+    Reflect.deleteProperty(publication.matches[0], "startsAt");
+
+    expect(() => validateNewLotoFootPublication(publication)).toThrow(/startsAt/);
+  });
+
+  it("accepte la lecture historique sans heure de coup d’envoi", () => {
+    const publication = createValidPublication();
+    Reflect.deleteProperty(publication.matches[0], "startsAt");
+
+    expect(validateLotoFootPublication(publication).id).toBe(publication.id);
+  });
+
   it("refuse une publication à la date limite ou après celle-ci", () => {
     const publication = createValidPublication();
     publication.publishedAt = publication.validationDeadline;
@@ -160,21 +174,17 @@ describe("validation d’une publication Loto Foot", () => {
     expect(validateLotoFootPublication(publication).id).toBe(publication.id);
   });
 
-  it("conserve la compatibilité avec la valeur methodVersion historique v1", () => {
-    const publication = createValidPublication();
-    publication.methodVersion = "v1";
+  it.each(["v1", "v2", "foo"])(
+    "refuse la valeur methodVersion inconnue %s",
+    (methodVersion) => {
+      const publication = createValidPublication();
+      publication.methodVersion = methodVersion;
 
-    expect(validateLotoFootPublication(publication).methodVersion).toBe("v1");
-  });
-
-  it.each(["v2", "foo"])("refuse la valeur methodVersion inconnue %s", (methodVersion) => {
-    const publication = createValidPublication();
-    publication.methodVersion = methodVersion;
-
-    expect(() => validateLotoFootPublication(publication)).toThrow(
-      /methodVersion.*loto-foot-v1 ou v1/,
-    );
-  });
+      expect(() => validateLotoFootPublication(publication)).toThrow(
+        /methodVersion.*loto-foot-v1/,
+      );
+    },
+  );
 
   it.each([1, 3, 10])("accepte une publication avec %i combinaison(s)", (ticketCount) => {
     const publication = createValidPublication();

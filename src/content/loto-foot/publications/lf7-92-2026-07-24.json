@@ -5,7 +5,7 @@
   "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4909",
   "validationDeadline": "2026-07-24T18:55:00+02:00",
   "publishedAt": "2026-07-23T15:05:00+02:00",
-  "methodVersion": "v1",
+  "methodVersion": "loto-foot-v1",
   "matches": [
     {
       "position": 1,
