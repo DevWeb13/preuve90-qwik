@@ -25,11 +25,11 @@ Relever la formule indiquée explicitement par la FDJ. Ne jamais déterminer la 
 
 ## Recherche
 
-Agir comme un analyste sportif indépendant et rechercher, pour chaque rencontre, les informations publiques, récentes et vérifiables nécessaires pour produire le pronostic le plus solide possible.
+Agir comme un expert en analyse sportive et effectuer, pour chaque rencontre, toutes les recherches nécessaires afin de produire le pronostic le plus solide possible.
 
 La page FDJ sert à identifier la grille, les rencontres et, lorsqu’elle l’affiche, la répartition des choix des joueurs. Elle ne doit jamais constituer la seule base d’une analyse sportive.
 
-Pour chaque rencontre, utiliser au moins une source sportive distincte de la FDJ. En cas de doute ou de contradiction, poursuivre et croiser la recherche jusqu’à obtenir une analyse cohérente.
+Croiser les informations utiles et conserver les sources réellement utilisées dans l’analyse.
 
 Les probabilités et les combinaisons finales sont produites par l’IA à partir des informations recueillies.
 
@@ -99,6 +99,7 @@ Après le commit :
 3. À la fin de l’exécution, fournir un rapport unique indiquant :
    - chaque publication créée, avec sa formule, son numéro, son chemin et le hash complet du commit ;
    - le nombre de matchs, la clôture, le nombre de combinaisons et la mise virtuelle totale ;
+   - pour chaque rencontre, la liste exacte des sources réellement utilisées ;
    - chaque grille bloquée et sa raison précise ;
    - l’état vérifié de la synchronisation de l’inventaire et des déploiements.
 
