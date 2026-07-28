@@ -1,0 +1,181 @@
+{
+  "id": "lf12-64-2026-07-29",
+  "formula": 12,
+  "gridNumber": 64,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/556",
+  "validationDeadline": "2026-07-29T18:55:00+02:00",
+  "publishedAt": "2026-07-28T03:57:20+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Gornik Zabrze",
+      "awayTeam": "Fenerbahce",
+      "competition": "Ligue des champions UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 14, "draw": 21, "away": 65 },
+      "analysis": {
+        "summary": "Fenerbahçe aborde le retour avec l'avantage du match aller et une supériorité d'effectif nette, même si Górnik doit prendre des risques à domicile.",
+        "keyFactors": ["Fenerbahçe a remporté l'aller 1-0", "Górnik doit se découvrir pour renverser la confrontation", "L'écart de qualité individuelle favorise les visiteurs"],
+        "uncertainty": "Le contexte de match retour peut rendre Górnik plus agressif et augmenter la variance en début de rencontre.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue des champions 2026/27", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:10+02:00" }]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Etoile Rouge",
+      "awayTeam": "FC Larne",
+      "competition": "Ligue des champions UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 79, "draw": 14, "away": 7 },
+      "analysis": {
+        "summary": "L'Étoile Rouge revient à domicile avec quatre buts d'avance et peut contrôler une confrontation très largement orientée en sa faveur.",
+        "keyFactors": ["Victoire 4-0 de l'Étoile Rouge à l'aller", "Retour à domicile", "Larne doit attaquer sans marge de sécurité"],
+        "uncertainty": "Une forte rotation de l'Étoile Rouge pourrait réduire l'écart sans remettre en cause son statut de favori.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue des champions 2026/27", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:10+02:00" }]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Slo.Bratislava",
+      "awayTeam": "Iberia 1999",
+      "competition": "Ligue des champions UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 68, "draw": 22, "away": 10 },
+      "analysis": {
+        "summary": "Slovan a déjà construit un avantage de deux buts à l'extérieur et possède les moyens de confirmer devant son public.",
+        "keyFactors": ["Succès 2-0 du Slovan à l'aller", "Avantage du terrain au retour", "Iberia doit prendre davantage de risques"],
+        "uncertainty": "Le Slovan peut gérer son avance plutôt que chercher une victoire large, ce qui renforce le scénario du nul.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue des champions 2026/27", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:10+02:00" }]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Uni.Craiova",
+      "awayTeam": "Levski Sofia",
+      "competition": "Ligue des champions UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 44, "draw": 30, "away": 26 },
+      "analysis": {
+        "summary": "Craiova doit remonter un but devant son public, tandis que Levski peut défendre l'avantage acquis à Sofia.",
+        "keyFactors": ["Levski a gagné l'aller 1-0", "Craiova bénéficie du retour à domicile", "Levski peut jouer plus bas et viser les transitions"],
+        "uncertainty": "La nécessité pour Craiova de marquer peut autant produire une domination locale qu'offrir des espaces aux visiteurs.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue des champions 2026/27", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:10+02:00" }]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hap.Beer Sheva",
+      "awayTeam": "Vikingur Reyk.",
+      "competition": "Ligue des champions UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 49, "draw": 27, "away": 24 },
+      "analysis": {
+        "summary": "Beer-Sheva doit effacer sa défaite 2-1 de l'aller et conserve un léger avantage au retour grâce au terrain et à l'obligation de gagner.",
+        "keyFactors": ["Víkingur a gagné l'aller 2-1", "Beer-Sheva reçoit au retour", "Le score de l'aller laisse la qualification totalement ouverte"],
+        "uncertainty": "Víkingur a montré sa capacité à faire mal et peut exploiter les espaces laissés par un adversaire obligé d'attaquer.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue des champions 2026/27", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:10+02:00" }]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Lech Poznan",
+      "awayTeam": "Aarhus GF",
+      "competition": "Ligue des champions UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 64, "draw": 22, "away": 14 },
+      "analysis": {
+        "summary": "Lech a frappé très fort au Danemark et revient chez lui avec trois buts d'avance et une dynamique nettement favorable.",
+        "keyFactors": ["Lech a gagné 4-1 à Aarhus", "Retour à domicile", "Aarhus doit prendre des risques importants"],
+        "uncertainty": "Lech peut gérer son avance et lever le pied, ce qui laisse une place non négligeable au nul.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue des champions 2026/27", "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:10+02:00" }]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Rapid Vienne",
+      "awayTeam": "FC SantaColoma",
+      "competition": "Ligue Conférence UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 73, "draw": 18, "away": 9 },
+      "analysis": {
+        "summary": "Rapid a gagné 3-1 en Andorre et dispose d'un avantage sportif et territorial très net pour le retour à Vienne.",
+        "keyFactors": ["Victoire 3-1 de Rapid à l'aller", "Retour à domicile", "Santa Coloma doit renverser deux buts"],
+        "uncertainty": "Une gestion prudente de l'avance ou des rotations peuvent limiter l'ampleur du succès autrichien.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue Conférence 2026/27", "url": "https://www.uefa.com/uefaconferenceleague/news/02a6-20e5e911587f-cc10425958b3-1000--conference-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:35+02:00" }]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "FC Copenhague",
+      "awayTeam": "Zhytomyr",
+      "competition": "Ligue Conférence UEFA - 2e tour qualificatif",
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
+      "analysis": {
+        "summary": "Copenhague retrouve son terrain après un spectaculaire 3-3 à l'aller et reste favori grâce à sa profondeur et à son expérience européenne.",
+        "keyFactors": ["Match aller terminé sur un nul 3-3", "Avantage du terrain pour Copenhague", "Polissya a déjà prouvé sa capacité offensive"],
+        "uncertainty": "Les trois buts encaissés à l'aller montrent que la défense danoise reste vulnérable face aux transitions ukrainiennes.",
+        "sources": [{ "label": "UEFA - qualifications de la Ligue Conférence 2026/27", "url": "https://www.uefa.com/uefaconferenceleague/news/02a6-20e5e911587f-cc10425958b3-1000--conference-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-07-28T03:56:35+02:00" }]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Gimnasia LP",
+      "awayTeam": "River Plate",
+      "competition": "Championnat d'Argentine",
+      "probabilities": { "home": 22, "draw": 26, "away": 52 },
+      "analysis": {
+        "summary": "River reste favori par la qualité de son effectif, mais les deux équipes cherchent à réagir après une défaite lors de la première journée du Clausura.",
+        "keyFactors": ["Gimnasia a perdu 2-1 contre Racing", "River s'est incliné 1-0 contre Barracas Central", "River possède davantage de profondeur malgré le déplacement"],
+        "uncertainty": "Les deux équipes démarrent mal le tournoi et le terrain de Gimnasia peut rendre le match plus serré que l'écart d'effectif.",
+        "sources": [{ "label": "River Plate - présentation officielle du match à Gimnasia", "url": "https://www.riverplate.com/partidos/2026-07-29-liga-profesional-argentina-gimnasia-la-plata-river-plate/previa", "accessedAt": "2026-07-28T03:56:45+02:00" }]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Defensa Y Jus.",
+      "awayTeam": "Dep. Riestra",
+      "competition": "Championnat d'Argentine",
+      "probabilities": { "home": 38, "draw": 34, "away": 28 },
+      "analysis": {
+        "summary": "Defensa bénéficie d'un léger avantage à domicile dans une affiche que les indicateurs disponibles annoncent serrée et peu prolifique.",
+        "keyFactors": ["Avantage du terrain pour Defensa", "Les deux équipes affichent une forme récente limitée", "Le profil statistique favorise un match fermé"],
+        "uncertainty": "La faible différence entre les équipes et leurs séries irrégulières rendent le nul particulièrement crédible.",
+        "sources": [{ "label": "Foresportia - données de forme Defensa y Justicia / Deportivo Riestra", "url": "https://www.foresportia.com/es/pronostico/liga-profesional/defensa-y-justicia-deportivo-riestra-2026-07-29/", "accessedAt": "2026-07-28T03:56:48+02:00" }]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Internacional",
+      "awayTeam": "Flamengo",
+      "competition": "Championnat du Brésil",
+      "probabilities": { "home": 22, "draw": 28, "away": 50 },
+      "analysis": {
+        "summary": "Flamengo se déplace en dauphin du championnat et présente davantage de garanties, mais le Beira-Rio maintient Internacional dans le match.",
+        "keyFactors": ["Flamengo est deuxième avec 38 points après 19 matchs", "Internacional reçoit au Beira-Rio", "Le classement et la dynamique globale favorisent Flamengo"],
+        "uncertainty": "Internacional peut élever son niveau à domicile et la proximité de l'affiche augmente le poids du nul.",
+        "sources": [{ "label": "Flamengo - prochain match et classement du Brasileirão", "url": "https://www.flamengo.com.br/", "accessedAt": "2026-07-28T03:56:52+02:00" }]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Vitoria BA",
+      "awayTeam": "Palmeiras",
+      "competition": "Championnat du Brésil",
+      "probabilities": { "home": 17, "draw": 25, "away": 58 },
+      "analysis": {
+        "summary": "Palmeiras reste leader et favori malgré sa récente défaite, avec un précédent très favorable contre Vitória au match aller.",
+        "keyFactors": ["Palmeiras est leader avec 44 points", "Victoire 5-1 de Palmeiras contre Vitória au premier tour", "Retour de Flaco López à l'entraînement"],
+        "uncertainty": "Palmeiras vient de perdre contre l'Atlético-MG et Vitória dispose de l'avantage du terrain au Barradão.",
+        "sources": [{ "label": "Palmeiras - préparation officielle avant le déplacement à Vitória", "url": "https://www.palmeiras.com.br/noticias/flaco-lopez-volta-e-palmeiras-inicia-preparacao-para-duelo-com-vitoria/", "accessedAt": "2026-07-28T03:56:55+02:00" }]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Sélection principale",
+      "selections": ["2", "1", "1", "1", "1", "1", "1", "1", "2", "1", "2", "2"],
+      "rationale": "La combinaison privilégie les favoris les plus nets des retours européens, River, Flamengo et Palmeiras, avec Craiova, Beer-Sheva et Defensa soutenus par le terrain."
+    },
+    {
+      "id": "prudente",
+      "label": "Scénario prudent",
+      "selections": ["2", "1", "1", "N", "N", "1", "1", "1", "2", "N", "N", "2"],
+      "rationale": "Cette variante couvre les affiches les plus équilibrées ou exposées à une gestion tactique : Craiova-Levski, Beer-Sheva-Víkingur, Defensa-Riestra et Internacional-Flamengo."
+    }
+  ]
+}
