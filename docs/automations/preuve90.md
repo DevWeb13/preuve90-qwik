@@ -62,6 +62,7 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - vérifier la cohérence entre la formule, le numéro, le nom du fichier et le nombre de matchs.
 
    Pour chaque rencontre, produire :
+   - `startsAt`, avec la date et l’heure réelles du coup d’envoi ;
    - les probabilités entières `home`, `draw` et `away`, totalisant exactement 100 ;
    - un résumé, les principaux facteurs et une incertitude ;
    - les sources réellement utilisées.
@@ -86,7 +87,7 @@ Immédiatement avant l’écriture :
 
 - relire `master` et `inventory.json` ;
 - vérifier à nouveau que la grille et le futur chemin n’existent pas ;
-- valider le fichier avec le modèle courant.
+- valider le fichier avec `validateNewLotoFootPublication`.
 
 Ajouter uniquement cette publication sur `master` dans un commit nommé `content: add ...`.
 
