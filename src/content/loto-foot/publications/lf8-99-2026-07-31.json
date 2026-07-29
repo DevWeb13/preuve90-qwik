@@ -1,0 +1,181 @@
+{
+  "id": "lf8-99-2026-07-31",
+  "formula": 8,
+  "gridNumber": 99,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796",
+  "validationDeadline": "2026-07-31T18:55:00+02:00",
+  "publishedAt": "2026-07-30T01:59:40+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Dundee United",
+      "awayTeam": "Rangers",
+      "competition": "Championnat d'Écosse",
+      "startsAt": "2026-07-31T21:00:00+02:00",
+      "probabilities": { "home": 20, "draw": 25, "away": 55 },
+      "analysis": {
+        "summary": "Rangers possède davantage de profondeur et ouvre sa saison après une préparation défensivement solide, tandis que Dundee United reste dangereux à Tannadice mais sort d'une défaite 3-2 contre Salford.",
+        "keyFactors": ["Rangers a terminé sa préparation par un nul 0-0 contre West Ham", "Dundee United a perdu 3-2 son dernier amical", "L'écart de qualité d'effectif favorise Rangers malgré le déplacement"],
+        "uncertainty": "Rangers a beaucoup renouvelé son effectif et un premier match de championnat à l'extérieur peut manquer d'automatismes.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "Rangers - calendrier et dernier match de préparation", "url": "https://www.rangers.co.uk/", "accessedAt": "2026-07-30T01:57:05+02:00" },
+          { "label": "Dundee United - calendrier et dernier résultat", "url": "https://www.christmas.dundeeunitedfc.co.uk/", "accessedAt": "2026-07-30T01:57:12+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Drogheda United",
+      "awayTeam": "Shamrock Rovers",
+      "competition": "Championnat d'Irlande",
+      "startsAt": "2026-07-31T21:00:00+02:00",
+      "probabilities": { "home": 26, "draw": 29, "away": 45 },
+      "analysis": {
+        "summary": "Shamrock Rovers reste supérieur sur la durée et a battu Drogheda 4-1 lors de leur confrontation de mai, mais l'élimination européenne récente et le déplacement réduisent son avantage.",
+        "keyFactors": ["Shamrock a gagné 4-1 le précédent duel de championnat", "Drogheda reçoit à Sullivan and Lambe Park", "Shamrock sort d'une confrontation européenne intense contre Ararat Armenia"],
+        "uncertainty": "La fatigue et la déception européenne peuvent peser sur Shamrock, tandis que Drogheda a déjà montré sa capacité à gagner des matchs serrés à domicile.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "League of Ireland - horaire officiel actualisé", "url": "https://www.leagueofireland.ie/news/broadcast-and-fixture-updates-sse-airtricity-mens-premier-division/", "accessedAt": "2026-07-30T01:57:28+02:00" },
+          { "label": "League of Ireland - résultats de Drogheda", "url": "https://www.leagueofireland.ie/mens/sse-airtricity-mens-premier-division/clubs/info/17/", "accessedAt": "2026-07-30T01:57:35+02:00" },
+          { "label": "Compte rendu de l'élimination européenne de Shamrock", "url": "https://www.thesun.ie/sport/17373495/stephen-bradley-shamrock-rovers-champions-league-ararat-goals/", "accessedAt": "2026-07-30T01:57:42+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Dundalk",
+      "awayTeam": "Sligo Rovers",
+      "competition": "Championnat d'Irlande",
+      "startsAt": "2026-07-31T20:45:00+02:00",
+      "probabilities": { "home": 52, "draw": 27, "away": 21 },
+      "analysis": {
+        "summary": "Dundalk est bien installé à domicile, reste sur un nul 1-1 chez St Patrick's et possède une base plus régulière que Sligo, battu 3-2 à Galway lors de son dernier résultat publié.",
+        "keyFactors": ["Dundalk vient de prendre un point à St Patrick's", "La rencontre se joue à Oriel Park", "Sligo a récemment encaissé trois buts à Galway"],
+        "uncertainty": "Le championnat irlandais reste serré et Sligo peut menacer en transition malgré une dynamique moins convaincante.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "League of Ireland - calendrier officiel", "url": "https://www.leagueofireland.ie/mens/sse-airtricity-mens-premier-division/fixtures/", "accessedAt": "2026-07-30T01:57:58+02:00" },
+          { "label": "Dundalk - dernier résultat et prochain match", "url": "https://www.dundalkfc.com/", "accessedAt": "2026-07-30T01:58:04+02:00" },
+          { "label": "League of Ireland - résultats récents", "url": "https://www.leagueofireland.ie/mens/sse-airtricity-mens-premier-division/results/", "accessedAt": "2026-07-30T01:58:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "LASK Linz",
+      "awayTeam": "Grazer AK 1902",
+      "competition": "Championnat d'Autriche",
+      "startsAt": "2026-07-31T19:30:00+02:00",
+      "probabilities": { "home": 67, "draw": 21, "away": 12 },
+      "analysis": {
+        "summary": "Champion en titre, le LASK ouvre la saison à domicile contre le Grazer AK et dispose d'un avantage structurel net en qualité, profondeur et maîtrise collective.",
+        "keyFactors": ["Le LASK aborde la saison comme champion en titre", "Le match d'ouverture se joue à Linz", "Le Grazer AK commence par le déplacement le plus difficile du calendrier"],
+        "uncertainty": "Une première journée peut produire un match fermé et le LASK peut manquer de rythme compétitif.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "Bundesliga autrichienne - match d'ouverture 2026/27", "url": "https://www.bundesliga.at/de/news/artikel/admiral-bundesliga-spielplan-fuer-den-grunddurchgang-2026-27", "accessedAt": "2026-07-30T01:58:20+02:00" },
+          { "label": "Grazer AK - présentation du calendrier", "url": "https://www.grazerak.at/aktuelles/saison-26-27-bundesliga-spielplan", "accessedAt": "2026-07-30T01:58:26+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Motor Lublin",
+      "awayTeam": "Jagiellonia Bialystok",
+      "competition": "Championnat de Pologne",
+      "startsAt": "2026-07-31T20:30:00+02:00",
+      "probabilities": { "home": 31, "draw": 29, "away": 40 },
+      "analysis": {
+        "summary": "Jagiellonia a commencé par une victoire 1-0 et possède davantage d'expérience au haut niveau, mais Motor a obtenu un nul 2-2 à Widzew et bénéficie du terrain.",
+        "keyFactors": ["Jagiellonia a gagné son premier match 1-0", "Motor a ramené un nul 2-2 de Widzew", "Jagiellonia reste légèrement supérieure mais joue à l'extérieur"],
+        "uncertainty": "Le début de saison offre peu de données et Motor a montré assez de répondant offensif pour rendre les trois issues crédibles.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "Ekstraklasa - calendrier officiel de la 2e journée", "url": "https://ekstraklasa.org/en/news/schedule-of-the-2nd-round-20262027/", "accessedAt": "2026-07-30T01:58:34+02:00" },
+          { "label": "Ekstraklasa - résultats et classement après la 1re journée", "url": "https://ekstraklasa.org/", "accessedAt": "2026-07-30T01:58:40+02:00" },
+          { "label": "Jagiellonia - horaire et victoire inaugurale", "url": "https://www.jagiellonia.net/mecze%2C847.html", "accessedAt": "2026-07-30T01:58:46+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Otelul Galati",
+      "awayTeam": "Dinamo Bucarest",
+      "competition": "Championnat de Roumanie",
+      "startsAt": "2026-07-31T20:30:00+02:00",
+      "probabilities": { "home": 36, "draw": 30, "away": 34 },
+      "analysis": {
+        "summary": "Otelul reste invaincu avec quatre points en deux journées, tandis que Dinamo vient de réagir par une victoire 5-1 ; l'avantage du terrain équilibre presque totalement l'affiche.",
+        "keyFactors": ["Otelul compte quatre points après deux journées", "Dinamo vient de battre l'Universitatea Craiova 5-1", "Otelul reçoit à Galati"],
+        "uncertainty": "Dinamo a alterné une défaite sans marquer et un large succès, ce qui rend son niveau réel encore difficile à calibrer.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "LPF - programme officiel de la 3e journée", "url": "https://lpf.ro/etape-liga-1/3", "accessedAt": "2026-07-30T01:58:54+02:00" },
+          { "label": "LPF - résultats de la 2e journée", "url": "https://lpf.ro/etape-liga-1/2", "accessedAt": "2026-07-30T01:59:00+02:00" },
+          { "label": "LPF - classement actuel", "url": "https://lpf.ro/?v=1.0.26", "accessedAt": "2026-07-30T01:59:06+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Valerenga",
+      "awayTeam": "HamKam",
+      "competition": "Championnat de Norvège",
+      "startsAt": "2026-07-31T19:00:00+02:00",
+      "probabilities": { "home": 52, "draw": 27, "away": 21 },
+      "analysis": {
+        "summary": "Valerenga retrouve son terrain après une victoire 3-2 à Brann, alors que HamKam vient de perdre 1-0 à Sarpsborg et reste dans la seconde moitié du classement.",
+        "keyFactors": ["Valerenga a gagné 3-2 à Brann", "HamKam s'est incliné 1-0 lors de la dernière journée", "Valerenga reçoit à l'Intility Arena"],
+        "uncertainty": "HamKam avait déjà battu Valerenga 1-0 plus tôt dans la saison et peut encore fermer efficacement le match.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "Eliteserien - calendrier officiel", "url": "https://www.eliteserien.no/terminliste/", "accessedAt": "2026-07-30T01:59:14+02:00" },
+          { "label": "Eliteserien - résultats de la 15e journée", "url": "https://www.eliteserien.no/resultater", "accessedAt": "2026-07-30T01:59:20+02:00" },
+          { "label": "HamKam - calendrier et classement", "url": "https://www.hamkam.no/", "accessedAt": "2026-07-30T01:59:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Bodo/Glimt",
+      "awayTeam": "Lillestrom",
+      "competition": "Championnat de Norvège",
+      "startsAt": "2026-07-31T21:00:00+02:00",
+      "probabilities": { "home": 68, "draw": 19, "away": 13 },
+      "analysis": {
+        "summary": "Leader avec 35 points, Bodo/Glimt reste largement favori à Aspmyra après son succès 3-0 à Sandefjord et un récent 4-0 contre Lillestrom en coupe, malgré le départ de Kasper Hogh.",
+        "keyFactors": ["Bodo/Glimt est leader du championnat", "Bodo/Glimt a récemment battu Lillestrom 4-0 en coupe", "Le départ de Kasper Hogh réduit néanmoins la puissance offensive locale"],
+        "uncertainty": "Lillestrom est quatrième et avait battu Bodo/Glimt 2-0 en championnat en avril, ce qui interdit de considérer le match comme acquis.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°99", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/796", "accessedAt": "2026-07-30T01:56:45+02:00" },
+          { "label": "Bodo/Glimt - calendrier et classement", "url": "https://www.glimt.no/", "accessedAt": "2026-07-30T01:59:30+02:00" },
+          { "label": "NFF - historique des confrontations et horaire officiel", "url": "https://www.fotball.no/fotballdata/kamp/?fiksId=8986249", "accessedAt": "2026-07-30T01:59:34+02:00" },
+          { "label": "Reuters - transfert de Kasper Hogh au Celtic", "url": "https://www.reuters.com/sports/soccer/celtic-sign-denmark-forward-hogh-four-year-deal-2026-07-28/", "accessedAt": "2026-07-30T01:59:37+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["2", "2", "1", "1", "2", "1", "1", "1"],
+      "rationale": "Privilégie les écarts de niveau les plus nets, avec Rangers, LASK et Bodo/Glimt, puis les avantages de forme ou de terrain sur les rencontres plus équilibrées."
+    },
+    {
+      "id": "prudent",
+      "label": "Couverture des matchs serrés",
+      "selections": ["2", "N", "1", "1", "N", "N", "1", "1"],
+      "rationale": "Couvre le nul sur Drogheda-Shamrock, Motor-Jagiellonia et Otelul-Dinamo, les trois affiches où l'écart estimé entre les équipes est le plus faible."
+    },
+    {
+      "id": "alternatif",
+      "label": "Scénario extérieur",
+      "selections": ["N", "2", "N", "1", "2", "2", "N", "1"],
+      "rationale": "Explore une soirée plus difficile pour les équipes à domicile, tout en conservant les deux favoris les plus solides, LASK et Bodo/Glimt."
+    }
+  ]
+}
