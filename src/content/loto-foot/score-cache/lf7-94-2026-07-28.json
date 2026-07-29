@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "publicationId": "lf7-94-2026-07-28",
+  "capturedAt": "2026-07-29T12:00:21+02:00",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 2,
+      "fixtureId": 1556507,
+      "fixtureDate": "2026-07-28T20:45:00+02:00",
+      "capturedAt": "2026-07-29T12:00:21+02:00"
+    },
+    {
+      "position": 2,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1,
+      "fixtureId": 1589425,
+      "fixtureDate": "2026-07-28T21:00:00+02:00",
+      "capturedAt": "2026-07-29T12:00:21+02:00"
+    },
+    {
+      "position": 3,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1,
+      "fixtureId": 1591937,
+      "fixtureDate": "2026-07-28T20:15:00+02:00",
+      "capturedAt": "2026-07-29T12:00:21+02:00"
+    },
+    {
+      "position": 4,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2,
+      "fixtureId": 1556505,
+      "fixtureDate": "2026-07-28T20:00:00+02:00",
+      "capturedAt": "2026-07-29T12:00:21+02:00"
+    },
+    {
+      "position": 5,
+      "selection": "N",
+      "homeScore": 0,
+      "awayScore": 0,
+      "fixtureId": 1556530,
+      "fixtureDate": "2026-07-28T19:30:00+02:00",
+      "capturedAt": "2026-07-29T12:00:21+02:00"
+    },
+    {
+      "position": 6,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1,
+      "fixtureId": 1589431,
+      "fixtureDate": "2026-07-28T20:00:00+02:00",
+      "capturedAt": "2026-07-29T12:00:21+02:00"
+    },
+    {
+      "position": 7,
+      "selection": "2",
+      "homeScore": 1,
+      "awayScore": 2,
+      "fixtureId": 1589432,
+      "fixtureDate": "2026-07-28T19:00:00+02:00",
+      "capturedAt": "2026-07-29T12:00:21+02:00"
+    }
+  ]
+}

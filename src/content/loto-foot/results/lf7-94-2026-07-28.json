@@ -1,0 +1,73 @@
+{
+  "id": "lf7-94-2026-07-28-result",
+  "publicationId": "lf7-94-2026-07-28",
+  "gridNumber": 94,
+  "settledAt": "2026-07-29T12:00:21+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "position": 2,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "position": 3,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 4,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "position": 5,
+      "selection": "N",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "position": 6,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 7,
+      "selection": "2",
+      "homeScore": 1,
+      "awayScore": 2
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 7,
+      "amountCents": 172300
+    },
+    {
+      "correctSelections": 6,
+      "amountCents": 12540
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 7 n°94",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4911",
+      "accessedAt": "2026-07-29T12:00:21+02:00"
+    },
+    {
+      "label": "API-Football - Résultats finaux conservés à la fin des rencontres",
+      "url": "https://www.api-football.com/",
+      "accessedAt": "2026-07-29T12:00:21+02:00"
+    }
+  ]
+}
