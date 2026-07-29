@@ -1,0 +1,114 @@
+{
+  "id": "lf8-97-2026-07-27-result",
+  "publicationId": "lf8-97-2026-07-27",
+  "gridNumber": 97,
+  "settledAt": "2026-07-29T11:30:00+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "1",
+      "homeScore": 4,
+      "awayScore": 0
+    },
+    {
+      "position": 2,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 3,
+      "selection": "N",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "position": 4,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "position": 5,
+      "selection": "N",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "position": 6,
+      "selection": "1",
+      "homeScore": 3,
+      "awayScore": 0
+    },
+    {
+      "position": 7,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "position": 8,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 8,
+      "amountCents": 46300
+    },
+    {
+      "correctSelections": 7,
+      "amountCents": 3890
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 8 n°97",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/794",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "Rosenborg - Résultat officiel Rosenborg 4-0 Fredrikstad",
+      "url": "https://www.rbk.no/resultater",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "Sky Sports - Randers 1-1 Silkeborg",
+      "url": "https://www.skysports.com/football/randers-fc-vs-silkeborg/556115",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "Aftonbladet - Häcken 0-0 AIK",
+      "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/pB9rr6/aik-s-axel-kouame-skadad-mot-hacken",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "SportyTrader - Breidablik 1-0 Vestmannaeyjar",
+      "url": "https://www.sportytrader.com/en/results-live/breidablik-kopavogur-vestmannaeyjar-8291423/",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "SportyTrader - KA Akureyri 0-0 Thor Akureyri",
+      "url": "https://www.sportytrader.com/resultat-direct/ka-akureyri-thor-akureyri-8291424/",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "Pénzcentrum - MTK Budapest 3-0 Zalaegerszeg",
+      "url": "https://www.penzcentrum.hu/sporteredmenyek/hungary-fizz-liga/2026-2027/20260727/mtkbudapest-zalaegerszegite",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "Zagłębie Lubin - Résumé officiel de la victoire 2-0 contre Piast Gliwice",
+      "url": "https://mkszaglebie.pl/art/show/skrot-meczu-zaglebie-lubin-2-0-piast-gliwice/11904",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    },
+    {
+      "label": "iAM SPORT - FC Botoșani 1-1 Rapid București",
+      "url": "https://iamsport.ro/fotbal/superliga/fc-botosani-rapid-1-1-in-etapa-a-2-din-superliga-final-de-infarct-aioani-a-aparat-penalty-ul-lui-mailat-dar-var-a-dictat-repetarea-executiei-iar-atacantul-a-marcat-id52002.html",
+      "accessedAt": "2026-07-29T11:30:00+02:00"
+    }
+  ]
+}
