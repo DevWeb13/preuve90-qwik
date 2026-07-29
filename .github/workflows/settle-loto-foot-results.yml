@@ -55,7 +55,7 @@ jobs:
 
             npm run loto-foot:inventory
 
-            changed_files="$(git status --short | awk '{print $2}')"
+            changed_files="$(git status --porcelain=v1 --untracked-files=all | cut -c4-)"
             blocked_count="$(printf '%s\n' "$output" | sed -n 's/^BLOCKED_COUNT=//p' | tail -n 1)"
             blocked_count="${blocked_count:-0}"
 
