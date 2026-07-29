@@ -1,0 +1,125 @@
+{
+  "id": "lf15-59-2026-07-28-result",
+  "publicationId": "lf15-59-2026-07-28",
+  "gridNumber": 59,
+  "settledAt": "2026-07-29T23:13:51+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "position": 2,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "position": 3,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 4,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "position": 5,
+      "selection": "N",
+      "homeScore": 0,
+      "awayScore": 0
+    },
+    {
+      "position": 6,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 7,
+      "selection": "2",
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "position": 8,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "position": 9,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "position": 10,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 3
+    },
+    {
+      "position": 11,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "position": 12,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "position": 13,
+      "selection": "1",
+      "homeScore": 5,
+      "awayScore": 0
+    },
+    {
+      "position": 14,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 15,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 12,
+      "amountCents": 281530
+    },
+    {
+      "correctSelections": 11,
+      "amountCents": 30310
+    },
+    {
+      "correctSelections": 10,
+      "amountCents": 6250
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°59",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2007",
+      "accessedAt": "2026-07-29T23:13:51+02:00"
+    },
+    {
+      "label": "API-Football - Résultats finaux conservés à la fin des rencontres",
+      "url": "https://www.api-football.com/",
+      "accessedAt": "2026-07-29T23:13:51+02:00"
+    }
+  ]
+}

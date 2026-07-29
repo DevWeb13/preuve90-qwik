@@ -1,0 +1,79 @@
+{
+  "id": "lf8-98-2026-07-29-result",
+  "publicationId": "lf8-98-2026-07-29",
+  "gridNumber": 98,
+  "settledAt": "2026-07-29T23:13:53+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 2,
+      "selection": "1",
+      "homeScore": 5,
+      "awayScore": 0
+    },
+    {
+      "position": 3,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 4,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "position": 5,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "position": 6,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 3
+    },
+    {
+      "position": 7,
+      "selection": "1",
+      "homeScore": 6,
+      "awayScore": 2
+    },
+    {
+      "position": 8,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 8,
+      "amountCents": 105200
+    },
+    {
+      "correctSelections": 7,
+      "amountCents": 6370
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 8 n°98",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/795",
+      "accessedAt": "2026-07-29T23:13:53+02:00"
+    },
+    {
+      "label": "API-Football - Résultats finaux conservés à la fin des rencontres",
+      "url": "https://www.api-football.com/",
+      "accessedAt": "2026-07-29T23:13:53+02:00"
+    }
+  ]
+}

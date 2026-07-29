@@ -1,7 +1,7 @@
 {
   "version": 1,
   "publicationId": "lf15-59-2026-07-28",
-  "capturedAt": "2026-07-29T21:46:16+02:00",
+  "capturedAt": "2026-07-29T23:13:50+02:00",
   "matches": [
     {
       "position": 1,
@@ -85,6 +85,15 @@
       "capturedAt": "2026-07-29T21:46:16+02:00"
     },
     {
+      "position": 10,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 3,
+      "fixtureId": 1556508,
+      "fixtureDate": "2026-07-29T19:00:00+02:00",
+      "capturedAt": "2026-07-29T23:13:50+02:00"
+    },
+    {
       "position": 11,
       "selection": "1",
       "homeScore": 2,
@@ -101,6 +110,33 @@
       "fixtureId": 1591940,
       "fixtureDate": "2026-07-29T19:30:00+02:00",
       "capturedAt": "2026-07-29T21:46:16+02:00"
+    },
+    {
+      "position": 13,
+      "selection": "1",
+      "homeScore": 5,
+      "awayScore": 0,
+      "fixtureId": 1589421,
+      "fixtureDate": "2026-07-29T20:00:00+02:00",
+      "capturedAt": "2026-07-29T23:13:50+02:00"
+    },
+    {
+      "position": 14,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1,
+      "fixtureId": 1589426,
+      "fixtureDate": "2026-07-29T20:15:00+02:00",
+      "capturedAt": "2026-07-29T23:13:50+02:00"
+    },
+    {
+      "position": 15,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1,
+      "fixtureId": 1556506,
+      "fixtureDate": "2026-07-29T20:00:00+02:00",
+      "capturedAt": "2026-07-29T23:13:50+02:00"
     }
   ]
 }
