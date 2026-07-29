@@ -50,10 +50,12 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
 
 2. Consulter la liste officielle des grilles ouvertes et traiter les grilles non publiées par ordre de clôture, de la plus proche à la plus éloignée.
 
-   Pour chacune :
+   Traiter au maximum une grille complète par exécution afin d’éviter de commencer plusieurs analyses sans en terminer aucune. À date et heure de clôture identiques, traiter d’abord la grille contenant le moins de rencontres.
+
+   Pour la grille prioritaire :
    - vérifier dans l’inventaire qu’une publication ayant la même formule et le même numéro n’existe pas déjà ;
    - effectuer pour chaque rencontre la recherche définie dans la section « Recherche » ;
-   - si une rencontre ne peut pas faire l’objet d’une analyse honnête, noter précisément la raison et continuer avec la grille suivante.
+   - si une rencontre ne peut pas faire l’objet d’une analyse honnête, noter précisément la raison et ne rien publier pour cette grille pendant cette exécution.
 
    Lorsque l’analyse est complète :
    - lire `src/content/loto-foot/model.ts` et `src/content/loto-foot/validation.ts` ;
@@ -73,29 +75,52 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - utilisant uniquement `1`, `N` ou `2` ;
    - choisir librement le nombre de combinaisons à partir de l’analyse, en tenant compte du coût de 1 € par combinaison afin de couvrir les scénarios plausibles tout en visant un rapport potentiel supérieur à la mise virtuelle totale.
 
-Chaque combinaison représente une mise virtuelle de 100 centimes.
+   Chaque combinaison représente une mise virtuelle de 100 centimes.
 
-Pour les horodatages :
+   Pour les horodatages :
 
-- utiliser l’heure réelle en Europe/Paris avec les secondes ;
-- relever chaque `accessedAt` au moment de la consultation ;
-- relever `publishedAt` immédiatement avant la validation et l’écriture ;
-- garantir `accessedAt <= publishedAt < validationDeadline` ;
-- ne jamais utiliser un horodatage futur.
+   - utiliser l’heure réelle en Europe/Paris avec les secondes ;
+   - relever chaque `accessedAt` au moment de la consultation ;
+   - relever `publishedAt` immédiatement avant la validation et l’écriture ;
+   - garantir `accessedAt <= publishedAt < validationDeadline` ;
+   - ne jamais utiliser un horodatage futur.
 
-Immédiatement avant l’écriture :
+   ### Validation réalisable par la planification
 
-- relire `master` et `inventory.json` ;
-- vérifier à nouveau que la grille et le futur chemin n’existent pas ;
-- valider le fichier avec `validateNewLotoFootPublication`.
+   La validation préalable est une vérification structurelle et déterministe effectuée en lisant `model.ts` et `validation.ts`. L’absence d’un environnement local permettant d’exécuter TypeScript ne constitue jamais, à elle seule, un motif de blocage.
 
-Ajouter uniquement cette publication sur `master` dans un commit nommé `content: add ...`.
+   Ne jamais refuser une publication au seul motif que la fonction `validateNewLotoFootPublication` ne peut pas être appelée littéralement. Reproduire ses contrôles avant l’écriture :
 
-Après le commit :
+   - objet JSON valide et champs obligatoires non vides ;
+   - `id` au format `lf<formule>-<numero>-<date>` et cohérent avec `formula` et `gridNumber` ;
+   - `officialUrl` et toutes les URL de sources en HTTP ou HTTPS ;
+   - `methodVersion` égal à `loto-foot-v1` ;
+   - `publishedAt` strictement antérieur à `validationDeadline` ;
+   - nombre de rencontres autorisé pour la formule officielle ;
+   - positions entières, uniques, ordonnées exactement de 1 au nombre de rencontres ;
+   - `startsAt` présent et horodatage valide pour chaque rencontre ;
+   - probabilités entières entre 0 et 100 et somme exactement égale à 100 ;
+   - résumé, incertitude, au moins un facteur et au moins une source par rencontre ;
+   - chaque `accessedAt` inférieur ou égal à `publishedAt` ;
+   - au moins une combinaison ;
+   - identifiants de combinaisons uniques ;
+   - exactement un choix `1`, `N` ou `2` par rencontre ;
+   - aucune combinaison dupliquée.
 
-- relire le fichier depuis `master` ;
-- vérifier son contenu et le hash complet du commit ;
-- vérifier la synchronisation de `inventory.json` et le déploiement avant de passer à la grille suivante.
+   Immédiatement avant l’écriture :
+
+   - relire `master` et `inventory.json` ;
+   - vérifier à nouveau que la grille et le futur chemin n’existent pas ;
+   - effectuer intégralement la validation structurelle ci-dessus ;
+   - ne jamais considérer l’absence d’exécution locale de TypeScript comme un blocage si tous les contrôles peuvent être vérifiés à partir des fichiers et du JSON.
+
+   Ajouter uniquement cette publication sur `master` dans un commit nommé `content: add ...`.
+
+   Après le commit :
+
+   - relire le fichier depuis `master` ;
+   - vérifier son contenu et le hash complet du commit ;
+   - vérifier la synchronisation de `inventory.json` et le déploiement avant de terminer l’exécution.
 
 3. À la fin de l’exécution, fournir un rapport unique indiquant :
    - chaque publication créée, avec sa formule, son numéro, son chemin et le hash complet du commit ;
