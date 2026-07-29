@@ -71,7 +71,7 @@ jobs:
                 exit 1
               fi
 
-              git add -- src/content/loto-foot/inventory.json src/content/loto-foot/results src/content/loto-foot/score-cache
+              git add --all -- src/content/loto-foot
               git commit -m "content: capture and settle Loto Foot results"
 
               if ! git push origin HEAD:master; then
