@@ -1,0 +1,161 @@
+{
+  "id": "lf7-95-2026-07-30",
+  "formula": 7,
+  "gridNumber": 95,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912",
+  "validationDeadline": "2026-07-30T18:55:00+02:00",
+  "publishedAt": "2026-07-29T17:58:35+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Benfica",
+      "awayTeam": "Saint Gall",
+      "competition": "Ligue Europa - 2e tour de qualification",
+      "startsAt": "2026-07-30T21:00:00+02:00",
+      "probabilities": { "home": 65, "draw": 20, "away": 15 },
+      "analysis": {
+        "summary": "Benfica doit renverser une défaite 2-1 mais retrouve l'Estádio da Luz, avec une supériorité d'effectif et une obligation claire de hausser son niveau.",
+        "keyFactors": ["Saint-Gall a remporté l'aller 2-1", "Benfica joue le retour à domicile", "Marco Silva a publiquement exigé une nette amélioration après l'aller"],
+        "uncertainty": "Saint-Gall a déjà montré qu'il pouvait exploiter les faiblesses défensives de Benfica et son avantage cumulé lui permet de jouer plus prudemment.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°95", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912", "accessedAt": "2026-07-29T17:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications de Ligue Europa", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-results-dates-how-it-works/", "accessedAt": "2026-07-29T17:58:05+02:00" },
+          { "label": "Benfica - réaction de Marco Silva après l'aller", "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/07/23/futebol-marco-silva-pos-jogo-st-gallen-benfica-1-mao-2-pre-eliminatoria-acesso-fase-liga-liga-europa", "accessedAt": "2026-07-29T17:58:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Anderlecht",
+      "awayTeam": "Hammarby",
+      "competition": "Ligue Europa - 2e tour de qualification",
+      "startsAt": "2026-07-30T20:30:00+02:00",
+      "probabilities": { "home": 52, "draw": 27, "away": 21 },
+      "analysis": {
+        "summary": "Après le 1-1 de Stockholm, Anderlecht possède un avantage modéré grâce au retour à domicile, mais Hammarby a créé suffisamment de danger pour maintenir le nul et l'exploit extérieur crédibles.",
+        "keyFactors": ["Le match aller s'est terminé 1-1", "Anderlecht reçoit le retour", "Nathan Saliba est suspendu après son carton rouge à l'aller"],
+        "uncertainty": "La suspension de Saliba et la capacité de Hammarby à imposer du rythme rendent le favori belge moins sûr qu'un simple avantage de terrain ne le suggère.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°95", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912", "accessedAt": "2026-07-29T17:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications de Ligue Europa", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-results-dates-how-it-works/", "accessedAt": "2026-07-29T17:58:05+02:00" },
+          { "label": "Aftonbladet - compte rendu Hammarby-Anderlecht", "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/vr9eww/hammarby-raddade-oavgjort-mot-anderlecht-i-europa-league-kvalet", "accessedAt": "2026-07-29T17:58:12+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Ferencvaros",
+      "awayTeam": "Twente",
+      "competition": "Ligue Europa - 2e tour de qualification",
+      "startsAt": "2026-07-30T20:30:00+02:00",
+      "probabilities": { "home": 48, "draw": 28, "away": 24 },
+      "analysis": {
+        "summary": "Ferencváros revient à Budapest avec un avantage 2-1 obtenu aux Pays-Bas et peut s'appuyer sur son public, même si Twente a les moyens techniques de revenir dans la confrontation.",
+        "keyFactors": ["Ferencváros a gagné l'aller 2-1", "Le retour se joue à la Groupama Arena", "Ferencváros avait remporté huit matchs compétitifs consécutifs avant sa défaite domestique du 26 juillet"],
+        "uncertainty": "Twente n'a besoin que d'un but pour relancer totalement la qualification et la récente défaite 4-2 de Ferencváros rappelle une certaine vulnérabilité défensive.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°95", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912", "accessedAt": "2026-07-29T17:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications de Ligue Europa", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-results-dates-how-it-works/", "accessedAt": "2026-07-29T17:58:05+02:00" },
+          { "label": "Ferencváros - victoire 2-1 à Twente", "url": "https://www.fradi.hu/en/football/men-s/news/thanks-to-joseph-s-goals-we-defeated-twente-away", "accessedAt": "2026-07-29T17:58:14+02:00" },
+          { "label": "Sports Mole - Ferencváros contre Twente", "url": "https://www.sportsmole.co.uk/football/ferencvaros/europa-league/preview/ferencvaros-vs-fc-twente-prediction-team-news-lineups_601959.html", "accessedAt": "2026-07-29T17:58:16+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "CSKA Sofia",
+      "awayTeam": "FC Qarabag",
+      "competition": "Ligue Europa - 2e tour de qualification",
+      "startsAt": "2026-07-30T20:00:00+02:00",
+      "probabilities": { "home": 33, "draw": 31, "away": 36 },
+      "analysis": {
+        "summary": "Le 0-0 de l'aller laisse la confrontation totalement ouverte ; CSKA bénéficie du terrain, mais Qarabağ conserve un léger avantage de qualité et d'expérience européenne.",
+        "keyFactors": ["Le match aller s'est terminé 0-0", "CSKA Sofia reçoit le retour", "Qarabağ a davantage d'expérience récente dans les tours européens"],
+        "uncertainty": "L'équilibre de l'aller et l'absence d'avantage cumulé rendent les trois issues presque aussi plausibles.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°95", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912", "accessedAt": "2026-07-29T17:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications de Ligue Europa", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-results-dates-how-it-works/", "accessedAt": "2026-07-29T17:58:05+02:00" },
+          { "label": "beIN SPORTS - Qarabağ contre CSKA Sofia", "url": "https://www.beinsports.com/en-us/soccer/uefa-europa-league/qaraba-vs-cska-sofia-2026-07-23", "accessedAt": "2026-07-29T17:58:18+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "PAOK Salonique",
+      "awayTeam": "Dynamo Kiev",
+      "competition": "Ligue Europa - 2e tour de qualification",
+      "startsAt": "2026-07-30T19:45:00+02:00",
+      "probabilities": { "home": 55, "draw": 25, "away": 20 },
+      "analysis": {
+        "summary": "PAOK reçoit avec un avantage 3-2 après un aller très ouvert et semble mieux placé grâce au terrain, même si Dynamo a fini fort et s'est procuré plusieurs occasions nettes.",
+        "keyFactors": ["PAOK a gagné l'aller 3-2", "Le retour se joue au Toumba Stadium", "Dynamo a touché le poteau et manqué des face-à-face en fin d'aller"],
+        "uncertainty": "Un seul but sépare les équipes et l'aller a montré que Dynamo peut se créer des occasions franches, ce qui maintient un risque réel de retournement.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°95", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912", "accessedAt": "2026-07-29T17:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications de Ligue Europa", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-results-dates-how-it-works/", "accessedAt": "2026-07-29T17:58:05+02:00" },
+          { "label": "Dynamo Kyiv - compte rendu du match aller", "url": "https://fcdynamo.com/en/news/liga-jevropi-dinamo-paok-23-zvit-pro-matc", "accessedAt": "2026-07-29T17:58:20+02:00" },
+          { "label": "Sports Mole - PAOK contre Dynamo Kiev", "url": "https://www.sportsmole.co.uk/football/paok/preview/paok-vs-dynamo-kiev-prediction-team-news-lineups_601993.html", "accessedAt": "2026-07-29T17:58:22+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Midtjylland",
+      "awayTeam": "Besiktas",
+      "competition": "Ligue Europa - 2e tour de qualification",
+      "startsAt": "2026-07-30T19:00:00+02:00",
+      "probabilities": { "home": 43, "draw": 29, "away": 28 },
+      "analysis": {
+        "summary": "Midtjylland doit remonter un but à domicile ; sa défaite 1-0 à Istanbul a été fortement influencée par une expulsion dès la 15e minute, ce qui rend un rebond danois crédible.",
+        "keyFactors": ["Besiktas mène 1-0 après l'aller", "Midtjylland joue le retour à domicile", "Friday Etim a été expulsé dès la 15e minute à l'aller"],
+        "uncertainty": "Besiktas peut gérer son avantage et exploiter les espaces laissés par un Midtjylland obligé d'attaquer.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°95", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912", "accessedAt": "2026-07-29T17:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications de Ligue Europa", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-results-dates-how-it-works/", "accessedAt": "2026-07-29T17:58:05+02:00" },
+          { "label": "Besiktas - compte rendu du match aller", "url": "https://bjk.com.tr/en/mac_merkezi/canli/25404", "accessedAt": "2026-07-29T17:58:24+02:00" },
+          { "label": "Sports Mole - données Besiktas-Midtjylland", "url": "https://www.sportsmole.co.uk/football/europa-league/besiktas-vs-fc-midtjylland_game_251527.html", "accessedAt": "2026-07-29T17:58:26+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Hradec Kralové",
+      "awayTeam": "Tromsø",
+      "competition": "Ligue Europa - 2e tour de qualification",
+      "startsAt": "2026-07-30T19:00:00+02:00",
+      "probabilities": { "home": 45, "draw": 30, "away": 25 },
+      "analysis": {
+        "summary": "Hradec Králové reçoit avec un avantage 1-0 acquis tardivement en Norvège et peut gérer davantage le rythme, mais Tromsø avait dominé une partie de l'aller et manqué un penalty.",
+        "keyFactors": ["Hradec Králové a gagné l'aller 1-0", "Le retour se joue en République tchèque", "Tromsø a manqué un penalty à l'aller"],
+        "uncertainty": "L'avantage cumulé reste minimal et un but rapide de Tromsø remettrait immédiatement la confrontation à égalité.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 7 n°95", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4912", "accessedAt": "2026-07-29T17:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications de Ligue Europa", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-results-dates-how-it-works/", "accessedAt": "2026-07-29T17:58:05+02:00" },
+          { "label": "VG - Tromsø battu après un penalty manqué", "url": "https://www.vg.no/sport/i/y5965e/skuffet-i-europa-juvelen-bommet-paa-straffe", "accessedAt": "2026-07-29T17:58:28+02:00" },
+          { "label": "Sports Mole - Hradec Králové contre Tromsø", "url": "https://www.sportsmole.co.uk/football/tromso-il/europa-league/preview/hradec-kralove-vs-tromso-prediction-team-news-lineups_601971.html", "accessedAt": "2026-07-29T17:58:30+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["1", "1", "1", "2", "1", "1", "1"],
+      "rationale": "Cette combinaison suit les avantages de terrain et les positions acquises à l'aller, avec Qarabağ légèrement préféré dans le duel le plus équilibré."
+    },
+    {
+      "id": "prudent",
+      "label": "Scénario prudent",
+      "selections": ["1", "N", "N", "N", "1", "N", "N"],
+      "rationale": "Cette combinaison couvre les retours les plus serrés et les équipes visiteuses encore capables de fermer le jeu grâce au score cumulé."
+    },
+    {
+      "id": "renversements",
+      "label": "Scénario de retournements",
+      "selections": ["N", "1", "2", "1", "N", "2", "2"],
+      "rationale": "Cette combinaison couvre plusieurs retournements possibles lorsque les équipes menées doivent attaquer et peuvent profiter d'un match retour plus ouvert."
+    }
+  ]
+}
