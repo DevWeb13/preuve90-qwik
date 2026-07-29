@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "publicationId": "lf8-98-2026-07-29",
+  "capturedAt": "2026-07-29T21:46:18+02:00",
+  "matches": [
+    {
+      "position": 4,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2,
+      "fixtureId": 1591940,
+      "fixtureDate": "2026-07-29T19:30:00+02:00",
+      "capturedAt": "2026-07-29T21:46:18+02:00"
+    },
+    {
+      "position": 5,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 0,
+      "fixtureId": 1589422,
+      "fixtureDate": "2026-07-29T19:30:00+02:00",
+      "capturedAt": "2026-07-29T21:46:18+02:00"
+    },
+    {
+      "position": 8,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1,
+      "fixtureId": 1556532,
+      "fixtureDate": "2026-07-29T19:00:00+02:00",
+      "capturedAt": "2026-07-29T21:46:18+02:00"
+    }
+  ]
+}
