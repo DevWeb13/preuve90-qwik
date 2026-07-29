@@ -36,7 +36,7 @@ jobs:
         with:
           node-version-file: .nvmrc
 
-      - name: Settle and synchronize
+      - name: Capture, settle and synchronize
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         shell: bash
@@ -46,58 +46,51 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          for cycle in $(seq 1 10); do
+          for attempt in 1 2 3; do
             git fetch origin master
             git checkout --detach origin/master
 
             output="$(node scripts/settle-loto-foot.mjs)"
             printf '%s\n' "$output"
 
-            result_path="$(printf '%s\n' "$output" | sed -n 's/^RESULT_PATH=//p' | tail -n 1)"
-            publication_id="$(printf '%s\n' "$output" | sed -n 's/^RESULT_ID=//p' | tail -n 1)"
+            npm run loto-foot:inventory
 
-            if [ -z "$result_path" ]; then
-              echo "No additional settlement file was generated."
-              exit 0
+            changed_files="$(git status --short | awk '{print $2}')"
+            blocked_count="$(printf '%s\n' "$output" | sed -n 's/^BLOCKED_COUNT=//p' | tail -n 1)"
+            blocked_count="${blocked_count:-0}"
+
+            if [ -n "$changed_files" ]; then
+              unexpected_files="$(
+                printf '%s\n' "$changed_files" |
+                  grep -Ev '^src/content/loto-foot/(inventory\.json|results/[^/]+\.json|score-cache/[^/]+\.json)$' || true
+              )"
+
+              if [ -n "$unexpected_files" ]; then
+                echo "Refusing to commit unexpected files:" >&2
+                printf '%s\n' "$unexpected_files" >&2
+                exit 1
+              fi
+
+              git add --all -- src/content/loto-foot
+              git commit -m "content: capture and settle Loto Foot results"
+
+              if ! git push origin HEAD:master; then
+                echo "Concurrent master update while publishing settlements (${attempt}/3)." >&2
+                continue
+              fi
             fi
 
-            if [ "$(git status --short | awk '{print $2}')" != "$result_path" ]; then
-              echo "Refusing to commit unexpected files." >&2
-              git status --short
+            if [ "$blocked_count" -gt 0 ]; then
+              echo "Official settlements are available but some scores are still missing." >&2
+              printf '%s\n' "$output" | sed -n 's/^BLOCKED_REASON=//p' >&2
               exit 1
             fi
 
-            git add -- "$result_path"
-            git commit -m "content: settle ${publication_id}"
-            git push origin HEAD:master
-
-            inventory_synchronized=false
-            for attempt in 1 2 3; do
-              git fetch origin master
-              git checkout --detach origin/master
-              npm run loto-foot:inventory
-
-              if git diff --quiet -- src/content/loto-foot/inventory.json; then
-                inventory_synchronized=true
-                break
-              fi
-
-              git add -- src/content/loto-foot/inventory.json
-              git commit -m "chore: sync Loto Foot inventory"
-
-              if git push origin HEAD:master; then
-                inventory_synchronized=true
-                break
-              fi
-
-              echo "Concurrent master update while synchronizing inventory (${attempt}/3)." >&2
-            done
-
-            if [ "$inventory_synchronized" != true ]; then
-              echo "Unable to synchronize the inventory." >&2
-              exit 1
+            if [ -z "$changed_files" ]; then
+              echo "No score cache, settlement or inventory update was needed."
             fi
+            exit 0
           done
 
-          echo "Safety limit reached after 10 settlements." >&2
+          echo "Unable to publish settlements after 3 attempts." >&2
           exit 1
