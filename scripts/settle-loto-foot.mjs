@@ -5,14 +5,59 @@ import { pathToFileURL } from "node:url";
 const INVENTORY_PATH = "src/content/loto-foot/inventory.json";
 const API_BASE_URL = "https://v3.football.api-sports.io";
 const FINAL_STATUSES = new Set(["FT", "AET", "PEN"]);
-const TEAM_STOP_WORDS = new Set(["fc", "fk", "cf", "sc", "ac", "club", "de", "the"]);
+const HISTORICAL_DATE_WINDOW_DAYS = 4;
+const TEAM_STOP_WORDS = new Set([
+  "ac",
+  "afc",
+  "bk",
+  "cf",
+  "club",
+  "de",
+  "fc",
+  "fk",
+  "if",
+  "ik",
+  "kf",
+  "ks",
+  "nk",
+  "of",
+  "sc",
+  "sk",
+  "the",
+  "ue",
+]);
+const TEAM_ALIASES = new Map([
+  ["aik solna", "aik"],
+  ["aik stockholm", "aik"],
+  ["agf aarhus", "agf aarhus"],
+  ["aarhus gf", "agf aarhus"],
+  ["crvena zvezda", "red star belgrade"],
+  ["etoile rouge", "red star belgrade"],
+  ["red star belgrade", "red star belgrade"],
+  ["hap beer sheva", "hapoel beer sheva"],
+  ["hapoel beer sheva", "hapoel beer sheva"],
+  ["heart midlothian", "heart midlothian"],
+  ["hearts", "heart midlothian"],
+  ["iberia 1999", "iberia 1999"],
+  ["saburtalo", "iberia 1999"],
+  ["kauno zalgiris", "zalgiris kaunas"],
+  ["zalgiris kaunas", "zalgiris kaunas"],
+  ["polessya", "polissya zhytomyr"],
+  ["polissya", "polissya zhytomyr"],
+  ["polissya zhytomyr", "polissya zhytomyr"],
+  ["slo bratislava", "slovan bratislava"],
+  ["slovan bratislava", "slovan bratislava"],
+  ["uni craiova", "craiova"],
+  ["universitatea craiova", "craiova"],
+  ["zhytomyr", "polissya zhytomyr"],
+]);
 
 function errorMessage(error) {
   return error instanceof Error ? error.message : String(error);
 }
 
-function normalizeTeamName(value) {
-  return value
+export function normalizeTeamName(value) {
+  const normalized = value
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
@@ -26,6 +71,8 @@ function normalizeTeamName(value) {
     .split(/\s+/)
     .filter((token) => token && !TEAM_STOP_WORDS.has(token))
     .join(" ");
+
+  return TEAM_ALIASES.get(normalized) ?? normalized;
 }
 
 function levenshteinDistance(left, right) {
@@ -44,7 +91,7 @@ function levenshteinDistance(left, right) {
   return previous[right.length];
 }
 
-function teamSimilarity(leftValue, rightValue) {
+export function teamSimilarity(leftValue, rightValue) {
   const left = normalizeTeamName(leftValue);
   const right = normalizeTeamName(rightValue);
   if (!left || !right) return 0;
@@ -68,6 +115,15 @@ function fixtureDateInParis(isoTimestamp) {
     month: "2-digit",
     day: "2-digit",
   }).format(new Date(isoTimestamp));
+}
+
+export function fixtureDatesForMatch(match, validationDeadline) {
+  if (match.startsAt) return [fixtureDateInParis(match.startsAt)];
+
+  const deadline = Date.parse(validationDeadline);
+  return Array.from({ length: HISTORICAL_DATE_WINDOW_DAYS }, (_, index) =>
+    fixtureDateInParis(new Date(deadline + index * 86_400_000).toISOString()),
+  );
 }
 
 function formatParisTimestamp(date = new Date()) {
@@ -106,9 +162,9 @@ async function fetchFixturesByDate(date, apiKey) {
   return fetchJson(url, apiKey);
 }
 
-function findFixture(match, fixtures) {
+function rankFixtureCandidates(match, fixtures) {
   const expectedStart = match.startsAt ? Date.parse(match.startsAt) : undefined;
-  const ranked = fixtures
+  return fixtures
     .map((fixture) => {
       const homeScore = teamSimilarity(match.homeTeam, fixture.teams?.home?.name ?? "");
       const awayScore = teamSimilarity(match.awayTeam, fixture.teams?.away?.name ?? "");
@@ -126,15 +182,29 @@ function findFixture(match, fixtures) {
         timeDifferenceHours,
       };
     })
-    .filter(
-      ({ homeScore, awayScore, timeDifferenceHours }) =>
-        homeScore >= 0.55 && awayScore >= 0.55 && timeDifferenceHours <= 8,
-    )
     .sort((left, right) => right.score - left.score);
+}
+
+export function findFixture(match, fixtures) {
+  const ranked = rankFixtureCandidates(match, fixtures).filter(
+    ({ homeScore, awayScore, timeDifferenceHours }) =>
+      homeScore >= 0.55 && awayScore >= 0.55 && timeDifferenceHours <= 8,
+  );
 
   if (ranked.length === 0 || ranked[0].score < 0.68) return undefined;
   if (ranked[1] && ranked[0].score - ranked[1].score < 0.06) return undefined;
   return ranked[0].fixture;
+}
+
+function fixtureCandidateSummary(match, fixtures) {
+  return rankFixtureCandidates(match, fixtures)
+    .slice(0, 3)
+    .map(({ fixture, homeScore, awayScore, timeDifferenceHours }) => {
+      const home = fixture.teams?.home?.name ?? "?";
+      const away = fixture.teams?.away?.name ?? "?";
+      return `${home} - ${away} (dom. ${homeScore.toFixed(2)}, ext. ${awayScore.toFixed(2)}, écart ${timeDifferenceHours.toFixed(1)} h)`;
+    })
+    .join(" | ");
 }
 
 function resultSelection(fixture) {
@@ -253,15 +323,23 @@ async function settleOldestEligiblePublication({ rootDirectory, apiKey }) {
       Date.parse(left.publication.validationDeadline) - Date.parse(right.publication.validationDeadline),
   );
 
+  const blockedReasons = [];
+
   for (const { relativePath, publication } of publications) {
     if (Date.now() < Date.parse(publication.validationDeadline)) continue;
     const resultRelativePath = relativePath.replace("/publications/", "/results/");
     if (await fileExists(path.join(rootDirectory, resultRelativePath))) continue;
 
+    const payouts = await fetchPayouts(publication.officialUrl);
+    if (payouts.length === 0) {
+      console.log(`${publication.id} ignorée : rapports FDJ introuvables dans la page officielle.`);
+      continue;
+    }
+
     const dates = [
       ...new Set(
-        publication.matches.map((match) =>
-          fixtureDateInParis(match.startsAt ?? publication.validationDeadline),
+        publication.matches.flatMap((match) =>
+          fixtureDatesForMatch(match, publication.validationDeadline),
         ),
       ),
     ];
@@ -271,10 +349,13 @@ async function settleOldestEligiblePublication({ rootDirectory, apiKey }) {
     const matchedFixtures = [];
     let blockedReason;
     for (const match of publication.matches) {
-      const date = fixtureDateInParis(match.startsAt ?? publication.validationDeadline);
-      const fixture = findFixture(match, fixtureCache.get(date) ?? []);
+      const matchFixtures = fixtureDatesForMatch(match, publication.validationDeadline).flatMap(
+        (date) => fixtureCache.get(date) ?? [],
+      );
+      const fixture = findFixture(match, matchFixtures);
       if (!fixture) {
-        blockedReason = `rencontre introuvable sans ambiguïté : ${match.homeTeam} - ${match.awayTeam}`;
+        const candidates = fixtureCandidateSummary(match, matchFixtures);
+        blockedReason = `rencontre introuvable sans ambiguïté : ${match.homeTeam} - ${match.awayTeam}${candidates ? ` ; meilleurs candidats : ${candidates}` : " ; aucun candidat"}`;
         break;
       }
       const selection = resultSelection(fixture);
@@ -285,13 +366,9 @@ async function settleOldestEligiblePublication({ rootDirectory, apiKey }) {
       matchedFixtures.push({ match, fixture, selection });
     }
     if (blockedReason) {
-      console.log(`${publication.id} ignorée : ${blockedReason}.`);
-      continue;
-    }
-
-    const payouts = await fetchPayouts(publication.officialUrl);
-    if (payouts.length === 0) {
-      console.log(`${publication.id} ignorée : rapports FDJ introuvables dans la page officielle.`);
+      const fullReason = `${publication.id} : ${blockedReason}`;
+      blockedReasons.push(fullReason);
+      console.error(fullReason);
       continue;
     }
 
@@ -332,13 +409,16 @@ async function settleOldestEligiblePublication({ rootDirectory, apiKey }) {
   }
 
   console.log("Aucun règlement automatique réalisable.");
-  return undefined;
+  return { blockedReasons };
 }
 
 async function run() {
   const apiKey = process.env.API_FOOTBALL_KEY;
   if (!apiKey) throw new Error("Le secret API_FOOTBALL_KEY est absent.");
-  await settleOldestEligiblePublication({ rootDirectory: process.cwd(), apiKey });
+  const outcome = await settleOldestEligiblePublication({ rootDirectory: process.cwd(), apiKey });
+  if (outcome?.blockedReasons?.length > 0) {
+    throw new Error(`Règlements officiellement disponibles mais bloqués : ${outcome.blockedReasons.join(" || ")}`);
+  }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
