@@ -1,7 +1,7 @@
 {
   "version": 1,
   "publicationId": "lf12-64-2026-07-29",
-  "capturedAt": "2026-07-29T23:13:51+02:00",
+  "capturedAt": "2026-07-30T01:15:35+02:00",
   "matches": [
     {
       "position": 1,
@@ -74,6 +74,15 @@
       "fixtureId": 1556532,
       "fixtureDate": "2026-07-29T19:00:00+02:00",
       "capturedAt": "2026-07-29T21:46:18+02:00"
+    },
+    {
+      "position": 10,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1,
+      "fixtureId": 1493022,
+      "fixtureDate": "2026-07-29T22:00:00+02:00",
+      "capturedAt": "2026-07-30T01:15:35+02:00"
     }
   ]
 }
