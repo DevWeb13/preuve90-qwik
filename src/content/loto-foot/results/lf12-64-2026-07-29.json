@@ -1,0 +1,107 @@
+{
+  "id": "lf12-64-2026-07-29-result",
+  "publicationId": "lf12-64-2026-07-29",
+  "gridNumber": 64,
+  "settledAt": "2026-07-30T08:43:06+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/556",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 2,
+      "selection": "1",
+      "homeScore": 5,
+      "awayScore": 0
+    },
+    {
+      "position": 3,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 4,
+      "selection": "N",
+      "homeScore": 2,
+      "awayScore": 2
+    },
+    {
+      "position": 5,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "position": 6,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 3
+    },
+    {
+      "position": 7,
+      "selection": "1",
+      "homeScore": 6,
+      "awayScore": 2
+    },
+    {
+      "position": 8,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "position": 9,
+      "selection": "1",
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "position": 10,
+      "selection": "1",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "position": 11,
+      "selection": "N",
+      "homeScore": 1,
+      "awayScore": 1
+    },
+    {
+      "position": 12,
+      "selection": "2",
+      "homeScore": 0,
+      "awayScore": 4
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 11,
+      "amountCents": 173200
+    },
+    {
+      "correctSelections": 10,
+      "amountCents": 15610
+    },
+    {
+      "correctSelections": 9,
+      "amountCents": 1930
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 12 n°64",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/556",
+      "accessedAt": "2026-07-30T08:43:06+02:00"
+    },
+    {
+      "label": "API-Football - Résultats finaux conservés à la fin des rencontres",
+      "url": "https://www.api-football.com/",
+      "accessedAt": "2026-07-30T08:43:06+02:00"
+    }
+  ]
+}
