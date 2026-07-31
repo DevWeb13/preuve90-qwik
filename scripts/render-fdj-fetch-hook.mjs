@@ -50,16 +50,43 @@ async function renderFdjPage(url) {
     await page.waitForTimeout(3_000);
 
     const html = await page.content();
-    const inputCount = await page.locator("input").count();
-    const selectedCount = await page
-      .locator(
-        'input:checked, [aria-checked="true"], [data-selected="true"], [data-checked="true"], [data-winner="true"], [data-winning="true"], .selected, .is-selected, .winner, .winning, .correct',
-      )
-      .count();
+    const inputDetails = await page.locator("input").evaluateAll((elements) =>
+      elements.slice(0, 120).map((element) => ({
+        type: element.getAttribute("type"),
+        name: element.getAttribute("name"),
+        value: element.getAttribute("value"),
+        checked: "checked" in element ? element.checked : undefined,
+        class: element.getAttribute("class"),
+        ariaChecked: element.getAttribute("aria-checked"),
+        ariaLabel: element.getAttribute("aria-label"),
+        data: [...element.attributes]
+          .filter((attribute) => attribute.name.startsWith("data-"))
+          .reduce((record, attribute) => {
+            record[attribute.name] = attribute.value;
+            return record;
+          }, {}),
+        outerHtml: element.outerHTML.slice(0, 500),
+      })),
+    );
+
+    const selectedLocator = page.locator(
+      'input:checked, [aria-checked="true"], [data-selected="true"], [data-checked="true"], [data-winner="true"], [data-winning="true"], .selected, .is-selected, .winner, .winning, .correct',
+    );
+    const selectedDetails = await selectedLocator.evaluateAll((elements) =>
+      elements.slice(0, 120).map((element) => ({
+        tag: element.tagName,
+        text: (element.textContent ?? "").trim().slice(0, 120),
+        class: element.getAttribute("class"),
+        ariaChecked: element.getAttribute("aria-checked"),
+        outerHtml: element.outerHTML.slice(0, 700),
+      })),
+    );
 
     console.log(
-      `FDJ_RENDERED url=${url} html_bytes=${Buffer.byteLength(html)} inputs=${inputCount} selected_candidates=${selectedCount}`,
+      `FDJ_RENDERED url=${url} html_bytes=${Buffer.byteLength(html)} inputs=${inputDetails.length} selected_candidates=${selectedDetails.length}`,
     );
+    console.log(`FDJ_INPUT_DETAILS=${JSON.stringify(inputDetails)}`);
+    console.log(`FDJ_SELECTED_DETAILS=${JSON.stringify(selectedDetails)}`);
 
     return html;
   } finally {
