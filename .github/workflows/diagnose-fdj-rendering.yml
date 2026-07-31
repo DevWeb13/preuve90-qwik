@@ -5,6 +5,7 @@ on:
     paths:
       - scripts/render-fdj-fetch-hook.mjs
       - scripts/settle-loto-foot.mjs
+      - scripts/settle-loto-foot-rendered.mjs
       - .github/workflows/diagnose-fdj-rendering.yml
   workflow_dispatch:
 
@@ -36,7 +37,8 @@ jobs:
         run: |
           node --import ./scripts/render-fdj-fetch-hook.mjs --input-type=module <<'EOF'
           import { readFile } from "node:fs/promises";
-          import { parseOfficialSelections, parsePayouts } from "./scripts/settle-loto-foot.mjs";
+          import { parsePayouts } from "./scripts/settle-loto-foot.mjs";
+          import { parseRenderedOfficialSelections } from "./scripts/settle-loto-foot-rendered.mjs";
 
           const publication = JSON.parse(
             await readFile(
@@ -47,7 +49,10 @@ jobs:
           const response = await fetch(publication.officialUrl);
           const html = await response.text();
           const payouts = parsePayouts(html);
-          const selections = parseOfficialSelections(html, publication.matches);
+          const selections = parseRenderedOfficialSelections(
+            html,
+            publication.matches.length,
+          );
 
           console.log(`DIAGNOSTIC_PAYOUTS=${JSON.stringify(payouts)}`);
           console.log(`DIAGNOSTIC_SELECTIONS=${JSON.stringify(selections)}`);
