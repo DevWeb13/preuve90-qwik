@@ -1,260 +1,52 @@
-import { access, mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const INVENTORY_PATH = "src/content/loto-foot/inventory.json";
-const SCORE_CACHE_DIRECTORY = "src/content/loto-foot/score-cache";
-const API_BASE_URL = "https://v3.football.api-sports.io";
-const FINAL_STATUSES = new Set(["FT", "AET", "PEN"]);
-const HISTORICAL_DATE_WINDOW_DAYS = 4;
-const TEAM_STOP_WORDS = new Set([
-  "ac",
-  "afc",
-  "bk",
-  "cf",
-  "club",
-  "de",
-  "fc",
-  "fk",
-  "if",
-  "ik",
-  "kf",
-  "ks",
-  "nk",
-  "of",
-  "sc",
-  "sk",
-  "the",
-  "ue",
-]);
-const TEAM_ALIASES = new Map([
-  ["aik solna", "aik"],
-  ["aik stockholm", "aik"],
-  ["agf aarhus", "agf aarhus"],
-  ["aarhus gf", "agf aarhus"],
-  ["crvena zvezda", "red star belgrade"],
-  ["etoile rouge", "red star belgrade"],
-  ["red star belgrade", "red star belgrade"],
-  ["hap beer sheva", "hapoel beer sheva"],
-  ["hapoel beer sheva", "hapoel beer sheva"],
-  ["heart midlothian", "heart midlothian"],
-  ["hearts", "heart midlothian"],
-  ["iberia 1999", "iberia 1999"],
-  ["saburtalo", "iberia 1999"],
-  ["kauno zalgiris", "zalgiris kaunas"],
-  ["zalgiris kaunas", "zalgiris kaunas"],
-  ["polessya", "polissya zhytomyr"],
-  ["polissya", "polissya zhytomyr"],
-  ["polissya zhytomyr", "polissya zhytomyr"],
-  ["slo bratislava", "slovan bratislava"],
-  ["slovan bratislava", "slovan bratislava"],
-  ["uni craiova", "craiova"],
-  ["universitatea craiova", "craiova"],
-  ["zhytomyr", "polissya zhytomyr"],
-]);
+const VALID_SELECTIONS = new Set(["1", "N", "2"]);
 
 function errorMessage(error) {
   return error instanceof Error ? error.message : String(error);
 }
 
-export function normalizeTeamName(value) {
-  const normalized = value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/&/g, " and ")
-    .replace(/\bst[.]?\b/g, "saint")
-    .replace(/\bind[.]?\b/g, "independiente")
-    .replace(/\batl[.]?\b/g, "atletico")
-    .replace(/\bbodo\b/g, "bodo")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim()
-    .split(/\s+/)
-    .filter((token) => token && !TEAM_STOP_WORDS.has(token))
-    .join(" ");
-
-  return TEAM_ALIASES.get(normalized) ?? normalized;
-}
-
-function levenshteinDistance(left, right) {
-  const previous = Array.from({ length: right.length + 1 }, (_, index) => index);
-  for (let leftIndex = 1; leftIndex <= left.length; leftIndex += 1) {
-    const current = [leftIndex];
-    for (let rightIndex = 1; rightIndex <= right.length; rightIndex += 1) {
-      current[rightIndex] = Math.min(
-        current[rightIndex - 1] + 1,
-        previous[rightIndex] + 1,
-        previous[rightIndex - 1] + (left[leftIndex - 1] === right[rightIndex - 1] ? 0 : 1),
-      );
-    }
-    previous.splice(0, previous.length, ...current);
-  }
-  return previous[right.length];
-}
-
-export function teamSimilarity(leftValue, rightValue) {
-  const left = normalizeTeamName(leftValue);
-  const right = normalizeTeamName(rightValue);
-  if (!left || !right) return 0;
-  if (left === right) return 1;
-  if (left.includes(right) || right.includes(left)) return 0.94;
-
-  const leftTokens = new Set(left.split(" "));
-  const rightTokens = new Set(right.split(" "));
-  const intersection = [...leftTokens].filter((token) => rightTokens.has(token)).length;
-  const union = new Set([...leftTokens, ...rightTokens]).size;
-  const jaccard = union === 0 ? 0 : intersection / union;
-  const maxLength = Math.max(left.length, right.length);
-  const editSimilarity =
-    maxLength === 0 ? 1 : 1 - levenshteinDistance(left, right) / maxLength;
-  return Math.max(jaccard, editSimilarity * 0.9);
-}
-
-function fixtureDateInParis(isoTimestamp) {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Europe/Paris",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date(isoTimestamp));
-}
-
-export function fixtureDatesForMatch(match, validationDeadline) {
-  if (match.startsAt) return [fixtureDateInParis(match.startsAt)];
-
-  const deadline = Date.parse(validationDeadline);
-  return Array.from({ length: HISTORICAL_DATE_WINDOW_DAYS }, (_, index) =>
-    fixtureDateInParis(new Date(deadline + index * 86_400_000).toISOString()),
-  );
-}
-
-function formatParisTimestamp(date = new Date()) {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Europe/Paris",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-    hourCycle: "h23",
-    timeZoneName: "longOffset",
-  }).formatToParts(date);
-  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
-  const offset = values.timeZoneName.replace("GMT", "");
-  return `${values.year}-${values.month}-${values.day}T${values.hour}:${values.minute}:${values.second}${offset}`;
-}
-
-export function isApiDateUnavailableError(error) {
-  const message = errorMessage(error).toLowerCase();
-  return (
-    message.includes("free plans do not have access to this date") ||
-    message.includes("do not have access to this date")
-  );
-}
-
-async function fetchJson(url, apiKey) {
-  const response = await fetch(url, {
-    headers: { "x-apisports-key": apiKey },
-  });
-  if (!response.ok) throw new Error(`API-Football a répondu ${response.status} pour ${url}`);
-  const payload = await response.json();
-  if (payload.errors && Object.keys(payload.errors).length > 0) {
-    throw new Error(`API-Football : ${JSON.stringify(payload.errors)}`);
-  }
-  return payload.response ?? [];
-}
-
-async function fetchFixturesByDate(date, apiKey) {
-  const url = new URL("/fixtures", API_BASE_URL);
-  url.searchParams.set("date", date);
-  url.searchParams.set("timezone", "Europe/Paris");
-  return fetchJson(url, apiKey);
-}
-
-async function fetchFixturesByDateSafely(date, apiKey) {
-  try {
-    return await fetchFixturesByDate(date, apiKey);
-  } catch (error) {
-    if (!isApiDateUnavailableError(error)) throw error;
-    console.log(`${date} ignorée : date hors de la fenêtre du forfait API-Football.`);
-    return [];
-  }
-}
-
-function rankFixtureCandidates(match, fixtures) {
-  const expectedStart = match.startsAt ? Date.parse(match.startsAt) : undefined;
-  return fixtures
-    .map((fixture) => {
-      const homeScore = teamSimilarity(match.homeTeam, fixture.teams?.home?.name ?? "");
-      const awayScore = teamSimilarity(match.awayTeam, fixture.teams?.away?.name ?? "");
-      const start = Date.parse(fixture.fixture?.date ?? "");
-      const timeDifferenceHours =
-        Number.isFinite(expectedStart) && Number.isFinite(start)
-          ? Math.abs(start - expectedStart) / 3_600_000
-          : 0;
-      const timeScore = timeDifferenceHours <= 1 ? 1 : timeDifferenceHours <= 6 ? 0.7 : 0;
-      return {
-        fixture,
-        score: homeScore * 0.45 + awayScore * 0.45 + timeScore * 0.1,
-        homeScore,
-        awayScore,
-        timeDifferenceHours,
-      };
-    })
-    .sort((left, right) => right.score - left.score);
-}
-
-export function findFixture(match, fixtures) {
-  const ranked = rankFixtureCandidates(match, fixtures).filter(
-    ({ homeScore, awayScore, timeDifferenceHours }) =>
-      homeScore >= 0.55 && awayScore >= 0.55 && timeDifferenceHours <= 8,
-  );
-
-  if (ranked.length === 0 || ranked[0].score < 0.68) return undefined;
-  if (ranked[1] && ranked[0].score - ranked[1].score < 0.06) return undefined;
-  return ranked[0].fixture;
-}
-
-function fixtureCandidateSummary(match, fixtures) {
-  return rankFixtureCandidates(match, fixtures)
-    .slice(0, 3)
-    .map(({ fixture, homeScore, awayScore, timeDifferenceHours }) => {
-      const home = fixture.teams?.home?.name ?? "?";
-      const away = fixture.teams?.away?.name ?? "?";
-      return `${home} - ${away} (dom. ${homeScore.toFixed(2)}, ext. ${awayScore.toFixed(2)}, écart ${timeDifferenceHours.toFixed(1)} h)`;
-    })
-    .join(" | ");
-}
-
-export function cachedMatchFromFixture(match, fixture, capturedAt = formatParisTimestamp()) {
-  const status = fixture.fixture?.status?.short;
-  if (!FINAL_STATUSES.has(status)) return undefined;
-  const homeScore = fixture.score?.fulltime?.home;
-  const awayScore = fixture.score?.fulltime?.away;
-  if (!Number.isInteger(homeScore) || !Number.isInteger(awayScore)) return undefined;
-
-  return {
-    position: match.position,
-    selection: homeScore > awayScore ? "1" : homeScore === awayScore ? "N" : "2",
-    homeScore,
-    awayScore,
-    fixtureId: fixture.fixture?.id,
-    fixtureDate: fixture.fixture?.date,
-    capturedAt,
-  };
-}
-
 function decodeHtmlEntities(value) {
-  return value
-    .replace(/&nbsp;|&#160;/gi, " ")
-    .replace(/&euro;|&#8364;|\u20ac/gi, "€")
-    .replace(/&agrave;|&#224;/gi, "à")
-    .replace(/&eacute;|&#233;/gi, "é")
-    .replace(/&egrave;|&#232;/gi, "è")
-    .replace(/&rsquo;|&#8217;/gi, "’")
-    .replace(/&quot;|&#34;/gi, '"')
-    .replace(/&amp;|&#38;/gi, "&");
+  const namedEntities = new Map([
+    ["nbsp", " "],
+    ["euro", "€"],
+    ["agrave", "à"],
+    ["aacute", "á"],
+    ["acirc", "â"],
+    ["auml", "ä"],
+    ["ccedil", "ç"],
+    ["eacute", "é"],
+    ["egrave", "è"],
+    ["ecirc", "ê"],
+    ["euml", "ë"],
+    ["icirc", "î"],
+    ["iuml", "ï"],
+    ["ocirc", "ô"],
+    ["ouml", "ö"],
+    ["ugrave", "ù"],
+    ["ucirc", "û"],
+    ["uuml", "ü"],
+    ["rsquo", "’"],
+    ["lsquo", "‘"],
+    ["quot", '"'],
+    ["apos", "'"],
+    ["amp", "&"],
+    ["lt", "<"],
+    ["gt", ">"],
+  ]);
+
+  return value.replace(/&(#x[\da-f]+|#\d+|[a-z]+);/gi, (entity, body) => {
+    if (body.startsWith("#x") || body.startsWith("#X")) {
+      return String.fromCodePoint(Number.parseInt(body.slice(2), 16));
+    }
+    if (body.startsWith("#")) {
+      return String.fromCodePoint(Number.parseInt(body.slice(1), 10));
+    }
+    return namedEntities.get(body.toLowerCase()) ?? entity;
+  });
 }
 
 function parseFrenchAmountCents(value) {
@@ -268,6 +60,7 @@ export function parsePayouts(html) {
   const text = decodeHtmlEntities(
     html
       .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
       .replace(/<[^>]+>/g, " ")
       .replace(/\\n|\\r|\\t/g, " ")
       .replace(/\s+/g, " "),
@@ -318,7 +111,156 @@ export function parsePayouts(html) {
   );
 }
 
-async function fetchPayouts(officialUrl) {
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function findTeamIndex(source, team, fromIndex) {
+  const directIndex = source
+    .toLocaleLowerCase("fr")
+    .indexOf(team.toLocaleLowerCase("fr"), fromIndex);
+  if (directIndex >= 0) return directIndex;
+
+  const tokens = team.trim().split(/\s+/).filter(Boolean).map(escapeRegExp);
+  if (tokens.length === 0) return -1;
+  const separator = "(?:\\s|<[^>]+>)+";
+  const pattern = new RegExp(tokens.join(separator), "giu");
+  pattern.lastIndex = fromIndex;
+  return pattern.exec(source)?.index ?? -1;
+}
+
+function readAttribute(tag, attributeName) {
+  const pattern = new RegExp(
+    `(?:^|\\s)${escapeRegExp(attributeName)}\\s*=\\s*(?:"([^"]*)"|'([^']*)'|([^\\s>]+))`,
+    "i",
+  );
+  const match = tag.match(pattern);
+  return match?.[1] ?? match?.[2] ?? match?.[3];
+}
+
+function normalizeSelection(value) {
+  const normalized = decodeHtmlEntities(value).trim().toUpperCase();
+  if (VALID_SELECTIONS.has(normalized)) return normalized;
+  const delimited = normalized.match(/(?:^|[^A-Z0-9])(1|N|2)(?:[^A-Z0-9]|$)/u)?.[1];
+  return delimited && VALID_SELECTIONS.has(delimited) ? delimited : undefined;
+}
+
+function selectionFromTag(tag, followingSource = "") {
+  for (const attribute of [
+    "value",
+    "data-value",
+    "data-selection",
+    "data-result",
+    "data-outcome",
+    "aria-label",
+    "title",
+  ]) {
+    const value = readAttribute(tag, attribute);
+    const selection = value ? normalizeSelection(value) : undefined;
+    if (selection) return selection;
+  }
+
+  const adjacentText = decodeHtmlEntities(followingSource)
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return normalizeSelection(adjacentText.slice(0, 20));
+}
+
+function isSelectedTag(tag) {
+  if (/\schecked(?:\s|=|>|\/)/i.test(tag)) return true;
+  if (/\saria-checked\s*=\s*["']?true\b/i.test(tag)) return true;
+  if (/\sdata-(?:selected|checked|winner|winning)\s*=\s*["']?(?:true|1|yes)\b/i.test(tag)) {
+    return true;
+  }
+  const className = readAttribute(tag, "class") ?? "";
+  return /(?:^|\s)(?:is-)?(?:selected|checked|winner|winning|correct|active)(?:\s|$)/i.test(
+    className,
+  );
+}
+
+function parseSelectionFromSegment(segment) {
+  const candidates = [];
+  for (const input of segment.matchAll(/<input\b[^>]*>/giu)) {
+    if (!isSelectedTag(input[0])) continue;
+    const inputEnd = (input.index ?? 0) + input[0].length;
+    const following = segment.slice(inputEnd, inputEnd + 160);
+    const selection = selectionFromTag(input[0], following);
+    if (selection) candidates.push(selection);
+  }
+
+  const uniqueInputCandidates = [...new Set(candidates)];
+  if (uniqueInputCandidates.length === 1) return uniqueInputCandidates[0];
+
+  const selectedElementPattern =
+    /<(?:label|span|button|div)\b([^>]*(?:selected|checked|winner|winning|correct|aria-current)[^>]*)>([\s\S]{0,120}?)<\/(?:label|span|button|div)>/giu;
+  const elementCandidates = [];
+  for (const element of segment.matchAll(selectedElementPattern)) {
+    const text = decodeHtmlEntities(element[2])
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ");
+    const selection = normalizeSelection(text);
+    if (selection) elementCandidates.push(selection);
+  }
+  const uniqueElementCandidates = [...new Set(elementCandidates)];
+  if (uniqueElementCandidates.length === 1) return uniqueElementCandidates[0];
+
+  const jsonCandidates = [
+    ...segment.matchAll(
+      /["'](?:officialSelection|winningSelection|winningChoice|result|selection|outcome)["']\s*:\s*["'](1|N|2)["']/giu,
+    ),
+  ].map((match) => match[1].toUpperCase());
+  const uniqueJsonCandidates = [...new Set(jsonCandidates)];
+  return uniqueJsonCandidates.length === 1 ? uniqueJsonCandidates[0] : undefined;
+}
+
+function parseGlobalSelections(source, expectedCount) {
+  const checkedInputs = [];
+  for (const input of source.matchAll(/<input\b[^>]*>/giu)) {
+    if (!isSelectedTag(input[0])) continue;
+    const inputEnd = (input.index ?? 0) + input[0].length;
+    const following = source.slice(inputEnd, inputEnd + 160);
+    const selection = selectionFromTag(input[0], following);
+    if (selection) checkedInputs.push(selection);
+  }
+  if (checkedInputs.length === expectedCount) return checkedInputs;
+
+  const jsonSelections = [
+    ...source.matchAll(
+      /["'](?:officialSelection|winningSelection|winningChoice|result|outcome)["']\s*:\s*["'](1|N|2)["']/giu,
+    ),
+  ].map((match) => match[1].toUpperCase());
+  return jsonSelections.length === expectedCount ? jsonSelections : [];
+}
+
+export function parseOfficialSelections(html, matches) {
+  const source = decodeHtmlEntities(html);
+  const selections = [];
+  let cursor = 0;
+
+  for (const match of matches) {
+    const homeIndex = findTeamIndex(source, match.homeTeam, cursor);
+    if (homeIndex < 0) return [];
+    const awayIndex = findTeamIndex(source, match.awayTeam, homeIndex + match.homeTeam.length);
+    if (awayIndex < 0) return [];
+
+    const segment = source.slice(homeIndex, awayIndex + match.awayTeam.length);
+    const selection = parseSelectionFromSegment(segment);
+    if (!selection) {
+      return parseGlobalSelections(source, matches.length).map((value, index) => ({
+        position: index + 1,
+        selection: value,
+      }));
+    }
+
+    selections.push({ position: match.position, selection });
+    cursor = awayIndex + match.awayTeam.length;
+  }
+
+  return selections;
+}
+
+async function fetchOfficialHtml(officialUrl) {
   const response = await fetch(officialUrl, {
     headers: {
       "user-agent":
@@ -328,8 +270,7 @@ async function fetchPayouts(officialUrl) {
     },
   });
   if (!response.ok) throw new Error(`FDJ a répondu ${response.status} pour ${officialUrl}`);
-  const html = await response.text();
-  return parsePayouts(html);
+  return response.text();
 }
 
 async function fileExists(filePath) {
@@ -341,130 +282,34 @@ async function fileExists(filePath) {
   }
 }
 
-function scoreCacheRelativePath(publicationId) {
-  return `${SCORE_CACHE_DIRECTORY}/${publicationId}.json`;
+function formatParisTimestamp(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+    timeZoneName: "longOffset",
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+  const offset = values.timeZoneName.replace("GMT", "");
+  return `${values.year}-${values.month}-${values.day}T${values.hour}:${values.minute}:${values.second}${offset}`;
 }
 
-async function loadScoreCache(rootDirectory, publication) {
-  const relativePath = scoreCacheRelativePath(publication.id);
-  const absolutePath = path.join(rootDirectory, relativePath);
-  if (!(await fileExists(absolutePath))) {
-    return {
-      relativePath,
-      value: { version: 1, publicationId: publication.id, matches: [] },
-    };
-  }
-
-  const value = JSON.parse(await readFile(absolutePath, "utf8"));
-  if (value.publicationId !== publication.id || !Array.isArray(value.matches)) {
-    throw new Error(`Cache de scores invalide pour ${publication.id}.`);
-  }
-  return { relativePath, value };
-}
-
-function canonicalCacheValue(publicationId, matches, capturedAt) {
-  return {
-    version: 1,
-    publicationId,
-    capturedAt,
-    matches: [...matches].sort((left, right) => left.position - right.position),
-  };
-}
-
-async function capturePublicationScores({
-  rootDirectory,
-  publication,
-  apiKey,
-  fixtureCache,
-}) {
-  const cache = await loadScoreCache(rootDirectory, publication);
-  const cachedByPosition = new Map(cache.value.matches.map((match) => [match.position, match]));
-  const missingMatches = publication.matches.filter(
-    (match) => !cachedByPosition.has(match.position),
+async function settlePendingPublications({ rootDirectory }) {
+  const inventory = JSON.parse(
+    await readFile(path.join(rootDirectory, INVENTORY_PATH), "utf8"),
   );
-
-  const dates = [
-    ...new Set(
-      missingMatches.flatMap((match) =>
-        fixtureDatesForMatch(match, publication.validationDeadline),
-      ),
-    ),
-  ];
-
-  for (const date of dates) {
-    if (!fixtureCache.has(date)) {
-      fixtureCache.set(date, await fetchFixturesByDateSafely(date, apiKey));
-    }
-  }
-
-  const capturedAt = formatParisTimestamp();
-  let changed = false;
-  const unmatched = [];
-  const unfinished = [];
-
-  for (const match of missingMatches) {
-    const fixtures = fixtureDatesForMatch(match, publication.validationDeadline).flatMap(
-      (date) => fixtureCache.get(date) ?? [],
-    );
-    const fixture = findFixture(match, fixtures);
-    if (!fixture) {
-      unmatched.push({ match, candidates: fixtureCandidateSummary(match, fixtures) });
-      continue;
-    }
-
-    const cachedMatch = cachedMatchFromFixture(match, fixture, capturedAt);
-    if (!cachedMatch) {
-      unfinished.push(match);
-      continue;
-    }
-
-    cachedByPosition.set(match.position, cachedMatch);
-    changed = true;
-  }
-
-  const nextValue = canonicalCacheValue(
-    publication.id,
-    [...cachedByPosition.values()],
-    changed ? capturedAt : cache.value.capturedAt,
-  );
-
-  if (changed) {
-    await mkdir(path.join(rootDirectory, SCORE_CACHE_DIRECTORY), { recursive: true });
-    await writeFile(
-      path.join(rootDirectory, cache.relativePath),
-      `${JSON.stringify(nextValue, null, 2)}\n`,
-      "utf8",
-    );
-    console.log(
-      `${publication.id} : ${nextValue.matches.length}/${publication.matches.length} scores conservés.`,
-    );
-  }
-
-  return { cache: nextValue, unmatched, unfinished };
-}
-
-function buildBlockedReason(publication, captured) {
-  const cachedPositions = new Set(captured.cache.matches.map(({ position }) => position));
-  const missing = publication.matches.filter(({ position }) => !cachedPositions.has(position));
-  const details = missing.map((match) => {
-    const unmatched = captured.unmatched.find(
-      ({ match: candidate }) => candidate.position === match.position,
-    );
-    if (unmatched) {
-      return `${match.homeTeam} - ${match.awayTeam}${unmatched.candidates ? ` ; meilleurs candidats : ${unmatched.candidates}` : " ; aucun candidat accessible"}`;
-    }
-    return `${match.homeTeam} - ${match.awayTeam} ; résultat final indisponible`;
-  });
-  return `${publication.id} : ${missing.length} résultat(s) manquant(s) : ${details.join(" || ")}`;
-}
-
-async function settlePendingPublications({ rootDirectory, apiKey }) {
-  const inventory = JSON.parse(await readFile(path.join(rootDirectory, INVENTORY_PATH), "utf8"));
   const pendingPaths = [...(inventory.pendingPublications ?? [])];
   const publications = await Promise.all(
     pendingPaths.map(async (relativePath) => ({
       relativePath,
-      publication: JSON.parse(await readFile(path.join(rootDirectory, relativePath), "utf8")),
+      publication: JSON.parse(
+        await readFile(path.join(rootDirectory, relativePath), "utf8"),
+      ),
     })),
   );
   publications.sort(
@@ -473,7 +318,6 @@ async function settlePendingPublications({ rootDirectory, apiKey }) {
       Date.parse(right.publication.validationDeadline),
   );
 
-  const fixtureCache = new Map();
   const blockedReasons = [];
   const settledPublications = [];
 
@@ -482,76 +326,59 @@ async function settlePendingPublications({ rootDirectory, apiKey }) {
     const resultRelativePath = relativePath.replace("/publications/", "/results/");
     if (await fileExists(path.join(rootDirectory, resultRelativePath))) continue;
 
-    const captured = await capturePublicationScores({
-      rootDirectory,
-      publication,
-      apiKey,
-      fixtureCache,
-    });
+    try {
+      const html = await fetchOfficialHtml(publication.officialUrl);
+      const payouts = parsePayouts(html);
+      if (payouts.length === 0) {
+        console.log(`${publication.id} ignorée : rapports FDJ encore indisponibles.`);
+        continue;
+      }
 
-    const payouts = await fetchPayouts(publication.officialUrl);
-    if (payouts.length === 0) {
-      console.log(`${publication.id} ignorée : rapports FDJ introuvables dans la page officielle.`);
-      continue;
+      const officialMatches = parseOfficialSelections(html, publication.matches);
+      if (officialMatches.length !== publication.matches.length) {
+        const reason = `${publication.id} : la page FDJ contient les rapports, mais la suite officielle 1/N/2 n’est pas encore exploitable.`;
+        blockedReasons.push(reason);
+        console.error(reason);
+        continue;
+      }
+
+      const settledAt = formatParisTimestamp();
+      const result = {
+        id: `${publication.id}-result`,
+        publicationId: publication.id,
+        gridNumber: publication.gridNumber,
+        settledAt,
+        officialUrl: publication.officialUrl,
+        matches: officialMatches,
+        payouts,
+        sources: [
+          {
+            label: `FDJ - Résultats et rapports officiels Loto Foot ${publication.formula} n°${publication.gridNumber}`,
+            url: publication.officialUrl,
+            accessedAt: settledAt,
+          },
+        ],
+      };
+
+      await writeFile(
+        path.join(rootDirectory, resultRelativePath),
+        `${JSON.stringify(result, null, 2)}\n`,
+        "utf8",
+      );
+      settledPublications.push(publication.id);
+      console.log(`Règlement créé : ${resultRelativePath}`);
+    } catch (error) {
+      const reason = `${publication.id} : consultation FDJ impossible (${errorMessage(error)}).`;
+      blockedReasons.push(reason);
+      console.error(reason);
     }
-
-    if (captured.cache.matches.length !== publication.matches.length) {
-      const blockedReason = buildBlockedReason(publication, captured);
-      blockedReasons.push(blockedReason);
-      console.error(blockedReason);
-      continue;
-    }
-
-    const settledAt = formatParisTimestamp();
-    const result = {
-      id: `${publication.id}-result`,
-      publicationId: publication.id,
-      gridNumber: publication.gridNumber,
-      settledAt,
-      officialUrl: publication.officialUrl,
-      matches: captured.cache.matches.map(
-        ({ position, selection, homeScore, awayScore }) => ({
-          position,
-          selection,
-          homeScore,
-          awayScore,
-        }),
-      ),
-      payouts,
-      sources: [
-        {
-          label: `FDJ - Résultats et rapports officiels Loto Foot ${publication.formula} n°${publication.gridNumber}`,
-          url: publication.officialUrl,
-          accessedAt: settledAt,
-        },
-        {
-          label: "API-Football - Résultats finaux conservés à la fin des rencontres",
-          url: "https://www.api-football.com/",
-          accessedAt: settledAt,
-        },
-      ],
-    };
-
-    await writeFile(
-      path.join(rootDirectory, resultRelativePath),
-      `${JSON.stringify(result, null, 2)}\n`,
-      "utf8",
-    );
-    settledPublications.push(publication.id);
-    console.log(`Règlement créé : ${resultRelativePath}`);
   }
 
   return { blockedReasons, settledPublications };
 }
 
 async function run() {
-  const apiKey = process.env.API_FOOTBALL_KEY;
-  if (!apiKey) throw new Error("Le secret API_FOOTBALL_KEY est absent.");
-  const outcome = await settlePendingPublications({
-    rootDirectory: process.cwd(),
-    apiKey,
-  });
-
+  const outcome = await settlePendingPublications({ rootDirectory: process.cwd() });
   console.log(`SETTLED_COUNT=${outcome.settledPublications.length}`);
   console.log(`BLOCKED_COUNT=${outcome.blockedReasons.length}`);
   for (const reason of outcome.blockedReasons) console.log(`BLOCKED_REASON=${reason}`);
