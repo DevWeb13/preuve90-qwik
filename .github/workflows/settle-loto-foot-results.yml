@@ -36,9 +36,7 @@ jobs:
         with:
           node-version-file: .nvmrc
 
-      - name: Capture, settle and synchronize
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      - name: Settle and synchronize
         shell: bash
         run: |
           set -euo pipefail
@@ -62,7 +60,7 @@ jobs:
             if [ -n "$changed_files" ]; then
               unexpected_files="$(
                 printf '%s\n' "$changed_files" |
-                  grep -Ev '^src/content/loto-foot/(inventory\.json|results/[^/]+\.json|score-cache/[^/]+\.json)$' || true
+                  grep -Ev '^src/content/loto-foot/(inventory\.json|results/[^/]+\.json)$' || true
               )"
 
               if [ -n "$unexpected_files" ]; then
@@ -72,7 +70,7 @@ jobs:
               fi
 
               git add --all -- src/content/loto-foot
-              git commit -m "content: capture and settle Loto Foot results"
+              git commit -m "content: settle Loto Foot results"
 
               if ! git push origin HEAD:master; then
                 echo "Concurrent master update while publishing settlements (${attempt}/3)." >&2
@@ -81,18 +79,18 @@ jobs:
             fi
 
             if [ "$blocked_count" -gt 0 ]; then
-              echo "::warning title=Règlements Loto Foot en attente::Les rapports FDJ sont disponibles, mais certains scores manquent encore. Le prochain passage réessaiera automatiquement."
+              echo "::warning title=Résultats Loto Foot en attente::La page FDJ ne fournit pas encore une suite officielle 1/N/2 complète et exploitable. Le prochain passage réessaiera automatiquement."
               {
-                echo "### Règlements Loto Foot en attente"
+                echo "### Résultats Loto Foot en attente"
                 echo
-                echo "Les rapports FDJ sont disponibles, mais certains scores ne sont pas encore récupérables. Cet état est temporaire et sera réessayé automatiquement."
+                echo "La page FDJ ne fournit pas encore une suite officielle 1/N/2 complète et exploitable. Le prochain passage réessaiera automatiquement."
                 echo
                 printf '%s\n' "$output" | sed -n 's/^BLOCKED_REASON=/- /p'
               } >> "$GITHUB_STEP_SUMMARY"
             fi
 
             if [ -z "$changed_files" ]; then
-              echo "No score cache, settlement or inventory update was needed."
+              echo "No settlement or inventory update was needed."
             fi
             exit 0
           done
