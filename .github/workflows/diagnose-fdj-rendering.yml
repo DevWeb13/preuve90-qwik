@@ -30,9 +30,6 @@ jobs:
         id: setup-chrome
         uses: browser-actions/setup-chrome@v2
 
-      - name: Install Playwright Core
-        run: npm install --no-save --package-lock=false playwright-core@1.62.1
-
       - name: Inspect LF15 n°60 after browser rendering
         env:
           CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
