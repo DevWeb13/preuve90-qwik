@@ -81,9 +81,14 @@ jobs:
             fi
 
             if [ "$blocked_count" -gt 0 ]; then
-              echo "Official settlements are available but some scores are still missing." >&2
-              printf '%s\n' "$output" | sed -n 's/^BLOCKED_REASON=//p' >&2
-              exit 1
+              echo "::warning title=Règlements Loto Foot en attente::Les rapports FDJ sont disponibles, mais certains scores manquent encore. Le prochain passage réessaiera automatiquement."
+              {
+                echo "### Règlements Loto Foot en attente"
+                echo
+                echo "Les rapports FDJ sont disponibles, mais certains scores ne sont pas encore récupérables. Cet état est temporaire et sera réessayé automatiquement."
+                echo
+                printf '%s\n' "$output" | sed -n 's/^BLOCKED_REASON=/- /p'
+              } >> "$GITHUB_STEP_SUMMARY"
             fi
 
             if [ -z "$changed_files" ]; then
