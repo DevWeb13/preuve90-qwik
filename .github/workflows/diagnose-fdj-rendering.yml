@@ -1,0 +1,64 @@
+name: Diagnose FDJ rendered results
+
+on:
+  pull_request:
+    paths:
+      - scripts/render-fdj-fetch-hook.mjs
+      - scripts/settle-loto-foot.mjs
+      - .github/workflows/diagnose-fdj-rendering.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    name: Inspect rendered FDJ controls
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+
+      - name: Set up Chrome
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v2
+
+      - name: Install Playwright Core
+        run: npm install --no-save --package-lock=false playwright-core@1.62.1
+
+      - name: Inspect LF15 n°60 after browser rendering
+        env:
+          CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+        run: |
+          node --import ./scripts/render-fdj-fetch-hook.mjs --input-type=module <<'EOF'
+          import { readFile } from "node:fs/promises";
+          import { parseOfficialSelections, parsePayouts } from "./scripts/settle-loto-foot.mjs";
+
+          const publication = JSON.parse(
+            await readFile(
+              "src/content/loto-foot/publications/lf15-60-2026-07-30.json",
+              "utf8",
+            ),
+          );
+          const response = await fetch(publication.officialUrl);
+          const html = await response.text();
+          const payouts = parsePayouts(html);
+          const selections = parseOfficialSelections(html, publication.matches);
+
+          console.log(`DIAGNOSTIC_PAYOUTS=${JSON.stringify(payouts)}`);
+          console.log(`DIAGNOSTIC_SELECTIONS=${JSON.stringify(selections)}`);
+          console.log(
+            `DIAGNOSTIC_COUNTS payouts=${payouts.length} selections=${selections.length} expected=${publication.matches.length}`,
+          );
+
+          if (payouts.length === 0 || selections.length !== publication.matches.length) {
+            process.exitCode = 1;
+          }
+          EOF
