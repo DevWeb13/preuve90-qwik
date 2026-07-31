@@ -189,44 +189,28 @@ async function renderFdjPage(url) {
     await loadEvent;
     await wait(5_000);
 
-    const html = await evaluate(connection, "document.documentElement.outerHTML");
-    const inputDetails = await evaluate(
+    const normalizedInputs = await evaluate(
       connection,
-      `Array.from(document.querySelectorAll("input")).slice(0, 120).map((element) => ({
-        type: element.getAttribute("type"),
-        name: element.getAttribute("name"),
-        value: element.getAttribute("value"),
-        checked: "checked" in element ? element.checked : undefined,
-        class: element.getAttribute("class"),
-        ariaChecked: element.getAttribute("aria-checked"),
-        ariaLabel: element.getAttribute("aria-label"),
-        data: Array.from(element.attributes)
-          .filter((attribute) => attribute.name.startsWith("data-"))
-          .reduce((record, attribute) => {
-            record[attribute.name] = attribute.value;
-            return record;
-          }, {}),
-        outerHtml: element.outerHTML.slice(0, 500),
-      }))`,
-    );
-    const selectedDetails = await evaluate(
-      connection,
-      `Array.from(document.querySelectorAll(
-        'input:checked, [aria-checked="true"], [data-selected="true"], [data-checked="true"], [data-winner="true"], [data-winning="true"], .selected, .is-selected, .winner, .winning, .correct'
-      )).slice(0, 120).map((element) => ({
-        tag: element.tagName,
-        text: (element.textContent || "").trim().slice(0, 120),
-        class: element.getAttribute("class"),
-        ariaChecked: element.getAttribute("aria-checked"),
-        outerHtml: element.outerHTML.slice(0, 700),
-      }))`,
+      `(() => {
+        const values = { one: "1", n: "N", two: "2" };
+        const inputs = Array.from(document.querySelectorAll('input[formcontrolname]'));
+        for (const input of inputs) {
+          const selection = values[input.getAttribute('formcontrolname')];
+          if (selection) input.setAttribute('value', selection);
+          if (input.checked) input.setAttribute('checked', '');
+          else input.removeAttribute('checked');
+        }
+        return {
+          total: inputs.length,
+          checked: inputs.filter((input) => input.checked).length,
+        };
+      })()`,
     );
 
+    const html = await evaluate(connection, "document.documentElement.outerHTML");
     console.log(
-      `FDJ_RENDERED url=${url} html_bytes=${Buffer.byteLength(html)} inputs=${inputDetails.length} selected_candidates=${selectedDetails.length}`,
+      `FDJ_RENDERED url=${url} html_bytes=${Buffer.byteLength(html)} inputs=${normalizedInputs.total} checked=${normalizedInputs.checked}`,
     );
-    console.log(`FDJ_INPUT_DETAILS=${JSON.stringify(inputDetails)}`);
-    console.log(`FDJ_SELECTED_DETAILS=${JSON.stringify(selectedDetails)}`);
 
     return html;
   } finally {
