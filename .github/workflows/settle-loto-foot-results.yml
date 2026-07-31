@@ -79,11 +79,11 @@ jobs:
             fi
 
             if [ "$blocked_count" -gt 0 ]; then
-              echo "::warning title=Résultats Loto Foot en attente::La page FDJ ne fournit pas encore une suite officielle 1/N/2 complète et exploitable. Le prochain passage réessaiera automatiquement."
+              echo "::warning title=Résultats Loto Foot en attente::Une ou plusieurs grilles n’ont pas encore pu être réglées depuis leur page officielle FDJ. Le prochain passage réessaiera automatiquement."
               {
                 echo "### Résultats Loto Foot en attente"
                 echo
-                echo "La page FDJ ne fournit pas encore une suite officielle 1/N/2 complète et exploitable. Le prochain passage réessaiera automatiquement."
+                echo "Une ou plusieurs grilles n’ont pas encore pu être réglées depuis leur page officielle FDJ. Le prochain passage réessaiera automatiquement."
                 echo
                 printf '%s\n' "$output" | sed -n 's/^BLOCKED_REASON=/- /p'
               } >> "$GITHUB_STEP_SUMMARY"
