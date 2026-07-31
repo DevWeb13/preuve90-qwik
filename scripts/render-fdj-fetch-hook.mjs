@@ -1,4 +1,7 @@
-import { chromium } from "playwright-core";
+import { spawn } from "node:child_process";
+import { mkdtemp, readFile, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
 
 const nativeFetch = globalThis.fetch.bind(globalThis);
 const FDJ_HOST = "www.pointdevente.parionssport.fdj.fr";
@@ -21,37 +24,175 @@ function isFdjLotoFootUrl(value) {
   }
 }
 
+function wait(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+class CdpConnection {
+  constructor(webSocketUrl) {
+    this.nextId = 1;
+    this.pending = new Map();
+    this.listeners = new Map();
+    this.socket = new WebSocket(webSocketUrl);
+  }
+
+  async open() {
+    await new Promise((resolve, reject) => {
+      const timeout = setTimeout(
+        () => reject(new Error("Connexion au navigateur expirée.")),
+        10_000,
+      );
+      this.socket.addEventListener(
+        "open",
+        () => {
+          clearTimeout(timeout);
+          resolve();
+        },
+        { once: true },
+      );
+      this.socket.addEventListener(
+        "error",
+        () => {
+          clearTimeout(timeout);
+          reject(new Error("Connexion au navigateur impossible."));
+        },
+        { once: true },
+      );
+    });
+
+    this.socket.addEventListener("message", (event) => {
+      const message = JSON.parse(String(event.data));
+      if (message.id) {
+        const pending = this.pending.get(message.id);
+        if (!pending) return;
+        this.pending.delete(message.id);
+        if (message.error) {
+          pending.reject(new Error(message.error.message));
+        } else {
+          pending.resolve(message.result);
+        }
+        return;
+      }
+
+      const listeners = this.listeners.get(message.method) ?? [];
+      this.listeners.delete(message.method);
+      for (const listener of listeners) listener(message.params);
+    });
+  }
+
+  send(method, params = {}) {
+    const id = this.nextId++;
+    return new Promise((resolve, reject) => {
+      this.pending.set(id, { resolve, reject });
+      this.socket.send(JSON.stringify({ id, method, params }));
+    });
+  }
+
+  waitForEvent(method, timeoutMilliseconds) {
+    return new Promise((resolve, reject) => {
+      const timeout = setTimeout(() => {
+        const listeners = this.listeners.get(method) ?? [];
+        this.listeners.set(
+          method,
+          listeners.filter((listener) => listener !== onEvent),
+        );
+        reject(new Error(`Évènement Chrome absent : ${method}`));
+      }, timeoutMilliseconds);
+
+      const onEvent = (params) => {
+        clearTimeout(timeout);
+        resolve(params);
+      };
+      const listeners = this.listeners.get(method) ?? [];
+      listeners.push(onEvent);
+      this.listeners.set(method, listeners);
+    });
+  }
+
+  close() {
+    this.socket.close();
+  }
+}
+
+async function waitForDevToolsPort(userDataDirectory, chromeProcess, stderr) {
+  const portFile = path.join(userDataDirectory, "DevToolsActivePort");
+  for (let attempt = 0; attempt < 150; attempt += 1) {
+    if (chromeProcess.exitCode !== null) {
+      throw new Error(`Chrome s’est arrêté avant le démarrage. ${stderr.value}`);
+    }
+    try {
+      const [port] = (await readFile(portFile, "utf8")).trim().split(/\r?\n/u);
+      if (port) return Number.parseInt(port, 10);
+    } catch {
+      // Chrome écrit le fichier après son initialisation.
+    }
+    await wait(100);
+  }
+  throw new Error("Chrome n’a pas exposé son port de débogage.");
+}
+
+async function evaluate(connection, expression) {
+  const evaluation = await connection.send("Runtime.evaluate", {
+    expression,
+    returnByValue: true,
+    awaitPromise: true,
+  });
+  if (evaluation.exceptionDetails) {
+    throw new Error(evaluation.exceptionDetails.text ?? "Évaluation Chrome impossible.");
+  }
+  return evaluation.result.value;
+}
+
 async function renderFdjPage(url) {
   const executablePath = process.env.CHROME_PATH;
   if (!executablePath) {
-    throw new Error("CHROME_PATH est absent : Chromium ne peut pas être lancé.");
+    throw new Error("CHROME_PATH est absent : Chrome ne peut pas être lancé.");
   }
 
-  const browser = await chromium.launch({
+  const userDataDirectory = await mkdtemp(path.join(tmpdir(), "preuve90-chrome-"));
+  const stderr = { value: "" };
+  const chromeProcess = spawn(
     executablePath,
-    headless: true,
-    args: ["--no-sandbox", "--disable-dev-shm-usage"],
+    [
+      "--headless=new",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+      "--remote-debugging-port=0",
+      `--user-data-dir=${userDataDirectory}`,
+      "about:blank",
+    ],
+    { stdio: ["ignore", "ignore", "pipe"] },
+  );
+  chromeProcess.stderr.on("data", (chunk) => {
+    stderr.value = `${stderr.value}${chunk}`.slice(-8_000);
   });
 
+  let connection;
   try {
-    const context = await browser.newContext({
-      locale: "fr-FR",
-      userAgent:
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36 Preuve90/1.0",
-    });
-    const page = await context.newPage();
+    const port = await waitForDevToolsPort(userDataDirectory, chromeProcess, stderr);
+    const targetResponse = await nativeFetch(
+      `http://127.0.0.1:${port}/json/new?about:blank`,
+      { method: "PUT" },
+    );
+    if (!targetResponse.ok) {
+      throw new Error(`Création de l’onglet Chrome impossible (${targetResponse.status}).`);
+    }
+    const target = await targetResponse.json();
+    connection = new CdpConnection(target.webSocketDebuggerUrl);
+    await connection.open();
+    await connection.send("Page.enable");
+    await connection.send("Runtime.enable");
 
-    await page.goto(url, {
-      waitUntil: "domcontentloaded",
-      timeout: 60_000,
-    });
+    const loadEvent = connection.waitForEvent("Page.loadEventFired", 60_000);
+    await connection.send("Page.navigate", { url });
+    await loadEvent;
+    await wait(5_000);
 
-    await page.waitForLoadState("networkidle", { timeout: 15_000 }).catch(() => {});
-    await page.waitForTimeout(3_000);
-
-    const html = await page.content();
-    const inputDetails = await page.locator("input").evaluateAll((elements) =>
-      elements.slice(0, 120).map((element) => ({
+    const html = await evaluate(connection, "document.documentElement.outerHTML");
+    const inputDetails = await evaluate(
+      connection,
+      `Array.from(document.querySelectorAll("input")).slice(0, 120).map((element) => ({
         type: element.getAttribute("type"),
         name: element.getAttribute("name"),
         value: element.getAttribute("value"),
@@ -59,27 +200,26 @@ async function renderFdjPage(url) {
         class: element.getAttribute("class"),
         ariaChecked: element.getAttribute("aria-checked"),
         ariaLabel: element.getAttribute("aria-label"),
-        data: [...element.attributes]
+        data: Array.from(element.attributes)
           .filter((attribute) => attribute.name.startsWith("data-"))
           .reduce((record, attribute) => {
             record[attribute.name] = attribute.value;
             return record;
           }, {}),
         outerHtml: element.outerHTML.slice(0, 500),
-      })),
+      }))`,
     );
-
-    const selectedLocator = page.locator(
-      'input:checked, [aria-checked="true"], [data-selected="true"], [data-checked="true"], [data-winner="true"], [data-winning="true"], .selected, .is-selected, .winner, .winning, .correct',
-    );
-    const selectedDetails = await selectedLocator.evaluateAll((elements) =>
-      elements.slice(0, 120).map((element) => ({
+    const selectedDetails = await evaluate(
+      connection,
+      `Array.from(document.querySelectorAll(
+        'input:checked, [aria-checked="true"], [data-selected="true"], [data-checked="true"], [data-winner="true"], [data-winning="true"], .selected, .is-selected, .winner, .winning, .correct'
+      )).slice(0, 120).map((element) => ({
         tag: element.tagName,
-        text: (element.textContent ?? "").trim().slice(0, 120),
+        text: (element.textContent || "").trim().slice(0, 120),
         class: element.getAttribute("class"),
         ariaChecked: element.getAttribute("aria-checked"),
         outerHtml: element.outerHTML.slice(0, 700),
-      })),
+      }))`,
     );
 
     console.log(
@@ -90,7 +230,11 @@ async function renderFdjPage(url) {
 
     return html;
   } finally {
-    await browser.close();
+    connection?.close();
+    chromeProcess.kill("SIGTERM");
+    await wait(500);
+    if (chromeProcess.exitCode === null) chromeProcess.kill("SIGKILL");
+    await rm(userDataDirectory, { recursive: true, force: true });
   }
 }
 
