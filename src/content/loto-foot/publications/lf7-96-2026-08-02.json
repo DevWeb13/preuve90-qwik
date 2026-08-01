@@ -1,0 +1,269 @@
+{
+  "id": "lf7-96-2026-08-02",
+  "formula": 7,
+  "gridNumber": 96,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+  "validationDeadline": "2026-08-02T16:25:00+02:00",
+  "publishedAt": "2026-08-01T13:56:57+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Grasshoppers",
+      "awayTeam": "FC Lugano",
+      "competition": "Championnat de Suisse",
+      "startsAt": "2026-08-02T16:30:00+02:00",
+      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "analysis": {
+        "summary": "Lugano dispose d'un léger avantage de qualité et d'un effectif un peu moins diminué, mais Grasshoppers reçoit et conserve une vraie capacité à rendre cette affiche équilibrée.",
+        "keyFactors": [
+          "Grasshoppers est privé de plusieurs joueurs, dont Lee suspendu et plusieurs blessés",
+          "Lugano compte moins d'absents majeurs annoncés",
+          "L'avantage du terrain maintient les trois issues crédibles"
+        ],
+        "uncertainty": "Le début de saison suisse limite le recul sur la forme réelle et les automatismes des deux équipes.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "Transfermarkt - effectifs indisponibles et historique Grasshoppers-Lugano",
+            "url": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4897297",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Sion",
+      "awayTeam": "Lucerne",
+      "competition": "Championnat de Suisse",
+      "startsAt": "2026-08-02T16:30:00+02:00",
+      "probabilities": { "home": 46, "draw": 29, "away": 25 },
+      "analysis": {
+        "summary": "Sion arrive avec une dynamique plus convaincante et l'avantage de Tourbillon, tandis que Lucerne reste compétitif mais davantage touché par les absences.",
+        "keyFactors": [
+          "Sion a enchaîné plusieurs résultats positifs lors de sa préparation",
+          "Lucerne présente plusieurs indisponibilités annoncées",
+          "Sion bénéficie de l'avantage du terrain"
+        ],
+        "uncertainty": "Les résultats de préparation ne reflètent pas toujours fidèlement le niveau compétitif d'un début de championnat.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "BSD - horaire, forme récente et absences",
+            "url": "https://sports.bzzoiro.com/matches/211376/",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "Transfermarkt - indisponibilités Sion-Lucerne",
+            "url": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4897298",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Rapid Bucarest",
+      "awayTeam": "CFR Cluj",
+      "competition": "Championnat de Roumanie",
+      "startsAt": "2026-08-02T20:30:00+02:00",
+      "probabilities": { "home": 39, "draw": 34, "away": 27 },
+      "analysis": {
+        "summary": "Rapid paraît légèrement mieux placé grâce au terrain et à une série solide, mais son faible volume de buts laisse beaucoup de place au nul face à un CFR Cluj expérimenté.",
+        "keyFactors": [
+          "Rapid reste sur une série sans défaite",
+          "La production offensive récente de Rapid demeure limitée",
+          "Le CFR Cluj conserve une forte expérience des matchs serrés"
+        ],
+        "uncertainty": "Le faible écart entre les équipes et le profil fermé de Rapid rendent le scénario très sensible au premier but.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "FotMob - forme récente et absences Rapid-CFR",
+            "url": "https://www.fotmob.com/matches/cfr-cluj-vs-rapid-bucuresti/34uicl?player=789488",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Silkeborg",
+      "awayTeam": "FC Copenhague",
+      "competition": "Championnat du Danemark",
+      "startsAt": "2026-08-02T18:00:00+02:00",
+      "probabilities": { "home": 23, "draw": 25, "away": 52 },
+      "analysis": {
+        "summary": "Copenhague reste le choix prioritaire grâce à sa profondeur et à une dynamique offensive plus régulière, même si Silkeborg peut profiter du terrain et d'un contexte de début de saison.",
+        "keyFactors": [
+          "Copenhague a remporté plusieurs de ses derniers matchs et marque régulièrement",
+          "Silkeborg a récemment subi plusieurs lourdes défaites",
+          "Copenhague a dominé la majorité des confrontations récentes"
+        ],
+        "uncertainty": "Les deux équipes comptent plusieurs joueurs incertains ou blessés, ce qui peut modifier fortement les compositions.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "FotMob - forme et absences Silkeborg-Copenhague",
+            "url": "https://www.fotmob.com/en-GB/matches/silkeborg-fc-kbenhavn/2c37no",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "Superliga - historique et tendances de la confrontation",
+            "url": "https://superliga.dk/nyheder/optakter/2025-26/31-spillerunde/preview-silkeborg-if-f-c-kobenhavn",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hibernian",
+      "awayTeam": "Motherwell",
+      "competition": "Championnat d'Écosse",
+      "startsAt": "2026-08-02T17:30:00+02:00",
+      "probabilities": { "home": 40, "draw": 31, "away": 29 },
+      "analysis": {
+        "summary": "Hibernian conserve un léger avantage à Easter Road, mais Motherwell arrive avec une confiance européenne et a déjà montré qu'il pouvait neutraliser cette opposition.",
+        "keyFactors": [
+          "Hibernian joue à domicile",
+          "Motherwell a récemment enchaîné des matchs européens compétitifs",
+          "Les confrontations récentes ont souvent été serrées"
+        ],
+        "uncertainty": "La fatigue européenne de Motherwell peut peser, mais le rythme compétitif supplémentaire peut aussi constituer un avantage.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "FotMob - horaire et indisponibilités Hibernian-Motherwell",
+            "url": "https://www.fotmob.com/matches/motherwell-vs-hibernian/3d7rki",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "The Scottish Sun - contexte européen récent de Motherwell",
+            "url": "https://www.thescottishsun.co.uk/sport/16613072/scottish-premiership-boss-demand-players-european-crunch/",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "Sports Mole - confrontation récente et tendances",
+            "url": "https://www.sportsmole.co.uk/football/hibernian/preview/hibernian-vs-motherwell-prediction-team-news-lineups_597499.html",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "SK Brann",
+      "awayTeam": "Rosenborg",
+      "competition": "Championnat de Norvège",
+      "startsAt": "2026-08-02T19:15:00+02:00",
+      "probabilities": { "home": 39, "draw": 28, "away": 33 },
+      "analysis": {
+        "summary": "Brann garde un léger avantage grâce au terrain, mais Rosenborg arrive avec une dynamique immédiate supérieure et plusieurs succès convaincants.",
+        "keyFactors": [
+          "Rosenborg reste sur plusieurs victoires nettes",
+          "Brann a été plus irrégulier récemment",
+          "Brann bénéficie du soutien du Brann Stadion"
+        ],
+        "uncertainty": "La forme récente favorise Rosenborg, mais l'écart de niveau reste faible et Brann demeure dangereux à domicile.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "FotMob - forme récente et absences Brann-Rosenborg",
+            "url": "https://www.fotmob.com/matches/rosenborg-vs-brann/2cxjqb",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "Brann - contexte et indisponibilités",
+            "url": "https://www.brann.no/nyheter/for-kampen-rosenborg-brann-2026b",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "St Patrick's Athletic",
+      "awayTeam": "Derry City",
+      "competition": "Championnat d'Irlande",
+      "startsAt": "2026-08-02T18:00:00+02:00",
+      "probabilities": { "home": 53, "draw": 27, "away": 20 },
+      "analysis": {
+        "summary": "St Patrick's paraît mieux armé à Richmond Park, où sa dynamique est solide, tandis que Derry arrive dans une période tendue après plusieurs revers européens et domestiques.",
+        "keyFactors": [
+          "St Patrick's reste performant à Richmond Park",
+          "Derry a enchaîné plusieurs défaites récentes",
+          "Derry sort d'une élimination européenne et d'un contexte interne agité"
+        ],
+        "uncertainty": "Derry possède assez de qualité individuelle pour réagir, surtout si St Patrick's manque d'efficacité face à un bloc bas.",
+        "sources": [
+          {
+            "label": "FDJ - Loto Foot 7 n°96",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "St Patrick's Athletic - aperçu officiel et résultats à Richmond Park",
+            "url": "https://www.stpatsfc.com/preview.php?id=2018",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "Sky Sports - forme récente St Patrick's-Derry",
+            "url": "https://www.skysports.com/football/st-patricks-athletic-vs-derry-city/551261",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          },
+          {
+            "label": "The Irish Sun - contexte récent de Derry City",
+            "url": "https://www.thesun.ie/sport/17390660/tiernan-lynch-derry-city-europe-hope/",
+            "accessedAt": "2026-08-01T13:56:30+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Combinaison principale",
+      "selections": ["2", "1", "1", "2", "1", "1", "1"],
+      "rationale": "Cette combinaison retient les favoris légers ou nets tout en donnant l'avantage du terrain aux affiches les plus équilibrées."
+    },
+    {
+      "id": "prudente",
+      "label": "Combinaison prudente",
+      "selections": ["N", "1", "N", "2", "N", "2", "1"],
+      "rationale": "Cette variante couvre les trois rencontres les plus propices au nul et la meilleure dynamique immédiate de Rosenborg."
+    },
+    {
+      "id": "alternative",
+      "label": "Combinaison alternative",
+      "selections": ["1", "N", "2", "2", "2", "N", "1"],
+      "rationale": "Cette combinaison couvre les scénarios de bascule sur les affiches suisses, roumaine et écossaise, sans abandonner les deux favoris les plus solides."
+    }
+  ]
+}
