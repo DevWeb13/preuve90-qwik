@@ -1,0 +1,90 @@
+{
+  "id": "lf15-61-2026-08-01-result",
+  "publicationId": "lf15-61-2026-08-01",
+  "gridNumber": 61,
+  "settledAt": "2026-08-02T08:46:59+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2009",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "1"
+    },
+    {
+      "position": 2,
+      "selection": "N"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "N"
+    },
+    {
+      "position": 5,
+      "selection": "N"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "1"
+    },
+    {
+      "position": 8,
+      "selection": "2"
+    },
+    {
+      "position": 9,
+      "selection": "N"
+    },
+    {
+      "position": 10,
+      "selection": "N"
+    },
+    {
+      "position": 11,
+      "selection": "1"
+    },
+    {
+      "position": 12,
+      "selection": "N"
+    },
+    {
+      "position": 13,
+      "selection": "1"
+    },
+    {
+      "position": 14,
+      "selection": "N"
+    },
+    {
+      "position": 15,
+      "selection": "1"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 14,
+      "amountCents": 410890
+    },
+    {
+      "correctSelections": 13,
+      "amountCents": 36040
+    },
+    {
+      "correctSelections": 12,
+      "amountCents": 4530
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°61",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2009",
+      "accessedAt": "2026-08-02T08:46:59+02:00"
+    }
+  ]
+}
