@@ -1,0 +1,54 @@
+{
+  "id": "lf7-96-2026-08-02-result",
+  "publicationId": "lf7-96-2026-08-02",
+  "gridNumber": 96,
+  "settledAt": "2026-08-02T23:11:49+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2"
+    },
+    {
+      "position": 2,
+      "selection": "1"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "2"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "N"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 7,
+      "amountCents": 21600
+    },
+    {
+      "correctSelections": 6,
+      "amountCents": 2380
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 7 n°96",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4913",
+      "accessedAt": "2026-08-02T23:11:49+02:00"
+    }
+  ]
+}
