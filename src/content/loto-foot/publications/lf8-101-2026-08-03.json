@@ -1,0 +1,171 @@
+{
+  "id": "lf8-101-2026-08-03",
+  "formula": 8,
+  "gridNumber": 101,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798",
+  "validationDeadline": "2026-08-03T18:55:00+02:00",
+  "publishedAt": "2026-08-02T09:57:50+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Celtic",
+      "awayTeam": "Dundee FC",
+      "competition": "Championnat d'Écosse",
+      "startsAt": "2026-08-03T20:30:00+02:00",
+      "probabilities": { "home": 76, "draw": 15, "away": 9 },
+      "analysis": {
+        "summary": "Celtic ouvre la défense de son titre à domicile avec un effectif et une profondeur très supérieurs à Dundee.",
+        "keyFactors": ["Celtic est champion en titre", "La rencontre se joue à Celtic Park", "Celtic a renforcé son attaque avant l'ouverture"],
+        "uncertainty": "Un premier match de championnat peut manquer de rythme et Dundee peut réduire les espaces en bloc bas.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "Celtic FC - ouverture du championnat", "url": "https://www.celticfc.com/news/2026/june/18/celtic-begin-title-defence-/", "accessedAt": "2026-08-02T09:57:12+02:00" },
+          { "label": "The Guardian - contexte de la saison écossaise", "url": "https://www.theguardian.com/football/2026/jul/30/scottish-premiership-celtic-rangers-old-firm-motherwell-hearts", "accessedAt": "2026-08-02T09:57:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FCSB",
+      "awayTeam": "Farul Constanța",
+      "competition": "Championnat de Roumanie",
+      "startsAt": "2026-08-03T20:30:00+02:00",
+      "probabilities": { "home": 58, "draw": 23, "away": 19 },
+      "analysis": {
+        "summary": "FCSB garde l'avantage du terrain et davantage de ressources, mais Farul arrive avec un succès 2-0 qui confirme une bonne mise en route.",
+        "keyFactors": ["FCSB reçoit", "Farul a gagné 2-0 lors de sa précédente journée", "L'écart de qualité globale reste favorable à FCSB"],
+        "uncertainty": "Le début de saison roumain offre encore peu de recul et Farul paraît déjà compétitif.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "Farul Constanța - calendrier et actualités officiels", "url": "https://www.farulconstanta.com/", "accessedAt": "2026-08-02T09:57:16+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "York City",
+      "awayTeam": "Crawley Town",
+      "competition": "Carabao Cup",
+      "startsAt": "2026-08-03T20:30:00+02:00",
+      "probabilities": { "home": 46, "draw": 28, "away": 26 },
+      "analysis": {
+        "summary": "York bénéficie du terrain et de la dynamique d'une promotion record, mais son changement d'entraîneur tardif augmente nettement l'incertitude.",
+        "keyFactors": ["York reçoit au LNER Community Stadium", "York sort d'une promotion avec 108 points", "Scott Lindsey vient d'être nommé après le départ surprise de Stuart Maynard"],
+        "uncertainty": "Le changement de staff quelques jours avant le match peut perturber les automatismes et Crawley connaît bien le nouvel entraîneur adverse.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "York City - informations officielles billetterie", "url": "https://yorkcityfootballclub.co.uk/ticket-details-crawley-bristol-rovers-carabao-cup-and-sky-bet-league-two/", "accessedAt": "2026-08-02T09:57:18+02:00" },
+          { "label": "TalkSport - changement d'entraîneur de York", "url": "https://talksport.com/football/4463874/efl-york-city-sack-manager-stuart-maynard/", "accessedAt": "2026-08-02T09:57:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Sarmiento",
+      "awayTeam": "Independiente Rivadavia",
+      "competition": "Championnat d'Argentine",
+      "startsAt": "2026-08-03T21:45:00+02:00",
+      "probabilities": { "home": 31, "draw": 31, "away": 38 },
+      "analysis": {
+        "summary": "Independiente Rivadavia présente un léger avantage de forme et de potentiel, mais Sarmiento à Junín rend le match très équilibré.",
+        "keyFactors": ["Sarmiento reçoit à l'Estadio Eva Perón", "Independiente Rivadavia possède davantage de potentiel offensif récent", "Les deux équipes restent proches structurellement"],
+        "uncertainty": "Les informations d'effectif sont partielles et le championnat argentin produit souvent des matchs serrés à faible marge.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "FotMob - horaire, lieu et indisponibilités", "url": "https://www.fotmob.com/es-419/matches/independiente-rivadavia-vs-sarmiento/uijz056", "accessedAt": "2026-08-02T09:57:22+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Cracovia",
+      "awayTeam": "Pogoń Szczecin",
+      "competition": "Championnat de Pologne",
+      "startsAt": "2026-08-03T19:00:00+02:00",
+      "probabilities": { "home": 43, "draw": 31, "away": 26 },
+      "analysis": {
+        "summary": "Cracovia dispose d'un avantage modéré à domicile, dans une affiche où Pogoń reste suffisamment armé pour viser le nul ou exploiter les transitions.",
+        "keyFactors": ["Cracovia reçoit au stade Józef Piłsudski", "Cracovia possède une base expérimentée", "La répartition FDJ indique un marché très orienté vers le nul"],
+        "uncertainty": "Le faible recul sur la saison 2026-27 et la proximité des niveaux limitent la confiance sur le résultat sec.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "Cracovia - fiche officielle du match", "url": "https://www.cracovia.pl/index.php/games/220/cracovia-pogon-szczecin", "accessedAt": "2026-08-02T09:57:24+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Odense",
+      "awayTeam": "Sønderjyske",
+      "competition": "Championnat du Danemark",
+      "startsAt": "2026-08-03T19:00:00+02:00",
+      "probabilities": { "home": 48, "draw": 27, "away": 25 },
+      "analysis": {
+        "summary": "Odense affiche une dynamique récente plus convaincante et reçoit, ce qui lui donne un avantage raisonnable face à Sønderjyske.",
+        "keyFactors": ["Odense reste sur plusieurs résultats positifs recensés", "Sønderjyske a montré davantage de fragilité défensive", "La rencontre se joue au Nature Energy Park"],
+        "uncertainty": "Les séries récentes incluent des contextes différents et Sønderjyske avait battu Odense lors de leur précédente confrontation de championnat.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "DBU - calendrier officiel de Sønderjyske", "url": "https://www.dbu.dk/resultater/hold/14351_506118/kampprogram", "accessedAt": "2026-08-02T09:57:26+02:00" },
+          { "label": "Matchen.nu - forme récente comparée", "url": "https://matchen.nu/ligor/superliga/2026/odense-sonderjyske", "accessedAt": "2026-08-02T09:57:28+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Halmstads BK",
+      "awayTeam": "IK Sirius",
+      "competition": "Championnat de Suède",
+      "startsAt": "2026-08-03T19:00:00+02:00",
+      "probabilities": { "home": 29, "draw": 29, "away": 42 },
+      "analysis": {
+        "summary": "Sirius paraît supérieur dans la dynamique générale, tandis que Halmstad reste dernier et doit compenser par l'avantage de l'Örjans Vall.",
+        "keyFactors": ["Halmstad est dernier du classement affiché par son site officiel", "Halmstad n'a que sept points après quatorze matchs", "Sirius est favori dans la répartition des joueurs FDJ"],
+        "uncertainty": "Halmstad vient d'obtenir un nul à l'extérieur et l'avantage du terrain peut resserrer fortement l'écart.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "Halmstads BK - calendrier, résultat et classement officiels", "url": "https://hbk.se/", "accessedAt": "2026-08-02T09:57:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Djurgårdens IF",
+      "awayTeam": "Västerås SK",
+      "competition": "Championnat de Suède",
+      "startsAt": "2026-08-03T19:00:00+02:00",
+      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "analysis": {
+        "summary": "Djurgården bénéficie du terrain, d'un effectif plus profond et d'un contexte de match anniversaire devant une forte affluence attendue.",
+        "keyFactors": ["Djurgården reçoit à la 3Arena", "Plus de 16 000 billets étaient déjà vendus", "L'écart de profondeur d'effectif favorise Djurgården"],
+        "uncertainty": "Västerås retrouve Djurgården une semaine plus tard à domicile et peut aborder cette première manche avec un plan très prudent.",
+        "sources": [
+          { "label": "FDJ - Loto Foot 8 n°101", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/798", "accessedAt": "2026-08-02T09:57:10+02:00" },
+          { "label": "Djurgårdens IF - fiche officielle du match", "url": "https://www.dif.se/kalender/2020-2029/2026/matcher/herrar/allsvenskan/djurgarden-vasteras-sk", "accessedAt": "2026-08-02T09:57:32+02:00" },
+          { "label": "Djurgårdens IF - contexte du match anniversaire", "url": "https://www.dif.se/nyheter/2026/biljetter-slappta-for-medlemmar-till-jubileumsmatcherna", "accessedAt": "2026-08-02T09:57:34+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Combinaison principale",
+      "selections": ["1", "1", "1", "2", "1", "1", "2", "1"],
+      "rationale": "Retient les favoris principaux tout en assumant les deux avantages extérieurs les plus crédibles."
+    },
+    {
+      "id": "prudente",
+      "label": "Variante prudente",
+      "selections": ["1", "1", "N", "N", "N", "1", "2", "1"],
+      "rationale": "Couvre les trois affiches les plus équilibrées par des nuls sans remettre en cause les favoris nets."
+    },
+    {
+      "id": "audacieuse",
+      "label": "Variante audacieuse",
+      "selections": ["1", "N", "2", "2", "1", "N", "N", "1"],
+      "rationale": "Explore un scénario à meilleur rendement avec Farul accrocheur, Crawley opportuniste et deux nuls supplémentaires."
+    }
+  ]
+}
