@@ -1,0 +1,235 @@
+{
+  "id": "lf12-65-2026-08-02",
+  "formula": 12,
+  "gridNumber": 65,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-02T16:25:00+02:00",
+  "publishedAt": "2026-08-02T05:57:50+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Grasshoppers",
+      "awayTeam": "FC Lugano",
+      "competition": "Brack Super League",
+      "startsAt": "2026-08-02T16:30:00+02:00",
+      "probabilities": { "home": 32, "draw": 30, "away": 38 },
+      "analysis": {
+        "summary": "Match équilibré, avec un léger avantage à Lugano grâce à une base collective plus stable, sans écart suffisant pour écarter le nul.",
+        "keyFactors": ["Lugano est légèrement mieux coté par le marché FDJ", "Déplacement court et horaire confirmé par la SFL", "Écart de niveau limité entre les deux équipes"],
+        "uncertainty": "Début de saison et effectifs encore en phase d'ajustement.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "Swiss Football League — calendrier officiel", "url": "https://matchcenter-sfl.football.ch/Default.aspx?a=sp&lng=1&ls=25694&oid=2&sg=70075&t=52466&v=777837", "accessedAt": "2026-08-02T05:56:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Sion",
+      "awayTeam": "Lucerne",
+      "competition": "Brack Super League",
+      "startsAt": "2026-08-02T16:30:00+02:00",
+      "probabilities": { "home": 49, "draw": 29, "away": 22 },
+      "analysis": {
+        "summary": "Sion possède l'avantage du terrain et une dynamique jugée légèrement supérieure, mais Lucerne reste capable de fermer le match.",
+        "keyFactors": ["Avantage domicile à Tourbillon", "Répartition FDJ favorable à Sion", "Lucerne conserve une probabilité de nul significative"],
+        "uncertainty": "Les premières journées de championnat réduisent la fiabilité des tendances.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "Swiss Football League — calendrier officiel", "url": "https://matchcenter-sfl.football.ch/Default.aspx?a=sp&lng=1&ls=25694&oid=2&sg=70075&t=52466&v=777837", "accessedAt": "2026-08-02T05:56:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Rapid Bucarest",
+      "awayTeam": "CFR Cluj",
+      "competition": "SuperLiga Roumanie",
+      "startsAt": "2026-08-02T21:30:00+03:00",
+      "probabilities": { "home": 42, "draw": 32, "away": 26 },
+      "analysis": {
+        "summary": "Rapid part avec un léger avantage à domicile, tandis que CFR Cluj garde suffisamment d'expérience pour rendre le nul très plausible.",
+        "keyFactors": ["Rapid reçoit", "CFR Cluj a perdu son premier déplacement de championnat", "Profil de match serré entre deux équipes ambitieuses"],
+        "uncertainty": "La saison vient de commencer et les données disponibles restent limitées.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "LPF — calendrier CFR Cluj", "url": "https://lpf.ro/cluburi/fc-cfr-1907-cluj/5/calendar", "accessedAt": "2026-08-02T05:56:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Silkeborg",
+      "awayTeam": "FC Copenhague",
+      "competition": "3F Superliga",
+      "startsAt": "2026-08-02T18:00:00+02:00",
+      "probabilities": { "home": 20, "draw": 25, "away": 55 },
+      "analysis": {
+        "summary": "Copenhague est supérieur sur la profondeur d'effectif et le potentiel global, même si Silkeborg a déjà montré qu'il pouvait le gêner.",
+        "keyFactors": ["FCK reste le favori structurel", "Silkeborg a gagné 4-0 lors de la dernière confrontation mentionnée", "Contexte européen susceptible de peser sur la rotation de Copenhague"],
+        "uncertainty": "La charge européenne de Copenhague peut modifier le onze et le rythme du match.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "FC Copenhague — calendrier officiel", "url": "https://www.fck.dk/kommende-kampe", "accessedAt": "2026-08-02T05:56:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hibernian",
+      "awayTeam": "Motherwell",
+      "competition": "Scottish Premiership",
+      "startsAt": "2026-08-02T16:30:00+01:00",
+      "probabilities": { "home": 45, "draw": 31, "away": 24 },
+      "analysis": {
+        "summary": "Hibernian est légèrement favori à Easter Road, mais Motherwell a gagné la dernière confrontation et mérite une couverture du nul.",
+        "keyFactors": ["Avantage du terrain pour Hibernian", "Motherwell s'est imposé 1-0 lors de la dernière confrontation", "Les deux clubs sortent d'un contexte européen"],
+        "uncertainty": "La fatigue et la rotation liées aux compétitions européennes peuvent peser fortement.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "SPFL — calendrier Hibernian", "url": "https://spfl.co.uk/clubs/hibernian/fixtures", "accessedAt": "2026-08-02T05:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "SK Brann",
+      "awayTeam": "Rosenborg",
+      "competition": "Eliteserien",
+      "startsAt": "2026-08-02T19:15:00+02:00",
+      "probabilities": { "home": 43, "draw": 28, "away": 29 },
+      "analysis": {
+        "summary": "Brann garde un petit avantage à domicile, mais Rosenborg possède assez de qualité et de forme pour maintenir un scénario très ouvert.",
+        "keyFactors": ["Brann reçoit au Brann Stadion", "Écart faible dans les choix FDJ", "Rosenborg reste dangereux en transition"],
+        "uncertainty": "Brann a joué en Europe trois jours auparavant, ce qui augmente le risque de fatigue.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "Brann — calendrier officiel", "url": "https://www.brann.no/terminliste", "accessedAt": "2026-08-02T05:56:35+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "St Patrick's Athletic",
+      "awayTeam": "Derry City",
+      "competition": "League of Ireland Premier Division",
+      "startsAt": "2026-08-02T17:00:00+01:00",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "St Patrick's bénéficie du terrain et d'un contexte plus favorable, tandis que Derry sort d'une élimination européenne et traverse une phase délicate.",
+        "keyFactors": ["Match déplacé au dimanche après les campagnes européennes", "Derry vient d'être éliminé et reste sous pression", "St Patrick's s'est renforcé offensivement"],
+        "uncertainty": "Un sursaut de Derry reste possible après son élimination européenne.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "League of Ireland — modification officielle du calendrier", "url": "https://www.leagueofireland.ie/news/broadcast-and-fixture-updates-sse-airtricity-mens-premier-division/", "accessedAt": "2026-08-02T05:56:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Aalesund",
+      "awayTeam": "Tromsø",
+      "competition": "Eliteserien",
+      "startsAt": "2026-08-02T17:00:00+02:00",
+      "probabilities": { "home": 25, "draw": 29, "away": 46 },
+      "analysis": {
+        "summary": "Tromsø présente la meilleure dynamique sportive et mérite le statut de favori, même si le déplacement et la fatigue européenne limitent l'écart.",
+        "keyFactors": ["Tromsø est favori dans la répartition FDJ", "Tromsø sort d'un match européen le 30 juillet", "Aalesund conserve l'avantage du terrain"],
+        "uncertainty": "La récupération très courte de Tromsø peut réduire son intensité.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "Tromsø IL — calendrier officiel", "url": "https://www.til.no/terminliste", "accessedAt": "2026-08-02T05:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Rapid Vienne",
+      "awayTeam": "SCR Altach",
+      "competition": "Bundesliga autrichienne",
+      "startsAt": "2026-08-02T19:00:00+02:00",
+      "probabilities": { "home": 68, "draw": 20, "away": 12 },
+      "analysis": {
+        "summary": "Rapid Vienne est nettement supérieur sur le papier et bénéficie du terrain, malgré une préparation alourdie par les matchs européens.",
+        "keyFactors": ["Rapid est très fortement soutenu par la répartition FDJ", "Match à l'Allianz Stadion", "Altach a terminé la saison précédente de manière irrégulière"],
+        "uncertainty": "La fatigue européenne et une éventuelle rotation peuvent réduire l'avantage de Rapid.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "SK Rapid — annonce officielle du match", "url": "https://prod.skrapid.at/aktuelles/2026/06/ligauftakt-2026-27-mit-heimspiel/", "accessedAt": "2026-08-02T05:56:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Wolfsberger AC",
+      "awayTeam": "Austria Vienne",
+      "competition": "Bundesliga autrichienne",
+      "startsAt": "2026-08-02T17:00:00+02:00",
+      "probabilities": { "home": 34, "draw": 28, "away": 38 },
+      "analysis": {
+        "summary": "Rencontre très équilibrée : Austria Vienne a un léger avantage qualitatif, compensé par le terrain de Wolfsberger.",
+        "keyFactors": ["Écart minimal dans la répartition FDJ", "Wolfsberger joue à domicile", "Austria Vienne possède un plafond de performance légèrement supérieur"],
+        "uncertainty": "Première journée et peu de données compétitives récentes disponibles.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "Sportschau — calendrier Bundesliga autrichienne", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/oesterreich-bundesliga/spielplan-team", "accessedAt": "2026-08-02T05:56:55+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "AIK Solna",
+      "awayTeam": "Örgryte",
+      "competition": "Allsvenskan",
+      "startsAt": "2026-08-02T16:30:00+02:00",
+      "probabilities": { "home": 70, "draw": 19, "away": 11 },
+      "analysis": {
+        "summary": "AIK est le favori le plus solide de la grille grâce à sa forme récente et à l'avantage du Strawberry Arena.",
+        "keyFactors": ["AIK reste sur quatre matchs sans défaite", "Örgryte a perdu trois de ses cinq dernières rencontres recensées", "Très forte confiance du public FDJ en AIK"],
+        "uncertainty": "Le statut de large favori augmente le risque de sous-estimer un scénario fermé.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "AIK — fiche officielle du match", "url": "https://www.aikfotboll.se/matcher/260802-aik-orgryte-is-herr", "accessedAt": "2026-08-02T05:57:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Bohemians",
+      "awayTeam": "Galway United",
+      "competition": "League of Ireland Premier Division",
+      "startsAt": "2026-08-02T19:00:00+01:00",
+      "probabilities": { "home": 62, "draw": 24, "away": 14 },
+      "analysis": {
+        "summary": "Bohemians est favori à Dalymount Park, mais son calendrier européen chargé rend le nul plus crédible que ne le suggère la répartition FDJ.",
+        "keyFactors": ["Bohemians joue à domicile", "Galway est moins bien classé et outsider", "Bohemians enchaîne avec une campagne européenne"],
+        "uncertainty": "La rotation et la fatigue de Bohemians peuvent niveler la rencontre.",
+        "sources": [
+          { "label": "FDJ — grille LF12 n°65", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-02T05:56:00+02:00" },
+          { "label": "League of Ireland — modification officielle du calendrier", "url": "https://www.leagueofireland.ie/news/broadcast-and-fixture-updates-sse-airtricity-mens-premier-division/", "accessedAt": "2026-08-02T05:57:05+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["2", "1", "1", "2", "1", "1", "1", "2", "1", "2", "1", "1"],
+      "rationale": "Sélection des issues les plus probables, avec les favoris conservés et Austria Vienne choisi dans le match le plus équilibré."
+    },
+    {
+      "id": "nuls-cibles",
+      "label": "Couverture des matchs serrés",
+      "selections": ["N", "1", "N", "2", "N", "N", "1", "2", "1", "N", "1", "1"],
+      "rationale": "Couvre les principaux matchs à faible écart de probabilité : Grasshoppers-Lugano, Rapid-CFR, Hibernian-Motherwell, Brann-Rosenborg et Wolfsberger-Austria."
+    },
+    {
+      "id": "surprises-maitrisees",
+      "label": "Surprises maîtrisées",
+      "selections": ["1", "N", "2", "1", "2", "2", "N", "1", "N", "1", "N", "N"],
+      "rationale": "Scénario alternatif à fort rendement potentiel couvrant plusieurs inversions plausibles sans multiplier excessivement la mise virtuelle."
+    }
+  ]
+}
