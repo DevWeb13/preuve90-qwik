@@ -4,6 +4,9 @@ import { pathToFileURL } from "node:url";
 import { parsePayouts } from "./settle-loto-foot.mjs";
 
 const INVENTORY_PATH = "src/content/loto-foot/inventory.json";
+const RESULTS_INDEX_URL =
+  "https://www.pointdevente.parionssport.fdj.fr/grilles/resultats/loto-foot";
+const FDJ_HOST = "www.pointdevente.parionssport.fdj.fr";
 const SELECTION_BY_CONTROL = new Map([
   ["one", "1"],
   ["n", "N"],
@@ -28,6 +31,89 @@ function readAttribute(tag, attributeName) {
   );
   const match = tag.match(pattern);
   return match?.[1] ?? match?.[2] ?? match?.[3];
+}
+
+function decodeHtmlText(value) {
+  const namedEntities = new Map([
+    ["amp", "&"],
+    ["deg", "°"],
+    ["nbsp", " "],
+    ["ordm", "º"],
+    ["quot", '"'],
+  ]);
+
+  return value.replace(/&(#x[\da-f]+|#\d+|[a-z]+);/giu, (entity, body) => {
+    if (body.startsWith("#x") || body.startsWith("#X")) {
+      return String.fromCodePoint(Number.parseInt(body.slice(2), 16));
+    }
+    if (body.startsWith("#")) {
+      return String.fromCodePoint(Number.parseInt(body.slice(1), 10));
+    }
+    return namedEntities.get(body.toLowerCase()) ?? entity;
+  });
+}
+
+export function isDedicatedOfficialUrl(value) {
+  try {
+    const url = new URL(value);
+    return (
+      url.hostname === FDJ_HOST &&
+      /^\/grilles\/loto-foot\/loto-foot-(?:7|8|12|15)\/\d+\/?$/u.test(
+        url.pathname,
+      )
+    );
+  } catch {
+    return false;
+  }
+}
+
+export function findOfficialResultUrl(html, publication) {
+  const formulaPath = `/grilles/loto-foot/loto-foot-${publication.formula}/`;
+  const gridPattern = new RegExp(
+    `(?:LF|LOTO\\s+FOOT)\\s*${publication.formula}\\s*N\\s*[°º]?\\s*${publication.gridNumber}\\b`,
+    "iu",
+  );
+
+  for (const anchor of html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/giu)) {
+    const href = readAttribute(anchor[0], "href");
+    if (!href) continue;
+
+    let candidate;
+    try {
+      candidate = new URL(href, RESULTS_INDEX_URL);
+    } catch {
+      continue;
+    }
+
+    if (
+      candidate.hostname !== FDJ_HOST ||
+      !candidate.pathname.startsWith(formulaPath) ||
+      !isDedicatedOfficialUrl(candidate.href)
+    ) {
+      continue;
+    }
+
+    const label = decodeHtmlText(anchor[0])
+      .replace(/<[^>]+>/gu, " ")
+      .replace(/\s+/gu, " ")
+      .trim();
+    if (gridPattern.test(label)) return candidate.href;
+  }
+
+  return undefined;
+}
+
+export async function resolveOfficialResultUrl(publication, fetchImpl = fetch) {
+  if (isDedicatedOfficialUrl(publication.officialUrl)) {
+    return publication.officialUrl;
+  }
+
+  const response = await fetchImpl(RESULTS_INDEX_URL);
+  if (!response.ok) {
+    throw new Error(`FDJ a répondu ${response.status} pour ${RESULTS_INDEX_URL}`);
+  }
+
+  return findOfficialResultUrl(await response.text(), publication);
 }
 
 function isCheckedInput(tag) {
@@ -108,7 +194,15 @@ async function settlePendingPublications({ rootDirectory }) {
     if (await fileExists(path.join(rootDirectory, resultRelativePath))) continue;
 
     try {
-      const response = await fetch(publication.officialUrl);
+      const officialResultUrl = await resolveOfficialResultUrl(publication);
+      if (!officialResultUrl) {
+        console.log(
+          `${publication.id} ignorée : page de résultat FDJ encore indisponible.`,
+        );
+        continue;
+      }
+
+      const response = await fetch(officialResultUrl);
       if (!response.ok) {
         throw new Error(`FDJ a répondu ${response.status}`);
       }
@@ -136,13 +230,13 @@ async function settlePendingPublications({ rootDirectory }) {
         publicationId: publication.id,
         gridNumber: publication.gridNumber,
         settledAt,
-        officialUrl: publication.officialUrl,
+        officialUrl: officialResultUrl,
         matches: officialMatches,
         payouts,
         sources: [
           {
             label: `FDJ - Résultats et rapports officiels Loto Foot ${publication.formula} n°${publication.gridNumber}`,
-            url: publication.officialUrl,
+            url: officialResultUrl,
             accessedAt: settledAt,
           },
         ],
