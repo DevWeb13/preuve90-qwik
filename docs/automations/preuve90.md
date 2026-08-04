@@ -55,7 +55,8 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    Pour la grille prioritaire :
    - vérifier dans l’inventaire qu’une publication ayant la même formule et le même numéro n’existe pas déjà ;
    - effectuer pour chaque rencontre la recherche définie dans la section « Recherche » ;
-   - si une rencontre ne peut pas faire l’objet d’une analyse honnête, noter précisément la raison et ne rien publier pour cette grille pendant cette exécution.
+   - si l’identité d’une rencontre n’est pas confirmée ou si elle ne peut pas faire l’objet d’une analyse honnête, noter précisément la raison et ne rien publier pour cette grille pendant cette exécution ;
+   - l’absence d’une heure de coup d’envoi fiable ne constitue jamais, à elle seule, un motif de blocage.
 
    Lorsque l’analyse est complète :
    - lire `src/content/loto-foot/model.ts` et `src/content/loto-foot/validation.ts` ;
@@ -64,7 +65,9 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - vérifier la cohérence entre la formule, le numéro, le nom du fichier et le nombre de matchs.
 
    Pour chaque rencontre, produire :
-   - `startsAt`, avec la date et l’heure réelles du coup d’envoi ;
+   - `startsAt` uniquement lorsque la date et l’heure réelles du coup d’envoi sont confirmées par une source fiable ;
+   - omettre `startsAt` lorsque l’horaire n’est pas suffisamment fiable ;
+   - ne jamais inventer, extrapoler ou utiliser une heure générique comme `00:00` pour remplir ce champ ;
    - les probabilités entières `home`, `draw` et `away`, totalisant exactement 100 ;
    - un résumé, les principaux facteurs et une incertitude ;
    - les sources réellement utilisées.
@@ -98,7 +101,7 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - `publishedAt` strictement antérieur à `validationDeadline` ;
    - nombre de rencontres autorisé pour la formule officielle ;
    - positions entières, uniques, ordonnées exactement de 1 au nombre de rencontres ;
-   - `startsAt` présent et horodatage valide pour chaque rencontre ;
+   - `startsAt` facultatif ; lorsqu’il est présent, il doit être un horodatage valide ;
    - probabilités entières entre 0 et 100 et somme exactement égale à 100 ;
    - résumé, incertitude, au moins un facteur et au moins une source par rencontre ;
    - chaque `accessedAt` inférieur ou égal à `publishedAt` ;

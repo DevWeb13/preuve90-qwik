@@ -137,9 +137,16 @@ describe("validation d’une publication Loto Foot", () => {
     expect(() => validateLotoFootPublication(publication)).toThrow(/compris entre 0 et 100/);
   });
 
-  it("refuse une nouvelle publication sans heure de coup d’envoi", () => {
+  it("accepte une nouvelle publication sans heure de coup d’envoi", () => {
     const publication = createValidPublication();
     Reflect.deleteProperty(publication.matches[0], "startsAt");
+
+    expect(validateNewLotoFootPublication(publication).id).toBe(publication.id);
+  });
+
+  it("refuse une heure de coup d’envoi présente mais invalide", () => {
+    const publication = createValidPublication();
+    publication.matches[0].startsAt = "heure inconnue";
 
     expect(() => validateNewLotoFootPublication(publication)).toThrow(/startsAt/);
   });
