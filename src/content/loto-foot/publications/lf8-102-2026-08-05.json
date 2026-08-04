@@ -1,0 +1,164 @@
+{
+  "id": "lf8-102-2026-08-05",
+  "formula": 8,
+  "gridNumber": 102,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-05T19:55:00+02:00",
+  "publishedAt": "2026-08-04T17:59:53+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Fenerbahçe",
+      "awayTeam": "Sturm Graz",
+      "competition": "Match international de clubs",
+      "probabilities": { "home": 63, "draw": 22, "away": 15 },
+      "analysis": {
+        "summary": "Fenerbahçe possède davantage de profondeur et d'expérience européenne, avec un avantage clair à domicile. Sturm Graz reste capable de fermer le jeu et de punir une équipe turque parfois irrégulière.",
+        "keyFactors": ["Avantage du terrain", "Expérience européenne supérieure", "Sturm Graz compétitif dans les matchs serrés"],
+        "uncertainty": "La nature exacte et les rotations possibles autour de cette rencontre réduisent la confiance.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "UEFA - Résultats Europa League 2025-2026", "url": "https://www.uefa.com/uefaeuropaleague/news/029c-1e9ad67620f2-05c31d01f0f4-1000--2025-26-europa-league-round-of-16-ties-knockout-phase-pla/", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Ferencváros",
+      "awayTeam": "Górnik Zabrze",
+      "competition": "Match international de clubs",
+      "probabilities": { "home": 55, "draw": 25, "away": 20 },
+      "analysis": {
+        "summary": "Ferencváros part avec un léger avantage grâce à son expérience récente des compétitions UEFA et au soutien du public. Górnik Zabrze a toutefois déjà affronté un niveau européen élevé cet été et peut rendre le match indécis.",
+        "keyFactors": ["Expérience européenne de Ferencváros", "Avantage du terrain", "Górnik déjà engagé dans une campagne continentale"],
+        "uncertainty": "Les compositions et la charge physique après les tours européens précédents peuvent modifier l'équilibre.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "UEFA - Calendrier et parcours européens", "url": "https://www.uefa.com/uefaeuropaleague/news/02a6-20e5db0029dd-8241a8d00925-1000--europa-league-qualifying-fixtures-dates-how-it-works/", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Panathinaïkos",
+      "awayTeam": "FC CSKA 1948",
+      "competition": "Match international de clubs",
+      "probabilities": { "home": 60, "draw": 23, "away": 17 },
+      "analysis": {
+        "summary": "Panathinaïkos présente une référence européenne plus solide et devrait contrôler davantage le ballon. Le CSKA 1948 peut rester dangereux en transition, mais son plafond paraît inférieur sur l'ensemble du match.",
+        "keyFactors": ["Expérience continentale de Panathinaïkos", "Avantage du terrain", "Menace de transition du CSKA 1948"],
+        "uncertainty": "Le manque d'informations fiables sur les onze de départ impose de conserver une part significative au nul.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "UEFA - Panathinaïkos, campagne européenne 2025-2026", "url": "https://www.uefa.com/uefaeuropaleague/news/029c-1e9ad67620f2-05c31d01f0f4-1000--2025-26-europa-league-all-the-league-phase-results/", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "UEFA - Effectif et statistiques du CSKA 1948", "url": "https://www.uefa.com/uefaconferenceleague/clubs/2610262--cska-1948/", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Boca Juniors",
+      "awayTeam": "Estudiantes de La Plata",
+      "competition": "Championnat d'Argentine",
+      "probabilities": { "home": 43, "draw": 31, "away": 26 },
+      "analysis": {
+        "summary": "Boca conserve une supériorité individuelle, mais perd une partie de son avantage habituel puisque la rencontre doit se jouer au stade de Huracán pendant les travaux à la Bombonera. Estudiantes possède le profil pour rendre ce duel fermé.",
+        "keyFactors": ["Terrain déplacé au stade de Huracán", "Qualité individuelle de Boca", "Profil discipliné d'Estudiantes"],
+        "uncertainty": "Le changement de stade augmente la probabilité d'un match équilibré et peu ouvert.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "AS - Boca reçoit Estudiantes hors de la Bombonera", "url": "https://as.com/futbol/internacional/boca-deja-la-bombonera-f202608-n/", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "CF Monterrey",
+      "awayTeam": "Orlando City",
+      "competition": "Leagues Cup",
+      "startsAt": "2026-08-06T01:30:00+02:00",
+      "probabilities": { "home": 40, "draw": 28, "away": 32 },
+      "analysis": {
+        "summary": "La ligne FDJ place Monterrey en premier, mais Orlando accueille la rencontre en Floride. Monterrey possède davantage de qualité individuelle, tandis que le contexte local et les conditions donnent à Orlando une vraie chance de basculer le match.",
+        "keyFactors": ["Match disputé à Orlando", "Qualité offensive de Monterrey", "Avantage climatique et logistique d'Orlando"],
+        "uncertainty": "Le format interligues et l'adaptation de Monterrey au déplacement rendent l'issue très ouverte.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "Orlando City - Horaires officiels Leagues Cup 2026", "url": "https://www.orlandocitysc.com/news/kickoff-times-set-for-orlando-city-s-league-cup-2026-phase-one-matches", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Deportivo Toluca",
+      "awayTeam": "Seattle Sounders",
+      "competition": "Leagues Cup",
+      "probabilities": { "home": 52, "draw": 25, "away": 23 },
+      "analysis": {
+        "summary": "Toluca reçoit au Nemesio Díez avec le statut de double champion du Mexique, ce qui lui donne un avantage tangible. Seattle reste le tenant de la Leagues Cup et possède assez d'expérience pour résister ou exploiter les transitions.",
+        "keyFactors": ["Avantage de Toluca au Nemesio Díez", "Toluca double champion de Liga MX", "Seattle tenant du titre de Leagues Cup"],
+        "uncertainty": "La qualité et l'expérience de Seattle empêchent de considérer Toluca comme un favori net.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "MLS - Matchs à suivre en Leagues Cup 2026", "url": "https://www.mlssoccer.com/competitions/leagues-cup/news/leagues-cup-2026-10-must-see-phase-one-matches", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Los Angeles FC",
+      "awayTeam": "Chivas Guadalajara",
+      "competition": "Leagues Cup",
+      "probabilities": { "home": 64, "draw": 21, "away": 15 },
+      "analysis": {
+        "summary": "LAFC arrive avec une dynamique solide, une attaque portée par Son et Bouanga et l'avantage du BMO Stadium. Chivas conserve une menace technique, mais devra résister à une équipe locale plus profonde et plus explosive.",
+        "keyFactors": ["LAFC à domicile", "Dynamique récente positive", "Duo offensif Son-Bouanga"],
+        "uncertainty": "Le calendrier condensé peut entraîner des rotations et réduire l'écart attendu.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "LAFC - Calendrier officiel Leagues Cup 2026", "url": "https://www.lafc.com/news/leagues-cup-unveils-2026-schedule-lafc-to-play-chivas-toluca-and-queretaro", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "LAFC - Forme avant la Leagues Cup", "url": "https://www.lafc.com/news/preview-lafc-vs-sporting-kansas-city-2026-mls-season-july-25", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Inter Miami",
+      "awayTeam": "Atlético de San Luis",
+      "competition": "Leagues Cup",
+      "startsAt": "2026-08-06T01:30:00+02:00",
+      "probabilities": { "home": 68, "draw": 20, "away": 12 },
+      "analysis": {
+        "summary": "Inter Miami bénéficie du terrain et du retour attendu de Messi, ce qui en fait le favori. L'absence suspendue de Luis Suárez enlève toutefois une partie importante de la finition et rend le scénario du nul moins négligeable.",
+        "keyFactors": ["Avantage du terrain", "Retour attendu de Messi", "Suspension de Luis Suárez"],
+        "uncertainty": "La réorganisation offensive sans Suárez peut réduire l'efficacité de Miami face à un bloc compact.",
+        "sources": [
+          { "label": "FDJ - Grilles Loto Foot ouvertes", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "Inter Miami - Horaires officiels Leagues Cup 2026", "url": "https://www.intermiamicf.com/news/kickoff-times-announced-for-inter-miami-cf-s-leagues-cup-2026-phase-one-matches", "accessedAt": "2026-08-04T17:59:30+02:00" },
+          { "label": "AS - Inter Miami privé de Luis Suárez", "url": "https://as.com/us/futbol/inter-miami-a-leagues-cup-sin-su-goleador-f202608-n/", "accessedAt": "2026-08-04T17:59:30+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Favoris structurants",
+      "selections": ["1", "1", "1", "1", "1", "1", "1", "1"],
+      "rationale": "La combinaison principale retient les équipes ayant le meilleur ensemble terrain, profondeur et références récentes."
+    },
+    {
+      "id": "alternative-equilibree",
+      "label": "Couverture des matchs ouverts",
+      "selections": ["1", "1", "1", "N", "2", "1", "1", "1"],
+      "rationale": "Cette variante couvre le terrain neutre de Boca et l'avantage réel d'Orlando malgré l'ordre d'affichage FDJ."
+    },
+    {
+      "id": "alternative-risque",
+      "label": "Scénario européen et tenant du titre",
+      "selections": ["1", "N", "1", "1", "1", "2", "1", "1"],
+      "rationale": "Cette variante protège le nul de Ferencváros-Górnik et une victoire de Seattle grâce à son expérience de tenant du titre."
+    }
+  ]
+}
