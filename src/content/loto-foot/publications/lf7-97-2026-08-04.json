@@ -1,0 +1,297 @@
+{
+  "id": "lf7-97-2026-08-04",
+  "formula": 7,
+  "gridNumber": 97,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-04T17:55:00+02:00",
+  "publishedAt": "2026-08-04T11:00:01+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Sparta Prague",
+      "awayTeam": "Lyon",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 25,
+        "draw": 29,
+        "away": 46
+      },
+      "analysis": {
+        "summary": "Lyon possède davantage de qualité individuelle et reste favori, mais le déplacement à Prague et le contexte d'un match aller maintiennent une probabilité de nul élevée.",
+        "keyFactors": [
+          "La répartition FDJ place Lyon en tête sans en faire un favori écrasant",
+          "Sparta reçoit à l'epet ARENA et bénéficie d'un avantage de terrain réel",
+          "Lyon a historiquement bien négocié plusieurs confrontations européennes face au Sparta"
+        ],
+        "uncertainty": "Premier match officiel européen de la saison pour des effectifs encore susceptibles d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°97",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-04T10:59:00+02:00"
+          },
+          {
+            "label": "Sparta Prague - calendrier officiel 2026/27",
+            "url": "https://sparta.cz/en/zapasy/1-muzi-a/2026-2027/kalendar",
+            "accessedAt": "2026-08-04T10:59:10+02:00"
+          },
+          {
+            "label": "Ligue 1 - présentation de Sparta Prague avant Lyon",
+            "url": "https://ligue1.com/en/articles/l1_article_5542-who-are-sparta-prague-lyon-s-champions-league-opponent",
+            "accessedAt": "2026-08-04T10:59:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Olympiakos",
+      "awayTeam": "NEC Nimègue",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "startsAt": "2026-08-04T21:00:00+03:00",
+      "probabilities": {
+        "home": 69,
+        "draw": 20,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "Olympiakos est nettement favori au Pirée grâce à son expérience européenne, son effectif plus profond et un soutien FDJ très marqué.",
+        "keyFactors": [
+          "Match confirmé au stade Georgios Karaiskakis",
+          "Écart important de profondeur d'effectif et d'expérience européenne",
+          "NEC a perdu un élément offensif important pendant l'intersaison"
+        ],
+        "uncertainty": "Olympiakos débute sa campagne européenne et peut manquer de rythme compétitif.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°97",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-04T10:59:00+02:00"
+          },
+          {
+            "label": "Olympiakos - match center officiel",
+            "url": "https://www.olympiacos.org/en",
+            "accessedAt": "2026-08-04T10:59:20+02:00"
+          },
+          {
+            "label": "talkSPORT - analyse des rencontres du 4 août",
+            "url": "https://talksport.com/football/4488952/talksport-tips-best-football-bets-tuesday-4-august/",
+            "accessedAt": "2026-08-04T10:59:25+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Hapoel Beer Sheva",
+      "awayTeam": "Étoile Rouge de Belgrade",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 15,
+        "draw": 22,
+        "away": 63
+      },
+      "analysis": {
+        "summary": "L'Étoile Rouge présente la dynamique et le potentiel offensif les plus solides, ce qui lui donne un avantage net malgré un déplacement potentiellement délicat.",
+        "keyFactors": [
+          "L'Étoile Rouge a largement dominé Larne lors du tour précédent",
+          "Le club serbe reste sur plusieurs succès offensifs convaincants",
+          "La répartition FDJ soutient fortement la victoire extérieure"
+        ],
+        "uncertainty": "Le lieu et les conditions précises du match réduisent la fiabilité de l'avantage domicile traditionnel.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°97",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-04T10:59:00+02:00"
+          },
+          {
+            "label": "Étoile Rouge - adversaires potentiels du troisième tour",
+            "url": "https://www.crvenazvezdafk.com/en/pretraga?4b64945c_page=20&d8679195_page=2",
+            "accessedAt": "2026-08-04T10:59:30+02:00"
+          },
+          {
+            "label": "talkSPORT - analyse des rencontres du 4 août",
+            "url": "https://talksport.com/football/4488952/talksport-tips-best-football-bets-tuesday-4-august/",
+            "accessedAt": "2026-08-04T10:59:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "Kairat Almaty",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 42,
+        "draw": 30,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Levski conserve un léger avantage à domicile, mais Kairat a montré assez de volume offensif et de résistance européenne pour rendre le nul ou une surprise crédibles.",
+        "keyFactors": [
+          "Avantage du terrain pour Levski et soutien FDJ important",
+          "Kairat a éliminé Omonia après une confrontation serrée",
+          "Les données de tirs récentes de Kairat suggèrent une équipe plus dangereuse que sa cote populaire"
+        ],
+        "uncertainty": "L'écart entre la répartition FDJ et les signaux sportifs récents de Kairat est important.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°97",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-04T10:59:00+02:00"
+          },
+          {
+            "label": "Levski Sofia - actualités officielles",
+            "url": "https://levski.bg/novini/",
+            "accessedAt": "2026-08-04T10:59:40+02:00"
+          },
+          {
+            "label": "talkSPORT - analyse Levski Sofia contre Kairat",
+            "url": "https://talksport.com/football/4488952/talksport-tips-best-football-bets-tuesday-4-august/",
+            "accessedAt": "2026-08-04T10:59:45+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Mjällby",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 35,
+        "draw": 31,
+        "away": 34
+      },
+      "analysis": {
+        "summary": "La rencontre paraît très équilibrée : Mjällby bénéficie du terrain et d'une qualification maîtrisée, tandis que Slovan possède davantage d'expérience européenne.",
+        "keyFactors": [
+          "Mjällby a franchi le tour précédent sans encaisser de but",
+          "Slovan possède une expérience européenne supérieure",
+          "La répartition FDJ est presque parfaitement équilibrée"
+        ],
+        "uncertainty": "Les niveaux comparés des championnats et la faible quantité de confrontations internationales récentes rendent l'écart difficile à mesurer.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°97",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-04T10:59:00+02:00"
+          },
+          {
+            "label": "Slovan Bratislava - tirage officiel du troisième tour",
+            "url": "https://www.skslovan.com/clanok13532-Dnes_spozname_dalsi_europsky_zreb.htm",
+            "accessedAt": "2026-08-04T10:59:50+02:00"
+          },
+          {
+            "label": "Omni - qualification de Mjällby face à Lincoln Red Imps",
+            "url": "https://omni.se/mjallby-vidare-sakrar-plats-i-europa/a/2pobVy",
+            "accessedAt": "2026-08-04T10:59:55+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "Kauno Žalgiris",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "analysis": {
+        "summary": "Dinamo Zagreb est le favori le plus solide de la grille grâce à son expérience, sa profondeur et l'avantage du Maksimir, même si Kauno Žalgiris arrive avec peu de pression.",
+        "keyFactors": [
+          "Dinamo dispose d'un effectif et d'une expérience européenne nettement supérieurs",
+          "Le match aller est programmé à Zagreb",
+          "La répartition FDJ dépasse 80 % en faveur de Dinamo"
+        ],
+        "uncertainty": "Dinamo a connu un tour précédent disputé et peut encore manquer d'automatismes.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°97",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-04T10:59:00+02:00"
+          },
+          {
+            "label": "Dinamo Zagreb - tirage officiel du troisième tour",
+            "url": "https://gnkdinamo.hr/en/news/prode-li-dinamo-u-3-pretkolo-suparnik-ce-mu-biti-litavski-kauno-zalgiris-ili-klaksvik-s-farskih-otoka",
+            "accessedAt": "2026-08-04T10:59:58+02:00"
+          },
+          {
+            "label": "Kauno Žalgiris - calendrier officiel",
+            "url": "https://zalgiris.lt/rungtynes/fk-kauno-zalgiris",
+            "accessedAt": "2026-08-04T10:59:59+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Union Saint-Gilloise",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "startsAt": "2026-08-04T20:00:00+02:00",
+      "probabilities": {
+        "home": 38,
+        "draw": 29,
+        "away": 33
+      },
+      "analysis": {
+        "summary": "Union garde un léger avantage grâce au terrain et à sa qualité collective, mais Bodø/Glimt arrive avec une dynamique offensive qui rend les trois issues plausibles.",
+        "keyFactors": [
+          "Union joue le match aller en Belgique, à Ostende",
+          "Bodø/Glimt reste sur plusieurs victoires convaincantes en championnat",
+          "Les deux équipes possèdent un profil offensif et la répartition FDJ est serrée"
+        ],
+        "uncertainty": "Le terrain délocalisé à Ostende réduit légèrement l'avantage habituel de l'Union.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°97",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-04T10:59:00+02:00"
+          },
+          {
+            "label": "Union Saint-Gilloise - informations officielles du match",
+            "url": "https://rusg.brussels/en/news/mobility-union-fk-bodoglimt-oostende",
+            "accessedAt": "2026-08-04T10:59:59+02:00"
+          },
+          {
+            "label": "Bodø/Glimt - calendrier européen officiel",
+            "url": "https://www.glimt.no/nyheter/slik-spilles-europakvalifiseringen-2026",
+            "accessedAt": "2026-08-04T11:00:00+02:00"
+          },
+          {
+            "label": "talkSPORT - analyse des rencontres du 4 août",
+            "url": "https://talksport.com/football/4488952/talksport-tips-best-football-bets-tuesday-4-august/",
+            "accessedAt": "2026-08-04T11:00:00+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["2", "1", "2", "N", "1", "1", "1"],
+      "rationale": "Conserve les favoris les plus solides et couvre le nul sur Levski-Kairat, où les signaux sportifs contredisent partiellement la répartition FDJ."
+    },
+    {
+      "id": "exterieurs",
+      "label": "Scénario extérieur",
+      "selections": ["2", "1", "2", "2", "2", "1", "2"],
+      "rationale": "Couvre les scénarios où Kairat, Slovan et Bodø/Glimt exploitent leur expérience ou leur dynamique malgré le déplacement."
+    },
+    {
+      "id": "equilibre",
+      "label": "Scénario équilibré",
+      "selections": ["N", "1", "2", "1", "N", "1", "N"],
+      "rationale": "Ajoute des nuls sur les trois affiches les plus serrées tout en conservant Olympiakos, l'Étoile Rouge et Dinamo Zagreb."
+    }
+  ]
+}
