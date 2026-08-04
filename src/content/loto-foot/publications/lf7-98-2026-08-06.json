@@ -1,0 +1,309 @@
+{
+  "id": "lf7-98-2026-08-06",
+  "formula": 7,
+  "gridNumber": 98,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-06T18:55:00+02:00",
+  "publishedAt": "2026-08-05T01:57:02+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Salzbourg",
+      "awayTeam": "Pafos FC",
+      "competition": "Qualifications UEFA Europa League",
+      "probabilities": {
+        "home": 63,
+        "draw": 22,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Salzbourg possède davantage d'expérience européenne et part favori à domicile, mais Pafos a déjà traversé un tour qualificatif relevé et peut rester dangereux en transition.",
+        "keyFactors": [
+          "Avantage du terrain pour Salzbourg",
+          "Expérience européenne supérieure de Salzbourg",
+          "Pafos arrive après une préparation internationale structurée"
+        ],
+        "uncertainty": "Les effectifs et la forme du début de saison restent moins stabilisés qu'en pleine saison.",
+        "sources": [
+          {
+            "label": "FDJ - Grilles Loto Foot ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "UEFA - Qualifications Europa League 2026-2027",
+            "url": "https://www.uefa.com/uefaeuropaleague/accesslist/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "Pafos FC - Préparation estivale 2026",
+            "url": "https://pafosfc.com.cy/summer-pre-season-tour-2026/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Hradec Králové",
+      "awayTeam": "Beşiktaş",
+      "competition": "Qualifications UEFA Europa League",
+      "probabilities": {
+        "home": 20,
+        "draw": 26,
+        "away": 54
+      },
+      "analysis": {
+        "summary": "Beşiktaş dispose d'un effectif plus profond et d'une expérience européenne nettement supérieure. Hradec Králové conserve une chance grâce au terrain et à sa récente qualification contre Tromsø.",
+        "keyFactors": [
+          "Supériorité individuelle attendue de Beşiktaş",
+          "Hradec Králové a éliminé Tromsø au tour précédent",
+          "Match aller susceptible de rester prudent"
+        ],
+        "uncertainty": "La capacité de Hradec à reproduire son efficacité européenne face à une opposition plus forte est difficile à mesurer.",
+        "sources": [
+          {
+            "label": "FDJ - Grilles Loto Foot ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "UEFA - Qualifications Europa League 2026-2027",
+            "url": "https://www.uefa.com/uefaeuropaleague/accesslist/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "Chance Liga - Calendrier Hradec Králové",
+            "url": "https://www.chanceliga.cz/klub/2026/zapasy/11-fc-hradec-kralove",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lech Poznań",
+      "awayTeam": "KÍ Klaksvík",
+      "competition": "Qualifications UEFA Europa League",
+      "probabilities": {
+        "home": 68,
+        "draw": 20,
+        "away": 12
+      },
+      "analysis": {
+        "summary": "Lech Poznań reste favori à domicile grâce à une base collective déjà compétitive et à un début de saison marqué par un trophée national. KÍ Klaksvík peut toutefois fermer le jeu et réduire les espaces.",
+        "keyFactors": [
+          "Lech a remporté la Supercoupe de Pologne 2026",
+          "Avantage du terrain et rythme compétitif de Lech",
+          "KÍ possède une expérience régulière des tours qualificatifs"
+        ],
+        "uncertainty": "Un bloc bas de KÍ peut rendre le match plus serré que l'écart théorique entre les équipes.",
+        "sources": [
+          {
+            "label": "FDJ - Grilles Loto Foot ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "UEFA - Qualifications Europa League 2026-2027",
+            "url": "https://www.uefa.com/uefaeuropaleague/accesslist/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "PZPN - Lech Poznań vainqueur de la Supercoupe 2026",
+            "url": "https://www.pzpn.pl/federacja/aktualnosci/2026-07-16/lech-poznan-zdobywca-sts-superpucharu-polski",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "PAOK Salonique",
+      "awayTeam": "Anderlecht",
+      "competition": "Qualifications UEFA Europa League",
+      "probabilities": {
+        "home": 42,
+        "draw": 30,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "PAOK bénéficie de l'ambiance de Toumba et a montré sa capacité à gagner à l'extérieur contre le Dynamo Kyiv. Anderlecht reste suffisamment expérimenté pour maintenir une forte probabilité de nul.",
+        "keyFactors": [
+          "Avantage du terrain très marqué pour PAOK",
+          "PAOK a gagné 3-2 au Dynamo Kyiv au tour précédent",
+          "Anderlecht a traversé un duel serré contre Hammarby"
+        ],
+        "uncertainty": "L'écart entre les deux équipes paraît faible et le scénario du match aller favorise une approche prudente.",
+        "sources": [
+          {
+            "label": "FDJ - Grilles Loto Foot ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "UEFA - Qualifications Europa League 2026-2027",
+            "url": "https://www.uefa.com/uefaeuropaleague/accesslist/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "UEFA - Parcours européen du PAOK",
+            "url": "https://www.uefa.com/uefaeuropaleague/clubs/50130/matches/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "FC Thoune",
+      "awayTeam": "Víkingur Reykjavík",
+      "competition": "Qualifications UEFA Europa League",
+      "probabilities": {
+        "home": 48,
+        "draw": 28,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Le FC Thoune part légèrement favori à domicile, avec une structure issue du championnat suisse. Víkingur Reykjavík présente cependant davantage de continuité compétitive en été et peut profiter des transitions.",
+        "keyFactors": [
+          "Avantage du terrain pour Thoune",
+          "Niveau moyen du championnat suisse supérieur",
+          "Víkingur évolue en pleine saison domestique"
+        ],
+        "uncertainty": "Le changement de compétition après les éliminations du tour précédent peut influencer les rotations et la motivation.",
+        "sources": [
+          {
+            "label": "FDJ - Grilles Loto Foot ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "UEFA - Qualifications Europa League 2026-2027",
+            "url": "https://www.uefa.com/uefaeuropaleague/accesslist/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "SRF - Parcours européen possible du FC Thoune",
+            "url": "https://www.srf.ch/sport/fussball/champions-league/champions-league-qualifikation-fuer-thun-koennte-es-auf-die-faeroeer-oder-nach-litauen-gehen",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Benfica",
+      "awayTeam": "Hearts",
+      "competition": "Qualifications UEFA Europa League",
+      "probabilities": {
+        "home": 76,
+        "draw": 15,
+        "away": 9
+      },
+      "analysis": {
+        "summary": "Benfica est le favori le plus net de la grille. Les Lisboètes ont renversé Saint-Gall avec une large victoire au retour, tandis que Hearts sort d'une lourde élimination et d'un début de championnat difficile.",
+        "keyFactors": [
+          "Benfica joue à domicile et possède un effectif supérieur",
+          "Victoire 5-0 de Benfica au tour précédent",
+          "Hearts reste sur plusieurs revers et des fragilités défensives"
+        ],
+        "uncertainty": "Le début de saison peut encore produire des rotations, mais l'écart structurel demeure important.",
+        "sources": [
+          {
+            "label": "FDJ - Grilles Loto Foot ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "Benfica - Tirage du troisième tour qualificatif",
+            "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/07/20/futebol-benfica-sorteio-3-pre-eliminatoria-acesso-a-fase-liga-da-liga-europa",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "talkSPORT - Conseils football du 4 au 6 août 2026",
+            "url": "https://talksport.com/betting/3068000/football-acca-tips/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Braga",
+      "awayTeam": "Dynamo Minsk",
+      "competition": "Qualifications UEFA Europa League",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "analysis": {
+        "summary": "Braga possède une supériorité technique et collective importante, renforcée par le terrain. Le Dynamo Minsk devra surtout chercher à limiter l'écart et jouer les rares transitions disponibles.",
+        "keyFactors": [
+          "Écart de niveau attendu en faveur de Braga",
+          "Avantage du terrain",
+          "Expérience régulière de Braga dans les compétitions européennes"
+        ],
+        "uncertainty": "Les données récentes directement comparables sont limitées au début de la saison européenne.",
+        "sources": [
+          {
+            "label": "FDJ - Grilles Loto Foot ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          },
+          {
+            "label": "UEFA - Qualifications Europa League 2026-2027",
+            "url": "https://www.uefa.com/uefaeuropaleague/accesslist/",
+            "accessedAt": "2026-08-05T01:56:40+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Choix principal",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Combinaison fondée sur les favoris les plus solides, avec PAOK et Thoune retenus grâce à l'avantage du terrain."
+    },
+    {
+      "id": "nul-paok",
+      "label": "Scénario prudent PAOK-Anderlecht",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre un nul dans l'affiche la plus équilibrée de la grille sans disperser la couverture sur les favoris nets."
+    },
+    {
+      "id": "vikingur",
+      "label": "Scénario extérieur Víkingur",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre une surprise de Víkingur, équipe en rythme de compétition, sur le match où l'avantage local paraît le moins décisif."
+    }
+  ]
+}
