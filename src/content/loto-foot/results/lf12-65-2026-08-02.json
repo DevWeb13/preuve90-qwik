@@ -1,0 +1,82 @@
+{
+  "id": "lf12-65-2026-08-02-result",
+  "publicationId": "lf12-65-2026-08-02",
+  "gridNumber": 65,
+  "settledAt": "2026-08-04T10:54:07+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/557",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2"
+    },
+    {
+      "position": 2,
+      "selection": "1"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "2"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "N"
+    },
+    {
+      "position": 8,
+      "selection": "2"
+    },
+    {
+      "position": 9,
+      "selection": "1"
+    },
+    {
+      "position": 10,
+      "selection": "1"
+    },
+    {
+      "position": 11,
+      "selection": "2"
+    },
+    {
+      "position": 12,
+      "selection": "N"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 12,
+      "amountCents": 3918100
+    },
+    {
+      "correctSelections": 11,
+      "amountCents": 139930
+    },
+    {
+      "correctSelections": 10,
+      "amountCents": 11940
+    },
+    {
+      "correctSelections": 9,
+      "amountCents": 1840
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 12 n°65",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/557",
+      "accessedAt": "2026-08-04T10:54:07+02:00"
+    }
+  ]
+}
