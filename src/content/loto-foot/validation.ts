@@ -276,5 +276,5 @@ export function validateLotoFootPublication(
 }
 
 export function validateNewLotoFootPublication(value: unknown): LotoFootPublication {
-  return validateLotoFootPublication(value, { requireStartsAt: true });
+  return validateLotoFootPublication(value);
 }
