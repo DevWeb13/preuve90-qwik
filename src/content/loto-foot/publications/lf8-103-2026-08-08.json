@@ -1,0 +1,348 @@
+{
+  "id": "lf8-103-2026-08-08",
+  "formula": 8,
+  "gridNumber": 103,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-08T20:40:00+02:00",
+  "publishedAt": "2026-08-06T01:57:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Sochaux",
+      "awayTeam": "Saint-Étienne",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 28, "draw": 29, "away": 43 },
+      "analysis": {
+        "summary": "Saint-Étienne conserve un avantage de qualité d'effectif, mais sa préparation s'est terminée par trois défaites consécutives. Sochaux bénéficie du terrain et a déjà montré sa capacité à rivaliser avec un adversaire supérieur en gagnant à Zurich, même si la lourde défaite contre Dijon incite à rester prudent.",
+        "keyFactors": [
+          "Avantage théorique d'effectif pour Saint-Étienne",
+          "Fin de préparation difficile des Verts",
+          "Avantage du terrain pour Sochaux"
+        ],
+        "uncertainty": "Première journée de championnat, avec des automatismes et des compositions encore peu stabilisés.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "AS Saint-Étienne - résultats de préparation",
+            "url": "https://www.asse.fr/index.php?id=11279&page=detail_actu",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "FC Sochaux - préparation contre Dijon",
+            "url": "https://www.fcsochaux.fr/actualites/match/le-fcsm-s-incline-lors-de-son-avant-dernier-match-de-preparation",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "FC Sochaux - victoire amicale à Zurich",
+            "url": "https://www.fcsochaux.fr/actualites/match/fc-zurich-fcsm-a-huis-clos",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Montpellier",
+      "awayTeam": "Dijon",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 49, "draw": 29, "away": 22 },
+      "analysis": {
+        "summary": "Montpellier part favori à la Mosson grâce à un effectif récemment issu de Ligue 1 et une préparation offensive convaincante, avec des victoires contre Aubagne, Le Puy et Clermont. Dijon reste dangereux après son net succès amical contre Sochaux, mais doit confirmer à l'extérieur.",
+        "keyFactors": [
+          "Avantage du terrain pour Montpellier",
+          "Préparation globalement positive du MHSC",
+          "Dijon a montré de l'efficacité contre Sochaux"
+        ],
+        "uncertainty": "Le niveau réel de Dijon après sa montée et le renouvellement des effectifs restent difficiles à mesurer avant la première journée.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "MHSC - calendrier et résultats de préparation",
+            "url": "https://mhscfoot.com/calendrier-resultat/2026-2027/equipe-pro/complet/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "FC Sochaux - succès amical de Dijon",
+            "url": "https://www.fcsochaux.fr/actualites/match/le-fcsm-s-incline-lors-de-son-avant-dernier-match-de-preparation",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Clermont",
+      "awayTeam": "Reims",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 31, "draw": 32, "away": 37 },
+      "analysis": {
+        "summary": "Reims possède un plafond d'effectif légèrement supérieur, mais sa préparation a produit des résultats serrés et peu de buts. Clermont reçoit et a limité Montpellier à un seul but en amical, ce qui rapproche fortement les trois issues.",
+        "keyFactors": [
+          "Léger avantage de qualité individuelle pour Reims",
+          "Avantage du terrain pour Clermont",
+          "Préparation rémoise peu prolifique"
+        ],
+        "uncertainty": "Deux équipes en transition et une première journée propice à un match fermé rendent le nul très plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "Clermont Foot - calendrier officiel",
+            "url": "https://billetterie.clermontfoot.com/fr/matchs/calendrier",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "Stade de Reims - match amical contre Amiens",
+            "url": "https://www.stade-de-reims.com/reims-amiens-le-travail-se-poursuit-au-touquet-1-1/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "Stade de Reims - match amical contre Paris FC",
+            "url": "https://www.stade-de-reims.com/reims-sincline-contre-le-paris-fc-1-0/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Dunkerque",
+      "awayTeam": "Grenoble",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 44, "draw": 31, "away": 25 },
+      "analysis": {
+        "summary": "Dunkerque est légèrement favori à Marcel-Tribut, porté par le terrain et un recrutement estival actif. Grenoble reste une équipe capable de fermer les espaces, mais dispose de moins d'indicateurs positifs publics avant cette reprise.",
+        "keyFactors": [
+          "Avantage du terrain pour Dunkerque",
+          "Renforcement estival de l'effectif maritime",
+          "Première journée favorable à un scénario serré"
+        ],
+        "uncertainty": "Les résultats détaillés de préparation des deux équipes sont incomplets, ce qui limite la confiance dans l'écart estimé.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "USL Dunkerque - préparation estivale",
+            "url": "https://www.usldunkerque.com/troisieme-match-amical-pour-les-maritimes-face-au-standard-de-liege/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "USL Dunkerque - mouvements estivaux",
+            "url": "https://www.usldunkerque.com/category/ligue-2-bkt/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Rodez",
+      "awayTeam": "Laval",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 45, "draw": 32, "away": 23 },
+      "analysis": {
+        "summary": "Rodez reste sur une cinquième place et un parcours jusqu'aux playoffs, base sportive plus solide que celle de Laval. Le RAF reçoit à Paul-Lignon après une préparation comprenant plusieurs adversaires de niveau élevé, ce qui lui donne un avantage mesuré.",
+        "keyFactors": [
+          "Rodez a terminé cinquième la saison précédente",
+          "Avantage du terrain à Paul-Lignon",
+          "Préparation contre des adversaires de niveaux variés"
+        ],
+        "uncertainty": "Le manque de résultats complets et récents de Laval empêche d'écarter un match nul ou une surprise extérieure.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "Rodez AF - bilan 2025-2026 et préparation",
+            "url": "https://rodezaveyronfootball.com/2026/06/reprise-stage-matchs-la-pre-saison-du-raf/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "Rodez AF - billetterie officielle",
+            "url": "https://billetterie.rodezaveyronfootball.com/fr",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Boulogne",
+      "awayTeam": "Nancy",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 36, "draw": 34, "away": 30 },
+      "analysis": {
+        "summary": "Cette affiche entre deux équipes proches paraît très équilibrée. Boulogne dispose de l'avantage du terrain, tandis que Nancy présente un profil capable de voyager et de jouer un match de faible marge. Le nul reçoit donc une probabilité élevée.",
+        "keyFactors": [
+          "Écart théorique réduit entre les équipes",
+          "Avantage du terrain pour Boulogne",
+          "Première journée pouvant favoriser la prudence"
+        ],
+        "uncertainty": "Peu de données publiques comparables sur la préparation et les compositions probables des deux équipes.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "beIN SPORTS - fiche Boulogne contre Nancy",
+            "url": "https://www.beinsports.com/fr-fr/football/ligue-2/boulogne-vs-nancy-2026-08-08",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Metz",
+      "awayTeam": "Guingamp",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 47, "draw": 31, "away": 22 },
+      "analysis": {
+        "summary": "Metz possède un avantage de qualité globale et reçoit à Saint-Symphorien. Guingamp reste expérimenté à ce niveau et peut contenir le match, mais le contexte de reprise et le terrain orientent le choix principal vers Metz.",
+        "keyFactors": [
+          "Avantage du terrain à Saint-Symphorien",
+          "Qualité théorique supérieure de Metz",
+          "Expérience de Guingamp en Ligue 2"
+        ],
+        "uncertainty": "Les deux équipes commencent une nouvelle saison avec des effectifs remaniés, ce qui augmente la probabilité d'un nul.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "FC Metz - billetterie officielle",
+            "url": "https://fcmetz8.prod.onpremise.mutu.hubber.fr/fr",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Nantes",
+      "awayTeam": "Red Star",
+      "competition": "Ligue 2 BKT - Journée 1",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 52, "draw": 29, "away": 19 },
+      "analysis": {
+        "summary": "Malgré une relégation et une forte instabilité récente, Nantes conserve un effectif et des moyens supérieurs à ceux du Red Star. La Beaujoire et l'écart de profondeur de groupe donnent un avantage net aux Nantais, sans effacer le risque lié au contexte interne.",
+        "keyFactors": [
+          "Effectif théoriquement supérieur de Nantes",
+          "Avantage du terrain à la Beaujoire",
+          "Contexte institutionnel et sportif nantais instable"
+        ],
+        "uncertainty": "Nantes sort d'une saison très difficile et le match est annoncé à huis clos, ce qui réduit une partie de l'avantage habituel du terrain.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF8 n°103",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "LFP - calendrier Ligue 2 2026-2027",
+            "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "FC Nantes - calendrier officiel et préparation",
+            "url": "https://www.fcnantes.com/articles/20262027/calendrier.php",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "Red Star - calendrier 2026-2027",
+            "url": "https://www.redstar.fr/2026-06-10/les-pros/decouvrez-le-calendrier-de-la-saison-2026-2027/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          },
+          {
+            "label": "Red Star - fiche officielle Nantes contre Red Star",
+            "url": "https://www.redstar.fr/match/2026-2027-1e-journee-red-star-fc-tbd/",
+            "accessedAt": "2026-08-06T01:55:00+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Favoris mesurés",
+      "selections": ["2", "1", "2", "1", "1", "1", "1", "1"],
+      "rationale": "Combinaison centrée sur les équipes présentant le meilleur équilibre entre qualité théorique, terrain et préparation."
+    },
+    {
+      "id": "nuls-cibles",
+      "label": "Nuls ciblés",
+      "selections": ["N", "1", "N", "1", "1", "N", "1", "1"],
+      "rationale": "Couvre les affiches les plus serrées de cette première journée, notamment Sochaux-Saint-Étienne, Clermont-Reims et Boulogne-Nancy."
+    },
+    {
+      "id": "scenario-prudent",
+      "label": "Scénario prudent",
+      "selections": ["2", "N", "2", "N", "N", "2", "N", "N"],
+      "rationale": "Variante plus prudente sur les favoris à domicile et couverture d'une surprise de Nancy dans le match le plus équilibré."
+    }
+  ]
+}
