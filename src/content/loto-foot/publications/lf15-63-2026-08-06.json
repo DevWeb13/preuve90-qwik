@@ -1,0 +1,274 @@
+{
+  "id": "lf15-63-2026-08-06",
+  "formula": 15,
+  "gridNumber": 63,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-06T18:55:00+02:00",
+  "publishedAt": "2026-08-05T05:59:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Salzbourg",
+      "awayTeam": "Pafos FC",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 48, "draw": 27, "away": 25 },
+      "analysis": {
+        "summary": "Salzbourg conserve un léger avantage structurel à domicile, mais Pafos arrive avec une préparation cohérente et un parcours européen qui rend le match moins déséquilibré que ne le suggère le seul prestige des clubs.",
+        "keyFactors": ["Avantage du terrain pour Salzbourg", "Préparation estivale structurée de Pafos", "Écart de niveau moins net sur un match aller"],
+        "uncertainty": "Les effectifs et la forme compétitive de début de saison restent difficiles à stabiliser.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Pafos FC - préparation et parcours européen 2026", "url": "https://pafosfc.com.cy/summer-pre-season-tour-2026/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Hradec Králové",
+      "awayTeam": "Beşiktaş",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 22, "draw": 27, "away": 51 },
+      "analysis": {
+        "summary": "Beşiktaş possède davantage d'expérience et de profondeur, tandis que Hradec Králové doit encore confirmer sa capacité à hausser son niveau face à une opposition européenne plus dense.",
+        "keyFactors": ["Expérience européenne supérieure de Beşiktaş", "Écart de profondeur d'effectif", "Avantage du terrain pour Hradec"],
+        "uncertainty": "Le contexte inhabituel du parcours européen de Hradec peut réduire la fiabilité des repères habituels.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "talkSPORT - contexte européen de Hradec Králové", "url": "https://talksport.com/football/4388035/mfk-karvina-match-fixing-europa-league-expelled-uefa-replacement/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lech Poznań",
+      "awayTeam": "KÍ Klaksvík",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 58, "draw": 24, "away": 18 },
+      "analysis": {
+        "summary": "Lech Poznań bénéficie d'un effectif plus complet et d'un avantage à domicile, mais KÍ Klaksvík a déjà montré qu'il savait rendre les doubles confrontations européennes inconfortables.",
+        "keyFactors": ["Supériorité théorique de Lech", "Avantage du terrain", "Capacité de KÍ à défendre bas et prolonger l'incertitude"],
+        "uncertainty": "Le niveau réel de fatigue après les tours précédents reste mal documenté.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Lech Poznań - adversaires potentiels du troisième tour", "url": "https://www.lechpoznan.pl/en/news%2C6%2Cpotencjalni-rywale-lecha-w-3-rundzie-eliminacji%2C47908.html", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "PAOK Salonique",
+      "awayTeam": "Anderlecht",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 43, "draw": 30, "away": 27 },
+      "analysis": {
+        "summary": "Le PAOK est légèrement favori grâce au terrain et à son intensité habituelle à domicile, mais Anderlecht possède assez de maîtrise technique pour maintenir une forte probabilité de nul.",
+        "keyFactors": ["Avantage du terrain du PAOK", "Expérience européenne des deux équipes", "Profil de match aller potentiellement prudent"],
+        "uncertainty": "Les compositions de départ et l'état physique des cadres peuvent déplacer fortement l'équilibre.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "UEFA - parcours européen du PAOK 2026/27", "url": "https://www.uefa.com/uefaeuropaleague/clubs/50130/matches/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "FC Thoune",
+      "awayTeam": "Víkingur Reykjavík",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 46, "draw": 28, "away": 26 },
+      "analysis": {
+        "summary": "Thoune reçoit et dispose d'un environnement plus favorable, mais Víkingur conserve un profil compétitif et rythmé qui empêche d'écarter un nul ou un succès extérieur.",
+        "keyFactors": ["Avantage du terrain suisse", "Rythme domestique de Víkingur", "Écart qualitatif modéré"],
+        "uncertainty": "Les données récentes directement comparables entre les deux équipes sont limitées.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Víkingur - calendrier officiel 2026", "url": "https://vikingur.is/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Benfica",
+      "awayTeam": "Hearts",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 74, "draw": 17, "away": 9 },
+      "analysis": {
+        "summary": "Benfica possède l'avantage le plus net de la grille grâce à sa qualité offensive, son expérience et le terrain, tandis que Hearts reste exposé après un début européen difficile.",
+        "keyFactors": ["Supériorité technique de Benfica", "Avantage du terrain", "Fragilité récente de Hearts"],
+        "uncertainty": "Une rotation importante de Benfica pourrait réduire l'écart attendu.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Benfica - calendrier européen du troisième tour", "url": "https://www.slbenfica.pt/en-us/?language=en-US&tabid=3086", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "talkSPORT - sélection Benfica contre Hearts", "url": "https://talksport.com/betting/3068000/football-acca-tips/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Braga",
+      "awayTeam": "Dynamo Minsk",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 69, "draw": 20, "away": 11 },
+      "analysis": {
+        "summary": "Braga est nettement favori par sa qualité collective, son expérience continentale et l'avantage du terrain, face à un Dynamo Minsk qui devrait surtout chercher à limiter les dégâts.",
+        "keyFactors": ["Écart de qualité collective", "Avantage du terrain", "Expérience européenne de Braga"],
+        "uncertainty": "Une gestion prudente de Braga peut maintenir le score serré plus longtemps que prévu.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Guardian - résultats européens récents incluant Braga", "url": "https://www.theguardian.com/football/live/2025/jan/30/tottenham-v-elfsborg-rangers-v-union-saint-gilloise-and-more-europa-league-live", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "IFK Göteborg",
+      "awayTeam": "La Gantoise",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 35, "draw": 30, "away": 35 },
+      "analysis": {
+        "summary": "L'affiche paraît très équilibrée : Göteborg reçoit et possède du rythme, tandis que La Gantoise dispose d'une expérience européenne et d'une profondeur légèrement supérieures.",
+        "keyFactors": ["Avantage du terrain pour Göteborg", "Expérience européenne de La Gantoise", "Équilibre global des forces"],
+        "uncertainty": "La marge entre les trois issues est faible et dépendra fortement de l'efficacité dans les deux surfaces.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "IFK Göteborg - tirage du troisième tour", "url": "https://ifkgoteborg.se/nyheter/a-lag/2026/tredje-kvalomgangen-lottad/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Sheriff Tiraspol",
+      "awayTeam": "Saint-Gall",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 31, "draw": 29, "away": 40 },
+      "analysis": {
+        "summary": "Saint-Gall possède un léger avantage par son rythme et sa qualité collective récente, mais le déplacement à Tiraspol et le profil fermé du Sheriff gardent le nul très présent.",
+        "keyFactors": ["Qualité collective légèrement supérieure de Saint-Gall", "Déplacement difficile", "Capacité du Sheriff à fermer les espaces"],
+        "uncertainty": "Les données publiques récentes sur le Sheriff sont moins riches que pour son adversaire.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Benfica - contexte du parcours européen de Saint-Gall", "url": "https://www.slbenfica.pt/en-us/?TabID=462&language=pt-PT", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Debrecen",
+      "awayTeam": "FC Copenhague",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 20, "draw": 25, "away": 55 },
+      "analysis": {
+        "summary": "Copenhague est favori par son expérience, sa profondeur et sa capacité à gérer les matches européens, même si Debrecen peut rendre l'aller accroché à domicile.",
+        "keyFactors": ["Expérience européenne de Copenhague", "Écart de profondeur d'effectif", "Avantage du terrain pour Debrecen"],
+        "uncertainty": "Le manque de sources récentes très détaillées sur Debrecen augmente l'incertitude locale.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "UEFA - calendrier des qualifications européennes", "url": "https://www.uefa.com/news-media/mediaservices/informationkits/competitions/uefaeuropaleague/2026/match/2045732/printmatchpresskits/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Dynamo Kiev",
+      "awayTeam": "Qarabağ",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 41, "draw": 29, "away": 30 },
+      "analysis": {
+        "summary": "Le Dynamo Kiev garde un léger avantage nominal, mais Qarabağ est suffisamment expérimenté et dangereux en transition pour rendre les trois issues crédibles.",
+        "keyFactors": ["Expérience européenne des deux équipes", "Avantage nominal du Dynamo", "Danger de Qarabağ en transition"],
+        "uncertainty": "Le lieu exact et les contraintes logistiques autour du Dynamo peuvent atténuer l'avantage habituel du premier nommé.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Dynamo Kiev - calendrier officiel 2026/27", "url": "https://fcdynamo.com/en/calendar/dynamo-k", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Valur Reykjavík",
+      "awayTeam": "Nordsjælland",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 26, "draw": 29, "away": 45 },
+      "analysis": {
+        "summary": "Nordsjælland dispose de davantage de talent et de maîtrise avec ballon, mais le déplacement en Islande et le rythme de Valur maintiennent un risque réel de nul.",
+        "keyFactors": ["Qualité technique de Nordsjælland", "Déplacement en Islande", "Rythme compétitif de Valur"],
+        "uncertainty": "Les écarts de calendrier domestique rendent la comparaison de forme imparfaite.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Aftonbladet - parcours européen potentiel de Valur et Nordsjælland", "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/OkzwXk/de-blir-hammarbys-nasta-europa-motstand", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Twente",
+      "awayTeam": "DAC 1904",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 70, "draw": 19, "away": 11 },
+      "analysis": {
+        "summary": "Twente est nettement favori à domicile par sa qualité technique et son expérience d'un niveau de compétition supérieur, tandis que DAC devrait surtout chercher à rester en vie dans la double confrontation.",
+        "keyFactors": ["Avantage du terrain", "Écart de niveau collectif", "Expérience européenne récente de Twente"],
+        "uncertainty": "Une rotation importante de Twente pourrait réduire son contrôle du match.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Guardian - référence récente au parcours européen de Twente", "url": "https://www.theguardian.com/football/live/2025/feb/13/union-saint-gilloise-v-ajax-fenerbahce-v-anderlecht-porto-v-ajax-europa-league-live", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Partizan Belgrade",
+      "awayTeam": "Tobol Kostanay",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 62, "draw": 23, "away": 15 },
+      "analysis": {
+        "summary": "Partizan est favori à Belgrade grâce au terrain, à son expérience et à une dynamique offensive correcte, même si Tobol peut rester dangereux dans un match aller prudent.",
+        "keyFactors": ["Avantage du terrain à Belgrade", "Expérience européenne de Partizan", "Dynamique offensive récente de Partizan"],
+        "uncertainty": "Le niveau exact de Tobol dans cette phase de saison est moins bien documenté.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Partizan - site officiel et forme récente", "url": "https://www.partizan.rs/en", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Cadena SER - confirmation du match aller à Belgrade", "url": "https://cadenaser.com/cmadrid/2026/08/04/el-camino-del-getafe-en-la-conference-pasa-por-belgrado-o-kazajistan-ser-madrid-sur/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Ajax",
+      "awayTeam": "Shelbourne FC",
+      "competition": "Qualifications européennes",
+      "probabilities": { "home": 78, "draw": 14, "away": 8 },
+      "analysis": {
+        "summary": "Ajax possède un avantage très net à Amsterdam par sa qualité individuelle, son volume offensif attendu et sa profondeur, malgré la confiance acquise par Shelbourne lors du tour précédent.",
+        "keyFactors": ["Écart de qualité individuelle", "Avantage du terrain", "Expérience européenne d'Ajax"],
+        "uncertainty": "Shelbourne arrive libéré et peut profiter d'une éventuelle rotation néerlandaise.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°63", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "Ajax - confirmation du troisième tour à domicile", "url": "https://english.ajax.nl/articles/ajax-to-face-shelbourne-or-kalju-if-they-eliminate-fk-vojvodina/", "accessedAt": "2026-08-05T05:58:00+02:00" },
+          { "label": "The Sun Ireland - qualification de Shelbourne", "url": "https://www.thesun.ie/sport/17384402/shelbourne-ajax-kalju-conference-league/", "accessedAt": "2026-08-05T05:58:00+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Choix principal",
+      "selections": ["1", "2", "1", "1", "1", "1", "1", "N", "2", "2", "1", "2", "1", "1", "1"],
+      "rationale": "Combinaison fondée sur les issues les plus probables, avec le nul retenu sur l'affiche la plus équilibrée entre Göteborg et La Gantoise."
+    },
+    {
+      "id": "prudent",
+      "label": "Scénario prudent",
+      "selections": ["N", "2", "1", "N", "1", "1", "1", "2", "N", "2", "N", "2", "1", "1", "1"],
+      "rationale": "Scénario couvrant davantage de nuls sur les affiches serrées et un succès extérieur de La Gantoise."
+    },
+    {
+      "id": "alternatif",
+      "label": "Scénario alternatif",
+      "selections": ["2", "N", "N", "1", "2", "1", "1", "1", "2", "2", "2", "N", "1", "N", "1"],
+      "rationale": "Scénario de variance couvrant plusieurs surprises plausibles sans remettre en cause les favoris les plus solides de la grille."
+    }
+  ]
+}
