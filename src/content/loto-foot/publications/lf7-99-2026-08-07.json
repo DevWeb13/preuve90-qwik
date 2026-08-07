@@ -1,0 +1,330 @@
+{
+  "id": "lf7-99-2026-08-07",
+  "formula": 7,
+  "gridNumber": 99,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-07T19:55:00+02:00",
+  "publishedAt": "2026-08-07T02:07:01+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Estoril Praia",
+      "awayTeam": "Famalicão",
+      "competition": "Liga Portugal Betclic - Journée 1",
+      "startsAt": "2026-08-07T20:15:00+02:00",
+      "probabilities": {
+        "home": 38,
+        "draw": 31,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Estoril reçoit pour l'ouverture du championnat et bénéficie d'un léger avantage de terrain. Famalicão reste toutefois suffisamment solide pour équilibrer l'affiche, ce qui maintient le nul et la victoire extérieure à des niveaux proches.",
+        "keyFactors": [
+          "Avantage du terrain pour Estoril",
+          "Première journée propice à un match prudent",
+          "Écart théorique limité entre les deux équipes"
+        ],
+        "uncertainty": "Les effectifs et automatismes de début de saison restent difficiles à évaluer avec précision.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°99",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Liga Portugal - fiche officielle Estoril Praia - FC Famalicão",
+            "url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/1/2",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Estoril Praia - calendrier officiel 2026-2027",
+            "url": "https://estorilpraia.pt/?attachment_id=17197",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Club Bruges",
+      "awayTeam": "KV Kortrijk",
+      "competition": "Jupiler Pro League - Journée 1",
+      "startsAt": "2026-08-07T20:45:00+02:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 20,
+        "away": 12
+      },
+      "analysis": {
+        "summary": "Champion en titre et à domicile, le Club Bruges dispose d'un net avantage de qualité et de profondeur. Kortrijk arrive dans une affiche d'ouverture très exigeante, même si le contexte de première journée impose de conserver une marge d'incertitude.",
+        "keyFactors": [
+          "Club Bruges champion 2025-2026",
+          "Avantage du terrain au Jan Breydel",
+          "Écart d'effectif marqué"
+        ],
+        "uncertainty": "Une première journée peut produire un rythme irrégulier et réduire l'écart attendu.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°99",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Club Bruges - calendrier Pro League 2026-2027",
+            "url": "https://www.clubbrugge.be/en/news/pro-league-schedule-announced",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Club Bruges - préparation 2026-2027",
+            "url": "https://business.clubbrugge.be/en/news/clubs-preparation",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "SC Cambuur",
+      "awayTeam": "Excelsior Rotterdam",
+      "competition": "Eredivisie - Journée 1",
+      "startsAt": "2026-08-07T20:00:00+02:00",
+      "probabilities": {
+        "home": 36,
+        "draw": 30,
+        "away": 34
+      },
+      "analysis": {
+        "summary": "L'ouverture de l'Eredivisie oppose deux équipes proches, avec un léger avantage à Cambuur grâce au terrain. Excelsior possède toutefois assez d'expérience pour rendre les trois issues crédibles.",
+        "keyFactors": [
+          "Avantage du terrain pour Cambuur",
+          "Équilibre théorique entre les équipes",
+          "Première journée à forte variance"
+        ],
+        "uncertainty": "Le niveau réel des deux équipes après l'intersaison reste peu stabilisé.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°99",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "KNVB - programme définitif 2026-2027",
+            "url": "https://www.knvb.nl/nieuws/betaald-voetbal/competitiezaken/71918/definitief-competitieprogramma-202627-vastgesteld",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "KNVB - première journée Eredivisie 2026-2027",
+            "url": "https://www.knvb.nl/node/71891",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Shamrock Rovers",
+      "awayTeam": "Dundalk",
+      "competition": "SSE Airtricity Men's Premier Division",
+      "startsAt": "2026-08-07T21:00:00+02:00",
+      "probabilities": {
+        "home": 61,
+        "draw": 24,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Shamrock Rovers reçoit à Tallaght avec une dynamique récente supérieure et plusieurs résultats positifs en championnat. Dundalk traverse une séquence plus fragile, ce qui renforce nettement le scénario d'une victoire à domicile.",
+        "keyFactors": [
+          "Avantage du terrain pour Shamrock Rovers",
+          "Dynamique récente favorable aux Rovers",
+          "Série récente plus faible de Dundalk"
+        ],
+        "uncertainty": "La charge européenne de Shamrock Rovers peut entraîner rotation et fatigue.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°99",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Dundalk FC - calendrier officiel 2026",
+            "url": "https://www.dundalkfc.com/2026-fixtures",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Waterford FC - forme récente Shamrock Rovers et Dundalk",
+            "url": "https://waterfordfc.ie/match/shamrock-rovers-fc-dundalk-fc-2026-08-07/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "The Sun Ireland - absences et contexte européen de Shamrock Rovers",
+            "url": "https://www.thesun.ie/sport/17417935/stephen-bradley-rory-gaffney-shamrock-rovers-return/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "Lokomotiv Plovdiv",
+      "competition": "Parva Liga",
+      "probabilities": {
+        "home": 57,
+        "draw": 27,
+        "away": 16
+      },
+      "analysis": {
+        "summary": "Levski a démarré le championnat par deux victoires et présente une dynamique plus solide. Lokomotiv Plovdiv reste compétitif mais l'avantage du terrain et la confiance actuelle donnent un net avantage aux locaux.",
+        "keyFactors": [
+          "Deux victoires lors des deux premières journées pour Levski",
+          "Avantage du terrain",
+          "Levski mieux classé au début du championnat"
+        ],
+        "uncertainty": "L'enchaînement européen de Levski peut peser sur la fraîcheur et la composition.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°99",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Levski Sofia - résultats et classement 2026-2027",
+            "url": "https://levski.bg/home/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Levski Sofia - victoire à Lokomotiv Sofia",
+            "url": "https://levski.bg/video/%F0%9F%94%B5-%D0%BF%D1%8A%D1%80%D0%B2%D0%B0-%D0%BB%D0%B8%D0%B3%D0%B0-%D0%BB%D0%BE%D0%BA%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D0%B2-%D1%81%D1%84-12-%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8-matchday/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Middlesbrough",
+      "awayTeam": "Wrexham",
+      "competition": "EFL Cup - 1er tour",
+      "startsAt": "2026-08-07T21:00:00+02:00",
+      "probabilities": {
+        "home": 45,
+        "draw": 29,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Middlesbrough reçoit et dispose d'un léger avantage de qualité globale, mais Wrexham a affronté une opposition relevée pendant sa préparation et reste capable de marquer. Le scénario le plus probable demeure une victoire serrée des locaux.",
+        "keyFactors": [
+          "Avantage du terrain pour Middlesbrough",
+          "Effectif de Boro légèrement supérieur",
+          "Wrexham a préparé la saison face à des adversaires solides"
+        ],
+        "uncertainty": "Match de coupe avec rotations possibles et niveau de priorité difficile à anticiper.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°99",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "EFL - programmation officielle Middlesbrough - Wrexham",
+            "url": "https://www.efl.com/news/2026/february/06/how-to-watch-and-follow-the-efl-this-weekend/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "talkSPORT - contexte, effectifs et préparation",
+            "url": "https://talksport.com/football/4488112/middlesbrough-vs-wrexham-live-commentary-time-teams-channel-stream/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bochum",
+      "awayTeam": "Hertha Berlin",
+      "competition": "2. Bundesliga - Journée 1",
+      "startsAt": "2026-08-07T20:30:00+02:00",
+      "probabilities": {
+        "home": 39,
+        "draw": 31,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Bochum reçoit dans une affiche d'ouverture équilibrée. Les deux clubs sortent d'une saison décevante et avaient livré deux confrontations serrées la saison précédente, ce qui maintient le nul et la victoire extérieure à des niveaux significatifs.",
+        "keyFactors": [
+          "Avantage du terrain pour Bochum",
+          "Confrontations directes serrées la saison précédente",
+          "Ambitions de remontée comparables"
+        ],
+        "uncertainty": "Le renouvellement des effectifs et la première journée rendent l'évaluation très volatile.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°99",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Bundesliga - présentation officielle de l'ouverture 2026-2027",
+            "url": "https://www.bundesliga.com/en/2bundesliga/news/bochum-to-host-hertha-berlin-in-opening-bundesliga-2-game-2026-27-38049",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "VfL Bochum - annonce officielle du match d'ouverture",
+            "url": "https://www.vfl-bochum.de/aktuelles/2026/07/vfl-eroffnet-die-zweitligasaison-hertha-zu-gast/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          },
+          {
+            "label": "Hertha BSC - calendrier officiel",
+            "url": "https://www.herthabsc.com/",
+            "accessedAt": "2026-08-07T02:06:23+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Privilégie les avantages à domicile et les favoris les plus solides, tout en gardant Cambuur et Bochum comme choix de terrain dans les matchs serrés."
+    },
+    {
+      "id": "equilibre",
+      "label": "Scénario équilibré",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre les rencontres les plus indécises avec les nuls d'Estoril et Bochum ainsi qu'une victoire extérieure d'Excelsior."
+    },
+    {
+      "id": "surprises",
+      "label": "Scénario surprises mesurées",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2",
+        "2"
+      ],
+      "rationale": "Protège contre plusieurs renversements plausibles sans remettre en cause les deux favoris les plus nets, Club Bruges et Shamrock Rovers."
+    }
+  ]
+}
