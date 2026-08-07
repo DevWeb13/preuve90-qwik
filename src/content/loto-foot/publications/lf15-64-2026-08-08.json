@@ -1,0 +1,283 @@
+{
+  "id": "lf15-64-2026-08-08",
+  "formula": 15,
+  "gridNumber": 64,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-08T15:55:00+02:00",
+  "publishedAt": "2026-08-07T05:58:45+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "CF Estrela",
+      "awayTeam": "Sporting",
+      "competition": "Liga Portugal",
+      "probabilities": { "home": 18, "draw": 24, "away": 58 },
+      "analysis": {
+        "summary": "Sporting part favori malgré le déplacement, avec davantage de qualité et de profondeur, mais l'ouverture de saison et quelques incertitudes d'effectif empêchent d'écarter totalement le nul.",
+        "keyFactors": ["Supériorité théorique de Sporting", "avantage du terrain pour Estrela", "contexte de première journée"],
+        "uncertainty": "Les automatismes de début de saison et les derniers mouvements de mercato peuvent modifier l'écart attendu.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "Sporting CP - calendrier d'ouverture 2026/27", "url": "https://www.sporting.pt/pt/noticias/futebol/equipa-principal/2026-07-02/sporting-cp-abre-a-liga-em-casa-do-cf-estrela-da", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Guimaraes",
+      "awayTeam": "Arouca",
+      "competition": "Liga Portugal",
+      "probabilities": { "home": 49, "draw": 28, "away": 23 },
+      "analysis": {
+        "summary": "Guimarães dispose d'un avantage à domicile et d'un profil globalement plus robuste, mais Arouca reste suffisamment compétitif pour maintenir une probabilité de nul notable.",
+        "keyFactors": ["Avantage du terrain", "qualité structurelle de Guimarães", "incertitude de première journée"],
+        "uncertainty": "Le manque de données compétitives 2026/27 rend la hiérarchie moins fiable qu'en cours de saison.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "Vitória SC - préparation de l'équipe première", "url": "https://vitoriasc.pt/en/2025/07/02/luis-pinto-orientou-a-primeira-sessao-de-treinos-no-relvado/", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "CS Maritimo",
+      "awayTeam": "Casa Pia",
+      "competition": "Liga Portugal",
+      "startsAt": "2026-08-08T15:30:00+01:00",
+      "probabilities": { "home": 38, "draw": 31, "away": 31 },
+      "analysis": {
+        "summary": "Marítimo bénéficie du terrain pour son retour dans l'élite, tandis que Casa Pia possède davantage de continuité récente au plus haut niveau; l'affiche paraît donc serrée.",
+        "keyFactors": ["Retour de Marítimo en Liga", "avantage du terrain", "expérience récente de Casa Pia dans l'élite"],
+        "uncertainty": "Un promu à domicile lors de la première journée est difficile à calibrer précisément.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "CS Marítimo - ouverture contre Casa Pia", "url": "https://www.csmaritimo.org.pt/maritimo-regressa-a-liga-betclic-a-8-de-agosto-frente-ao-casa-pia/", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Standard Liège",
+      "awayTeam": "Cercle Bruges",
+      "competition": "Jupiler Pro League",
+      "startsAt": "2026-08-08T18:15:00+02:00",
+      "probabilities": { "home": 43, "draw": 30, "away": 27 },
+      "analysis": {
+        "summary": "Le Standard reçoit et possède un léger avantage, mais le Cercle peut rendre le match fermé; le nul reste une issue importante dans une première journée.",
+        "keyFactors": ["Avantage de Sclessin", "match d'ouverture", "écart de niveau limité"],
+        "uncertainty": "La forme de pré-saison et les compositions définitives restent des facteurs sensibles.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "Standard de Liège - calendrier 2026/27", "url": "https://standard.be/fr/news/calendrier-saison-2026-2027", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Westerlo",
+      "awayTeam": "Saint-Gilloise",
+      "competition": "Jupiler Pro League",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 24, "draw": 29, "away": 47 },
+      "analysis": {
+        "summary": "L'Union est supérieure sur le papier, mais son calendrier européen rapproché et le déplacement à Westerlo réduisent l'écart attendu.",
+        "keyFactors": ["Qualité collective de l'Union", "avantage du terrain pour Westerlo", "charge liée aux tours européens"],
+        "uncertainty": "Une rotation de l'Union après l'Europe pourrait rendre le match plus équilibré.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "RUSG - ouverture de saison à Westerlo", "url": "https://rusg.brussels/fr/nouvelles/lunion-entame-la-saison-20262027-de-la-jupiler-pro-league-westerlo", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "AZ Alkmaar",
+      "awayTeam": "ADO Den Haag",
+      "competition": "Eredivisie",
+      "startsAt": "2026-08-08T21:00:00+02:00",
+      "probabilities": { "home": 65, "draw": 21, "away": 14 },
+      "analysis": {
+        "summary": "AZ est nettement favori à domicile face au promu ADO, même si une première journée peut produire davantage de variance qu'un match de championnat stabilisé.",
+        "keyFactors": ["Avantage du terrain", "statut de promu d'ADO", "supériorité d'effectif attendue d'AZ"],
+        "uncertainty": "Le mercato encore ouvert et la première journée augmentent l'incertitude.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "AZ - ouverture contre ADO Den Haag", "url": "https://az.nl/inside-az/nieuws/2026/juni/az-opent-eredivisieseizoen-tegen-ado-den-haag", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "PSV Eindhoven",
+      "awayTeam": "FortunaSittard",
+      "competition": "Eredivisie",
+      "startsAt": "2026-08-08T20:00:00+02:00",
+      "probabilities": { "home": 75, "draw": 16, "away": 9 },
+      "analysis": {
+        "summary": "Le champion en titre PSV reçoit Fortuna et possède l'un des avantages les plus nets de la grille, renforcé par ses confrontations récentes très favorables à Eindhoven.",
+        "keyFactors": ["Champion en titre", "avantage du Philips Stadion", "série récente de succès à domicile contre Fortuna"],
+        "uncertainty": "Une rotation ou un début de saison encore imparfait peut réduire la marge sans inverser le favoritisme.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "PSV - match center PSV-Fortuna", "url": "https://www.psv.nl/match-center/wedstrijd/psv-fortuna-sittard-08-08-2026", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "GOAhead Eagles",
+      "awayTeam": "Willem II",
+      "competition": "Eredivisie",
+      "startsAt": "2026-08-08T18:45:00+02:00",
+      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "analysis": {
+        "summary": "Go Ahead Eagles reçoit le promu Willem II et dispose d'un avantage clair, sans être assez dominant pour négliger complètement le nul.",
+        "keyFactors": ["Avantage de De Adelaarshorst", "Willem II promu", "repères récents favorables à Go Ahead à domicile"],
+        "uncertainty": "Le niveau réel de Willem II après promotion reste à confirmer.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "Go Ahead Eagles - billetterie et calendrier", "url": "https://www.ga-eagles.nl/losse-kaartverkoop-eerste-thuisduels-van-start/", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "FC Lausanne",
+      "awayTeam": "Young Boys",
+      "competition": "Super League suisse",
+      "startsAt": "2026-08-08T18:00:00+02:00",
+      "probabilities": { "home": 27, "draw": 28, "away": 45 },
+      "analysis": {
+        "summary": "Young Boys garde un avantage qualitatif malgré le déplacement, tandis que Lausanne bénéficie du terrain et peut exploiter une rencontre de début de saison encore ouverte.",
+        "keyFactors": ["Qualité supérieure de YB", "avantage du terrain pour Lausanne", "début de championnat"],
+        "uncertainty": "Les premiers résultats 2026/27 restent trop peu nombreux pour stabiliser les niveaux.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "BSC Young Boys - calendrier officiel 2026/27", "url": "https://www.bscyb.ch/news?nid=17416", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Wolfsburg",
+      "awayTeam": "Kaiserslautern",
+      "competition": "2. Bundesliga",
+      "startsAt": "2026-08-08T20:30:00+02:00",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "Wolfsburg, relégué mais doté d'un effectif théoriquement supérieur, reçoit Kaiserslautern et part favori pour son entrée en 2. Bundesliga.",
+        "keyFactors": ["Avantage du terrain", "effectif de Wolfsburg issu de Bundesliga", "match d'ouverture sous pression"],
+        "uncertainty": "La réaction d'un relégué lors de la première journée peut être instable.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "VfL Wolfsburg - ouverture contre Kaiserslautern", "url": "https://www.vfl-wolfsburg.de/en/newsdetails/news-detail/detail/news/top-fixture-to-kick-off-the-season", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Sheffield Wed.",
+      "awayTeam": "Bolton",
+      "competition": "Carabao Cup",
+      "probabilities": { "home": 38, "draw": 31, "away": 31 },
+      "analysis": {
+        "summary": "Sheffield Wednesday bénéficie du terrain mais arrive avec un contexte extra-sportif plus fragile, ce qui rapproche fortement Bolton et maintient les trois issues ouvertes.",
+        "keyFactors": ["Avantage du terrain", "difficultés récentes de Sheffield Wednesday", "format coupe à forte variance"],
+        "uncertainty": "Les rotations de coupe et le manque d'horaire fiable compliquent la lecture.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "FourFourTwo - contexte EFL 2026/27", "url": "https://www.fourfourtwo.com/competition/bromley-vs-leicester-and-10-more-things-to-look-forward-to-in-the-efl-this-season", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Swansea",
+      "awayTeam": "Birmingham",
+      "competition": "Carabao Cup",
+      "startsAt": "2026-08-08T15:00:00+01:00",
+      "probabilities": { "home": 37, "draw": 31, "away": 32 },
+      "analysis": {
+        "summary": "Swansea reçoit dans une affiche très équilibrée; Birmingham possède assez de qualité pour neutraliser l'avantage du terrain, et la rotation de coupe renforce la probabilité de nul à 90 minutes.",
+        "keyFactors": ["Avantage du terrain pour Swansea", "opposition de même univers EFL", "rotation possible en coupe"],
+        "uncertainty": "Les choix d'équipe de première journée peuvent déplacer fortement l'équilibre.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "EFL - programme Carabao Cup", "url": "https://www.efl.com/competitions/carabao-cup/", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Rotherham",
+      "awayTeam": "West Bromwich",
+      "competition": "Carabao Cup",
+      "startsAt": "2026-08-08T17:30:00+01:00",
+      "probabilities": { "home": 24, "draw": 28, "away": 48 },
+      "analysis": {
+        "summary": "West Brom part favori grâce à un niveau de championnat supérieur et une fin de saison 2025/26 plus solide, mais Rotherham conserve l'avantage du terrain dans un match de coupe.",
+        "keyFactors": ["Écart de division", "forme de fin de saison plus favorable à West Brom", "terrain de Rotherham"],
+        "uncertainty": "Les rotations en Carabao Cup peuvent réduire l'écart théorique.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "Sky Sports - forme Rotherham vs West Brom", "url": "https://www.skysports.com/football/rotherham-united-vs-west-bromwich-albion/562181", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "West Ham",
+      "awayTeam": "Portsmouth",
+      "competition": "Carabao Cup",
+      "startsAt": "2026-08-08T15:00:00+01:00",
+      "probabilities": { "home": 61, "draw": 24, "away": 15 },
+      "analysis": {
+        "summary": "West Ham conserve un avantage net à domicile malgré sa relégation, avec un effectif plus profond que Portsmouth; le principal risque vient d'une rotation importante en coupe.",
+        "keyFactors": ["Avantage du London Stadium", "profondeur d'effectif", "préparation orientée vers ce premier match officiel"],
+        "uncertainty": "Le onze de départ de coupe peut réduire l'écart attendu.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "West Ham - Portsmouth, informations officielles", "url": "https://www.whufc.com/en/tickets/home-matches/portsmouth-h", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Pau",
+      "awayTeam": "Annecy FC",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-08T20:45:00+02:00",
+      "probabilities": { "home": 40, "draw": 32, "away": 28 },
+      "analysis": {
+        "summary": "Pau possède un léger avantage à domicile dans une affiche de Ligue 2 équilibrée; Annecy sort d'une saison solide et peut viser au minimum le nul.",
+        "keyFactors": ["Avantage du terrain", "Annecy a terminé 7e en 2025/26", "première journée généralement prudente"],
+        "uncertainty": "Les changements d'effectif estivaux rendent les écarts faibles.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°64", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-07T05:58:31+02:00" },
+          { "label": "FC Annecy - lancement de saison à Pau", "url": "https://www.fc-annecy.fr/news/fiche-actualite/abonnement-26-27-les-dates-cles", "accessedAt": "2026-08-07T05:58:31+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["2", "1", "1", "1", "2", "1", "1", "1", "2", "1", "N", "1", "2", "1", "1"],
+      "rationale": "Favoris structurels conservés, avec le nul sur Sheffield Wednesday-Bolton comme principal point de prudence."
+    },
+    {
+      "id": "prudente",
+      "label": "Couverture nuls",
+      "selections": ["2", "1", "N", "N", "2", "1", "1", "1", "N", "1", "1", "N", "2", "1", "N"],
+      "rationale": "Couvre plusieurs affiches équilibrées et l'incertitude propre aux premières journées et aux matches de coupe."
+    },
+    {
+      "id": "contrariante",
+      "label": "Scénario alternatif",
+      "selections": ["2", "N", "2", "1", "N", "1", "1", "N", "2", "N", "N", "2", "2", "1", "1"],
+      "rationale": "Introduit quelques surprises plausibles sans abandonner les favoris les plus solides de la grille."
+    }
+  ]
+}
