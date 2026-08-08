@@ -1,0 +1,90 @@
+{
+  "id": "lf15-64-2026-08-08-result",
+  "publicationId": "lf15-64-2026-08-08",
+  "gridNumber": 64,
+  "settledAt": "2026-08-09T00:48:59+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2012",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N"
+    },
+    {
+      "position": 2,
+      "selection": "2"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "N"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "N"
+    },
+    {
+      "position": 8,
+      "selection": "1"
+    },
+    {
+      "position": 9,
+      "selection": "N"
+    },
+    {
+      "position": 10,
+      "selection": "N"
+    },
+    {
+      "position": 11,
+      "selection": "1"
+    },
+    {
+      "position": 12,
+      "selection": "2"
+    },
+    {
+      "position": 13,
+      "selection": "2"
+    },
+    {
+      "position": 14,
+      "selection": "1"
+    },
+    {
+      "position": 15,
+      "selection": "2"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 13,
+      "amountCents": 589800
+    },
+    {
+      "correctSelections": 12,
+      "amountCents": 94360
+    },
+    {
+      "correctSelections": 11,
+      "amountCents": 8700
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°64",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2012",
+      "accessedAt": "2026-08-09T00:48:59+02:00"
+    }
+  ]
+}
