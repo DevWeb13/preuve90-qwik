@@ -1,0 +1,264 @@
+{
+  "id": "lf7-100-2026-08-09",
+  "formula": 7,
+  "gridNumber": 100,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-09T16:40:00+02:00",
+  "publishedAt": "2026-08-08T06:00:54+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Benfica",
+      "awayTeam": "Viseu",
+      "competition": "Liga Portugal",
+      "startsAt": "2026-08-09T20:30:00+01:00",
+      "probabilities": { "home": 80, "draw": 13, "away": 7 },
+      "analysis": {
+        "summary": "Benfica ouvre à domicile contre le promu Académico de Viseu avec un net avantage de qualité, de profondeur et de terrain.",
+        "keyFactors": [
+          "écart de niveau structurel en faveur de Benfica",
+          "avantage de l'Estádio da Luz",
+          "Académico de Viseu vient d'être promu dans l'élite"
+        ],
+        "uncertainty": "La première journée et un mercato encore ouvert ajoutent de la variance, mais Benfica reste nettement supérieur sur le papier.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°100",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "SL Benfica - calendrier Liga Betclic 2026/27",
+            "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/07/02/futebol-benfica-calendario-liga-betclic-2026-27",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "Académico de Viseu - calendrier officiel",
+            "url": "https://www.academicodeviseu.pt/",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Moreirense",
+      "awayTeam": "Braga",
+      "competition": "Liga Portugal",
+      "startsAt": "2026-08-09T19:30:00+01:00",
+      "probabilities": { "home": 27, "draw": 29, "away": 44 },
+      "analysis": {
+        "summary": "Braga possède davantage de qualité individuelle et de profondeur, mais Moreirense à domicile conserve une vraie capacité à accrocher le favori.",
+        "keyFactors": [
+          "avantage qualitatif attendu de Braga",
+          "avantage du terrain pour Moreirense",
+          "première journée susceptible de réduire les écarts théoriques"
+        ],
+        "uncertainty": "Le début de saison limite les données compétitives 2026/27 et rend les automatismes ainsi que les compositions plus difficiles à évaluer.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°100",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "Liga Portugal - Moreirense FC vs SC Braga",
+            "url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/1/5",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Gil Vicente",
+      "awayTeam": "Rio Ave",
+      "competition": "Liga Portugal",
+      "startsAt": "2026-08-09T19:30:00+01:00",
+      "probabilities": { "home": 40, "draw": 32, "away": 28 },
+      "analysis": {
+        "summary": "Affiche équilibrée entre deux équipes portugaises proches, avec un léger avantage à Gil Vicente grâce au terrain.",
+        "keyFactors": [
+          "avantage du terrain pour Gil Vicente",
+          "écart théorique limité entre les deux équipes",
+          "probabilité significative de match nul"
+        ],
+        "uncertainty": "Le manque de repères compétitifs en tout début de saison augmente fortement le poids des compositions du jour.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°100",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "Liga Portugal - Gil Vicente FC vs Rio Ave FC",
+            "url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/1/3",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "Rio Ave FC - calendrier officiel",
+            "url": "https://rioavefc.pt/",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Heerenveen",
+      "awayTeam": "Twente",
+      "competition": "Eredivisie",
+      "startsAt": "2026-08-09T16:45:00+02:00",
+      "probabilities": { "home": 32, "draw": 29, "away": 39 },
+      "analysis": {
+        "summary": "Twente part avec un léger avantage de niveau, mais le déplacement à Heerenveen rend l'affiche nettement plus ouverte qu'un simple statut de favori extérieur.",
+        "keyFactors": [
+          "léger avantage qualitatif de Twente",
+          "terrain favorable à Heerenveen",
+          "première journée d'Eredivisie"
+        ],
+        "uncertainty": "Les niveaux 2026/27 ne sont pas encore stabilisés et les effectifs peuvent encore évoluer pendant le mercato.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°100",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "sc Heerenveen - fiche officielle Heerenveen-Twente",
+            "url": "https://www.sc-heerenveen.nl/hoofdelftallen/1e-mannen-elftal/seasons/20262027/sc-heerenveen-fc-twente-vriendenloterij-eredivisie",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "FC Twente - programme définitif 2026/27",
+            "url": "https://fctwente.nl/nieuws/competitieprogramma-26-27-definitief",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Mansfield Town",
+      "awayTeam": "Sheffield Utd",
+      "competition": "Carabao Cup",
+      "startsAt": "2026-08-09T16:00:00+01:00",
+      "probabilities": { "home": 32, "draw": 28, "away": 40 },
+      "analysis": {
+        "summary": "Sheffield United garde un léger avantage de qualité, mais Mansfield arrive avec de solides résultats de fin de saison et a déjà battu les Blades 4-3 en coupe en janvier.",
+        "keyFactors": [
+          "niveau d'effectif supérieur de Sheffield United",
+          "avantage du terrain pour Mansfield",
+          "Mansfield a battu Sheffield United 4-3 en janvier 2026 et a bien terminé sa saison de League One"
+        ],
+        "uncertainty": "La rotation en coupe et le précédent direct récent augmentent fortement la variance et réduisent la sécurité du favori extérieur.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°100",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "Mansfield Town - billetterie officielle du match",
+            "url": "https://mansfieldtownfc-awayfans.ktckts.com/brand/match-tickets",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "Sky Sports - forme et confrontations Mansfield vs Sheffield United",
+            "url": "https://www.skysports.com/football/mansfield-town-vs-sheffield-united/562175",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Rangers",
+      "awayTeam": "Hibernian",
+      "competition": "Scottish Premiership",
+      "startsAt": "2026-08-09T16:00:00+01:00",
+      "probabilities": { "home": 49, "draw": 28, "away": 23 },
+      "analysis": {
+        "summary": "Rangers reste favori à Ibrox, mais son démarrage laborieux et la victoire récente d'Hibernian sur ce terrain empêchent d'en faire un choix totalement sûr.",
+        "keyFactors": [
+          "avantage d'Ibrox",
+          "Rangers a commencé le championnat par un nul et reste sous pression après une défaite européenne",
+          "Hibernian a gagné 2-1 à Ibrox le 13 mai 2026"
+        ],
+        "uncertainty": "La réaction de Rangers après ses difficultés européennes et la fraîcheur des deux équipes peuvent sensiblement modifier l'équilibre réel du match.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°100",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "SPFL - calendrier, résultats et classement de Rangers",
+            "url": "https://clublogin.spfl.co.uk/clubs/rangers/fixtures",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "talkSPORT - contexte récent de Rangers",
+            "url": "https://talksport.com/football/4496492/rangers-derek-mcinnes-sack-russell-martin/",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Royal Antwerp",
+      "awayTeam": "KV Beveren",
+      "competition": "Jupiler Pro League",
+      "startsAt": "2026-08-09T19:15:00+02:00",
+      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "analysis": {
+        "summary": "Royal Antwerp reçoit le promu Beveren et possède un avantage net d'expérience de l'élite ainsi que du terrain pour cette ouverture de championnat.",
+        "keyFactors": [
+          "avantage du terrain pour Antwerp",
+          "Beveren est explicitement présenté comme nouveau venu en Pro League",
+          "expérience supérieure d'Antwerp au plus haut niveau belge"
+        ],
+        "uncertainty": "Une première journée face à un promu reste plus volatile qu'un match disputé une fois les niveaux de saison stabilisés.",
+        "sources": [
+          {
+            "label": "FDJ - grille LF7 n°100",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "Royal Antwerp FC - calendrier Jupiler Pro League 2026/27",
+            "url": "https://www.royalantwerpfc.be/nieuws/nieuws/kalender-jupiler-pro-league-2026-2027?filter=nieuws",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          },
+          {
+            "label": "SK Beveren - calendrier 2026/27",
+            "url": "https://www.skbeveren.be/2026/06/kalender-2627/",
+            "accessedAt": "2026-08-08T06:00:30+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["1", "2", "1", "2", "2", "1", "1"],
+      "rationale": "Suit les favoris ou légers favoris du modèle sur les sept rencontres, sans surpondérer les répartitions publiques FDJ."
+    },
+    {
+      "id": "equilibre",
+      "label": "Scénario équilibré",
+      "selections": ["1", "N", "N", "2", "1", "1", "1"],
+      "rationale": "Couvre les deux matchs portugais les plus serrés et l'hypothèse d'un nouveau bon coup de Mansfield à domicile."
+    },
+    {
+      "id": "variance",
+      "label": "Scénario de variance",
+      "selections": ["1", "2", "1", "1", "1", "2", "N"],
+      "rationale": "Couvre trois écarts plausibles au scénario central : Heerenveen à domicile, Mansfield en coupe, et une nouvelle contre-performance de Rangers, avec un nul sur Antwerp-Beveren."
+    }
+  ]
+}
