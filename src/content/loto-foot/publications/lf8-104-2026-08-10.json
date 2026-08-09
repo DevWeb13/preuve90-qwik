@@ -1,0 +1,370 @@
+{
+  "id": "lf8-104-2026-08-10",
+  "formula": 8,
+  "gridNumber": 104,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-10T18:55:00+02:00",
+  "publishedAt": "2026-08-09T02:01:54+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Santa Clara",
+      "awayTeam": "CD Nacional",
+      "competition": "Liga Portugal",
+      "probabilities": {
+        "home": 48,
+        "draw": 30,
+        "away": 22
+      },
+      "analysis": {
+        "summary": "Santa Clara part avec un léger avantage grâce au terrain et à une préparation récente convaincante, mais Nacional reste suffisamment compétitif pour rendre le nul crédible.",
+        "keyFactors": [
+          "Santa Clara joue à domicile à Ponta Delgada.",
+          "Santa Clara restait sur une victoire 3-0 contre Arouca en préparation.",
+          "La répartition FDJ penche très fortement vers Santa Clara, ce qui renforce le statut de favori sans suffire à elle seule."
+        ],
+        "uncertainty": "Premier match de championnat : les repères compétitifs et les compositions peuvent encore varier fortement.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "FotMob — Santa Clara, prochain match et forme",
+            "url": "https://www.fotmob.com/en-GB/teams/1567/overview/santa-clara",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "Betting Academy — Santa Clara, dernier match de préparation",
+            "url": "https://www.bettingacademy.co.uk/stats/team/portugal/santa-clara/1706",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Benfica B",
+      "awayTeam": "Leixoes",
+      "competition": "Liga Portugal 2",
+      "probabilities": {
+        "home": 46,
+        "draw": 29,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Benfica B bénéficie du terrain et d’un effectif jeune préparé depuis début juillet ; Leixões a néanmoins l’expérience suffisante pour garder une vraie chance.",
+        "keyFactors": [
+          "Benfica B ouvre officiellement sa saison face à Leixões.",
+          "Le groupe de Benfica B a repris tôt avec une préparation structurée.",
+          "Le caractère de première journée augmente la variance."
+        ],
+        "uncertainty": "Les équipes B changent beaucoup d’un match à l’autre et l’intégration de jeunes joueurs augmente l’incertitude.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "SL Benfica — calendrier Liga 2 2026/27",
+            "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/07/02/futebol-formacao-benfica-b-calendario-liga-2-2026-27",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "SL Benfica — reprise de Benfica B",
+            "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/07/06/futebol-formacao-equipa-b-benfica-arranque-pre-epoca-2026-27",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lusitania",
+      "awayTeam": "FC Porto B",
+      "competition": "Liga Portugal 2",
+      "startsAt": "2026-08-10T18:00:00+01:00",
+      "probabilities": {
+        "home": 31,
+        "draw": 32,
+        "away": 37
+      },
+      "analysis": {
+        "summary": "Affiche très ouverte : FC Porto B possède un peu plus de profondeur théorique, mais le récent 3-3 entre les deux équipes montre que Lusitânia peut répondre offensivement.",
+        "keyFactors": [
+          "Les deux équipes se sont quittées sur un 3-3 en amical le 29 juillet.",
+          "FC Porto B dispose d’un vivier individuel supérieur sur le papier.",
+          "Le match d’ouverture et la proximité récente entre les deux équipes poussent vers une forte probabilité de nul."
+        ],
+        "uncertainty": "Le 3-3 de préparation est instructif mais reste un amical avec rotations importantes.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "zerozero — FC Porto B et Lusitânia, amical 3-3",
+            "url": "https://www.zerozero.pt/noticias/fc-porto-b-e-lusitania-de-lourosa-empatam-em-teste-amigavel/1164292",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "zerozero — calendrier Liga Portugal 2 2026/27",
+            "url": "https://www.zerozero.pt/competicao/segunda-liga-portuguesa",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Vasteras SK",
+      "awayTeam": "Djurgårdens",
+      "competition": "Allsvenskan",
+      "startsAt": "2026-08-10T19:00:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 28,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "Djurgårdens est favori grâce à un niveau récent supérieur et à de meilleurs indicateurs de classement, mais Västerås reste dangereux à domicile.",
+        "keyFactors": [
+          "Djurgårdens était devant Västerås au classement récent avec un meilleur différentiel de buts.",
+          "Les confrontations récentes penchent plutôt vers Djurgårdens.",
+          "La répartition FDJ reste partagée, signe d’un match moins déséquilibré qu’un simple écart de statut."
+        ],
+        "uncertainty": "Deuxième confrontation rapprochée entre les équipes, ce qui peut favoriser des ajustements tactiques importants.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "matchen.nu — Västerås SK vs Djurgårdens, classement et confrontations",
+            "url": "https://matchen.nu/ligor/allsvenskan/2026/djurgardens-if-vasteras-sk-fk",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "Smoance — forme et historique Västerås/Djurgårdens",
+            "url": "https://www.smoance.com/football/j7lFMGQb",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "CFR Cluj",
+      "awayTeam": "Universit Cluj",
+      "competition": "SuperLiga Roumanie",
+      "startsAt": "2026-08-10T21:30:00+03:00",
+      "probabilities": {
+        "home": 36,
+        "draw": 34,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Le derby de Cluj est très équilibré. CFR conserve un léger avantage lié au terrain, mais les prix de marché et le contexte de derby laissent une forte place au nul et à Universitatea.",
+        "keyFactors": [
+          "La LPF confirme l’affiche de la 4e journée.",
+          "Les cotes de marché observées sont presque équilibrées entre CFR et Universitatea.",
+          "Le derby local augmente la probabilité d’un match fermé et disputé."
+        ],
+        "uncertainty": "Les derbies sont particulièrement sensibles aux faits de match et réduisent la fiabilité des écarts théoriques.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "LPF Roumanie — programme Universitatea Cluj",
+            "url": "https://www.lpf2.ro/html/programul_meciurilor/Program_Universitatea_Cluj-19.html",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "OddStorm — marché 1N2 CFR Cluj vs Universitatea Cluj",
+            "url": "https://www.oddstorm.com/de/odds/league/2178529-romania-superliga",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "ACS Sepsi",
+      "awayTeam": "FCSB",
+      "competition": "SuperLiga Roumanie",
+      "startsAt": "2026-08-09T21:30:00+03:00",
+      "probabilities": {
+        "home": 22,
+        "draw": 27,
+        "away": 51
+      },
+      "analysis": {
+        "summary": "FCSB est le favori net sur la qualité d’effectif et le marché, même si Sepsi à domicile conserve une vraie capacité à accrocher le nul.",
+        "keyFactors": [
+          "Le calendrier officiel LPF confirme Sepsi-FCSB.",
+          "FCSB avait remporté ses deux premiers matchs de championnat renseignés par la LPF.",
+          "Les cotes de marché donnent FCSB favori à l’extérieur."
+        ],
+        "uncertainty": "Le calendrier officiel place cette rencontre avant la clôture affichée de la grille FDJ ; l’analyse reste pré-match et cette anomalie de calendrier impose une prudence supplémentaire.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "LPF Roumanie — calendrier FCSB",
+            "url": "https://lpf.ro/cluburi/fcsb/3/calendar",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "OddStorm — marché 1N2 Sepsi vs FCSB",
+            "url": "https://www.oddstorm.com/es/odds/league/2178529-romania-superliga",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Silkeborg",
+      "awayTeam": "Odense",
+      "competition": "Superliga danoise",
+      "startsAt": "2026-08-10T19:00:00+02:00",
+      "probabilities": {
+        "home": 44,
+        "draw": 29,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Silkeborg reçoit et obtient un léger avantage dans une affiche qui reste ouverte face à Odense, dont le début de saison rend l’évaluation encore instable.",
+        "keyFactors": [
+          "Le match est programmé à Silkeborg.",
+          "L’avantage du terrain pèse dans une confrontation sans favori écrasant.",
+          "La répartition FDJ est très hésitante, ce qui invite à conserver une part élevée pour le nul."
+        ],
+        "uncertainty": "Les données récentes 2026/27 sont encore limitées en tout début de saison.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "kampene.dk — calendrier Odense 2026/27",
+            "url": "https://kampene.dk/hold/odense",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Plymouth",
+      "awayTeam": "Exeter",
+      "competition": "Carabao Cup",
+      "startsAt": "2026-08-10T20:00:00+01:00",
+      "probabilities": {
+        "home": 57,
+        "draw": 25,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Plymouth part favori à domicile dans le derby du Devon, avec un écart de statut et un contexte récent plus favorable, mais le format coupe conserve une forte variance.",
+        "keyFactors": [
+          "L’EFL confirme le match de Coupe de la Ligue à Home Park.",
+          "Exeter présente cette rencontre comme son premier match compétitif de la saison.",
+          "Le derby et le format à élimination directe augmentent le risque d’un scénario serré."
+        ],
+        "uncertainty": "Les compositions de coupe et la rivalité locale peuvent réduire fortement l’écart théorique entre les équipes.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "EFL — sélections TV Carabao Cup",
+            "url": "https://www.efl.com/news/2026/july/02/see-the-latest-sky-sports-tv-selections/",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          },
+          {
+            "label": "Exeter City — billetterie Plymouth vs Exeter",
+            "url": "https://exetercityfc.ktckts.com/event/exe2627cc1/plymouth-argyle-vs-exeter-city-carabao-cup-gold-priority",
+            "accessedAt": "2026-08-09T02:00:35+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Suit les favoris identifiés tout en conservant CFR Cluj à domicile dans le derby."
+    },
+    {
+      "id": "derby-cluj-nul",
+      "label": "Couverture derby Cluj",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre le nul dans l’affiche la plus équilibrée de la grille."
+    },
+    {
+      "id": "portugal-et-suede",
+      "label": "Variantes ouvertes",
+      "selections": [
+        "1",
+        "N",
+        "N",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre deux rencontres à forte variance : Benfica B-Leixões et Lusitânia-FC Porto B."
+    },
+    {
+      "id": "surprises",
+      "label": "Scénario surprises",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "N",
+        "2",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre plusieurs écarts plausibles sans abandonner les favoris les plus solides FCSB et Plymouth."
+    }
+  ]
+}
