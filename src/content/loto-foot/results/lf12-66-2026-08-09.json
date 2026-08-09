@@ -1,0 +1,78 @@
+{
+  "id": "lf12-66-2026-08-09-result",
+  "publicationId": "lf12-66-2026-08-09",
+  "gridNumber": 66,
+  "settledAt": "2026-08-10T00:51:59+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/558",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N"
+    },
+    {
+      "position": 2,
+      "selection": "N"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "1"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "2"
+    },
+    {
+      "position": 7,
+      "selection": "1"
+    },
+    {
+      "position": 8,
+      "selection": "1"
+    },
+    {
+      "position": 9,
+      "selection": "1"
+    },
+    {
+      "position": 10,
+      "selection": "1"
+    },
+    {
+      "position": 11,
+      "selection": "1"
+    },
+    {
+      "position": 12,
+      "selection": "1"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 11,
+      "amountCents": 340480
+    },
+    {
+      "correctSelections": 10,
+      "amountCents": 14720
+    },
+    {
+      "correctSelections": 9,
+      "amountCents": 1350
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 12 n°66",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/558",
+      "accessedAt": "2026-08-10T00:51:59+02:00"
+    }
+  ]
+}
