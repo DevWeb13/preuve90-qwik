@@ -1,0 +1,303 @@
+{
+  "id": "lf7-101-2026-08-11",
+  "formula": 7,
+  "gridNumber": 101,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-11T18:55:00+02:00",
+  "publishedAt": "2026-08-10T05:58:35+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lyon",
+      "awayTeam": "Sparta Prague",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 50,
+        "draw": 27,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Lyon reçoit le Sparta avec l'obligation de réagir après la défaite 2-1 du match aller à Prague. L'avantage du terrain et la nécessité d'attaquer renforcent le scénario d'une victoire lyonnaise, mais le Sparta a déjà montré qu'il pouvait punir les déséquilibres français.",
+        "keyFactors": [
+          "Le Sparta a remporté l'aller 2-1, ce qui oblige Lyon à prendre davantage d'initiative au retour.",
+          "Le retour se joue à Lyon, ce qui rééquilibre une confrontation jusque-là favorable au Sparta.",
+          "Le profil du match peut devenir ouvert si Lyon doit forcer la décision, augmentant aussi le risque de transitions adverses."
+        ],
+        "uncertainty": "L'écart d'un seul but à l'aller laisse une forte variance tactique : un but précoce peut complètement changer le rapport de force.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°101",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-10T05:57:20+02:00"
+          },
+          {
+            "label": "beIN SPORTS - Lyon vs Sparta Prague",
+            "url": "https://www.beinsports.com/fr-fr/football/uefa-ligue-des-champions/lyon-vs-sparta-prague-2026-08-11",
+            "accessedAt": "2026-08-10T05:57:35+02:00"
+          },
+          {
+            "label": "Reddit r/soccer - Sparta Prague 2-1 Lyon",
+            "url": "https://www.reddit.com/r/soccer/comments/1vfhqwc/match_thread_sparta_prague_vs_lyon_uefa_champions/",
+            "accessedAt": "2026-08-10T05:57:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Sturm Graz",
+      "awayTeam": "Fenerbahce",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 25,
+        "draw": 28,
+        "away": 47
+      },
+      "analysis": {
+        "summary": "Fenerbahçe arrive avec un net avantage après son succès 2-0 à l'aller et une supériorité offensive visible. Sturm Graz bénéficiera du terrain mais devra s'exposer pour remonter deux buts, ce qui favorise encore les qualités de transition et de finition du club turc.",
+        "keyFactors": [
+          "Fenerbahçe a gagné le match aller 2-0.",
+          "Asensio, Talisca et les autres joueurs offensifs de Fenerbahçe ont pesé lors de l'aller.",
+          "Sturm doit prendre plus de risques à domicile, ce qui peut créer des espaces pour Fenerbahçe."
+        ],
+        "uncertainty": "Le contexte de retour peut pousser Fenerbahçe à gérer davantage qu'à dominer, ce qui maintient le nul et une victoire de Sturm comme scénarios plausibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°101",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-10T05:57:20+02:00"
+          },
+          {
+            "label": "AS - performance de Fenerbahçe contre Sturm Graz",
+            "url": "https://as.com/futbol/internacional/paso-al-frente-de-asensio-f202608-n/",
+            "accessedAt": "2026-08-10T05:57:45+02:00"
+          },
+          {
+            "label": "Reddit r/Futboltayfa - Fenerbahçe 2-0 Sturm Graz",
+            "url": "https://www.reddit.com/r/Futboltayfa/comments/1vgiabc/ms_fenerbah%C3%A7e_20_sturm_graz/",
+            "accessedAt": "2026-08-10T05:57:50+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Slovan Bratislava",
+      "awayTeam": "Mjallby",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "startsAt": "2026-08-11T20:15:00+02:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 27,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "Slovan Bratislava a pris une option importante en s'imposant 2-1 en Suède et retrouve maintenant son terrain. La combinaison avantage au score, expérience européenne et domicile en fait le favori, même si Mjällby a montré qu'il pouvait pousser Slovan dans ses retranchements.",
+        "keyFactors": [
+          "Slovan s'est imposé 2-1 à Mjällby grâce à un but tardif.",
+          "Le retour est officiellement programmé à Bratislava le 11 août à 20h15.",
+          "Slovan dispose d'une série européenne et domestique récente globalement solide."
+        ],
+        "uncertainty": "Mjällby a eu des périodes de domination à l'aller et reste capable de rendre la rencontre serrée si Slovan cherche uniquement à gérer son avance.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°101",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-10T05:57:20+02:00"
+          },
+          {
+            "label": "ŠK Slovan Bratislava - calendrier officiel",
+            "url": "https://en.skslovan.com/vysledky/index.php?liga=A-",
+            "accessedAt": "2026-08-10T05:57:55+02:00"
+          },
+          {
+            "label": "Reddit r/soccer - Mjällby 1-2 Slovan Bratislava",
+            "url": "https://www.reddit.com/r/soccer/comments/1vfhmtw/mjallby_12_slovan_bratislava_manasse_kianga_905/",
+            "accessedAt": "2026-08-10T05:58:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Etoile Rouge",
+      "awayTeam": "Hapoel Beer Sheva",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 58,
+        "draw": 24,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "L'Étoile Rouge doit renverser une défaite 1-0 concédée à l'aller. Malgré ce retard, le retour à domicile et un effectif habitué aux rendez-vous européens justifient un net avantage au 1, tandis que Beer Sheva peut défendre son avance et chercher les transitions.",
+        "keyFactors": [
+          "Hapoel Beer Sheva a gagné l'aller 1-0.",
+          "L'Étoile Rouge reçoit au retour et doit impérativement marquer pour rester en course.",
+          "Le scénario d'un Beer Sheva plus bas et d'une forte pression serbe favorise statistiquement la victoire locale, sans garantir la qualification."
+        ],
+        "uncertainty": "Le retard d'un but oblige l'Étoile Rouge à se découvrir ; un contre de Beer Sheva modifierait fortement la dynamique du match.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°101",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-10T05:57:20+02:00"
+          },
+          {
+            "label": "UEFA - calendrier du 3e tour de qualification",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/",
+            "accessedAt": "2026-08-10T05:58:02+02:00"
+          },
+          {
+            "label": "Reddit r/CrvenaZvezdaFC - Hapoel Beer Sheva 1-0 Crvena Zvezda",
+            "url": "https://www.reddit.com/r/CrvenaZvezdaFC/comments/1vfdezv/hapoel_beersheva_vs_crvena_zvezda_uefa_champions/",
+            "accessedAt": "2026-08-10T05:58:04+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "NK Celje",
+      "awayTeam": "Ararat Armenia",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 46,
+        "draw": 29,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Celje bénéficie du terrain et a montré une capacité à produire des matchs très offensifs dans les tours précédents, notamment face à Egnatia. Ararat Armenia reste néanmoins dangereux et a déjà démontré sa capacité à marquer dans cette campagne, ce qui impose une marge prudente au favori slovène.",
+        "keyFactors": [
+          "Celje a inscrit cinq buts sur l'ensemble de sa confrontation précédente contre Egnatia.",
+          "Ararat Armenia a marqué sur coup franc lors du match aller de cette confrontation.",
+          "Le retour à Celje donne un avantage structurel au club slovène dans une affiche qui reste compétitive."
+        ],
+        "uncertainty": "Les deux équipes ont montré de fortes variations défensives et offensives ; le match peut basculer sur phases arrêtées ou sur une séquence de haute intensité.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°101",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-10T05:57:20+02:00"
+          },
+          {
+            "label": "UEFA - calendrier du 3e tour de qualification",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/",
+            "accessedAt": "2026-08-10T05:58:02+02:00"
+          },
+          {
+            "label": "The Sun Ireland - contexte Celje/Egnatia et Ararat Armenia",
+            "url": "https://www.thesun.ie/sport/17397213/stephen-bradley-shamrock-rovers-egnatia-europa-league/",
+            "accessedAt": "2026-08-10T05:58:06+02:00"
+          },
+          {
+            "label": "Reddit r/soccer - but d'Ararat Armenia contre Celje",
+            "url": "https://www.reddit.com/r/soccer/comments/1vffkg1/ararat_armenia_11_celje_artur_serobyan_freekick_38/",
+            "accessedAt": "2026-08-10T05:58:08+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "NEC Nimegue",
+      "awayTeam": "Olympiakos",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "startsAt": "2026-08-11T20:30:00+02:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 31,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Le 0-0 de l'aller laisse la qualification totalement ouverte. NEC a montré suffisamment de solidité et de qualité à l'extérieur pour être légèrement favori au retour devant son public, mais l'expérience européenne d'Olympiakos maintient une forte probabilité de nul ou de succès grec.",
+        "keyFactors": [
+          "Le match aller s'est terminé 0-0 au Pirée.",
+          "NEC a obtenu ce nul avec une prestation jugée solide et plusieurs séquences dangereuses.",
+          "Olympiakos confirme officiellement le retour à Nijmegen le 11 août à 20h30."
+        ],
+        "uncertainty": "Aucun avantage au score n'existe avant le retour et les deux équipes peuvent choisir une approche prudente, ce qui augmente la probabilité du nul.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°101",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-10T05:57:20+02:00"
+          },
+          {
+            "label": "Olympiacos - calendrier officiel",
+            "url": "https://www.olympiacos.org/en/?submit=Search",
+            "accessedAt": "2026-08-10T05:58:05+02:00"
+          },
+          {
+            "label": "Reddit r/Eredivisie - analyse du 0-0 Olympiakos-NEC",
+            "url": "https://www.reddit.com/r/Eredivisie/comments/1vfkz3u/nec_speelt_met_het_mes_tussen_de_tanden_gelijk/",
+            "accessedAt": "2026-08-10T05:58:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Kauno Zalgiris",
+      "awayTeam": "Dinamo Zagreb",
+      "competition": "UEFA Champions League - 3e tour de qualification",
+      "probabilities": {
+        "home": 12,
+        "draw": 18,
+        "away": 70
+      },
+      "analysis": {
+        "summary": "Le Dinamo Zagreb a écrasé l'aller 5-0 et possède une marge qualitative très importante. Même en déplacement et avec la possibilité de gérer son avance, il reste de loin l'issue la plus probable face à Kauno Zalgiris.",
+        "keyFactors": [
+          "Dinamo Zagreb a remporté le match aller 5-0.",
+          "Le club croate a dominé suffisamment pour conserver une probabilité élevée de victoire même dans un retour potentiellement géré.",
+          "Kauno doit prendre des risques extrêmes pour espérer inverser une situation presque compromise."
+        ],
+        "uncertainty": "La très large avance du Dinamo peut entraîner rotation et gestion d'effort, ce qui augmente légèrement les scénarios de nul ou de surprise locale sans renverser la hiérarchie.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°101",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-10T05:57:20+02:00"
+          },
+          {
+            "label": "UEFA - calendrier du 3e tour de qualification",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-dates-how-it-works/",
+            "accessedAt": "2026-08-10T05:58:02+02:00"
+          },
+          {
+            "label": "The Scottish Sun - Dinamo Zagreb 5-0 Kauno Zalgiris",
+            "url": "https://www.thescottishsun.co.uk/sport/16643634/rangers-scott-mckenna-champions-league-goal-dinamo-zagreb/",
+            "accessedAt": "2026-08-10T05:58:12+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["1", "2", "1", "1", "1", "1", "2"],
+      "rationale": "Privilégie les favoris les plus solides et l'avantage du terrain pour Lyon, Slovan, l'Étoile Rouge, Celje et NEC."
+    },
+    {
+      "id": "sparta-resiste",
+      "label": "Sparta résiste",
+      "selections": ["N", "2", "1", "1", "1", "1", "2"],
+      "rationale": "Couvre un Lyon incapable de renverser complètement la dynamique du match aller malgré son retour à domicile."
+    },
+    {
+      "id": "retours-prudents",
+      "label": "Retours plus fermés",
+      "selections": ["1", "N", "1", "1", "1", "N", "2"],
+      "rationale": "Couvre deux retours où Fenerbahçe et Olympiakos peuvent adopter une approche plus prudente et amener davantage de probabilité de nul."
+    },
+    {
+      "id": "surprises-celje-nec",
+      "label": "Variantes Celje et NEC",
+      "selections": ["1", "2", "1", "1", "N", "2", "2"],
+      "rationale": "Protège les deux rencontres les plus ouvertes de la seconde moitié de grille avec Ararat capable d'accrocher Celje et Olympiakos capable de gagner à Nijmegen."
+    }
+  ]
+}
