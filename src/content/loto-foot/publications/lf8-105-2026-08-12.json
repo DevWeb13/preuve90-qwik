@@ -1,0 +1,387 @@
+{
+  "id": "lf8-105-2026-08-12",
+  "formula": 8,
+  "gridNumber": 105,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-12T20:55:00+02:00",
+  "publishedAt": "2026-08-11T02:00:47+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Aston Villa",
+      "competition": "UEFA Super Cup",
+      "startsAt": "2026-08-12T21:00:00+02:00",
+      "probabilities": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "analysis": {
+        "summary": "Le PSG part favori grâce à sa profondeur et à son statut de champion d'Europe, mais Aston Villa possède une vraie capacité de résistance dans un match sec où la préparation estivale réduit les écarts théoriques.",
+        "keyFactors": [
+          "Le PSG arrive comme vainqueur de la Ligue des champions, Aston Villa comme vainqueur de la Ligue Europa.",
+          "Aston Villa doit composer avec plusieurs absences annoncées, notamment Amadou Onana et Johan Manzambi.",
+          "La reprise très tardive de certains Parisiens après la Coupe du monde augmente l'incertitude physique."
+        ],
+        "uncertainty": "Supercoupe disputée très tôt dans la saison : état de forme réel et automatismes restent moins lisibles qu'en compétition régulière.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "L'Équipe — Supercoupe d'Europe PSG-Aston Villa",
+            "url": "https://www.lequipe.fr/Football/super-coupe-d-europe/page-calendrier-resultats",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "talkSPORT — avant-match PSG-Aston Villa",
+            "url": "https://talksport.com/football/4502230/uefa-super-cup-live-commentary-aston-villa-psg/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Inter Miami",
+      "awayTeam": "FC Leon",
+      "competition": "Leagues Cup",
+      "startsAt": "2026-08-12T19:30:00-04:00",
+      "probabilities": {
+        "home": 39,
+        "draw": 27,
+        "away": 34
+      },
+      "analysis": {
+        "summary": "Inter Miami conserve un léger avantage à domicile et joue sa survie, mais León arrive avec des résultats convaincants dans la compétition et rend ce match beaucoup plus équilibré qu'un simple avantage de terrain.",
+        "keyFactors": [
+          "Inter Miami doit gagner pour préserver ses chances de qualification après sa défaite contre Monterrey.",
+          "León a battu Nashville puis Orlando lors de ses deux premières sorties de Leagues Cup.",
+          "Le contexte personnel entourant Lionel Messi rend sa disponibilité et l'impact offensif d'Inter plus incertains."
+        ],
+        "uncertainty": "Disponibilités offensives d'Inter Miami et pression d'un match à obligation de résultat peuvent fortement modifier le scénario.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Inter Miami CF — horaires Leagues Cup 2026",
+            "url": "https://www.intermiamicf.com/news/kickoff-times-announced-for-inter-miami-cf-s-leagues-cup-2026-phase-one-matches",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "AS — situation d'Inter Miami avant León",
+            "url": "https://as.com/us/futbol/van-por-el-milagro-esto-necesita-inter-miami-para-clasificar-en-leagues-cup-f202608-n/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Orlando City",
+      "awayTeam": "Atl. San Luis",
+      "competition": "Leagues Cup",
+      "startsAt": "2026-08-12T19:30:00-04:00",
+      "probabilities": {
+        "home": 58,
+        "draw": 24,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Orlando est favori à domicile malgré sa défaite contre León. San Luis arrive après un lourd 4-1 contre Nashville et est déjà éliminé, ce qui fait pencher nettement l'analyse vers Orlando.",
+        "keyFactors": [
+          "Orlando joue ses trois matchs de phase à domicile à l'Inter&Co Stadium.",
+          "Orlando a battu Monterrey avant de perdre 2-1 contre León.",
+          "Atlético de San Luis vient de perdre 4-1 contre Nashville et n'a plus de possibilité de qualification."
+        ],
+        "uncertainty": "Une équipe éliminée peut jouer plus libérée et Orlando reste vulnérable défensivement, comme l'a montré le match contre León.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Orlando City — calendrier et horaires Leagues Cup 2026",
+            "url": "https://www.orlandocitysc.com/news/kickoff-times-set-for-orlando-city-s-league-cup-2026-phase-one-matches",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Reddit MLS — Orlando City 1-2 León",
+            "url": "https://www.reddit.com/r/MLS/comments/1vj8g47/match_thread_orlando_city_sc_vs_le%C3%B3n_leagues_cup/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "AS — Nashville 4-1 Atlético de San Luis",
+            "url": "https://as.com/us/futbol/atletico-de-san-luis-cae-frente-a-nashville-y-dice-adios-a-la-leagues-cup-f202608-n/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Monterrey",
+      "awayTeam": "Nashville SC",
+      "competition": "Leagues Cup",
+      "startsAt": "2026-08-12T19:00:00-05:00",
+      "probabilities": {
+        "home": 35,
+        "draw": 29,
+        "away": 36
+      },
+      "analysis": {
+        "summary": "Affiche quasiment équilibrée malgré l'ordre FDJ des équipes : le match se joue à Nashville. Monterrey vient de battre Inter Miami, tandis que Nashville a rebondi avec un large 4-1 contre San Luis.",
+        "keyFactors": [
+          "Le calendrier officiel de Nashville confirme que la rencontre se joue au GEODIS Park.",
+          "Nashville vient de battre Atlético de San Luis 4-1 après une défaite 1-0 contre León.",
+          "Monterrey a renforcé ses chances en battant Inter Miami lors de la journée précédente."
+        ],
+        "uncertainty": "Deux équipes encore engagées dans la course à la qualification et capables de basculer rapidement entre jeu prudent et prise de risques.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Nashville SC — horaires Leagues Cup 2026",
+            "url": "https://www.nashvillesc.com/news/nashville-sc-announces-leagues-cup-2026-tickets",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Reddit MLS — Nashville 4-1 Atlético de San Luis",
+            "url": "https://www.reddit.com/r/MLS/comments/1vk4u0a/match_thread_nashville_sc_vs_atl%C3%A9tico_de_san_luis/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "AS — Inter Miami battu par Monterrey",
+            "url": "https://as.com/us/futbol/van-por-el-milagro-esto-necesita-inter-miami-para-clasificar-en-leagues-cup-f202608-n/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Los Angeles FC",
+      "awayTeam": "Queretaro FC",
+      "competition": "Leagues Cup",
+      "startsAt": "2026-08-12T19:30:00-07:00",
+      "probabilities": {
+        "home": 67,
+        "draw": 20,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "LAFC est le favori le plus net de la grille : il reçoit un Querétaro qui reste sur deux défaites sans marquer dans la compétition et doit lui-même gagner pour sécuriser au mieux sa place.",
+        "keyFactors": [
+          "LAFC reçoit au BMO Stadium.",
+          "Querétaro a perdu 2-0 contre Dallas puis 3-0 contre Seattle.",
+          "LAFC reste directement concerné par la course aux quatre places qualificatives MLS."
+        ],
+        "uncertainty": "Le format de phase unique peut conduire LAFC à gérer son avantage selon les autres résultats, ce qui augmente le risque de nul si le match reste fermé.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "LAFC — calendrier officiel Leagues Cup 2026",
+            "url": "https://www.lafc.com/news/leagues-cup-unveils-2026-schedule-lafc-to-play-chivas-toluca-and-queretaro",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Reddit MLS — Seattle 3-0 Querétaro",
+            "url": "https://www.reddit.com/r/MLS/comments/1vjyf5o/match_thread_seattle_sounders_fc_vs_quer%C3%A9taro/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Reddit MLS — Dallas 2-0 Querétaro",
+            "url": "https://www.reddit.com/r/MLS/comments/1vgonoi/match_thread_fc_dallas_vs_quer%C3%A9taro_leagues_cup/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Flamengo",
+      "competition": "CONMEBOL Libertadores",
+      "startsAt": "2026-08-12T21:30:00-03:00",
+      "probabilities": {
+        "home": 38,
+        "draw": 31,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Cruzeiro obtient un léger avantage grâce au Mineirão et à deux victoires récentes, mais Flamengo conserve suffisamment de qualité pour rendre le nul et la victoire extérieure presque aussi crédibles.",
+        "keyFactors": [
+          "Le match aller des huitièmes se joue au Mineirão, avantage Cruzeiro.",
+          "Cruzeiro reste sur des victoires 2-0 contre Chapecoense et 3-1 contre Mirassol.",
+          "Flamengo demeure l'un des meilleurs effectifs du Brésil malgré une période récente plus irrégulière."
+        ],
+        "uncertainty": "Derby national en aller-retour de Libertadores : prudence tactique et qualité individuelle des deux côtés rendent les trois issues plausibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "CONMEBOL — calendrier des huitièmes de Libertadores 2026",
+            "url": "https://gol.conmebol.com/libertadores/en/news/fechas-y-horarios-asi-se-jugaran-los-octavos-de-final-de-la-conmebol-libertadores",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Reddit Cruzeiro — résultats récents et calendrier",
+            "url": "https://www.reddit.com/r/Cruzeiro/comments/1vjuss0/cruzeiro_scoreboard/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "AS — situation récente de Palmeiras et Flamengo en Brasileirão",
+            "url": "https://as.com/futbol/internacional/palmeiras-genera-una-brecha-f202608-n/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Cerro Porteno",
+      "competition": "CONMEBOL Libertadores",
+      "startsAt": "2026-08-12T19:00:00-03:00",
+      "probabilities": {
+        "home": 56,
+        "draw": 27,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Palmeiras est favori à domicile et arrive en leader solide du Brasileirão, mais Cerro Porteño a déjà montré cette saison qu'il pouvait le gêner en prenant quatre points lors de leurs deux confrontations de groupe.",
+        "keyFactors": [
+          "Palmeiras mène le Brasileirão avec une avance importante après 21 journées.",
+          "Cerro Porteño a obtenu un nul 1-1 au Paraguay puis gagné 1-0 à l'Allianz Parque pendant la phase de groupes.",
+          "Le match se joue de nouveau à l'Allianz Parque, où Palmeiras garde normalement un net avantage territorial."
+        ],
+        "uncertainty": "L'historique direct de 2026 contredit le statut théorique de Palmeiras et impose de conserver une vraie probabilité au nul et au succès paraguayen.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "CONMEBOL — calendrier des huitièmes de Libertadores 2026",
+            "url": "https://gol.conmebol.com/libertadores/en/news/fechas-y-horarios-asi-se-jugaran-los-octavos-de-final-de-la-conmebol-libertadores",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Palmeiras — nul 1-1 contre Cerro Porteño",
+            "url": "https://www.palmeiras.com.br/noticias/palmeiras-empata-com-cerro-porteno-no-paraguai-e-alcanca-12-jogos-de-invencibilidade-na-temporada/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Palmeiras — défaite 0-1 contre Cerro Porteño",
+            "url": "https://www.palmeiras.com.br/noticias/palmeiras-e-superado-pelo-cerro-porteno-no-allianz-parque-pela-libertadores/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "AS — Palmeiras leader du Brasileirão",
+            "url": "https://as.com/futbol/internacional/palmeiras-genera-una-brecha-f202608-n/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Ind.Santa Fe",
+      "awayTeam": "River Plate",
+      "competition": "CONMEBOL Sudamericana",
+      "probabilities": {
+        "home": 48,
+        "draw": 29,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Santa Fe possède un avantage significatif grâce au terrain, à son récent 5-0 cumulé contre Caracas et à la très mauvaise série actuelle de River. La qualité individuelle argentine empêche toutefois d'écarter totalement le 2.",
+        "keyFactors": [
+          "Santa Fe a éliminé Caracas sur un score cumulé de 5-0 pour atteindre les huitièmes.",
+          "River arrive sur une série de cinq défaites consécutives et avec de gros problèmes offensifs.",
+          "Le match aller est programmé en Colombie avant un retour au Monumental la semaine suivante."
+        ],
+        "uncertainty": "River dispose d'un effectif supérieur sur le papier et un changement de dynamique peut intervenir rapidement dans une double confrontation continentale.",
+        "sources": [
+          {
+            "label": "FDJ — grille ouverte LF8 n°105",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "River Plate — huitièmes de finale de Sudamericana 2026",
+            "url": "https://www.riverplate.com/news/professional-football/20260529-conmebol-sudamericana-2026-octavos-de-final",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "Fédération Colombienne — qualification de Santa Fe contre Caracas",
+            "url": "https://fcf.com.co/2026/07/30/santa-fe-se-clasifica-a-los-octavos-de-final-de-la-conmebol-sudamericana-2026/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          },
+          {
+            "label": "AS — série récente de River Plate",
+            "url": "https://as.com/futbol/river-se-harta-de-coudet-f202608-n/",
+            "accessedAt": "2026-08-11T02:00:20+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "principal",
+      "label": "Scénario principal",
+      "selections": ["1", "1", "1", "2", "1", "1", "1", "1"],
+      "rationale": "Favoris structurels conservés, avec Nashville légèrement préféré dans le match le plus équilibré de Leagues Cup."
+    },
+    {
+      "id": "leon",
+      "label": "León confirme",
+      "selections": ["1", "2", "1", "N", "1", "N", "1", "1"],
+      "rationale": "Couvre la bonne dynamique de León, le nul Nashville-Monterrey et la prudence attendue dans Cruzeiro-Flamengo."
+    },
+    {
+      "id": "inter-nul",
+      "label": "Inter accroché",
+      "selections": ["1", "N", "1", "2", "1", "2", "1", "N"],
+      "rationale": "Scénario plus favorable aux visiteurs dans les affiches serrées, avec River capable d'accrocher Santa Fe."
+    },
+    {
+      "id": "villa-resiste",
+      "label": "Villa résiste",
+      "selections": ["N", "1", "1", "1", "1", "1", "1", "1"],
+      "rationale": "Couvre un nul de Supercoupe lié au manque de rythme du PSG et un rebond de Monterrey malgré le terrain de Nashville."
+    },
+    {
+      "id": "cerro-surprise",
+      "label": "Cerro encore solide",
+      "selections": ["1", "2", "1", "2", "1", "1", "N", "1"],
+      "rationale": "Valorise le précédent très favorable de Cerro Porteño contre Palmeiras tout en gardant León et Nashville dans leurs scénarios hauts."
+    },
+    {
+      "id": "river-reaction",
+      "label": "Réaction de River",
+      "selections": ["1", "1", "1", "N", "1", "N", "1", "2"],
+      "rationale": "Couvre une réaction de River et deux nuls dans les rencontres les plus indécises sans sacrifier les favoris les plus nets."
+    }
+  ]
+}
