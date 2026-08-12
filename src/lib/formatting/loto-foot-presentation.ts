@@ -1,8 +1,10 @@
-import type {
-  LotoFootFormula,
-  LotoFootPublication,
-  LotoFootResult,
-  LotoFootSelection,
+import {
+  LOTO_FOOT_NEUTRALIZED_SELECTION,
+  type LotoFootFormula,
+  type LotoFootOfficialSelection,
+  type LotoFootPublication,
+  type LotoFootResult,
+  type LotoFootSelection,
 } from "~/content/loto-foot/model";
 import type { LotoFootPublicationSettlement } from "~/content/loto-foot/settlement";
 
@@ -91,14 +93,15 @@ export function getPublicationDetailSections(hasResult: boolean): PublicationDet
 export function getSelectionPresentation(
   publishedSelection: LotoFootSelection,
   displayedSelection: LotoFootSelection,
-  officialSelection?: LotoFootSelection,
+  officialSelection?: LotoFootOfficialSelection,
 ): {
   isSelected: boolean;
   isOfficial: boolean;
   verdict?: "correct" | "incorrect";
 } {
   const isSelected = publishedSelection === displayedSelection;
-  const isOfficial = officialSelection === displayedSelection;
+  const isNeutralized = officialSelection === LOTO_FOOT_NEUTRALIZED_SELECTION;
+  const isOfficial = !isNeutralized && officialSelection === displayedSelection;
 
   return {
     isSelected,
@@ -106,7 +109,7 @@ export function getSelectionPresentation(
     verdict:
       officialSelection === undefined || !isSelected
         ? undefined
-        : publishedSelection === officialSelection
+        : isNeutralized || publishedSelection === officialSelection
           ? "correct"
           : "incorrect",
   };
@@ -126,9 +129,12 @@ export function getSelectionSymbolPresentation(selection: {
 
 export function getMatchVerdictLabel(
   publishedSelection: LotoFootSelection,
-  officialSelection?: LotoFootSelection,
+  officialSelection?: LotoFootOfficialSelection,
 ): string | undefined {
   if (officialSelection === undefined) return undefined;
+  if (officialSelection === LOTO_FOOT_NEUTRALIZED_SELECTION) {
+    return "Rencontre neutralisée : choix réputé gagnant";
+  }
   return publishedSelection === officialSelection
     ? "Choix correct"
     : `Choix incorrect · Résultat officiel : ${officialSelection}`;
