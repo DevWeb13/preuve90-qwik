@@ -81,9 +81,22 @@ function findMatchTextSegment(html, match) {
   return text.slice(homeIndex, awayIndex + awayTeam.length);
 }
 
+function findMatchRawSegment(html, match) {
+  const source = normalizeComparableText(decodeHtmlText(html));
+  const homeTeam = normalizeComparableText(match.homeTeam);
+  const awayTeam = normalizeComparableText(match.awayTeam);
+  const homeIndex = source.indexOf(homeTeam);
+  if (homeIndex < 0) return undefined;
+  const awayIndex = source.indexOf(awayTeam, homeIndex + homeTeam.length);
+  if (awayIndex < 0) return undefined;
+  return source.slice(homeIndex, awayIndex + awayTeam.length);
+}
+
 function isExplicitlyNeutralized(html, match) {
-  const segment = findMatchTextSegment(html, match);
-  return segment ? /\bgagnant\b/u.test(segment) : false;
+  const visibleSegment = findMatchTextSegment(html, match);
+  if (visibleSegment && /\bgagnant\b/u.test(visibleSegment)) return true;
+  const rawSegment = findMatchRawSegment(html, match);
+  return rawSegment ? /\bgagnant\b/u.test(rawSegment) : false;
 }
 
 function parseReportShape(html) {

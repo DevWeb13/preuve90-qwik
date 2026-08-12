@@ -41,7 +41,7 @@ describe("lecture des rencontres neutralisées FDJ", () => {
         <input value="2">
         Equipe B
       </div>
-      <div>Equipe C <input value="Gagnant"> Gagnant Equipe D</div>
+      <div>Equipe C <input value="Gagnant"> Equipe D</div>
       <table><tr><td>2 sur 2</td><td>100,00 €</td></tr></table>
     `;
 
