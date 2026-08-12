@@ -1,20 +1,13 @@
 import { access, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { parsePayouts } from "./settle-loto-foot.mjs";
+import { parseOfficialSelections, parsePayouts } from "./settle-loto-foot.mjs";
 
 const INVENTORY_PATH = "src/content/loto-foot/inventory.json";
 const RESULTS_INDEX_URL =
   "https://www.pointdevente.parionssport.fdj.fr/grilles/resultats/loto-foot";
 const FDJ_HOST = "www.pointdevente.parionssport.fdj.fr";
-const SELECTION_BY_CONTROL = new Map([
-  ["one", "1"],
-  ["n", "N"],
-  ["two", "2"],
-  ["1", "1"],
-  ["N", "N"],
-  ["2", "2"],
-]);
+const NEUTRALIZED_SELECTION = "G";
 
 function errorMessage(error) {
   return error instanceof Error ? error.message : String(error);
@@ -40,6 +33,11 @@ function decodeHtmlText(value) {
     ["nbsp", " "],
     ["ordm", "º"],
     ["quot", '"'],
+    ["eacute", "é"],
+    ["egrave", "è"],
+    ["agrave", "à"],
+    ["ccedil", "ç"],
+    ["rsquo", "’"],
   ]);
 
   return value.replace(/&(#x[\da-f]+|#\d+|[a-z]+);/giu, (entity, body) => {
@@ -53,14 +51,120 @@ function decodeHtmlText(value) {
   });
 }
 
+function pageText(html) {
+  return decodeHtmlText(
+    html
+      .replace(/<style\b[^>]*>[\s\S]*?<\/style>/giu, " ")
+      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/giu, " ")
+      .replace(/<[^>]+>/gu, " ")
+      .replace(/\s+/gu, " "),
+  ).trim();
+}
+
+function normalizeComparableText(value) {
+  return value
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLocaleLowerCase("fr")
+    .replace(/\s+/gu, " ")
+    .trim();
+}
+
+function findMatchTextSegment(html, match) {
+  const text = normalizeComparableText(pageText(html));
+  const homeTeam = normalizeComparableText(match.homeTeam);
+  const awayTeam = normalizeComparableText(match.awayTeam);
+  const homeIndex = text.indexOf(homeTeam);
+  if (homeIndex < 0) return undefined;
+  const awayIndex = text.indexOf(awayTeam, homeIndex + homeTeam.length);
+  if (awayIndex < 0) return undefined;
+  return text.slice(homeIndex, awayIndex + awayTeam.length);
+}
+
+function findMatchRawSegment(html, match) {
+  const source = normalizeComparableText(decodeHtmlText(html));
+  const homeTeam = normalizeComparableText(match.homeTeam);
+  const awayTeam = normalizeComparableText(match.awayTeam);
+  const homeIndex = source.indexOf(homeTeam);
+  if (homeIndex < 0) return undefined;
+  const awayIndex = source.indexOf(awayTeam, homeIndex + homeTeam.length);
+  if (awayIndex < 0) return undefined;
+  return source.slice(homeIndex, awayIndex + awayTeam.length);
+}
+
+function isExplicitlyNeutralized(html, match) {
+  const visibleSegment = findMatchTextSegment(html, match);
+  if (visibleSegment && /\bgagnant\b/u.test(visibleSegment)) return true;
+  const rawSegment = findMatchRawSegment(html, match);
+  return rawSegment ? /\bgagnant\b/u.test(rawSegment) : false;
+}
+
+function parseReportShape(html) {
+  const text = pageText(html);
+  const rows = [...text.matchAll(/\b(\d+)\s+sur\s+(\d+)\b/giu)].map((match) => ({
+    correctSelections: Number.parseInt(match[1], 10),
+    reportedMatchCount: Number.parseInt(match[2], 10),
+  }));
+  if (rows.length === 0) return undefined;
+
+  const reportedMatchCounts = [...new Set(rows.map(({ reportedMatchCount }) => reportedMatchCount))];
+  if (reportedMatchCounts.length !== 1) return undefined;
+
+  return {
+    reportedMatchCount: reportedMatchCounts[0],
+    highestCorrectSelections: Math.max(...rows.map(({ correctSelections }) => correctSelections)),
+  };
+}
+
+export function parseRenderedOfficialResults(html, matches) {
+  const reportShape = parseReportShape(html);
+  if (!reportShape) return [];
+
+  const results = [];
+  const unresolved = [];
+
+  for (const match of matches) {
+    const parsed = parseOfficialSelections(html, [match]);
+    if (parsed.length === 1) {
+      results.push({ position: match.position, selection: parsed[0].selection });
+      continue;
+    }
+
+    if (isExplicitlyNeutralized(html, match)) {
+      results.push({ position: match.position, selection: NEUTRALIZED_SELECTION });
+      continue;
+    }
+
+    unresolved.push(match);
+  }
+
+  if (unresolved.length === 0) {
+    return results.sort((left, right) => left.position - right.position);
+  }
+
+  const resolvedCount = results.length;
+  const inferredNeutralizedCount = matches.length - reportShape.reportedMatchCount;
+  const canInferNeutralizedMatches =
+    reportShape.highestCorrectSelections === matches.length &&
+    reportShape.reportedMatchCount === resolvedCount &&
+    inferredNeutralizedCount > 0 &&
+    unresolved.length === inferredNeutralizedCount;
+
+  if (!canInferNeutralizedMatches) return [];
+
+  for (const match of unresolved) {
+    results.push({ position: match.position, selection: NEUTRALIZED_SELECTION });
+  }
+
+  return results.sort((left, right) => left.position - right.position);
+}
+
 export function isDedicatedOfficialUrl(value) {
   try {
     const url = new URL(value);
     return (
       url.hostname === FDJ_HOST &&
-      /^\/grilles\/loto-foot\/loto-foot-(?:7|8|12|15)\/\d+\/?$/u.test(
-        url.pathname,
-      )
+      /^\/grilles\/loto-foot\/loto-foot-(?:7|8|12|15)\/\d+\/?$/u.test(url.pathname)
     );
   } catch {
     return false;
@@ -114,30 +218,6 @@ export async function resolveOfficialResultUrl(publication, fetchImpl = fetch) {
   }
 
   return findOfficialResultUrl(await response.text(), publication);
-}
-
-function isCheckedInput(tag) {
-  return /\schecked(?:\s|=|>|\/)/iu.test(tag);
-}
-
-export function parseRenderedOfficialSelections(html, expectedCount) {
-  const selections = [];
-  for (const input of html.matchAll(/<input\b[^>]*>/giu)) {
-    if (!isCheckedInput(input[0])) continue;
-    const rawSelection =
-      readAttribute(input[0], "value") ??
-      readAttribute(input[0], "formcontrolname");
-    const selection = rawSelection
-      ? SELECTION_BY_CONTROL.get(rawSelection.trim())
-      : undefined;
-    if (selection) selections.push(selection);
-  }
-
-  if (selections.length !== expectedCount) return [];
-  return selections.map((selection, index) => ({
-    position: index + 1,
-    selection,
-  }));
 }
 
 async function fileExists(filePath) {
@@ -213,15 +293,21 @@ async function settlePendingPublications({ rootDirectory }) {
         continue;
       }
 
-      const officialMatches = parseRenderedOfficialSelections(
-        html,
-        publication.matches.length,
-      );
+      const officialMatches = parseRenderedOfficialResults(html, publication.matches);
       if (officialMatches.length !== publication.matches.length) {
-        const reason = `${publication.id} : la page FDJ contient les rapports, mais ${publication.matches.length} résultats 1/N/2 complets n’ont pas été détectés.`;
+        const reason = `${publication.id} : la page FDJ contient les rapports, mais ${publication.matches.length} résultats officiels complets ou neutralisés n’ont pas été identifiés sans ambiguïté.`;
         blockedReasons.push(reason);
         console.error(reason);
         continue;
+      }
+
+      const neutralizedPositions = officialMatches
+        .filter(({ selection }) => selection === NEUTRALIZED_SELECTION)
+        .map(({ position }) => position);
+      if (neutralizedPositions.length > 0) {
+        console.log(
+          `${publication.id} : rencontre(s) neutralisée(s) FDJ détectée(s) aux positions ${neutralizedPositions.join(", ")}.`,
+        );
       }
 
       const settledAt = formatParisTimestamp();

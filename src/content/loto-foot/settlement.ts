@@ -1,4 +1,5 @@
 import {
+  LOTO_FOOT_NEUTRALIZED_SELECTION,
   calculateVirtualStakeCents,
   type LotoFootPublication,
   type LotoFootResult,
@@ -40,10 +41,16 @@ export function countCorrectSelections(ticket: LotoFootTicket, result: LotoFootR
   if (ticket.selections.length !== result.matches.length) {
     throw new Error("La combinaison et le résultat doivent contenir le même nombre de matchs.");
   }
-  return ticket.selections.reduce(
-    (total, selection, index) => total + Number(selection === result.matches[index].selection),
-    0,
-  );
+  return ticket.selections.reduce((total, selection, index) => {
+    const officialSelection = result.matches[index].selection;
+    return (
+      total +
+      Number(
+        officialSelection === LOTO_FOOT_NEUTRALIZED_SELECTION ||
+          selection === officialSelection,
+      )
+    );
+  }, 0);
 }
 
 export function findPayoutCents(result: LotoFootResult, correctSelections: number): number {

@@ -1,4 +1,9 @@
-import { LOTO_FOOT_SELECTIONS, type LotoFootPublication, type LotoFootResult } from "./model";
+import {
+  LOTO_FOOT_NEUTRALIZED_SELECTION,
+  LOTO_FOOT_SELECTIONS,
+  type LotoFootPublication,
+  type LotoFootResult,
+} from "./model";
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -94,11 +99,15 @@ export function validateLotoFootResult(
         `doit être l’entier ${index + 1} afin que les positions soient uniques et ordonnées`,
       );
     }
+
+    const selection = match.selection;
+    const isNeutralized = selection === LOTO_FOOT_NEUTRALIZED_SELECTION;
     if (
-      typeof match.selection !== "string" ||
-      !(LOTO_FOOT_SELECTIONS as readonly string[]).includes(match.selection)
+      !isNeutralized &&
+      (typeof selection !== "string" ||
+        !(LOTO_FOOT_SELECTIONS as readonly string[]).includes(selection))
     ) {
-      fail(`${path}.selection`, "doit valoir 1, N ou 2");
+      fail(`${path}.selection`, "doit valoir 1, N ou 2, ou G pour une rencontre neutralisée");
     }
 
     const hasHomeScore = match.homeScore !== undefined;
@@ -106,12 +115,15 @@ export function validateLotoFootResult(
     if (hasHomeScore !== hasAwayScore) {
       fail(path, "doit fournir les deux scores ou aucun score");
     }
-    if (hasHomeScore) {
+    if (isNeutralized && (hasHomeScore || hasAwayScore)) {
+      fail(path, "une rencontre neutralisée ne doit pas fournir de score");
+    }
+    if (hasHomeScore && !isNeutralized) {
       const homeScore = requireNonNegativeInteger(match.homeScore, `${path}.homeScore`);
       const awayScore = requireNonNegativeInteger(match.awayScore, `${path}.awayScore`);
       const expectedSelection = homeScore > awayScore ? "1" : homeScore === awayScore ? "N" : "2";
 
-      if (match.selection !== expectedSelection) {
+      if (selection !== expectedSelection) {
         fail(
           `${path}.selection`,
           `doit valoir ${expectedSelection} pour correspondre au score ${homeScore}-${awayScore}`,

@@ -11,8 +11,12 @@ export const LOTO_FOOT_MATCH_COUNTS_BY_FORMULA = {
 export const VIRTUAL_STAKE_PER_TICKET_CENTS = 100;
 
 export const LOTO_FOOT_SELECTIONS = ["1", "N", "2"] as const;
-
 export type LotoFootSelection = (typeof LOTO_FOOT_SELECTIONS)[number];
+
+export const LOTO_FOOT_NEUTRALIZED_SELECTION = "G" as const;
+export type LotoFootOfficialSelection =
+  | LotoFootSelection
+  | typeof LOTO_FOOT_NEUTRALIZED_SELECTION;
 
 export interface LotoFootSource {
   label: string;
@@ -64,7 +68,7 @@ export interface LotoFootPublication {
 
 export type LotoFootOfficialMatchResult = {
   position: number;
-  selection: LotoFootSelection;
+  selection: LotoFootOfficialSelection;
 } & ({ homeScore: number; awayScore: number } | { homeScore?: never; awayScore?: never });
 
 export interface LotoFootOfficialPayout {
