@@ -343,7 +343,7 @@ export default component$(() => {
                         )}
                       </strong>
                       <span>
-                        Gain officiel :{" "}
+                        Gain officiel:{" "}
                         {currencyFormatter.format(ticketSettlement.payoutCents / 100)}
                       </span>
                     </div>
@@ -370,7 +370,11 @@ export default component$(() => {
                       const selectedIsCorrect =
                         officialSelection === undefined
                           ? undefined
-                          : publishedSelection === officialSelection;
+                          : getSelectionPresentation(
+                              publishedSelection,
+                              publishedSelection,
+                              officialSelection,
+                            ).verdict === "correct";
                       const matchVerdict = getMatchVerdictLabel(
                         publishedSelection,
                         officialSelection,
