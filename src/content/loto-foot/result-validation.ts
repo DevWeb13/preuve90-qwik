@@ -107,7 +107,7 @@ export function validateLotoFootResult(
       (typeof selection !== "string" ||
         !(LOTO_FOOT_SELECTIONS as readonly string[]).includes(selection))
     ) {
-      fail(`${path}.selection`, "doit valoir 1, N, 2 ou G pour une rencontre neutralisée");
+      fail(`${path}.selection`, "doit valoir 1, N ou 2, ou G pour une rencontre neutralisée");
     }
 
     const hasHomeScore = match.homeScore !== undefined;
