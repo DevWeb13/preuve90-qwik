@@ -1,0 +1,210 @@
+{
+  "id": "lf8-106-2026-08-14",
+  "formula": 8,
+  "gridNumber": 106,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-14T20:40:00+02:00",
+  "publishedAt": "2026-08-13T13:59:10+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Saint-Étienne",
+      "awayTeam": "Clermont",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 68, "draw": 21, "away": 11 },
+      "analysis": {
+        "summary": "Saint-Étienne part avec un avantage net à domicile, mais l'écart est volontairement inférieur à celui du vote FDJ car Clermont ouvre un nouveau cycle sous David Guion et reste capable de fermer le match.",
+        "keyFactors": [
+          "Saint-Étienne a terminé 3e de Ligue 2 en 2025-2026 avec 60 points et une différence de buts de +21.",
+          "Clermont sort d'une 13e place et a changé d'entraîneur avec l'arrivée de David Guion, technicien expérimenté de Ligue 2.",
+          "La répartition FDJ est très favorable à Saint-Étienne (81 % / 13 % / 6 %), ce qui confirme le statut de favori mais crée aussi un risque de surconfiance du marché."
+        ],
+        "uncertainty": "Début de saison et changement de staff à Clermont : les automatismes et le niveau réel des deux équipes restent encore imparfaitement mesurés.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "Clermont Foot 63 — nouveau staff 2026-2027", "url": "https://www.clermontfoot.com/decouvrez-le-nouveau-staff-du-cf63", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Red Star",
+      "awayTeam": "Sochaux",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 51, "draw": 29, "away": 20 },
+      "analysis": {
+        "summary": "Le Red Star reste favori grâce à sa continuité et son rendement 2025-2026, mais la montée de Sochaux et le huis clos partiel à Bauer réduisent l'avantage habituel du terrain.",
+        "keyFactors": [
+          "Le Red Star a terminé 4e de Ligue 2 en 2025-2026 avec 58 points.",
+          "Sochaux retrouve la Ligue 2 après sa promotion obtenue au terme de la saison 2025-2026.",
+          "Les blocs E et F de la tribune Est de Bauer sont fermés pour cette rencontre, ce qui atténue légèrement l'avantage du Red Star à domicile.",
+          "Le vote FDJ privilégie le Red Star (64 % / 22 % / 14 %), mais le profil d'un promu rend le nul plus plausible que cette répartition ne le suggère."
+        ],
+        "uncertainty": "Sochaux change de niveau de compétition et son adaptation immédiate à la Ligue 2 est difficile à quantifier après une seule journée.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "Red Star — informations Red Star / Sochaux", "url": "https://www.redstar.fr/2026-07-24/billetterie/votre-place-pour-red-star-fc-sochaux-2/", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "FC Sochaux-Montbéliard — retour en Ligue 2", "url": "https://www.fcsochaux.fr/actualites/communique/le-fcsm-de-retour-en-ligue-2-bkt", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Grenoble",
+      "awayTeam": "Metz",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 23, "draw": 29, "away": 48 },
+      "analysis": {
+        "summary": "Metz possède le plafond d'effectif le plus élevé de l'affiche après sa relégation de Ligue 1 et mérite le statut de favori, sans que le déplacement à Grenoble justifie une probabilité supérieure à 50 %.",
+        "keyFactors": [
+          "Metz vient de Ligue 1 et a été officiellement relégué en mai 2026, conservant une base d'effectif issue de l'étage supérieur.",
+          "Grenoble a terminé 12e de Ligue 2 en 2025-2026 avec 39 points et seulement 33 buts marqués.",
+          "La répartition FDJ donne Metz devant (17 % / 30 % / 53 %), cohérente avec un avantage qualitatif des Grenats."
+        ],
+        "uncertainty": "Une relégation entraîne souvent des mouvements d'effectif importants ; la valeur réelle de Metz à ce stade de l'été peut encore évoluer.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "L'Équipe — relégation du FC Metz", "url": "https://www.lequipe.fr/Football/Actualites/Le-premier-club-relegue-en-ligue-2-est-connu-apres-sa-defaite-cruelle-contre-monaco-metz-retrouve-l-etage-inferieur/1672677", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Reims",
+      "awayTeam": "Dunkerque",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 50, "draw": 29, "away": 21 },
+      "analysis": {
+        "summary": "Reims a affiché un niveau supérieur à Dunkerque sur l'ensemble de la saison précédente et reçoit à Delaune ; l'avantage reste cependant modéré car les deux clubs ont été capables de nombreux matchs nuls.",
+        "keyFactors": [
+          "Reims a fini 6e de Ligue 2 en 2025-2026 avec 56 points et une différence de buts de +18.",
+          "Dunkerque a terminé 10e avec 43 points, tout en inscrivant 53 buts, soit autant que Reims.",
+          "Le vote FDJ est partagé mais place Reims devant (48 % / 31 % / 21 %), ce qui correspond à un favori mesuré plutôt qu'à un verrou."
+        ],
+        "uncertainty": "Le début de saison réduit la valeur prédictive des tendances de l'exercice précédent et Dunkerque conserve une capacité offensive significative.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "Stade de Reims — équipe première et calendrier", "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Dijon",
+      "awayTeam": "Pau",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 42, "draw": 31, "away": 27 },
+      "analysis": {
+        "summary": "Dijon est légèrement favori à domicile grâce à la dynamique d'une montée obtenue avec le titre de National, mais Pau possède davantage de repères récents en Ligue 2 et rend l'affiche très ouverte.",
+        "keyFactors": [
+          "Dijon a été sacré champion de National 2025-2026 et promu en Ligue 2.",
+          "Pau a terminé 9e de Ligue 2 en 2025-2026 avec 45 points, mais avec une différence de buts de -14.",
+          "La répartition FDJ favorise Dijon (53 % / 28 % / 19 %), un écart ramené ici pour tenir compte du changement de division."
+        ],
+        "uncertainty": "Le niveau de transposition de la domination dijonnaise en National vers la Ligue 2 reste la principale inconnue.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "FFF — Dijon champion de National 2025-2026", "url": "https://www.fff.fr/article/16766-j33-dijon-champion-saint-brieuc-relegue.html", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Annecy",
+      "awayTeam": "Rodez",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 44, "draw": 32, "away": 24 },
+      "analysis": {
+        "summary": "Annecy bénéficie du terrain et d'un effectif renforcé, mais Rodez sort d'une meilleure saison et possède un profil suffisamment solide pour maintenir une forte probabilité de nul.",
+        "keyFactors": [
+          "Rodez a terminé 5e de Ligue 2 en 2025-2026 avec 58 points, devant Annecy 7e avec 52 points.",
+          "Annecy a annoncé plusieurs renforts avant cette journée, notamment Mohamed Koné et Pascal Mozie.",
+          "La répartition FDJ est très serrée (37 % / 36 % / 27 %), signe d'une affiche à forte variance."
+        ],
+        "uncertainty": "Les nouveaux joueurs annéciens n'offrent pas encore assez de recul compétitif pour mesurer précisément leur impact collectif.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "FC Annecy — actualités effectif et repères 2025-2026", "url": "https://www.fc-annecy.fr/", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Nancy",
+      "awayTeam": "Montpellier",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 26, "draw": 31, "away": 43 },
+      "analysis": {
+        "summary": "Montpellier est favori grâce à une saison 2025-2026 nettement supérieure, mais Nancy à Marcel-Picot garde une chance réelle de prendre au moins un point.",
+        "keyFactors": [
+          "Montpellier a terminé 8e de Ligue 2 en 2025-2026 avec 51 points et une différence de buts de +10.",
+          "Nancy a fini 14e avec 37 points et une différence de buts de -17.",
+          "La répartition FDJ donne Montpellier en tête (22 % / 37 % / 41 %) tout en accordant une forte place au nul."
+        ],
+        "uncertainty": "Le poids du terrain à Nancy et les ajustements d'effectif estivaux peuvent réduire l'écart observé sur la saison précédente.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Laval",
+      "awayTeam": "Nantes",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-08-14T20:45:00+02:00",
+      "probabilities": { "home": 28, "draw": 31, "away": 41 },
+      "analysis": {
+        "summary": "Nantes possède davantage de qualité individuelle issue de Ligue 1 et part favori, mais sa relégation a suivi une saison très perturbée ; Laval à domicile conserve donc une probabilité significative de résultat positif.",
+        "keyFactors": [
+          "Nantes a été officiellement relégué de Ligue 1 en mai 2026 après une saison marquée par vingt défaites avant la dernière journée.",
+          "Laval a terminé 16e de Ligue 2 en 2025-2026 avec 32 points et une différence de buts de -18.",
+          "La répartition FDJ privilégie Nantes (24 % / 29 % / 47 %), mais sans domination écrasante."
+        ],
+        "uncertainty": "La relégation nantaise s'accompagne d'une forte incertitude sportive et de marché des transferts ; l'avantage théorique d'effectif peut évoluer rapidement.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "LFP — calendrier Ligue 2 2026-2027", "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027", "accessedAt": "2026-08-13T13:58:42+02:00" },
+          { "label": "L'Équipe — relégation du FC Nantes", "url": "https://www.lequipe.fr/Football/Actualites/Lens-valide-son-ticket-pour-la-prochaine-ligue-des-champions-grace-au-jeune-mesloub-nantes-est-officiellement-relegue-en-ligue-2/1674315", "accessedAt": "2026-08-13T13:58:36+02:00" },
+          { "label": "L'Équipe — classement Ligue 2 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-2/page-classement-equipes/general", "accessedAt": "2026-08-13T13:58:36+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Socle", "selections": ["1", "1", "2", "1", "1", "1", "2", "2"], "rationale": "Combinaison centrale fondée sur les favoris analytiques de chaque rencontre." },
+    { "id": "t2", "label": "Red Star accroché", "selections": ["1", "N", "2", "1", "1", "1", "2", "2"], "rationale": "Couvre le nul à Bauer face au promu sochalien et au huis clos partiel." },
+    { "id": "t3", "label": "Metz contenu", "selections": ["1", "1", "N", "1", "1", "1", "2", "2"], "rationale": "Couvre un match plus fermé à Grenoble malgré l'avantage qualitatif messin." },
+    { "id": "t4", "label": "Reims neutralisé", "selections": ["1", "1", "2", "N", "1", "1", "2", "2"], "rationale": "Couvre la forte probabilité de nul dans une affiche où Dunkerque garde une menace offensive." },
+    { "id": "t5", "label": "Dijon freiné", "selections": ["1", "1", "2", "1", "N", "1", "2", "2"], "rationale": "Couvre l'incertitude liée au passage du champion de National au niveau Ligue 2." },
+    { "id": "t6", "label": "Annecy-Rodez partagé", "selections": ["1", "1", "2", "1", "1", "N", "2", "2"], "rationale": "Couvre le nul sur l'une des affiches les plus équilibrées de la grille." },
+    { "id": "t7", "label": "Nancy résiste", "selections": ["1", "1", "2", "1", "1", "1", "N", "2"], "rationale": "Couvre un nul à Marcel-Picot malgré l'avantage structurel de Montpellier." },
+    { "id": "t8", "label": "Derby de l'Ouest fermé", "selections": ["1", "1", "2", "1", "1", "1", "2", "N"], "rationale": "Couvre le nul entre Laval et un Nantes relégué encore difficile à calibrer." },
+    { "id": "t9", "label": "Pau valeur", "selections": ["1", "1", "2", "1", "2", "1", "2", "2"], "rationale": "Scénario de valeur où l'expérience récente de Pau en Ligue 2 sanctionne le promu dijonnais." },
+    { "id": "t10", "label": "Nancy surprise", "selections": ["1", "1", "2", "1", "1", "1", "1", "2"], "rationale": "Scénario plus rémunérateur fondé sur l'avantage du terrain de Nancy." },
+    { "id": "t11", "label": "Dunkerque surprise", "selections": ["1", "1", "2", "2", "1", "1", "2", "2"], "rationale": "Couvre le potentiel offensif de Dunkerque si Reims ne convertit pas son avantage à domicile." },
+    { "id": "t12", "label": "Sochaux surprise", "selections": ["1", "2", "2", "1", "1", "1", "2", "2"], "rationale": "Scénario à meilleur rendement potentiel si le promu sochalien réussit son premier déplacement à Bauer." }
+  ]
+}
