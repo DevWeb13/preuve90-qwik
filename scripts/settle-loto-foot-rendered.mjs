@@ -120,6 +120,13 @@ export function parseRenderedOfficialResults(html, matches) {
   const reportShape = parseReportShape(html);
   if (!reportShape) return [];
 
+  if (reportShape.reportedMatchCount === matches.length) {
+    const globalSelections = parseOfficialSelections(html, matches);
+    if (globalSelections.length === matches.length) {
+      return globalSelections.sort((left, right) => left.position - right.position);
+    }
+  }
+
   const results = [];
   const unresolved = [];
 
