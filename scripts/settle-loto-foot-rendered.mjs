@@ -8,6 +8,14 @@ const RESULTS_INDEX_URL =
   "https://www.pointdevente.parionssport.fdj.fr/grilles/resultats/loto-foot";
 const FDJ_HOST = "www.pointdevente.parionssport.fdj.fr";
 const NEUTRALIZED_SELECTION = "G";
+const SELECTION_BY_CONTROL = new Map([
+  ["one", "1"],
+  ["n", "N"],
+  ["two", "2"],
+  ["1", "1"],
+  ["N", "N"],
+  ["2", "2"],
+]);
 
 function errorMessage(error) {
   return error instanceof Error ? error.message : String(error);
@@ -116,15 +124,38 @@ function parseReportShape(html) {
   };
 }
 
+function isCheckedInput(tag) {
+  return /\schecked(?:\s|=|>|\/)/iu.test(tag);
+}
+
+export function parseRenderedOfficialSelections(html, expectedCount) {
+  const selections = [];
+  for (const input of html.matchAll(/<input\b[^>]*>/giu)) {
+    if (!isCheckedInput(input[0])) continue;
+    const controlName = readAttribute(input[0], "formcontrolname")?.trim();
+    const rawValue = readAttribute(input[0], "value")?.trim();
+    const selection = controlName
+      ? SELECTION_BY_CONTROL.get(controlName)
+      : rawValue
+        ? SELECTION_BY_CONTROL.get(rawValue)
+        : undefined;
+    if (selection) selections.push(selection);
+  }
+
+  if (selections.length !== expectedCount) return [];
+  return selections.map((selection, index) => ({
+    position: index + 1,
+    selection,
+  }));
+}
+
 export function parseRenderedOfficialResults(html, matches) {
   const reportShape = parseReportShape(html);
   if (!reportShape) return [];
 
   if (reportShape.reportedMatchCount === matches.length) {
-    const globalSelections = parseOfficialSelections(html, matches);
-    if (globalSelections.length === matches.length) {
-      return globalSelections.sort((left, right) => left.position - right.position);
-    }
+    const globalSelections = parseRenderedOfficialSelections(html, matches.length);
+    if (globalSelections.length === matches.length) return globalSelections;
   }
 
   const results = [];
