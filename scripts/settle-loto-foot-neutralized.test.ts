@@ -32,6 +32,27 @@ describe("lecture des rencontres neutralisées FDJ", () => {
     ]);
   });
 
+  it("lit la grille globalement quand les contrôles sont hors du segment des équipes", () => {
+    const html = `
+      <div class="controls">
+        <input value="1">
+        <input value="N" checked>
+        <input value="2">
+        <input value="1" checked>
+        <input value="N">
+        <input value="2">
+      </div>
+      <div>Equipe A - Equipe B</div>
+      <div>Equipe C - Equipe D</div>
+      <table><tr><td>2 sur 2</td><td>100,00 €</td></tr></table>
+    `;
+
+    expect(parseRenderedOfficialResults(html, matches)).toEqual([
+      { position: 1, selection: "N" },
+      { position: 2, selection: "1" },
+    ]);
+  });
+
   it("reconnaît une rencontre explicitement marquée Gagnant", () => {
     const html = `
       <div>
