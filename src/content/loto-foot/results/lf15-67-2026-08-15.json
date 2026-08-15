@@ -1,0 +1,90 @@
+{
+  "id": "lf15-67-2026-08-15-result",
+  "publicationId": "lf15-67-2026-08-15",
+  "gridNumber": 67,
+  "settledAt": "2026-08-16T00:40:09+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2015",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "1"
+    },
+    {
+      "position": 2,
+      "selection": "1"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "N"
+    },
+    {
+      "position": 5,
+      "selection": "N"
+    },
+    {
+      "position": 6,
+      "selection": "2"
+    },
+    {
+      "position": 7,
+      "selection": "2"
+    },
+    {
+      "position": 8,
+      "selection": "1"
+    },
+    {
+      "position": 9,
+      "selection": "N"
+    },
+    {
+      "position": 10,
+      "selection": "2"
+    },
+    {
+      "position": 11,
+      "selection": "1"
+    },
+    {
+      "position": 12,
+      "selection": "N"
+    },
+    {
+      "position": 13,
+      "selection": "N"
+    },
+    {
+      "position": 14,
+      "selection": "1"
+    },
+    {
+      "position": 15,
+      "selection": "N"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 14,
+      "amountCents": 1259650
+    },
+    {
+      "correctSelections": 13,
+      "amountCents": 31890
+    },
+    {
+      "correctSelections": 12,
+      "amountCents": 3070
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°67",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2015",
+      "accessedAt": "2026-08-16T00:40:09+02:00"
+    }
+  ]
+}
