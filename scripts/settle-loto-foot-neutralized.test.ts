@@ -32,18 +32,17 @@ describe("lecture des rencontres neutralisées FDJ", () => {
     ]);
   });
 
-  it("lit la grille globalement quand les contrôles sont hors du segment des équipes", () => {
+  it("lit la grille rendue sans dépendre des libellés d'équipes", () => {
     const html = `
       <div class="controls">
-        <input value="1">
-        <input value="N" checked>
-        <input value="2">
-        <input value="1" checked>
-        <input value="N">
-        <input value="2">
+        <input formcontrolname="one" value="1">
+        <input formcontrolname="n" value="N" checked>
+        <input formcontrolname="two" value="2">
+        <input formcontrolname="one" value="1" checked>
+        <input formcontrolname="n" value="N">
+        <input formcontrolname="two" value="2">
       </div>
-      <div>Equipe A - Equipe B</div>
-      <div>Equipe C - Equipe D</div>
+      <div>Libellés FDJ différents de ceux de la publication</div>
       <table><tr><td>2 sur 2</td><td>100,00 €</td></tr></table>
     `;
 
