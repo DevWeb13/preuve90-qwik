@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "purpose": "Mémoire statistique déterministe pour calibrer l'analyse et la construction des combinaisons. Ce fichier ne remplace jamais l'analyse sportive de la grille courante.",
   "source": {
-    "publicationFiles": 40,
+    "publicationFiles": 41,
     "resultFiles": 39,
     "settledPublications": 39,
     "latestSettledAt": "2026-08-17T00:38:44+02:00"
