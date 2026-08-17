@@ -1,0 +1,393 @@
+{
+  "id": "lf7-104-2026-08-18",
+  "formula": 7,
+  "gridNumber": 104,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-18T20:55:00+02:00",
+  "publishedAt": "2026-08-17T02:02:23+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Fenerbahçe",
+      "awayTeam": "Olympique Lyonnais",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Fenerbahçe reçoit un OL capable de renverser une éliminatoire mais plus irrégulier hors de ses bases. L'avantage du terrain turc et la solidité européenne récente de Fener donnent un léger avantage au 1, sans écarter le nul ni un succès lyonnais.",
+        "keyFactors": [
+          "Fenerbahçe a éliminé Sturm Graz 3-0 sur l'ensemble des deux matchs et a aligné un secteur offensif de haut niveau en qualification.",
+          "Lyon a renversé le Sparta Prague avec un 3-0 au retour après avoir perdu l'aller, preuve d'une forte capacité de réaction.",
+          "Le match est un aller de barrage : les deux équipes peuvent privilégier le contrôle plutôt qu'une prise de risque maximale.",
+          "La mémoire statistique montre une sous-couverture historique des nuls, ce qui conduit à ne pas écraser artificiellement la probabilité de N sur une affiche équilibrée."
+        ],
+        "uncertainty": "Élevée : les deux équipes ont montré des plafonds européens élevés et le statut de match aller augmente la variance tactique.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF7 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "AS - Fenerbahçe qualifié après Sturm Graz",
+            "url": "https://as.com/futbol/champions/asensio-roza-la-champions-f202608-n/",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "AS - Lyon renverse le Sparta Prague",
+            "url": "https://as.com/futbol/champions/el-lyon-sobrevive-sin-endrick-f202608-n/",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "Ligue 1 - Parcours de qualification de l'OL",
+            "url": "https://ligue1.com/fr/articles/l1_article_5166-ol-quel-adversaire-au-3e-tour-de-qualification-de-la-ligue-des-champions-2627",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "Viking FK",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 52,
+        "draw": 25,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Dinamo Zagreb part favori à Maksimir grâce à son expérience européenne et à une qualification précédente convaincante, mais Viking arrive avec une dynamique domestique forte. Le 1 reste le scénario central, avec une marge limitée.",
+        "keyFactors": [
+          "Dinamo a battu Žalgiris 5-0 lors de l'aller du tour précédent et dispose d'un effectif expérimenté en compétitions UEFA.",
+          "Viking a gagné 3-0 à Start et figurait deuxième de l'Eliteserien dans les données récentes consultées.",
+          "Le match est un aller : Dinamo a intérêt à prendre l'avantage à domicile, tandis que Viking peut accepter une phase d'attente.",
+          "Le profil historique de LF7 recommande de conserver des variantes mais pas de sur-diluer un favori supérieur à 50 %."
+        ],
+        "uncertainty": "Moyenne : Dinamo a davantage de références européennes, mais Viking possède une dynamique et une puissance offensive capables de punir une mauvaise soirée croate.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF7 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "L'Équipe - Résultats du 3e tour de qualification de Ligue des champions",
+            "url": "https://www.lequipe.fr/Football/ligue-des-champions/page-calendrier-resultats",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "UEFA - Dinamo Zagreb 2026/27",
+            "url": "https://fr.uefa.com/uefachampionsleague/clubs/50164--dinamo-zagreb/",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "PredictZ - Forme Viking FK 2026",
+            "url": "https://www.predictz.com/results/norway/eliteserien/2026/viking-fk/",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "AEK Athènes",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 37,
+        "draw": 31,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "Affiche très serrée. Levski a affiché une défense européenne solide et bénéficie du terrain, tandis que l'AEK possède davantage de profondeur et une bonne préparation estivale. Le 1 est seulement un léger choix central, avec N et 2 presque au même niveau.",
+        "keyFactors": [
+          "Levski affichait six buts marqués et un seul encaissé sur ses trois premières rencontres européennes répertoriées par l'UEFA.",
+          "Levski a battu Kairat 1-0 à l'aller du tour précédent.",
+          "AEK a enchaîné plusieurs résultats positifs en préparation, dont une victoire 3-0 contre Saint-Trond début août.",
+          "La proximité des niveaux et le format aller-retour rendent le nul particulièrement plausible."
+        ],
+        "uncertainty": "Très élevée : aucune issue ne dépasse 40 %, et les informations disponibles ne justifient pas un favori net.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF7 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "UEFA - Levski Sofia 2026/27",
+            "url": "https://fr.uefa.com/uefachampionsleague/clubs/50044--levski-sofia/",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "L'Équipe - Levski 1-0 Kairat au 3e tour",
+            "url": "https://www.lequipe.fr/Football/ligue-des-champions/page-calendrier-resultats",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "BeSoccer - Résultats récents AEK Athènes",
+            "url": "https://www.besoccer.com/team/matches/aek-athens",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Deportivo Recoleta",
+      "awayTeam": "Boca Juniors",
+      "competition": "CONMEBOL Sudamericana - Huitièmes de finale retour",
+      "probabilities": {
+        "home": 27,
+        "draw": 35,
+        "away": 38
+      },
+      "analysis": {
+        "summary": "Boca arrive avec un avantage de 3-1 acquis à l'aller. Recoleta doit attaquer, ce qui augmente son potentiel offensif mais aussi les espaces pour Boca. Le scénario de gestion favorise fortement le nul, tandis que Boca reste légèrement l'issue la plus probable du match.",
+        "keyFactors": [
+          "Boca a gagné l'aller 3-1 après avoir été mené, dans un match où Recoleta a terminé en infériorité numérique.",
+          "Avec deux buts d'avance, Boca peut accepter un rythme plus bas et exploiter les transitions plutôt que chercher absolument la victoire.",
+          "Recoleta a montré qu'il pouvait marquer à Boca et possède plusieurs créateurs productifs en championnat.",
+          "La logique du score cumulé rend le nul plus probable que dans une rencontre isolée."
+        ],
+        "uncertainty": "Élevée : l'obligation d'attaquer de Recoleta peut produire un match très ouvert ou, au contraire, une gestion prudente de Boca.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF7 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "UOL - Boca Juniors 3-1 Recoleta à l'aller",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/11/boca-da-dois-saques-iniciais-e-arbitro-nao-percebe-erro.ghtm",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "AS - Analyse de Boca 3-1 Recoleta",
+            "url": "https://as.com/futbol/internacional/villa-evita-el-desastre-f202608-n/",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "FotMob - Forme et joueurs de Recoleta",
+            "url": "https://www.fotmob.com/teams/1427854/overview/recoleta%2Cplayers%2Cplayers%2Cteams%2Cplayers/teams",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "São Paulo",
+      "awayTeam": "Bolívar",
+      "competition": "CONMEBOL Sudamericana - Huitièmes de finale retour",
+      "probabilities": {
+        "home": 55,
+        "draw": 27,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Après le 1-1 de La Paz, São Paulo récupère l'avantage du MorumBIS et n'a plus à gérer l'altitude. Sa forme récente reste mauvaise, ce qui empêche d'en faire un favori massif, mais le 1 demeure nettement l'issue la plus probable.",
+        "keyFactors": [
+          "Le match aller s'est terminé sur un nul 1-1 à 3 650 mètres d'altitude, résultat favorable à São Paulo avant le retour à domicile.",
+          "São Paulo n'avait remporté qu'un de ses quatorze matchs depuis la reprise après la Coupe du monde selon le compte rendu consulté.",
+          "Le retour au MorumBIS et la disparition de l'avantage d'altitude de Bolívar renforcent fortement le 1.",
+          "Un nouveau nul conduirait aux tirs au but, ce qui maintient N à un niveau significatif."
+        ],
+        "uncertainty": "Moyenne à élevée : l'avantage du terrain est net mais la série sans victoire de São Paulo interdit une confiance excessive.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF7 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "Folha - Bolívar 1-1 São Paulo à l'aller",
+            "url": "https://www1.folha.uol.com.br/esporte/2026/08/sao-paulo-inicia-mata-mata-contra-bolivar-com-empate-na-altitude-de-la-paz.shtml",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "UOL - São Paulo 1-1 Coritiba et forme récente",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/brasileirao-sao-paulo-x-coritiba.ghtm",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "CONMEBOL - São Paulo vs Bolívar",
+            "url": "https://gol.conmebol.com/libertadores/es/team/25",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Independiente Rivadavia",
+      "awayTeam": "Fluminense",
+      "competition": "CONMEBOL Libertadores - Huitièmes de finale retour",
+      "startsAt": "2026-08-19T00:00:00+02:00",
+      "probabilities": {
+        "home": 43,
+        "draw": 32,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Le 0-0 du Maracanã laisse tout ouvert, mais Independiente Rivadavia a été la formation la plus dangereuse à l'aller et retrouve Mendoza. Fluminense traverse une série très négative et vient de changer d'entraîneur, ce qui fait du 1 le choix principal et du nul une couverture importante.",
+        "keyFactors": [
+          "Independiente Rivadavia a obtenu 0-0 au Maracanã tout en se créant les occasions les plus nettes.",
+          "Fluminense restait sur huit matchs sans victoire après l'aller.",
+          "Luis Zubeldía a été licencié après le match aller, ajoutant une incertitude tactique immédiate.",
+          "Independiente avait terminé la phase de groupes avec 16 points contre 8 pour Fluminense et joue le retour à domicile."
+        ],
+        "uncertainty": "Élevée : une élimination directe à 0-0 cumulé peut basculer sur un fait de jeu, et un nul reste naturellement très plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF7 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "UOL - Fluminense 0-0 Independiente Rivadavia",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/11/fluminense-independiente-rivadavia-oitavas-libertadores.ghtm",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "Folha - Fluminense limoge Luis Zubeldía",
+            "url": "https://www1.folha.uol.com.br/esporte/2026/08/fluminense-anuncia-demissao-do-tecnico-luis-zubeldia.shtml",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "CONMEBOL - Calendrier officiel des huitièmes de Libertadores",
+            "url": "https://gol.conmebol.com/libertadores/es/news/fechas-y-horarios-asi-se-jugaran-los-octavos-de-final-de-la-conmebol-libertadores",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "beIN SPORTS - Independiente Rivadavia vs Fluminense",
+            "url": "https://www.beinsports.com/en-us/soccer/conmebol-libertadores/independiente-rivadavia-vs-fluminense-2026-08-19",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Universidad Católica",
+      "awayTeam": "Estudiantes de La Plata",
+      "competition": "CONMEBOL Libertadores - Huitièmes de finale retour",
+      "startsAt": "2026-08-19T02:30:00+02:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 33,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Après le 0-0 de La Plata, Universidad Católica reçoit au Claro Arena avec un léger avantage sportif et contextuel. Estudiantes reste suffisamment solide pour maintenir une forte probabilité de nul, mais le 1 est le choix central.",
+        "keyFactors": [
+          "Le match aller s'est terminé 0-0, ce qui transforme le retour en confrontation sans avantage au score cumulé.",
+          "Universidad Católica avait terminé sa phase de groupes avec 13 points, contre 9 pour Estudiantes.",
+          "Le retour se joue au Claro Arena à Santiago, avantage direct pour Católica.",
+          "Le profil d'un retour à égalité et la sous-couverture historique des nuls justifient une couverture importante de N sans en faire le scénario principal."
+        ],
+        "uncertainty": "Élevée : le 0-0 de l'aller et l'enjeu de qualification rendent un match fermé ou décidé sur un détail très plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF7 n°104",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "El Comercio - Estudiantes 0-0 Universidad Católica",
+            "url": "https://elcomercio.pe/resultados/partido/estudiantes-vs-universidad-catolica-85631/estadisticas/",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "CONMEBOL - Calendrier officiel des huitièmes de Libertadores",
+            "url": "https://gol.conmebol.com/libertadores/es/news/fechas-y-horarios-asi-se-jugaran-los-octavos-de-final-de-la-conmebol-libertadores",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          },
+          {
+            "label": "Universidad Católica - Horaire du match retour",
+            "url": "https://ebs.publicnow.com/view/37561373DD24A906755C22EF43B9FEB362108AA6",
+            "accessedAt": "2026-08-17T02:01:56+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["1", "1", "1", "2", "1", "1", "1"],
+      "rationale": "Retient les favoris ou légers favoris de chaque match, avec Boca gagnant malgré son avantage cumulé."
+    },
+    {
+      "id": "t2",
+      "label": "Nuls de barrages",
+      "selections": ["N", "1", "2", "N", "1", "N", "N"],
+      "rationale": "Couvre un aller Fener-Lyon fermé et plusieurs retours gérés, tout en donnant l'AEK gagnant à Sofia."
+    },
+    {
+      "id": "t3",
+      "label": "Retours sous contrôle",
+      "selections": ["1", "1", "N", "N", "1", "1", "N"],
+      "rationale": "Accentue la couverture des nuls sur les confrontations les plus équilibrées sans toucher aux deux favoris les plus solides."
+    },
+    {
+      "id": "t4",
+      "label": "Surprises européennes",
+      "selections": ["2", "1", "N", "1", "1", "N", "1"],
+      "rationale": "Couvre une victoire lyonnaise, un Levski-AEK indécis et une réaction de Recoleta à domicile."
+    },
+    {
+      "id": "t5",
+      "label": "Lyon et AEK",
+      "selections": ["2", "1", "2", "N", "1", "1", "1"],
+      "rationale": "Scénario de réussite des deux visiteurs européens les plus crédibles, compensé par des choix domestiques plus conservateurs."
+    },
+    {
+      "id": "t6",
+      "label": "Gestion des retours",
+      "selections": ["1", "1", "1", "1", "1", "N", "N"],
+      "rationale": "Recoleta gagne son match sans nécessairement se qualifier, tandis que les deux retours de Libertadores se ferment sur des nuls."
+    },
+    {
+      "id": "t7",
+      "label": "Boca et Fluminense",
+      "selections": ["1", "1", "2", "2", "1", "2", "N"],
+      "rationale": "Couvre une soirée favorable aux visiteurs sud-américains et à l'AEK, avec nul à Santiago."
+    },
+    {
+      "id": "t8",
+      "label": "Double nul européen",
+      "selections": ["N", "1", "1", "N", "1", "1", "2"],
+      "rationale": "Couvre deux matchs européens d'attente et une victoire d'Estudiantes dans un retour très serré."
+    },
+    {
+      "id": "t9",
+      "label": "Retours contrariés",
+      "selections": ["1", "1", "N", "2", "1", "N", "2"],
+      "rationale": "Conserve Boca et São Paulo mais couvre Fluminense par le nul et Estudiantes par la victoire."
+    },
+    {
+      "id": "t10",
+      "label": "Portefeuille nul",
+      "selections": ["1", "1", "1", "N", "1", "N", "1"],
+      "rationale": "Renforce spécifiquement N sur Recoleta-Boca et Independiente-Fluminense, deux scénarios tactiques cohérents et historiquement sous-couverts."
+    },
+    {
+      "id": "t11",
+      "label": "AEK et Estudiantes",
+      "selections": ["1", "1", "2", "1", "1", "1", "2"],
+      "rationale": "Couvre deux victoires extérieures plausibles sur des affiches équilibrées tout en gardant les favoris plus nets."
+    },
+    {
+      "id": "t12",
+      "label": "Boca avec nul à Mendoza",
+      "selections": ["1", "1", "2", "2", "1", "N", "1"],
+      "rationale": "Associe les scénarios AEK et Boca gagnants à un nul à Mendoza, sans multiplier les variantes proches sur les favoris solides."
+    }
+  ]
+}
