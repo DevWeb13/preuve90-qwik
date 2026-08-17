@@ -1,0 +1,398 @@
+{
+  "id": "lf8-109-2026-08-19",
+  "formula": 8,
+  "gridNumber": 109,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-19T20:55:00+02:00",
+  "publishedAt": "2026-08-18T01:58:13+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Atlético de Madrid",
+      "awayTeam": "Málaga CF",
+      "competition": "LALIGA EA SPORTS",
+      "startsAt": "2026-08-19T21:00:00+02:00",
+      "probabilities": {
+        "home": 69,
+        "draw": 20,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "L'Atlético ouvre sa Liga à domicile face à un Málaga promu. L'écart de qualité et le contexte du Metropolitano rendent le 1 nettement prioritaire, mais la préparation madrilène a été irrégulière et la mémoire statistique invite à ne pas pousser artificiellement un favori au-delà de ce que les données sportives justifient.",
+        "keyFactors": [
+          "LaLiga confirme l'affiche au Riyadh Air Metropolitano le 19 août à 21h00.",
+          "L'Atlético a connu une préparation mitigée, avec plusieurs défaites contre des adversaires de haut niveau mais aussi des séquences offensives encourageantes.",
+          "Málaga débute en Liga après sa montée et affronte d'entrée un adversaire au potentiel individuel supérieur.",
+          "La calibration historique montre une tendance à la surconfiance dans les tranches de probabilités élevées, ce qui conduit à conserver un nul non négligeable."
+        ],
+        "uncertainty": "Moyenne : l'Atlético est clairement favori, mais une première journée et une préparation imparfaite augmentent le risque d'un match moins maîtrisé qu'attendu.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "LALIGA - Atlético de Madrid vs Málaga CF",
+            "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-malaga-cf-1",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Into the Calderon - préparation récente de l'Atlético",
+            "url": "https://www.intothecalderon.com/previews/27020/olympique-de-marseille-atletico-de-madrid-preview-team-news-score-prediction",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Celtic",
+      "awayTeam": "LASK Linz",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 59,
+        "draw": 24,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Celtic arrive avec une dynamique offensive forte et l'avantage de Celtic Park, mais LASK est également en très bonne forme. Les absences défensives écossaises et le format aller empêchent d'en faire un favori écrasant.",
+        "keyFactors": [
+          "Celtic vient de gagner largement contre Dundee United et avait déjà inscrit cinq buts à Kilmarnock.",
+          "LASK arrive sur une série de victoires convaincantes en Autriche.",
+          "Alistair Johnston est annoncé indisponible, ce qui fragilise le couloir droit du Celtic.",
+          "Le premier acte d'une double confrontation favorise souvent davantage le contrôle qu'un scénario totalement ouvert."
+        ],
+        "uncertainty": "Moyenne à élevée : Celtic possède le meilleur contexte, mais LASK arrive avec suffisamment de forme pour rendre le nul ou une surprise crédibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "The Times - Celtic se prépare pour LASK après Dundee United",
+            "url": "https://www.thetimes.com/sport/scottish/article/dundee-united-celtic-scottish-league-cup-result-score-6hqgrtpkn",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/CelticFC - forme récente Celtic/LASK",
+            "url": "https://www.reddit.com/r/CelticFC/comments/1vqzuch/next_match_lask_h_19_aug/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "NEC Nijmegen",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 31,
+        "draw": 29,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Bodø/Glimt garde un léger avantage grâce à son expérience européenne récente, mais NEC vient d'éliminer l'Olympiacos et reçoit. Le match aller peut donc rester très serré et le nul mérite une forte couverture.",
+        "keyFactors": [
+          "NEC a battu l'Olympiacos 2-1 après prolongation au tour précédent.",
+          "Bodø/Glimt a éliminé l'Union Saint-Gilloise après un retour spectaculaire gagné 3-2 après prolongation.",
+          "Le club norvégien dispose d'une continuité collective et d'une expérience européenne supérieure.",
+          "NEC a montré qu'il pouvait faire tomber un adversaire européen de niveau élevé à domicile."
+        ],
+        "uncertainty": "Très élevée : deux équipes en confiance, un écart de niveau limité et un premier match de barrage rendent les trois issues très plausibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/soccer - NEC 2-1 Olympiacos",
+            "url": "https://www.reddit.com/r/soccer/comments/1vlodty/match_thread_nec_nijmegen_vs_olympiacos_uefa/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "AS - Bodø/Glimt élimine l'Union Saint-Gilloise",
+            "url": "https://as.com/futbol/champions/el-bodoglimt-no-agota-su-epica-f202608-n/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Hapoel Beer Sheva",
+      "awayTeam": "Sabah FK",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 47,
+        "draw": 29,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Hapoel Beer Sheva prend l'avantage après son succès 2-0 à Belgrade au tour précédent. Sabah a toutefois déjà franchi plusieurs tours et reste suffisamment dangereux pour maintenir le nul très haut.",
+        "keyFactors": [
+          "Hapoel Beer Sheva a gagné 2-0 sur le terrain de l'Étoile Rouge au tour précédent.",
+          "Sabah a éliminé plusieurs adversaires européens cet été et a atteint ce barrage après sa confrontation avec AGF.",
+          "L'avantage du terrain renforce légèrement Hapoel sans créer un écart décisif.",
+          "Le format aller et le profil de Sabah justifient une couverture importante du nul."
+        ],
+        "uncertainty": "Élevée : Hapoel a envoyé un signal fort à Belgrade, mais Sabah a montré assez de résistance européenne pour empêcher une concentration excessive sur le 1.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/soccer - Étoile Rouge 0-2 Hapoel Beer Sheva",
+            "url": "https://www.reddit.com/r/soccer/comments/1vlp7e2/match_thread_red_star_belgrade_vs_hapoel_beer/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "UOL - affiches des barrages de Ligue des champions",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/12/champions-fase-preliminar-jogos-decisivos.ghtm",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Slovan Bratislava",
+      "awayTeam": "NK Celje",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 57,
+        "draw": 25,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Slovan présente la meilleure dynamique récente et reçoit, après avoir écarté Mjällby avec autorité. Celje a davantage souffert dans ses tours précédents ; le 1 est donc central, sans ignorer le nul.",
+        "keyFactors": [
+          "Slovan a gagné 2-0 contre Mjällby au retour après s'être déjà imposé à l'aller.",
+          "La série récente du Slovan comprend plusieurs victoires et peu de défaites.",
+          "Celje a dû passer par des confrontations très serrées lors de ses tours précédents.",
+          "La sous-couverture historique des nuls incite à ne pas réduire N malgré l'avantage du Slovan."
+        ],
+        "uncertainty": "Moyenne : Slovan est favori à domicile, mais l'écart n'est pas assez large pour exclure un nul de barrage.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/soccer - Slovan Bratislava 2-0 Mjällby",
+            "url": "https://www.reddit.com/r/soccer/comments/1vlp8gj/match_thread_slovan_bratislava_vs_mj%C3%A4llby_aif/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "UOL - affiches des barrages de Ligue des champions",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/12/champions-fase-preliminar-jogos-decisivos.ghtm",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Orlando City",
+      "awayTeam": "Chicago Fire",
+      "competition": "Major League Soccer",
+      "startsAt": "2026-08-20T01:30:00+02:00",
+      "probabilities": {
+        "home": 38,
+        "draw": 30,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "Affiche très équilibrée : Orlando bénéficie du terrain, tandis que Chicago arrive avec une meilleure dynamique récente. L'historique direct parfaitement partagé et les absences des deux côtés renforcent la place du nul.",
+        "keyFactors": [
+          "Le bilan historique récent entre les deux clubs est parfaitement équilibré à 8 victoires chacun et 8 nuls.",
+          "Chicago sort d'une séquence de résultats plus positive qu'Orlando.",
+          "Orlando joue à domicile mais compte plusieurs indisponibilités signalées.",
+          "Le profil très équilibré correspond précisément au biais historique de sous-couverture des nuls."
+        ],
+        "uncertainty": "Très élevée : les trois issues sont proches et la forme récente de Chicago compense presque entièrement l'avantage du terrain d'Orlando.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "FotMob - Orlando City vs Chicago Fire",
+            "url": "https://www.fotmob.com/matches/chicago-fire-fc-vs-orlando-city/h9r0tbh",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/OCLions - avant-match Orlando City vs Chicago Fire",
+            "url": "https://www.reddit.com/r/OCLions/comments/1vqvqn0/prematch_thread_orlando_city_vs_chicago_fire/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Colorado Rapids",
+      "awayTeam": "Los Angeles FC",
+      "competition": "Major League Soccer",
+      "startsAt": "2026-08-20T03:30:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 28,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "LAFC reste l'équipe la plus forte sur le papier et domine l'historique direct, mais Colorado vient de gagner 2-0 à domicile et LAFC a perdu contre San Diego. Le 2 reste central sans être verrouillé.",
+        "keyFactors": [
+          "LAFC mène nettement l'historique direct récent contre Colorado.",
+          "Colorado vient de battre Sporting Kansas City 2-0 à domicile.",
+          "LAFC reste sur une défaite 0-1 contre San Diego.",
+          "Les deux équipes ont des absences signalées, notamment Zack Steffen côté Colorado et Igor Jesus côté LAFC."
+        ],
+        "uncertainty": "Élevée : LAFC possède davantage de qualité, mais le terrain de Colorado, sa victoire récente et la défaite de LAFC réduisent fortement l'écart.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "FotMob - Colorado Rapids vs Los Angeles FC",
+            "url": "https://www.fotmob.com/matches/colorado-rapids-vs-los-angeles-fc/4w3n0887",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/MLS - Colorado Rapids 2-0 Sporting Kansas City",
+            "url": "https://www.reddit.com/r/MLS/comments/1vpjg9o/match_thread_colorado_rapids_vs_sporting_kansas/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/MLS - LAFC 0-1 San Diego FC",
+            "url": "https://www.reddit.com/r/MLS/comments/1vpkk4g/match_thread_lafc_vs_san_diego_fc_mls_aug_16_2026/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Philadelphia Union",
+      "awayTeam": "Inter Miami CF",
+      "competition": "Major League Soccer",
+      "startsAt": "2026-08-20T01:30:00+02:00",
+      "probabilities": {
+        "home": 30,
+        "draw": 28,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "Inter Miami conserve un léger avantage de qualité, mais arrive après une lourde défaite à Nashville et avec plusieurs indisponibilités. Philadelphia joue à domicile mais traverse lui-même une saison difficile ; le match reste donc ouvert.",
+        "keyFactors": [
+          "Inter Miami a perdu 4-1 à Nashville lors de son dernier match de MLS.",
+          "FotMob signale plusieurs absences côté Inter Miami, alors que Philadelphia dispose d'un effectif plus complet.",
+          "Philadelphia est mal classé mais reçoit au Subaru Park.",
+          "Le bilan des confrontations directes favorise Inter Miami, sans rendre le 2 suffisamment sûr pour écraser N et 1."
+        ],
+        "uncertainty": "Très élevée : Miami possède plus de talent mais sa forme récente et ses absences rendent la victoire extérieure loin d'être acquise.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF8 n°109",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "FotMob - Philadelphia Union vs Inter Miami CF",
+            "url": "https://www.fotmob.com/matches/philadelphia-union-vs-inter-miami-cf/8h29qmsy",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          },
+          {
+            "label": "Reddit r/MLS - Nashville SC 4-1 Inter Miami CF",
+            "url": "https://www.reddit.com/r/MLS/comments/1vpi1df/match_thread_nashville_sc_vs_inter_miami_cf_mls/",
+            "accessedAt": "2026-08-18T01:56:00+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["1", "1", "2", "1", "1", "1", "2", "2"],
+      "rationale": "Favoris principaux conservés, avec Bodø/Glimt et LAFC à l'extérieur et Orlando à domicile."
+    },
+    {
+      "id": "t2",
+      "label": "NEC et Chicago",
+      "selections": ["1", "1", "1", "1", "1", "2", "2", "2"],
+      "rationale": "Couvre un succès de NEC et la meilleure dynamique récente de Chicago."
+    },
+    {
+      "id": "t3",
+      "label": "Miami contrarié",
+      "selections": ["1", "1", "2", "1", "1", "2", "2", "1"],
+      "rationale": "Scénario où Philadelphia exploite les absences et la mauvaise dynamique récente de Miami."
+    },
+    {
+      "id": "t4",
+      "label": "Nuls européens et MLS",
+      "selections": ["1", "1", "N", "1", "1", "N", "2", "2"],
+      "rationale": "Renforce deux nuls sur des rencontres très équilibrées, conformément au biais historique observé."
+    },
+    {
+      "id": "t5",
+      "label": "NEC plus Philadelphia",
+      "selections": ["1", "1", "1", "1", "1", "1", "2", "1"],
+      "rationale": "Variante domicile sur NEC et Philadelphia tout en conservant les favoris les plus solides."
+    },
+    {
+      "id": "t6",
+      "label": "Portefeuille nul",
+      "selections": ["1", "1", "2", "1", "1", "N", "2", "N"],
+      "rationale": "Couvre simultanément les nuls Orlando-Chicago et Philadelphia-Miami, deux affiches à forte incertitude."
+    },
+    {
+      "id": "t7",
+      "label": "Colorado résiste",
+      "selections": ["1", "1", "2", "1", "1", "2", "N", "2"],
+      "rationale": "Couvre un nul de Colorado face à un LAFC récemment battu, avec Chicago à Orlando."
+    },
+    {
+      "id": "t8",
+      "label": "Hapoel accroché",
+      "selections": ["1", "1", "2", "N", "1", "2", "2", "2"],
+      "rationale": "Couvre un nul à Beer Sheva sans bouleverser le reste de la hiérarchie."
+    },
+    {
+      "id": "t9",
+      "label": "Nuls NEC et Miami",
+      "selections": ["1", "1", "N", "1", "1", "1", "2", "N"],
+      "rationale": "Couvre deux résultats nuls sur des matchs où l'écart de niveau est limité."
+    },
+    {
+      "id": "t10",
+      "label": "NEC et Colorado prudents",
+      "selections": ["1", "1", "1", "1", "1", "1", "N", "2"],
+      "rationale": "Scénario où NEC gagne mais Colorado freine LAFC à domicile."
+    },
+    {
+      "id": "t11",
+      "label": "Sabah tient",
+      "selections": ["1", "1", "1", "N", "1", "1", "2", "2"],
+      "rationale": "Ajoute une couverture du nul à Hapoel-Sabah avec un succès de NEC."
+    },
+    {
+      "id": "t12",
+      "label": "Surprise Colorado",
+      "selections": ["1", "1", "2", "1", "1", "N", "1", "2"],
+      "rationale": "Scénario plus rémunérateur où Colorado bat LAFC et Orlando-Chicago se neutralisent."
+    }
+  ]
+}
