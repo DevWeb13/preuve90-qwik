@@ -1,0 +1,682 @@
+{
+  "id": "lf15-68-2026-08-18",
+  "formula": 15,
+  "gridNumber": 68,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-18T20:55:00+02:00",
+  "publishedAt": "2026-08-17T18:03:13+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Fenerbahçe",
+      "awayTeam": "Olympique Lyonnais",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 43,
+        "draw": 30,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Fenerbahçe reçoit un Lyon capable de fortes réactions européennes. L'avantage du terrain et la dynamique de qualification turque donnent un léger avantage au 1, mais le profil de match aller et la capacité lyonnaise à renverser une situation maintiennent N et 2 à des niveaux significatifs.",
+        "keyFactors": [
+          "Fenerbahçe a éliminé Sturm Graz 3-0 sur l'ensemble des deux matchs du tour précédent.",
+          "Talisca a marqué lors de chaque tour qualificatif européen récent de Fenerbahçe et l'attaque turque dispose de plusieurs profils créatifs.",
+          "Lyon a renversé le Sparta Prague avec un succès 3-0 au retour après avoir perdu l'aller 1-0.",
+          "Le format aller de barrage augmente la probabilité d'une phase de contrôle et justifie de ne pas sous-évaluer le nul."
+        ],
+        "uncertainty": "Élevée : les deux équipes ont montré une capacité à faire basculer une confrontation européenne, sans écart suffisamment net pour isoler une issue.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "AS - Fenerbahçe qualifié après Sturm Graz",
+            "url": "https://as.com/futbol/champions/asensio-roza-la-champions-f202608-n/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "AS - Lyon renverse le Sparta Prague",
+            "url": "https://as.com/futbol/champions/el-lyon-sobrevive-sin-endrick-f202608-n/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "Viking FK",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "analysis": {
+        "summary": "Dinamo Zagreb possède davantage d'expérience européenne et une bonne dynamique récente à domicile. Viking reste compétitif et en forme en Norvège, mais le 1 constitue l'issue centrale sans atteindre un niveau de confiance extrême.",
+        "keyFactors": [
+          "Dinamo affichait trois victoires et deux nuls sur sa séquence récente consultée, avec peu de buts encaissés.",
+          "La qualité et l'expérience européennes du Dinamo restent supérieures à celles de Viking.",
+          "Viking a montré une bonne dynamique domestique, notamment avec une victoire 3-0 à Start.",
+          "La mémoire statistique conseille de réduire la surconfiance sur les favoris annoncés au-dessus de 60 %, d'où une probabilité centrale plus mesurée."
+        ],
+        "uncertainty": "Moyenne : Dinamo est favori, mais Viking possède suffisamment de rythme compétitif pour rendre le nul ou une surprise crédibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "TACTIX - Forme récente du Dinamo Zagreb",
+            "url": "https://tactix.football/team/dinamo-zagreb",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "PredictZ - Résultats récents de Viking FK",
+            "url": "https://www.predictz.com/results/norway/eliteserien/2026/viking-fk/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "AEK Athènes",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 35,
+        "draw": 33,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "L'affiche est presque parfaitement équilibrée. Levski bénéficie du terrain et d'une campagne européenne défensivement solide, tandis que l'AEK arrive avec une préparation offensive convaincante. Aucun résultat ne mérite une forte concentration.",
+        "keyFactors": [
+          "Levski a présenté de bons chiffres défensifs sur sa campagne européenne actuelle.",
+          "Le facteur domicile donne un léger avantage aux Bulgares sans créer d'écart structurel majeur.",
+          "L'AEK a enregistré plusieurs succès nets en préparation, dont 3-0 contre Saint-Trond et 4-0 contre Athens Kallithea.",
+          "Le profil très équilibré et la sous-couverture historique des nuls conduisent à placer N presque au niveau des deux victoires."
+        ],
+        "uncertainty": "Très élevée : les trois issues sont proches et un seul événement de match peut modifier complètement le scénario.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "UEFA - Levski Sofia 2026/27",
+            "url": "https://fr.uefa.com/uefachampionsleague/clubs/50044--levski-sofia/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "BeSoccer - Résultats récents AEK Athènes",
+            "url": "https://www.besoccer.com/team/matches/aek-athens",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Deportivo Recoleta",
+      "awayTeam": "Boca Juniors",
+      "competition": "CONMEBOL Sudamericana - Huitièmes de finale retour",
+      "probabilities": {
+        "home": 24,
+        "draw": 35,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "Boca a gagné l'aller 3-1 et peut gérer son avantage, ce qui rend le nul particulièrement plausible. Recoleta devra prendre davantage de risques, créant aussi des espaces pour Boca, qui reste légèrement l'issue la plus probable du match retour.",
+        "keyFactors": [
+          "Boca dispose de deux buts d'avance après sa victoire 3-1 à l'aller.",
+          "Recoleta est obligé d'attaquer davantage pour revenir dans la confrontation.",
+          "Boca n'a pas besoin de forcer le rythme pour se qualifier et peut privilégier la transition.",
+          "Dans une double confrontation avec avantage au score, le résultat du retour peut différer fortement de la probabilité de qualification."
+        ],
+        "uncertainty": "Élevée : la gestion du score cumulé peut produire aussi bien un nul fermé qu'un match ouvert favorable aux transitions de Boca.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "FotMob - Deportivo Recoleta",
+            "url": "https://www.fotmob.com/teams/1427854/overview/deportivo-recoleta",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Reddit r/futebol - Boca Juniors 3-1 Recoleta, match aller",
+            "url": "https://www.reddit.com/r/futebol/comments/1vly891/postmatch_thread_copa_sulamericana_boca_juniors_2/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "São Paulo",
+      "awayTeam": "Bolívar",
+      "competition": "CONMEBOL Sudamericana - Huitièmes de finale retour",
+      "probabilities": {
+        "home": 56,
+        "draw": 29,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Le 1-1 de l'aller à La Paz replace São Paulo dans une situation favorable au retour à domicile. L'avantage du terrain et la disparition de l'altitude bolivienne renforcent le 1, mais la mauvaise série récente du club brésilien empêche une probabilité excessive.",
+        "keyFactors": [
+          "São Paulo a ramené un nul 1-1 de La Paz, résultat favorable avant le retour.",
+          "Le retour à domicile supprime l'avantage d'altitude de Bolívar.",
+          "São Paulo traverse néanmoins une série récente très médiocre, avec peu de victoires depuis la reprise.",
+          "Un nouveau nul reste plausible et aurait un poids tactique important dans une confrontation encore équilibrée."
+        ],
+        "uncertainty": "Moyenne à élevée : São Paulo dispose du meilleur contexte, mais sa forme récente réduit la confiance dans un succès net.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Folha - Bolívar 1-1 São Paulo à l'aller",
+            "url": "https://www1.folha.uol.com.br/esporte/2026/08/sao-paulo-inicia-mata-mata-contra-bolivar-com-empate-na-altitude-de-la-paz.shtml",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "UOL - São Paulo 1-1 Coritiba et forme récente",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/15/brasileirao-sao-paulo-x-coritiba.ghtm",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Independiente Rivadavia",
+      "awayTeam": "Fluminense",
+      "competition": "CONMEBOL Libertadores - Huitièmes de finale retour",
+      "startsAt": "2026-08-19T00:00:00+02:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 33,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Après le 0-0 du Maracanã, Independiente Rivadavia retrouve Mendoza avec un léger avantage de contexte. Fluminense a changé d'entraîneur après l'aller, ce qui ajoute de l'incertitude. Le 1 reste central, mais le nul est très présent.",
+        "keyFactors": [
+          "Le match aller s'est terminé 0-0, laissant la confrontation complètement ouverte.",
+          "Independiente Rivadavia a créé plusieurs situations dangereuses au Maracanã malgré un volume de possession inférieur.",
+          "Fluminense a limogé Luis Zubeldía après le match aller et se présente avec un contexte technique instable.",
+          "Le score vierge de l'aller et l'enjeu du retour augmentent la plausibilité d'un match prudent et donc du nul."
+        ],
+        "uncertainty": "Élevée : l'égalité parfaite au score cumulé et le changement d'entraîneur de Fluminense rendent la réaction des visiteurs difficile à anticiper.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Folha - Fluminense se sépare de Luis Zubeldía",
+            "url": "https://www1.folha.uol.com.br/esporte/2026/08/fluminense-demite-luis-zubeldia-apos-empate-na-libertadores.shtml",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Reddit r/futebol - Fluminense 0-0 Independiente Rivadavia, match aller",
+            "url": "https://www.reddit.com/r/futebol/comments/1vly6v3/postmatch_thread_ta%C3%A7a_conmebol_libertadores/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Deportes Tolima",
+      "awayTeam": "Independiente del Valle",
+      "competition": "CONMEBOL Libertadores - Huitièmes de finale aller",
+      "startsAt": "2026-08-19T00:30:00+02:00",
+      "probabilities": {
+        "home": 31,
+        "draw": 34,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "La rencontre est bien l'aller, reprogrammé au 18 août en Colombie après le séisme, avec le retour déplacé au 25 août. Independiente del Valle arrive avec une meilleure dynamique récente, mais Tolima joue à domicile et le contexte de match aller rend le nul presque aussi probable que le 2.",
+        "keyFactors": [
+          "La CONMEBOL a reprogrammé cet aller au 18 août à 19h30 heure de Brasília, avec Tolima à domicile et le retour au 25 août.",
+          "Independiente del Valle présente une dynamique récente supérieure dans les données de forme consultées.",
+          "Tolima conserve l'avantage du terrain pour la première manche et n'a pas intérêt à exposer excessivement la confrontation.",
+          "La proximité des trois scénarios et le contexte particulier de report justifient une forte dispersion des probabilités."
+        ],
+        "uncertainty": "Très élevée : match aller très équilibré, déplacé dans le calendrier après un événement exceptionnel, avec peu d'écart entre les trois issues.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "UOL - Reprogrammation Tolima-Independiente del Valle",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/11/conmebol-remarca-jogos-da-libertadores-apos-terremoto-na-colombia.htm",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "TACTIX - Deportes Tolima vs Independiente del Valle",
+            "url": "https://tactix.football/match/deportes-tolima-vs-independiente-del-valle",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Universidad Católica",
+      "awayTeam": "Estudiantes de La Plata",
+      "competition": "CONMEBOL Libertadores - Huitièmes de finale retour",
+      "probabilities": {
+        "home": 42,
+        "draw": 33,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Le 0-0 de l'aller laisse tout ouvert. Universidad Católica retrouve son terrain et dispose d'un léger avantage contextuel, mais Estudiantes reste suffisamment structuré pour conserver une forte probabilité de nul.",
+        "keyFactors": [
+          "Le match aller à La Plata s'est terminé sur un score de 0-0.",
+          "Universidad Católica joue le retour à domicile, ce qui lui donne le principal avantage différentiel.",
+          "Estudiantes a déjà montré sa capacité à fermer la rencontre et à limiter les occasions.",
+          "Le profil d'un retour à égalité et la sous-couverture historique de N conduisent à maintenir le nul à un niveau élevé."
+        ],
+        "uncertainty": "Élevée : le score cumulé vierge rend chaque but déterminant et peut produire aussi bien une rencontre très prudente qu'une fin de match ouverte.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "UOL - Programmation des retours de Libertadores",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/14/conmebol-define-arbitros-para-jogos-de-volta-das-oitavas-da-libertadores.htm",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "AFA - Agenda Estudiantes vs Universidad Católica",
+            "url": "https://www.afa.com.ar/es/posts/agenda-de-partidos-de-los-equipos-argentinos-en-la-conmebol-libertadores-2026",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Shanghai Port",
+      "awayTeam": "Dalian Yingbo",
+      "competition": "Chinese Super League",
+      "probabilities": {
+        "home": 43,
+        "draw": 31,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Shanghai Port reste légèrement favori à domicile, mais Dalian Yingbo a déjà battu Shanghai 1-0 cette saison et a occupé une position compétitive au classement dans les données consultées. Le 1 est central sans être dominant, avec un nul à surveiller.",
+        "keyFactors": [
+          "Dalian Yingbo a battu Shanghai Port 1-0 lors de leur confrontation de mars.",
+          "Les instantanés de classement consultés montrent une saison suffisamment compétitive de Dalian pour écarter l'idée d'un outsider faible.",
+          "Shanghai conserve l'avantage du terrain et une qualité individuelle supérieure.",
+          "Le précédent direct et l'incertitude autour du niveau relatif actuel justifient une probabilité de nul supérieure à un modèle fortement pro-domicile."
+        ],
+        "uncertainty": "Élevée : les données de calendrier et de classement disponibles sont moins homogènes que pour les grandes compétitions européennes, ce qui limite la confiance.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "365Scores - Shanghai Port vs Dalian Yingbo",
+            "url": "https://www.365scores.com/football/match/chinese-super-league-164/dalian-yingbo-shanghai-port-11892-84582-164",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Eurosport - Dalian Yingbo 1-0 Shanghai Port",
+            "url": "https://www.eurosport.fr/football/chinese-super-league/2026/live-dalian-yingbo-shanghai-port_mtc1602724/live.shtml",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Mamelodi Sundowns",
+      "awayTeam": "Marumo Gallants",
+      "competition": "South African Premiership",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Mamelodi Sundowns possède un avantage structurel net et a battu Marumo Gallants 3-1 lors d'une confrontation récente de championnat. Marumo a toutefois déjà résisté à Sundowns en coupe, ce qui empêche de transformer le 1 en certitude.",
+        "keyFactors": [
+          "Sundowns a battu Marumo Gallants 3-1 en championnat en mars 2026.",
+          "L'écart de profondeur d'effectif et d'ambition nationale favorise clairement Sundowns.",
+          "Marumo Gallants a aussi réussi à tenir Sundowns à 0-0 dans une confrontation de coupe avant de s'imposer aux tirs au but.",
+          "La calibration historique montre une surconfiance aux niveaux de 60-79 %, ce qui conduit à conserver une marge significative pour N et 2."
+        ],
+        "uncertainty": "Moyenne : Sundowns est le favori clair, mais le précédent fermé en coupe montre que Marumo peut réduire l'écart sur un match.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "PSL - Mamelodi Sundowns 3-1 Marumo Gallants",
+            "url": "https://www.psl.co.za/match-centre/match/mamelodi-sundowns-vs-marumo-gallants-2026-03-17",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "PSL - Sundowns 0-0 Marumo Gallants, coupe",
+            "url": "https://www.psl.co.za/match-centre/match/mamelodi-sundowns-vs-marumo-gallants-cup",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Slovan Bratislava",
+      "awayTeam": "NK Celje",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 57,
+        "draw": 27,
+        "away": 16
+      },
+      "analysis": {
+        "summary": "Slovan Bratislava arrive avec une bonne dynamique domestique et l'avantage du terrain. Celje a montré qu'il pouvait accrocher des adversaires européens, mais la combinaison expérience-domicile-forme place le 1 nettement devant.",
+        "keyFactors": [
+          "Slovan a remporté plusieurs matchs récents de championnat avec des marges confortables, dont 4-0 puis 3-0.",
+          "Le club slovaque possède une expérience européenne récente plus importante.",
+          "Celje a néanmoins obtenu plusieurs nuls compétitifs et ne doit pas être réduit à une faible probabilité de résistance.",
+          "La calibration historique conduit à maintenir N au-dessus d'un simple reliquat malgré le statut de favori du Slovan."
+        ],
+        "uncertainty": "Moyenne : Slovan dispose d'avantages clairs, mais Celje a suffisamment de résistance européenne pour rendre un nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "ŠK Slovan Bratislava - Résultats récents",
+            "url": "https://www.skslovan.com/en/matches/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Bari91 - Slovan Bratislava vs NK Celje",
+            "url": "https://bari91.com/slovan-bratislava-vs-nk-celje-prediction",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Hapoel Beer Sheva",
+      "awayTeam": "Sabah FK",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 51,
+        "draw": 29,
+        "away": 20
+      },
+      "analysis": {
+        "summary": "Hapoel Beer Sheva possède davantage de références européennes et part favori dans cette première manche. Sabah reste capable de résister, et le caractère aller du barrage augmente la valeur du nul par rapport à une rencontre domestique ordinaire.",
+        "keyFactors": [
+          "La paire Hapoel Beer Sheva-Sabah figure bien parmi les barrages européens programmés.",
+          "Hapoel dispose d'une expérience plus régulière des tours qualificatifs européens.",
+          "Les résultats récents disponibles d'Hapoel montrent aussi des irrégularités, notamment une défaite en Supercoupe.",
+          "Un match aller favorise souvent une gestion du risque, ce qui maintient N à un niveau élevé."
+        ],
+        "uncertainty": "Élevée : la quantité d'informations comparables récentes sur Sabah est limitée, ce qui réduit la confiance dans l'écart de niveau estimé.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "UOL - Affiches des barrages de Ligue des champions",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/13/champions-league-define-confrontos-dos-playoffs.htm",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Hapoel Beer Sheva - Site officiel",
+            "url": "https://hbsfc.co.il/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "NEC Nijmegen",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 38,
+        "draw": 31,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "NEC arrive avec une forte dynamique après avoir éliminé l'Olympiacos et gagné largement en championnat. Bodø/Glimt possède davantage d'expérience européenne récente. Le facteur domicile donne un léger avantage au 1, mais les trois issues restent très proches.",
+        "keyFactors": [
+          "NEC a éliminé l'Olympiacos après une confrontation très disputée et prolongée.",
+          "NEC a gagné 4-1 à Willem II lors de la journée de championnat du 16 août.",
+          "Bodø/Glimt dispose d'une expérience européenne plus importante et d'une identité collective stable.",
+          "Le match aller et la proximité des niveaux justifient une forte probabilité de nul."
+        ],
+        "uncertainty": "Très élevée : NEC bénéficie de la dynamique et du terrain, Bodø de l'expérience, sans avantage décisif permettant d'écarter N ou 2.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "AS - NEC élimine l'Olympiacos",
+            "url": "https://as.com/futbol/champions/el-nec-hace-historia-ante-el-olympiacos-f202608-n/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Reddit r/soccer - Résultats Eredivisie du 16 août",
+            "url": "https://www.reddit.com/r/soccer/comments/1vq92zr/eredivisie_sunday_results_august_16_2026/",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Celtic",
+      "awayTeam": "LASK Linz",
+      "competition": "UEFA Champions League - Barrages",
+      "probabilities": {
+        "home": 65,
+        "draw": 22,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "Celtic possède un avantage net à domicile et vient de gagner 4-0 en championnat. Le score masque toutefois quelques alertes défensives, Dundee United ayant touché plusieurs fois les montants. Le 1 est fort mais pas traité comme une certitude.",
+        "keyFactors": [
+          "Celtic a battu Dundee United 4-0 lors de son dernier match de championnat.",
+          "Le club écossais a renforcé son effectif avant ce barrage avec plusieurs recrues éligibles en Europe.",
+          "Malgré le 4-0, l'adversaire a touché les montants à plusieurs reprises, signe que la maîtrise défensive n'a pas été totale.",
+          "La calibration historique signale une surconfiance des probabilités supérieures à 60 %, ce qui limite le 1 à 65 %."
+        ],
+        "uncertainty": "Moyenne : Celtic est supérieur et reçoit, mais les occasions concédées récemment empêchent d'ignorer totalement N et 2.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "The Times - Celtic 4-0 Dundee United",
+            "url": "https://www.thetimes.com/sport/football/article/celtic-dundee-united-report-champions-league-lask-2026",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "The Times - Recrutement de Celtic avant LASK",
+            "url": "https://www.thetimes.com/sport/football/article/celtic-transfers-lask-champions-league-playoff-2026",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Atlético de Madrid",
+      "awayTeam": "Málaga CF",
+      "competition": "LALIGA EA SPORTS",
+      "startsAt": "2026-08-19T21:00:00+02:00",
+      "probabilities": {
+        "home": 72,
+        "draw": 19,
+        "away": 9
+      },
+      "analysis": {
+        "summary": "Atlético reçoit un Málaga tout juste revenu en première division après huit ans. L'écart de profondeur, l'avantage du Metropolitano et la stabilité au plus haut niveau font du 1 le favori le plus solide de la grille, tout en conservant une marge de calibration.",
+        "keyFactors": [
+          "LALIGA confirme Atlético-Málaga au Metropolitano le 19 août à 21h00.",
+          "Málaga retrouve la première division après huit saisons d'absence.",
+          "Atlético sort d'une saison terminée dans le haut du classement de Liga et possède une profondeur d'effectif supérieure.",
+          "Même sur ce gros favori, la mémoire historique recommande de ne pas pousser artificiellement la probabilité au-delà d'un niveau raisonnable."
+        ],
+        "uncertainty": "Faible à moyenne : l'écart structurel est net, mais une première journée de championnat conserve davantage de variance qu'un match en pleine saison.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport - LF15 n°68",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "LALIGA - Atlético de Madrid vs Málaga CF",
+            "url": "https://www.laliga.com/en-GB/match/temporada-2026-2027-laliga-ea-sports-atletico-de-madrid-malaga-cf-1",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          },
+          {
+            "label": "Málaga Hoy - Retour de Málaga en Primera et programmation",
+            "url": "https://www.malagahoy.es/malaga_cf/malaga-regresa-primera-calendario-atletico-madrid_0_2004567890.html",
+            "accessedAt": "2026-08-17T18:00:00+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": ["1", "1", "1", "2", "1", "1", "2", "1", "1", "1", "1", "1", "1", "1", "1"],
+      "rationale": "Scénario de référence : conserve les favoris les plus solides tout en prenant les issues centrales sur les affiches ouvertes."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls renforcés",
+      "selections": ["N", "1", "N", "N", "1", "1", "N", "1", "1", "1", "1", "1", "N", "1", "1"],
+      "rationale": "Renforce les nuls sur plusieurs confrontations serrées afin de corriger la sous-couverture historique de N sans abandonner les favoris nets."
+    },
+    {
+      "id": "t03",
+      "label": "Équilibre européen",
+      "selections": ["1", "N", "2", "2", "1", "N", "N", "N", "N", "1", "1", "N", "2", "1", "1"],
+      "rationale": "Variante centrée sur les barrages européens équilibrés, avec davantage de N et de succès visiteurs lorsque l'écart de niveau reste faible."
+    },
+    {
+      "id": "t04",
+      "label": "Réaction des visiteurs",
+      "selections": ["2", "1", "N", "N", "1", "1", "1", "1", "2", "1", "N", "1", "N", "1", "1"],
+      "rationale": "Couvre un scénario où plusieurs visiteurs gèrent mieux les doubles confrontations ou profitent des espaces laissés par les équipes obligées d'attaquer."
+    },
+    {
+      "id": "t05",
+      "label": "Couverture surprises",
+      "selections": ["1", "1", "2", "1", "N", "N", "2", "1", "1", "N", "1", "1", "1", "1", "1"],
+      "rationale": "Introduit plusieurs surprises plausibles sur les matchs à forte incertitude tout en conservant São Paulo, Sundowns, Slovan, Celtic et Atlético."
+    },
+    {
+      "id": "t06",
+      "label": "Gestion des favoris",
+      "selections": ["N", "1", "1", "2", "1", "1", "N", "N", "N", "1", "1", "2", "2", "1", "1"],
+      "rationale": "Privilégie la gestion des équipes favorites et les nuls tactiques sur les retours de coupe, avec une diversification limitée sur les matchs domestiques."
+    },
+    {
+      "id": "t07",
+      "label": "Scénario fermé",
+      "selections": ["1", "N", "N", "N", "1", "2", "2", "1", "1", "1", "N", "N", "1", "1", "1"],
+      "rationale": "Scénario de rencontres fermées : davantage de N sur les affiches européennes et sud-américaines où l'enjeu peut ralentir le rythme."
+    },
+    {
+      "id": "t08",
+      "label": "Volatilité des barrages",
+      "selections": ["2", "1", "2", "2", "1", "N", "N", "N", "2", "1", "1", "1", "N", "N", "1"],
+      "rationale": "Augmente la variance sur les barrages et confrontations continentales afin de couvrir un enchaînement de résultats moins consensuels mais crédibles."
+    },
+    {
+      "id": "t09",
+      "label": "Retours prudents",
+      "selections": ["1", "1", "N", "N", "N", "1", "1", "1", "N", "1", "1", "N", "2", "1", "1"],
+      "rationale": "Favorise les scénarios de gestion dans les matchs retour, notamment quand un nul suffit ou que le score cumulé pèse sur la prise de risque."
+    },
+    {
+      "id": "t10",
+      "label": "Nuls et transitions",
+      "selections": ["N", "N", "1", "2", "1", "N", "2", "N", "1", "N", "1", "1", "1", "1", "1"],
+      "rationale": "Combine nuls tactiques et équipes fortes en transition, en particulier sur les affiches où le favori n'a pas besoin de dominer en permanence."
+    },
+    {
+      "id": "t11",
+      "label": "Contre-consensus ciblé",
+      "selections": ["1", "1", "2", "N", "1", "1", "N", "1", "2", "1", "N", "N", "N", "1", "1"],
+      "rationale": "Couvre plusieurs issues opposées au consensus FDJ sur les rencontres les plus incertaines, sans s'opposer aux très gros favoris."
+    },
+    {
+      "id": "t12",
+      "label": "Outsiders continentaux",
+      "selections": ["2", "1", "N", "2", "1", "N", "1", "1", "N", "1", "1", "1", "2", "1", "1"],
+      "rationale": "Variante où plusieurs outsiders continentaux résistent ou gagnent, conçue pour couvrir une soirée plus chaotique sur les barrages."
+    },
+    {
+      "id": "t13",
+      "label": "Portefeuille équilibré",
+      "selections": ["1", "N", "1", "N", "N", "1", "2", "N", "1", "1", "1", "2", "N", "1", "1"],
+      "rationale": "Répartit les risques entre favoris, nuls et outsiders sur les principales zones d'incertitude afin d'éviter un quasi-clone du scénario central."
+    },
+    {
+      "id": "t14",
+      "label": "Variance élevée",
+      "selections": ["N", "1", "2", "2", "1", "2", "N", "1", "N", "1", "N", "1", "1", "N", "1"],
+      "rationale": "Scénario de forte variance où plusieurs affiches serrées basculent simultanément, avec maintien des favoris structurellement supérieurs."
+    },
+    {
+      "id": "t15",
+      "label": "Scénario mixte",
+      "selections": ["1", "1", "N", "1", "1", "N", "2", "N", "2", "N", "1", "N", "2", "1", "1"],
+      "rationale": "Variante mixte renforçant les nuls et quelques succès visiteurs sur les matchs à information plus contradictoire."
+    },
+    {
+      "id": "t16",
+      "label": "Couverture extrême contrôlée",
+      "selections": ["2", "N", "2", "N", "1", "1", "1", "1", "1", "1", "N", "1", "N", "1", "N"],
+      "rationale": "Couverture de queue de distribution : plusieurs résultats secondaires simultanés, mais sans transformer les favoris les plus robustes en paris systématiquement contraires."
+    }
+  ]
+}
