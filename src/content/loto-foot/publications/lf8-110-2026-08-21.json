@@ -1,0 +1,205 @@
+{
+  "id": "lf8-110-2026-08-21",
+  "formula": 8,
+  "gridNumber": 110,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-21T19:55:00+02:00",
+  "publishedAt": "2026-08-20T06:02:46+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Olympique de Marseille",
+      "awayTeam": "RC Strasbourg Alsace",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-21T20:45:00+02:00",
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
+      "analysis": {
+        "summary": "Marseille part avec un avantage net à domicile, mais Strasbourg a terminé sa préparation sur des signaux plus solides après un été irrégulier. La cote populaire FDJ extrêmement déséquilibrée en faveur de l'OM paraît excessive au regard de la volatilité d'une première journée.",
+        "keyFactors": [
+          "L'OM ouvre la saison au Vélodrome après des victoires de préparation contre Al-Shahania et l'Athletic Bilbao, puis une courte défaite face à l'Atlético de Madrid.",
+          "Strasbourg a connu une préparation heurtée, mais a battu Fribourg et obtenu un nul à Newcastle avant la reprise.",
+          "L'avantage du terrain et la qualité offensive marseillaise justifient le 1 favori, sans suivre le 99 % affiché par les joueurs FDJ."
+        ],
+        "uncertainty": "Première journée de championnat : les repères compétitifs restent limités et Strasbourg a montré une capacité de réaction en fin de préparation.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "Olympique de Marseille — calendrier officiel", "url": "https://www.om.fr/fr/equipe/hommes/calendrier", "accessedAt": "2026-08-20T06:01:45+02:00" },
+          { "label": "L'Équipe — résultats de pré-saison Ligue 1 2026-2027", "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-ligue-1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433", "accessedAt": "2026-08-20T06:02:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FC Sochaux-Montbéliard",
+      "awayTeam": "EA Guingamp",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-21T20:00:00+02:00",
+      "probabilities": { "home": 30, "draw": 34, "away": 36 },
+      "analysis": {
+        "summary": "Guingamp présente un léger avantage après sa victoire contre Boulogne, tandis que Sochaux n'a pas encore marqué en championnat. Le nul reste très plausible compte tenu du 0-0 sochalien au Red Star et de l'écart limité entre les équipes.",
+        "keyFactors": [
+          "Sochaux a commencé par une lourde défaite 0-3 contre Saint-Étienne puis un 0-0 au Red Star.",
+          "Guingamp a perdu 1-2 à Metz puis s'est repris avec une victoire 1-0 contre Boulogne-sur-Mer.",
+          "Le terrain de Bonal réduit l'écart, mais la dynamique offensive récente penche légèrement vers Guingamp."
+        ],
+        "uncertainty": "Échantillon de seulement deux journées et Sochaux vient d'obtenir son premier clean sheet.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "FC Sochaux-Montbéliard — prochain match officiel", "url": "https://www.fcsochaux.fr/", "accessedAt": "2026-08-20T06:01:45+02:00" },
+          { "label": "L'Équipe — calendrier et résultats Ligue 2 2026-2027", "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/niort", "accessedAt": "2026-08-20T06:01:58+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "USL Dunkerque",
+      "awayTeam": "Montpellier Hérault SC",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-21T20:00:00+02:00",
+      "probabilities": { "home": 40, "draw": 31, "away": 29 },
+      "analysis": {
+        "summary": "Dunkerque possède l'attaque la plus convaincante des deux premières journées avec sept buts inscrits, mais a aussi encaissé cinq fois. Montpellier est moins spectaculaire mais invaincu, ce qui maintient le nul et le 2 dans des scénarios crédibles.",
+        "keyFactors": [
+          "Dunkerque a battu Grenoble 4-2 puis fait 3-3 à Reims.",
+          "Montpellier a fait 1-1 contre Dijon puis gagné 1-0 à Nancy.",
+          "Le profil offensif de Dunkerque et l'avantage du terrain donnent un léger avantage au 1, avec une forte variance."
+        ],
+        "uncertainty": "La défense dunkerquoise reste exposée, ce qui augmente fortement le risque de nul ou de victoire montpelliéraine malgré la bonne dynamique offensive.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "Ligue 2 — programmation officielle de la 3e journée", "url": "https://ligue1.com/fr/articles/l1_article_5370-programmation-tv-j3-l2-2627", "accessedAt": "2026-08-20T06:01:55+02:00" },
+          { "label": "L'Équipe — calendrier et résultats de Dunkerque", "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/dunkerque", "accessedAt": "2026-08-20T06:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Pau FC",
+      "awayTeam": "AS Nancy Lorraine",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-21T20:00:00+02:00",
+      "probabilities": { "home": 41, "draw": 34, "away": 25 },
+      "analysis": {
+        "summary": "Pau a réagi après son revers initial en gagnant à Dijon, tandis que Nancy n'a encore ni gagné ni marqué. Le 1 est légèrement prioritaire, mais le nul reste une couverture importante dans un match qui s'annonce fermé.",
+        "keyFactors": [
+          "Pau a perdu 0-1 contre Annecy avant de gagner 1-0 à Dijon.",
+          "Nancy a fait 0-0 à Boulogne puis perdu 0-1 contre Montpellier.",
+          "Le terrain et la dynamique récente donnent un avantage modéré à Pau, sans écart suffisant pour écarter le nul."
+        ],
+        "uncertainty": "Les deux équipes ont produit peu de buts, ce qui rend un match nul à faible score particulièrement plausible.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "Ligue 2 — programmation officielle de la 3e journée", "url": "https://ligue1.com/fr/articles/l1_article_5370-programmation-tv-j3-l2-2627", "accessedAt": "2026-08-20T06:01:55+02:00" },
+          { "label": "L'Équipe — calendrier et résultats de Pau", "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/pau", "accessedAt": "2026-08-20T06:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Clermont Foot 63",
+      "awayTeam": "Dijon FCO",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-21T20:00:00+02:00",
+      "probabilities": { "home": 39, "draw": 34, "away": 27 },
+      "analysis": {
+        "summary": "Clermont et Dijon cherchent leur première victoire. Clermont bénéficie du terrain, mais sa défaite 1-3 à Saint-Étienne et le faible rendement offensif des deux équipes rendent le nul très crédible.",
+        "keyFactors": [
+          "Clermont a débuté par un 0-0 contre Reims avant de perdre 1-3 à Saint-Étienne.",
+          "Dijon a obtenu un 1-1 à Montpellier puis perdu 0-1 contre Pau.",
+          "Le facteur domicile favorise Clermont, mais aucune des deux équipes n'a encore montré une supériorité nette."
+        ],
+        "uncertainty": "Les deux formations sont encore en phase de réglage et disposent d'un échantillon compétitif très réduit.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "Clermont Foot 63 — calendrier officiel", "url": "https://billetterie.clermontfoot.com/fr/matchs/calendrier", "accessedAt": "2026-08-20T06:01:48+02:00" },
+          { "label": "L'Équipe — calendrier et résultats Ligue 2 2026-2027", "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/niort", "accessedAt": "2026-08-20T06:01:58+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "US Boulogne CO",
+      "awayTeam": "Red Star FC",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-21T20:00:00+02:00",
+      "probabilities": { "home": 26, "draw": 34, "away": 40 },
+      "analysis": {
+        "summary": "Le Red Star arrive invaincu et sans but encaissé après une victoire à Nantes et un nul contre Sochaux. Boulogne n'a marqué sur aucune des deux premières journées, ce qui donne un avantage au 2 tout en maintenant le nul haut.",
+        "keyFactors": [
+          "Boulogne a fait 0-0 contre Nancy puis perdu 0-1 à Guingamp.",
+          "Le Red Star a gagné 1-0 à Nantes puis fait 0-0 contre Sochaux.",
+          "La meilleure solidité défensive récente du Red Star compense l'avantage du terrain boulonnais."
+        ],
+        "uncertainty": "Le profil très fermé des deux équipes augmente la probabilité d'un nul et réduit l'intérêt d'un favoritisme trop marqué.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "Red Star FC — Boulogne / Red Star, 3e journée", "url": "https://www.redstar.fr/match/2026-2027-3e-journee-boulogne-red-star-fc/", "accessedAt": "2026-08-20T06:01:50+02:00" },
+          { "label": "L'Équipe — calendrier et résultats du Red Star", "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/red-star", "accessedAt": "2026-08-20T06:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Real Sociedad",
+      "competition": "LALIGA EA SPORTS",
+      "startsAt": "2026-08-21T21:00:00+02:00",
+      "probabilities": { "home": 46, "draw": 29, "away": 25 },
+      "analysis": {
+        "summary": "Le Betis a réalisé une préparation globalement convaincante, notamment avec une victoire 3-1 à Arsenal et un nul 2-2 contre Bournemouth. La Real Sociedad a également montré de bonnes choses cet été, ce qui limite l'écart malgré l'avantage du terrain sévillan.",
+        "keyFactors": [
+          "Le Betis a battu Lyon 4-0, Almería 1-0 et Arsenal 3-1 avant un nul 2-2 contre Bournemouth.",
+          "La Real Sociedad a obtenu des victoires de préparation contre Wolverhampton et Aston Villa, mais a aussi perdu 1-2 à Toulouse.",
+          "Le match se joue chez le Betis, qui présente la meilleure continuité de résultats positifs récents."
+        ],
+        "uncertainty": "Il s'agit du premier match de championnat effectivement joué par ces équipes dans un calendrier remanié, et la préparation reste un indicateur imparfait.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "LALIGA — calendrier officiel du Real Betis", "url": "https://www.laliga.com/clubes/real-betis/proximos-partidos", "accessedAt": "2026-08-20T06:01:47+02:00" },
+          { "label": "Real Betis — résultats officiels", "url": "https://en.realbetisbalompie.es/matches/", "accessedAt": "2026-08-20T06:02:10+02:00" },
+          { "label": "L'Équipe — résultats de pré-saison Ligue 1 2026-2027", "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-ligue-1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433", "accessedAt": "2026-08-20T06:02:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Coventry City",
+      "competition": "Premier League",
+      "startsAt": "2026-08-21T19:00:00+01:00",
+      "probabilities": { "home": 72, "draw": 18, "away": 10 },
+      "analysis": {
+        "summary": "Arsenal, champion en titre, ouvre à domicile après un succès très convaincant 3-0 contre Manchester City au Community Shield. Coventry revient en Premier League avec de l'élan et a battu Monaco 2-0 en préparation, mais l'écart structurel reste important.",
+        "keyFactors": [
+          "Arsenal a battu Manchester City 3-0 au Community Shield, avec une prestation dominante.",
+          "Coventry est promu après 25 ans d'absence de l'élite et doit immédiatement se déplacer chez le champion en titre.",
+          "Coventry a néanmoins battu Monaco 2-0 en préparation, ce qui justifie de ne pas pousser la probabilité d'Arsenal vers les niveaux extrêmes affichés par le public FDJ.",
+          "Rice, Saka et Zubimendi ont été déclarés disponibles avant le Community Shield, même si certaines rotations restent possibles."
+        ],
+        "uncertainty": "Une première journée et un promu ambitieux créent plus de variance qu'un simple écart de statut ne le suggère ; Arsenal reste néanmoins le favori le plus net de la grille.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°110", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-20T06:01:20+02:00" },
+          { "label": "Arsenal — calendrier hospitality officiel", "url": "https://hospitality.arsenal.com/", "accessedAt": "2026-08-20T06:02:12+02:00" },
+          { "label": "Reuters — Arsenal bat Manchester City 3-0 au Community Shield", "url": "https://www.reuters.com/sports/soccer/arsenal-beat-man-city-3-0-win-community-shield-2026-08-16/", "accessedAt": "2026-08-20T06:02:08+02:00" },
+          { "label": "Reuters — situation des clubs promus avant 2026-2027", "url": "https://www.reuters.com/sports/soccer/odds-stacked-against-promoted-sides-sunderland-have-shown-way-2026-08-14/", "accessedAt": "2026-08-20T06:02:08+02:00" },
+          { "label": "Reuters — disponibilités Arsenal avant le Community Shield", "url": "https://www.reuters.com/sports/soccer/arsenal-trio-rice-saka-zubimendi-available-community-shield-arteta-says-2026-08-15/", "accessedAt": "2026-08-20T06:02:12+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "2", "1", "1", "1", "2", "1", "1"], "rationale": "Favoris principaux avec Guingamp et Red Star légèrement préférés dans les deux affiches les plus serrées à l'extérieur." },
+    { "id": "t2", "label": "Nuls Ligue 2", "selections": ["1", "N", "1", "N", "N", "2", "1", "1"], "rationale": "Renforce la couverture des nuls sur Sochaux-Guingamp, Pau-Nancy et Clermont-Dijon, cohérente avec les profils fermés et le biais historique de sous-couverture du N." },
+    { "id": "t3", "label": "Équilibres intermédiaires", "selections": ["1", "2", "N", "1", "N", "N", "1", "1"], "rationale": "Couvre un Dunkerque-Montpellier plus équilibré et un Boulogne-Red Star bloqué, sans abandonner les favoris structurels." },
+    { "id": "t4", "label": "Montpellier résiste", "selections": ["1", "N", "2", "1", "1", "2", "N", "1"], "rationale": "Scénario où Montpellier exploite les fragilités défensives de Dunkerque et où Betis-Real Sociedad se neutralise." },
+    { "id": "t5", "label": "Ouverture plus volatile", "selections": ["N", "2", "1", "N", "2", "2", "1", "1"], "rationale": "Ajoute le nul à Marseille et une surprise dijonnaise tout en conservant les deux favoris les plus nets, Betis et Arsenal." },
+    { "id": "t6", "label": "Retours à domicile", "selections": ["1", "1", "1", "N", "N", "N", "1", "1"], "rationale": "Couvre un réveil de Sochaux et plusieurs matches fermés de Ligue 2, avec trois nuls simultanés." },
+    { "id": "t7", "label": "Outsiders ciblés", "selections": ["1", "N", "N", "1", "2", "2", "2", "1"], "rationale": "Scénario de surprises plausibles à Dijon et pour la Real Sociedad, avec deux nuls sur les rencontres les plus indécises." },
+    { "id": "t8", "label": "Bloc défensif", "selections": ["N", "N", "1", "1", "1", "1", "1", "1"], "rationale": "Couvre des partages de points à Marseille et Sochaux, ainsi qu'un succès de Boulogne à domicile, tout en gardant les favoris majeurs." },
+    { "id": "t9", "label": "Montpellier et Red Star prudents", "selections": ["1", "2", "2", "N", "1", "N", "1", "1"], "rationale": "Variante où Montpellier gagne, Pau-Nancy et Boulogne-Red Star se ferment, sans multiplier les changements sur les favoris forts." },
+    { "id": "t10", "label": "Sochaux et Betis freinés", "selections": ["1", "1", "N", "1", "N", "2", "N", "1"], "rationale": "Couvre un succès sochalien, des nuls à Dunkerque, Clermont et Séville, avec Red Star et Arsenal maintenus." },
+    { "id": "t11", "label": "Longue traîne contrôlée", "selections": ["1", "N", "1", "2", "1", "N", "1", "N"], "rationale": "Ajoute deux événements moins probables mais crédibles : Nancy gagne à Pau et Coventry arrache le nul à Arsenal, sans aller jusqu'à une victoire de Coventry." },
+    { "id": "t12", "label": "Surprise strasbourgeoise", "selections": ["2", "2", "1", "1", "N", "2", "1", "1"], "rationale": "Couvre l'upset le plus rentable parmi les favoris très surjoués par le public FDJ : Strasbourg gagne à Marseille, avec un nul à Clermont pour diversifier le scénario." }
+  ]
+}
