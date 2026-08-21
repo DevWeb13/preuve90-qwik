@@ -1,0 +1,189 @@
+{
+  "id": "lf7-106-2026-08-23",
+  "formula": 7,
+  "gridNumber": 106,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-23T14:55:00+02:00",
+  "publishedAt": "2026-08-21T05:57:09+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Rennes",
+      "awayTeam": "Paris Saint-Germain",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-23T20:45:00+02:00",
+      "probabilities": { "home": 24, "draw": 25, "away": 51 },
+      "analysis": {
+        "summary": "Le PSG reste supérieur en qualité intrinsèque malgré sa défaite 1-0 contre Lens au Trophée des Champions. Rennes arrive avec deux défaites de préparation consécutives, mais le déplacement du match au Roazhon Park réduit légèrement l'avantage attendu du PSG.",
+        "keyFactors": [
+          "Le PSG a battu Aston Villa 2-1 en Super Coupe d'Europe avant de perdre 1-0 contre Lens.",
+          "Rennes a perdu 2-4 contre Brentford puis 2-1 à Sunderland.",
+          "Le match a été déplacé au Roazhon Park à cause de l'état de la pelouse du Parc des Princes."
+        ],
+        "uncertainty": "Le changement de stade et le contexte de reprise de championnat augmentent la variance par rapport à un match standard au Parc des Princes.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Reuters — match PSG-Rennes déplacé au Roazhon Park", "url": "https://www.reuters.com/sports/soccer/heatwave-damaged-parc-des-princes-pitch-forces-psg-fixture-switch-2026-08-20/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "L'Équipe — résultats récents du PSG", "url": "https://www.lequipe.fr/Football/FootballFicheClub26.html", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "L'Équipe — Sunderland 2-1 Rennes", "url": "https://www.lequipe.fr/Football/match-direct/matches-amicaux-l1-intersaison/2026-2027/sunderland-rennes-live/695603", "accessedAt": "2026-08-21T05:57:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Le Havre",
+      "awayTeam": "AS Monaco",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-23T17:15:00+02:00",
+      "probabilities": { "home": 27, "draw": 28, "away": 45 },
+      "analysis": {
+        "summary": "Monaco possède davantage de talent et vient de gagner 3-2 en Pologne contre Gornik Zabrze, mais l'enchaînement européen à trois jours du déplacement au Havre crée un vrai risque de fatigue. Le Havre a terminé sa préparation par une victoire 1-0 au Mans.",
+        "keyFactors": [
+          "Monaco a gagné 3-2 chez Gornik Zabrze le 20 août en barrage européen.",
+          "Le Havre a battu Le Mans 1-0 lors de son dernier match de préparation.",
+          "Monaco dispute ce match seulement trois jours après son déplacement européen."
+        ],
+        "uncertainty": "La gestion physique et les éventuelles rotations de Monaco après le barrage européen peuvent modifier sensiblement le rapport de forces.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "AS Monaco — calendrier officiel", "url": "https://www.asmonaco.com/fr/pros/calendrier", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "L'Équipe — Gornik Zabrze 2-3 Monaco", "url": "https://www.lequipe.fr/Football/Actualites/Vainqueur-du-gornik-zabrze-monaco-prend-une-option-en-barrages-aller-de-la-ligue-conference/1712394", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "L'Équipe — résultats de préparation Ligue 1", "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-ligue-1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433", "accessedAt": "2026-08-21T05:57:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Angers",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-23T15:00:00+02:00",
+      "probabilities": { "home": 32, "draw": 31, "away": 37 },
+      "analysis": {
+        "summary": "La rencontre paraît très équilibrée. Angers a fini sa préparation par deux victoires, dont 3-2 contre le Paris FC, tandis que Lille a conservé un bilan positif et vient d'arracher un nul 1-1 à Everton.",
+        "keyFactors": [
+          "Angers reste sur des victoires 2-1 contre Lorient et 3-2 contre le Paris FC.",
+          "Lille a terminé sa préparation par un nul 1-1 à Everton après avoir marqué régulièrement pendant l'été.",
+          "L'avantage du terrain compense en partie la supériorité d'effectif lilloise."
+        ],
+        "uncertainty": "Premier match officiel de la saison pour les deux équipes, avec peu de données compétitives récentes et un profil propice au nul.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Angers SCO — actualités et fin de préparation", "url": "https://angers-sco.fr/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "L'Équipe — Everton 1-1 Lille", "url": "https://www.lequipe.fr/Football/Actualites/Lille-arrache-un-resultat-nul-a-everton-pour-boucler-sa-preparation-avant-son-entree-en-ligue-1-a-angers/1711232", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "L'Équipe — Angers 3-2 Paris FC", "url": "https://www.lequipe.fr/Football/match-direct/matches-amicaux-l1-intersaison/2026-2027/angers-paris-fc-live/695597", "accessedAt": "2026-08-21T05:57:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Atlético de Madrid",
+      "awayTeam": "Villarreal CF",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-23T17:00:00+02:00",
+      "probabilities": { "home": 45, "draw": 29, "away": 26 },
+      "analysis": {
+        "summary": "L'Atlético part favori à domicile après son succès 2-0 contre Málaga, mais son animation offensive reste diminuée par la situation de Julián Álvarez, le départ de Griezmann et la blessure de Sørloth. Villarreal arrive avec une bonne préparation et a montré du caractère en remontant de 0-2 à 2-2 à Santander.",
+        "keyFactors": [
+          "L'Atlético a ouvert sa saison par une victoire 2-0 contre Málaga.",
+          "L'attaque madrilène reste diminuée et a manqué de fluidité malgré la victoire.",
+          "Villarreal a terminé sa préparation par des succès contre Levante et Galatasaray puis a arraché 2-2 à Santander."
+        ],
+        "uncertainty": "La situation offensive de l'Atlético et la capacité de Villarreal à jouer en transition rendent le nul et l'outsider crédibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Atlético de Madrid — calendrier et résultats", "url": "https://www.atleticodemadrid.com/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Reuters — Atlético 2-0 Málaga", "url": "https://www.reuters.com/sports/soccer/atletico-madrid-beat-malaga-alvarez-absence-is-felt-2026-08-19/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Villarreal CF — fin de préparation", "url": "https://panel.villarrealcf.es/en/broche-de-oro-a-una-pretemporada-ilusionante-1-2/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "AS — Racing Santander 2-2 Villarreal", "url": "https://as.com/futbol/primera/el-villarreal-se-queda-con-la-reaccion-en-santander-f202608-n/", "accessedAt": "2026-08-21T05:57:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Torino",
+      "awayTeam": "AC Milan",
+      "competition": "Serie A",
+      "startsAt": "2026-08-23T20:45:00+02:00",
+      "probabilities": { "home": 27, "draw": 30, "away": 43 },
+      "analysis": {
+        "summary": "Milan possède l'avantage qualitatif et a terminé sa préparation par un convaincant succès 4-2 contre Manchester United. Torino a toutefois signé plusieurs résultats positifs en préparation, dont une victoire 1-0 à Burnley, ce qui maintient le nul comme scénario important.",
+        "keyFactors": [
+          "Milan a battu Manchester United 4-2 lors de son dernier match de préparation.",
+          "Torino a gagné 1-0 à Burnley et 3-1 contre Vado pendant sa préparation.",
+          "Le match se joue à Turin, ce qui réduit l'écart entre les deux équipes."
+        ],
+        "uncertainty": "La première journée de Serie A et la solidité affichée par Torino en préparation rendent une victoire milanaise moins sûre qu'un simple écart de réputation ne le suggère.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Torino FC — calendrier officiel", "url": "https://www.torinofc.it/en/calendario/2026-2027/prima-squadra/1", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Torino FC — résultats amicaux", "url": "https://www.torinofc.it/news/amichevole", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "AC Milan — victoire 4-2 contre Manchester United", "url": "https://www.acmilan.com/en/news/articles/friendly/2026-08-15/pre-season-ends-with-a-win-4-2-against-manchester-united", "accessedAt": "2026-08-21T05:57:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Manchester City",
+      "awayTeam": "AFC Bournemouth",
+      "competition": "Premier League",
+      "startsAt": "2026-08-23T14:00:00+01:00",
+      "probabilities": { "home": 61, "draw": 22, "away": 17 },
+      "analysis": {
+        "summary": "Manchester City reste nettement favori à domicile malgré le lourd 0-3 subi contre Arsenal au Community Shield. La préparation précédente avait montré de bonnes séquences offensives, notamment contre l'Atlético, tandis que Bournemouth a lui aussi affiché une attaque productive en amical.",
+        "keyFactors": [
+          "City a battu l'Atlético 3-1 avant de perdre 0-3 contre Arsenal au Community Shield.",
+          "Le nouveau cycle sous Enzo Maresca peut produire davantage de variance en début de saison.",
+          "Bournemouth a marqué neuf buts lors de ses deux premiers amicaux référencés contre St Pauli et Augsbourg."
+        ],
+        "uncertainty": "Le changement d'entraîneur à City et le revers du Community Shield invitent à limiter la probabilité du favori malgré l'écart d'effectif.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Manchester City — résultats 2026-2027", "url": "https://beta.mancity.com/results", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Reuters — Arsenal 3-0 Manchester City", "url": "https://www.reuters.com/sports/soccer/arsenal-beat-man-city-3-0-win-community-shield-2026-08-16/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Premier League — préparation des clubs 2026", "url": "https://www.premierleague.com/en/news/4606700/premier-league-clubs-2026-pre-season-fixtures-and-results", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Premier League — calendrier 2026-2027", "url": "https://resources.premierleague.pulselive.com/premierleague/document/2026/06/29/37fdab52-4913-4df1-8e52-b5272f6d9a62/Premier-League-Season-2026-27-By-Date.pdf", "accessedAt": "2026-08-21T05:57:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Liverpool",
+      "competition": "Premier League",
+      "startsAt": "2026-08-23T16:30:00+01:00",
+      "probabilities": { "home": 27, "draw": 28, "away": 45 },
+      "analysis": {
+        "summary": "Liverpool arrive avec une dynamique plus favorable après son succès 2-0 contre Como, mais sa défense remaniée doit encore trouver des automatismes. Newcastle a terminé sa préparation sans victoire sur son dernier week-end et semble encore en construction sous son nouvel entraîneur.",
+        "keyFactors": [
+          "Liverpool a battu Como 2-0 lors de son dernier test de préparation.",
+          "La défense de Liverpool a été profondément remaniée et Virgil van Dijk a lui-même souligné qu'elle avait besoin de temps.",
+          "Newcastle a perdu 2-1 contre Leverkusen puis fait 1-1 contre Strasbourg avant de perdre aux tirs au but."
+        ],
+        "uncertainty": "Le déplacement à St James' Park et les automatismes défensifs encore incomplets de Liverpool maintiennent une probabilité élevée de nul ou de victoire locale.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°106", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Reuters — défense de Liverpool en reconstruction", "url": "https://www.reuters.com/sports/soccer/liverpools-new-look-defence-will-take-time-gel-says-van-dijk-2026-08-18/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Reuters — préparation de Liverpool avant Newcastle", "url": "https://www.reuters.com/sports/soccer/liverpools-como-double-header-key-test-before-new-season-says-iraola-2026-08-15/", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "FourFourTwo — fin de préparation de Newcastle", "url": "https://www.fourfourtwo.com/team/why-new-newcastle-united-boss-matthias-jaissle-learned-the-task-is-harder-than-he-thought-from-this-weekends-double-header-of-friendlies", "accessedAt": "2026-08-21T05:57:00+02:00" },
+          { "label": "Premier League — calendrier 2026-2027", "url": "https://resources.premierleague.pulselive.com/premierleague/document/2026/06/29/37fdab52-4913-4df1-8e52-b5272f6d9a62/Premier-League-Season-2026-27-By-Date.pdf", "accessedAt": "2026-08-21T05:57:00+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Favoris calibrés", "selections": ["2", "2", "2", "1", "2", "1", "2"], "rationale": "Scénario central privilégiant les favoris sans reprendre les extrêmes du public FDJ." },
+    { "id": "t2", "label": "Nuls Ligue 1", "selections": ["2", "N", "N", "1", "2", "1", "2"], "rationale": "Renforce les nuls sur Le Havre-Monaco et Angers-Lille, deux matchs fortement équilibrés par le contexte." },
+    { "id": "t3", "label": "Rennes résiste", "selections": ["N", "2", "2", "N", "2", "1", "2"], "rationale": "Couvre un nul au Roazhon Park et un Atlético-Villarreal plus fermé que prévu." },
+    { "id": "t4", "label": "Équilibres intermédiaires", "selections": ["2", "2", "N", "1", "N", "1", "2"], "rationale": "Ajoute de la couverture sur les nuls d'Angers-Lille et Torino-Milan." },
+    { "id": "t5", "label": "Liverpool accroché", "selections": ["2", "N", "2", "1", "2", "1", "N"], "rationale": "Couvre la fatigue potentielle de Monaco et un Liverpool encore en rodage défensif." },
+    { "id": "t6", "label": "Double résistance", "selections": ["N", "2", "N", "1", "2", "1", "N"], "rationale": "Scénario de journée plus fermée avec trois nuls plausibles sur les affiches les plus équilibrées." },
+    { "id": "t7", "label": "Angers confirme", "selections": ["2", "2", "1", "N", "2", "1", "2"], "rationale": "Couvre la bonne dynamique d'Angers et un partage des points entre Atlético et Villarreal." },
+    { "id": "t8", "label": "Villarreal surprend", "selections": ["2", "N", "2", "2", "N", "1", "2"], "rationale": "Valorise la dynamique de Villarreal et la possibilité d'un nul à Turin." },
+    { "id": "t9", "label": "Journée piégeuse", "selections": ["N", "2", "2", "1", "N", "N", "2"], "rationale": "Couvre un nul de City après son revers du Community Shield ainsi que deux autres scénarios de résistance." },
+    { "id": "t10", "label": "Outsider espagnol", "selections": ["2", "2", "N", "2", "2", "1", "N"], "rationale": "Couvre une victoire de Villarreal et un nul à Newcastle tout en conservant les favoris majeurs ailleurs." },
+    { "id": "t11", "label": "Rennes à domicile", "selections": ["1", "2", "2", "1", "2", "1", "2"], "rationale": "Variante ciblée sur l'impact exceptionnel du déplacement du match au Roazhon Park." },
+    { "id": "t12", "label": "Chocs à domicile", "selections": ["2", "1", "N", "1", "1", "1", "2"], "rationale": "Scénario plus agressif couvrant Le Havre et Torino à domicile, avec nul à Angers-Lille." }
+  ]
+}
