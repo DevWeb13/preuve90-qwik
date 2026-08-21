@@ -1,0 +1,242 @@
+{
+  "id": "lf12-69-2026-08-23",
+  "formula": 12,
+  "gridNumber": 69,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-23T14:55:00+02:00",
+  "publishedAt": "2026-08-21T13:56:30+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Rennes",
+      "awayTeam": "Paris Saint-Germain",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-23T20:45:00+02:00",
+      "probabilities": { "home": 18, "draw": 24, "away": 58 },
+      "analysis": {
+        "summary": "Le PSG reste supérieur structurellement, mais le déplacement exceptionnel du match au Roazhon Park augmente l'incertitude et réduit légèrement l'écart attendu.",
+        "keyFactors": ["PSG champion 2025-2026", "Rennes 6e de Ligue 1 2025-2026", "match déplacé au Roazhon Park", "Rennes bénéficie du contexte domicile effectif"],
+        "uncertainty": "La relocalisation tardive du match peut modifier les repères habituels et renforcer la variance.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Reuters — PSG-Rennes déplacé au Roazhon Park", "url": "https://www.reuters.com/sports/soccer/heatwave-damaged-parc-des-princes-pitch-forces-psg-fixture-switch-2026-08-20/", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "L'Équipe — classement Ligue 1 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-1/page-classement-equipes/general", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Le Havre",
+      "awayTeam": "AS Monaco",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-23T17:15:00+02:00",
+      "probabilities": { "home": 24, "draw": 30, "away": 46 },
+      "analysis": {
+        "summary": "Monaco possède davantage de qualité et sort d'une saison supérieure, mais Le Havre a montré une forte propension au nul et bénéficie du terrain.",
+        "keyFactors": ["Monaco 7e en 2025-2026", "Le Havre 14e avec 14 nuls", "avantage du terrain havrais", "Monaco engagé en barrage européen trois jours avant"],
+        "uncertainty": "La charge européenne de Monaco augmente le risque de rotation ou de baisse d'intensité.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "AS Monaco — calendrier 2026-2027", "url": "https://www.asmonaco.com/fr/pros/calendrier", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "L'Équipe — classement Ligue 1 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-1/page-classement-equipes/general", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Angers",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-23T15:00:00+02:00",
+      "probabilities": { "home": 20, "draw": 28, "away": 52 },
+      "analysis": {
+        "summary": "Lille part favori au regard de l'écart de niveau observé la saison passée, mais le nul reste significatif à l'extérieur face à un Angers souvent accrocheur.",
+        "keyFactors": ["Lille 3e en 2025-2026", "Angers 13e", "écart défensif et offensif net sur la saison précédente", "première journée propice à davantage de variance"],
+        "uncertainty": "Le début de saison limite la valeur prédictive des repères de l'exercice précédent.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "L'Équipe — calendrier Ligue 1 2026-2027", "url": "https://www.lequipe.fr/Football/ligue-1/page-calendrier-general/angers/", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "L'Équipe — classement Ligue 1 2025-2026", "url": "https://www.lequipe.fr/Football/ligue-1/page-classement-equipes/general", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Atlético de Madrid",
+      "awayTeam": "Villarreal CF",
+      "competition": "LaLiga",
+      "probabilities": { "home": 45, "draw": 29, "away": 26 },
+      "analysis": {
+        "summary": "L'Atlético bénéficie du terrain, mais Villarreal a terminé devant lui la saison passée et possède un potentiel offensif suffisant pour rendre le match très ouvert.",
+        "keyFactors": ["Villarreal 3e de Liga 2025-2026", "Atlético 4e", "avantage domicile de l'Atlético", "écart faible entre les deux équipes"],
+        "uncertainty": "Les deux clubs sont proches en niveau et une première journée réduit la confiance dans un favori net.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "LALIGA — classement 2025-2026", "url": "https://www.laliga.com/en-US/laliga-easports/standing", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Torino",
+      "awayTeam": "AC Milan",
+      "competition": "Serie A",
+      "startsAt": "2026-08-23T20:45:00+02:00",
+      "probabilities": { "home": 23, "draw": 29, "away": 48 },
+      "analysis": {
+        "summary": "Milan dispose d'un avantage qualitatif clair après une 5e place en 2025-2026, mais le Torino à domicile et le contexte d'ouverture de saison maintiennent un risque de nul élevé.",
+        "keyFactors": ["Milan 5e de Serie A 2025-2026", "Torino 12e", "Milan a changé d'entraîneur cet été", "horaire officiel confirmé"],
+        "uncertainty": "Le changement d'entraîneur de Milan et la reprise compétitive créent une marge d'incertitude importante.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Torino FC — calendrier officiel", "url": "https://www.torinofc.it/calendario/2026-2027/prima-squadra/1", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Reuters — aperçu Serie A 2026-2027", "url": "https://www.reuters.com/sports/soccer/inter-favourites-retain-serie-title-with-rivals-under-new-management-2026-08-18/", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "RSSSF — Serie A 2025-2026", "url": "https://www.rsssf.org/tablesi/ital2026.html", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Manchester City",
+      "awayTeam": "AFC Bournemouth",
+      "competition": "Premier League",
+      "probabilities": { "home": 68, "draw": 20, "away": 12 },
+      "analysis": {
+        "summary": "City reste nettement favori à domicile après sa 2e place et sa puissance offensive, mais Bournemouth a terminé 6e avec seulement sept défaites et mérite davantage de crédit que la répartition publique FDJ.",
+        "keyFactors": ["Manchester City 2e en 2025-2026", "Bournemouth 6e", "City meilleure attaque parmi les deux", "Bournemouth seulement 7 défaites la saison passée"],
+        "uncertainty": "Bournemouth a un profil suffisamment compétitif pour punir une équipe de City encore en rodage.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Premier League — classement 2025-2026", "url": "https://www.premierleague.com/en/tables/premier-league/2025-26", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Liverpool",
+      "competition": "Premier League",
+      "startsAt": "2026-08-23T17:30:00+02:00",
+      "probabilities": { "home": 30, "draw": 30, "away": 40 },
+      "analysis": {
+        "summary": "Liverpool possède un léger avantage de niveau, mais sa défense remaniée et le déplacement à St James' Park rendent le nul et le succès de Newcastle très crédibles.",
+        "keyFactors": ["Liverpool 5e en 2025-2026 contre Newcastle 12e", "défense de Liverpool en reconstruction", "Newcastle reçoit", "Liverpool sous nouvel entraîneur"],
+        "uncertainty": "La nouvelle organisation défensive de Liverpool et l'ouverture de saison augmentent fortement la variance.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Liverpool FC — Newcastle-Liverpool", "url": "https://www.liverpoolfc.com/tickets/match/newcastle-united-v-liverpool-23-aug-2026", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Reuters — défense de Liverpool en reconstruction", "url": "https://www.reuters.com/sports/soccer/liverpools-new-look-defence-will-take-time-gel-says-van-dijk-2026-08-18/", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Premier League — classement 2025-2026", "url": "https://www.premierleague.com/en/tables/premier-league/2025-26", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Brighton & Hove Albion",
+      "awayTeam": "Aston Villa",
+      "competition": "Premier League",
+      "startsAt": "2026-08-23T15:00:00+02:00",
+      "probabilities": { "home": 33, "draw": 31, "away": 36 },
+      "analysis": {
+        "summary": "Villa part avec un léger avantage après sa 4e place, mais Brighton a fini 8e et reçoit : c'est l'une des rencontres les plus équilibrées de la grille.",
+        "keyFactors": ["Aston Villa 4e en 2025-2026", "Brighton 8e", "Brighton à domicile", "écart de niveau modéré"],
+        "uncertainty": "Aucun résultat ne domine suffisamment pour justifier une forte concentration de couverture.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Brighton — ouverture contre Aston Villa", "url": "https://www.brightonandhovealbion.com/media-article/mft-fixture-news-premier-league-2026-27-fixtures-confirmed-june-2026", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Premier League — classement 2025-2026", "url": "https://www.premierleague.com/en/tables/premier-league/2025-26", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Sassuolo",
+      "competition": "Serie A",
+      "startsAt": "2026-08-23T20:45:00+02:00",
+      "probabilities": { "home": 59, "draw": 25, "away": 16 },
+      "analysis": {
+        "summary": "Atalanta est favorite à domicile après une 7e place, face à un Sassuolo 11e la saison passée, mais son barrage européen trois jours plus tôt impose de garder une marge pour le nul.",
+        "keyFactors": ["Atalanta 7e en 2025-2026", "Sassuolo 11e", "avantage domicile", "Atalanta engagée en Conference League le 20 août"],
+        "uncertainty": "La fatigue et les rotations liées à l'Europe peuvent réduire l'avantage théorique de l'Atalanta.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Atalanta — calendrier 2026-2027", "url": "https://www.atalanta.it/news/serie-a-enilive-2026-27-il-calendario", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Lega Serie A — horaires des premières journées", "url": "https://www.legaseriea.it/serie-a/news/date-orari-e-programmazione-tv-delle-prime-cinque-giornate", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "RSSSF — Serie A 2025-2026", "url": "https://www.rsssf.org/tablesi/ital2026.html", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Juventus",
+      "competition": "Serie A",
+      "startsAt": "2026-08-23T18:30:00+02:00",
+      "probabilities": { "home": 16, "draw": 22, "away": 62 },
+      "analysis": {
+        "summary": "La Juventus reste nettement supérieure sur le papier, mais Frosinone arrive avec une dynamique de promu très solide après 81 points en Serie B, ce qui justifie de ne pas pousser le favori vers une probabilité extrême.",
+        "keyFactors": ["Juventus 6e de Serie A 2025-2026", "Frosinone promu avec 81 points", "Frosinone à domicile", "Juventus conserve Spalletti et renforce son attaque"],
+        "uncertainty": "Le niveau réel d'un promu lors de la première journée reste difficile à calibrer.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Frosinone Calcio — billetterie Frosinone-Juventus", "url": "https://www.frosinonecalcio.com/frosinone-juventus-la-biglietteria-2/", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Lega Serie B — classement final et promotions", "url": "https://d5rzfs5ck83rq.cloudfront.net/legab.it/documenti/2025-26/C.U._LNPB_n._175_del_09.05.2026_-_Classifica_finale_campionato_Serie_BKT_2025-2026.pdf", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Reuters — aperçu Serie A 2026-2027", "url": "https://www.reuters.com/sports/soccer/inter-favourites-retain-serie-title-with-rivals-under-new-management-2026-08-18/", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Getafe",
+      "awayTeam": "Racing Santander",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-23T19:30:00+02:00",
+      "probabilities": { "home": 45, "draw": 31, "away": 24 },
+      "analysis": {
+        "summary": "Getafe part favori à domicile grâce à sa 7e place en Liga, mais le Racing arrive comme champion de Segunda avec 90 buts inscrits et mérite une couverture réelle du nul et de l'outsider.",
+        "keyFactors": ["Getafe 7e de Liga 2025-2026", "Racing champion de Segunda", "Racing a marqué 90 buts en 42 journées", "Getafe reçoit au Coliseum"],
+        "uncertainty": "La capacité du Racing à transposer son jeu offensif au niveau supérieur est la principale inconnue.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "Getafe CF — horaire officiel", "url": "https://www.getafecf.com/en/news/schedule-confirmed-for-the-first-match-at-the-coliseum", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "LALIGA — classement 2025-2026", "url": "https://www.laliga.com/en-US/laliga-easports/standing", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "RSSSF — Espagne 2025-2026", "url": "https://www.rsssf.org/tabless/span2026.html", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Elche",
+      "awayTeam": "FC Barcelona",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-23T21:30:00+02:00",
+      "probabilities": { "home": 10, "draw": 16, "away": 74 },
+      "analysis": {
+        "summary": "Barcelone, champion sortant avec 94 points et 95 buts, est le favori le plus net de la grille, mais la calibration historique invite à éviter une probabilité extrême supérieure à 80 %.",
+        "keyFactors": ["Barcelone champion 2025-2026", "95 buts marqués", "Elche 15e", "Barcelone invaincu sur les 15 confrontations récentes référencées par le club"],
+        "uncertainty": "Le principal risque est celui d'un match de reprise mal maîtrisé à l'extérieur.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°69", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "FC Barcelona — Elche-Barça", "url": "https://www.fcbarcelona.es/es/partidos/138293/elche-fc-barcelona-la-liga-2026-2027", "accessedAt": "2026-08-21T13:56:30+02:00" },
+          { "label": "LALIGA — classement 2025-2026", "url": "https://www.laliga.com/en-US/laliga-easports/standing", "accessedAt": "2026-08-21T13:56:30+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t01", "label": "Scénario central", "selections": ["2","2","2","1","2","1","2","2","1","2","1","2"], "rationale": "Concentre les favoris principaux tout en respectant les matchs les plus ouverts." },
+    { "id": "t02", "label": "Nuls structurants", "selections": ["2","N","2","N","2","1","N","N","1","2","N","2"], "rationale": "Renforce la couverture des nuls sur les affiches équilibrées, biais historiquement sous-couvert." },
+    { "id": "t03", "label": "Rennes résiste", "selections": ["N","2","N","1","2","1","2","1","1","2","1","2"], "rationale": "Couvre une résistance de Rennes dans le contexte exceptionnel du Roazhon Park et davantage de variance en Ligue 1." },
+    { "id": "t04", "label": "Premier League ouverte", "selections": ["2","2","2","1","N","1","1","N","1","2","1","2"], "rationale": "Couvre un succès de Newcastle et un nul à Brighton, deux scénarios plausibles insuffisamment représentés." },
+    { "id": "t05", "label": "Outsiders mesurés", "selections": ["2","1","N","2","2","1","N","2","N","2","1","2"], "rationale": "Ajoute Le Havre et Villarreal comme surprises crédibles, sans multiplier les outsiders faibles." },
+    { "id": "t06", "label": "Italie prudente", "selections": ["2","N","2","1","N","1","2","N","N","2","1","2"], "rationale": "Augmente la couverture des nuls sur Torino-Milan et Atalanta-Sassuolo, matchs de reprise potentiellement fermés." },
+    { "id": "t07", "label": "Racing promu offensif", "selections": ["2","2","2","N","2","1","N","2","1","2","2","2"], "rationale": "Couvre un succès du Racing Santander, promu très offensif, ainsi qu'un nul Atlético-Villarreal." },
+    { "id": "t08", "label": "Chocs équilibrés", "selections": ["N","N","2","N","2","1","1","1","1","2","N","2"], "rationale": "Portefeuille centré sur plusieurs matchs proches sans toucher aux favoris les plus robustes." },
+    { "id": "t09", "label": "Variance domicile", "selections": ["1","1","N","1","1","1","N","1","1","2","1","2"], "rationale": "Couvre une séquence plus favorable aux équipes à domicile sur les rencontres indécises." },
+    { "id": "t10", "label": "Favoris avec un accroc", "selections": ["2","2","2","1","2","N","2","N","1","2","1","2"], "rationale": "Conserve la structure favorite mais couvre un nul de Manchester City et de Brighton." },
+    { "id": "t11", "label": "Double surprise anglaise", "selections": ["2","2","N","1","2","2","1","2","1","2","1","2"], "rationale": "Couvre simultanément Bournemouth et Newcastle, scénario peu probable mais cohérent si les favoris anglais démarrent mal." },
+    { "id": "t12", "label": "Nuls renforcés", "selections": ["N","N","N","N","N","1","N","N","1","N","N","2"], "rationale": "Scénario de forte densité de nuls destiné à corriger explicitement la sous-couverture historique du N." }
+  ]
+}
