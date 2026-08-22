@@ -1,0 +1,208 @@
+{
+  "id": "lf8-111-2026-08-22",
+  "formula": 8,
+  "gridNumber": 111,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-22T17:10:00+02:00",
+  "publishedAt": "2026-08-22T02:01:25+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "RC Lens",
+      "awayTeam": "AJ Auxerre",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-22T17:15:00+02:00",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "Lens part légèrement favori à Bollaert après son succès 1-0 contre le PSG au Trophée des Champions, mais Auxerre arrive avec une préparation sérieuse conclue par une victoire 1-0 à Brême.",
+        "keyFactors": [
+          "Avantage domicile et dynamique forte de Lens après la victoire contre le PSG.",
+          "Auxerre a terminé sa préparation par un succès 1-0 sur le terrain du Werder Brême.",
+          "Lens reste privé de certains éléments et Auxerre a montré une capacité à défendre bas, ce qui maintient le nul crédible."
+        ],
+        "uncertainty": "Première journée de championnat : les repères compétitifs restent limités et la bonne fin de préparation d'Auxerre réduit l'écart théorique.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "L'Équipe — Lens, résultats récents", "url": "https://www.lequipe.fr/Football/FootballFicheSelection9.html", "accessedAt": "2026-08-22T02:00:45+02:00" },
+          { "label": "L'Équipe — Auxerre, préparation 2026", "url": "https://www.lequipe.fr/Football/FootballFicheClub7.html", "accessedAt": "2026-08-22T02:01:00+02:00" },
+          { "label": "L'Équipe — Auxerre bat le Werder Brême", "url": "https://www.lequipe.fr/Football/Actualites/Auxerre-s-offre-une-victoire-de-prestige-face-au-werder-breme-a-une-semaine-de-la-reprise-de-la-ligue-1/1711205", "accessedAt": "2026-08-22T02:01:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "OGC Nice",
+      "awayTeam": "FC Lorient",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-22T20:45:00+02:00",
+      "probabilities": { "home": 58, "draw": 26, "away": 16 },
+      "analysis": {
+        "summary": "Nice garde un avantage net à domicile, renforcé par la préparation difficile de Lorient, battu 4-1 à Elversberg. Le huis clos et la forme estivale mitigée des Niçois empêchent toutefois d'aller vers une probabilité extrême.",
+        "keyFactors": [
+          "Nice joue à domicile à l'Allianz Riviera, même si la rencontre est à huis clos.",
+          "Lorient a lourdement perdu 4-1 à Elversberg lors de son dernier amical.",
+          "Nice a terminé sa préparation sur un 0-0 à Hull, ce qui suggère un avantage réel mais pas écrasant."
+        ],
+        "uncertainty": "Les deux équipes sortent d'une préparation irrégulière ; un match de reprise fermé reste plausible.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "OGC Nice — calendrier officiel", "url": "https://billetterie.ogcnice.com/fr/match/calendrier", "accessedAt": "2026-08-22T02:01:00+02:00" },
+          { "label": "L'Équipe — résultats de pré-saison Ligue 1", "url": "https://www.lequipe.fr/Football/Actualites/Quand-voir-les-matches-amicaux-des-clubs-de-ligue-1-le-programme-et-les-resultats-de-la-pre-saison-2026-2027/1702433", "accessedAt": "2026-08-22T02:01:00+02:00" },
+          { "label": "FC Lorient — programme de la semaine", "url": "https://www.fclorient.bzh/entrainement-le-programme-de-la-semaine-89/", "accessedAt": "2026-08-22T02:01:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Toulouse FC",
+      "awayTeam": "Olympique Lyonnais",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-22T20:45:00+02:00",
+      "probabilities": { "home": 28, "draw": 31, "away": 41 },
+      "analysis": {
+        "summary": "Lyon possède davantage de qualité et sort d'un nul 1-1 européen à Fenerbahçe, mais joue entre deux rendez-vous de Ligue des champions. Toulouse reste sur deux défaites de préparation et conserve l'avantage du Stadium.",
+        "keyFactors": [
+          "Lyon a éliminé le Sparta Prague puis obtenu 1-1 à Fenerbahçe en barrage de Ligue des champions.",
+          "Le retour contre Fenerbahçe arrive quatre jours après ce match, ce qui peut peser sur les rotations lyonnaises.",
+          "Toulouse a perdu ses deux derniers amicaux contre Elche et Hambourg, mais avait battu Lyon 2-1 en mai dernier."
+        ],
+        "uncertainty": "La proximité du barrage européen de l'OL augmente fortement l'incertitude sur le onze et l'intensité ; le nul est davantage couvert que ne le suggère un simple écart de qualité.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "Toulouse FC — billetterie officielle TFC-OL", "url": "https://billetterie.toulousefc.com/fr/catalogue/match-toulouse-fc-d1", "accessedAt": "2026-08-22T02:00:50+02:00" },
+          { "label": "L'Équipe — Lyon, résultats 2026-2027", "url": "https://www.lequipe.fr/Football/FootballFicheEquipe22.html", "accessedAt": "2026-08-22T02:01:00+02:00" },
+          { "label": "L'Équipe — Toulouse, résultats 2026-2027", "url": "https://www.lequipe.fr/Football/FootballFicheClub12.html", "accessedAt": "2026-08-22T02:01:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "ESTAC Troyes",
+      "awayTeam": "Paris FC",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-22T20:45:00+02:00",
+      "probabilities": { "home": 39, "draw": 33, "away": 28 },
+      "analysis": {
+        "summary": "Troyes paraît légèrement mieux armé sur la dynamique estivale : invaincu sur ses quatre derniers amicaux listés, tandis que le Paris FC reste sur plusieurs résultats défavorables. Le niveau proche des deux équipes maintient néanmoins un nul très crédible.",
+        "keyFactors": [
+          "Troyes a enchaîné des résultats positifs ou nuls contre Grenoble, GOAL FC, Auxerre et Panetolikos.",
+          "Le Paris FC a perdu contre Greuther Fürth, Mayence et Angers pendant sa préparation.",
+          "Troyes reçoit au Stade de l'Aube pour la reprise, ce qui justifie un léger avantage."
+        ],
+        "uncertainty": "Match entre équipes aux repères encore incomplets en Ligue 1 ; le Paris FC peut hausser son niveau dès la compétition officielle.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "ESTAC — calendrier et résultats officiels", "url": "https://www.estac.fr/equipe-premiere/calendrier-resultats/", "accessedAt": "2026-08-22T02:00:55+02:00" },
+          { "label": "L'Équipe — Troyes, résultats récents", "url": "https://www.lequipe.fr/Football/FootballFicheEquipe30.html", "accessedAt": "2026-08-22T02:00:55+02:00" },
+          { "label": "L'Équipe — Paris FC, résultats récents", "url": "https://www.lequipe.fr/Football/FootballFicheEquipe403.html", "accessedAt": "2026-08-22T02:00:55+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Le Mans FC",
+      "awayTeam": "Stade Brestois 29",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-22T20:45:00+02:00",
+      "probabilities": { "home": 36, "draw": 34, "away": 30 },
+      "analysis": {
+        "summary": "Affiche très ouverte. Le Mans, promu et à domicile, a montré de bonnes choses en préparation, tandis que Brest n'a gagné qu'un seul amical et reste sur un revers 2-0 à Nottingham Forest.",
+        "keyFactors": [
+          "Le Mans retrouve la Ligue 1 à domicile après 16 ans d'absence, avec un contexte émotionnel favorable.",
+          "Le Mans a battu Nantes et Angers pendant la préparation avant de perdre 1-0 contre Le Havre.",
+          "Brest a terminé sa préparation avec un seul succès et une défaite 2-0 à Nottingham Forest."
+        ],
+        "uncertainty": "L'écart de niveau structurel reste en faveur de Brest, mais le statut de promu à domicile et la mauvaise préparation brestoise rendent les trois issues proches.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "Le Mans FC — retour en Ligue 1 et match contre Brest", "url": "https://www.lemansfc.fr/index.php?actu=4122&section=actualites-contenu", "accessedAt": "2026-08-22T02:00:55+02:00" },
+          { "label": "L'Équipe — Le Mans, résultats récents", "url": "https://www.lequipe.fr/Football/FootballFicheEquipe32.html", "accessedAt": "2026-08-22T02:00:55+02:00" },
+          { "label": "L'Équipe — Brest termine sa préparation par une défaite à Nottingham Forest", "url": "https://www.lequipe.fr/Football/Actualites/Brest-termine-sa-preparation-par-une-defaite-sur-le-terrain-de-nottingham-forest/1711459", "accessedAt": "2026-08-22T02:00:55+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Brentford FC",
+      "awayTeam": "Tottenham Hotspur",
+      "competition": "Premier League",
+      "startsAt": "2026-08-22T17:30:00+02:00",
+      "probabilities": { "home": 40, "draw": 30, "away": 30 },
+      "analysis": {
+        "summary": "Brentford bénéficie du terrain et d'une préparation positive, alors que Tottenham démarre avec un effectif remanié et des absences importantes. La qualité individuelle des Spurs empêche néanmoins de les considérer comme outsiders nets.",
+        "keyFactors": [
+          "Brentford reçoit et son discours d'avant-saison met en avant une équipe plus agressive et créative.",
+          "Tottenham sort de deux saisons terminées à la 17e place et a changé de cadre sportif.",
+          "Micky van de Ven et Pedro Porro manqueront l'ouverture selon Reuters, ce qui fragilise la défense des Spurs."
+        ],
+        "uncertainty": "Tottenham a beaucoup recruté et peut progresser rapidement sous Roberto De Zerbi ; le niveau réel du nouveau collectif reste difficile à mesurer avant la première journée.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "Brentford FC — Brentford v Tottenham, match centre", "url": "https://www.brentfordfc.com/en/match/brentford-vs-tottenham-hotspur-english-premier-league-2026-08-22", "accessedAt": "2026-08-22T02:00:55+02:00" },
+          { "label": "Reuters — Van de Ven captain, Tottenham absences", "url": "https://www.reuters.com/sports/soccer/van-de-ven-main-tottenham-skipper-de-zerbi-names-five-captains-2026-08-21/", "accessedAt": "2026-08-22T02:01:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Bayern Munich",
+      "competition": "Franz Beckenbauer Supercup",
+      "startsAt": "2026-08-22T20:30:00+02:00",
+      "probabilities": { "home": 26, "draw": 29, "away": 45 },
+      "analysis": {
+        "summary": "Le Bayern reste favori par sa profondeur d'effectif et son statut de champion, mais Dortmund reçoit au Signal Iduna Park et a fini sa préparation en progrès. Les absences importantes des deux côtés justifient de réduire l'écart.",
+        "keyFactors": [
+          "Dortmund a fini sa préparation par une victoire 3-2 contre Arsenal puis un nul 2-2 contre la Roma.",
+          "Dortmund sera privé notamment de Nico Schlotterbeck et Emre Can.",
+          "Le Bayern dispose d'une profondeur supérieure mais Jamal Musiala ne sera pas dans le groupe pour le Supercup."
+        ],
+        "uncertainty": "Premier trophée de la saison, avec plusieurs joueurs revenus tardivement de la Coupe du monde et des onze encore en construction ; variance élevée.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "Borussia Dortmund — avant-match Supercup", "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/8/20/Courageous-and-hungry-in-the-Super-Cup-against-Munich.html", "accessedAt": "2026-08-22T02:01:00+02:00" },
+          { "label": "Bundesliga — composition probable du Bayern", "url": "https://www.bundesliga.com/en/bundesliga/news/bayern-munich-supercup-possible-line-up-kane-olise-saibari-38691", "accessedAt": "2026-08-22T02:01:00+02:00" },
+          { "label": "Reuters — Musiala absent du Supercup", "url": "https://www.reuters.com/sports/soccer/musialas-on-field-collapses-were-result-treatment-change-says-bayern-coach-2026-08-21/", "accessedAt": "2026-08-22T02:01:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "RCD Espanyol",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-22T21:30:00+02:00",
+      "probabilities": { "home": 16, "draw": 23, "away": 61 },
+      "analysis": {
+        "summary": "Le Real Madrid reste nettement favori par son effectif, mais son premier match de Liga arrive avec plusieurs absences et un rodage compétitif inférieur à celui de l'Espanyol, déjà vainqueur de Levante. Le 95 % public FDJ paraît donc excessif.",
+        "keyFactors": [
+          "L'Espanyol arrive après une victoire contre Levante et possède déjà un match officiel dans les jambes.",
+          "Le Real Madrid débute sa Liga seulement ce 22 août après le report de sa première journée.",
+          "Endrick et Tchouaméni sont absents de la première convocation de Mourinho, tandis que plusieurs défenseurs ont connu des problèmes physiques pendant la préparation."
+        ],
+        "uncertainty": "La supériorité individuelle du Real reste très importante ; l'incertitude porte surtout sur le niveau de préparation et la capacité de l'Espanyol à profiter du manque de rythme madrilène.",
+        "sources": [
+          { "label": "FDJ — LF8 n°111", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-22T02:00:40+02:00" },
+          { "label": "AS — Espanyol-Real Madrid, avant-match et horaire", "url": "https://as.com/futbol/primera/espanyol-real-madrid-tv-horario-y-como-ver-laliga-ea-sports-online-hoy-f202608-n/", "accessedAt": "2026-08-22T02:00:55+02:00" },
+          { "label": "Real Madrid — horaires des trois premières journées", "url": "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/latest-news/ya-se-conocen-los-horarios-de-las-tres-primeras-jornadas-de-liga-14-07-2026", "accessedAt": "2026-08-22T02:01:00+02:00" },
+          { "label": "AS — première convocation de Mourinho", "url": "https://as.com/futbol/primera-lista-de-mourinho-dos-ausencias-y-tres-canteranos-f202608-n/", "accessedAt": "2026-08-22T02:01:00+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t01", "label": "Scénario central", "selections": ["1","1","2","1","1","1","2","2"], "rationale": "Favoris structurants, avec avantage domicile sur les affiches françaises les plus favorables et Bayern/Real à l'extérieur." },
+    { "id": "t02", "label": "Nuls ciblés", "selections": ["1","1","N","N","1","1","2","2"], "rationale": "Couvre les nuls sur Toulouse-Lyon et Troyes-Paris FC, deux rencontres où l'écart est faible ou perturbé par le calendrier." },
+    { "id": "t03", "label": "Équilibre promu", "selections": ["1","1","2","1","N","N","2","2"], "rationale": "Introduit les nuls sur Le Mans-Brest et Brentford-Tottenham, deux matchs très ouverts." },
+    { "id": "t04", "label": "Nice accroché", "selections": ["1","N","N","1","1","1","2","2"], "rationale": "Couvre un nul à Nice et un nul à Toulouse sans bouleverser les autres favoris." },
+    { "id": "t05", "label": "Auxerre résiste", "selections": ["N","1","2","1","1","N","2","2"], "rationale": "Couvre la résistance d'Auxerre à Lens et le nul Brentford-Tottenham." },
+    { "id": "t06", "label": "Bloc de nuls", "selections": ["1","1","N","N","N","1","2","2"], "rationale": "Scénario où trois affiches françaises équilibrées se ferment simultanément." },
+    { "id": "t07", "label": "Klassiker serré", "selections": ["1","1","2","1","1","1","N","2"], "rationale": "Couvre un nul Dortmund-Bayern tout en conservant la trame centrale." },
+    { "id": "t08", "label": "Paris FC et Spurs", "selections": ["1","1","2","N","1","N","2","2"], "rationale": "Couvre simultanément un nul à Troyes et à Brentford, sans quasi-cloner le scénario central." },
+    { "id": "t09", "label": "Double résistance", "selections": ["N","1","N","1","N","1","2","2"], "rationale": "Scénario plus prudent sur Lens-Auxerre, Toulouse-Lyon et Le Mans-Brest." },
+    { "id": "t10", "label": "Nice et Bayern accrochés", "selections": ["1","N","2","1","N","1","N","2"], "rationale": "Couvre trois nuls plausibles répartis sur la grille, dont le Supercup." },
+    { "id": "t11", "label": "Real accroché", "selections": ["1","1","N","1","1","N","2","N"], "rationale": "Couvre un nul du Real à l'Espanyol avec deux autres rencontres équilibrées." },
+    { "id": "t12", "label": "Variance large", "selections": ["1","1","2","N","N","1","N","2"], "rationale": "Scénario diversifié combinant trois nuls sur des zones d'incertitude distinctes." }
+  ]
+}
