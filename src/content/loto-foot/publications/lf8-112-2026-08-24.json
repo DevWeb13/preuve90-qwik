@@ -1,0 +1,212 @@
+{
+  "id": "lf8-112-2026-08-24",
+  "formula": 8,
+  "gridNumber": 112,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-24T18:25:00+02:00",
+  "publishedAt": "2026-08-23T01:59:15+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Fulham",
+      "awayTeam": "Chelsea",
+      "competition": "Premier League",
+      "startsAt": "2026-08-24T21:00:00+02:00",
+      "probabilities": { "home": 30, "draw": 30, "away": 40 },
+      "analysis": {
+        "summary": "Derby londonien plus équilibré que le statut de Chelsea pourrait le laisser penser. Les deux clubs ont terminé à 52 points la saison passée, mais Chelsea arrive avec un effectif renforcé, une victoire 3-1 contre la Real Sociedad et un léger avantage qualitatif.",
+        "keyFactors": [
+          "Chelsea et Fulham ont terminé respectivement 10e et 11e de Premier League 2025-2026, tous deux avec 52 points.",
+          "Chelsea a battu la Real Sociedad 3-1 lors de son dernier match de préparation.",
+          "Le derby se joue à Craven Cottage et Chelsea a plusieurs joueurs dont le niveau de préparation reste hétérogène après la Coupe du monde."
+        ],
+        "uncertainty": "Premier match de championnat, derby local et niveaux de préparation inégaux : le nul et une victoire de Fulham restent des scénarios crédibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Chelsea FC — calendrier et dernier résultat", "url": "https://www.chelseafc.com/en", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Premier League — classement 2025-2026", "url": "https://www.premierleague.com/en/tables/premier-league/2025-26", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "The Guardian — team news ouverture Premier League", "url": "https://www.theguardian.com/football/2026/aug/21/premier-league-team-news-predicted-lineups-for-the-opening-weekend", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Fiorentina",
+      "competition": "Serie A",
+      "startsAt": "2026-08-24T20:45:00+02:00",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "La Roma part favorite à domicile grâce à un écart net observé sur la saison précédente : 3e de Serie A contre 15e pour la Fiorentina. La préparation romaine a toutefois été irrégulière, ce qui limite la confiance dans un 1 trop massif.",
+        "keyFactors": [
+          "La Roma a terminé 3e de Serie A 2025-2026 avec 73 points, la Fiorentina 15e avec 42 points.",
+          "La Roma a fini sa préparation par un nul 2-2 à Dortmund après des résultats très contrastés.",
+          "Le match est confirmé au Stadio Olimpico, ce qui renforce légèrement l'avantage romain."
+        ],
+        "uncertainty": "La saison débute et la préparation de la Roma a montré des écarts de niveau importants d'un match à l'autre.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "AS Roma — résultats de préparation", "url": "https://www.asroma.com/en/men/results", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "RSSSF — Serie A 2025-2026", "url": "https://www.rsssf.org/tablesi/ital2026.html", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "AS Roma — billetterie Roma-Fiorentina", "url": "https://www.asroma.com/en/tickets/men", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Bologne",
+      "awayTeam": "Lazio Rome",
+      "competition": "Serie A",
+      "startsAt": "2026-08-24T18:30:00+02:00",
+      "probabilities": { "home": 38, "draw": 32, "away": 30 },
+      "analysis": {
+        "summary": "Affiche très équilibrée entre deux équipes séparées de seulement deux points la saison passée. Bologne bénéficie du terrain mais reste sur une défaite 0-1 contre Brighton, alors que la Lazio a gagné 2-0 contre Mantoue.",
+        "keyFactors": [
+          "Bologne a terminé 8e de Serie A 2025-2026 avec 56 points, la Lazio 9e avec 54 points.",
+          "Bologne reste sur une défaite 0-1 contre Brighton en préparation.",
+          "La Lazio affiche une victoire récente 2-0 contre Mantoue avant l'ouverture du championnat."
+        ],
+        "uncertainty": "L'écart structurel entre les deux équipes est faible et un nul est particulièrement plausible sur une première journée.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Bologna FC — match center Bologna-Lazio", "url": "https://www.bolognafc.it/en/match/bologna-vs-lazio-10/", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "RSSSF — Serie A 2025-2026", "url": "https://www.rsssf.org/tablesi/ital2026.html", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "S.S. Lazio — forme récente et calendrier", "url": "https://prod.sslazio.it/it", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Malaga",
+      "awayTeam": "La Corogne",
+      "competition": "La Liga",
+      "startsAt": "2026-08-24T21:30:00+02:00",
+      "probabilities": { "home": 36, "draw": 32, "away": 32 },
+      "analysis": {
+        "summary": "Match très ouvert entre deux promus. Malaga revient d'un revers logique 0-2 chez l'Atlético, tandis que le Deportivo a obtenu 1-1 contre Elche après une préparation globalement solide. L'avantage du terrain garde Malaga légèrement devant.",
+        "keyFactors": [
+          "Malaga a obtenu sa montée via les play-offs après une 4e place en Segunda 2025-2026.",
+          "Malaga a perdu 0-2 à l'Atlético lors de sa première journée de Liga.",
+          "Le Deportivo a fait 1-1 contre Elche et avait auparavant battu Genoa 1-0 et tenu Fiorentina 1-1 en préparation.",
+          "Le dernier duel de championnat entre les deux équipes s'est terminé sur un nul 1-1 en avril 2026."
+        ],
+        "uncertainty": "Deux promus, peu de recul en Liga et profils proches : les trois issues restent réalistes.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Málaga CF — bilan saison 2025-2026", "url": "https://www.malagacf.com/temporada-2025-2026", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "MatchEnDirect — Malaga-Deportivo forme récente", "url": "https://www.matchendirect.fr/live-score/malaga-deportivo_74mxh8k281gelgxpzaagmamfo.html?p=face-a-face", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "AiScore — Deportivo résultats 2026-2027", "url": "https://www.aiscore.com/en/team-deportivo-la-coruna/yzrkn6igg6tnqle/schedule", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Osasuna",
+      "awayTeam": "Levante",
+      "competition": "La Liga",
+      "probabilities": { "home": 43, "draw": 33, "away": 24 },
+      "analysis": {
+        "summary": "Osasuna possède un avantage domicile modéré dans un duel entre deux équipes qui ont terminé à égalité de points la saison passée. Le match initial d'Osasuna a été reporté, ce qui lui donne davantage de fraîcheur mais aussi moins de rythme officiel.",
+        "keyFactors": [
+          "Osasuna et Levante ont terminé la Liga 2025-2026 avec 42 points, respectivement 17e et 16e.",
+          "Osasuna joue à El Sadar et son premier match de la saison a été reporté.",
+          "Le marché et les analyses disponibles donnent un avantage mesuré à Osasuna, sans écarter le nul."
+        ],
+        "uncertainty": "Les deux équipes étaient quasiment au même niveau sur l'ensemble de la saison précédente et Osasuna n'a pas encore de référence officielle cette saison.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "L'Équipe — classement Liga 2025-2026", "url": "https://www.lequipe.fr/Football/championnat-d-espagne/saison-2025-2026/page-classement-equipes/general", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "The Stats Zone — Osasuna-Levante preview", "url": "https://www.thestatszone.com/osasuna-vs-levante-preview-team-news-prediction-219583", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "The Guardian — calendrier La Liga du 24 août", "url": "https://www.theguardian.com/football/fixtures/2026/Aug/24", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Gil Vicente",
+      "awayTeam": "Casa Pia",
+      "competition": "Liga Portugal",
+      "startsAt": "2026-08-24T20:15:00+02:00",
+      "probabilities": { "home": 60, "draw": 25, "away": 15 },
+      "analysis": {
+        "summary": "Gil Vicente est nettement favori face à une équipe de Casa Pia en très grande difficulté. Casa Pia a perdu ses deux premiers matchs sans marquer, dont un 0-7 contre Benfica, tandis que Gil Vicente a déjà gagné 1-0 contre Rio Ave.",
+        "keyFactors": [
+          "Casa Pia a commencé la saison par deux défaites, 0-1 contre Marítimo puis 0-7 contre Benfica.",
+          "Gil Vicente a gagné 1-0 contre Rio Ave pour son premier résultat recensé de la saison.",
+          "Gil Vicente avait déjà battu Casa Pia 2-1 lors de leur confrontation d'avril 2026.",
+          "Le match est officiellement programmé par la Liga Portugal."
+        ],
+        "uncertainty": "La lourde défaite de Casa Pia contre Benfica peut amplifier artificiellement l'écart apparent ; le nul conserve une probabilité non négligeable.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Liga Portugal — Gil Vicente-Casa Pia", "url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/3/3", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "SportyTrader — forme et effectifs Gil Vicente-Casa Pia", "url": "https://www.sportytrader.com/resultat-direct/gil-vicente-casa-pia-atletico-8597693/", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Statarea — résultats récents et confrontation directe", "url": "https://old.statarea.com/results.php?team_guest=Gil+Vicente+%28Portugal%29&team_host=Casa+Pia+%28Portugal%29", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Hallescher FC",
+      "awayTeam": "Schalke 04",
+      "competition": "DFB-Pokal",
+      "startsAt": "2026-08-24T20:45:00+02:00",
+      "probabilities": { "home": 13, "draw": 20, "away": 67 },
+      "analysis": {
+        "summary": "Schalke possède un avantage de niveau très important face à un club de Regionalliga, même si sa préparation s'est terminée par deux défaites 0-3 contre l'Atalanta et le Real Madrid. Halle est compétitif défensivement et joue à domicile devant un stade annoncé complet.",
+        "keyFactors": [
+          "Hallescher évolue en Regionalliga et Schalke en Bundesliga 2026-2027.",
+          "Halle a commencé sa saison par des matchs serrés et reste notamment sur un 0-0 contre Chemnitz après une victoire 1-0 à Chemie Leipzig.",
+          "Schalke a perdu 0-3 contre l'Atalanta puis 0-3 contre le Real Madrid en préparation, mais l'écart de division reste majeur.",
+          "Le match de coupe est officiellement confirmé à Halle et annoncé à guichets fermés."
+        ],
+        "uncertainty": "Le contexte de coupe, le terrain et le soutien local augmentent le risque d'une surprise, surtout si Schalke manque d'efficacité comme lors de ses derniers amicaux.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "DFB Datencenter — Hallescher FC-Schalke 04", "url": "https://datencenter.dfb.de/datencenter/dfb-pokal/2026-27/1-runde/hallescher-fc-fc-schalke-04-2418318", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "FC Schalke 04 — calendrier et résultats 2026-2027", "url": "https://schalke04.de/aktuelles/matchcenter/", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Hallescher FC — saison en cours", "url": "https://www.hallescherfc.de/", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Reims",
+      "awayTeam": "Annecy FC",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-24T20:45:00+02:00",
+      "probabilities": { "home": 39, "draw": 31, "away": 30 },
+      "analysis": {
+        "summary": "Reims garde un léger avantage à domicile, mais Annecy arrive avec une dynamique supérieure après deux victoires sans encaisser. Reims est invaincu mais a concédé trois buts contre Dunkerque lors de la deuxième journée.",
+        "keyFactors": [
+          "Reims a commencé par 0-0 à Clermont puis 3-3 contre Dunkerque.",
+          "Annecy a gagné 1-0 à Pau puis 2-0 contre Rodez.",
+          "Le match se joue à Auguste-Delaune, ce qui maintient un léger avantage à Reims malgré la meilleure dynamique d'Annecy.",
+          "La sous-couverture historique des nuls dans la mémoire statistique incite à ne pas sous-estimer l'issue N sur cette affiche équilibrée."
+        ],
+        "uncertainty": "Le début de saison est encore très court : la solidité affichée par Annecy et la capacité offensive de Reims doivent être confirmées sur davantage de matchs.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "Stade de Reims — calendrier officiel et actualité", "url": "https://www.stade-de-reims.com/", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "FC Annecy — calendrier et résultats", "url": "https://www.fc-annecy.fr/calendrier-resultats", "accessedAt": "2026-08-23T01:59:00+02:00" },
+          { "label": "L'Équipe — calendrier et résultats Ligue 2 J3", "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-resultats/3e-journee", "accessedAt": "2026-08-23T01:59:00+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["2", "1", "1", "1", "1", "1", "2", "1"], "rationale": "Conserve les favoris principaux tout en donnant l'avantage du terrain aux rencontres les plus équilibrées." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["N", "1", "N", "N", "1", "1", "2", "1"], "rationale": "Couvre plusieurs affiches à forte composante d'équilibre, conformément au biais historique de sous-couverture des nuls." },
+    { "id": "t3", "label": "Pression des visiteurs", "selections": ["2", "1", "N", "N", "N", "1", "2", "N"], "rationale": "Renforce les scénarios où les favoris extérieurs ne gagnent pas tous et où Osasuna-Reims basculent vers le nul." },
+    { "id": "t4", "label": "Upsets mesurés", "selections": ["2", "N", "1", "2", "1", "1", "2", "N"], "rationale": "Introduit deux surprises plausibles sans sacrifier les favoris les plus robustes de la grille." },
+    { "id": "t5", "label": "Avantage domicile", "selections": ["1", "1", "N", "1", "1", "1", "2", "2"], "rationale": "Teste une soirée favorable aux équipes à domicile tout en couvrant une victoire d'Annecy en forme." },
+    { "id": "t6", "label": "Derbys et équilibres", "selections": ["N", "1", "1", "N", "N", "1", "2", "2"], "rationale": "Accentue les nuls sur les matchs les plus serrés et conserve Annecy comme outsider crédible." },
+    { "id": "t7", "label": "Visiteurs techniques", "selections": ["2", "1", "2", "N", "1", "1", "2", "1"], "rationale": "Couvre une victoire de la Lazio et maintient Chelsea, Schalke et Reims dans un scénario plus classique." },
+    { "id": "t8", "label": "Coupe sous tension", "selections": ["2", "N", "N", "1", "1", "1", "N", "1"], "rationale": "Teste une prolongation du scénario de résistance de Halle et plusieurs partages de points en Serie A." },
+    { "id": "t9", "label": "Domiciles prudents", "selections": ["1", "1", "1", "N", "N", "1", "2", "N"], "rationale": "Couvre Fulham à domicile et plusieurs matchs fermés où les locaux évitent la défaite." },
+    { "id": "t10", "label": "Deux outsiders ciblés", "selections": ["N", "1", "N", "2", "1", "1", "2", "1"], "rationale": "Ajoute Deportivo comme outsider sur un match très équilibré, tout en gardant les favoris les plus nets." },
+    { "id": "t11", "label": "Risque portugais", "selections": ["2", "N", "1", "N", "1", "N", "2", "1"], "rationale": "Protège un scénario où Gil Vicente est tenu en échec et où plusieurs affiches de haut niveau se neutralisent." },
+    { "id": "t12", "label": "Surprise de coupe", "selections": ["2", "1", "N", "N", "1", "1", "1", "N"], "rationale": "Réserve une combinaison à la surprise Hallescher, scénario peu probable mais à fort impact sur le rang payé." }
+  ]
+}
