@@ -1,0 +1,649 @@
+{
+  "id": "lf15-70-2026-08-25",
+  "formula": 15,
+  "gridNumber": 70,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-25T19:55:00+02:00",
+  "publishedAt": "2026-08-24T01:58:35+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "CF Valence",
+      "awayTeam": "Betis Séville",
+      "competition": "LALIGA EA SPORTS",
+      "startsAt": "2026-08-25T21:00:00+02:00",
+      "probabilities": {
+        "home": 32,
+        "draw": 34,
+        "away": 34
+      },
+      "analysis": {
+        "summary": "Affiche très équilibrée à Mestalla. Valence reste sur un 0-0 contre le Celta, tandis que le Betis a mieux démarré sa campagne. L'avantage du terrain compense en partie le léger avantage de forme du Betis.",
+        "keyFactors": [
+          "Valence a commencé par un match nul 0-0 à domicile contre le Celta.",
+          "Le Betis a pris des points dès son premier match et reste compétitif à l'extérieur.",
+          "Le marché FDJ initial est encore peu stabilisé, donc il ne faut pas surpondérer sa répartition."
+        ],
+        "uncertainty": "Début de saison avec très petit échantillon et compositions encore difficiles à anticiper.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "LALIGA — Valencia CF vs Real Betis",
+            "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-betis-1",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "LALIGA — Valencia CF 0-0 Celta",
+            "url": "https://www.laliga.com/en-CA/match/temporada-2026-2027-laliga-ea-sports-valencia-cf-rc-celta-2",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "LASK Linz",
+      "awayTeam": "Celtic",
+      "competition": "UEFA Champions League — barrage retour",
+      "startsAt": "2026-08-25T21:00:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 30,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "Celtic arrive avec un avantage de 3-0 acquis à l'aller. LASK doit attaquer et peut créer davantage à domicile, mais Celtic peut gérer le tempo et reste supérieur sur la qualité globale.",
+        "keyFactors": [
+          "Celtic a gagné l'aller 3-0.",
+          "LASK avait néanmoins créé plusieurs occasions à Glasgow, ce qui augmente le risque d'un match retour plus ouvert.",
+          "Celtic peut accepter certaines phases sans ballon grâce à son large avantage cumulé."
+        ],
+        "uncertainty": "La logique de qualification peut pousser Celtic à gérer plutôt qu'à rechercher une victoire à tout prix.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "UEFA — Celtic 3-0 LASK, aller du barrage",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-21614aa98c59-7f9d3e928182-1000--champions-league-play-off-first-legs-round-up-lyon-viking-/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "LASK — calendrier officiel",
+            "url": "https://www.lask.at/en/a/matches/pros/fixtures/2026-2027",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Bodø/Glimt",
+      "awayTeam": "NEC Nimègue",
+      "competition": "UEFA Champions League — barrage retour",
+      "startsAt": "2026-08-25T21:00:00+02:00",
+      "probabilities": {
+        "home": 66,
+        "draw": 20,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Bodø/Glimt a pris un avantage très net en gagnant 3-1 à Nimègue et retrouve son terrain synthétique. NEC doit prendre des risques, ce qui favorise encore les transitions norvégiennes.",
+        "keyFactors": [
+          "Bodø/Glimt a gagné 3-1 à l'extérieur à l'aller.",
+          "La forme récente de Bodø/Glimt est solide, avec plusieurs victoires avant le barrage.",
+          "NEC doit remonter deux buts et ne peut pas se contenter d'un bloc bas."
+        ],
+        "uncertainty": "Un avantage cumulé confortable peut réduire l'intensité offensive de Bodø/Glimt si le match reste sous contrôle.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "Bodø/Glimt — résultats officiels",
+            "url": "https://www.glimt.no/resultater",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "UEFA — Bodø/Glimt vs NEC",
+            "url": "https://www.uefa.com/uefachampionsleague/clubs/59333--bodo-glimt/matches/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Southampton",
+      "awayTeam": "West Ham",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 46,
+        "draw": 29,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Southampton arrive en meilleure dynamique immédiate et joue à domicile. West Ham vient de perdre contre Charlton après un nul à Burnley, alors que Southampton a battu Stoke 3-1.",
+        "keyFactors": [
+          "Southampton a battu Stoke 3-1 le 22 août.",
+          "West Ham a perdu 2-1 contre Charlton le même week-end.",
+          "Le contexte de coupe augmente la probabilité de rotations et donc la variance."
+        ],
+        "uncertainty": "Les rotations de Carabao Cup peuvent modifier fortement les rapports de force habituels.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Southampton vs West Ham, forme",
+            "url": "https://www.skysports.com/football/southampton-vs-west-ham-united/577436",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Stoke City",
+      "awayTeam": "Hull City",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 22,
+        "draw": 27,
+        "away": 51
+      },
+      "analysis": {
+        "summary": "Hull affiche la meilleure dynamique, avec une victoire 2-0 contre Manchester United pour son retour en Premier League. Stoke a perdu ses deux premiers matchs de Championship.",
+        "keyFactors": [
+          "Hull a battu Manchester United 2-0 le 22 août.",
+          "Stoke a perdu 2-1 contre Swansea puis 3-1 à Southampton.",
+          "Hull possède actuellement une dynamique et une confiance nettement supérieures."
+        ],
+        "uncertainty": "Hull peut faire davantage tourner son effectif après son match de Premier League.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Stoke vs Hull City, forme",
+            "url": "https://www.skysports.com/football/stoke-city-vs-hull-city/577438",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Reuters — Hull 2-0 Manchester United",
+            "url": "https://www.reuters.com/sports/soccer/hull-stun-manchester-united-2-0-premier-league-return-2026-08-22/",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Ipswich",
+      "awayTeam": "Leicester",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 67,
+        "draw": 20,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "Ipswich a parfaitement lancé son retour en Premier League avec une victoire 2-1 contre Sunderland. Leicester évolue désormais en League One et vient de perdre 2-1 à domicile contre Burton.",
+        "keyFactors": [
+          "Ipswich a battu Sunderland 2-1 le 22 août.",
+          "Leicester a perdu 2-1 contre Burton après un nul contre Notts County.",
+          "L'écart de niveau de division et l'avantage de Portman Road favorisent nettement Ipswich."
+        ],
+        "uncertainty": "Ipswich peut faire tourner plusieurs titulaires en coupe, ce qui réduit un peu l'écart théorique.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "Leicester City — calendrier officiel",
+            "url": "https://www.lcfc.com/fixtures-results",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Reuters — Ipswich 2-1 Sunderland",
+            "url": "https://www.reuters.com/sports/soccer/ipswich-earn-cathartic-win-mark-premier-league-return-2026-08-22/",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Leicester City — défaite contre Burton",
+            "url": "https://www.lcfc.com/home?dm_i=764A%2CRO12%2CV90JM%2C3Q2XF%2C1&lang=en",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Leeds Utd",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T21:00:00+02:00",
+      "probabilities": {
+        "home": 37,
+        "draw": 31,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "Les deux équipes se retrouvent trois jours après la victoire 1-0 de Leeds au City Ground. Le match de championnat a été très serré et décidé tardivement, ce qui justifie une forte probabilité de nul dans ce nouveau contexte de coupe.",
+        "keyFactors": [
+          "Leeds a gagné 1-0 au City Ground le 22 août sur un coup franc tardif.",
+          "Forest avait eu plusieurs situations dangereuses et le match était proche du 0-0.",
+          "La revanche immédiate et les rotations probables réduisent la valeur prédictive du résultat précédent."
+        ],
+        "uncertainty": "Les changements de onze trois jours après le premier duel peuvent rendre ce match très différent.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "Leeds United — programmation officielle du match de coupe",
+            "url": "https://www.leedsunited.com/en/news/details-confirmed-for-efl-cup-tie",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Nottingham Forest 0-1 Leeds",
+            "url": "https://www.skysports.com/football/nottingham-forest-vs-leeds-united/559449",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Birmingham",
+      "awayTeam": "Brentford",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T21:00:00+02:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 28,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Brentford arrive avec une dynamique offensive impressionnante, dont un 3-0 contre Tottenham après des amicaux très prolifiques. Birmingham est solide mais a enchaîné deux nuls en Championship.",
+        "keyFactors": [
+          "Brentford a battu Tottenham 3-0 le 22 août.",
+          "Brentford avait auparavant battu Francfort 7-0 et Rennes 4-2 en préparation.",
+          "Birmingham reste compétitif à domicile mais son niveau offensif récent est plus modeste."
+        ],
+        "uncertainty": "Brentford peut largement faire tourner en coupe après son ouverture de Premier League.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "Brentford FC — programmation officielle",
+            "url": "https://www.brentfordfc.com/en/news/article/first-team-carabao-cup-round-two-birmingham-city-v-brentford",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — forme de Brentford",
+            "url": "https://www.skysports.com/brentford-scores-fixtures",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Birmingham 2-2 Bristol City",
+            "url": "https://www.skysports.com/football/birmingham-city-vs-bristol-city/stats/534847",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Sheffield Wed.",
+      "awayTeam": "Wolverhampton",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 22,
+        "draw": 27,
+        "away": 51
+      },
+      "analysis": {
+        "summary": "Wolves part favori grâce à une meilleure dynamique et un niveau de division supérieur. Sheffield Wednesday reste capable de gêner à Hillsborough mais vient de perdre contre Bradford.",
+        "keyFactors": [
+          "Wolves a battu Preston 3-1 après un nul 2-2 contre Blackburn.",
+          "Sheffield Wednesday a perdu 1-0 contre Bradford après une victoire à Leyton Orient.",
+          "Le contexte de coupe et l'avantage du terrain gardent une place significative au nul."
+        ],
+        "uncertainty": "Le degré de rotation de Wolves peut réduire l'écart de qualité attendu.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Sheffield Wednesday vs Wolves, forme",
+            "url": "https://www.skysports.com/football/sheffield-wednesday-vs-wolverhampton-wanderers/577435",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Blackburn",
+      "awayTeam": "Sheffield Utd",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 34,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Blackburn a mieux démarré et vient de battre Middlesbrough 2-1 après un nul à Wolves. Sheffield United est solide défensivement mais reste sur deux 0-0 en Championship.",
+        "keyFactors": [
+          "Blackburn a pris quatre points en deux matchs de Championship et vient de battre Middlesbrough.",
+          "Sheffield United a enchaîné deux matchs nuls 0-0 en championnat.",
+          "Blackburn avait gagné 3-1 à Bramall Lane lors de leur confrontation d'avril."
+        ],
+        "uncertainty": "Le caractère de coupe et les rotations peuvent favoriser un match fermé, d'où une forte part de nul.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Blackburn vs Sheffield United, forme",
+            "url": "https://www.skysports.com/football/blackburn-rovers-vs-sheffield-united/577422",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Blackburn 2-1 Middlesbrough",
+            "url": "https://www.skysports.com/football/news/11680/13575427/blackburn-rovers-2-1-middlesbrough-tony-mowbrays-side-hit-back-to-sink-boro",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Blackpool",
+      "awayTeam": "Lincoln",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 31,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Lincoln évolue un niveau au-dessus et a déjà gagné à Derby en coupe, mais Blackpool reste difficile à écarter à Bloomfield Road. Le profil du match reste assez équilibré.",
+        "keyFactors": [
+          "Lincoln a éliminé Derby 2-1 au premier tour.",
+          "Blackpool a éliminé Grimsby 3-1 puis fait 1-1 avec Wycombe en championnat.",
+          "L'écart de division favorise Lincoln, mais l'avantage du terrain maintient Blackpool dans le match."
+        ],
+        "uncertainty": "La forme de tout début de saison reste peu robuste et les rotations peuvent réduire l'écart de division.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats de Blackpool",
+            "url": "https://www.skysports.com/blackpool-scores-fixtures",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats de Lincoln City",
+            "url": "https://www.skysports.com/lincoln-city",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Doncaster",
+      "awayTeam": "Middlesbrough",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:30:00+02:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 28,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Middlesbrough a l'avantage de niveau et avait gagné ses deux premiers matchs officiels avant de perdre à Blackburn. Doncaster reste sans victoire en championnat mais a montré qu'il pouvait tenir des matchs serrés.",
+        "keyFactors": [
+          "Middlesbrough a battu Wrexham en coupe puis Lincoln en Championship avant sa défaite à Blackburn.",
+          "Doncaster a fait 0-0 contre Barnsley après une défaite à Mansfield.",
+          "Doncaster avait créé une grosse surprise contre Middlesbrough en coupe la saison précédente, ce qui invite à ne pas surévaluer le favori."
+        ],
+        "uncertainty": "Le précédent succès 4-0 de Doncaster à Middlesbrough en 2025 rappelle la forte variance des matchs de coupe.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Doncaster vs Middlesbrough, forme",
+            "url": "https://www.skysports.com/football/middlesbrough-vs-doncaster-rovers/stats/534892",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Doncaster 0-0 Barnsley",
+            "url": "https://www.skysports.com/football/news/11713/13575394/doncaster-0-0-barnsley",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Plymouth",
+      "awayTeam": "Coventry",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 28,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Coventry évolue en Premier League après sa promotion et reste supérieur sur le papier malgré sa défaite 3-0 à Arsenal. Plymouth a davantage de continuité de compétition mais évolue en League One.",
+        "keyFactors": [
+          "Coventry a perdu 3-0 à Arsenal pour son ouverture de Premier League.",
+          "Plymouth a éliminé Exeter 2-0 mais n'a pris qu'un point lors de ses deux premiers matchs de League One.",
+          "L'écart de division favorise Coventry, tempéré par les rotations et l'avantage de Home Park."
+        ],
+        "uncertainty": "Coventry peut privilégier la Premier League et aligner un onze largement remanié.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Plymouth vs Coventry, forme",
+            "url": "https://www.skysports.com/football/tbc-vs-coventry-city/577439",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Coventry, résultats",
+            "url": "https://www.skysports.com/coventry-city-scores-fixtures?_sp_pass_consent=true",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Cambridge",
+      "awayTeam": "Millwall",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:45:00+02:00",
+      "probabilities": {
+        "home": 20,
+        "draw": 27,
+        "away": 53
+      },
+      "analysis": {
+        "summary": "Millwall est l'une des équipes les plus convaincantes du début de Championship avec deux victoires et aucun but encaissé. Cambridge reste compétitif mais affronte un adversaire plus fort et très en forme.",
+        "keyFactors": [
+          "Millwall a battu Bristol City 2-0 puis Norwich 3-0.",
+          "Cambridge a gagné 3-2 contre Wigan puis fait 1-1 à Bromley.",
+          "Millwall a dominé Bristol City dans le contenu et possède actuellement une meilleure dynamique."
+        ],
+        "uncertainty": "Un onze remanié de Millwall en coupe peut rendre le déplacement plus délicat que ne l'indique la forme de championnat.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — Cambridge vs Millwall, forme",
+            "url": "https://www.skysports.com/football/cambridge-united-vs-millwall/577425",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Bristol City 0-2 Millwall, statistiques",
+            "url": "https://www.skysports.com/football/bristol-city-vs-millwall/stats/560500",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Cardiff",
+      "awayTeam": "Norwich",
+      "competition": "Carabao Cup — 2e tour",
+      "startsAt": "2026-08-25T20:00:00+02:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 32,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Cardiff est invaincu en Championship avec deux nuls et montre une bonne dynamique offensive depuis la préparation. Norwich a perdu ses deux premiers matchs de championnat, dont un 3-0 à Millwall.",
+        "keyFactors": [
+          "Cardiff a fait 1-1 contre Wrexham puis 2-2 à Derby.",
+          "Norwich a perdu 2-1 contre West Brom puis 3-0 à Millwall.",
+          "Cardiff joue à domicile et arrive avec une dynamique plus stable."
+        ],
+        "uncertainty": "Norwich avait gagné 4-1 au premier tour de coupe et peut rebondir avec une composition différente.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF15 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-24T01:55:50+02:00"
+          },
+          {
+            "label": "EFL — calendrier Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-24T01:56:20+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats de Cardiff",
+            "url": "https://www.skysports.com/cardiff-city-scores-fixtures",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats de Norwich",
+            "url": "https://www.skysports.com/norwich-city",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Derby 2-2 Cardiff",
+            "url": "https://www.skysports.com/football/news/11696/13575429/derby-county-2-2-cardiff-city-bobby-clark-earns-point-for-rams",
+            "accessedAt": "2026-08-24T01:57:00+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t01","label":"Scénario 1","selections":["2","2","1","1","2","1","1","2","2","1","2","2","2","2","1"],"rationale":"Scénario central fondé sur les issues les plus probables match par match."},
+    {"id":"t02","label":"Scénario 2","selections":["N","N","1","1","2","1","2","2","2","N","N","2","2","2","N"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t03","label":"Scénario 3","selections":["1","2","1","1","2","1","N","2","2","N","N","2","2","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t04","label":"Scénario 4","selections":["N","1","1","1","2","1","N","2","2","1","2","2","2","2","N"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t05","label":"Scénario 5","selections":["N","2","1","1","2","1","2","2","2","N","2","2","N","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t06","label":"Scénario 6","selections":["N","2","1","N","2","1","2","2","2","1","N","2","2","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t07","label":"Scénario 7","selections":["N","N","1","N","2","1","1","2","2","N","2","2","2","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t08","label":"Scénario 8","selections":["N","2","1","1","2","1","1","2","2","N","2","N","2","2","N"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t09","label":"Scénario 9","selections":["N","N","1","1","2","1","2","N","2","1","2","2","2","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t10","label":"Scénario 10","selections":["1","2","1","1","2","1","2","2","2","2","2","2","2","2","N"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t11","label":"Scénario 11","selections":["N","2","1","1","2","1","1","N","2","1","N","2","2","2","N"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t12","label":"Scénario 12","selections":["2","2","1","N","2","1","N","2","2","N","2","2","2","2","N"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t13","label":"Scénario 13","selections":["N","2","1","1","2","1","1","2","N","N","1","2","2","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t14","label":"Scénario 14","selections":["2","N","1","1","2","1","N","2","2","N","2","N","2","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t15","label":"Scénario 15","selections":["N","2","1","1","N","1","N","2","2","1","1","2","2","2","1"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."},
+    {"id":"t16","label":"Scénario 16","selections":["1","1","1","1","2","1","1","2","2","N","2","2","2","2","2"],"rationale":"Scénario diversifié couvrant plusieurs issues incertaines, avec une attention renforcée aux nuls et aux rotations de coupe."}
+  ]
+}
