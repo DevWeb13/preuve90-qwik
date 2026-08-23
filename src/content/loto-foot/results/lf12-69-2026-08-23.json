@@ -1,0 +1,82 @@
+{
+  "id": "lf12-69-2026-08-23-result",
+  "publicationId": "lf12-69-2026-08-23",
+  "gridNumber": 69,
+  "settledAt": "2026-08-24T00:40:15+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/561",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N"
+    },
+    {
+      "position": 2,
+      "selection": "2"
+    },
+    {
+      "position": 3,
+      "selection": "2"
+    },
+    {
+      "position": 4,
+      "selection": "N"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "N"
+    },
+    {
+      "position": 8,
+      "selection": "1"
+    },
+    {
+      "position": 9,
+      "selection": "1"
+    },
+    {
+      "position": 10,
+      "selection": "2"
+    },
+    {
+      "position": 11,
+      "selection": "1"
+    },
+    {
+      "position": 12,
+      "selection": "2"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 12,
+      "amountCents": 224700
+    },
+    {
+      "correctSelections": 11,
+      "amountCents": 5380
+    },
+    {
+      "correctSelections": 10,
+      "amountCents": 670
+    },
+    {
+      "correctSelections": 9,
+      "amountCents": 150
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 12 n°69",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/561",
+      "accessedAt": "2026-08-24T00:40:15+02:00"
+    }
+  ]
+}
