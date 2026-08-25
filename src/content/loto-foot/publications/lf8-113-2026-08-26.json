@@ -1,0 +1,384 @@
+{
+  "id": "lf8-113-2026-08-26",
+  "formula": 8,
+  "gridNumber": 113,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-26T20:40:00+02:00",
+  "publishedAt": "2026-08-25T06:01:23+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Real Sociedad",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-26T21:00:00+02:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 19,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "Le Real Madrid reste nettement favori au Bernabéu après son succès 2-1 chez l'Espanyol, tandis que la Real Sociedad a perdu son premier match 1-0 et aborde ce déplacement avec moins de garanties.",
+        "keyFactors": [
+          "Avantage du terrain et profondeur d'effectif du Real Madrid.",
+          "Madrid a gagné 2-1 à l'Espanyol pour son entrée en Liga.",
+          "La Real Sociedad a perdu son premier match et a montré une préparation irrégulière."
+        ],
+        "uncertainty": "Le Real enchaîne trois rencontres de Liga en huit jours, ce qui peut entraîner de la rotation et réduit légèrement la confiance dans un favori très marqué.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "Real Madrid — calendrier du début de saison",
+            "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-de-este-inicio-de-temporada-09-08-2026",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "LALIGA — Real Madrid vs Real Sociedad",
+            "url": "https://www.laliga.com/es-MX/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-real-sociedad-1",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Fenerbahçe",
+      "competition": "UEFA Champions League - barrages",
+      "startsAt": "2026-08-26T21:00:00+02:00",
+      "probabilities": {
+        "home": 50,
+        "draw": 28,
+        "away": 22
+      },
+      "analysis": {
+        "summary": "Le 1-1 de l'aller laisse la qualification totalement ouverte, mais Lyon reçoit après une victoire 2-0 à Toulouse et bénéficie d'un léger avantage sportif et territorial pour le retour.",
+        "keyFactors": [
+          "Score de l'aller 1-1 : aucune équipe ne peut se contenter de gérer une avance.",
+          "Lyon vient de gagner 2-0 à Toulouse en Ligue 1.",
+          "Lyon a l'avantage du terrain pour le match décisif."
+        ],
+        "uncertainty": "Un match retour à égalité peut rester fermé longtemps ou basculer sur un événement ; le nul à 90 minutes demeure très plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "UEFA — Lyon vs Fenerbahçe, faits du retour",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2166fb6bd14f-ebaf6954be95-1000--champions-league-qualifying-play-offs-second-leg-lyon-vs-f/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "Reuters — Lyon gagne 2-0 à Toulouse",
+            "url": "https://www.reuters.com/sports/soccer/wins-lens-lyon-opening-ligue-1-weekend-2026-08-22/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "AEK Athènes",
+      "awayTeam": "Levski Sofia",
+      "competition": "UEFA Champions League - barrages",
+      "startsAt": "2026-08-26T21:00:00+02:00",
+      "probabilities": {
+        "home": 49,
+        "draw": 30,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "Après le 0-0 de l'aller, l'AEK garde un avantage modéré grâce au terrain, mais Levski arrive avec une longue série sans défaite et rend crédible un nouveau match serré.",
+        "keyFactors": [
+          "Aller terminé 0-0 : aucune avance à gérer.",
+          "L'AEK joue le retour à domicile.",
+          "Levski reste sur une longue série sans défaite, ce qui renforce la probabilité d'un match disputé."
+        ],
+        "uncertainty": "Le score vierge de l'aller favorise une approche prudente ; un but tardif ou une prolongation potentielle rendent le nul en 90 minutes important à couvrir.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "beIN SPORTS — AEK Athènes vs Levski Sofia",
+            "url": "https://www.beinsports.com/en-us/soccer/uefa-champions-league/aek-athens-vs-levski-sofia-2026-08-26",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "Football Whispers — forme récente AEK-Levski",
+            "url": "https://footballwhispers.com/blog/aek-athens-vs-levski-sofia-prediction-preview-betting-tips-26-08-2026/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Viking FK",
+      "awayTeam": "GNK Dinamo Zagreb",
+      "competition": "UEFA Champions League - barrages",
+      "startsAt": "2026-08-26T21:00:00+02:00",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "analysis": {
+        "summary": "Le 2-2 de Zagreb laisse les deux équipes au même point. Viking récupère le terrain, mais le Dinamo a dominé nettement le volume d'occasions à l'aller et conserve un très léger avantage qualitatif.",
+        "keyFactors": [
+          "Aller 2-2 après une remontée de Viking de 0-2 à 2-2.",
+          "Le Dinamo a produit beaucoup plus de tirs et d'occasions à l'aller.",
+          "Viking joue le retour à Stavanger et a déjà prouvé son efficacité offensive dans cette confrontation."
+        ],
+        "uncertainty": "Les trois issues sont proches : la domination statistique du Dinamo est contrebalancée par l'avantage domicile de Viking et l'égalité parfaite au score cumulé.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "UEFA — Viking vs GNK Dinamo, faits du retour",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2166ff72dedd-601828917b56-1000--champions-league-qualifying-play-offs-second-leg-viking-vs-g/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "GNK Dinamo — analyse du 2-2 à l'aller",
+            "url": "https://gnkdinamo.hr/en/news/dinamo-led-by-two-goals-with-furious-play-viking-managed-to-equalise-decision-next-wednesday-in-norway",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "NK Celje",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League - barrages",
+      "startsAt": "2026-08-26T21:00:00+02:00",
+      "probabilities": {
+        "home": 37,
+        "draw": 31,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "Celje reçoit après le 1-1 de Bratislava. L'avantage du terrain lui donne une courte préférence, mais l'expérience européenne du Slovan et l'équilibre de l'aller font du nul un scénario central.",
+        "keyFactors": [
+          "Aller terminé 1-1 à Bratislava.",
+          "Celje possède l'avantage du terrain au retour.",
+          "Le Slovan a un historique européen supérieur et avait largement éliminé Celje lors de leur précédente double confrontation en 2024/25."
+        ],
+        "uncertainty": "Aucun avantage au score cumulé et écart de niveau limité : une prolongation potentielle et donc un nul après 90 minutes sont très plausibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "UEFA — Celje vs Slovan Bratislava, faits du retour",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-21670869c042-c924548e4767-1000--champions-league-qualifying-play-offs-second-leg-celje-v/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Newcastle United",
+      "awayTeam": "West Bromwich Albion",
+      "competition": "Carabao Cup - 2e tour",
+      "startsAt": "2026-08-26T20:45:00+02:00",
+      "probabilities": {
+        "home": 51,
+        "draw": 26,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Newcastle reste favori à St James' Park grâce à l'écart de niveau théorique, mais un deuxième tour de Coupe de la Ligue implique une forte incertitude de rotation et laisse une vraie fenêtre à West Brom.",
+        "keyFactors": [
+          "Avantage domicile pour Newcastle.",
+          "Écart de division favorable à Newcastle.",
+          "Le contexte de coupe en début de saison augmente le risque de rotation du favori."
+        ],
+        "uncertainty": "Les compositions sont difficiles à anticiper avant un match de coupe ; une équipe de Newcastle largement remaniée réduirait fortement son avantage.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "Newcastle United Supporters Club — calendrier Newcastle-West Brom",
+            "url": "https://nusc.uk/fixtures/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "Sky Sports — Newcastle vs West Brom, forme",
+            "url": "https://www.skysports.com/football/newcastle-united-vs-west-bromwich-albion/577432",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Preston North End",
+      "awayTeam": "Everton",
+      "competition": "Carabao Cup - 2e tour",
+      "startsAt": "2026-08-26T21:00:00+02:00",
+      "probabilities": {
+        "home": 17,
+        "draw": 25,
+        "away": 58
+      },
+      "analysis": {
+        "summary": "Everton part favori à Deepdale : la dynamique récente et l'écart de qualité sont en sa faveur, alors que Preston traverse un début de saison difficile.",
+        "keyFactors": [
+          "Everton est favori du marché autour de 1,50-1,55.",
+          "Preston reste sur une série récente très négative.",
+          "La supériorité d'effectif d'Everton compense en partie le risque de rotation."
+        ],
+        "uncertainty": "La rotation de coupe et le terrain de Preston empêchent de traiter Everton comme un favori absolu ; le nul reste un scénario de couverture pertinent.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "talkSPORT — Preston-Everton et tirage de la Carabao Cup",
+            "url": "https://talksport.com/football/4533548/carabao-cup-third-round-draw-date-ball-numbers/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "The Football Faithful — Preston vs Everton, forme et marché",
+            "url": "https://thefootballfaithful.com/preston-north-end-vs-everton-prediction-betting-tips-26-08-2026/",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Bradford City",
+      "awayTeam": "Burnley",
+      "competition": "Carabao Cup - 2e tour",
+      "startsAt": "2026-08-26T20:45:00+02:00",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "analysis": {
+        "summary": "Burnley a l'avantage théorique de niveau, mais Bradford arrive avec une meilleure dynamique récente et joue à domicile. L'affiche est bien plus équilibrée qu'un simple écart de division.",
+        "keyFactors": [
+          "Bradford affiche plusieurs victoires récentes et a gagné 2-0 au tour précédent.",
+          "Burnley a eu besoin des tirs au but au tour précédent après un 1-1.",
+          "Le marché ne donne qu'un avantage modéré à Burnley, autour de 2,2 pour la victoire extérieure."
+        ],
+        "uncertainty": "La rotation probable des deux équipes en coupe et la bonne forme de Bradford rendent les trois issues crédibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°113",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "Football365 — Bradford City vs Burnley, forme",
+            "url": "https://livescore.football365.com/en-gb/match/bradford-city-vs-burnley",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          },
+          {
+            "label": "Feedinco — Bradford-Burnley, forme et marché",
+            "url": "https://www.feedinco.com/blog/upcoming-football-matches",
+            "accessedAt": "2026-08-25T06:00:16+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario principal",
+      "selections": ["1", "1", "1", "2", "1", "1", "2", "2"],
+      "rationale": "Favoris principaux avec Dinamo devant de très peu à Viking et Burnley légèrement supérieur à Bradford."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls européens",
+      "selections": ["1", "N", "1", "2", "N", "1", "2", "2"],
+      "rationale": "Renforce les deux retours les plus propices à un nul à 90 minutes."
+    },
+    {
+      "id": "t03",
+      "label": "Barrage fermé",
+      "selections": ["1", "1", "N", "1", "N", "1", "2", "N"],
+      "rationale": "Couvre un AEK-Levski fermé, Viking à domicile et un Bradford-Burnley indécis."
+    },
+    {
+      "id": "t04",
+      "label": "Volatilité coupe",
+      "selections": ["1", "N", "N", "2", "1", "N", "2", "1"],
+      "rationale": "Ajoute les risques de rotation à Newcastle et la possibilité d'une surprise de Bradford."
+    },
+    {
+      "id": "t05",
+      "label": "Retours indécis",
+      "selections": ["1", "1", "1", "N", "2", "1", "2", "2"],
+      "rationale": "Couvre un nul Viking-Dinamo et un succès extérieur du Slovan."
+    },
+    {
+      "id": "t06",
+      "label": "Nul Madrid exclu favori",
+      "selections": ["N", "1", "1", "2", "N", "1", "2", "N"],
+      "rationale": "Scénario plus rémunérateur combinant un accroc du Real et deux nuls très plausibles."
+    },
+    {
+      "id": "t07",
+      "label": "Outsiders contrôlés",
+      "selections": ["1", "2", "1", "2", "1", "1", "2", "1"],
+      "rationale": "Couvre Fenerbahçe à Lyon et Bradford à domicile sans multiplier les surprises."
+    },
+    {
+      "id": "t08",
+      "label": "Bascule européenne",
+      "selections": ["1", "N", "2", "1", "N", "2", "2", "2"],
+      "rationale": "Couvre Levski et Viking tout en intégrant une surprise West Brom dans un scénario très dispersé."
+    },
+    {
+      "id": "t09",
+      "label": "Coupe à pièges",
+      "selections": ["1", "1", "N", "2", "1", "N", "N", "2"],
+      "rationale": "Deux nuls de coupe et AEK-Levski nul, avec les favoris européens conservés."
+    },
+    {
+      "id": "t10",
+      "label": "Double surprise",
+      "selections": ["2", "1", "1", "N", "N", "1", "2", "1"],
+      "rationale": "Scénario à forte valeur couvrant Real Sociedad et Bradford, tout en gardant Lyon et Newcastle."
+    },
+    {
+      "id": "t11",
+      "label": "Portefeuille nuls",
+      "selections": ["1", "N", "1", "1", "2", "N", "2", "N"],
+      "rationale": "Renforce les nuls Lyon, Newcastle et Bradford tout en variant Viking et Slovan."
+    },
+    {
+      "id": "t12",
+      "label": "Scénario alternatif",
+      "selections": ["N", "1", "N", "2", "1", "2", "2", "2"],
+      "rationale": "Couvre un nul du Real, un nul AEK-Levski et une victoire de West Brom, sans être un quasi-clone des autres tickets."
+    }
+  ]
+}
