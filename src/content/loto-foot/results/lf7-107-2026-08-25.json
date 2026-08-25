@@ -1,0 +1,54 @@
+{
+  "id": "lf7-107-2026-08-25-result",
+  "publicationId": "lf7-107-2026-08-25",
+  "gridNumber": 107,
+  "settledAt": "2026-08-26T00:47:31+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4924",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2"
+    },
+    {
+      "position": 2,
+      "selection": "1"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "2"
+    },
+    {
+      "position": 5,
+      "selection": "N"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "2"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 7,
+      "amountCents": 18000
+    },
+    {
+      "correctSelections": 6,
+      "amountCents": 2200
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 7 n°107",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4924",
+      "accessedAt": "2026-08-26T00:47:31+02:00"
+    }
+  ]
+}
