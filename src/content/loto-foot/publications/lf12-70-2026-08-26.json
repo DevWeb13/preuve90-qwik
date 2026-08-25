@@ -1,0 +1,595 @@
+{
+  "id": "lf12-70-2026-08-26",
+  "formula": 12,
+  "gridNumber": 70,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-26T18:40:00+02:00",
+  "publishedAt": "2026-08-25T02:03:16+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Real Sociedad",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 66,
+        "draw": 20,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Le Real Madrid part favori au Bernabéu après sa victoire 2-1 chez l'Espanyol, tandis que la Real Sociedad a perdu 1-0 au Betis et reste sur une préparation plus irrégulière.",
+        "keyFactors": [
+          "Avantage domicile et profondeur d'effectif du Real Madrid.",
+          "Madrid a gagné son premier match de Liga 2-1 à l'Espanyol.",
+          "La Real Sociedad a perdu 1-0 au Betis et plusieurs amicaux récents."
+        ],
+        "uncertainty": "Le calendrier très condensé du Real et le manque de rythme de certains cadres réduisent l'écart par rapport à un favori écrasant.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Real Madrid — horaires des trois premières journées",
+            "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/ya-se-conocen-los-horarios-de-las-tres-primeras-jornadas-de-liga-14-07-2026",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Reuters — Real Madrid bat l'Espanyol 2-1",
+            "url": "https://www.reuters.com/sports/soccer/espi-snatches-last-gasp-winner-real-madrid-laliga-opener-2026-08-22/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Goal — résultats récents de la Real Sociedad",
+            "url": "https://www.goal.com/en-us/team/real-sociedad/fixtures-results/63f5h8t5e9qm1fqmvfkb23ghh",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T21:00:00+02:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Fenerbahçe",
+      "competition": "UEFA Champions League - barrages",
+      "probabilities": {
+        "home": 46,
+        "draw": 28,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Après le 1-1 de l'aller à Istanbul, Lyon reçoit avec un léger avantage lié au terrain, mais la confrontation reste très ouverte.",
+        "keyFactors": [
+          "Score de l'aller 1-1 : aucune équipe ne peut gérer une avance.",
+          "Lyon a éliminé le Sparta Prague 4-2 au tour précédent.",
+          "Fenerbahçe a éliminé Sturm Graz 3-0 au tour précédent."
+        ],
+        "uncertainty": "Le contexte de match retour augmente la volatilité : un nul peut mener à une prolongation, et les deux équipes ont montré une capacité à marquer dans ces qualifications.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats des barrages de Ligue des champions",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-results-dates-how-it-/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — faits marquants des barrages",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2158d9042004-6a05d60de24b-1000--champions-league-qualifying-play-off-round-match-previews-/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T21:00:00+02:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "AEK Athènes",
+      "awayTeam": "Levski Sofia",
+      "competition": "UEFA Champions League - barrages",
+      "probabilities": {
+        "home": 52,
+        "draw": 27,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "L'AEK reçoit après un 0-0 à Sofia. Le facteur domicile et la capacité à se créer les meilleures occasions à l'aller lui donnent l'avantage, sans écarter un match fermé.",
+        "keyFactors": [
+          "Aller terminé 0-0.",
+          "L'AEK a eu plusieurs situations nettes à l'aller, dont deux occasions de Luka Jović.",
+          "Levski n'a encore jamais gagné en trois déplacements européens en Grèce selon l'UEFA."
+        ],
+        "uncertainty": "Le 0-0 de l'aller laisse la qualification totalement ouverte et favorise un scénario prudent si le score reste vierge longtemps.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — preview des barrages AEK-Levski",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2158d9042004-6a05d60de24b-1000--champions-league-qualifying-play-off-round-match-previews-/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — calendrier Levski Sofia",
+            "url": "https://www.uefa.com/uefachampionsleague/clubs/50044--levski-sofia/matches/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T21:00:00+02:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Viking FK",
+      "awayTeam": "GNK Dinamo Zagreb",
+      "competition": "UEFA Champions League - barrages",
+      "probabilities": {
+        "home": 33,
+        "draw": 28,
+        "away": 39
+      },
+      "analysis": {
+        "summary": "Le 2-2 de l'aller à Zagreb place Viking et le Dinamo presque à égalité. Viking récupère l'avantage du terrain, mais le Dinamo garde un léger avantage de qualité et d'expérience européenne.",
+        "keyFactors": [
+          "Aller 2-2 à Zagreb.",
+          "Viking a montré qu'il pouvait marquer deux fois à l'extérieur.",
+          "Le Dinamo avait remporté son tour précédent 7-1 au total contre Kauno Žalgiris."
+        ],
+        "uncertainty": "L'équilibre de l'aller et l'obligation de gagner rendent les trois issues réellement plausibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — GNK Dinamo 2-2 Viking, match aller",
+            "url": "https://www.uefa.com/uefachampionsleague/match/2049210--gnk-dinamo-vs-viking/lineups/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats des qualifications",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-results-dates-how-it-/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T21:00:00+02:00"
+    },
+    {
+      "position": 5,
+      "homeTeam": "NK Celje",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League - barrages",
+      "probabilities": {
+        "home": 36,
+        "draw": 29,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Après le 1-1 de l'aller, Celje reçoit le Slovan dans l'une des affiches les plus équilibrées de la grille. Le terrain compense presque entièrement l'expérience européenne supérieure du Slovan.",
+        "keyFactors": [
+          "Aller terminé 1-1 à Bratislava.",
+          "Celje a éliminé Ararat-Armenia 3-2 au total au tour précédent.",
+          "Le Slovan a éliminé Mjällby 4-1 au total au tour précédent."
+        ],
+        "uncertainty": "Aucune équipe ne dispose d'un avantage de score et les écarts de niveau paraissent faibles ; le nul en 90 minutes est très crédible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats des barrages de Ligue des champions",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a6-20e5a8be4e63-ae971c582f8c-1000--champions-league-qualifying-fixtures-results-dates-how-it-/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T21:00:00+02:00"
+    },
+    {
+      "position": 6,
+      "homeTeam": "Newcastle United",
+      "awayTeam": "West Bromwich Albion",
+      "competition": "Carabao Cup - 2e tour",
+      "probabilities": {
+        "home": 44,
+        "draw": 27,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Newcastle reste favori à domicile, mais sa préparation a été peu convaincante alors que West Brom a démarré son Championship par deux victoires et arrive avec davantage de rythme compétitif.",
+        "keyFactors": [
+          "Avantage du terrain pour Newcastle.",
+          "West Brom a gagné ses deux premiers matchs de Championship et a marqué cinq buts.",
+          "Newcastle a perdu plusieurs amicaux récents avant un nul 1-1 contre Strasbourg."
+        ],
+        "uncertainty": "La rotation typique d'un deuxième tour de Coupe de la Ligue rend la composition de Newcastle difficile à anticiper et augmente le risque d'une surprise.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "EFL — calendrier officiel Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Newcastle vs West Brom, forme",
+            "url": "https://www.skysports.com/football/newcastle-united-vs-west-bromwich-albion/577432",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats récents de West Brom",
+            "url": "https://www.skysports.com/west-bromwich-albion",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T20:45:00+02:00"
+    },
+    {
+      "position": 7,
+      "homeTeam": "Preston North End",
+      "awayTeam": "Everton",
+      "competition": "Carabao Cup - 2e tour",
+      "probabilities": {
+        "home": 18,
+        "draw": 25,
+        "away": 57
+      },
+      "analysis": {
+        "summary": "Everton arrive avec une dynamique supérieure après un succès 2-0 contre Crystal Palace, tandis que Preston a perdu ses deux premiers matchs de Championship.",
+        "keyFactors": [
+          "Everton a battu Crystal Palace 2-0 en Premier League.",
+          "Preston a perdu 2-1 à Bolton puis 3-1 contre Wolverhampton.",
+          "Everton avait aussi gagné 3-1 à Newcastle en amical."
+        ],
+        "uncertainty": "Everton peut effectuer une rotation importante en coupe, ce qui maintient une chance non négligeable pour Preston à domicile.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "EFL — calendrier officiel Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Preston vs Everton, forme",
+            "url": "https://www.skysports.com/football/preston-north-end-vs-everton/577434",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats récents d'Everton",
+            "url": "https://www.skysports.com/everton",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T21:00:00+02:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Bradford City",
+      "awayTeam": "Burnley",
+      "competition": "Carabao Cup - 2e tour",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Bradford est en grande forme et n'a pas encaissé lors de ses trois premiers matchs officiels, ce qui justifie de le placer légèrement devant un Burnley plus irrégulier malgré l'écart de division.",
+        "keyFactors": [
+          "Bradford a battu Rochdale 2-0, Peterborough 2-0 et Sheffield Wednesday 1-0.",
+          "Burnley a dû passer aux tirs au but contre Notts County après un 1-1.",
+          "Burnley a ensuite fait 2-2 contre West Ham avant de perdre 3-1 à West Brom."
+        ],
+        "uncertainty": "L'écart théorique de niveau reste en faveur de Burnley et une rotation de Bradford ou un retour à la moyenne peut inverser le rapport de force.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "EFL — calendrier officiel Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats récents de Bradford City",
+            "url": "https://www.skysports.com/bradford-city",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats récents de Burnley",
+            "url": "https://www.skysports.com/burnley-scores-fixtures",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T20:45:00+02:00"
+    },
+    {
+      "position": 9,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Charlton Athletic",
+      "competition": "Carabao Cup - 2e tour",
+      "probabilities": {
+        "home": 50,
+        "draw": 25,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Tottenham possède davantage de talent individuel et joue à domicile, mais son lourd revers 3-0 à Brentford et la forme parfaite de Charlton imposent de réduire nettement le poids du favori.",
+        "keyFactors": [
+          "Tottenham a perdu 3-0 à Brentford avec un faible volume offensif.",
+          "Charlton a gagné ses trois premiers matchs officiels, dont 2-1 à West Ham.",
+          "Plusieurs joueurs de Tottenham sont signalés indisponibles."
+        ],
+        "uncertainty": "Le niveau de rotation de Tottenham et sa réaction après l'ouverture ratée de Premier League sont difficiles à prévoir.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "EFL — calendrier officiel Carabao Cup",
+            "url": "https://www.efl.com/competitions/carabao-cup/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports — Tottenham vs Charlton, forme",
+            "url": "https://www.skysports.com/football/tottenham-hotspur-vs-charlton-athletic/577440",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "The Guardian — Brentford 3-0 Tottenham",
+            "url": "https://www.theguardian.com/football/live/2026/aug/22/brentford-v-tottenham-premier-league-live",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "talkSPORT — avant-match Tottenham-Charlton",
+            "url": "https://talksport.com/football/4534215/tottenham-charlton-live-commentary-carabao-cup/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T20:45:00+02:00"
+    },
+    {
+      "position": 10,
+      "homeTeam": "Mamelodi Sundowns",
+      "awayTeam": "AmaZulu",
+      "competition": "Betway Premiership",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Mamelodi Sundowns reste la référence du football sud-africain et reçoit AmaZulu, mais le début de championnat d'AmaZulu et le calendrier chargé des Sundowns empêchent d'aller vers une probabilité extrême.",
+        "keyFactors": [
+          "Sundowns est champion d'Afrique 2026.",
+          "Sundowns a fait 1-1 chez Kaizer Chiefs en championnat.",
+          "AmaZulu a gagné 2-0 contre Siwelele lors de son premier résultat récent listé par la PSL.",
+          "Sundowns joue aussi une demi-finale de MTN8 trois jours avant."
+        ],
+        "uncertainty": "La fatigue liée au calendrier de Sundowns et le faible échantillon de début de saison augmentent l'incertitude.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "PSL — calendrier, résultats et classement",
+            "url": "https://www.psl.co.za/news/article/5615564-betway-premiership-fixtures-results-a",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Reuters — Sundowns champion d'Afrique 2026",
+            "url": "https://www.reuters.com/sports/soccer/mamelodi-sundowns-claim-african-champions-league-title-with-draw-rabat-2026-05-24/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T19:30:00+02:00"
+    },
+    {
+      "position": 11,
+      "homeTeam": "Diriyah Club",
+      "awayTeam": "Al Kholood",
+      "competition": "Saudi Pro League",
+      "probabilities": {
+        "home": 44,
+        "draw": 28,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Diriyah a gagné 1-0 à Al-Hazem après une défaite inaugurale, mais Al Kholood arrive avec deux victoires récentes et avait déjà perdu 3-1 contre Diriyah en amical. Le duel paraît plus équilibré que ne le suggère l'avantage du terrain.",
+        "keyFactors": [
+          "Diriyah a battu Al Kholood 3-1 en amical le 8 août.",
+          "Diriyah a gagné 1-0 à Al-Hazem en championnat.",
+          "Al Kholood reste sur un 5-0 en coupe puis un 3-2 contre Al-Taawoun."
+        ],
+        "uncertainty": "Les sources divergent sur l'heure exacte et la saison n'offre encore qu'un très petit échantillon compétitif.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "FOX Sports — forme récente Diriyah et Al Kholood",
+            "url": "https://www.foxsports.com/soccer/saudi-pro-league-diriyah-club-vs-al-kholood-aug-26-2026-game-boxscore-947436",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "BeSoccer — résultats récents d'Al Diriyah",
+            "url": "https://www.besoccer.com/team/matches/al-draih/2026",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "Goal — résultats récents d'Al Kholood",
+            "url": "https://www.goal.com/en-sa/team/al-kholood/fixtures-results/3eha2sarrs9ttx6mnxl92wacq",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "SK Rapid",
+      "awayTeam": "Heart of Midlothian",
+      "competition": "UEFA Conference League - barrages",
+      "probabilities": {
+        "home": 48,
+        "draw": 29,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Le 2-2 de l'aller laisse le barrage ouvert, mais Rapid reçoit et a produit une campagne européenne offensive, ce qui lui donne un avantage modéré.",
+        "keyFactors": [
+          "Aller terminé 2-2 à Édimbourg.",
+          "Rapid a marqué 17 buts en cinq matchs de Conference League avant le retour.",
+          "Rapid a éliminé Paide 6-1 au total au tour précédent."
+        ],
+        "uncertainty": "Hearts a déjà montré à l'aller sa capacité à revenir au score ; l'égalité au cumul rend le nul en 90 minutes particulièrement plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°70",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats de Conference League",
+            "url": "https://www.uefa.com/uefaconferenceleague/news/02a6-20e5e911587f-cc10425958b3-1000--conference-league-qualifying-fixtures-dates-how-it-works/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          },
+          {
+            "label": "UEFA — statistiques du SK Rapid",
+            "url": "https://www.uefa.com/uefaconferenceleague/clubs/50042--rapid-wien/",
+            "accessedAt": "2026-08-25T02:02:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-08-26T18:45:00+02:00"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": ["1", "1", "1", "2", "1", "1", "2", "1", "1", "1", "1", "1"],
+      "rationale": "Favoris principaux retenus, avec avantage local sur les barrages les plus ouverts."
+    },
+    {
+      "id": "t02",
+      "label": "Scénario nuls européens",
+      "selections": ["1", "1", "1", "1", "2", "1", "2", "N", "1", "1", "1", "1"],
+      "rationale": "Renforce les nuls sur les retours UEFA équilibrés et sur Bradford-Burnley."
+    },
+    {
+      "id": "t03",
+      "label": "Scénario outsiders de coupe",
+      "selections": ["1", "1", "1", "N", "2", "2", "2", "1", "1", "1", "1", "1"],
+      "rationale": "Couvre West Brom et Charlton, dont la forme récente rend les surprises crédibles."
+    },
+    {
+      "id": "t04",
+      "label": "Scénario Rapid prudent",
+      "selections": ["1", "1", "1", "1", "N", "1", "2", "1", "1", "1", "N", "1"],
+      "rationale": "Introduit le nul de Rapid-Hearts et une issue plus prudente sur Celje-Slovan."
+    },
+    {
+      "id": "t05",
+      "label": "Scénario Newcastle fragile",
+      "selections": ["1", "1", "1", "2", "2", "1", "2", "2", "1", "1", "N", "1"],
+      "rationale": "Couvre West Brom et un nul sur Diriyah-Al Kholood tout en gardant les favoris majeurs."
+    },
+    {
+      "id": "t06",
+      "label": "Scénario coupes ouvertes",
+      "selections": ["1", "1", "1", "2", "2", "N", "2", "1", "1", "1", "2", "1"],
+      "rationale": "Ajoute un nul Newcastle-West Brom et une surprise Charlton."
+    },
+    {
+      "id": "t07",
+      "label": "Scénario retours serrés",
+      "selections": ["1", "1", "1", "N", "N", "1", "2", "2", "1", "1", "1", "1"],
+      "rationale": "Concentre la couverture sur les nuls de Viking-Dinamo et Celje-Slovan."
+    },
+    {
+      "id": "t08",
+      "label": "Scénario Everton et West Brom",
+      "selections": ["1", "1", "1", "1", "1", "2", "2", "2", "1", "1", "1", "1"],
+      "rationale": "Conserve Everton fort tout en couvrant West Brom à Newcastle et Charlton à Tottenham."
+    },
+    {
+      "id": "t09",
+      "label": "Scénario Viking-Dinamo élargi",
+      "selections": ["1", "1", "1", "2", "N", "2", "2", "N", "1", "1", "1", "1"],
+      "rationale": "Couvre le nul à Viking et Bradford-Burnley sans abandonner les favoris principaux."
+    },
+    {
+      "id": "t10",
+      "label": "Scénario Lyon nul",
+      "selections": ["1", "N", "1", "2", "2", "1", "2", "1", "1", "1", "1", "N"],
+      "rationale": "Protège un nul Lyon-Fenerbahçe avec surprises de coupe sélectionnées."
+    },
+    {
+      "id": "t11",
+      "label": "Scénario Lyon nul prudent",
+      "selections": ["1", "N", "1", "1", "1", "1", "2", "1", "1", "1", "2", "1"],
+      "rationale": "Associe le nul de Lyon au succès de Bradford et à une victoire de Charlton."
+    },
+    {
+      "id": "t12",
+      "label": "Scénario Diriyah outsider",
+      "selections": ["1", "1", "1", "1", "2", "1", "2", "1", "1", "1", "1", "2"],
+      "rationale": "Couvre Al Kholood et un nul Bradford-Burnley avec un socle de favoris."
+    },
+    {
+      "id": "t13",
+      "label": "Scénario Rapid nul",
+      "selections": ["1", "1", "1", "1", "1", "N", "2", "1", "1", "1", "1", "N"],
+      "rationale": "Couvre explicitement le nul de Rapid-Hearts et Newcastle favori."
+    },
+    {
+      "id": "t14",
+      "label": "Scénario Newcastle nul",
+      "selections": ["1", "1", "1", "N", "1", "1", "2", "N", "1", "1", "N", "1"],
+      "rationale": "Associe nul Newcastle-West Brom, nul Viking-Dinamo et nul Diriyah-Al Kholood."
+    },
+    {
+      "id": "t15",
+      "label": "Scénario Lyon et Newcastle nuls",
+      "selections": ["1", "N", "1", "1", "2", "N", "2", "1", "1", "1", "1", "1"],
+      "rationale": "Double couverture des deux affiches à forte incertitude, avec Everton favori."
+    },
+    {
+      "id": "t16",
+      "label": "Scénario AEK renversé",
+      "selections": ["1", "2", "1", "2", "N", "1", "2", "1", "1", "1", "2", "1"],
+      "rationale": "Couvre une surprise Levski ainsi que les nuls Viking-Dinamo et Celje-Slovan."
+    }
+  ]
+}
