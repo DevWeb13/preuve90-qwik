@@ -1,0 +1,294 @@
+{
+  "id": "lf15-71-2026-08-29",
+  "formula": 15,
+  "gridNumber": 71,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-29T19:55:00+02:00",
+  "publishedAt": "2026-08-26T06:00:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Olympique de Marseille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-30T20:45:00+02:00",
+      "probabilities": {"home": 32, "draw": 29, "away": 39},
+      "analysis": {
+        "summary": "Marseille arrive avec une dynamique offensive supérieure, tandis que Monaco conserve l'avantage du terrain mais cumule plusieurs incertitudes physiques.",
+        "keyFactors": ["Marseille a ouvert sa saison par un succès 4-0 contre Strasbourg.", "Monaco a gagné 1-0 au Havre mais plusieurs joueurs importants sont annoncés indisponibles ou incertains."],
+        "uncertainty": "Les listes d'absents peuvent encore évoluer et l'écart réel reste difficile à mesurer après une seule journée.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "FotMob — Monaco vs Marseille", "url": "https://www.fotmob.com/matches/marseille-vs-monaco/2t0yak", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Le Havre AC",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {"home": 61, "draw": 24, "away": 15},
+      "analysis": {
+        "summary": "Lyon possède l'avantage du terrain et une meilleure dynamique récente, malgré la charge européenne.",
+        "keyFactors": ["Lyon a gagné 2-0 à Toulouse.", "Le Havre a perdu 0-1 contre Monaco.", "Lyon reste engagé en Europe."],
+        "uncertainty": "La proximité du barrage européen peut entraîner de la rotation.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "FotMob — Lyon vs Le Havre", "url": "https://www.fotmob.com/fr/matches/-vs-lyon/354y61", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "FC Lorient",
+      "awayTeam": "ESTAC Troyes",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {"home": 42, "draw": 31, "away": 27},
+      "analysis": {
+        "summary": "Lorient est légèrement favori à domicile, mais Troyes a montré une préparation solide et le nul reste important.",
+        "keyFactors": ["Lorient a fait 0-0 à Nice.", "Troyes a fait 0-0 contre le Paris FC.", "Troyes reste sur une préparation plutôt régulière."],
+        "uncertainty": "Les deux équipes ont encore peu de données compétitives en 2026-2027.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "FotMob — Lorient vs Troyes", "url": "https://www.fotmob.com/matches/lorient-vs-troyes/2yp2yn", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Rue des Joueurs — Lorient vs Troyes", "url": "https://www.ruedesjoueurs.com/pronostic/lorient-troyes-5802912.html", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Stade Brestois 29",
+      "awayTeam": "Toulouse FC",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {"home": 39, "draw": 31, "away": 30},
+      "analysis": {
+        "summary": "Brest bénéficie du terrain mais sa préparation a été irrégulière et plusieurs cadres sont incertains; Toulouse reste proche.",
+        "keyFactors": ["Brest a fait 2-2 au Mans.", "Toulouse a perdu 0-2 contre Lyon.", "Magnetti et Chardonnet figurent parmi les incertitudes brestoises."],
+        "uncertainty": "Les absences brestoises peuvent modifier sensiblement l'équilibre.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "FotMob — Brest vs Toulouse", "url": "https://www.fotmob.com/matches/brest-vs-toulouse/2th5t2", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "AJ Auxerre",
+      "awayTeam": "Angers SCO",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {"home": 40, "draw": 31, "away": 29},
+      "analysis": {
+        "summary": "Auxerre garde un petit avantage à domicile, mais sa lourde défaite à Lens et plusieurs absences invitent à la prudence.",
+        "keyFactors": ["Auxerre a perdu 5-2 à Lens.", "Angers a perdu 0-2 contre Lille.", "Les deux effectifs comptent plusieurs absents."],
+        "uncertainty": "Les deux équipes sortent d'une première journée négative et leur réaction est difficile à quantifier.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "FotMob — Auxerre vs Angers", "url": "https://www.fotmob.com/matches/angers-vs-auxerre/2b2l2f", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Paris FC",
+      "awayTeam": "OGC Nice",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-30T15:00:00+02:00",
+      "probabilities": {"home": 39, "draw": 34, "away": 27},
+      "analysis": {
+        "summary": "Paris FC a montré de la solidité et Nice reste sans but sur ses derniers matchs récents; le nul est central.",
+        "keyFactors": ["Paris FC a fait 0-0 à Troyes.", "Nice a fait 0-0 contre Lorient.", "Nice compte plusieurs indisponibilités."],
+        "uncertainty": "Nice possède un potentiel supérieur à ses derniers résultats et peut retrouver de l'efficacité rapidement.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "FotMob — Paris FC vs Nice", "url": "https://www.fotmob.com/matches/paris-fc-vs-nice/268cvm", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Stade Rennais FC",
+      "awayTeam": "Le Mans FC",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-30T17:15:00+02:00",
+      "probabilities": {"home": 58, "draw": 27, "away": 15},
+      "analysis": {
+        "summary": "Rennes est favori au Roazhon Park après un nul encourageant contre le PSG, mais Le Mans a déjà montré qu'il pouvait accrocher des clubs de Ligue 1.",
+        "keyFactors": ["Rennes a fait 2-2 contre le PSG.", "Le Mans a fait 2-2 contre Brest.", "Rennes possède davantage de profondeur d'effectif."],
+        "uncertainty": "Le Mans reste un promu encore difficile à calibrer.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "The Guardian — calendrier Ligue 1", "url": "https://www.theguardian.com/football/ligue1football/fixtures", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "The Sports — Ligue 1 2026-2027", "url": "https://www.the-sports.org/football-soccer-2026-2027-french-division-1-epr138830.html", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "EA Guingamp",
+      "awayTeam": "FC Nantes",
+      "competition": "Ligue 2",
+      "probabilities": {"home": 43, "draw": 31, "away": 26},
+      "analysis": {
+        "summary": "Guingamp reçoit un Nantes en grande difficulté sur ses derniers résultats; l'avantage domicile est réel mais limité.",
+        "keyFactors": ["Nantes reste sur plusieurs défaites, dont un 2-5 contre Rodez.", "Guingamp reçoit au Roudourou.", "Les projections externes disponibles placent Guingamp légèrement devant."],
+        "uncertainty": "Les sources consultées divergent sur l'heure exacte du coup d'envoi, donc startsAt est volontairement omis.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Football Nation — Nantes", "url": "https://footballnation.eu/football-club/nantes/", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "ExtraTips — Guingamp vs Nantes", "url": "https://extratips.fr/guingamp-vs-nantes-2026-08-29-cotes-pronostics-paris-h2h-resultats-live-center?id=19717626", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Málaga CF",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-30T17:00:00+02:00",
+      "probabilities": {"home": 76, "draw": 16, "away": 8},
+      "analysis": {
+        "summary": "Le Real Madrid est nettement favori au Bernabéu face à un Málaga qui n'a pas encore gagné, tout en limitant la surconfiance.",
+        "keyFactors": ["Le Real a gagné 2-1 chez l'Espanyol.", "Málaga compte un nul et une défaite après deux matchs.", "Le match se joue au Bernabéu."],
+        "uncertainty": "Le Real dispute trois matchs de Liga en huit jours et peut faire tourner.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "LALIGA — Real Madrid vs Málaga", "url": "https://www.laliga.com/es-GB/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-malaga-cf-3", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Real Madrid bat l'Espanyol", "url": "https://www.reuters.com/sports/soccer/espi-snatches-last-gasp-winner-real-madrid-laliga-opener-2026-08-22/", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Atlético de Madrid",
+      "competition": "LaLiga",
+      "probabilities": {"home": 37, "draw": 32, "away": 31},
+      "analysis": {
+        "summary": "Séville a mieux démarré le championnat et reçoit, mais l'Atlético reste de niveau proche; le nul est très plausible.",
+        "keyFactors": ["Séville a gagné ses deux premiers matchs et marqué cinq buts.", "L'Atlético compte une victoire et un nul.", "Les deux équipes ont déjà concédé deux buts."],
+        "uncertainty": "Deux journées seulement ont été jouées et les dynamiques peuvent changer rapidement.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "LALIGA — Sevilla FC vs Atlético de Madrid", "url": "https://www.laliga.com/es-MX/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-atletico-de-madrid-3", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "SSC Napoli",
+      "awayTeam": "Como 1907",
+      "competition": "Serie A",
+      "startsAt": "2026-08-30T18:30:00+02:00",
+      "probabilities": {"home": 48, "draw": 31, "away": 21},
+      "analysis": {
+        "summary": "Napoli est favori à domicile après son succès à Genoa, mais Como a souvent neutralisé Naples et reste dangereux.",
+        "keyFactors": ["Napoli a gagné 2-0 à Genoa.", "Como a terminé très haut la saison précédente.", "Les confrontations récentes de Serie A ont souvent produit des nuls."],
+        "uncertainty": "Napoli change de projet sous Allegri et Como reste capable de hausser son niveau face aux grands.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Lega Serie A — Napoli vs Como", "url": "https://en.legaseriea.it/serie-a/match/4115d1ee7b934f6681fb89aab9cade08/napoli-vs-como", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Napoli gagne à Genoa", "url": "https://www.reuters.com/sports/soccer/inter-begin-title-defence-with-stylish-4-1-win-over-monza-2026-08-22/", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Juventus",
+      "awayTeam": "Parma",
+      "competition": "Serie A",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {"home": 65, "draw": 22, "away": 13},
+      "analysis": {
+        "summary": "La Juventus est clairement favorite à domicile, mais son attaque n'a pas encore montré une grande marge.",
+        "keyFactors": ["La Juventus a gagné 1-0 à Frosinone.", "La Juventus a gagné quatre des six derniers duels recensés contre Parma.", "Parma a une suspension annoncée."],
+        "uncertainty": "Un match fermé augmenterait nettement la probabilité du nul.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Lega Serie A — Juventus vs Parma", "url": "https://en.legaseriea.it/serie-a/match/ebf6152ee01f4ade99512e302d6dea47/juventus-vs-parma", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Juventus bat Frosinone", "url": "https://www.reuters.com/sports/soccer/juve-boss-spalletti-demands-more-kolo-muani-2026-08-24/", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "SS Lazio",
+      "awayTeam": "Genoa CFC",
+      "competition": "Serie A",
+      "startsAt": "2026-08-30T20:45:00+02:00",
+      "probabilities": {"home": 49, "draw": 30, "away": 21},
+      "analysis": {
+        "summary": "La Lazio a réagi à son élimination en Coupe en gagnant à Bologne et part favorite à l'Olimpico; Genoa reste capable de fermer le jeu.",
+        "keyFactors": ["La Lazio a gagné 1-0 à Bologne.", "Genoa a perdu 0-2 contre Napoli.", "La Lazio reçoit à Rome."],
+        "uncertainty": "Le début de saison de la Lazio reste contrasté et Genoa peut rendre le match serré.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Bologna FC — Bologna 0-1 Lazio", "url": "https://www.bolognafc.it/en/bologna-0-1-lazio/", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Lega Serie A — calendrier premières journées", "url": "https://www.legaseriea.it/serie-a/news/date-orari-e-programmazione-tv-delle-prime-cinque-giornate", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Genoa vs Napoli", "url": "https://www.reuters.com/sports/soccer/inter-begin-title-defence-with-stylish-4-1-win-over-monza-2026-08-22/", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Manchester United",
+      "awayTeam": "Ipswich Town",
+      "competition": "Premier League",
+      "startsAt": "2026-08-30T17:30:00+02:00",
+      "probabilities": {"home": 48, "draw": 29, "away": 23},
+      "analysis": {
+        "summary": "Manchester United garde l'avantage d'Old Trafford, mais son revers 0-2 à Hull oblige à réduire fortement sa probabilité face à un Ipswich en confiance.",
+        "keyFactors": ["Manchester United a perdu 0-2 à Hull.", "Ipswich a battu Sunderland 2-1.", "United a recruté Carlos Baleba mais conserve plusieurs incertitudes physiques."],
+        "uncertainty": "La réaction de Manchester United est difficile à anticiper et Ipswich reste un promu.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Premier League — calendrier 2026-2027", "url": "https://www.premierleague.com/en/news/4675097", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Hull bat Manchester United", "url": "https://www.reuters.com/sports/soccer/hull-stun-manchester-united-2-0-premier-league-return-2026-08-22/", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Ipswich bat Sunderland", "url": "https://www.reuters.com/sports/soccer/ipswich-earn-cathartic-win-mark-premier-league-return-2026-08-22/", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Brighton & Hove Albion",
+      "competition": "Premier League",
+      "startsAt": "2026-08-30T15:00:00+02:00",
+      "probabilities": {"home": 47, "draw": 28, "away": 25},
+      "analysis": {
+        "summary": "Chelsea a gagné son premier match avec une attaque dynamique, mais Brighton arrive après un 4-0 à Aston Villa; le 1 reste seulement légèrement favori.",
+        "keyFactors": ["Chelsea a gagné 3-2 à Fulham.", "Brighton a gagné 4-0 à Aston Villa.", "Brighton joue un barrage européen le jeudi précédent."],
+        "uncertainty": "Les deux équipes ont montré beaucoup de potentiel offensif et leurs automatismes défensifs restent en construction.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°71", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Premier League — calendrier 2026-2027", "url": "https://www.premierleague.com/en/news/4675097", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Fulham 2-3 Chelsea", "url": "https://www.reuters.com/sports/soccer/chelsea-start-alonso-era-with-exciting-3-2-win-fulham-2026-08-24/", "accessedAt": "2026-08-26T05:59:58+02:00"},
+          {"label": "Reuters — Brighton bat Aston Villa 4-0", "url": "https://www.reuters.com/sports/soccer/late-gvardiol-strike-earns-maresca-winning-start-brighton-hammer-villa-2026-08-23/", "accessedAt": "2026-08-26T05:59:58+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t01","label":"Scénario central","selections":["2","1","1","N","1","N","1","1","1","N","1","1","1","1","1"],"rationale":"Socle le plus probable avec couverture des nuls principaux."},
+    {"id":"t02","label":"Favoris domestiques prudents","selections":["N","1","N","1","N","1","1","1","1","1","1","1","1","1","1"],"rationale":"Privilégie les équipes à domicile tout en gardant des nuls sur les duels les plus proches."},
+    {"id":"t03","label":"Marseille et surprises contrôlées","selections":["2","1","1","2","1","N","1","N","1","N","N","1","1","1","1"],"rationale":"Couvre Marseille, Toulouse, Como et Guingamp-Nantes nul sans dupliquer le socle."},
+    {"id":"t04","label":"Rééquilibrage nuls Ligue 1","selections":["1","1","N","N","N","N","1","1","1","2","1","1","1","1","1"],"rationale":"Renforce les nuls sur les rencontres françaises les plus équilibrées et couvre l'Atlético."},
+    {"id":"t05","label":"Outsiders ciblés","selections":["2","1","2","1","1","1","1","1","1","1","1","1","N","1","1"],"rationale":"Couvre des victoires extérieures plausibles sur Lorient-Troyes et Lazio-Genoa."},
+    {"id":"t06","label":"Scénario nul et Chelsea contrarié","selections":["N","1","1","N","2","1","1","1","1","N","1","1","1","1","2"],"rationale":"Scénario plus prudent sur Monaco, Auxerre et Chelsea-Brighton."},
+    {"id":"t07","label":"Europe et duels serrés","selections":["2","N","N","1","1","N","1","N","1","2","1","1","1","1","1"],"rationale":"Intègre un nul de Lyon après l'Europe et une victoire de l'Atlético."},
+    {"id":"t08","label":"Variantes visiteurs","selections":["1","1","1","2","N","1","1","1","1","N","N","1","1","1","1"],"rationale":"Scénario de retournement avec Monaco, Toulouse et Como."},
+    {"id":"t09","label":"Nice et Genoa couverts","selections":["2","1","N","N","1","2","1","1","1","1","1","1","N","1","1"],"rationale":"Couvre Nice et le nul Lazio-Genoa avec plusieurs matchs français neutralisés."},
+    {"id":"t10","label":"Nuls défensifs","selections":["N","1","1","1","1","N","1","N","1","N","1","1","1","N","1"],"rationale":"Renforce la sous-couverture historique du nul, notamment sur United-Ipswich."},
+    {"id":"t11","label":"Surprises structurées","selections":["2","1","2","N","N","1","1","1","1","2","1","N","1","1","1"],"rationale":"Couvre Troyes, Atlético et le nul de Juventus-Parma."},
+    {"id":"t12","label":"Guingamp contrarié","selections":["1","N","1","1","1","N","1","2","1","N","1","1","1","1","1"],"rationale":"Scénario où Lyon est tenu et Nantes surprend Guingamp."},
+    {"id":"t13","label":"Rennes et Brighton fragilisés","selections":["2","1","N","2","1","1","N","1","1","1","N","1","1","1","2"],"rationale":"Couvre une contre-performance rennaise, Como et Brighton."},
+    {"id":"t14","label":"Atletico et Genoa","selections":["N","1","1","N","1","1","1","1","1","2","1","1","2","1","1"],"rationale":"Scénario plus conservateur avec nuls à Monaco et Brest et victoire de l'Atlético."},
+    {"id":"t15","label":"Nantes et United freinés","selections":["2","1","1","1","N","N","1","2","1","N","1","1","1","2","1"],"rationale":"Couvre Nantes et un nul de Manchester United dans une combinaison distincte."},
+    {"id":"t16","label":"Parma et nuls","selections":["1","1","N","N","1","1","1","1","1","1","1","N","N","1","1"],"rationale":"Scénario de nuls renforcés et couverture d'un faux pas de la Juventus."}
+  ]
+}
