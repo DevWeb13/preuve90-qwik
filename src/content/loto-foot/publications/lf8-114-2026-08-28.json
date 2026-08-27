@@ -1,0 +1,407 @@
+{
+  "id": "lf8-114-2026-08-28",
+  "formula": 8,
+  "gridNumber": 114,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+  "validationDeadline": "2026-08-28T19:55:00+02:00",
+  "publishedAt": "2026-08-27T06:02:15+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lille",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-28T20:45:00+02:00",
+      "probabilities": {
+        "home": 30,
+        "draw": 30,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Le PSG reste légèrement favori par qualité intrinsèque, mais son nul 2-2 à Rennes et plusieurs absences importantes réduisent nettement l'écart face à un Lille solide, vainqueur 2-0 à Angers.",
+        "keyFactors": [
+          "Lille a gagné 2-0 à Angers lors de la première journée.",
+          "Le PSG reste sur un nul 2-2 à Rennes et n'a gagné qu'un de ses trois premiers matchs officiels.",
+          "Dembélé est annoncé absent ; Mendes est suspendu et Barcola ainsi que Mbaye sont également indisponibles, tandis qu'André revient côté lillois.",
+          "La mémoire statistique montre une sous-couverture persistante du nul, ce qui renforce la prudence sur ce match équilibré sans modifier mécaniquement l'analyse."
+        ],
+        "uncertainty": "Le potentiel offensif du PSG reste supérieur et peut faire basculer le match malgré les absences ; Lille n'a qu'un match de championnat comme référence récente.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "Ligue 1 — MPP : les infos de la J2",
+            "url": "https://ligue1.com/fr/articles/l1_article_5732-mpp-les-infos-de-la-j2-1",
+            "accessedAt": "2026-08-27T06:00:35+02:00"
+          },
+          {
+            "label": "Paris Saint-Germain — programme média du 24 au 30 août 2026",
+            "url": "https://www.psg.fr/content/cp-programme-media-de-lequipe-premiere-du-14-au-30-aout-2026",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Montpellier",
+      "awayTeam": "Boulogne",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-28T20:00:00+02:00",
+      "probabilities": {
+        "home": 58,
+        "draw": 27,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Montpellier part favori grâce à un début de saison invaincu et deux victoires consécutives sans encaisser, tandis que Boulogne n'a pas encore gagné.",
+        "keyFactors": [
+          "Montpellier a pris 7 points sur 9 : 1-1 contre Dijon, puis 1-0 à Nancy et 1-0 à Dunkerque.",
+          "Boulogne a débuté par 0-0 contre Nancy, puis 0-1 à Guingamp et 1-1 contre le Red Star.",
+          "Montpellier reçoit et présente une meilleure dynamique défensive.",
+          "Le profil peu prolifique de Boulogne maintient le nul comme scénario secondaire crédible."
+        ],
+        "uncertainty": "Le faible volume de matchs rend les tendances fragiles et Boulogne a déjà montré qu'il pouvait fermer les rencontres.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Montpellier Ligue 2 2026-2027",
+            "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/montpellier",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Boulogne-sur-Mer Ligue 2 2026-2027",
+            "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/boulogne-sur-mer",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Clermont",
+      "awayTeam": "Sochaux",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-28T20:00:00+02:00",
+      "probabilities": {
+        "home": 34,
+        "draw": 34,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "Rencontre très équilibrée : Clermont n'a toujours pas gagné, tandis que Sochaux vient de décrocher son premier succès après un départ difficile. Le nul est pratiquement au niveau des deux victoires sèches.",
+        "keyFactors": [
+          "Clermont a commencé par 0-0 contre Reims, 1-3 à Saint-Étienne puis 1-1 contre Dijon.",
+          "Sochaux a perdu 0-3 contre Saint-Étienne, fait 0-0 au Red Star puis battu Guingamp 1-0.",
+          "Sochaux progresse défensivement avec deux clean sheets consécutives.",
+          "Clermont reçoit au stade Gabriel-Montpied, ce qui compense partiellement la meilleure dynamique récente sochalienne."
+        ],
+        "uncertainty": "Les deux équipes ont peu de recul en Ligue 2 cette saison et leurs profils récents sont proches, ce qui rend l'issue très volatile.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "Clermont Foot 63 — calendrier officiel",
+            "url": "https://www.clermontfoot.com/calendrier",
+            "accessedAt": "2026-08-27T06:00:35+02:00"
+          },
+          {
+            "label": "FC Sochaux-Montbéliard — calendrier 2026-2027",
+            "url": "https://www.fcsochaux.fr/calendrier/fc-sochaux-montbeliard?wpmobileexternal=true",
+            "accessedAt": "2026-08-27T06:00:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Nancy",
+      "awayTeam": "Dunkerque",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-28T20:00:00+02:00",
+      "probabilities": {
+        "home": 34,
+        "draw": 34,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "Nancy et Dunkerque ont tous deux 4 points après trois journées, mais avec des profils opposés : Nancy est très fermé, Dunkerque beaucoup plus ouvert. L'équilibre général rend le nul central.",
+        "keyFactors": [
+          "Nancy affiche 0-0, 0-1 et 1-0 : seulement un but marqué et un encaissé en trois journées.",
+          "Dunkerque a produit 4-2, 3-3 puis 0-1, soit 7 buts marqués et 6 encaissés.",
+          "Nancy vient de gagner à Pau, Dunkerque de perdre à domicile contre Montpellier.",
+          "Le précédent Nancy-Dunkerque de mai 2026 s'était terminé sur une victoire nancéienne 3-2, mais l'historique récent reste partagé."
+        ],
+        "uncertainty": "Le contraste de styles peut produire soit un match fermé imposé par Nancy, soit une rencontre très ouverte si Dunkerque marque tôt.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Nancy Ligue 2 2026-2027",
+            "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/nancy",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Dunkerque Ligue 2 2026-2027",
+            "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/dunkerque",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "beIN SPORTS — Nancy vs Dunkerque",
+            "url": "https://www.beinsports.com/fr-fr/football/ligue-2/nancy-vs-dunkerque-2026-08-28",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Laval",
+      "awayTeam": "Grenoble",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-28T20:00:00+02:00",
+      "probabilities": {
+        "home": 52,
+        "draw": 29,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "Laval possède l'avantage de forme et du terrain face à un Grenoble en grande difficulté, qui vient d'encaisser quatre buts à Saint-Étienne.",
+        "keyFactors": [
+          "Laval a réagi à sa défaite 1-3 à Rodez par un succès 2-1 contre Nantes puis un nul 1-1 à Metz.",
+          "Grenoble a commencé par une défaite 2-4 à Dunkerque, un 0-0 contre Metz puis un lourd 0-4 à Saint-Étienne.",
+          "Laval a marqué lors de ses trois premières journées, alors que Grenoble reste sur deux matchs sans marquer.",
+          "Le nul reste significatif car Laval n'a pas encore démontré une supériorité constante."
+        ],
+        "uncertainty": "Grenoble peut rebondir après son lourd revers et trois journées restent un échantillon limité.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Laval Ligue 2 2026-2027",
+            "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/laval",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "beIN SPORTS — Saint-Étienne écrase Grenoble 4-0",
+            "url": "https://www.beinsports.com/fr-fr/football/ligue-2/articles-video/ligue-2-saint-%C3%A9tienne-continue-de-d%C3%A9rouler-et-%C3%A9crase-grenoble-2026-08-22",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Rodez",
+      "awayTeam": "Pau",
+      "competition": "Ligue 2",
+      "startsAt": "2026-08-28T20:00:00+02:00",
+      "probabilities": {
+        "home": 56,
+        "draw": 26,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Rodez est favori à domicile après deux victoires convaincantes en trois journées, dont un spectaculaire 5-2 à Nantes. Pau a gagné une fois mais reste sur deux défaites 0-1 à domicile.",
+        "keyFactors": [
+          "Rodez a battu Laval 3-1, perdu 0-2 à Annecy puis gagné 5-2 à Nantes.",
+          "Pau a perdu 0-1 contre Annecy, gagné 1-0 à Dijon puis perdu 0-1 contre Nancy.",
+          "Rodez a déjà inscrit 8 buts en trois journées, soit un potentiel offensif très supérieur sur ce début de saison.",
+          "Pau reste capable de gagner à l'extérieur, comme l'a montré son succès à Dijon."
+        ],
+        "uncertainty": "La défense de Rodez a déjà encaissé cinq buts et Pau peut exploiter une rencontre plus fermée que les derniers matchs ruthénois.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Rodez Ligue 2 2026-2027",
+            "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/rodez",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Pau Ligue 2 2026-2027",
+            "url": "https://www.lequipe.fr/Football/ligue-2/page-calendrier-general/pau",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Stuttgart",
+      "competition": "Bundesliga",
+      "startsAt": "2026-08-28T20:30:00+02:00",
+      "probabilities": {
+        "home": 67,
+        "draw": 20,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "Le Bayern est nettement favori à domicile : il vient de gagner la Supercoupe contre Dortmund et reste sur six victoires consécutives face à Stuttgart, dont le 3-0 en finale de Coupe d'Allemagne. Les absences bavaroises empêchent toutefois de monter vers une probabilité extrême.",
+        "keyFactors": [
+          "Bayern a battu Dortmund 2-1 en Supercoupe d'Allemagne le 22 août.",
+          "Le Bayern a gagné les six dernières confrontations contre Stuttgart, dont 4-2 en championnat et 3-0 en finale de Coupe d'Allemagne la saison dernière.",
+          "Musiala et Gnabry sont annoncés absents ; Karl est incertain côté Bayern.",
+          "Stuttgart compte plusieurs absents défensifs ou de rotation, notamment Assignon, Zagadou, Nartey et Jaquez, avec Führich incertain."
+        ],
+        "uncertainty": "Il s'agit de la première journée de Bundesliga et les deux équipes peuvent encore manquer de repères ; Stuttgart conserve assez de qualité offensive pour menacer un Bayern privé de plusieurs joueurs.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "Bundesliga — équipes probables et absents J1 2026-2027",
+            "url": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "Reuters — Bayern bat Dortmund 2-1 en Supercoupe",
+            "url": "https://www.reuters.com/sports/soccer/bayern-battle-past-dortmund-2-1-win-german-supercup-2026-08-22/",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Manchester City",
+      "competition": "Premier League",
+      "startsAt": "2026-08-28T21:00:00+02:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 28,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Manchester City reste favori mais sans marge énorme : l'équipe de Maresca a dû renverser Bournemouth très tardivement, tandis que Palace a perdu 0-2 à Everton malgré plusieurs grosses occasions.",
+        "keyFactors": [
+          "City a gagné son ouverture de Premier League 2-1 contre Bournemouth grâce à deux buts dans les dernières minutes.",
+          "Avant ce succès, City avait perdu 0-3 contre Arsenal au Community Shield, signe d'une transition encore incomplète sous Enzo Maresca.",
+          "Crystal Palace a perdu 0-2 à Everton mais a touché deux fois le poteau et forcé Pickford à un arrêt majeur.",
+          "Palace reçoit à Selhurst Park et vient de renforcer sa défense avec le prêt d'Axel Disasi."
+        ],
+        "uncertainty": "City possède davantage de talent individuel mais reste en phase d'adaptation ; Palace peut rendre le match nettement plus serré que ne le suggère l'écart de statut.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°114",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/811",
+            "accessedAt": "2026-08-27T06:01:18+02:00"
+          },
+          {
+            "label": "Manchester City — compte rendu City 2-1 Bournemouth",
+            "url": "https://www.mancity.com/news/mens/manchester-city-v-bournemouth-202627-premier-league-match-report-63923083",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "Reuters — Everton bat Crystal Palace 2-0",
+            "url": "https://www.reuters.com/sports/soccer/evertons-strong-start-brings-relief-manager-moyes-key-season-2026-08-22/",
+            "accessedAt": "2026-08-27T06:00:53+02:00"
+          },
+          {
+            "label": "Premier League — programmation Crystal Palace-Manchester City",
+            "url": "https://www.premierleague.com/en/news/4678381/fixture-amendments-for-premier-league-matches-in-august-and-september/",
+            "accessedAt": "2026-08-27T06:00:35+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "lf8-114-t01",
+      "label": "Scénario 01",
+      "selections": ["2", "1", "N", "N", "1", "1", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t02",
+      "label": "Scénario 02",
+      "selections": ["N", "1", "1", "1", "1", "1", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t03",
+      "label": "Scénario 03",
+      "selections": ["2", "N", "2", "N", "1", "1", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t04",
+      "label": "Scénario 04",
+      "selections": ["1", "1", "N", "2", "1", "1", "1", "N"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t05",
+      "label": "Scénario 05",
+      "selections": ["N", "1", "2", "1", "N", "1", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t06",
+      "label": "Scénario 06",
+      "selections": ["2", "1", "1", "N", "1", "N", "1", "N"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t07",
+      "label": "Scénario 07",
+      "selections": ["1", "N", "N", "1", "1", "1", "N", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t08",
+      "label": "Scénario 08",
+      "selections": ["N", "1", "N", "2", "N", "1", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t09",
+      "label": "Scénario 09",
+      "selections": ["2", "N", "1", "1", "1", "N", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t10",
+      "label": "Scénario 10",
+      "selections": ["1", "1", "2", "N", "1", "1", "1", "1"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t11",
+      "label": "Scénario 11",
+      "selections": ["N", "N", "N", "1", "1", "1", "1", "N"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    },
+    {
+      "id": "lf8-114-t12",
+      "label": "Scénario 12",
+      "selections": ["2", "1", "N", "2", "N", "N", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant les favoris principaux, les nuls structurellement sous-représentés et plusieurs bascules plausibles sur les rencontres les plus équilibrées."
+    }
+  ]
+}
