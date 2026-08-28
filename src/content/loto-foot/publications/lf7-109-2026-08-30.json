@@ -1,0 +1,185 @@
+{
+  "id": "lf7-109-2026-08-30",
+  "formula": 7,
+  "gridNumber": 109,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-30T14:55:00+02:00",
+  "publishedAt": "2026-08-28T10:00:10+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Monaco",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-30T20:45:00+02:00",
+      "probabilities": { "home": 39, "draw": 29, "away": 32 },
+      "analysis": {
+        "summary": "Monaco arrive avec trois succès compétitifs consécutifs, dont un 4-1 contre Górnik Zabrze jeudi, mais avec un temps de récupération réduit. Marseille a débuté sa saison par un 4-0 contre Strasbourg et dispose d'un avantage de fraîcheur. L'avantage du terrain et la dynamique monégasque compensent en partie ce facteur.",
+        "keyFactors": [
+          "Monaco a battu Le Havre 1-0 puis Górnik Zabrze 4-1 après avoir déjà gagné 3-2 à l'aller.",
+          "Marseille a gagné 4-0 son premier match de championnat et ne joue pas de barrage européen cette semaine.",
+          "Monaco reste sur plusieurs succès récents à domicile contre l'OM, mais joue seulement trois jours après son barrage européen."
+        ],
+        "uncertainty": "Affiche très équilibrée : la rotation monégasque et la fraîcheur marseillaise peuvent peser autant que l'avantage du terrain.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°109", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "AS Monaco — calendrier officiel", "url": "https://www.asmonaco.com/en/pros/fixtures", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "AS Monaco — Monaco 4-1 Górnik Zabrze", "url": "https://www.asmonaco.com/en/news/as-monaco-cruise-past-gornik-zabrze-to-reach-the-conference-league", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Olympique de Marseille — site officiel", "url": "https://www.om.fr/en", "accessedAt": "2026-08-28T09:59:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-30T17:15:00+02:00",
+      "probabilities": { "home": 54, "draw": 29, "away": 17 },
+      "analysis": {
+        "summary": "Rennes a tenu le PSG en échec 2-2 pour son entrée en championnat, tandis que Le Mans a également fait 2-2 contre Brest pour son retour dans l'élite. Rennes reste favori à domicile, mais l'écart est volontairement inférieur au très fort consensus public FDJ car Le Mans a déjà montré sa capacité à marquer et à résister.",
+        "keyFactors": [
+          "Rennes a obtenu un nul 2-2 contre le PSG lors de son premier match de Ligue 1.",
+          "Le Mans a obtenu un nul 2-2 contre Brest pour son retour en Ligue 1.",
+          "Le match est confirmé au Roazhon Park, ce qui renforce légèrement l'avantage rennais."
+        ],
+        "uncertainty": "Rennes possède davantage de qualité individuelle mais Le Mans a déjà montré une bonne capacité de réaction et de transition.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°109", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Stade Rennais — calendrier officiel", "url": "https://www.staderennais.com/en/fixtures", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Ligue 1 — Le Mans 2-2 Brest", "url": "https://ligue1.com/en/articles/l1_article_5718-", "accessedAt": "2026-08-28T09:59:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-30T15:00:00+02:00",
+      "probabilities": { "home": 43, "draw": 34, "away": 23 },
+      "analysis": {
+        "summary": "Paris FC et Nice ont tous deux débuté leur saison par un 0-0. Le Paris FC avait déjà battu Nice 1-0 à Jean-Bouin en mars, tandis que Nice doit composer sans Laurent Abergel, victime d'une rupture du ligament croisé. Le nul conserve donc un poids élevé.",
+        "keyFactors": [
+          "Paris FC a fait 0-0 à Troyes lors de la première journée.",
+          "Nice a fait 0-0 contre Lorient et a manqué de tranchant offensif.",
+          "Paris FC avait battu Nice 1-0 lors de leur confrontation de mars 2026.",
+          "Nice est privé de Laurent Abergel pour plusieurs mois."
+        ],
+        "uncertainty": "Deux équipes encore peu prolifiques en ce début de saison : un match fermé ou décidé sur un détail est très plausible.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°109", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "OGC Nice — calendrier officiel", "url": "https://www.ogcnice.com/en/calendrier/f/2026-2027/equipe-pro", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Ligue 1 — Troyes, Paris FC, Nice et Lorient", "url": "https://ligue1.com/en/articles/l1_article_5718-", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "L'Équipe — blessure de Laurent Abergel", "url": "https://www.lequipe.fr/Football/Actualites/Arrive-a-nice-cet-ete-laurent-abergel-victime-d-une-rupture-d-un-ligament-croise-du-genou-droit/1710111", "accessedAt": "2026-08-28T09:59:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Naples",
+      "awayTeam": "Como 1907",
+      "competition": "Serie A",
+      "startsAt": "2026-08-30T18:30:00+02:00",
+      "probabilities": { "home": 61, "draw": 24, "away": 15 },
+      "analysis": {
+        "summary": "Naples a ouvert sa saison par une victoire 2-0 au Genoa, avec un impact décisif de ses remplaçants De Bruyne et Vergara. Como reste un adversaire capable de gêner Naples, comme l'avait montré son succès aux tirs au but en Coupe d'Italie en février, mais l'avantage du terrain et la profondeur napolitaine en font le favori.",
+        "keyFactors": [
+          "Naples a gagné 2-0 au Genoa lors de la première journée.",
+          "De Bruyne et Vergara ont changé le match en sortie de banc, signe d'une profondeur importante.",
+          "Como avait tenu Naples à 1-1 en Coupe d'Italie avant de s'imposer aux tirs au but en février."
+        ],
+        "uncertainty": "Como possède assez de qualité technique pour punir une baisse de rythme napolitaine, mais Naples reste supérieur sur la profondeur et le contrôle du match.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°109", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "SSC Napoli — Genoa 0-2 Napoli", "url": "https://sscnapoli.it/en/match-report-genoa-napoli-0-2/", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "SSC Napoli — Napoli 1-1 Como, élimination aux tirs au but", "url": "https://sscnapoli.it/en/coppa-italia-match-report-napoli-como-7-8-dopo-i-calci-di-rigore/", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Como 1907 — calendrier officiel", "url": "https://comofootball.com/en/fixtures-and-results/", "accessedAt": "2026-08-28T09:59:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Malaga",
+      "competition": "LALIGA",
+      "probabilities": { "home": 78, "draw": 14, "away": 8 },
+      "analysis": {
+        "summary": "Le Real Madrid a gagné ses deux premiers matchs, marqué six buts et n'en a encaissé que deux. Málaga n'a pris qu'un point en deux rencontres avec un seul but marqué. Le Real est nettement favori, mais la probabilité reste sous les extrêmes du public FDJ conformément à la calibration historique des très hauts niveaux de confiance.",
+        "keyFactors": [
+          "Le Real Madrid compte 6 points sur 6 avec 6 buts marqués et 2 encaissés.",
+          "Málaga compte 1 point, 1 but marqué et 3 encaissés en deux matchs.",
+          "Le match se joue au Bernabéu."
+        ],
+        "uncertainty": "Le scénario principal est très favorable au Real, mais un nul reste plus plausible que ne le suggère le consensus public extrêmement concentré sur le 1.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°109", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "LALIGA — Real Madrid vs Málaga", "url": "https://www.laliga.com/en-NL/match/temporada-2026-2027-laliga-ea-sports-real-madrid-malaga-cf-3", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Real Madrid — fiche officielle du match", "url": "https://www.realmadrid.com/es-ES/futbol/partidos/la-liga/real-madrid-malaga/30-08-2026", "accessedAt": "2026-08-28T09:59:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Fribourg",
+      "awayTeam": "Werder Brême",
+      "competition": "Bundesliga",
+      "startsAt": "2026-08-30T15:30:00+02:00",
+      "probabilities": { "home": 50, "draw": 28, "away": 22 },
+      "analysis": {
+        "summary": "Fribourg a déjà enchaîné un succès européen à Motherwell puis un 5-1 en Coupe d'Allemagne. Le Werder a lui aussi gagné son match de Coupe, 3-0, avec des recrues décisives dont Füllkrug. Fribourg garde un avantage à domicile, mais la bonne entrée compétitive du Werder justifie une probabilité de nul significative.",
+        "keyFactors": [
+          "Fribourg a battu Motherwell 3-1 puis Fortuna Düsseldorf 5-1.",
+          "Le Werder a gagné 3-0 en Coupe d'Allemagne avec des buts de Stage, Füllkrug et Reis.",
+          "Le Werder a confirmé l'horaire du match à 15h30 CEST."
+        ],
+        "uncertainty": "Les deux équipes arrivent avec de bons résultats offensifs contre des adversaires de niveau inférieur ou intermédiaire ; le niveau réel en Bundesliga reste donc à confirmer.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°109", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "SC Freiburg — victoire 5-1 à Düsseldorf", "url": "https://www.scfreiburg.com/en/latest/first-team/match-reports/2026-27/dominant-win-in-duesseldorf/", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Werder Bremen — victoire 3-0 en DFB-Pokal", "url": "https://www.werder.de/en/news/first-team/2026-2027/match-report-lsk-22082026", "accessedAt": "2026-08-28T09:59:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Brighton Hove",
+      "competition": "Premier League",
+      "startsAt": "2026-08-30T15:00:00+02:00",
+      "probabilities": { "home": 47, "draw": 27, "away": 26 },
+      "analysis": {
+        "summary": "Chelsea a commencé l'ère Xabi Alonso par un succès 3-2 à Fulham avec une attaque très productive, mais a concédé deux buts. Brighton arrive sur deux victoires 4-0, contre Aston Villa puis Tromsø jeudi soir. Chelsea bénéficie du terrain et d'un jour de récupération supplémentaire, mais la forme de Brighton interdit d'en faire un favori écrasant.",
+        "keyFactors": [
+          "Chelsea a gagné 3-2 à Fulham avec 18 tirs et un trio offensif Joao Pedro-Rogers-Palmer très influent.",
+          "Brighton a battu Aston Villa 4-0 puis Tromsø 4-0 quatre jours plus tard.",
+          "Brighton a joué jeudi en Europe, ce qui réduit son temps de récupération avant dimanche.",
+          "Chelsea reçoit à Stamford Bridge."
+        ],
+        "uncertainty": "La fatigue européenne de Brighton favorise Chelsea, mais l'écart de forme défensive et offensive reste assez faible pour donner un vrai poids au nul et au 2.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°109", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Reuters — Fulham 2-3 Chelsea", "url": "https://www.reuters.com/sports/soccer/chelsea-start-alonso-era-with-exciting-3-2-win-fulham-2026-08-24/", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Brighton — Brighton 4-0 Aston Villa", "url": "https://www.brightonandhovealbion.com/media-article/mft-pl-bhaavl-match-report", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Brighton — Brighton 4-0 Tromsø", "url": "https://www.brightonandhovealbion.com/media-article/mft-matchreport-conference-league-albion-4-tromso-if-0", "accessedAt": "2026-08-28T09:59:33+02:00" },
+          { "label": "Chelsea — billetterie Chelsea-Brighton", "url": "https://www.chelseafc.com/en/news/article/premier-league-ticket-news-brighton-at-home-2026-27", "accessedAt": "2026-08-28T09:59:33+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "1", "1", "1", "1", "1", "1"], "rationale": "Les favoris de l'analyse gagnent tous, avec Monaco et Chelsea conservés malgré des écarts modérés." },
+    { "id": "t2", "label": "Choc équilibré", "selections": ["N", "1", "1", "1", "1", "1", "1"], "rationale": "Couvre en priorité le nul Monaco-Marseille, l'une des affiches les plus équilibrées." },
+    { "id": "t3", "label": "Marseille et Brighton résistent", "selections": ["2", "1", "1", "1", "1", "1", "N"], "rationale": "Scénario où la fraîcheur marseillaise et la dynamique de Brighton réduisent l'avantage des équipes à domicile." },
+    { "id": "t4", "label": "Nuls français", "selections": ["1", "N", "N", "1", "1", "1", "1"], "rationale": "Renforce la couverture des nuls sur Rennes-Le Mans et Paris FC-Nice, deux matchs aux profils serrés." },
+    { "id": "t5", "label": "Portefeuille nul et outsider", "selections": ["N", "1", "N", "1", "1", "N", "2"], "rationale": "Couvre trois nuls plausibles et un succès de Brighton sans multiplier les quasi-clones." },
+    { "id": "t6", "label": "Visiteurs dangereux", "selections": ["2", "N", "1", "1", "1", "2", "1"], "rationale": "Scénario de performance du Werder et de résistance du Mans, avec Marseille vainqueur à Monaco." },
+    { "id": "t7", "label": "Nice et Brighton accrochent", "selections": ["1", "1", "2", "1", "1", "N", "N"], "rationale": "Couvre une surprise niçoise et deux nuls sur des rencontres où l'écart est limité." },
+    { "id": "t8", "label": "Double surprise Ligue 1", "selections": ["N", "2", "N", "1", "1", "1", "2"], "rationale": "Scénario plus agressif combinant Le Mans et Brighton, avec nuls sur Monaco et Paris FC-Nice." },
+    { "id": "t9", "label": "Como résiste", "selections": ["2", "1", "1", "N", "1", "N", "1"], "rationale": "Couvre un nul de Naples face à Como et deux résultats équilibrés ailleurs." },
+    { "id": "t10", "label": "Accroc du Real", "selections": ["1", "N", "2", "1", "N", "1", "2"], "rationale": "Inclut le scénario rare mais plausible d'un nul du Real tout en couvrant Nice et Brighton." },
+    { "id": "t11", "label": "Como et Werder", "selections": ["N", "1", "N", "2", "1", "2", "N"], "rationale": "Scénario de surprises corrélées sur Naples-Como et Fribourg-Werder avec forte couverture des nuls." },
+    { "id": "t12", "label": "Scénario volatil", "selections": ["2", "N", "1", "N", "1", "1", "2"], "rationale": "Dernière combinaison apportant une couverture distincte sur quatre rencontres à forte incertitude sans toucher au favori madrilène." }
+  ]
+}
