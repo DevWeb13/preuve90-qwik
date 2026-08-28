@@ -1,0 +1,403 @@
+{
+  "id": "lf8-115-2026-08-29",
+  "formula": 8,
+  "gridNumber": 115,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-29T17:10:00+02:00",
+  "publishedAt": "2026-08-29T01:57:41+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T17:15:00+02:00",
+      "probabilities": {
+        "home": 20,
+        "draw": 26,
+        "away": 54
+      },
+      "analysis": {
+        "summary": "Lens arrive avec une dynamique nettement supérieure après un 5-2 contre Auxerre et un succès contre le PSG au Trophée des Champions, tandis que Strasbourg a lourdement perdu 4-0 à Marseille.",
+        "keyFactors": [
+          "Lens a gagné 5-2 contre Auxerre lors de la 1re journée.",
+          "Strasbourg reste sur une défaite 4-0 à Marseille.",
+          "Le match se joue à la Meinau, ce qui limite l'écart théorique."
+        ],
+        "uncertainty": "Début de saison encore très court et avantage du terrain pour Strasbourg.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Sky Sports — Strasbourg vs Lens",
+            "url": "https://www.skysports.com/football/strasbourg-vs-rc-lens/557013",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Reuters — Lens et Lyon gagnent à l'ouverture",
+            "url": "https://www.reuters.com/sports/soccer/wins-lens-lyon-opening-ligue-1-weekend-2026-08-22/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lorient",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {
+        "home": 48,
+        "draw": 32,
+        "away": 20
+      },
+      "analysis": {
+        "summary": "Les deux équipes ont débuté par un 0-0, mais Lorient retrouve un Moustoir où il est performant et dispose d'un groupe presque complet avec ses nouvelles recrues.",
+        "keyFactors": [
+          "Lorient a pris un point à Nice lors de la 1re journée.",
+          "Troyes a fait 0-0 contre le Paris FC.",
+          "Lorient est presque au complet et peut intégrer ses dernières recrues."
+        ],
+        "uncertainty": "Troyes a montré qu'il pouvait fermer les espaces et le nul reste très plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "L'Équipe — Lorient quasi complet face à Troyes",
+            "url": "https://www.lequipe.fr/Football/Actualites/Lorient-quasi-complet-et-avec-ses-recrues-pour-affronter-troyes/1714283",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Lorient",
+            "url": "https://www.lequipe.fr/Football/ligue-1/page-calendrier-general/lorient",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Brest",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 31,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Brest a ramené un 2-2 du Mans alors que Toulouse a perdu 2-0 contre Lyon. Le bilan récent des confrontations reste toutefois partagé et Toulouse a gagné les deux derniers duels de championnat.",
+        "keyFactors": [
+          "Brest a débuté par un nul 2-2 au Mans.",
+          "Toulouse s'est incliné 2-0 contre Lyon.",
+          "Toulouse a remporté les deux confrontations de Ligue 1 les plus récentes contre Brest."
+        ],
+        "uncertainty": "Les deux équipes ont montré des niveaux irréguliers en préparation et l'échantillon officiel 2026-2027 reste minimal.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "FotMob — Brest vs Toulouse",
+            "url": "https://www.fotmob.com/de/matches/brest-vs-/2th5t2",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Toulouse",
+            "url": "https://www.lequipe.fr/Football/ligue-1/page-calendrier-general/toulouse",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Lyon",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {
+        "home": 58,
+        "draw": 27,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Lyon a ouvert sa saison par une victoire 2-0 à Toulouse tandis que Le Havre a perdu 1-0 contre Monaco. L'OL possède l'avantage de forme et du terrain, avec une réserve liée à son calendrier européen.",
+        "keyFactors": [
+          "Lyon a gagné 2-0 à Toulouse.",
+          "Le Havre a perdu 1-0 à domicile contre Monaco.",
+          "Le précédent duel en mars 2026 s'était terminé 0-0."
+        ],
+        "uncertainty": "La charge européenne de Lyon peut réduire son avantage et Le Havre a déjà montré sa capacité à fermer ce duel.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Reuters — Lens et Lyon gagnent à l'ouverture",
+            "url": "https://www.reuters.com/sports/soccer/wins-lens-lyon-opening-ligue-1-weekend-2026-08-22/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier Ligue 1 J2",
+            "url": "https://www.lequipe.fr/Football/ligue-1/page-calendrier-resultats",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {
+        "home": 46,
+        "draw": 31,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Les deux équipes ont perdu leur premier match. Auxerre a néanmoins marqué deux fois à Lens malgré une expulsion et avait battu Angers 3-1 lors de leur dernier duel de championnat.",
+        "keyFactors": [
+          "Auxerre a perdu 5-2 à Lens après avoir joué à dix.",
+          "Angers a perdu 2-0 à domicile contre Lille.",
+          "Auxerre avait battu Angers 3-1 en mai 2026."
+        ],
+        "uncertainty": "Les deux défenses restent fragiles et le début de saison rend la hiérarchie encore incertaine.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "L'Équipe — Auxerre-Angers, match du 29 août",
+            "url": "https://www.lequipe.fr/Football/match-direct/ligue-1/2026-2027/auxerre-angers-live/690268",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Reuters — Lens 5-2 Auxerre",
+            "url": "https://www.reuters.com/sports/soccer/wins-lens-lyon-opening-ligue-1-weekend-2026-08-22/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Parme",
+      "competition": "Serie A",
+      "startsAt": "2026-08-29T20:45:00+02:00",
+      "probabilities": {
+        "home": 62,
+        "draw": 25,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "La Juventus a commencé par un succès 1-0 à Frosinone alors que Parme a fait 0-0 contre Cagliari. L'avantage turinois reste clair mais l'absence annoncée de Kenan Yildiz et le manque d'efficacité du premier match réduisent l'écart.",
+        "keyFactors": [
+          "Juventus a gagné 1-0 à Frosinone.",
+          "Parme a débuté par un 0-0 contre Cagliari.",
+          "Kenan Yildiz est annoncé absent pour plusieurs mois."
+        ],
+        "uncertainty": "La Juventus est encore en phase de rodage sous Luciano Spalletti et a manqué d'efficacité lors de la première journée.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Reuters — Spalletti demande plus à Kolo Muani",
+            "url": "https://www.reuters.com/sports/soccer/juve-boss-spalletti-demands-more-kolo-muani-2026-08-24/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Juventus — programme Juventus-Parma",
+            "url": "https://www.juventus.com/it/news/articoli/juventus-parma-match-program-suite-allianz",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "The Guardian — actualité mercato et blessure de Yildiz",
+            "url": "https://www.theguardian.com/football/live/2026/aug/28/transfer-latest-premier-league-news-european-draws-and-more-football-live",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Dortmund",
+      "awayTeam": "Hambourg",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Dortmund aborde l'ouverture de Bundesliga à domicile avec une hiérarchie supérieure à Hambourg, malgré plusieurs indisponibilités défensives. Le contexte de première journée justifie de conserver une couverture du nul.",
+        "keyFactors": [
+          "Dortmund a terminé la saison précédente très au-dessus de Hambourg.",
+          "Le BVB possède un fort historique récent à domicile contre le HSV.",
+          "Yasu Wöhrn est absent plusieurs mois après une rupture du ligament croisé."
+        ],
+        "uncertainty": "Première journée de championnat et plusieurs ajustements d'effectif rendent la performance réelle moins prévisible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Borussia Dortmund — aperçu de l'ouverture contre HSV",
+            "url": "https://www.bvb.de/de/en/teams/football/first-team.html",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Borussia Dortmund — blessure de Yasu Wöhrn",
+            "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/8/18/Yasu-Woehrn-suffers-severe-knee-injury.html",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Reuters — aperçu Bundesliga 2026-2027",
+            "url": "https://www.reuters.com/sports/soccer/bayern-primed-bundesliga-title-defence-schalke-back-big-league-2026-08-27/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Tottenham",
+      "awayTeam": "Newcastle",
+      "competition": "Premier League",
+      "startsAt": "2026-08-29T18:30:00+02:00",
+      "probabilities": {
+        "home": 38,
+        "draw": 29,
+        "away": 33
+      },
+      "analysis": {
+        "summary": "Tottenham doit réagir après son 0-3 à Brentford mais a retrouvé de l'allant en Coupe avec un 5-1 contre Charlton. Newcastle a fait 2-2 contre Liverpool puis gagné 3-2 en Coupe, mais voyage avec plusieurs absents importants.",
+        "keyFactors": [
+          "Tottenham a perdu 3-0 à Brentford avant de battre Charlton 5-1 en Coupe.",
+          "Newcastle a fait 2-2 contre Liverpool puis battu West Brom 3-2.",
+          "Les deux équipes comptent plusieurs absents et intègrent de nombreuses recrues."
+        ],
+        "uncertainty": "Les effectifs ont beaucoup changé et les deux défenses ont montré des fragilités, ce qui rend les trois issues crédibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°115",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Reuters — Newcastle passe en Coupe",
+            "url": "https://www.reuters.com/sports/soccer/newcastle-come-behind-reach-league-cup-third-round-2026-08-26/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "Reuters — reconstruction de Tottenham",
+            "url": "https://www.reuters.com/sports/soccer/big-spending-tottenham-hand-de-zerbi-tools-dream-2026-08-28/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          },
+          {
+            "label": "TNT Sports — Tottenham vs Newcastle",
+            "url": "https://www.tntsports.co.uk/betting/tips/tottenham-hotspur-vs-newcastle-united-prediction-tips-and-odds-29-08-2026/",
+            "accessedAt": "2026-08-29T01:57:17+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["2", "1", "1", "1", "1", "1", "1", "1"],
+      "rationale": "Favoris principaux avec Tottenham légèrement devant à domicile."
+    },
+    {
+      "id": "t2",
+      "label": "Équilibres clés",
+      "selections": ["2", "1", "N", "1", "N", "1", "1", "2"],
+      "rationale": "Couvre les nuls Brest-Toulouse et Auxerre-Angers avec Newcastle."
+    },
+    {
+      "id": "t3",
+      "label": "Nuls renforcés",
+      "selections": ["2", "N", "N", "1", "1", "1", "1", "N"],
+      "rationale": "Renforce trois nuls plausibles sans abandonner les favoris structurants."
+    },
+    {
+      "id": "t4",
+      "label": "Toulouse et Newcastle",
+      "selections": ["2", "N", "1", "1", "2", "1", "1", "2"],
+      "rationale": "Scénario où Toulouse et Newcastle exploitent les fragilités adverses."
+    },
+    {
+      "id": "t5",
+      "label": "Troyes résiste",
+      "selections": ["2", "N", "2", "1", "N", "1", "1", "1"],
+      "rationale": "Couvre une surprise de Troyes et un nul à Auxerre."
+    },
+    {
+      "id": "t6",
+      "label": "Lens moins sûr",
+      "selections": ["N", "1", "2", "1", "1", "1", "1", "2"],
+      "rationale": "Couvre un nul à Strasbourg avec victoires extérieures de Toulouse et Newcastle."
+    },
+    {
+      "id": "t7",
+      "label": "Double nul français",
+      "selections": ["N", "1", "1", "1", "N", "1", "1", "N"],
+      "rationale": "Couvre les nuls Strasbourg et Auxerre ainsi que Tottenham-Newcastle."
+    },
+    {
+      "id": "t8",
+      "label": "Risques domestiques",
+      "selections": ["2", "1", "2", "1", "2", "1", "1", "N"],
+      "rationale": "Couvre Toulouse et Angers comme surprises tout en gardant les grands favoris."
+    },
+    {
+      "id": "t9",
+      "label": "Juve accroché",
+      "selections": ["N", "1", "N", "1", "2", "1", "1", "1"],
+      "rationale": "Scénario de nuls à Strasbourg et Brest avec Angers outsider."
+    },
+    {
+      "id": "t10",
+      "label": "Gestion des favoris",
+      "selections": ["2", "N", "2", "N", "1", "1", "1", "2"],
+      "rationale": "Couvre un nul de Lyon et une victoire de Newcastle dans un portefeuille diversifié."
+    },
+    {
+      "id": "t11",
+      "label": "Parme résiste",
+      "selections": ["2", "1", "1", "N", "1", "N", "1", "2"],
+      "rationale": "Couvre les nuls Lyon-Le Havre et Juventus-Parme ainsi que Newcastle."
+    },
+    {
+      "id": "t12",
+      "label": "Nuls de rupture",
+      "selections": ["2", "N", "1", "N", "N", "1", "1", "N"],
+      "rationale": "Scénario fortement orienté vers les nuls sous-couverts historiquement."
+    }
+  ]
+}
