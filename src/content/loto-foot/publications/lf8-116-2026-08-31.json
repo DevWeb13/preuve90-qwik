@@ -1,0 +1,173 @@
+{
+  "id": "lf8-116-2026-08-31",
+  "formula": 8,
+  "gridNumber": 116,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-08-31T18:25:00+02:00",
+  "publishedAt": "2026-08-30T05:58:50+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Dijon",
+      "awayTeam": "Saint-Étienne",
+      "competition": "Ligue 2",
+      "probabilities": { "home": 21, "draw": 29, "away": 50 },
+      "analysis": {
+        "summary": "Saint-Étienne arrive avec une dynamique nettement supérieure, trois victoires de championnat convaincantes et davantage de puissance offensive. Dijon reste compétitif mais a surtout partagé les points récemment, ce qui maintient le nul comme scénario important.",
+        "keyFactors": ["Saint-Étienne reste sur des succès 4-0, 3-1 et 3-0 dans sa séquence récente.", "Dijon a enchaîné deux nuls 1-1 et une défaite 0-1 lors de ses trois derniers matchs de Ligue 2.", "L'historique récent du duel reste plutôt favorable à Saint-Étienne, mais les confrontations ont souvent été serrées."],
+        "uncertainty": "Le déplacement et la capacité de Dijon à ralentir le rythme augmentent sensiblement le risque de nul malgré la supériorité de forme stéphanoise.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "FotMob — Dijon vs Saint-Étienne, forme récente", "url": "https://www.fotmob.com/en-GB/matches/dijon-vs-is-selongey-football/38kmdui", "accessedAt": "2026-08-30T05:56:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Rayo Vallecano",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-31T21:30:00+02:00",
+      "probabilities": { "home": 72, "draw": 18, "away": 10 },
+      "analysis": {
+        "summary": "Barcelone a démarré la saison avec deux victoires sans encaisser, dont un 5-0 puis un 2-0, et conserve un avantage qualitatif très net à domicile. Rayo reste néanmoins capable de défendre bas et avait accroché Barcelone la saison précédente.",
+        "keyFactors": ["Barcelone a gagné ses deux premiers matchs de Liga 2026-27, avec sept buts marqués et aucun encaissé.", "Raphinha est déjà décisif et le volume offensif barcelonais a été élevé contre Athletic.", "Rayo a commencé par une défaite et un nul, mais son profil compact peut augmenter la probabilité d'un match plus fermé."],
+        "uncertainty": "Le principal risque est un bloc bas de Rayo qui transforme la domination barcelonaise en possession stérile et rapproche le scénario du nul.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "FC Barcelona — calendrier officiel", "url": "https://www.fcbarcelona.com/en/football/first-team/schedule", "accessedAt": "2026-08-30T05:56:20+02:00" },
+          { "label": "Reuters — Barcelona 2-0 Athletic Club", "url": "https://www.reuters.com/sports/soccer/raphinha-fermin-score-barcelona-beat-athletic-2-0-home-opener-2026-08-27/", "accessedAt": "2026-08-30T05:57:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Osasuna",
+      "awayTeam": "Getafe",
+      "competition": "LaLiga",
+      "startsAt": "2026-08-31T19:30:00+02:00",
+      "probabilities": { "home": 38, "draw": 32, "away": 30 },
+      "analysis": {
+        "summary": "Osasuna reçoit après une victoire 2-1 au Celta avec un volume d'occasions très supérieur, mais Getafe a pris l'ascendant dans plusieurs confrontations récentes. L'écart est faible et le nul mérite une couverture forte.",
+        "keyFactors": ["Osasuna a battu le Celta 2-1 en produisant nettement plus d'occasions et un xG élevé.", "Getafe a gagné 1-0 le dernier duel de mai 2026.", "Valentin Rosier poursuit sa récupération côté Osasuna, ce qui réduit légèrement la marge du favori à domicile."],
+        "uncertainty": "Les confrontations entre ces équipes sont souvent fermées et Getafe peut neutraliser l'avantage du terrain ; les trois issues restent crédibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "Osasuna — billetterie officielle Osasuna-Getafe", "url": "https://www.osasuna.es/osasuna-getafe-entradas-31-agosto-2026", "accessedAt": "2026-08-30T05:56:30+02:00" },
+          { "label": "Osasuna — entraînement du 29 août", "url": "https://www.osasuna.es/entrenamiento-29-08-2026", "accessedAt": "2026-08-30T05:57:20+02:00" },
+          { "label": "PlaymakerStats — Celta 1-2 Osasuna", "url": "https://www.playmakerstats.com/live/2026-08-27-celta-de-vigo-osasuna/12272171", "accessedAt": "2026-08-30T05:57:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Benfica",
+      "awayTeam": "Estoril Praia",
+      "competition": "Liga Portugal",
+      "startsAt": "2026-08-31T20:15:00+01:00",
+      "probabilities": { "home": 76, "draw": 15, "away": 9 },
+      "analysis": {
+        "summary": "Benfica est très largement favori à domicile face à un Estoril qui n'a pris qu'un point sur ses trois premières journées et reste sur deux défaites sans marquer. La profondeur de Benfica compense en partie la charge européenne récente.",
+        "keyFactors": ["Estoril affiche un nul puis deux défaites en championnat, avec un seul but marqué sur trois rencontres.", "Benfica vient de sécuriser sa qualification européenne avec un succès 3-1 contre AGF.", "Benfica avait battu Estoril 3-1 à domicile puis 3-1 à l'extérieur lors des deux confrontations de championnat précédentes."],
+        "uncertainty": "La rotation après l'Europe et un éventuel manque d'efficacité peuvent ouvrir un scénario de nul, mais l'écart structurel reste important.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "SL Benfica — arbitre et horaire Benfica-Estoril", "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/08/27/futebol-arbitro-benfica-estoril-4-jornada-liga-betclic", "accessedAt": "2026-08-30T05:56:40+02:00" },
+          { "label": "Estoril Praia — calendrier équipe première", "url": "https://estorilpraia.pt/calendario/equipa-principal", "accessedAt": "2026-08-30T05:57:30+02:00" },
+          { "label": "SL Benfica — Estoril 1-3 Benfica, mai 2026", "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/05/16/futebol-cronica-estoril-benfica-34-jornada-liga-betclic", "accessedAt": "2026-08-30T05:57:35+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Braga",
+      "awayTeam": "Vitória de Guimarães",
+      "competition": "Liga Portugal",
+      "probabilities": { "home": 52, "draw": 28, "away": 20 },
+      "analysis": {
+        "summary": "Braga présente une série récente plus stable et reçoit un Vitória irrégulier. Le derby du Minho réduit toutefois l'écart théorique : le nul reste un scénario de premier plan et Vitória a déjà créé des difficultés à Braga.",
+        "keyFactors": ["Braga reste sur une série sans défaite comprenant plusieurs clean sheets en Europe.", "Vitória a perdu deux de ses trois premiers matchs de championnat avant de battre Nacional 1-0.", "Le derby a produit des résultats variés récemment, dont un 3-2 pour Braga en février 2026 et plusieurs nuls sur les saisons précédentes."],
+        "uncertainty": "La dimension derby et la fatigue européenne de Braga augmentent la variance ; le favori à domicile n'est pas suffisamment dominant pour écarter le nul.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "Sky Sports — Braga vs Vitória, forme récente", "url": "https://www.skysports.com/football/braga-vs-vitoria-de-guimaraes/stats/564197", "accessedAt": "2026-08-30T05:56:50+02:00" },
+          { "label": "FotMob — Braga vs Vitória de Guimarães", "url": "https://www.fotmob.com/en-GB/matches/vitoria-de-guimaraes-vs-braga/2pmdje", "accessedAt": "2026-08-30T05:57:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Lecce",
+      "awayTeam": "AS Rome",
+      "competition": "Serie A",
+      "startsAt": "2026-08-31T18:30:00+02:00",
+      "probabilities": { "home": 19, "draw": 25, "away": 56 },
+      "analysis": {
+        "summary": "Rome arrive avec le signal le plus fort : un 4-0 contre la Fiorentina, une attaque très fluide autour de Dybala et Malen, et davantage de qualité individuelle. Lecce à domicile garde néanmoins une vraie probabilité de résistance.",
+        "keyFactors": ["Rome a battu la Fiorentina 4-0 lors de la première journée avec un triplé de Donyell Malen.", "Le match est confirmé à Lecce le 31 août à 18h30 par les deux clubs.", "Lecce bénéficie du terrain et peut chercher un match fermé, ce qui maintient le nul à un niveau significatif."],
+        "uncertainty": "Un seul match de championnat constitue un échantillon faible ; la performance romaine d'ouverture peut surestimer son niveau réel à l'extérieur.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "AS Roma — calendrier officiel des premières journées", "url": "https://www.asroma.com/en/news/75547/dates-and-kick-off-times-for-the-first-five-serie-a-matchdays", "accessedAt": "2026-08-30T05:57:00+02:00" },
+          { "label": "US Lecce — billetterie Lecce-Roma", "url": "https://oo.uslecce.it/news/455599361542/lecce-roma-info-biglietteria-us-lecce", "accessedAt": "2026-08-30T05:57:45+02:00" },
+          { "label": "Football Web Pages — Roma 4-0 Fiorentina", "url": "https://www.footballwebpages.co.uk/match/2026-2027/italian-serie-a/roma/fiorentina/570038", "accessedAt": "2026-08-30T05:57:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Bologne",
+      "competition": "Serie A",
+      "startsAt": "2026-08-31T20:45:00+02:00",
+      "probabilities": { "home": 46, "draw": 29, "away": 25 },
+      "analysis": {
+        "summary": "Atalanta a gagné son ouverture de championnat puis son barrage européen, mais l'enchaînement augmente le risque de fatigue. Bologne a perdu 0-1 contre la Lazio tout en produisant davantage d'occasions, ce qui justifie une forte couverture du nul et une vraie chance extérieure.",
+        "keyFactors": ["Atalanta a battu Sassuolo 2-1 puis Hapoel Tel-Aviv 1-0 quelques jours plus tard.", "Bologne a perdu 0-1 contre la Lazio malgré 14 tirs et davantage de possession.", "Les confrontations récentes sont partagées, Bologne ayant notamment gagné 1-0 à Bergame en mai 2026."],
+        "uncertainty": "La fatigue d'Atalanta et la qualité du contenu de Bologne malgré sa défaite rendent ce match beaucoup plus équilibré que le simple avantage du terrain.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "Atalanta — notes d'avant-match Atalanta-Bologna", "url": "https://www.atalanta.it/news/atalanta-bologna-le-note-del-prepartita", "accessedAt": "2026-08-30T05:57:05+02:00" },
+          { "label": "Bologna FC — match center Atalanta-Bologna", "url": "https://www.bolognafc.it/match/atalanta-bologna-10/", "accessedAt": "2026-08-30T05:57:55+02:00" },
+          { "label": "StatMuse — Atalanta 2-1 Sassuolo", "url": "https://www.statmuse.com/fc/match/8-23-2026-ata-vs-sas-112081", "accessedAt": "2026-08-30T05:58:00+02:00" },
+          { "label": "MIB Football — Bologna 0-1 Lazio", "url": "https://football.mib.news/match/558630/", "accessedAt": "2026-08-30T05:58:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League",
+      "startsAt": "2026-08-31T19:00:00+01:00",
+      "probabilities": { "home": 22, "draw": 25, "away": 53 },
+      "analysis": {
+        "summary": "Arsenal part favori après une ouverture maîtrisée 3-0, tandis qu'Aston Villa sort d'un lourd 0-4 et traverse un remaniement important de son effectif. Villa Park et l'historique récent du duel empêchent toutefois de transformer ce match en choix automatique.",
+        "keyFactors": ["Arsenal a battu Coventry 3-0 avec une forte maîtrise collective.", "Villa a perdu 0-4 contre Brighton et João Gomes a été expulsé, dans un contexte de mouvements importants dans l'effectif.", "Bruno Guimarães et Ezri Konsa pourraient être disponibles pour Arsenal, renforçant encore la profondeur du champion en titre."],
+        "uncertainty": "Villa dispose d'un fort potentiel de réaction à domicile et a déjà posé des problèmes à Arsenal récemment ; le changement rapide d'effectif des deux côtés augmente aussi l'incertitude.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-08-30T05:55:30+02:00" },
+          { "label": "Arsenal — calendrier officiel", "url": "https://www.arsenal.com/fixtures/men/fixtures", "accessedAt": "2026-08-30T05:57:15+02:00" },
+          { "label": "Reuters — Arsenal 3-0 Coventry", "url": "https://www.reuters.com/sports/soccer/arsenal-sweep-coventry-aside-start-title-defence-with-3-0-win-2026-08-21/", "accessedAt": "2026-08-30T05:58:10+02:00" },
+          { "label": "Reuters — Guimarães et Konsa disponibles pour Arsenal", "url": "https://www.reuters.com/sports/soccer/arsenals-guimaraes-konsa-could-be-available-villa-arteta-says-2026-08-27/", "accessedAt": "2026-08-30T05:58:15+02:00" },
+          { "label": "The Guardian — changements d'effectif à Aston Villa", "url": "https://www.theguardian.com/football/2026/aug/28/nicolas-jackson-nears-aston-villa-move-unai-emery-ollie-watkins", "accessedAt": "2026-08-30T05:58:20+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["2","1","1","1","1","2","1","2"], "rationale": "Retient les favoris les plus solides tout en donnant Osasuna et Atalanta gagnants à domicile sur les deux matchs les plus équilibrés." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["2","1","N","1","N","2","N","2"], "rationale": "Couvre simultanément les trois rencontres où le nul est fortement soutenu par l'équilibre sportif : Osasuna-Getafe, Braga-Vitória et Atalanta-Bologne." },
+    { "id": "t3", "label": "Résistance dijonnaise", "selections": ["N","1","1","1","1","2","N","2"], "rationale": "Couvre un ralentissement de Saint-Étienne à Dijon et un partage des points à Bergame sans abandonner les favoris majeurs." },
+    { "id": "t4", "label": "Getafe et Villa solides", "selections": ["2","1","2","1","N","2","1","N"], "rationale": "Scénario où Getafe confirme son historique favorable, Braga est accroché dans le derby et Villa résiste au champion." },
+    { "id": "t5", "label": "Double surprise contrôlée", "selections": ["N","1","N","1","1","2","2","2"], "rationale": "Ajoute une victoire de Bologne et deux nuls plausibles sur les rencontres françaises et espagnoles les plus serrées." },
+    { "id": "t6", "label": "Bloc de nuls médian", "selections": ["2","1","1","1","N","N","N","2"], "rationale": "Couvre une séquence de trois matchs où la fatigue, le derby ou un déplacement peuvent neutraliser le favori." },
+    { "id": "t7", "label": "Équilibres extérieurs", "selections": ["2","1","N","1","1","2","N","N"], "rationale": "Protège contre un Getafe solide, un Bologne compétitif et un Aston Villa capable de répondre à domicile." },
+    { "id": "t8", "label": "Dijon et Getafe offensifs", "selections": ["1","1","2","1","N","2","1","2"], "rationale": "Scénario plus agressif sur deux outsiders crédibles tout en gardant les quatre favoris structurels." },
+    { "id": "t9", "label": "Accroc barcelonais", "selections": ["2","N","N","1","1","2","2","2"], "rationale": "Couvre le scénario minoritaire où Rayo ferme le match au Camp Nou, avec Getafe nul et Bologne vainqueur." },
+    { "id": "t10", "label": "Rotation Benfica", "selections": ["2","1","1","N","1","2","N","2"], "rationale": "Couvre un nul de Benfica après l'Europe et un partage des points Atalanta-Bologne, sans multiplier d'autres écarts." },
+    { "id": "t11", "label": "Derby et Lecce ferment", "selections": ["N","1","2","1","N","N","1","2"], "rationale": "Combine trois résistances plausibles : Dijon, Vitória dans le derby et Lecce face à Rome, avec Getafe gagnant." },
+    { "id": "t12", "label": "Réaction de Villa", "selections": ["2","1","N","1","1","2","1","1"], "rationale": "Couvre une réaction franche d'Aston Villa à domicile tout en gardant le socle des favoris ailleurs." }
+  ]
+}
