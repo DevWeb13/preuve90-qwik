@@ -1,0 +1,325 @@
+{
+  "id": "lf7-110-2026-09-01",
+  "formula": 7,
+  "gridNumber": 110,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-01T19:55:00+02:00",
+  "publishedAt": "2026-08-31T01:56:19+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Al Hilal",
+      "awayTeam": "Al Ahli SC",
+      "competition": "Saudi Pro League",
+      "startsAt": "2026-09-01T21:00:00+03:00",
+      "probabilities": { "home": 54, "draw": 25, "away": 21 },
+      "analysis": {
+        "summary": "Al Hilal arrive avec une dynamique supérieure et l'avantage du Kingdom Arena, mais Al Ahli reste suffisamment performant pour conserver une vraie probabilité de nul ou de surprise.",
+        "keyFactors": [
+          "Al Hilal est à 3 victoires en 3 en championnat et présente des indicateurs offensifs supérieurs.",
+          "Al Ahli a également bien commencé la saison et possède une menace offensive crédible.",
+          "L'historique récent entre les deux équipes comporte plusieurs nuls, ce qui justifie de ne pas surcharger le 1."
+        ],
+        "uncertainty": "Le niveau réel des deux équipes est élevé et l'écart estimé reste sensible aux compositions et à l'intégration des recrues récentes.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°110",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "Al Hilal — fixtures officiels",
+            "url": "https://alhilal.com/en/matches/mens-team/fixtures",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "Reuters — The week in Asian football",
+            "url": "https://www.reuters.com/sports/soccer/week-asian-football-2026-08-24/",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "FotMob — Al Hilal vs Al Ahli",
+            "url": "https://www.fotmob.com/en-GB/matches/al-hilal-vs-al-ahli/7mdxk",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FC Zurich",
+      "awayTeam": "Young Boys",
+      "competition": "Swiss Super League",
+      "startsAt": "2026-09-01T20:30:00+02:00",
+      "probabilities": { "home": 22, "draw": 24, "away": 54 },
+      "analysis": {
+        "summary": "Young Boys est favori grâce à une forme et une production offensive nettement meilleures, même si Zurich vient de gagner à Lausanne et joue à domicile.",
+        "keyFactors": [
+          "Young Boys reste invaincu récemment et a inscrit beaucoup de buts sur sa séquence récente.",
+          "Zurich a subi plusieurs lourdes défaites et reste derrière Young Boys dans les indicateurs de forme.",
+          "Les confrontations récentes sont très favorables à Young Boys."
+        ],
+        "uncertainty": "Zurich a montré une capacité de réaction lors de son dernier déplacement et le profil offensif des deux équipes augmente la variance du match.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°110",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "FotMob — FC Zürich vs Young Boys",
+            "url": "https://www.fotmob.com/matches/young-boys-vs-fc-zuerich/3gbmqp",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "SportyTrader — Zurich vs Young Boys",
+            "url": "https://www.sportytrader.com/pronostics/zurich-young-boys-369344/",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Stoke City",
+      "awayTeam": "Norwich",
+      "competition": "EFL Championship",
+      "startsAt": "2026-09-01T21:00:00+02:00",
+      "probabilities": { "home": 30, "draw": 31, "away": 39 },
+      "analysis": {
+        "summary": "Norwich reçoit un léger avantage en raison de la mauvaise dynamique de Stoke, mais le marché reste très équilibré et le nul est un scénario important.",
+        "keyFactors": [
+          "Stoke a perdu ses trois premières rencontres de championnat et reste sous forte pression sportive.",
+          "Norwich présente une forme récente plus équilibrée avec davantage de production offensive.",
+          "Les cotes 1N2 sont proches, ce qui confirme un match sans favori massif."
+        ],
+        "uncertainty": "Le début de saison reste un petit échantillon et Stoke peut réagir à domicile malgré ses résultats récents.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°110",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "talkSPORT — situation de Stoke City",
+            "url": "https://talksport.com/football/4546840/mark-robins-pressure-stoke-city-championship/",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "SportyTrader — Stoke City vs Norwich",
+            "url": "https://www.sportytrader.com/es/apuestas/stoke-city-norwich-8573954/",
+            "accessedAt": "2026-08-31T01:56:11+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Birmingham",
+      "awayTeam": "Southampton",
+      "competition": "EFL Championship",
+      "startsAt": "2026-09-01T20:00:00+02:00",
+      "probabilities": { "home": 36, "draw": 27, "away": 37 },
+      "analysis": {
+        "summary": "La rencontre est presque équilibrée : Birmingham bénéficie du terrain et d'un début de championnat solide, tandis que Southampton affiche davantage de puissance offensive.",
+        "keyFactors": [
+          "Birmingham est encore invaincu en championnat avec une base défensive correcte.",
+          "Southampton produit davantage de tirs et d'occasions et vient de marquer cinq buts contre Millwall.",
+          "Les marchés 1N2 placent les deux équipes très proches, avec un nul autour d'un quart de probabilité."
+        ],
+        "uncertainty": "Les modèles et marchés consultés divergent légèrement sur le favori, ce qui justifie une répartition très serrée.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°110",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "ViaSport — Birmingham vs Southampton",
+            "url": "https://viasport.no/fotball/kamp/1563119",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "Oddschecker — Birmingham vs Southampton",
+            "url": "https://www.oddschecker.com/football/english/championship/birmingham-v-southampton/winner",
+            "accessedAt": "2026-08-31T01:56:11+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Delfin SC",
+      "awayTeam": "Tecnico Universitario",
+      "competition": "LigaPro Ecuador",
+      "probabilities": { "home": 44, "draw": 32, "away": 24 },
+      "analysis": {
+        "summary": "Delfin est légèrement favori à domicile dans un duel de bas de tableau qui s'annonce fermé, avec un poids important accordé au nul.",
+        "keyFactors": [
+          "Les deux équipes marquent peu et les marchés privilégient nettement moins de 2,5 buts.",
+          "Delfin possède un avantage de terrain et est favori sur le marché 1N2.",
+          "Les deux équipes restent sur des dynamiques fragiles, ce qui limite la confiance dans le favori."
+        ],
+        "uncertainty": "La faible production offensive et la proximité des niveaux rendent un match nul ou un résultat décidé sur peu d'occasions très plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°110",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "SportyTrader — Delfín vs Técnico Universitario",
+            "url": "https://www.sportytrader.com/es/apuestas/delfin-sc-tecnico-universitario-8312212/",
+            "accessedAt": "2026-08-31T01:56:11+02:00"
+          },
+          {
+            "label": "GioScore — Delfin vs Técnico Universitario",
+            "url": "https://gioscore.com/football/match/delfin-tecnico-universitario/19664003",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "LDU Quito",
+      "awayTeam": "Mushuc Runa",
+      "competition": "LigaPro Ecuador",
+      "probabilities": { "home": 62, "draw": 24, "away": 14 },
+      "analysis": {
+        "summary": "LDU Quito est le favori le plus solide de la partie sud-américaine de la grille grâce à son niveau de forme, son classement et son avantage à domicile.",
+        "keyFactors": [
+          "LDU reste sur plusieurs résultats positifs et une défense très solide.",
+          "LDU est mieux classé et le marché le situe autour de 1,55-1,60 à domicile.",
+          "Mushuc Runa reste capable de fermer le jeu, ce qui conserve une probabilité significative de nul."
+        ],
+        "uncertainty": "Le contexte de calendrier continental de LDU peut influer sur la rotation et réduire son avantage théorique.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°110",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "SportyTrader — LDU Quito vs Mushuc Runa",
+            "url": "https://www.sportytrader.com/es/resultados-vivo/ldu-quito-mushuc-runa-8312213/",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "SportyTrader — cotes LDU Quito vs Mushuc Runa",
+            "url": "https://www.sportytrader.com/es/apuestas/ldu-quito-mushuc-runa-8312213/",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Fortaleza FC",
+      "awayTeam": "Once Caldas",
+      "competition": "Liga BetPlay",
+      "probabilities": { "home": 35, "draw": 31, "away": 34 },
+      "analysis": {
+        "summary": "C'est la rencontre la plus équilibrée de la grille : les marchés placent Fortaleza et Once Caldas presque à égalité et le nul doit être fortement couvert.",
+        "keyFactors": [
+          "Les cotes 1N2 sont quasiment symétriques entre les deux équipes.",
+          "Once Caldas reste difficile à battre à l'extérieur, avec une longue série sans défaite hors de ses bases.",
+          "Fortaleza a un bilan récent irrégulier mais conserve un avantage de terrain réel."
+        ],
+        "uncertainty": "L'écart entre les trois issues est faible ; toute information tardive de composition peut déplacer sensiblement la hiérarchie.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°110",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "SportyTrader — Fortaleza FC vs Once Caldas",
+            "url": "https://www.sportytrader.es/resultados-directo/fortaleza-fc-once-caldas-8572639/",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          },
+          {
+            "label": "SportyTrader — cotes Fortaleza FC vs Once Caldas",
+            "url": "https://www.sportytrader.com/es/apuestas/fortaleza-fc-once-caldas-8572639/",
+            "accessedAt": "2026-08-31T01:55:25+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["1", "2", "2", "2", "1", "1", "N"],
+      "rationale": "Favoris principaux conservés, Norwich préféré à Stoke, et nul protégé sur le match le plus équilibré."
+    },
+    {
+      "id": "t2",
+      "label": "Norwich et Once Caldas",
+      "selections": ["1", "2", "N", "2", "1", "1", "2"],
+      "rationale": "Renforce le nul à Stoke et la victoire extérieure d'Once Caldas sans toucher aux favoris les plus solides."
+    },
+    {
+      "id": "t3",
+      "label": "Nuls structurants",
+      "selections": ["N", "2", "2", "1", "N", "1", "1"],
+      "rationale": "Couvre deux nuls sous-représentés historiquement et une victoire de Birmingham dans un match très serré."
+    },
+    {
+      "id": "t4",
+      "label": "Équilibres européens",
+      "selections": ["1", "N", "2", "N", "1", "1", "2"],
+      "rationale": "Protège les nuls Zurich-Young Boys et Birmingham-Southampton tout en gardant les favoris forts."
+    },
+    {
+      "id": "t5",
+      "label": "Surprises offensives",
+      "selections": ["2", "2", "2", "2", "1", "1", "1"],
+      "rationale": "Couvre une victoire d'Al Ahli et une issue domicile à Fortaleza dans un scénario plus agressif."
+    },
+    {
+      "id": "t6",
+      "label": "Stoke réagit",
+      "selections": ["1", "2", "1", "2", "N", "1", "N"],
+      "rationale": "Scénario de réaction de Stoke, avec nuls protégés sur les deux rencontres sud-américaines les plus fermées."
+    },
+    {
+      "id": "t7",
+      "label": "Trois nuls plausibles",
+      "selections": ["N", "2", "N", "2", "1", "1", "1"],
+      "rationale": "Exploite la sous-couverture historique du nul sans forcer les matchs où l'écart de niveau est important."
+    },
+    {
+      "id": "t8",
+      "label": "Upset Zurich",
+      "selections": ["1", "1", "2", "2", "1", "N", "2"],
+      "rationale": "Couvre une surprise de Zurich et un nul de LDU, tout en gardant Norwich et Once Caldas."
+    },
+    {
+      "id": "t9",
+      "label": "Double outsider",
+      "selections": ["2", "N", "2", "N", "1", "1", "N"],
+      "rationale": "Associe Al Ahli à plusieurs nuls de valeur pour un scénario à faible consensus."
+    },
+    {
+      "id": "t10",
+      "label": "Birmingham et Técnico",
+      "selections": ["1", "2", "N", "1", "2", "1", "2"],
+      "rationale": "Couvre deux écarts au scénario central : Birmingham à domicile et Técnico Universitario en outsider."
+    },
+    {
+      "id": "t11",
+      "label": "Stoke domicile",
+      "selections": ["N", "2", "1", "2", "1", "1", "2"],
+      "rationale": "Combine un nul du choc saoudien avec une réaction de Stoke et Once Caldas à l'extérieur."
+    },
+    {
+      "id": "t12",
+      "label": "Scénario contrariant",
+      "selections": ["1", "N", "2", "1", "N", "2", "1"],
+      "rationale": "Portefeuille de rupture couvrant plusieurs issues moins consensuelles sans devenir un quasi-clone d'une autre combinaison."
+    }
+  ]
+}
