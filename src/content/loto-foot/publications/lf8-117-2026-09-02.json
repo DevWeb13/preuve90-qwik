@@ -1,0 +1,388 @@
+{
+  "id": "lf8-117-2026-09-02",
+  "formula": 8,
+  "gridNumber": 117,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-02T20:25:00+02:00",
+  "publishedAt": "2026-09-01T01:58:55+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "St Trond",
+      "awayTeam": "Saint-Gilloise",
+      "competition": "Jupiler Pro League",
+      "startsAt": "2026-09-02T20:30:00+02:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 28,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Saint-Gilloise garde l'avantage structurel grâce à son niveau global et à un historique récent favorable dans cette affiche, mais St Trond a déjà battu l'Union à domicile en mai et conserve une vraie capacité à rendre le match serré.",
+        "keyFactors": [
+          "Saint-Gilloise a remporté quatre des six confrontations récentes listées par ODDSLOT.",
+          "St Trond a néanmoins gagné 2-1 la confrontation du 2 mai 2026.",
+          "La forme récente de l'Union reste solide sur un échantillon élargi, ce qui maintient l'avantage extérieur."
+        ],
+        "uncertainty": "Le succès récent de St Trond dans ce duel et la fréquence de matchs disputés justifient une couverture importante du nul et une petite part de victoire locale.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "FotMob — St.Truiden vs Union St.Gilloise",
+            "url": "https://www.fotmob.com/id/matches/union-stgilloise-vs-sttruiden/2o6zo1",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "ODDSLOT — St. Truiden vs Union St. Gilloise",
+            "url": "https://oddslot.com/fr/score/jupiler-pro-league/st.-truiden/union-st.-gilloise/2-sep-2026/",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FC Thun",
+      "awayTeam": "FC Lausanne-Sport",
+      "competition": "Swiss Super League",
+      "startsAt": "2026-09-02T20:30:00+02:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 29,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Thun reçoit après une victoire spectaculaire 4-3 à Saint-Gall, mais son début de saison reste irrégulier et Lausanne a déjà pris des points contre Young Boys et gagné à Bâle. L'avantage du terrain suffit à placer Thun légèrement devant, sans écarter Lausanne.",
+        "keyFactors": [
+          "Thun vient de gagner 4-3 à Saint-Gall après plusieurs résultats défavorables.",
+          "Lausanne a battu Bâle à l'extérieur et accroché Young Boys cette saison.",
+          "Les confrontations récentes entre les deux équipes sont partagées, avec un avantage local fréquent."
+        ],
+        "uncertainty": "Les deux équipes présentent des séquences très volatiles et des défenses perméables, ce qui rend les trois issues crédibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "Sky Sport — FC Thun vs FC Lausanne-Sports",
+            "url": "https://sport.sky.de/fussball/thun-vs-lausanne/558070",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "Telefootball — FC Thun vs Lausanne-Sport",
+            "url": "https://www.telefootball.net/FR-Thun-Lausanne-Sport-2026-09-02-665935.html",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Grasshopper Club Zurich",
+      "awayTeam": "FC St. Gallen",
+      "competition": "Swiss Super League",
+      "startsAt": "2026-09-02T20:30:00+02:00",
+      "probabilities": {
+        "home": 20,
+        "draw": 27,
+        "away": 53
+      },
+      "analysis": {
+        "summary": "Saint-Gall part favori face à un Grasshopper en difficulté : les Zurichois restent sur plusieurs résultats négatifs et leur historique récent contre Saint-Gall est défavorable. Le nul conserve toutefois un poids important dans une rencontre de championnat suisse assez ouverte.",
+        "keyFactors": [
+          "Grasshopper n'a gagné que deux des douze confrontations recensées contre Saint-Gall.",
+          "Saint-Gall a remporté sept de ces douze duels.",
+          "La forme récente de Grasshopper comprend des défaites lourdes, dont 1-4 contre Lugano et 2-5 à Vaduz."
+        ],
+        "uncertainty": "La volatilité du championnat suisse et l'avantage du terrain empêchent de traiter Saint-Gall comme un favori écrasant.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "GioScore — Grasshopper vs St. Gallen",
+            "url": "https://gioscore.com/football/match/grasshopper-st-gallen/19720005",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "Nau — Grasshopper Club Zürich Spielplan",
+            "url": "https://www.nau.ch/sport/matchcenter/teams/grasshoppers/matches",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Luzern",
+      "awayTeam": "FC Vaduz",
+      "competition": "Swiss Super League",
+      "startsAt": "2026-09-02T20:30:00+02:00",
+      "probabilities": {
+        "home": 51,
+        "draw": 26,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Luzern présente la base la plus stable : victoire contre Lausanne puis nul à Servette, alors que Vaduz reste dernier malgré son spectaculaire 5-2 contre Grasshopper. L'avantage domicile place Luzern devant, mais l'attaque récente de Vaduz interdit une probabilité trop haute.",
+        "keyFactors": [
+          "Luzern reste sur un nul à Servette et une victoire 1-0 contre Lausanne.",
+          "Vaduz a perdu à Young Boys et à Sion avant de battre Grasshopper 5-2.",
+          "Le classement récent donne Luzern devant Vaduz, qui reste en bas de tableau."
+        ],
+        "uncertainty": "Le 5-2 récent de Vaduz montre une capacité offensive qui augmente le risque de surprise et limite la confiance dans le 1.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "FotMob — Luzern vs FC Vaduz",
+            "url": "https://www.fotmob.com/en-GB/matches/luzern-vs-fc-kreuzlingen/rfippoc",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "Blick — FC Lucerne vs FC Vaduz",
+            "url": "https://www.blick.ch/fr/sport/football/super_league/super-league-fc-lucerne-fc-vaduz-02-09-2026-id22213093.html",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Red Bull Salzburg",
+      "awayTeam": "Rapid Vienne",
+      "competition": "Austrian Bundesliga",
+      "startsAt": "2026-09-02T20:30:00+02:00",
+      "probabilities": {
+        "home": 48,
+        "draw": 26,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Salzburg reçoit avec une série récente très convaincante, mais Rapid arrive également en bonne dynamique. Le terrain et la profondeur de Salzburg donnent un avantage au 1, sans justifier d'écraser le nul ou le 2.",
+        "keyFactors": [
+          "Salzburg reste notamment sur des victoires 4-1 contre Austria Wien, 3-0 contre Mjällby et 3-0 au WSG Tirol.",
+          "Rapid a battu Sturm Graz 3-1 et reste sur plusieurs performances offensives fortes.",
+          "Le marché 1N2 observé place Salzburg favori mais conserve une probabilité significative pour Rapid."
+        ],
+        "uncertainty": "Rapid est en forme et capable de marquer beaucoup ; la rencontre peut basculer si Salzburg laisse des espaces.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "FotMob — Salzburg vs Rapid Wien",
+            "url": "https://www.fotmob.com/matches/salzburg-vs-rapid-wien/3bf4ud",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "Betfred — FC Red Bull Salzburg vs SK Rapid Wien",
+            "url": "https://www.betfred.com/sports/football/event/36652802",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Dundee FC",
+      "awayTeam": "St Johnstone",
+      "competition": "Scottish Premiership",
+      "startsAt": "2026-09-02T19:45:00+01:00",
+      "probabilities": {
+        "home": 44,
+        "draw": 29,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Dundee a mieux démarré le championnat et bénéficie du terrain, tandis que St Johnstone a déjà subi deux défaites en trois journées. L'historique entre les clubs reste toutefois équilibré, ce qui maintient le nul et le 2 dans le portefeuille.",
+        "keyFactors": [
+          "Dundee a gagné deux de ses trois premiers matchs de championnat.",
+          "St Johnstone a perdu à St Mirren puis chez Hearts après avoir battu Kilmarnock.",
+          "Les confrontations récentes sont équilibrées, avec des succès des deux côtés et plusieurs matchs serrés."
+        ],
+        "uncertainty": "Le derby régional et l'historique équilibré rendent la supériorité de Dundee modérée plutôt que nette.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "St Johnstone FC — Dundee v St Johnstone",
+            "url": "https://www.perthstjohnstonefc.co.uk/match/dundee-v-st-johnstone/",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "Sky Sports — Dundee vs St Johnstone",
+            "url": "https://www.skysports.com/football/dundee-vs-st-johnstone/558358",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Celtic",
+      "awayTeam": "Aberdeen",
+      "competition": "Scottish Premiership",
+      "startsAt": "2026-09-02T19:45:00+01:00",
+      "probabilities": {
+        "home": 64,
+        "draw": 22,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Celtic reste nettement favori à domicile grâce à son début de championnat parfait et à une domination historique très forte sur Aberdeen. La lourde défaite européenne contre LASK rappelle toutefois que l'équipe n'est pas imperméable.",
+        "keyFactors": [
+          "Celtic a remporté ses trois premiers matchs de championnat, dont 2-1 contre Falkirk le 29 août.",
+          "Celtic a récemment gagné 4-0 à Dundee United et 5-1 à Kilmarnock dans les compétitions domestiques.",
+          "L'historique du duel est très favorable à Celtic, même si Aberdeen dispose d'une forme domestique correcte."
+        ],
+        "uncertainty": "La fatigue et le contexte européen récent de Celtic, combinés à la capacité d'Aberdeen à défendre, justifient encore une couverture du nul.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "Sky Sports — Celtic vs Aberdeen",
+            "url": "https://www.skysports.com/football/celtic-vs-aberdeen/558357",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "FotMob — Celtic vs Aberdeen",
+            "url": "https://www.fotmob.com/en-GB/matches/aberdeen-vs-celtic/2swm24",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Falkirk",
+      "awayTeam": "Rangers",
+      "competition": "Scottish Premiership",
+      "probabilities": {
+        "home": 19,
+        "draw": 24,
+        "away": 57
+      },
+      "analysis": {
+        "summary": "Rangers possède l'avantage de qualité et un historique très favorable contre Falkirk, mais son début de saison domestique a été irrégulier. Falkirk à domicile et le nul doivent donc rester couverts malgré le statut de favori extérieur.",
+        "keyFactors": [
+          "Rangers a remporté dix des seize confrontations recensées contre Falkirk.",
+          "Les deux derniers duels de championnat en 2026 ont été très prolifiques et gagnés par Rangers.",
+          "Rangers a alterné succès européens et contre-performances domestiques, ce qui réduit la confiance dans le 2."
+        ],
+        "uncertainty": "Les résultats irréguliers de Rangers et l'avantage du terrain de Falkirk augmentent le risque de nul ou de surprise locale.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°117",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-01T01:56:34+02:00"
+          },
+          {
+            "label": "GioScore — Falkirk vs Rangers",
+            "url": "https://gioscore.com/football/match/falkirk-rangers/19722797",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          },
+          {
+            "label": "ViaSport — Falkirk vs Rangers",
+            "url": "https://viasport.no/fotball/kamp/1556654",
+            "accessedAt": "2026-09-01T01:57:33+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["2", "1", "2", "1", "1", "1", "1", "2"],
+      "rationale": "Retient les favoris principaux tout en donnant Thun et Dundee gagnants à domicile."
+    },
+    {
+      "id": "t2",
+      "label": "Nuls ciblés Belgique-Autriche",
+      "selections": ["N", "1", "2", "1", "N", "1", "1", "2"],
+      "rationale": "Couvre les deux matchs où un favori existe sans écart suffisant pour éliminer un nul compétitif."
+    },
+    {
+      "id": "t3",
+      "label": "Lausanne et Rapid résistent",
+      "selections": ["2", "N", "2", "1", "2", "N", "1", "2"],
+      "rationale": "Scénario où Lausanne et Dundee-St Johnstone se neutralisent tandis que Rapid exploite sa forme récente."
+    },
+    {
+      "id": "t4",
+      "label": "Saint-Gall accroché, Rangers freiné",
+      "selections": ["2", "2", "N", "1", "1", "1", "1", "N"],
+      "rationale": "Couvre un rebond de Lausanne, un nul de Saint-Gall à Zurich et un partage des points de Rangers."
+    },
+    {
+      "id": "t5",
+      "label": "Surprises mesurées",
+      "selections": ["1", "1", "2", "N", "N", "2", "1", "2"],
+      "rationale": "Intègre le précédent succès de St Trond contre l'Union, un nul à Lucerne et une victoire extérieure de St Johnstone."
+    },
+    {
+      "id": "t6",
+      "label": "Volatilité suisse",
+      "selections": ["2", "N", "1", "2", "1", "1", "1", "2"],
+      "rationale": "Couvre simultanément une résistance de Lausanne, un réveil de Grasshopper et une nouvelle performance offensive de Vaduz."
+    },
+    {
+      "id": "t7",
+      "label": "Outsiders offensifs",
+      "selections": ["N", "2", "2", "1", "2", "N", "1", "1"],
+      "rationale": "Scénario où Lausanne et Rapid gagnent, Dundee partage les points et Falkirk profite des irrégularités de Rangers."
+    },
+    {
+      "id": "t8",
+      "label": "Nuls et renversements",
+      "selections": ["2", "1", "N", "2", "N", "2", "1", "N"],
+      "rationale": "Renforce les nuls historiquement sous-couverts tout en testant Vaduz et St Johnstone à l'extérieur."
+    },
+    {
+      "id": "t9",
+      "label": "Double surprise britannique",
+      "selections": ["1", "N", "2", "1", "1", "N", "N", "2"],
+      "rationale": "Couvre St Trond, un nul à Dundee et un nul de Celtic, avec la base favorite conservée ailleurs."
+    },
+    {
+      "id": "t10",
+      "label": "Lausanne et Grasshopper",
+      "selections": ["2", "2", "1", "N", "2", "1", "1", "2"],
+      "rationale": "Scénario suisse divergent où Lausanne et Grasshopper gagnent, accompagné d'un nul à Lucerne et d'un succès de Rapid."
+    },
+    {
+      "id": "t11",
+      "label": "Portefeuille très contrarié",
+      "selections": ["N", "N", "2", "2", "1", "2", "2", "2"],
+      "rationale": "Couvre plusieurs issues moins représentées, dont Aberdeen à Celtic, sans abandonner Saint-Gall et Rangers."
+    },
+    {
+      "id": "t12",
+      "label": "Choc des favoris domestiques",
+      "selections": ["1", "1", "N", "1", "N", "N", "1", "1"],
+      "rationale": "Scénario de forte variance avec St Trond et Falkirk vainqueurs, compensé par plusieurs nuls sur les matchs équilibrés."
+    }
+  ]
+}
