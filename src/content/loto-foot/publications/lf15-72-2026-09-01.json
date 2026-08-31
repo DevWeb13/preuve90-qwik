@@ -1,0 +1,288 @@
+{
+  "id": "lf15-72-2026-09-01",
+  "formula": 15,
+  "gridNumber": 72,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-01T19:55:00+02:00",
+  "publishedAt": "2026-08-31T06:01:21+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Al Hilal",
+      "awayTeam": "Al Ahli SC",
+      "competition": "Saudi Pro League",
+      "startsAt": "2026-09-01T21:00:00+03:00",
+      "probabilities": { "home": 54, "draw": 25, "away": 21 },
+      "analysis": {
+        "summary": "Al Hilal garde un avantage net grâce à son excellent début de saison et à sa production offensive, mais Al Ahli reste dangereux.",
+        "keyFactors": ["Al Hilal a gagné ses trois premiers matchs de championnat.", "Al Hilal produit davantage de tirs et de buts qu'Al Ahli.", "Al Ahli possède une attaque capable de punir une baisse de rythme."],
+        "uncertainty": "Le choc oppose deux équipes de haut niveau et les compositions peuvent réduire l'écart.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"Reuters — The week in Asian football","url":"https://www.reuters.com/sports/soccer/week-asian-football-2026-08-24/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"FotMob — Al Hilal vs Al Ahli","url":"https://www.fotmob.com/matches/al-hilal-vs-al-ahli/7mdxk","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FC Zurich",
+      "awayTeam": "Young Boys",
+      "competition": "Swiss Super League",
+      "startsAt": "2026-09-01T20:30:00+02:00",
+      "probabilities": { "home": 23, "draw": 25, "away": 52 },
+      "analysis": {
+        "summary": "Young Boys est favori grâce à une forme et une puissance offensive supérieures, mais Zurich conserve une chance réelle à domicile.",
+        "keyFactors": ["Young Boys reste invaincu récemment.", "Young Boys affiche davantage de buts et d'occasions.", "Zurich reste capable de marquer à domicile."],
+        "uncertainty": "Les deux équipes ont des profils offensifs et une variance élevée.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"FotMob — FC Zürich vs Young Boys","url":"https://www.fotmob.com/matches/young-boys-vs-fc-zuerich/3gbmqp","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"NoFluffPicks Stats — Zürich vs Young Boys","url":"https://nofluffpicks.com/fr/match/zurich-vs-young-boys-2026-09-01","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Stoke City",
+      "awayTeam": "Norwich",
+      "competition": "EFL Championship",
+      "probabilities": { "home": 26, "draw": 31, "away": 43 },
+      "analysis": {
+        "summary": "Norwich reçoit un léger avantage face à un Stoke en crise de résultats, avec un nul important.",
+        "keyFactors": ["Stoke a perdu ses trois premières journées.", "Norwich présente une meilleure production offensive récente.", "Les confrontations récentes comportent plusieurs nuls."],
+        "uncertainty": "Le petit échantillon du début de saison et l'effet domicile rendent la hiérarchie fragile.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"talkSPORT — pression sur Stoke City","url":"https://talksport.com/football/4546840/mark-robins-pressure-stoke-city-championship/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"GSP — Stoke vs Norwich","url":"https://www.gsp.ro/rezultate-live/meci/11192620","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Birmingham",
+      "awayTeam": "Southampton",
+      "competition": "EFL Championship",
+      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "analysis": {
+        "summary": "Match très serré : Birmingham est invaincu après trois journées, tandis que Southampton affiche plus de volume offensif.",
+        "keyFactors": ["Birmingham compte 5 points après trois matchs.", "Southampton a marqué 9 buts sur ses trois premières journées.", "Les indicateurs de tirs et xG favorisent légèrement Southampton."],
+        "uncertainty": "Les résultats récents ne dégagent pas un favori robuste.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"GSP — Birmingham vs Southampton","url":"https://www.gsp.ro/rezultate-live/meci/11192598","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"NoFluffPicks Stats — Birmingham vs Southampton","url":"https://nofluffpicks.com/se/match/birmingham-city-vs-southampton-2026-09-01","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Delfin SC",
+      "awayTeam": "Tecnico Universitario",
+      "competition": "LigaPro Ecuador",
+      "probabilities": { "home": 39, "draw": 34, "away": 27 },
+      "analysis": {
+        "summary": "Delfin est légèrement favori à domicile dans un duel de bas de tableau à faible écart de niveau, avec un nul fortement plausible.",
+        "keyFactors": ["Seulement deux points séparent les équipes dans le classement présenté.", "Les confrontations directes sont équilibrées.", "Les deux équipes arrivent sur des séries négatives."],
+        "uncertainty": "Le niveau offensif irrégulier augmente la probabilité d'un match fermé.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"GioScore — Delfin vs Técnico Universitario","url":"https://gioscore.com/football/match/delfin-tecnico-universitario/19664003","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"Voetbaluitslagen — Delfin vs Técnico Universitario","url":"https://voetbaluitslagen.be/wedstrijd/ligapro-serie-a/2026/780227/","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "LDU Quito",
+      "awayTeam": "Mushuc Runa",
+      "competition": "LigaPro Ecuador",
+      "probabilities": { "home": 62, "draw": 24, "away": 14 },
+      "analysis": {
+        "summary": "LDU Quito est un favori solide à domicile grâce à sa forme défensive, son classement et son historique favorable.",
+        "keyFactors": ["LDU reste sur une série récente très solide défensivement.", "LDU est mieux classé et a gagné le match aller 3-1.", "L'historique direct est très favorable à LDU."],
+        "uncertainty": "Le calendrier continental récent de LDU peut entraîner fatigue ou rotation.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"SportyTrader — LDU Quito vs Mushuc Runa","url":"https://www.sportytrader.com/es/resultados-vivo/ldu-quito-mushuc-runa-8312213/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"Football Today — LDU Quito vs Mushuc Runa","url":"https://www.footballtoday.net/results/liga-deportiva-universitaria-de-quito-vs-mushuc-runa-sc","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Fortaleza FC",
+      "awayTeam": "Once Caldas",
+      "competition": "Liga BetPlay",
+      "probabilities": { "home": 34, "draw": 33, "away": 33 },
+      "analysis": {
+        "summary": "Rencontre presque parfaitement équilibrée ; le nul est central car les deux équipes ont des formes proches.",
+        "keyFactors": ["Les deux clubs sont proches au classement.", "Fortaleza et Once Caldas ont beaucoup partagé les points récemment.", "Les confrontations récentes ne donnent pas d'avantage durable."],
+        "uncertainty": "Une faible différence de niveau rend toute information tardive de composition potentiellement décisive.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"SportyTrader — Fortaleza vs Once Caldas","url":"https://www.sportytrader.nl/live-uitslagen/fc-fortaleza-once-caldas-8572639/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"Telefootball — Fortaleza FC vs Once Caldas","url":"https://www.telefootball.net/VE/Fortaleza-FC-Once-Caldas-2026-09-01-665904.html","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "FC Machida",
+      "awayTeam": "Kawasaki Frontale",
+      "competition": "J1 League",
+      "startsAt": "2026-09-02T19:00:00+09:00",
+      "probabilities": { "home": 47, "draw": 29, "away": 24 },
+      "analysis": {
+        "summary": "Machida est favori grâce à un début de saison plus convaincant, mais Kawasaki reste invaincu et le nul mérite une couverture importante.",
+        "keyFactors": ["Machida est premier avec trois victoires et un nul.", "Kawasaki a trois nuls sur ses trois premiers matchs.", "Le dernier duel de mai s'est terminé 1-1 avant tirs au but."],
+        "uncertainty": "Kawasaki est difficile à battre et peut neutraliser l'avantage de forme de Machida.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"J.LEAGUE — FC Machida vs Kawasaki Frontale","url":"https://www.jleague.jp/en/match/j1/2026/090219/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"NoFluffPicks Stats — Machida vs Kawasaki","url":"https://nofluffpicks.com/uk/match/machida-zelvia-vs-kawasaki-frontale-2026-09-02","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Tokyo Verdy",
+      "awayTeam": "Vissel Kobe",
+      "competition": "J1 League",
+      "startsAt": "2026-09-02T19:00:00+09:00",
+      "probabilities": { "home": 24, "draw": 28, "away": 48 },
+      "analysis": {
+        "summary": "Vissel Kobe est favori, soutenu par un historique récent favorable, mais Tokyo Verdy a déjà montré qu'il pouvait accrocher Kobe.",
+        "keyFactors": ["Kobe a gagné deux des quatre confrontations de J1 listées depuis 2024.", "Tokyo Verdy a également gagné à Kobe en 2024.", "Le profil du match conserve une vraie probabilité de nul."],
+        "uncertainty": "Les données de forme immédiate sont moins riches que pour d'autres rencontres de la grille.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"J.LEAGUE — Tokyo Verdy vs Vissel Kobe","url":"https://www.jleague.jp/en/match/j1/2026/090218/","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Cerezo Osaka",
+      "awayTeam": "Kashiwa Reysol",
+      "competition": "J1 League",
+      "probabilities": { "home": 27, "draw": 29, "away": 44 },
+      "analysis": {
+        "summary": "Kashiwa reçoit l'avantage grâce à une série de victoires et de meilleurs indicateurs offensifs, même si Cerezo garde l'avantage du terrain.",
+        "keyFactors": ["Kashiwa arrive avec plusieurs victoires consécutives.", "Les indicateurs xG et tirs sont supérieurs pour Kashiwa.", "Cerezo reste capable de fermer le match à domicile."],
+        "uncertainty": "Le championnat vient de reprendre et les statistiques reposent sur un échantillon réduit.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"Voetbaluitslagen — Cerezo Osaka vs Kashiwa Reysol","url":"https://voetbaluitslagen.be/wedstrijd/j1-league/2027/793228/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"NoFluffPicks Stats — Cerezo Osaka vs Kashiwa Reysol","url":"https://nofluffpicks.com/match/cerezo-osaka-vs-kashiwa-reysol-2026-09-02","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Mito Hollyhock",
+      "awayTeam": "Kashima Antlers",
+      "competition": "J1 League",
+      "startsAt": "2026-09-02T19:00:00+09:00",
+      "probabilities": { "home": 18, "draw": 24, "away": 58 },
+      "analysis": {
+        "summary": "Kashima est nettement favori grâce à quatre victoires en quatre, mais Mito a déjà réussi à l'accrocher cette année.",
+        "keyFactors": ["Kashima est deuxième avec quatre victoires en quatre.", "Kashima affiche une production offensive supérieure.", "Mito avait obtenu un nul 1-1 contre Kashima en avril."],
+        "uncertainty": "L'historique 2026 montre que Mito peut rendre le match plus serré que la forme brute ne le suggère.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"J.LEAGUE — Mito vs Kashima","url":"https://www.jleague.jp/en/match/j1/2026/090216/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"NoFluffPicks Stats — Mito vs Kashima","url":"https://nofluffpicks.com/uk/match/mito-hollyhock-vs-kashima-antlers-2026-09-02","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Sanfrecce Hiroshima",
+      "awayTeam": "Nagoya Grampus",
+      "competition": "J1 League",
+      "startsAt": "2026-09-02T19:00:00+09:00",
+      "probabilities": { "home": 50, "draw": 28, "away": 22 },
+      "analysis": {
+        "summary": "Hiroshima est favori grâce à son invincibilité et sa défense, même si Nagoya reste dangereux après deux victoires récentes.",
+        "keyFactors": ["Hiroshima est invaincu après quatre matchs.", "Hiroshima n'a concédé qu'un but dans les données officielles affichées.", "Nagoya a néanmoins gagné ses deux rencontres les plus récentes mentionnées."],
+        "uncertainty": "Nagoya a un historique direct compétitif contre Hiroshima et peut surprendre.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"J.LEAGUE — Hiroshima vs Nagoya","url":"https://www.jleague.jp/en/match/j1/2026/090223/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"GioScore — Hiroshima vs Nagoya","url":"https://gioscore.com/football/match/nagoya-grampus-sanfrecce-hiroshima/19719053","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Shimizu S-Pulse",
+      "awayTeam": "FC Tokyo",
+      "competition": "J1 League",
+      "startsAt": "2026-09-02T19:00:00+09:00",
+      "probabilities": { "home": 24, "draw": 29, "away": 47 },
+      "analysis": {
+        "summary": "FC Tokyo est favori grâce à un meilleur début de saison et des indicateurs offensifs supérieurs, mais le terrain maintient Shimizu dans le match.",
+        "keyFactors": ["FC Tokyo est cinquième avec deux victoires, un nul et une défaite.", "Shimizu a perdu trois de ses quatre premiers matchs.", "Les xG et le volume de tirs favorisent FC Tokyo."],
+        "uncertainty": "Shimizu concède peu malgré ses défaites, ce qui peut produire un match serré.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"J.LEAGUE — Shimizu vs FC Tokyo","url":"https://www.jleague.jp/en/match/j1/2026/090221/preview/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"NoFluffPicks Stats — Shimizu vs FC Tokyo","url":"https://nofluffpicks.com/fr/match/shimizu-s-pulse-vs-tokyo-2026-09-02","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Yokohama F.Marinos",
+      "awayTeam": "Kyoto Sanga FC",
+      "competition": "J1 League",
+      "startsAt": "2026-09-02T19:00:00+09:00",
+      "probabilities": { "home": 44, "draw": 28, "away": 28 },
+      "analysis": {
+        "summary": "Yokohama F. Marinos est favori à domicile, mais Kyoto possède suffisamment de menace pour conserver un scénario de nul ou de victoire extérieure.",
+        "keyFactors": ["Yokohama est mieux classé dans la source officielle.", "Yokohama présente davantage de potentiel offensif attendu.", "Kyoto a déjà gagné à Yokohama lors de saisons récentes."],
+        "uncertainty": "Les deux équipes restent irrégulières en ce début de saison.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"J.LEAGUE — Yokohama F. Marinos vs Kyoto Sanga","url":"https://www.jleague.jp/en/match/j1/2026/090220/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"Voetbaluitslagen — Yokohama F. Marinos vs Kyoto Sanga","url":"https://voetbaluitslagen.be/wedstrijd/j1-league/2027/793236/","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "V-Varen Nagasaki",
+      "awayTeam": "Gamba Osaka",
+      "competition": "J1 League",
+      "startsAt": "2026-09-02T19:00:00+09:00",
+      "probabilities": { "home": 31, "draw": 29, "away": 40 },
+      "analysis": {
+        "summary": "Gamba Osaka reçoit un léger avantage, mais son début de saison moyen et l'avantage du terrain de Nagasaki maintiennent les trois issues ouvertes.",
+        "keyFactors": ["Gamba est mieux classé après quatre journées.", "Nagasaki a perdu trois de ses quatre premiers matchs.", "Les confrontations 2026 ont été serrées."],
+        "uncertainty": "Les deux équipes ont concédé régulièrement et le match peut basculer sur des détails.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF15 n°72","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"J.LEAGUE — Nagasaki vs Gamba Osaka","url":"https://www.jleague.jp/en/match/j1/2026/090225/","accessedAt":"2026-08-31T06:00:10+02:00"},
+          {"label":"FotMob — V-Varen Nagasaki vs Gamba Osaka","url":"https://www.fotmob.com/matches/gamba-osaka-vs-v-varen-nagasaki/98quz5f","accessedAt":"2026-08-31T06:00:10+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t1","label":"Scénario central","selections":["1","2","2","2","1","1","N","1","2","2","2","1","2","1","2"],"rationale":"Socle des favoris calibrés avec couverture des matchs les plus équilibrés."},
+    {"id":"t2","label":"Scénario 2","selections":["1","2","N","1","N","1","1","1","2","2","2","1","2","1","N"],"rationale":"Couvre plusieurs nuls plausibles et un basculement à Birmingham."},
+    {"id":"t3","label":"Scénario 3","selections":["1","N","2","2","1","1","2","N","2","2","2","N","2","1","2"],"rationale":"Renforce les nuls sur Zurich, Machida et Hiroshima avec Once Caldas extérieur."},
+    {"id":"t4","label":"Scénario 4","selections":["N","2","2","N","1","1","N","1","N","2","2","1","2","1","2"],"rationale":"Scénario plus riche en nuls sur les affiches à forte proximité."},
+    {"id":"t5","label":"Scénario 5","selections":["1","2","2","2","N","N","1","1","2","N","2","1","N","2","2"],"rationale":"Couvre Delfin et LDU freinés, Kashiwa accroché et Kyoto gagnant."},
+    {"id":"t6","label":"Scénario 6","selections":["2","2","N","1","1","1","N","N","2","2","2","1","2","1","1"],"rationale":"Scénario de surprises ciblées avec Al Ahli et Nagasaki."},
+    {"id":"t7","label":"Scénario 7","selections":["1","1","2","2","N","1","2","1","2","2","N","1","2","N","2"],"rationale":"Couvre Zurich, Once Caldas et Mito sans multiplier les quasi-clones."},
+    {"id":"t8","label":"Scénario 8","selections":["1","2","1","N","1","1","N","1","1","2","2","2","2","1","N"],"rationale":"Couvre des retours domicile à Stoke et Tokyo ainsi que Nagasaki-Gamba nul."},
+    {"id":"t9","label":"Scénario 9","selections":["N","2","2","2","1","1","1","1","2","1","2","1","N","1","2"],"rationale":"Scénario alternatif Al Hilal nul, Fortaleza domicile et Cerezo domicile."},
+    {"id":"t10","label":"Scénario 10","selections":["1","N","N","2","2","1","N","2","2","2","2","1","2","1","1"],"rationale":"Renforce les nuls historiques sous-couverts et deux outsiders plausibles."},
+    {"id":"t11","label":"Scénario 11","selections":["1","2","2","1","N","1","2","1","N","2","2","N","2","2","2"],"rationale":"Couvre Birmingham domicile, Kobe nul, Hiroshima nul et Kyoto extérieur."},
+    {"id":"t12","label":"Scénario 12","selections":["2","2","2","2","1","1","N","N","2","2","2","1","2","1","N"],"rationale":"Scénario plus contrariant sur Al Ahli, Machida-Kawasaki et Nagasaki-Gamba."}
+  ]
+}
