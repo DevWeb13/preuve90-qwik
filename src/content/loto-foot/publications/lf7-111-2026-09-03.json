@@ -1,0 +1,328 @@
+{
+  "id": "lf7-111-2026-09-03",
+  "formula": 7,
+  "gridNumber": 111,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-03T20:25:00+02:00",
+  "publishedAt": "2026-09-02T01:59:50+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-03T20:45:00+02:00",
+      "probabilities": { "home": 29, "draw": 29, "away": 42 },
+      "analysis": {
+        "summary": "Lille part avec un avantage mesuré grâce à un meilleur début de saison, une série extérieure très solide et un historique récent favorable face à Toulouse, sans être assez dominant pour écarter le nul.",
+        "keyFactors": [
+          "Lille est invaincu après deux journées avec quatre points et quatre buts marqués, alors que Toulouse n'a pas encore gagné.",
+          "Lille a remporté les quatre confrontations de Ligue 1 les plus récentes contre Toulouse et reste sur une longue série de victoires à l'extérieur en championnat.",
+          "Toulouse joue à domicile et a déjà montré qu'il pouvait accrocher des adversaires solides, ce qui maintient une probabilité significative de nul."
+        ],
+        "uncertainty": "Le début de saison repose encore sur un échantillon réduit et les compositions à plus de vingt-quatre heures du match peuvent modifier l'écart entre les équipes.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°111",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "FotMob — Toulouse vs Lille",
+            "url": "https://www.fotmob.com/nl/matches/-vs-toulouse/2us06f",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "FootballWhispers — Toulouse vs Lille preview",
+            "url": "https://footballwhispers.com/blog/toulouse-vs-lille-prediction-03-09-2026/",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Celta Vigo",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-03T21:00:00+02:00",
+      "probabilities": { "home": 39, "draw": 31, "away": 30 },
+      "analysis": {
+        "summary": "Real Sociedad reçoit un léger avantage à domicile, mais les tendances récentes et le profil historiquement fermé de cette confrontation rendent le nul et une victoire de Celta suffisamment plausibles pour une large couverture.",
+        "keyFactors": [
+          "Real Sociedad est annoncée favorite sur plusieurs marchés tout en restant irrégulière à domicile sur ses dix dernières rencontres.",
+          "Celta a obtenu des résultats extérieurs équilibrés récemment et dispose d'une menace offensive crédible.",
+          "Huit des dix dernières confrontations ont produit moins de 2,5 buts, un contexte qui augmente le poids d'un nul dans un match serré."
+        ],
+        "uncertainty": "Les écarts de niveau actuels sont faibles et les données de début de saison ne suffisent pas à justifier un favori nettement supérieur à 40 %.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°111",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "Sofascore — Real Sociedad vs Celta Vigo",
+            "url": "https://www.sofascore.com/es/football/match/real-sociedad-celta-vigo/wgbszgb",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "EasyOdds — Real Sociedad vs Celta Vigo preview",
+            "url": "https://easyodds.com/real-sociedad-vs-celta-vigo-betting-odds-tips-predictions-preview-3rd-september-2026",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "FC Bâle",
+      "awayTeam": "Sion",
+      "competition": "Swiss Super League",
+      "startsAt": "2026-09-03T20:30:00+02:00",
+      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "analysis": {
+        "summary": "Bâle-Sion est presque équilibré, avec un léger avantage à Sion dans les marchés et certains indicateurs récents, mais l'avantage du St. Jakob-Park empêche de détacher fortement l'équipe visiteuse.",
+        "keyFactors": [
+          "Les cotes 1N2 sont très serrées et placent généralement Sion seulement légèrement devant Bâle.",
+          "Les deux équipes ont alterné victoires et défaites récemment, avec une forte fréquence de matchs ouverts et de buts des deux côtés.",
+          "Bâle joue à domicile, ce qui compense une partie de l'avantage statistique récent accordé à Sion."
+        ],
+        "uncertainty": "Les modèles consultés divergent fortement sur le favori, ce qui confirme un match à haute variance où les trois issues doivent rester proches.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°111",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "FC Basel Ticketshop — FC Bâle vs Sion",
+            "url": "https://tickets.fcb.ch/spiele/fcb-fc-sion-0deb936e",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "Wincomparator — FC Bâle vs Sion",
+            "url": "https://www.wincomparator.com/predictions/fc-basel-fc-sion-8552107/",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Lugano",
+      "awayTeam": "Servette FC",
+      "competition": "Swiss Super League",
+      "startsAt": "2026-09-03T20:30:00+02:00",
+      "probabilities": { "home": 49, "draw": 27, "away": 24 },
+      "analysis": {
+        "summary": "Lugano est le favori raisonnable grâce à une excellente dynamique récente et à l'avantage de l'AIL Arena, mais l'historique face à Servette impose de conserver une marge d'incertitude importante.",
+        "keyFactors": [
+          "Lugano reste sur une série récente très positive, notamment une victoire 2-1 à Sion et plusieurs succès européens.",
+          "Le marché 1N2 place Lugano autour de 2,0, devant Servette, ce qui confirme un avantage réel mais non massif.",
+          "Servette a gagné plusieurs confrontations récentes entre les deux clubs, ce qui limite la confiance dans un scénario central exclusivement à domicile."
+        ],
+        "uncertainty": "La charge liée aux compétitions européennes de Lugano et l'historique favorable de Servette peuvent réduire l'effet de la forme récente.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°111",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "Lugano Region — FC Lugano vs Servette FC",
+            "url": "https://www.luganoregion.com/en/events/details/fc-lugano-vs-servette-fc/10008470.html",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "Wincomparator — FC Lugano vs Servette",
+            "url": "https://www.wincomparator.com/predictions/fc-lugano-servette-geneva-8552106/",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hibernian",
+      "awayTeam": "Hearts",
+      "competition": "Scottish Premiership",
+      "startsAt": "2026-09-03T19:45:00+01:00",
+      "probabilities": { "home": 36, "draw": 32, "away": 32 },
+      "analysis": {
+        "summary": "Le derby d'Édimbourg est traité comme un match presque à trois issues : Hibernian bénéficie du terrain et d'une bonne dynamique domestique, tandis que Hearts est invaincu récemment et a dominé les confrontations de la saison précédente.",
+        "keyFactors": [
+          "Hibernian n'a perdu qu'un de ses sept derniers matchs toutes compétitions confondues et reste sur trois victoires domestiques.",
+          "Hearts est invaincu sur ses six derniers matchs et a remporté trois des quatre derbys de la saison précédente.",
+          "Les signaux de marché et les previews divergent, ce qui soutient une forte probabilité de nul et une couverture équilibrée des deux équipes."
+        ],
+        "uncertainty": "Un derby amplifie la variance et l'avantage théorique du terrain peut être moins prédictif qu'en rencontre ordinaire.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°111",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "FootballWhispers — Hibernian vs Hearts preview",
+            "url": "https://footballwhispers.com/blog/hibernian-vs-hearts-prediction-preview-betting-tips-03-09-2026/",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "Wincomparator — Hibernian vs Hearts",
+            "url": "https://www.wincomparator.com/predictions/hibernian-heart-of-midlothian-8556330/",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "La Gantoise",
+      "awayTeam": "Louvain",
+      "competition": "Belgian Pro League",
+      "startsAt": "2026-09-03T20:30:00+02:00",
+      "probabilities": { "home": 61, "draw": 23, "away": 16 },
+      "analysis": {
+        "summary": "La Gantoise est un favori solide : sa forme récente est nettement meilleure et Louvain arrive avec plusieurs défaites lourdes, même si le nul reste suffisamment plausible pour apparaître dans un scénario de couverture.",
+        "keyFactors": [
+          "La Gantoise a enchaîné plusieurs résultats positifs récents, dont des victoires contre le Rapid Vienne et Malines.",
+          "Louvain reste sur des défaites marquées, notamment 3-0 contre le Cercle Bruges, 3-1 à Charleroi et 6-3 contre Lille.",
+          "L'avantage du Planet Group Arena renforce encore la position de La Gantoise."
+        ],
+        "uncertainty": "Les confrontations directes récentes sont moins déséquilibrées que la forme actuelle, ce qui interdit de traiter le 1 comme certain.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°111",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "FOX Sports — Gent vs Oud-Heverlee Leuven",
+            "url": "https://www.foxsports.com/soccer/juliper-league-gent-vs-oud-heverlee-leuven-sep-03-2026-game-boxscore-985240",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "LiveFoot — Gent vs OH Leuven",
+            "url": "https://www.livefoot.fr/direct/pro-league-belgique/match-gent-vs-oh-leuven-3dcd931e",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Anderlecht",
+      "awayTeam": "KV Kortrijk",
+      "competition": "Belgian Pro League",
+      "startsAt": "2026-09-03T20:30:00+02:00",
+      "probabilities": { "home": 62, "draw": 23, "away": 15 },
+      "analysis": {
+        "summary": "Anderlecht est le favori le plus net de la grille grâce à un historique direct très favorable et à la mauvaise dynamique récente de Kortrijk, tout en conservant une couverture du nul dans un scénario secondaire.",
+        "keyFactors": [
+          "Anderlecht a remporté 12 des 20 confrontations directes recensées contre Kortrijk, pour seulement trois défaites.",
+          "Kortrijk reste sur trois défaites lourdes consécutives, avec neuf buts encaissés et un seul marqué sur cette séquence.",
+          "Les marchés donnent Anderlecht autour de 63 % de probabilité implicite de victoire à domicile."
+        ],
+        "uncertainty": "Anderlecht vient aussi de subir une lourde défaite contre l'Union Saint-Gilloise, ce qui justifie de ne pas dépasser une confiance modérée malgré l'écart avec Kortrijk.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF7 n°111",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "FotMob — Anderlecht vs Kortrijk",
+            "url": "https://www.fotmob.com/matches/kortrijk-vs-anderlecht/2g50qw",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "GioScore — Anderlecht vs KV Kortrijk",
+            "url": "https://gioscore.com/football/match/anderlecht-kv-kortrijk/19726080",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          },
+          {
+            "label": "RatingBet — Anderlecht vs Kortrijk",
+            "url": "https://ratingbet.com/football/match/anderlecht-vs-kortrijk/",
+            "accessedAt": "2026-09-02T01:59:37+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["2", "1", "2", "1", "N", "1", "1"],
+      "rationale": "Conserve les deux favoris les plus nets et retient les avantages mesurés de Lille, Real Sociedad, Sion et Lugano, avec le nul sur le derby d'Édimbourg."
+    },
+    {
+      "id": "t2",
+      "label": "Nuls sous-couverts",
+      "selections": ["N", "1", "2", "1", "1", "1", "1"],
+      "rationale": "Introduit le nul à Toulouse tout en donnant Hibernian gagnant à domicile, sans modifier les deux favoris belges les plus solides."
+    },
+    {
+      "id": "t3",
+      "label": "Équilibre ibérique et suisse",
+      "selections": ["2", "N", "1", "1", "N", "1", "1"],
+      "rationale": "Couvre le nul à Saint-Sébastien et une victoire de Bâle dans le match suisse très serré, tout en conservant le derby écossais nul."
+    },
+    {
+      "id": "t4",
+      "label": "Réaction des locaux",
+      "selections": ["1", "1", "2", "N", "2", "1", "1"],
+      "rationale": "Couvre une réaction de Toulouse, un partage des points à Lugano et une victoire de Hearts dans un derby où l'écart est minimal."
+    },
+    {
+      "id": "t5",
+      "label": "Scénario visiteurs",
+      "selections": ["2", "2", "N", "1", "1", "1", "1"],
+      "rationale": "Retient Celta à l'extérieur et le nul Bâle-Sion, deux scénarios plausibles insuffisamment représentés dans les combinaisons précédentes."
+    },
+    {
+      "id": "t6",
+      "label": "Double nul structurant",
+      "selections": ["N", "N", "2", "1", "2", "1", "1"],
+      "rationale": "Renforce explicitement les nuls historiquement sous-couverts sur les deux premières rencontres tout en prenant Hearts dans le derby."
+    },
+    {
+      "id": "t7",
+      "label": "Servette surprise",
+      "selections": ["2", "1", "1", "2", "N", "1", "1"],
+      "rationale": "Couvre deux renversements suisses cohérents, victoire de Bâle et succès de Servette, avec le nul dans le derby écossais."
+    },
+    {
+      "id": "t8",
+      "label": "Locaux et nuls",
+      "selections": ["1", "N", "N", "1", "1", "1", "1"],
+      "rationale": "Combine Toulouse et Hibernian à domicile avec deux nuls sur les matchs les plus équilibrés de Saint-Sébastien et Bâle."
+    },
+    {
+      "id": "t9",
+      "label": "Variance contrôlée",
+      "selections": ["N", "2", "2", "N", "N", "1", "1"],
+      "rationale": "Ajoute Celta et deux nuls supplémentaires sur Toulouse, Lugano et Édimbourg afin d'élargir la couverture sans toucher aux favoris belges."
+    },
+    {
+      "id": "t10",
+      "label": "Accroc à Gand",
+      "selections": ["2", "1", "N", "1", "2", "N", "1"],
+      "rationale": "Couvre le scénario moins probable mais crédible d'un nul de La Gantoise, accompagné de deux autres issues divergentes sur Bâle-Sion et le derby écossais."
+    },
+    {
+      "id": "t11",
+      "label": "Accroc à Anderlecht",
+      "selections": ["1", "2", "1", "1", "N", "1", "N"],
+      "rationale": "Couvre le nul d'Anderlecht sans créer un quasi-clone, en l'associant à Toulouse, Celta et Bâle gagnants."
+    },
+    {
+      "id": "t12",
+      "label": "Scénario alternatif complet",
+      "selections": ["N", "N", "2", "2", "1", "1", "1"],
+      "rationale": "Dernière combinaison retenue car elle combine quatre bascules plausibles sur les matchs incertains et améliore la diversité globale du portefeuille."
+    }
+  ]
+}
