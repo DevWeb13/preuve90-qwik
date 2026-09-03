@@ -1,0 +1,180 @@
+{
+  "id": "lf7-112-2026-09-06",
+  "formula": 7,
+  "gridNumber": 112,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-06T14:55:00+02:00",
+  "publishedAt": "2026-09-04T01:58:25+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Paris FC",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-06T20:45:00+02:00",
+      "probabilities": { "home": 48, "draw": 27, "away": 25 },
+      "analysis": {
+        "summary": "Marseille garde l'avantage du Vélodrome et une qualité individuelle supérieure, mais Paris FC arrive avec un début de saison très solide et une défense encore invaincue après deux journées. Le favori reste donc modéré plutôt que massif.",
+        "keyFactors": [
+          "Marseille reste sur un 4-0 à domicile contre Strasbourg mais aussi une défaite 0-2 à Monaco.",
+          "Paris FC a pris quatre points en deux journées, dont un 3-0 contre Nice, sans encaisser de but.",
+          "La répartition FDJ donne Marseille favori, mais la forme récente de Paris FC justifie davantage de prudence."
+        ],
+        "uncertainty": "Paris FC a encore peu de recul au plus haut niveau cette saison et son excellent départ peut être partiellement bruité par le faible échantillon.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-04T01:57:24+02:00" },
+          { "label": "Sky Sports — Marseille vs Paris FC", "url": "https://www.skysports.com/football/marseille-vs-paris-fc/stats/557019", "accessedAt": "2026-09-04T01:57:45+02:00" },
+          { "label": "La DH — Marseille / Paris FC", "url": "https://infosports.dhnet.be/football/ligue-1/match/547825/marseille-paris-fc", "accessedAt": "2026-09-04T01:57:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Angers",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 27, "draw": 28, "away": 45 },
+      "analysis": {
+        "summary": "Rennes présente le profil le plus fort et un historique récent favorable face à Angers, mais les deux équipes ont gagné lors de leur dernière sortie et Rennes a déjà montré une défense perméable. Le nul mérite une couverture réelle.",
+        "keyFactors": [
+          "Rennes reste sur un 3-2 contre Le Mans après un 2-2 face au PSG.",
+          "Angers vient de gagner 3-1 à Auxerre après avoir perdu 0-2 contre Lille.",
+          "Les confrontations récentes penchent vers Rennes, avec trois victoires sur les quatre dernières selon la source consultée."
+        ],
+        "uncertainty": "Les informations d'horaire disponibles sont contradictoires selon les sources, et les deux premières journées offrent encore un échantillon limité pour juger les niveaux réels.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-04T01:57:24+02:00" },
+          { "label": "Sky Sports — Angers vs Rennes", "url": "https://www.skysports.com/football/angers-vs-rennes/557015", "accessedAt": "2026-09-04T01:57:45+02:00" },
+          { "label": "Voetbaluitslagen — Angers vs Rennes", "url": "https://voetbaluitslagen.be/wedstrijd/ligue-1/2026/791512/", "accessedAt": "2026-09-04T01:57:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Troyes",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-06T15:00:00+02:00",
+      "probabilities": { "home": 34, "draw": 31, "away": 35 },
+      "analysis": {
+        "summary": "C'est la rencontre la plus équilibrée de la grille. Troyes est invaincu après deux journées et vient de gagner à Lorient, tandis que Strasbourg a réagi contre Lens après une lourde défaite à Marseille. Aucun camp ne mérite un avantage net.",
+        "keyFactors": [
+          "Troyes a commencé par un 0-0 contre Paris FC puis une victoire 2-1 à Lorient.",
+          "Strasbourg a battu Lens 2-1 après avoir perdu 0-4 à Marseille.",
+          "L'historique disponible comporte plusieurs nuls et renforce l'intérêt du choix N."
+        ],
+        "uncertainty": "La proximité des niveaux et la faible profondeur de données sur ce début de saison rendent les trois issues presque équivalentes.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-04T01:57:24+02:00" },
+          { "label": "Sky Sports — Troyes vs Strasbourg", "url": "https://www.skysports.com/football/troyes-vs-strasbourg/557023", "accessedAt": "2026-09-04T01:57:52+02:00" },
+          { "label": "GioScore — Troyes vs Strasbourg", "url": "https://gioscore.com/football/match/strasbourg-troyes/19715611", "accessedAt": "2026-09-04T01:57:52+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Milan AC",
+      "competition": "Serie A",
+      "startsAt": "2026-09-06T20:45:00+02:00",
+      "probabilities": { "home": 40, "draw": 31, "away": 29 },
+      "analysis": {
+        "summary": "Les deux équipes ont gagné leurs deux premiers matchs de championnat. La Juventus bénéficie du terrain et n'a pas encore encaissé en Serie A, mais Milan arrive également avec six points et suffisamment de qualité offensive pour rendre le nul ou le succès extérieur crédibles.",
+        "keyFactors": [
+          "Juventus a battu Frosinone 1-0 puis Parme 2-0.",
+          "Milan a gagné 2-1 à Turin puis 2-0 contre Venezia.",
+          "Le profil de grande affiche entre deux équipes en forme augmente la probabilité d'un match serré."
+        ],
+        "uncertainty": "Le début de saison ne permet pas encore de mesurer précisément la solidité réelle des deux équipes face à une opposition de ce niveau.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-04T01:57:24+02:00" },
+          { "label": "Sky Sports — Juventus vs AC Milan", "url": "https://www.skysports.com/football/juventus-vs-ac-milan/7398703188567972232", "accessedAt": "2026-09-04T01:57:52+02:00" },
+          { "label": "Sky Sport — Juventus vs Milan", "url": "https://portalsport-apple.pprd.sky.ch/it/sp/event/308380", "accessedAt": "2026-09-04T01:57:52+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Everton",
+      "awayTeam": "Man. United",
+      "competition": "Premier League",
+      "startsAt": "2026-09-06T15:00:00+02:00",
+      "probabilities": { "home": 30, "draw": 29, "away": 41 },
+      "analysis": {
+        "summary": "Manchester United conserve un léger avantage après son 5-2 contre Ipswich, mais Everton est invaincu en championnat et reçoit. Les absences annoncées côté United et le manque de profondeur offensive d'Everton rendent le match moins lisible qu'un simple statut de favori extérieur.",
+        "keyFactors": [
+          "Everton a quatre points après une victoire 2-0 contre Crystal Palace et un nul 1-1 à Bournemouth.",
+          "Manchester United a réagi à sa défaite d'ouverture par un succès 5-2 contre Ipswich.",
+          "United est annoncé avec plusieurs absents, tandis qu'Everton a terminé le mercato avec un seul avant-centre reconnu."
+        ],
+        "uncertainty": "Les changements de fin de mercato et les absences peuvent modifier sensiblement les compositions d'ici au match.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-04T01:57:24+02:00" },
+          { "label": "Sky Sports — Everton vs Manchester United", "url": "https://www.skysports.com/football/everton-vs-manchester-united/559467", "accessedAt": "2026-09-04T01:57:38+02:00" },
+          { "label": "talkSPORT — Everton vs Manchester United", "url": "https://talksport.com/football/4554081/where-to-watch-everton-vs-man-united-time-location/", "accessedAt": "2026-09-04T01:57:38+02:00" },
+          { "label": "The Guardian — Everton transfer window", "url": "https://www.theguardian.com/football/2026/sep/02/everton-in-late-scramble-to-complete-balogun-transfer-after-flurry-of-sales", "accessedAt": "2026-09-04T01:57:38+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "competition": "Premier League",
+      "startsAt": "2026-09-06T17:30:00+02:00",
+      "probabilities": { "home": 49, "draw": 28, "away": 23 },
+      "analysis": {
+        "summary": "Arsenal reçoit avec deux victoires en deux journées et un historique récent favorable dans ce derby. Chelsea a également gagné ses deux matchs, mais sa défense a concédé trois buts contre Brighton et plusieurs incertitudes d'effectif demeurent.",
+        "keyFactors": [
+          "Arsenal a gagné 3-0 contre Coventry puis 1-0 à Aston Villa.",
+          "Chelsea a gagné 3-2 à Fulham puis 4-3 contre Brighton.",
+          "Arsenal reste sur trois victoires consécutives contre Chelsea selon la prévisualisation consultée."
+        ],
+        "uncertainty": "Un derby londonien entre deux équipes à six points reste naturellement volatil, et les nouvelles recrues peuvent encore modifier les hiérarchies.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-04T01:57:24+02:00" },
+          { "label": "Sky Sports — Arsenal vs Chelsea fixtures", "url": "https://www.skysports.com/football/news/11678/13561249/premier-league-2026-27-fixtures-live-on-sky-sports-arsenal-vs-chelsea-and-man-utd-vs-man-city-live-on-sky-in-september", "accessedAt": "2026-09-04T01:57:52+02:00" },
+          { "label": "talkSPORT — Arsenal vs Chelsea", "url": "https://talksport.com/football/4554285/where-to-watch-arsenal-vs-chelsea-time-teams-channel-commentary/", "accessedAt": "2026-09-04T01:57:52+02:00" },
+          { "label": "Sky Sport — Arsenal vs Chelsea form", "url": "https://sport.sky.de/fussball/arsenal-vs-chelsea/daten/559464", "accessedAt": "2026-09-04T01:57:52+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "CF Valence",
+      "awayTeam": "FC Barcelone",
+      "competition": "La Liga",
+      "startsAt": "2026-09-06T16:15:00+02:00",
+      "probabilities": { "home": 13, "draw": 19, "away": 68 },
+      "analysis": {
+        "summary": "Barcelone est le favori le plus net de la grille : trois victoires en championnat, douze buts marqués et aucun encaissé avant le 5-2 contre le Rayo, tandis que Valence n'a toujours pas gagné. Le déplacement à Mestalla conserve néanmoins une petite prime au nul et à la surprise.",
+        "keyFactors": [
+          "Barcelone a gagné ses trois premiers matchs de Liga : 5-0, 2-0 et 5-2.",
+          "Valence reste sur un nul puis deux défaites, dont un 1-3 face au Deportivo.",
+          "La page officielle du FC Barcelone confirme le match à Mestalla et le coup d'envoi à 16h15 CEST."
+        ],
+        "uncertainty": "Valence avait battu Barcelone 3-1 lors de la dernière confrontation à Mestalla indiquée par la source officielle, ce qui empêche de traiter le 2 comme une certitude.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°112", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-04T01:57:24+02:00" },
+          { "label": "FC Barcelona — Valencia CF vs FC Barcelona", "url": "https://www.fcbarcelona.com/en/matches/138319/valencia-fc-barcelona-la-liga-2026-2027", "accessedAt": "2026-09-04T01:57:38+02:00" },
+          { "label": "Sky Sports — Valencia vs Barcelona", "url": "https://www.skysports.com/football/valencia-vs-barcelona/562962", "accessedAt": "2026-09-04T01:57:52+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "2", "N", "1", "2", "1", "2"], "rationale": "Privilégie les favoris mesurés tout en plaçant le nul sur Troyes-Strasbourg, rencontre la plus équilibrée." },
+    { "id": "t2", "label": "Équilibre italien", "selections": ["1", "2", "1", "N", "2", "1", "2"], "rationale": "Couvre un nul Juventus-Milan et un succès de Troyes, sans abandonner les favoris principaux." },
+    { "id": "t3", "label": "Nuls français", "selections": ["N", "2", "N", "1", "2", "1", "2"], "rationale": "Renforce le nul historiquement sous-couvert sur Marseille-Paris FC et Troyes-Strasbourg." },
+    { "id": "t4", "label": "Bloc incertain", "selections": ["1", "N", "N", "N", "2", "1", "2"], "rationale": "Couvre simultanément les trois matchs à forte incertitude Angers-Rennes, Troyes-Strasbourg et Juventus-Milan." },
+    { "id": "t5", "label": "Outsider Paris", "selections": ["2", "2", "1", "1", "N", "1", "2"], "rationale": "Teste la continuité du très bon départ de Paris FC et un nul à Everton, tout en gardant Rennes et Arsenal." },
+    { "id": "t6", "label": "Derbys fermés", "selections": ["N", "2", "1", "N", "2", "N", "2"], "rationale": "Couvre trois nuls sur des affiches où l'écart de niveau ne justifie pas une exposition univoque." },
+    { "id": "t7", "label": "Réveil Angers", "selections": ["1", "1", "N", "1", "2", "1", "2"], "rationale": "Ajoute le scénario d'une victoire d'Angers après son succès à Auxerre sans multiplier les autres surprises." },
+    { "id": "t8", "label": "Surprises domestiques", "selections": ["2", "N", "N", "1", "1", "1", "2"], "rationale": "Couvre Paris FC et Everton à domicile ainsi qu'un nul à Angers dans une combinaison distincte du scénario central." },
+    { "id": "t9", "label": "Portefeuille nul", "selections": ["N", "2", "N", "N", "2", "2", "2"], "rationale": "Accentue volontairement la couverture des nuls tout en ajoutant Chelsea comme outsider sur le derby londonien." },
+    { "id": "t10", "label": "Strasbourg extérieur", "selections": ["1", "2", "2", "1", "N", "1", "2"], "rationale": "Couvre Strasbourg et un nul Everton-United, deux scénarios plausibles insuffisamment représentés jusque-là." },
+    { "id": "t11", "label": "Rennes neutralisé", "selections": ["1", "N", "1", "N", "2", "1", "2"], "rationale": "Couvre les nuls d'Angers-Rennes et Juventus-Milan avec Troyes vainqueur, sans quasi-cloner une autre combinaison." },
+    { "id": "t12", "label": "Double surprise et nul Barça", "selections": ["2", "2", "N", "1", "2", "N", "N"], "rationale": "Dernière couverture marginale : Paris FC, nul Arsenal-Chelsea et nul à Mestalla, scénarios moins probables mais encore crédibles et très différents du cœur du portefeuille." }
+  ]
+}
