@@ -1,0 +1,169 @@
+{
+  "id": "lf8-118-2026-09-04",
+  "formula": 8,
+  "gridNumber": 118,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-04T19:55:00+02:00",
+  "publishedAt": "2026-09-03T01:59:29+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-04T21:05:00+02:00",
+      "probabilities": {"home": 58, "draw": 23, "away": 19},
+      "analysis": {
+        "summary": "Paris SG reste favori à domicile par sa qualité structurelle et le marché, mais Monaco arrive avec un meilleur début de championnat et une défense convaincante face à Marseille, ce qui réduit fortement l'écart attendu.",
+        "keyFactors": ["Le marché observé place nettement Paris SG favori à domicile.", "Monaco a gagné ses deux premiers matchs de Ligue 1 et vient de battre Marseille 2-0.", "Paris SG a concédé deux nuls 2-2 lors de ses deux premières journées, ce qui augmente le poids du nul et de la surprise."],
+        "uncertainty": "L'écart de niveau théorique favorise Paris, mais la forme immédiate de Monaco et le début de saison irrégulier du PSG rendent une couverture du nul et du 2 nécessaire.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Reuters — Monaco 2-0 Marseille","url":"https://www.reuters.com/sports/soccer/brunner-double-sends-monaco-top-ligue-1-after-2-0-win-over-marseille-2026-08-30/","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Wincomparator — PSG vs Monaco","url":"https://www.wincomparator.com/predictions/psg-monaco-8532659/","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Grenoble",
+      "awayTeam": "Annecy FC",
+      "competition": "Ligue 2",
+      "startsAt": "2026-09-04T20:00:00+02:00",
+      "probabilities": {"home": 33, "draw": 31, "away": 36},
+      "analysis": {
+        "summary": "Annecy possède un léger avantage de forme et de classement, mais Grenoble vient de gagner 3-0 à Laval et conserve un historique favorable dans ce derby régional. Les trois issues restent proches.",
+        "keyFactors": ["Annecy est mieux classé après quatre journées, avec 7 points contre 4 pour Grenoble.", "Grenoble vient de gagner 3-0 à Laval, alors qu'Annecy reste sur un nul 1-1 contre Metz.", "Les marchés récents donnent Annecy seulement légèrement favori, avec un nul proche de 30 %."],
+        "uncertainty": "Le facteur terrain et l'historique favorable à Grenoble compensent une partie de l'avantage récent d'Annecy ; le match reste très ouvert.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Telefootball — Grenoble vs Annecy","url":"https://www.telefootball.net/AR/Grenoble-Foot-38-Annecy--2026-09-04-666177.html","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Oddspedia — Grenoble vs Annecy","url":"https://oddspedia.com/football/grenoble-annecy-186195/predictions","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Pau",
+      "awayTeam": "Sochaux",
+      "competition": "Ligue 2",
+      "startsAt": "2026-09-04T20:00:00+02:00",
+      "probabilities": {"home": 39, "draw": 31, "away": 30},
+      "analysis": {
+        "summary": "Pau bénéficie d'un léger avantage du terrain et du marché, mais Sochaux est mieux classé et l'affiche présente un profil peu prolifique qui renforce la probabilité du nul.",
+        "keyFactors": ["Pau compte 4 points après quatre journées, Sochaux 5.", "Les cotes observées placent Pau légèrement devant, sans écart important avec Sochaux.", "Les données récentes indiquent un profil de match serré et une forte plausibilité d'un score bas."],
+        "uncertainty": "Les niveaux sont proches et l'avantage du terrain de Pau est modeste ; le nul et le 2 conservent une probabilité élevée.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"BetMines — Pau vs Sochaux preview","url":"https://betmines.com/match-preview/pau-vs-sochaux-prediction-match-preview-and-analysis-ligue-2-04-09-2026","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"365Scores — Pau FC vs Sochaux","url":"https://www.365scores.com/football/match/ligue-2-36/pau-fc-sochaux-483-7046-36","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Boulogne",
+      "awayTeam": "Dijon",
+      "competition": "Ligue 2",
+      "startsAt": "2026-09-04T20:00:00+02:00",
+      "probabilities": {"home": 30, "draw": 36, "away": 34},
+      "analysis": {
+        "summary": "Boulogne et Dijon n'ont encore gagné aucun match de championnat. Boulogne accumule les nuls et défend mieux, tandis que Dijon produit davantage offensivement ; le nul est l'issue centrale d'une affiche très équilibrée.",
+        "keyFactors": ["Boulogne a 3 points après quatre journées avec trois nuls et une défaite.", "Dijon a 2 points, avec deux nuls et deux défaites, mais a marqué davantage.", "Les cotes 1N2 observées sont pratiquement symétriques entre les deux équipes et maintiennent le nul autour d'un tiers."],
+        "uncertainty": "Les deux équipes cherchent encore leur première victoire et leurs profils opposés rendent le résultat particulièrement sensible au premier but.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Telefootball — Boulogne vs Dijon","url":"https://www.telefootball.net/FR/Boulogne-Dijon-2026-09-05-666180.html","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Wincomparator — Boulogne vs Dijon","url":"https://www.wincomparator.com/predictions/boulogne-dijon-8532837/","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Dunkerque",
+      "awayTeam": "Clermont",
+      "competition": "Ligue 2",
+      "startsAt": "2026-09-04T20:00:00+02:00",
+      "probabilities": {"home": 47, "draw": 31, "away": 22},
+      "analysis": {
+        "summary": "Dunkerque part favori à domicile selon le marché, mais reste sur deux défaites tandis que Clermont enchaîne les nuls. Le 1 reste le choix principal, avec une couverture importante du nul.",
+        "keyFactors": ["Le marché 1N2 observé favorise nettement Dunkerque à domicile.", "Dunkerque reste sur deux défaites, 0-1 contre Montpellier puis 0-2 à Nancy.", "Clermont reste sur deux nuls 1-1 contre Dijon puis 0-0 contre Sochaux, ce qui soutient fortement le scénario N."],
+        "uncertainty": "La mauvaise dynamique récente de Dunkerque réduit la confiance dans le favori et augmente la valeur de couverture du nul.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"OddsFan — Dunkerque vs Clermont","url":"https://oddsfan.com/pt/football/event/clermont-vs-usl-dunkerque","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Wincomparator — Dunkerque vs Clermont","url":"https://www.wincomparator.com/predictions/dunkerque-clermont-8532838/","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Laval",
+      "awayTeam": "Red Star",
+      "competition": "Ligue 2",
+      "startsAt": "2026-09-04T20:00:00+02:00",
+      "probabilities": {"home": 34, "draw": 33, "away": 33},
+      "analysis": {
+        "summary": "Laval et Red Star arrivent tous deux après une lourde défaite et leurs niveaux actuels sont très proches. L'avantage du terrain équilibre la meilleure position du Red Star : aucune issue ne dépasse nettement les autres.",
+        "keyFactors": ["Laval est 14e avec 4 points, Red Star 8e avec 5 points après quatre journées.", "Laval vient de perdre 3-0 contre Grenoble et Red Star 4-1 contre Reims.", "Les sources de marché et de modèle sont contradictoires sur le favori, signe d'une forte incertitude 1N2."],
+        "uncertainty": "Les deux équipes sortent d'un revers lourd et présentent peu de séparation objective ; c'est l'un des matchs les plus indécis de la grille.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"BetMines — Laval vs Red Star preview","url":"https://betmines.com/match-preview/laval-vs-red-star-prediction-match-preview-and-analysis-ligue-2-04-09-2026","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Wincomparator — Laval vs Red Star","url":"https://www.wincomparator.com/predictions/laval-red-star-8532840/","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Ipswich",
+      "awayTeam": "Liverpool",
+      "competition": "Premier League",
+      "startsAt": "2026-09-04T20:00:00+01:00",
+      "probabilities": {"home": 23, "draw": 29, "away": 48},
+      "analysis": {
+        "summary": "Liverpool reste favori par son effectif et le marché, mais n'a pas encore gagné après deux nuls 2-2. Ipswich a montré qu'il pouvait prendre des points mais vient d'encaisser cinq buts à Manchester United.",
+        "keyFactors": ["Liverpool a commencé la saison par deux nuls 2-2 contre Newcastle et Nottingham Forest.", "Ipswich vient de perdre 5-2 à Manchester United après un début de saison plus encourageant.", "Les marchés récents gardent Liverpool favori à Portman Road malgré sa forme imparfaite."],
+        "uncertainty": "Liverpool reste supérieur sur le papier mais ses absences et ses deux premiers nuls augmentent sensiblement le risque de N ou de surprise locale.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"talkSPORT — Ipswich vs Liverpool team news","url":"https://talksport.com/football/4553652/ipswich-vs-liverpool-live-commentary-time-score-team-news/","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Oddschecker — Ipswich v Liverpool preview","url":"https://www.oddschecker.com/insight/football/20260902-ipswich-v-liverpool-betting-preview-latest-odds-best-offers-and-head-to-head-record","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Betis Séville",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-04T21:00:00+02:00",
+      "probabilities": {"home": 17, "draw": 27, "away": 56},
+      "analysis": {
+        "summary": "Real Madrid est le favori le plus solide de la grille grâce à trois victoires en trois journées et dix buts marqués, mais le déplacement au Betis est historiquement délicat et justifie une part non négligeable de nul.",
+        "keyFactors": ["Real Madrid a remporté ses trois premiers matchs de Liga et vient de battre Malaga 4-0.", "Le Real a marqué dix buts sur ses trois premières journées.", "Le Betis reste un déplacement difficile : le Real n'a pas gagné lors de ses quatre dernières visites mentionnées par Managing Madrid."],
+        "uncertainty": "La forme du Real est excellente, mais le contexte extérieur à Séville et l'historique récent au Betis empêchent de monter la probabilité du 2 à un niveau extrême.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°118","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Reuters — Real Madrid 4-0 Malaga","url":"https://www.reuters.com/sports/soccer/real-madrid-cruise-past-malaga-4-0-maintain-perfect-start-2026-08-30/","accessedAt":"2026-09-03T01:59:06+02:00"},
+          {"label":"Managing Madrid — Bigger tests coming for Real Madrid in September","url":"https://www.managingmadrid.com/real-madrid-cf-news/112192/bigger-tests-coming-for-real-madrid-in-september","accessedAt":"2026-09-03T01:59:06+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t1","label":"Scénario central","selections":["1","2","1","N","1","N","2","2"],"rationale":"Favoris principaux conservés, avec couverture des deux matchs de Ligue 2 les plus indécis."},
+    {"id":"t2","label":"Nuls renforcés","selections":["1","N","N","2","1","2","2","2"],"rationale":"Renforce les nuls sur Grenoble-Annecy et Pau-Sochaux tout en gardant les favoris forts."},
+    {"id":"t3","label":"Bloc Ligue 2 prudent","selections":["1","2","N","N","N","1","2","2"],"rationale":"Couvre plusieurs scénarios de partage des points dans les affiches françaises serrées."},
+    {"id":"t4","label":"Monaco résiste","selections":["N","1","1","2","1","N","2","2"],"rationale":"Scénario où PSG-Monaco et Laval-Red Star se ferment, avec Grenoble qui profite du terrain."},
+    {"id":"t5","label":"Red Star et nul anglais","selections":["1","N","1","2","N","2","N","2"],"rationale":"Couvre Red Star et un nouveau nul de Liverpool, plus un partage à Dunkerque."},
+    {"id":"t6","label":"Nuls structurels","selections":["N","2","N","N","1","1","2","2"],"rationale":"Portfolio fortement orienté vers les nuls des matchs les plus équilibrés, conformément au biais historique observé."},
+    {"id":"t7","label":"Outsiders Ligue 2","selections":["1","2","2","2","N","N","2","2"],"rationale":"Ajoute Sochaux et Dijon comme surprises plausibles et garde deux nuls de couverture."},
+    {"id":"t8","label":"Double surprise majeure","selections":["2","1","N","N","1","2","N","2"],"rationale":"Couvre Monaco au Parc et un nouveau nul de Liverpool, tout en variant fortement le bloc Ligue 2."},
+    {"id":"t9","label":"Ipswich surprend","selections":["1","N","1","2","1","N","1","2"],"rationale":"Scénario de surprise locale d'Ipswich, compensé par plusieurs choix plus conservateurs ailleurs."},
+    {"id":"t10","label":"Betis tient le Real","selections":["N","2","N","2","N","2","2","N"],"rationale":"Couvre un nul du Real au Betis et plusieurs issues alternatives sur les matchs à forte incertitude."},
+    {"id":"t11","label":"Scénario offensif visiteurs","selections":["1","1","2","N","1","2","2","2"],"rationale":"Favorise plusieurs victoires extérieures plausibles tout en gardant le nul central Boulogne-Dijon."},
+    {"id":"t12","label":"Monaco gagne","selections":["2","N","1","2","N","1","2","2"],"rationale":"Scénario de grosse surprise Monaco, sans multiplier les autres écarts extrêmes."}
+  ]
+}
