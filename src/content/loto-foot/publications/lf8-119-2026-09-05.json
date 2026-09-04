@@ -1,0 +1,389 @@
+{
+  "id": "lf8-119-2026-09-05",
+  "formula": 8,
+  "gridNumber": 119,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-05T17:10:00+02:00",
+  "publishedAt": "2026-09-05T01:57:45+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lens",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-05T17:15:00+02:00",
+      "probabilities": {
+        "home": 65,
+        "draw": 20,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Lens reste nettement favori à domicile malgré sa récente défaite contre Strasbourg. Le marché agrégé lui accorde environ deux chances sur trois, tandis que Lorient vient de perdre à Troyes.",
+        "keyFactors": [
+          "Avantage domicile et consensus de marché nettement favorable à Lens.",
+          "Lens a perdu 2-1 contre Strasbourg lors de la précédente journée, ce qui tempère le statut de favori.",
+          "Lorient a également perdu lors de la précédente journée, 2-1 à Troyes."
+        ],
+        "uncertainty": "La forme récente n'est pas parfaite des deux côtés et le nul reste un scénario crédible autour de 20%.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "LiveFootAI — RC Lens vs Lorient, marché 1N2",
+            "url": "https://livefootai.com/en/matches/rc-lens-vs-lorient",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          },
+          {
+            "label": "Reuters — Lyon held to 1-1 draw by Le Havre after late VAR drama",
+            "url": "https://www.reuters.com/sports/soccer/lyon-held-1-1-draw-by-le-havre-after-late-var-drama-2026-08-29/",
+            "accessedAt": "2026-09-05T01:56:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Nice",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-05T20:45:00+02:00",
+      "probabilities": {
+        "home": 49,
+        "draw": 27,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Nice est favori du marché mais son début de saison est faible et son attaque manque d'efficacité. Le Mans, promu, a montré qu'il pouvait marquer et réduit fortement l'écart théorique.",
+        "keyFactors": [
+          "Les cotes de marché donnent Nice favori autour de 1.8-1.9.",
+          "Nice est sans victoire et restait sans but dans les données de pré-match consultées.",
+          "Le Mans a montré une capacité offensive réelle depuis sa montée, avec Louis Mafouta en forme."
+        ],
+        "uncertainty": "Le statut de favori de Nice est fragile ; nul et victoire de Le Mans restent suffisamment plausibles pour être couverts.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "Legalbet — Nice vs Le Mans preview",
+            "url": "https://legalbet.uk/game-center/nice-fc-le-mans-05-09-2026/",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          },
+          {
+            "label": "MatchSense — Nice vs Le Mans model probabilities",
+            "url": "https://matchsense.online/news/nice-vs-le-mans-prediction-2026-09-05",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 34,
+        "draw": 32,
+        "away": 34
+      },
+      "analysis": {
+        "summary": "La rencontre est presque parfaitement équilibrée. Le Havre a peu marqué, Brest a davantage produit offensivement mais reste très peu performant à l'extérieur ; le nul prend donc une place importante.",
+        "keyFactors": [
+          "Les cotes 1N2 sont presque symétriques entre Le Havre et Brest.",
+          "Brest a échoué à gagner neuf de ses dix derniers déplacements de championnat selon la pré-analyse consultée.",
+          "Le Havre sort d'un nul 1-1 à Lyon et Brest d'un nul 2-2 contre Toulouse."
+        ],
+        "uncertainty": "Aucun des trois résultats ne dépasse clairement les autres ; c'est l'un des matchs les plus ouverts de la grille.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "Legalbet — Le Havre vs Brest preview",
+            "url": "https://legalbet.uk/game-center/le-havre-brest-05-09-2026/",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          },
+          {
+            "label": "Reuters — Lyon held to 1-1 draw by Le Havre after late VAR drama",
+            "url": "https://www.reuters.com/sports/soccer/lyon-held-1-1-draw-by-le-havre-after-late-var-drama-2026-08-29/",
+            "accessedAt": "2026-09-05T01:56:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "St Etienne",
+      "awayTeam": "Montpellier",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Saint-Étienne part favori grâce à un excellent début de saison et à l'avantage du Chaudron. Montpellier reste invaincu dans les données consultées, ce qui maintient un risque de nul non négligeable.",
+        "keyFactors": [
+          "Saint-Étienne affichait quatre victoires en quatre matchs dans les statistiques pré-match.",
+          "Les cotes de marché placent Saint-Étienne autour de 1.6-1.7.",
+          "Montpellier présente une défense solide et un début de saison sans défaite dans les données consultées."
+        ],
+        "uncertainty": "Montpellier est moins favori mais suffisamment solide pour rendre le nul plus crédible qu'une lecture fondée uniquement sur la série de Saint-Étienne.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "StatsBet — Saint-Étienne vs Montpellier",
+            "url": "https://statsbet.org/football/matches/saint-tienne-vs-montpellier-2026-09-05",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          },
+          {
+            "label": "NoFluffPicks Stats — Saint-Étienne vs Montpellier",
+            "url": "https://nofluffpicks.com/se/match/saint-etienne-vs-montpellier-2026-09-05",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Schalke 04",
+      "awayTeam": "Bayern Munich",
+      "competition": "Bundesliga",
+      "startsAt": "2026-09-05T18:30:00+02:00",
+      "probabilities": {
+        "home": 7,
+        "draw": 11,
+        "away": 82
+      },
+      "analysis": {
+        "summary": "Bayern est de très loin le favori : il a démarré fort tandis que Schalke, promu, a perdu 3-0 pour son retour en Bundesliga. Le marché agrégé situe la victoire bavaroise au-dessus de 80%.",
+        "keyFactors": [
+          "Consensus de marché très massif en faveur du Bayern.",
+          "Bayern a commencé la saison par des performances dominantes.",
+          "Schalke est promu et a perdu 3-0 contre Augsburg lors de son retour dans l'élite."
+        ],
+        "uncertainty": "Le contexte du premier match de Bundesliga à domicile de Schalke et une éventuelle rotation du Bayern constituent les principaux risques, mais l'écart de niveau reste majeur.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "Bavarian Football Works — Schalke vs Bayern preview",
+            "url": "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/251824/bundesliga-matchday-preview-schalke-vs-bayern-munich",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          },
+          {
+            "label": "LiveFootAI — Schalke 04 vs Bayern Munich, marché 1N2",
+            "url": "https://livefootai.com/en/matches/fc-schalke-04-vs-bayern-munich",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Hull City",
+      "awayTeam": "Aston Villa",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Hull mérite un léger avantage après deux victoires pour son retour en Premier League, alors que Villa a perdu ses deux premiers matchs sans marquer. La qualité individuelle de Villa empêche toutefois d'écarter un rebond.",
+        "keyFactors": [
+          "Hull a remporté ses deux premiers matchs de Premier League, dont 2-0 contre Manchester United.",
+          "Aston Villa était encore sans point et sans but après ses deux premières rencontres.",
+          "Villa a perdu des cadres importants pendant l'été, mais conserve une qualité offensive suffisante pour rendre le match très ouvert."
+        ],
+        "uncertainty": "Le marché n'est pas univoque et la valeur intrinsèque de Villa reste supérieure à ce que son début de saison suggère ; les trois issues doivent être envisagées.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "Reuters — Hull in dreamland on Premier League return",
+            "url": "https://www.reuters.com/sports/soccer/hull-dreamland-premier-league-return-2026-08-22/",
+            "accessedAt": "2026-09-05T01:56:48+02:00"
+          },
+          {
+            "label": "Reuters — Saka earns Arsenal narrow victory at troubled Villa",
+            "url": "https://www.reuters.com/sports/soccer/saka-earns-arsenal-narrow-victory-troubled-villa-2026-08-31/",
+            "accessedAt": "2026-09-05T01:56:48+02:00"
+          },
+          {
+            "label": "FreeTips — Hull vs Aston Villa preview",
+            "url": "https://www.freetips.com/football/english-premier-league/hull-vs-aston-villa-betting-tips-predictions-20260904-0010/",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 48,
+        "draw": 29,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Roma a commencé très fort et le marché la place favorite, mais Atalanta arrive également avec un début de saison parfait et une série directe très favorable face aux Romains. Le nul est donc renforcé.",
+        "keyFactors": [
+          "Roma a gagné ses deux premiers matchs avec une forte production offensive.",
+          "Atalanta a également pris six points sur six dans les données de pré-match.",
+          "Roma restait sans victoire lors de ses neuf dernières confrontations contre Atalanta selon la pré-analyse consultée."
+        ],
+        "uncertainty": "Le différentiel de forme est faible entre deux équipes lancées ; l'historique direct réduit la confiance dans le favori domicile.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "Chiesa di Totti — Roma's perfect start faces Atalanta",
+            "url": "https://www.chiesaditotti.com/roma-matchday-coverage/43033/romas-perfect-start-faces-its-first-real-test-against-atalanta",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          },
+          {
+            "label": "ODDSLOT — AS Roma vs Atalanta odds and form",
+            "url": "https://oddslot.com/football/match/serie-a/as-roma/atalanta/5-sep-2026/",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Naples",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Inter est favori à domicile après deux victoires en deux journées, alors que Naples vient de perdre chez lui contre Como. Les cotes renforcent clairement l'avantage de l'Inter.",
+        "keyFactors": [
+          "Inter a gagné ses deux premiers matchs de Serie A et défend son titre.",
+          "Naples a perdu 2-1 à domicile contre Como lors de la deuxième journée.",
+          "Le consensus de cotes place l'Inter autour de 1.6-1.7, loin devant Naples."
+        ],
+        "uncertainty": "Naples possède assez de talent pour réagir et le nul reste une couverture importante, surtout dans un choc de haut niveau.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°119",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-05T01:56:30+02:00"
+          },
+          {
+            "label": "Reuters — Inter make it two wins from two, Napoli beaten at home by Como",
+            "url": "https://www.reuters.com/sports/soccer/napoli-beaten-2-1-home-by-como-2026-08-30/",
+            "accessedAt": "2026-09-05T01:56:48+02:00"
+          },
+          {
+            "label": "BetClan — Inter Milan vs Napoli odds",
+            "url": "https://www.betclan.com/predictionsdetails/football/199419049/inter-milan-v-napoli-prediction-h2h-tip-and-match-preview/",
+            "accessedAt": "2026-09-05T01:56:40+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": ["1", "1", "N", "1", "2", "1", "1", "1"],
+      "rationale": "Socle des favoris avec nul sur Le Havre–Brest, le match le plus équilibré."
+    },
+    {
+      "id": "t02",
+      "label": "Équilibres renforcés",
+      "selections": ["1", "1", "2", "1", "2", "N", "N", "1"],
+      "rationale": "Couvre Brest, le nul à Hull et le nul Roma–Atalanta sans toucher aux favoris les plus solides."
+    },
+    {
+      "id": "t03",
+      "label": "Nice accroché",
+      "selections": ["1", "N", "N", "1", "2", "1", "N", "1"],
+      "rationale": "Intègre le risque de nul de Nice et deux autres nuls structurellement plausibles."
+    },
+    {
+      "id": "t04",
+      "label": "Rebond Villa",
+      "selections": ["1", "1", "1", "1", "2", "2", "1", "N"],
+      "rationale": "Scénario de réaction de Villa et de partage des points dans Inter–Naples."
+    },
+    {
+      "id": "t05",
+      "label": "Promus résistants",
+      "selections": ["1", "N", "2", "1", "2", "2", "N", "1"],
+      "rationale": "Combine résistance de Le Mans et Hull/Villa favorable à Villa avec Brest et nul à Rome."
+    },
+    {
+      "id": "t06",
+      "label": "Favoris sous pression",
+      "selections": ["N", "1", "N", "1", "2", "1", "2", "1"],
+      "rationale": "Couvre un Lens accroché et une victoire d'Atalanta, deux ruptures de favoris sans disperser les autres choix."
+    },
+    {
+      "id": "t07",
+      "label": "Surprise Le Mans",
+      "selections": ["1", "2", "2", "1", "2", "N", "1", "1"],
+      "rationale": "Couvre la victoire de Le Mans et de Brest avec un nul Hull–Villa, scénario de journée plus heurtée."
+    },
+    {
+      "id": "t08",
+      "label": "Nuls ciblés",
+      "selections": ["1", "1", "N", "N", "2", "1", "N", "1"],
+      "rationale": "Répond à la sous-couverture historique du nul sur trois rencontres où il reste sportivement défendable."
+    },
+    {
+      "id": "t09",
+      "label": "Outsiders contrôlés",
+      "selections": ["1", "N", "1", "1", "2", "2", "1", "N"],
+      "rationale": "Associe nul à Nice, victoire de Villa et nul à Milan sans multiplier les surprises extrêmes."
+    },
+    {
+      "id": "t10",
+      "label": "Bayern accroché",
+      "selections": ["1", "1", "2", "1", "N", "1", "N", "1"],
+      "rationale": "Hedge rare sur un nul de Bayern, compensé par des choix plus conventionnels ailleurs."
+    },
+    {
+      "id": "t11",
+      "label": "Journée fermée",
+      "selections": ["N", "1", "N", "1", "2", "N", "2", "1"],
+      "rationale": "Couvre plusieurs matchs serrés et un scénario Atalanta gagnant, avec Bayern et Inter maintenus."
+    },
+    {
+      "id": "t12",
+      "label": "Naples réagit",
+      "selections": ["1", "2", "N", "1", "2", "1", "N", "2"],
+      "rationale": "Scénario plus rémunérateur avec Le Mans et Naples vainqueurs, tout en conservant les bases Lens, Saint-Étienne et Bayern."
+    }
+  ]
+}
