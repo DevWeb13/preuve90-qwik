@@ -1,0 +1,58 @@
+{
+  "id": "lf8-119-2026-09-05-result",
+  "publicationId": "lf8-119-2026-09-05",
+  "gridNumber": 119,
+  "settledAt": "2026-09-06T00:04:31+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/816",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2"
+    },
+    {
+      "position": 2,
+      "selection": "N"
+    },
+    {
+      "position": 3,
+      "selection": "2"
+    },
+    {
+      "position": 4,
+      "selection": "1"
+    },
+    {
+      "position": 5,
+      "selection": "N"
+    },
+    {
+      "position": 6,
+      "selection": "N"
+    },
+    {
+      "position": 7,
+      "selection": "1"
+    },
+    {
+      "position": 8,
+      "selection": "1"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 8,
+      "amountCents": 853700
+    },
+    {
+      "correctSelections": 7,
+      "amountCents": 42410
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 8 n°119",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/816",
+      "accessedAt": "2026-09-06T00:04:31+02:00"
+    }
+  ]
+}
