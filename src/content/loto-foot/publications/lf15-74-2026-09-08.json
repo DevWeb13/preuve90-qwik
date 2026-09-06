@@ -1,0 +1,291 @@
+{
+  "id": "lf15-74-2026-09-08",
+  "formula": 15,
+  "gridNumber": 74,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-08T20:55:00+02:00",
+  "publishedAt": "2026-09-06T06:01:35+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lille",
+      "awayTeam": "Betis Séville",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 38, "draw": 29, "away": 33},
+      "analysis": {
+        "summary": "Lille possède un léger avantage de terrain, mais l'écart avec le Betis reste faible et le marché décrit une affiche ouverte.",
+        "keyFactors": ["Lille est légèrement favori à domicile sur le marché 1N2.", "Le Betis arrive avec un résultat marquant contre le Real Madrid, ce qui réduit l'écart théorique."],
+        "uncertainty": "Écart faible entre les trois issues, avec un nul et une victoire du Betis pleinement plausibles.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "BetUS — Lille vs Betis odds", "url": "https://www.betus.com.pa/sportsbook/uefa/champions-league/lille-vs-betis/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UOL — Betis bat le Real Madrid", "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/04/betis-real-madrid-campeonato-espanhol-como-foi.ghtm", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Inter Milan",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 56, "draw": 25, "away": 19},
+      "analysis": {
+        "summary": "Le Real garde un avantage net au Bernabéu, mais l'Inter arrive en bonne forme et les absences madrilènes au milieu empêchent de surévaluer le favori.",
+        "keyFactors": ["Historique européen très favorable au Real à domicile face à l'Inter.", "Inter a débuté sa saison de Serie A avec une dynamique positive.", "Plusieurs milieux madrilènes sont annoncés suspendus pour cette rencontre."],
+        "uncertainty": "Le Real reste favori, mais l'Inter a assez de qualité et de forme pour rendre le nul crédible.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Real Madrid - Inter, faits et stats", "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-2182c55b5a97-5dccf6d08c74-1000--ligue-des-champions-journee-1-les-faits-et-stats-de-real-ma/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Managing Madrid — suspensions du Real face à l'Inter", "url": "https://www.managingmadrid.com/112269/guler-bernardo-silva-camavinga-champions-league-suspensions", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Reuters — Inter renverse Naples", "url": "https://www.reuters.com/sports/soccer/martinez-scores-late-winner-inter-milan-rally-beat-napoli-2026-09-05/", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "FC Porto",
+      "awayTeam": "Manchester City",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 25, "draw": 26, "away": 49},
+      "analysis": {
+        "summary": "Manchester City est supérieur sur le papier, mais la série récente de Porto et l'avantage du Dragão rendent une victoire anglaise loin d'être automatique.",
+        "keyFactors": ["Le marché place City favori à l'extérieur.", "Porto arrive sur une série de victoires et une bonne solidité défensive récente.", "L'historique UEFA de la confrontation est favorable à Manchester City."],
+        "uncertainty": "Porto à domicile peut fermer le match et transformer l'affiche en scénario de nul ou de victoire courte.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Porto - Man City, faits et stats", "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-2182ca02e4c7-0079cfdc7874-1000--ligue-des-champions-journee-1-les-faits-et-stats-de-port/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "ODDSLOT — Porto vs Manchester City", "url": "https://oddslot.com/football/match/uefa-champions-league/fc-porto/manchester-city/8-sep-2026/", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Dortmund",
+      "awayTeam": "Villarreal",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 53, "draw": 25, "away": 22},
+      "analysis": {
+        "summary": "Dortmund bénéficie du terrain, d'une dynamique offensive récente et d'un marché légèrement favorable, tandis que Villarreal reste capable de punir un match ouvert.",
+        "keyFactors": ["Dortmund vient de gagner 3-2 à Hoffenheim.", "Le marché 1N2 donne un avantage modéré aux Allemands.", "Villarreal a montré une forme plus irrégulière sur ses dernières sorties."],
+        "uncertainty": "Le profil offensif des deux équipes augmente la variance et maintient le nul ou une surprise espagnole en jeu.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Reuters — Dortmund gagne 3-2 à Hoffenheim", "url": "https://www.reuters.com/sports/soccer/dortmund-elversberg-stage-fine-comebacks-bundesliga-2026-09-05/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "BetUS — Dortmund vs Villarreal odds", "url": "https://www.betus.com.pa/sportsbook/uefa/champions-league/dortmund-vs-villarreal/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Sky Sports — Dortmund vs Villarreal form", "url": "https://www.skysports.com/football/borussia-dortmund-vs-villarreal/577598", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Feyenoord",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 78, "draw": 13, "away": 9},
+      "analysis": {
+        "summary": "Barcelone est très nettement favori par la qualité de son effectif, sa forme récente et le consensus du marché, avec une calibration prudente sous 80 %.",
+        "keyFactors": ["Le marché donne un avantage massif à Barcelone.", "Barcelone reste sur plusieurs victoires convaincantes.", "Feyenoord marque régulièrement mais affronte un saut de niveau important."],
+        "uncertainty": "La principale incertitude vient d'une éventuelle rotation et de la capacité de Feyenoord à profiter des transitions.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "BetUS — Barcelona vs Feyenoord odds", "url": "https://www.betus.com.pa/sportsbook/uefa/champions-league/barcelona-vs-feyenoord/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Barça Blaugranes — Barcelona avant Feyenoord", "url": "https://www.barcablaugranes.com/barcelona-la-liga/131503/line-up-against-valencia-la-liga-match", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Barcelona-Feyenoord face-à-face", "url": "https://www.uefa.com/uefachampionsleague/history/h2h/50080/52749/", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Stuttgart",
+      "awayTeam": "Viking FK",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 72, "draw": 17, "away": 11},
+      "analysis": {
+        "summary": "Stuttgart est largement favori à domicile, mais Viking arrive avec une qualification européenne méritée et assez de continuité pour conserver une petite part de scénario surprise.",
+        "keyFactors": ["Les marchés donnent Stuttgart très largement favori.", "Viking n'a jamais gagné en déplacement contre une équipe allemande dans les données historiques UEFA citées.", "Stuttgart a rebondi avec une victoire 4-1 contre Cologne après sa lourde défaite au Bayern."],
+        "uncertainty": "Viking est un nouveau venu à ce niveau et son plafond réel en phase de ligue reste difficile à mesurer.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Stuttgart - Viking, faits et stats", "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-21823c6e2a78-a5f311d2a9f2-1000--ligue-des-champions-journee-1-les-faits-et-stats-de-stuttg/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "BetUS — Stuttgart vs Viking odds", "url": "https://www.betus.com.pa/sportsbook/uefa/champions-league/stuttgart-vs-viking/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Sky Sport — Stuttgart vs Viking form", "url": "https://sport.sky.de/fussball/stuttgart-vs-viking/577608", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 78, "draw": 14, "away": 8},
+      "analysis": {
+        "summary": "Paris possède un énorme avantage qualitatif et historique, mais son début de saison domestique difficile et la bonne campagne qualificative du Slovan justifient une calibration moins extrême que le marché.",
+        "keyFactors": ["Le marché positionne Paris comme très grand favori.", "Paris est double tenant du titre européen et reste très solide à domicile en Europe.", "Le Slovan est invaincu sur sa séquence européenne récente, tandis que Paris a mal démarré sa saison de Ligue 1."],
+        "uncertainty": "Le niveau intrinsèque favorise fortement Paris, mais sa forme actuelle rend un nul de résistance plus plausible qu'un prix de marché extrême ne le suggère.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Paris - Slovan Bratislava, faits et stats", "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-218241e61885-b8bdb9325f9c-1000--ligue-des-champions-journee-1-les-faits-et-stats-de-paris-sl/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Reuters — Luis Enrique sur le mauvais début de saison du PSG", "url": "https://www.reuters.com/sports/soccer/coach-luis-enrique-unconcerned-by-psgs-poor-start-season-2026-09-05/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Oddschecker — PSG vs Slovan Bratislava odds", "url": "https://www.oddschecker.com/football/champions-league/psg-v-slovan-bratislava/winner", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Atl. Madrid",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 50, "draw": 27, "away": 23},
+      "analysis": {
+        "summary": "Liverpool part favori à Anfield, mais l'Atlético a le profil tactique pour garder le match serré et le nul mérite une couverture significative.",
+        "keyFactors": ["Le marché donne un avantage modéré à Liverpool.", "Liverpool possède un historique récent très fort à domicile en phase de ligue européenne.", "L'Atlético vient toutefois de subir une lourde défaite 3-0 contre l'Athletic Bilbao."],
+        "uncertainty": "L'Atlético peut réduire le rythme et transformer l'affiche en match à faible marge malgré l'avantage de Liverpool.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "BetUS — Liverpool vs Atlético Madrid odds", "url": "https://www.betus.com.pa/sportsbook/uefa/champions-league/liverpool-vs-atl-madrid/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Reuters — calendrier Liverpool-Atlético confirmé", "url": "https://www.reuters.com/sports/soccer/english-football-league-disappointed-with-uefa-over-fixtures-clash-2026-08-31/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Liverpool vs Atlético, repères historiques", "url": "https://www.uefa.com/uefachampionsleague/news/029d-1eb4de70add1-7ce83f036bfb-1000--champions-league-matchday-1-liverpool-vs-atletico-de-madrid-/", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Naples",
+      "awayTeam": "Arsenal",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 25, "draw": 27, "away": 48},
+      "analysis": {
+        "summary": "Arsenal est favori grâce à son niveau global et au consensus de marché, mais Naples à domicile conserve une vraie probabilité de résultat.",
+        "keyFactors": ["Le marché place Arsenal favori à Naples.", "Arsenal figure parmi les principaux favoris de la compétition selon la projection Opta citée.", "Naples vient de mener 2-0 contre l'Inter avant de s'incliner 3-2, signe d'un potentiel offensif réel mais aussi d'une fragilité."],
+        "uncertainty": "Le contexte du stade et la capacité offensive de Naples rendent le nul particulièrement crédible.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Napoli - Arsenal, faits et stats", "url": "https://it.uefa.com/uefachampionsleague/news/02a9-21825e597f4c-9a5ca5776669-1000--napoli-arsenal-prima-giornata-di-champions-league-storia-del/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "BetUS — Napoli vs Arsenal odds", "url": "https://www.betus.com.pa/sportsbook/uefa/champions-league/napoli-vs-arsenal/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Reuters — Inter renverse Naples", "url": "https://www.reuters.com/sports/soccer/martinez-scores-late-winner-inter-milan-rally-beat-napoli-2026-09-05/", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Sporting",
+      "awayTeam": "Galatasaray",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 51, "draw": 27, "away": 22},
+      "analysis": {
+        "summary": "Sporting bénéficie d'un avantage de terrain et d'un historique UEFA favorable contre les clubs turcs, mais Galatasaray reste assez dangereux pour maintenir le nul et l'issue extérieure.",
+        "keyFactors": ["Le marché place Sporting légèrement à clairement favori.", "Sporting a remporté quatre de ses cinq derniers matches UEFA contre des clubs turcs.", "Galatasaray reste un adversaire expérimenté et le marché ne le traite pas comme un outsider extrême."],
+        "uncertainty": "Première confrontation directe entre les deux clubs, donc peu de repères spécifiques de matchup.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Sporting CP - Galatasaray, faits et stats", "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-21823f24eea5-f60668353208-1000--ligue-des-champions-journee-1-les-faits-et-stats-de-sporting/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "BetUS — Sporting CP vs Galatasaray odds", "url": "https://www.betus.com.pa/sportsbook/uefa/champions-league/sporting-cp-vs-galatasaray/", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "PSV Eindhoven",
+      "awayTeam": "Shakhtar Donetsk",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 65, "draw": 21, "away": 14},
+      "analysis": {
+        "summary": "PSV est nettement favori à Eindhoven, porté par le marché et une forme récente solide, mais Shakhtar conserve une expérience européenne suffisante pour éviter une probabilité trop extrême.",
+        "keyFactors": ["Le consensus de marché situe PSV autour des deux tiers de probabilité de victoire.", "PSV vient de battre l'Ajax 3-1.", "Le précédent européen récent entre les deux équipes avait été serré malgré une victoire du PSV."],
+        "uncertainty": "Shakhtar peut créer des transitions dangereuses et la marge de PSV dépendra de son efficacité offensive.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — PSV Eindhoven - Shakhtar, faits et stats", "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-218395cdc5ac-b3941ae60a1a-1000--ligue-des-champions-journee-1-les-faits-et-stats-de-psv-e/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "LiveFootAI — PSV Eindhoven vs Shakhtar odds", "url": "https://livefootai.com/en/matches/psv-eindhoven-vs-shakhtar-donetsk", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "The Guardian — PSV bat Ajax 3-1", "url": "https://www.theguardian.com/football/2026/sep/05/european-football-ethan-nwaneri-dortmund-hoffenheim-athletic-bilbao-atletico-madrid-inter-napoli", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Fenerbahce",
+      "awayTeam": "AS Rome",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 37, "draw": 29, "away": 34},
+      "analysis": {
+        "summary": "Affiche très équilibrée : Fenerbahce bénéficie du terrain et d'un bon historique contre les clubs italiens à domicile, tandis que la Roma arrive avec une dynamique récente très forte.",
+        "keyFactors": ["Fenerbahce a récemment éliminé Lyon pour atteindre la phase de ligue.", "La Roma vient de renverser l'Atalanta et affiche une forte production offensive récente.", "Deux joueurs de Fenerbahce font l'objet d'une procédure disciplinaire UEFA, facteur d'incertitude supplémentaire."],
+        "uncertainty": "Les informations disponibles donnent des signaux contradictoires ; les trois issues restent proches.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UEFA — Fenerbahçe - Roma, faits et stats", "url": "https://fr.uefa.com/uefachampionsleague/news/02a9-21838c7c045e-64ba23724bfd-1000--ligue-des-champions-journee-1-les-faits-et-stats-de-fener/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Reuters — procédure disciplinaire Fenerbahçe", "url": "https://www.reuters.com/sports/soccer/uefa-opens-disciplinary-case-against-guendouzi-greenwood-fenerbahce-say-2026-09-03/", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Reuters — victoire récente de la Roma contre l'Atalanta", "url": "https://www.reuters.com/sports/soccer/martinez-scores-late-winner-inter-milan-rally-beat-napoli-2026-09-05/", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Como 1907",
+      "awayTeam": "RB Leipzig",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 45, "draw": 29, "away": 26},
+      "analysis": {
+        "summary": "Como est un léger favori de marché à domicile, mais l'écart avec Leipzig reste modeste et le nul occupe une place importante dans une première journée européenne.",
+        "keyFactors": ["Plusieurs marchés récents placent Como favori à domicile.", "Leipzig vient de perdre 3-1 contre Brême en Bundesliga.", "Le marché des buts suggère une rencontre ouverte, ce qui augmente la variance."],
+        "uncertainty": "Le manque d'historique européen de Como à ce niveau rend l'évaluation plus volatile.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "TOTO — Como 1907 vs RB Leipzig odds", "url": "https://sport.toto.nl/wedden/wedstrijd/12384472/como-1907-vs-rb-leipzig", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "The Guardian — Leipzig battu par Brême", "url": "https://www.theguardian.com/football/2026/sep/05/european-football-ethan-nwaneri-dortmund-hoffenheim-athletic-bilbao-atletico-madrid-inter-napoli", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 68, "draw": 19, "away": 13},
+      "analysis": {
+        "summary": "Bayern reste un fort favori à l'Allianz Arena, mais Bodø/Glimt arrive en excellente dynamique et sa campagne européenne récente interdit de traiter le match comme une formalité absolue.",
+        "keyFactors": ["Bayern a enchaîné plusieurs victoires convaincantes avant un nul contre Schalke.", "Bodø/Glimt reste sur une série de victoires et a franchi les tours qualificatifs avec autorité.", "Les projections globales placent Bayern parmi les grands favoris de la compétition."],
+        "uncertainty": "La forme de Bodø/Glimt et son efficacité offensive augmentent le risque de match plus serré que le statut des clubs ne le suggère.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Sky Sports — Bayern vs Bodø/Glimt form", "url": "https://www.skysports.com/football/bayern-munich-vs-bodo-glimt/5545789582151817232", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "The Guardian — Bayern tenu par Schalke", "url": "https://www.theguardian.com/football/2026/sep/05/european-football-ethan-nwaneri-dortmund-hoffenheim-athletic-bilbao-atletico-madrid-inter-napoli", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "UOL — projection Opta Champions League", "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/04/supercomputador-poe-bayern-e-arsenal-como-favoritos-na-champions-veja.ghtm", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Slavia Prague",
+      "awayTeam": "Lens",
+      "competition": "UEFA Champions League",
+      "probabilities": {"home": 38, "draw": 30, "away": 32},
+      "analysis": {
+        "summary": "C'est l'une des rencontres les plus indécises de la grille : Slavia dispose du terrain et d'une bonne forme, tandis que Lens présente un niveau de référence élevé mais une dynamique récente plus irrégulière.",
+        "keyFactors": ["Slavia reste sur une série domestique solide.", "Lens a battu le PSG mais a aussi subi des revers récents.", "Les marchés et modèles consultés divergent fortement, ce qui renforce le poids du nul."],
+        "uncertainty": "Divergence nette entre modèles et marchés sur le favori ; forte incertitude structurelle.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°74", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "RC Lens — déplacement au Slavia Prague", "url": "https://www.rclens.fr/fr/modalites-deplacement-slavia-prague-ligue-des-champions-20260904", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "Oddschecker — Slavia Prague vs Lens odds", "url": "https://www.oddschecker.com/football/champions-league/slavia-prague-v-lens/winner", "accessedAt": "2026-09-06T06:00:00+02:00"},
+          {"label": "FotMob — Slavia Prague vs Lens form", "url": "https://www.fotmob.com/id/matches/slavia-prague-vs-lens/27ty9c", "accessedAt": "2026-09-06T06:00:00+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id": "t01", "label": "Scénario central", "selections": ["1","1","2","1","1","1","1","1","2","1","1","1","1","1","1"], "rationale": "Retient les favoris principaux tout en gardant les choix les plus probables sur les rencontres serrées."},
+    {"id": "t02", "label": "Nuls ciblés", "selections": ["N","1","2","1","1","1","1","N","2","1","1","N","1","1","N"], "rationale": "Renforce les nuls sur Lille-Betis, Liverpool-Atlético, Fenerbahce-Roma et Slavia-Lens, zones de forte incertitude."},
+    {"id": "t03", "label": "Outsiders crédibles", "selections": ["2","1","N","1","1","1","1","1","2","N","1","2","1","1","2"], "rationale": "Couvre plusieurs outsiders plausibles sans toucher aux favoris les plus solides."},
+    {"id": "t04", "label": "Résistance italienne", "selections": ["1","N","2","1","1","1","1","N","N","1","1","2","1","1","N"], "rationale": "Scénario plus prudent sur Real-Inter et Naples-Arsenal, avec davantage de nuls sur les affiches équilibrées."},
+    {"id": "t05", "label": "Surprises contrôlées", "selections": ["2","1","1","N","1","1","1","1","2","2","1","1","N","1","2"], "rationale": "Introduit Porto, Galatasaray et Lens ainsi que des nuls sur Dortmund et Como pour couvrir des ruptures de scénario cohérentes."},
+    {"id": "t06", "label": "Bloc favoris domicile", "selections": ["1","1","2","1","1","1","1","1","2","1","1","N","1","1","N"], "rationale": "Conserve les gros favoris à domicile et utilise la diversification uniquement sur Fenerbahce-Roma et Slavia-Lens."},
+    {"id": "t07", "label": "Scénario européen serré", "selections": ["N","N","2","N","1","1","1","N","N","N","1","1","N","1","N"], "rationale": "Couvre une soirée plus fermée avec de nombreux nuls sur les confrontations au rapport de forces rapproché."},
+    {"id": "t08", "label": "Favoris extérieurs", "selections": ["2","1","2","1","1","1","1","1","2","1","1","2","2","1","2"], "rationale": "Accentue les victoires extérieures crédibles du Betis, City, Arsenal, Roma, Leipzig et Lens."},
+    {"id": "t09", "label": "Porto et Bodø résistent", "selections": ["1","1","N","1","1","1","1","1","2","1","1","N","1","N","1"], "rationale": "Couvre un nul de Porto face à City et une résistance de Bodø/Glimt, sans multiplier les autres écarts."},
+    {"id": "t10", "label": "Surprise forte unique", "selections": ["N","2","2","2","1","1","1","N","1","2","1","1","2","1","N"], "rationale": "Portefeuille de surprises plus agressif sur Inter, Villarreal, Naples, Galatasaray et Leipzig, compensé par les favoris majeurs."},
+    {"id": "t11", "label": "Nuls sous-couverts", "selections": ["N","N","N","1","1","1","1","N","N","N","N","N","N","1","N"], "rationale": "Répond au biais historique de sous-couverture du nul sur les matches réellement compatibles avec ce scénario."},
+    {"id": "t12", "label": "Mix haute variance", "selections": ["2","1","1","N","1","2","1","2","2","1","1","2","1","2","2"], "rationale": "Ajoute une couverture de haute variance incluant Viking, Atlético, Bodø/Glimt et Lens, sans dupliquer les scénarios précédents."}
+  ]
+}
