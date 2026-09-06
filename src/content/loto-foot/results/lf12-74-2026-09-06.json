@@ -1,0 +1,78 @@
+{
+  "id": "lf12-74-2026-09-06-result",
+  "publicationId": "lf12-74-2026-09-06",
+  "gridNumber": 74,
+  "settledAt": "2026-09-07T00:08:58+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/566",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2"
+    },
+    {
+      "position": 2,
+      "selection": "2"
+    },
+    {
+      "position": 3,
+      "selection": "2"
+    },
+    {
+      "position": 4,
+      "selection": "N"
+    },
+    {
+      "position": 5,
+      "selection": "N"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "2"
+    },
+    {
+      "position": 8,
+      "selection": "N"
+    },
+    {
+      "position": 9,
+      "selection": "2"
+    },
+    {
+      "position": 10,
+      "selection": "2"
+    },
+    {
+      "position": 11,
+      "selection": "N"
+    },
+    {
+      "position": 12,
+      "selection": "N"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 11,
+      "amountCents": 241940
+    },
+    {
+      "correctSelections": 10,
+      "amountCents": 15340
+    },
+    {
+      "correctSelections": 9,
+      "amountCents": 2070
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 12 n°74",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/566",
+      "accessedAt": "2026-09-07T00:08:58+02:00"
+    }
+  ]
+}
