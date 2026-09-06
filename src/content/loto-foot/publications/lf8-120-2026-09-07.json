@@ -1,0 +1,204 @@
+{
+  "id": "lf8-120-2026-09-07",
+  "formula": 8,
+  "gridNumber": 120,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817",
+  "validationDeadline": "2026-09-07T18:25:00+02:00",
+  "publishedAt": "2026-09-06T02:03:48+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Nantes",
+      "awayTeam": "Nancy",
+      "competition": "Ligue 2 BKT",
+      "startsAt": "2026-09-07T20:45:00+02:00",
+      "probabilities": { "home": 41, "draw": 31, "away": 28 },
+      "analysis": {
+        "summary": "Nantes conserve un léger avantage lié au terrain et au marché, mais son début de saison très fragile réduit nettement l'écart avec Nancy.",
+        "keyFactors": [
+          "Les cotes de marché placent Nantes favori autour de 1,9, soit un avantage domicile réel mais modéré après marge.",
+          "Nantes reste sur un départ difficile en Ligue 2, alors que Nancy a mieux démarré et présente une dynamique plus stable.",
+          "Le nul est un scénario important compte tenu de l'écart limité entre les équipes et de la sous-couverture historique des N dans la mémoire statistique."
+        ],
+        "uncertainty": "Élevée : le marché favorise Nantes mais la forme récente donne des signaux contradictoires.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "StatsBet — Nantes vs Nancy", "url": "https://statsbet.dk/fodbold/kampe/nantes-vs-nancy-2026-09-07", "accessedAt": "2026-09-06T02:00:25+02:00" },
+          { "label": "Wincomparator — Nantes vs Nancy", "url": "https://www.wincomparator.com/fr-fr/pronostics/fc-nantes-nancy-8622356/", "accessedAt": "2026-09-06T02:00:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Udinese",
+      "awayTeam": "Lazio Rome",
+      "competition": "Serie A",
+      "startsAt": "2026-09-07T20:45:00+02:00",
+      "probabilities": { "home": 31, "draw": 30, "away": 39 },
+      "analysis": {
+        "summary": "Lazio est légèrement favorite grâce à son départ parfait et à sa solidité défensive, mais Udinese à domicile et la fréquence récente des nuls dans cette affiche maintiennent un match ouvert.",
+        "keyFactors": [
+          "Le consensus de marché donne Lazio devant, autour de 37 % sans marge, devant Udinese et le nul.",
+          "Lazio a remporté ses deux premiers matchs de Serie A 1-0 sans encaisser.",
+          "Les confrontations récentes entre Udinese et Lazio ont souvent été serrées, ce qui maintient le nul à un niveau élevé."
+        ],
+        "uncertainty": "Moyenne à élevée : Lazio a la meilleure dynamique, mais l'avantage extérieur reste limité.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "LiveFootAI — Udinese vs Lazio", "url": "https://livefootai.com/en/matches/udinese-vs-lazio", "accessedAt": "2026-09-06T02:00:25+02:00" },
+          { "label": "Udinese Calcio — Udinese-Lazio, informations billetterie", "url": "https://www.udinese.it/news/biglietti/udinese-lazio-le-info-sui-biglietti", "accessedAt": "2026-09-06T02:00:25+02:00" },
+          { "label": "Reuters — Inter make it two wins from two, Napoli beaten at home by Como", "url": "https://www.reuters.com/sports/soccer/napoli-beaten-2-1-home-by-como-2026-08-30/", "accessedAt": "2026-09-06T02:00:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Lecce",
+      "competition": "Serie A",
+      "startsAt": "2026-09-07T18:30:00+02:00",
+      "probabilities": { "home": 44, "draw": 31, "away": 25 },
+      "analysis": {
+        "summary": "Cagliari est favori à domicile dans un match attendu fermé, mais l'écart reste insuffisant pour écarter le nul et une surprise de Lecce.",
+        "keyFactors": [
+          "Le marché agrégé place Cagliari autour de 48 % sans marge, avec le nul proche de 30 %.",
+          "Les deux équipes ont trois points après deux journées et des profils offensifs encore peu convaincants.",
+          "Les marchés de buts penchent nettement vers moins de 2,5 buts, ce qui augmente la valeur relative du nul."
+        ],
+        "uncertainty": "Moyenne : Cagliari possède l'avantage structurel, mais le faible volume attendu de buts resserre les issues.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "LiveFootAI — Cagliari vs Lecce", "url": "https://livefootai.com/en/matches/cagliari-vs-lecce", "accessedAt": "2026-09-06T02:00:25+02:00" },
+          { "label": "Sky Sport — Probabile Formazione Cagliari", "url": "https://sport.sky.it/calcio/serie-a/probabili-formazioni.cagliari", "accessedAt": "2026-09-06T02:00:25+02:00" },
+          { "label": "ODDSLOT — Cagliari vs Lecce", "url": "https://oddslot.com/football/match/serie-a/cagliari/lecce/7-sep-2026/", "accessedAt": "2026-09-06T02:00:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Palerme",
+      "awayTeam": "Sampdoria",
+      "competition": "Serie B",
+      "startsAt": "2026-09-07T20:30:00+02:00",
+      "probabilities": { "home": 56, "draw": 27, "away": 17 },
+      "analysis": {
+        "summary": "Palerme présente le profil le plus solide : excellente dynamique, avantage du Renzo Barbera et marché nettement favorable face à une Sampdoria moins convaincante.",
+        "keyFactors": [
+          "Palerme a gagné ses deux premières rencontres de Serie B et reste sur une série de résultats très positive.",
+          "Les cotes placent Palerme autour de 1,8-1,9, avec Sampdoria nettement outsider.",
+          "Les confrontations récentes laissent néanmoins une place non négligeable au nul."
+        ],
+        "uncertainty": "Modérée : Palerme est le choix principal, avec le nul comme scénario secondaire crédible.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "Palermo FC — Palermo-Sampdoria", "url": "https://www.palermofc.com/it/news/palermo-sampdoria-info-richieste-persone-con-disabilita", "accessedAt": "2026-09-06T02:00:25+02:00" },
+          { "label": "Wincomparator — Palermo vs Sampdoria", "url": "https://www.wincomparator.com/predictions/palermo-sampdoria-8674135/", "accessedAt": "2026-09-06T02:00:25+02:00" },
+          { "label": "BetClan — Palermo vs Sampdoria", "url": "https://www.betclan.com/predictionsdetails/football/199798041/palermo-v-sampdoria-prediction-h2h-tip-and-match-preview/", "accessedAt": "2026-09-06T02:00:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Estoril Praia",
+      "awayTeam": "Arouca",
+      "competition": "Liga Portugal",
+      "probabilities": { "home": 33, "draw": 30, "away": 37 },
+      "analysis": {
+        "summary": "Arouca reçoit un léger avantage de forme malgré le déplacement : son début de saison est nettement meilleur, alors qu'Estoril reste en difficulté.",
+        "keyFactors": [
+          "Arouca arrive avec quatre victoires sur ses cinq dernières sorties et occupe le haut du classement.",
+          "Estoril reste sans victoire sur ses cinq derniers matchs et connaît un début de saison faible.",
+          "Le marché reste toutefois relativement équilibré, ce qui justifie une forte couverture du nul et du succès domicile dans les variantes."
+        ],
+        "uncertainty": "Élevée : la forme favorise Arouca mais le marché n'identifie pas de favori écrasant.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "The Football Faithful — Estoril vs Arouca", "url": "https://thefootballfaithful.com/estoril-vs-arouca-prediction-betting-tips-07-09-2026/", "accessedAt": "2026-09-06T02:00:50+02:00" },
+          { "label": "ODDSLOT — Estoril vs Arouca", "url": "https://oddslot.com/football/match/primeira-liga/estoril/arouca/7-sep-2026/", "accessedAt": "2026-09-06T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Al Hilal",
+      "awayTeam": "Neom SC",
+      "competition": "D1 Arabie Saoudite",
+      "startsAt": "2026-09-07T20:00:00+02:00",
+      "probabilities": { "home": 72, "draw": 17, "away": 11 },
+      "analysis": {
+        "summary": "Al Hilal est le favori le plus net de la grille, porté par cinq victoires consécutives, une attaque très productive et un marché 1N2 extrêmement déséquilibré.",
+        "keyFactors": [
+          "Al Hilal affiche cinq victoires en cinq matchs et une production offensive très supérieure à celle de Neom SC.",
+          "Les cotes 1N2 situent Al Hilal autour de 1,3, très loin devant le nul et Neom SC.",
+          "Le match se joue au Kingdom Arena, ce qui renforce encore le scénario domicile."
+        ],
+        "uncertainty": "Faible à modérée : le football conserve une variance importante, mais les signaux convergent fortement vers Al Hilal.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "Al Hilal FC — Fixtures, Results and Standings", "url": "https://alhilal.com/en/matches/mens-team/fixtures/saudi-arabian-league", "accessedAt": "2026-09-06T02:00:50+02:00" },
+          { "label": "ESPN — Al Hilal vs Neom SC", "url": "https://www.espn.com.ec/futbol/partido/_/juegoId/401900364/neom-sc-al-hilal", "accessedAt": "2026-09-06T02:00:50+02:00" },
+          { "label": "SportyTrader — Al Hilal vs Neom SC odds", "url": "https://www.sportytrader.com/en/odds/al-hilal-neom-sc-8680265/", "accessedAt": "2026-09-06T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Getafe",
+      "awayTeam": "Celta Vigo",
+      "competition": "LaLiga",
+      "probabilities": { "home": 37, "draw": 34, "away": 29 },
+      "analysis": {
+        "summary": "Getafe possède un léger avantage domicile, mais les faibles productions offensives des deux équipes rendent le nul presque aussi probable que le 1.",
+        "keyFactors": [
+          "Le marché place Getafe légèrement devant Celta, avec une probabilité de nul autour de 30 % avant ajustement.",
+          "Getafe et Celta ont commencé la saison avec très peu de buts marqués et des xG offensifs faibles.",
+          "Le contexte de match fermé justifie de relever le poids du nul, cohérent aussi avec le biais historique de sous-couverture des N."
+        ],
+        "uncertainty": "Élevée : peu d'écart entre les trois issues et faible volume offensif attendu.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "Oddschecker — Getafe vs Celta Vigo", "url": "https://www.oddschecker.com/football/spain/la-liga-primera/getafe-v-celta-vigo/winner", "accessedAt": "2026-09-06T02:00:50+02:00" },
+          { "label": "ESPN — Getafe vs Celta Vigo", "url": "https://www.espn.co.cr/futbol/partido/_/juegoId/401882891", "accessedAt": "2026-09-06T02:00:50+02:00" },
+          { "label": "ODDSLOT — Getafe vs Celta Vigo", "url": "https://oddslot.com/football/match/la-liga/getafe/celta-vigo/7-sep-2026/", "accessedAt": "2026-09-06T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Elche",
+      "awayTeam": "Real Sociedad",
+      "competition": "LaLiga",
+      "probabilities": { "home": 31, "draw": 29, "away": 40 },
+      "analysis": {
+        "summary": "Real Sociedad est légèrement favorite au marché, mais son avantage reste modeste face à Elche à domicile et le nul conserve une forte probabilité.",
+        "keyFactors": [
+          "Les marchés agrégés situent Real Sociedad autour de 40-42 %, devant Elche autour de 32 %.",
+          "Les deux équipes présentent une forme récente irrégulière, ce qui limite la confiance dans le favori extérieur.",
+          "L'écart de niveau perçu est insuffisant pour verrouiller le 2 dans toutes les combinaisons."
+        ],
+        "uncertainty": "Élevée : Real Sociedad est devant sans domination statistique suffisante pour écarter 1 ou N.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/817", "accessedAt": "2026-09-06T02:01:10+02:00" },
+          { "label": "LiveFootAI — Elche vs Real Sociedad", "url": "https://livefootai.com/en/matches/elche-cf-vs-real-sociedad", "accessedAt": "2026-09-06T02:00:50+02:00" },
+          { "label": "Oddschecker — Elche vs Real Sociedad", "url": "https://www.oddschecker.com/football/spain/la-liga-primera/elche-v-real-sociedad/winner", "accessedAt": "2026-09-06T02:00:50+02:00" },
+          { "label": "ODDSLOT — Elche vs Real Sociedad", "url": "https://oddslot.com/football/match/la-liga/elche/real-sociedad/7-sep-2026/", "accessedAt": "2026-09-06T02:00:50+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "central-1", "label": "Scénario central", "selections": ["1","2","1","1","2","1","1","2"], "rationale": "Conserve les favoris principaux du modèle tout en donnant Arouca gagnant sur la dynamique récente." },
+    { "id": "draw-balance-1", "label": "Équilibres serrés", "selections": ["N","2","1","1","2","1","N","2"], "rationale": "Renforce les nuls sur Nantes-Nancy et Getafe-Celta, deux rencontres où l'écart entre issues est faible." },
+    { "id": "draw-balance-2", "label": "Bloc de nuls", "selections": ["1","N","N","1","2","1","N","2"], "rationale": "Couvre simultanément les nuls plausibles en Serie A et à Getafe sans toucher aux deux favoris les plus solides." },
+    { "id": "away-upset-1", "label": "Nancy et Arouca prudents", "selections": ["2","2","1","1","N","1","1","2"], "rationale": "Couvre une victoire de Nancy liée à sa meilleure dynamique et un nul d'Estoril-Arouca." },
+    { "id": "home-rebound-1", "label": "Rebond des locaux", "selections": ["N","1","1","1","2","1","2","N"], "rationale": "Teste les rebonds d'Udinese et de Celta tout en couvrant le nul à Elche." },
+    { "id": "outsider-mix-1", "label": "Surprises mesurées", "selections": ["1","2","2","1","1","1","N","2"], "rationale": "Introduit Lecce et Estoril gagnants dans une variante qui conserve les favoris les plus robustes ailleurs." },
+    { "id": "draw-upset-1", "label": "Nuls et Elche", "selections": ["2","N","N","1","2","1","N","1"], "rationale": "Scénario plus contrariant avec Nancy, deux nuls centraux et une victoire d'Elche." },
+    { "id": "palermo-draw-1", "label": "Accroc à Palerme", "selections": ["N","2","1","N","1","1","1","2"], "rationale": "Couvre le principal scénario alternatif sur Palerme tout en donnant Estoril capable d'exploiter son terrain." },
+    { "id": "udinese-home-1", "label": "Udinese et Celta", "selections": ["1","1","N","1","N","1","2","2"], "rationale": "Variante construite autour d'un succès d'Udinese et d'un succès de Celta, avec deux nuls complémentaires." },
+    { "id": "away-pressure-1", "label": "Pression des outsiders", "selections": ["2","2","2","1","2","1","N","N"], "rationale": "Couvre plusieurs scénarios visiteurs plausibles tout en maintenant Al Hilal et Palerme comme points d'ancrage." },
+    { "id": "draw-heavy-1", "label": "Portefeuille nul renforcé", "selections": ["N","N","1","1","1","1","1","1"], "rationale": "Répond au biais historique de sous-couverture du nul sans le forcer partout, et couvre les victoires domicile d'Estoril et Elche." },
+    { "id": "palermo-draw-2", "label": "Double rupture", "selections": ["1","2","N","N","2","1","2","2"], "rationale": "Couvre un nul à Palerme et Cagliari ainsi qu'un succès de Celta dans un scénario suffisamment différent des variantes centrales." }
+  ]
+}
