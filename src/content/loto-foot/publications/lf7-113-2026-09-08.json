@@ -1,0 +1,170 @@
+{
+  "id": "lf7-113-2026-09-08",
+  "formula": 7,
+  "gridNumber": 113,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930",
+  "validationDeadline": "2026-09-08T18:40:00+02:00",
+  "publishedAt": "2026-09-07T01:59:56+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lille",
+      "awayTeam": "Betis Séville",
+      "competition": "Champions League",
+      "probabilities": { "home": 42, "draw": 30, "away": 28 },
+      "analysis": {
+        "summary": "Lille possède un léger avantage à domicile dans une affiche équilibrée, avec un profil défensif solide mais un Betis suffisamment compétitif pour maintenir le nul et le 2 à des niveaux élevés.",
+        "keyFactors": [
+          "Le marché consulté place Lille favori autour de 2,25, mais sans écart massif avec Betis.",
+          "Lille reste sur une séquence récente solide et profite du terrain.",
+          "La sous-couverture historique du nul invite à ne pas sous-estimer le N dans une rencontre où aucune équipe ne domine nettement."
+        ],
+        "uncertainty": "Élevée : le 1 est prioritaire mais les trois issues restent plausibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°113", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "ToffeeWeb — LOSC Lille vs Real Betis", "url": "https://www.toffeeweb.com/int/losc-lille-vs-real-betis-predictions-picks-odds-08-09-2026/", "accessedAt": "2026-09-07T01:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Inter Milan",
+      "competition": "Champions League",
+      "probabilities": { "home": 50, "draw": 28, "away": 22 },
+      "analysis": {
+        "summary": "Real Madrid reste favori au Bernabéu grâce à sa qualité offensive et à l'avantage du terrain, mais les absences au milieu réduisent son avantage contre un Inter expérimenté.",
+        "keyFactors": [
+          "Real Madrid arrive avec un début de saison globalement fort mais doit recomposer son milieu.",
+          "Camavinga, Güler et Bernardo Silva sont annoncés suspendus pour cette ouverture européenne.",
+          "L'Inter possède assez de maîtrise et d'expérience pour faire du nul un scénario important."
+        ],
+        "uncertainty": "Moyenne à élevée : Madrid est favori, mais son milieu amoindri augmente la variance.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°113", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "Managing Madrid — suspensions contre l'Inter", "url": "https://www.managingmadrid.com/112269/guler-bernardo-silva-camavinga-champions-league-suspensions", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "Managing Madrid — retours à l'entraînement", "url": "https://www.managingmadrid.com/112511/tchouameni-thiago-pitarch-endrick-real-madrid-squad-training", "accessedAt": "2026-09-07T01:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "FC Porto",
+      "awayTeam": "Man. City",
+      "competition": "Champions League",
+      "probabilities": { "home": 22, "draw": 27, "away": 51 },
+      "analysis": {
+        "summary": "Manchester City est favori malgré le déplacement, mais Porto à domicile conserve assez de résistance pour que le nul reste une couverture significative.",
+        "keyFactors": [
+          "Les marchés disponibles placent Manchester City nettement devant Porto.",
+          "Porto bénéficie du Dragão et peut ralentir le match, ce qui soutient le scénario du nul.",
+          "L'écart de qualité globale reste favorable à City sans justifier une probabilité extrême."
+        ],
+        "uncertainty": "Moyenne : City est le choix principal, avec le nul comme scénario secondaire crédible.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°113", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "ESPN — FC Porto vs Manchester City odds", "url": "https://www.espn.com/soccer/odds/_/gameId/401915425", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "Transfermarkt — FC Porto vs Manchester City preview", "url": "https://www.transfermarkt.us/online-betting/picks/fc-porto-vs-manchester-city-picks-08-09-2026/", "accessedAt": "2026-09-07T01:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Dortmund",
+      "awayTeam": "Villarreal",
+      "competition": "Champions League",
+      "probabilities": { "home": 53, "draw": 27, "away": 20 },
+      "analysis": {
+        "summary": "Dortmund est favori au Signal Iduna Park grâce à son potentiel offensif et au terrain, mais Villarreal a assez de qualité technique pour maintenir un risque réel de nul ou de surprise.",
+        "keyFactors": [
+          "Le consensus des previews et marchés consultés donne Dortmund favori.",
+          "L'avantage domicile est significatif dans une première journée européenne.",
+          "Villarreal conserve une capacité de transition qui empêche de surcharger le 1."
+        ],
+        "uncertainty": "Moyenne : avantage Dortmund clair mais non dominant.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°113", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "ESPN — Dortmund vs Villarreal odds", "url": "https://www.espn.com/soccer/odds/_/gameId/401915449", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "Betfair — Dortmund vs Villarreal predictions", "url": "https://betting.betfair.com/football/predictions/uefa-champions-league/borussia-dortmund-vs-villarreal/58xyjl8dhdu0dhisafe9hgf84/", "accessedAt": "2026-09-07T01:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Club Bruges",
+      "awayTeam": "Aston Villa",
+      "competition": "Champions League",
+      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "analysis": {
+        "summary": "Aston Villa n'est qu'un léger favori : le marché est presque équilibré et l'avantage du terrain donne à Bruges une vraie chance de prendre au moins un point.",
+        "keyFactors": [
+          "Les cotes relevées placent Villa seulement légèrement devant Bruges.",
+          "Villa reste sur une forme récente mitigée, malgré une meilleure profondeur d'effectif.",
+          "Le terrain et l'équilibre des cotes donnent une importance élevée au nul."
+        ],
+        "uncertainty": "Très élevée : c'est l'une des rencontres les plus ouvertes de la grille.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°113", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "ToffeeWeb — Club Brugge vs Aston Villa", "url": "https://www.toffeeweb.com/int/club-brugge-vs-aston-villa-predictions-picks-odds-08-09-2026/", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "ESPN — Club Brugge vs Aston Villa odds", "url": "https://www.espn.com/soccer/odds?gameId=401915426", "accessedAt": "2026-09-07T01:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "AEK Athènes",
+      "awayTeam": "Lask Linz",
+      "competition": "Champions League",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "AEK Athènes possède un avantage solide à domicile, soutenu par le marché, sa dynamique européenne et une profondeur d'effectif supérieure, sans rendre le nul négligeable.",
+        "keyFactors": [
+          "Les cotes relevées autour de 1,75-1,78 placent clairement AEK favori.",
+          "AEK arrive avec une dynamique positive et un avantage de qualité d'effectif.",
+          "LASK reste compétitif mais découvre ce niveau de Ligue des champions, ce qui augmente l'incertitude à l'extérieur."
+        ],
+        "uncertainty": "Moyenne : le 1 est bien soutenu, mais le nul reste le principal scénario alternatif.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°113", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "ToffeeWeb — AEK Athens vs LASK", "url": "https://www.toffeeweb.com/int/aek-athens-vs-lask-linz-predictions-picks-odds-08-09-2026/", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "365Scores — AEK Athens vs LASK Linz", "url": "https://www.365scores.com/football/match/uefa-champions-league-572/aek-athens-lask-linz-1024-1743-572", "accessedAt": "2026-09-07T01:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Millwall",
+      "awayTeam": "Newcastle",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 18, "draw": 24, "away": 58 },
+      "analysis": {
+        "summary": "Newcastle est le favori le plus net de la grille grâce à la différence de profondeur et à la crise d'effectif de Millwall, même si les rotations de coupe imposent de conserver un peu de variance.",
+        "keyFactors": [
+          "Les cotes autour de 1,54-1,59 donnent Newcastle nettement favori.",
+          "Millwall est annoncé avec un nombre très élevé d'absents, ce qui réduit fortement ses options.",
+          "Newcastle peut faire tourner mais conserve une profondeur supérieure et une dynamique plus stable."
+        ],
+        "uncertainty": "Modérée : l'écart de qualité est marqué, mais le contexte de coupe et les rotations empêchent une confiance extrême.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°113", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4930", "accessedAt": "2026-09-07T01:59:20+02:00" },
+          { "label": "ToffeeWeb — Millwall vs Newcastle United", "url": "https://www.toffeeweb.com/int/millwall-vs-newcastle-united-predictions-picks-odds-08-09-2026/", "accessedAt": "2026-09-07T01:59:20+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t01", "label": "Scénario central", "selections": ["1", "1", "2", "1", "2", "1", "2"], "rationale": "Favoris principaux avec Villa choisi de peu dans la rencontre la plus équilibrée." },
+    { "id": "t02", "label": "Nuls ciblés", "selections": ["1", "N", "2", "1", "N", "1", "2"], "rationale": "Couvre les nuls sur Real-Inter et Bruges-Villa, deux affiches où l'écart est limité." },
+    { "id": "t03", "label": "Lille accroché", "selections": ["N", "1", "2", "1", "2", "1", "2"], "rationale": "Scénario où Betis résiste à Lille sans modifier les favoris les plus solides." },
+    { "id": "t04", "label": "Porto résiste", "selections": ["1", "1", "N", "1", "2", "1", "2"], "rationale": "Couvre un nul de Porto à domicile face à City tout en gardant le socle principal." },
+    { "id": "t05", "label": "Deux équilibres", "selections": ["1", "1", "2", "N", "N", "1", "2"], "rationale": "Dortmund et Villa sont neutralisés simultanément pour couvrir un scénario européen plus fermé." },
+    { "id": "t06", "label": "Portefeuille nul", "selections": ["N", "N", "2", "1", "1", "1", "2"], "rationale": "Renforce la couverture des nuls historiquement sous-représentés et bascule Bruges à domicile." },
+    { "id": "t07", "label": "Surprise Betis", "selections": ["2", "1", "2", "1", "2", "N", "2"], "rationale": "Couvre une victoire de Betis et un nul d'AEK, deux surprises plausibles sans multiplier les outsiders extrêmes." },
+    { "id": "t08", "label": "Inter et Bruges", "selections": ["1", "2", "2", "N", "1", "1", "2"], "rationale": "Scénario de forte surprise de l'Inter accompagné d'un résultat domicile de Bruges." },
+    { "id": "t09", "label": "Porto et Villa nuls", "selections": ["N", "1", "1", "1", "N", "1", "2"], "rationale": "Couvre la victoire de Porto et deux résultats nuls dans des matchs à forte incertitude." },
+    { "id": "t10", "label": "Variance européenne", "selections": ["1", "N", "2", "2", "2", "1", "N"], "rationale": "Introduit Villarreal vainqueur et un nul Millwall-Newcastle dans un scénario de coupe plus chaotique." },
+    { "id": "t11", "label": "Betis et Porto", "selections": ["2", "1", "N", "1", "N", "1", "2"], "rationale": "Combine une surprise Betis avec un Porto-City nul et un Bruges-Villa nul pour diversifier plusieurs zones d'incertitude." },
+    { "id": "t12", "label": "Nuls renforcés", "selections": ["N", "N", "2", "N", "2", "1", "2"], "rationale": "Renforce simultanément trois nuls plausibles afin de corriger la sous-couverture historique du N sans toucher aux favoris les plus nets." }
+  ]
+}
