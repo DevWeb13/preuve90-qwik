@@ -1,0 +1,341 @@
+{
+  "id": "lf8-121-2026-09-09",
+  "formula": 8,
+  "gridNumber": 121,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+  "validationDeadline": "2026-09-09T18:40:00+02:00",
+  "publishedAt": "2026-09-08T05:58:58+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 88,
+        "draw": 8,
+        "away": 4
+      },
+      "analysis": {
+        "summary": "Le PSG reste un favori massif malgré un début de saison domestique irrégulier ; l'écart de qualité et le marché donnent une forte priorité au 1.",
+        "keyFactors": [
+          "Le marché 1N2 valorise très fortement une victoire parisienne.",
+          "Le PSG vise une troisième Ligue des champions consécutive et dispose d'un effectif nettement supérieur.",
+          "La récente défaite contre Monaco invite à ne pas pousser la probabilité au-delà d'un niveau raisonnable."
+        ],
+        "uncertainty": "Faible à modérée : énorme écart théorique, mais la forme domestique du PSG reste imparfaite.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "Unibet — PSG vs Slovan Bratislava",
+            "url": "https://www.unibet.fr/paris-sportifs/ligue-des-champions-parissg-slovanbratislava",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Atlético Madrid",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 56,
+        "draw": 25,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "Liverpool est favori à Anfield, mais l'Atlético possède assez d'expérience et de solidité pour maintenir le nul comme scénario important.",
+        "keyFactors": [
+          "Le marché situe Liverpool autour de 56 % sans marge.",
+          "Liverpool a un historique récent favorable à domicile face à l'Atlético.",
+          "L'Atlético reste capable de fermer le match et d'augmenter la probabilité de nul."
+        ],
+        "uncertainty": "Moyenne : avantage Liverpool clair mais adversaire européen difficile.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "Legalbet — Liverpool vs Atlético Madrid",
+            "url": "https://legalbet.com/game-center/liverpool-atletico-madrid-09-09-2026/",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Sporting",
+      "awayTeam": "Galatasaray",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 46,
+        "draw": 29,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Sporting part légèrement devant grâce au terrain et à une meilleure stabilité récente, mais Galatasaray conserve une vraie menace offensive.",
+        "keyFactors": [
+          "Sporting a gagné quatre de ses cinq derniers matchs avec une bonne production offensive.",
+          "Le marché donne Sporting favori autour de 1,90.",
+          "Galatasaray marque beaucoup mais concède aussi, ce qui laisse plusieurs scénarios ouverts."
+        ],
+        "uncertainty": "Élevée : écart limité entre les trois issues, avec un nul particulièrement crédible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "ODDSLOT — Sporting CP vs Galatasaray",
+            "url": "https://oddslot.com/football/match/uefa-champions-league/sporting-cp/galatasaray/9-sep-2026/",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Feyenoord",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 82,
+        "draw": 11,
+        "away": 7
+      },
+      "analysis": {
+        "summary": "Barcelone est le second favori très net de la grille, porté par sa forme récente, son volume offensif et un marché extrêmement déséquilibré.",
+        "keyFactors": [
+          "Barcelone reste sur une série de victoires et marque beaucoup.",
+          "Les cotes autour de 1,10-1,12 confirment un avantage structurel massif.",
+          "Feyenoord arrive en bonne forme mais fait face à un écart de profondeur et de qualité important."
+        ],
+        "uncertainty": "Faible à modérée : le 1 domine, même si une compétition européenne conserve une variance non nulle.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "ODDSLOT — Barcelona vs Feyenoord",
+            "url": "https://oddslot.com/football/match/uefa-champions-league/barcelona/feyenoord/9-sep-2026/",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Stuttgart",
+      "awayTeam": "Viking FK",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 70,
+        "draw": 18,
+        "away": 12
+      },
+      "analysis": {
+        "summary": "Stuttgart possède un avantage net à domicile, mais sa lourde défaite récente et plusieurs absences justifient une probabilité de nul non négligeable.",
+        "keyFactors": [
+          "Le marché place Stuttgart autour de 1,22.",
+          "Viking arrive avec une dynamique positive après sa qualification européenne.",
+          "Stuttgart sort d'une lourde défaite contre le Bayern et doit composer avec plusieurs absences."
+        ],
+        "uncertainty": "Moyenne : Stuttgart est supérieur, mais les signaux de forme et d'effectif empêchent une confiance extrême.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "ToffeeWeb — Stuttgart vs Viking",
+            "url": "https://www.toffeeweb.com/vfb-stuttgart-vs-viking-predictions-picks-odds-09-09-2026/",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Naples",
+      "awayTeam": "Arsenal",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 20,
+        "draw": 26,
+        "away": 54
+      },
+      "analysis": {
+        "summary": "Arsenal est favori grâce à sa forme et à sa cohésion, tandis que Naples arrive après deux défaites mais garde un avantage domicile suffisant pour préserver le nul.",
+        "keyFactors": [
+          "Le marché sans marge situe Arsenal autour de 54 %.",
+          "Arsenal reste sur des victoires contre Aston Villa et Chelsea.",
+          "Naples a perdu ses deux derniers matchs mais reste dangereux à domicile."
+        ],
+        "uncertainty": "Moyenne : Arsenal a l'avantage, mais Naples possède assez de qualité pour accrocher le nul ou créer la surprise.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "Legalbet — Napoli vs Arsenal",
+            "url": "https://legalbet.com/game-center/napoli-arsenal-09-09-2026/",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Norwich",
+      "awayTeam": "Birmingham",
+      "competition": "Championship",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Norwich bénéficie d'un léger avantage domicile, mais Birmingham perd peu et le nul doit être fortement couvert.",
+        "keyFactors": [
+          "Les modèles consultés placent Norwich autour de 42-44 %.",
+          "Birmingham n'a perdu qu'un de ses dix derniers matchs selon les données récentes.",
+          "La mémoire statistique montre une sous-couverture persistante des nuls, cohérente ici avec un match équilibré."
+        ],
+        "uncertainty": "Élevée : les trois issues restent proches et Birmingham est difficile à battre.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "FullTimeStats — Norwich vs Birmingham",
+            "url": "https://fulltimestats.com/match/norwich-vs-birmingham-2026-09-09",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leeds Utd",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Chelsea est favori à Stamford Bridge grâce à sa profondeur d'effectif, mais la rotation de coupe et l'invincibilité récente de Leeds renforcent le risque de nul.",
+        "keyFactors": [
+          "Le marché situe Chelsea autour de 1,6-1,7.",
+          "Chelsea dispose d'une profondeur d'effectif supérieure malgré les rotations attendues.",
+          "Leeds arrive invaincu et peut profiter d'un onze remanié côté Chelsea."
+        ],
+        "uncertainty": "Moyenne : Chelsea a l'avantage, mais le contexte de coupe augmente la variance.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/818",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          },
+          {
+            "label": "talkSPORT — Chelsea vs Leeds, Carabao Cup",
+            "url": "https://talksport.com/football/4563579/chelsea-leeds-united-carabao-cup-where-to-watch/",
+            "accessedAt": "2026-09-08T05:57:30+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["1", "1", "1", "1", "1", "2", "1", "1"],
+      "rationale": "Favoris principaux avec Norwich légèrement devant."
+    },
+    {
+      "id": "t2",
+      "label": "Nuls structurants",
+      "selections": ["1", "N", "1", "1", "1", "2", "N", "1"],
+      "rationale": "Couvre deux matchs où le nul est crédible."
+    },
+    {
+      "id": "t3",
+      "label": "Sporting accroché",
+      "selections": ["1", "1", "N", "1", "1", "2", "N", "1"],
+      "rationale": "Ajoute le nul à Lisbonne et à Norwich."
+    },
+    {
+      "id": "t4",
+      "label": "Birmingham résiste",
+      "selections": ["1", "N", "1", "1", "1", "2", "2", "1"],
+      "rationale": "Couvre l'hypothèse Birmingham sans abandonner les favoris européens."
+    },
+    {
+      "id": "t5",
+      "label": "Chelsea accroché",
+      "selections": ["1", "1", "1", "1", "1", "2", "N", "N"],
+      "rationale": "Couvre deux nuls plausibles en fin de grille."
+    },
+    {
+      "id": "t6",
+      "label": "Double équilibre",
+      "selections": ["1", "N", "N", "1", "1", "2", "1", "1"],
+      "rationale": "Combine les deux chocs européens les plus équilibrés."
+    },
+    {
+      "id": "t7",
+      "label": "Galatasaray surprise",
+      "selections": ["1", "1", "2", "1", "1", "2", "N", "1"],
+      "rationale": "Couvre une victoire turque avec nul à Norwich."
+    },
+    {
+      "id": "t8",
+      "label": "Stuttgart freiné",
+      "selections": ["1", "N", "1", "1", "N", "2", "N", "1"],
+      "rationale": "Ajoute un scénario de nul à Stuttgart et renforce les nuls sous-couverts."
+    },
+    {
+      "id": "t9",
+      "label": "Naples tient",
+      "selections": ["1", "1", "N", "1", "1", "N", "1", "1"],
+      "rationale": "Couvre un nul de Naples-Arsenal et Sporting-Galatasaray."
+    },
+    {
+      "id": "t10",
+      "label": "Deux outsiders",
+      "selections": ["1", "N", "2", "1", "1", "2", "2", "1"],
+      "rationale": "Scénario plus agressif sur Galatasaray et Birmingham."
+    },
+    {
+      "id": "t11",
+      "label": "Favoris sous pression",
+      "selections": ["1", "1", "1", "1", "N", "N", "N", "1"],
+      "rationale": "Couvre simultanément trois matchs à variance moyenne."
+    },
+    {
+      "id": "t12",
+      "label": "Scénario de nuls",
+      "selections": ["1", "N", "N", "1", "1", "2", "N", "N"],
+      "rationale": "Portefeuille de couverture des nuls les plus plausibles."
+    }
+  ]
+}
