@@ -1,0 +1,184 @@
+{
+  "id": "lf7-114-2026-09-10",
+  "formula": 7,
+  "gridNumber": 114,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931",
+  "validationDeadline": "2026-09-10T18:40:00+02:00",
+  "publishedAt": "2026-09-09T01:57:34+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Slavia Prague",
+      "awayTeam": "Lens",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-09-10T21:00:00+02:00",
+      "probabilities": {"home": 38, "draw": 29, "away": 33},
+      "analysis": {
+        "summary": "Affiche très équilibrée : le marché récent donne un léger avantage au Slavia à domicile, mais Lens reste proche et le nul conserve une forte probabilité.",
+        "keyFactors": [
+          "Les cotes sans marge de Legalbet placent Slavia et Lens pratiquement à égalité, avec un léger avantage au Slavia.",
+          "Le Slavia reste sur une bonne dynamique domestique, tandis que Lens a connu deux revers récents après un large succès.",
+          "La mémoire statistique montre une sous-couverture historique des nuls, cohérente ici avec un match où aucun camp ne dépasse nettement 40 %."
+        ],
+        "uncertainty": "Élevée : les trois issues sont crédibles et les différents modèles consultés divergent sur le favori.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF7 n°114", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Legalbet — Slavia Prague vs Lens", "url": "https://legalbet.uk/game-center/slavia-prague-lens-10-09-2026/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "EasyOdds — Slavia Prague vs Lens", "url": "https://easyodds.com/slavia-prague-vs-lens-betting-odds-tips-predictions-preview-10th-september-2026", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "FourFourTwo — Champions League Matchday 1 fixtures", "url": "https://www.fourfourtwo.com/features/how-to-watch-champions-league", "accessedAt": "2026-09-09T01:55:30+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-09-10T21:00:00+02:00",
+      "probabilities": {"home": 81, "draw": 12, "away": 7},
+      "analysis": {
+        "summary": "Le Bayern est le favori massif de la grille, porté par l'écart de qualité, l'avantage de l'Allianz Arena et une excellente forme récente.",
+        "keyFactors": [
+          "Le marché sans marge de Legalbet situe le Bayern au-delà de 85 %, mais la calibration historique déconseille d'adopter sans réserve les probabilités supérieures à 80 %.",
+          "Le Bayern arrive après une série très solide, notamment un 5-1 contre Stuttgart et une victoire en Supercoupe.",
+          "Bodø/Glimt est en très bonne forme offensive, ce qui justifie de conserver une petite part de nul et de surprise."
+        ],
+        "uncertainty": "Faible à modérée : avantage structurel énorme du Bayern, mais Bodø/Glimt arrive en confiance.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF7 n°114", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Legalbet — Bayern Munich vs Bodø/Glimt", "url": "https://legalbet.uk/game-center/bayern-munchen-bodoglimt-10-09-2026/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Bavarian Football Works — Bayern avant Bodø/Glimt", "url": "https://www.bavarianfootballworks.com/bayern-munich-champions-league/250330/konrad-laimer-chimes-in-on-vincent-kompany-objective-of-winning-the-champions-league", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "FourFourTwo — Champions League Matchday 1 fixtures", "url": "https://www.fourfourtwo.com/features/how-to-watch-champions-league", "accessedAt": "2026-09-09T01:55:30+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "PSV Eindhoven",
+      "awayTeam": "Shakhtar Donetsk",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-09-10T18:45:00+02:00",
+      "probabilities": {"home": 66, "draw": 20, "away": 14},
+      "analysis": {
+        "summary": "Le PSV possède un avantage net à domicile grâce à une attaque en grande forme, mais le Shakhtar reste suffisamment compétitif pour préserver un nul crédible.",
+        "keyFactors": [
+          "Le marché agrégé place le PSV autour de 67 % sans marge.",
+          "Le PSV a pris 13 points sur 15 en championnat et a marqué 18 buts sur ses cinq premières journées.",
+          "Le Shakhtar reste compétitif domestiquement mais arrive avec une production offensive moins impressionnante."
+        ],
+        "uncertainty": "Moyenne : PSV clairement devant, mais le Shakhtar a l'expérience et la qualité pour exploiter un match ouvert.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF7 n°114", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Legalbet — PSV vs Shakhtar Donetsk", "url": "https://legalbet.com/game-center/psv-shakhtar-donetsk-10-09-2026/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "LiveFootAI — PSV Eindhoven vs Shakhtar Donetsk", "url": "https://livefootai.com/en/matches/psv-eindhoven-vs-shakhtar-donetsk", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "FourFourTwo — Champions League Matchday 1 fixtures", "url": "https://www.fourfourtwo.com/features/how-to-watch-champions-league", "accessedAt": "2026-09-09T01:55:30+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Como 1907",
+      "awayTeam": "RB Leipzig",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-09-10T21:00:00+02:00",
+      "probabilities": {"home": 52, "draw": 25, "away": 23},
+      "analysis": {
+        "summary": "Como est un favori modéré à domicile : son début de saison est plus stable et Leipzig a montré de la fragilité à l'extérieur, mais l'écart reste limité.",
+        "keyFactors": [
+          "Les cotes récentes font de Como le favori autour de 1,85, avec Leipzig proche de 4,00.",
+          "Como est invaincu après trois journées de Serie A et vient de gagner 4-1 à Gênes.",
+          "Leipzig a perdu 1-3 contre le Werder et reste sans point à l'extérieur en Bundesliga, avec plusieurs incertitudes d'effectif."
+        ],
+        "uncertainty": "Élevée : Como a l'avantage de forme et du terrain, mais Leipzig possède assez de talent offensif pour renverser le scénario.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF7 n°114", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Legalbet — Como 1907 vs RB Leipzig", "url": "https://legalbet.uk/game-center/como-1907-rb-leipzig-10-09-2026/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "BILD — RB Leipzig, effectif de Ligue des champions", "url": "https://www.bild.de/sport/fussball/rb-leipzig-neuzugang-kone-fehlt-im-kader-fuer-die-champions-league-6a999422dde98c92361808b6", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "FourFourTwo — Champions League Matchday 1 fixtures", "url": "https://www.fourfourtwo.com/features/how-to-watch-champions-league", "accessedAt": "2026-09-09T01:55:30+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Manchester United",
+      "awayTeam": "Sabah FK",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-09-10T21:00:00+02:00",
+      "probabilities": {"home": 79, "draw": 15, "away": 6},
+      "analysis": {
+        "summary": "Manchester United reste un très gros favori à Old Trafford malgré plusieurs absences ; Sabah arrive en confiance mais découvre ce niveau de compétition.",
+        "keyFactors": [
+          "Le marché 1N2 situe Manchester United autour de 83-84 % sans marge.",
+          "United a marqué régulièrement récemment et revient en Ligue des champions à domicile.",
+          "Sabah a enchaîné des résultats offensifs positifs en qualifications, tandis que United doit gérer plusieurs absences défensives et offensives."
+        ],
+        "uncertainty": "Faible à modérée : l'écart de niveau reste énorme, mais les absences de United empêchent une probabilité extrême.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF7 n°114", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Legalbet — Manchester United vs Sabah FK", "url": "https://legalbet.uk/game-center/manchester-united-fk-sabah-10-09-2026/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "talkSPORT — Manchester United vs Sabah", "url": "https://talksport.com/football/4564015/man-united-sabah-champions-league-live-commentary/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "FourFourTwo — Champions League Matchday 1 fixtures", "url": "https://www.fourfourtwo.com/features/how-to-watch-champions-league", "accessedAt": "2026-09-09T01:55:30+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Fenerbahce",
+      "awayTeam": "AS Rome",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-09-10T18:45:00+02:00",
+      "probabilities": {"home": 28, "draw": 29, "away": 43},
+      "analysis": {
+        "summary": "La Roma est favorite grâce à sa forme récente, mais le déplacement à Istanbul et l'historique solide de Fenerbahçe à domicile contre les clubs italiens rendent le nul très important.",
+        "keyFactors": [
+          "Les cotes récentes donnent la Roma favorite autour de 2,15, devant Fenerbahçe et le nul.",
+          "La Roma reste sur trois victoires de Serie A, dont un succès renversant contre l'Atalanta.",
+          "Fenerbahçe a gagné ses trois dernières réceptions d'équipes italiennes sans encaisser, mais sort d'une défaite contre Beşiktaş."
+        ],
+        "uncertainty": "Élevée : avantage Roma réel mais contexte d'Istanbul et profil européen de Fenerbahçe augmentent fortement la variance.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF7 n°114", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Legalbet — Fenerbahce vs AS Roma", "url": "https://legalbet.com/game-center/fenerbahce-roma-10-09-2026/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "UEFA — Fenerbahçe vs Roma, faits et stats", "url": "https://www.uefa.com/uefachampionsleague/news/02a9-21837cd5ad2e-061be4320d1f-1000--champions-league-matchday-1-fenerbahce-vs-roma-facts/", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "FourFourTwo — Champions League Matchday 1 fixtures", "url": "https://www.fourfourtwo.com/features/how-to-watch-champions-league", "accessedAt": "2026-09-09T01:55:30+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "CF Estrela",
+      "awayTeam": "Braga",
+      "competition": "Liga Portugal",
+      "probabilities": {"home": 20, "draw": 31, "away": 49},
+      "analysis": {
+        "summary": "Braga est favori grâce à sa qualité et sa série d'invincibilité, mais ses nombreux nuls à l'extérieur rendent le N nettement plus important que ne le suggère un simple choix favori.",
+        "keyFactors": [
+          "Le marché place Braga autour de 1,70-1,75, avec Estrela au-delà de 4,5.",
+          "Braga est invaincu depuis dix matchs mais a concédé six nuls lors de ses sept derniers déplacements de championnat.",
+          "Estrela est également sur une série sans défaite et a souvent partagé les points récemment."
+        ],
+        "uncertainty": "Moyenne à élevée : Braga a l'avantage, mais la fréquence récente des nuls des deux équipes justifie une forte couverture du N.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF7 n°114", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4931", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "Sportingbet — Estrela Amadora vs Braga", "url": "https://www.sportingbet.com/en/sports/events/cf-estrela-da-amadora-sc-braga-2%3A7835278", "accessedAt": "2026-09-09T01:55:30+02:00"},
+          {"label": "ToffeeWeb — Estrela Amadora vs Sporting Braga", "url": "https://www.toffeeweb.com/estrela-amadora-vs-sporting-braga-predictions-picks-odds-10-09-2026/", "accessedAt": "2026-09-09T01:55:30+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t1","label":"Scénario central","selections":["1","1","1","1","1","2","2"],"rationale":"Favoris principaux, avec le Slavia choisi de très peu sur le match le plus indécis."},
+    {"id":"t2","label":"Lens et Como accroché","selections":["2","1","1","N","1","2","2"],"rationale":"Couvre Lens sur le match 1 et le nul sur Como-Leipzig, deux zones de forte incertitude."},
+    {"id":"t3","label":"Double nul structurant","selections":["N","1","1","1","1","N","2"],"rationale":"Couvre les nuls de Slavia-Lens et Fenerbahçe-Roma sans toucher aux favoris lourds."},
+    {"id":"t4","label":"Leipzig répond, Braga accroché","selections":["1","1","1","2","1","2","N"],"rationale":"Couvre une réaction de Leipzig et le scénario de nul fréquent dans les déplacements de Braga."},
+    {"id":"t5","label":"Lens, PSV accroché, Braga nul","selections":["2","1","N","1","1","2","N"],"rationale":"Diversifie simultanément trois rencontres où l'écart n'est pas suffisant pour une couverture unique."},
+    {"id":"t6","label":"Nuls à Prague et Côme, Fener résiste","selections":["N","1","1","N","1","1","2"],"rationale":"Scénario plus fermé avec deux nuls et une victoire de Fenerbahçe à domicile."},
+    {"id":"t7","label":"PSV et Roma accrochés, nul au Portugal","selections":["1","1","N","1","1","N","N"],"rationale":"Renforce la couverture des nuls sur trois matchs à variance significative."},
+    {"id":"t8","label":"Lens et Leipzig gagnent, Fener résiste","selections":["2","1","1","2","1","1","2"],"rationale":"Scénario d'outsiders crédibles sur deux affiches équilibrées avec Fenerbahçe à domicile."},
+    {"id":"t9","label":"Prague nul, Braga accroché","selections":["N","1","1","1","1","2","N"],"rationale":"Couvre les deux nuls les plus naturels tout en conservant les favoris européens."},
+    {"id":"t10","label":"Accroc du Bayern et nul à Côme","selections":["1","N","1","N","1","2","2"],"rationale":"Ajoute une couverture rare mais identifiable d'un accroc du Bayern, combinée à un nul crédible à Côme."},
+    {"id":"t11","label":"Lens gagne, United accroché","selections":["2","1","1","1","N","2","2"],"rationale":"Couvre Lens ainsi qu'un nul surprise à Old Trafford sans multiplier les autres écarts."},
+    {"id":"t12","label":"Prague nul, Shakhtar surprend, Roma accrochée","selections":["N","1","2","1","1","N","2"],"rationale":"Scénario de forte variance centré sur le principal outsider couvert, avec deux nuls plausibles."}
+  ]
+}
