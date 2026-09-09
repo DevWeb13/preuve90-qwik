@@ -1,0 +1,281 @@
+{
+  "id": "lf15-75-2026-09-12",
+  "formula": 15,
+  "gridNumber": 75,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-12T20:40:00+02:00",
+  "publishedAt": "2026-09-09T09:56:42+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "probabilities": {"home": 35, "draw": 29, "away": 36},
+      "analysis": {
+        "summary": "Affiche très équilibrée : Lyon garde un léger avantage qualitatif, mais le Paris FC arrive avec une dynamique domestique forte et l'avantage du terrain.",
+        "keyFactors": ["Le marché agrégé est presque partagé entre Paris FC et Lyon.", "Paris FC vient de gagner à Marseille et avait déjà battu Nice 3-0.", "Lyon reste lui aussi sur un début de championnat solide."],
+        "uncertainty": "Les deux équipes affichent une forme proche ; le nul et les deux victoires restent fortement plausibles.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "LiveFootAI — Paris FC vs Lyon", "url": "https://livefootai.com/en/matches/paris-fc-vs-lyon", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "FCUpdate — Paris FC vs Lyon, forme récente", "url": "https://www.fcupdate.nl/voetbalcompetities/frankrijk/ligue-1/programma-uitslagen/2026-2027/paris-fc-lyon-12-09", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Brest",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "probabilities": {"home": 12, "draw": 16, "away": 72},
+      "analysis": {
+        "summary": "Le PSG reste nettement supérieur sur le plan intrinsèque et au marché, mais son début de saison irrégulier invite à ne pas pousser la probabilité trop haut.",
+        "keyFactors": ["Le marché fait du PSG un très grand favori à l'extérieur.", "Brest vient de décrocher sa première victoire de la saison contre Le Havre.", "Le PSG conserve une profondeur d'effectif très supérieure malgré un début domestique moins convaincant."],
+        "uncertainty": "Un déplacement à Brest peut devenir fermé si Paris manque d'efficacité ; le nul reste le principal scénario alternatif.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "BetVictor — Ligue 1 odds, Brest vs PSG", "url": "https://www.betvictor.com/en-gb/sports/240/meetings/695003310/all", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Reuters — Brest bat Le Havre", "url": "https://www.reuters.com/sports/soccer/fans-jeer-lens-suffer-surprise-home-defeat-lorient-2026-09-05/", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lorient",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "probabilities": {"home": 37, "draw": 31, "away": 32},
+      "analysis": {
+        "summary": "Le marché voit une rencontre quasi équilibrée. Lorient a l'avantage du terrain et vient de gagner à Lens, mais l'historique récent penche vers Toulouse.",
+        "keyFactors": ["Les cotes agrégées séparent très peu les trois issues.", "Lorient reste sur une victoire 1-0 à Lens.", "Toulouse est invaincu contre Lorient sur les six confrontations récentes recensées."],
+        "uncertainty": "Match à forte variance avec un nul structurellement important ; aucun camp ne mérite une confiance élevée.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "LiveFootAI — Lorient vs Toulouse", "url": "https://livefootai.com/en/matches/lorient-vs-toulouse", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "PitchMath — Toulouse/Lorient H2H et forme", "url": "https://pitchmath.com/en/h2h/96-97/toulouse-vs-lorient", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "probabilities": {"home": 40, "draw": 31, "away": 29},
+      "analysis": {
+        "summary": "Le Havre bénéficie du terrain et d'un léger avantage de marché, mais sa défaite récente et l'équilibre général de l'affiche rendent le nul très crédible.",
+        "keyFactors": ["Le marché place Le Havre favori modéré.", "Le Havre vient de perdre 2-1 contre Brest dans un match marqué par une expulsion.", "Le marché de buts penche vers une rencontre relativement fermée."],
+        "uncertainty": "Écart faible entre les équipes ; un match fermé augmente le poids du nul et d'un but décisif.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "LiveFootAI — Le Havre vs Angers", "url": "https://livefootai.com/en/matches/le-havre-vs-angers", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Reuters — Brest bat Le Havre", "url": "https://www.reuters.com/sports/soccer/fans-jeer-lens-suffer-surprise-home-defeat-lorient-2026-09-05/", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1",
+      "probabilities": {"home": 34, "draw": 31, "away": 35},
+      "analysis": {
+        "summary": "Le marché est presque symétrique. Auxerre est légèrement soutenu à domicile, mais son début de championnat est mauvais tandis que Nice reste lui aussi fragile.",
+        "keyFactors": ["Les probabilités de marché sont très rapprochées.", "Auxerre a perdu ses trois premières rencontres de championnat selon le classement récent consulté.", "Nice reste sur un nul 1-1 contre Le Mans."],
+        "uncertainty": "Confrontation de deux équipes en manque de certitudes ; aucune issue ne domine suffisamment pour être traitée comme un socle.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "LiveFootAI — Auxerre vs Nice", "url": "https://livefootai.com/en/matches/auxerre-vs-nice", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "FCUpdate — classement Ligue 1", "url": "https://www.fcupdate.nl/voetbalcompetities/frankrijk/ligue-1/programma-uitslagen/2026-2027/paris-fc-lyon-12-09", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1",
+      "probabilities": {"home": 22, "draw": 27, "away": 51},
+      "analysis": {
+        "summary": "Lens possède un net avantage de marché et de qualité, mais sa dynamique récente est négative, ce qui justifie une forte réduction par rapport aux cotes brutes.",
+        "keyFactors": ["Le marché place Lens autour de 57 à 64 % selon les sources consultées.", "Lens vient de subir une deuxième défaite consécutive en Ligue 1 contre Lorient.", "Le Mans a récemment tenu Nice en échec 1-1."],
+        "uncertainty": "Le statut de Lens demeure supérieur, mais sa forme récente rend le nul nettement plus plausible qu'un favori à plus de 60 %.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "Oddschecker — Le Mans vs Lens", "url": "https://www.oddschecker.com/football/france/ligue-1/le-mans-v-lens/winner", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Reuters — Lens battu par Lorient", "url": "https://www.reuters.com/sports/soccer/fans-jeer-lens-suffer-surprise-home-defeat-lorient-2026-09-05/", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Lille",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "probabilities": {"home": 70, "draw": 20, "away": 10},
+      "analysis": {
+        "summary": "Lille est un favori net à domicile, soutenu par le marché et une forme récente supérieure, mais une calibration prudente conserve un poids significatif au nul.",
+        "keyFactors": ["BetVictor affiche Lille autour de 4/11, signal d'un favori très clair.", "Lille a remporté trois de ses cinq dernières rencontres selon l'aperçu consulté.", "Troyes reste un adversaire capable de fermer le jeu malgré l'écart de qualité."],
+        "uncertainty": "Le principal risque vient d'un match verrouillé ou d'une inefficacité lilloise ; le nul est l'alternative prioritaire.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "BetVictor — Ligue 1 odds, Lille vs Troyes", "url": "https://www.betvictor.com/en-gb/sports/240/meetings/695003310/all", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "AtlasGoal — Lille vs Troyes aperçu", "url": "https://www.atlasgoal.com/fr/matches/lille-osc-vs-estac-troyes-ligue-1-2026-09-12", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Rayo Vallecano",
+      "competition": "La Liga",
+      "probabilities": {"home": 79, "draw": 13, "away": 8},
+      "analysis": {
+        "summary": "Le Real Madrid est très largement favori au Bernabéu : sa forme, sa puissance offensive et les prix de marché créent un écart massif avec le Rayo.",
+        "keyFactors": ["Le marché cote le Real autour de 1,12.", "Le Real vient de battre l'Inter 2-1 en Ligue des champions.", "Le Rayo a gagné récemment contre le Racing mais a montré des fragilités défensives et disciplinaires."],
+        "uncertainty": "Le Real reste exposé à une rotation ou à un match de transition après l'Europe ; le nul constitue l'alternative principale.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "ODDSLOT — Real Madrid vs Rayo Vallecano", "url": "https://oddslot.com/football/match/la-liga/real-madrid/rayo-vallecano/12-sep-2026//", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "UOL — Real Madrid bat l'Inter", "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/08/real-madrid-inter-de-milao-fase-de-liga-champions-como-foi.ghtm", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Atl. Madrid",
+      "competition": "La Liga",
+      "probabilities": {"home": 24, "draw": 32, "away": 44},
+      "analysis": {
+        "summary": "L'Atlético conserve un avantage de marché, mais la Real Sociedad a déjà montré qu'elle pouvait rivaliser directement avec lui, ce qui renforce le nul.",
+        "keyFactors": ["Les lignes asiatiques consultées placent l'Atlético en position de favori.", "La Real Sociedad a battu l'Atlético aux tirs au but après un 2-2 en finale de Coupe du Roi 2026.", "Le match se joue sur le terrain de la Real Sociedad."],
+        "uncertainty": "Le précédent récent très serré entre les équipes empêche de traiter l'Atlético comme un favori fort.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "OddStorm — Real Sociedad vs Atletico Madrid, marché asiatique", "url": "https://www.oddstorm.com/asianodds/league/906-spain-la-liga-primera-division", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Reuters — Real Sociedad bat l'Atlético en finale de Coupe du Roi", "url": "https://www.reuters.com/sports/soccer/real-sociedad-beat-atletico-madrid-penalties-win-copa-del-rey-2026-04-18/", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Levante",
+      "awayTeam": "FC Barcelone",
+      "competition": "La Liga",
+      "probabilities": {"home": 10, "draw": 16, "away": 74},
+      "analysis": {
+        "summary": "Barcelone dispose d'un avantage massif de qualité et de marché. L'écart est clair, mais la calibration reste volontairement sous les niveaux extrêmes vus dans les choix FDJ.",
+        "keyFactors": ["Oddschecker évalue Barcelone autour de 76 % sur le marché 1N2.", "Barcelone a commencé la saison sur une dynamique domestique forte.", "Quelques absences et la proximité de la Ligue des champions empêchent une probabilité encore plus haute."],
+        "uncertainty": "Rotation et fatigue européenne sont les principaux risques ; une résistance de Levante ou un nul reste peu probable mais non négligeable.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "Oddschecker — Levante vs Barcelona", "url": "https://www.oddschecker.com/football/spain/la-liga-primera/levante-v-barcelona/winner", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Barça Blaugranes — Barcelona avant Feyenoord", "url": "https://www.barcablaugranes.com/barcelona-uefa-champions-league/131907/barcelona-feyenoord-champions-league-team-news-match-preview-lineups-prediction", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Naples",
+      "awayTeam": "Bologne",
+      "competition": "Serie A",
+      "probabilities": {"home": 55, "draw": 28, "away": 17},
+      "analysis": {
+        "summary": "Naples est favori à domicile, mais Bologne reste suffisamment compétitif pour que le nul soit largement couvert, surtout après ses derniers résultats accrochés.",
+        "keyFactors": ["Le marché agrégé donne Naples autour de 56 % de chances de gagner.", "Bologne vient de faire 2-2 contre Sassuolo après avoir été mené deux fois.", "Le dernier historique récent cité par la source de marché n'est pas favorable à Naples face à Bologne."],
+        "uncertainty": "Naples possède le plafond supérieur, mais Bologne a le profil pour ralentir le match et accrocher un nul.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "WagerBeasts — Napoli vs Bologna odds", "url": "https://wagerbeasts.com/soccer/serie-a/event/napoli-vs-bologna-2026-09-12", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Reuters — Bologna 2-2 Sassuolo", "url": "https://www.reuters.com/sports/soccer/gatti-rescues-point-juventus-1-1-draw-with-ac-milan-2026-09-06/", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Juventus Turin",
+      "competition": "Serie A",
+      "probabilities": {"home": 19, "draw": 27, "away": 54},
+      "analysis": {
+        "summary": "La Juventus reste favorite malgré un déplacement délicat. Sassuolo vient de montrer sa capacité à marquer et à résister, ce qui maintient un nul significatif.",
+        "keyFactors": ["Le marché agrégé place la Juventus proche de 59 % avant calibration.", "La Juventus vient de faire 1-1 contre l'AC Milan.", "Sassuolo vient de faire 2-2 à Bologne après avoir mené deux fois."],
+        "uncertainty": "La Juventus est supérieure, mais son rendement offensif récent et la capacité de Sassuolo à rester dans le match augmentent le risque de nul.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "LiveFootAI — Sassuolo vs Juventus", "url": "https://livefootai.com/en/matches/sassuolo-vs-juventus", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Reuters — Juventus 1-1 Milan et Bologna 2-2 Sassuolo", "url": "https://www.reuters.com/sports/soccer/gatti-rescues-point-juventus-1-1-draw-with-ac-milan-2026-09-06/", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Coventry",
+      "awayTeam": "Brighton Hove",
+      "competition": "Premier League",
+      "probabilities": {"home": 24, "draw": 29, "away": 47},
+      "analysis": {
+        "summary": "Brighton est favori mais pas au point d'écraser les scénarios alternatifs : Coventry a résisté à Manchester City et le profil de la rencontre reste plus serré que les choix FDJ.",
+        "keyFactors": ["Le marché Oddschecker donne Brighton autour de 54 %.", "Coventry n'a perdu que 1-0 chez Manchester City lors de sa dernière sortie.", "Brighton vient de faire 1-1 contre Leeds."],
+        "uncertainty": "Les modèles divergent sur l'ampleur de l'avantage de Brighton ; le nul est un scénario important à couvrir.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "Oddschecker — Coventry vs Brighton", "url": "https://www.oddschecker.com/football/english/premier-league/coventry-v-brighton/winner", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "The Guardian — Manchester City 1-0 Coventry et Brighton 1-1 Leeds", "url": "https://www.theguardian.com/football/live/2026/sep/05/premier-league-manchester-city-coventry-nottingham-forest-v-tottenham-efl-clockwatch-live", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Sunderland",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League",
+      "probabilities": {"home": 13, "draw": 23, "away": 64},
+      "analysis": {
+        "summary": "Arsenal est un favori net grâce à sa forme et sa qualité, mais Sunderland a montré suffisamment de résistance pour que le nul soit mieux valorisé que dans la répartition FDJ.",
+        "keyFactors": ["Le marché cote Arsenal autour de 1,48.", "Arsenal a remporté ses premiers matchs de championnat et reste parmi les équipes de tête.", "Sunderland a récemment obtenu un nul 1-1 à Brentford après une prestation compétitive."],
+        "uncertainty": "Le déplacement et la capacité de Sunderland à défendre en bloc donnent davantage de poids au nul qu'à une victoire locale.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "ODDSLOT — Sunderland vs Arsenal", "url": "https://oddslot.com/football/match/premier-league/sunderland/arsenal/12-sep-2026//", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "Roker Report — Sunderland tient Brentford", "url": "https://rokerreport.sbnation.com/opinion/152339/sunderland-stand-tall-at-brentford-despite-the-doubters", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Man. United",
+      "awayTeam": "Man. City",
+      "competition": "Premier League",
+      "probabilities": {"home": 25, "draw": 26, "away": 49},
+      "analysis": {
+        "summary": "Manchester City arrive comme favori du derby grâce à une meilleure dynamique et un effectif renforcé, mais l'avantage d'Old Trafford et la nature du derby empêchent un écart excessif.",
+        "keyFactors": ["Le marché agrégé donne Manchester City autour de 45 à 50 %.", "City a gagné ses trois premiers matchs de Premier League.", "Manchester United n'a gagné qu'un de ses trois premiers matchs et reste vulnérable défensivement."],
+        "uncertainty": "Un derby augmente la variance ; Manchester United peut élever son niveau à domicile et le nul reste une issue importante.",
+        "sources": [
+          {"label": "FDJ Parions Sport — LF15 n°75", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-09T09:54:52+02:00"},
+          {"label": "WagerBeasts — Manchester United vs Manchester City odds", "url": "https://wagerbeasts.com/soccer/epl/event/manchester-united-vs-manchester-city-2026-09-12", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "UOL — Manchester City, mercato et début de saison", "url": "https://www.uol.com.br/esporte/futebol/colunas/rafael-reis/2026/09/03/sem-guardiola-city-faz-reformulacao-de-r-31-bi-e-bate-recorde-do-futebol.ghtm", "accessedAt": "2026-09-09T09:56:00+02:00"},
+          {"label": "The Scottish Sun — Manchester United, début de saison", "url": "https://www.thescottishsun.co.uk/sport/16793114/wayne-rooney-admits-carrick-faces-man-utd-bruno-fernandes/", "accessedAt": "2026-09-09T09:56:00+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t1","label":"Socle favoris calibrés","selections":["2","2","1","1","2","2","1","1","2","2","1","2","2","2","2"],"rationale":"Socle des favoris les plus solides avec les choix centraux sur les rencontres équilibrées."},
+    {"id":"t2","label":"Nuls structurants","selections":["N","2","N","1","N","2","1","1","N","2","1","2","2","2","2"],"rationale":"Renforce plusieurs nuls sur les affiches les plus serrées sans toucher aux très grands favoris."},
+    {"id":"t3","label":"Équilibre domicile","selections":["1","2","2","N","2","2","1","1","2","2","N","2","N","2","2"],"rationale":"Couvre davantage de succès à domicile sur les matchs où le marché est proche."},
+    {"id":"t4","label":"Portefeuille prudent","selections":["2","2","N","N","N","2","1","1","N","2","1","N","2","2","N"],"rationale":"Multiplie les nuls sur les rencontres à faible écart tout en conservant les favoris majeurs."},
+    {"id":"t5","label":"Surprises françaises","selections":["N","2","1","1","1","N","1","1","2","2","N","2","2","2","2"],"rationale":"Ajoute des scénarios de surprises domestiques sur les affiches françaises les plus incertaines."},
+    {"id":"t6","label":"Alternatives milieu de grille","selections":["1","2","N","N","2","2","1","1","N","2","2","2","N","2","2"],"rationale":"Diversifie les matchs de milieu de grille et conserve les favoris les plus robustes."},
+    {"id":"t7","label":"Favoris fragilisés","selections":["2","N","2","1","N","2","1","1","2","2","1","N","2","2","N"],"rationale":"Teste le nul du PSG et d'autres favoris moins sûrs dans un scénario cohérent."},
+    {"id":"t8","label":"Chocs ouverts","selections":["N","2","1","2","2","N","1","1","N","2","1","2","N","N","2"],"rationale":"Couvre plusieurs inversions et nuls dans les confrontations ouvertes."},
+    {"id":"t9","label":"Nuls Ligue 1","selections":["1","2","N","N","N","2","N","1","2","2","N","2","2","2","N"],"rationale":"Accentue les nuls sur les rencontres françaises serrées et conserve les grands favoris européens."},
+    {"id":"t10","label":"Rotation européenne","selections":["N","2","2","1","2","2","1","N","N","2","1","2","N","2","2"],"rationale":"Intègre un nul du Real et plusieurs résultats alternatifs après les rencontres européennes."},
+    {"id":"t11","label":"Scénario variance haute","selections":["2","2","1","N","1","2","1","1","N","N","1","2","2","2","N"],"rationale":"Couvre quelques surprises fortes, dont un nul de Barcelone, sans disperser tous les favoris."},
+    {"id":"t12","label":"Outsiders mesurés","selections":["1","2","2","1","N","2","1","1","2","2","N","N","2","N","2"],"rationale":"Ajoute plusieurs outsiders ou nuls crédibles tout en gardant les socles majeurs."}
+  ]
+}
