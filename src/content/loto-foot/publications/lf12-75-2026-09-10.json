@@ -1,0 +1,522 @@
+{
+  "id": "lf12-75-2026-09-10",
+  "formula": 12,
+  "gridNumber": 75,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-10T18:40:00+02:00",
+  "publishedAt": "2026-09-09T06:02:06+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Slavia Prague",
+      "awayTeam": "Lens",
+      "probabilities": {
+        "home": 37,
+        "draw": 27,
+        "away": 36
+      },
+      "analysis": {
+        "summary": "Affiche presque parfaitement équilibrée. Le marché récent place Slavia et Lens au coude-à-coude, avec un léger avantage domicile selon certaines sources et un léger avantage Lens selon d'autres.",
+        "keyFactors": [
+          "Écart minime entre les probabilités de victoire des deux équipes sur le marché sans marge.",
+          "Slavia bénéficie du terrain, tandis que Lens dispose d'arguments suffisants pour être coté quasiment au même niveau.",
+          "Le nul reste un scénario important sur une confrontation aussi serrée."
+        ],
+        "uncertainty": "Très forte : les sources de marché divergent sur le favori marginal et aucun résultat ne se détache nettement.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Legalbet — Slavia Prague vs Lens",
+            "url": "https://legalbet.uk/game-center/slavia-prague-lens-10-09-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Wincomparator — Slavia Prague vs Lens",
+            "url": "https://www.wincomparator.com/predictions/slavia-prague-lens-8786607/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Bodø/Glimt",
+      "probabilities": {
+        "home": 78,
+        "draw": 14,
+        "away": 8
+      },
+      "analysis": {
+        "summary": "Bayern est un très net favori à domicile. Sa qualité d'effectif et sa forme récente dominent l'analyse, même si Bodø/Glimt conserve un potentiel de nuisance en transition.",
+        "keyFactors": [
+          "Bayern reste l'un des favoris européens et arrive après un 5-1 contre Stuttgart.",
+          "Le marché est fortement orienté vers une victoire bavaroise.",
+          "Bodø/Glimt possède une identité offensive claire mais affronte un saut de niveau majeur à l'Allianz Arena."
+        ],
+        "uncertainty": "Faible à modérée : le scénario central est nettement Bayern, mais une rotation européenne ou l'efficacité de Bodø/Glimt peut augmenter la variance.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Sportingbet — Bayern Munich vs Bodø/Glimt",
+            "url": "https://www.sportingbet.com/en/sports/events/bayern-munich-bodo-glimt-2%3A7855941",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Bavarian Football Works — Bayern ambition Champions League",
+            "url": "https://www.bavarianfootballworks.com/bayern-munich-champions-league/250330/konrad-laimer-chimes-in-on-vincent-kompany-objective-of-winning-the-champions-league",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "PSV Eindhoven",
+      "awayTeam": "Shakhtar Donetsk",
+      "probabilities": {
+        "home": 67,
+        "draw": 19,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "PSV dispose d'un avantage net à domicile grâce à une dynamique offensive très forte et un marché qui le situe autour de deux chances sur trois de gagner.",
+        "keyFactors": [
+          "PSV a pris 13 points sur 15 en championnat et marqué 18 buts en cinq journées.",
+          "Les cotes agrégées donnent environ 67 % au PSV hors marge.",
+          "Shakhtar reste compétitif mais son rendement offensif récent est inférieur à celui du PSV."
+        ],
+        "uncertainty": "Modérée : Shakhtar a suffisamment d'expérience européenne pour punir une défense exposée, mais le PSV conserve une avance claire.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "LiveFootAI — PSV Eindhoven vs Shakhtar Donetsk",
+            "url": "https://livefootai.com/en/matches/psv-eindhoven-vs-shakhtar-donetsk",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Legalbet — PSV vs Shakhtar Donetsk",
+            "url": "https://legalbet.com/game-center/psv-shakhtar-donetsk-10-09-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Como 1907",
+      "awayTeam": "RB Leipzig",
+      "probabilities": {
+        "home": 50,
+        "draw": 26,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Como est un favori modéré malgré son statut de novice européen. Le marché lui accorde l'avantage à domicile, tandis que Leipzig arrive après un début domestique fragile.",
+        "keyFactors": [
+          "Les cotes actuelles placent Como autour de 1,82-1,88, nettement devant Leipzig.",
+          "Leipzig vient de perdre 3-1 contre le Werder Brême après un début de saison difficile.",
+          "Le niveau européen de Leipzig impose néanmoins de conserver une probabilité extérieure significative."
+        ],
+        "uncertainty": "Élevée : Como découvre ce niveau de compétition et Leipzig conserve davantage d'expérience européenne que sa forme récente ne le suggère.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Unibet — Como 1907 vs RB Leipzig",
+            "url": "https://www.unibet.fr/paris-sportifs/ligue-des-champions-como1907-rbleipzig",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Reuters — Bundesliga du 5 septembre 2026",
+            "url": "https://www.reuters.com/sports/soccer/dortmund-elversberg-stage-fine-comebacks-bundesliga-2026-09-05/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Manchester United",
+      "awayTeam": "Sabah FK",
+      "probabilities": {
+        "home": 82,
+        "draw": 12,
+        "away": 6
+      },
+      "analysis": {
+        "summary": "Manchester United est l'un des favoris les plus nets de la grille. Le différentiel d'effectif, le terrain et le consensus des cotes convergent fortement vers le 1.",
+        "keyFactors": [
+          "Le marché sans marge situe Manchester United autour de 83 %.",
+          "Sabah dispute sa première campagne de Ligue des champions et affronte un saut de niveau considérable.",
+          "United joue à Old Trafford et possède plusieurs créateurs et finisseurs de niveau international."
+        ],
+        "uncertainty": "Faible : une rotation ou un manque d'efficacité peut ouvrir la porte au nul, mais la victoire de Sabah reste un scénario très minoritaire.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "LiveFootAI — Manchester United vs Sabah FK",
+            "url": "https://livefootai.com/en/matches/manchester-united-vs-sabah-fk",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Ladbrokes — Manchester United vs Sabah FK preview",
+            "url": "https://www.ladbrokes.com/en/news/manchester-united-vs-sabah-fk-champions-league-predictions-tips-2026-09-10/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Fenerbahce",
+      "awayTeam": "AS Rome",
+      "probabilities": {
+        "home": 28,
+        "draw": 27,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "La Roma est favorite à Istanbul grâce à une dynamique récente plus convaincante, mais le terrain de Fenerbahçe et la volatilité d'un premier match européen gardent le nul et le 1 très vivants.",
+        "keyFactors": [
+          "Les cotes relevées donnent la Roma favorite autour de 2,15 contre 3,30 pour Fenerbahçe.",
+          "La Roma arrive sur trois succès convaincants en Serie A.",
+          "Fenerbahçe reste dangereux à domicile mais a récemment perdu contre Besiktas."
+        ],
+        "uncertainty": "Élevée : l'avantage romain est réel sans être dominant, et l'environnement d'Istanbul augmente la dispersion des scénarios.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Legalbet — Fenerbahce vs AS Roma",
+            "url": "https://legalbet.com/game-center/fenerbahce-roma-10-09-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "CF Estrela",
+      "awayTeam": "Braga",
+      "probabilities": {
+        "home": 24,
+        "draw": 30,
+        "away": 46
+      },
+      "analysis": {
+        "summary": "Braga possède l'avantage structurel, mais la forte fréquence récente des nuls des deux équipes empêche d'en faire un favori massif.",
+        "keyFactors": [
+          "Le marché agrégé place Braga favori, autour de 54 % implicites sur certaines sources.",
+          "Braga reste invaincu dans les confrontations récentes avec Estrela.",
+          "Estrela est lui aussi en bonne dynamique et plusieurs rencontres récentes de Braga à l'extérieur se sont terminées par un nul."
+        ],
+        "uncertainty": "Élevée : les modèles divergent fortement sur l'ampleur de l'avantage de Braga et le nul est particulièrement plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Sports Pundit — Estrela vs Braga preview",
+            "url": "https://sportspundit.com/soccer/matches/braga-vs-estrela/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "ToffeeWeb — Estrela Amadora vs Sporting Braga",
+            "url": "https://www.toffeeweb.com/int/estrela-amadora-vs-sporting-braga-predictions-picks-odds-10-09-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "KV Mechelen",
+      "awayTeam": "Anderlecht",
+      "probabilities": {
+        "home": 25,
+        "draw": 27,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Anderlecht est favori grâce à une forme récente supérieure et un consensus de marché proche de 50 %, sans toutefois atteindre un niveau de certitude suffisant pour écarter le nul.",
+        "keyFactors": [
+          "Les cotes médianes sans marge donnent environ 49 % à Anderlecht.",
+          "Mechelen reste sans victoire sur ses cinq dernières sorties selon les données consultées.",
+          "Anderlecht a remporté trois de ses cinq derniers matchs."
+        ],
+        "uncertainty": "Modérée à élevée : le 2 domine mais le nul reste proche d'une chance sur quatre et doit être couvert dans le portefeuille.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "LiveFootAI — KV Mechelen vs Anderlecht",
+            "url": "https://livefootai.com/en/matches/kv-mechelen-vs-anderlecht",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "ODDSLOT — KV Mechelen vs Anderlecht",
+            "url": "https://oddslot.com/football/match/jupiler-pro-league/kv-mechelen/anderlecht/11-sep-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Union Berlin",
+      "awayTeam": "Schalke 04",
+      "probabilities": {
+        "home": 40,
+        "draw": 29,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Union reste un léger favori à domicile, mais la grille est nettement plus ouverte que les cotes brutes ne le suggèrent après le 0-0 de Schalke contre le Bayern et la lourde défaite récente d'Union.",
+        "keyFactors": [
+          "Le marché place Union autour de 2,20, devant Schalke autour de 3,00.",
+          "Union vient de perdre 4-0 contre Leverkusen.",
+          "Schalke a tenu le Bayern à 0-0, ce qui rehausse son scénario de résistance et de contre."
+        ],
+        "uncertainty": "Très élevée : les trois issues restent crédibles et le contexte récent incite à ne pas surpondérer l'avantage domicile.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "SportyTrader — Union Berlin vs Schalke 04 odds",
+            "url": "https://www.sportytrader.com/en/odds/union-berlin-schalke-04-8595845/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Reuters — Bundesliga du 5 septembre 2026",
+            "url": "https://www.reuters.com/sports/soccer/dortmund-elversberg-stage-fine-comebacks-bundesliga-2026-09-05/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Venezia FC",
+      "awayTeam": "Fiorentina",
+      "probabilities": {
+        "home": 33,
+        "draw": 29,
+        "away": 38
+      },
+      "analysis": {
+        "summary": "Fiorentina conserve un léger avantage de qualité et de marché, mais sa défaite récente à domicile contre Torino réduit fortement la confiance et rapproche Venezia.",
+        "keyFactors": [
+          "Les marchés consultés placent Fiorentina favorite, mais avec des probabilités de victoire souvent inférieures à 45 %.",
+          "Fiorentina vient de perdre 2-1 contre Torino et cherche encore sa cohésion.",
+          "Venezia joue à domicile et son prix de marché reste suffisamment court pour signaler un match réellement compétitif."
+        ],
+        "uncertainty": "Très élevée : aucun des trois résultats ne dépasse 40 % dans cette calibration.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "LiveFootAI — Venezia vs Fiorentina",
+            "url": "https://livefootai.com/en/matches/venezia-vs-fiorentina",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Oddschecker — Venezia vs Fiorentina",
+            "url": "https://www.oddschecker.com/football/italy/serie-a/venezia-v-fiorentina/winner",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "Viola Nation — Fiorentina 1-2 Torino",
+            "url": "https://www.violanation.com/fiorentina-match-coverage/22847/fiorentina-1-2-torino-match-report",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "FC Séville",
+      "awayTeam": "CF Valence",
+      "probabilities": {
+        "home": 46,
+        "draw": 30,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Séville est favori à domicile et bénéficie surtout de la mauvaise dynamique de Valence, mais son propre niveau irrégulier maintient une forte composante de nul.",
+        "keyFactors": [
+          "Le marché médian donne Séville autour de 43 % sans marge.",
+          "Valence reste sur une série très négative avec plusieurs lourdes défaites.",
+          "Le marché des buts est orienté vers un match fermé, ce qui augmente mécaniquement le poids du nul."
+        ],
+        "uncertainty": "Élevée : Séville est le choix principal, mais sa propre irrégularité interdit une confiance forte.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "LiveFootAI — Sevilla vs Valencia",
+            "url": "https://livefootai.com/en/matches/sevilla-vs-valencia",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "ODDSLOT — Sevilla vs Valencia",
+            "url": "https://oddslot.com/football/match/la-liga/sevilla/valencia/11-sep-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Rennes",
+      "awayTeam": "Marseille",
+      "probabilities": {
+        "home": 45,
+        "draw": 25,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Rennes est un favori modéré grâce à son début de saison invaincu et au terrain, mais Marseille garde une puissance offensive suffisante pour rester un scénario extérieur sérieux.",
+        "keyFactors": [
+          "Rennes a pris sept points sur neuf, contre trois pour Marseille.",
+          "Le consensus de marché situe Rennes autour de 43-46 % de chances de gagner.",
+          "Marseille reste capable de produire des pics offensifs élevés malgré deux défaites récentes."
+        ],
+        "uncertainty": "Élevée : le différentiel de forme donne l'avantage à Rennes, mais la qualité intrinsèque de Marseille maintient le 2 autour de 30 %.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°75",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "SportMetrics — Rennes vs Marseille preview",
+            "url": "https://sportmetrics.org/blog/rennes-fc-vs-marseille-prediction-september-11-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "LiveFootAI — Rennes vs Marseille",
+            "url": "https://livefootai.com/en/matches/rennes-vs-marseille",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          },
+          {
+            "label": "ODDSLOT — Rennes vs Marseille",
+            "url": "https://oddslot.com/football/match/ligue-1/rennes/marseille/11-sep-2026/",
+            "accessedAt": "2026-09-09T06:00:42+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario 01",
+      "selections": ["1", "1", "1", "1", "1", "2", "2", "2", "1", "2", "1", "1"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t02",
+      "label": "Scénario 02",
+      "selections": ["2", "1", "1", "1", "1", "2", "N", "2", "N", "2", "1", "1"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t03",
+      "label": "Scénario 03",
+      "selections": ["N", "1", "1", "1", "1", "2", "2", "N", "1", "N", "1", "1"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t04",
+      "label": "Scénario 04",
+      "selections": ["1", "1", "1", "N", "1", "N", "N", "2", "2", "2", "N", "2"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t05",
+      "label": "Scénario 05",
+      "selections": ["2", "1", "1", "2", "1", "2", "2", "2", "N", "1", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t06",
+      "label": "Scénario 06",
+      "selections": ["N", "1", "1", "1", "1", "1", "N", "N", "1", "2", "N", "1"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t07",
+      "label": "Scénario 07",
+      "selections": ["1", "1", "1", "2", "1", "N", "2", "2", "2", "N", "1", "N"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t08",
+      "label": "Scénario 08",
+      "selections": ["2", "1", "N", "1", "1", "2", "N", "1", "1", "2", "N", "1"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t09",
+      "label": "Scénario 09",
+      "selections": ["N", "1", "1", "N", "1", "2", "2", "N", "N", "1", "1", "2"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t10",
+      "label": "Scénario 10",
+      "selections": ["1", "N", "1", "1", "1", "2", "1", "2", "2", "2", "N", "N"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t11",
+      "label": "Scénario 11",
+      "selections": ["2", "1", "1", "N", "N", "N", "2", "2", "1", "N", "1", "1"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    },
+    {
+      "id": "t12",
+      "label": "Scénario 12",
+      "selections": ["N", "1", "1", "2", "1", "1", "N", "N", "2", "1", "N", "2"],
+      "rationale": "Portefeuille diversifié couvrant plusieurs issues plausibles sur les rencontres les plus incertaines, tout en conservant les favoris les plus robustes."
+    }
+  ]
+}
