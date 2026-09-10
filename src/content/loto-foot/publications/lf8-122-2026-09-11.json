@@ -1,0 +1,376 @@
+{
+  "id": "lf8-122-2026-09-11",
+  "formula": 8,
+  "gridNumber": 122,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+  "validationDeadline": "2026-09-11T19:55:00+02:00",
+  "publishedAt": "2026-09-10T05:59:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Rennes",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 44,
+        "draw": 27,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Rennes possède un léger avantage à domicile et arrive avec de meilleurs résultats récents, mais Marseille conserve assez de qualité offensive pour maintenir les trois issues crédibles.",
+        "keyFactors": [
+          "Le marché sans marge place Rennes autour de 44 à 46 % et Marseille autour de 30 %.",
+          "Rennes reste invaincu après trois journées de Ligue 1 avec deux victoires.",
+          "Marseille reste sur deux défaites de championnat mais son potentiel offensif empêche de réduire fortement le scénario extérieur."
+        ],
+        "uncertainty": "Élevée : Rennes est favori sans marge de sécurité importante et Marseille peut rebondir.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "Legalbet — Rennes vs Marseille",
+            "url": "https://legalbet.uk/game-center/rennes-marseille-11-09-2026/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          },
+          {
+            "label": "SportMetrics — Rennes vs Marseille",
+            "url": "https://sportmetrics.org/blog/rennes-fc-vs-marseille-prediction-september-11-2026/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Clermont",
+      "awayTeam": "Boulogne",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 40,
+        "draw": 32,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Clermont part légèrement devant à domicile, mais le faible écart de marché et le profil peu prolifique des deux équipes rendent le nul particulièrement important.",
+        "keyFactors": [
+          "Les cotes 1N2 donnent seulement un avantage modéré à Clermont.",
+          "Les deux équipes affichent une forme récente pauvre et peu de buts dans leurs cinq derniers matchs.",
+          "Les modèles consultés convergent vers un match fermé avec une probabilité élevée de moins de 2,5 buts."
+        ],
+        "uncertainty": "Très élevée : les trois issues restent proches et un match fermé augmente le poids du nul.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "BetClan — Clermont Foot vs Boulogne",
+            "url": "https://www.betclan.com/predictionsdetails/football/200116428/clermont-foot-v-boulogne-prediction-h2h-tip-and-match-preview/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          },
+          {
+            "label": "Fixture360 — Clermont Foot vs Boulogne",
+            "url": "https://www.fixture360.com/en/football/france/ligue-2/clermont-foot-vs-boulogne/1552468",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Dijon",
+      "awayTeam": "Laval",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 46,
+        "draw": 28,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "Dijon est le choix le plus probable grâce au terrain et au marché, mais Laval reste suffisamment proche pour imposer une couverture du nul et de quelques scénarios extérieurs.",
+        "keyFactors": [
+          "Le marché situe Dijon autour de 46 à 47 % sans marge.",
+          "Dijon et Laval traversent tous deux une période irrégulière, Laval ayant davantage concédé récemment.",
+          "Les indicateurs de buts et de BTTS suggèrent un match moins fermé que Clermont-Boulogne, donc plus volatil."
+        ],
+        "uncertainty": "Élevée : avantage Dijon réel mais limité, avec une variance offensive importante.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "BetClan — Dijon vs Laval",
+            "url": "https://www.betclan.com/predictionsdetails/football/200116432/dijon-v-laval-prediction-h2h-tip-and-match-preview/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          },
+          {
+            "label": "StatsBet — Dijon vs Laval",
+            "url": "https://statsbet.dk/fodbold/kampe/dijon-vs-laval-2026-09-11",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Montpellier",
+      "awayTeam": "Pau",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 48,
+        "draw": 28,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Montpellier mérite le statut de favori à domicile, mais les modèles divergent sur l'ampleur de cet avantage et gardent le nul comme deuxième scénario majeur.",
+        "keyFactors": [
+          "Les modèles consultés placent Montpellier entre 44 et 55 % selon les hypothèses.",
+          "Montpellier présente un profil défensif solide à domicile et plusieurs scénarios de victoire courte.",
+          "Pau a déjà montré sa capacité à fermer cette confrontation, ce qui maintient le nul à un niveau significatif."
+        ],
+        "uncertainty": "Moyenne à élevée : avantage domicile clair mais pas assez fort pour écarter le nul.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "FullTimeStats — Montpellier vs Pau",
+            "url": "https://fulltimestats.com/match/montpellier-vs-pau-2026-09-11",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          },
+          {
+            "label": "BetClan — Montpellier vs Pau",
+            "url": "https://www.betclan.com/fr/predictionsdetails/football/200116441/montpellier-v-pau-prediction-h2h-conseils-de-paris-et-prevision-du-match/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Nancy",
+      "awayTeam": "Reims",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 28,
+        "draw": 29,
+        "away": 43
+      },
+      "analysis": {
+        "summary": "Reims possède l'avantage de forme et d'historique, mais le déplacement à Nancy maintient une probabilité de nul presque aussi importante que celle d'une victoire locale.",
+        "keyFactors": [
+          "Reims est mieux classé après cinq journées et les modèles le donnent favori autour de 41 à 50 %.",
+          "L'historique récent de la confrontation est favorable à Reims.",
+          "Nancy reste suffisamment compétitif en début de saison pour rendre le nul et le 1 crédibles."
+        ],
+        "uncertainty": "Élevée : Reims est favori mais pas dominant, et le nul doit être fortement couvert.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "BetClan — Nancy vs Reims",
+            "url": "https://www.betclan.com/fr/predictionsdetails/football/200116448/nancy-v-reims-prediction-h2h-conseils-de-paris-et-prevision-du-match/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          },
+          {
+            "label": "Betiball — Nancy vs Reims",
+            "url": "https://www.betiball.com/football-predictions/nancy-vs-reims-322779928",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Rodez",
+      "awayTeam": "Grenoble",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 54,
+        "draw": 28,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Rodez est le favori le plus net parmi les matchs de Ligue 2 de cette grille, mais le nul reste un scénario de couverture pertinent avant une victoire de Grenoble.",
+        "keyFactors": [
+          "Les cotes disponibles donnent à Rodez un avantage proche de 55 % sans marge.",
+          "Grenoble est nettement plus long au marché, autour de 5.00, ce qui confirme l'écart de niveau attendu.",
+          "La projection d'un match avec des buts conserve une part de variance et empêche de surpondérer le 1."
+        ],
+        "uncertainty": "Moyenne : Rodez est clairement devant mais le nul demeure plausible.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "BetClan — Rodez vs Grenoble",
+            "url": "https://www.betclan.com/predictionsdetails/football/200116450/rodez-v-grenoble-prediction-h2h-tip-and-match-preview/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Venezia FC",
+      "awayTeam": "Fiorentina",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 32,
+        "draw": 30,
+        "away": 38
+      },
+      "analysis": {
+        "summary": "Fiorentina reste un léger favori de marché, mais sa mauvaise dynamique récente réduit nettement la confiance et rapproche le nul et la victoire de Venezia.",
+        "keyFactors": [
+          "Le consensus de marché donne environ 41 % à Fiorentina, 32 % à Venezia et 28 % au nul.",
+          "Fiorentina vient de perdre 2-1 à domicile contre Torino et son jeu manque encore de cohésion.",
+          "Le déplacement et la forme actuelle justifient de renforcer légèrement le nul par rapport au marché brut."
+        ],
+        "uncertainty": "Très élevée : aucune issue ne dépasse 40 % après ajustement de forme.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "LiveFootAI — Venezia vs Fiorentina",
+            "url": "https://livefootai.com/en/matches/venezia-vs-fiorentina",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          },
+          {
+            "label": "Viola Nation — Fiorentina 1-2 Torino",
+            "url": "https://www.violanation.com/fiorentina-match-coverage/22847/fiorentina-1-2-torino-match-report",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "FC Séville",
+      "awayTeam": "CF Valence",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 45,
+        "draw": 31,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Séville est favori à domicile face à un Valence en grande difficulté, mais les absences défensives sévillanes et un marché du nul élevé empêchent d'en faire un choix sûr.",
+        "keyFactors": [
+          "Le marché agrégé place Séville autour de 43 % et le nul autour de 30 %.",
+          "Valence reste sans victoire et a lourdement perdu contre Barcelone, avec une production offensive faible.",
+          "Séville doit recomposer sa défense avec Sanganté suspendu et blessé, tandis que d'autres défenseurs restent indisponibles ou en reprise."
+        ],
+        "uncertainty": "Élevée : avantage Séville, mais les problèmes défensifs locaux renforcent le nul et la variance.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°122",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/819",
+            "accessedAt": "2026-09-10T05:58:38+02:00"
+          },
+          {
+            "label": "LiveFootAI — Sevilla vs Valencia",
+            "url": "https://livefootai.com/en/matches/sevilla-vs-valencia",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          },
+          {
+            "label": "AS — Sanganté blessé avant Sevilla-Valencia",
+            "url": "https://as.com/futbol/sangante-para-colmo-se-lesiono-contra-el-espanyol-f202609-n/",
+            "accessedAt": "2026-09-10T05:58:53+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": ["1", "1", "1", "1", "2", "1", "2", "1"],
+      "rationale": "Suit les favoris de chaque rencontre tout en gardant Reims et Fiorentina à l'extérieur."
+    },
+    {
+      "id": "t2",
+      "label": "Nuls structurants",
+      "selections": ["N", "N", "1", "1", "2", "1", "N", "N"],
+      "rationale": "Couvre quatre nuls plausibles sur les rencontres où les écarts de probabilités sont faibles."
+    },
+    {
+      "id": "t3",
+      "label": "Rebond marseillais",
+      "selections": ["2", "1", "N", "N", "2", "1", "2", "1"],
+      "rationale": "Couvre une victoire de Marseille avec deux nuls de Ligue 2 sans abandonner les favoris les plus solides."
+    },
+    {
+      "id": "t4",
+      "label": "Ligue 2 indécise",
+      "selections": ["1", "N", "N", "N", "2", "1", "2", "N"],
+      "rationale": "Concentre la couverture sur les trois matchs de Ligue 2 les plus serrés et ajoute le nul à Séville."
+    },
+    {
+      "id": "t5",
+      "label": "Nancy résiste",
+      "selections": ["2", "1", "1", "1", "N", "1", "N", "1"],
+      "rationale": "Associe le scénario d'un rebond marseillais à un nul Nancy-Reims et Venezia-Fiorentina."
+    },
+    {
+      "id": "t6",
+      "label": "Outsiders de Ligue 2",
+      "selections": ["1", "2", "2", "1", "2", "N", "1", "1"],
+      "rationale": "Couvre Boulogne et Laval dans un scénario de surprises, avec un nul à Rodez pour diversifier fortement le portefeuille."
+    },
+    {
+      "id": "t7",
+      "label": "Portefeuille nul",
+      "selections": ["N", "1", "1", "N", "N", "1", "2", "N"],
+      "rationale": "Renforce la couverture historique insuffisante des nuls uniquement sur des rencontres objectivement équilibrées."
+    },
+    {
+      "id": "t8",
+      "label": "Favoris prudents",
+      "selections": ["1", "N", "1", "1", "2", "N", "2", "1"],
+      "rationale": "Conserve les favoris principaux mais couvre Clermont-Boulogne et Rodez-Grenoble par le nul."
+    },
+    {
+      "id": "t9",
+      "label": "Venezia surprend",
+      "selections": ["N", "1", "N", "1", "2", "1", "1", "1"],
+      "rationale": "Couvre une victoire de Venezia avec deux autres matchs à forte incertitude basculés vers le nul."
+    },
+    {
+      "id": "t10",
+      "label": "Soirée serrée",
+      "selections": ["1", "1", "1", "N", "2", "N", "N", "1"],
+      "rationale": "Couvre une série de matchs fermés avec des nuls à Montpellier, Rodez et Venezia."
+    },
+    {
+      "id": "t11",
+      "label": "Marseille et nul sévillan",
+      "selections": ["2", "N", "1", "1", "2", "1", "2", "N"],
+      "rationale": "Scénario alternatif cohérent combinant victoire marseillaise, nul à Clermont et nul à Séville."
+    },
+    {
+      "id": "t12",
+      "label": "Nancy accroche Reims",
+      "selections": ["1", "1", "N", "1", "N", "1", "2", "1"],
+      "rationale": "Ajoute une couverture spécifique des nuls Dijon-Laval et Nancy-Reims autour d'une ossature de favoris."
+    }
+  ]
+}
