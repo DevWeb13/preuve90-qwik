@@ -1,0 +1,413 @@
+{
+  "id": "lf8-123-2026-09-12",
+  "formula": 8,
+  "gridNumber": 123,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+  "validationDeadline": "2026-09-12T17:10:00+02:00",
+  "publishedAt": "2026-09-12T01:57:40+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 36,
+        "draw": 28,
+        "away": 36
+      },
+      "analysis": {
+        "summary": "Affiche très équilibrée entre deux équipes invaincues en championnat : Paris FC arrive avec une forte dynamique offensive, tandis que Lyon présente davantage de stabilité défensive.",
+        "keyFactors": [
+          "Le marché agrégé place Lyon de très peu devant Paris FC, autour de 38 % contre 36 %, avec un nul proche de 27 %.",
+          "Paris FC reste sur des victoires marquantes contre Nice puis Marseille, avec Lassine Sinayoko en grande forme.",
+          "Lyon est également invaincu en Ligue 1 et n'a concédé que deux buts lors de ses trois premières journées."
+        ],
+        "uncertainty": "Très élevée : aucun résultat ne se détache nettement et la forme récente des deux équipes justifie une répartition presque symétrique.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "LiveFootAI — Paris FC vs Lyon",
+            "url": "https://livefootai.com/en/matches/paris-fc-vs-lyon",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Forebet — Paris FC vs Lyon",
+            "url": "https://www.forebet.com/en/football-match-previews/30498-paris-fc-face-lyon-test-amid-impressive-early-season-form",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "FotMob — Paris FC vs Lyon",
+            "url": "https://www.fotmob.com/matches/paris-fc-vs-lyon/25flas",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lorient",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 40,
+        "draw": 31,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Lorient reçoit avec une dynamique légèrement supérieure et une défense plus solide, mais l'historique récent de la confrontation et l'équilibre du marché rendent le nul très important.",
+        "keyFactors": [
+          "Le consensus de marché est serré, avec Lorient autour de 37 %, Toulouse autour de 34 % et le nul autour de 29 %.",
+          "Lorient vient de gagner à Lens et n'a concédé que deux buts en trois journées.",
+          "Toulouse est encore sans victoire en championnat et pourrait être privé de Guillaume Restes, mais reste historiquement difficile à battre pour Lorient."
+        ],
+        "uncertainty": "Très élevée : l'avantage de Lorient est modeste et le nul bénéficie à la fois du profil de score attendu et de l'historique de la confrontation.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Legalbet — Lorient vs Toulouse",
+            "url": "https://legalbet.com/game-center/lorient-toulouse-12-09-2026/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "FotMob — Lorient vs Toulouse",
+            "url": "https://www.fotmob.com/matches/lorient-vs-toulouse/2vbxze",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Reuters — Lens 0-1 Lorient",
+            "url": "https://www.reuters.com/sports/soccer/fans-jeer-lens-suffer-surprise-home-defeat-lorient-2026-09-05/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 41,
+        "draw": 32,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Le Havre est favori à domicile selon le marché, mais son début de saison sans victoire et le profil peu prolifique de l'affiche renforcent nettement le scénario nul.",
+        "keyFactors": [
+          "Les cotes sans marge placent Le Havre autour de 43 %, devant le nul et Angers proches de 29 % chacun.",
+          "Le Havre n'a pas encore gagné en Ligue 1 cette saison et reste sur une défaite 2-1 contre Brest.",
+          "Le marché penche vers moins de 2,5 buts, configuration qui augmente le poids des scénarios serrés et du nul."
+        ],
+        "uncertainty": "Élevée : l'avantage du terrain est réel mais fragile, et Angers reste assez proche pour empêcher une forte concentration sur le 1.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Legalbet — Le Havre vs Angers",
+            "url": "https://legalbet.uk/game-center/le-havre-angers-12-09-2026/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "LiveFootAI — Le Havre vs Angers",
+            "url": "https://livefootai.com/en/matches/le-havre-vs-angers",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Football Whispers — Le Havre vs Angers",
+            "url": "https://footballwhispers.com/blog/le-havre-vs-angers-prediction-12-09-2026/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 40,
+        "draw": 32,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Auxerre reçoit un Nice en crise offensive et obtient un léger avantage, mais son propre départ sans point interdit d'en faire un favori solide et maintient le nul très haut.",
+        "keyFactors": [
+          "Le marché agrégé place Auxerre autour de 37 %, Nice autour de 34 % et le nul près de 29 %.",
+          "Nice n'a toujours pas marqué en championnat et reste pénalisé par plusieurs absences importantes.",
+          "Auxerre a lui aussi très mal démarré, ce qui limite la confiance malgré l'avantage du terrain."
+        ],
+        "uncertainty": "Très élevée : la faiblesse offensive de Nice favorise Auxerre et le nul, mais le mauvais début de saison auxerrois empêche toute certitude.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "LiveFootAI — Auxerre vs Nice",
+            "url": "https://livefootai.com/en/matches/auxerre-vs-nice",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "The Football Faithful — Auxerre vs Nice",
+            "url": "https://thefootballfaithful.com/auxerre-vs-nice-prediction-betting-tips-12-09-2026/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 28,
+        "draw": 25,
+        "away": 47
+      },
+      "analysis": {
+        "summary": "Monaco est le favori le plus net de la partie française de la grille grâce à son départ parfait, mais Strasbourg marque beaucoup et conserve une vraie capacité de surprise à domicile.",
+        "keyFactors": [
+          "Les bookmakers placent Monaco favori autour de 2,15-2,27, devant Strasbourg proche de 3,10 et le nul autour de 3,75.",
+          "Monaco a remporté ses trois premières journées et vient de gagner au Parc des Princes.",
+          "Strasbourg reste sur deux victoires et huit buts inscrits sur ces deux matchs, mais sa défense demeure vulnérable."
+        ],
+        "uncertainty": "Moyenne à élevée : Monaco possède un avantage clair, mais la puissance offensive récente de Strasbourg impose de conserver des scénarios alternatifs.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Legalbet — Strasbourg vs Monaco",
+            "url": "https://legalbet.com/game-center/strasbourg-monaco-12-09-2026/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Forebet — Strasbourg vs Monaco",
+            "url": "https://www.forebet.com/en/football-match-previews/30497-strasbourg-seek-home-edge-as-monaco-look-to-extend-strong-start",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Sunderland",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League",
+      "startsAt": "2026-09-12T21:00:00+02:00",
+      "probabilities": {
+        "home": 14,
+        "draw": 22,
+        "away": 64
+      },
+      "analysis": {
+        "summary": "Arsenal est un favori marqué après un début parfait en championnat et une victoire européenne à Naples, même si Sunderland a montré qu'il pouvait être très compétitif à domicile.",
+        "keyFactors": [
+          "Le marché place Arsenal autour de 64 à 66 % de chances de gagner, très loin devant Sunderland.",
+          "Arsenal a remporté ses trois premières journées de Premier League et vient de s'imposer 1-0 à Naples en Ligue des champions.",
+          "Sunderland reste sur un nul à Brentford et une victoire en coupe, et avait accroché Arsenal à domicile la saison passée."
+        ],
+        "uncertainty": "Moyenne : Arsenal domine nettement les indicateurs, mais l'enchaînement européen et la solidité récente de Sunderland rendent le nul non négligeable.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Legalbet — Sunderland vs Arsenal",
+            "url": "https://legalbet.uk/game-center/sunderland-arsenal-12-09-2026/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Reuters — Arsenal avant Sunderland",
+            "url": "https://www.reuters.com/sports/soccer/no-excuses-no-surprises-artetas-arsenal-prepare-anything-2026-09-11/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "AS — Sunderland vs Arsenal",
+            "url": "https://as.com/futbol/internacional/sunderland-arsenal-tv-horario-como-y-donde-ver-hoy-la-premier-league-online-f202609-n/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Tottenham",
+      "awayTeam": "Everton",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 40,
+        "draw": 30,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Tottenham garde un léger avantage de marché et un historique très favorable à domicile contre Everton, mais son début de saison sans but et plusieurs incertitudes physiques réduisent fortement la confiance.",
+        "keyFactors": [
+          "Le marché sans marge situe Tottenham autour de 47 %, Everton et le nul autour de 26 % chacun.",
+          "Tottenham n'a marqué aucun but lors de ses trois premières journées et sa pénurie offensive reste un problème majeur.",
+          "Everton arrive invaincu, tandis que Pedro Porro et Destiny Udogie sont incertains côté Tottenham."
+        ],
+        "uncertainty": "Très élevée : le marché favorise Tottenham mais la dynamique actuelle rapproche fortement le nul et Everton.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Legalbet — Tottenham vs Everton",
+            "url": "https://legalbet.uk/game-center/tottenham-hotspur-everton-12-09-2026/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Reuters — Tottenham, pénurie offensive",
+            "url": "https://www.reuters.com/sports/soccer/tottenhams-striker-shortage-exposed-goalless-draw-forest-2026-09-05/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "Cartilage Free Captain — Tottenham team news",
+            "url": "https://cartilagefreecaptain.sbnation.com/tottenham-hotspur-news/73723/tottenham-hotspur-injury-news-pedro-porro-destiny-udogie-doubts",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Lazio Rome",
+      "awayTeam": "Milan AC",
+      "competition": "Serie A",
+      "startsAt": "2026-09-12T18:00:00+02:00",
+      "probabilities": {
+        "home": 31,
+        "draw": 31,
+        "away": 38
+      },
+      "analysis": {
+        "summary": "Milan est légèrement favori au marché, mais les deux équipes sont invaincues et le profil attendu peu prolifique maintient Lazio et nul très proches.",
+        "keyFactors": [
+          "Le marché agrégé donne environ 41 % à Milan, 30 % au nul et 29 % à la Lazio.",
+          "Les deux équipes sont encore invaincues en Serie A au moment de cette analyse.",
+          "Milan a produit très peu offensivement lors de son nul contre la Juventus, ce qui réduit l'écart avec la Lazio et renforce le nul."
+        ],
+        "uncertainty": "Très élevée : avantage Milan limité, match annoncé serré et faible marge entre les trois scénarios.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF8 n°123",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/820",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "LiveFootAI — Lazio vs AC Milan",
+            "url": "https://livefootai.com/en/matches/lazio-vs-ac-milan",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "AS — Lazio vs Milan",
+            "url": "https://as.com/futbol/internacional/lazio-milan-tv-horario-como-y-donde-ver-hoy-la-serie-a-online-f202609-n/",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          },
+          {
+            "label": "The Guardian — Serie A hierarchy",
+            "url": "https://www.theguardian.com/football/2026/sep/07/inter-napoli-juventus-milan-serie-a-hierarchy",
+            "accessedAt": "2026-09-12T01:57:35+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "central",
+      "label": "Scénario central",
+      "selections": ["N", "1", "1", "1", "2", "2", "1", "2"],
+      "rationale": "Base équilibrée : priorité aux favoris modérés et aux deux favoris les plus nets, avec le nul sur Paris FC-Lyon."
+    },
+    {
+      "id": "nuls-france",
+      "label": "Nuls de Ligue 1",
+      "selections": ["N", "N", "N", "N", "2", "2", "1", "2"],
+      "rationale": "Couvre une soirée française plus fermée que le scénario central, en particulier les quatre matchs les plus équilibrés."
+    },
+    {
+      "id": "lyon-toulouse",
+      "label": "Visiteurs compétitifs",
+      "selections": ["2", "2", "1", "N", "2", "2", "1", "N"],
+      "rationale": "Scénario où Lyon et Toulouse convertissent leur potentiel extérieur, avec deux nuls sur les affiches les plus serrées."
+    },
+    {
+      "id": "paris-auxerre",
+      "label": "Avantage domicile français",
+      "selections": ["1", "1", "N", "1", "2", "2", "N", "2"],
+      "rationale": "Renforce Paris FC et Auxerre à domicile tout en couvrant les nuls de Le Havre et Tottenham."
+    },
+    {
+      "id": "nice-surprise",
+      "label": "Surprise niçoise",
+      "selections": ["N", "1", "1", "2", "2", "2", "1", "N"],
+      "rationale": "Isole une victoire de Nice malgré sa mauvaise dynamique, compensée par des choix plus conservateurs sur les autres matchs."
+    },
+    {
+      "id": "strasbourg-coup",
+      "label": "Coup Strasbourg",
+      "selections": ["2", "N", "1", "1", "1", "2", "N", "2"],
+      "rationale": "Couvre une surprise de Strasbourg face à Monaco et renforce simultanément plusieurs scénarios de nul."
+    },
+    {
+      "id": "sunderland-resiste",
+      "label": "Sunderland résiste",
+      "selections": ["1", "1", "N", "N", "2", "N", "1", "2"],
+      "rationale": "Couvre le principal accident potentiel parmi les gros favoris avec un nul Sunderland-Arsenal, sans multiplier les autres outsiders."
+    },
+    {
+      "id": "everton",
+      "label": "Everton opportuniste",
+      "selections": ["N", "N", "1", "1", "2", "2", "2", "N"],
+      "rationale": "Couvre la victoire d'Everton face à un Tottenham en difficulté offensive et un nul dans le choc Lazio-Milan."
+    },
+    {
+      "id": "lazio",
+      "label": "Lazio à domicile",
+      "selections": ["2", "1", "N", "1", "N", "2", "1", "1"],
+      "rationale": "Couvre une victoire de la Lazio et un nul Strasbourg-Monaco, avec des choix centraux ailleurs."
+    },
+    {
+      "id": "outsiders-mesures",
+      "label": "Outsiders mesurés",
+      "selections": ["1", "2", "2", "N", "2", "2", "N", "2"],
+      "rationale": "Ajoute Toulouse et Angers comme surprises plausibles sans cumuler les gros outsiders."
+    },
+    {
+      "id": "double-nul-anglais",
+      "label": "Nuls anglais",
+      "selections": ["N", "1", "1", "N", "2", "N", "N", "2"],
+      "rationale": "Couvre simultanément Sunderland-Arsenal et Tottenham-Everton par le nul, scénario cohérent avec fatigue européenne et difficultés offensives."
+    },
+    {
+      "id": "variance-max",
+      "label": "Variance contrôlée",
+      "selections": ["1", "N", "2", "2", "1", "2", "2", "N"],
+      "rationale": "Portefeuille de variance : plusieurs issues minoritaires mais plausibles, réparties sur les rencontres les plus incertaines."
+    }
+  ]
+}
