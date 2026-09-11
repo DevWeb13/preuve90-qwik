@@ -1,0 +1,542 @@
+{
+  "id": "lf12-76-2026-09-13",
+  "formula": 12,
+  "gridNumber": 76,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-13T14:55:00+02:00",
+  "publishedAt": "2026-09-11T05:59:58+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Brest",
+      "awayTeam": "Paris SG",
+      "probabilities": {
+        "home": 12,
+        "draw": 16,
+        "away": 72
+      },
+      "analysis": {
+        "summary": "Paris SG reste un favori très net malgré une forme domestique moins souveraine qu'attendu. Brest a montré de la résistance en ce début de saison, ce qui maintient le nul comme scénario secondaire.",
+        "keyFactors": [
+          "Le marché 1N2 agrégé place le PSG autour de trois chances sur quatre de gagner.",
+          "Brest reste sur une victoire au Havre et deux nuls en Ligue 1, donc son niveau récent n'est pas celui d'un outsider sans arguments.",
+          "Le PSG a récemment perdu contre Monaco, ce qui réduit légèrement la confiance par rapport au seul signal de marché."
+        ],
+        "uncertainty": "Modérée : l'écart de qualité reste important, mais la forme récente du PSG augmente le risque de nul.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Brest vs PSG",
+            "url": "https://www.oddschecker.com/football/france/ligue-1/brest-v-psg/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "FotMob — Brest vs Paris Saint-Germain",
+            "url": "https://www.fotmob.com/en-GB/matches/paris-saint-germain-brest/2sg21j",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lens",
+      "probabilities": {
+        "home": 20,
+        "draw": 24,
+        "away": 56
+      },
+      "analysis": {
+        "summary": "Lens reste favori grâce à un effectif supérieur et au consensus du marché, mais ses deux défaites récentes et plusieurs absences défensives empêchent d'en faire un choix totalement sûr.",
+        "keyFactors": [
+          "Les cotes disponibles donnent Lens nettement favori à l'extérieur.",
+          "Lens reste sur des défaites contre Lorient et Strasbourg après une série plus positive.",
+          "La liste d'absents côté Lens est significative, tandis que Le Mans a récemment accroché Nice et Brest."
+        ],
+        "uncertainty": "Élevée : Lens a l'avantage structurel, mais la dynamique récente et les absences augmentent fortement la variance.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Le Mans vs Lens",
+            "url": "https://www.oddschecker.com/football/france/ligue-1/le-mans-v-lens/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "FotMob — Le Mans vs Lens",
+            "url": "https://www.fotmob.com/nl/matches/lens-vs-le-mans/2gso2f",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lille",
+      "awayTeam": "Troyes",
+      "probabilities": {
+        "home": 66,
+        "draw": 20,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Lille est un favori clair à domicile. Son début de championnat est solide et le marché converge autour de deux chances sur trois, tandis que Troyes vient de concéder six buts à Strasbourg.",
+        "keyFactors": [
+          "Lille compte deux victoires et un nul sur ses trois premières journées de Ligue 1.",
+          "Le marché 1N2 donne Lille très nettement devant Troyes.",
+          "Troyes a montré qu'il pouvait gagner à l'extérieur mais sa lourde défaite 2-6 contre Strasbourg révèle une forte fragilité défensive."
+        ],
+        "uncertainty": "Modérée : Lille domine les signaux, mais sa défaite européenne récente et la capacité de Troyes à contre-attaquer gardent un risque résiduel.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Lille vs Troyes",
+            "url": "https://www.oddschecker.com/football/france/ligue-1/lille-v-troyes/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "FotMob — Lille vs Troyes",
+            "url": "https://www.fotmob.com/en-GB/matches/lille-vs-troyes/2y4ti8",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Levante",
+      "awayTeam": "FC Barcelone",
+      "probabilities": {
+        "home": 10,
+        "draw": 16,
+        "away": 74
+      },
+      "analysis": {
+        "summary": "Barcelone est très nettement favori. Le marché lui attribue environ trois chances sur quatre et le retour attendu d'Eric Garcia renforce les options défensives.",
+        "keyFactors": [
+          "Les cotes agrégées donnent Barcelone autour de 76 %.",
+          "L'écart de qualité individuelle et de profondeur d'effectif est important.",
+          "Eric Garcia a repris l'entraînement et est annoncé disponible pour ce rendez-vous après sa suspension européenne."
+        ],
+        "uncertainty": "Faible à modérée : le déplacement et la rotation peuvent créer de la variance, mais le 2 reste de loin le scénario central.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Levante vs Barcelona",
+            "url": "https://www.oddschecker.com/football/spain/la-liga-primera/levante-v-barcelona/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Barça Blaugranes — Eric Garcia avant Levante",
+            "url": "https://www.barcablaugranes.com/barcelona-team-news/131760/eric-garcia-mask-levante",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Atlético Madrid",
+      "probabilities": {
+        "home": 35,
+        "draw": 30,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Confrontation extrêmement ouverte. Le marché donne un léger avantage à l'Atlético, mais la bonne dynamique récente de la Real et plusieurs indisponibilités importantes côté madrilène ramènent le match pratiquement à l'équilibre.",
+        "keyFactors": [
+          "Le marché 1N2 place l'Atlético légèrement devant, sans avantage dominant.",
+          "La Real reste sur une victoire 3-2 à Elche et dispose d'un groupe presque complet.",
+          "L'Atlético sort d'une lourde défaite à Bilbao et plusieurs joueurs majeurs sont annoncés absents ou incertains."
+        ],
+        "uncertainty": "Très forte : aucun des trois résultats ne peut être écarté et les informations d'effectif font évoluer l'équilibre du marché.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Real Sociedad vs Atletico Madrid",
+            "url": "https://www.oddschecker.com/football/spain/la-liga-primera/real-sociedad-v-atletico-madrid/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "AS — état de l'effectif de la Real Sociedad",
+            "url": "https://as.com/futbol/primera/la-convocatoria-se-encarece-en-la-real-sociedad-f202609-n/",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Matchday Briefing — Real Sociedad vs Atletico Madrid",
+            "url": "https://matchdaybriefing.com/spain-la-liga/real-sociedad-vs-atletico-madrid-2026-09-13-1570380",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Naples",
+      "awayTeam": "Bologne",
+      "probabilities": {
+        "home": 48,
+        "draw": 29,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Naples garde un avantage à domicile, mais ses deux défaites récentes et plusieurs absences majeures réduisent nettement la confiance. Bologne traverse lui aussi une période difficile, ce qui maintient Naples devant.",
+        "keyFactors": [
+          "Le marché donne Naples favori autour de 50 %.",
+          "Naples sera notamment privé de Scott McTominay et compte plusieurs autres absences.",
+          "Bologne reste sur un nul et deux défaites en Serie A, sans signal récent suffisant pour renverser l'avantage du terrain."
+        ],
+        "uncertainty": "Élevée : les deux équipes ont des absences et une forme récente imparfaite, ce qui augmente le poids du nul.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Napoli vs Bologna",
+            "url": "https://www.oddschecker.com/football/italy/serie-a/napoli-v-bologna/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "FotMob — Napoli vs Bologna",
+            "url": "https://www.fotmob.com/en-GB/matches/napoli-vs-bologna/37x04l",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "The Scottish Sun — indisponibilité de Scott McTominay",
+            "url": "https://www.thescottishsun.co.uk/sport/16787806/major-update-scott-mctominay-return-heart-surgery-napoli-contract/",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Manchester United",
+      "awayTeam": "Manchester City",
+      "probabilities": {
+        "home": 30,
+        "draw": 25,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "Manchester City reste favori dans le derby, mais United arrive avec un regain offensif après son 4-0 européen. Le calendrier donne toutefois deux jours de récupération supplémentaires à City.",
+        "keyFactors": [
+          "Le marché donne Manchester City favori à Old Trafford, sans écart écrasant.",
+          "United vient de battre Sabah 4-0 et Benjamin Sesko retrouve du rythme et des buts.",
+          "City a gagné ses trois premiers matchs de championnat et bénéficie d'une récupération plus longue avant le derby."
+        ],
+        "uncertainty": "Très élevée : derby à forte variance, avec un United offensivement en progrès mais encore fragile défensivement.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — marchés Premier League du 13 septembre",
+            "url": "https://www.oddschecker.com/football/european-elite",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Reuters — retour en forme de Benjamin Sesko",
+            "url": "https://www.reuters.com/sports/soccer/man-uniteds-carrick-pleased-with-seskos-return-form-ahead-city-derby-2026-09-11/",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "The Guardian — Manchester City 1-0 Coventry",
+            "url": "https://www.theguardian.com/football/live/2026/sep/05/premier-league-manchester-city-coventry-nottingham-forest-v-tottenham-efl-clockwatch-live",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Coventry",
+      "awayTeam": "Brighton Hove",
+      "probabilities": {
+        "home": 25,
+        "draw": 28,
+        "away": 47
+      },
+      "analysis": {
+        "summary": "Brighton est favori, mais ses nombreuses absences et la résistance montrée par Coventry contre Manchester City maintiennent une forte probabilité de nul.",
+        "keyFactors": [
+          "Le marché agrégé place Brighton autour de 50 %.",
+          "Coventry n'a perdu que 1-0 à Manchester City lors de sa dernière sortie de championnat.",
+          "Brighton doit composer avec plusieurs blessures, notamment Mats Wieffer et plusieurs joueurs offensifs ou de rotation."
+        ],
+        "uncertainty": "Élevée : Brighton a davantage de qualité, mais les absences et le terrain rendent le 1 et surtout le nul crédibles.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Sports Pundit — Coventry vs Brighton",
+            "url": "https://sportspundit.com/soccer/matches/brighton-vs-coventry/",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "FotMob — Coventry vs Brighton",
+            "url": "https://www.fotmob.com/matches/coventry-city-vs-brighton-hove-albion/2y1l02",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Hambourg",
+      "probabilities": {
+        "home": 70,
+        "draw": 19,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "Leipzig est l'un des favoris les plus nets de la grille. Le marché, la forme à domicile et les difficultés défensives récentes de Hambourg convergent vers le 1.",
+        "keyFactors": [
+          "Les cotes disponibles situent Leipzig autour de 70 % de chances de victoire.",
+          "Hambourg reste sur une lourde défaite 0-5 contre Mayence.",
+          "Hambourg cumule plusieurs problèmes défensifs et des incertitudes d'effectif avant le déplacement."
+        ],
+        "uncertainty": "Faible à modérée : Leipzig est clairement supérieur, mais ses propres absences empêchent de monter la confiance au-delà d'un favori fort.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "StatMuse — Leipzig vs Hamburg",
+            "url": "https://www.statmuse.com/fc/match/-113168",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "BILD — problèmes défensifs du HSV avant Leipzig",
+            "url": "https://www.bild.de/sport/fussball/hsv-abwehr-alarm-jetzt-wackelt-auch-der-boss-6aa12c3f639d45f0a23cf266",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Getafe",
+      "awayTeam": "La Corogne",
+      "probabilities": {
+        "home": 37,
+        "draw": 34,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Getafe conserve un léger avantage à domicile, mais la forme de Deportivo La Corogne et le profil très fermé attendu rendent le nul presque aussi probable que le 1.",
+        "keyFactors": [
+          "Le marché moyen donne un léger avantage à Getafe, avec un nul très fortement coté dans la hiérarchie des scénarios.",
+          "Getafe n'a gagné qu'un de ses quatre premiers matchs de Liga et n'a marqué que deux buts.",
+          "Deportivo reste invaincu en championnat et vient de gagner 3-2 à Villarreal, malgré des absences et une suspension."
+        ],
+        "uncertainty": "Très élevée : match serré et potentiellement pauvre en buts, où un détail peut faire basculer les trois issues.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "OddsDirekt — Getafe vs Deportivo La Coruña",
+            "url": "https://oddsdirekt.se/fotboll/la-liga/getafe-vs-deportivo-la-coruna-2026-09-13",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Sky Sports — Getafe vs Deportivo La Coruna, forme",
+            "url": "https://www.skysports.com/football/getafe-vs-deportivo-la-coruna/562966",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "LineupsToday — Getafe vs Deportivo La Coruna, absences",
+            "url": "https://lineupstoday.com/laliga/getafe-deportivo-la-coruna-13-09-2026/",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Lecce",
+      "awayTeam": "AC Monza",
+      "probabilities": {
+        "home": 39,
+        "draw": 31,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Lecce possède un très léger avantage grâce au terrain et à un historique favorable, mais le marché est compact et Monza reste suffisamment proche pour imposer une couverture des trois scénarios.",
+        "keyFactors": [
+          "Les cotes 1N2 sont très resserrées entre Lecce, le nul et Monza.",
+          "Monza compte davantage d'absents importants, notamment Pessina et plusieurs options offensives.",
+          "Lecce a historiquement bien résisté à Monza, mais sa forme récente reste irrégulière."
+        ],
+        "uncertainty": "Très forte : l'écart entre les trois issues est faible et la composition finale de Monza peut déplacer sensiblement les probabilités.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Lecce vs Monza",
+            "url": "https://www.oddschecker.com/football/italy/serie-a/lecce-v-monza/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Forebet — Lecce vs Monza preview",
+            "url": "https://www.forebet.com/it/football-match-previews/30481-monza-seek-first-league-victory-as-lecce-try-to-steady-home-form",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Juventus Turin",
+      "probabilities": {
+        "home": 18,
+        "draw": 24,
+        "away": 58
+      },
+      "analysis": {
+        "summary": "La Juventus reste nettement favorite, même si sa liste de blessés réduit la marge de sécurité. Sassuolo a assez de qualité offensive pour rendre le nul plus plausible qu'un simple écart de niveau ne le suggère.",
+        "keyFactors": [
+          "Le consensus des cotes donne la Juventus autour de 60 %.",
+          "La Juventus compte plusieurs absences importantes, dont Locatelli et Boga.",
+          "Sassuolo a récemment obtenu un nul 2-2 à Bologne et conserve des joueurs capables de punir une défense remaniée."
+        ],
+        "uncertainty": "Modérée à élevée : le 2 domine, mais l'accumulation de blessures turinoises justifie une couverture ponctuelle du nul.",
+        "sources": [
+          {
+            "label": "FDJ Parions Sport — LF12 n°76",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Oddschecker — Sassuolo vs Juventus",
+            "url": "https://www.oddschecker.com/football/italy/serie-a/sassuolo-v-juventus/winner",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Sports Pundit — Sassuolo vs Juventus",
+            "url": "https://sportspundit.com/soccer/matches/juve-vs-sassuolo/",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          },
+          {
+            "label": "Black & White & Read All Over — blessure de Jérémie Boga",
+            "url": "https://www.blackwhitereadallover.com/team-news/41336/official-jeremie-boga-injury-juventus-2026-serie-a-europa-league-team-news",
+            "accessedAt": "2026-09-11T05:58:28+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": ["2", "2", "1", "2", "N", "1", "2", "2", "1", "1", "1", "2"],
+      "rationale": "Socle des favoris les plus solides, avec le nul sur Sociedad-Atlético et les avantages domicile de Naples, Getafe et Lecce."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls structurants",
+      "selections": ["2", "2", "1", "2", "1", "N", "2", "N", "1", "N", "N", "2"],
+      "rationale": "Renforce les nuls sur les matchs les plus resserrés tout en conservant les cinq favoris principaux."
+    },
+    {
+      "id": "t03",
+      "label": "Lens prudent",
+      "selections": ["2", "N", "1", "2", "N", "1", "1", "2", "1", "1", "N", "2"],
+      "rationale": "Couvre un accroc de Lens, une victoire de United dans le derby et un nul à Lecce sans toucher aux favoris très nets."
+    },
+    {
+      "id": "t04",
+      "label": "Atlético et nuls",
+      "selections": ["N", "2", "1", "2", "2", "N", "2", "2", "1", "N", "1", "2"],
+      "rationale": "Associe un nul de Brest, un succès de l'Atlético et deux nuls plausibles à Naples et Getafe."
+    },
+    {
+      "id": "t05",
+      "label": "Outsiders ciblés",
+      "selections": ["2", "1", "1", "2", "1", "1", "N", "N", "1", "2", "N", "2"],
+      "rationale": "Introduit Le Mans et Deportivo comme surprises ciblées, avec des nuls sur le derby, Coventry-Brighton et Lecce-Monza."
+    },
+    {
+      "id": "t06",
+      "label": "Variance Ligue 1",
+      "selections": ["2", "2", "N", "2", "N", "2", "2", "1", "1", "N", "1", "2"],
+      "rationale": "Couvre un nul de Troyes à Lille, une victoire de Bologne et Coventry à domicile, compensés par les favoris les plus robustes."
+    },
+    {
+      "id": "t07",
+      "label": "Accrocs favoris",
+      "selections": ["2", "N", "1", "N", "2", "1", "N", "2", "1", "1", "2", "2"],
+      "rationale": "Couvre un nul de Barcelone et de Lens, un succès de l'Atlético et de Monza, ainsi que le nul du derby."
+    },
+    {
+      "id": "t08",
+      "label": "Portefeuille nul",
+      "selections": ["2", "2", "1", "2", "N", "N", "1", "N", "N", "1", "1", "2"],
+      "rationale": "Scénario volontairement riche en nuls sur les rencontres équilibrées afin de corriger la sous-couverture historique sans forcer les matchs déséquilibrés."
+    },
+    {
+      "id": "t09",
+      "label": "Surprises mesurées",
+      "selections": ["N", "2", "1", "2", "1", "1", "2", "2", "1", "2", "N", "N"],
+      "rationale": "Couvre Brest ou Juventus accrochés et une victoire de Deportivo, tout en conservant l'essentiel des favoris."
+    },
+    {
+      "id": "t10",
+      "label": "Extérieurs incertains",
+      "selections": ["2", "1", "1", "2", "2", "N", "N", "2", "1", "N", "2", "2"],
+      "rationale": "Combine Le Mans, Atlético et Monza avec des nuls à Naples, Manchester et Getafe pour un scénario de forte dispersion."
+    },
+    {
+      "id": "t11",
+      "label": "Choc Brest",
+      "selections": ["1", "2", "1", "2", "N", "1", "2", "N", "1", "1", "N", "2"],
+      "rationale": "Seule combinaison couvrant une victoire de Brest, accompagnée de nuls sur deux matchs très ouverts afin d'éviter un quasi-clone du scénario central."
+    },
+    {
+      "id": "t12",
+      "label": "Choc Troyes",
+      "selections": ["2", "N", "2", "2", "1", "N", "2", "1", "1", "N", "1", "2"],
+      "rationale": "Seule combinaison couvrant une victoire de Troyes, avec des variantes supplémentaires sur Lens, Naples, Coventry et Getafe pour maximiser sa valeur marginale."
+    }
+  ]
+}
