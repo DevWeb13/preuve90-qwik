@@ -1,0 +1,199 @@
+{
+  "id": "lf8-124-2026-09-14",
+  "formula": 8,
+  "gridNumber": 124,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821",
+  "validationDeadline": "2026-09-14T18:25:00+02:00",
+  "publishedAt": "2026-09-13T02:02:20+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Red Star",
+      "awayTeam": "Metz",
+      "competition": "Ligue 2 BKT",
+      "probabilities": { "home": 36, "draw": 30, "away": 34 },
+      "analysis": {
+        "summary": "Affiche très ouverte : Red Star bénéficie du terrain et d'un modèle qui le place légèrement devant, tandis que Metz arrive avec davantage d'expérience et une dynamique offensive crédible.",
+        "keyFactors": [
+          "Football Nation donne Red Star à 48 %, le nul à 25 % et Metz à 27 %.",
+          "Feedinco penche au contraire vers Metz et valorise le scénario nul ou Metz, ce qui confirme l'absence de favori net.",
+          "La mémoire v2 montre une sous-couverture persistante des nuls, ce qui justifie de ne pas écraser ce scénario sur une affiche aussi équilibrée."
+        ],
+        "uncertainty": "Très élevée : les modèles disponibles divergent sensiblement sur le favori et les trois issues restent crédibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "Football Nation — Red Star vs Metz", "url": "https://footballnation.eu/match/ligue-2/2026/792535/", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "Feedinco — Red Star vs Metz", "url": "https://www.feedinco.com/predictions/2026-09-14/Red-Star-vs-Metz-prediction", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Udinese",
+      "competition": "Serie A",
+      "startsAt": "2026-09-14T20:45:00+02:00",
+      "probabilities": { "home": 72, "draw": 18, "away": 10 },
+      "analysis": {
+        "summary": "Inter est un favori très net à San Siro malgré la défaite européenne à Madrid, avec un avantage marqué dans le marché, la forme et la profondeur d'effectif.",
+        "keyFactors": [
+          "LiveFootAI agrège le marché autour de 73,8 % pour l'Inter, 17,2 % nul et 9 % Udinese.",
+          "Footlab situe l'Inter à 67 % et rappelle un avantage Elo important.",
+          "L'Inter reste sur trois victoires en trois journées de Serie A et n'a perdu que 2-1 au Real Madrid en Ligue des champions."
+        ],
+        "uncertainty": "Faible à moyenne : l'Inter domine nettement les indicateurs, mais l'enchaînement européen et la bonne forme récente d'Udinese interdisent une probabilité extrême.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "LiveFootAI — Inter Milan vs Udinese", "url": "https://livefootai.com/en/matches/inter-milan-vs-udinese", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "Footlab — Inter vs Udinese", "url": "https://footlab.ai/en/match/inter-vs-udinese-1550120", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "The Guardian — Real Madrid 2-1 Inter", "url": "https://www.theguardian.com/football/live/2026/sep/08/real-madrid-v-inter-millwall-v-newcastle-champions-league-and-carabao-cup-live", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Torino",
+      "awayTeam": "AS Rome",
+      "competition": "Serie A",
+      "startsAt": "2026-09-14T18:30:00+02:00",
+      "probabilities": { "home": 18, "draw": 25, "away": 57 },
+      "analysis": {
+        "summary": "Roma arrive comme favori clair grâce à un début de championnat parfait et un marché nettement orienté vers l'extérieur, même si Torino vient de gagner à Florence.",
+        "keyFactors": [
+          "LiveFootAI donne environ 59,5 % à Roma après retrait de la marge du marché.",
+          "Wincomparator situe Roma à près de 50 % et confirme l'écart de classement entre les deux équipes.",
+          "Torino reste irrégulier, tandis que Roma a gagné ses trois premières journées et possède une meilleure dynamique offensive et défensive."
+        ],
+        "uncertainty": "Moyenne : Roma est logiquement favorite, mais Torino a déjà montré qu'il pouvait créer des surprises dans cette confrontation.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "LiveFootAI — Torino vs AS Roma", "url": "https://livefootai.com/en/matches/torino-vs-as-roma", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "Wincomparator — Torino vs Roma", "url": "https://www.wincomparator.com/predictions/turin-roma-8522131/", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "ODDSLOT — Torino vs AS Roma", "url": "https://oddslot.com/football/match/serie-a/torino/as-roma/14-sep-2026//", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Parme",
+      "competition": "Serie A",
+      "probabilities": { "home": 78, "draw": 15, "away": 7 },
+      "analysis": {
+        "summary": "Como est le favori le plus fort de la grille : son excellent début de saison et le marché convergent vers une nette supériorité à domicile face à un Parma en difficulté.",
+        "keyFactors": [
+          "MatchSense estime Como à 82,2 %, contre 12,7 % nul et 5 % Parma.",
+          "ODDSLOT affiche un marché très déséquilibré autour de 1,22 pour Como.",
+          "Como compte 7 points en trois journées et reste sur plusieurs performances offensives fortes, alors que Parma n'a qu'un point."
+        ],
+        "uncertainty": "Faible : l'écart est important, mais un nul reste couvert dans un scénario de contre-performance du favori.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "MatchSense — Como vs Parma", "url": "https://matchsense.online/news/como-vs-parma-prediction-2026-09-14", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "ODDSLOT — Como vs Parma", "url": "https://oddslot.com/football/match/serie-a/como/parma/14-sep-2026/", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Gaziantep Spor",
+      "awayTeam": "Fenerbahce",
+      "competition": "D1 Turquie",
+      "probabilities": { "home": 17, "draw": 24, "away": 59 },
+      "analysis": {
+        "summary": "Fenerbahce est favori grâce à la qualité d'effectif, au marché et à un historique très favorable face à Gaziantep, mais l'équipe locale reste en forme et augmente le risque de match serré.",
+        "keyFactors": [
+          "Wincomparator estime la victoire de Fenerbahce à 60,7 %.",
+          "StatsBet affiche des cotes autour de 5,39 / 4,11 / 1,55 et un historique de 12 victoires de Fenerbahce en 14 confrontations.",
+          "Gaziantep a remporté trois de ses cinq derniers matchs, ce qui empêche de traiter le déplacement comme une formalité."
+        ],
+        "uncertainty": "Moyenne : l'avantage de Fenerbahce est net, mais la forme récente de Gaziantep rend le nul et la surprise plus plausibles qu'un simple écart de réputation.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "Wincomparator — Gaziantep vs Fenerbahce", "url": "https://www.wincomparator.com/predictions/gaziantep-bld-spor-fenerbahce-8628246/", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "StatsBet — Gaziantep vs Fenerbahce", "url": "https://statsbet.org/football/matches/gaziantep-f-k-vs-fenerbah-e-2026-09-14", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "ODDSLOT — Gaziantep vs Fenerbahce", "url": "https://oddslot.com/football/match/s%C3%BCper-lig/gaziantep-fk/fenerbah%C3%A7e/14-sep-2026/", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Moreirense",
+      "awayTeam": "CS Maritimo",
+      "competition": "Liga Portugal",
+      "probabilities": { "home": 37, "draw": 31, "away": 32 },
+      "analysis": {
+        "summary": "C'est l'une des rencontres les plus indécises de la grille : marché, modèles et forme récente ne dégagent qu'un très léger avantage pour Moreirense.",
+        "keyFactors": [
+          "PropickAI situe Moreirense à 37 %, le nul à 29,8 % et Maritimo à 33,2 %.",
+          "BetClan penche également vers Moreirense mais avec seulement 41 % et prévoit un match plutôt fermé.",
+          "La proximité des cotes et la sous-couverture historique des nuls justifient une forte présence du N dans le portefeuille."
+        ],
+        "uncertainty": "Très élevée : les trois issues sont proches et aucune ne mérite une concentration forte.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "PropickAI — Moreirense vs Maritimo", "url": "https://propickai.com/matches/football/portugal-championship-portugalii/moreirense-vs-maritimo-2026-09-14/", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "BetClan — Moreirense vs Maritimo", "url": "https://www.betclan.com/predictionsdetails/football/200165235/moreirense-v-maritimo-prediction-h2h-tip-and-match-preview/", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Betis Séville",
+      "competition": "LaLiga",
+      "probabilities": { "home": 50, "draw": 28, "away": 22 },
+      "analysis": {
+        "summary": "Villarreal reçoit avec un avantage de marché modéré, mais le Betis possède suffisamment de qualité pour maintenir le nul et la victoire extérieure dans la couverture.",
+        "keyFactors": [
+          "BetClan donne Villarreal gagnant à 52 % et les cotes de marché placent le club autour de 1,85-1,95.",
+          "Les confrontations récentes entre les deux équipes sont partagées, avec plusieurs résultats serrés.",
+          "Villarreal reste sur une défaite européenne spectaculaire à Dortmund, facteur de fatigue et d'incertitude supplémentaire."
+        ],
+        "uncertainty": "Moyenne à élevée : Villarreal est favori sans être dominant, et le nul conserve une valeur importante dans un match potentiellement ouvert.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "BetClan — Villarreal vs Real Betis", "url": "https://www.betclan.com/predictionsdetails/football/200165950/villarreal-v-real-betis-prediction-h2h-tip-and-match-preview/", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "The Guardian — Dortmund 3-2 Villarreal", "url": "https://www.theguardian.com/football/live/2026/sep/08/real-madrid-v-inter-millwall-v-newcastle-champions-league-and-carabao-cup-live", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Leeds Utd",
+      "awayTeam": "Newcastle",
+      "competition": "Premier League",
+      "startsAt": "2026-09-14T21:00:00+02:00",
+      "probabilities": { "home": 40, "draw": 30, "away": 30 },
+      "analysis": {
+        "summary": "Leeds obtient un léger avantage à domicile dans un match très équilibré entre deux équipes encore invaincues et à égalité de points.",
+        "keyFactors": [
+          "RotoWire relève un marché qui place Leeds favori autour de +130/+140, Newcastle autour de +180/+190 et le nul proche de +240/+250.",
+          "Les deux équipes comptent cinq points après trois journées et Newcastle arrive avec plusieurs absences importantes au milieu et en défense.",
+          "Le profil récent est serré et peu prolifique, ce qui augmente la probabilité du nul."
+        ],
+        "uncertainty": "Très élevée : l'avantage de Leeds est faible et les trois issues restent réalistes.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF8 n°124", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/821", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "RotoWire — Leeds vs Newcastle", "url": "https://www.rotowire.com/soccer/article/leeds-vs-newcastle-prediction-predicted-lineups-team-news-133582", "accessedAt": "2026-09-13T02:02:00+02:00" },
+          { "label": "EasyOdds — Leeds vs Newcastle", "url": "https://easyodds.com/leeds-vs-newcastle-betting-odds-tips-predictions-preview-14th-september-2026", "accessedAt": "2026-09-13T02:02:00+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1","1","2","1","2","1","1","1"], "rationale": "Favoris principaux conservés avec Red Star, Moreirense et Leeds du côté de leurs légers avantages à domicile." },
+    { "id": "t2", "label": "Metz et nuls clés", "selections": ["2","1","2","1","2","N","1","N"], "rationale": "Couvre Metz et deux nuls majeurs sur Moreirense-Maritimo et Leeds-Newcastle." },
+    { "id": "t3", "label": "Équilibre maximal", "selections": ["N","1","2","1","2","1","N","1"], "rationale": "Introduit les nuls sur Red Star-Metz et Villarreal-Betis sans toucher aux trois favoris les plus forts." },
+    { "id": "t4", "label": "Roma accrochée", "selections": ["1","1","N","1","2","N","1","2"], "rationale": "Scénario plus prudent sur Roma, Moreirense et Leeds, avec Newcastle comme surprise extérieure." },
+    { "id": "t5", "label": "Double surprise médiane", "selections": ["2","1","2","1","N","2","N","1"], "rationale": "Couvre un nul de Fenerbahce, une victoire de Maritimo et un nul du Betis dans un scénario moins consensuel." },
+    { "id": "t6", "label": "Torino résiste", "selections": ["N","1","1","1","2","N","2","N"], "rationale": "Ajoute une vraie surprise Torino et renforce les nuls sur deux matchs parmi les plus indécis." },
+    { "id": "t7", "label": "Accroc de l'Inter", "selections": ["1","N","2","1","2","2","1","1"], "rationale": "Seul scénario où l'Inter ne gagne pas, combiné à Maritimo pour couvrir une rupture de consensus." },
+    { "id": "t8", "label": "Como tenu", "selections": ["2","1","2","N","2","1","N","2"], "rationale": "Couvre l'unique scénario de nul de Como, Metz, le nul du Betis et Newcastle." },
+    { "id": "t9", "label": "Nuls distribués", "selections": ["N","1","N","1","2","2","1","N"], "rationale": "Répartit les nuls sur trois affiches où ils sont plausibles et ajoute Maritimo pour diversifier fortement le portefeuille." },
+    { "id": "t10", "label": "Gaziantep surprise", "selections": ["1","1","2","1","1","N","2","2"], "rationale": "Couvre la surprise Gaziantep, le nul au Portugal et des victoires extérieures du Betis et de Newcastle." },
+    { "id": "t11", "label": "Torino et Betis solides", "selections": ["2","1","1","1","2","N","N","1"], "rationale": "Associe Torino à domicile avec les nuls de Moreirense-Maritimo et Villarreal-Betis." },
+    { "id": "t12", "label": "Fenerbahce accroché", "selections": ["N","1","2","1","N","1","1","2"], "rationale": "Dernière couverture dédiée aux nuls de Red Star-Metz et Gaziantep-Fenerbahce, avec Newcastle à l'extérieur." }
+  ]
+}
