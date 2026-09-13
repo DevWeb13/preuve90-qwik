@@ -1,0 +1,175 @@
+{
+  "id": "lf7-116-2026-09-15",
+  "formula": 7,
+  "gridNumber": 116,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933",
+  "validationDeadline": "2026-09-15T18:55:00+02:00",
+  "publishedAt": "2026-09-14T01:56:36+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Elche",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-15T21:30:00+02:00",
+      "probabilities": { "home": 13, "draw": 19, "away": 68 },
+      "analysis": {
+        "summary": "Real Madrid est nettement favori : les modèles, la forme récente et le marché convergent vers une victoire extérieure, même si un nul reste le principal scénario de rupture.",
+        "keyFactors": [
+          "Expected90 donne 65 % à Real Madrid avec un avantage marqué d'Elo et de xG projeté.",
+          "Les cotes 1X2 observées placent Real Madrid autour de 1,28-1,34, très loin devant Elche.",
+          "La forme récente rapportée est fortement favorable au Real Madrid, tandis qu'Elche reste en difficulté défensive."
+        ],
+        "uncertainty": "Le principal risque vient d'une rotation ou d'un match moins maîtrisé que prévu ; le nul reste plus crédible qu'une victoire d'Elche.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933", "accessedAt": "2026-09-14T01:55:20+02:00" },
+          { "label": "Expected90 — Elche vs Real Madrid", "url": "https://expected90.com/football-predictions/la-liga/elche-vs-real-madrid", "accessedAt": "2026-09-14T01:55:30+02:00" },
+          { "label": "Dailysports — Elche vs Real Madrid", "url": "https://dailysports.net/stat/football/elche-vs-real-madrid/", "accessedAt": "2026-09-14T01:55:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Alaves",
+      "awayTeam": "CF Valence",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-15T20:00:00+02:00",
+      "probabilities": { "home": 50, "draw": 27, "away": 23 },
+      "analysis": {
+        "summary": "Alavés possède un avantage à domicile et une meilleure dynamique récente, mais l'écart reste modéré et le nul conserve un poids important.",
+        "keyFactors": [
+          "MatchSense estime Alavés à 48,6 %, le nul à 27,7 % et Valence à 23,7 %.",
+          "Expected90 monte Alavés à 53 % et décrit une dynamique récente plus solide côté basque.",
+          "Les absences rapportées des deux côtés empêchent de considérer le favori comme totalement sûr."
+        ],
+        "uncertainty": "Match encore suffisamment équilibré pour que le nul soit une couverture prioritaire et qu'une victoire de Valence reste plausible.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933", "accessedAt": "2026-09-14T01:55:20+02:00" },
+          { "label": "MatchSense — Alaves vs Valencia", "url": "https://matchsense.online/news/alaves-vs-valencia-prediction-2026-09-15", "accessedAt": "2026-09-14T01:55:45+02:00" },
+          { "label": "Expected90 — Deportivo Alavés vs Valencia", "url": "https://expected90.com/football-predictions/la-liga/deportivo-alaves-vs-valencia", "accessedAt": "2026-09-14T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Espanyol",
+      "competition": "LaLiga",
+      "probabilities": { "home": 49, "draw": 27, "away": 24 },
+      "analysis": {
+        "summary": "Rayo Vallecano est favori à domicile, mais les modèles divergent sur l'ampleur de l'avantage et la rencontre reste assez ouverte pour couvrir nul et outsider.",
+        "keyFactors": [
+          "Expected90 donne 52 % au Rayo, 24 % au nul et 23 % à l'Espanyol.",
+          "BetClan place aussi le Rayo en tête à 54 %.",
+          "D'autres modèles restent plus prudents, ce qui justifie de ne pas surpondérer le choix 1."
+        ],
+        "uncertainty": "La dispersion entre modèles et les fragilités défensives récentes augmentent le risque de nul ou de victoire extérieure.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933", "accessedAt": "2026-09-14T01:55:20+02:00" },
+          { "label": "Expected90 — Rayo Vallecano vs Espanyol", "url": "https://expected90.com/football-predictions/la-liga/rayo-vallecano-vs-espanyol", "accessedAt": "2026-09-14T01:55:55+02:00" },
+          { "label": "BetClan — Rayo Vallecano vs Espanyol", "url": "https://www.betclan.com/predictionsdetails/football/200166007/rayo-vallecano-v-espanyol-prediction-h2h-tip-and-match-preview/", "accessedAt": "2026-09-14T01:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "West Ham",
+      "awayTeam": "Fulham",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 31, "draw": 29, "away": 40 },
+      "analysis": {
+        "summary": "Fulham ressort légèrement favori au marché, mais l'écart est faible pour une rencontre de coupe où les rotations rendent les trois issues crédibles.",
+        "keyFactors": [
+          "Les cotes de marché observées autour de 3,2 / 3,5 / 2,1 donnent l'avantage à Fulham sans en faire un favori massif.",
+          "Un modèle indépendant donne également un signal favorable à Fulham, mais avec une confiance limitée.",
+          "Le contexte de coupe accroît l'incertitude sur les compositions et la hiérarchie réelle du soir."
+        ],
+        "uncertainty": "C'est l'un des matchs les plus ouverts de la grille ; 1, N et 2 doivent tous apparaître dans le portefeuille.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933", "accessedAt": "2026-09-14T01:55:20+02:00" },
+          { "label": "SportyTrader — West Ham vs Fulham odds", "url": "https://www.sportytrader.com/en/odds/west-ham-fulham-8786269/", "accessedAt": "2026-09-14T01:56:05+02:00" },
+          { "label": "OddsGPT — West Ham vs Fulham", "url": "https://www.oddsgpt.com/predictions/football/1636206/west-ham-vs-fulham/en", "accessedAt": "2026-09-14T01:56:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Reading",
+      "awayTeam": "Brentford",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 15, "draw": 23, "away": 62 },
+      "analysis": {
+        "summary": "Brentford possède l'avantage de niveau et de marché, mais le format coupe et la possibilité de rotations réduisent la confiance par rapport à un match de championnat standard.",
+        "keyFactors": [
+          "BetClan donne Brentford à 78 % et les marchés affichent une cote extérieure très courte.",
+          "Sports Mole est beaucoup plus prudent avec 44,35 % pour Brentford, ce qui signale un risque de modèle et de rotation.",
+          "Reading arrive avec une série récente compétitive, ce qui empêche de supprimer totalement le scénario surprise."
+        ],
+        "uncertainty": "Le différentiel de niveau favorise Brentford, mais les écarts importants entre modèles imposent de garder quelques couvertures 1/N.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933", "accessedAt": "2026-09-14T01:55:20+02:00" },
+          { "label": "BetClan — Reading vs Brentford", "url": "https://www.betclan.com/predictionsdetails/football/200242884/reading-v-brentford-prediction-h2h-tip-and-match-preview/", "accessedAt": "2026-09-14T01:56:12+02:00" },
+          { "label": "Sports Mole — Reading vs Brentford", "url": "https://www.sportsmole.co.uk/football/efl-cup/reading-vs-brentford_game_258147.html", "accessedAt": "2026-09-14T01:56:15+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Ipswich",
+      "awayTeam": "Arsenal",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 16, "draw": 23, "away": 61 },
+      "analysis": {
+        "summary": "Arsenal est favori net au marché et dans la majorité des projections, mais la coupe et le risque de rotation rendent l'écart moins absolu que ne le suggèrent certaines cotes.",
+        "keyFactors": [
+          "BetClan évalue Arsenal à 72 % et le marché le cote autour de 1,40-1,48.",
+          "Sports Mole reste plus prudent à 45,35 % pour Arsenal, avec Ipswich à 29,08 % et le nul à 25,57 %.",
+          "La forme récente affichée par les deux équipes est positive, ce qui renforce le risque d'un match plus serré qu'attendu."
+        ],
+        "uncertainty": "Arsenal reste le choix central, mais quelques scénarios N/1 sont nécessaires à cause de l'écart inhabituel entre marché et modèles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933", "accessedAt": "2026-09-14T01:55:20+02:00" },
+          { "label": "BetClan — Ipswich vs Arsenal", "url": "https://www.betclan.com/fr/predictionsdetails/football/200242861/ipswich-v-arsenal-prediction-h2h-conseils-de-paris-et-prevision-du-match/", "accessedAt": "2026-09-14T01:56:18+02:00" },
+          { "label": "Sports Mole — Ipswich Town vs Arsenal", "url": "https://www.sportsmole.co.uk/football/efl-cup/ipswich-town-vs-arsenal_game_258146.html", "accessedAt": "2026-09-14T01:56:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Tottenham",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 54, "draw": 25, "away": 21 },
+      "analysis": {
+        "summary": "Liverpool est favori à Anfield, soutenu par le marché et une dynamique offensive plus fiable, mais Tottenham conserve une capacité de surprise suffisante en coupe.",
+        "keyFactors": [
+          "Le marché observé place Liverpool autour de 1,81, soit un avantage clair après retrait de la marge.",
+          "BetClan donne Liverpool gagnant à 56 %.",
+          "Les informations récentes signalent des difficultés offensives persistantes pour Tottenham, ce qui renforce légèrement l'avantage de Liverpool."
+        ],
+        "uncertainty": "Les rotations de coupe et la variance d'un match à élimination augmentent la probabilité d'un nul à 90 minutes ou d'une surprise de Tottenham.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF7 n°116", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4933", "accessedAt": "2026-09-14T01:55:20+02:00" },
+          { "label": "BetClan — Liverpool vs Tottenham", "url": "https://www.betclan.com/predictionsdetails/football/200242867/liverpool-v-tottenham-prediction-h2h-tip-and-match-preview/", "accessedAt": "2026-09-14T01:56:22+02:00" },
+          { "label": "OddsGPT — Liverpool vs Tottenham odds", "url": "https://www.oddsgpt.com/odds-comparison/football/1635563/liverpool-vs-tottenham/1x2/home/en", "accessedAt": "2026-09-14T01:56:24+02:00" },
+          { "label": "The Guardian — football buildup 13 September 2026", "url": "https://www.theguardian.com/football/live/2026/sep/13/premier-league-buildup-to-the-manchester-derby-old-firm-showdown-and-wsl-live", "accessedAt": "2026-09-14T01:56:26+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Socle favoris", "selections": ["2", "1", "1", "2", "2", "2", "1"], "rationale": "Scénario central combinant les favoris les plus solides avec l'avantage léger de Fulham." },
+    { "id": "t2", "label": "Nuls ciblés", "selections": ["2", "N", "1", "2", "2", "2", "N"], "rationale": "Couvre les nuls d'Alavés-Valence et Liverpool-Tottenham sans toucher aux trois favoris les plus nets." },
+    { "id": "t3", "label": "Rayo et derby ouverts", "selections": ["2", "1", "N", "N", "2", "2", "1"], "rationale": "Couvre simultanément un nul du Rayo et le caractère très ouvert de West Ham-Fulham." },
+    { "id": "t4", "label": "Triple incertitude", "selections": ["2", "N", "1", "N", "2", "N", "1"], "rationale": "Scénario plus prudent sur Alavés, West Ham et Arsenal tout en conservant les favoris forts ailleurs." },
+    { "id": "t5", "label": "Surprises modérées", "selections": ["2", "1", "2", "2", "N", "2", "N"], "rationale": "Introduit Espanyol, un nul de Reading-Brentford et un nul à Anfield dans un scénario cohérent de coupe." },
+    { "id": "t6", "label": "Accroc madrilène", "selections": ["N", "1", "1", "2", "2", "2", "1"], "rationale": "Seule variante proche du socle : elle isole le principal scénario de rupture du très fort favori Real Madrid." },
+    { "id": "t7", "label": "Outsider londonien", "selections": ["2", "N", "N", "1", "2", "2", "1"], "rationale": "Couvre une victoire de West Ham avec deux nuls plausibles en Liga." },
+    { "id": "t8", "label": "Coupe chaotique", "selections": ["2", "1", "1", "N", "1", "2", "2"], "rationale": "Scénario de forte variance en EFL Cup avec Reading et Tottenham qui déjouent les hiérarchies." },
+    { "id": "t9", "label": "Ipswich résiste", "selections": ["2", "N", "1", "2", "2", "1", "N"], "rationale": "Couvre une surprise d'Ipswich et deux nuls sur des rencontres à incertitude élevée." },
+    { "id": "t10", "label": "Nuls et Spurs", "selections": ["2", "1", "N", "2", "2", "N", "2"], "rationale": "Scénario où les outsiders de coupe résistent puis Tottenham finit par s'imposer à Anfield." },
+    { "id": "t11", "label": "Double outsider Liga", "selections": ["2", "N", "2", "N", "2", "2", "1"], "rationale": "Couvre Espanyol et plusieurs nuls sans sacrifier Real Madrid, Brentford, Arsenal et Liverpool." },
+    { "id": "t12", "label": "West Ham et nuls coupe", "selections": ["2", "1", "1", "1", "2", "N", "N"], "rationale": "Couvre West Ham à domicile et deux matchs de coupe qui se neutralisent à 90 minutes." }
+  ]
+}
