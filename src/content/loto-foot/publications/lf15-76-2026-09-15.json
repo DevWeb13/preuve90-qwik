@@ -1,0 +1,274 @@
+{
+  "id": "lf15-76-2026-09-15",
+  "formula": 15,
+  "gridNumber": 76,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-15T18:55:00+02:00",
+  "publishedAt": "2026-09-14T05:57:18+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Elche",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-15T21:30:00+02:00",
+      "probabilities": { "home": 12, "draw": 20, "away": 68 },
+      "analysis": {
+        "summary": "Real Madrid possède un avantage net de qualité et de profondeur, tandis qu'Elche garde surtout une chance via le nul ou un match très efficace à domicile.",
+        "keyFactors": ["Écart de niveau global en faveur du Real Madrid", "Contexte extérieur qui maintient une part de variance", "Calibration volontairement sous 70 % pour éviter une confiance excessive"],
+        "uncertainty": "Modérée : favori clair, mais le football de championnat à l'extérieur conserve un risque de nul.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "FotMob — Elche vs Real Madrid", "url": "https://www.fotmob.com/matches/real-madrid-vs-elche/2ycx1c", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Alaves",
+      "awayTeam": "CF Valence",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-15T20:00:00+02:00",
+      "probabilities": { "home": 43, "draw": 31, "away": 26 },
+      "analysis": {
+        "summary": "Alavés bénéficie du terrain et d'un profil plus stable, mais Valence reste suffisamment proche pour rendre le nul important.",
+        "keyFactors": ["Avantage domicile d'Alavés", "Écart limité entre les deux équipes", "Nul structurellement plausible et historiquement sous-couvert dans le portefeuille"],
+        "uncertainty": "Élevée : match serré avec trois issues crédibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Yahoo Sports — Alavés vs Valencia preview", "url": "https://sports.yahoo.com/articles/preview-alav-vs-valencia-cf-001500461.html", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Espanyol",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-15T19:00:00+02:00",
+      "probabilities": { "home": 42, "draw": 30, "away": 28 },
+      "analysis": {
+        "summary": "Le Rayo conserve un léger avantage, mais ses nombreuses absences réduisent fortement la marge face à un Espanyol lui aussi irrégulier.",
+        "keyFactors": ["Plusieurs absences importantes côté Rayo", "Formes récentes irrégulières des deux équipes", "Écart de niveau faible"],
+        "uncertainty": "Élevée : les absences et la proximité des profils ouvrent les trois scénarios.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "FotMob — Rayo Vallecano vs Espanyol", "url": "https://www.fotmob.com/matches/rayo-vallecano-vs-espanyol/2dbblq", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "West Ham",
+      "awayTeam": "Fulham",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "analysis": {
+        "summary": "Fulham obtient un très léger avantage dans une affiche de coupe particulièrement équilibrée où les rotations peuvent peser.",
+        "keyFactors": ["Confrontation de coupe favorable à la variance", "Écart très faible entre les équipes", "Marché et previews donnant une vraie chance à Fulham"],
+        "uncertainty": "Très élevée : aucune issue ne dépasse 40 %.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "LiveScore — West Ham vs Fulham preview", "url": "https://www.livescore.com/en/news/football/england-championship/west-ham-vs-fulham-preview-prediction-team-news-and-lineups-green-street-hammers/", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Reading",
+      "awayTeam": "Brentford",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 17, "draw": 23, "away": 60 },
+      "analysis": {
+        "summary": "Brentford reste nettement supérieur sur le papier, même avec le risque de rotation inhérent à la coupe.",
+        "keyFactors": ["Écart de division et de profondeur d'effectif", "Brentford favori dans les previews disponibles", "Rotation de coupe limitant la confiance maximale"],
+        "uncertainty": "Modérée : avantage clair à Brentford, mais la coupe augmente le risque d'écart au modèle.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "SportsGambler — Reading vs Brentford", "url": "https://www.sportsgambler.com/betting-tips/football/reading-vs-brentford-prediction-lineups-odds-2026-09-15/", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Ipswich",
+      "awayTeam": "Arsenal",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 18, "draw": 24, "away": 58 },
+      "analysis": {
+        "summary": "Arsenal est favori grâce à sa profondeur, mais un déplacement de coupe avec rotations plausibles empêche de monter davantage la probabilité extérieure.",
+        "keyFactors": ["Profondeur d'effectif d'Arsenal", "Avantage terrain d'Ipswich", "Rotations possibles en League Cup"],
+        "uncertainty": "Modérée à élevée : Arsenal reste devant, mais la composition de départ peut modifier fortement l'équilibre.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "The Short Fuse — Arsenal at Ipswich preview", "url": "https://theshortfuse.sbnation.com/league-cup/37514/arsenal-at-ipswich-town-carabao-cup-preview-match-thread-lineups-prediction-how-to-watch-arteta-saka-rice-bruno", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Tottenham",
+      "competition": "EFL Cup",
+      "probabilities": { "home": 52, "draw": 25, "away": 23 },
+      "analysis": {
+        "summary": "Liverpool est favori à Anfield, mais la nature du match de coupe et les rotations rendent Tottenham suffisamment dangereux pour justifier plusieurs couvertures.",
+        "keyFactors": ["Avantage d'Anfield", "Liverpool favori dans les previews", "Rotation et profondeur des deux grands clubs"],
+        "uncertainty": "Élevée : les onze de départ peuvent faire varier sensiblement la hiérarchie.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Yahoo Sports — Liverpool vs Tottenham preview", "url": "https://sports.yahoo.com/articles/preview-liverpool-vs-tottenham-team-002500468.html", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Everton",
+      "awayTeam": "Wolverhampton",
+      "competition": "EFL Cup",
+      "startsAt": "2026-09-16T20:45:00+02:00",
+      "probabilities": { "home": 49, "draw": 26, "away": 25 },
+      "analysis": {
+        "summary": "Everton possède un avantage à domicile, mais Wolves reste compétitif et le nul conserve un poids important.",
+        "keyFactors": ["Avantage domicile d'Everton", "Modèle externe proche de 49 % pour Everton", "Wolves reste capable de marquer et de prolonger un match serré"],
+        "uncertainty": "Élevée : avantage Everton réel mais loin d'être décisif.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "FotMob — Everton vs Wolverhampton", "url": "https://www.fotmob.com/en-GB/matches/wolverhampton-wanderers-vs-everton/2gso21", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Footy Profit — Everton vs Wolverhampton", "url": "https://footyprofit.co.uk/everton-v-wolverhampton-wanderers-prediction-2026-09-16", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Man. United",
+      "awayTeam": "Brighton Hove",
+      "competition": "EFL Cup",
+      "startsAt": "2026-09-16T21:00:00+02:00",
+      "probabilities": { "home": 42, "draw": 25, "away": 33 },
+      "analysis": {
+        "summary": "Manchester United a un léger avantage à Old Trafford, mais Brighton est suffisamment dangereux offensivement pour maintenir une forte dispersion.",
+        "keyFactors": ["Avantage terrain de Manchester United", "Forme récente offensive des deux équipes", "Modèles externes relativement serrés"],
+        "uncertainty": "Très élevée : Brighton reste proche et le match de coupe accentue la variance.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "FotMob — Manchester United vs Brighton", "url": "https://www.fotmob.com/en-GB/matches/brighton-hove-albion-vs-manchester-united/3goccs", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Footy Profit — Manchester United vs Brighton", "url": "https://footyprofit.co.uk/manchester-united-v-brighton-hove-albion-prediction-2026-09-16", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Benfica",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 44, "draw": 30, "away": 26 },
+      "analysis": {
+        "summary": "Milan est légèrement favori à domicile, mais Benfica a la qualité nécessaire pour rendre le nul et la victoire extérieure crédibles.",
+        "keyFactors": ["Avantage du terrain pour Milan", "Expérience européenne des deux équipes", "Écart modéré ne justifiant pas un favori fort"],
+        "uncertainty": "Élevée : confrontation européenne équilibrée.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Transfermarkt — AC Milan vs Benfica prediction", "url": "https://www.transfermarkt.com/betting/tips/ac-milan-vs-sl-benfica-prediction-16-09-2026/", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Omonia Nicosie",
+      "awayTeam": "Celta Vigo",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 25, "draw": 28, "away": 47 },
+      "analysis": {
+        "summary": "Celta Vigo est favori grâce à un niveau moyen supérieur, mais le déplacement à Nicosie augmente la probabilité de nul et d'upset.",
+        "keyFactors": ["Supériorité théorique du Celta", "Déplacement européen potentiellement piégeux", "Avantage domicile d'Omonia"],
+        "uncertainty": "Élevée : Celta devant mais contexte extérieur délicat.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Betfair — Omonia vs Celta predictions", "url": "https://betting.betfair.com/football/predictions/uefa-europa-league/omonia-nicosia-vs-celta-de-vigo/dlwyx0okwdyk8jk3f0cfckvtg/", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Sturm Graz",
+      "awayTeam": "Rennes",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 29, "draw": 29, "away": 42 },
+      "analysis": {
+        "summary": "Rennes a un léger avantage qualitatif, mais Sturm Graz à domicile rend la rencontre nettement plus serrée qu'un simple favori extérieur.",
+        "keyFactors": ["Qualité individuelle supérieure de Rennes", "Avantage domicile de Sturm Graz", "Affiche européenne à variance élevée"],
+        "uncertainty": "Très élevée : nul et victoire de Sturm restent proches.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "ScoresAndStats — Sturm Graz vs Rennes", "url": "https://www.scoresandstats.com/predictions/soccer/uefa-europa-league/sturm-graz-vs-rennes-odds-picks/2026-09-16/", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Anderlecht",
+      "awayTeam": "Lyon",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 34, "draw": 30, "away": 36 },
+      "analysis": {
+        "summary": "Lyon n'a qu'un avantage minimal : Anderlecht à domicile et la proximité des niveaux rendent les trois issues presque équivalentes.",
+        "keyFactors": ["Avantage domicile d'Anderlecht", "Lyon légèrement supérieur individuellement", "Écart de probabilité très réduit"],
+        "uncertainty": "Très élevée : match presque à trois voies.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Betfair — Anderlecht vs Lyon predictions", "url": "https://betting.betfair.com/football/predictions/uefa-europa-league/anderlecht-vs-olympique-lyonnais/dmb1vbh8lk8xiejdaavgtnnys/", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "La Corogne",
+      "awayTeam": "FC Séville",
+      "competition": "LaLiga",
+      "probabilities": { "home": 33, "draw": 31, "away": 36 },
+      "analysis": {
+        "summary": "Séville conserve un très léger avantage, mais Deportivo à domicile rend l'affiche suffisamment équilibrée pour couvrir fortement le nul et le 1.",
+        "keyFactors": ["Séville légèrement supérieur sur le papier", "Avantage terrain du Deportivo", "Écart minimal entre les trois scénarios"],
+        "uncertainty": "Très élevée : aucune issue ne s'impose clairement.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Transfermarkt — Deportivo La Coruña vs Sevilla", "url": "https://www.transfermarkt.com/betting/tips/deportivo-la-coruna-vs-sevilla-fc-prediction-16-09-2026/", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Santander",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-16T21:30:00+02:00",
+      "probabilities": { "home": 76, "draw": 15, "away": 9 },
+      "analysis": {
+        "summary": "Barcelone est le favori le plus solide de la grille, porté par l'écart de qualité et le terrain, sans monter au-delà de la zone de calibration raisonnable.",
+        "keyFactors": ["Écart important de qualité d'effectif", "Avantage du Camp Nou", "Dynamique offensive récente favorable au Barça"],
+        "uncertainty": "Faible à modérée : scénario principal très clair, mais aucune rencontre n'est certaine.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°76", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "Sofascore — Barcelona vs Racing Santander", "url": "https://www.sofascore.com/football/match/real-racing-club-fc-barcelona/rgbsKgb", "accessedAt": "2026-09-14T05:56:57+02:00" },
+          { "label": "365Scores — Levante 2-4 FC Barcelona", "url": "https://www.365scores.com/football/match/espa-a-laliga-11/fc-barcelona-levante-132-150-11", "accessedAt": "2026-09-14T05:56:57+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Socle favoris calibré", "selections": ["2","1","1","2","2","2","1","1","1","1","2","2","2","2","1"], "rationale": "Scénario central fondé sur les favoris, sans transformer les matchs équilibrés en certitudes." },
+    { "id": "t2", "label": "Nuls ibériques et européens", "selections": ["2","N","1","2","2","2","1","1","N","1","2","N","2","N","1"], "rationale": "Renforce les nuls sur des rencontres proches afin de corriger la sous-couverture historique du N." },
+    { "id": "t3", "label": "Variance coupe et Milan", "selections": ["2","1","N","2","2","2","N","1","1","N","2","2","N","2","1"], "rationale": "Couvre les rotations de coupe et les affiches européennes où les écarts sont faibles." },
+    { "id": "t4", "label": "Scénario domicile résistant", "selections": ["2","N","N","1","2","2","1","N","1","1","N","2","2","2","1"], "rationale": "Valorise plusieurs résistances à domicile sans toucher aux deux favoris les plus solides." },
+    { "id": "t5", "label": "Outsiders contrôlés", "selections": ["2","1","2","N","2","2","1","1","2","N","2","N","1","N","1"], "rationale": "Ajoute des scénarios outsiders plausibles sur les matchs à forte incertitude tout en conservant le socle." },
+    { "id": "t6", "label": "Accroc du Real", "selections": ["N","1","1","2","N","2","1","2","1","1","2","2","N","2","1"], "rationale": "Couvre un nul d'Elche et plusieurs surprises secondaires dans un scénario de journée atypique." },
+    { "id": "t7", "label": "Chocs de coupe", "selections": ["2","2","1","1","2","N","1","1","N","2","2","1","2","N","1"], "rationale": "Traite les rencontres de coupe comme sources majeures de variance et ajoute un succès local de Sturm." },
+    { "id": "t8", "label": "Tottenham et Omonia", "selections": ["2","N","2","2","2","2","2","1","1","N","1","2","2","1","1"], "rationale": "Couvre deux renversements identifiables et des résultats alternatifs sur des affiches serrées." },
+    { "id": "t9", "label": "Journée à nuls", "selections": ["1","1","N","N","2","2","1","N","2","1","2","N","2","2","1"], "rationale": "Scénario plus agressif de nuls et de surprise initiale, utile face au biais historique de sous-couverture du N." },
+    { "id": "t10", "label": "Favoris contrariés", "selections": ["2","1","1","2","1","2","N","2","1","N","N","2","1","2","1"], "rationale": "Couvre Reading, Wolves, Omonia et Anderlecht dans un scénario où plusieurs favoris intermédiaires déçoivent." },
+    { "id": "t11", "label": "Équilibres maximum", "selections": ["2","N","1","N","2","N","1","1","1","2","2","N","N","1","1"], "rationale": "Concentre la couverture sur les rencontres évaluées presque à trois voies et augmente la présence du nul." },
+    { "id": "t12", "label": "Scénario de rupture", "selections": ["N","2","2","2","2","2","1","N","N","1","1","2","2","N","1"], "rationale": "Dernière combinaison à forte distance des autres pour couvrir une journée de résultats contraires sans ajouter de quasi-clone." }
+  ]
+}
