@@ -1,0 +1,226 @@
+{
+  "id": "lf12-77-2026-09-16",
+  "formula": 12,
+  "gridNumber": 77,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-16T20:55:00+02:00",
+  "publishedAt": "2026-09-14T09:57:22+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Anderlecht",
+      "awayTeam": "Lyon",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-16T21:00:00+02:00",
+      "probabilities": { "home": 29, "draw": 31, "away": 40 },
+      "analysis": {
+        "summary": "Lyon possède un léger avantage de qualité, mais le déplacement à Bruxelles et l'équilibre affiché par le marché rendent le nul très important.",
+        "keyFactors": ["Lyon légèrement favori dans les marchés disponibles", "Avantage terrain d'Anderlecht", "Répartition FDJ très partagée avec un nul fortement joué"],
+        "uncertainty": "Élevée : les trois issues restent crédibles et aucune ne dépasse 40 %.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:56:45+02:00" },
+          { "label": "FotMob — Anderlecht vs Lyon", "url": "https://www.fotmob.com/matches/anderlecht-vs-lyon/2slyng", "accessedAt": "2026-09-14T09:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Sturm Graz",
+      "awayTeam": "Rennes",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 29, "draw": 30, "away": 41 },
+      "analysis": {
+        "summary": "Rennes part avec un avantage modéré, mais Sturm Graz à domicile reste suffisamment compétitif pour maintenir un risque élevé de nul ou de succès autrichien.",
+        "keyFactors": ["Rennes légèrement favori dans les cotes disponibles", "Avantage du terrain pour Sturm Graz", "Écart limité entre les trois scénarios"],
+        "uncertainty": "Élevée : avantage rennais réel mais insuffisant pour écarter le nul et le 1.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:56:45+02:00" },
+          { "label": "ScoresAndStats — Sturm Graz vs Rennes", "url": "https://www.scoresandstats.com/predictions/soccer/uefa-europa-league/sturm-graz-vs-rennes-odds-picks/2026-09-16/", "accessedAt": "2026-09-14T09:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Benfica",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 46, "draw": 30, "away": 24 },
+      "analysis": {
+        "summary": "Milan conserve l'avantage du terrain et une légère supériorité globale, mais Benfica possède assez de qualité européenne pour rendre le nul significatif.",
+        "keyFactors": ["Avantage du terrain pour Milan", "Expérience européenne élevée des deux équipes", "Écart modéré qui justifie une forte couverture du nul"],
+        "uncertainty": "Élevée : Milan est devant sans disposer d'une marge suffisante pour être traité comme favori fort.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:57:10+02:00" },
+          { "label": "365Scores — AC Milan vs Benfica", "url": "https://www.365scores.com/en-us/football/match/uefa-europa-league-573/ac-milan-benfica-227-888-573", "accessedAt": "2026-09-14T09:57:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Sunderland",
+      "awayTeam": "AZ Alkmaar",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-16T21:00:00+02:00",
+      "probabilities": { "home": 45, "draw": 28, "away": 27 },
+      "analysis": {
+        "summary": "Sunderland bénéficie du terrain et d'un niveau de compétition domestique élevé, mais AZ reste une équipe européenne suffisamment dangereuse pour empêcher un pronostic très tranché.",
+        "keyFactors": ["Avantage du Stadium of Light", "Sunderland légèrement favori dans les marchés", "AZ conserve une menace offensive et une expérience européenne"],
+        "uncertainty": "Élevée : Sunderland est favori léger, avec nul et victoire d'AZ proches.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:56:45+02:00" },
+          { "label": "FotMob — Sunderland vs AZ Alkmaar", "url": "https://www.fotmob.com/matches/sunderland-vs-az-alkmaar/2w4bg3", "accessedAt": "2026-09-14T09:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hap.Beer Sheva",
+      "awayTeam": "Dinamo Zagreb",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 24, "draw": 27, "away": 49 },
+      "analysis": {
+        "summary": "Le Dinamo Zagreb est favori grâce à son expérience et à une appréciation de marché nettement supérieure, mais le contexte extérieur maintient un vrai risque de nul.",
+        "keyFactors": ["Dinamo Zagreb favori dans les évaluations disponibles", "Expérience européenne supérieure du Dinamo", "Déplacement qui réduit la confiance dans le 2 sec"],
+        "uncertainty": "Modérée à élevée : avantage extérieur clair, mais pas assez fort pour ignorer le nul.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:57:10+02:00" },
+          { "label": "Betfair — Hapoel Beer Sheva vs Dinamo Zagreb", "url": "https://betting.betfair.com/football/predictions/uefa-europa-league/hapoel-beer-sheva-vs-dinamo-zagreb/dmp6li6llgimr6uuakd4sw0es/", "accessedAt": "2026-09-14T09:57:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "Salzbourg",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T18:45:00+02:00",
+      "probabilities": { "home": 22, "draw": 25, "away": 53 },
+      "analysis": {
+        "summary": "Salzbourg possède l'avantage de qualité et de profondeur, mais le déplacement à Sofia empêche de pousser la probabilité extérieure vers les niveaux très élevés de la répartition publique.",
+        "keyFactors": ["Supériorité qualitative de Salzbourg", "Avantage terrain du Levski", "Calibration prudente face à une forte concentration publique sur le 2"],
+        "uncertainty": "Modérée : Salzbourg est favori clair, avec un risque de nul non négligeable.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:57:10+02:00" },
+          { "label": "FotMob — Levski Sofia vs Salzburg", "url": "https://www.fotmob.com/en-GB/matches/levski-sofia-vs-salzburg/2vhwov", "accessedAt": "2026-09-14T09:57:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "OFI Crète",
+      "awayTeam": "Hoffenheim",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T18:45:00+02:00",
+      "probabilities": { "home": 21, "draw": 26, "away": 53 },
+      "analysis": {
+        "summary": "Hoffenheim reste supérieur sur le papier, mais sa forme récente irrégulière et la bonne dynamique d'OFI rendent le 81 % public sur le 2 excessif pour notre calibration.",
+        "keyFactors": ["Écart de niveau théorique en faveur d'Hoffenheim", "OFI reste sur plusieurs résultats solides", "Hoffenheim a concédé plusieurs défaites récentes et compte des absents"],
+        "uncertainty": "Modérée à élevée : favori extérieur, mais contexte récent assez volatil pour couvrir 1 et N.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:56:45+02:00" },
+          { "label": "FotMob — OFI Crete vs Hoffenheim", "url": "https://www.fotmob.com/matches/ofi-crete-vs-hoffenheim/240mus", "accessedAt": "2026-09-14T09:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Celtic",
+      "awayTeam": "Ferencvaros",
+      "competition": "UEFA Europa League",
+      "probabilities": { "home": 49, "draw": 28, "away": 23 },
+      "analysis": {
+        "summary": "Celtic reste légèrement favori à domicile, mais la lourde défaite récente contre Rangers et la dynamique offensive de Ferencvaros réduisent fortement la marge du 1.",
+        "keyFactors": ["Avantage de Celtic Park", "Celtic vient de subir une nette défaite dans l'Old Firm", "Ferencvaros arrive avec une dynamique offensive positive"],
+        "uncertainty": "Élevée : le 1 reste premier choix, mais N et 2 doivent être réellement couverts.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:57:10+02:00" },
+          { "label": "FotMob — Celtic vs Ferencvaros", "url": "https://www.fotmob.com/matches/ferencvaros-vs-celtic/2q1knv", "accessedAt": "2026-09-14T09:57:10+02:00" },
+          { "label": "The Guardian — Rangers 3-0 Celtic", "url": "https://www.theguardian.com/football/live/2026/sep/13/rangers-v-celtic-scottish-league-cup-quarter-final-live", "accessedAt": "2026-09-14T09:57:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Viktoria Plzen",
+      "awayTeam": "Saint-Gilloise",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 28, "draw": 29, "away": 43 },
+      "analysis": {
+        "summary": "Union Saint-Gilloise présente la meilleure dynamique récente et mérite le statut de favori léger, mais Plzen à domicile conserve une probabilité significative.",
+        "keyFactors": ["Série récente solide de l'Union Saint-Gilloise", "Plusieurs absences signalées des deux côtés", "Avantage terrain de Viktoria Plzen"],
+        "uncertainty": "Élevée : avantage belge modéré avec trois scénarios encore plausibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:57:10+02:00" },
+          { "label": "FotMob — Viktoria Plzen vs Union St.Gilloise", "url": "https://www.fotmob.com/en-GB/matches/viktoria-plzen-vs-union-stgilloise/1mg3pw", "accessedAt": "2026-09-14T09:57:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Bournemouth",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 39, "draw": 30, "away": 31 },
+      "analysis": {
+        "summary": "La Real Sociedad obtient un léger avantage à domicile, tandis que Bournemouth arrive avec une forme récente irrégulière et plusieurs absences, ce qui rapproche fortement les trois issues.",
+        "keyFactors": ["Avantage du terrain pour la Real Sociedad", "Bournemouth reste sur une série sans victoire dans les résultats récents listés", "Plusieurs indisponibilités signalées côté Bournemouth"],
+        "uncertainty": "Très élevée : aucune issue n'atteint 40 % et le nul est central dans la couverture.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:57:10+02:00" },
+          { "label": "FotMob — Real Sociedad vs Bournemouth", "url": "https://www.fotmob.com/matches/real-sociedad-vs-afc-bournemouth/2ggu0z", "accessedAt": "2026-09-14T09:57:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Lech Poznan",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 58, "draw": 24, "away": 18 },
+      "analysis": {
+        "summary": "Crystal Palace reste favori à Selhurst Park, mais ses absences offensives et la très bonne forme récente du Lech imposent une calibration nettement moins extrême que le vote public.",
+        "keyFactors": ["Avantage terrain et niveau de Premier League pour Palace", "Absences offensives importantes signalées à Palace", "Lech Poznan reste sur plusieurs victoires et une forte production offensive"],
+        "uncertainty": "Modérée : Palace est favori, mais le nul et l'outsider ne sont pas négligeables.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:56:45+02:00" },
+          { "label": "FotMob — Crystal Palace vs Lech Poznan", "url": "https://www.fotmob.com/en-GB/matches/lech-poznan-vs-crystal-palace/16xlva", "accessedAt": "2026-09-14T09:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Besiktas",
+      "awayTeam": "Marseille",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 48, "draw": 29, "away": 23 },
+      "analysis": {
+        "summary": "Besiktas dispose de l'avantage du terrain et d'une meilleure dynamique immédiate, alors que Marseille reste sur plusieurs revers et se déplace avec au moins une absence notable.",
+        "keyFactors": ["Très forte influence du terrain à Istanbul", "Besiktas reste sur plusieurs résultats positifs", "Marseille traverse une série récente difficile et Kondogbia est signalé blessé"],
+        "uncertainty": "Élevée : Besiktas est favori léger, mais le nul reste très plausible et Marseille conserve assez de qualité pour surprendre.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF12 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-14T09:56:45+02:00" },
+          { "label": "FotMob — Besiktas vs Marseille", "url": "https://www.fotmob.com/en-GB/matches/marseille-vs-besiktas/2x01xi", "accessedAt": "2026-09-14T09:56:45+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["2", "2", "1", "1", "2", "2", "2", "1", "2", "1", "1", "1"], "rationale": "Suit les favoris calibrés de chaque rencontre et constitue le scénario de référence." },
+    { "id": "t2", "label": "Nuls européens", "selections": ["N", "N", "N", "N", "2", "2", "2", "N", "N", "2", "1", "N"], "rationale": "Couvre une soirée très serrée avec une forte présence du nul, historiquement sous-couvert dans la mémoire statistique." },
+    { "id": "t3", "label": "Résistance des locaux", "selections": ["N", "1", "N", "2", "N", "2", "2", "1", "1", "N", "1", "1"], "rationale": "Renforce les scénarios où plusieurs équipes à domicile résistent aux favoris extérieurs." },
+    { "id": "t4", "label": "Avantage terrain", "selections": ["1", "N", "1", "1", "N", "2", "2", "1", "N", "N", "1", "N"], "rationale": "Met davantage l'accent sur les locaux tout en conservant des nuls sur les affiches les plus équilibrées." },
+    { "id": "t5", "label": "Soirée indécise", "selections": ["1", "N", "N", "N", "2", "2", "N", "1", "2", "N", "1", "1"], "rationale": "Couvre un scénario où les rencontres à faible écart de probabilité basculent souvent vers le nul." },
+    { "id": "t6", "label": "Favoris avec ruptures", "selections": ["N", "1", "1", "1", "2", "2", "2", "N", "N", "N", "1", "1"], "rationale": "Conserve les favoris principaux mais introduit plusieurs ruptures cohérentes sur les matchs à variance élevée." },
+    { "id": "t7", "label": "Extérieurs solides", "selections": ["N", "N", "N", "1", "2", "2", "2", "1", "2", "2", "1", "1"], "rationale": "Accentue les favoris extérieurs tout en protégeant les trois premières affiches par des nuls." },
+    { "id": "t8", "label": "Contre-pied équilibré", "selections": ["N", "2", "1", "N", "2", "2", "2", "1", "1", "N", "1", "N"], "rationale": "Cherche plusieurs contre-pieds sur les matchs médians sans abandonner les favoris les plus robustes." },
+    { "id": "t9", "label": "Surprises offensives", "selections": ["1", "1", "1", "2", "2", "2", "2", "1", "2", "2", "1", "N"], "rationale": "Couvre une soirée plus ouverte où Sunderland, Bournemouth et Marseille ou le nul final perturbent le scénario central." },
+    { "id": "t10", "label": "Double bascule", "selections": ["2", "1", "1", "N", "N", "2", "2", "1", "N", "2", "1", "1"], "rationale": "Diversifie les matchs 2, 5, 9 et 10, qui concentrent une part importante de l'incertitude du portefeuille." },
+    { "id": "t11", "label": "Outsiders ciblés", "selections": ["1", "2", "N", "1", "2", "2", "2", "N", "2", "N", "1", "N"], "rationale": "Ajoute des outsiders ciblés sur Sturm Graz, Ferencvaros et plusieurs nuls afin d'augmenter la distance avec les scénarios principaux." },
+    { "id": "t12", "label": "Couverture finale", "selections": ["N", "N", "1", "N", "2", "2", "2", "1", "N", "1", "1", "1"], "rationale": "Complète la couverture des nuls sur les rencontres serrées sans multiplier des quasi-clones du ticket central." }
+  ]
+}
