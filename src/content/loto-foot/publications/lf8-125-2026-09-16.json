@@ -1,0 +1,165 @@
+{
+  "id": "lf8-125-2026-09-16",
+  "formula": 8,
+  "gridNumber": 125,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-16T18:40:00+02:00",
+  "publishedAt": "2026-09-15T01:59:31+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Anderlecht",
+      "awayTeam": "Lyon",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 28, "draw": 29, "away": 43},
+      "analysis": {
+        "summary": "Lyon conserve un léger avantage de qualité et de marché, mais Anderlecht arrive avec une forte dynamique à domicile et une défense récente solide, ce qui maintient le nul très plausible.",
+        "keyFactors": ["Anderlecht reste sur une série récente solide et a enchaîné plusieurs clean sheets.", "Lyon présente davantage de profondeur et reste favori du marché, sans dominer nettement.", "Le profil européen d'Anderlecht à domicile justifie de ne pas surpondérer le 2."],
+        "uncertainty": "Match relativement équilibré : l'avantage lyonnais est réel mais modéré et le nul reste fortement crédible.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"Forebet — Anderlecht vs Lyon preview","url":"https://www.forebet.com/en/football-match-previews/30710-anderlechts-home-steel-meets-lyons-european-know-how","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Oddschecker — Anderlecht vs Lyon","url":"https://www.oddschecker.com/football/europa-league/anderlecht-v-lyon/winner","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Sturm Graz",
+      "awayTeam": "Rennes",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 28, "draw": 27, "away": 45},
+      "analysis": {
+        "summary": "Rennes est favori du marché et démarre bien sa saison, mais Sturm Graz est performant à domicile. Le déplacement inhabituel de Rennes depuis la Slovénie ajoute une petite incertitude logistique.",
+        "keyFactors": ["Rennes est invaincu en Ligue 1 et possède davantage de qualité offensive.", "Sturm Graz a un bilan récent solide à domicile et concède peu sur ses dernières sorties chez lui.", "Le marché place Rennes favori mais pas à un niveau qui permet d'écarter le 1 ou le nul."],
+        "uncertainty": "Avantage Rennes, mais le contexte extérieur et la solidité de Sturm à Graz rendent le match plus ouvert qu'un favori net.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"Forebet — Sturm Graz vs Rennes preview","url":"https://www.forebet.com/en/football-match-previews/30706-sturm-grazs-home-steel-vs-rennes-ruthless-edge-a-tight-europa-league-matchup-looms","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Oddschecker — Sturm Graz vs Rennes","url":"https://www.oddschecker.com/football/europa-league/sk-sturm-graz-v-rennes/winner","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"talkSPORT — Rennes logistical issue before Sturm Graz","url":"https://talksport.com/football/4580997/rennes-europa-league-team-different-country-sturm-graz/","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Benfica",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 39, "draw": 28, "away": 33},
+      "analysis": {
+        "summary": "Milan bénéficie du terrain et reste légèrement favori du marché, mais Benfica arrive avec une dynamique nettement meilleure. La rencontre est donc beaucoup plus équilibrée que le seul statut du club italien ne le suggère.",
+        "keyFactors": ["Benfica reste sur une série de victoires et affiche une production offensive récente supérieure.", "Milan conserve l'avantage du terrain et un léger soutien du marché 1N2.", "Les modèles externes divergent fortement entre victoire milanaise et victoire de Benfica."],
+        "uncertainty": "Très forte incertitude : les trois issues sont crédibles et la divergence des modèles impose une couverture large.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"Forebet — Milan vs Benfica preview","url":"https://www.forebet.com/en/football-match-previews/30704-formidable-benfica-visit-measured-milan-margins-look-thin-in-europa-league-clash","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Oddschecker — AC Milan vs Benfica","url":"https://www.oddschecker.com/football/europa-league/ac-milan-v-benfica/winner","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Footlab — AC Milan vs Benfica","url":"https://footlab.ai/en/match/ac-milan-vs-benfica-1636207","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Olympiakos",
+      "awayTeam": "Jagiellonia",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 63, "draw": 22, "away": 15},
+      "analysis": {
+        "summary": "Olympiakos reste un favori clair selon le marché et joue à domicile, mais ses difficultés offensives récentes et les absences signalées réduisent la confiance par rapport aux cotes brutes.",
+        "keyFactors": ["Le marché 1N2 place nettement Olympiakos devant.", "Olympiakos a récemment manqué d'efficacité offensive et traverse un changement d'entraîneur.", "Jagiellonia reste difficile à battre en Europe et a montré une bonne résistance à l'extérieur."],
+        "uncertainty": "Favori clair à domicile, mais une attaque grecque diminuée augmente la probabilité d'un nul ou d'une surprise.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"Tipsters.net — Olympiacos vs Jagiellonia preview","url":"https://tipsters.net/matches/soccer/16-09-2026-olympiacos-jagiellonia-bialystok","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Stake — Olympiacos vs Jagiellonia odds","url":"https://stake.com/pt/sports/soccer/international-clubs/uefa-europa-league/46854870-olympiacos-piraeus-jagiellonia-bialystok","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Ararat Armenia",
+      "awayTeam": "Sparta Prague",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 22, "draw": 24, "away": 54},
+      "analysis": {
+        "summary": "Sparta Prague dispose du profil offensif et du soutien du marché pour partir favori, mais Ararat Armenia reste solide à domicile, ce qui interdit de traiter le 2 comme une certitude.",
+        "keyFactors": ["Le marché et plusieurs modèles placent Sparta Prague favori à l'extérieur.", "Ararat Armenia reste sur une dynamique récente robuste et est difficile à battre chez lui.", "Sparta affiche une puissance offensive supérieure mais aussi une certaine volatilité."],
+        "uncertainty": "Avantage Sparta, avec un risque non négligeable de nul ou de résistance arménienne à domicile.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"Forebet — Ararat-Armenia vs Sparta Praha preview","url":"https://www.forebet.com/fr/football-match-previews/30703-sparta-prahas-attack-meets-ararat-armenias-home-resilience","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Oddschecker — Ararat Armenia vs Sparta Prague","url":"https://www.oddschecker.com/football/europa-league/ararat-armenia-v-sparta-prague/winner","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"BetClan — Ararat Armenia vs Sparta Prague","url":"https://www.betclan.com/predictionsdetails/football/200435356/ararat-armenia-v-sparta-prague-prediction-h2h-tip-and-match-preview/","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Omonia Nicosie",
+      "awayTeam": "Celta Vigo",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 25, "draw": 32, "away": 43},
+      "analysis": {
+        "summary": "Celta Vigo possède l'avantage qualitatif et celui du marché, mais sa forte fréquence récente de nuls et la capacité d'Omonia à fermer les matchs à domicile renforcent nettement le scénario N.",
+        "keyFactors": ["Celta est favori du marché mais reste sur une série extérieure peu convaincante.", "Omonia concède peu à domicile et a déjà montré sa capacité à gérer des rencontres européennes.", "Une alerte physique concernant Iago Aspas augmente légèrement l'incertitude offensive côté Celta."],
+        "uncertainty": "Le 2 reste l'issue la plus probable, mais le nul est presque aussi important à couvrir compte tenu des tendances récentes.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"Forebet — Omonia Nicosia vs Celta Vigo preview","url":"https://www.forebet.com/en/football-match-previews/30702-omonias-home-resilience-meets-celta-vigos-draw-heavy-run-margins-look-thin","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"SportyTrader — Omonia Nicosia vs Celta Vigo odds","url":"https://www.sportytrader.com/en/odds/omonia-nicosia-celta-vigo-8786936/","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Leverkusen",
+      "awayTeam": "NK Celje",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 72, "draw": 18, "away": 10},
+      "analysis": {
+        "summary": "Leverkusen est le favori le plus net de la grille grâce à l'écart de niveau, au terrain et à un marché très fortement orienté vers le 1. Quelques absences et la volatilité récente empêchent toutefois de monter davantage.",
+        "keyFactors": ["Les cotes agrégées donnent un avantage très important à Leverkusen.", "Leverkusen a déjà produit plusieurs performances offensives fortes cette saison.", "Plusieurs absences réduisent légèrement la marge de sécurité du favori."],
+        "uncertainty": "Faible à modérée : le 1 domine clairement, mais une petite couverture alternative reste défendable sur un portefeuille large.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"LiveFootAI — Bayer Leverkusen vs NK Celje","url":"https://livefootai.com/en/matches/bayer-leverkusen-vs-nk-celje","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Wincomparator — Bayer Leverkusen vs NK Celje","url":"https://www.wincomparator.com/fr-fr/pronostics/bayer-leverkusen-celje-8786938/","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Sunderland",
+      "awayTeam": "AZ Alkmaar",
+      "competition": "UEFA Europa League",
+      "probabilities": {"home": 50, "draw": 27, "away": 23},
+      "analysis": {
+        "summary": "Sunderland est favori à domicile selon le marché, mais AZ arrive avec une meilleure dynamique récente. Le 1 reste central sans justifier une confiance excessive.",
+        "keyFactors": ["Le marché place Sunderland autour de la moitié des chances de victoire.", "Sunderland a récemment montré une bonne organisation défensive malgré la défaite contre Arsenal.", "AZ Alkmaar arrive avec une dynamique de résultats supérieure et constitue une menace réelle en transition."],
+        "uncertainty": "Match à avantage domicile mais suffisamment ouvert pour couvrir le nul et quelques scénarios de victoire d'AZ.",
+        "sources": [
+          {"label":"FDJ Parions Sport — LF8 n°125","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-15T01:58:05+02:00"},
+          {"label":"LiveFootAI — Sunderland vs AZ Alkmaar","url":"https://livefootai.com/en/matches/sunderland-vs-az-alkmaar","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"Betora — Sunderland vs AZ Alkmaar","url":"https://betora.app/prediction/world-uefa-europa-league/az-alkmaar-vs-sunderland","accessedAt":"2026-09-15T01:58:18+02:00"},
+          {"label":"The Guardian — Sunderland 0-2 Arsenal","url":"https://www.theguardian.com/football/live/2026/sep/12/sunderland-v-arsenal-premier-league-live","accessedAt":"2026-09-15T01:58:18+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t1","label":"Scénario central","selections":["2","2","1","1","2","2","1","1"],"rationale":"Suit les favoris ou avantages les plus solides de chaque rencontre, avec Milan privilégié à domicile dans le match le plus équilibré."},
+    {"id":"t2","label":"Nuls sur les duels serrés","selections":["N","2","N","1","2","2","1","1"],"rationale":"Renforce les nuls sur Anderlecht-Lyon et Milan-Benfica, deux rencontres à faible écart probabiliste."},
+    {"id":"t3","label":"Rennes accroché, Benfica et Omonia","selections":["2","N","2","1","2","N","1","1"],"rationale":"Couvre un nul de Rennes et deux alternatives crédibles sur Milan-Benfica et Omonia-Celta."},
+    {"id":"t4","label":"Résistance des locaux","selections":["1","2","1","1","N","2","1","N"],"rationale":"Scénario où Anderlecht et Sunderland profitent moins du statut des visiteurs et où Ararat accroche Sparta."},
+    {"id":"t5","label":"Contre-pied européen","selections":["2","1","2","1","2","1","1","1"],"rationale":"Couvre une victoire de Sturm et une victoire d'Omonia, tout en conservant les favoris les plus nets ailleurs."},
+    {"id":"t6","label":"Portefeuille nul renforcé","selections":["N","N","1","1","2","2","1","2"],"rationale":"Corrige la sous-couverture historique des nuls sur deux matchs ouverts et couvre AZ comme outsider plausible."},
+    {"id":"t7","label":"Matchs fermés","selections":["2","2","N","N","2","N","1","1"],"rationale":"Couvre trois nuls sur les rencontres où le contexte peut réduire les écarts de niveau, notamment Olympiakos diminué offensivement."},
+    {"id":"t8","label":"Surprises domicile","selections":["1","N","2","1","1","2","1","N"],"rationale":"Scénario de résistance forte des équipes à domicile sur Anderlecht, Ararat et Sunderland, avec Benfica choisi à Milan."},
+    {"id":"t9","label":"Deux outsiders ciblés","selections":["2","2","1","1","2","N","N","2"],"rationale":"Conserve la structure centrale mais couvre le nul à Leverkusen et une victoire d'AZ, deux branches peu représentées."},
+    {"id":"t10","label":"Volatilité haute","selections":["N","1","N","1","N","2","1","1"],"rationale":"Couvre une victoire de Sturm et deux nuls sur les affiches les plus serrées sans toucher aux favoris très forts."},
+    {"id":"t11","label":"Accident du favori grec","selections":["2","N","1","2","N","2","1","1"],"rationale":"Introduit la victoire de Jagiellonia comme surprise majeure et un nul d'Ararat-Sparta pour diversifier les scénarios de rang payé."},
+    {"id":"t12","label":"Pression locale et AZ","selections":["1","2","2","1","2","N","1","2"],"rationale":"Couvre Anderlecht à domicile, Benfica à Milan, le nul d'Omonia-Celta et AZ à Sunderland dans une combinaison réellement distincte."}
+  ]
+}
