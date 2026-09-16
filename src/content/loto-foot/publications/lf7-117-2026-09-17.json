@@ -1,0 +1,131 @@
+{
+  "id": "lf7-117-2026-09-17",
+  "formula": 7,
+  "gridNumber": 117,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-17T20:55:00+02:00",
+  "publishedAt": "2026-09-16T01:59:45+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Besiktas",
+      "awayTeam": "Marseille",
+      "probabilities": { "home": 48, "draw": 28, "away": 24 },
+      "analysis": {
+        "summary": "Besiktas présente un profil récent plus stable, particulièrement à domicile, tandis que Marseille reste fragile dans ses déplacements.",
+        "keyFactors": ["Besiktas a gagné ses six matchs à domicile cette saison selon la preview consultée.", "Marseille a perdu huit de ses onze derniers déplacements compétitifs selon la même source."],
+        "uncertainty": "Une première journée européenne peut modifier les rotations et Marseille conserve assez de qualité individuelle pour rendre le match serré.",
+        "sources": [
+          { "label": "FDJ Parions Sport - LF7 n°117", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T01:58:30+02:00" },
+          { "label": "Football Whispers - Besiktas vs Marseille preview", "url": "https://footballwhispers.com/blog/besiktas-vs-marseille-prediction-17-09-2026/", "accessedAt": "2026-09-16T01:58:35+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Bournemouth",
+      "probabilities": { "home": 40, "draw": 34, "away": 26 },
+      "analysis": {
+        "summary": "La Real garde l'avantage du terrain, mais la fréquence élevée des nuls de Bournemouth rend le partage des points particulièrement crédible.",
+        "keyFactors": ["Bournemouth reste sur quatre matchs sans défaite et quatre nuls sur ses six derniers matchs.", "La Real n'a gagné que deux de ses six derniers matchs toutes compétitions confondues."],
+        "uncertainty": "La Real possède un plafond supérieur à domicile, mais les tendances de Bournemouth rendent l'écart entre 1 et N faible.",
+        "sources": [
+          { "label": "FDJ Parions Sport - LF7 n°117", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T01:58:30+02:00" },
+          { "label": "Forebet - Real Sociedad vs Bournemouth preview", "url": "https://www.forebet.com/en/football-match-previews/30719-real-sociedad-aim-to-break-stalemate-habits-against-draw-heavy-bournemouth", "accessedAt": "2026-09-16T01:58:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "NEC Nimègue",
+      "probabilities": { "home": 72, "draw": 18, "away": 10 },
+      "analysis": {
+        "summary": "La Juventus dispose du plus gros avantage structurel de la grille grâce à sa solidité à Turin et aux difficultés récentes de NEC.",
+        "keyFactors": ["La Juventus est restée invaincue lors de 27 de ses 30 derniers matchs à domicile.", "NEC affiche une victoire, un nul et quatre défaites sur ses six derniers matchs."],
+        "uncertainty": "La profondeur d'effectif de la Juventus est affectée par des blessures et une compétition européenne peut provoquer des rotations.",
+        "sources": [
+          { "label": "FDJ Parions Sport - LF7 n°117", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T01:58:30+02:00" },
+          { "label": "Forebet - Juventus vs NEC Nijmegen preview", "url": "https://www.forebet.com/en/football-match-previews/30717-juventus-vs-nec-nijmegen-form-lines-fine-margins-and-a-clear-home-edge", "accessedAt": "2026-09-16T01:58:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Viktoria Plzen",
+      "awayTeam": "Saint-Gilloise",
+      "probabilities": { "home": 31, "draw": 30, "away": 39 },
+      "analysis": {
+        "summary": "Union Saint-Gilloise arrive avec la meilleure dynamique, mais la robustesse européenne de Plzen à domicile empêche d'en faire un favori net.",
+        "keyFactors": ["Union est invaincue depuis onze matchs et reste sur quatre victoires.", "Plzen n'a perdu que quatre de ses trente derniers matchs européens à domicile selon la preview."],
+        "uncertainty": "Les suspensions annoncées côté Union et la forte résistance de Plzen à domicile rapprochent nettement les trois issues.",
+        "sources": [
+          { "label": "FDJ Parions Sport - LF7 n°117", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T01:58:30+02:00" },
+          { "label": "Forebet - Viktoria Plzen vs Union Saint-Gilloise preview", "url": "https://www.forebet.com/en/football-match-previews/30713-union-sgs-away-steel-meets-plzens-europa-league-home-stature", "accessedAt": "2026-09-16T01:58:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Lillestrøm",
+      "awayTeam": "Torreense",
+      "probabilities": { "home": 52, "draw": 29, "away": 19 },
+      "analysis": {
+        "summary": "Lillestrøm bénéficie de sa dynamique et du terrain, tandis que le profil récent de Torreense maintient surtout le nul comme alternative.",
+        "keyFactors": ["Lillestrøm reste sur trois victoires consécutives.", "Torreense a fait trois nuls sur ses cinq derniers matchs de championnat."],
+        "uncertainty": "Le niveau relatif entre championnats et le contexte européen inédit rendent l'estimation moins robuste que pour un duel domestique régulier.",
+        "sources": [
+          { "label": "FDJ Parions Sport - LF7 n°117", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T01:58:30+02:00" },
+          { "label": "Forebet - Lillestrom vs Torreense preview", "url": "https://www.forebet.com/en/football-match-previews/30715-lillestroms-home-punch-meets-torreenses-stalemate-streak", "accessedAt": "2026-09-16T01:58:55+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Celtic",
+      "awayTeam": "Ferencvaros",
+      "probabilities": { "home": 42, "draw": 29, "away": 29 },
+      "analysis": {
+        "summary": "Celtic conserve un avantage de terrain, mais sa lourde défaite récente et l'excellente dynamique de Ferencvaros imposent une forte couverture du nul et du 2.",
+        "keyFactors": ["Celtic vient de perdre 3-0 contre Rangers.", "Ferencvaros est invaincu sur ses onze derniers matchs et a gagné cinq de ses six derniers."],
+        "uncertainty": "La réaction de Celtic après le derby et l'intensité de Celtic Park peuvent inverser une dynamique récente défavorable.",
+        "sources": [
+          { "label": "FDJ Parions Sport - LF7 n°117", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T01:58:30+02:00" },
+          { "label": "Forebet - Celtic vs Ferencvaros preview", "url": "https://www.forebet.com/en/football-match-previews/30716-celtics-home-steel-meets-ferencvaros-ruthless-streak-in-a-finely-poised-europa-league-opener", "accessedAt": "2026-09-16T01:59:00+02:00" },
+          { "label": "The Guardian - Rangers 3-0 Celtic", "url": "https://www.theguardian.com/football/live/2026/sep/13/rangers-v-celtic-scottish-league-cup-quarter-final-live", "accessedAt": "2026-09-16T01:59:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Lech Poznan",
+      "probabilities": { "home": 38, "draw": 27, "away": 35 },
+      "analysis": {
+        "summary": "Palace garde un léger avantage lié au terrain et à la qualité individuelle, mais la forme européenne de Lech rend le 2 presque aussi plausible.",
+        "keyFactors": ["Palace a perdu quatre de ses six derniers matchs toutes compétitions confondues.", "Lech a marqué quinze buts en quatre matchs de qualification de Ligue Europa."],
+        "uncertainty": "Le niveau supérieur de la Premier League peut peser davantage que les tendances récentes, tandis que Lech arrive avec beaucoup plus de rythme européen.",
+        "sources": [
+          { "label": "FDJ Parions Sport - LF7 n°117", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T01:58:30+02:00" },
+          { "label": "Forebet - Crystal Palace vs Lech Poznan preview", "url": "https://www.forebet.com/en/football-match-previews/30714-lech-poznans-cutting-edge-meets-crystal-palaces-cautious-structure-in-a-europa-league-opener", "accessedAt": "2026-09-16T01:59:10+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "1", "1", "2", "1", "1", "1"], "rationale": "Retient les issues les plus probables tout en assumant Union à Plzen." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["1", "N", "1", "N", "1", "1", "2"], "rationale": "Renforce les nuls sur Sociedad-Bournemouth et Plzen-Union, avec Lech couvert." },
+    { "id": "t3", "label": "Dynamique visiteurs", "selections": ["1", "N", "1", "2", "1", "2", "2"], "rationale": "Couvre simultanément les dynamiques de Ferencvaros, Union et Lech." },
+    { "id": "t4", "label": "Réaction Marseille", "selections": ["N", "1", "1", "1", "1", "N", "1"], "rationale": "Introduit le nul à Istanbul et une résistance de Plzen, sans abandonner les principaux favoris." },
+    { "id": "t5", "label": "Outsiders européens", "selections": ["2", "N", "1", "2", "N", "2", "2"], "rationale": "Scénario plus contrariant couvrant Marseille et plusieurs visiteurs en forme, avec nul à Lillestrøm." },
+    { "id": "t6", "label": "Sociedad contrariée", "selections": ["1", "2", "1", "N", "1", "N", "2"], "rationale": "Couvre une victoire de Bournemouth et deux matchs européens équilibrés terminant nuls." },
+    { "id": "t7", "label": "Soirée des locaux", "selections": ["1", "1", "1", "1", "1", "1", "1"], "rationale": "Scénario cohérent où l'avantage du terrain domine les rencontres serrées." },
+    { "id": "t8", "label": "Nuls renforcés", "selections": ["N", "N", "1", "N", "N", "N", "1"], "rationale": "Corrige la sous-couverture historique du nul sur les cinq affiches où il reste plausible." },
+    { "id": "t9", "label": "Ferencvaros et Lech", "selections": ["1", "1", "1", "1", "1", "2", "2"], "rationale": "Combine les deux visiteurs en forte dynamique avec des choix locaux ailleurs." },
+    { "id": "t10", "label": "Union et Bournemouth", "selections": ["1", "2", "1", "2", "1", "1", "N"], "rationale": "Couvre deux visiteurs crédibles et le nul à Palace dans un scénario distinct du portefeuille central." },
+    { "id": "t11", "label": "Surprises ciblées", "selections": ["2", "N", "N", "1", "1", "2", "1"], "rationale": "Ajoute les scénarios plus rares Marseille, nul de la Juventus et succès de Ferencvaros sans multiplier les quasi-clones." },
+    { "id": "t12", "label": "Diversification finale", "selections": ["N", "2", "1", "N", "2", "1", "2"], "rationale": "Couvre Bournemouth, Torreense et Lech tout en renforçant deux nuls, pour une diversité marginale encore identifiable." }
+  ]
+}
