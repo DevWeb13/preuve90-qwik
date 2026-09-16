@@ -1,0 +1,278 @@
+{
+  "id": "lf15-77-2026-09-19",
+  "formula": 15,
+  "gridNumber": 77,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-19T20:40:00+02:00",
+  "publishedAt": "2026-09-16T05:58:35+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 22, "draw": 25, "away": 53 },
+      "analysis": {
+        "summary": "Paris SG reste favori, mais le déplacement à Marseille conserve une vraie variance et justifie de ne pas écraser le nul et le 1.",
+        "keyFactors": ["Le modèle SharpSoccerModels donne un avantage net au PSG", "Le marché consulté place également Paris très nettement devant", "Le contexte de classique à Marseille augmente l'incertitude par rapport à un favori ordinaire"],
+        "uncertainty": "Élevée pour un favori de ce niveau en raison du contexte du match et de l'écart entre une probabilité sportive réaliste et les choix FDJ encore très peu stabilisés.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "SharpSoccerModels — Ligue 1 matches", "url": "https://www.sharpmodels.com/soccer/france/ligue-1/matches", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Stake — Ligue 1 market", "url": "https://stake.games/sports/soccer/france", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lyon",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 45, "draw": 27, "away": 28 },
+      "analysis": {
+        "summary": "Lyon possède un léger avantage à domicile, mais Rennes reste suffisamment dangereux pour imposer une couverture large.",
+        "keyFactors": ["SharpSoccerModels place Lyon devant sans domination", "BetClan donne 47% au 1 et 29% au 2", "Les confrontations récentes ont souvent été ouvertes et partagées"],
+        "uncertainty": "Moyenne à élevée : l'avantage lyonnais est réel mais les trois issues restent plausibles.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "SharpSoccerModels — Ligue 1 matches", "url": "https://www.sharpmodels.com/soccer/france/ligue-1/matches", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "BetClan — Lyon vs Rennes", "url": "https://www.betclan.com/es/predictionsdetails/football/200549146/lyon-v-rennes-prediccione-h2h-consejos-de-apuestas-y-prevision-del-partido/", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 38, "draw": 30, "away": 32 },
+      "analysis": {
+        "summary": "Rencontre très équilibrée : Le Mans est compétitif à domicile tandis que Lorient a montré de la solidité à l'extérieur.",
+        "keyFactors": ["SharpSoccerModels ne sépare que faiblement les deux équipes", "Le Mans a beaucoup partagé les points récemment", "Lorient reste dangereux et discipliné à l'extérieur"],
+        "uncertainty": "Très élevée : aucune issue ne dépasse 40% et le nul mérite une couverture renforcée.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Forebet — Le Mans vs Lorient", "url": "https://www.forebet.com/en/football-match-previews/30697-le-mans-fc-and-lorient-set-for-balanced-duel-at-stade-marie-marvingt", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "SharpSoccerModels — Ligue 1 matches", "url": "https://www.sharpmodels.com/soccer/france/ligue-1/matches", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 47, "draw": 29, "away": 24 },
+      "analysis": {
+        "summary": "Toulouse est favori modéré à domicile, avec un nul qui reste un scénario important face à une équipe havraise plutôt compétitive défensivement.",
+        "keyFactors": ["FullTimeStats donne 47/29/24", "SharpSoccerModels confirme un avantage toulousain modéré", "Le Havre a manqué de production offensive mais reste capable de fermer le match"],
+        "uncertainty": "Moyenne : Toulouse a l'avantage mais pas assez pour écarter le nul.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "FullTimeStats — Toulouse vs Le Havre", "url": "https://fulltimestats.com/match/toulouse-vs-le-havre-2026-09-19", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "SharpSoccerModels — Ligue 1 matches", "url": "https://www.sharpmodels.com/soccer/france/ligue-1/matches", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Angers",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 43, "draw": 33, "away": 24 },
+      "analysis": {
+        "summary": "Angers garde l'avantage du terrain et de l'historique à domicile, mais le profil des deux équipes rend le nul particulièrement crédible.",
+        "keyFactors": ["Forebet met en avant six victoires consécutives d'Angers à domicile contre Troyes", "Forebet estime le nul à 36%", "Les deux équipes ont commencé avec des bilans proches"],
+        "uncertainty": "Élevée : le nul est renforcé par la calibration historique qui montre une sous-couverture persistante de N.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Forebet — Angers vs Troyes", "url": "https://www.forebet.com/en/football-match-previews/30698-stalemate-on-the-cards-as-angers-host-troyes-at-stade-raymond-kopa", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "MatchSense — Angers vs Troyes", "url": "https://matchsense.online/matches/angers-vs-estac-troyes-2026-09-19", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 43, "draw": 29, "away": 28 },
+      "analysis": {
+        "summary": "Auxerre obtient un léger avantage grâce au terrain et aux confrontations récentes à l'Abbé-Deschamps, sans marge suffisante pour exclure Brest.",
+        "keyFactors": ["Sept modèles sur dix du panel TuringStats penchent vers Auxerre", "Auxerre a gagné 3-0 les deux dernières réceptions de Brest citées par GOAL", "SharpSoccerModels conserve une distribution serrée"],
+        "uncertainty": "Élevée : l'écart entre le 1, le nul et le 2 reste limité.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "TuringStats — Auxerre vs Brest", "url": "https://www.turingstats.com/football-predictions/auxerre-vs-stade-brestois-29-1552766", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "GOAL — Auxerre vs Brest", "url": "https://www.goal.com/en-ca/news/auxerre-brest-tickets/bltd1a84d4d85446403", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Nice",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 27, "draw": 26, "away": 47 },
+      "analysis": {
+        "summary": "Lille arrive avec une dynamique supérieure et part favori, mais Nice à domicile conserve une probabilité significative de résultat.",
+        "keyFactors": ["SharpSoccerModels place Lille nettement devant", "MatchSense décrit Lille en tête et Nice en difficulté", "Les confrontations récentes restent serrées"],
+        "uncertainty": "Moyenne à élevée : Lille est favori sans atteindre une zone de forte confiance.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "SharpSoccerModels — Ligue 1 matches", "url": "https://www.sharpmodels.com/soccer/france/ligue-1/matches", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "MatchSense — Nice vs Lille", "url": "https://matchsense.online/matches/nice-vs-lille-2026-09-19", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A",
+      "probabilities": { "home": 51, "draw": 27, "away": 22 },
+      "analysis": {
+        "summary": "La Juventus reste favorite à Turin, mais ses absences et sa récente défaite imposent de réduire la confiance par rapport au marché.",
+        "keyFactors": ["Les modèles consultés placent la Juventus favorite", "La Juventus vient de perdre 3-2 à Sassuolo avec des erreurs défensives", "Plusieurs absences importantes réduisent la profondeur turinoise"],
+        "uncertainty": "Moyenne : avantage Juventus, mais le nul et l'Atalanta restent des couvertures pertinentes.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "BetScalp — Juventus vs Atalanta", "url": "https://betscalp.com/fixture/1550132", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Black & White & Read All Over — Juventus vs Sassuolo", "url": "https://www.blackwhitereadallover.com/previews-reviews/41465/juventus-sassuolo-match-ratings-2026-serie-a-matchday-4-final-score-result-analysis", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Leverkusen",
+      "awayTeam": "RB Leipzig",
+      "competition": "Bundesliga",
+      "probabilities": { "home": 49, "draw": 27, "away": 24 },
+      "analysis": {
+        "summary": "Leverkusen est favori modéré à domicile, mais Leipzig possède assez de qualité pour maintenir une distribution prudente.",
+        "keyFactors": ["SharpSoccerModels donne 49% à Leverkusen", "Le modèle ne transforme pas l'avantage du terrain en forte certitude", "La calibration historique invite à conserver une part substantielle au nul"],
+        "uncertainty": "Moyenne à élevée : favori clair mais non dominant.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "SharpSoccerModels — Bundesliga matches", "url": "https://www.sharpmodels.com/soccer/germany/bundesliga/matches", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Liverpool",
+      "competition": "Premier League",
+      "probabilities": { "home": 30, "draw": 27, "away": 43 },
+      "analysis": {
+        "summary": "Liverpool garde l'avantage théorique, mais Bournemouth a déjà montré qu'il pouvait renverser ce rapport de force et les modèles divergent fortement sur l'écart réel.",
+        "keyFactors": ["FullTimeStats ne donne que 37% à Liverpool contre 35% à Bournemouth", "Un autre modèle donne 50% à Liverpool", "Bournemouth avait gagné 3-2 la dernière réception de Liverpool recensée"],
+        "uncertainty": "Très élevée : le 2 est premier choix mais le 1 et le nul doivent être réellement représentés.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "FullTimeStats — Bournemouth vs Liverpool", "url": "https://fulltimestats.com/match/bournemouth-vs-liverpool-2026-09-20", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Football Bet Builder — Bournemouth vs Liverpool", "url": "https://www.footballbetbuilder.co.uk/match/bournemouth-vs-liverpool-2026-09-20", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "FC Porto",
+      "awayTeam": "Benfica",
+      "competition": "Primeira Liga",
+      "probabilities": { "home": 41, "draw": 30, "away": 29 },
+      "analysis": {
+        "summary": "Porto bénéficie du terrain et d'un début de championnat parfait, mais Benfica présente une production offensive suffisante pour garder ce classique très ouvert.",
+        "keyFactors": ["Porto a démarré avec quatre victoires et aucun but encaissé dans la source consultée", "Benfica restait également invaincu dans le relevé", "Les confrontations récentes comprennent plusieurs résultats serrés et nuls"],
+        "uncertainty": "Très élevée : classique équilibré où aucune issue ne mérite une majorité absolue.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Telefootball — Porto vs Benfica", "url": "https://www.telefootball.net/VE/FC-Porto-Benfica-2026-09-19-670381.html", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "FC Séville",
+      "awayTeam": "FC Barcelone",
+      "competition": "La Liga",
+      "probabilities": { "home": 17, "draw": 19, "away": 64 },
+      "analysis": {
+        "summary": "Barcelone est le favori le plus net de cette affiche, tout en conservant une marge de sécurité pour le nul et une surprise sévillane.",
+        "keyFactors": ["MatchSense décrit Barcelone sur huit victoires lors des dix derniers matchs", "Le modèle Parifoot donne 69% au Barça", "La calibration évite de pousser mécaniquement un favori dans une zone de surconfiance"],
+        "uncertainty": "Faible à moyenne : le 2 domine clairement mais n'est pas traité comme certain.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "MatchSense — Sevilla vs Barcelona", "url": "https://matchsense.online/matches/sevilla-vs-barcelona-2026-09-20", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Parifoot — Sevilla vs Barcelona", "url": "https://www.parifoot.com/pronostics/sevilla-vs-barcelona-2026-09-19/", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Atl. Madrid",
+      "awayTeam": "Real Madrid",
+      "competition": "La Liga",
+      "probabilities": { "home": 24, "draw": 27, "away": 49 },
+      "analysis": {
+        "summary": "Real Madrid part favori dans le derby, mais l'Atlético arrive avec une dynamique positive et le contexte réduit l'écart entre les équipes.",
+        "keyFactors": ["Expected90 donne 54% au Real avec un 1-1 comme score modal", "L'Atlético vient de gagner 3-0 à la Real Sociedad", "Le Real a gagné 3-2 à Elche mais Vinícius traverse une période moins efficace"],
+        "uncertainty": "Élevée : le derby et les absences annoncées des deux côtés augmentent la variance.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Expected90 — Atlético Madrid vs Real Madrid", "url": "https://expected90.com/football-predictions/la-liga/atletico-madrid-vs-real-madrid", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Into the Calderon — Real Sociedad vs Atlético", "url": "https://www.intothecalderon.com/atletico-madrid-player-ratings/28044/real-sociedad-0-3-atletico-madrid-la-liga-player-ratings-simeone-grimaldo-jonathan-david", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Man. City",
+      "awayTeam": "Sunderland",
+      "competition": "Premier League",
+      "probabilities": { "home": 66, "draw": 21, "away": 13 },
+      "analysis": {
+        "summary": "Manchester City est un favori solide à l'Etihad, mais Sunderland a déjà montré assez de résistance pour conserver une couverture minimale du nul et du 2.",
+        "keyFactors": ["Forebet donne 58% à City", "Un autre modèle de marché monte City à 77%", "City a commencé le championnat avec quatre victoires tandis que Sunderland a montré une forme plus irrégulière"],
+        "uncertainty": "Faible à moyenne : le 1 est fort, mais la dispersion des modèles déconseille une probabilité extrême.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "Forebet — Manchester City vs Sunderland", "url": "https://www.forebet.com/en/football-match-previews/30795-manchester-city-aiming-to-extend-dominance-over-sunderland-at-the-etihad", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "WagerBeasts — Manchester City vs Sunderland", "url": "https://wagerbeasts.com/soccer/epl/event/manchester-city-vs-sunderland-2026-09-19", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Fulham",
+      "awayTeam": "Man. United",
+      "competition": "Premier League",
+      "probabilities": { "home": 31, "draw": 27, "away": 42 },
+      "analysis": {
+        "summary": "Manchester United possède un avantage modéré, mais Fulham à Craven Cottage et la forme irrégulière des deux équipes rendent les trois issues crédibles.",
+        "keyFactors": ["FullTimeStats donne seulement 39% à United", "Le marché consulté favorise davantage Manchester United", "Les cinq derniers résultats des deux équipes montrent une forte irrégularité"],
+        "uncertainty": "Très élevée : le 2 est premier choix sans constituer un point d'ancrage sûr.",
+        "sources": [
+          { "label": "FDJ Parions Sport — LF15 n°77", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "FullTimeStats — Fulham vs Manchester United", "url": "https://www.fulltimestats.com/match/fulham-vs-manchester-united-2026-09-20", "accessedAt": "2026-09-16T05:58:20+02:00" },
+          { "label": "ODDSLOT — Fulham vs Manchester United", "url": "https://oddslot.com/football/match/premier-league/fulham/manchester-united/20-sep-2026/", "accessedAt": "2026-09-16T05:58:20+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "central", "label": "Scénario central", "selections": ["2","1","1","1","1","1","2","1","1","2","1","2","2","1","2"], "rationale": "Suit les issues les plus probables tout en gardant les favoris seulement lorsqu'ils ont un avantage identifiable." },
+    { "id": "nuls-structurels", "label": "Nuls structurels", "selections": ["2","N","N","1","N","1","2","1","N","2","N","2","2","1","N"], "rationale": "Renforce les nuls sur les rencontres serrées afin de corriger la sous-couverture historique de N." },
+    { "id": "ligue1-variance", "label": "Variance Ligue 1", "selections": ["N","2","2","N","1","N","2","1","1","2","1","2","2","1","2"], "rationale": "Couvre un scénario où plusieurs affiches françaises basculent hors du choix central." },
+    { "id": "outsiders-cibles", "label": "Outsiders ciblés", "selections": ["1","1","2","1","2","2","1","N","1","1","2","2","N","1","1"], "rationale": "Introduit des surprises plausibles sur les matchs les plus ouverts sans renverser tous les favoris forts." },
+    { "id": "favoris-prudents", "label": "Favoris prudents", "selections": ["2","1","N","1","1","1","2","1","1","N","1","2","2","1","2"], "rationale": "Conserve les principaux favoris mais protège deux rencontres à forte variance par le nul." },
+    { "id": "domiciles", "label": "Pression des domiciles", "selections": ["1","1","1","1","1","1","1","1","1","2","1","2","1","1","1"], "rationale": "Scénario cohérent d'avantage terrain renforcé, notamment dans les classiques et rencontres équilibrées." },
+    { "id": "exterieurs", "label": "Réussite extérieure", "selections": ["2","2","2","N","N","2","2","2","2","2","2","2","2","1","2"], "rationale": "Couvre une soirée où les visiteurs convertissent davantage que prévu les affiches équilibrées." },
+    { "id": "nuls-hauts", "label": "Nuls à forte valeur", "selections": ["N","N","N","N","N","1","2","N","1","2","N","2","N","1","N"], "rationale": "Portefeuille volontairement riche en N sur les matchs dont la distribution est resserrée." },
+    { "id": "ruptures", "label": "Ruptures de consensus", "selections": ["1","2","1","2","N","2","1","2","N","1","2","2","1","N","1"], "rationale": "Couvre plusieurs ruptures de consensus sur les matchs où modèles, marché et contexte ne racontent pas exactement la même histoire." },
+    { "id": "favoris-forts", "label": "Favoris forts et équilibre", "selections": ["2","1","N","1","1","N","2","1","1","2","N","2","2","1","2"], "rationale": "Ancre Barcelone, City et les favoris modérés tout en répartissant les nuls sur les affiches à forte incertitude." },
+    { "id": "classiques-nuls", "label": "Classiques sous tension", "selections": ["N","1","1","1","N","1","2","1","1","2","N","2","N","1","2"], "rationale": "Met l'accent sur les nuls dans les classiques et confrontations émotionnelles sans transformer tout le portefeuille en variantes proches." },
+    { "id": "queue-plausible", "label": "Queue plausible", "selections": ["2","2","N","2","2","1","N","N","2","1","1","N","1","2","N"], "rationale": "Dernier scénario de queue : plusieurs surprises simultanées mais encore compatibles avec les probabilités individuelles et la recherche courante." }
+  ]
+}
