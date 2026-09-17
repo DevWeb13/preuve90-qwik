@@ -1,0 +1,241 @@
+{
+  "id": "lf12-78-2026-09-17",
+  "formula": 12,
+  "gridNumber": 78,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-17T20:25:00+02:00",
+  "publishedAt": "2026-09-17T01:59:55+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Besiktas",
+      "awayTeam": "Marseille",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 55, "draw": 25, "away": 20 },
+      "analysis": {
+        "summary": "Besiktas possède l'avantage du terrain et arrive avec une dynamique nettement supérieure à celle d'un Marseille battu lors de ses trois dernières sorties de championnat.",
+        "keyFactors": ["Besiktas reste sur trois victoires domestiques consécutives", "Marseille reste sur trois défaites consécutives en Ligue 1", "Le marché donne Besiktas favori à domicile"],
+        "uncertainty": "Marseille conserve suffisamment de qualité individuelle pour punir un match ouvert, et le contexte européen augmente la variance.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Sky Sports - forme Besiktas / Marseille", "url": "https://www.skysports.com/football/besiktas-vs-marseille/5363781163910742232", "accessedAt": "2026-09-17T01:58:50+02:00" },
+          { "label": "SportsGambler - marché Besiktas / Marseille", "url": "https://www.sportsgambler.com/betting-tips/football/besiktas-vs-marseille-prediction-lineups-odds-2026-09-17/", "accessedAt": "2026-09-17T01:59:15+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Bournemouth",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "analysis": {
+        "summary": "Affiche très équilibrée : Bournemouth est légèrement mieux valorisé par le marché, mais la Real Sociedad reçoit et son avantage de terrain réduit fortement l'écart.",
+        "keyFactors": ["Bournemouth est coté légèrement favori malgré le déplacement", "La Real Sociedad a gagné deux de ses quatre dernières rencontres de Liga avant la défaite contre l'Atlético", "Bournemouth a enchaîné plusieurs nuls récents en Premier League"],
+        "uncertainty": "Les deux équipes présentent une forme irrégulière et Bournemouth découvre ce contexte européen, ce qui maintient les trois issues très proches.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Sky Sports - forme Real Sociedad / Bournemouth", "url": "https://www.skysports.com/football/real-sociedad-vs-bournemouth/577757", "accessedAt": "2026-09-17T01:58:52+02:00" },
+          { "label": "BetVictor - cotes Real Sociedad / Bournemouth", "url": "https://www.betvictor.com/news/real-sociedad-vs-bournemouth-odds-preview-prediction-best-bets/", "accessedAt": "2026-09-17T01:59:16+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "NEC Nimègue",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 76, "draw": 16, "away": 8 },
+      "analysis": {
+        "summary": "La Juventus est un favori net à domicile face à un NEC fragile défensivement et privé de plusieurs éléments, malgré la récente défaite turinoise à Sassuolo.",
+        "keyFactors": ["Le marché sans marge situe la Juventus autour de 77%", "NEC a concédé 12 buts sur ses cinq dernières rencontres recensées", "NEC est privé de son gardien Gonzalo Crettaz suspendu"],
+        "uncertainty": "La Juventus sort d'une défaite 3-2 et ses propres absences peuvent réduire sa marge, mais l'écart structurel reste important.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Legalbet - Juventus / NEC, forme, absences et probabilités de marché", "url": "https://legalbet.com/game-center/juventus-nec-nijmegen-17-09-2026/", "accessedAt": "2026-09-17T01:59:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Viktoria Plzen",
+      "awayTeam": "Saint-Gilloise",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 32, "draw": 29, "away": 39 },
+      "analysis": {
+        "summary": "Union Saint-Gilloise obtient un léger avantage grâce à sa meilleure dynamique récente, mais le déplacement à Plzen conserve une forte probabilité de nul ou de succès local.",
+        "keyFactors": ["Union reste sur une meilleure séquence domestique récente", "Le marché est très serré avec un léger avantage aux Belges", "Plzen bénéficie du terrain au Doosan Arena"],
+        "uncertainty": "Les probabilités sont resserrées et aucune issue ne dépasse 40%, ce qui en fait l'un des principaux matchs de couverture.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "L'Équipe - identité et horaire Plzen / Union Saint-Gilloise", "url": "https://www.lequipe.fr/Football/match-direct/ligue-europa/2026-2027/viktoria-plzen-union-saint-gilloise-preview/702174", "accessedAt": "2026-09-17T01:58:54+02:00" },
+          { "label": "WinComparator - cotes et probabilités Plzen / Union", "url": "https://www.wincomparator.com/predictions/viktoria-plzen-union-saint-gilloise-8786949/", "accessedAt": "2026-09-17T01:59:18+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Lillestrøm",
+      "awayTeam": "Torreense",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 64, "draw": 23, "away": 13 },
+      "analysis": {
+        "summary": "Lillestrøm est favori à Åråsen grâce à une meilleure dynamique, un profil solide à domicile et un marché qui le place nettement devant Torreense.",
+        "keyFactors": ["Lillestrøm reste sur deux victoires de championnat", "Le marché 1N2 place Lillestrøm autour de 1.5", "Torreense a connu plusieurs matchs sans marquer récemment"],
+        "uncertainty": "Les données disponibles sur Torreense sont moins riches que pour les grands championnats et ses huit clean sheets sur quinze matchs invitent à ne pas surévaluer le favori.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Poznavach - forme et effectifs Lillestrøm / Torreense", "url": "https://www.poznavach.com/sv/fotbollstips/lillestrom-sk-torreense-speltips-17-09-2026", "accessedAt": "2026-09-17T01:58:56+02:00" },
+          { "label": "Bwin - marché Lillestrøm / Torreense", "url": "https://www.bwin.dk/da/sports/events/lillestr%C3%B8m-sk-scu-torreense-2%3A7858601", "accessedAt": "2026-09-17T01:58:58+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Celtic",
+      "awayTeam": "Ferencvaros",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 57, "draw": 24, "away": 19 },
+      "analysis": {
+        "summary": "Celtic reste favori à domicile, mais Ferencvaros arrive en bonne forme offensive et le récent revers 3-0 du Celtic face aux Rangers empêche une confiance excessive.",
+        "keyFactors": ["Celtic a remporté ses six premiers matchs de championnat recensés", "Ferencvaros a récemment gagné 7-0 en coupe et reste dangereux offensivement", "Le marché place Celtic favori autour de 1.72"],
+        "uncertainty": "Le Celtic vient de subir un lourd revers en coupe et Ferencvaros a déjà montré sa capacité à gagner à l'extérieur en Europe.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Sky Sports - forme Celtic / Ferencvaros", "url": "https://www.skysports.com/football/celtic-vs-ferencvaros/4878271618356437232", "accessedAt": "2026-09-17T01:58:51+02:00" },
+          { "label": "Telecom Asia - marché Celtic / Ferencvaros", "url": "https://www.telecomasia.net/sports-betting/tips/football/uefa-europa-league/celtic-vs-ferencvaros-match-prediction-17-september-2026/", "accessedAt": "2026-09-17T01:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Lech Poznan",
+      "competition": "UEFA Europa League",
+      "startsAt": "2026-09-17T21:00:00+02:00",
+      "probabilities": { "home": 68, "draw": 20, "away": 12 },
+      "analysis": {
+        "summary": "Crystal Palace dispose d'un avantage net de qualité et de terrain, même si sa défense récente et la bonne capacité offensive de Lech imposent une marge de prudence.",
+        "keyFactors": ["Le marché place Palace favori autour de 1.4", "Lech a gagné trois de ses cinq dernières sorties recensées", "Palace joue à Selhurst Park mais a récemment concédé plusieurs buts"],
+        "uncertainty": "Lech est en forme et Palace reste vulnérable défensivement, ce qui donne une chance réelle au nul ou à une surprise malgré le statut de favori.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Sky Sports - forme Crystal Palace / Lech Poznan", "url": "https://www.skysports.com/football/crystal-palace-vs-lech-poznan/577752", "accessedAt": "2026-09-17T01:58:57+02:00" },
+          { "label": "ToffeeWeb - cotes Crystal Palace / Lech Poznan", "url": "https://www.toffeeweb.com/int/crystal-palace-vs-lech-poznan-predictions-picks-odds-17-09-2026/", "accessedAt": "2026-09-17T01:59:21+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Malaga",
+      "awayTeam": "Villarreal",
+      "competition": "La Liga",
+      "startsAt": "2026-09-17T21:30:00+02:00",
+      "probabilities": { "home": 25, "draw": 29, "away": 46 },
+      "analysis": {
+        "summary": "Villarreal est favori malgré une mauvaise série, principalement parce que Malaga crée peu et n'a inscrit qu'un but sur ses cinq premières rencontres de Liga recensées.",
+        "keyFactors": ["Malaga affiche seulement 0,33 but marqué par match dans les données ESPN", "Villarreal produit davantage d'xG", "Le marché favorise Villarreal autour de 1.9"],
+        "uncertainty": "Villarreal reste lui-même sur une série sans victoire, ce qui maintient le nul à un niveau élevé et interdit d'en faire un banker fort.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "ESPN - statistiques Malaga / Villarreal", "url": "https://www.espn.co.cr/futbol/partido/_/juegoId/401882869/villarreal-malaga", "accessedAt": "2026-09-17T01:58:59+02:00" },
+          { "label": "ToffeeWeb - cotes Malaga / Villarreal", "url": "https://www.toffeeweb.com/malaga-vs-villarreal-predictions-picks-odds-17-09-2026/", "accessedAt": "2026-09-17T01:59:22+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Man. City",
+      "awayTeam": "Norwich",
+      "competition": "EFL Cup",
+      "startsAt": "2026-09-17T20:30:00+02:00",
+      "probabilities": { "home": 82, "draw": 12, "away": 6 },
+      "analysis": {
+        "summary": "Manchester City est le favori le plus solide de la grille grâce à l'écart de niveau, sa série de victoires et l'avantage de l'Etihad, même avec des rotations attendues.",
+        "keyFactors": ["City reste sur cinq victoires compétitives consécutives recensées", "Le marché place City très largement favori", "Norwich a concédé quatre buts à Middlesbrough lors de sa dernière sortie"],
+        "uncertainty": "Une coupe à élimination directe et des rotations importantes augmentent la variance, ce qui empêche de monter davantage la probabilité du favori.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Manchester City - horaire officiel du match", "url": "https://www.mancity.com/tickets/mens/man-city-v-norwich-17-sept-2026", "accessedAt": "2026-09-17T01:58:53+02:00" },
+          { "label": "Sky Sports - forme Manchester City / Norwich", "url": "https://www.skysports.com/football/manchester-city-vs-norwich-city/stats/577580", "accessedAt": "2026-09-17T01:58:55+02:00" },
+          { "label": "ToffeeWeb - cotes Manchester City / Norwich", "url": "https://www.toffeeweb.com/int/manchester-city-vs-norwich-city-predictions-picks-odds-17-09-2026/", "accessedAt": "2026-09-17T01:59:23+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Brentford",
+      "awayTeam": "Chelsea",
+      "competition": "Premier League",
+      "startsAt": "2026-09-18T21:00:00+02:00",
+      "probabilities": { "home": 34, "draw": 29, "away": 37 },
+      "analysis": {
+        "summary": "Le derby londonien est presque un trois-voies : Chelsea a davantage de puissance offensive, tandis que Brentford est invaincu sur sa séquence récente et reçoit.",
+        "keyFactors": ["Brentford est invaincu sur ses six derniers matchs recensés", "Chelsea a marqué dans chaque match de Premier League cette saison", "Les modèles consultés donnent des probabilités très resserrées"],
+        "uncertainty": "L'écart entre les trois issues est faible et les deux défenses ont montré des fragilités, ce qui en fait un match majeur pour diversifier les tickets.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Tips.GG - forme et confrontations Brentford / Chelsea", "url": "https://tips.gg/article/brentford-vs-chelsea-head-to-head-18-09-2026/", "accessedAt": "2026-09-17T01:59:05+02:00" },
+          { "label": "MatchSense - probabilités Brentford / Chelsea", "url": "https://matchsense.online/news/brentford-vs-chelsea-prediction-2026-09-18", "accessedAt": "2026-09-17T01:59:07+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Union Berlin",
+      "competition": "Bundesliga",
+      "startsAt": "2026-09-18T20:30:00+02:00",
+      "probabilities": { "home": 84, "draw": 10, "away": 6 },
+      "analysis": {
+        "summary": "Le Bayern est un très gros favori à l'Allianz Arena : l'écart de niveau, la forme récente et les confrontations directes convergent fortement vers le 1.",
+        "keyFactors": ["Les modèles et le marché situent le Bayern autour de 84-88%", "Le Bayern a battu Union 4-0 lors de leur dernière confrontation de Bundesliga", "Le Bayern présente une forte production offensive récente"],
+        "uncertainty": "Le Bayern a connu quelques résultats moins fluides récemment et le football conserve une variance incompressible, mais l'outsider reste très peu probable.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "PropickAI - probabilités Bayern / Union Berlin", "url": "https://propickai.com/matches/football/bundesliga/bayern-munich-vs-union-berlin-2026-09-18/", "accessedAt": "2026-09-17T01:59:09+02:00" },
+          { "label": "SportyTrader - forme et H2H Bayern / Union Berlin", "url": "https://www.sportytrader.com/en/results-live/bayern-munich-union-berlin-8595848/", "accessedAt": "2026-09-17T01:59:11+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Monaco",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-18T20:45:00+02:00",
+      "probabilities": { "home": 40, "draw": 29, "away": 31 },
+      "analysis": {
+        "summary": "Monaco obtient un avantage modéré grâce à son excellent début de saison et au terrain, tandis que Lens arrive avec de bons indicateurs offensifs mais un changement d'entraîneur immédiat.",
+        "keyFactors": ["Monaco affiche 3 victoires et 1 nul sur ses quatre premiers matchs recensés", "Lens vient de se séparer de Dino Toppmöller", "Lens produit néanmoins davantage d'xG et de tirs dans les données de début de saison"],
+        "uncertainty": "Les indicateurs avancés de Lens sont meilleurs que son classement et un changement d'entraîneur peut produire une réaction, donc le 1 reste loin d'être un banker.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T01:58:35+02:00" },
+          { "label": "Reuters - départ de l'entraîneur de Lens", "url": "https://www.reuters.com/sports/soccer/lens-part-ways-with-coach-toppmoeller-2026-09-15/", "accessedAt": "2026-09-17T01:58:57+02:00" },
+          { "label": "NoFluffPicks - statistiques Monaco / Lens", "url": "https://nofluffpicks.com/uk/match/monaco-vs-lens-2026-09-18", "accessedAt": "2026-09-17T01:59:12+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1","2","1","2","1","1","1","2","1","2","1","1"], "rationale": "Favoris structurants conservés, avec les légers avantages de Bournemouth, Union, Chelsea et Monaco sur les matchs serrés." },
+    { "id": "t2", "label": "Nuls européens", "selections": ["1","N","1","N","1","1","1","2","1","2","1","1"], "rationale": "Couvre deux nuls plausibles sur les affiches européennes les plus équilibrées, en corrigeant la sous-couverture historique du N." },
+    { "id": "t3", "label": "Résistance française", "selections": ["N","1","1","2","1","1","1","2","1","N","1","1"], "rationale": "Couvre un Marseille capable de résister et une Real Sociedad portée par le terrain, avec nul sur le derby Brentford-Chelsea." },
+    { "id": "t4", "label": "Outsiders européens", "selections": ["2","2","1","1","1","N","1","2","1","2","1","N"], "rationale": "Scénario plus contrariant : Marseille gagne, Plzen exploite le terrain, Ferencvaros accroche Celtic et Lens tient Monaco." },
+    { "id": "t5", "label": "Terrain européen", "selections": ["1","1","1","1","1","1","1","N","1","N","1","1"], "rationale": "Accent sur l'avantage du terrain dans les matchs européens et couverture du nul de Villarreal et du derby londonien." },
+    { "id": "t6", "label": "Nuls ciblés", "selections": ["N","N","1","2","1","N","1","2","1","1","1","N"], "rationale": "Renforce volontairement les nuls sur plusieurs rencontres à faible écart probabiliste pour compenser leur sous-couverture historique." },
+    { "id": "t7", "label": "Visiteurs solides", "selections": ["1","2","1","2","1","1","1","2","1","2","1","2"], "rationale": "Variante où Lens transforme ses bons indicateurs offensifs en victoire et où les visiteurs légèrement favoris passent sur les matchs serrés." },
+    { "id": "t8", "label": "Surprises modérées", "selections": ["1","1","1","N","1","2","1","N","1","1","1","1"], "rationale": "Couvre Ferencvaros à Celtic et plusieurs bascules raisonnables sans toucher aux trois favoris les plus robustes." },
+    { "id": "t9", "label": "Équilibre domestique", "selections": ["N","2","1","1","1","1","1","2","1","N","1","2"], "rationale": "Scénario où Besiktas est accroché, Plzen gagne chez lui, Brentford-Chelsea finit nul et Lens surprend Monaco." },
+    { "id": "t10", "label": "Double nul tardif", "selections": ["1","N","1","2","1","1","1","N","1","N","1","N"], "rationale": "Couvre simultanément les nuls de Sociedad-Bournemouth, Malaga-Villarreal, Brentford-Chelsea et Monaco-Lens." },
+    { "id": "t11", "label": "Contre-pied marchés", "selections": ["2","1","1","N","1","1","1","2","1","1","1","1"], "rationale": "Contre-pied mesuré sur Besiktas-Marseille, Sociedad-Bournemouth et Plzen-Union, tout en gardant les favoris forts." },
+    { "id": "t12", "label": "Nul renforcé", "selections": ["1","N","1","N","1","N","1","2","1","N","1","1"], "rationale": "Ticket explicitement calibré contre la sous-couverture historique des nuls, concentré sur les matchs dont les probabilités sont resserrées." }
+  ]
+}
