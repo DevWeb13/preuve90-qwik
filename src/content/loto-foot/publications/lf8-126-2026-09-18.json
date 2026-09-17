@@ -1,0 +1,158 @@
+{
+  "id": "lf8-126-2026-09-18",
+  "formula": 8,
+  "gridNumber": 126,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-18T19:55:00+02:00",
+  "publishedAt": "2026-09-17T06:03:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Monaco",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 47, "draw": 29, "away": 24 },
+      "analysis": {
+        "summary": "Monaco conserve un léger avantage à domicile et reste invaincu en ce début de saison, mais le changement récent d'entraîneur à Lens augmente l'incertitude et rend le nul crédible.",
+        "keyFactors": ["avantage du terrain pour Monaco", "Monaco invaincu en début de saison", "réaction possible de Lens après un changement d'entraîneur"],
+        "uncertainty": "Le contexte de Lens après le changement d'entraîneur rend son niveau immédiat difficile à calibrer.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "Sports Mole - Monaco vs Lens preview", "url": "https://www.sportsmole.co.uk/football/as-monaco/preview/monaco-vs-lens-prediction-team-news-lineups_605206.html", "accessedAt": "2026-09-17T05:59:20+02:00" },
+          { "label": "FreeTips - Monaco vs Lens", "url": "https://www.freetips.com/football/ligue-1/monaco-vs-lens-tips-20260916-0045/", "accessedAt": "2026-09-17T05:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Reims",
+      "awayTeam": "Montpellier",
+      "competition": "Ligue 2",
+      "probabilities": { "home": 49, "draw": 30, "away": 21 },
+      "analysis": {
+        "summary": "Reims est invaincu après six journées et affiche une production offensive nettement supérieure, tandis que Montpellier reste proche au classement grâce à une défense plus serrée.",
+        "keyFactors": ["Reims à 3 victoires et 3 nuls", "forte production offensive récente de Reims", "Montpellier solide défensivement et troisième"],
+        "uncertainty": "La capacité de Montpellier à fermer les matchs maintient une probabilité de nul importante.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "BetMines - Reims vs Montpellier", "url": "https://betmines.com/match-preview/reims-vs-montpellier-prediction-match-preview-and-analysis-ligue-2-18-09-2026", "accessedAt": "2026-09-17T05:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Grenoble",
+      "awayTeam": "Clermont",
+      "competition": "Ligue 2",
+      "probabilities": { "home": 41, "draw": 36, "away": 23 },
+      "analysis": {
+        "summary": "Grenoble progresse avec deux victoires sur ses trois dernières journées et deux clean sheets, mais Clermont a déjà obtenu cinq nuls en six matchs et concède peu.",
+        "keyFactors": ["amélioration récente de Grenoble", "Clermont sans victoire mais cinq nuls", "faible production offensive de Clermont"],
+        "uncertainty": "Le profil très nul de Clermont et la faible marge offensive des deux équipes réduisent la confiance dans le favori.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "BetMines - Grenoble vs Clermont", "url": "https://betmines.com/match-preview/grenoble-foot-38-vs-clermont-prediction-match-preview-and-analysis-ligue-2-18-09-2026", "accessedAt": "2026-09-17T05:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Pau",
+      "awayTeam": "Dunkerque",
+      "competition": "Ligue 2",
+      "probabilities": { "home": 35, "draw": 31, "away": 34 },
+      "analysis": {
+        "summary": "Rencontre très ouverte : Pau a peu marqué récemment, tandis que Dunkerque arrive avec davantage de potentiel offensif et une victoire sur Saint-Étienne, mais reste fragile défensivement à l'extérieur.",
+        "keyFactors": ["Dunkerque vient de battre Saint-Étienne", "Pau a une production offensive récente limitée", "Dunkerque concède régulièrement à l'extérieur"],
+        "uncertainty": "Les forces et faiblesses opposées rendent les trois issues presque équivalentes.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "FotMob - Pau vs Dunkerque", "url": "https://www.fotmob.com/matches/pau-vs-dunkerque/nq9uwk", "accessedAt": "2026-09-17T05:59:20+02:00" },
+          { "label": "BetMines - Pau vs Dunkerque", "url": "https://betmines.com/match-preview/pau-vs-dunkerque-prediction-match-preview-and-analysis-ligue-2-18-09-2026", "accessedAt": "2026-09-17T05:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Laval",
+      "awayTeam": "Sochaux",
+      "competition": "Ligue 2",
+      "probabilities": { "home": 29, "draw": 34, "away": 37 },
+      "analysis": {
+        "summary": "Sochaux arrive invaincu sur cinq matchs avec une défense très solide, alors que Laval reste sur trois défaites consécutives. Le faible volume offensif de Sochaux garde toutefois le nul très présent.",
+        "keyFactors": ["Sochaux invaincu sur ses cinq derniers matchs", "Laval sur trois défaites", "Sochaux n'a concédé qu'un but sur ses cinq derniers matchs"],
+        "uncertainty": "La faible production offensive de Sochaux limite son avantage malgré la dynamique opposée des deux équipes.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "WinComparator - Laval vs Sochaux", "url": "https://www.wincomparator.com/fr-fr/pronostics/stade-lavallois-sochaux-8532859/", "accessedAt": "2026-09-17T06:00:40+02:00" },
+          { "label": "TACTIX - Sochaux form", "url": "https://tactix.football/team/sochaux", "accessedAt": "2026-09-17T06:00:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Rodez",
+      "awayTeam": "Nancy",
+      "competition": "Ligue 2",
+      "probabilities": { "home": 40, "draw": 32, "away": 28 },
+      "analysis": {
+        "summary": "Rodez possède un petit avantage à domicile mais traverse une séquence irrégulière. Nancy a également perdu ses deux derniers matchs et l'historique récent de cette affiche favorise fortement le nul.",
+        "keyFactors": ["avantage du terrain pour Rodez", "formes récentes irrégulières des deux équipes", "quatre derniers Rodez-Nancy à Rodez terminés nuls selon la tendance historique"],
+        "uncertainty": "Les modèles divergent et le nul est structurellement très plausible dans cette confrontation.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "WinComparator - Rodez vs Nancy", "url": "https://www.wincomparator.com/fr-fr/pronostics/rodez-aveyron-nancy-8532863/", "accessedAt": "2026-09-17T06:00:40+02:00" },
+          { "label": "Forebet - Ligue 2 trends", "url": "https://www.forebet.com/en/football-tips-and-predictions-for-france/ligue2/stat-trends", "accessedAt": "2026-09-17T06:00:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Annecy FC",
+      "awayTeam": "Dijon",
+      "competition": "Ligue 2",
+      "probabilities": { "home": 45, "draw": 30, "away": 25 },
+      "analysis": {
+        "summary": "Annecy a mieux démarré la saison et marque avec régularité, mais Dijon vient d'obtenir sa première victoire et a souvent réussi à rester compétitif avec trois nuls en six journées.",
+        "keyFactors": ["Annecy à trois victoires en six journées", "Annecy a marqué lors de chacune des six premières journées", "Dijon reste compétitif malgré une seule victoire"],
+        "uncertainty": "La victoire récente de Dijon et sa fréquence de nuls empêchent de considérer Annecy comme un favori net.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "BetMines - Annecy vs Dijon", "url": "https://betmines.com/match-preview/annecy-vs-dijon-prediction-match-preview-and-analysis-ligue-2-18-09-2026", "accessedAt": "2026-09-17T05:59:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Brentford",
+      "awayTeam": "Chelsea",
+      "competition": "Premier League",
+      "probabilities": { "home": 30, "draw": 31, "away": 39 },
+      "analysis": {
+        "summary": "Chelsea garde davantage de puissance offensive mais sa défense est en grande difficulté, tandis que Brentford est encore invaincu en championnat et a régulièrement accroché Chelsea à domicile.",
+        "keyFactors": ["Brentford invaincu après quatre journées", "Chelsea a concédé au moins deux buts lors de chacune de ses quatre premières journées", "quatre derniers déplacements de Chelsea à Brentford terminés nuls"],
+        "uncertainty": "Les problèmes défensifs de Chelsea et la solidité contextuelle de Brentford rendent le favori extérieur très vulnérable.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°126", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-17T05:58:55+02:00" },
+          { "label": "Read Chelsea - Brentford vs Chelsea preview", "url": "https://readchelsea.com/2026/09/16/brentford-vs-chelsea-preview-h2h-form/", "accessedAt": "2026-09-17T05:59:20+02:00" },
+          { "label": "FourFourTwo - Chelsea defensive form", "url": "https://www.fourfourtwo.com/team/chelsea-are-scoring-for-fun-but-theres-one-bad-habit-xabi-alonso-needs-to-break-to-turn-them-into-contenders", "accessedAt": "2026-09-17T06:00:40+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "1", "1", "1", "2", "1", "1", "2"], "rationale": "Retient les issues légèrement favorites de l'analyse sur chaque rencontre." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["N", "1", "N", "N", "2", "N", "1", "2"], "rationale": "Renforce les nuls sur les matchs serrés afin de corriger leur sous-couverture historique." },
+    { "id": "t3", "label": "Ligue 2 prudente", "selections": ["1", "N", "N", "2", "N", "1", "N", "2"], "rationale": "Couvre un scénario où plusieurs affiches de Ligue 2 se ferment et où Dunkerque profite de sa dynamique." },
+    { "id": "t4", "label": "Réveil outsiders", "selections": ["2", "1", "1", "2", "2", "2", "1", "1"], "rationale": "Couvre plusieurs surprises plausibles : Lens, Dunkerque, Nancy et Brentford." },
+    { "id": "t5", "label": "Bloc domicile", "selections": ["1", "1", "1", "1", "1", "1", "1", "N"], "rationale": "Scénario de forte réussite des équipes à domicile, avec prudence sur Brentford-Chelsea." },
+    { "id": "t6", "label": "Résistance visiteurs", "selections": ["N", "N", "N", "2", "2", "N", "2", "2"], "rationale": "Couvre une journée où les visiteurs évitent majoritairement la défaite sur les affiches les plus équilibrées." },
+    { "id": "t7", "label": "Reims et Sochaux", "selections": ["1", "1", "N", "N", "2", "N", "1", "N"], "rationale": "S'appuie sur les dynamiques de Reims et Sochaux tout en maximisant les nuls crédibles ailleurs." },
+    { "id": "t8", "label": "Surprises ciblées", "selections": ["2", "N", "1", "1", "N", "2", "2", "2"], "rationale": "Introduit des renversements ciblés sur Lens, Nancy et Dijon sans abandonner Chelsea." },
+    { "id": "t9", "label": "Nuls renforcés", "selections": ["N", "N", "N", "N", "N", "N", "1", "N"], "rationale": "Scénario volontairement riche en nuls sur une grille comportant plusieurs matchs très équilibrés et pour compenser le déficit historique de couverture du N." },
+    { "id": "t10", "label": "Favoris avec Brentford", "selections": ["1", "1", "1", "1", "2", "1", "1", "1"], "rationale": "Variante des favoris qui couvre spécifiquement une victoire de Brentford face à la défense fragile de Chelsea." },
+    { "id": "t11", "label": "Sochaux et Chelsea prudents", "selections": ["1", "1", "N", "N", "2", "N", "N", "2"], "rationale": "Conserve les deux visiteurs les mieux soutenus par l'analyse et répartit le risque sur les matchs à forte probabilité de nul." },
+    { "id": "t12", "label": "Renversement Ligue 2", "selections": ["N", "2", "2", "2", "2", "2", "2", "1"], "rationale": "Scénario de journée atypique couvrant plusieurs succès visiteurs plausibles, avec Brentford profitant des fragilités de Chelsea." }
+  ]
+}
