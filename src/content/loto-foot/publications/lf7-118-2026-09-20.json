@@ -1,0 +1,155 @@
+{
+  "id": "lf7-118-2026-09-20",
+  "formula": 7,
+  "gridNumber": 118,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-20T14:55:00+02:00",
+  "publishedAt": "2026-09-18T01:57:27+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-20T20:45:00+02:00",
+      "probabilities": { "home": 22, "draw": 26, "away": 52 },
+      "analysis": {
+        "summary": "Paris reste favori malgré un début de championnat irrégulier : le succès à Brest et la large victoire européenne montrent un redressement, tandis que Marseille reste sur une série domestique fragile et vient de subir un lourd revers européen.",
+        "keyFactors": ["PSG a gagné 1-0 à Brest après plusieurs résultats irréguliers", "Marseille a perdu 4-1 contre Besiktas en Europa League le 17 septembre", "Le Vélodrome et la nature du Classique maintiennent une probabilité significative de scénario serré"],
+        "uncertainty": "Le contexte de derby, l'avantage du terrain marseillais et la variabilité récente du PSG rendent le nul et une réaction de Marseille plausibles.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°118", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T01:56:30+02:00" },
+          { "label": "FotMob - Marseille vs PSG", "url": "https://www.fotmob.com/en-GB/matches/marseille-vs-paris-saint-germain/2t82ab", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Reuters - PSG bat Brest", "url": "https://www.reuters.com/sports/soccer/ferran-torres-scores-again-psg-earn-first-ligue-1-win-season-2026-09-13/", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "The Guardian - soirée Europa League du 17 septembre", "url": "https://www.theguardian.com/football/live/2026/sep/17/real-sociedad-v-bournemouth-crystal-palace-v-lech-poznan-and-more-europa-league-live", "accessedAt": "2026-09-18T01:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Nice",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-20T17:15:00+02:00",
+      "probabilities": { "home": 18, "draw": 27, "away": 55 },
+      "analysis": {
+        "summary": "Lille présente nettement la meilleure dynamique : leader avec 10 points après quatre journées, trois victoires et un nul, face à un Nice encore sans victoire et très peu productif offensivement.",
+        "keyFactors": ["Lille compte 10 points et Nice 2 après quatre journées", "Nice n'a marqué qu'un but en quatre journées", "Nice possède plusieurs absents alors que Lille conserve une dynamique de championnat très positive"],
+        "uncertainty": "Le déplacement et l'historique équilibré des confrontations empêchent de traiter Lille comme un favori absolu.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°118", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T01:56:30+02:00" },
+          { "label": "FotMob - Nice vs Lille", "url": "https://www.fotmob.com/fr/matches/lille-vs-nice/2tkbpo", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Sky Sports - Nice vs Lille", "url": "https://www.skysports.com/football/nice-vs-lille/9191478990541315232", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Reuters - Lille leader après quatre journées", "url": "https://www.reuters.com/sports/soccer/ferran-torres-scores-again-psg-earn-first-ligue-1-win-season-2026-09-13/", "accessedAt": "2026-09-18T01:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-20T17:15:00+02:00",
+      "probabilities": { "home": 34, "draw": 30, "away": 36 },
+      "analysis": {
+        "summary": "Rencontre très ouverte : Brest affiche de meilleurs chiffres offensifs et Kamory Doumbia est en forme, mais Auxerre vient de décrocher sa première victoire et possède des tendances à domicile plus solides que les résultats brestois à l'extérieur.",
+        "keyFactors": ["Auxerre reste sur une victoire 1-0 contre Nice", "Brest a produit davantage de buts et de xG sur les quatre premières journées", "Les tendances domicile d'Auxerre et extérieur de Brest rééquilibrent fortement l'affiche"],
+        "uncertainty": "Les deux équipes restent irrégulières et l'écart estimé entre les trois issues est faible.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°118", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T01:56:30+02:00" },
+          { "label": "Forebet - Auxerre vs Brest preview", "url": "https://www.forebet.com/en/football-match-previews/30699-auxerre-aim-to-build-on-first-win-as-brest-look-to-respond", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "StatMuse - Auxerre vs Brest", "url": "https://www.statmuse.com/fc/match/9-19-2026-aux-vs-bre-112498", "accessedAt": "2026-09-18T01:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Atl. Madrid",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "startsAt": "2026-09-20T16:15:00+02:00",
+      "probabilities": { "home": 31, "draw": 29, "away": 40 },
+      "analysis": {
+        "summary": "Real Madrid arrive avec davantage de résultats positifs et une attaque productive, mais l'Atlético vient de répondre par un 4-0 contre Osasuna et le derby au Metropolitano réduit fortement l'écart entre les deux équipes.",
+        "keyFactors": ["Real Madrid a gagné quatre de ses cinq derniers matchs recensés", "Atlético vient de battre Osasuna 4-0", "Plusieurs absences existent des deux côtés et le derby augmente la variance"],
+        "uncertainty": "Le Real est légèrement supérieur sur la dynamique globale, mais le terrain et le rebond récent de l'Atlético rendent les trois issues crédibles.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°118", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T01:56:30+02:00" },
+          { "label": "FotMob - Atlético Madrid vs Real Madrid", "url": "https://www.fotmob.com/matches/real-madrid-vs-atletico-madrid/2ubozo", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Into the Calderon - Atlético 4-0 Osasuna", "url": "https://www.intothecalderon.com/atletico-madrid-columns/28145/atletico-de-madrid-4-0-ca-osasuna-takeaways-la-liga-grimaldo-baena-jonathan-david-lee-kangin", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Ligaura - Atlético vs Real Madrid preview", "url": "https://www.ligaura.com/match_preview/atletico-madrid-vs-real-madrid-20-sep-2026/", "accessedAt": "2026-09-18T01:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A",
+      "startsAt": "2026-09-20T18:00:00+02:00",
+      "probabilities": { "home": 49, "draw": 29, "away": 22 },
+      "analysis": {
+        "summary": "La Juventus garde l'avantage du terrain et une base de résultats plus solide, même si la défaite à Sassuolo et de nombreuses absences réduisent sa marge. Atalanta reste dangereuse mais vient de perdre deux matchs de championnat consécutifs.",
+        "keyFactors": ["Juventus avait gagné ses deux premiers matchs de Serie A avant un nul puis une défaite", "Atalanta reste sur deux défaites de championnat", "Les absences importantes de la Juventus limitent la confiance dans le favori"],
+        "uncertainty": "Les blessures turinoises et la capacité offensive d'Atalanta rendent le nul et l'issue extérieure suffisamment plausibles pour être couverts.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°118", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T01:56:30+02:00" },
+          { "label": "Sky Sports - Juventus vs Atalanta", "url": "https://www.skysports.com/football/juventus-vs-atalanta/556289", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Forebet - Juventus vs Atalanta preview", "url": "https://www.forebet.com/en/football-match-previews/30816-juventus-aim-to-reclaim-momentum-as-atalanta-test-awaits-in-turin", "accessedAt": "2026-09-18T01:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Fulham",
+      "awayTeam": "Man. United",
+      "competition": "Premier League",
+      "startsAt": "2026-09-20T17:30:00+02:00",
+      "probabilities": { "home": 34, "draw": 32, "away": 34 },
+      "analysis": {
+        "summary": "C'est l'un des matchs les plus indécis de la grille : Fulham reste irrégulier mais Manchester United n'a gagné qu'un de ses quatre premiers matchs de Premier League et présente des fragilités défensives persistantes.",
+        "keyFactors": ["Fulham vient de tenir Liverpool à 0-0", "Manchester United n'a qu'une victoire sur ses quatre premiers matchs de Premier League", "United reste sur une élimination 3-2 contre Brighton après avoir mené de deux buts"],
+        "uncertainty": "Les deux équipes manquent de constance ; aucune issue ne dépasse nettement les autres dans l'estimation.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°118", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T01:56:30+02:00" },
+          { "label": "FotMob - Fulham vs Manchester United", "url": "https://www.fotmob.com/en-GB/matches/fulham-vs-manchester-united/3cqww9", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Winners League - Fulham vs Manchester United preview", "url": "https://www.winners-league.com/match_preview/fulham-vs-manchester-united-20-sep-2026/", "accessedAt": "2026-09-18T01:56:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Liverpool",
+      "competition": "Premier League",
+      "startsAt": "2026-09-20T17:30:00+02:00",
+      "probabilities": { "home": 34, "draw": 30, "away": 36 },
+      "analysis": {
+        "summary": "Liverpool conserve un léger avantage de qualité, mais Bournemouth vient de gagner 2-1 sur le terrain de la Real Sociedad et le calendrier européen très rapproché ajoute de la fatigue. Les deux équipes ont par ailleurs connu plusieurs nuls en championnat.",
+        "keyFactors": ["Bournemouth a gagné 2-1 à la Real Sociedad en Europa League le 17 septembre", "Bournemouth et Liverpool restent tous deux sur plusieurs matchs de championnat sans victoire", "Bournemouth joue environ 64 heures après son déplacement européen et les deux effectifs ont des absents"],
+        "uncertainty": "Le niveau intrinsèque de Liverpool est compensé par sa forme de championnat mitigée, le terrain et le calendrier de Bournemouth ; les trois issues restent proches.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°118", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T01:56:30+02:00" },
+          { "label": "The Guardian - Real Sociedad 1-2 Bournemouth", "url": "https://www.theguardian.com/football/live/2026/sep/17/real-sociedad-v-bournemouth-crystal-palace-v-lech-poznan-and-more-europa-league-live", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Forebet - Bournemouth vs Liverpool preview", "url": "https://www.forebet.com/en/football-match-previews/30797-bournemouth-vs-liverpool-iraola-returns-as-cherries-look-to-trouble-reds-again", "accessedAt": "2026-09-18T01:56:45+02:00" },
+          { "label": "Victory Picks - Bournemouth vs Liverpool preview", "url": "https://www.victorypicks.com/en/previews/bournemouth-vs-liverpool-september-20-2026-930/", "accessedAt": "2026-09-18T01:56:45+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Favoris calibrés", "selections": ["2", "2", "2", "2", "1", "N", "2"], "rationale": "Socle des issues légèrement ou nettement favorites, avec le nul sur Fulham-Manchester United qui est pratiquement à trois bandes égales." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["2", "2", "N", "N", "1", "N", "N"], "rationale": "Renforce les nuls sur les rencontres les plus équilibrées, en cohérence avec la sous-couverture historique du N." },
+    { "id": "t3", "label": "Réaction des locaux", "selections": ["1", "2", "1", "1", "1", "1", "1"], "rationale": "Scénario de réaction à domicile sur les affiches tendues, tout en conservant Lille et Juventus comme points d'ancrage." },
+    { "id": "t4", "label": "Outsiders extérieurs", "selections": ["2", "N", "2", "2", "2", "2", "2"], "rationale": "Couvre une soirée favorable aux visiteurs avec Atalanta et Manchester United en surprises, sans multiplier les quasi-clones." },
+    { "id": "t5", "label": "Équilibre maximal", "selections": ["N", "N", "N", "2", "N", "1", "2"], "rationale": "Portefeuille orienté vers les scénarios serrés, notamment sur les affiches où aucune équipe ne dispose d'une marge robuste." },
+    { "id": "t6", "label": "Favoris avec derby nul", "selections": ["2", "2", "1", "N", "1", "2", "2"], "rationale": "Conserve les favoris principaux mais couvre le nul du derby madrilène et une victoire d'Auxerre à domicile." },
+    { "id": "t7", "label": "Double choc local", "selections": ["1", "2", "2", "1", "N", "N", "1"], "rationale": "Couvre simultanément des réactions de Marseille, Atlético et Bournemouth, avec nul sur Juventus-Atalanta et Fulham-United." },
+    { "id": "t8", "label": "Lille solide, chaos anglais", "selections": ["N", "2", "2", "2", "1", "1", "N"], "rationale": "Lille et Juventus restent les ancrages ; les deux rencontres anglaises sont couvertes par des scénarios moins consensuels." },
+    { "id": "t9", "label": "Nuls français", "selections": ["N", "N", "N", "2", "1", "2", "1"], "rationale": "Accentue la couverture des nuls sur les trois premières affiches françaises tout en variant fortement les deux matchs anglais." },
+    { "id": "t10", "label": "Surprises contrôlées", "selections": ["1", "1", "2", "2", "2", "N", "2"], "rationale": "Couvre les surprises Nice et Atalanta dans un scénario où les favoris extérieurs des grands chocs tiennent." },
+    { "id": "t11", "label": "Portefeuille domicile", "selections": ["2", "1", "1", "1", "1", "1", "N"], "rationale": "Scénario de forte réussite des équipes à domicile, sans abandonner PSG sur le match où l'écart estimé reste le plus net." },
+    { "id": "t12", "label": "Variance complète", "selections": ["N", "2", "1", "N", "2", "2", "1"], "rationale": "Ajoute une couverture marginale sur plusieurs issues secondaires simultanément et maintient une forte distance avec les autres tickets." }
+  ]
+}
