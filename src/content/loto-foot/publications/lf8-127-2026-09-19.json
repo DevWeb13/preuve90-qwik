@@ -1,0 +1,169 @@
+{
+  "id": "lf8-127-2026-09-19",
+  "formula": 8,
+  "gridNumber": 127,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-19T17:10:00+02:00",
+  "publishedAt": "2026-09-19T01:56:02+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lyon",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-19T20:45:00+02:00",
+      "probabilities": { "home": 44, "draw": 29, "away": 27 },
+      "analysis": {
+        "summary": "Lyon garde un léger avantage à domicile, mais Rennes arrive avec une dynamique solide et suffisamment de menace offensive pour rendre le nul et le succès extérieur crédibles.",
+        "keyFactors": ["Lyon reste sur une victoire européenne 2-1 à Anderlecht et un 3-1 contre Auxerre en championnat.", "Rennes a battu Marseille et Angers, puis pris un point contre le PSG avant son nul européen à Sturm Graz.", "Le profil historique de la méthode sous-couvre les nuls, ce qui incite à ne pas écraser la probabilité N dans cette affiche équilibrée."],
+        "uncertainty": "Écart de niveau faible et début de saison encore peu échantillonné ; les trois issues restent plausibles.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Lyon vs Rennes", "url": "https://www.fotmob.com/it/matches/lyon-vs-rennes/36cxwz", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "Reuters - Ligue 1 standings and form", "url": "https://www.reuters.com/sports/soccer/missed-chance-paris-fc-lyon-they-slip-behind-ligue-1-leaders-2026-09-12/", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-19T17:15:00+02:00",
+      "probabilities": { "home": 43, "draw": 30, "away": 27 },
+      "analysis": {
+        "summary": "Paris FC est légèrement favori grâce à sa forme récente et au terrain, mais Strasbourg a montré une forte capacité offensive et le nul mérite une couverture importante.",
+        "keyFactors": ["Paris FC a battu Marseille 3-2 et Nice 3-0 avant de tenir Lyon 0-0.", "Strasbourg a inscrit six buts à Troyes et battu Lens, mais a aussi subi un lourd 0-4 à Marseille.", "Les indisponibilités annoncées des deux côtés augmentent l'incertitude autour des compositions."],
+        "uncertainty": "Strasbourg est très volatil et les effectifs annoncés comportent plusieurs joueurs incertains ou blessés.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Paris FC vs Strasbourg", "url": "https://www.fotmob.com/en-GB/matches/paris-fc-vs-strasbourg/26e9n2", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "Reuters - Paris FC et Strasbourg en Ligue 1", "url": "https://www.reuters.com/sports/soccer/missed-chance-paris-fc-lyon-they-slip-behind-ligue-1-leaders-2026-09-12/", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-19T20:45:00+02:00",
+      "probabilities": { "home": 38, "draw": 31, "away": 31 },
+      "analysis": {
+        "summary": "Rencontre très ouverte : Le Mans bénéficie du terrain et a produit plusieurs résultats compétitifs, tandis que Lorient reste difficile à battre et possède une vraie chance à l'extérieur.",
+        "keyFactors": ["Le Mans a battu Angers et Nantes, tout en accrochant Brest et Nice récemment.", "Lorient a gagné à Lens, accroché Toulouse et Nice, mais perdu à domicile contre Troyes.", "Les signaux de forme ne justifient pas de favori net et la calibration historique invite à préserver le nul."],
+        "uncertainty": "C'est l'une des rencontres les plus équilibrées de la grille, avec peu d'écart entre les trois issues.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Le Mans vs Lorient", "url": "https://www.fotmob.com/matches/le-mans-vs-lorient/2hu5xn", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-19T20:45:00+02:00",
+      "probabilities": { "home": 43, "draw": 33, "away": 24 },
+      "analysis": {
+        "summary": "Toulouse a l'avantage du terrain mais reste sans victoire en championnat ; le profil peu prolifique des deux équipes donne au nul une probabilité élevée.",
+        "keyFactors": ["Toulouse et Le Havre comptent chacun deux points après quatre journées.", "Toulouse vient de remonter deux buts à Lorient pour obtenir un 2-2.", "Le Havre a tenu Lyon puis Angers en échec et ses rencontres récentes sont souvent serrées."],
+        "uncertainty": "Deux équipes encore sans victoire et proches au classement rendent le match sensible au premier but.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Toulouse vs Le Havre", "url": "https://www.fotmob.com/matches/le-havre-vs-toulouse/37dzsx", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "L'Équipe - Toulouse vs Le Havre", "url": "https://www.lequipe.fr/Football/match-direct/ligue-1/2026-2027/toulouse-le-havre-preview/690302", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Angers",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-19T20:45:00+02:00",
+      "probabilities": { "home": 40, "draw": 31, "away": 29 },
+      "analysis": {
+        "summary": "Angers reçoit et possède un petit avantage structurel, mais sa forme est irrégulière ; Troyes a déjà montré qu'il pouvait gagner à l'extérieur et le nul reste central.",
+        "keyFactors": ["Angers reste notamment sur une victoire 3-1 à Auxerre mais aussi plusieurs défaites récentes.", "Troyes a gagné à Lorient avant de subir deux lourdes défaites contre Strasbourg puis Lille.", "Troyes présente davantage d'absences annoncées, notamment en défense."],
+        "uncertainty": "Les deux équipes sont irrégulières et la fragilité défensive de Troyes peut être compensée par les propres limites d'Angers.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Angers vs Troyes", "url": "https://www.fotmob.com/matches/angers-vs-troyes/2se1ur", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "Starting11 - Angers vs Troyes availability", "url": "https://starting11.com/fixtures/angers-vs-estac-troyes", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Metz",
+      "awayTeam": "Saint-Étienne",
+      "competition": "Ligue 2",
+      "startsAt": "2026-09-19T20:00:00+02:00",
+      "probabilities": { "home": 28, "draw": 29, "away": 43 },
+      "analysis": {
+        "summary": "Saint-Étienne part légèrement devant grâce à son meilleur début de championnat et sa puissance offensive, mais Metz est solide à domicile et le nul conserve un poids important.",
+        "keyFactors": ["Saint-Étienne est leader avec 15 points et 17 buts marqués après six journées.", "Metz compte neuf points avec seulement cinq buts encaissés et reste compétitif malgré sa récente défaite.", "Le rendement offensif stéphanois est nettement supérieur, mais le déplacement à Saint-Symphorien réduit l'écart."],
+        "uncertainty": "Metz possède une défense capable de ralentir le leader et le dernier résultat stéphanois rappelle que sa supériorité n'est pas absolue.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Metz vs Saint-Étienne", "url": "https://www.fotmob.com/matches/metz-vs-saint-etienne/2stukz", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "Centre Presse - Metz vs Saint-Étienne", "url": "https://www.centrepresseaveyron.fr/sports/resultats-sportifs/football/ligue-2/rencontre/548096/metz-saint-etienne", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "startsAt": "2026-09-19T18:00:00+02:00",
+      "probabilities": { "home": 40, "draw": 31, "away": 29 },
+      "analysis": {
+        "summary": "La Roma reçoit avec une dynamique parfaite et une défense plus convaincante, tandis que l'Inter reste très dangereux offensivement mais arrive avec des incertitudes physiques importantes.",
+        "keyFactors": ["Roma et Inter ont tous deux remporté leurs quatre premiers matchs de Serie A.", "Roma n'a concédé qu'un but et Donyell Malen compte déjà six buts.", "Inter a gagné 5-3 contre Udinese après avoir été mené de deux buts, signe d'une attaque puissante mais d'une défense exposée.", "John Stones s'est blessé contre Udinese et Hakan Çalhanoğlu est annoncé forfait pour ce déplacement."],
+        "uncertainty": "Affiche entre deux équipes à 100 % de victoires ; l'Inter possède assez de qualité offensive pour renverser l'avantage romain.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Roma vs Inter", "url": "https://www.fotmob.com/matches/inter-vs-roma/2hby2d", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "Reuters - Inter et Roma en tête de Serie A", "url": "https://www.reuters.com/sports/soccer/inter-rally-past-udinese-stay-level-with-roma-serie-summit-2026-09-14/", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "SuperSport/AFP - Roma et Inter en forme", "url": "https://supersport.com/football/news/ea74e93c-6530-4054-af37-2d4504758921/in-form-malen-fires-roma-to-serie-a-summit-inter-on-their-heels", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "FC Séville",
+      "awayTeam": "FC Barcelone",
+      "competition": "La Liga",
+      "startsAt": "2026-09-19T21:00:00+02:00",
+      "probabilities": { "home": 13, "draw": 20, "away": 67 },
+      "analysis": {
+        "summary": "Barcelone est le favori le plus net de la grille grâce à une série offensive exceptionnelle, même si Séville arrive en bonne forme et le gardien titulaire barcelonais Joan Garcia est forfait.",
+        "keyFactors": ["Barcelone reste sur plusieurs larges victoires, dont 7-2 contre Racing et 5-0 à Valence.", "Séville a gagné trois de ses quatre rencontres récentes mais a perdu 1-3 à domicile contre l'Atlético.", "Joan Garcia manquera le match pour Barcelone en raison d'une blessure au genou, avec Szczęsny attendu dans le but."],
+        "uncertainty": "La supériorité récente de Barcelone est nette, mais le déplacement à Séville et le changement de gardien empêchent de traiter le 2 comme certain.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°127", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-19T01:55:00+02:00" },
+          { "label": "FotMob - Sevilla vs Barcelona", "url": "https://www.fotmob.com/en-GB/matches/sevilla-vs-barcelona/2de86m", "accessedAt": "2026-09-19T01:55:50+02:00" },
+          { "label": "Barça Blaugranes - Joan Garcia absent contre Séville", "url": "https://www.barcablaugranes.com/barcelona-la-liga/132687/joan-garcia-injury-update-tests-racing", "accessedAt": "2026-09-19T01:55:50+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "1", "1", "1", "1", "2", "1", "2"], "rationale": "Favoris analytiques avec avantage domicile sur les affiches françaises serrées." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["N", "1", "N", "N", "1", "2", "1", "2"], "rationale": "Renforce trois nuls plausibles afin de corriger la sous-couverture historique de N." },
+    { "id": "t3", "label": "Rennes et Strasbourg", "selections": ["2", "2", "1", "1", "N", "2", "1", "2"], "rationale": "Couvre deux outsiders crédibles dans des matchs où les écarts restent faibles." },
+    { "id": "t4", "label": "Lorient et Saint-Étienne", "selections": ["1", "N", "2", "1", "1", "2", "N", "2"], "rationale": "Scénario où Lorient confirme sa compétitivité extérieure et où Roma-Inter se neutralise." },
+    { "id": "t5", "label": "Équilibres Ligue 1", "selections": ["N", "N", "N", "1", "N", "2", "1", "2"], "rationale": "Portefeuille volontairement riche en nuls sur les affiches les plus équilibrées." },
+    { "id": "t6", "label": "Surprises visiteurs", "selections": ["2", "1", "2", "N", "2", "2", "1", "2"], "rationale": "Couvre Rennes, Lorient et Troyes sans toucher au favori barcelonais." },
+    { "id": "t7", "label": "Metz résiste", "selections": ["1", "2", "N", "N", "1", "N", "1", "2"], "rationale": "Scénario de résistance messine et de plusieurs matchs français verrouillés." },
+    { "id": "t8", "label": "Inter frappe à Rome", "selections": ["1", "1", "1", "N", "N", "2", "2", "2"], "rationale": "Couvre une victoire de l'Inter malgré l'avantage donné à Roma, avec deux nuls français." },
+    { "id": "t9", "label": "Paris et Toulouse accrochés", "selections": ["N", "N", "2", "N", "1", "2", "1", "2"], "rationale": "Couvre les scénarios où Paris FC et Toulouse ne convertissent pas leur avantage domicile." },
+    { "id": "t10", "label": "Outsiders domestiques", "selections": ["2", "2", "N", "1", "2", "N", "N", "2"], "rationale": "Variante diversifiée donnant de la place aux visiteurs et aux nuls plutôt qu'aux favoris publics." },
+    { "id": "t11", "label": "Séville résiste", "selections": ["1", "1", "2", "N", "N", "2", "1", "N"], "rationale": "Couvre le scénario minoritaire d'un nul à Séville, associé à plusieurs résultats indépendants du ticket central." },
+    { "id": "t12", "label": "Choc espagnol surprise", "selections": ["N", "2", "1", "1", "1", "2", "2", "1"], "rationale": "Couverture de queue de distribution avec succès sévillan et victoire de l'Inter, sans multiplier les quasi-clones." }
+  ]
+}
