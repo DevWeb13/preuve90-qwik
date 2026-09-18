@@ -1,0 +1,231 @@
+{
+  "id": "lf12-79-2026-09-20",
+  "formula": 12,
+  "gridNumber": 79,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-20T14:55:00+02:00",
+  "publishedAt": "2026-09-18T05:56:07+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-20T20:45:00+02:00",
+      "probabilities": { "home": 15, "draw": 22, "away": 63 },
+      "analysis": {
+        "summary": "Paris SG reste nettement favori malgré le Vélodrome : Marseille traverse une séquence difficile et son avantage de terrain ne suffit pas à effacer l'écart de dynamique et de profondeur.",
+        "keyFactors": ["Marseille a perdu quatre de ses cinq dernières sorties recensées", "La répartition FDJ est très fortement orientée vers Paris SG", "Le match se joue au Vélodrome, ce qui conserve une probabilité réelle de résistance marseillaise"],
+        "uncertainty": "Un Classique augmente la variance et Paris peut être perturbé par le contexte hostile, d'où une couverture du nul dans plusieurs scénarios.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Marseille / Paris SG, forme et absences", "url": "https://www.fotmob.com/matches/marseille-vs-paris-saint-germain/2t82ab", "accessedAt": "2026-09-18T05:54:35+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Nice",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-09-20T17:15:00+02:00",
+      "probabilities": { "home": 22, "draw": 29, "away": 49 },
+      "analysis": {
+        "summary": "Lille possède l'avantage de forme et de classement face à un Nice encore sans victoire en championnat, mais le déplacement à l'Allianz Riviera maintient le nul à un niveau significatif.",
+        "keyFactors": ["Lille compte trois victoires et un nul sur ses quatre premières journées", "Nice n'a pris que deux points sur ses quatre premières journées", "Nice doit composer avec plusieurs absences défensives"],
+        "uncertainty": "Nice reçoit et l'historique des confrontations comporte beaucoup de nuls, ce qui empêche de traiter Lille comme un favori absolu.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Nice / Lille, forme et absences", "url": "https://www.fotmob.com/fr/matches/lille-vs-nice/2tkbpo", "accessedAt": "2026-09-18T05:54:38+02:00" },
+          { "label": "Sky Sports - forme Nice / Lille", "url": "https://www.skysports.com/football/nice-vs-lille/9191478990541315232", "accessedAt": "2026-09-18T05:54:42+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "probabilities": { "home": 32, "draw": 30, "away": 38 },
+      "analysis": {
+        "summary": "Brest obtient un léger avantage statistique grâce à une meilleure production offensive et un début de saison moins fragile, mais cette affiche reste l'une des plus équilibrées de la grille.",
+        "keyFactors": ["Brest affiche davantage de buts et d'xG dans les données disponibles", "Auxerre a perdu trois de ses quatre premières rencontres", "Les cotes disponibles restent proches entre les trois issues"],
+        "uncertainty": "Aucune issue n'atteint 40%, et l'avantage du terrain d'Auxerre rend le nul et le 1 pleinement plausibles.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "StatMuse - Auxerre / Brest, forme, statistiques et blessures", "url": "https://www.statmuse.com/fc/match/9-19-2026-aux-vs-bre-112498", "accessedAt": "2026-09-18T05:54:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Real Madrid",
+      "competition": "La Liga",
+      "startsAt": "2026-09-20T16:15:00+02:00",
+      "probabilities": { "home": 35, "draw": 29, "away": 36 },
+      "analysis": {
+        "summary": "Le derby madrilène est pratiquement à l'équilibre : le Real présente une meilleure série globale, tandis que l'Atlético vient de se relancer avec autorité et reçoit au Metropolitano.",
+        "keyFactors": ["L'Atlético vient de battre Osasuna 4-0", "Le Real a gagné quatre de ses cinq dernières rencontres recensées", "Le Real compte plusieurs absences ou incertitudes défensives et offensives"],
+        "uncertainty": "La nature du derby et le regain récent de l'Atlético rendent les trois issues crédibles malgré la préférence très marquée des joueurs FDJ pour le Real.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Atlético / Real Madrid, forme et absences", "url": "https://www.fotmob.com/matches/real-madrid-vs-atletico-madrid/2ubozo", "accessedAt": "2026-09-18T05:54:48+02:00" },
+          { "label": "Into the Calderon - Atlético 4-0 Osasuna", "url": "https://www.intothecalderon.com/atletico-madrid-columns/28145/atletico-de-madrid-4-0-ca-osasuna-takeaways-la-liga-grimaldo-baena-jonathan-david-lee-kangin", "accessedAt": "2026-09-18T05:54:51+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A",
+      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "analysis": {
+        "summary": "La Juventus reste favorite à Turin, mais ses nombreuses absences au milieu et devant réduisent sa marge face à une Atalanta capable de profiter d'un match moins maîtrisé.",
+        "keyFactors": ["La Juventus bénéficie du terrain et conserve un avantage structurel", "Plusieurs titulaires ou options importantes de la Juventus sont annoncés indisponibles", "Atalanta possède également des absences mais reste suffisamment armée pour menacer"],
+        "uncertainty": "Les absences turinoises rendent le nul plus probable qu'un simple écart de réputation ne le suggère.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "Forebet - Juventus / Atalanta, forme, absences et compositions probables", "url": "https://www.forebet.com/en/football-match-previews/30816-juventus-aim-to-reclaim-momentum-as-atalanta-test-awaits-in-turin", "accessedAt": "2026-09-18T05:54:54+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Fulham",
+      "awayTeam": "Manchester United",
+      "competition": "Premier League",
+      "startsAt": "2026-09-20T17:30:00+02:00",
+      "probabilities": { "home": 33, "draw": 31, "away": 36 },
+      "analysis": {
+        "summary": "Manchester United n'a qu'un très léger avantage théorique : son début de saison et ses fragilités défensives rendent Fulham et le nul presque aussi probables à Craven Cottage.",
+        "keyFactors": ["Manchester United n'a gagné qu'un de ses quatre premiers matchs de Premier League", "United reste sur une élimination en coupe après avoir concédé trois buts à domicile", "Fulham joue à domicile mais reste lui aussi sur une série de résultats mitigés"],
+        "uncertainty": "Deux équipes irrégulières et vulnérables rendent cette rencontre très ouverte ; aucune issue ne dépasse 36%.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Fulham / Manchester United, forme et blessures", "url": "https://www.fotmob.com/en-GB/matches/fulham-vs-manchester-united/3cqww9", "accessedAt": "2026-09-18T05:54:57+02:00" },
+          { "label": "The Sun - situation récente de Manchester United", "url": "https://www.thesun.ie/sport/17631186/michael-carrick-man-utd-brighton-carabao-cup/", "accessedAt": "2026-09-18T05:55:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Liverpool",
+      "competition": "Premier League",
+      "startsAt": "2026-09-20T15:00:00+02:00",
+      "probabilities": { "home": 29, "draw": 30, "away": 41 },
+      "analysis": {
+        "summary": "Liverpool est favori mais sans marge confortable : Bournemouth accumule les nuls et avait battu Liverpool lors de leur précédente confrontation de championnat à Dean Court.",
+        "keyFactors": ["Liverpool reste sur une série récente sans défaite dans les résultats recensés", "Bournemouth a fait trois nuls lors de ses quatre dernières journées recensées", "Bournemouth avait gagné 3-2 la précédente confrontation de championnat en janvier 2026"],
+        "uncertainty": "Le terrain et la capacité de Bournemouth à accrocher les gros adversaires justifient une couverture importante du nul et du 1.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Bournemouth / Liverpool, forme", "url": "https://www.fotmob.com/matches/liverpool-vs-afc-bournemouth/2he69q", "accessedAt": "2026-09-18T05:55:03+02:00" },
+          { "label": "L'Équipe - Bournemouth / Liverpool, horaire et précédente confrontation", "url": "https://www.lequipe.fr/Football/match-direct/championnat-d-angleterre/2026-2027/bournemouth-liverpool-preview/691335", "accessedAt": "2026-09-18T05:55:06+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Leeds United",
+      "awayTeam": "Crystal Palace",
+      "competition": "Premier League",
+      "probabilities": { "home": 45, "draw": 29, "away": 26 },
+      "analysis": {
+        "summary": "Leeds obtient l'avantage grâce au terrain et à une meilleure dynamique récente, tandis que Crystal Palace arrive diminué par plusieurs absences offensives et défensives.",
+        "keyFactors": ["Leeds a pris huit points sur ses quatre dernières journées recensées", "Crystal Palace a perdu trois de ses cinq dernières rencontres recensées", "Palace est privé ou incertain sur plusieurs joueurs importants dont Mateta et Sarr"],
+        "uncertainty": "Palace a montré sa capacité à gagner à Fulham et conserve assez de qualité pour punir Leeds en transition.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Leeds / Crystal Palace, forme et absences", "url": "https://www.fotmob.com/matches/leeds-united-vs-crystal-palace/2rl0qz", "accessedAt": "2026-09-18T05:55:09+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Leverkusen",
+      "awayTeam": "RB Leipzig",
+      "competition": "Bundesliga",
+      "startsAt": "2026-09-20T15:30:00+02:00",
+      "probabilities": { "home": 43, "draw": 28, "away": 29 },
+      "analysis": {
+        "summary": "Leverkusen est légèrement favori à domicile après son 4-0 contre l'Union Berlin, mais ses irrégularités défensives et la capacité de Leipzig à produire de gros scores maintiennent le match ouvert.",
+        "keyFactors": ["Leverkusen vient de battre Union Berlin 4-0", "Leverkusen a également concédé trois buts à Elversberg récemment", "Leipzig vient de gagner 5-0 contre Hambourg mais a aussi subi plusieurs lourdes défaites"],
+        "uncertainty": "Les deux équipes sont très volatiles et touchées par des absences, ce qui augmente la probabilité d'un scénario différent du favori central.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Leverkusen / RB Leipzig, forme et absences", "url": "https://www.fotmob.com/en-GB/matches/bayer-leverkusen-vs-rb-leipzig/803a6n9", "accessedAt": "2026-09-18T05:55:12+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "FC Porto",
+      "awayTeam": "Benfica",
+      "competition": "Liga Portugal",
+      "probabilities": { "home": 36, "draw": 31, "away": 33 },
+      "analysis": {
+        "summary": "Le Clássico est presque équilibré : Porto bénéficie du terrain et d'une défense très solide, tandis que Benfica arrive avec une attaque plus productive et une série parfaite récente.",
+        "keyFactors": ["Porto affiche quatre victoires sur ses cinq dernières sorties recensées", "Benfica reste sur cinq victoires consécutives dans la source consultée", "Porto possède une forte proportion de clean sheets tandis que Benfica produit davantage offensivement"],
+        "uncertainty": "Le niveau très proche des deux équipes et la nature du derby font du nul un scénario majeur à couvrir.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "PredictoBets - Porto / Benfica, forme et statistiques", "url": "https://www.predictobets.com/de/match/fc-porto-vs-sport-lisboa-e-benfica-20-09-2026", "accessedAt": "2026-09-18T05:55:15+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Deportivo La Corogne",
+      "awayTeam": "Real Betis",
+      "competition": "La Liga",
+      "startsAt": "2026-09-20T18:30:00+02:00",
+      "probabilities": { "home": 28, "draw": 30, "away": 42 },
+      "analysis": {
+        "summary": "Le Betis est favori grâce à une excellente dynamique récente, mais le Deportivo a déjà battu Villarreal à l'extérieur et Valence à domicile, ce qui interdit d'écarter la surprise.",
+        "keyFactors": ["Le Betis a gagné quatre de ses cinq dernières rencontres recensées", "Le Betis a récemment battu le Real Madrid et Lille", "Le Deportivo a battu Villarreal 3-2 et Valence 3-1 depuis fin août"],
+        "uncertainty": "Le Deportivo est compétitif depuis sa remontée et reçoit au Riazor ; le nul reste une issue importante.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "FotMob - Deportivo / Real Betis, forme", "url": "https://www.fotmob.com/fr/matches/real-betis-vs-deportivo-coruna/2sn58i", "accessedAt": "2026-09-18T05:55:18+02:00" },
+          { "label": "Sky Sports - forme Deportivo / Real Betis", "url": "https://www.skysports.com/football/rc-deportivo-vs-real-betis/6865738427581598232", "accessedAt": "2026-09-18T05:55:21+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Valence",
+      "awayTeam": "Real Sociedad",
+      "competition": "La Liga",
+      "startsAt": "2026-09-20T21:00:00+02:00",
+      "probabilities": { "home": 25, "draw": 31, "away": 44 },
+      "analysis": {
+        "summary": "La Real Sociedad est favorite face à un Valence en crise profonde, dernier après un début de saison sans victoire et un changement récent d'entraîneur.",
+        "keyFactors": ["Valence n'avait pris qu'un point en cinq matchs au moment du licenciement de Carlos Corberan", "Valence reste sur plusieurs défaites dont un 0-5 contre Barcelone", "La Real Sociedad a gagné deux de ses cinq dernières rencontres recensées malgré une forme irrégulière"],
+        "uncertainty": "Le changement d'entraîneur peut provoquer une réaction à Mestalla et la Real Sociedad n'est pas suffisamment régulière pour justifier une probabilité extérieure extrême.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°79", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-18T05:54:10+02:00" },
+          { "label": "Reuters - crise et changement d'entraîneur à Valence", "url": "https://www.reuters.com/sports/soccer/valencia-sack-ceo-manager-corberan-after-winless-start-season-2026-09-13/", "accessedAt": "2026-09-18T05:55:24+02:00" },
+          { "label": "FotMob - Valence / Real Sociedad, forme et absences", "url": "https://www.fotmob.com/en-GB/matches/real-sociedad-vs-valencia/2xizua", "accessedAt": "2026-09-18T05:55:27+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "central", "label": "Scénario central", "selections": ["2","2","2","2","1","2","2","1","1","1","2","2"], "rationale": "Retient les issues les plus probables tout en assumant les favoris seulement lorsqu'un avantage réel ressort de l'analyse." },
+    { "id": "nuls-structurels", "label": "Nuls structurels", "selections": ["2","N","N","1","1","N","2","1","N","N","2","2"], "rationale": "Renforce les nuls sur les affiches les plus équilibrées afin de corriger la sous-couverture historique du N." },
+    { "id": "equilibre", "label": "Équilibre général", "selections": ["N","2","1","2","N","2","N","1","1","N","N","2"], "rationale": "Couvre plusieurs bascules plausibles sans empiler des outsiders très faibles." },
+    { "id": "domiciles", "label": "Résistance à domicile", "selections": ["2","N","2","N","1","1","2","N","2","2","2","N"], "rationale": "Valorise plusieurs équipes à domicile sur des rencontres où le favori extérieur n'est pas dominant." },
+    { "id": "derbys-serres", "label": "Derbys serrés", "selections": ["N","2","N","1","1","N","1","1","N","1","2","2"], "rationale": "Concentre la couverture sur les matchs à forte tension et les écarts de probabilités réduits." },
+    { "id": "outsiders-cibles", "label": "Outsiders ciblés", "selections": ["2","1","2","2","N","2","N","N","1","N","N","1"], "rationale": "Introduit quelques surprises crédibles sur Nice, Valence et les matchs très indécis sans transformer le ticket en scénario extrême." },
+    { "id": "variance", "label": "Variance élevée", "selections": ["N","N","1","N","1","1","2","1","2","2","2","N"], "rationale": "Couvre une journée où plusieurs favoris sont neutralisés par des nuls ou des succès locaux." },
+    { "id": "renversements", "label": "Renversements plausibles", "selections": ["1","2","N","2","1","N","1","N","N","1","N","2"], "rationale": "Inclut une surprise marseillaise et plusieurs scénarios secondaires cohérents pour augmenter la diversité du portefeuille." },
+    { "id": "nuls-plus", "label": "Nuls renforcés", "selections": ["2","N","2","1","N","2","N","1","2","N","1","N"], "rationale": "Ajoute une seconde famille de nuls sur les matchs où les probabilités sont comprimées, conformément au biais historique observé." },
+    { "id": "alternatif", "label": "Alternatif équilibré", "selections": ["N","2","2","N","1","1","2","N","1","2","N","2"], "rationale": "Diversifie les issues des derbys et des rencontres anglaises sans dupliquer le scénario central." },
+    { "id": "contre-consensus", "label": "Contre-consensus ciblé", "selections": ["2","1","N","2","N","N","1","1","N","N","2","1"], "rationale": "S'écarte du consensus sur quelques rencontres où l'incertitude sportive est supérieure à la répartition des joueurs." },
+    { "id": "couverture-finale", "label": "Couverture finale", "selections": ["N","N","2","1","1","2","N","2","2","1","1","N"], "rationale": "Complète les scénarios encore peu représentés, notamment plusieurs nuls et outsiders à domicile, sans créer un quasi-clone." }
+  ]
+}
