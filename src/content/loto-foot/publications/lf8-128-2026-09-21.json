@@ -1,0 +1,194 @@
+{
+  "id": "lf8-128-2026-09-21",
+  "formula": 8,
+  "gridNumber": 128,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-21T16:55:00+02:00",
+  "publishedAt": "2026-09-20T01:55:39+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Otelul Galati",
+      "awayTeam": "Hunedoara",
+      "competition": "SuperLiga Roumanie",
+      "probabilities": { "home": 45, "draw": 31, "away": 24 },
+      "analysis": {
+        "summary": "Otelul possède un léger avantage à domicile dans une affiche qui reste serrée. Sa série récente est irrégulière mais Corvinul arrive avec deux défaites de championnat consécutives, dont un 0-2 chez Petrolul.",
+        "keyFactors": [
+          "Otelul reste sur 1 victoire, 3 nuls et 2 défaites dans les six résultats récents recensés.",
+          "Corvinul a perdu ses deux derniers matchs de championnat recensés contre Universitatea Craiova et Petrolul.",
+          "L'écart de niveau paraît limité, ce qui conserve une probabilité significative au nul."
+        ],
+        "uncertainty": "Les données disponibles sur les effectifs et absences sont limitées pour cette rencontre ; l'avantage domicile reste donc modéré.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "Suporterii - Otelul Galati vs Corvinul", "url": "https://suporterii.ro/es/meci/otelul-corvinul-ls1807263", "accessedAt": "2026-09-20T01:53:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Pet.Ploiesti",
+      "awayTeam": "Csikszereda",
+      "competition": "SuperLiga Roumanie",
+      "startsAt": "2026-09-21T21:00:00+03:00",
+      "probabilities": { "home": 65, "draw": 22, "away": 13 },
+      "analysis": {
+        "summary": "Petrolul est un favori solide : l'équipe est quatrième avec 16 points, tandis que Csikszereda est dernière avec un point et cinq défaites en cinq déplacements.",
+        "keyFactors": [
+          "Petrolul a pris 9 points sur ses quatre derniers matchs à domicile recensés, avec seulement deux buts encaissés.",
+          "Csikszereda a perdu ses cinq déplacements de championnat, avec 3 buts marqués et 13 encaissés.",
+          "Petrolul n'a perdu aucun des confrontations récentes recensées face à Csikszereda."
+        ],
+        "uncertainty": "Le nul conserve une part non négligeable car deux des trois confrontations récentes recensées se sont terminées à égalité.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "World Soccer Data - Petrolul Ploiesti vs Csikszereda", "url": "https://www.worldsoccerdata.com/stats/romania/superliga/matches/petrolul-ploiesti-vs-csikszereda-21-09-2026", "accessedAt": "2026-09-20T01:53:20+02:00" },
+          { "label": "Suporterii - Petrolul vs Csikszereda", "url": "https://suporterii.ro/meci/petrolul-csikszereda-ls1807265", "accessedAt": "2026-09-20T01:53:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Olimpi Rustavi",
+      "awayTeam": "Iberia 1999",
+      "competition": "Erovnuli Liga Géorgie",
+      "probabilities": { "home": 41, "draw": 30, "away": 29 },
+      "analysis": {
+        "summary": "Olimpi Rustavi mène le championnat et reçoit un Iberia 1999 également installé dans le haut du tableau. Les confrontations 2026 recensées ont déjà basculé dans les deux sens, ce qui empêche d'en faire un favori écrasant.",
+        "keyFactors": [
+          "Olimpi Rustavi est premier avec 46 points après 26 matchs dans la table consultée.",
+          "La dynamique récente d'Olimpi comprend une victoire à Meshakhte, un nul à Spaeri et une défaite contre Dinamo Batumi.",
+          "Olimpi a battu Iberia 2-1 en avril et a également gagné 2-1 sur le terrain d'Iberia en juin dans les résultats recensés."
+        ],
+        "uncertainty": "Iberia reste une équipe du haut de tableau et l'écart entre les deux équipes est suffisamment faible pour couvrir largement le nul et une victoire extérieure.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "PredictZ - classement Erovnuli Liga", "url": "https://www.predictz.com/predictions/georgia/erovnuli-liga/", "accessedAt": "2026-09-20T01:53:35+02:00" },
+          { "label": "PredictZ - résultats Olimpi Rustavi", "url": "https://www.predictz.com/results/georgia/erovnuli-liga/2026/olimpi-rustavi/", "accessedAt": "2026-09-20T01:53:40+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Spaeri",
+      "awayTeam": "Dila Gori",
+      "competition": "Erovnuli Liga Géorgie",
+      "probabilities": { "home": 23, "draw": 28, "away": 49 },
+      "analysis": {
+        "summary": "Dila Gori part avec un avantage clair mais pas absolu. Dila est cinquième avec 37 points contre 25 pour Spaeri et a remporté les confrontations récentes recensées, tandis que Spaeri reste sur une séquence sans victoire.",
+        "keyFactors": [
+          "Dila a gagné les confrontations récentes recensées contre Spaeri, notamment 3-1 en juin et 1-0 en avril.",
+          "Spaeri est neuvième avec 25 points contre 37 pour Dila.",
+          "Spaeri reste sur une défaite 0-1 contre Iberia après deux nuls et une défaite 0-3."
+        ],
+        "uncertainty": "Dila a également montré de la fragilité à l'extérieur ; le nul reste donc un scénario important à couvrir.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "Wincomparator - Spaeri vs Dila Gori", "url": "https://www.wincomparator.com/fr-fr/pronostics/fc-spaeri-dila-gori-8241576/", "accessedAt": "2026-09-20T01:53:50+02:00" },
+          { "label": "BeSoccer - matchs Dila Gori", "url": "https://fr.besoccer.com/equipe/matchs/fc-dila-gori", "accessedAt": "2026-09-20T01:53:55+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Manta FC",
+      "awayTeam": "Orense SC",
+      "competition": "LigaPro Équateur",
+      "probabilities": { "home": 34, "draw": 38, "away": 28 },
+      "analysis": {
+        "summary": "Le nul est légèrement privilégié dans une affiche entre deux équipes en difficulté. Orense possède de meilleurs chiffres saisonniers, mais sa forme extérieure est très mauvaise et l'historique à Manta est particulièrement riche en nuls.",
+        "keyFactors": [
+          "Manta n'a gagné qu'un de ses six derniers matchs recensés, mais Orense a perdu cinq de ses six derniers déplacements recensés.",
+          "Orense n'a gagné aucun de ses neuf derniers déplacements selon les données consultées.",
+          "Sur les huit confrontations recensées à Manta, cinq se sont terminées par un nul."
+        ],
+        "uncertainty": "La rencontre a fait l'objet d'informations de calendrier contradictoires et d'un report dans les sources secondaires ; l'identité de l'affiche est confirmée par la grille FDJ mais aucun horaire de coup d'envoi n'est renseigné.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "SportyTrader - Manta FC vs Orense SC", "url": "https://www.sportytrader.com/en/results-live/manta-fc-orense-sc-8830946/", "accessedAt": "2026-09-20T01:54:05+02:00" },
+          { "label": "SportyTrader - historique Manta FC vs Orense SC", "url": "https://www.sportytrader.com/en/results-live/manta-fc-orense-sc-8835704/", "accessedAt": "2026-09-20T01:54:10+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "CA Lanus",
+      "awayTeam": "Estudiantes LP",
+      "competition": "Liga Profesional Argentine",
+      "probabilities": { "home": 41, "draw": 32, "away": 27 },
+      "analysis": {
+        "summary": "Lanus reçoit avec un léger avantage, mais Estudiantes affiche une défense récente solide. Le profil statistique de la rencontre est plutôt fermé, ce qui augmente le poids du nul.",
+        "keyFactors": [
+          "Lanus compte 13 points en neuf matchs de la phase considérée contre 10 pour Estudiantes dans la source consultée.",
+          "Lanus a pris 7 points sur ses cinq derniers matchs recensés, Estudiantes 8.",
+          "Les deux équipes ont chacune gardé deux clean sheets sur leurs cinq derniers matchs recensés."
+        ],
+        "uncertainty": "Les formes récentes sont proches et Estudiantes concède peu ; l'avantage de Lanus reste donc limité malgré le terrain.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "Upex Deportes - Lanus vs Estudiantes", "url": "https://www.upexsports.com/jogo/lanus-vs-estudiantes-l-p-1493144", "accessedAt": "2026-09-20T01:54:20+02:00" },
+          { "label": "APWin - Lanus vs Estudiantes", "url": "https://www.apwin.com/match/lanus-estudiantes/bAAoqJ/", "accessedAt": "2026-09-20T01:54:25+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Barracas Cent.",
+      "awayTeam": "Ind. Rivadavia",
+      "competition": "Liga Profesional Argentine",
+      "probabilities": { "home": 28, "draw": 33, "away": 39 },
+      "analysis": {
+        "summary": "Independiente Rivadavia obtient un léger avantage grâce à une meilleure dynamique et de meilleurs indicateurs offensifs, mais Barracas reste difficile à départager et enchaîne les nuls.",
+        "keyFactors": [
+          "Barracas reste sur trois nuls consécutifs de championnat dans les résultats récents consultés.",
+          "Independiente Rivadavia affiche une meilleure forme récente et un volume offensif supérieur dans les statistiques consultées.",
+          "L'historique des confrontations reste favorable à Barracas, ce qui empêche de surpondérer le favori extérieur."
+        ],
+        "uncertainty": "Les modèles consultés divergent fortement entre avantage Barracas et avantage Independiente ; le nul et les deux issues doivent donc rester représentés dans le portefeuille.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "GioScore - Barracas Central vs Independiente Rivadavia", "url": "https://gioscore.com/football/match/barracas-central-independiente-rivadavia/19636622", "accessedAt": "2026-09-20T01:54:35+02:00" },
+          { "label": "NoFluffPicks - Barracas Central vs Independiente Rivadavia", "url": "https://nofluffpicks.com/pt/jogo/barracas-central-vs-independiente-rivadavia-2026-09-21", "accessedAt": "2026-09-20T01:54:40+02:00" },
+          { "label": "Wincomparator - Barracas Central vs Independiente Rivadavia", "url": "https://www.wincomparator.com/fr-fr/pronostics/club-atletico-barracas-central-independiente-rivadavia-de-mendoza-8689546/", "accessedAt": "2026-09-20T01:54:45+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "CA Aldosivi",
+      "awayTeam": "Tucuman",
+      "competition": "Liga Profesional Argentine",
+      "probabilities": { "home": 23, "draw": 35, "away": 42 },
+      "analysis": {
+        "summary": "Atletico Tucuman est préféré grâce à sa meilleure stabilité défensive et à une forme extérieure supérieure, mais le profil peu prolifique de l'affiche maintient le nul très haut.",
+        "keyFactors": [
+          "Aldosivi reste sur trois défaites dans ses cinq derniers matchs de championnat recensés malgré une victoire 3-1 contre Banfield.",
+          "Atletico Tucuman affiche une défense nettement plus solide et de bons résultats récents à l'extérieur dans les sources consultées.",
+          "L'historique de 14 confrontations recensées contient huit nuls, ce qui justifie une forte couverture du N."
+        ],
+        "uncertainty": "Les cotes de marché sont plus équilibrées que certains modèles statistiques ; l'avantage extérieur doit donc rester mesuré.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°128", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-20T01:53:00+02:00" },
+          { "label": "GioScore - Aldosivi vs Atletico Tucuman", "url": "https://gioscore.com/football/match/aldosivi-atletico-tucuman/19636621", "accessedAt": "2026-09-20T01:54:55+02:00" },
+          { "label": "Wincomparator - Aldosivi vs Atletico Tucuman", "url": "https://www.wincomparator.com/fr-fr/pronostics/aldosivi-atletico-tucuman-8689547/", "accessedAt": "2026-09-20T01:55:00+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "1", "1", "2", "N", "1", "2", "2"], "rationale": "Suit les avantages principaux tout en plaçant le nul sur Manta-Orense, l'affiche la plus naturellement orientée vers ce scénario." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["N", "1", "1", "2", "N", "N", "2", "2"], "rationale": "Renforce les nuls sur Otelul-Corvinul et Lanus-Estudiantes afin de corriger la sous-couverture historique du N." },
+    { "id": "t3", "label": "Iberia et Manta", "selections": ["1", "1", "2", "2", "1", "1", "N", "2"], "rationale": "Couvre une victoire d'Iberia dans le duel géorgien de haut de tableau, une réaction de Manta à domicile et un nul en Argentine." },
+    { "id": "t4", "label": "Scénario fermé", "selections": ["1", "1", "1", "N", "N", "N", "2", "N"], "rationale": "Portefeuille de matchs fermés avec trois nuls supplémentaires sur des affiches où l'incertitude et les historiques les rendent crédibles." },
+    { "id": "t5", "label": "Alternatives équilibrées", "selections": ["N", "1", "N", "2", "1", "1", "2", "2"], "rationale": "Couvre simultanément un nul à Rustavi, un nul d'Otelul et une victoire de Manta sans abandonner les favoris les plus solides." },
+    { "id": "t6", "label": "Estudiantes résiste", "selections": ["1", "1", "1", "2", "N", "2", "N", "2"], "rationale": "Couvre une victoire extérieure d'Estudiantes et un nul Barracas-Independiente dans un scénario argentin différent du ticket central." },
+    { "id": "t7", "label": "Surprises locales", "selections": ["2", "1", "1", "2", "N", "1", "2", "N"], "rationale": "Teste la surprise Corvinul et le nul Aldosivi-Tucuman, tout en conservant les axes forts Petrolul, Dila et Independiente." },
+    { "id": "t8", "label": "Petrolul accroché", "selections": ["1", "N", "1", "2", "1", "N", "2", "2"], "rationale": "Protège contre un nul de Petrolul et combine cette surprise avec Manta à domicile et un nul à Lanus." },
+    { "id": "t9", "label": "Double nul géorgien", "selections": ["N", "1", "2", "N", "N", "1", "N", "2"], "rationale": "Renforce fortement les nuls et couvre Iberia ainsi qu'un partage des points Spaeri-Dila, deux variantes géorgiennes mal représentées ailleurs." },
+    { "id": "t10", "label": "Visiteurs offensifs", "selections": ["1", "1", "N", "2", "1", "2", "2", "2"], "rationale": "Couvre Estudiantes et un nul Olimpi-Iberia avec Manta vainqueur, tout en gardant Dila, Independiente et Tucuman." },
+    { "id": "t11", "label": "Surprise Spaeri", "selections": ["1", "1", "1", "1", "N", "1", "2", "2"], "rationale": "La seule variante centrée sur une victoire de Spaeri, issue moins probable mais suffisamment distincte pour apporter une couverture marginale réelle." },
+    { "id": "t12", "label": "Contrariant diversifié", "selections": ["N", "1", "1", "2", "2", "N", "1", "N"], "rationale": "Scénario contrariant couvrant Orense, Barracas et plusieurs nuls sans dupliquer les autres architectures de tickets." }
+  ]
+}
