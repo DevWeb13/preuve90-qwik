@@ -114,6 +114,7 @@
     "src/content/loto-foot/results/lf12-75-2026-09-10.json",
     "src/content/loto-foot/results/lf12-76-2026-09-13.json",
     "src/content/loto-foot/results/lf12-77-2026-09-16.json",
+    "src/content/loto-foot/results/lf12-78-2026-09-17.json",
     "src/content/loto-foot/results/lf15-58-2026-07-25.json",
     "src/content/loto-foot/results/lf15-59-2026-07-28.json",
     "src/content/loto-foot/results/lf15-60-2026-07-30.json",
@@ -184,18 +185,17 @@
     "src/content/loto-foot/results/lf8-123-2026-09-12.json",
     "src/content/loto-foot/results/lf8-124-2026-09-14.json",
     "src/content/loto-foot/results/lf8-125-2026-09-16.json",
+    "src/content/loto-foot/results/lf8-126-2026-09-18.json",
     "src/content/loto-foot/results/lf8-96-2026-07-25.json",
     "src/content/loto-foot/results/lf8-97-2026-07-27.json",
     "src/content/loto-foot/results/lf8-98-2026-07-29.json",
     "src/content/loto-foot/results/lf8-99-2026-07-31.json"
   ],
   "pendingPublications": [
-    "src/content/loto-foot/publications/lf12-78-2026-09-17.json",
     "src/content/loto-foot/publications/lf12-79-2026-09-20.json",
     "src/content/loto-foot/publications/lf15-69-2026-08-22.json",
     "src/content/loto-foot/publications/lf15-77-2026-09-19.json",
     "src/content/loto-foot/publications/lf7-118-2026-09-20.json",
-    "src/content/loto-foot/publications/lf8-126-2026-09-18.json",
     "src/content/loto-foot/publications/lf8-127-2026-09-19.json"
   ]
 }
