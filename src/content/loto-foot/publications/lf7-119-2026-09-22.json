@@ -1,0 +1,149 @@
+{
+  "id": "lf7-119-2026-09-22",
+  "formula": 7,
+  "gridNumber": 119,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-22T18:40:00+02:00",
+  "publishedAt": "2026-09-21T05:58:27+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Real Madrid F",
+      "awayTeam": "Paris SG F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 38, "draw": 29, "away": 33 },
+      "analysis": {
+        "summary": "Affiche très équilibrée entre deux équipes invaincues récemment. Le Real bénéficie du terrain et vient de battre Valence 3-1, tandis que Paris reste sur une série défensive très solide. L'avantage madrilène est léger, pas structurel.",
+        "keyFactors": ["Real Madrid invaincu sur ses six derniers matchs recensés", "PSG reste sur plusieurs victoires sans encaisser", "Real Madrid avait gagné 2-1 à Paris lors de leur confrontation européenne 2025-2026", "Avantage du terrain madrilène"],
+        "uncertainty": "Élevée : les deux équipes arrivent en forme et l'écart de niveau actuel paraît faible.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°119", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Sky Sport - Real Madrid F vs PSG F, forme récente", "url": "https://sport.sky.de/fussball/real-madrid-frauen-vs-psg-frauen/daten/578236", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "WorldFootball - historique Real Madrid F / PSG F", "url": "https://www.worldfootball.net/match-report/co1143/uefa-women-champions-league/ma12537192/real-madrid_paris-saint-germain/", "accessedAt": "2026-09-21T05:58:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Juventus F",
+      "awayTeam": "Benfica F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "analysis": {
+        "summary": "La Juventus présente la dynamique la plus robuste : cinq victoires et un nul sur ses six dernières sorties recensées, avec peu de buts encaissés. Benfica reste compétitif mais part derrière à Turin.",
+        "keyFactors": ["Juventus : cinq victoires et un nul sur les six derniers matchs recensés", "Défense turinoise solide sur cette séquence", "Juventus avait déjà battu Benfica 2-1 à Turin en Ligue des champions 2025-2026", "Avantage du terrain"],
+        "uncertainty": "Modérée : Benfica possède assez de qualité pour accrocher le match, mais la forme récente favorise nettement la Juventus.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°119", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Sky Sports - Juventus Women vs Benfica Women", "url": "https://www.skysports.com/football/juventus-women-vs-benfica-women/6040728081217451232", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "SportyTrader - forme Juventus F / Benfica F", "url": "https://www.sportytrader.es/resultados-directo/juventus-women-sl-benfica-8807140/", "accessedAt": "2026-09-21T05:58:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Arsenal F",
+      "awayTeam": "HB Koge F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 72, "draw": 18, "away": 10 },
+      "analysis": {
+        "summary": "Arsenal reste le favori clair par qualité d'effectif et avantage du terrain, même si son début de championnat est moins tranchant. HB Køge arrive avec une vraie dynamique et a éliminé le PSV sans perdre, ce qui empêche de pousser la probabilité locale trop haut.",
+        "keyFactors": ["Arsenal reste sur deux nuls et une victoire en championnat", "HB Køge a battu le PSV 1-0 à l'extérieur puis fait 1-1 au retour", "HB Køge a gagné à Fortuna Hjørring et possède une série récente globalement positive", "Écart de qualité intrinsèque favorable à Arsenal"],
+        "uncertainty": "Modérée : Arsenal est supérieur sur le papier, mais HB Køge a déjà montré sa capacité à résister à un adversaire européen supérieur.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°119", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Sky Sports - Arsenal Women vs HB Køge Women", "url": "https://www.skysports.com/football/arsenal-women-vs-hb-koge-women/578232", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "RubiScore - HB Køge 1-1 PSV", "url": "https://rubiscore.com/football/match/psv-eindhoven-women-vs-hb-koge-women-CaxlU69ZRDy", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Rezilta - résultats récents HB Køge Women", "url": "https://www.rezilta.com/en/football/results/foot2929906.html", "accessedAt": "2026-09-21T05:58:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Bay.Munich F",
+      "awayTeam": "Man.City F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-22T18:45:00+02:00",
+      "probabilities": { "home": 43, "draw": 25, "away": 32 },
+      "analysis": {
+        "summary": "Duel de très haut niveau entre deux équipes en pleine réussite. Le Bayern a gagné ses cinq dernières rencontres recensées et marque beaucoup, City arrive également avec une série de victoires offensives. Le terrain donne un léger avantage au Bayern.",
+        "keyFactors": ["Bayern : cinq victoires consécutives recensées, dont 5-2 contre Köln", "Manchester City : trois victoires de championnat avec au moins trois buts marqués à chaque fois", "Deux équipes championnes nationales en titre selon la présentation de la compétition", "Avantage du terrain bavarois"],
+        "uncertainty": "Élevée : City a la puissance offensive pour gagner à Munich et le nul reste très plausible.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°119", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Manchester City - informations officielles Bayern Women vs Man City Women", "url": "https://www.mancity.com/tickets/womens/bayern-munich-women-v-man-city-women-ticket-information-202627", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Sky Sports - forme Bayern Women / Manchester City Women", "url": "https://www.skysports.com/football/bayern-munich-women-vs-manchester-city-women/stats/578233", "accessedAt": "2026-09-21T05:58:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Inter Milan F",
+      "awayTeam": "Hacken F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-22T18:45:00+02:00",
+      "probabilities": { "home": 47, "draw": 28, "away": 25 },
+      "analysis": {
+        "summary": "Inter obtient un avantage mesuré grâce au terrain et à son récent 3-1 contre Wolfsburg, après avoir renversé la double confrontation qualificative. Häcken reste un adversaire européen crédible et l'information récente disponible sur sa forme est moins complète, d'où une marge prudente.",
+        "keyFactors": ["Inter a battu Wolfsburg 3-1 au retour après une défaite 0-2 à l'aller", "Inter reçoit au U-Power Stadium", "Häcken possède une expérience européenne récente significative", "Données récentes moins complètes pour Häcken, ce qui augmente l'incertitude"],
+        "uncertainty": "Élevée : l'écart est difficile à quantifier précisément avec moins de données récentes fiables sur Häcken.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°119", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "BK Häcken - calendrier officiel équipe féminine", "url": "https://bkhacken.se/lag/dam/matcher", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Sky Sport - Inter Women vs BK Häcken Women", "url": "https://sport.sky.de/fussball/inter-mailand-frauen-vs-bk-haecken-frauen/daten/578234", "accessedAt": "2026-09-21T05:58:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Indep.Medellin",
+      "awayTeam": "Jaguares",
+      "competition": "Colombia Primera A",
+      "probabilities": { "home": 61, "draw": 24, "away": 15 },
+      "analysis": {
+        "summary": "Independiente Medellín est nettement favori à domicile. Les données de saison et les splits domicile/extérieur montrent une forte différence en sa faveur, alors que Jaguares souffre loin de ses bases malgré plusieurs nuls récents.",
+        "keyFactors": ["Medellín affiche un bilan saisonnier et une différence de buts supérieurs", "Split domicile de Medellín nettement meilleur que le split extérieur de Jaguares", "Jaguares a enchaîné plusieurs nuls récemment", "Medellín a gagné 2-1 chez Jaguares en mars 2026"],
+        "uncertainty": "Modérée : les nuls récents de Jaguares justifient une couverture du N malgré le net avantage local.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°119", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "FBref - Independiente Medellín 2026", "url": "https://fbref.com/en/squads/70068101/2026/matchlogs/c41/schedule/Independiente-Medellin-Scores-and-Fixtures-Primera-A", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "FootyCheck - Medellín vs Jaguares, splits et H2H", "url": "https://footycheck.com/football/match/independiente-medellin-vs-jaguares-2026-09-19/1549790/", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "GioScore - Independiente Medellín vs Jaguares", "url": "https://gioscore.com/football/match/independiente-medellin-jaguares-de-cordoba/19713010", "accessedAt": "2026-09-21T05:58:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Ind.Santa Fe",
+      "awayTeam": "Deportivo Cali",
+      "competition": "Colombia Primera A",
+      "probabilities": { "home": 41, "draw": 31, "away": 28 },
+      "analysis": {
+        "summary": "Santa Fe garde un léger avantage à domicile, mais Deportivo Cali arrive avec une dynamique récente solide et l'historique direct comporte beaucoup de nuls. Le N est volontairement maintenu haut dans une affiche serrée.",
+        "keyFactors": ["Santa Fe bénéficie du terrain et reste bien placé dans les estimations disponibles", "Deportivo Cali présente une dynamique récente solide", "22 nuls en 52 confrontations recensées", "Les deux confrontations directes les plus récentes recensées se sont terminées par un nul"],
+        "uncertainty": "Élevée : les trois issues restent crédibles et le nul constitue un scénario central.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°119", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "ESPN - Santa Fe vs Deportivo Cali", "url": "https://www.espn.co.cr/futbol/partido/_/juegoId/401877961/deportivo-cali-independiente-santa-fe", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "FCTables - Santa Fe / Deportivo Cali forme et H2H", "url": "https://www.fctables.com/h2h/deportivo-cali/santa-fe/", "accessedAt": "2026-09-21T05:58:14+02:00" },
+          { "label": "Welcome.Bet - Santa Fe vs Deportivo Cali, forme et marché", "url": "https://welcome.bet/independiente-santa-fe-vs-deportivo-cali-predictions-sep-22-2026/amp/", "accessedAt": "2026-09-21T05:58:14+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Socle favoris", "selections": ["1", "1", "1", "1", "1", "1", "1"], "rationale": "Scénario central privilégiant les avantages domicile et les favoris les plus nets." },
+    { "id": "t2", "label": "Nuls premium", "selections": ["N", "1", "1", "1", "1", "1", "N"], "rationale": "Couvre les deux nuls les plus structurants : Real-PSG et Santa Fe-Cali." },
+    { "id": "t3", "label": "Équilibre européen", "selections": ["1", "1", "1", "N", "1", "N", "1"], "rationale": "Introduit le nul Bayern-City et le risque de résistance de Jaguares." },
+    { "id": "t4", "label": "Visiteurs ciblés", "selections": ["1", "N", "1", "1", "N", "1", "2"], "rationale": "Couvre Benfica accrocheur, Häcken résistant et une victoire de Cali dans une affiche serrée." },
+    { "id": "t5", "label": "City gagne", "selections": ["1", "1", "1", "2", "1", "N", "1"], "rationale": "Scénario où l'attaque de Manchester City fait basculer le choc de Munich, avec Jaguares qui accroche Medellín." },
+    { "id": "t6", "label": "Paris et nul bavarois", "selections": ["2", "1", "1", "N", "1", "1", "1"], "rationale": "Couvre une victoire parisienne plausible à Madrid et un partage des points dans Bayern-City." },
+    { "id": "t7", "label": "Benfica City Cali", "selections": ["1", "N", "1", "2", "1", "1", "N"], "rationale": "Scénario plus volatil sur trois rencontres réellement ouvertes sans toucher aux favoris les plus solides." },
+    { "id": "t8", "label": "Nuls européens", "selections": ["N", "1", "1", "2", "N", "1", "1"], "rationale": "Renforce la couverture des nuls historiquement sous-représentés tout en couvrant City à Munich." },
+    { "id": "t9", "label": "Surprise Køge", "selections": ["1", "2", "1", "1", "N", "1", "2"], "rationale": "Variante à rendement potentiel élevé couvrant Benfica, Häcken accrocheur et Cali, tout en gardant Arsenal." },
+    { "id": "t10", "label": "Portefeuille nul", "selections": ["2", "N", "1", "N", "1", "N", "1"], "rationale": "Scénario de plusieurs matchs fermés, cohérent avec la correction du déficit historique de couverture du nul." },
+    { "id": "t11", "label": "Køge et City", "selections": ["1", "1", "N", "2", "1", "1", "N"], "rationale": "Couvre un accroc d'Arsenal, une victoire de City et un nul colombien sans multiplier les quasi-clones." },
+    { "id": "t12", "label": "Chocs renversés", "selections": ["N", "1", "1", "2", "1", "2", "N"], "rationale": "Scénario agressif couvrant City, une grosse surprise de Jaguares et deux nuls à forte incertitude." }
+  ]
+}
