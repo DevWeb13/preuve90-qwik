@@ -1,0 +1,221 @@
+{
+  "id": "lf12-80-2026-09-22",
+  "formula": 12,
+  "gridNumber": 80,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-22T18:40:00+02:00",
+  "publishedAt": "2026-09-21T09:56:31+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Real Madrid F",
+      "awayTeam": "Paris SG F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 40, "draw": 30, "away": 30 },
+      "analysis": {
+        "summary": "Real Madrid et le PSG arrivent tous deux avec une dynamique défensive solide. Le Real garde un léger avantage grâce au terrain et à une série récente sans défaite, mais l'écart reste faible face à un PSG également très régulier.",
+        "keyFactors": ["Real Madrid reste sur cinq matchs officiels sans défaite", "Le PSG a gagné ses deux premiers matchs de championnat 2-0", "Le précédent duel européen récent avait été remporté 2-1 par le Real à Paris"],
+        "uncertainty": "Affiche très équilibrée entre deux équipes en forme ; le nul et une victoire parisienne restent des scénarios importants.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sports - Real Madrid Women vs PSG Women", "url": "https://www.skysports.com/football/real-madrid-women-vs-paris-saint-germain-women/578236", "accessedAt": "2026-09-21T09:56:00+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Juventus F",
+      "awayTeam": "Benfica F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 52, "draw": 25, "away": 23 },
+      "analysis": {
+        "summary": "La Juventus reçoit avec une très bonne dynamique et vient de remporter la Serie A Women's Cup. Benfica arrive toutefois avec trois victoires officielles et un bilan de dix buts marqués pour un encaissé, ce qui empêche d'en faire un favori écrasant.",
+        "keyFactors": ["Juventus vient de remporter la Serie A Women's Cup", "Benfica a gagné ses trois matchs officiels de la saison avec 10 buts marqués", "Juventus avait battu Benfica 2-1 à Turin en 2025"],
+        "uncertainty": "Benfica est suffisamment en forme pour rendre la rencontre plus serrée que ne le suggère le statut de la Juventus à domicile.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sports - Juventus Women vs Benfica Women", "url": "https://www.skysports.com/football/juventus-women-vs-benfica-women/6040728081217451232", "accessedAt": "2026-09-21T09:56:02+02:00" },
+          { "label": "FemGol - Juventus vs Benfica preview", "url": "https://femgol.com/en/womens-champions-league/article/juventus-benfica-womens-champions-league-matchday-1-preview/", "accessedAt": "2026-09-21T09:56:03+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Arsenal F",
+      "awayTeam": "HB Koge F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 76, "draw": 15, "away": 9 },
+      "analysis": {
+        "summary": "Arsenal possède un net avantage de niveau et reçoit. HB Køge a néanmoins gagné sa place en phase de ligue grâce à une campagne qualificative sérieuse, ce qui justifie de conserver une petite marge pour les scénarios alternatifs.",
+        "keyFactors": ["Arsenal dispose d'un niveau européen supérieur et joue à domicile", "HB Køge a éliminé le PSV sans perdre sur les deux matchs", "HB Køge reste sur une campagne qualificative positive"],
+        "uncertainty": "Le favori est clair, mais un match de première journée peut produire davantage de variance qu'un écart théorique de niveau ne le laisse penser.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sport - Arsenal Frauen vs HB Køge", "url": "https://sport.sky.de/fussball/arsenal-frauen-vs-hb-koege/578232", "accessedAt": "2026-09-21T09:56:05+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Bay.Munich F",
+      "awayTeam": "Man.City F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 45, "draw": 27, "away": 28 },
+      "analysis": {
+        "summary": "Le Bayern arrive lancé après un 5-2 contre Cologne et bénéficie du terrain. Manchester City reste un adversaire européen de premier plan : l'avantage bavarois est réel mais limité.",
+        "keyFactors": ["Bayern vient de battre Cologne 5-2", "Bayern a montré une forte production offensive en début de saison", "Manchester City possède une qualité d'effectif qui maintient une forte probabilité de résultat extérieur"],
+        "uncertainty": "Duel de haut niveau où la force offensive des deux équipes augmente la dispersion des scénarios.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Bavarian Football Works - Bayern Frauen 5-2 Köln", "url": "https://www.bavarianfootballworks.com/bayern-munich-frauen/258677/bayern-munich-frauen-defeat-strong-koln-side-5-2", "accessedAt": "2026-09-21T09:56:07+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Inter Milan F",
+      "awayTeam": "Hacken F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 48, "draw": 28, "away": 24 },
+      "analysis": {
+        "summary": "L'Inter a montré sa capacité à battre Wolfsburg 3-1 au retour des qualifications et reçoit. Häcken a toutefois déjà posé des problèmes à l'Inter dans leurs confrontations récentes, ce qui réduit l'écart.",
+        "keyFactors": ["Inter a battu Wolfsburg 3-1 lors de son dernier match européen à domicile", "Häcken avait pris quatre points sur six contre l'Inter en 2025", "Avantage du terrain pour l'Inter"],
+        "uncertainty": "Les confrontations passées montrent que Häcken peut neutraliser l'Inter ; le nul mérite une couverture significative.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sports - Inter Women vs BK Häcken Women", "url": "https://www.skysports.com/football/inter-milan-women-vs-bk-hacken-ff/8105250478940837232", "accessedAt": "2026-09-21T09:56:09+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Indep.Medellin",
+      "awayTeam": "Jaguares",
+      "competition": "Colombia Primera A",
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
+      "analysis": {
+        "summary": "Independiente Medellín présente un profil nettement meilleur à domicile et part favori contre Jaguares. Les données de forme et de rendement à l'Atanasio Girardot renforcent le 1 sans supprimer le risque de nul.",
+        "keyFactors": ["Medellín affiche 1,8 point par match à domicile dans les données consultées", "Medellín gagne 50 % de ses matchs à domicile dans cet échantillon", "Avantage du terrain à l'Atanasio Girardot"],
+        "uncertainty": "La forme récente de Medellín n'est pas parfaitement stable, ce qui maintient le nul comme scénario secondaire crédible.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "APWin - Independiente Medellín vs Jaguares", "url": "https://www.apwin.com/match/independiente-medellin-jaguares-de-cordoba/caNOqj/", "accessedAt": "2026-09-21T09:56:11+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Ind.Santa Fe",
+      "awayTeam": "Deportivo Cali",
+      "competition": "Colombia Primera A",
+      "probabilities": { "home": 42, "draw": 35, "away": 23 },
+      "analysis": {
+        "summary": "Santa Fe est difficile à battre et bénéficie du terrain, mais son accumulation récente de nuls rend le N particulièrement important. Deportivo Cali reste compétitif et interdit une lecture trop unilatérale.",
+        "keyFactors": ["Santa Fe reste sur cinq nuls lors de ses six derniers matchs dans la série consultée", "Santa Fe est invaincu sur ces six matchs", "Le profil statistique récent est plutôt fermé et favorable au nul"],
+        "uncertainty": "La forte fréquence récente de nuls rend la frontière entre 1 et N particulièrement fine.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "SportyTrader - Santa Fe vs Deportivo Cali", "url": "https://www.sportytrader.com/en/results-live/santa-fe-deportivo-cali-8572670/", "accessedAt": "2026-09-21T09:56:13+02:00" },
+          { "label": "APWin - Santa Fe vs Deportivo Cali", "url": "https://www.apwin.com/match/deportivo-cali-santa-fe/calraR/", "accessedAt": "2026-09-21T09:56:14+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Seattle",
+      "awayTeam": "Salt Lake",
+      "competition": "Major League Soccer",
+      "probabilities": { "home": 49, "draw": 31, "away": 20 },
+      "analysis": {
+        "summary": "Seattle accumule les nuls mais reste beaucoup plus stable que Real Salt Lake, qui arrive sur une série de défaites. Le terrain pousse vers le 1, avec un N important compte tenu des cinq nuls consécutifs de Seattle avant son 3-3 à Colorado.",
+        "keyFactors": ["Seattle reste sur plusieurs nuls consécutifs et un 3-3 à Colorado", "Real Salt Lake a perdu cinq de ses six derniers matchs recensés", "Seattle joue au Lumen Field"],
+        "uncertainty": "Seattle transforme difficilement ses matchs équilibrés en victoires, ce qui augmente fortement le risque de nul malgré la mauvaise forme de Salt Lake.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sports - Seattle vs Real Salt Lake", "url": "https://www.skysports.com/football/seattle-sounders-fc-vs-real-salt-lake/4846988925499458232", "accessedAt": "2026-09-21T09:56:16+02:00" },
+          { "label": "FotMob - Seattle Sounders vs Real Salt Lake", "url": "https://www.fotmob.com/en-GB/matches/real-salt-lake-vs-seattle-sounders-fc/4b7c0hu", "accessedAt": "2026-09-21T09:56:17+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Chelsea F",
+      "awayTeam": "Austr.Vienne F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 78, "draw": 14, "away": 8 },
+      "analysis": {
+        "summary": "Chelsea est le favori le plus net de cette affiche : l'équipe reste sur des victoires 5-0 contre Manchester United puis 2-0 contre Birmingham. Austria Wien a réussi ses qualifications mais affronte ici un saut de niveau majeur.",
+        "keyFactors": ["Chelsea vient d'enchaîner un 5-0 puis un 2-0 en championnat", "Chelsea a également franchi son tour qualificatif européen", "Austria Wien a montré une capacité offensive en qualifications mais rencontre une opposition nettement supérieure"],
+        "uncertainty": "Le principal risque est celui d'un match de première journée moins maîtrisé que prévu ; l'écart de niveau reste néanmoins important.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sports - Chelsea Women vs Austria Wien Women", "url": "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/4914157971835510232", "accessedAt": "2026-09-21T09:56:19+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Servette FC F",
+      "awayTeam": "Lyon F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 8, "draw": 14, "away": 78 },
+      "analysis": {
+        "summary": "Lyon arrive avec une puissance offensive exceptionnelle après trois victoires de championnat sur les scores de 7-1, 7-1 et 8-1. Servette a bien négocié ses qualifications mais l'écart de niveau rend Lyon très nettement favori.",
+        "keyFactors": ["Lyon a marqué 22 buts lors de ses trois premiers matchs de championnat", "Servette a gagné 3-0 contre le Sparta Prague au retour des qualifications", "Lyon possède une profondeur et une expérience européennes très supérieures"],
+        "uncertainty": "Servette joue à domicile et traverse une bonne période, mais il faudrait une forte contre-performance lyonnaise pour inverser le rapport de forces.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sports - Servette Women vs Lyon Women", "url": "https://www.skysports.com/football/servette-genf-women-vs-olympiques-lyon-women/8839670569200825232", "accessedAt": "2026-09-21T09:56:21+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Leuven F",
+      "awayTeam": "AS Rome F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 28, "draw": 34, "away": 38 },
+      "analysis": {
+        "summary": "Roma possède davantage de références et une excellente série extérieure, mais OH Leuven a réussi ses qualifications et avait tenu Roma en échec 1-1 la saison dernière. Le match est suffisamment serré pour donner une place importante au nul.",
+        "keyFactors": ["OH Leuven a remporté ses deux matchs contre Czarni Sosnowiec", "Le seul duel récent entre les équipes s'est terminé 1-1", "Roma présente une forte série de victoires à l'extérieur dans les données consultées"],
+        "uncertainty": "Le niveau réel de Leuven face à une opposition de ce calibre reste difficile à calibrer ; 1, N et 2 conservent tous une plausibilité significative.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "OH Leuven - équipe féminine", "url": "https://ohleuven.com/teams/women/", "accessedAt": "2026-09-21T09:56:23+02:00" },
+          { "label": "Forebet - OH Leuven Women vs Roma Women", "url": "https://www.forebet.com/en/football/matches/oh-leuven-w-roma-w-2552172", "accessedAt": "2026-09-21T09:56:24+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Barcelone F",
+      "awayTeam": "Paris FC F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": { "home": 82, "draw": 11, "away": 7 },
+      "analysis": {
+        "summary": "Barcelone démarre sa saison avec une domination offensive très nette et reçoit un Paris FC qui vient notamment de subir un 7-1 à Lyon. Le 1 est le choix le plus robuste de la grille.",
+        "keyFactors": ["Barcelone a gagné ses quatre premiers matchs de championnat en marquant 19 buts", "Paris FC a perdu 7-1 à Lyon le 12 septembre", "Barcelone joue à domicile et possède une profondeur offensive supérieure"],
+        "uncertainty": "Paris FC a rebondi avec une victoire 2-0 à Strasbourg, mais l'écart structurel reste très important.",
+        "sources": [
+          { "label": "FDJ - grille LF12 n°80", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-21T09:55:40+02:00" },
+          { "label": "Sky Sports - Barcelona Women vs Paris FC Women", "url": "https://www.skysports.com/football/barcelona-women-vs-paris-fc-women/7415820212972806232", "accessedAt": "2026-09-21T09:56:26+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Socle équilibré", "selections": ["1","1","1","1","1","1","N","1","1","2","2","1"], "rationale": "Socle des favoris avec couverture du nul très probable à Santa Fe et respect de l'avantage romain à Leuven." },
+    { "id": "t2", "label": "Nuls européens", "selections": ["N","1","1","N","N","1","1","N","1","2","N","1"], "rationale": "Scénario où plusieurs affiches européennes et Seattle se ferment, en réponse à la sous-couverture historique des nuls." },
+    { "id": "t3", "label": "PSG et City", "selections": ["2","1","1","2","1","1","N","1","1","2","2","1"], "rationale": "Couvre deux succès extérieurs plausibles dans les affiches européennes les plus équilibrées." },
+    { "id": "t4", "label": "Benfica résiste", "selections": ["1","N","1","1","N","1","1","N","1","2","N","1"], "rationale": "Scénario de résistance de Benfica et de Häcken, avec deux nuls supplémentaires sur les matchs à forte variance." },
+    { "id": "t5", "label": "Surprises mesurées", "selections": ["N","2","1","1","2","1","N","1","1","2","2","1"], "rationale": "Couvre les outsiders Benfica et Häcken sans sacrifier les favoris les plus robustes." },
+    { "id": "t6", "label": "Colombie partagée", "selections": ["1","1","1","N","1","N","N","1","1","2","2","1"], "rationale": "Renforce les scénarios de partage des points à Medellín et Santa Fe tout en couvrant Bayern-City par le nul." },
+    { "id": "t7", "label": "Seattle accroché", "selections": ["N","1","1","1","N","1","1","N","1","2","N","1"], "rationale": "Exploite le profil très nul de Seattle et ajoute des nuls cohérents sur Inter-Häcken et Leuven-Roma." },
+    { "id": "t8", "label": "Roma et PSG", "selections": ["2","1","1","N","1","1","N","1","1","2","2","1"], "rationale": "Scénario de succès du PSG et de Roma, avec prudence sur Bayern-City et Santa Fe-Cali." },
+    { "id": "t9", "label": "Favoris domicile", "selections": ["1","1","1","1","1","1","1","1","1","2","1","1"], "rationale": "Scénario plus orienté domicile, notamment Leuven, afin de couvrir une surprise locale sans toucher aux favoris très forts." },
+    { "id": "t10", "label": "Cali et Salt Lake", "selections": ["1","N","1","2","1","1","2","2","1","2","N","1"], "rationale": "Portefeuille de surprises plus agressif couvrant Cali, Salt Lake et City, compensé par les favoris les plus solides." },
+    { "id": "t11", "label": "Triple zone grise", "selections": ["N","1","1","2","N","1","N","1","1","2","1","1"], "rationale": "Couvre plusieurs issues secondaires sur les matchs où les probabilités sont proches, avec Leuven à domicile comme différenciation." },
+    { "id": "t12", "label": "Nuls renforcés", "selections": ["N","N","1","N","N","N","N","N","1","2","N","1"], "rationale": "Scénario volontairement riche en nuls sur les rencontres réellement équilibrées pour corriger le biais historique de sous-couverture du N." }
+  ]
+}
