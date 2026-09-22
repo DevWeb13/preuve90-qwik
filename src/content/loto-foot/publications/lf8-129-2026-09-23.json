@@ -1,0 +1,168 @@
+{
+  "id": "lf8-129-2026-09-23",
+  "formula": 8,
+  "gridNumber": 129,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-23T18:40:00+02:00",
+  "publishedAt": "2026-09-22T02:01:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Barcelone F",
+      "awayTeam": "Paris FC F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-23T21:00:00+02:00",
+      "probabilities": { "home": 89, "draw": 7, "away": 4 },
+      "analysis": {
+        "summary": "Barcelone part très nettement favorite : quatre victoires de championnat pour commencer la saison avec 19 buts marqués, tandis que Paris FC a déjà subi un 7-1 à Lyon. L'écart de niveau et la dynamique offensive catalane dominent l'analyse.",
+        "keyFactors": ["Barcelone reste sur 6-0, 4-2, 4-0 et 5-0 en championnat", "Paris FC a perdu 7-1 à Lyon malgré deux victoires 2-0 autour de ce revers", "Le marché 1N2 place Barcelone autour de 1,02-1,03"],
+        "uncertainty": "Le début de phase de ligue européenne peut entraîner des rotations, mais l'écart structurel reste très important.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Sky Sports - forme Barcelona Women / Paris FC Women", "url": "https://www.skysports.com/football/barcelona-women-vs-paris-fc-women/7415820212972806232", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Unibet - cotes Women's Champions League", "url": "https://www.unibet.fr/paris-football/coupes-d-europe/ligue-des-champions-f", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Servette FC F",
+      "awayTeam": "Lyon F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-23T18:45:00+02:00",
+      "probabilities": { "home": 3, "draw": 7, "away": 90 },
+      "analysis": {
+        "summary": "Lyon est un favori massif après trois succès de championnat avec 22 buts marqués. Servette arrive en bonne dynamique et a franchi les qualifications, mais l'écart de puissance offensive est considérable.",
+        "keyFactors": ["Lyon a gagné 7-1, 7-1 puis 8-1 ses trois premiers matchs de championnat", "Servette a éliminé le Sparta Prague 5-3 sur l'ensemble des deux matchs", "Les cotes disponibles donnent Lyon extrêmement largement favori"],
+        "uncertainty": "Servette joue à domicile et a montré une capacité à marquer en Europe ; le risque principal est une rotation lyonnaise ou un match plus fermé qu'attendu.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Sky Sports - forme Servette Women / Lyon Women", "url": "https://www.skysports.com/football/servette-genf-women-vs-olympiques-lyon-women/8839670569200825232", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Leuven F",
+      "awayTeam": "AS Rome F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-23T18:45:00+02:00",
+      "probabilities": { "home": 24, "draw": 26, "away": 50 },
+      "analysis": {
+        "summary": "Roma possède l'avantage qualitatif et est favorite du marché, mais Leuven joue à domicile et arrive avec une dynamique offensive suffisamment crédible pour empêcher d'en faire un favori sûr. Le nul conserve un poids important.",
+        "keyFactors": ["Roma est favorite autour de 1,6-1,85 selon les marchés consultés", "Leuven est signalé en bonne dynamique offensive", "Le contexte de première journée européenne augmente l'incertitude"],
+        "uncertainty": "Peu de données comparables entre championnats et début de compétition ; le nul et une surprise locale restent plausibles.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Oddschecker - OH Leuven Women v Roma Women", "url": "https://www.oddschecker.com/football/womens-club/womens-champions-league/oh-leuven-women-v-roma-women/winner", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "APWin - OH Leuven Women v Roma Women preview", "url": "https://www.apwin.com/br/palpites/oh-leuven-feminino-x-roma-feminino-palpite-liga-dos-campeoes-feminina-23-09-2026/", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Chelsea F",
+      "awayTeam": "Austr.Vienne F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-23T21:00:00+02:00",
+      "probabilities": { "home": 86, "draw": 9, "away": 5 },
+      "analysis": {
+        "summary": "Chelsea est très largement favorite, portée par des succès 5-0 à Manchester United puis 2-0 contre Birmingham. Austria Wien a toutefois montré de la qualité en qualifications, notamment avec un 4-0 contre Brann.",
+        "keyFactors": ["Chelsea reste sur deux victoires de championnat sans encaisser", "Austria Wien a gagné 4-0 contre Brann après avoir perdu l'aller 2-1", "Le marché place Chelsea autour de 1,03"],
+        "uncertainty": "Austria Wien a déjà renversé une situation européenne cette saison ; une rotation de Chelsea constitue le principal risque.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Sky Sports - forme Chelsea Women / Austria Wien Women", "url": "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/4914157971835510232", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Chelsea FC - calendrier officiel féminin", "url": "https://www.chelseafc.com/en/cfcw-whats-on", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Seattle",
+      "awayTeam": "Salt Lake",
+      "competition": "MLS",
+      "startsAt": "2026-09-24T03:30:00+02:00",
+      "probabilities": { "home": 43, "draw": 32, "away": 25 },
+      "analysis": {
+        "summary": "Seattle n'arrive plus à gagner mais enchaîne cinq nuls, alors que Real Salt Lake traverse une série plus négative avec trois défaites consécutives et cinq matchs sans victoire. L'avantage du terrain fait pencher vers Seattle, avec un nul très présent.",
+        "keyFactors": ["Seattle reste sur cinq nuls consécutifs avant cette rencontre", "Salt Lake vient de perdre 3-0 contre Vancouver, 2-0 contre NYCFC et 2-1 à Houston", "Le match est confirmé au Lumen Field"],
+        "uncertainty": "Les deux équipes sont en mauvaise dynamique et Seattle transforme très peu ses matchs équilibrés en victoires ; le nul est une issue majeure.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Sky Sports - forme Seattle / Real Salt Lake", "url": "https://www.skysports.com/football/seattle-sounders-fc-vs-real-salt-lake/4846988925499458232", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Lumen Field - Seattle Sounders FC vs Real Salt Lake", "url": "https://www.lumenfield.com/sport-events/seattle-sounders-fc-vs-real-salt-lake-2026", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "America",
+      "awayTeam": "Aguilas",
+      "competition": "Colombia Primera A",
+      "startsAt": "2026-09-24T01:25:00+02:00",
+      "probabilities": { "home": 62, "draw": 24, "away": 14 },
+      "analysis": {
+        "summary": "L'identité FDJ correspond à América de Cali contre Águilas Doradas. América est nettement mieux classé et affiche un bilan de Clausura bien supérieur, alors qu'Águilas accumule les nuls et manque de tranchant.",
+        "keyFactors": ["América de Cali est annoncé avec 20 points en 9 matchs contre 10 en 7 pour Águilas sur la source consultée", "América possède une différence de buts saisonnière nettement positive", "Águilas reste sur une dynamique riche en nuls"],
+        "uncertainty": "América reste sur un nul après une défaite récente et Águilas sait fermer des matchs ; le nul doit être couvert dans le portefeuille.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Sofascore - América de Cali v Águilas Doradas", "url": "https://www.sofascore.com/fr/football/match/rionegro-aguilas-doradas-america-de-cali/cxcsUou", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "SportyTrader - América de Cali v Águilas Doradas", "url": "https://www.sportytrader.com/en/results-live/america-de-cali-rionegro-aguilas-8572671/", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Japon",
+      "awayTeam": "Uruguay",
+      "competition": "International Friendly",
+      "startsAt": "2026-09-24T12:05:00+02:00",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "Le Japon reçoit l'Uruguay au Kirin Challenge Cup et présente une dynamique récente supérieure. L'Uruguay reste difficile à battre mais accumule les nuls et arrive sans victoire récente, ce qui maintient une forte probabilité de partage des points.",
+        "keyFactors": ["La JFA confirme officiellement Japon-Uruguay le 24 septembre", "Le Japon affiche une forme récente plus positive", "L'Uruguay est signalé sans victoire sur ses sept derniers matchs par une source de suivi"],
+        "uncertainty": "Un match amical international implique rotations et gestion des temps de jeu ; le nul est sensiblement plus probable que dans un match à enjeu classique.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "Japan Football Association - Kirin Challenge Cup 2026", "url": "https://jfa.jp/eng/samuraiblue/20260924/", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "GioScore - Japan v Uruguay H2H", "url": "https://gioscore.com/football/match/japan-uruguay/19793110", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Corée du Sud",
+      "awayTeam": "Equateur",
+      "competition": "International Friendly",
+      "startsAt": "2026-09-24T13:00:00+02:00",
+      "probabilities": { "home": 42, "draw": 30, "away": 28 },
+      "analysis": {
+        "summary": "La Corée du Sud conserve un léger avantage à domicile, mais elle reste sur deux défaites 0-1. L'Équateur est irrégulier et arrive sans Moisés Caicedo ni Piero Hincapié, ce qui réduit sa force habituelle ; le nul est très crédible.",
+        "keyFactors": ["La Corée du Sud reste sur deux défaites 0-1 après trois victoires", "L'Équateur reste sur une défaite 0-2 contre le Mexique après une victoire 2-1 sur l'Allemagne", "Caicedo et Hincapié ne figurent pas dans la sélection équatorienne annoncée"],
+        "uncertainty": "Match amical avec nouveau sélectionneur équatorien et compositions potentiellement expérimentales ; forte variance attendue.",
+        "sources": [
+          { "label": "FDJ - grille LF8 n°129", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "FootballNation - South Korea v Ecuador preview", "url": "https://footballnation.eu/match/vriendschappelijk/2026/810285/", "accessedAt": "2026-09-22T02:00:50+02:00" },
+          { "label": "talkSPORT - Ecuador squad absences", "url": "https://talksport.com/football/4596087/piero-hincapie-moises-caicedo-ecuador-squad-arsenal-chelsea/", "accessedAt": "2026-09-22T02:00:50+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "2", "2", "1", "N", "1", "1", "1"], "rationale": "Favoris forts conservés, avec le nul sur Seattle-Salt Lake et les avantages modérés de Roma, Japon et Corée du Sud." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["1", "2", "N", "1", "N", "1", "N", "N"], "rationale": "Renforce les nuls sur les quatre rencontres les plus équilibrées, conformément au biais historique de sous-couverture des N." },
+    { "id": "t3", "label": "Roma et Équateur", "selections": ["1", "2", "2", "1", "1", "1", "1", "2"], "rationale": "Conserve Roma et couvre une réaction équatorienne tout en donnant Seattle gagnant à domicile." },
+    { "id": "t4", "label": "Leuven résiste", "selections": ["1", "2", "1", "1", "N", "1", "N", "1"], "rationale": "Scénario de surprise locale de Leuven associé à des nuls plausibles à Seattle et Japon-Uruguay." },
+    { "id": "t5", "label": "Salt Lake rebondit", "selections": ["1", "2", "2", "1", "2", "1", "N", "N"], "rationale": "Couvre le rebond de Salt Lake malgré sa mauvaise série, avec deux nuls internationaux." },
+    { "id": "t6", "label": "Águilas accroche", "selections": ["1", "2", "N", "1", "1", "N", "1", "N"], "rationale": "Couvre le nul d'Águilas et de Corée-Équateur, tout en privilégiant Seattle et le Japon." },
+    { "id": "t7", "label": "Uruguay surprise", "selections": ["1", "2", "2", "1", "N", "1", "2", "N"], "rationale": "Couvre une victoire uruguayenne dans un amical volatil et maintient les nuls de Seattle et Corée-Équateur." },
+    { "id": "t8", "label": "Outsiders américains", "selections": ["1", "2", "N", "1", "2", "N", "1", "1"], "rationale": "Combine Salt Lake avec un nul d'Águilas, sans toucher aux favoris européens très solides." },
+    { "id": "t9", "label": "Double nul MLS-Colombie", "selections": ["1", "2", "2", "1", "N", "N", "1", "2"], "rationale": "Renforce deux nuls de clubs plausibles et couvre simultanément une victoire équatorienne." },
+    { "id": "t10", "label": "Leuven et Uruguay", "selections": ["1", "2", "1", "1", "1", "1", "2", "1"], "rationale": "Scénario plus agressif avec surprises de Leuven et Uruguay, compensées par Seattle, América et Corée du Sud." },
+    { "id": "t11", "label": "Nuls internationaux", "selections": ["1", "2", "2", "1", "1", "1", "N", "N"], "rationale": "Concentre la couverture sur les deux amicaux internationaux où les rotations augmentent la probabilité du nul." },
+    { "id": "t12", "label": "Variance maximale crédible", "selections": ["1", "2", "N", "1", "2", "2", "N", "2"], "rationale": "Portefeuille de queue : Roma tenue en échec, victoires de Salt Lake, Águilas et Équateur, avec nul Japon-Uruguay." }
+  ]
+}
