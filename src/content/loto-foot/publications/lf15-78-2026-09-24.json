@@ -1,0 +1,289 @@
+{
+  "id": "lf15-78-2026-09-24",
+  "formula": 15,
+  "gridNumber": 78,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-24T20:40:00+02:00",
+  "publishedAt": "2026-09-22T05:55:33+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Pays-Bas",
+      "awayTeam": "Allemagne",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 33, "draw": 28, "away": 39 },
+      "analysis": {
+        "summary": "Affiche très équilibrée entre deux sélections en transition de sélectionneur, avec un léger avantage à l'Allemagne grâce à sa forme récente et à son historique favorable.",
+        "keyFactors": ["L'Allemagne reste sur une série récente légèrement supérieure.", "Les Pays-Bas commencent un nouveau cycle avec Xavi et sans Memphis Depay.", "Les confrontations récentes sont souvent serrées, ce qui maintient le nul haut."],
+        "uncertainty": "Élevée : deux nouveaux projets techniques et un duel historiquement très compétitif.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Netherlands vs Germany", "url": "https://www.skysports.com/football/netherlands-vs-germany/553985", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Reuters - première sélection de Xavi", "url": "https://www.reuters.com/sports/soccer/van-dijk-stays-depay-omitted-xavis-first-netherlands-squad-2026-09-18/", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Portugal",
+      "awayTeam": "Pays de Galles",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 65, "draw": 21, "away": 14 },
+      "analysis": {
+        "summary": "Le Portugal possède davantage de qualité et de profondeur, tandis que le pays de Galles arrive avec une dynamique moins convaincante et plusieurs problèmes d'effectif.",
+        "keyFactors": ["Le Portugal a battu la Croatie et largement dominé l'Ouzbékistan récemment.", "Le pays de Galles a enchaîné plusieurs nuls avant une défaite en Roumanie.", "Joe Rodon est signalé blessé, ce qui fragilise encore la défense galloise."],
+        "uncertainty": "Modérée : le Portugal est favori mais le pays de Galles sait fermer les matchs.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "FotMob - Portugal vs Wales", "url": "https://www.fotmob.com/en-GB/matches/wales-vs-portugal/1nmd5x", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Norvège",
+      "awayTeam": "Danemark",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 43, "draw": 29, "away": 28 },
+      "analysis": {
+        "summary": "Derby nordique difficile à séparer ; l'avantage du terrain fait pencher légèrement la Norvège, sans écarter un nul ni la qualité danoise.",
+        "keyFactors": ["La rencontre est confirmée à Oslo.", "Le Danemark possède un léger avantage dans les confrontations récentes recensées.", "L'avantage domicile norvégien rééquilibre nettement le duel."],
+        "uncertainty": "Élevée : peu d'écart structurel et forte variance dans un derby régional.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "TNT Sports - Norway vs Denmark", "url": "https://www.tntsports.co.uk/football/uefa-nations-league/2026-2027/norway-denmark_mtc20005872/live.shtml", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Kosovo",
+      "awayTeam": "République d'Irlande",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 38, "draw": 29, "away": 33 },
+      "analysis": {
+        "summary": "Duel très ouvert : le Kosovo bénéficie du terrain et d'une victoire 3-0 récente, mais l'Irlande affiche une série solide et davantage de profondeur.",
+        "keyFactors": ["Kosovo reste sur un 3-0 contre Andorre.", "L'Irlande est invaincue sur ses cinq matchs récents recensés.", "Nathan Collins est absent et plusieurs ajustements ont été nécessaires dans le groupe irlandais."],
+        "uncertainty": "Très élevée : les trois issues restent crédibles.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Kosovo vs Republic of Ireland", "url": "https://www.skysports.com/football/kosovo-vs-republic-of-ireland/553983", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "The Sun Ireland - Ireland squad injuries", "url": "https://www.thesun.ie/sport/17632090/heimir-hallgrimsson-seamus-coleman-ireland-nations-league/", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Liechtenstein",
+      "awayTeam": "Lituanie",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 17, "draw": 27, "away": 56 },
+      "analysis": {
+        "summary": "La Lituanie est favorite face à un Liechtenstein qui perd très fréquemment et marque peu, même si le niveau global lituanien impose de garder une marge d'incertitude.",
+        "keyFactors": ["Liechtenstein a perdu cinq de ses six derniers matchs recensés.", "Le Liechtenstein n'a marqué que deux buts sur cette séquence.", "La Lituanie a notamment gagné 2-0 en Moldavie en mars."],
+        "uncertainty": "Modérée : avantage extérieur clair mais favori lui-même irrégulier.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Liechtenstein vs Lithuania", "url": "https://www.skysports.com/football/liechtenstein-vs-lithuania/553984", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Autriche",
+      "awayTeam": "Israël",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 60, "draw": 24, "away": 16 },
+      "analysis": {
+        "summary": "L'Autriche est favorite à domicile grâce à un niveau de compétition récent supérieur, malgré un Mondial difficile ; Israël reste capable de punir une baisse de régime.",
+        "keyFactors": ["L'Autriche a disputé le Mondial 2026 et battu notamment la Jordanie et la Tunisie.", "Israël reste sur une victoire en Albanie mais avait lourdement perdu contre la Norvège et l'Italie.", "Le terrain renforce l'avantage autrichien."],
+        "uncertainty": "Modérée : Israël a assez de qualité offensive pour rendre le match moins unilatéral.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Austria vs Israel", "url": "https://www.skysports.com/football/austria-vs-israel/553982", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Serbie",
+      "awayTeam": "Grèce",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 38, "draw": 31, "away": 31 },
+      "analysis": {
+        "summary": "La Serbie garde un petit avantage à domicile, mais sa forme récente est inquiétante et la Grèce a montré une capacité à fermer les rencontres.",
+        "keyFactors": ["La Serbie a encaissé huit buts lors de ses deux derniers amicaux recensés.", "La Grèce a fait 0-0 en Hongrie et 2-2 en Suède récemment.", "Le domicile évite de faire basculer le pronostic vers la Grèce."],
+        "uncertainty": "Très élevée : profil idéal pour couvrir le nul et l'outsider.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Serbia vs Greece", "url": "https://www.skysports.com/football/serbia-vs-greece/553988", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "SportyTrader - Serbia vs Greece", "url": "https://www.sportytrader.com/en/results-live/serbia-greece-8318320/", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Géorgie",
+      "awayTeam": "Irlande du Nord",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T18:00:00+02:00",
+      "probabilities": { "home": 52, "draw": 28, "away": 20 },
+      "analysis": {
+        "summary": "La Géorgie arrive avec une meilleure dynamique et l'avantage du terrain, tandis que l'Irlande du Nord reste limitée offensivement et compte des absences.",
+        "keyFactors": ["La Géorgie reste sur trois matchs sans défaite, dont deux victoires 2-0.", "L'Irlande du Nord a perdu contre la France et l'Italie dans sa séquence récente.", "Alistair McCann est signalé blessé côté nord-irlandais."],
+        "uncertainty": "Modérée : la Géorgie est favorite sans disposer d'une marge écrasante.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "FotMob - Georgia vs Northern Ireland", "url": "https://www.fotmob.com/matches/georgia-vs-northern-ireland/2u6w4c", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Arménie",
+      "awayTeam": "Lettonie",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T18:00:00+02:00",
+      "probabilities": { "home": 34, "draw": 34, "away": 32 },
+      "analysis": {
+        "summary": "Rencontre extrêmement équilibrée entre une Arménie qui profite du terrain mais gagne peu et une Lettonie plus solide récemment sans être dominante.",
+        "keyFactors": ["L'Arménie reste sur deux nuls 1-1 à domicile.", "La Lettonie a gagné ses deux barrages contre Gibraltar avant un nul en Lituanie puis une défaite contre les Féroé.", "Le profil des deux équipes augmente la valeur du nul."],
+        "uncertainty": "Très élevée : aucune issue ne dépasse nettement les autres.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Armenia vs Latvia", "url": "https://www.skysports.com/football/armenia-vs-latvia/553989", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "ViaSport - Armenia vs Latvia", "url": "https://www.viasport.no/fotball/kamp/1545602", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Monténégro",
+      "awayTeam": "Chypre",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T20:45:00+02:00",
+      "probabilities": { "home": 49, "draw": 29, "away": 22 },
+      "analysis": {
+        "summary": "Le Monténégro a un avantage raisonnable à domicile et a remporté les deux confrontations précédentes recensées, mais Chypre a récemment gagné au Liechtenstein et tenu la Slovénie.",
+        "keyFactors": ["Monténégro reste sur une victoire en Bulgarie et un nul en Slovaquie.", "Chypre a battu le Liechtenstein et la Moldavie récemment.", "Le Monténégro a remporté les deux précédents duels recensés."],
+        "uncertainty": "Modérée à élevée : Chypre est suffisamment compétitif pour viser le nul.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "FotMob - Montenegro vs Cyprus", "url": "https://www.fotmob.com/en-GB/matches/cyprus-vs-montenegro/p82jgi", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Hongrie",
+      "awayTeam": "Ukraine",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T20:45:00+02:00",
+      "probabilities": { "home": 38, "draw": 30, "away": 32 },
+      "analysis": {
+        "summary": "La Hongrie reçoit avec une bonne série à Budapest, tandis que l'Ukraine a remporté trois de ses cinq derniers matchs recensés ; le duel reste très serré.",
+        "keyFactors": ["La Hongrie a récemment battu le Kazakhstan, la Finlande et la Slovénie à domicile.", "L'Ukraine a gagné en Pologne et contre l'Albanie.", "Ruslan Malinovskyi est signalé blessé côté ukrainien."],
+        "uncertainty": "Très élevée : faible écart entre les trois issues.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Hungary vs Ukraine", "url": "https://www.skysports.com/football/hungary-vs-ukraine/553991", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "FotMob - Hungary vs Ukraine", "url": "https://www.fotmob.com/matches/ukraine-vs-hungary/1xjgf7", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Pologne",
+      "awayTeam": "Bosnie-Herzégovine",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T20:45:00+02:00",
+      "probabilities": { "home": 48, "draw": 27, "away": 25 },
+      "analysis": {
+        "summary": "La Pologne reste favorite à Varsovie malgré une forme irrégulière et plusieurs absences ; la Bosnie a elle aussi montré une défense vulnérable.",
+        "keyFactors": ["La Pologne a l'avantage du terrain et un historique direct favorable.", "Jan Bednarek est suspendu et plusieurs Polonais sont indisponibles.", "La Bosnie a encaissé quatre buts contre la Suisse puis deux contre les États-Unis."],
+        "uncertainty": "Élevée : les absences polonaises réduisent fortement l'écart théorique.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "FotMob - Poland vs Bosnia and Herzegovina", "url": "https://www.fotmob.com/en-GB/matches/poland-vs-bosnia-herzegovina/2vti6r", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Poland vs Bosnia and Herzegovina", "url": "https://www.skysports.com/football/poland-vs-bosnia-and-herzegovina/553994", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Suède",
+      "awayTeam": "Roumanie",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T20:45:00+02:00",
+      "probabilities": { "home": 43, "draw": 29, "away": 28 },
+      "analysis": {
+        "summary": "La Suède conserve un léger avantage à domicile et un potentiel offensif supérieur, mais sa défense récente et la forme correcte de la Roumanie rendent le match ouvert.",
+        "keyFactors": ["La Suède a marqué cinq buts contre la Tunisie mais en a encaissé cinq contre les Pays-Bas.", "La Roumanie reste sur une victoire contre le pays de Galles et un nul en Géorgie.", "Les données récentes indiquent une production offensive roumaine compétitive."],
+        "uncertainty": "Élevée : les deux équipes ont montré beaucoup de volatilité.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "ViaSport - Sweden vs Romania", "url": "https://viasport.no/fotball/kamp/1528886", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "TACTIX - Sweden vs Romania", "url": "https://tactix.football/uefa-nations-league/sweden-vs-romania-2026-09-25", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Italie",
+      "awayTeam": "Belgique",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T20:45:00+02:00",
+      "probabilities": { "home": 40, "draw": 30, "away": 30 },
+      "analysis": {
+        "summary": "L'Italie reçoit avec une défense récemment solide mais entame une profonde reconstruction, face à une Belgique qui sort d'un meilleur parcours mondial et reste dangereuse offensivement.",
+        "keyFactors": ["L'Italie reste sur deux victoires 1-0 mais a manqué le Mondial.", "Mancini a convoqué neuf joueurs sans sélection dans un groupe largement remanié.", "La Belgique a atteint les quarts du Mondial et avait marqué 12 buts sur ses trois matchs précédents."],
+        "uncertainty": "Très élevée : avantage terrain italien contre continuité et puissance offensive belge.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Italy vs Belgium", "url": "https://www.skysports.com/football/italy-vs-belgium/553992", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Reuters - Italy squad overhaul", "url": "https://www.reuters.com/sports/soccer/mancini-names-nine-uncapped-players-expanded-italy-squad-after-summer-turmoil-2026-09-18/", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Turquie",
+      "awayTeam": "France",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-25T20:45:00+02:00",
+      "probabilities": { "home": 27, "draw": 26, "away": 47 },
+      "analysis": {
+        "summary": "La France reste supérieure en qualité globale et sort d'un parcours jusqu'aux demi-finales du Mondial, mais la Turquie à domicile et plusieurs absences françaises empêchent d'en faire un favori massif.",
+        "keyFactors": ["La France a battu la Suède, le Paraguay et le Maroc avant de perdre contre l'Espagne puis l'Angleterre.", "La Turquie a gagné trois de ses cinq derniers matchs recensés.", "Saliba, Mateta et Hernandez sont signalés blessés, Guendouzi suspendu."],
+        "uncertainty": "Élevée : la Turquie est dangereuse à domicile et la France arrive diminuée.",
+        "sources": [
+          { "label": "FDJ - grille LF15 n°78", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "Sky Sports - Turkey vs France", "url": "https://www.skysports.com/football/turkey-vs-france/553996", "accessedAt": "2026-09-22T05:55:33+02:00" },
+          { "label": "FotMob - Turkiye vs France", "url": "https://www.fotmob.com/matches/turkiye-vs-france/1gt3rs", "accessedAt": "2026-09-22T05:55:33+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["2","1","1","1","2","1","1","1","N","1","1","1","1","1","2"], "rationale": "Suit les favoris principaux tout en conservant le nul sur Arménie-Lettonie." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["N","1","N","N","2","1","N","1","N","1","N","1","N","N","2"], "rationale": "Renforce les nuls sur les affiches les plus équilibrées afin de corriger la sous-couverture historique du N." },
+    { "id": "t3", "label": "Favoris extérieurs", "selections": ["2","1","2","2","2","1","2","1","2","1","2","1","2","2","2"], "rationale": "Couvre un scénario où plusieurs équipes visiteuses de niveau proche ou supérieur imposent leur qualité." },
+    { "id": "t4", "label": "Avantage domicile", "selections": ["1","1","1","1","1","1","1","1","1","1","1","1","1","1","1"], "rationale": "Scénario de forte prime au terrain sur une journée de reprise internationale." },
+    { "id": "t5", "label": "Europe centrale serrée", "selections": ["2","1","N","2","2","1","N","1","N","N","N","N","1","N","2"], "rationale": "Couvre une série de matchs fermés au milieu de grille et des partages de points plausibles." },
+    { "id": "t6", "label": "Outsiders ciblés", "selections": ["1","N","2","1","N","2","2","N","2","2","2","2","2","2","1"], "rationale": "Introduit des surprises crédibles sur les rencontres à forte incertitude sans renverser tous les favoris solides." },
+    { "id": "t7", "label": "Nuls renforcés", "selections": ["N","1","1","N","2","N","N","1","N","N","N","1","N","N","N"], "rationale": "Portefeuille explicitement orienté vers la correction du déficit historique de couverture des nuls." },
+    { "id": "t8", "label": "Favoris prudents", "selections": ["2","1","1","2","2","1","1","1","1","1","1","1","1","N","2"], "rationale": "Conserve les favoris les plus nets mais varie les duels Kosovo-Irlande et Italie-Belgique." },
+    { "id": "t9", "label": "Journée piégeuse", "selections": ["1","N","N","N","2","N","2","N","N","2","2","N","2","2","N"], "rationale": "Couvre un scénario riche en surprises et en nuls sur les rencontres où les probabilités sont compactes." },
+    { "id": "t10", "label": "Hiérarchie internationale", "selections": ["2","1","1","2","2","1","1","1","N","1","1","1","1","2","2"], "rationale": "Mise sur la hiérarchie globale des sélections tout en gardant le nul du match le plus indécis." },
+    { "id": "t11", "label": "Renversements domicile", "selections": ["1","1","1","1","2","1","1","1","1","1","1","2","1","1","1"], "rationale": "Couvre plusieurs victoires à domicile qui seraient moins représentées dans les scénarios centrés sur la force intrinsèque." },
+    { "id": "t12", "label": "Diversification maximale", "selections": ["N","2","2","2","N","2","2","N","2","N","2","2","N","2","1"], "rationale": "Ajoute une combinaison éloignée des scénarios centraux pour couvrir les surprises plausibles et améliorer la distance du portefeuille." }
+  ]
+}
