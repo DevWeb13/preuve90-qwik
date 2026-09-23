@@ -1,0 +1,152 @@
+{
+  "id": "lf7-120-2026-09-24",
+  "formula": 7,
+  "gridNumber": 120,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-24T20:40:00+02:00",
+  "publishedAt": "2026-09-23T05:59:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Pays-Bas",
+      "awayTeam": "Allemagne",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 36, "draw": 29, "away": 35 },
+      "analysis": {
+        "summary": "Affiche extrêmement équilibrée entre deux sélections en transition. L'avantage du terrain et l'invincibilité récente néerlandaise compensent la qualité allemande et l'effet du nouveau cycle de Jürgen Klopp.",
+        "keyFactors": ["Pays-Bas invaincus sur leurs cinq derniers matchs avec trois victoires", "Allemagne sur trois victoires récentes mais avec un effectif largement remanié", "Nouveaux sélectionneurs des deux côtés et incertitude tactique élevée", "Les confrontations récentes et les profils offensifs rendent les trois issues crédibles"],
+        "uncertainty": "Très élevée : les deux équipes changent de cycle et leurs forces sont proches.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "Reuters - nouveau cycle des Pays-Bas avec Xavi", "url": "https://www.reuters.com/sports/soccer/new-look-netherlands-will-play-with-intensity-nations-league-says-xavi-2026-09-21/", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "ToffeeWeb - Pays-Bas Allemagne preview", "url": "https://www.toffeeweb.com/int/netherlands-vs-germany-predictions-picks-odds-24-09-2026/", "accessedAt": "2026-09-23T05:55:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Portugal",
+      "awayTeam": "Pays de Galles",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 78, "draw": 15, "away": 7 },
+      "analysis": {
+        "summary": "Portugal est un favori très net à domicile face à un pays de Galles privé de plusieurs joueurs importants et sans victoire en 2026.",
+        "keyFactors": ["Portugal invaincu lors de ses dix derniers matchs à domicile", "Pays de Galles sans victoire en 2026", "Absences galloises importantes dont Joe Rodon", "Portugal a gagné les deux confrontations précédentes citées sans encaisser"],
+        "uncertainty": "Faible à modérée : le principal risque est un match fermé où le pays de Galles résiste longtemps.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "SportyTrader - Portugal Pays de Galles", "url": "https://www.sportytrader.com/en/betting-tips/portugal-wales-374559/", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "FotMob - Portugal Pays de Galles", "url": "https://www.fotmob.com/matches/wales-vs-portugal/1nmd5x", "accessedAt": "2026-09-23T05:55:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Norvège",
+      "awayTeam": "Danemark",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 58, "draw": 24, "away": 18 },
+      "analysis": {
+        "summary": "La Norvège arrive avec davantage de dynamique et de stabilité, tandis que le Danemark traverse une transition et compte plusieurs absents importants.",
+        "keyFactors": ["Norvège : trois victoires sur les cinq matchs récents cités", "Danemark privé notamment de Christensen et d'autres cadres", "Haaland et Ødegaard arrivent dans un contexte offensif favorable", "Norvège sans clean sheet depuis huit matchs, ce qui maintient un risque de nul ou de surprise"],
+        "uncertainty": "Modérée : la fragilité défensive norvégienne laisse au Danemark une vraie voie vers un résultat.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "ToffeeWeb - Norvège Danemark preview", "url": "https://www.toffeeweb.com/norway-vs-denmark-predictions-picks-odds-24-09-2026/", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "The Football Faithful - Norvège Danemark", "url": "https://thefootballfaithful.com/norway-vs-denmark-prediction-betting-tips-24-09-2026/", "accessedAt": "2026-09-23T05:55:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Kosovo",
+      "awayTeam": "République d'Irlande",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 39, "draw": 31, "away": 30 },
+      "analysis": {
+        "summary": "Rencontre très ouverte. Le Kosovo bénéficie du terrain et d'un léger avantage de dynamique, mais lui-même est diminué ; l'Irlande reste compétitive malgré une liste d'absents importante.",
+        "keyFactors": ["Kosovo reste sur un succès 3-0 contre Andorre après une défaite 2-1 en Tchéquie", "Irlande invaincue sur les cinq résultats récents listés par FotMob", "Irlande privée notamment de Nathan Collins et Evan Ferguson, avec d'autres forfaits récents", "Kosovo également privé de plusieurs joueurs expérimentés"],
+        "uncertainty": "Très élevée : effectifs diminués des deux côtés et très peu d'écart entre les trois issues.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "FotMob - Kosovo Irlande", "url": "https://www.fotmob.com/matches/ireland-vs-kosovo/17nji1o1", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "The Sun Ireland - forfaits irlandais", "url": "https://www.thesun.ie/sport/17651075/heimir-hallgrimsson-ireland-squad-injury-kosovo-israel/", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "Tipsters.net - Kosovo Irlande effectifs", "url": "https://tipsters.net/matches/soccer/24-09-2026-kosovo-ireland", "accessedAt": "2026-09-23T05:55:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Liechtenstein",
+      "awayTeam": "Lituanie",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 8, "draw": 19, "away": 73 },
+      "analysis": {
+        "summary": "La Lituanie est nettement supérieure sur le papier face à un Liechtenstein en très grande difficulté, particulièrement à domicile.",
+        "keyFactors": ["Liechtenstein annoncé avec 15 défaites sur ses 16 derniers matchs", "Sept défaites consécutives à domicile citées", "Marché sans marge autour de 73 % pour une victoire lituanienne", "Faible production offensive du Liechtenstein"],
+        "uncertainty": "Faible à modérée : la Lituanie reste une sélection limitée et un match fermé augmente mécaniquement le risque de nul.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "Legalbet - Liechtenstein Lituanie", "url": "https://legalbet.com/game-center/liechtenstein-lithuania-24-09-2026/", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "Footix - Liechtenstein Lituanie compositions et forme", "url": "https://www.footix.fr/compositions-probables-liechtenstein-vs-lithuania-24-09-2026/", "accessedAt": "2026-09-23T05:55:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Autriche",
+      "awayTeam": "Israël",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 66, "draw": 19, "away": 15 },
+      "analysis": {
+        "summary": "L'Autriche possède l'avantage du terrain, une base collective plus solide et un bilan récent supérieur, même si Israël conserve un potentiel offensif réel.",
+        "keyFactors": ["Autriche : quatre victoires sur ses sept derniers matchs citées", "Israël : trois défaites sur ses quatre matchs de qualification récents cités", "Autriche a gagné la dernière confrontation 4-2", "Israël marque régulièrement mais concède aussi beaucoup"],
+        "uncertainty": "Modérée : Israël a suffisamment de qualité offensive pour punir une Autriche qui a aussi connu des matchs ouverts.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "FreeTips - Autriche Israël", "url": "https://www.freetips.com/football/austria-vs-israel-tips-20260921-0039/", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "SportsGambler - Autriche Israël", "url": "https://www.sportsgambler.com/betting-tips/football/austria-vs-israel-prediction-lineups-odds-2026-09-24/", "accessedAt": "2026-09-23T05:55:36+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Serbie",
+      "awayTeam": "Grèce",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-24T20:45:00+02:00",
+      "probabilities": { "home": 39, "draw": 33, "away": 28 },
+      "analysis": {
+        "summary": "Match serré entre une Serbie en mauvaise dynamique et diminuée offensivement, et une Grèce qui voyage mal mais sait fermer les rencontres. Le nul mérite une couverture forte.",
+        "keyFactors": ["Serbie : trois défaites sur ses quatre résultats récents cités", "Absences serbes importantes, notamment Vlahovic selon la preview", "Grèce : deux nuls sur ses quatre résultats récents cités", "Profil récent grec très fermé avec plusieurs matchs nuls ou à faible score"],
+        "uncertainty": "Très élevée : aucune équipe ne présente une dynamique assez forte pour dominer nettement la projection.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF7 n°120", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "FotMob - Serbie Grèce", "url": "https://www.fotmob.com/matches/greece-vs-serbia/1rcyhf", "accessedAt": "2026-09-23T05:55:36+02:00" },
+          { "label": "The Football Faithful - Serbie Grèce", "url": "https://thefootballfaithful.com/serbia-vs-greece-prediction-betting-tips-24-09-2026/", "accessedAt": "2026-09-23T05:55:36+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["1", "1", "1", "1", "2", "1", "1"], "rationale": "Suit les issues les plus probables tout en conservant les favoris structurels." },
+    { "id": "t2", "label": "Nuls structurants", "selections": ["N", "1", "1", "N", "2", "1", "N"], "rationale": "Renforce les trois matchs où le nul est particulièrement plausible et corrige la sous-couverture historique des N." },
+    { "id": "t3", "label": "Allemagne et Irlande", "selections": ["2", "1", "1", "2", "2", "1", "N"], "rationale": "Couvre deux bascules crédibles sur les rencontres les plus équilibrées sans toucher aux favoris forts." },
+    { "id": "t4", "label": "Danemark résiste", "selections": ["1", "1", "N", "N", "2", "1", "1"], "rationale": "Scénario où le Danemark accroche la Norvège et où Kosovo-Irlande reste fermé." },
+    { "id": "t5", "label": "Grèce opportuniste", "selections": ["N", "1", "1", "1", "2", "1", "2"], "rationale": "Couvre une victoire grecque dans le match le plus fermé tout en intégrant le nul du choc Pays-Bas-Allemagne." },
+    { "id": "t6", "label": "Israël surprend", "selections": ["2", "1", "1", "N", "2", "2", "N"], "rationale": "Scénario plus rémunérateur où Israël exploite son potentiel offensif et plusieurs matchs serrés finissent nuls." },
+    { "id": "t7", "label": "Norvège freinée", "selections": ["N", "1", "2", "1", "2", "1", "N"], "rationale": "Couvre une surprise danoise et deux nuls majeurs, avec les favoris les plus robustes conservés." },
+    { "id": "t8", "label": "Irlande tient", "selections": ["1", "1", "N", "2", "2", "1", "N"], "rationale": "Combine une résistance danoise avec une victoire irlandaise et un nul Serbie-Grèce." },
+    { "id": "t9", "label": "Favoris et nul allemand", "selections": ["N", "1", "1", "N", "2", "1", "1"], "rationale": "Portefeuille prudent concentré sur les favoris nets et deux nuls à forte incertitude." },
+    { "id": "t10", "label": "Double surprise", "selections": ["2", "1", "N", "1", "2", "N", "2"], "rationale": "Couvre une Autriche tenue en échec et une victoire grecque, avec un nul nordique plausible." },
+    { "id": "t11", "label": "Nuls renforcés", "selections": ["1", "1", "N", "N", "2", "N", "N"], "rationale": "Réponse directe au déficit historique de couverture des nuls sur quatre rencontres où ils restent plausibles." },
+    { "id": "t12", "label": "Outsiders ciblés", "selections": ["2", "1", "2", "2", "2", "1", "1"], "rationale": "Scénario de variance élevée ciblant Allemagne, Danemark et Irlande, sans sacrifier les favoris très forts." }
+  ]
+}
