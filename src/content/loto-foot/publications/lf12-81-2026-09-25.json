@@ -1,0 +1,227 @@
+{
+  "id": "lf12-81-2026-09-25",
+  "formula": 12,
+  "gridNumber": 81,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-25T20:25:00+02:00",
+  "publishedAt": "2026-09-24T10:01:01+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Turquie",
+      "awayTeam": "France",
+      "competition": "UEFA Nations League A",
+      "probabilities": { "home": 20, "draw": 25, "away": 55 },
+      "analysis": {
+        "summary": "La France conserve un avantage net de qualité individuelle malgré un déplacement exigeant et le début du cycle Zidane. La Turquie reste dangereuse à domicile mais a concédé tôt lors de ses quatre dernières sorties.",
+        "keyFactors": ["France supérieure en profondeur d'effectif", "Saliba et Tchouaméni absents côté français", "Turquie vulnérable défensivement récemment"],
+        "uncertainty": "Premier match officiel du nouveau sélectionneur français, avec une part d'inconnue tactique.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Goal - Turquie-France preview", "url": "https://www.goal.com/en/news/turkiye-france-uefa-nations-league-preview/blt6f487c5fe2ffedd2", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Italie",
+      "awayTeam": "Belgique",
+      "competition": "UEFA Nations League A",
+      "probabilities": { "home": 40, "draw": 31, "away": 29 },
+      "analysis": {
+        "summary": "L'Italie reçoit une Belgique capable de la gêner mais bénéficie du terrain et d'un léger avantage structurel. Le changement de cycle italien et l'équilibre récent entre les deux sélections incitent à conserver un nul élevé.",
+        "keyFactors": ["Avantage du terrain italien", "Premier onze de Mancini encore en construction", "Affiche historiquement compétitive"],
+        "uncertainty": "Les automatismes italiens sous le nouveau cycle sont encore difficiles à mesurer.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Yahoo Sports - premier onze de Mancini", "url": "https://sports.yahoo.com/articles/mancini-first-italy-side-takes-192500566.html", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "FotMob - Italie-Belgique", "url": "https://www.fotmob.com/en-GB/matches/belgium-vs-west-germany/aeyuykg", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Hongrie",
+      "awayTeam": "Ukraine",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 42, "draw": 32, "away": 26 },
+      "analysis": {
+        "summary": "La Hongrie arrive avec trois victoires sur ses quatre dernières sorties et l'avantage de Budapest. L'Ukraine garde assez de talent pour rendre le match serré, d'où une forte place accordée au nul.",
+        "keyFactors": ["Hongrie invaincue sur ses quatre dernières sorties citées", "Avantage du Puskás Aréna", "Ukraine compétitive mais moins stable récemment"],
+        "uncertainty": "Une ouverture de compétition internationale peut produire un match plus prudent que les dynamiques récentes.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "ToffeeWeb - Hongrie-Ukraine", "url": "https://www.toffeeweb.com/hungary-vs-ukraine-predictions-picks-odds-25-09-2026/", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "UNN - Hongrie-Ukraine", "url": "https://unn.ua/en/news/nations-league-hungary-ukraine-the-national-teams-start-in-the-tournament", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Pologne",
+      "awayTeam": "Bosnie-Herzégovine",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
+      "analysis": {
+        "summary": "La Pologne possède davantage de profondeur et reçoit à Varsovie. La Bosnie peut fermer le jeu mais reste outsider face à une équipe polonaise mieux armée offensivement.",
+        "keyFactors": ["Avantage du terrain polonais", "Profondeur offensive supérieure de la Pologne", "Bosnie susceptible d'adopter un bloc prudent"],
+        "uncertainty": "Les premiers matchs de groupe réduisent parfois l'écart attendu entre favori et outsider.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Sports Mole - Pologne-Bosnie preview", "url": "https://www.sportsmole.co.uk/football/poland/uefa-nations-league/preview/poland-vs-bosnia-hvina-prediction-team-news-lineups_605687.html", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Monténégro",
+      "awayTeam": "Chypre",
+      "competition": "UEFA Nations League",
+      "probabilities": { "home": 56, "draw": 27, "away": 17 },
+      "analysis": {
+        "summary": "Le Monténégro est favori à domicile, mais Chypre a montré assez de menace en transition pour empêcher une probabilité trop haute. L'absence annoncée de Marusic réduit légèrement l'avantage monténégrin.",
+        "keyFactors": ["Avantage du terrain monténégrin", "Marusic annoncé indisponible", "Chypre à 2-1-2 sur ses cinq dernières rencontres citées"],
+        "uncertainty": "Le niveau des adversaires rencontrés récemment rend la comparaison de forme imparfaite.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "ScoresAndStats - Monténégro-Chypre", "url": "https://www.scoresandstats.com/predictions/soccer/uefa-nations-league/montenegro-vs-cyprus-picks-predictions-and-odds/", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Suède",
+      "awayTeam": "Roumanie",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
+      "analysis": {
+        "summary": "La Suède reste favorite grâce à son potentiel offensif et au terrain, même si sa forme récente est irrégulière. La Roumanie est également en transition et présente plusieurs absences défensives.",
+        "keyFactors": ["Isak et Gyökeres offrent une forte menace offensive", "Suède à seulement une victoire sur ses cinq dernières sorties citées", "Roumanie en nouveau cycle et privée notamment de Dragusin"],
+        "uncertainty": "Les deux équipes changent de repères et la Suède compte plusieurs absents.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "ToffeeWeb - Suède-Roumanie", "url": "https://www.toffeeweb.com/sweden-vs-romania-predictions-picks-odds-25-09-2026/", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "ScoresAndStats - Suède-Roumanie", "url": "https://www.scoresandstats.com/predictions/soccer/uefa-nations-league/sweden-vs-romania-picks-predictions-and-odds/", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Gérone",
+      "awayTeam": "Albacete",
+      "competition": "LaLiga 2",
+      "probabilities": { "home": 61, "draw": 23, "away": 16 },
+      "analysis": {
+        "summary": "Gérone dispose d'un avantage clair à Montilivi face à Albacete et ressort favori des comparatifs de forme et de marché. Le nul reste la principale couverture alternative.",
+        "keyFactors": ["Avantage du terrain à Montilivi", "Gérone nettement favori dans les comparatifs disponibles", "Albacete moins convaincant récemment"],
+        "uncertainty": "Les données disponibles sont moins riches que pour les rencontres internationales majeures.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Betfred Insights - Gérone-Albacete", "url": "https://insights.betfred.com/football/match/spain/25-09-2026/girona-v-albacete/", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "WinComparator - Gérone-Albacete", "url": "https://www.wincomparator.com/predictions/girona-albacete-8587160/", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Galway United",
+      "awayTeam": "Shelbourne FC",
+      "competition": "Premier Division irlandaise",
+      "probabilities": { "home": 34, "draw": 38, "away": 28 },
+      "analysis": {
+        "summary": "C'est le match le plus naturellement orienté vers le nul: les trois confrontations de 2026 se sont terminées à égalité et six des dix derniers face-à-face ont fini nuls. Galway bénéficie du terrain, mais Shelbourne reste difficile à battre à l'extérieur.",
+        "keyFactors": ["Six nuls sur les dix derniers face-à-face", "Trois nuls consécutifs entre les deux équipes en 2026", "Shelbourne n'a perdu qu'un de ses dix derniers déplacements de championnat cités"],
+        "uncertainty": "Les deux équipes sont proches au classement et un but précoce peut casser le profil historiquement fermé de l'affiche.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "SportsGambler - Galway-Shelbourne", "url": "https://www.sportsgambler.com/betting-tips/football/galway-united-vs-shelbourne-prediction-lineups-odds-2026-09-25/", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "FotMob - Galway-Shelbourne", "url": "https://www.fotmob.com/en-GB/matches/shelbourne-vs-galway-united-fc/1rm6zeql", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Slovénie",
+      "awayTeam": "Écosse",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 35, "draw": 33, "away": 32 },
+      "analysis": {
+        "summary": "Rencontre très équilibrée. La Slovénie a l'avantage du terrain tandis que l'Écosse débute un nouveau cycle avec Pocognoli et un groupe fortement renouvelé, sans McTominay ni Ché Adams.",
+        "keyFactors": ["Avantage du terrain slovène", "Premier rassemblement de Pocognoli avec sept joueurs non capés", "McTominay et Ché Adams absents côté écossais"],
+        "uncertainty": "Le renouvellement massif de l'Écosse rend son niveau immédiat difficile à calibrer.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Scottish FA - sélection de Pocognoli", "url": "https://www.scottishfa.co.uk/en/news/sebastien-pocognoli-selects-first-scotland-squad-for-upcoming-uefa-nations-league-fixtures", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "FootyAccumulators - Slovénie-Écosse", "url": "https://footyaccumulators.com/predictions/nations-league/slovenia-vs-scotland-preview-prediction-and-betting-tips", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Macédoine du Nord",
+      "awayTeam": "Suisse",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 24, "draw": 29, "away": 47 },
+      "analysis": {
+        "summary": "La Suisse reste supérieure sur le papier, mais son déplacement à Skopje est rendu plus délicat par l'absence de Granit Xhaka. La Macédoine du Nord a suffisamment d'expérience pour conserver une vraie probabilité de nul.",
+        "keyFactors": ["Profondeur d'effectif suisse supérieure", "Granit Xhaka absent du rassemblement", "Avantage du terrain nord-macédonien"],
+        "uncertainty": "L'absence du capitaine suisse peut modifier l'équilibre du milieu plus fortement que prévu.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Folha - absence de Granit Xhaka", "url": "https://www1.folha.uol.com.br/esporte/2026/09/capitao-da-suica-xhaka-e-afastado-por-uso-de-certificado-falso-de-vacinacao-contra-covid.shtml", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "FotMob - Macédoine du Nord-Suisse", "url": "https://www.fotmob.com/matches/switzerland-vs-north-macedonia/1us7ph", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "République tchèque",
+      "awayTeam": "Croatie",
+      "competition": "UEFA Nations League A",
+      "probabilities": { "home": 29, "draw": 31, "away": 40 },
+      "analysis": {
+        "summary": "La Croatie possède davantage d'expérience et de maîtrise au milieu, avec Modric toujours présent, mais le déplacement en Tchéquie réduit l'écart. Le nul constitue une issue importante à couvrir.",
+        "keyFactors": ["Croatie plus expérimentée au plus haut niveau", "Modric toujours sélectionné", "Avantage du terrain tchèque"],
+        "uncertainty": "Premier match de groupe après la Coupe du monde, avec des niveaux de fraîcheur difficiles à comparer.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Sportsnet - Modric dans la sélection croate", "url": "https://www.sportsnet.ca/soccer/article/luka-modric-to-play-for-croatia-in-nations-league/", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "FotMob - Tchéquie-Croatie", "url": "https://www.fotmob.com/matches/czechia-vs-croatia/2vkax6", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Angleterre",
+      "awayTeam": "Espagne",
+      "competition": "UEFA Nations League A",
+      "probabilities": { "home": 31, "draw": 31, "away": 38 },
+      "analysis": {
+        "summary": "L'Espagne, championne du monde en titre et invaincue sur son parcours estival, garde un léger avantage qualitatif. Wembley et la bonne Coupe du monde anglaise resserrent toutefois fortement l'affiche.",
+        "keyFactors": ["Espagne championne du monde et cinq victoires sur ses cinq dernières sorties citées", "Angleterre troisième du Mondial et à domicile", "Plusieurs forfaits anglais signalés, dont Palmer, Rice et Rashford"],
+        "uncertainty": "Affiche de très haut niveau où l'avantage du terrain peut neutraliser une partie de la supériorité récente espagnole.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF12 n°81", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Goal - Angleterre-Espagne preview", "url": "https://www.goal.com/en/news/england-spain-uefa-nations-league-preview/blt0ec5545dfcfb416d", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "Reuters - sélection anglaise", "url": "https://www.reuters.com/sports/soccer/alexander-arnold-returns-england-squad-tuchel-makes-10-changes-world-cup-2026-09-18/", "accessedAt": "2026-09-24T10:00:30+02:00" },
+          { "label": "We Ain't Got No History - forfaits anglais", "url": "https://weaintgotnohistory.sbnation.com/injury-news/172452/cole-palmer-withdraws-from-england-squad-due-to-injury-issues", "accessedAt": "2026-09-24T10:00:30+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central", "selections": ["2","1","1","1","1","1","1","N","N","2","2","2"], "rationale": "Favoris principaux, avec les nuls structurels de Galway-Shelbourne et Slovénie-Écosse." },
+    { "id": "t2", "label": "Nuls renforcés", "selections": ["2","N","N","1","1","1","1","N","N","N","N","N"], "rationale": "Couvre une soirée plus fermée sur les affiches internationales équilibrées." },
+    { "id": "t3", "label": "Avantage domicile", "selections": ["N","1","1","1","1","1","1","1","1","2","1","1"], "rationale": "Accentue l'effet domicile sur les rencontres serrées tout en conservant la Suisse favorite." },
+    { "id": "t4", "label": "Outsiders européens", "selections": ["1","2","2","1","N","1","1","N","2","2","2","2"], "rationale": "Couvre plusieurs renversements plausibles sans toucher aux favoris domestiques les plus solides." },
+    { "id": "t5", "label": "France et Espagne", "selections": ["2","N","1","1","1","N","1","N","1","2","N","2"], "rationale": "Conserve les deux puissances extérieures tout en couvrant les nuls de forte incertitude." },
+    { "id": "t6", "label": "Soirée de nuls", "selections": ["N","N","N","N","1","N","1","N","N","N","N","N"], "rationale": "Scénario volontairement riche en nuls pour corriger la sous-couverture historique persistante de N." },
+    { "id": "t7", "label": "Bosnie et Roumanie", "selections": ["2","1","N","2","1","2","1","1","N","2","2","2"], "rationale": "Couvre deux outsiders plus longs tout en gardant les favoris internationaux majeurs." },
+    { "id": "t8", "label": "Chypre et Albacete", "selections": ["2","1","1","1","2","1","2","N","1","2","N","2"], "rationale": "Scénario de surprises ciblées sur deux favoris domestiques, compensé par des choix plus centraux ailleurs." },
+    { "id": "t9", "label": "Ukraine et Écosse", "selections": ["2","N","2","1","1","1","1","N","2","N","2","1"], "rationale": "Couvre les victoires extérieures ukrainienne et écossaise dans deux matchs où l'écart est faible." },
+    { "id": "t10", "label": "Tchéquie et Angleterre", "selections": ["N","1","1","1","N","1","1","2","N","2","1","1"], "rationale": "Valorise deux victoires à domicile contre des favoris légers et une surprise de Shelbourne." },
+    { "id": "t11", "label": "Suisse freinée", "selections": ["2","2","N","1","1","N","1","N","1","1","2","N"], "rationale": "Teste l'impact de l'absence de Xhaka avec succès nord-macédonien et plusieurs nuls corrélés à des matchs serrés." },
+    { "id": "t12", "label": "Portefeuille contrariant", "selections": ["1","N","2","N","1","2","N","1","2","N","1","2"], "rationale": "Dernière couverture diversifiée des scénarios insuffisamment représentés, sans quasi-cloner les tickets centraux." }
+  ]
+}
