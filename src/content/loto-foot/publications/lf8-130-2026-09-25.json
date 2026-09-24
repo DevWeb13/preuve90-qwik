@@ -1,0 +1,195 @@
+{
+  "id": "lf8-130-2026-09-25",
+  "formula": 8,
+  "gridNumber": 130,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-25T20:25:00+02:00",
+  "publishedAt": "2026-09-24T05:58:55+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Turquie",
+      "awayTeam": "France",
+      "competition": "UEFA Nations League A",
+      "probabilities": { "home": 20, "draw": 25, "away": 55 },
+      "analysis": {
+        "summary": "La France possède davantage de profondeur individuelle, mais débute un nouveau cycle avec Zinédine Zidane et plusieurs absences. La Turquie reste dangereuse à domicile, où sa série en Ligue des nations justifie de ne pas traiter le 2 comme un verrou absolu.",
+        "keyFactors": [
+          "La Turquie est annoncée invaincue lors de ses neuf derniers matchs de Ligue des nations à domicile.",
+          "William Saliba et Aurélien Tchouaméni sont absents côté français, tandis que Warren Zaïre-Emery a également dû être remplacé dans le groupe.",
+          "La qualité offensive française reste supérieure, avec notamment Mbappé et un Olise performant en club."
+        ],
+        "uncertainty": "Premier match officiel de Zidane avec la France et contexte international de rentrée : l'organisation collective est moins prévisible qu'en régime établi.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Goal - Turquie-France, aperçu et effectifs", "url": "https://www.goal.com/en/news/turkiye-france-uefa-nations-league-preview/blt6f487c5fe2ffedd2", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "AP - Akliouche appelé après le forfait de Zaïre-Emery", "url": "https://jamaica-gleaner.com/article/sports/20260922/zidane-calls-akliouche-french-squad", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Italie",
+      "awayTeam": "Belgique",
+      "competition": "UEFA Nations League A",
+      "probabilities": { "home": 40, "draw": 30, "away": 30 },
+      "analysis": {
+        "summary": "L'Italie bénéficie du terrain et d'un historique récent favorable face à la Belgique, mais ses absences et la puissance offensive belge rendent la rencontre très ouverte. Le nul reçoit une couverture importante.",
+        "keyFactors": [
+          "L'Italie est invaincue lors de ses cinq dernières confrontations avec la Belgique, dont quatre victoires.",
+          "Federico Dimarco et Bryan Cristante ont déclaré forfait côté italien, et Manuel Locatelli est également indisponible.",
+          "La Belgique a inscrit 13 buts sur ses cinq dernières rencontres recensées, mais a aussi montré des vulnérabilités défensives."
+        ],
+        "uncertainty": "Les deux sélections ouvrent une nouvelle campagne et les changements d'effectif rendent l'écart entre 1, N et 2 relativement faible.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Football Italia - forfait de Cristante", "url": "https://football-italia.net/official-cristante-drops-out-of-italy-squad/", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Greenball360 - Italie-Belgique, forme et confrontations", "url": "https://www.greenball360.com/news/match-analysis/italy-vs-belgium-2026-27-nations-league-matchday-1-preview", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Oddslot - forme récente Italie et Belgique", "url": "https://oddslot.com/football/match/uefa-nations-league/italy/belgium/25-sep-2026/", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Hongrie",
+      "awayTeam": "Ukraine",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 38, "draw": 31, "away": 31 },
+      "analysis": {
+        "summary": "La Hongrie dispose d'un léger avantage à Budapest dans une affiche très équilibrée. Les problèmes d'effectif ukrainiens font pencher marginalement le modèle vers le 1, mais N et 2 restent des scénarios majeurs.",
+        "keyFactors": [
+          "La Hongrie joue au Puskás Aréna et plusieurs analyses de marché la donnent légèrement favorite.",
+          "L'Ukraine aborde le rassemblement avec plusieurs problèmes d'effectif, dont les forfaits d'Artem Dovbyk et Yegor Yarmolyuk.",
+          "L'écart de qualité intrinsèque entre les deux équipes reste limité, ce qui maintient une forte probabilité de nul."
+        ],
+        "uncertainty": "Match de première journée entre deux équipes proches : un but précoce ou une adaptation tactique peut inverser rapidement le rapport de force.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Sports Mole - Hongrie-Ukraine, aperçu", "url": "https://www.sportsmole.co.uk/football/hungary/uefa-nations-league/preview/hungary-vs-ukraine-prediction-team-news-lineups_605652.html", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "UNN - forfaits de Dovbyk et Andriievskyi", "url": "https://unn.ua/en/news/dovbyk-and-andriievskyi-withdraw-from-the-national-team-due-to-injuries-who-will-replace-the-players", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "UA News - forfait de Yarmolyuk", "url": "https://ua.news/en/sport/egor-iarmoliuk-ne-zigraie-za-zbirnu-ukrayini-v-lizi-natsii-cherez-stan-zdorovia", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Pologne",
+      "awayTeam": "Bosnie-Herzégovine",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 58, "draw": 25, "away": 17 },
+      "analysis": {
+        "summary": "La Pologne est favorite à Varsovie grâce à un meilleur bilan récent et un historique direct très favorable. L'absence de Bednarek réduit toutefois un peu la marge de sécurité défensive.",
+        "keyFactors": [
+          "La Pologne reste sur deux victoires, un nul et deux défaites, contre une séquence plus fragile de la Bosnie-Herzégovine.",
+          "La Pologne mène les confrontations récentes avec trois victoires et un nul.",
+          "Jan Bednarek est suspendu et Filip Rózga est annoncé blessé côté polonais."
+        ],
+        "uncertainty": "La Pologne reste irrégulière et sa défense est diminuée, ce qui laisse au nul et à l'outsider bosnien une vraie voie de surprise.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "FotMob - Pologne-Bosnie, forme, absences et H2H", "url": "https://www.fotmob.com/ckb/matches/poland-vs-bosnia-herzegovina/2vti6r", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Fédération de Bosnie-Herzégovine - calendrier officiel Nations League", "url": "https://www.nfsbih.ba/en/news/football-m/a-national-team-m/uefa-nations-league-match-schedule-announced/", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Monténégro",
+      "awayTeam": "Chypre",
+      "competition": "UEFA Nations League C",
+      "probabilities": { "home": 55, "draw": 27, "away": 18 },
+      "analysis": {
+        "summary": "Le Monténégro a l'avantage du terrain et un profil historique nettement supérieur dans cette confrontation. Les absences monténégrines et la capacité de Chypre à rester compacte empêchent cependant de monter trop haut sur le 1.",
+        "keyFactors": [
+          "Le Monténégro a gagné les deux confrontations de Ligue des nations 2020 contre Chypre, 2-0 puis 4-0.",
+          "Chypre a perdu huit de ses dix derniers déplacements compétitifs recensés par la source statistique.",
+          "Adam Marusic et Sead Haksabanovic sont signalés indisponibles côté monténégrin, ce qui réduit la marge du favori."
+        ],
+        "uncertainty": "Le Monténégro reste irrégulier et ses absences sur les côtés augmentent le risque d'un match fermé ou d'un nul.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "SportsGambler - Monténégro-Chypre, forme et H2H", "url": "https://www.sportsgambler.com/betting-tips/football/montenegro-vs-cyprus-prediction-lineups-odds-2026-09-25/", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Sportaran - absences du Monténégro", "url": "https://sportaran.com/en/post/chernogoriya-poteryala-hakshabanovicha-pered-matchami-s-armeniej-eshyo-dva-igroka-travmirovany/", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Suède",
+      "awayTeam": "Roumanie",
+      "competition": "UEFA Nations League B",
+      "probabilities": { "home": 57, "draw": 25, "away": 18 },
+      "analysis": {
+        "summary": "La Suède dispose d'une attaque supérieure et de l'avantage du terrain. Sa défense récente est moins rassurante et l'absence d'Isak Hien maintient une part de risque, mais la Roumanie voyage avec un profil globalement inférieur.",
+        "keyFactors": [
+          "La Suède peut aligner Alexander Isak et Viktor Gyökeres, un duo offensif de haut niveau.",
+          "La Roumanie n'a gagné que deux de ses cinq dernières rencontres recensées et reste irrégulière.",
+          "Isak Hien est annoncé absent côté suédois, alors que la Suède concède régulièrement."
+        ],
+        "uncertainty": "La fragilité défensive suédoise donne à la Roumanie une vraie chance sur transitions, ce qui interdit de traiter le 1 comme une certitude.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Khel Now - Suède-Roumanie, forme et compositions", "url": "https://khelnow.com/football/sweden-vs-romania-preview-uefa-nations-league-202609", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "ScoresAndStats - forme et absence d'Isak Hien", "url": "https://www.scoresandstats.com/predictions/soccer/uefa-nations-league/sweden-vs-romania-picks-predictions-and-odds/", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Gérone",
+      "awayTeam": "Albacete",
+      "competition": "LaLiga 2",
+      "probabilities": { "home": 55, "draw": 25, "away": 20 },
+      "analysis": {
+        "summary": "Gérone présente la meilleure dynamique récente et reçoit un Albacete en nette difficulté. Le 1 est le scénario central, avec une couverture du nul et d'une surprise limitée dans le portefeuille.",
+        "keyFactors": [
+          "Gérone a gagné trois de ses cinq derniers matchs recensés, dont un 5-2 contre Las Palmas.",
+          "Albacete reste sur quatre défaites et un nul lors de ses cinq dernières rencontres recensées.",
+          "L'avantage du terrain renforce un Gérone déjà supérieur sur la dynamique immédiate."
+        ],
+        "uncertainty": "La Segunda reste volatile et Gérone a lui-même perdu deux de ses cinq derniers matchs, ce qui conserve un risque de contre-performance.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "FotMob - Gérone-Albacete, forme récente", "url": "https://www.fotmob.com/matches/girona-vs-albacete/25evd8", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "Extratips - Gérone-Albacete, modèle 1N2", "url": "https://extratips.fr/girona-vs-albacete-2026-09-25-cotes-pronostics-paris-h2h-resultats-live-center", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Galway United",
+      "awayTeam": "Shelbourne FC",
+      "competition": "League of Ireland Premier Division",
+      "probabilities": { "home": 33, "draw": 36, "away": 31 },
+      "analysis": {
+        "summary": "C'est le match le plus équilibré de la grille. Les trois dernières confrontations se sont terminées par un nul et six des dix dernières confrontations directes ont partagé les points, ce qui place N légèrement devant sans écarter 1 ou 2.",
+        "keyFactors": [
+          "Les trois dernières confrontations Galway-Shelbourne se sont toutes terminées sur le score de 1-1.",
+          "Six des dix dernières confrontations directes se sont terminées par un nul.",
+          "Shelbourne n'a perdu qu'un de ses dix derniers déplacements de championnat recensés, mais Galway couvre régulièrement le nul à domicile."
+        ],
+        "uncertainty": "Les probabilités sont très resserrées et les deux équipes ont des profils récents irréguliers : les trois issues restent crédibles.",
+        "sources": [
+          { "label": "FDJ - grille officielle LF8 n°130", "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "FOX Sports - Galway-Shelbourne, résultats récents", "url": "https://www.foxsports.com/soccer/irish-premier-division-galway-united-fc-vs-shelbourne-fc-sep-25-2026-game-boxscore-1026691", "accessedAt": "2026-09-24T05:58:20+02:00" },
+          { "label": "SportsGambler - Galway-Shelbourne, forme et H2H", "url": "https://www.sportsgambler.com/betting-tips/football/galway-united-vs-shelbourne-prediction-lineups-odds-2026-09-25/", "accessedAt": "2026-09-24T05:58:20+02:00" }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    { "id": "t1", "label": "Scénario central diversifié", "selections": ["2", "N", "1", "1", "1", "1", "1", "N"], "rationale": "Suit les favoris principaux tout en intégrant les deux nuls les plus plausibles, Italie-Belgique et Galway-Shelbourne." },
+    { "id": "t2", "label": "Italie confirme", "selections": ["2", "1", "N", "1", "1", "1", "1", "N"], "rationale": "Couvre une victoire italienne et un nul Hongrie-Ukraine sans dupliquer le scénario central." },
+    { "id": "t3", "label": "France freinée", "selections": ["N", "N", "1", "1", "1", "1", "1", "N"], "rationale": "Protège contre un nul de la France en Turquie tout en conservant le cœur des favoris domestiques." },
+    { "id": "t4", "label": "Outsiders internationaux", "selections": ["2", "2", "N", "1", "N", "1", "1", "N"], "rationale": "Couvre une victoire belge et des nuls en Hongrie et au Monténégro, scénarios insuffisamment représentés dans les premières lignes." },
+    { "id": "t5", "label": "Ukraine et Roumanie résistent", "selections": ["2", "N", "2", "1", "1", "N", "1", "1"], "rationale": "Ajoute une victoire ukrainienne et un nul suédois tout en couvrant une victoire de Galway." },
+    { "id": "t6", "label": "Surprise turque et Gérone accroché", "selections": ["1", "N", "1", "1", "1", "1", "N", "N"], "rationale": "Couvre la principale surprise à domicile sur Turquie-France et un nul de Gérone." },
+    { "id": "t7", "label": "Bosnie et Shelbourne", "selections": ["2", "1", "1", "N", "1", "1", "1", "2"], "rationale": "Protège contre un nul de la Pologne et une victoire de Shelbourne, avec l'Italie gagnante." },
+    { "id": "t8", "label": "Soirée de ruptures", "selections": ["N", "2", "N", "1", "2", "1", "1", "N"], "rationale": "Scénario plus agressif couvrant Belgique et Chypre, accompagné de deux nuls à forte incertitude." },
+    { "id": "t9", "label": "Bosnie crée la surprise", "selections": ["2", "N", "1", "2", "1", "N", "1", "N"], "rationale": "Ajoute la victoire bosnienne et un nul Suède-Roumanie, deux issues absentes ensemble des autres scénarios." },
+    { "id": "t10", "label": "Roumanie et Galway", "selections": ["2", "N", "N", "1", "1", "2", "1", "1"], "rationale": "Couvre une victoire roumaine avec le nul Hongrie-Ukraine et une victoire de Galway." },
+    { "id": "t11", "label": "Double choc", "selections": ["1", "1", "2", "N", "1", "1", "2", "N"], "rationale": "Scénario de forte variance avec victoires turque, ukrainienne et Albacete, tout en gardant plusieurs favoris plausibles." },
+    { "id": "t12", "label": "Nuls et outsiders tardifs", "selections": ["N", "N", "1", "1", "N", "2", "1", "2"], "rationale": "Renforce les nuls historiquement sous-couverts et associe victoires roumaine et Shelbourne dans un scénario distinct." }
+  ]
+}
