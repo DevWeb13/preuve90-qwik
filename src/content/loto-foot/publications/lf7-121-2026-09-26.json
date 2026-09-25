@@ -1,0 +1,474 @@
+{
+  "id": "lf7-121-2026-09-26",
+  "formula": 7,
+  "gridNumber": 121,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-26T20:40:00+02:00",
+  "publishedAt": "2026-09-25T22:10:39+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Angleterre",
+      "awayTeam": "Espagne",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-26T20:45:00+02:00",
+      "probabilities": {
+        "home": 26,
+        "draw": 29,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "L'Espagne arrive à Wembley avec davantage de continuité et un groupe complet, tandis que l'Angleterre est privée de plusieurs cadres. Le terrain anglais et la qualité individuelle maintiennent néanmoins un risque élevé de nul ou de victoire locale.",
+        "keyFactors": [
+          "L'Espagne est championne d'Europe et du monde et a préparé ce rendez-vous avec les 26 joueurs convoqués à l'entraînement.",
+          "L'Angleterre a enregistré les forfaits de Cole Palmer, Declan Rice, Marcus Rashford, Kobbie Mainoo et Tino Livramento.",
+          "Le match se joue à Wembley, ce qui réduit l'écart théorique entre les deux équipes.",
+          "La répartition FDJ penche vers l'Espagne mais laisse près d'un tiers des choix au nul."
+        ],
+        "uncertainty": "Élevée: deux sélections de tout premier niveau s'affrontent et l'avantage du terrain peut compenser une partie des absences anglaises.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "Reuters - forfaits de l'Angleterre",
+            "url": "https://www.reuters.com/sports/soccer/chelseas-palmer-set-pull-out-england-squad-according-reports-2026-09-21/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "RFEF - préparation de l'Espagne avant l'Angleterre",
+            "url": "https://rfef.es/en/noticias/Spain-Completes-Third-Training-Session-with-England-on-the-Horizon",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rép. Tchèque",
+      "awayTeam": "Croatie",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-26T20:45:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 30,
+        "away": 43
+      },
+      "analysis": {
+        "summary": "La Croatie possède davantage de qualité et d'expérience, avec Modrić toujours présent et un groupe solide. La Tchéquie conserve toutefois un avantage domicile suffisant pour rendre le nul très crédible.",
+        "keyFactors": [
+          "La Croatie a convoqué un noyau très expérimenté avec Modrić, Kovačić, Gvardiol, Perišić et Kramarić.",
+          "La Tchéquie est privée de David Zima et Lukas Provod selon les informations de match disponibles.",
+          "La Croatie reste nettement mieux classée au niveau FIFA que la Tchéquie.",
+          "La répartition FDJ donne la Croatie favorite mais accorde une part importante au nul."
+        ],
+        "uncertainty": "Élevée: la Croatie est favorite sur la qualité pure, mais le déplacement à Prague et le début d'un nouveau cycle rendent le nul très plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "HNS - groupe croate pour la Nations League",
+            "url": "https://hns.team/en/news/31687/slaven-bilic-announces-squad-for-new-nations-league-campaign/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "FotMob - Tchéquie Croatie",
+            "url": "https://www.fotmob.com/en-GB/matches/czechia-vs-croatia/2vkax6",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Albanie",
+      "awayTeam": "Biélorussie",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-26T20:45:00+02:00",
+      "probabilities": {
+        "home": 41,
+        "draw": 31,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "L'Albanie garde l'avantage du terrain et une meilleure hiérarchie théorique, mais sa dynamique récente est très mauvaise alors que la Biélorussie arrive sur une série nettement plus positive. L'écart réel paraît donc beaucoup plus faible que la répartition FDJ.",
+        "keyFactors": [
+          "L'Albanie reste sur cinq défaites dans les résultats récents listés par FotMob.",
+          "La Biélorussie reste invaincue sur ses cinq résultats récents listés, avec plusieurs victoires.",
+          "L'Albanie est diminuée par les indisponibilités de Myrto Uzuni et Juljan Shehu.",
+          "L'avantage domicile et la meilleure valeur globale de l'effectif empêchent de faire de la Biélorussie un favori."
+        ],
+        "uncertainty": "Très élevée: la forme récente contredit fortement la hiérarchie théorique et rend les trois issues défendables.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "Sports Mole - Albanie Biélorussie preview",
+            "url": "https://www.sportsmole.co.uk/football/albania/uefa-nations-league/preview/albania-vs-belarus-prediction-team-news-lineups_605722.html",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "FotMob - Albanie Biélorussie forme et absences",
+            "url": "https://www.fotmob.com/matches/albania-vs-belarus/3c1x0y",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Slovaquie",
+      "awayTeam": "Moldavie",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-26T20:45:00+02:00",
+      "probabilities": {
+        "home": 76,
+        "draw": 16,
+        "away": 8
+      },
+      "analysis": {
+        "summary": "La Slovaquie est un favori très net à domicile. Son effectif est plus dense, l'objectif annoncé est de gagner le groupe et la Moldavie voyage avec un groupe moins expérimenté, même si l'absence de Matúš Bero retire une option au milieu slovaque.",
+        "keyFactors": [
+          "Le sélectionneur slovaque Vladimir Weiss a annoncé clairement l'objectif de gagner le groupe.",
+          "La Slovaquie dispose d'un noyau expérimenté avec notamment Škriniar, Dúbravka, Duda et plusieurs attaquants de niveau supérieur.",
+          "Matúš Bero est forfait sur blessure mais le reste du groupe est largement supérieur sur le papier.",
+          "La Moldavie s'est déplacée avec 24 joueurs et un noyau provenant majoritairement de championnats moins relevés."
+        ],
+        "uncertainty": "Faible à modérée: le principal risque vient d'un match fermé où la Moldavie résiste longtemps et transforme la rencontre en faible écart.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "SFZ - sélection slovaque et objectif pour la Nations League",
+            "url": "https://futbalsfz.sk/muzi-a-v-nominacii-na-ligu-narodov-30-hracov-imperativom-vitazstvo-v-skupine/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "SFZ - forfait de Matúš Bero",
+            "url": "https://futbalsfz.sk/muzi-a-reprezentacia-bez-matusa-bera-leo-sauer-chce-vyhrat-vsetky-zapasy/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "FMF - groupe moldave parti en Slovaquie",
+            "url": "https://www.fmf.md/noutate/18915/echipa-Tarii-tricolorii-au-decolat-spre-slovacia-afla-schimbarile-din-componenta-echipei-si-alte-detalii",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Macédoine du Nord",
+      "awayTeam": "Suisse",
+      "competition": "UEFA Nations League",
+      "startsAt": "2026-09-26T20:45:00+02:00",
+      "probabilities": {
+        "home": 20,
+        "draw": 25,
+        "away": 55
+      },
+      "analysis": {
+        "summary": "La Suisse reste supérieure malgré plusieurs absences et l'absence majeure de Granit Xhaka. La Macédoine du Nord traverse une série sans victoire et a subi plusieurs lourdes défaites, ce qui maintient les Suisses favoris même loin de chez eux.",
+        "keyFactors": [
+          "La Macédoine du Nord est annoncée sur une série de huit matchs sans victoire.",
+          "La Suisse reste sur plusieurs performances solides avant son élimination mondiale contre l'Argentine.",
+          "Granit Xhaka ne participe pas à ce rassemblement et plusieurs autres Suisses sont annoncés indisponibles.",
+          "La Macédoine du Nord a elle aussi un groupe remanié avec quatre nouveaux et Nikola Serafimov forfait."
+        ],
+        "uncertainty": "Modérée à élevée: l'absence de Xhaka et plusieurs blessures suisses réduisent sensiblement l'écart attendu.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "FFM - groupe de Macédoine du Nord",
+            "url": "https://www.ffm.mk/en/goce-sedloski-go-objavi-spisokot-za-cetirite-natprevari-vo-ligata-na-nacii/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "Reuters - absence de Granit Xhaka",
+            "url": "https://www.reuters.com/sports/soccer/swiss-captain-xhaka-sidelined-over-fake-covid-certificate-2026-09-21/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "FotMob - Macédoine du Nord Suisse forme et absences",
+            "url": "https://www.fotmob.com/en-GB/matches/switzerland-vs-north-macedonia/1us7ph",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Mexique",
+      "awayTeam": "Colombie",
+      "competition": "Match amical international",
+      "startsAt": "2026-09-26T21:00:00-04:00",
+      "probabilities": {
+        "home": 37,
+        "draw": 31,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "Le match paraît très équilibré. Le Mexique bénéficie d'un environnement favorable aux États-Unis mais débute un nouveau cycle avec Rafael Márquez, tandis que la Colombie arrive avec davantage de continuité sous Néstor Lorenzo et un groupe de 25 joueurs déjà au travail.",
+        "keyFactors": [
+          "Le match se joue à Baltimore, terrain neutre mais généralement favorable à une forte présence mexicaine.",
+          "Rafael Márquez débute comme sélectionneur du Mexique, ce qui crée une incertitude tactique importante.",
+          "La Colombie travaille avec 25 joueurs sous Néstor Lorenzo et conserve davantage de continuité collective.",
+          "Le caractère amical augmente le risque de rotations et réduit la fiabilité d'un favori net."
+        ],
+        "uncertainty": "Très élevée: match amical, nouveau sélectionneur mexicain et rotations possibles des deux côtés.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "N+ - Mexique Colombie et débuts de Rafael Márquez",
+            "url": "https://www.nmas.com.mx/deportes/mexico-vs-colombia-6-datos-debes-saber-seleccion-mexicana-antes-partido-amistoso/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "FCF - entraînement de la Colombie",
+            "url": "https://fcf.com.co/2026/09/22/la-seleccion-colombia-intensifica-el-trabajo/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "FCF - horaire confirmé Colombie Mexique",
+            "url": "https://www.fcf.com.co/2026/09/22/confirmado-el-horario-del-partido-entre-la-seleccion-colombia-masculina-de-mayores-vs-mexico/",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Etats-Unis",
+      "awayTeam": "Pérou",
+      "competition": "Match amical international",
+      "startsAt": "2026-09-26T16:30:00-04:00",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Les Etats-Unis restent favoris à Orlando grâce au terrain et à une profondeur supérieure, mais Mauricio Pochettino lance un nouveau cycle avec un groupe très rajeuni. Le forfait de Ricardo Pepi et le caractère expérimental du rassemblement augmentent le risque de nul.",
+        "keyFactors": [
+          "Les Etats-Unis jouent à domicile à Orlando.",
+          "Le groupe américain ne compte que 13 joueurs du Mondial 2026 et comporte de nombreux nouveaux appelés.",
+          "Ricardo Pepi a déclaré forfait sur blessure et a été remplacé par Damion Downs.",
+          "Le Pérou est déjà en préparation à Orlando et travaille notamment la finition sous Mano Menezes."
+        ],
+        "uncertainty": "Élevée: les Etats-Unis ont l'avantage structurel mais leur groupe très expérimental rend la performance moins prévisible qu'une cote de grand favori classique.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle LF7 n°121",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "U.S. Soccer - groupe américain pour les amicaux",
+            "url": "https://www.ussoccer.com/stories/2026/09/usmnt/mauricio-pochettino-september-october-roster",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "U.S. Soccer - forfait de Ricardo Pepi",
+            "url": "https://www.ussoccer.com/stories/2026/09/usmnt/damion-downs-added-to-fall-roster",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          },
+          {
+            "label": "RPP - préparation du Pérou à Orlando",
+            "url": "https://rpp.pe/futbol/seleccion-peruana/seleccion-peruana-trabajo-definicion-en-arco-rival-para-proximos-amistosos-fifa-2026-en-norteamerica-video-noticia-1708933",
+            "accessedAt": "2026-09-25T22:09:22+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Scénario central",
+      "selections": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Suit les favoris et avantages les plus nets tout en gardant le Mexique devant dans le match amical le plus équilibré."
+    },
+    {
+      "id": "t2",
+      "label": "Nuls majeurs",
+      "selections": [
+        "N",
+        "2",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre les deux rencontres où le nul possède une probabilité élevée sans toucher aux favoris les plus robustes."
+    },
+    {
+      "id": "t3",
+      "label": "Angleterre et Colombie",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Scénario où l'avantage de Wembley compense les absences anglaises et où la continuité colombienne fait la différence."
+    },
+    {
+      "id": "t4",
+      "label": "Prague et Baltimore fermés",
+      "selections": [
+        "2",
+        "N",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Renforce les nuls sur Tchéquie-Croatie et Mexique-Colombie, deux matchs à forte incertitude."
+    },
+    {
+      "id": "t5",
+      "label": "Biélorussie accroche",
+      "selections": [
+        "2",
+        "2",
+        "N",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre la mauvaise dynamique albanaise et une victoire colombienne dans un scénario moins consensuel."
+    },
+    {
+      "id": "t6",
+      "label": "Surprises de forme",
+      "selections": [
+        "N",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Donne du poids à la série récente de la Biélorussie et au nul du choc de Wembley."
+    },
+    {
+      "id": "t7",
+      "label": "Tchéquie à domicile",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre une victoire tchèque à Prague et un match nul au Maryland, tout en conservant les favoris les plus nets."
+    },
+    {
+      "id": "t8",
+      "label": "Double nul européen",
+      "selections": [
+        "1",
+        "N",
+        "N",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Scénario où Wembley bascule côté anglais et où Tchéquie-Croatie et Albanie-Biélorussie restent fermés."
+    },
+    {
+      "id": "t9",
+      "label": "Suisse freinée",
+      "selections": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre l'impact possible des absences suisses avec un nul à Skopje et une victoire colombienne."
+    },
+    {
+      "id": "t10",
+      "label": "Moldavie résiste",
+      "selections": [
+        "N",
+        "2",
+        "1",
+        "N",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Scénario à variance modérée où l'Angleterre accroche l'Espagne et la Moldavie ferme suffisamment le match pour prendre un point."
+    },
+    {
+      "id": "t11",
+      "label": "Outsiders ciblés",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "N",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre trois écarts par rapport au scénario central sur des matchs où la forme ou les absences justifient une alternative."
+    },
+    {
+      "id": "t12",
+      "label": "Variance maximale",
+      "selections": [
+        "2",
+        "N",
+        "1",
+        "1",
+        "1",
+        "2",
+        "N"
+      ],
+      "rationale": "Scénario plus rémunérateur couvrant une victoire macédonienne et un nul des Etats-Unis, avec la Colombie gagnante."
+    }
+  ]
+}
