@@ -1,0 +1,782 @@
+{
+  "id": "lf15-80-2026-09-28",
+  "formula": 15,
+  "gridNumber": 80,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-28T17:55:00+02:00",
+  "publishedAt": "2026-09-28T01:56:32+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Belgique",
+      "awayTeam": "France",
+      "probabilities": {
+        "home": 30,
+        "draw": 27,
+        "away": 43
+      },
+      "analysis": {
+        "summary": "La France garde un léger avantage de qualité, mais la Belgique arrive d'un succès 2-0 en Italie et le déplacement à Bruxelles resserre l'écart.",
+        "keyFactors": [
+          "Belgique victorieuse 2-0 en Italie à la J1.",
+          "France victorieuse 1-0 en Turquie.",
+          "Avantage du terrain belge."
+        ],
+        "uncertainty": "Élevée: choc équilibré entre deux équipes ayant gagné leur premier match.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "L'Équipe - Belgique-France",
+            "url": "https://www.lequipe.fr/Football/match-direct/ligue-des-nations-a/2027/belgique-france-live/688705",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Turquie",
+      "awayTeam": "Italie",
+      "probabilities": {
+        "home": 40,
+        "draw": 28,
+        "away": 32
+      },
+      "analysis": {
+        "summary": "La Turquie a mieux résisté à la France que l'Italie à la Belgique et reçoit à Bursa; l'Italie reste néanmoins assez forte pour rendre les trois issues crédibles.",
+        "keyFactors": [
+          "Turquie battue seulement 1-0 par la France.",
+          "Italie battue 2-0 à domicile par la Belgique.",
+          "Match à Bursa."
+        ],
+        "uncertainty": "Très élevée: deux équipes en réaction après une défaite.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Goal - Turquie-Italie",
+            "url": "https://www.goal.com/fr/listes/ligue-des-nations-la-rencontre-turquie-italie-est-programmee-a-l-atatuerk-spor-kompleksi-de-bursa-le-28-septembre/blt082efc8955647d55",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Suède",
+      "awayTeam": "Pologne",
+      "probabilities": {
+        "home": 57,
+        "draw": 26,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "La Suède est favorite à domicile; le marché la place nettement devant la Pologne, tout en laissant une place réelle au nul.",
+        "keyFactors": [
+          "Avantage du terrain suédois.",
+          "Marché 1N2 favorable à la Suède.",
+          "Pologne capable de fermer le match."
+        ],
+        "uncertainty": "Modérée: favori clair sans domination suffisante pour exclure le nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "SportyTrader - Suède-Pologne",
+            "url": "https://www.sportytrader.com/cotes/suede-pologne-8318446/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Roumanie",
+      "awayTeam": "Bosnie-Herzégovine",
+      "probabilities": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "La Roumanie conserve l'avantage du terrain, mais la Bosnie a montré une capacité à résister à l'extérieur, ce qui augmente le poids du nul.",
+        "keyFactors": [
+          "Roumanie à domicile.",
+          "Bosnie capable de défendre bas.",
+          "Écart de niveau limité."
+        ],
+        "uncertainty": "Élevée: rencontre propice à un score serré.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Foot Mercato - calendrier groupe B4",
+            "url": "https://www.footmercato.net/europe/uefa-nations-league/calendrier/8034701889010669262-groupe-groupe-4",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Irlande du Nord",
+      "awayTeam": "Hongrie",
+      "probabilities": {
+        "home": 53,
+        "draw": 28,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "L'Irlande du Nord bénéficie du terrain et d'une dynamique plus favorable; la Hongrie reste dangereuse mais part derrière.",
+        "keyFactors": [
+          "Avantage du terrain nord-irlandais.",
+          "Profil attendu fermé.",
+          "Hongrie sous pression après son entrée en compétition."
+        ],
+        "uncertainty": "Modérée: avantage local mais faible marge attendue.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "UEFA - calendrier Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Géorgie",
+      "awayTeam": "Ukraine",
+      "probabilities": {
+        "home": 26,
+        "draw": 28,
+        "away": 46
+      },
+      "analysis": {
+        "summary": "L'Ukraine présente davantage de garanties collectives, mais le déplacement en Géorgie et le potentiel offensif local empêchent d'en faire un favori massif.",
+        "keyFactors": [
+          "Ukraine mieux armée collectivement.",
+          "Géorgie à domicile.",
+          "Match potentiellement serré."
+        ],
+        "uncertainty": "Élevée: avantage ukrainien mais terrain difficile.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "UEFA - calendrier Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Arménie",
+      "awayTeam": "Monténégro",
+      "probabilities": {
+        "home": 34,
+        "draw": 31,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Affiche pratiquement équilibrée; le terrain arménien compense la légère supériorité théorique monténégrine.",
+        "keyFactors": [
+          "Écart de niveau faible.",
+          "Avantage du terrain arménien.",
+          "Nul structurellement plausible."
+        ],
+        "uncertainty": "Très élevée: aucune issue ne se détache franchement.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "UEFA - calendrier Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Écosse",
+      "awayTeam": "Suisse",
+      "probabilities": {
+        "home": 25,
+        "draw": 30,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "La Suisse est favorite après son 3-0 en Macédoine du Nord, mais l'Écosse a produit une forte domination territoriale lors de son 0-0 en Slovénie.",
+        "keyFactors": [
+          "Suisse victorieuse 3-0 à Skopje.",
+          "Écosse à 65% de possession et 17 tirs en Slovénie.",
+          "Hampden réduit l'écart."
+        ],
+        "uncertainty": "Élevée: la Suisse est supérieure mais l'Écosse a montré de bons signaux sous son nouveau sélectionneur.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Scottish FA - Slovénie 0-0 Écosse",
+            "url": "https://www.scottishfa.co.uk/en/news/scotland-unable-to-find-breakthrough-despite-attacking-display-in-slovenia-draw",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Futbol24 - Macédoine du Nord 0-3 Suisse",
+            "url": "https://www.futbol24.com/match/2026/09/26/international/UEFA/Nations-League/2026-2027/League-B-Group-1/N-Macedonia/vs/Switzerland",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Slovénie",
+      "awayTeam": "Macédoine du Nord",
+      "probabilities": {
+        "home": 55,
+        "draw": 29,
+        "away": 16
+      },
+      "analysis": {
+        "summary": "La Slovénie reçoit une Macédoine du Nord battue 3-0 par la Suisse et muette depuis plusieurs matchs; l'absence annoncée de Šeško limite toutefois la confiance.",
+        "keyFactors": [
+          "Macédoine du Nord battue 3-0 à domicile par la Suisse.",
+          "Slovénie solide défensivement contre l'Écosse.",
+          "Absence annoncée de Benjamin Šeško."
+        ],
+        "uncertainty": "Modérée: avantage slovène clair, mais attaque locale diminuée.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "SportyTrader - Slovénie-Macédoine du Nord",
+            "url": "https://www.sportytrader.com/en/betting-tips/slovenia-f-y-r-macedonia-375657/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Scottish FA - Slovénie 0-0 Écosse",
+            "url": "https://www.scottishfa.co.uk/en/news/scotland-unable-to-find-breakthrough-despite-attacking-display-in-slovenia-draw",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Slovaquie",
+      "awayTeam": "Kazakhstan",
+      "probabilities": {
+        "home": 70,
+        "draw": 20,
+        "away": 10
+      },
+      "analysis": {
+        "summary": "La Slovaquie est le favori le plus solide après son 2-0 contre la Moldavie; le Kazakhstan n'a pris qu'un nul 1-1 aux Îles Féroé.",
+        "keyFactors": [
+          "Slovaquie 2-0 Moldavie avec 68% de possession.",
+          "Kazakhstan tenu 1-1 aux Îles Féroé.",
+          "Marché très favorable à la Slovaquie."
+        ],
+        "uncertainty": "Faible à modérée: la Slovaquie domine les indicateurs, mais le nul reste le principal risque.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Football Web Pages - Slovaquie 2-0 Moldavie",
+            "url": "https://www.footballwebpages.co.uk/match/2026-2027/uefa-nations-league/slovakia/moldova/585268",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Sky Sports - Îles Féroé 1-1 Kazakhstan",
+            "url": "https://www.skysports.com/football/faroe-islands-vs-kazakhstan/teams/554001",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Luxembourg",
+      "awayTeam": "Islande",
+      "probabilities": {
+        "home": 40,
+        "draw": 30,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Le Luxembourg arrive renforcé par sa victoire 2-1 en Bulgarie; l'Islande a concédé un nul 1-1 à domicile contre l'Estonie. L'avantage local fait légèrement pencher le match.",
+        "keyFactors": [
+          "Luxembourg victorieux 2-1 en Bulgarie.",
+          "Islande tenue 1-1 par l'Estonie.",
+          "Match équilibré selon les modèles."
+        ],
+        "uncertainty": "Très élevée: les trois issues restent proches.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Foot Mercato - Bulgarie 1-2 Luxembourg",
+            "url": "https://www.footmercato.net/live/1191603729956755799-bulgarie-vs-luxembourg",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Football Web Pages - Islande 1-1 Estonie",
+            "url": "https://www.footballwebpages.co.uk/match/2026-2027/uefa-nations-league/iceland/estonia/585262",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Bulgarie",
+      "awayTeam": "Estonie",
+      "probabilities": {
+        "home": 55,
+        "draw": 28,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "La Bulgarie reste favorite à domicile malgré sa défaite contre le Luxembourg; l'Estonie vient toutefois d'arracher un nul en Islande et mérite une couverture secondaire.",
+        "keyFactors": [
+          "Bulgarie à domicile.",
+          "Bulgarie battue 2-1 par le Luxembourg.",
+          "Estonie 1-1 en Islande."
+        ],
+        "uncertainty": "Élevée: le favori sort d'une contre-performance et l'Estonie a montré de la résistance.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Foot Mercato - Bulgarie 1-2 Luxembourg",
+            "url": "https://www.footmercato.net/live/1191603729956755799-bulgarie-vs-luxembourg",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Football Web Pages - Islande 1-1 Estonie",
+            "url": "https://www.footballwebpages.co.uk/match/2026-2027/uefa-nations-league/iceland/estonia/585262",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "République tchèque",
+      "awayTeam": "Angleterre",
+      "probabilities": {
+        "home": 17,
+        "draw": 23,
+        "away": 60
+      },
+      "analysis": {
+        "summary": "L'Angleterre reste nettement favorite malgré sa défaite 3-2 contre l'Espagne; la Tchéquie a perdu 2-1 chez elle contre la Croatie et a subi 16 tirs.",
+        "keyFactors": [
+          "Angleterre compétitive malgré la défaite face à l'Espagne.",
+          "Tchéquie battue 2-1 par la Croatie.",
+          "Marché très favorable à l'Angleterre."
+        ],
+        "uncertainty": "Modérée: avantage anglais clair, mais déplacement et réaction tchèque à considérer.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "PSG - Angleterre 2-3 Espagne",
+            "url": "https://www.psg.fr/content/lespagne-de-fabian-ruiz-et-ferran-simpose-en-angleterre-paris-saint-germain-20262027",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "HNS - Tchéquie 1-2 Croatie",
+            "url": "https://hns.team/en/news/31788/croatia-open-nations-league-campaign-with-victory-in-czechia/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Espagne",
+      "awayTeam": "Croatie",
+      "probabilities": {
+        "home": 70,
+        "draw": 19,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "L'Espagne reste un favori fort après son succès 3-2 à Wembley; la Croatie a gagné à Prague mais le rapport de forces et le terrain donnent un avantage net à la Roja.",
+        "keyFactors": [
+          "Espagne victorieuse 3-2 en Angleterre.",
+          "Croatie victorieuse 2-1 en Tchéquie.",
+          "Marché très favorable à l'Espagne."
+        ],
+        "uncertainty": "Modérée: la Croatie a assez d'expérience pour punir une baisse de régime espagnole.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "PSG - Angleterre 2-3 Espagne",
+            "url": "https://www.psg.fr/content/lespagne-de-fabian-ruiz-et-ferran-simpose-en-angleterre-paris-saint-germain-20262027",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "HNS - Tchéquie 1-2 Croatie",
+            "url": "https://hns.team/en/news/31788/croatia-open-nations-league-campaign-with-victory-in-czechia/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Australie",
+      "awayTeam": "Brésil",
+      "probabilities": {
+        "home": 15,
+        "draw": 23,
+        "away": 62
+      },
+      "analysis": {
+        "summary": "Le Brésil reste nettement supérieur sur le papier et a dominé le premier amical malgré le nul 1-1; l'Australie a néanmoins prouvé qu'elle pouvait résister et marquer.",
+        "keyFactors": [
+          "Premier match terminé 1-1.",
+          "Brésil dominant en possession et en volume de tirs.",
+          "Profondeur d'effectif nettement favorable au Brésil."
+        ],
+        "uncertainty": "Modérée: rotation possible en amical et Australie déjà capable de tenir le Brésil.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°80",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "PSG - Australie 1-1 Brésil",
+            "url": "https://www.psg.fr/content/le-bresil-arrache-le-nul-face-a-laustralie-psg-selection-marquinhos-amical-2026-2027",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          },
+          {
+            "label": "Foresportia - Australie-Brésil",
+            "url": "https://www.foresportia.com/en/prediction/international-friendlies/australia-brazil-2026-09-29/",
+            "accessedAt": "2026-09-28T01:56:32+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "Central",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Scénario central privilégiant les favoris et les légers avantages identifiés."
+    },
+    {
+      "id": "t2",
+      "label": "Nuls ciblés",
+      "selections": [
+        "N",
+        "N",
+        "1",
+        "N",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre les nuls les plus plausibles sur les affiches équilibrées."
+    },
+    {
+      "id": "t3",
+      "label": "Belgique et Luxembourg",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Valorise deux scénarios locaux crédibles tout en conservant les favoris forts."
+    },
+    {
+      "id": "t4",
+      "label": "Italie et Suisse",
+      "selections": [
+        "2",
+        "2",
+        "1",
+        "N",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre une réaction italienne et maintient la Suisse comme favori extérieur."
+    },
+    {
+      "id": "t5",
+      "label": "Pologne accroche",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Ajoute des nuls sur Suède-Pologne, Géorgie-Ukraine et Bulgarie-Estonie."
+    },
+    {
+      "id": "t6",
+      "label": "Bosnie surprise",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre une victoire bosnienne et deux nuls sur des rencontres à forte variance."
+    },
+    {
+      "id": "t7",
+      "label": "Hongrie réagit",
+      "selections": [
+        "2",
+        "N",
+        "1",
+        "1",
+        "2",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Introduit une réaction hongroise et des nuls sur deux matchs très ouverts."
+    },
+    {
+      "id": "t8",
+      "label": "Géorgie et Estonie",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "N",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre deux surprises locales ou extérieures rarement présentes dans les scénarios centraux."
+    },
+    {
+      "id": "t9",
+      "label": "Écosse résiste",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre un nul à Hampden et un nul à Belfast sans sacrifier les grands favoris."
+    },
+    {
+      "id": "t10",
+      "label": "Croatie résiste",
+      "selections": [
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "2"
+      ],
+      "rationale": "Scénario plus volatil avec Croatie tenue au nul et plusieurs outsiders couverts."
+    },
+    {
+      "id": "t11",
+      "label": "Australie accroche",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre un nouveau nul Australie-Brésil et plusieurs matchs à faible séparation."
+    },
+    {
+      "id": "t12",
+      "label": "Variance",
+      "selections": [
+        "1",
+        "N",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "N",
+        "N",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ],
+      "rationale": "Portefeuille de variance élevée couvrant des surprises multiples sans quasi-cloner les autres tickets."
+    }
+  ]
+}
