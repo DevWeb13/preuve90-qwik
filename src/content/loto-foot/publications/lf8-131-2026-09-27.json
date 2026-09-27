@@ -1,0 +1,136 @@
+{
+  "id": "lf8-131-2026-09-27",
+  "formula": 8,
+  "gridNumber": 131,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-27T14:55:00+02:00",
+  "publishedAt": "2026-09-27T09:57:30+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1, "homeTeam": "Norvège", "awayTeam": "Portugal", "competition": "UEFA Nations League",
+      "probabilities": {"home": 38, "draw": 30, "away": 32},
+      "analysis": {
+        "summary": "Affiche très équilibrée. La Norvège reste légèrement avantagée par le terrain et sa forme récente, tandis que le Portugal présente un profil tout aussi solide et un historique direct favorable.",
+        "keyFactors": ["Norvège: trois victoires sur les cinq derniers matchs recensés.", "Portugal: trois victoires et un nul sur les cinq derniers matchs recensés.", "La répartition FDJ est presque parfaitement équilibrée."],
+        "uncertainty": "Élevée: aucun des trois résultats ne se détache nettement.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"Statz - Norway vs Portugal","url":"https://statz.ai/h2h/norway-vs-portugal/19676684","accessedAt":"2026-09-27T09:56:00+02:00"},
+          {"label":"Tips.GG - Norway vs Portugal H2H & form","url":"https://tips.gg/article/norway-vs-portugal-head-to-head-27-09-2026/","accessedAt":"2026-09-27T09:56:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2, "homeTeam": "Allemagne", "awayTeam": "Grèce", "competition": "UEFA Nations League",
+      "probabilities": {"home": 68, "draw": 20, "away": 12},
+      "analysis": {
+        "summary": "L'Allemagne est nettement favorite à domicile. Les modèles consultés, l'écart de niveau et la forme grecque récente convergent vers le 1, sans rendre le nul impossible.",
+        "keyFactors": ["Modèle externe: Allemagne autour de 67% et avantage xG marqué.", "Grèce sans victoire sur ses cinq derniers matchs recensés par ViaSport.", "La FDJ montre une très forte concentration des joueurs sur le 1."],
+        "uncertainty": "Modérée: favori clair, mais le nul reste le principal scénario de rupture.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"Aleavici Football - Germany vs Greece","url":"https://football.aleavici.com/football/2026-09-27/germany-vs-greece","accessedAt":"2026-09-27T09:56:10+02:00"},
+          {"label":"FotMob - Germany vs Greece","url":"https://www.fotmob.com/vi/matches/greece-vs-germany/1ukit3","accessedAt":"2026-09-27T09:56:10+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3, "homeTeam": "Israël", "awayTeam": "Rép. Irlande", "competition": "UEFA Nations League",
+      "probabilities": {"home": 34, "draw": 34, "away": 32},
+      "analysis": {
+        "summary": "Match sans favori robuste. Les formes récentes sont proches et la répartition FDJ est quasiment uniforme, ce qui justifie une couverture très large.",
+        "keyFactors": ["Israël et l'Irlande affichent chacun deux victoires sur leurs cinq derniers matchs recensés.", "La répartition FDJ 34/34/32 confirme l'absence de consensus.", "Le match est annoncé sur terrain à Debrecen, réduisant la lecture classique de l'avantage domicile."],
+        "uncertainty": "Très élevée: les trois issues sont pratiquement équiprobables.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"Statz - Israel vs Republic of Ireland","url":"https://statz.ai/h2h/israel-vs-republic-of-ireland/19676734","accessedAt":"2026-09-27T09:56:20+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4, "homeTeam": "Serbie", "awayTeam": "Pays-Bas", "competition": "UEFA Nations League",
+      "probabilities": {"home": 16, "draw": 22, "away": 62},
+      "analysis": {
+        "summary": "Les Pays-Bas disposent du meilleur profil récent et restent le choix principal malgré le déplacement. La Serbie conserve surtout une chance via un match fermé ou une réaction à domicile.",
+        "keyFactors": ["Pays-Bas invaincus sur les cinq matchs de forme recensés par ViaSport.", "Serbie: trois défaites sur les cinq matchs recensés.", "La FDJ concentre fortement les choix sur le 2."],
+        "uncertainty": "Modérée: avantage néerlandais net, avec le nul comme couverture prioritaire.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"ViaSport - Serbia vs Netherlands","url":"https://www.viasport.no/fotball/kamp/1528896","accessedAt":"2026-09-27T09:56:30+02:00"},
+          {"label":"Tips.GG - Serbia vs Netherlands H2H & form","url":"https://tips.gg/article/serbia-vs-netherlands-head-to-head-27-09-2026/","accessedAt":"2026-09-27T09:56:30+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5, "homeTeam": "Autriche", "awayTeam": "Kosovo", "competition": "UEFA Nations League",
+      "probabilities": {"home": 60, "draw": 22, "away": 18},
+      "analysis": {
+        "summary": "L'Autriche est favorite grâce à son rendement à domicile et à un effectif kosovar diminué. Le Kosovo reste dangereux en transition et empêche de monter trop haut la probabilité du 1.",
+        "keyFactors": ["Autriche annoncée invaincue sur douze matchs à domicile par SportyTrader.", "Kosovo privé de plusieurs éléments défensifs selon les informations d'avant-match.", "Les deux équipes ont gagné leur premier match de groupe."],
+        "uncertainty": "Modérée: le 1 domine, mais la capacité du Kosovo à marquer entretient les scénarios N et 2.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"SportyTrader - Austria vs Kosovo","url":"https://www.sportytrader.com/en/betting-tips/austria-kosovo-375322/","accessedAt":"2026-09-27T09:56:40+02:00"},
+          {"label":"The Football Faithful - Austria vs Kosovo","url":"https://thefootballfaithful.com/austria-vs-kosovo-prediction-betting-tips-27-09-2026/","accessedAt":"2026-09-27T09:56:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6, "homeTeam": "Danemark", "awayTeam": "Pays de Galles", "competition": "UEFA Nations League",
+      "probabilities": {"home": 66, "draw": 21, "away": 13},
+      "analysis": {
+        "summary": "Le Danemark est le choix fort à domicile. L'écart de niveau, les confrontations directes et les absences galloises soutiennent le 1.",
+        "keyFactors": ["Modèle externe autour de 67% pour le Danemark.", "Historique récent des confrontations favorable au Danemark.", "Pays de Galles diminué par plusieurs absences et sans victoire sur ses quatre derniers matchs selon l'avant-match consulté."],
+        "uncertainty": "Modérée: le nul est le scénario alternatif principal.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"UEFA - Denmark vs Wales","url":"https://www.uefa.com/uefanationsleague/match/2047977--denmark-vs-wales/","accessedAt":"2026-09-27T09:56:50+02:00"},
+          {"label":"The Football Faithful - Denmark vs Wales","url":"https://thefootballfaithful.com/denmark-vs-wales-prediction-betting-tips-27-09-2026/","accessedAt":"2026-09-27T09:56:50+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7, "homeTeam": "Gibraltar", "awayTeam": "Andorre", "competition": "UEFA Nations League",
+      "probabilities": {"home": 43, "draw": 31, "away": 26},
+      "analysis": {
+        "summary": "Rencontre à faible niveau offensif où Gibraltar mérite un léger avantage. Son historique direct contre Andorre et la faiblesse persistante d'Andorre à l'extérieur compensent une répartition FDJ très partagée.",
+        "keyFactors": ["Gibraltar est invaincu en trois confrontations recensées contre Andorre, sans but encaissé.", "Andorre reste sur une longue série sans victoire hors de ses bases selon l'analyse Flashscore.", "La FDJ reste très partagée, ce qui impose de couvrir le nul et le 2 dans le portefeuille."],
+        "uncertainty": "Très élevée: match potentiellement fermé et faible marge entre les trois issues.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"UEFA - Gibraltar vs Andorra","url":"https://www.uefa.com/uefanationsleague/match/2047980--gibraltar-vs-andorra/","accessedAt":"2026-09-27T09:57:00+02:00"},
+          {"label":"Flashscore - Gibraltar vs Andorra","url":"https://www.flashscore.com/match/football/andorra-dnO5z404/gibraltar-CEihsqe7/","accessedAt":"2026-09-27T09:57:00+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8, "homeTeam": "Lituanie", "awayTeam": "Azerbaïdjan", "competition": "UEFA Nations League",
+      "probabilities": {"home": 40, "draw": 31, "away": 29},
+      "analysis": {
+        "summary": "La Lituanie a un léger avantage à domicile, mais l'affiche reste serrée et peu prolifique. Le nul reçoit une couverture importante, conformément aux modèles et à l'historique récent.",
+        "keyFactors": ["SportyTrader estime l'affiche proche: 36%/31%/33%.", "Lituanie victorieuse 2-0 lors de son ouverture de Nations League.", "Les précédentes confrontations et tendances offensives orientent vers un match serré."],
+        "uncertainty": "Élevée: avantage lituanien faible et forte probabilité de match nul.",
+        "sources": [
+          {"label":"FDJ - grilles ouvertes Loto Foot","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T09:55:20+02:00"},
+          {"label":"SportyTrader - Lithuania vs Azerbaijan","url":"https://www.sportytrader.com/en/betting-tips/lithuania-azerbaijan-375300/","accessedAt":"2026-09-27T09:57:10+02:00"},
+          {"label":"Sky Sports - Lithuania vs Azerbaijan","url":"https://www.skysports.com/football/lithuania-vs-azerbaijan/554011","accessedAt":"2026-09-27T09:57:10+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t01","label":"Socle équilibré","selections":["1","1","N","2","1","1","1","1"],"rationale":"Favoris structurants, avec le nul sur Israël-Irlande et Gibraltar/Lituanie côté domicile."},
+    {"id":"t02","label":"Portugal et nul balte","selections":["2","1","1","2","1","1","1","N"],"rationale":"Couvre le Portugal et le nul Lituanie-Azerbaïdjan sans toucher aux favoris forts."},
+    {"id":"t03","label":"Nuls serrés","selections":["N","1","N","2","1","1","N","N"],"rationale":"Scénario de matchs fermés sur les affiches les plus équilibrées."},
+    {"id":"t04","label":"Irlande et Andorre","selections":["1","1","2","2","1","1","2","1"],"rationale":"Couvre deux outsiders plausibles sur les rencontres les moins tranchées."},
+    {"id":"t05","label":"Portugal Kosovo","selections":["2","1","N","2","2","1","1","1"],"rationale":"Scénario où le Kosovo concrétise ses transitions et le Portugal gagne à Oslo."},
+    {"id":"t06","label":"Rupture néerlandaise","selections":["1","1","1","N","1","1","N","2"],"rationale":"Couvre un nul Serbie-Pays-Bas et une victoire azerbaïdjanaise, avec variation sur Gibraltar."},
+    {"id":"t07","label":"Favoris et Irlande","selections":["N","1","2","2","1","1","1","1"],"rationale":"Conserve les favoris nets et couvre l'Irlande ainsi que le nul Norvège-Portugal."},
+    {"id":"t08","label":"Nuls intermédiaires","selections":["2","1","N","2","N","1","1","N"],"rationale":"Couvre le nul de l'Autriche et celui de Lituanie-Azerbaïdjan avec succès portugais."},
+    {"id":"t09","label":"Surprises contrôlées","selections":["1","N","1","2","1","1","N","2"],"rationale":"Couvre un nul Allemagne-Grèce et l'Azerbaïdjan sans accumuler d'autres grosses ruptures."},
+    {"id":"t10","label":"Galles couvert","selections":["N","1","N","2","1","2","1","1"],"rationale":"Variante à forte valeur marginale couvrant la surprise galloise sur un socle prudent."},
+    {"id":"t11","label":"Serbie couverte","selections":["2","1","2","1","1","1","N","N"],"rationale":"Couvre la rupture serbe, associée à des choix alternatifs sur les matchs équilibrés."},
+    {"id":"t12","label":"Double rupture favoris","selections":["1","2","N","2","1","N","1","1"],"rationale":"Couvre deux accidents rares mais coûteux: Grèce gagnante et nul Danemark-Galles."}
+  ]
+}
