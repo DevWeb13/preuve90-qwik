@@ -1,0 +1,182 @@
+{
+  "id": "lf12-82-2026-09-27",
+  "formula": 12,
+  "gridNumber": 82,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-09-27T14:55:00+02:00",
+  "publishedAt": "2026-09-27T13:59:07+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1, "homeTeam": "Norvège", "awayTeam": "Portugal", "competition": "UEFA Nations League A",
+      "probabilities": {"home": 36, "draw": 28, "away": 36},
+      "analysis": {
+        "summary": "Affiche très équilibrée entre une Norvège portée par son parcours mondial et sa victoire 3-2 contre le Danemark, et un Portugal plus contrôlé qui vient de battre le pays de Galles 1-0. Le terrain compense une partie de l'avantage qualitatif portugais.",
+        "keyFactors": ["Norvège victorieuse du Danemark 3-2 lors de la première journée", "Portugal vainqueur du pays de Galles 1-0", "Avantage du terrain norvégien"],
+        "uncertainty": "Deux équipes en bonne dynamique avec des profils différents rendent les trois issues crédibles.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Norvège-Portugal forme","url":"https://www.skysports.com/football/norway-vs-portugal/554012","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 2, "homeTeam": "Allemagne", "awayTeam": "Grèce", "competition": "UEFA Nations League A",
+      "probabilities": {"home": 62, "draw": 23, "away": 15},
+      "analysis": {
+        "summary": "L'Allemagne reste nettement favorite à domicile malgré son nul 1-1 aux Pays-Bas. La Grèce arrive avec une victoire 2-1 en Serbie, ce qui interdit de la traiter comme un outsider négligeable.",
+        "keyFactors": ["Avantage du terrain allemand", "Allemagne tenue en échec 1-1 aux Pays-Bas", "Grèce victorieuse 2-1 en Serbie"],
+        "uncertainty": "La victoire grecque à l'extérieur trois jours plus tôt montre une capacité réelle à déjouer un favori.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Allemagne-Grèce forme","url":"https://www.skysports.com/football/germany-vs-greece/554009","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 3, "homeTeam": "Israël", "awayTeam": "Rép. Irlande", "competition": "UEFA Nations League B",
+      "probabilities": {"home": 34, "draw": 34, "away": 32},
+      "analysis": {
+        "summary": "Match presque indécidable sur terrain délocalisé à Debrecen. Israël sort d'une défaite 3-1 en Autriche et l'Irlande d'un revers 1-0 au Kosovo, tandis que leurs séries précédentes étaient plus solides.",
+        "keyFactors": ["Rencontre disputée à Debrecen plutôt qu'en Israël", "Israël battu 3-1 en Autriche", "Irlande battue 1-0 au Kosovo"],
+        "uncertainty": "Le contexte de terrain neutre et les défaites récentes des deux équipes augmentent fortement l'incertitude.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Israël-République d'Irlande forme","url":"https://www.skysports.com/football/israel-vs-republic-of-ireland/554010","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 4, "homeTeam": "Serbie", "awayTeam": "Pays-Bas", "competition": "UEFA Nations League A",
+      "probabilities": {"home": 18, "draw": 24, "away": 58},
+      "analysis": {
+        "summary": "Les Pays-Bas ont un avantage net de forme et de stabilité. La Serbie vient de perdre à domicile contre la Grèce et restait sur plusieurs lourdes défaites, alors que les Néerlandais ont produit un été mondial solide.",
+        "keyFactors": ["Serbie battue 2-1 à domicile par la Grèce", "Pays-Bas à 1-1 contre l'Allemagne après un Mondial solide", "Série défensive serbe préoccupante"],
+        "uncertainty": "Le terrain serbe et le potentiel individuel local empêchent de pousser davantage la probabilité néerlandaise.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Serbie-Pays-Bas forme","url":"https://www.skysports.com/football/serbia-vs-netherlands/554013","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 5, "homeTeam": "Autriche", "awayTeam": "Kosovo", "competition": "UEFA Nations League B",
+      "probabilities": {"home": 61, "draw": 23, "away": 16},
+      "analysis": {
+        "summary": "L'Autriche part favorite à Vienne après son succès 3-1 contre Israël. Le Kosovo a lui aussi gagné sa première journée, 1-0 contre l'Irlande, et conserve donc une menace de transition crédible.",
+        "keyFactors": ["Autriche victorieuse 3-1 contre Israël", "Kosovo victorieux 1-0 contre l'Irlande", "Avantage du terrain autrichien"],
+        "uncertainty": "Le Kosovo arrive en confiance et a déjà montré sa capacité à gagner des matchs serrés.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Autriche-Kosovo forme","url":"https://www.skysports.com/football/austria-vs-kosovo/554007","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 6, "homeTeam": "Danemark", "awayTeam": "Pays de Galles", "competition": "UEFA Nations League A",
+      "probabilities": {"home": 59, "draw": 25, "away": 16},
+      "analysis": {
+        "summary": "Le Danemark bénéficie du terrain et d'un potentiel offensif supérieur, mais sa défaite 3-2 en Norvège rappelle sa fragilité récente. Le pays de Galles a perdu seulement 1-0 au Portugal et peut maintenir un match fermé.",
+        "keyFactors": ["Avantage du Parken pour le Danemark", "Danemark battu 3-2 en Norvège", "Pays de Galles battu seulement 1-0 au Portugal"],
+        "uncertainty": "La défense danoise récente laisse une vraie fenêtre à un nul gallois.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Danemark-Pays de Galles forme","url":"https://www.skysports.com/football/denmark-vs-wales/stats/554008","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 7, "homeTeam": "Gibraltar", "awayTeam": "Andorre", "competition": "UEFA Nations League D",
+      "probabilities": {"home": 34, "draw": 34, "away": 32},
+      "analysis": {
+        "summary": "Duel de niveau proche où aucun camp ne mérite un statut clair de favori. Les formes récentes sont modestes et le profil de cette affiche de Ligue D donne une place importante au nul.",
+        "keyFactors": ["Gibraltar reste sur deux défaites citées", "Andorre alterne résultats serrés et revers", "Écart de niveau limité entre les deux sélections"],
+        "uncertainty": "Faible volume offensif et niveau proche rendent le premier but potentiellement décisif.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"UEFA - Gibraltar-Andorre","url":"https://www.uefa.com/uefanationsleague/match/2047980--gibraltar-vs-andorra/","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"FotMob - Gibraltar-Andorre forme","url":"https://www.fotmob.com/matches/andorra-vs-gibraltar/1pl65ibh","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 8, "homeTeam": "Lituanie", "awayTeam": "Azerbaïdjan", "competition": "UEFA Nations League D",
+      "probabilities": {"home": 47, "draw": 30, "away": 23},
+      "analysis": {
+        "summary": "La Lituanie prend un léger avantage à domicile après sa victoire 2-0 au Liechtenstein. L'Azerbaïdjan vient aussi de gagner, contre le Tadjikistan, mais ses résultats précédents restent irréguliers.",
+        "keyFactors": ["Lituanie victorieuse 2-0 au Liechtenstein", "Azerbaïdjan victorieux 1-0 du Tadjikistan", "Avantage du terrain lituanien"],
+        "uncertainty": "Les deux équipes évoluent à un niveau proche et le nul reste structurellement important.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Lituanie-Azerbaïdjan forme","url":"https://www.skysports.com/football/lithuania-vs-azerbaijan/stats/554011","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 9, "homeTeam": "Roumanie", "awayTeam": "Bosnie-Herzégovine", "competition": "UEFA Nations League B",
+      "probabilities": {"home": 45, "draw": 29, "away": 26},
+      "analysis": {
+        "summary": "La Roumanie a l'avantage du terrain mais la Bosnie a gagné 3-1 leur confrontation de novembre 2025. Les formes récentes sont mitigées des deux côtés, ce qui maintient un nul et une victoire bosnienne à des niveaux significatifs.",
+        "keyFactors": ["Avantage du terrain roumain", "Bosnie victorieuse 3-1 de la Roumanie en novembre 2025", "Formes récentes irrégulières des deux équipes"],
+        "uncertainty": "Le précédent direct favorable à la Bosnie réduit fortement la confiance dans le favori domicile.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Roumanie-Bosnie forme","url":"https://www.skysports.com/football/romania-vs-bosnia-and-herzegovina/554019","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 10, "homeTeam": "Géorgie", "awayTeam": "Ukraine", "competition": "UEFA Nations League B",
+      "probabilities": {"home": 27, "draw": 30, "away": 43},
+      "analysis": {
+        "summary": "L'Ukraine arrive avec une meilleure dynamique, dont une victoire 1-0 en Hongrie, tandis que la Géorgie vient de perdre à domicile contre l'Irlande du Nord. Le déplacement garde toutefois le nul bien vivant.",
+        "keyFactors": ["Ukraine victorieuse 1-0 en Hongrie", "Géorgie battue 1-0 à domicile par l'Irlande du Nord", "Ukraine également victorieuse de la Pologne et de l'Albanie récemment"],
+        "uncertainty": "La Géorgie à domicile possède assez de talent offensif pour rendre le match plus serré que la dynamique brute.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Géorgie-Ukraine forme","url":"https://www.skysports.com/football/georgia-vs-ukraine/554017","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 11, "homeTeam": "Turquie", "awayTeam": "Italie", "competition": "UEFA Nations League A",
+      "probabilities": {"home": 34, "draw": 31, "away": 35},
+      "analysis": {
+        "summary": "Affiche très serrée entre deux équipes battues lors de la première journée. La Turquie a perdu 1-0 contre la France et l'Italie 2-0 contre la Belgique; l'avantage du terrain turc compense presque totalement le léger avantage structurel italien.",
+        "keyFactors": ["Turquie battue seulement 1-0 par la France", "Italie battue 2-0 à domicile par la Belgique", "Avantage du terrain turc"],
+        "uncertainty": "Deux équipes en réaction après une défaite initiale rendent les trois issues très proches.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Turquie-Italie forme","url":"https://www.skysports.com/football/turkey-vs-italy/554022","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    },
+    {
+      "position": 12, "homeTeam": "Belgique", "awayTeam": "France", "competition": "UEFA Nations League A",
+      "probabilities": {"home": 30, "draw": 28, "away": 42},
+      "analysis": {
+        "summary": "La France conserve un léger avantage de profondeur et de niveau récent, mais la Belgique vient de gagner 2-0 en Italie et reçoit à Bruxelles. Le succès français 1-0 en Turquie confirme néanmoins sa solidité.",
+        "keyFactors": ["Belgique victorieuse 2-0 en Italie", "France victorieuse 1-0 en Turquie", "France sortie d'un parcours jusqu'aux demi-finales du Mondial"],
+        "uncertainty": "La forme belge et l'avantage du terrain rendent une victoire française loin d'être dominante.",
+        "sources": [
+          {"label":"FDJ - grille officielle LF12 n°82","url":"https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot","accessedAt":"2026-09-27T13:58:40+02:00"},
+          {"label":"Sky Sports - Belgique-France forme","url":"https://www.skysports.com/football/belgium-vs-france/554016","accessedAt":"2026-09-27T13:58:40+02:00"}
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {"id":"t1","label":"Scénario central","selections":["1","1","N","2","1","1","N","1","1","2","2","2"],"rationale":"Favoris principaux avec les nuls des deux affiches les plus équilibrées."},
+    {"id":"t2","label":"Portugal et France","selections":["2","1","1","2","1","1","2","1","1","2","N","2"],"rationale":"Renforce les puissances extérieures tout en variant Israël-Irlande et Gibraltar-Andorre."},
+    {"id":"t3","label":"Nuls structurants","selections":["N","1","N","2","1","N","N","N","N","N","N","N"],"rationale":"Couvre un scénario fermé sur les rencontres dont les écarts sont faibles."},
+    {"id":"t4","label":"Révolte des locaux","selections":["1","1","1","N","1","1","1","1","1","1","1","1"],"rationale":"Scénario où l'avantage du terrain pèse fortement, y compris dans les affiches serrées."},
+    {"id":"t5","label":"Outsiders ciblés","selections":["2","N","2","1","N","1","2","2","2","2","2","2"],"rationale":"Couvre plusieurs surprises plausibles sans dupliquer la structure centrale."},
+    {"id":"t6","label":"Pays-Bas solides","selections":["N","1","N","2","1","N","1","1","2","2","1","2"],"rationale":"Ancre les Pays-Bas et l'Ukraine tout en répartissant les issues serrées."},
+    {"id":"t7","label":"Grèce et Kosovo","selections":["1","2","1","2","2","1","N","N","1","2","N","2"],"rationale":"Couvre la poursuite de la dynamique grecque et kosovare après leurs victoires initiales."},
+    {"id":"t8","label":"Portugal dominant","selections":["2","1","2","2","1","1","1","1","N","N","2","1"],"rationale":"Scénario plus favorable au Portugal avec couverture belge et plusieurs bascules sur les matchs équilibrés."},
+    {"id":"t9","label":"Bosnie et Géorgie","selections":["1","1","N","2","N","1","2","1","2","1","1","2"],"rationale":"Valorise deux succès domestiques ou outsiders que le portefeuille central couvre peu."},
+    {"id":"t10","label":"Irlande et Italie","selections":["N","1","2","2","1","N","N","2","1","2","2","N"],"rationale":"Couvre l'Irlande et l'Italie dans deux rencontres à très faible écart, avec nul Belgique-France."},
+    {"id":"t11","label":"Soirée fermée","selections":["N","N","N","N","N","N","N","N","N","N","N","N"],"rationale":"Scénario extrême mais distinct de forte densité de nuls sur une grille comprenant plusieurs matchs proches."},
+    {"id":"t12","label":"Portefeuille contrariant","selections":["2","2","1","1","2","2","1","2","2","1","1","1"],"rationale":"Dernière couverture très diversifiée des issues sous-représentées, sans quasi-cloner les tickets centraux."}
+  ]
+}
