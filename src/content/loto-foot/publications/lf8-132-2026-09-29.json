@@ -1,0 +1,489 @@
+{
+  "id": "lf8-132-2026-09-29",
+  "formula": 8,
+  "gridNumber": 132,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+  "validationDeadline": "2026-09-29T20:40:00+02:00",
+  "publishedAt": "2026-09-28T10:05:02+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Espagne",
+      "awayTeam": "Croatie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 58,
+        "draw": 24,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "L'Espagne part favorite à domicile après sa victoire 3-2 en Angleterre, mais la Croatie arrive également avec trois points après son succès 2-1 en Tchéquie.",
+        "keyFactors": [
+          "L'Espagne a gagné 3-2 à Wembley lors de la première journée.",
+          "La Croatie a gagné 2-1 en Tchéquie avec Modric influent.",
+          "L'avantage du terrain renforce l'Espagne sans éliminer le risque croate."
+        ],
+        "uncertainty": "Deux équipes victorieuses lors de la première journée se rencontrent, ce qui maintient un risque réel de nul ou de succès croate.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 1re journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-highlights-and-round-up-c/",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "République tchèque",
+      "awayTeam": "Angleterre",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 28,
+        "draw": 30,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "L'Angleterre conserve davantage de profondeur individuelle mais sa défaite 3-2 contre l'Espagne et plusieurs forfaits importants réduisent nettement son avantage en déplacement.",
+        "keyFactors": [
+          "L'Angleterre a perdu 3-2 contre l'Espagne.",
+          "La Tchéquie a perdu de peu 2-1 contre la Croatie.",
+          "Palmer, Rice, Rashford, Livramento et Mainoo figurent parmi les forfaits anglais signalés."
+        ],
+        "uncertainty": "Les absences anglaises et le déplacement à Prague rendent cette rencontre beaucoup plus équilibrée que l'écart de réputation.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 1re journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-highlights-and-round-up-c/",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Reuters - forfaits de l'Angleterre",
+            "url": "https://www.reuters.com/sports/soccer/chelseas-palmer-set-pull-out-england-squad-according-reports-2026-09-21/",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Slovénie",
+      "awayTeam": "Macédoine du Nord",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 52,
+        "draw": 29,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "La Slovénie a résisté à l'Écosse lors d'un 0-0 tandis que la Macédoine du Nord a subi un 0-3 contre la Suisse. Le terrain slovène fait pencher le scénario central vers le 1.",
+        "keyFactors": [
+          "La Slovénie a débuté par un nul 0-0.",
+          "La Macédoine du Nord a perdu 0-3 contre la Suisse.",
+          "La Slovénie joue à Ljubljana."
+        ],
+        "uncertainty": "La Slovénie a concédé beaucoup d'occasions à l'Écosse et son manque de production offensive au premier match empêche d'en faire un favori très fort.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "UEFA - Slovénie-Macédoine du Nord",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047992--slovenia-vs-north-macedonia/",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Scottish FA - Slovénie 0-0 Écosse",
+            "url": "https://www.scottishfa.co.uk/en/news/scotland-unable-to-find-breakthrough-despite-attacking-display-in-slovenia-draw",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Luxembourg",
+      "awayTeam": "Islande",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 40,
+        "draw": 31,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Le Luxembourg arrive porté par une victoire 2-1 en Bulgarie, alors que l'Islande a dominé territorialement l'Estonie sans faire mieux que 1-1. Le match reste très ouvert.",
+        "keyFactors": [
+          "Le Luxembourg vient de gagner 2-1 en Bulgarie.",
+          "L'Islande a fait 1-1 contre l'Estonie malgré 63 % de possession et 19 tirs.",
+          "Le Luxembourg reçoit."
+        ],
+        "uncertainty": "L'Islande a créé un volume offensif supérieur à son résultat et peut parfaitement gagner malgré l'élan luxembourgeois.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "FLF - calendrier et résultat du Luxembourg",
+            "url": "https://www.flf.lu/matcher-80255v4/groups/142533/seasons/0",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Sofascore - Islande 1-1 Estonie",
+            "url": "https://www.sofascore.com/news/iceland-1-1-estonia-valdimarsson-saves-the-day",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Bulgarie",
+      "awayTeam": "Estonie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "La Bulgarie garde un avantage de terrain mais son revers 1-2 contre le Luxembourg invite à la prudence. L'Estonie a montré de la résistance et du danger direct lors de son 1-1 en Islande.",
+        "keyFactors": [
+          "La Bulgarie a perdu 1-2 à domicile contre le Luxembourg.",
+          "L'Estonie a obtenu 1-1 en Islande.",
+          "L'Estonie a créé des occasions de qualité malgré une possession inférieure."
+        ],
+        "uncertainty": "La forme immédiate fragilise le statut de favori bulgare et rend le nul particulièrement plausible.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Bulgarian-football - Bulgarie 1-2 Luxembourg",
+            "url": "https://en.bulgarian-football.com/natsionalen-otbor/stats/m-2026.html",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Sofascore - Islande 1-1 Estonie",
+            "url": "https://www.sofascore.com/news/iceland-1-1-estonia-valdimarsson-saves-the-day",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Slovaquie",
+      "awayTeam": "Kazakhstan",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 66,
+        "draw": 22,
+        "away": 12
+      },
+      "analysis": {
+        "summary": "La Slovaquie est le favori le plus net de la grille après son succès maîtrisé 2-0 contre la Moldavie, tandis que le Kazakhstan n'a pris qu'un point aux Îles Féroé.",
+        "keyFactors": [
+          "La Slovaquie a battu la Moldavie 2-0.",
+          "Le Kazakhstan a fait 1-1 aux Îles Féroé.",
+          "La Slovaquie joue à domicile."
+        ],
+        "uncertainty": "Le Kazakhstan peut fermer le jeu et le nul reste le principal scénario alternatif au favori slovaque.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 1re journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-highlights-and-round-up-c/",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "The Guardian - Slovaquie 2-0 Moldavie",
+            "url": "https://www.theguardian.com/football/match/2026/sep/26/slovakia-v-moldova",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Écosse",
+      "awayTeam": "Suisse",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 26,
+        "draw": 31,
+        "away": 43
+      },
+      "analysis": {
+        "summary": "La Suisse a frappé fort avec un 3-0 en Macédoine du Nord, mais l'absence de Granit Xhaka et une Écosse qui a beaucoup créé en Slovénie réduisent l'écart.",
+        "keyFactors": [
+          "La Suisse a gagné 3-0 lors de la première journée.",
+          "L'Écosse a obtenu 0-0 en Slovénie en se créant plusieurs occasions franches.",
+          "Granit Xhaka ne participe pas à ce rassemblement suisse."
+        ],
+        "uncertainty": "Hampden et l'absence de Xhaka donnent au nul et au succès écossais une probabilité significative malgré l'impression laissée par la Suisse.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 1re journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-highlights-and-round-up-c/",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Reuters - absence de Granit Xhaka",
+            "url": "https://www.reuters.com/sports/soccer/swiss-captain-xhaka-sidelined-over-fake-COVID-certificate-2026-09-21/",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Scottish FA - Slovénie 0-0 Écosse",
+            "url": "https://www.scottishfa.co.uk/en/news/scotland-unable-to-find-breakthrough-despite-attacking-display-in-slovenia-draw",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Mexique",
+      "awayTeam": "Pérou",
+      "competition": "Match amical international",
+      "probabilities": {
+        "home": 50,
+        "draw": 29,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "Le Mexique reste favori dans ce match de préparation aux États-Unis après avoir répondu à la Colombie pour obtenir 1-1. Le contexte amical augmente toutefois l'incertitude liée aux rotations.",
+        "keyFactors": [
+          "Le Mexique vient de faire 1-1 contre la Colombie.",
+          "La fédération mexicaine confirme le match contre le Pérou au Sports Illustrated Stadium.",
+          "Le Mexique dispose d'un contexte de préparation susceptible d'entraîner des rotations."
+        ],
+        "uncertainty": "Un match amical est structurellement plus sensible aux changements de onze et aux objectifs de préparation qu'une rencontre de compétition.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/829",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "Fédération mexicaine - calendrier",
+            "url": "https://fmf.mx/calendario/en",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          },
+          {
+            "label": "beIN SPORTS - Mexique 1-1 Colombie",
+            "url": "https://www.beinsports.com/en-us/soccer/friendlies/mexico-vs-colombia-2026-09-26",
+            "accessedAt": "2026-09-28T10:04:57+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Retient les favoris principaux tout en donnant l'Angleterre et la Suisse gagnantes malgré leurs contraintes d'effectif."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls européens",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre simultanément les trois rencontres européennes les plus équilibrées autour du nul."
+    },
+    {
+      "id": "t03",
+      "label": "Résistance croate",
+      "selections": [
+        "N",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre un nul Espagne-Croatie et un nul Bulgarie-Estonie sans abandonner les favoris les plus solides."
+    },
+    {
+      "id": "t04",
+      "label": "Réaction anglaise limitée",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "N"
+      ],
+      "rationale": "Combine un nul à Prague avec un succès islandais et un nul du Mexique, trois alternatives plausibles."
+    },
+    {
+      "id": "t05",
+      "label": "Outsiders ciblés",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre une victoire tchèque et deux nuls sur des rencontres où les favoris présentent des fragilités."
+    },
+    {
+      "id": "t06",
+      "label": "Scénario nordique",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "N",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Renforce l'Islande et le nul à Hampden tout en couvrant le nul Bulgarie-Estonie."
+    },
+    {
+      "id": "t07",
+      "label": "Croatie et Suisse",
+      "selections": [
+        "2",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre le scénario où les deux équipes expérimentées, Croatie et Suisse, imposent leur qualité hors de leurs bases."
+    },
+    {
+      "id": "t08",
+      "label": "Soirée serrée",
+      "selections": [
+        "N",
+        "N",
+        "N",
+        "1",
+        "N",
+        "1",
+        "N",
+        "N"
+      ],
+      "rationale": "Scénario de faible séparation qui couvre plusieurs nuls sans toucher au favori slovaque."
+    },
+    {
+      "id": "t09",
+      "label": "Surprises à l'Est",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre des succès tchèque et estonien ainsi qu'un nul Luxembourg-Islande, sans multiplier les surprises ailleurs."
+    },
+    {
+      "id": "t10",
+      "label": "Macédoine et Écosse",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre deux retournements moins probables mais cohérents: réaction macédonienne et avantage écossais à Hampden."
+    },
+    {
+      "id": "t11",
+      "label": "Kazakhstan protégé",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2",
+        "N"
+      ],
+      "rationale": "Protège le nul slovaque et ajoute des nuls sur Luxembourg-Islande et Mexique-Pérou."
+    },
+    {
+      "id": "t12",
+      "label": "Portefeuille large",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Ajoute une couverture croisée sur Croatie, Tchéquie, Islande, Estonie et Écosse avec des choix différents du scénario central."
+    }
+  ]
+}
