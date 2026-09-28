@@ -1,0 +1,713 @@
+{
+  "id": "lf12-83-2026-09-29",
+  "formula": 12,
+  "gridNumber": 83,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+  "validationDeadline": "2026-09-29T20:40:00+02:00",
+  "publishedAt": "2026-09-28T13:54:02+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Espagne",
+      "awayTeam": "Croatie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 58,
+        "draw": 24,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "L'Espagne reste favorite après son succès 3-2 à Wembley, mais la Croatie a elle aussi gagné son ouverture 2-1 en Tchéquie.",
+        "keyFactors": [
+          "L'Espagne a porté sa série d'invincibilité à 39 matchs.",
+          "La Croatie a gagné en Tchéquie avec Modrić influent.",
+          "L'avantage du terrain favorise l'Espagne."
+        ],
+        "uncertainty": "Deux équipes victorieuses lors de la première journée se rencontrent; le nul et la qualité croate restent crédibles.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 1re journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-round-up-spain-s-mikel-oyarz/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "AFP - Espagne 3-2 Angleterre",
+            "url": "https://www.afp.com/es/node/3843801",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "République tchèque",
+      "awayTeam": "Angleterre",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 28,
+        "draw": 30,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "L'Angleterre conserve plus de profondeur mais arrive après une défaite 3-2 contre l'Espagne et avec plusieurs forfaits majeurs; le déplacement rééquilibre le match.",
+        "keyFactors": [
+          "L'Angleterre a perdu son premier match.",
+          "La Tchéquie n'a perdu que 2-1 contre la Croatie.",
+          "Palmer, Rice, Mainoo, Rashford et Livramento ont déclaré forfait."
+        ],
+        "uncertainty": "Les absences anglaises rendent le nul et la victoire tchèque sensiblement plus plausibles qu'en effectif complet.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 1re journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-round-up-spain-s-mikel-oyarz/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "The Guardian - forfaits anglais",
+            "url": "https://www.theguardian.com/football/2026/sep/21/cole-palmer-injury-england-nations-league-rashford-kobbie-mainoo-spain-tuchel",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Slovénie",
+      "awayTeam": "Macédoine du Nord",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 52,
+        "draw": 29,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "La Slovénie reçoit après son 0-0 contre l'Écosse tandis que la Macédoine du Nord reste sur un lourd 0-3 contre la Suisse.",
+        "keyFactors": [
+          "La Slovénie a pris un point lors de la première journée.",
+          "La Macédoine du Nord a perdu 0-3.",
+          "La rencontre se joue à Ljubljana."
+        ],
+        "uncertainty": "La Slovénie a peu produit offensivement lors de son premier match et l'historique direct n'est pas nettement à son avantage.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - Slovénie-Macédoine du Nord",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047992--slovenia-vs-north-macedonia/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Luxembourg",
+      "awayTeam": "Islande",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 40,
+        "draw": 31,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Le Luxembourg arrive avec l'élan d'un succès 2-1 en Bulgarie, tandis que l'Islande a fait 1-1 contre l'Estonie. Le duel est l'un des plus ouverts de la grille.",
+        "keyFactors": [
+          "Le Luxembourg a gagné à l'extérieur lors de la première journée.",
+          "L'Islande n'a pris qu'un point à domicile contre l'Estonie.",
+          "Le Luxembourg reçoit au Stade de Luxembourg."
+        ],
+        "uncertainty": "L'Islande possède assez de qualité pour gagner; aucun des trois signes ne peut être écarté fortement.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "Chronicle.lu - Luxembourg-Islande",
+            "url": "https://www.chronicle.lu/event/14366-iceland-in-uefa-nations-league",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Luxembourg-Islande",
+            "url": "https://www.skysports.com/football/luxembourg-vs-iceland/554032",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Bulgarie",
+      "awayTeam": "Estonie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "La Bulgarie garde l'avantage du terrain mais son revers 1-2 contre le Luxembourg fragilise son statut de favorite; l'Estonie vient de prendre un point en Islande.",
+        "keyFactors": [
+          "La Bulgarie a perdu son ouverture à domicile.",
+          "L'Estonie a obtenu 1-1 en Islande.",
+          "La rencontre se joue à Plovdiv."
+        ],
+        "uncertainty": "La forme immédiate bulgare augmente nettement la probabilité du nul et laisse une vraie voie à l'Estonie.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Bulgarie-Estonie",
+            "url": "https://www.skysports.com/football/bulgaria-vs-estonia/stats/554023",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Slovaquie",
+      "awayTeam": "Kazakhstan",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 66,
+        "draw": 22,
+        "away": 12
+      },
+      "analysis": {
+        "summary": "La Slovaquie est le favori le plus net après son 2-0 contre la Moldavie, alors que le Kazakhstan a commencé par un nul aux Îles Féroé.",
+        "keyFactors": [
+          "La Slovaquie a gagné 2-0 lors de la première journée.",
+          "Le Kazakhstan a fait 1-1 aux Îles Féroé.",
+          "Le Kazakhstan a deux victoires dans les confrontations récentes, ce qui interdit de considérer le match comme acquis."
+        ],
+        "uncertainty": "Le nul reste l'alternative principale; l'historique direct rappelle que le Kazakhstan a déjà posé de sérieux problèmes à la Slovaquie.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "Visit Košice - Slovaquie-Kazakhstan",
+            "url": "https://visitkosice.org/en/podujatia/slovakia-kazakhstan",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "FotMob - Slovaquie-Kazakhstan",
+            "url": "https://www.fotmob.com/zh-Hans/matches/kazakhstan-vs-slovakia/2bndvk",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Écosse",
+      "awayTeam": "Suisse",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 27,
+        "draw": 31,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "La Suisse a impressionné avec un 3-0 en ouverture, mais elle se déplace à Hampden sans son capitaine Granit Xhaka; l'Écosse reste sur un 0-0 en Slovénie.",
+        "keyFactors": [
+          "La Suisse a gagné 3-0 lors de la première journée.",
+          "L'Écosse a pris un point à l'extérieur.",
+          "Xhaka est absent de ce rassemblement."
+        ],
+        "uncertainty": "Hampden et l'absence de Xhaka rendent le nul très crédible et réduisent l'écart entre les deux équipes.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - Écosse-Suisse",
+            "url": "https://www.uefa.com/uefanationsleague/match/2048001--scotland-vs-switzerland/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "STV - absence de Xhaka",
+            "url": "https://news.stv.tv/sport/granit-xhaka-out-of-scotland-clash-amid-covid-vaccine-certificate-investigation",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Mexique",
+      "awayTeam": "Pérou",
+      "competition": "Match amical international",
+      "probabilities": {
+        "home": 52,
+        "draw": 28,
+        "away": 20
+      },
+      "analysis": {
+        "summary": "Le Mexique est favori dans ce match amical aux États-Unis, mais le contexte de préparation et les rotations limitent la confiance dans le signe 1.",
+        "keyFactors": [
+          "Le Mexique dispose d'un avantage qualitatif global.",
+          "Le dernier face-à-face en 2022 s'était terminé par une victoire mexicaine 1-0.",
+          "Le caractère amical augmente la variance."
+        ],
+        "uncertainty": "Les changements de onze et les objectifs de préparation rendent ce match moins prévisible qu'une rencontre compétitive.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "WorldFootball - Mexique-Pérou",
+            "url": "https://www.worldfootball.net/match-report/co571/fifa-friendlies/ma12444119/mexico_peru/head-to-head/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "États-Unis",
+      "awayTeam": "Chili",
+      "competition": "Match amical international",
+      "probabilities": {
+        "home": 63,
+        "draw": 23,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Les États-Unis arrivent avec une dynamique forte après leur victoire 4-1 contre le Pérou et jouent à domicile à Saint-Louis.",
+        "keyFactors": [
+          "Les États-Unis ont battu le Pérou 4-1.",
+          "La rencontre se joue à Energizer Park.",
+          "Ricardo Pepi est forfait et a été remplacé par Damion Downs."
+        ],
+        "uncertainty": "Le groupe américain est jeune et le contexte amical autorise des rotations, ce qui conserve une possibilité de nul ou de surprise chilienne.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "U.S. Soccer - États-Unis-Chili",
+            "url": "https://www.ussoccer.com/stories/2026/09/usmnt/chile-opponent-profile-recent-form-history-match-preview-st-louis",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "Reuters - forfait de Ricardo Pepi",
+            "url": "https://www.reuters.com/sports/soccer/damion-downs-replaces-injured-ricardo-pepi-usmnt-friendlies--flm-2026-09-21/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "MLS - États-Unis après le 4-1 contre le Pérou",
+            "url": "https://www.mlssoccer.com/news/usa-vs-chile-how-to-watch-stream-international-friendly",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Benfica F",
+      "awayTeam": "Bayern Munich F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 27,
+        "draw": 28,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "Benfica a déjà montré sa compétitivité en gagnant 2-1 chez la Juventus, mais le Bayern conserve davantage de profondeur et reste légèrement favori à Lisbonne.",
+        "keyFactors": [
+          "Benfica a gagné 2-1 chez la Juventus lors de la première journée.",
+          "Le Bayern se déplace à Benfica lors de la deuxième journée.",
+          "Le succès extérieur de Benfica impose de ne pas surévaluer le statut du Bayern."
+        ],
+        "uncertainty": "Le bon départ européen de Benfica augmente fortement le risque de nul ou de victoire portugaise.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats UWCL",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02a9-21848dfb62c3-1313bc23426c-1000--2026-27-women-s-champions-league-all-the-league-phase-fix/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - matchs du Bayern",
+            "url": "https://www.uefa.com/womenschampionsleague/clubs/2600661/matches/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Lyon F",
+      "awayTeam": "Chelsea F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 52,
+        "draw": 27,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "Lyon a démarré par un spectaculaire 8-0 à Servette, alors que Chelsea n'a battu Austria Wien que 1-0. Le terrain et la forme donnent l'avantage aux Lyonnaises.",
+        "keyFactors": [
+          "OL Lyonnes a gagné 8-0 à Servette.",
+          "Chelsea a gagné 1-0 contre Austria Wien.",
+          "Chelsea de Sonia Bompastor retrouve Lyon, ce qui ajoute une forte connaissance mutuelle."
+        ],
+        "uncertainty": "Chelsea reste une équipe de très haut niveau capable de ralentir Lyon; le nul conserve une valeur importante.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - résumé de la première journée UWCL",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02a9-21a9b695807b-fc754d8297c2-1000--women-s-champions-league-matchday-1-wednesday-round-up-ol/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "OL Lyonnes - avant-match Chelsea",
+            "url": "https://www.ol-lyonnes.com/actualites/ol-lyonnes-chelsea-une-soiree-europeenne-aux-airs-de-retrouvailles/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Paris FC F",
+      "awayTeam": "Arsenal F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 20,
+        "draw": 25,
+        "away": 55
+      },
+      "analysis": {
+        "summary": "Arsenal, tenant du titre européen, part favori contre un Paris FC battu 5-2 à Barcelone lors de la première journée.",
+        "keyFactors": [
+          "Arsenal est tenant du titre européen.",
+          "Arsenal a gagné 1-0 contre HB Køge lors de la première journée.",
+          "Paris FC a perdu 5-2 à Barcelone."
+        ],
+        "uncertainty": "Paris joue à domicile et Arsenal n'a gagné que d'un but lors de son ouverture, ce qui laisse une place au nul ou à une surprise.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°83",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/575",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats UWCL",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02a9-21848dfb62c3-1313bc23426c-1000--2026-27-women-s-champions-league-all-the-league-phase-fix/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          },
+          {
+            "label": "UEFA - matchs du Paris FC",
+            "url": "https://www.uefa.com/womenschampionsleague/clubs/2609779--paris/matches/",
+            "accessedAt": "2026-09-28T13:53:53+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Favoris principaux avec Angleterre, Suisse, Bayern et Arsenal à l'extérieur."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls structurants",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "N",
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Renforce les nuls sur les rencontres les plus équilibrées, en cohérence avec l'incertitude de la grille."
+    },
+    {
+      "id": "t03",
+      "label": "Croatie résistante",
+      "selections": [
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre le nul de la Croatie et du Mexique sans abandonner les favoris majeurs."
+    },
+    {
+      "id": "t04",
+      "label": "Islande et Chelsea",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "N",
+        "2"
+      ],
+      "rationale": "Scénario où l'Islande gagne et Chelsea accroche Lyon, avec protection par deux autres nuls."
+    },
+    {
+      "id": "t05",
+      "label": "Tchéquie surprise",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre une réaction tchèque face à une Angleterre diminuée et un nul slovène."
+    },
+    {
+      "id": "t06",
+      "label": "Estonie audacieuse",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "N",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Introduit le succès estonien et plusieurs scénarios de partage des points."
+    },
+    {
+      "id": "t07",
+      "label": "Croatie et Suisse",
+      "selections": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre une victoire croate tout en conservant la Suisse et en protégeant Benfica-Bayern par le nul."
+    },
+    {
+      "id": "t08",
+      "label": "Soirée de nuls",
+      "selections": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "1",
+        "N",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Scénario volontairement corrélé de rencontres serrées, tout en gardant Slovaquie, États-Unis, Lyon et Arsenal."
+    },
+    {
+      "id": "t09",
+      "label": "Outsiders de l'Est",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre simultanément Tchéquie, Islande et Estonie dans un scénario plus volatil."
+    },
+    {
+      "id": "t10",
+      "label": "Kazakhstan protégé",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "N",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Protège un nul slovaque et diversifie Bulgarie-Estonie et Benfica-Bayern."
+    },
+    {
+      "id": "t11",
+      "label": "Chili accrocheur",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Ajoute le nul des États-Unis et renforce deux autres nuls plausibles."
+    },
+    {
+      "id": "t12",
+      "label": "Benfica et Paris",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre une victoire de Benfica et un nul du Paris FC, avec Islande gagnante."
+    },
+    {
+      "id": "t13",
+      "label": "Chelsea gagne",
+      "selections": [
+        "N",
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "rationale": "Couvre un succès de Chelsea à Lyon dans un scénario où plusieurs favoris extérieurs restent performants."
+    },
+    {
+      "id": "t14",
+      "label": "Portefeuille large",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "N",
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Ajoute les scénarios moins couverts: Macédoine du Nord, Écosse, nul à Lyon et victoire du Paris FC."
+    }
+  ]
+}
