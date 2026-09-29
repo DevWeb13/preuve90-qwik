@@ -1,0 +1,94 @@
+{
+  "id": "lf15-80-2026-09-28-result",
+  "publicationId": "lf15-80-2026-09-28",
+  "gridNumber": 80,
+  "settledAt": "2026-09-30T00:18:59+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2028",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2"
+    },
+    {
+      "position": 2,
+      "selection": "2"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "2"
+    },
+    {
+      "position": 5,
+      "selection": "N"
+    },
+    {
+      "position": 6,
+      "selection": "N"
+    },
+    {
+      "position": 7,
+      "selection": "2"
+    },
+    {
+      "position": 8,
+      "selection": "2"
+    },
+    {
+      "position": 9,
+      "selection": "1"
+    },
+    {
+      "position": 10,
+      "selection": "1"
+    },
+    {
+      "position": 11,
+      "selection": "2"
+    },
+    {
+      "position": 12,
+      "selection": "N"
+    },
+    {
+      "position": 13,
+      "selection": "2"
+    },
+    {
+      "position": 14,
+      "selection": "1"
+    },
+    {
+      "position": 15,
+      "selection": "2"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 15,
+      "amountCents": 1779000
+    },
+    {
+      "correctSelections": 14,
+      "amountCents": 47430
+    },
+    {
+      "correctSelections": 13,
+      "amountCents": 4570
+    },
+    {
+      "correctSelections": 12,
+      "amountCents": 740
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°80",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2028",
+      "accessedAt": "2026-09-30T00:18:59+02:00"
+    }
+  ]
+}
