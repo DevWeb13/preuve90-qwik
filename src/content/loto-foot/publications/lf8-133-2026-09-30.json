@@ -1,0 +1,476 @@
+{
+  "id": "lf8-133-2026-09-30",
+  "formula": 8,
+  "gridNumber": 133,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+  "validationDeadline": "2026-09-30T18:40:00+02:00",
+  "publishedAt": "2026-09-30T10:00:38+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lyon F",
+      "awayTeam": "Chelsea F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-30T21:00:00+02:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 25,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "Lyon arrive avec une dynamique offensive exceptionnelle, mais Chelsea reste une équipe européenne de premier plan et vient de battre Arsenal.",
+        "keyFactors": [
+          "Lyon a gagné 8-0 chez Servette.",
+          "Chelsea a gagné ses deux derniers matchs 1-0.",
+          "Chelsea compte plusieurs absences importantes."
+        ],
+        "uncertainty": "Chelsea conserve assez de qualité pour rendre l'affiche incertaine.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "Chelsea FC - preview",
+            "url": "https://www.chelseafc.com/en/news/article/ol-lyonnes-vs-chelsea-women-how-to-watch-kick-off-time-live-stream-info",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "Sky Sports - forme",
+            "url": "https://www.skysports.com/football/olympiques-lyon-women-vs-chelsea-women/stats/578243",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris FC F",
+      "awayTeam": "Arsenal F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-30T18:45:00+02:00",
+      "probabilities": {
+        "home": 23,
+        "draw": 25,
+        "away": 52
+      },
+      "analysis": {
+        "summary": "Arsenal possède davantage de profondeur, tandis que Paris FC reste sur un lourd revers européen contre Barcelone.",
+        "keyFactors": [
+          "Paris FC a perdu 5-2 contre Barcelone.",
+          "Arsenal a gagné son premier match européen contre Køge.",
+          "Paris FC reçoit."
+        ],
+        "uncertainty": "Le terrain parisien maintient un risque de nul ou de surprise.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "Paris FC-Arsenal - forme",
+            "url": "https://voetbaluitslagen.be/wedstrijd/uefa-champions-league-women/2026/811712/",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "AS Rome F",
+      "awayTeam": "Barcelone F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-30T18:45:00+02:00",
+      "probabilities": {
+        "home": 12,
+        "draw": 18,
+        "away": 70
+      },
+      "analysis": {
+        "summary": "Barcelone est le favori le plus net grâce à une attaque en très grande forme.",
+        "keyFactors": [
+          "Barcelone a battu Paris FC 5-2.",
+          "Barcelone a marqué au moins quatre buts lors de ses cinq derniers matchs listés.",
+          "Roma a fait 0-0 à Leuven."
+        ],
+        "uncertainty": "Roma reste solide à domicile et le nul demeure possible.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "Sky Sports - Roma-Barcelone",
+            "url": "https://www.skysports.com/football/roma-women-vs-barcelona-women/578245",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Hacken F",
+      "awayTeam": "Juventus F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-30T18:45:00+02:00",
+      "probabilities": {
+        "home": 31,
+        "draw": 30,
+        "away": 39
+      },
+      "analysis": {
+        "summary": "La Juventus a davantage de références, mais les deux équipes ont perdu leur premier match européen.",
+        "keyFactors": [
+          "Häcken a perdu 1-0 chez l'Inter.",
+          "La Juventus a perdu 2-1 contre Benfica.",
+          "La Juventus a ensuite battu Naples 3-1."
+        ],
+        "uncertainty": "L'écart récent est faible et les trois issues restent crédibles.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "Sky Sports - Häcken-Juventus",
+            "url": "https://www.skysports.com/football/bk-hacken-women-vs-juventus-women/7683785218812448232",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Benfica F",
+      "awayTeam": "Bay.Munich F",
+      "competition": "UEFA Women's Champions League",
+      "startsAt": "2026-09-30T21:00:00+02:00",
+      "probabilities": {
+        "home": 25,
+        "draw": 27,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Bayern reste favori, mais Benfica arrive avec une victoire européenne à Turin.",
+        "keyFactors": [
+          "Benfica a gagné 2-1 chez la Juventus.",
+          "Bayern a fait 2-2 contre Manchester City.",
+          "Benfica joue à domicile."
+        ],
+        "uncertainty": "Le succès récent de Benfica rend le déplacement bavarois risqué.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "UEFA - Bayern",
+            "url": "https://www.uefa.com/womenschampionsleague/clubs/2600661--bayern-munchen/matches/",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "UEFA - Benfica",
+            "url": "https://www.uefa.com/womenschampionsleague/clubs/2610349--benfica/matches/",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Atl.Ottawa",
+      "awayTeam": "Cavalry",
+      "competition": "Canadian Premier League",
+      "startsAt": "2026-10-01T01:00:00+02:00",
+      "probabilities": {
+        "home": 21,
+        "draw": 24,
+        "away": 55
+      },
+      "analysis": {
+        "summary": "Cavalry présente la meilleure dynamique et de meilleurs indicateurs de saison.",
+        "keyFactors": [
+          "Cavalry affiche 16 victoires contre 11 pour Ottawa.",
+          "Cavalry a gagné les trois confrontations 2026 répertoriées.",
+          "Ottawa vient de gagner 1-0 à Halifax."
+        ],
+        "uncertainty": "Ottawa joue à domicile et vient de renouer avec la victoire.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "theScore - Ottawa-Cavalry",
+            "url": "https://www.thescore.com/chlg/event/95492",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "OurSports Central - Ottawa",
+            "url": "https://www.oursportscentral.com/services/schedule/atletico-ottawa/t-4376",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "OurSports Central - Cavalry",
+            "url": "https://www.oursportscentral.com/services/schedule/calgary-cavalry-fc/t-4289",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Atl.Nacional",
+      "awayTeam": "Junior FC",
+      "competition": "Liga colombienne",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Atlético Nacional dispose d'un avantage marqué au vu du classement récent et reçoit un Junior en difficulté.",
+        "keyFactors": [
+          "Nacional est présenté 2e avec six victoires en sept matchs.",
+          "Junior est présenté 20e sans victoire après sept matchs.",
+          "Nacional reçoit."
+        ],
+        "uncertainty": "Le nul reste le principal scénario alternatif.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "SportyTrader - Nacional-Junior",
+            "url": "https://www.sportytrader.nl/live-uitslagen/atletico-nacional-club-atletico-junior-8572589/",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "NY Red Bulls",
+      "awayTeam": "Saint Louis SC",
+      "competition": "Major League Soccer",
+      "startsAt": "2026-10-01T01:30:00+02:00",
+      "probabilities": {
+        "home": 28,
+        "draw": 26,
+        "away": 46
+      },
+      "analysis": {
+        "summary": "St. Louis arrive avec la meilleure dynamique, tandis que New York vient d'enchaîner deux victoires 1-0.",
+        "keyFactors": [
+          "St. Louis reste sur trois victoires et deux nuls.",
+          "New York reste sur deux succès 1-0.",
+          "St. Louis est sur une longue série d'invincibilité."
+        ],
+        "uncertainty": "Le regain des Red Bulls et le terrain réduisent l'écart.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°133",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/830",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          },
+          {
+            "label": "FotMob - NYRB-St. Louis",
+            "url": "https://www.fotmob.com/it/matches/red-bull-new-york-vs-st-louis-city/d4nido4d",
+            "accessedAt": "2026-09-30T09:59:48+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Central",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Favoris analytiques."
+    },
+    {
+      "id": "t02",
+      "label": "Europe prudente",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "N",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Nul sur Häcken-Juventus."
+    },
+    {
+      "id": "t03",
+      "label": "Chelsea résiste",
+      "selections": [
+        "N",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Nul Lyon-Chelsea."
+    },
+    {
+      "id": "t04",
+      "label": "Benfica confirme",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Benfica et nul en Suède."
+    },
+    {
+      "id": "t05",
+      "label": "Paris accroche",
+      "selections": [
+        "1",
+        "N",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Nul parisien et Häcken."
+    },
+    {
+      "id": "t06",
+      "label": "Canada serré",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "N",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Nuls Benfica-Bayern et Ottawa-Cavalry."
+    },
+    {
+      "id": "t07",
+      "label": "Chelsea Arsenal",
+      "selections": [
+        "2",
+        "2",
+        "2",
+        "N",
+        "2",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Chelsea et nul MLS."
+    },
+    {
+      "id": "t08",
+      "label": "Nuls ciblés",
+      "selections": [
+        "N",
+        "N",
+        "2",
+        "N",
+        "2",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Scénario de nuls ciblés."
+    },
+    {
+      "id": "t09",
+      "label": "Ottawa rebondit",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Succès d'Ottawa à domicile."
+    },
+    {
+      "id": "t10",
+      "label": "Outsiders Europe",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Surprises européennes."
+    },
+    {
+      "id": "t11",
+      "label": "Junior résiste",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Nul en Colombie et Red Bulls."
+    },
+    {
+      "id": "t12",
+      "label": "Portefeuille large",
+      "selections": [
+        "N",
+        "2",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Alternatives croisées."
+    }
+  ]
+}
