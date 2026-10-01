@@ -1,0 +1,479 @@
+{
+  "id": "lf8-134-2026-10-02",
+  "formula": 8,
+  "gridNumber": 134,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+  "validationDeadline": "2026-10-02T17:55:00+02:00",
+  "publishedAt": "2026-10-01T02:01:05+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "France",
+      "awayTeam": "Italie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 44,
+        "draw": 30,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "La France a gagné ses deux premiers matchs 1-0, en Turquie puis en Belgique. L'Italie a réagi à sa défaite contre la Belgique par un succès 4-1 en Turquie, tandis que Kylian Mbappé est forfait.",
+        "keyFactors": [
+          "France: deux victoires et aucun but encaissé.",
+          "Italie: victoire 4-1 en Turquie après sa défaite initiale.",
+          "Kylian Mbappé a quitté le rassemblement français sur blessure."
+        ],
+        "uncertainty": "L'absence de Mbappé réduit l'écart et l'Italie arrive avec une forte réaction offensive, ce qui rend le nul et le 2 crédibles.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "Reuters - forfait de Kylian Mbappé",
+            "url": "https://www.reuters.com/sports/soccer/frances-mbappe-forced-off-with-apparent-knee-injury-turkey-clash-2026-09-25/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "The Guardian - Belgique-France et Turquie-Italie",
+            "url": "https://www.theguardian.com/football/live/2026/sep/28/belgium-v-france-northern-ireland-v-hungary-and-more-nations-league-live",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Belgique",
+      "awayTeam": "Turquie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 56,
+        "draw": 27,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "La Belgique a gagné 2-0 en Italie avant de perdre 0-1 contre la France. La Turquie a perdu ses deux matchs, 0-1 contre la France puis 1-4 contre l'Italie.",
+        "keyFactors": [
+          "Belgique: victoire 2-0 en Italie.",
+          "Turquie: deux défaites en deux journées.",
+          "La Turquie vient d'encaisser quatre buts contre l'Italie."
+        ],
+        "uncertainty": "La Belgique n'a pas marqué contre la France et la Turquie conserve assez de qualité offensive pour punir un match mal maîtrisé.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Belgique-Turquie",
+            "url": "https://www.skysports.com/football/belgium-vs-turkey/554041",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "The Guardian - Belgique-France et Turquie-Italie",
+            "url": "https://www.theguardian.com/football/live/2026/sep/28/belgium-v-france-northern-ireland-v-hungary-and-more-nations-league-live",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Bosnie-Herzégovine",
+      "awayTeam": "Suède",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 36,
+        "draw": 31,
+        "away": 33
+      },
+      "analysis": {
+        "summary": "La Bosnie est invaincue après un nul en Pologne et une victoire 4-2 en Roumanie. La Suède a gagné ses deux matchs, mais son groupe est amoindri: Alexander Isak est absent et plusieurs joueurs ont été isolés pour maladie.",
+        "keyFactors": [
+          "Bosnie: quatre points et quatre buts marqués en Roumanie.",
+          "Suède: six points après deux journées.",
+          "La Suède aborde ce déplacement avec plusieurs indisponibilités ou joueurs isolés."
+        ],
+        "uncertainty": "La dynamique suédoise reste excellente malgré les absences, mais le déplacement à Zenica et l'état du groupe rendent les trois issues proches.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "The Guardian - Suède 3-1 Pologne et Bosnie 4-2 Roumanie",
+            "url": "https://www.theguardian.com/football/live/2026/sep/28/belgium-v-france-northern-ireland-v-hungary-and-more-nations-league-live",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "Scottish Sun - joueurs suédois isolés pour maladie",
+            "url": "https://www.thescottishsun.co.uk/sport/16882885/celtic-star-isolate-international-team-mates-illness/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Hongrie",
+      "awayTeam": "Géorgie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 43,
+        "draw": 31,
+        "away": 26
+      },
+      "analysis": {
+        "summary": "La Hongrie a perdu 0-1 contre l'Ukraine puis fait 0-0 en Irlande du Nord. La Géorgie a perdu 0-1 contre l'Irlande du Nord avant de tenir l'Ukraine en échec.",
+        "keyFactors": [
+          "Les deux équipes n'ont encore marqué aucun but dans cette phase de groupe.",
+          "La Hongrie reçoit à la Puskás Arena.",
+          "La Géorgie vient de prendre un point contre l'Ukraine."
+        ],
+        "uncertainty": "Les deux attaques ont peu produit récemment et le nul reste une issue importante.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Hongrie-Géorgie",
+            "url": "https://www.skysports.com/football/hungary-vs-georgia/554046",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Ukraine",
+      "awayTeam": "Irlande du Nord",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 46,
+        "draw": 32,
+        "away": 22
+      },
+      "analysis": {
+        "summary": "L'Ukraine compte quatre points après sa victoire 1-0 en Hongrie et son nul en Géorgie. L'Irlande du Nord est également invaincue avec quatre points et n'a pas encaissé de but.",
+        "keyFactors": [
+          "Ukraine: quatre points en deux journées.",
+          "Irlande du Nord: quatre points et aucun but encaissé.",
+          "Le match se joue à Trnava, donc sans véritable avantage de terrain ukrainien."
+        ],
+        "uncertainty": "La solidité nord-irlandaise et le terrain neutre augmentent nettement la probabilité du nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Ukraine-Irlande du Nord",
+            "url": "https://www.skysports.com/football/ukraine-vs-northern-ireland/554050",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Lettonie",
+      "awayTeam": "Monténégro",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 20,
+        "draw": 29,
+        "away": 51
+      },
+      "analysis": {
+        "summary": "La Lettonie n'a pas marqué lors de ses deux premières journées, avec une défaite 0-2 en Arménie puis un nul 0-0 contre Chypre. Le Monténégro a gagné ses deux matchs.",
+        "keyFactors": [
+          "Monténégro: six points sur six.",
+          "Lettonie: aucun but marqué en deux journées.",
+          "Le Monténégro a gagné 3-2 en Arménie lors de son dernier déplacement."
+        ],
+        "uncertainty": "L'absence annoncée d'Adam Marušić et la possibilité d'un match fermé à Riga laissent une place significative au nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Lettonie-Monténégro",
+            "url": "https://www.skysports.com/football/latvia-vs-montenegro/stats/554049",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Chypre",
+      "awayTeam": "Arménie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 34,
+        "draw": 31,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Chypre a perdu 1-2 au Monténégro puis pris un point en Lettonie. L'Arménie a battu la Lettonie 2-0 avant de perdre 2-3 contre le Monténégro.",
+        "keyFactors": [
+          "Arménie: trois points et quatre buts marqués en deux journées.",
+          "Chypre: un point après deux journées.",
+          "Les deux équipes ont perdu d'un but contre le Monténégro."
+        ],
+        "uncertainty": "Les niveaux récents sont proches et l'avantage du terrain chypriote compense en partie la meilleure production offensive arménienne.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "FotMob - forme Chypre-Arménie",
+            "url": "https://www.fotmob.com/en-GB/matches/cyprus-vs-armenia/19lpfn",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Pologne",
+      "awayTeam": "Roumanie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 50,
+        "draw": 29,
+        "away": 21
+      },
+      "analysis": {
+        "summary": "La Pologne a pris un point contre la Bosnie avant de perdre 1-3 en Suède. La Roumanie a perdu ses deux matchs, 1-2 en Suède puis 2-4 contre la Bosnie.",
+        "keyFactors": [
+          "Roumanie: zéro point et six buts encaissés.",
+          "Pologne: un point et avantage du terrain à Varsovie.",
+          "La Pologne a affronté les mêmes deux adversaires avec un bilan défensif moins mauvais."
+        ],
+        "uncertainty": "La Pologne reste elle-même sans victoire et sa forme récente impose de conserver une probabilité substantielle de nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°134",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/831",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Pologne-Roumanie",
+            "url": "https://www.skysports.com/football/poland-vs-romania/554048",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          },
+          {
+            "label": "The Guardian - Suède-Pologne et Bosnie-Roumanie",
+            "url": "https://www.theguardian.com/football/live/2026/sep/28/belgium-v-france-northern-ireland-v-hungary-and-more-nations-league-live",
+            "accessedAt": "2026-10-01T02:00:41+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Retient les légers ou nets favoris issus de l'analyse, avec l'Arménie de très peu devant à Chypre."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls structurants",
+      "selections": [
+        "N",
+        "1",
+        "N",
+        "N",
+        "N",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre les quatre affiches où l'équilibre sportif rend le nul particulièrement plausible."
+    },
+    {
+      "id": "t03",
+      "label": "Italie et Suède",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre deux victoires extérieures de haut niveau et neutralise Chypre-Arménie."
+    },
+    {
+      "id": "t04",
+      "label": "Réactions extérieures",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "N",
+        "1",
+        "2",
+        "2",
+        "N"
+      ],
+      "rationale": "Ajoute les scénarios Turquie et Suède tout en couvrant deux nuls sur des matchs plus instables."
+    },
+    {
+      "id": "t05",
+      "label": "Défenses solides",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "N",
+        "N",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Privilégie les scénarios fermés sur France-Italie, Hongrie-Géorgie, Ukraine-Irlande du Nord et Chypre-Arménie."
+    },
+    {
+      "id": "t06",
+      "label": "Vague extérieure",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Scénario volontairement riche en choix 2 pour corriger la sous-couverture récente des victoires extérieures sans forcer tous les matchs."
+    },
+    {
+      "id": "t07",
+      "label": "Bosnie confirme",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Conserve la dynamique bosnienne, couvre une surprise géorgienne et une victoire chypriote."
+    },
+    {
+      "id": "t08",
+      "label": "Irlande du Nord",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre une victoire nord-irlandaise rendue plausible par sa solidité, avec prudence sur Bosnie-Suède et Lettonie-Monténégro."
+    },
+    {
+      "id": "t09",
+      "label": "Outsiders ciblés",
+      "selections": [
+        "2",
+        "N",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre plusieurs surprises crédibles sans créer un quasi-clone du scénario central."
+    },
+    {
+      "id": "t10",
+      "label": "Portefeuille équilibré",
+      "selections": [
+        "1",
+        "N",
+        "2",
+        "1",
+        "N",
+        "N",
+        "N",
+        "1"
+      ],
+      "rationale": "Dernier scénario diversifié, axé sur les nuls encore insuffisamment représentés et une victoire suédoise."
+    }
+  ]
+}
