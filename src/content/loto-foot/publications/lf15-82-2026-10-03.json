@@ -1,0 +1,787 @@
+{
+  "id": "lf15-82-2026-10-03",
+  "formula": 15,
+  "gridNumber": 82,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+  "validationDeadline": "2026-10-03T17:55:00+02:00",
+  "publishedAt": "2026-10-02T13:58:47+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Croatie",
+      "awayTeam": "Angleterre",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 27,
+        "draw": 29,
+        "away": 44
+      },
+      "analysis": {
+        "summary": "L'Angleterre vient de battre la Tchéquie 2-0 après sa défaite 2-3 contre l'Espagne; la Croatie a perdu 1-4 en Espagne après avoir battu la Tchéquie 2-1.",
+        "keyFactors": [
+          "Angleterre: réaction nette contre la Tchéquie.",
+          "Croatie: quatre buts encaissés face à l'Espagne.",
+          "La Croatie reçoit."
+        ],
+        "uncertainty": "L'Angleterre reste irrégulière et le terrain croate réduit l'écart.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Espagne",
+      "awayTeam": "République tchèque",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "analysis": {
+        "summary": "L'Espagne a gagné ses trois premiers matchs de groupe, dont 3-2 en Angleterre puis 4-1 contre la Croatie. La Tchéquie reste sur deux défaites.",
+        "keyFactors": [
+          "Espagne: trois victoires en trois journées.",
+          "Tchéquie: défaites contre Croatie et Angleterre.",
+          "Avantage du terrain espagnol."
+        ],
+        "uncertainty": "La rotation liée à l'enchaînement des matchs peut réduire l'écart attendu.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Macédoine du Nord",
+      "awayTeam": "Écosse",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 25,
+        "draw": 30,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "Les deux équipes cherchent encore leur première victoire: la Macédoine du Nord a perdu 0-3 en Suisse puis 0-2 en Slovénie; l'Écosse a fait 0-0 en Slovénie avant de perdre 0-3 contre la Suisse.",
+        "keyFactors": [
+          "Écosse: un point en deux matchs.",
+          "Macédoine du Nord: aucun but marqué en deux matchs.",
+          "Les deux ont subi trois buts face à la Suisse."
+        ],
+        "uncertainty": "L'Écosse est favorite mais son attaque n'a pas encore marqué dans cette campagne.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Suisse",
+      "awayTeam": "Slovénie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 62,
+        "draw": 23,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "La Suisse a démarré par deux victoires 3-0, contre la Macédoine du Nord puis en Écosse. La Slovénie est invaincue avec quatre points.",
+        "keyFactors": [
+          "Suisse: six buts marqués, aucun encaissé.",
+          "Slovénie: quatre points et aucun but encaissé.",
+          "La Suisse reçoit."
+        ],
+        "uncertainty": "La solidité slovène peut transformer le match en rencontre fermée et maintenir le nul en jeu.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Islande",
+      "awayTeam": "Bulgarie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 55,
+        "draw": 27,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "L'Islande a pris quatre points et vient de gagner 3-0 au Luxembourg. La Bulgarie a un point après une défaite 1-2 contre le Luxembourg et un nul 0-0 contre l'Estonie.",
+        "keyFactors": [
+          "Islande: victoire 3-0 à l'extérieur.",
+          "Bulgarie: un point après deux journées.",
+          "Avantage du terrain islandais."
+        ],
+        "uncertainty": "La Bulgarie vient de garder sa cage inviolée et peut fermer le match.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Biélorussie",
+      "awayTeam": "Saint-Marin",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 73,
+        "draw": 20,
+        "away": 7
+      },
+      "analysis": {
+        "summary": "La Biélorussie a réagi à sa défaite en Albanie par un nul 0-0 en Finlande. Saint-Marin a perdu 0-7 contre la Finlande puis 0-3 contre l'Albanie.",
+        "keyFactors": [
+          "Biélorussie: clean sheet en Finlande.",
+          "Saint-Marin: dix buts encaissés en deux matchs.",
+          "Écart de niveau important malgré une attaque biélorusse encore limitée."
+        ],
+        "uncertainty": "La Biélorussie n'a pas encore marqué dans le groupe, ce qui augmente légèrement le risque de nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Estonie",
+      "awayTeam": "Luxembourg",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 41,
+        "draw": 29,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "L'Estonie est invaincue après un nul en Islande puis un 0-0 en Bulgarie. Le Luxembourg a battu la Bulgarie 2-1 avant de perdre 0-3 contre l'Islande.",
+        "keyFactors": [
+          "Estonie: deux nuls et seulement un but encaissé.",
+          "Luxembourg: victoire en Bulgarie mais lourde défaite ensuite.",
+          "L'Estonie mène historiquement les confrontations directes selon l'UEFA."
+        ],
+        "uncertainty": "C'est l'une des affiches les plus équilibrées de la grille; les trois issues restent crédibles.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - Estonie-Luxembourg",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047974--estonia-vs-luxembourg-malta/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Canada",
+      "awayTeam": "Pérou",
+      "competition": "Match amical international",
+      "probabilities": {
+        "home": 55,
+        "draw": 27,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Le Canada reste sur une victoire 1-0 contre le Chili. Le Pérou a perdu 1-4 contre les États-Unis puis obtenu un nul 1-1 face au Mexique.",
+        "keyFactors": [
+          "Canada: victoire récente contre le Chili.",
+          "Pérou: réaction contre le Mexique après une lourde défaite.",
+          "Match joué à Montréal."
+        ],
+        "uncertainty": "Le Pérou a montré une meilleure résistance contre le Mexique et un amical favorise les rotations.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "Canada Soccer - Canada-Pérou",
+            "url": "https://canadasoccer.com/match/6619/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "Canada Soccer - Canada-Chili",
+            "url": "https://canadasoccer.com/match/6620/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "Sky Sports - forme Canada/Pérou",
+            "url": "https://www.skysports.com/football/canada-vs-peru/575212",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "États-Unis",
+      "awayTeam": "Mexique",
+      "competition": "Match amical international",
+      "probabilities": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Les États-Unis ont lancé leur nouveau cycle avec deux victoires, 4-1 contre le Pérou puis 4-2 contre le Chili. Le Mexique reste sur un nul 1-1 contre le Pérou.",
+        "keyFactors": [
+          "États-Unis: huit buts sur leurs deux derniers amicaux.",
+          "Le groupe américain est jeune mais dynamique.",
+          "Rivalité USA-Mexique historiquement très particulière."
+        ],
+        "uncertainty": "Le Mexique peut hausser son niveau dans cette rivalité et les États-Unis ont montré des fragilités défensives contre le Chili.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "U.S. Soccer - USA 4-2 Chili",
+            "url": "https://www.ussoccer.com/stories/2026/09/usmnt-vs-chile-match-recap-highlights-st-louis",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "MLS Soccer - USA-Mexique",
+            "url": "https://www.mlssoccer.com/news/usa-vs-mexico-how-to-watch-stream-international-friendly-2026",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Portugal",
+      "awayTeam": "Norvège",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 53,
+        "draw": 25,
+        "away": 22
+      },
+      "analysis": {
+        "summary": "Le Portugal est à neuf points après avoir battu le Pays de Galles, la Norvège puis le Danemark 4-2. La Norvège a battu le Danemark mais perdu ensuite contre le Portugal et le Pays de Galles.",
+        "keyFactors": [
+          "Portugal: trois victoires en trois journées.",
+          "Portugal vient de marquer quatre buts au Danemark.",
+          "La Norvège conserve une forte menace offensive."
+        ],
+        "uncertainty": "La présence d'Erling Haaland et la capacité norvégienne à jouer en transition rendent le 2 plus plausible qu'un écart de classement brut.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Grèce",
+      "awayTeam": "Allemagne",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 30,
+        "draw": 28,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "La Grèce a battu l'Allemagne 1-0 à l'extérieur avant de faire 2-2 contre les Pays-Bas. L'Allemagne a réagi avec une victoire 2-0 contre la Serbie.",
+        "keyFactors": [
+          "Grèce: invaincue avec sept points après trois journées.",
+          "La Grèce a déjà battu l'Allemagne dans ce groupe.",
+          "Allemagne: nette réaction contre la Serbie."
+        ],
+        "uncertainty": "Le précédent direct récent favorise la prudence malgré la qualité supérieure de l'effectif allemand.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Pays-Bas",
+      "awayTeam": "Serbie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Les Pays-Bas ont cinq points après trois journées et ont déjà gagné 2-1 en Serbie. La Serbie a perdu ses trois matchs. Cody Gakpo est annoncé forfait pour la fin du rassemblement.",
+        "keyFactors": [
+          "Pays-Bas: victoire 2-1 lors du match aller en Serbie.",
+          "Serbie: trois défaites en trois journées.",
+          "Absence de Cody Gakpo, qui réduit une option offensive néerlandaise."
+        ],
+        "uncertainty": "L'absence de Gakpo et l'enchaînement des matchs diminuent légèrement la confiance dans le favori.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "Liverpool Offside - blessure de Cody Gakpo",
+            "url": "https://liverpooloffside.sbnation.com/liverpool-fc-news-coverage/83978/cody-gakpo-to-return-to-liverpool-following-netherlands-injury",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Pays de Galles",
+      "awayTeam": "Danemark",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 31,
+        "draw": 29,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Le Pays de Galles vient de battre la Norvège 2-1 après deux défaites. Le Danemark a trois points après avoir battu le Pays de Galles 2-0, mais vient de perdre 2-4 contre le Portugal.",
+        "keyFactors": [
+          "Danemark a gagné 2-0 le premier duel.",
+          "Pays de Galles vient de battre la Norvège.",
+          "Danemark a encaissé quatre buts contre le Portugal."
+        ],
+        "uncertainty": "Le regain gallois à domicile rend le match bien plus serré que le premier duel.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - profil Pays de Galles",
+            "url": "https://www.uefa.com/uefanationsleague/teams/144/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Kosovo",
+      "awayTeam": "Autriche",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 28,
+        "draw": 29,
+        "away": 43
+      },
+      "analysis": {
+        "summary": "L'Autriche reste invaincue avec sept points après trois matchs, mais vient de concéder un 2-2 en Irlande. Le Kosovo a quatre points après sa victoire contre l'Irlande, sa défaite en Autriche et son nul en Israël.",
+        "keyFactors": [
+          "Autriche: sept points en trois journées.",
+          "Autriche a gagné 3-1 le premier duel.",
+          "Kosovo a déjà battu l'Irlande à domicile."
+        ],
+        "uncertainty": "Le Kosovo est plus dangereux à domicile et l'Autriche vient de concéder deux buts en Irlande.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "République d'Irlande",
+      "awayTeam": "Israël",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "L'Irlande a pris quatre points sur ses deux derniers matchs, avec un 3-0 en Israël puis un nul 2-2 contre l'Autriche. Israël n'a pas marqué lors de ses deux dernières rencontres.",
+        "keyFactors": [
+          "Irlande a gagné 3-0 en Israël.",
+          "Irlande vient de tenir l'Autriche en échec.",
+          "Israël reste sur deux matchs sans marquer."
+        ],
+        "uncertainty": "L'Irlande n'avait pas bien commencé le groupe et Israël peut profiter d'un match plus ouvert si les locaux prennent des risques.",
+        "sources": [
+          {
+            "label": "FDJ - LF15 n°82",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2030",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          },
+          {
+            "label": "UEFA - résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T13:58:43+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Central",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Scénario principal fondé sur les favoris et les dynamiques les plus solides."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls ciblés",
+      "selections": [
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "N",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre les affiches les plus serrées sans remettre en cause les favoris très nets."
+    },
+    {
+      "id": "t03",
+      "label": "Extérieurs",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Renforce plusieurs succès extérieurs plausibles, en cohérence avec la sous-couverture récente du choix 2."
+    },
+    {
+      "id": "t04",
+      "label": "Réactions locales",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre un scénario fortement favorable au terrain, notamment sur les matchs équilibrés."
+    },
+    {
+      "id": "t05",
+      "label": "Rivalités serrées",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "N",
+        "N",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Protège les rivalités et rencontres à forte variance par plusieurs nuls cohérents."
+    },
+    {
+      "id": "t06",
+      "label": "Surprises mesurées",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Ajoute des scénarios d'outsiders sans transformer le portefeuille en collection de coups extrêmes."
+    },
+    {
+      "id": "t07",
+      "label": "Favoris robustes",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Conserve les favoris les plus robustes et protège Grèce-Allemagne et Galles-Danemark."
+    },
+    {
+      "id": "t08",
+      "label": "Norvège et Mexique",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre deux outsiders extérieurs à fort potentiel offensif, Mexique et Norvège."
+    },
+    {
+      "id": "t09",
+      "label": "Europe prudente",
+      "selections": [
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Réduit la variance sur plusieurs affiches européennes en couvrant les nuls plausibles."
+    },
+    {
+      "id": "t10",
+      "label": "Gros écarts",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Mise sur les écarts de forme les plus nets tout en variant Estonie-Luxembourg."
+    },
+    {
+      "id": "t11",
+      "label": "Alternatif",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "N",
+        "N",
+        "1",
+        "2",
+        "2",
+        "N",
+        "2",
+        "1",
+        "N",
+        "1",
+        "2",
+        "N"
+      ],
+      "rationale": "Scénario réellement alternatif couvrant plusieurs bascules plausibles réparties sur la grille."
+    },
+    {
+      "id": "t12",
+      "label": "Mix diversifié",
+      "selections": [
+        "2",
+        "N",
+        "1",
+        "1",
+        "1",
+        "N",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Dernière combinaison ajoutée pour améliorer la diversité sur plusieurs zones d'incertitude sans quasi-clone."
+    }
+  ]
+}
