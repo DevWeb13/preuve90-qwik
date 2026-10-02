@@ -1,0 +1,412 @@
+{
+  "id": "lf7-124-2026-10-03",
+  "formula": 7,
+  "gridNumber": 124,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+  "validationDeadline": "2026-10-03T17:55:00+02:00",
+  "publishedAt": "2026-10-02T06:15:35+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Croatie",
+      "awayTeam": "Angleterre",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 30,
+        "draw": 30,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "L'Angleterre a réagi à sa défaite 2-3 contre l'Espagne en gagnant 2-0 en Tchéquie. La Croatie avait battu les Tchèques 2-1 avant de subir un lourd 1-4 en Espagne. L'Angleterre garde un léger avantage, mais le déplacement et l'expérience croate rendent la rencontre serrée.",
+        "keyFactors": [
+          "L'Angleterre vient de gagner 2-0 en Tchéquie après sa défaite initiale contre l'Espagne.",
+          "La Croatie a pris trois points contre la Tchéquie mais a été nettement battue 4-1 en Espagne.",
+          "Cole Palmer est absent du rassemblement anglais, ce qui réduit une option créative importante."
+        ],
+        "uncertainty": "La Croatie joue à domicile et possède assez d'expérience pour ralentir le rythme; le nul reste presque aussi plausible qu'un succès anglais.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°124",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "Reuters - Espagne 4-1 Croatie et Tchéquie 0-2 Angleterre",
+            "url": "https://www.reuters.com/sports/soccer/lamine-nets-double-spain-win-again-england-beat-10-man-czechs-2026-09-29/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "Reuters - absence de Cole Palmer",
+            "url": "https://www.reuters.com/sports/soccer/palmer-misses-too-many-england-camps-says-tuchel-2026-09-25/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Espagne",
+      "awayTeam": "République tchèque",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 74,
+        "draw": 17,
+        "away": 9
+      },
+      "analysis": {
+        "summary": "L'Espagne a remporté ses deux premiers matchs, 3-2 en Angleterre puis 4-1 contre la Croatie, en prolongeant une très longue série sans défaite. La République tchèque reste au contraire sur deux revers contre la Croatie puis l'Angleterre.",
+        "keyFactors": [
+          "L'Espagne a gagné 4-1 contre la Croatie après son succès 3-2 à Wembley.",
+          "La République tchèque a perdu ses deux premières rencontres, 1-2 puis 0-2.",
+          "Eric Garcia est forfait, mais l'Espagne conserve une profondeur d'effectif très supérieure."
+        ],
+        "uncertainty": "Le principal risque vient d'une baisse d'efficacité ou d'une rotation espagnole, davantage que de la forme récente tchèque.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°124",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "Reuters - Espagne 4-1 Croatie et Tchéquie 0-2 Angleterre",
+            "url": "https://www.reuters.com/sports/soccer/lamine-nets-double-spain-win-again-england-beat-10-man-czechs-2026-09-29/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "Reuters - forfait d'Eric Garcia",
+            "url": "https://www.reuters.com/sports/soccer/defender-le-normand-replaces-injured-garcia-spain-squad-2026-09-27/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "Reuters - Angleterre 2-3 Espagne",
+            "url": "https://www.reuters.com/sports/soccer/world-champions-spain-punish-england-errors-win-nations-league-thriller-wembley-2026-09-26/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Macédoine du Nord",
+      "awayTeam": "Écosse",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 27,
+        "draw": 31,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "Les deux équipes restent sans victoire. La Macédoine du Nord a perdu 0-3 en Suisse puis 0-2 en Slovénie. L'Écosse a obtenu 0-0 en Slovénie avant de perdre 0-3 contre la Suisse après une exclusion précoce.",
+        "keyFactors": [
+          "La Macédoine du Nord n'a pas marqué en deux matchs et a encaissé cinq buts.",
+          "L'Écosse avait obtenu un nul en Slovénie avant son revers contre la Suisse.",
+          "Le 0-3 écossais contre la Suisse a été fortement influencé par un carton rouge rapide."
+        ],
+        "uncertainty": "L'Écosse n'a elle non plus pas encore marqué dans le groupe, et le déplacement maintient une forte probabilité de nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°124",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "Reuters - Écosse 0-3 Suisse et Slovénie 2-0 Macédoine du Nord",
+            "url": "https://www.reuters.com/sports/soccer/lamine-nets-double-spain-win-again-england-beat-10-man-czechs-2026-09-29/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Suisse",
+      "awayTeam": "Slovénie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "La Suisse a parfaitement commencé avec deux victoires 3-0, contre la Macédoine du Nord puis en Écosse. La Slovénie reste elle aussi invaincue après un 0-0 contre l'Écosse et un succès 2-0 contre la Macédoine du Nord.",
+        "keyFactors": [
+          "La Suisse a marqué six buts sans en encaisser.",
+          "La Slovénie n'a pas encaissé en deux journées.",
+          "La Suisse reçoit après deux performances très maîtrisées."
+        ],
+        "uncertainty": "La solidité défensive slovène peut faire basculer la rencontre vers un match fermé et donner une vraie valeur au nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°124",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "Reuters - Écosse 0-3 Suisse et Slovénie 2-0 Macédoine du Nord",
+            "url": "https://www.reuters.com/sports/soccer/lamine-nets-double-spain-win-again-england-beat-10-man-czechs-2026-09-29/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Islande",
+      "awayTeam": "Bulgarie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 61,
+        "draw": 25,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "L'Islande a pris quatre points avec un nul 1-1 contre l'Estonie puis une victoire 3-0 au Luxembourg. La Bulgarie n'a qu'un point après une défaite 1-2 contre le Luxembourg et un 0-0 contre l'Estonie.",
+        "keyFactors": [
+          "L'Islande vient de gagner 3-0 au Luxembourg.",
+          "La Bulgarie n'a marqué qu'un but en deux journées.",
+          "L'Islande reçoit avec une dynamique et une efficacité supérieures."
+        ],
+        "uncertainty": "La Bulgarie vient de garder sa cage inviolée contre l'Estonie; un nul fermé demeure le principal scénario alternatif.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°124",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Biélorussie",
+      "awayTeam": "Saint-Marin",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 72,
+        "draw": 19,
+        "away": 9
+      },
+      "analysis": {
+        "summary": "La Biélorussie a perdu 0-2 en Albanie avant de prendre un point en Finlande. Saint-Marin reste sur deux lourdes défaites, 0-7 contre la Finlande puis 0-3 contre l'Albanie.",
+        "keyFactors": [
+          "La Biélorussie a résisté à la Finlande lors d'un 0-0.",
+          "Saint-Marin a encaissé dix buts sans marquer lors de ses deux premières journées.",
+          "Les confrontations directes répertoriées par l'UEFA sont favorables à la Biélorussie."
+        ],
+        "uncertainty": "Le favori biélorusse reste peu productif offensivement; une rencontre longtemps bloquée augmente légèrement le risque de nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°124",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "UEFA - Biélorussie-Saint-Marin",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047973--belarus-vs-san-marino/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Estonie",
+      "awayTeam": "Luxembourg",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 38,
+        "draw": 33,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "L'Estonie est invaincue après deux nuls, 1-1 en Islande puis 0-0 en Bulgarie. Le Luxembourg a gagné 2-1 en Bulgarie avant de perdre 0-3 à domicile contre l'Islande. L'avantage du terrain donne un léger plus à l'Estonie dans une affiche très équilibrée.",
+        "keyFactors": [
+          "L'Estonie n'a perdu aucun de ses deux premiers matchs.",
+          "Le Luxembourg a déjà gagné à l'extérieur en Bulgarie.",
+          "Le Luxembourg vient toutefois de subir un 0-3 contre l'Islande."
+        ],
+        "uncertainty": "Les écarts sont faibles entre les trois issues; le nul est presque au niveau du 1 et une victoire luxembourgeoise reste crédible.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°124",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4941",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "UEFA - Estonie-Luxembourg",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047974--estonia-vs-luxembourg-malta/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-02T06:15:21+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Retient les favoris principaux tout en donnant l'Angleterre gagnante en Croatie et l'Estonie légèrement devant le Luxembourg."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls ciblés",
+      "selections": [
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre les trois rencontres les plus équilibrées autour du nul sans toucher aux favoris les plus solides."
+    },
+    {
+      "id": "t03",
+      "label": "Luxembourg extérieur",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre une victoire luxembourgeoise crédible en conservant la structure favorite du scénario central."
+    },
+    {
+      "id": "t04",
+      "label": "Réaction croate",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre une victoire croate à domicile et protège Estonie-Luxembourg par le nul."
+    },
+    {
+      "id": "t05",
+      "label": "Slovénie résistante",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre un nul en Suisse et un succès luxembourgeois, deux alternatives plausibles peu représentées."
+    },
+    {
+      "id": "t06",
+      "label": "Macédoine à domicile",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre une réaction macédonienne et un nul Croatie-Angleterre tout en gardant les autres favoris."
+    },
+    {
+      "id": "t07",
+      "label": "Bulgarie accrocheuse",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre des matchs plus fermés en Macédoine, Islande et Estonie, avec un portefeuille nettement différent du central."
+    },
+    {
+      "id": "t08",
+      "label": "Outsiders locaux",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Associe une victoire croate, un nul en Macédoine et une victoire luxembourgeoise pour couvrir plusieurs écarts raisonnables au scénario central."
+    },
+    {
+      "id": "t09",
+      "label": "Biélorussie bloquée",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Protège le principal risque du favori biélorusse, un match fermé débouchant sur le nul."
+    },
+    {
+      "id": "t10",
+      "label": "Scénario alternatif",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre simultanément nul en Croatie, nul en Suisse, surprise bulgare et victoire luxembourgeoise sans créer un quasi-clone."
+    }
+  ]
+}
