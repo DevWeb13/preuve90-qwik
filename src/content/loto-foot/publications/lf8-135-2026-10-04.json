@@ -1,0 +1,519 @@
+{
+  "id": "lf8-135-2026-10-04",
+  "formula": 8,
+  "gridNumber": 135,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+  "validationDeadline": "2026-10-04T14:55:00+02:00",
+  "publishedAt": "2026-10-03T10:08:21+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Portugal",
+      "awayTeam": "Norvège",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 62,
+        "draw": 22,
+        "away": 16
+      },
+      "analysis": {
+        "summary": "Le Portugal a gagné ses trois premières rencontres de groupe, dont 2-1 en Norvège puis 4-2 au Danemark. Le départ de Cristiano Ronaldo du rassemblement réduit toutefois une partie de sa marge offensive.",
+        "keyFactors": [
+          "Portugal reste sur trois victoires en trois journées.",
+          "Le Portugal a déjà battu la Norvège 2-1 à l'extérieur.",
+          "Cristiano Ronaldo a quitté le rassemblement portugais avant la fin de la fenêtre internationale."
+        ],
+        "uncertainty": "La Norvège a déjà battu le Danemark et peut menacer en transition; l'absence de Ronaldo réduit légèrement la sécurité du favori portugais.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-portugal-soar-clear-jurge/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "Reuters - départ de Cristiano Ronaldo du rassemblement",
+            "url": "https://www.reuters.com/sports/soccer/jesus-fpf-chief-fail-airport-bid-stop-ronaldo-leaving-portugal-camp-marca-2026-10-01/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Grèce",
+      "awayTeam": "Allemagne",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 34,
+        "draw": 31,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "La Grèce reste invaincue après deux victoires puis un nul 2-2 contre les Pays-Bas. L'Allemagne vient de décrocher sa première victoire, 2-0 contre la Serbie, après avoir perdu 0-1 à domicile contre cette même Grèce.",
+        "keyFactors": [
+          "La Grèce a déjà gagné 1-0 en Allemagne.",
+          "La Grèce a pris sept points sur neuf.",
+          "L'Allemagne vient de gagner 2-0 contre la Serbie et montre une amélioration."
+        ],
+        "uncertainty": "Le premier duel a tourné en faveur de la Grèce, mais la progression allemande rend cette revanche presque équilibrée.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-portugal-soar-clear-jurge/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - Grèce-Allemagne",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047926--greece-vs-germany/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "République d'Irlande",
+      "awayTeam": "Israël",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 49,
+        "draw": 31,
+        "away": 20
+      },
+      "analysis": {
+        "summary": "L'Irlande a déjà battu Israël 3-0 et vient de faire 2-2 contre l'Autriche après avoir mené de deux buts. Israël reste sur une défaite nette contre l'Irlande puis un 0-0 contre le Kosovo.",
+        "keyFactors": [
+          "L'Irlande a gagné 3-0 lors du premier duel.",
+          "Troy Parrott a inscrit un doublé contre l'Autriche.",
+          "Le match est délocalisé en Serbie et se joue sans avantage de public irlandais classique."
+        ],
+        "uncertainty": "La délocalisation réduit l'avantage de terrain et Israël a montré davantage de solidité lors de son 0-0 contre le Kosovo.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-portugal-soar-clear-jurge/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "RTÉ - Irlande 2-2 Autriche",
+            "url": "https://www.rte.ie/sport/soccer/2026/1001/1593592-parrott-makes-magic-but-austria-claw-back-two-goal-lead/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - République d'Irlande-Israël",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047929--republic-of-ireland-vs-israel/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "Reuters - contexte du rassemblement irlandais",
+            "url": "https://www.reuters.com/sports/soccer/lot-lies-told-around-bazunu-withdrawal-israel-fixtures-says-ireland-coach-2026-09-30/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Pays de Galles",
+      "awayTeam": "Danemark",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 32,
+        "draw": 31,
+        "away": 37
+      },
+      "analysis": {
+        "summary": "Le Pays de Galles a relancé sa campagne en battant la Norvège 2-1. Le Danemark avait gagné 2-0 le premier duel face aux Gallois mais reste ensuite sur une défaite 2-4 contre le Portugal.",
+        "keyFactors": [
+          "Le Danemark a gagné 2-0 contre le Pays de Galles lors du premier duel.",
+          "Le Pays de Galles vient de battre la Norvège 2-1.",
+          "Le Danemark a encaissé quatre buts contre le Portugal lors de la 3e journée."
+        ],
+        "uncertainty": "Le regain gallois et le changement de terrain rendent le match beaucoup plus serré que le premier affrontement.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-portugal-soar-clear-jurge/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - Danemark-Pays de Galles, premier duel",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047977--denmark-vs-wales/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Malte",
+      "awayTeam": "Andorre",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 52,
+        "draw": 31,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Malte a déjà gagné 2-1 en Andorre et reste en tête de son groupe après un nul 1-1 contre Gibraltar. Le volume d'occasions créé contre Gibraltar soutient un nouvel avantage maltais à domicile.",
+        "keyFactors": [
+          "Malte a gagné le premier duel 2-1 en Andorre.",
+          "Malte compte quatre points après ses deux matchs de groupe.",
+          "Malte a créé de nombreuses occasions lors du nul 1-1 contre Gibraltar."
+        ],
+        "uncertainty": "Andorre a déjà montré sa capacité à fermer les matchs et le groupe D produit souvent des scores serrés.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "MaltaFootball - Andorre 1-2 Malte",
+            "url": "https://www.maltafootball.com/2026/09/24/malta-turn-defeat-into-victory-in-andorra/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "MaltaFootball - Malte 1-1 Gibraltar",
+            "url": "https://www.maltafootball.com/2026/10/01/malta-held-in-1-1-draw-by-gibraltar/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - Malte-Andorre",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047928--luxembourg-malta-vs-andorra/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Azerbaïdjan",
+      "awayTeam": "Lituanie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 36,
+        "draw": 36,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Le premier duel s'est terminé 1-1 en Lituanie. L'Azerbaïdjan vient ensuite d'être tenu 0-0 à domicile par le Liechtenstein, tandis que la Lituanie avait commencé son groupe par un succès 2-0 au Liechtenstein.",
+        "keyFactors": [
+          "Lituanie et Azerbaïdjan ont fait 1-1 lors du premier duel.",
+          "L'Azerbaïdjan n'a pas marqué contre le Liechtenstein à domicile.",
+          "La Lituanie avait gagné 2-0 au Liechtenstein en ouverture."
+        ],
+        "uncertainty": "Les deux équipes sont proches et l'Azerbaïdjan a montré des limites offensives; le nul est presque aussi probable qu'un succès local.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "FootballNation - Lituanie 1-1 Azerbaïdjan",
+            "url": "https://footballnation.eu/match/uefa-nations-league/2026/782500/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "OddsCalendar - Azerbaïdjan 0-0 Liechtenstein",
+            "url": "https://www.oddscalendar.com/football/europe/nations-league/azerbaijan-vs-liechtenstein/1528916",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - calendrier de l'Azerbaïdjan",
+            "url": "https://www.uefa.com/uefanationsleague/teams/57154--azerbaijan/matches/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Kosovo",
+      "awayTeam": "Autriche",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 28,
+        "draw": 31,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "L'Autriche avait battu le Kosovo 3-1 lors du premier duel mais vient de laisser échapper un retard de deux buts pour arracher 2-2 en Irlande. Le Kosovo reste sur un 0-0 en Israël.",
+        "keyFactors": [
+          "L'Autriche a gagné 3-1 contre le Kosovo lors du premier duel.",
+          "Le Kosovo vient de garder sa cage inviolée en Israël.",
+          "L'Autriche a montré des ressources pour revenir de 0-2 à 2-2 en Irlande."
+        ],
+        "uncertainty": "Le déplacement à Pristina et la solidité défensive récente du Kosovo réduisent l'avantage autrichien.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-portugal-soar-clear-jurge/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "RTÉ - Irlande 2-2 Autriche",
+            "url": "https://www.rte.ie/sport/soccer/2026/1001/1593592-parrott-makes-magic-but-austria-claw-back-two-goal-lead/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - Kosovo-Autriche",
+            "url": "https://fr.uefa.com/uefanationsleague/match/2047927--kosovo-vs-austria/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Pays-Bas",
+      "awayTeam": "Serbie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 55,
+        "draw": 27,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Les Pays-Bas restent invaincus après un nul contre l'Allemagne, une victoire 2-1 en Serbie et un nul 2-2 en Grèce. La Serbie a perdu ses trois premières rencontres et reste sur un 0-2 en Allemagne.",
+        "keyFactors": [
+          "Les Pays-Bas ont déjà gagné 2-1 en Serbie.",
+          "La Serbie a perdu ses trois premiers matchs.",
+          "Cody Gakpo est forfait, ce qui réduit une option offensive néerlandaise importante."
+        ],
+        "uncertainty": "L'absence de Gakpo et les deux nuls néerlandais en trois journées empêchent d'en faire un favori écrasant.",
+        "sources": [
+          {
+            "label": "FDJ - LF8 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/832",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-portugal-soar-clear-jurge/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "Reuters - forfait de Cody Gakpo",
+            "url": "https://www.reuters.com/sports/soccer/ankle-injury-forces-gakpo-out-dutch-squad-2026-09-28/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          },
+          {
+            "label": "UEFA - Serbie-Pays-Bas",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047981/",
+            "accessedAt": "2026-10-03T10:07:48+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Retient les favoris principaux tout en jouant le nul sur Azerbaïdjan-Lituanie, la rencontre la plus symétrique de la grille."
+    },
+    {
+      "id": "t02",
+      "label": "Équilibres européens",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre trois nuls sur les matchs les plus équilibrés sans abandonner Portugal, Irlande, Malte, Autriche et Pays-Bas."
+    },
+    {
+      "id": "t03",
+      "label": "Grèce solide",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre une nouvelle victoire grecque contre l'Allemagne et un succès local de l'Azerbaïdjan."
+    },
+    {
+      "id": "t04",
+      "label": "Portugal accroché",
+      "selections": [
+        "N",
+        "2",
+        "N",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre un nul du Portugal et de l'Irlande ainsi qu'un succès lituanien dans un scénario plus prudent sur les favoris à domicile."
+    },
+    {
+      "id": "t05",
+      "label": "Réveil gallois",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre un succès gallois et un nul de Malte tout en conservant les favoris les plus structurants."
+    },
+    {
+      "id": "t06",
+      "label": "Kosovo résiste",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre les nuls sur Galles-Danemark et Kosovo-Autriche avec une victoire azerbaïdjanaise."
+    },
+    {
+      "id": "t07",
+      "label": "Surprise norvégienne",
+      "selections": [
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Ajoute le scénario d'un succès norvégien rendu plus plausible par l'absence de Ronaldo, sans multiplier les autres surprises."
+    },
+    {
+      "id": "t08",
+      "label": "Outsiders locaux",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre des retournements sur Israël, Galles, Lituanie et Kosovo ainsi qu'un nul néerlandais."
+    },
+    {
+      "id": "t09",
+      "label": "Journée serrée",
+      "selections": [
+        "N",
+        "N",
+        "1",
+        "2",
+        "N",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Scénario à plusieurs nuls répartis sur Portugal-Norvège, Grèce-Allemagne et Malte-Andorre."
+    },
+    {
+      "id": "t10",
+      "label": "Variantes extérieures",
+      "selections": [
+        "1",
+        "2",
+        "N",
+        "N",
+        "1",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre Israël, Kosovo et Serbie comme scénarios de rupture avec deux nuls intermédiaires."
+    },
+    {
+      "id": "t11",
+      "label": "Grèce et Lituanie",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre conjointement la Grèce, la Lituanie et le nul à Pristina, trois alternatives sous-représentées dans le portefeuille central."
+    },
+    {
+      "id": "t12",
+      "label": "Portefeuille alternatif",
+      "selections": [
+        "N",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Ajoute un scénario très différent avec nul du Portugal, victoire galloise et succès andorran, tout en gardant Allemagne, Autriche et Pays-Bas."
+    }
+  ]
+}
