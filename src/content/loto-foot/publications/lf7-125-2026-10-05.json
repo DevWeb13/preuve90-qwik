@@ -1,0 +1,437 @@
+{
+  "id": "lf7-125-2026-10-05",
+  "formula": 7,
+  "gridNumber": 125,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+  "validationDeadline": "2026-10-05T20:40:00+02:00",
+  "publishedAt": "2026-10-04T10:11:10+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "France",
+      "awayTeam": "Belgique",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "La France reste invaincue dans le groupe après des victoires en Turquie et en Belgique puis un nul 1-1 contre l'Italie. La Belgique a battu l'Italie et la Turquie mais a déjà perdu 0-1 contre la France; les suspensions de Kevin De Bruyne et Youri Tielemans affaiblissent en plus son milieu pour le retour à Paris.",
+        "keyFactors": [
+          "La France a gagné 1-0 en Belgique le 28 septembre avant de faire 1-1 contre l'Italie.",
+          "La Belgique vient de battre la Turquie 3-0, mais Kevin De Bruyne et Youri Tielemans sont suspendus pour ce match.",
+          "L'avantage du terrain et la profondeur française compensent en partie l'absence de Kylian Mbappé pendant cette fenêtre internationale."
+        ],
+        "uncertainty": "La Belgique a montré qu'elle restait dangereuse offensivement et possède assez de qualité pour profiter d'une rotation française; le nul reste un scénario important.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°125",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - résultats par équipe de la Nations League 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "Reuters - suspensions de De Bruyne et Tielemans",
+            "url": "https://www.reuters.com/sports/soccer/belgiums-de-bruyne-tielemans-miss-france-match-due-suspension-2026-10-03/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "Reuters - France 1-0 Belgique et Italie 4-1 Turquie",
+            "url": "https://www.reuters.com/sports/soccer/france-snatch-late-winner-belgium-italy-thrash-turkey-4-1-away-2026-09-28/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Italie",
+      "awayTeam": "Turquie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 70,
+        "draw": 19,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "L'Italie s'est nettement relancée après son revers initial contre la Belgique: elle a gagné 4-1 en Turquie puis obtenu un nul 1-1 en France. La Turquie a perdu ses trois premières rencontres du groupe, dont ce lourd revers à domicile contre les Italiens.",
+        "keyFactors": [
+          "L'Italie a gagné 4-1 à Bursa lors de la confrontation aller.",
+          "L'Italie vient de tenir la France en échec 1-1 au Stade de France.",
+          "La Turquie a également perdu contre la France puis 0-3 contre la Belgique et reste sans point."
+        ],
+        "uncertainty": "Le score très large de l'aller ne garantit pas un scénario identique; une rotation italienne ou un match plus prudent peut augmenter la probabilité de nul.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°125",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - résultats par équipe de la Nations League 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          },
+          {
+            "label": "Reuters - Italie 4-1 Turquie",
+            "url": "https://www.reuters.com/sports/soccer/france-snatch-late-winner-belgium-italy-thrash-turkey-4-1-away-2026-09-28/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "Reuters - France 1-1 Italie et Belgique 3-0 Turquie",
+            "url": "https://www.reuters.com/sports/soccer/france-held-1-1-draw-italy-dampen-zidanes-home-debut-2026-10-02/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Monténégro",
+      "awayTeam": "Arménie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 63,
+        "draw": 22,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Le Monténégro est la seule équipe de son groupe à avoir gagné ses trois premières rencontres. Il a déjà battu l'Arménie 3-2 à l'extérieur et reçoit désormais à Podgorica après deux autres succès contre Chypre et la Lettonie.",
+        "keyFactors": [
+          "Le Monténégro a démarré par trois victoires en trois journées.",
+          "Le match aller en Arménie s'est terminé sur une victoire monténégrine 3-2.",
+          "Le retour se joue au Monténégro, ce qui renforce un léger avantage déjà observé à l'aller."
+        ],
+        "uncertainty": "L'aller a été très serré et l'Arménie a marqué deux fois; le nul reste le principal scénario alternatif à une quatrième victoire monténégrine.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°125",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - Monténégro-Arménie",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047935--montenegro-vs-armenia/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - résultats par équipe de la Nations League 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          },
+          {
+            "label": "Reuters - victoire 3-2 du Monténégro en Arménie",
+            "url": "https://www.reuters.com/sports/soccer/france-snatch-late-winner-belgium-italy-thrash-turkey-4-1-away-2026-09-28/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Irlande du Nord",
+      "awayTeam": "Géorgie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 61,
+        "draw": 24,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "L'Irlande du Nord a pris sept points sans encaisser: victoire 1-0 en Géorgie, nul 0-0 contre la Hongrie puis succès 3-0 contre l'Ukraine. La Géorgie n'a marqué aucun but dans ses trois premières rencontres et vient de perdre 0-1 en Hongrie.",
+        "keyFactors": [
+          "L'Irlande du Nord a déjà gagné 1-0 en Géorgie dans ce groupe.",
+          "Elle reste sur un succès 3-0 contre l'Ukraine et n'a toujours pas encaissé.",
+          "La Géorgie a inscrit zéro but en trois journées."
+        ],
+        "uncertainty": "La Géorgie a déjà contenu l'Ukraine lors d'un 0-0 et peut fermer le match; le principal risque pour le favori nord-irlandais est donc un nul peu prolifique.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°125",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - résultats par équipe de la Nations League 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "Irish FA - groupe nord-irlandais pour la fenêtre de Nations League",
+            "url": "https://www.irishfa.com/news/2026/september/northern-ireland-squad-for-unl-quadruple-header-named",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Bosnie-Herzégovine",
+      "awayTeam": "Pologne",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 31,
+        "draw": 31,
+        "away": 38
+      },
+      "analysis": {
+        "summary": "L'aller en Pologne s'est terminé 0-0. La Bosnie-Herzégovine a ensuite gagné 4-2 en Roumanie puis fait 1-1 contre la Suède, alors que la Pologne a réagi à sa défaite 1-3 en Suède par un 6-0 contre la Roumanie porté par un triplé de Robert Lewandowski.",
+        "keyFactors": [
+          "Le premier duel a produit un 0-0, signe d'un écart faible.",
+          "La Bosnie-Herzégovine reste compétitive avec quatre points pris contre la Roumanie et la Suède.",
+          "La Pologne vient de gagner 6-0 avec un triplé de Robert Lewandowski, tandis qu'Edin Dzeko a disputé son dernier match international contre la Suède."
+        ],
+        "uncertainty": "La Pologne possède davantage de puissance offensive récente, mais l'aller nul et l'avantage du terrain bosnien maintiennent les trois issues très proches.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°125",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - résultats par équipe de la Nations League 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          },
+          {
+            "label": "Reuters - Bosnie 1-1 Suède, Pologne 6-0 Roumanie et dernier match de Dzeko",
+            "url": "https://www.reuters.com/sports/soccer/france-held-1-1-draw-italy-dampen-zidanes-home-debut-2026-10-02/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Ukraine",
+      "awayTeam": "Hongrie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 41,
+        "draw": 31,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "L'Ukraine a gagné 1-0 en Hongrie à l'aller puis fait 0-0 en Géorgie avant de s'effondrer 0-3 contre l'Irlande du Nord. La Hongrie, après ce revers initial, a pris quatre points contre l'Irlande du Nord et la Géorgie. Le retour se joue à Trnava, en Slovaquie, ce qui réduit l'avantage théorique de l'Ukraine.",
+        "keyFactors": [
+          "L'Ukraine a remporté le premier duel 1-0 à Budapest.",
+          "La dynamique récente s'est inversée: Ukraine 0-3 Irlande du Nord, Hongrie 1-0 Géorgie.",
+          "Le match est programmé à Trnava plutôt qu'en Ukraine, ce qui atténue l'effet domicile."
+        ],
+        "uncertainty": "Les résultats récents rendent le match nettement plus équilibré que l'aller; le nul et une victoire hongroise doivent être réellement couverts.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°125",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - Ukraine-Hongrie",
+            "url": "https://www.uefa.com/uefanationsleague/match/2047932--ukraine-vs-hungary/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          },
+          {
+            "label": "UEFA - résultats par équipe de la Nations League 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          },
+          {
+            "label": "Fédération hongroise - calendrier de la sélection",
+            "url": "https://en.valogatott.mlsz.hu/noi-a-valogatott/naptar",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Roumanie",
+      "awayTeam": "Suède",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 23,
+        "draw": 29,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "La Roumanie a perdu ses trois premiers matchs, dont un 0-6 en Pologne, après s'être déjà inclinée 1-2 en Suède. La Suède reste invaincue avec sept points, mais aborde le retour sans Alexander Isak et après une vague de maladie qui a touché plusieurs joueurs.",
+        "keyFactors": [
+          "La Suède a gagné le match aller 2-1 et a également battu la Pologne 3-1 avant de faire 1-1 en Bosnie.",
+          "La Roumanie reste sur trois défaites et douze buts encaissés en trois journées.",
+          "Alexander Isak a quitté le rassemblement sur blessure et plusieurs joueurs suédois ont manqué le déplacement en Bosnie pour maladie."
+        ],
+        "uncertainty": "Les absences suédoises et le terrain roumain empêchent de faire de la Suède un favori écrasant; le nul conserve une probabilité élevée malgré l'écart de forme.",
+        "sources": [
+          {
+            "label": "FDJ - LF7 n°125",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4942",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "UEFA - résultats par équipe de la Nations League 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-04T10:08:54+02:00"
+          },
+          {
+            "label": "Reuters - vague de maladie dans le groupe suédois",
+            "url": "https://www.reuters.com/sports/soccer/sweden-hit-by-sickness-wave-ahead-bosnia-clash-2026-10-01/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          },
+          {
+            "label": "Reuters - forfait d'Alexander Isak",
+            "url": "https://www.reuters.com/sports/soccer/in-form-isak-leaves-sweden-camp-due-minor-injury-2026-09-27/",
+            "accessedAt": "2026-10-04T10:10:44+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Retient les quatre favoris les plus solides, la légère préférence polonaise, l'Ukraine devant dans un match serré et la Suède malgré ses absences."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls des groupes B",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "N",
+        "N",
+        "2"
+      ],
+      "rationale": "Couvre simultanément les deux affiches les plus équilibrées, Bosnie-Pologne et Ukraine-Hongrie, sans sacrifier les favoris plus nets."
+    },
+    {
+      "id": "t03",
+      "label": "Bosnie et Hongrie",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "rationale": "Couvre une victoire bosnienne à domicile et une réaction hongroise après son revers de l'aller."
+    },
+    {
+      "id": "t04",
+      "label": "Géorgie résistante",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "N",
+        "2"
+      ],
+      "rationale": "Couvre un match fermé à Belfast ainsi que le nul Ukraine-Hongrie, tout en maintenant la Pologne et la Suède."
+    },
+    {
+      "id": "t05",
+      "label": "France accrochée",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Protège deux scénarios de nul crédibles, en France et en Roumanie, tout en gardant les autres choix centraux."
+    },
+    {
+      "id": "t06",
+      "label": "Arménie accrocheuse",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2",
+        "2"
+      ],
+      "rationale": "Couvre un ralentissement du Monténégro, un nouveau match nul Bosnie-Pologne et une victoire hongroise."
+    },
+    {
+      "id": "t07",
+      "label": "Réaction roumaine",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre à la fois un succès hongrois et une réaction roumaine à domicile face à une Suède diminuée."
+    },
+    {
+      "id": "t08",
+      "label": "Italie accrochée",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Introduit le principal risque du favori italien, le nul, avec une Bosnie-Pologne également indécise."
+    },
+    {
+      "id": "t09",
+      "label": "Deux nuls défensifs",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2"
+      ],
+      "rationale": "Associe les nuls France-Belgique et Irlande du Nord-Géorgie à une victoire bosnienne et à un nul en Slovaquie."
+    },
+    {
+      "id": "t10",
+      "label": "Surprise belge",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "N"
+      ],
+      "rationale": "Couvre une victoire belge malgré ses suspensions, avec des choix alternatifs sur les trois rencontres les plus ouvertes du bas de grille."
+    }
+  ]
+}
