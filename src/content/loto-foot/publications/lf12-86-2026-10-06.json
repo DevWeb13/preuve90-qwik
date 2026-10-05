@@ -1,0 +1,670 @@
+{
+  "id": "lf12-86-2026-10-06",
+  "formula": 12,
+  "gridNumber": 86,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+  "validationDeadline": "2026-10-06T18:25:00+02:00",
+  "publishedAt": "2026-10-05T06:03:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Croatie",
+      "awayTeam": "Espagne",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 12,
+        "draw": 20,
+        "away": 68
+      },
+      "analysis": {
+        "summary": "L'Espagne a gagné ses trois premières rencontres, dont 4-1 contre la Croatie. La Croatie vient surtout de subir un 0-7 à domicile contre l'Angleterre, alors que l'Espagne a battu la Tchéquie 3-1 malgré une rotation importante.",
+        "keyFactors": [
+          "L'Espagne a déjà gagné 4-1 le duel aller.",
+          "La Croatie vient de subir un 0-7 à domicile contre l'Angleterre.",
+          "L'Espagne reste parfaite après trois journées."
+        ],
+        "uncertainty": "Une réaction croate et une nouvelle rotation espagnole peuvent resserrer le match, mais le 2 reste nettement prioritaire.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-harry-kane-inspires-englan/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Reuters - Croatie 0-7 Angleterre et Espagne 3-1 Tchéquie",
+            "url": "https://www.reuters.com/sports/soccer/doubles-kane-saka-power-england-7-0-rout-croatia-2026-10-03/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Angleterre",
+      "awayTeam": "République tchèque",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 76,
+        "draw": 16,
+        "away": 8
+      },
+      "analysis": {
+        "summary": "L'Angleterre a déjà gagné 2-0 en Tchéquie et arrive après un spectaculaire 7-0 en Croatie. La Tchéquie a perdu ses trois premiers matchs, dont un 1-3 en Espagne.",
+        "keyFactors": [
+          "Victoire anglaise 2-0 à l'aller.",
+          "L'Angleterre vient de gagner 7-0 en Croatie.",
+          "La Tchéquie reste sur trois défaites."
+        ],
+        "uncertainty": "Une rotation anglaise après le large succès en Croatie constitue le principal risque, sans effacer l'écart de forme.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Reuters - Angleterre 7-0 Croatie et Espagne 3-1 Tchéquie",
+            "url": "https://www.reuters.com/sports/soccer/doubles-kane-saka-power-england-7-0-rout-croatia-2026-10-03/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Estonie",
+      "awayTeam": "Islande",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 28,
+        "draw": 31,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "Le premier duel s'est terminé 1-1. L'Islande a ensuite battu le Luxembourg puis la Bulgarie 3-0, tandis que l'Estonie a fait 0-0 en Bulgarie puis gagné 1-0 contre le Luxembourg.",
+        "keyFactors": [
+          "Le match aller a fini 1-1.",
+          "L'Islande reste sur deux victoires 3-0.",
+          "L'Estonie est encore invaincue et reçoit."
+        ],
+        "uncertainty": "La meilleure dynamique offensive islandaise donne un léger avantage au 2, mais le terrain et la solidité estonienne gardent le nul très proche.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-harry-kane-inspires-englan/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Luxembourg",
+      "awayTeam": "Bulgarie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 47,
+        "draw": 30,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Le Luxembourg a gagné 2-1 en Bulgarie à l'aller, avant de perdre contre l'Islande et l'Estonie. La Bulgarie n'a pris qu'un point en trois journées et vient de perdre 0-3 en Islande.",
+        "keyFactors": [
+          "Le Luxembourg a gagné le duel aller 2-1 à l'extérieur.",
+          "La Bulgarie n'a pas encore gagné.",
+          "Le Luxembourg reçoit mais reste sur deux défaites sans marquer."
+        ],
+        "uncertainty": "La mauvaise dynamique récente luxembourgeoise empêche d'en faire un favori fort; le nul reste très crédible.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - bilan de la 3e journée",
+            "url": "https://www.uefa.com/uefanationsleague/news/02aa-21b9c92be12f-a190457ae8e6-1000--uefa-nations-league-matchday-3-harry-kane-inspires-englan/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Moldavie",
+      "awayTeam": "Slovaquie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 27,
+        "draw": 31,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "La Slovaquie a gagné 2-0 à l'aller et reste invaincue après trois journées. La Moldavie s'est toutefois reprise avec un nul contre les Îles Féroé puis une victoire 2-1 au Kazakhstan.",
+        "keyFactors": [
+          "La Slovaquie a gagné 2-0 le match aller.",
+          "Elle reste invaincue dans le groupe.",
+          "La Moldavie vient de gagner au Kazakhstan."
+        ],
+        "uncertainty": "La progression moldave et l'avantage du terrain réduisent nettement l'écart; le nul mérite une couverture importante.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Écosse",
+      "awayTeam": "Slovénie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 47,
+        "draw": 31,
+        "away": 22
+      },
+      "analysis": {
+        "summary": "Le premier duel a fini 0-0. L'Écosse vient de gagner 2-0 en Macédoine du Nord, tandis que la Slovénie a perdu 1-2 en Suisse après avoir battu la Macédoine du Nord.",
+        "keyFactors": [
+          "Le match aller s'est terminé 0-0.",
+          "L'Écosse vient de gagner 2-0 à l'extérieur.",
+          "La Slovénie a résisté en Suisse mais s'est inclinée 1-2."
+        ],
+        "uncertainty": "Le nul reste très présent après l'aller fermé; l'avantage du terrain pousse seulement modérément vers l'Écosse.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Reuters - Écosse 2-0 Macédoine du Nord et Suisse 2-1 Slovénie",
+            "url": "https://www.reuters.com/sports/soccer/doubles-kane-saka-power-england-7-0-rout-croatia-2026-10-03/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Suisse",
+      "awayTeam": "Macédoine du Nord",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "analysis": {
+        "summary": "La Suisse a gagné ses trois premiers matchs et avait déjà dominé la Macédoine du Nord 3-0 à l'extérieur. Les Macédoniens restent sur trois défaites sans marquer.",
+        "keyFactors": [
+          "Victoire suisse 3-0 à l'aller.",
+          "Neuf points en trois journées pour la Suisse.",
+          "La Macédoine du Nord n'a toujours pas marqué."
+        ],
+        "uncertainty": "Une rotation suisse est le principal risque; sportivement le 1 reste l'un des choix les plus solides.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "UEFA - calendrier et résultats Nations League",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Reuters - Suisse 2-1 Slovénie et Macédoine du Nord 0-2 Écosse",
+            "url": "https://www.reuters.com/sports/soccer/doubles-kane-saka-power-england-7-0-rout-croatia-2026-10-03/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "France U21",
+      "awayTeam": "Suisse U21",
+      "competition": "Qualifications Euro U21 2027",
+      "probabilities": {
+        "home": 62,
+        "draw": 23,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "La France U21 est invaincue dans son groupe et vient de gagner 2-0 en Estonie après un nul en Islande. La Suisse U21 a lourdement perdu 1-5 en Islande lors de sa dernière sortie; l'aller France-Suisse avait fini 1-1.",
+        "keyFactors": [
+          "La France U21 affiche cinq victoires et un nul sur les données de groupe consultées.",
+          "L'aller en Suisse s'est terminé 1-1.",
+          "La Suisse U21 vient de perdre 1-5 en Islande."
+        ],
+        "uncertainty": "Le 1-1 de l'aller montre que la Suisse peut gêner la France; le nul reste la principale couverture.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports - France U21 vs Suisse U21, forme et confrontation",
+            "url": "https://www.skysports.com/football/france-u21-vs-switzerland-u21/527130",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Irlande U21",
+      "awayTeam": "Angleterre U21",
+      "competition": "Qualifications Euro U21 2027",
+      "probabilities": {
+        "home": 15,
+        "draw": 24,
+        "away": 61
+      },
+      "analysis": {
+        "summary": "L'Angleterre U21 domine le groupe avec sept victoires et un nul, 22 buts marqués et seulement quatre encaissés. L'Irlande U21 est troisième et avait perdu 0-2 en Angleterre lors du premier duel.",
+        "keyFactors": [
+          "L'Angleterre U21 est invaincue après huit matchs.",
+          "Elle a gagné l'aller 2-0.",
+          "L'Irlande U21 a déjà concédé dix buts dans le groupe."
+        ],
+        "uncertainty": "Le déplacement en Irlande et l'enjeu peuvent rendre le match plus fermé; le nul est le scénario alternatif principal.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Extratime - Irlande U21 vs Angleterre U21, classement et forme",
+            "url": "https://extratime.com/fixtures/2027-uefa-european-under-21-championship-qualification-group-d/republic-of-ireland-u21-v-england-u21/88478/0/match-centre/",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Danemark U21",
+      "awayTeam": "Belgique U21",
+      "competition": "Qualifications Euro U21 2027",
+      "probabilities": {
+        "home": 32,
+        "draw": 31,
+        "away": 37
+      },
+      "analysis": {
+        "summary": "La Belgique U21 a gagné 2-0 le premier duel et reste sur deux succès 1-0 contre la Biélorussie et le pays de Galles. Le Danemark U21 reste toutefois solide, avec un nul 1-1 en Autriche après une victoire 2-0 contre la Biélorussie.",
+        "keyFactors": [
+          "La Belgique U21 a gagné l'aller 2-0.",
+          "La Belgique vient d'enchaîner deux victoires sans encaisser.",
+          "Le Danemark reste sur un nul en Autriche et joue à domicile."
+        ],
+        "uncertainty": "L'avantage belge est faible face à un Danemark compétitif à domicile; les trois issues restent proches.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Sky Sports - Danemark U21 vs Belgique U21, forme et confrontation",
+            "url": "https://www.skysports.com/football/denmark-u21-vs-belgium-u21/5365391594705865232",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Chicago Fire",
+      "awayTeam": "Vancouver Whitecaps",
+      "competition": "MLS",
+      "probabilities": {
+        "home": 30,
+        "draw": 29,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "Vancouver reste une référence de l'Ouest et arrive après un 3-3 contre D.C. United. Chicago vient de retrouver la victoire 1-0 à Charlotte, mais plusieurs titulaires ou joueurs importants sont absents pour sélection internationale, dont Robert Lewandowski et le gardien Chris Brady.",
+        "keyFactors": [
+          "Vancouver est l'une des meilleures équipes de l'Ouest cette saison.",
+          "Chicago vient de gagner 1-0 à Charlotte après une période difficile.",
+          "Chicago annonce plusieurs absences internationales pour cette rencontre, dont Lewandowski et Brady."
+        ],
+        "uncertainty": "Chicago reçoit et vient de retrouver une assise défensive; malgré les absences, le nul et le 1 restent crédibles face à Vancouver.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Chicago Fire - victoire à Charlotte et absences internationales",
+            "url": "https://matchcenter.chicagofirefc.com/news/johan-gomez-scores-first-mls-goal-in-1-0-road-win-against-charlotte-fc",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Vancouver Whitecaps - dernier match et déplacement à Chicago",
+            "url": "https://www.whitecapsfc.com/news/goals-galore-match-report-powered-by-sophos",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "États-Unis",
+      "awayTeam": "Canada",
+      "competition": "Amical international masculin",
+      "probabilities": {
+        "home": 49,
+        "draw": 29,
+        "away": 22
+      },
+      "analysis": {
+        "summary": "Les États-Unis abordent ce derby après un succès 3-0 contre le Mexique et trois victoires consécutives dans cette fenêtre. Le Canada sort d'une Coupe du monde où il a atteint les huitièmes mais se présente sans Alphonso Davies ni Kamal Miller.",
+        "keyFactors": [
+          "Les États-Unis viennent de battre le Mexique 3-0.",
+          "Le match se joue à Allianz Field, aux États-Unis.",
+          "Le Canada est privé notamment d'Alphonso Davies et Kamal Miller."
+        ],
+        "uncertainty": "Un amical favorise les rotations et les essais tactiques; le Canada conserve assez de qualité, notamment avec Jonathan David, pour rendre le nul très plausible.",
+        "sources": [
+          {
+            "label": "FDJ - LF12 n°86",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/578",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "U.S. Soccer - USA vs Canada à Allianz Field",
+            "url": "https://www.ussoccer.com/premium",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          },
+          {
+            "label": "Stars and Stripes FC - état du Canada avant l'amical",
+            "url": "https://www.starsandstripesfc.com/usmnt/45889/usa-vs-canada-2026-usmnt-friendly-scouting-canada",
+            "accessedAt": "2026-10-05T06:02:00+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Retient les favoris et dynamiques principales, avec les choix extérieurs les mieux étayés."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls ciblés",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "N",
+        "2",
+        "N",
+        "1",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Renforce les nuls sur les rencontres historiquement ou sportivement les plus serrées."
+    },
+    {
+      "id": "t03",
+      "label": "Outsiders extérieurs",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "N"
+      ],
+      "rationale": "Couvre un nul moldave et un nul USA-Canada sans sacrifier les favoris très nets."
+    },
+    {
+      "id": "t04",
+      "label": "Réactions locales",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre des réactions à domicile en Croatie, Estonie, Moldavie et Chicago."
+    },
+    {
+      "id": "t05",
+      "label": "Portefeuille prudent",
+      "selections": [
+        "2",
+        "N",
+        "N",
+        "N",
+        "2",
+        "N",
+        "1",
+        "N",
+        "2",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Introduit plusieurs ralentissements de favoris et un nul MLS."
+    },
+    {
+      "id": "t06",
+      "label": "Slovénie et Canada",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "2",
+        "N",
+        "2",
+        "2"
+      ],
+      "rationale": "Couvre deux surprises extérieures plausibles et le nul du duel U21 le plus équilibré."
+    },
+    {
+      "id": "t07",
+      "label": "U21 alternatifs",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "N",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Renforce les scénarios alternatifs sur les trois rencontres U21 et les nuls sous-couverts."
+    },
+    {
+      "id": "t08",
+      "label": "Belgique U21",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "N",
+        "N"
+      ],
+      "rationale": "Maintient la Belgique U21 et couvre deux nuls crédibles en senior/MLS."
+    },
+    {
+      "id": "t09",
+      "label": "Chicago local",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre une victoire de Chicago et du Danemark U21 avec plusieurs nuls cohérents."
+    },
+    {
+      "id": "t10",
+      "label": "Bulgarie surprise",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "N",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre une réaction bulgare et un nul moldave, tout en conservant les favoris majeurs."
+    },
+    {
+      "id": "t11",
+      "label": "Croatie résistance",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "N",
+        "2",
+        "2",
+        "2"
+      ],
+      "rationale": "Couvre une Croatie résistante, deux nuls ciblés et une victoire canadienne."
+    },
+    {
+      "id": "t12",
+      "label": "Diversification finale",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "N",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Ajoute une couverture distincte sur Estonie, Moldavie, Slovénie, Suisse-Macédoine et Chicago sans quasi-clone."
+    }
+  ]
+}
