@@ -1,0 +1,429 @@
+{
+  "id": "lf7-126-2026-10-08",
+  "formula": 7,
+  "gridNumber": 126,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+  "validationDeadline": "2026-10-08T19:25:00+02:00",
+  "publishedAt": "2026-10-08T18:00:27+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "CFR Cluj",
+      "awayTeam": "Universitatea Cluj",
+      "competition": "SuperLiga roumaine",
+      "startsAt": "2026-10-08T20:30:00+03:00",
+      "probabilities": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Le CFR reçoit son rival local avec un solide historique récent à domicile et un succès 3-1 sur Botoșani. L'Universitatea arrive toutefois mieux classée et sur deux victoires de championnat; une vague de maladie dans le groupe du CFR réduit la confiance accordée au favori.",
+        "keyFactors": [
+          "CFR 8e (13 points), U Cluj 5e (15 points) avant ce match en retard.",
+          "CFR a gagné les trois dernières réceptions de ce derby; U Cluj reste sur deux succès en championnat.",
+          "Camora, Cordea, Drazic et Biliboc devraient être dans le groupe mais leur capacité à débuter reste incertaine après maladies ou sélection."
+        ],
+        "uncertainty": "Derby souvent serré, état physique de plusieurs titulaires du CFR non assuré; le nul et un succès de l'Universitatea restent crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°126",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "Digi Sport — retour possible de joueurs malades",
+            "url": "https://www.digisport.ro/fotbal/liga-1/trei-cfr-cluj-a-primit-vestea-inaintea-derby-ului-cu-u-cluj-4531241",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "Digi Sport — classement et absences",
+            "url": "https://www.digisport.ro/fotbal/liga-1/lovitura-dupa-lovitura-pentru-marius-sumudica-inainte-de-cfr-cluj-u-cluj-4528563",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "GSP — derby et compositions probables",
+            "url": "https://www.gsp.ro/fotbal/liga-1/live-cfr-cluj-u-cluj-restanta-etapa-4-din-superliga-985488.html",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Shamrock Rovers",
+      "awayTeam": "Drogheda United",
+      "competition": "Premier Division irlandaise",
+      "startsAt": "2026-10-08T20:00:00+01:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 20,
+        "away": 12
+      },
+      "analysis": {
+        "summary": "Shamrock peut prendre la tête dans une lutte à trois pour le titre et dispose d'une forte assise à Tallaght. Drogheda est dans la zone de barrage de relégation et a perdu quatre de ses six dernières rencontres compétitives.",
+        "keyFactors": [
+          "Shamrock et ses deux concurrents au titre comptent 59 points; Drogheda est 9e avec 34 points.",
+          "Shamrock a gagné 11 de ses 15 rencontres de championnat à domicile selon l'analyse récente.",
+          "Les Rovers ont plusieurs absences, notamment Mandroiu, Grant et des défenseurs, ce qui tempère le favoritisme."
+        ],
+        "uncertainty": "Shamrock n'est pas au complet; Drogheda a déjà obtenu des nuls dans cette opposition, d'où une réserve significative pour N.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°126",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "League of Ireland — confirmation du match et de l'horaire",
+            "url": "https://www.leagueofireland.ie/news/shamrock-rovers-v-drogheda-united-be-broadcast-live-virgin-media-two/",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "FreeTips — forme, domicile, absences et confrontations",
+            "url": "https://www.freetips.com/football/shamrock-rovers-vs-drogheda-tips-live-stream-20261007-0002/",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "SportyTrader — classement et série récente",
+            "url": "https://www.sportytrader.com/resultat-direct/shamrock-rovers-drogheda-united-7982554/",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Fortaleza CEIF",
+      "awayTeam": "Millonarios FC",
+      "competition": "Liga BetPlay colombienne",
+      "startsAt": "2026-10-08T20:10:00-05:00",
+      "probabilities": {
+        "home": 26,
+        "draw": 30,
+        "away": 44
+      },
+      "analysis": {
+        "summary": "Millonarios arrive avec une dynamique plus favorable, plusieurs nuls à l'extérieur et une meilleure différence de buts. Fortaleza, 16e du Clausura, a enchaîné les nuls mais n'a plus gagné depuis plusieurs rencontres.",
+        "keyFactors": [
+          "DIMAYOR confirme explicitement Fortaleza–Millonarios en 14e journée.",
+          "Fortaleza reste sur quatre nuls et une défaite; Millonarios sur deux succès et trois nuls selon les dernières séries.",
+          "La confrontation de mars s'est soldée par 2-2, et le terrain de Techo peut réduire l'écart de niveau."
+        ],
+        "uncertainty": "Match à forte propension au nul: Fortaleza a obtenu beaucoup de partages de points et Millonarios a récemment concédé plusieurs égalités à l'extérieur.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°126",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "DIMAYOR — désignations officielles de la 14e journée",
+            "url": "https://www.dimayor.com.co/2026/10/08/designaciones-arbitrales-fecha-14-liga-betplay-dimayor-ll-2026/",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "FotMob — cinq derniers résultats des deux équipes",
+            "url": "https://www.fotmob.com/en-GB/matches/millonarios-vs-fortaleza-fc/e6xa5s2",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "GolMates — forme et classement du Clausura",
+            "url": "https://www.golmates.com/es/colombia/primera-a/clausura-2026/resultados/fortaleza-ceif-vs-millonarios-2026-10-09/donde-ver-previa",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Fluminense",
+      "awayTeam": "Coritiba",
+      "competition": "Brasileirão Série A",
+      "startsAt": "2026-10-08T21:30:00-03:00",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Quatrième avec 48 points, Fluminense reçoit un Coritiba neuvième (38 points) et vient de gagner 3-1 chez Corinthians. Le Maracanã favorise les locaux, mais la proximité du derby et de la demi-finale de Libertadores peut influer sur les choix de l'entraîneur.",
+        "keyFactors": [
+          "Fluminense sort d'un succès 3-1 à l'extérieur; Coritiba reste sur un nul 3-3 et une série difficile.",
+          "Canobbio et Nonato sont suspendus; Cano et John Kennedy sont blessés pour Fluminense.",
+          "Coritiba récupère notamment Jacy et Tinga mais doit composer avec l'absence de Tiago Cóser."
+        ],
+        "uncertainty": "Rotation et absences offensives du Fluminense, ainsi que le calendrier chargé, rendent un nul plus plausible que ne le suggère le seul classement.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°126",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "ge Globo — avant-match, classements et compositions",
+            "url": "https://ge.globo.com/google/amp/pr/futebol/brasileirao-serie-a/noticia/2026/10/08/fluminense-x-coritiba-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "FotMob — forme et joueurs indisponibles",
+            "url": "https://www.fotmob.com/matches/coritiba-vs-fluminense/36pz40",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Bahia",
+      "competition": "Brasileirão Série A",
+      "startsAt": "2026-10-08T21:30:00-03:00",
+      "probabilities": {
+        "home": 55,
+        "draw": 27,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "Palmeiras est deuxième avec 57 points et reçoit le cinquième, Bahia (46 points). Sa supériorité globale et le terrain donnent l'avantage, mais la trêve internationale a pesé sur les titulaires et l'entraîneur Abel Ferreira est suspendu.",
+        "keyFactors": [
+          "Palmeiras a fait trois nuls sur ses quatre dernières rencontres de championnat, ce qui augmente le risque de partage.",
+          "Paulinho et Jefté sont absents; Piquerez et Emiliano Martínez ont des contraintes de retour de sélection.",
+          "Bahia récupère Kike Olivera et a bénéficié de la trêve pour réduire son nombre de blessés."
+        ],
+        "uncertainty": "Bahia est compétitif dans le haut du classement; les retours tardifs de sélection et l'absence d'Abel sur le banc peuvent rendre la rencontre moins déséquilibrée.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°126",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "ge Globo — classement, internationaux et compositions",
+            "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/noticia/2026/10/08/palmeiras-x-bahia-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "UOL — retour des internationaux et état des titulaires",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/08/palmeiras-tem-dois-titulares-no-limite-apos-a-data-fifa-veja-provavel-time.ghtm",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Athletico Paranaense",
+      "awayTeam": "Atlético Mineiro",
+      "competition": "Brasileirão Série A",
+      "startsAt": "2026-10-08T20:00:00-03:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 27,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "Athletico, troisième avec 49 points, reste sur douze matchs sans défaite à domicile et vient de battre Bahia 2-1. Atlético-MG a retrouvé une victoire contre Bragantino mais doit composer avec plusieurs blessures et joueurs préservés.",
+        "keyFactors": [
+          "Athletico est invaincu sur ses douze dernières réceptions à l'Arena da Baixada.",
+          "Benavídez, Dantas et Aguirre manquent à sa défense; Viveros est incertain après sa sélection.",
+          "Atlético-MG est privé notamment d'Everson, Scarpa et Cassierra, et préserve plusieurs internationaux."
+        ],
+        "uncertainty": "Les absences défensives du club local et le possible forfait de Viveros empêchent d'écarter un nul ou une victoire du Galo.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°126",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "ge Globo — classement, forme à domicile et absences",
+            "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/10/08/athletico-pr-x-atletico-mg-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Santos",
+      "awayTeam": "Flamengo",
+      "competition": "Brasileirão Série A",
+      "startsAt": "2026-10-08T19:30:00-03:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 29,
+        "away": 44
+      },
+      "analysis": {
+        "summary": "Flamengo mène le championnat avec 60 points et reste invaincu depuis sept rencontres, mais Santos a remporté cinq matchs consécutifs et joue à la Vila Belmiro. Les absences d'Arrascaeta et d'autres cadres diminuent la marge du leader.",
+        "keyFactors": [
+          "Santos reste sur cinq victoires d'affilée; Flamengo sur six victoires et un nul lors de ses sept derniers matchs.",
+          "Flamengo doit se passer d'Arrascaeta, Léo Ortiz et Varela notamment.",
+          "Neymar revient de blessure mais son temps de jeu peut être limité; Everton Cebolinha ne peut pas jouer contre son ancien club."
+        ],
+        "uncertainty": "Deux équipes en excellente forme; le nul et même un succès local sont des alternatives substantielles à la victoire du leader.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°126",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4943",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "ge Globo — forme, classement, compositions et absences",
+            "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/brasileirao-serie-a/noticia/2026/10/08/santos-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          },
+          {
+            "label": "UOL — retour progressif de Neymar et dynamique de Gabigol",
+            "url": "https://www.uol.com.br/esporte/colunas/bruno-lima/2026/10/08/cuca-segura-neymar-e-aposta-nos-60-do-santos-com-gabigol-protagonista.ghtm",
+            "accessedAt": "2026-10-08T17:59:42+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Scénario central",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "CFR et les trois favoris brésiliens à domicile, Millonarios et Flamengo à l'extérieur; le noyau le plus plausible."
+    },
+    {
+      "id": "t02",
+      "label": "Trois nuls ciblés",
+      "selections": [
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Protège simultanément les derbys de Cluj, Fortaleza–Millonarios et Santos–Flamengo, sans diluer les favoris nets."
+    },
+    {
+      "id": "t03",
+      "label": "Réaction de Santos",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Variante à un seul match car Santos–Flamengo est une incertitude déterminante: série locale de cinq victoires face au leader diminué."
+    },
+    {
+      "id": "t04",
+      "label": "Fortaleza à domicile",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Variante à un seul match sur le duel colombien très ouvert; couvre le retournement de Fortaleza dans le noyau favori."
+    },
+    {
+      "id": "t05",
+      "label": "Nul à Cluj et Curitiba",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "2"
+      ],
+      "rationale": "Combine l'égalité du derby roumain et Athletico–Atlético-MG, avec les autres choix les plus probables."
+    },
+    {
+      "id": "t06",
+      "label": "Universitatea et nuls",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Associe une surprise à Cluj aux nuls de Fortaleza et Palmeiras–Bahia, tout en conservant les favoris Shamrock et Flamengo."
+    },
+    {
+      "id": "t07",
+      "label": "Nuls brésiliens",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "N",
+        "N",
+        "N"
+      ],
+      "rationale": "Couvre simultanément les scénarios de partage pour Palmeiras, Athletico et Santos, sans sacrifier Millonarios."
+    },
+    {
+      "id": "t08",
+      "label": "Égalités colombienne et à Curitiba",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "2"
+      ],
+      "rationale": "Couvre deux matchs de forte incertitude, Fortaleza–Millonarios et Athletico–Atlético-MG, autour du noyau favori."
+    },
+    {
+      "id": "t09",
+      "label": "Universitatea et Fluminense freiné",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "N"
+      ],
+      "rationale": "Introduit une victoire de l'Universitatea, un nul de Fluminense lié aux rotations et un nul Santos–Flamengo."
+    },
+    {
+      "id": "t10",
+      "label": "Nuls à Cluj et São Paulo",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Scénario alternatif associant les nuls CFR–U Cluj et Palmeiras–Bahia à une victoire de Santos, sans perdre les autres favoris."
+    }
+  ]
+}
