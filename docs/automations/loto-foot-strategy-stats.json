@@ -3,51 +3,51 @@
   "purpose": "Mémoire statistique déterministe pour calibrer l'analyse et la construction des combinaisons. Ce fichier ne remplace jamais l'analyse sportive de la grille courante.",
   "source": {
     "publicationFiles": 127,
-    "resultFiles": 122,
-    "settledPublications": 122,
-    "latestSettledAt": "2026-10-07T10:43:45+02:00"
+    "resultFiles": 123,
+    "settledPublications": 123,
+    "latestSettledAt": "2026-10-09T11:09:11+02:00"
   },
   "allTime": {
     "summary": {
-      "settledPublications": 122,
-      "settledTickets": 1198,
+      "settledPublications": 123,
+      "settledTickets": 1208,
       "averageTicketsPerPublication": 9.82,
-      "stakeCents": 119800,
+      "stakeCents": 120800,
       "returnCents": 38000,
-      "netCents": -81800,
-      "yieldPct": -68.3,
+      "netCents": -82800,
+      "yieldPct": -68.5,
       "returningPublications": 32,
       "profitablePublications": 8,
       "winningTickets": 52,
       "winningTicketRatePct": 4.3,
-      "bestTicketAccuracyPct": 66.9,
+      "bestTicketAccuracyPct": 67,
       "firstTicketAccuracyPct": 55.4,
-      "portfolioOutcomeCoveragePct": 90.7,
-      "additionalTicketsImprovedBestScorePublications": 79,
-      "additionalTicketsImprovedBestScoreRatePct": 64.8,
-      "averageBestScoreGainFromAdditionalTickets": 1.13,
+      "portfolioOutcomeCoveragePct": 90.8,
+      "additionalTicketsImprovedBestScorePublications": 80,
+      "additionalTicketsImprovedBestScoreRatePct": 65,
+      "averageBestScoreGainFromAdditionalTickets": 1.14,
       "averagePairwiseTicketDistancePct": 49.2
     },
     "byFormula": {
       "7": {
-        "settledPublications": 35,
-        "settledTickets": 311,
-        "averageTicketsPerPublication": 8.89,
-        "stakeCents": 31100,
+        "settledPublications": 36,
+        "settledTickets": 321,
+        "averageTicketsPerPublication": 8.92,
+        "stakeCents": 32100,
         "returnCents": 12560,
-        "netCents": -18540,
-        "yieldPct": -59.6,
+        "netCents": -19540,
+        "yieldPct": -60.9,
         "returningPublications": 13,
         "profitablePublications": 4,
         "winningTickets": 21,
-        "winningTicketRatePct": 6.8,
+        "winningTicketRatePct": 6.5,
         "bestTicketAccuracyPct": 69.8,
-        "firstTicketAccuracyPct": 55.9,
-        "portfolioOutcomeCoveragePct": 90.6,
-        "additionalTicketsImprovedBestScorePublications": 20,
-        "additionalTicketsImprovedBestScoreRatePct": 57.1,
-        "averageBestScoreGainFromAdditionalTickets": 0.97,
-        "averagePairwiseTicketDistancePct": 51.7
+        "firstTicketAccuracyPct": 55.6,
+        "portfolioOutcomeCoveragePct": 90.9,
+        "additionalTicketsImprovedBestScorePublications": 21,
+        "additionalTicketsImprovedBestScoreRatePct": 58.3,
+        "averageBestScoreGainFromAdditionalTickets": 1,
+        "averagePairwiseTicketDistancePct": 51.5
       },
       "8": {
         "settledPublications": 40,
@@ -113,54 +113,54 @@
     "selectionDistribution": {
       "officialResults": {
         "1": {
-          "count": 536,
+          "count": 539,
           "pct": 44.8
         },
         "2": {
-          "count": 363,
-          "pct": 30.4
+          "count": 364,
+          "pct": 30.3
         },
-        "total": 1196,
+        "total": 1203,
         "N": {
-          "count": 297,
-          "pct": 24.8
+          "count": 300,
+          "pct": 24.9
         }
       },
       "publishedTicketSelections": {
         "1": {
-          "count": 5688,
-          "pct": 47.6
+          "count": 5729,
+          "pct": 47.7
         },
         "2": {
-          "count": 3541,
-          "pct": 29.7
+          "count": 3554,
+          "pct": 29.6
         },
-        "total": 11938,
+        "total": 12008,
         "N": {
-          "count": 2709,
+          "count": 2725,
           "pct": 22.7
         }
       },
       "coverageGapPct": {
-        "1": 2.8,
+        "1": 2.9,
         "2": -0.7,
-        "N": -2.1
+        "N": -2.2
       }
     },
     "calibration": {
-      "observations": 1196,
-      "topPredictionAccuracyPct": 55.7,
+      "observations": 1203,
+      "topPredictionAccuracyPct": 55.6,
       "averageTopPredictedProbabilityPct": 50.3,
-      "calibrationGapPct": 5.4,
+      "calibrationGapPct": 5.3,
       "brierScore": 0.5581,
       "byTopSelection": {
         "1": {
-          "count": 812,
+          "count": 817,
           "accuracyPct": 56.4
         },
         "2": {
-          "count": 377,
-          "accuracyPct": 54.4
+          "count": 379,
+          "accuracyPct": 54.1
         },
         "N": {
           "count": 7,
@@ -175,22 +175,22 @@
           "calibrationGapPct": -3.4
         },
         "40-49": {
-          "count": 441,
+          "count": 444,
           "averagePredictedProbabilityPct": 44.4,
-          "actualHitRatePct": 49,
-          "calibrationGapPct": 4.6
+          "actualHitRatePct": 48.6,
+          "calibrationGapPct": 4.2
         },
         "50-59": {
-          "count": 269,
+          "count": 271,
           "averagePredictedProbabilityPct": 54.5,
-          "actualHitRatePct": 64.7,
-          "calibrationGapPct": 10.2
+          "actualHitRatePct": 64.6,
+          "calibrationGapPct": 10.1
         },
         "60-69": {
-          "count": 157,
+          "count": 159,
           "averagePredictedProbabilityPct": 64.1,
-          "actualHitRatePct": 72,
-          "calibrationGapPct": 7.9
+          "actualHitRatePct": 72.3,
+          "calibrationGapPct": 8.2
         },
         "70-79": {
           "count": 82,
@@ -248,24 +248,24 @@
         "averagePairwiseTicketDistancePct": 43.3
       },
       "7-10": {
-        "settledPublications": 4,
-        "settledTickets": 38,
-        "averageTicketsPerPublication": 9.5,
-        "stakeCents": 3800,
+        "settledPublications": 5,
+        "settledTickets": 48,
+        "averageTicketsPerPublication": 9.6,
+        "stakeCents": 4800,
         "returnCents": 860,
-        "netCents": -2940,
-        "yieldPct": -77.4,
+        "netCents": -3940,
+        "yieldPct": -82.1,
         "returningPublications": 1,
         "profitablePublications": 0,
         "winningTickets": 3,
-        "winningTicketRatePct": 7.9,
-        "bestTicketAccuracyPct": 62.2,
-        "firstTicketAccuracyPct": 51.4,
-        "portfolioOutcomeCoveragePct": 83.8,
-        "additionalTicketsImprovedBestScorePublications": 3,
-        "additionalTicketsImprovedBestScoreRatePct": 75,
-        "averageBestScoreGainFromAdditionalTickets": 1,
-        "averagePairwiseTicketDistancePct": 39.8
+        "winningTicketRatePct": 6.3,
+        "bestTicketAccuracyPct": 63.6,
+        "firstTicketAccuracyPct": 50,
+        "portfolioOutcomeCoveragePct": 86.4,
+        "additionalTicketsImprovedBestScorePublications": 4,
+        "additionalTicketsImprovedBestScoreRatePct": 80,
+        "averageBestScoreGainFromAdditionalTickets": 1.2,
+        "averagePairwiseTicketDistancePct": 40.7
       },
       "11+": {
         "settledPublications": 85,
@@ -290,7 +290,7 @@
     },
     "payoutHistory": {
       "7": {
-        "observedGrids": 35,
+        "observedGrids": 36,
         "minimumPaidCorrectSelections": {
           "minimum": 6,
           "median": 6,
@@ -298,17 +298,17 @@
         },
         "payoutCentsByCorrectSelections": {
           "6": {
-            "observations": 35,
+            "observations": 36,
             "minimum": 180,
-            "median": 1920,
-            "average": 4111,
+            "median": 1835,
+            "average": 4029,
             "maximum": 28410
           },
           "7": {
-            "observations": 35,
+            "observations": 36,
             "minimum": 500,
-            "median": 22800,
-            "average": 58409,
+            "median": 22200,
+            "average": 57167,
             "maximum": 464900
           }
         }
@@ -429,118 +429,118 @@
       }
     },
     "strategySignals": {
-      "drawCoverageGapPct": -2.1,
-      "homeCoverageGapPct": 2.8,
+      "drawCoverageGapPct": -2.2,
+      "homeCoverageGapPct": 2.9,
       "awayCoverageGapPct": -0.7,
-      "topPredictionCalibrationGapPct": 5.4,
+      "topPredictionCalibrationGapPct": 5.3,
       "portfolioCoverageVsBestTicketGapPct": 23.8,
-      "additionalTicketsImprovedBestScoreRatePct": 64.8,
-      "averageBestScoreGainFromAdditionalTickets": 1.13,
+      "additionalTicketsImprovedBestScoreRatePct": 65,
+      "averageBestScoreGainFromAdditionalTickets": 1.14,
       "averagePairwiseTicketDistancePct": 49.2
     }
   },
   "recent20": {
     "summary": {
       "settledPublications": 20,
-      "settledTickets": 236,
-      "averageTicketsPerPublication": 11.8,
-      "stakeCents": 23600,
-      "returnCents": 2970,
-      "netCents": -20630,
-      "yieldPct": -87.4,
-      "returningPublications": 5,
+      "settledTickets": 234,
+      "averageTicketsPerPublication": 11.7,
+      "stakeCents": 23400,
+      "returnCents": 2760,
+      "netCents": -20640,
+      "yieldPct": -88.2,
+      "returningPublications": 4,
       "profitablePublications": 0,
-      "winningTickets": 12,
-      "winningTicketRatePct": 5.1,
-      "bestTicketAccuracyPct": 70,
-      "firstTicketAccuracyPct": 56.5,
+      "winningTickets": 11,
+      "winningTicketRatePct": 4.7,
+      "bestTicketAccuracyPct": 69.8,
+      "firstTicketAccuracyPct": 55,
       "portfolioOutcomeCoveragePct": 99,
-      "additionalTicketsImprovedBestScorePublications": 16,
-      "additionalTicketsImprovedBestScoreRatePct": 80,
-      "averageBestScoreGainFromAdditionalTickets": 1.4,
-      "averagePairwiseTicketDistancePct": 51.3
+      "additionalTicketsImprovedBestScorePublications": 17,
+      "additionalTicketsImprovedBestScoreRatePct": 85,
+      "averageBestScoreGainFromAdditionalTickets": 1.5,
+      "averagePairwiseTicketDistancePct": 50.6
     },
     "selectionDistribution": {
       "officialResults": {
         "1": {
           "count": 82,
-          "pct": 39.6
+          "pct": 40.6
         },
         "2": {
-          "count": 72,
-          "pct": 34.8
+          "count": 67,
+          "pct": 33.2
         },
-        "total": 207,
+        "total": 202,
         "N": {
           "count": 53,
-          "pct": 25.6
+          "pct": 26.2
         }
       },
       "publishedTicketSelections": {
         "1": {
-          "count": 1166,
-          "pct": 47.3
+          "count": 1146,
+          "pct": 47.9
         },
         "2": {
-          "count": 756,
-          "pct": 30.7
+          "count": 730,
+          "pct": 30.5
         },
-        "total": 2464,
+        "total": 2390,
         "N": {
-          "count": 542,
-          "pct": 22
+          "count": 514,
+          "pct": 21.5
         }
       },
       "coverageGapPct": {
-        "1": 7.7,
-        "2": -4.1,
-        "N": -3.6
+        "1": 7.3,
+        "2": -2.7,
+        "N": -4.7
       }
     },
     "calibration": {
-      "observations": 207,
-      "topPredictionAccuracyPct": 56,
-      "averageTopPredictedProbabilityPct": 49.8,
-      "calibrationGapPct": 6.2,
-      "brierScore": 0.545,
+      "observations": 202,
+      "topPredictionAccuracyPct": 55,
+      "averageTopPredictedProbabilityPct": 50,
+      "calibrationGapPct": 5,
+      "brierScore": 0.5463,
       "byTopSelection": {
         "1": {
-          "count": 129,
-          "accuracyPct": 54.3
+          "count": 127,
+          "accuracyPct": 55.1
         },
         "2": {
-          "count": 77,
-          "accuracyPct": 58.4
+          "count": 75,
+          "accuracyPct": 54.7
         },
         "N": {
-          "count": 1,
-          "accuracyPct": 100
+          "count": 0,
+          "accuracyPct": 0
         }
       },
       "byProbabilityBucket": {
         "0-39": {
-          "count": 36,
-          "averagePredictedProbabilityPct": 36.3,
-          "actualHitRatePct": 30.6,
-          "calibrationGapPct": -5.7
+          "count": 33,
+          "averagePredictedProbabilityPct": 36.2,
+          "actualHitRatePct": 27.3,
+          "calibrationGapPct": -8.9
         },
         "40-49": {
-          "count": 80,
-          "averagePredictedProbabilityPct": 43.8,
-          "actualHitRatePct": 46.3,
-          "calibrationGapPct": 2.5
+          "count": 79,
+          "averagePredictedProbabilityPct": 43.9,
+          "actualHitRatePct": 44.3,
+          "calibrationGapPct": 0.4
         },
         "50-59": {
-          "count": 47,
-          "averagePredictedProbabilityPct": 54.9,
-          "actualHitRatePct": 68.1,
-          "calibrationGapPct": 13.2
+          "count": 45,
+          "averagePredictedProbabilityPct": 54.7,
+          "actualHitRatePct": 66.7,
+          "calibrationGapPct": 12
         },
         "60-69": {
-          "count": 29,
-          "averagePredictedProbabilityPct": 62.9,
-          "actualHitRatePct": 72.4,
-          "calibrationGapPct": 9.5
+          "count": 30,
+          "averagePredictedProbabilityPct": 63.1,
+          "actualHitRatePct": 73.3,
+          "calibrationGapPct": 10.2
         },
         "70-79": {
           "count": 15,
@@ -557,14 +557,14 @@
       }
     },
     "strategySignals": {
-      "drawCoverageGapPct": -3.6,
-      "homeCoverageGapPct": 7.7,
-      "awayCoverageGapPct": -4.1,
-      "topPredictionCalibrationGapPct": 6.2,
-      "portfolioCoverageVsBestTicketGapPct": 29,
-      "additionalTicketsImprovedBestScoreRatePct": 80,
-      "averageBestScoreGainFromAdditionalTickets": 1.4,
-      "averagePairwiseTicketDistancePct": 51.3
+      "drawCoverageGapPct": -4.7,
+      "homeCoverageGapPct": 7.3,
+      "awayCoverageGapPct": -2.7,
+      "topPredictionCalibrationGapPct": 5,
+      "portfolioCoverageVsBestTicketGapPct": 29.2,
+      "additionalTicketsImprovedBestScoreRatePct": 85,
+      "averageBestScoreGainFromAdditionalTickets": 1.5,
+      "averagePairwiseTicketDistancePct": 50.6
     }
   },
   "metricNotes": {
