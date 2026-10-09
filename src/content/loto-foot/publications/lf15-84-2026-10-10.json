@@ -1,0 +1,857 @@
+{
+  "id": "lf15-84-2026-10-10",
+  "formula": 15,
+  "gridNumber": 84,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+  "validationDeadline": "2026-10-10T20:40:00+02:00",
+  "publishedAt": "2026-10-09T06:01:16+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 78,
+        "draw": 14,
+        "away": 8
+      },
+      "analysis": {
+        "summary": "Le PSG a battu Brest et Marseille et garde un avantage d'effectif net. Le Mans marque régulièrement et peut gêner le favori.",
+        "keyFactors": [
+          "PSG vainqueur à Brest et Marseille",
+          "Le Mans a battu Lorient",
+          "absences et incertitudes dans les deux groupes."
+        ],
+        "uncertainty": "La rotation du PSG et la capacité du Mans à marquer entretiennent un risque de nul.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "PSG — calendrier officiel",
+            "url": "https://www.psg.fr/content/paris-le-mans-le-1010-a-20h45-ligue-1-programmation-calendrier-2026-2027",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et effectifs",
+            "url": "https://www.fotmob.com/en-GB/matches/le-mans-vs-paris-saint-germain/2u7pxk",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Monaco",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 66,
+        "draw": 21,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "Monaco arrive avec une série solide face à des adversaires relevés, mais Toulouse peut marquer en transition.",
+        "keyFactors": [
+          "Monaco a battu PSG, Marseille et Lens",
+          "Toulouse est irrégulier",
+          "Monaco compte plusieurs doutes physiques."
+        ],
+        "uncertainty": "Les possibles absences au milieu monégasque augmentent le risque de nul.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et blessés",
+            "url": "https://www.fotmob.com/matches/monaco-vs-toulouse/38d3b8",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "SportSignals — forme et défense",
+            "url": "https://www.sportsignals.com/match-centre/monaco-vs-toulouse-2026-10-10/preview",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lorient",
+      "awayTeam": "Paris FC",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 27,
+        "away": 44
+      },
+      "analysis": {
+        "summary": "Le Paris FC est invaincu après cinq journées tandis que Lorient n'a gagné qu'une fois; le déplacement laisse un risque de nul.",
+        "keyFactors": [
+          "Paris FC a trois victoires et deux nuls",
+          "Lorient une victoire et deux nuls",
+          "Paris FC a gagné à Marseille."
+        ],
+        "uncertainty": "Lorient possède l'avantage du Moustoir et des précédents favorables.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Forebet — forme actuelle",
+            "url": "https://www.forebet.com/en/football-match-previews/30969-paris-fc-aim-to-extend-unbeaten-run-against-struggling-lorient-at-le-moustoir",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Wincomparator — résultats et probabilités",
+            "url": "https://www.wincomparator.com/es-es/pronosticos/lorient-paris-fc-8532679/",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Brest",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 39,
+        "draw": 30,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Brest bénéficie du terrain mais a perdu deux matchs de championnat consécutifs; Angers arrive dans une dynamique plus favorable.",
+        "keyFactors": [
+          "Brest battu par Auxerre et PSG",
+          "Angers vainqueur de Troyes",
+          "Chardonnet incertain."
+        ],
+        "uncertainty": "Match équilibré, le nul et le 2 restent crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et blessures",
+            "url": "https://www.fotmob.com/matches/angers-vs-brest/2agfd8",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "LigasSports — comparaison",
+            "url": "https://www.ligassports.com/match_preview/stade-brestois-29-vs-angers-10-oct-2026/",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Nice",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-11T15:00:00+02:00",
+      "probabilities": {
+        "home": 39,
+        "draw": 30,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Nice a gagné contre Lille mais manque de régularité; Strasbourg peut marquer beaucoup tout en concédant des occasions.",
+        "keyFactors": [
+          "Nice a battu Lille et perdu contre Auxerre",
+          "Strasbourg a marqué six fois à Troyes",
+          "plusieurs absents annoncés."
+        ],
+        "uncertainty": "Trois issues proches compte tenu des oscillations de forme.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et indisponibles",
+            "url": "https://www.fotmob.com/matches/nice-vs-strasbourg/37am88",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "LigasSports — forme des équipes",
+            "url": "https://ligassports.com/match_preview/nice-vs-strasbourg-11-oct-2026/",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Rennes",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-11T17:15:00+02:00",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Rennes est favori à domicile, mais Auxerre vient de gagner contre Nice et Brest et pourrait résister.",
+        "keyFactors": [
+          "Rennes compte dix points après cinq matchs",
+          "Auxerre deux succès de suite",
+          "Rennes a perdu 4-0 à Lyon."
+        ],
+        "uncertainty": "L'élan d'Auxerre et la charge européenne de Rennes entretiennent l'incertitude.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et buteurs",
+            "url": "https://www.fotmob.com/matches/auxerre-vs-rennes/2t635q",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Forebet — analyse des déplacements",
+            "url": "https://www.forebet.com/en/football-match-previews/30972-rennes-eye-home-response-against-revived-auxerre-in-ligue-1",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Troyes",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-11T20:45:00+02:00",
+      "probabilities": {
+        "home": 32,
+        "draw": 29,
+        "away": 39
+      },
+      "analysis": {
+        "summary": "Marseille conserve une supériorité d'effectif, mais sa série de défaites rend l'affiche très ouverte.",
+        "keyFactors": [
+          "Marseille a perdu cinq matchs consécutifs selon Sky Sports",
+          "Troyes a perdu contre Lille et Angers",
+          "l'OM domine les confrontations."
+        ],
+        "uncertainty": "Le 1 et le N sont des scénarios crédibles malgré la réputation marseillaise.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats récents",
+            "url": "https://www.skysports.com/football/troyes-vs-marseille/557050",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Forebet — contexte de crise",
+            "url": "https://www.forebet.com/en/football-match-previews/30973-troyes-seek-turnaround-as-olympique-marseille-visit-stade-de-laube",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Naples",
+      "awayTeam": "Frosinone",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 49,
+        "draw": 28,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Naples reste favori chez lui mais Frosinone affiche une meilleure série récente et une attaque en confiance.",
+        "keyFactors": [
+          "Naples a battu Bologne puis fait nul à Florence",
+          "Frosinone a battu Como",
+          "Naples a plusieurs absents."
+        ],
+        "uncertainty": "Le nul ou une surprise de Frosinone sont plausibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — résultats récents",
+            "url": "https://www.fotmob.com/matches/napoli-vs-frosinone/38be9c",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Forebet — effectifs et série de Frosinone",
+            "url": "https://www.forebet.com/en/football-match-previews/30948-napoli-vs-frosinone-can-frosinone-stretch-their-unbeaten-run-against-unsteady-napoli",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Juventus Turin",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-11T20:45:00+02:00",
+      "probabilities": {
+        "home": 28,
+        "draw": 29,
+        "away": 43
+      },
+      "analysis": {
+        "summary": "La Juventus conserve un avantage historique mais Cagliari arrive sur trois victoires de suite.",
+        "keyFactors": [
+          "Cagliari a battu Udinese, Atalanta et Lecce",
+          "Juventus a battu Atalanta mais perdu à Sassuolo",
+          "Cagliari avait battu la Juve en janvier."
+        ],
+        "uncertainty": "Le terrain et la forme de Cagliari renforcent le nul et le 1.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Sky Sports — forme actuelle",
+            "url": "https://www.skysports.com/football/cagliari-vs-juventus/stats/556297",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Arena Rete — bilan 2026/27",
+            "url": "https://arenarete.com/en/compare/cagliari-vs-juventus",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Milan AC",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-11T18:00:00+02:00",
+      "probabilities": {
+        "home": 28,
+        "draw": 27,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "Milan a plus de profondeur mais Sassuolo a battu la Juventus et réussit à domicile.",
+        "keyFactors": [
+          "Sassuolo a battu Juventus 3-2",
+          "Milan a battu Lecce mais concédé des nuls",
+          "Sassuolo a gagné le dernier duel à domicile."
+        ],
+        "uncertainty": "L'efficacité de Sassuolo à domicile rend le N et le 1 possibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — résultats récents",
+            "url": "https://www.fotmob.com/pl/matches/sassuolo-vs-milan/294gu6",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "BetBrain — statistiques à domicile",
+            "url": "https://www.betbrain.com/football-predictions/sassuolo-vs-ac-milan-serie-a-11-10-2026",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Como 1907",
+      "awayTeam": "AS Rome",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-11T12:30:00+02:00",
+      "probabilities": {
+        "home": 31,
+        "draw": 27,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "La Roma reste invaincue mais Como a déjà battu Naples et Parme; l'avantage romain est modéré.",
+        "keyFactors": [
+          "Roma quatre victoires et un nul",
+          "Como a battu Naples et Parme",
+          "Roma a fait 2-2 contre Inter."
+        ],
+        "uncertainty": "La capacité offensive de Como et le terrain maintiennent le 1 plausible.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et buteurs",
+            "url": "https://www.fotmob.com/matches/roma-vs-como/2xv43v",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Forebet — analyse tactique",
+            "url": "https://www.forebet.com/en/football-match-previews/30949-calcio-como-face-unbeaten-roma-in-serie-a-showdown",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Hull City",
+      "awayTeam": "Everton",
+      "competition": "Premier League 2026/27",
+      "startsAt": "2026-10-11T15:00:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 30,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "Everton est plus solide et invaincu récemment, mais Hull a résisté à Chelsea et peut obtenir un nul chez lui.",
+        "keyFactors": [
+          "Everton vient de battre Ipswich et Wolves",
+          "Hull a fait 2-2 à Chelsea",
+          "Everton a plusieurs nuls récents."
+        ],
+        "uncertainty": "La solidité défensive d'Everton ne garantit pas trois points à Hull.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme récente",
+            "url": "https://www.fotmob.com/en-GB/matches/hull-city-vs-everton/2hgrvk",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Sky Sports — résultats et domicile",
+            "url": "https://www.skysports.com/football/hull-city-vs-everton/6613799548565052232",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Man. City",
+      "competition": "Premier League 2026/27",
+      "startsAt": "2026-10-11T17:30:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 29,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "City a gagné ses cinq premières journées; Liverpool est invaincu mais souffre d'incertitudes offensives.",
+        "keyFactors": [
+          "City cinq victoires sur cinq",
+          "Liverpool deux victoires et trois nuls",
+          "Isak et Gakpo incertains."
+        ],
+        "uncertainty": "Anfield et les incertitudes autour de Haaland et des attaquants de Liverpool rendent N et 1 crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Forebet — forme et classement",
+            "url": "https://www.forebet.com/en/football-match-previews/30922-liverpool-seek-home-comforts-against-perfect-manchester-city-at-anfield",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Liverpool Offside — blessés",
+            "url": "https://liverpooloffside.sbnation.com/liverpool-fc-news-coverage/84198/injury-update-jeremy-jacquet-trains-gakpo-isak-injured-prepare-manchester-city",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "OddsIntel — enjeux tactiques",
+            "url": "https://www.oddsintel.app/blog/liverpool-vs-manchester-city-preview-2026-10-11",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "La Corogne",
+      "competition": "LaLiga 2026/27",
+      "startsAt": "2026-10-11T16:15:00+02:00",
+      "probabilities": {
+        "home": 39,
+        "draw": 33,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "La Real garde un léger avantage à Anoeta mais son irrégularité à domicile et la résilience du Deportivo rendent le nul important.",
+        "keyFactors": [
+          "Sociedad a gagné à Valence mais perdu contre Atlético",
+          "Deportivo a fait nul contre Betis et Getafe",
+          "dix points chacun."
+        ],
+        "uncertainty": "La Corogne résiste bien en déplacement; le 2 reste plausible.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et résultats",
+            "url": "https://www.fotmob.com/en-GB/matches/real-sociedad-vs-deportivo-coruna/2s67wj",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Forebet — domicile et nuls",
+            "url": "https://www.forebet.com/en/football-match-previews/30942-real-sociedad-seek-home-spark-against-resilient-deportivo-at-the-reale-arena",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Villarreal",
+      "competition": "LaLiga 2026/27",
+      "startsAt": "2026-10-10T21:00:00+02:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 20,
+        "away": 12
+      },
+      "analysis": {
+        "summary": "Le Real est favori au Bernabéu avec Mbappé en forme; Villarreal presse haut mais encaisse trop d'occasions.",
+        "keyFactors": [
+          "Mbappé sept buts en sept matchs",
+          "Villarreal a concédé douze buts en sept journées",
+          "le Real reçoit."
+        ],
+        "uncertainty": "Le pressing de Villarreal peut produire des occasions; le N reste le principal risque.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°84",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2032",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Real Madrid — horaire officiel",
+            "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/el-real-madrid-villarreal-se-jugara-sabado-10-de-octubre-a-las-21-00-h-10-09-2026",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "FotMob — forme et buteurs",
+            "url": "https://www.fotmob.com/matches/real-madrid-vs-villarreal/2xnfqu",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          },
+          {
+            "label": "Managing Madrid — analyse de Villarreal",
+            "url": "https://www.managingmadrid.com/real-madrid-cf-la-liga/113804/scouting-villarreal-real-madrids-first-rival-after-the-international-break",
+            "accessedAt": "2026-10-09T06:01:15+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Favoris et visiteurs",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "PSG, Monaco et Real Madrid restent la base; Paris FC et plusieurs visiteurs sont retenus."
+    },
+    {
+      "id": "t02",
+      "label": "Angers et nuls tactiques",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Scénario d'Angers performant et de nuls tactiques sans renverser les grands favoris."
+    },
+    {
+      "id": "t03",
+      "label": "Nuls français et espagnols",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "N",
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Plusieurs nuls sur les matchs ouverts, notamment en France, pour corriger la sous-couverture historique."
+    },
+    {
+      "id": "t04",
+      "label": "Milan et Liverpool neutralisés",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Variante de nuls dans les affiches italiennes et anglaises, en conservant les bases."
+    },
+    {
+      "id": "t05",
+      "label": "Nice et Como résistants",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Nice à domicile, Como capable de résister et surprises modérées sur plusieurs terrains."
+    },
+    {
+      "id": "t06",
+      "label": "Nuls de transition",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "2",
+        "2",
+        "N",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Plusieurs nuls sur les confrontations indécises, avec un scénario alternatif à Liverpool."
+    },
+    {
+      "id": "t07",
+      "label": "Équilibre en France",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "N",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "N",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Répartit les nuls en France et en Angleterre pour diversifier la couverture."
+    },
+    {
+      "id": "t08",
+      "label": "Surprises réparties",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "N",
+        "2",
+        "2",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Répartit des victoires extérieures et des nuls sur des rencontres serrées."
+    },
+    {
+      "id": "t09",
+      "label": "Favoris et nuls anglais",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Favoris principaux préservés, mais plusieurs nuls à l'extérieur et en Angleterre."
+    },
+    {
+      "id": "t10",
+      "label": "Lorient se réveille",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Parie sur une réaction de Lorient et des surprises ponctuelles en France et en Italie."
+    },
+    {
+      "id": "t11",
+      "label": "Nuls de milieu de grille",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "N",
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "N",
+        "2",
+        "2",
+        "N",
+        "2",
+        "1"
+      ],
+      "rationale": "Scénario de nuls de milieu de grille et Real Sociedad accrochée."
+    },
+    {
+      "id": "t12",
+      "label": "Alternatives sur favoris",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "N",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Renforce les issues alternatives sur Naples, Cagliari et d'autres favoris intermédiaires."
+    }
+  ]
+}
