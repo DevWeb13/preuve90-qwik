@@ -1,0 +1,58 @@
+{
+  "id": "lf8-138-2026-10-09-result",
+  "publicationId": "lf8-138-2026-10-09",
+  "gridNumber": 138,
+  "settledAt": "2026-10-10T00:41:25+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/835",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "1"
+    },
+    {
+      "position": 2,
+      "selection": "1"
+    },
+    {
+      "position": 3,
+      "selection": "2"
+    },
+    {
+      "position": 4,
+      "selection": "N"
+    },
+    {
+      "position": 5,
+      "selection": "1"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "N"
+    },
+    {
+      "position": 8,
+      "selection": "N"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 8,
+      "amountCents": 219900
+    },
+    {
+      "correctSelections": 7,
+      "amountCents": 15290
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 8 n°138",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/835",
+      "accessedAt": "2026-10-10T00:41:25+02:00"
+    }
+  ]
+}
