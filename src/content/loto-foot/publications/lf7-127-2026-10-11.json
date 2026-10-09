@@ -1,0 +1,424 @@
+{
+  "id": "lf7-127-2026-10-11",
+  "formula": 7,
+  "gridNumber": 127,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+  "validationDeadline": "2026-10-11T14:55:00+02:00",
+  "publishedAt": "2026-10-09T10:03:18+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Troyes",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-11T20:45:00+02:00",
+      "probabilities": {
+        "home": 28,
+        "draw": 31,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "Marseille conserve davantage de qualité individuelle, mais arrive avec une série très négative tandis que Troyes cherche à stopper trois défaites de championnat. L'avantage marseillais reste réel sans justifier un favoritisme massif.",
+        "keyFactors": [
+          "Troyes reste sur trois défaites de Ligue 1 et n'a pas marqué lors de ses deux dernières journées.",
+          "Marseille a également enchaîné plusieurs défaites avant la trêve, dont contre Rennes et le PSG.",
+          "Plusieurs absences touchent les deux équipes, notamment Weah suspendu et Paixão/Kondogbia annoncés indisponibles côté marseillais."
+        ],
+        "uncertainty": "La mauvaise dynamique des deux équipes augmente fortement le poids du nul et laisse une victoire troyenne crédible malgré l'effectif supérieur de l'OM.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°127",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Sky Sports — forme récente Troyes–Marseille",
+            "url": "https://www.skysports.com/football/troyes-vs-marseille/557050",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Sports Mole — preview et absences Troyes–Marseille",
+            "url": "https://www.sportsmole.co.uk/football/troyes/preview/troyes-vs-marseille-prediction-team-news-lineups_606518.html",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-11T17:15:00+02:00",
+      "probabilities": {
+        "home": 56,
+        "draw": 27,
+        "away": 17
+      },
+      "analysis": {
+        "summary": "Rennes reste favori au Roazhon Park grâce à son bilan à domicile, mais le 4-0 concédé à Lyon et les deux victoires consécutives d'Auxerre imposent une marge de prudence.",
+        "keyFactors": [
+          "Rennes cherche à rester invaincu à domicile malgré sa lourde défaite 4-0 à Lyon lors de la dernière journée.",
+          "Auxerre arrive après des succès contre Nice puis Brest.",
+          "Les deux effectifs comptent des indisponibilités, dont Makosso suspendu côté auxerrois."
+        ],
+        "uncertainty": "Le rebond d'Auxerre rend le nul significatif; une victoire extérieure reste moins probable mais doit être couverte dans un scénario de rupture.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°127",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "FotMob — forme, horaire et indisponibles Rennes–Auxerre",
+            "url": "https://www.fotmob.com/matches/auxerre-vs-rennes/2t635q",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Sports Mole — preview Rennes–Auxerre",
+            "url": "https://www.sportsmole.co.uk/football/rennes/preview/rennes-vs-auxerre-prediction-team-news-lineups_606520.html",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Nice",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-11T15:00:00+02:00",
+      "probabilities": {
+        "home": 38,
+        "draw": 32,
+        "away": 30
+      },
+      "analysis": {
+        "summary": "Nice vient enfin de gagner contre Lille, tandis que Strasbourg reste capable de produire beaucoup offensivement mais concède également des occasions. C'est l'un des matchs les plus équilibrés de la grille.",
+        "keyFactors": [
+          "Nice a battu Lille 2-1 après un début de championnat irrégulier.",
+          "Strasbourg a notamment marqué six buts à Troyes mais reste sur une défaite contre le Paris FC.",
+          "Les deux équipes présentent plusieurs absents ou incertains, surtout dans les secteurs défensifs."
+        ],
+        "uncertainty": "Les trois issues sont proches; le nul est renforcé par l'équilibre global et par la sous-couverture historique des matchs nuls dans la stratégie.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°127",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Sports Mole — preview Nice–Strasbourg",
+            "url": "https://www.sportsmole.co.uk/football/nice/preview/nice-vs-strasbourg-prediction-team-news-lineups_606519.html",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "FotMob — forme et indisponibles Nice–Strasbourg",
+            "url": "https://www.fotmob.com/matches/nice-vs-strasbourg/37am88",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Juventus Turin",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-11T20:45:00+02:00",
+      "probabilities": {
+        "home": 25,
+        "draw": 29,
+        "away": 46
+      },
+      "analysis": {
+        "summary": "La Juventus possède le potentiel supérieur et reste favorite, mais Cagliari est compétitif à domicile et les nombreuses absences annoncées côté turinois limitent l'écart.",
+        "keyFactors": [
+          "La Juventus présente une composition probable de haut niveau malgré plusieurs indisponibles.",
+          "Cagliari dispose d'un onze cohérent et de l'avantage du terrain.",
+          "Yildiz, Thuram, Locatelli et plusieurs autres joueurs sont annoncés indisponibles côté Juventus dans les dernières compositions probables."
+        ],
+        "uncertainty": "Le 2 reste l'issue principale, mais le nul est suffisamment plausible pour être bien représenté; le 1 reste un scénario secondaire.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°127",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Sky Sport Italia — compositions probables Cagliari–Juventus",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-6/cagliari-juventus/formazioni",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "La Gazzetta dello Sport — effectifs et indisponibles Cagliari–Juventus",
+            "url": "https://www.gazzetta.it/calcio/serie-a/partita/cagliari-juventus/2638173/formazioni/",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Milan AC",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-11T18:00:00+02:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 28,
+        "away": 48
+      },
+      "analysis": {
+        "summary": "Milan dispose de davantage de profondeur et reste favori, mais Sassuolo conserve des armes offensives à domicile et le nul doit être respecté.",
+        "keyFactors": [
+          "Les compositions probables donnent à Milan un onze expérimenté avec Maignan, Modrić, Rabiot et Pulisic.",
+          "Sassuolo s'appuie notamment sur Berardi, Laurienté et Esposito mais compte plusieurs indisponibles.",
+          "Milan a lui aussi quelques absences, dont Saelemaekers et Estupiñán annoncés indisponibles."
+        ],
+        "uncertainty": "Le 2 domine, mais Sassuolo a assez de menace à domicile pour maintenir le nul comme alternative crédible.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°127",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Sky Sport Italia — compositions probables Sassuolo–Milan",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-6/sassuolo-milan/formazioni",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "FotMob — horaire et contexte Sassuolo–Milan",
+            "url": "https://www.fotmob.com/fr/matches/sassuolo-vs-milan/294gu6",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "La Corogne",
+      "competition": "LaLiga 2026/27",
+      "startsAt": "2026-10-11T16:15:00+02:00",
+      "probabilities": {
+        "home": 47,
+        "draw": 31,
+        "away": 22
+      },
+      "analysis": {
+        "summary": "La Real Sociedad garde l'avantage à Anoeta, mais son début de saison irrégulier et plusieurs absences ou suspensions réduisent la confiance. Le Deportivo reste assez proche pour faire du nul un scénario important.",
+        "keyFactors": [
+          "La Real Sociedad confirme officiellement la réception du Deportivo le 11 octobre à 16h15.",
+          "Óskarsson est suspendu et Aramburu blessé selon la dernière fiche d'effectif disponible.",
+          "Le Deportivo reste suffisamment compétitif pour empêcher de traiter la Real comme un favori écrasant."
+        ],
+        "uncertainty": "Le 1 est l'issue principale, mais le nul est fortement plausible; le 2 demeure une surprise réaliste à couvrir ponctuellement.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°127",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Real Sociedad — calendrier officiel",
+            "url": "https://www.realsociedad.eus/fr/equipo/Real-Sociedad",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "FotMob — effectifs et indisponibles Real Sociedad–Deportivo",
+            "url": "https://www.fotmob.com/en-GB/matches/real-sociedad-vs-deportivo-coruna/2s67wj",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Man. City",
+      "competition": "Premier League 2026/27",
+      "startsAt": "2026-10-11T17:30:00+02:00",
+      "probabilities": {
+        "home": 28,
+        "draw": 30,
+        "away": 42
+      },
+      "analysis": {
+        "summary": "Manchester City arrive à Anfield avec cinq victoires en cinq journées et conserve un léger avantage, mais l'environnement d'Anfield et les incertitudes offensives de Liverpool maintiennent les trois issues ouvertes.",
+        "keyFactors": [
+          "Manchester City est à cinq victoires en cinq matchs de Premier League avant cette rencontre.",
+          "Liverpool bénéficie de l'avantage d'Anfield mais Alexander Isak fait partie des joueurs touchés pendant la trêve internationale.",
+          "Manchester City confirme officiellement le match dimanche à 16h30 heure britannique; Haaland n'est pas annoncé blessé malgré une charge de travail surveillée."
+        ],
+        "uncertainty": "City est favori sans marge confortable; le nul et une victoire de Liverpool à Anfield restent suffisamment probables pour être largement représentés.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°127",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4944",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Manchester City — preview officiel Liverpool–City",
+            "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-preview-october-2026-63926279",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Reuters — forme de Manchester City avant Anfield",
+            "url": "https://www.reuters.com/sports/soccer/man-city-head-anfield-under-cloud-financial-rules-verdict-2026-10-08/",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          },
+          {
+            "label": "Liverpool FC — horaire officiel Liverpool–Manchester City",
+            "url": "https://www.liverpoolfc.com/news/fixture-updates-new-dates-anfield-games-against-man-city-and-arsenal",
+            "accessedAt": "2026-10-09T10:02:13+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Socle équilibré",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Retient les favoris modérés Marseille, Rennes, Juventus, Milan, Real Sociedad et City, avec Nice à domicile comme choix central."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls structurants",
+      "selections": [
+        "N",
+        "1",
+        "N",
+        "2",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre trois nuls sur les affiches les plus ouvertes afin de corriger la sous-couverture historique du N sans renverser les favoris les plus solides."
+    },
+    {
+      "id": "t03",
+      "label": "Visiteurs et Deportivo accrocheur",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "N",
+        "2"
+      ],
+      "rationale": "Scénario plus favorable aux visiteurs avec Strasbourg gagnant et la Real Sociedad tenue en échec."
+    },
+    {
+      "id": "t04",
+      "label": "Anfield répond",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "2",
+        "2",
+        "N",
+        "1"
+      ],
+      "rationale": "Associe une victoire de Liverpool à deux nuls plausibles sur Nice–Strasbourg et Real Sociedad–Deportivo."
+    },
+    {
+      "id": "t05",
+      "label": "Juve freinée",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Couvre un nul de la Juventus à Cagliari ainsi qu'un partage des points à Anfield, tout en gardant Milan et la Real Sociedad."
+    },
+    {
+      "id": "t06",
+      "label": "Réaction de Troyes",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "N",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Scénario de rupture avec Troyes à domicile et Cagliari qui accroche la Juventus, compensé par plusieurs bases plus fortes."
+    },
+    {
+      "id": "t07",
+      "label": "Troyes et Liverpool",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre simultanément deux victoires à domicile moins consensuelles, Troyes et Liverpool, avec Strasbourg comme autre issue extérieure plausible."
+    },
+    {
+      "id": "t08",
+      "label": "Deportivo surprise",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "N"
+      ],
+      "rationale": "Introduit une victoire du Deportivo et deux nuls sur Troyes–Marseille et Liverpool–City, en conservant les favoris italiens."
+    },
+    {
+      "id": "t09",
+      "label": "Rennes neutralisé",
+      "selections": [
+        "2",
+        "N",
+        "N",
+        "2",
+        "N",
+        "1",
+        "2"
+      ],
+      "rationale": "Couvre un nul de Rennes et de Sassuolo–Milan, avec un autre nul sur Nice–Strasbourg pour renforcer les scénarios historiquement sous-couverts."
+    },
+    {
+      "id": "t10",
+      "label": "Auxerre crée la surprise",
+      "selections": [
+        "N",
+        "2",
+        "1",
+        "2",
+        "2",
+        "N",
+        "2"
+      ],
+      "rationale": "Scénario outsider ciblé sur Auxerre, accompagné d'un nul à Anoeta et à Troyes, tout en gardant Juventus, Milan et City."
+    }
+  ]
+}
