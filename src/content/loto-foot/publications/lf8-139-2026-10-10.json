@@ -1,0 +1,487 @@
+{
+  "id": "lf8-139-2026-10-10",
+  "formula": 8,
+  "gridNumber": 139,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+  "validationDeadline": "2026-10-10T17:10:00+02:00",
+  "publishedAt": "2026-10-10T05:54:01+02:00",
+  "methodVersion": "loto-foot-v1",
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 79,
+        "draw": 14,
+        "away": 7
+      },
+      "analysis": {
+        "summary": "Paris reste un très net favori au Parc des Princes, mais Le Mans arrive avec trois matchs consécutifs sans défaite et a déjà montré qu'il pouvait résister à des équipes de Ligue 1.",
+        "keyFactors": [
+          "Le PSG reçoit au Parc des Princes et dispose d'un avantage qualitatif majeur.",
+          "Le Mans reste sur deux nuls contre Nice et Lens puis une victoire contre Lorient.",
+          "Le promu n'a perdu qu'une fois depuis le début du championnat, ce qui justifie de ne pas réduire artificiellement le nul et le 2 à zéro."
+        ],
+        "uncertainty": "Le principal risque est un PSG moins tranchant après la trêve internationale; le nul reste nettement plus plausible qu'une victoire mancelle.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "Paris Saint-Germain — preview officielle Paris–Le Mans",
+            "url": "https://www.psg.fr/content/paris-saint-germain-le-mans-fc-la-preview-ligue-1-20262027",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lille",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T17:15:00+02:00",
+      "probabilities": {
+        "home": 69,
+        "draw": 20,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "Lille possède un avantage net à domicile et un historique favorable face au Havre, tout en restant parmi les meilleures défenses françaises de l'année.",
+        "keyFactors": [
+          "Le LOSC n'a perdu que deux de ses vingt réceptions du Havre en Ligue 1.",
+          "Lille affiche un très bon volume de clean sheets en 2026.",
+          "Le Havre a déjà réussi à accrocher Lille lors de réceptions récentes, ce qui maintient le nul comme scénario secondaire."
+        ],
+        "uncertainty": "Le 1 domine clairement, mais les deux dernières réceptions du Havre par Lille n'ont pas été gagnées par les Dogues.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "LOSC — statistiques avant Lille–Le Havre",
+            "url": "https://losc.fr/actualites/2026-10-07/deja-un-record-en-vue-pour-kjaergaard",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "LOSC — informations pratiques et horaire officiel",
+            "url": "https://losc.fr/actualites/2026-10-06/losc-le-havre-informations-pratiques",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Monaco",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "Monaco est leader et invaincu avant cette journée, avec l'avantage du terrain et une dynamique supérieure. Toulouse reste capable de résister mais présente plusieurs absences.",
+        "keyFactors": [
+          "Monaco est leader et invaincu après cinq journées.",
+          "Le club monégasque vise explicitement à conserver la tête du championnat.",
+          "Toulouse compte plusieurs absents ou joueurs suspendus dans les informations d'avant-match."
+        ],
+        "uncertainty": "Le nul constitue le principal scénario alternatif; la victoire toulousaine reste nettement moins probable mais non impossible.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "AS Monaco — avant-match officiel Monaco–Toulouse",
+            "url": "https://www.asmonaco.com/fr/pros/calendrier/as-monaco-toulouse-fc",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "FotMob — compositions probables et indisponibles",
+            "url": "https://www.fotmob.com/fr/matches/monaco-vs-toulouse/38d3b8",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Lorient",
+      "awayTeam": "Paris FC",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 28,
+        "draw": 32,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Le Paris FC a mieux démarré la saison et se présente légèrement favori, mais Lorient joue au Moustoir et l'écart reste faible. Le nul est particulièrement important dans cette affiche.",
+        "keyFactors": [
+          "Le Paris FC se situe dans le haut du classement après cinq journées.",
+          "Lorient bénéficie de l'avantage du Moustoir mais compte plusieurs joueurs indisponibles.",
+          "La différence de niveau actuelle n'est pas assez forte pour écarter le nul."
+        ],
+        "uncertainty": "Les trois issues restent plausibles; le 2 est légèrement prioritaire, mais le nul mérite une forte couverture.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "Paris FC — Match Center Lorient–Paris FC",
+            "url": "https://parisfc.fr/match-center/men/118519/2026-10-10/lorient-vs-paris-fc-ligue-1-mcdonalds/",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "FotMob — Lorient–Paris FC et indisponibles",
+            "url": "https://www.fotmob.com/fr/matches/paris-fc-vs-lorient/1vliw7",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Brest",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1 2026/27",
+      "startsAt": "2026-10-10T20:45:00+02:00",
+      "probabilities": {
+        "home": 43,
+        "draw": 32,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Brest conserve un léger avantage à domicile, mais Angers possède suffisamment d'arguments pour rendre le match très ouvert. Le nul est proche du niveau du favori.",
+        "keyFactors": [
+          "Brest joue à Francis-Le Blé, ce qui augmente son poids dans un duel équilibré.",
+          "Les deux équipes présentent des absences dans leurs groupes.",
+          "L'écart de qualité et de dynamique n'est pas suffisant pour faire de Brest une base forte."
+        ],
+        "uncertainty": "Le nul est presque aussi important que le 1 et une victoire d'Angers reste un scénario crédible à couvrir.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "FotMob — Brest–Angers, compositions et indisponibles",
+            "url": "https://www.fotmob.com/en-GB/matches/angers-vs-brest/2agfd8",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "PSG — programmation officielle de la 6e journée de Ligue 1",
+            "url": "https://www.psg.fr/content/programme-de-la-6e-journee-de-ligue-1-programmation-calendrier-2026-2027-parc-des-princes-le-mans",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "St Etienne",
+      "awayTeam": "Rodez",
+      "competition": "Ligue 2 2026/27",
+      "startsAt": "2026-10-10T20:00:00+02:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 21,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "Saint-Étienne bénéficie d'un Chaudron à guichets fermés et reste le favori logique face à Rodez. L'environnement à domicile renforce encore l'avantage des Verts.",
+        "keyFactors": [
+          "Plus de 35 000 places ont été vendues et le match se joue à guichets fermés.",
+          "Saint-Étienne joue à Geoffroy-Guichard après une longue trêve internationale.",
+          "Le statut et la profondeur d'effectif des Verts restent supérieurs à ceux de Rodez."
+        ],
+        "uncertainty": "Le principal risque est un match fermé après la coupure; le nul demeure plus plausible qu'une victoire ruthénoise.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "AS Saint-Étienne — informations avant ASSE–Rodez",
+            "url": "https://www.asse.fr/fr/actualites/toutes-les-informations-a-connaitre-avant-asse-rodez--ac41223",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "AS Saint-Étienne — calendrier officiel",
+            "url": "https://billetterie.asse.fr/fr/calendrier-des-matchs",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Man. United",
+      "awayTeam": "Tottenham",
+      "competition": "Premier League 2026/27",
+      "startsAt": "2026-10-10T18:30:00+02:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 30,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Manchester United dispose d'un léger avantage à Old Trafford, mais plusieurs incertitudes d'effectif et la qualité de Tottenham rendent l'affiche très équilibrée.",
+        "keyFactors": [
+          "United reçoit à Old Trafford après la trêve internationale.",
+          "Dorgu, Mazraoui, Mainoo, Rashford, Šeško et Amad ont tous été concernés par des problèmes physiques ou de disponibilité.",
+          "L'écart entre les deux équipes est trop faible pour considérer le 1 comme une base solide."
+        ],
+        "uncertainty": "Le nul est central dans cette affiche et Tottenham possède une réelle probabilité de victoire extérieure.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "Manchester United — team news avant United–Tottenham",
+            "url": "https://www.manutd.com/en/news/team-news-for-united-v-spurs-10-October",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Villarreal",
+      "competition": "LaLiga 2026/27",
+      "startsAt": "2026-10-10T21:00:00+02:00",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "analysis": {
+        "summary": "Le Real Madrid reste un très net favori au Bernabéu avec quatre victoires en quatre matchs à domicile, mais Villarreal arrive sur deux succès consécutifs et garde une capacité de surprise.",
+        "keyFactors": [
+          "Le Real a gagné ses quatre matchs à domicile cette saison, avec 14 buts marqués pour 3 encaissés.",
+          "Villarreal reste sur deux victoires consécutives, contre Levante puis Málaga.",
+          "Le retour des internationaux a réduit le temps de préparation collectif du Real."
+        ],
+        "uncertainty": "Le 1 reste une base forte, mais le nul est le premier scénario de couverture et Villarreal n'est pas totalement négligeable.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°139",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/836",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "Real Madrid — avant-match officiel Real Madrid–Villarreal",
+            "url": "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/preliminaires/real-madrid-villarreal-partido-exigente-en-el-regreso-a-la-competicion-10-10-2026",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          },
+          {
+            "label": "Real Madrid — conférence de presse de Mourinho",
+            "url": "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/conference-de-presse/mourinho-09-10-2026",
+            "accessedAt": "2026-10-10T05:53:47+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t01",
+      "label": "Socle des favoris",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Conserve les favoris les plus solides et retient Paris FC ainsi que Manchester United sur les deux matchs les plus ouverts."
+    },
+    {
+      "id": "t02",
+      "label": "Nuls de transition",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "N",
+        "N",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Renforce trois nuls sur Lorient–Paris FC, Brest–Angers et United–Tottenham, précisément là où l'incertitude est la plus forte."
+    },
+    {
+      "id": "t03",
+      "label": "Toulouse et Tottenham",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Couvre deux écarts au scénario central avec Toulouse qui accroche Monaco et Tottenham qui gagne à Old Trafford."
+    },
+    {
+      "id": "t04",
+      "label": "Le Havre résiste",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Introduit deux nuls crédibles à Lille et Brest tout en conservant les grands favoris."
+    },
+    {
+      "id": "t05",
+      "label": "Lorient se relance",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Couvre une victoire de Lorient et d'Angers, avec un nul à Old Trafford pour diversifier les scénarios de milieu de grille."
+    },
+    {
+      "id": "t06",
+      "label": "Trois nuls structurants",
+      "selections": [
+        "1",
+        "N",
+        "N",
+        "N",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Scénario volontairement riche en nuls sur Lille, Monaco et Lorient, complété par Tottenham à l'extérieur."
+    },
+    {
+      "id": "t07",
+      "label": "Paris accroché",
+      "selections": [
+        "N",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre le scénario rare mais plausible d'un PSG tenu en échec, avec un second nul sur Brest–Angers."
+    },
+    {
+      "id": "t08",
+      "label": "Angers et Rodez surprennent",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "N",
+        "N",
+        "1"
+      ],
+      "rationale": "Ajoute une victoire d'Angers et un nul de Rodez à Geoffroy-Guichard, avec United–Tottenham également neutralisé."
+    },
+    {
+      "id": "t09",
+      "label": "Real neutralisé",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "N"
+      ],
+      "rationale": "Couvre un nul du Real Madrid, accompagné de nuls à Lille et Lorient ainsi que d'une victoire de Tottenham."
+    },
+    {
+      "id": "t10",
+      "label": "Monaco et Milan... non, surprises ciblées",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Associe Toulouse accrocheur, Lorient à domicile et deux nuls sur Brest et Manchester pour une branche très différente du socle."
+    },
+    {
+      "id": "t11",
+      "label": "Rodez crée l'écart",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Couvre une victoire surprise de Rodez tout en gardant les favoris majeurs et un nul à Brest."
+    },
+    {
+      "id": "t12",
+      "label": "Outsiders extérieurs",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2"
+      ],
+      "rationale": "Scénario à forte variance avec Le Havre, Angers, Tottenham et Villarreal, utile pour couvrir plusieurs résultats extérieurs sous-représentés historiquement."
+    }
+  ]
+}
