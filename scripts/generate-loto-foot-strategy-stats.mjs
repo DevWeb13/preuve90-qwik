@@ -74,8 +74,8 @@ function pairwiseDistanceStats(tickets, matchCount) {
 }
 
 function buildRecord(publication, result) {
-  if (!Array.isArray(publication.tickets) || publication.tickets.length === 0) {
-    throw new Error(`Publication sans combinaison : ${publication.id}.`);
+  if (!Array.isArray(publication.tickets)) {
+    throw new Error(`Combinaisons invalides dans ${publication.id}.`);
   }
   if (!Array.isArray(publication.matches) || publication.matches.length !== result.matches.length) {
     throw new Error(`Nombre de matchs incohérent pour ${publication.id}.`);
@@ -91,8 +91,10 @@ function buildRecord(publication, result) {
   });
   const stakeCents = publication.tickets.length * 100;
   const returnCents = ticketSettlements.reduce((sum, ticket) => sum + ticket.payoutCents, 0);
-  const baseCorrect = ticketSettlements[0].correctSelections;
-  const bestCorrect = Math.max(...ticketSettlements.map((ticket) => ticket.correctSelections));
+  const baseCorrect = ticketSettlements[0]?.correctSelections ?? 0;
+  const bestCorrect = ticketSettlements.length
+    ? Math.max(...ticketSettlements.map((ticket) => ticket.correctSelections))
+    : 0;
 
   let coveredOfficialPositions = 0;
   officialSelections.forEach((officialSelection, index) => {
@@ -121,13 +123,17 @@ function buildRecord(publication, result) {
 
 function summarize(records) {
   const settledPublications = records.length;
+  const playedRecords = records.filter((record) => record.publication.tickets.length > 0);
   const settledTickets = records.reduce((sum, record) => sum + record.publication.tickets.length, 0);
   const stakeCents = records.reduce((sum, record) => sum + record.stakeCents, 0);
   const returnCents = records.reduce((sum, record) => sum + record.returnCents, 0);
-  const totalMatches = records.reduce((sum, record) => sum + record.publication.matches.length, 0);
-  const bestCorrect = records.reduce((sum, record) => sum + record.bestCorrect, 0);
-  const baseCorrect = records.reduce((sum, record) => sum + record.baseCorrect, 0);
-  const coveredOfficialPositions = records.reduce(
+  const playedMatches = playedRecords.reduce(
+    (sum, record) => sum + record.publication.matches.length,
+    0,
+  );
+  const bestCorrect = playedRecords.reduce((sum, record) => sum + record.bestCorrect, 0);
+  const baseCorrect = playedRecords.reduce((sum, record) => sum + record.baseCorrect, 0);
+  const coveredOfficialPositions = playedRecords.reduce(
     (sum, record) => sum + record.coveredOfficialPositions,
     0,
   );
@@ -149,9 +155,9 @@ function summarize(records) {
     profitablePublications: records.filter((record) => record.netCents > 0).length,
     winningTickets,
     winningTicketRatePct: percentage(winningTickets, settledTickets),
-    bestTicketAccuracyPct: percentage(bestCorrect, totalMatches),
-    firstTicketAccuracyPct: percentage(baseCorrect, totalMatches),
-    portfolioOutcomeCoveragePct: percentage(coveredOfficialPositions, totalMatches),
+    bestTicketAccuracyPct: percentage(bestCorrect, playedMatches),
+    firstTicketAccuracyPct: percentage(baseCorrect, playedMatches),
+    portfolioOutcomeCoveragePct: percentage(coveredOfficialPositions, playedMatches),
     additionalTicketsImprovedBestScorePublications: multiTicketRecords.filter(
       (record) => record.bestCorrect > record.baseCorrect,
     ).length,
@@ -167,16 +173,18 @@ function summarize(records) {
       mean(multiTicketRecords.map((record) => record.diversity.averagePct)),
       1,
     ),
+    noBetPublications: settledPublications - playedRecords.length,
   };
 }
 
 function buildSelectionStats(records) {
+  const playedRecords = records.filter((record) => record.publication.tickets.length > 0);
   const official = Object.fromEntries(SELECTIONS.map((selection) => [selection, 0]));
   const tickets = Object.fromEntries(SELECTIONS.map((selection) => [selection, 0]));
   let officialTotal = 0;
   let ticketTotal = 0;
 
-  for (const record of records) {
+  for (const record of playedRecords) {
     for (const selection of record.officialSelections) {
       if (SELECTIONS.includes(selection)) {
         official[selection] += 1;
@@ -319,6 +327,7 @@ function resultPositions(result) {
 }
 
 function ticketBand(ticketCount) {
+  if (ticketCount === 0) return "0";
   if (ticketCount <= 3) return "1-3";
   if (ticketCount <= 6) return "4-6";
   if (ticketCount <= 10) return "7-10";
@@ -326,10 +335,69 @@ function ticketBand(ticketCount) {
 }
 
 function buildTicketBands(records) {
-  const order = ["1-3", "4-6", "7-10", "11+"];
+  const order = ["1-3", "4-6", "7-10", "11+", "0"];
   return Object.fromEntries(
     order.map((band) => [band, summarize(records.filter((record) => ticketBand(record.publication.tickets.length) === band))]),
   );
+}
+
+function buildTicketEconomics(records) {
+  const playedRecords = records.filter((record) => record.publication.tickets.length > 0);
+  const noBetPublications = records.length - playedRecords.length;
+  const firstTicketCount = playedRecords.length;
+  const firstStakeCents = firstTicketCount * 100;
+  const firstReturnCents = playedRecords.reduce(
+    (sum, record) => sum + (record.ticketSettlements[0]?.payoutCents ?? 0),
+    0,
+  );
+  const firstWinningTickets = playedRecords.filter(
+    (record) => (record.ticketSettlements[0]?.payoutCents ?? 0) > 0,
+  ).length;
+
+  const additionalTicketCount = records.reduce(
+    (sum, record) => sum + Math.max(record.publication.tickets.length - 1, 0),
+    0,
+  );
+  const additionalStakeCents = additionalTicketCount * 100;
+  const additionalReturnCents = records.reduce(
+    (sum, record) =>
+      sum +
+      record.ticketSettlements
+        .slice(1)
+        .reduce((ticketSum, ticket) => ticketSum + ticket.payoutCents, 0),
+    0,
+  );
+  const additionalWinningTickets = records.reduce(
+    (sum, record) =>
+      sum + record.ticketSettlements.slice(1).filter((ticket) => ticket.payoutCents > 0).length,
+    0,
+  );
+
+  return {
+    noBetPublications,
+    playedPublications: playedRecords.length,
+    firstTicket: {
+      ticketCount: firstTicketCount,
+      stakeCents: firstStakeCents,
+      returnCents: firstReturnCents,
+      netCents: firstReturnCents - firstStakeCents,
+      yieldPct: percentage(firstReturnCents - firstStakeCents, firstStakeCents),
+      winningTickets: firstWinningTickets,
+      winningTicketRatePct: percentage(firstWinningTickets, firstTicketCount),
+    },
+    additionalTickets: {
+      ticketCount: additionalTicketCount,
+      stakeCents: additionalStakeCents,
+      returnCents: additionalReturnCents,
+      netCents: additionalReturnCents - additionalStakeCents,
+      yieldPct: percentage(
+        additionalReturnCents - additionalStakeCents,
+        additionalStakeCents,
+      ),
+      winningTickets: additionalWinningTickets,
+      winningTicketRatePct: percentage(additionalWinningTickets, additionalTicketCount),
+    },
+  };
 }
 
 function buildPayoutHistory(records) {
@@ -404,6 +472,14 @@ function buildSignals(records) {
     additionalTicketsImprovedBestScoreRatePct: summary.additionalTicketsImprovedBestScoreRatePct,
     averageBestScoreGainFromAdditionalTickets: summary.averageBestScoreGainFromAdditionalTickets,
     averagePairwiseTicketDistancePct: summary.averagePairwiseTicketDistancePct,
+    netCents: summary.netCents,
+    yieldPct: summary.yieldPct,
+    profitablePublicationRatePct: percentage(
+      summary.profitablePublications,
+      summary.settledPublications,
+    ),
+    averageTicketsPerPublication: summary.averageTicketsPerPublication,
+    noBetPublications: summary.noBetPublications,
   };
 }
 
@@ -425,9 +501,9 @@ const recentRecords = records.slice(-20);
 const latestSettledAt = records.length ? records[records.length - 1].result.settledAt : null;
 
 const output = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   purpose:
-    "Mémoire statistique déterministe pour calibrer l'analyse et la construction des combinaisons. Ce fichier ne remplace jamais l'analyse sportive de la grille courante.",
+    "Mémoire statistique déterministe pour calibrer l'analyse, la décision de mise et la construction des combinaisons. La rentabilité est prioritaire sur la couverture.",
   source: {
     publicationFiles: publications.length,
     resultFiles: results.length,
@@ -448,6 +524,7 @@ const output = {
     selectionDistribution: buildSelectionStats(recentRecords),
     calibration: buildCalibration(recentRecords),
     strategySignals: buildSignals(recentRecords),
+    ticketEconomics: buildTicketEconomics(recentRecords),
   },
   metricNotes: {
     yieldPct: "(retours - mises) / mises, en pourcentage.",
@@ -461,6 +538,10 @@ const output = {
       "Taux de réussite réel moins probabilité moyenne annoncée du choix 1N2 le plus probable. Une valeur négative indique une surconfiance historique.",
     payoutHistory:
       "Historique descriptif des rapports officiels observés. Il sert de repère et ne prédit pas les futurs rapports FDJ.",
+    ticketEconomics:
+      "Sépare la rentabilité du premier ticket de celle des tickets ajoutés afin de mesurer le coût financier réel de la diversification.",
+    noBetPublications:
+      "Nombre de grilles analysées et publiées avec une décision explicite de ne pas miser.",
   },
 };
 

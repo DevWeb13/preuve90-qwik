@@ -76,6 +76,12 @@ function validateProbability(value: unknown, path: string): void {
   }
 }
 
+function validateObservedPercentage(value: unknown, path: string): void {
+  if (typeof value !== "number" || !Number.isFinite(value) || value < 0 || value > 100) {
+    fail(path, "doit être un nombre compris entre 0 et 100");
+  }
+}
+
 function validateSource(value: unknown, path: string, publishedAt: number): void {
   const source = requireRecord(value, path);
   requireNonEmptyString(source.label, `${path}.label`);
@@ -116,6 +122,36 @@ function validateMatch(
     100
   ) {
     fail(`${path}.probabilities`, "la somme de home, draw et away doit être égale à 100");
+  }
+
+  if (match.fdjSelectionDistribution !== undefined) {
+    const distribution = requireRecord(
+      match.fdjSelectionDistribution,
+      `${path}.fdjSelectionDistribution`,
+    );
+    validateObservedPercentage(distribution.home, `${path}.fdjSelectionDistribution.home`);
+    validateObservedPercentage(distribution.draw, `${path}.fdjSelectionDistribution.draw`);
+    validateObservedPercentage(distribution.away, `${path}.fdjSelectionDistribution.away`);
+    const distributionTotal =
+      (distribution.home as number) +
+      (distribution.draw as number) +
+      (distribution.away as number);
+    if (distributionTotal < 99 || distributionTotal > 101) {
+      fail(
+        `${path}.fdjSelectionDistribution`,
+        "la somme de home, draw et away doit être comprise entre 99 et 101 pour tolérer l’arrondi FDJ",
+      );
+    }
+    const distributionAccessedAt = requireTimestamp(
+      distribution.accessedAt,
+      `${path}.fdjSelectionDistribution.accessedAt`,
+    );
+    if (distributionAccessedAt > publishedAt) {
+      fail(
+        `${path}.fdjSelectionDistribution.accessedAt`,
+        "ne peut pas être postérieure à publication.publishedAt",
+      );
+    }
   }
 
   const analysis = requireRecord(match.analysis, `${path}.analysis`);
@@ -233,8 +269,24 @@ export function validateLotoFootPublication(
     validateMatch(match, index, publishedAt, options.requireStartsAt ?? false),
   );
 
+  const betDecision =
+    publication.betDecision === undefined
+      ? undefined
+      : requireRecord(publication.betDecision, "publication.betDecision");
+  if (betDecision) {
+    if (betDecision.action !== "bet" && betDecision.action !== "skip") {
+      fail("publication.betDecision.action", "doit valoir bet ou skip");
+    }
+    requireNonEmptyString(betDecision.rationale, "publication.betDecision.rationale");
+  }
+
   const tickets = requireArray(publication.tickets, "publication.tickets");
-  if (tickets.length === 0) fail("publication.tickets", "doit contenir au moins une combinaison");
+  if (tickets.length === 0 && betDecision?.action !== "skip") {
+    fail("publication.tickets", "peut être vide uniquement avec betDecision.action = skip");
+  }
+  if (tickets.length > 0 && betDecision?.action === "skip") {
+    fail("publication.betDecision.action", "ne peut pas valoir skip lorsqu’une combinaison existe");
+  }
 
   const ticketIds = new Set<string>();
   const selectionSequences = new Set<string>();
@@ -276,5 +328,10 @@ export function validateLotoFootPublication(
 }
 
 export function validateNewLotoFootPublication(value: unknown): LotoFootPublication {
-  return validateLotoFootPublication(value);
+  const publication = validateLotoFootPublication(value);
+  const rawPublication = requireRecord(value, "publication");
+  if (rawPublication.betDecision === undefined) {
+    fail("publication.betDecision", "est obligatoire pour une nouvelle publication");
+  }
+  return publication;
 }

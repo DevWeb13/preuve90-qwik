@@ -29,6 +29,8 @@ Agir comme un expert en analyse sportive et effectuer, pour chaque rencontre, to
 
 La page FDJ sert à identifier la grille, les rencontres et, lorsqu’elle l’affiche, la répartition des choix des joueurs. Elle ne doit jamais constituer la seule base d’une analyse sportive.
 
+Lorsqu’elle est affichée, relever cette répartition au moment de la consultation et la conserver dans `fdjSelectionDistribution` pour chaque rencontre concernée. Ce signal sert à comparer l’analyse sportive aux choix du public ; il ne remplace jamais l’analyse sportive.
+
 Croiser les informations utiles et conserver les sources réellement utilisées dans l’analyse.
 
 Les probabilités et les combinaisons finales sont produites par l’IA à partir des informations recueillies.
@@ -69,14 +71,22 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - omettre `startsAt` lorsque l’horaire n’est pas suffisamment fiable ;
    - ne jamais inventer, extrapoler ou utiliser une heure générique comme `00:00` pour remplir ce champ ;
    - les probabilités entières `home`, `draw` et `away`, totalisant exactement 100 ;
+   - `fdjSelectionDistribution` lorsque la FDJ affiche la répartition des choix : `home`, `draw`, `away` et `accessedAt` relevés sur la page officielle ;
    - un résumé, les principaux facteurs et une incertitude ;
    - les sources réellement utilisées.
 
-   Produire une ou plusieurs combinaisons distinctes :
-   - avec un identifiant, un libellé et une justification ;
+   Prendre une décision de mise explicite dans `betDecision` :
+   - `action: "bet"` lorsqu’au moins une combinaison est retenue ;
+   - `action: "skip"` lorsqu’aucune combinaison n’est suffisamment justifiée financièrement ;
+   - fournir dans tous les cas une `rationale` claire et spécifique à la grille.
+
+   Produire zéro, une ou plusieurs combinaisons distinctes :
+   - avec un identifiant, un libellé et une justification lorsqu’elles existent ;
    - contenant exactement un choix par rencontre ;
    - utilisant uniquement `1`, `N` ou `2` ;
-   - choisir librement le nombre de combinaisons à partir de l’analyse, en tenant compte du coût de 1 € par combinaison afin de couvrir les scénarios plausibles tout en visant un rapport potentiel supérieur à la mise virtuelle totale.
+   - choisir librement le nombre de combinaisons à partir de l’analyse et de l’objectif de résultat net positif ;
+   - ne jamais ajouter une combinaison pour la seule raison qu’elle augmente la couverture ou le meilleur score historique ;
+   - autoriser une mise virtuelle totale de 0 € lorsqu’aucun ticket n’apporte une valeur financière suffisamment crédible.
 
    Chaque combinaison représente une mise virtuelle de 100 centimes.
 
@@ -105,7 +115,10 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - probabilités entières entre 0 et 100 et somme exactement égale à 100 ;
    - résumé, incertitude, au moins un facteur et au moins une source par rencontre ;
    - chaque `accessedAt` inférieur ou égal à `publishedAt` ;
-   - au moins une combinaison ;
+   - `betDecision` présent pour toute nouvelle publication, avec `action` égal à `bet` ou `skip` et une justification non vide ;
+   - zéro combinaison autorisée uniquement avec `betDecision.action = "skip"` ;
+   - au moins une combinaison requise lorsque `betDecision.action = "bet"` ;
+   - lorsque `fdjSelectionDistribution` est présent : valeurs numériques entre 0 et 100, somme comprise entre 99 et 101 pour tolérer l’arrondi d’affichage, et `accessedAt <= publishedAt` ;
    - identifiants de combinaisons uniques ;
    - exactement un choix `1`, `N` ou `2` par rencontre ;
    - aucune combinaison dupliquée.
@@ -127,7 +140,7 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
 
 3. À la fin de l’exécution, fournir un rapport unique indiquant :
    - chaque publication créée, avec sa formule, son numéro, son chemin et le hash complet du commit ;
-   - le nombre de matchs, la clôture, le nombre de combinaisons et la mise virtuelle totale ;
+   - le nombre de matchs, la clôture, la décision `bet` ou `skip`, le nombre de combinaisons et la mise virtuelle totale ;
    - pour chaque rencontre, la liste exacte des sources réellement utilisées ;
    - chaque grille bloquée et sa raison précise ;
    - l’état vérifié de la synchronisation de l’inventaire et des déploiements.

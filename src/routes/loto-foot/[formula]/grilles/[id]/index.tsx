@@ -81,7 +81,7 @@ export default component$(() => {
   const formulaLabel = getLotoFootFormulaLabel(publication.formula);
   const net = getNetPresentation(settlement.netCents);
   const bestScore =
-    settlement.status === "settled"
+    settlement.status === "settled" && settlement.ticketSettlements.length > 0
       ? Math.max(...settlement.ticketSettlements.map(({ correctSelections }) => correctSelections))
       : undefined;
 
@@ -193,12 +193,21 @@ export default component$(() => {
               <div class="grid-best-score" data-finance-item>
                 <dt>Meilleur score</dt>
                 <dd>
-                  <strong>
-                    {bestScore}/{publication.matches.length}
-                  </strong>
-                  <small>
-                    {formatCorrectAnswerScore(bestScore ?? 0, publication.matches.length)}
-                  </small>
+                  {bestScore === undefined ? (
+                    <>
+                      <strong>-</strong>
+                      <small>Aucune mise</small>
+                    </>
+                  ) : (
+                    <>
+                      <strong>
+                        {bestScore}/{publication.matches.length}
+                      </strong>
+                      <small>
+                        {formatCorrectAnswerScore(bestScore, publication.matches.length)}
+                      </small>
+                    </>
+                  )}
                 </dd>
               </div>
             </dl>
@@ -276,6 +285,12 @@ export default component$(() => {
             {publication.tickets.length === 1 ? "combinaison" : "combinaisons"}
           </span>
         </div>
+        {publication.tickets.length === 0 && (
+          <p class="section-intro">
+            Aucune mise virtuelle retenue pour cette grille.
+            {publication.betDecision?.rationale ? ` ${publication.betDecision.rationale}` : ""}
+          </p>
+        )}
         <ul class="selection-legend" aria-label="Légende des choix">
           <li>
             <span class="choice-symbol symbol-published" aria-hidden="true">

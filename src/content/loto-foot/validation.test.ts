@@ -25,6 +25,10 @@ function createValidPublication(
     validationDeadline: "2026-07-23T18:00:00Z",
     publishedAt,
     methodVersion: "loto-foot-v1",
+    betDecision: {
+      action: "bet",
+      rationale: "Une mise est retenue pour ce scénario de test.",
+    },
     matches: Array.from({ length: matchCount }, (_, index) => ({
       position: index + 1,
       homeTeam: `Équipe domicile ${index + 1}`,
@@ -32,6 +36,9 @@ function createValidPublication(
       competition: "Compétition test",
       startsAt: "2026-07-24T18:00:00Z",
       probabilities: { home: 40, draw: 30, away: 30 },
+      fdjSelectionDistribution: undefined as
+        | { home: number; draw: number; away: number; accessedAt: string }
+        | undefined,
       analysis: {
         summary: "Résumé sourcé du match.",
         keyFactors: ["Forme récente", "Avantage du terrain"],
@@ -165,6 +172,35 @@ describe("validation d’une publication Loto Foot", () => {
     expect(() => validateLotoFootPublication(publication)).toThrow(/strictement antérieure/);
   });
 
+  it("accepte une répartition FDJ arrondie et refuse une somme incohérente", () => {
+    const publication = createValidPublication();
+    publication.matches[0].fdjSelectionDistribution = {
+      home: 48.5,
+      draw: 27,
+      away: 24,
+      accessedAt: publication.publishedAt,
+    };
+
+    expect(validateNewLotoFootPublication(publication).id).toBe(publication.id);
+
+    publication.matches[0].fdjSelectionDistribution.away = 10;
+    expect(() => validateNewLotoFootPublication(publication)).toThrow(/entre 99 et 101/);
+  });
+
+  it("refuse une répartition FDJ consultée après la publication", () => {
+    const publication = createValidPublication();
+    publication.matches[0].fdjSelectionDistribution = {
+      home: 50,
+      draw: 25,
+      away: 25,
+      accessedAt: "2026-07-22T08:00:01Z",
+    };
+
+    expect(() => validateNewLotoFootPublication(publication)).toThrow(
+      /fdjSelectionDistribution\.accessedAt.*postérieure/,
+    );
+  });
+
   it("refuse une source consultée après la publication", () => {
     const publication = createValidPublication();
     publication.matches[0].analysis.sources[0].accessedAt = "2026-07-22T08:00:01Z";
@@ -192,6 +228,32 @@ describe("validation d’une publication Loto Foot", () => {
       );
     },
   );
+
+  it("accepte une décision skip sans combinaison", () => {
+    const publication = createValidPublication();
+    publication.betDecision = {
+      action: "skip",
+      rationale: "Aucune mise n’est suffisamment justifiée financièrement.",
+    };
+    publication.tickets = [];
+
+    expect(validateNewLotoFootPublication(publication).tickets).toHaveLength(0);
+    expect(calculateVirtualStakeCents(publication.tickets.length)).toBe(0);
+  });
+
+  it("refuse zéro combinaison sans décision skip", () => {
+    const publication = createValidPublication();
+    publication.tickets = [];
+
+    expect(() => validateNewLotoFootPublication(publication)).toThrow(/action = skip/);
+  });
+
+  it("refuse une décision skip lorsqu’une combinaison existe", () => {
+    const publication = createValidPublication();
+    publication.betDecision.action = "skip";
+
+    expect(() => validateNewLotoFootPublication(publication)).toThrow(/lorsqu’une combinaison existe/);
+  });
 
   it.each([1, 3, 10])("accepte une publication avec %i combinaison(s)", (ticketCount) => {
     const publication = createValidPublication();

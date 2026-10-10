@@ -306,7 +306,7 @@ export const LotoFootDashboard = component$<LotoFootDashboardProps>(({ formula }
                   );
                   const net = getNetPresentation(settlement.netCents);
                   const bestScore =
-                    settlement.status === "settled"
+                    settlement.status === "settled" && settlement.ticketSettlements.length > 0
                       ? Math.max(
                           ...settlement.ticketSettlements.map(
                             ({ correctSelections }) => correctSelections,

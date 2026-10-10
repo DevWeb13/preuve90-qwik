@@ -1,59 +1,71 @@
 # Stratégie Loto Foot v2
 
-Ce document complète `docs/automations/preuve90.md` uniquement pour la méthode d'analyse, la calibration des probabilités et la construction des combinaisons. Toutes les règles de sécurité, de validation, d'écriture, de branche, de planification et de rapport de `preuve90.md` restent prioritaires.
+Ce document complète `docs/automations/preuve90.md` uniquement pour la méthode d'analyse, la calibration des probabilités et la décision de mise. Toutes les règles de sécurité, de validation, d'écriture, de branche, de planification et de rapport de `preuve90.md` restent prioritaires.
+
+## Objectif financier prioritaire
+
+L'objectif expérimental unique est d'améliorer le résultat net : retours officiels moins mises virtuelles.
+
+Le nombre de bonnes réponses, la couverture des issues et la diversité des combinaisons sont uniquement des indicateurs intermédiaires. Ils ne justifient jamais à eux seuls une mise supplémentaire.
+
+Une grille peut donc conduire à `0` combinaison et `0 €` de mise lorsque l'analyse ne fait apparaître aucune opportunité suffisamment convaincante. Il n'existe ni nombre minimal de tickets à jouer, ni cible implicite de 10 ou 12 tickets.
 
 ## Mémoire statistique
 
 Avant d'analyser une nouvelle grille, lire `docs/automations/loto-foot-strategy-stats.json` lorsqu'il existe.
 
-Ce fichier est une mémoire statistique déterministe construite à partir des publications et résultats déjà réglés. Il sert à détecter les biais historiques du pronostiqueur sans relire toutes les anciennes grilles.
+Ce fichier est une mémoire statistique déterministe construite à partir des publications et résultats déjà réglés. Il sert à corriger les biais de décision sans remplacer l'analyse sportive de la grille courante.
 
-S'il est absent, invalide ou momentanément en retard sur le dernier règlement, ne jamais bloquer une publication pour cette seule raison. Effectuer l'analyse sportive normalement et signaler simplement que la mémoire statistique n'a pas pu être utilisée.
+S'il est absent, invalide ou momentanément en retard sur le dernier règlement, ne jamais bloquer une publication pour cette seule raison. Effectuer l'analyse normalement et signaler simplement que la mémoire statistique n'a pas pu être utilisée.
 
 Utiliser en priorité :
 
-- `recent20` pour les dérives récentes ;
-- `allTime` pour éviter de sur-réagir à un petit échantillon ;
-- `selectionDistribution.coverageGapPct` pour repérer une sous- ou sur-couverture persistante des choix `1`, `N` ou `2` ;
-- `calibration` pour détecter une surconfiance ou une sous-confiance des probabilités annoncées ;
-- `byTicketCount` et les signaux de diversité pour mesurer si les combinaisons supplémentaires ont réellement amélioré la couverture ;
-- `payoutHistory` uniquement comme repère historique sur les rangs payés et les rapports observés, jamais comme promesse de rapport futur.
+- `recent20.summary.netCents`, `recent20.summary.yieldPct` et `recent20.strategySignals` pour détecter une dérive financière récente ;
+- `recent20.ticketEconomics` pour comparer directement ce qu'ont coûté et rapporté le ticket principal et les tickets ajoutés ;
+- `allTime.summary`, `allTime.byFormula` et `allTime.byTicketCount` pour conserver le contexte long terme ;
+- `calibration` pour corriger une éventuelle surconfiance ou sous-confiance des probabilités annoncées ;
+- `payoutHistory` uniquement comme repère historique des rangs payés et des rapports observés ;
+- `selectionDistribution`, la couverture et la diversité seulement comme diagnostics secondaires, jamais comme objectifs financiers.
 
-Ne jamais remplacer les informations sportives de la grille courante par ces statistiques historiques. Elles servent à calibrer la méthode, pas à inventer des faits sur un match.
+Ne jamais ajouter un ticket uniquement parce qu'il améliore `portfolioOutcomeCoveragePct`, `additionalTicketsImprovedBestScoreRatePct` ou la diversité.
 
 ## Analyse des rencontres
 
 Continuer à effectuer la recherche complète demandée par `preuve90.md` pour chaque rencontre.
 
-Produire les probabilités `1/N/2` à partir des informations actuelles, puis les confronter aux biais historiques de la mémoire statistique. Une correction de calibration doit rester justifiée : ne jamais forcer mécaniquement les nouvelles probabilités à reproduire les fréquences passées.
+Produire les probabilités `1/N/2` à partir des informations sportives actuelles, puis les confronter à la calibration historique. Une correction doit rester justifiée : ne jamais forcer mécaniquement les nouvelles probabilités à reproduire les fréquences passées.
+
+Lorsque la FDJ affiche la répartition des choix des joueurs, la relever dans `fdjSelectionDistribution`. Comparer pour chaque issue notre probabilité sportive à sa part dans les choix FDJ. L'écart `probabilité estimée - part FDJ` est un signal de valeur relatif : il peut révéler une issue sous-jouée ou surjouée par le public, mais ce n'est pas une espérance de gain exacte.
+
+La concentration du public compte parce que les rapports dépendent du nombre de gagnants. À plausibilité sportive comparable, privilégier les scénarios moins surjoués peut améliorer le potentiel de rapport. Ne jamais choisir un outsider uniquement parce qu'il est peu joué : la plausibilité sportive reste obligatoire.
 
 Pour les doubles confrontations, analyser explicitement le résultat du match présent dans la grille, et non la seule probabilité de qualification. Tenir compte du score de l'aller, de l'équipe qui doit attaquer, de celle qui peut gérer, des rotations plausibles et du risque qu'une équipe perde le retour tout en se qualifiant.
 
-## Construction des combinaisons
+## Décision de mise et construction des combinaisons
 
-Il n'existe aucun plafond arbitraire du nombre de combinaisons.
+Il n'existe aucun plafond arbitraire du nombre de combinaisons, mais chaque combinaison coûte 1 € virtuel.
 
-Le nombre de combinaisons doit être choisi dynamiquement en fonction de l'analyse, de la couverture réellement ajoutée par chaque combinaison et de la mise totale. Une combinaison supplémentaire coûte 1 € virtuel et doit donc apporter une valeur marginale identifiable.
+Procéder dans cet ordre :
 
-Procéder ainsi :
+1. Construire les scénarios cohérents les plus plausibles à partir des probabilités de tous les matchs.
+2. Confronter ces scénarios à la répartition FDJ lorsqu'elle est disponible et aux rapports historiques de la formule. Rechercher un compromis entre probabilité sportive et potentiel de rapport, sans prétendre connaître le rapport futur.
+3. Décider d'abord s'il existe une raison financière crédible de miser sur cette grille. Si ce n'est pas le cas, publier l'analyse avec `betDecision.action = "skip"`, aucune combinaison et une mise virtuelle de 0 €.
+4. Si une mise est justifiée, retenir le meilleur portefeuille initial avec `betDecision.action = "bet"`.
+5. Avant chaque ticket supplémentaire, demander explicitement : « Ce ticket améliore-t-il de manière crédible la probabilité d'un résultat net positif compte tenu de son coût de 1 € ? » Si la réponse repose seulement sur davantage de couverture, ne pas l'ajouter.
+6. Utiliser `recent20.ticketEconomics.additionalTickets` comme signal d'alerte. Si les tickets ajoutés ont récemment détruit de la valeur, exiger une justification actuelle particulièrement forte avant d'en ajouter.
+7. Éviter les quasi-clones. Une variante doit représenter un scénario financier et sportif réellement distinct, pas seulement augmenter artificiellement la couverture.
+8. Réévaluer après chaque ajout la mise totale, le rang payé historiquement nécessaire, le rapport historique indicatif, la concentration FDJ des choix concernés et la rentabilité marginale observée. Arrêter dès que le ticket suivant n'est plus justifié financièrement.
 
-1. Construire d'abord les scénarios cohérents les plus plausibles à partir des probabilités de tous les matchs, au lieu de créer uniquement une combinaison centrale puis de modifier un match à la fois.
-2. Identifier les rencontres réellement incertaines et les scénarios de nuls ou de surprises que les combinaisons déjà retenues couvrent mal.
-3. Ajouter une nouvelle combinaison seulement si elle couvre un scénario plausible insuffisamment représenté et améliore de manière crédible la probabilité d'atteindre un rang payé.
-4. Éviter les quasi-clones. Une variante qui ne change qu'un seul match n'est acceptable que si ce match concentre à lui seul une incertitude déterminante et si la variante apporte une couverture que les autres combinaisons n'apportent pas. En règle générale, les combinaisons supplémentaires doivent différer sur plusieurs rencontres lorsque l'incertitude est répartie sur la grille.
-5. Utiliser la mémoire statistique pour corriger les biais observés, notamment une éventuelle sous-couverture des nuls, des outsiders ou une surconfiance dans certains favoris.
-6. Réévaluer le portefeuille après chaque ajout : mise totale, diversité, scénarios couverts, rang payé historiquement nécessaire pour cette formule et rapport historique indicatif. Arrêter d'ajouter des combinaisons lorsqu'une nouvelle combinaison n'améliore plus suffisamment la couverture par rapport à son coût.
+Le nombre final peut être `0`, `1` ou davantage. Il découle de la grille courante ; il ne doit jamais être choisi pour reproduire le nombre de tickets des publications précédentes.
 
-## Objectif financier
+## Prudence sur les rapports
 
-L'objectif n'est pas de maximiser le nombre brut de bonnes réponses ni de minimiser artificiellement la mise. L'objectif expérimental est d'augmenter la probabilité d'un résultat net positif.
+Les rapports futurs sont inconnus avant le règlement. Les répartitions FDJ et les rapports historiques servent à estimer la valeur relative d'un scénario, pas à calculer une promesse de gain.
 
-Si `T` combinaisons sont publiées, la mise virtuelle totale est `T €`. La construction finale doit donc viser un retour potentiel supérieur à `T €` et ne pas augmenter la mise simplement pour multiplier des variantes proches.
-
-Les rapports futurs étant inconnus avant le règlement, ne jamais présenter ce calcul comme une espérance de gain certaine. Utiliser les rapports historiques de la mémoire statistique comme ordre de grandeur seulement, avec prudence, et privilégier la probabilité d'atteindre un rang payé avec un portefeuille réellement diversifié.
+Ne jamais appeler « espérance de gain positive » un simple écart entre nos probabilités et les choix FDJ. Tant qu'un calcul complet du pool et de la distribution des combinaisons des autres joueurs n'est pas disponible, parler uniquement de signal de valeur ou de potentiel de rapport.
 
 ## Apprentissage continu
 
-Après chaque nouveau règlement, la mémoire statistique est régénérée séparément par GitHub Actions. Le pronostiqueur n'a pas à relire tout l'historique : il utilise le fichier résumé lors de son prochain passage.
+Après chaque nouveau règlement, la mémoire statistique est régénérée séparément par GitHub Actions. Le signal financier doit rester prioritaire : net, rendement, rentabilité des tickets ajoutés, puis seulement calibration, couverture et diversité.
 
-Conserver `loto-foot-v1` comme `methodVersion` tant que le modèle de données et la validation l'exigent. Cette stratégie v2 modifie la méthode de décision, pas le schéma des publications.
+Conserver `loto-foot-v1` comme `methodVersion`. Les nouveaux champs sont optionnels pour assurer la compatibilité avec l'historique, mais les nouvelles publications doivent renseigner `betDecision` et `fdjSelectionDistribution` lorsque la FDJ affiche cette dernière.

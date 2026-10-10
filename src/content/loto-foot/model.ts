@@ -37,6 +37,13 @@ export interface LotoFootProbabilities {
   away: number;
 }
 
+export interface LotoFootFdjSelectionDistribution {
+  home: number;
+  draw: number;
+  away: number;
+  accessedAt: string;
+}
+
 export interface LotoFootMatch {
   position: number;
   homeTeam: string;
@@ -44,6 +51,7 @@ export interface LotoFootMatch {
   competition?: string;
   startsAt?: string;
   probabilities: LotoFootProbabilities;
+  fdjSelectionDistribution?: LotoFootFdjSelectionDistribution;
   analysis: LotoFootAnalysis;
 }
 
@@ -51,6 +59,11 @@ export interface LotoFootTicket {
   id: string;
   label: string;
   selections: readonly LotoFootSelection[];
+  rationale: string;
+}
+
+export interface LotoFootBetDecision {
+  action: "bet" | "skip";
   rationale: string;
 }
 
@@ -62,8 +75,9 @@ export interface LotoFootPublication {
   validationDeadline: string;
   publishedAt: string;
   methodVersion: string;
+  betDecision?: LotoFootBetDecision;
   matches: readonly LotoFootMatch[];
-  tickets: readonly [LotoFootTicket, ...LotoFootTicket[]];
+  tickets: readonly LotoFootTicket[];
 }
 
 export type LotoFootOfficialMatchResult = {

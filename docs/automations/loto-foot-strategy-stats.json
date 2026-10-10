@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "purpose": "Mémoire statistique déterministe pour calibrer l'analyse et la construction des combinaisons. Ce fichier ne remplace jamais l'analyse sportive de la grille courante.",
+  "schemaVersion": 2,
+  "purpose": "Mémoire statistique déterministe pour calibrer l'analyse, la décision de mise et la construction des combinaisons. La rentabilité est prioritaire sur la couverture.",
   "source": {
     "publicationFiles": 129,
     "resultFiles": 124,
@@ -26,7 +26,8 @@
       "additionalTicketsImprovedBestScorePublications": 81,
       "additionalTicketsImprovedBestScoreRatePct": 65.3,
       "averageBestScoreGainFromAdditionalTickets": 1.15,
-      "averagePairwiseTicketDistancePct": 49.1
+      "averagePairwiseTicketDistancePct": 49.1,
+      "noBetPublications": 0
     },
     "byFormula": {
       "7": {
@@ -47,7 +48,8 @@
         "additionalTicketsImprovedBestScorePublications": 21,
         "additionalTicketsImprovedBestScoreRatePct": 58.3,
         "averageBestScoreGainFromAdditionalTickets": 1,
-        "averagePairwiseTicketDistancePct": 51.5
+        "averagePairwiseTicketDistancePct": 51.5,
+        "noBetPublications": 0
       },
       "8": {
         "settledPublications": 41,
@@ -67,7 +69,8 @@
         "additionalTicketsImprovedBestScorePublications": 29,
         "additionalTicketsImprovedBestScoreRatePct": 70.7,
         "averageBestScoreGainFromAdditionalTickets": 1.24,
-        "averagePairwiseTicketDistancePct": 48
+        "averagePairwiseTicketDistancePct": 48,
+        "noBetPublications": 0
       },
       "12": {
         "settledPublications": 24,
@@ -87,7 +90,8 @@
         "additionalTicketsImprovedBestScorePublications": 16,
         "additionalTicketsImprovedBestScoreRatePct": 66.7,
         "averageBestScoreGainFromAdditionalTickets": 1.21,
-        "averagePairwiseTicketDistancePct": 49.6
+        "averagePairwiseTicketDistancePct": 49.6,
+        "noBetPublications": 0
       },
       "15": {
         "settledPublications": 23,
@@ -107,7 +111,8 @@
         "additionalTicketsImprovedBestScorePublications": 15,
         "additionalTicketsImprovedBestScoreRatePct": 65.2,
         "averageBestScoreGainFromAdditionalTickets": 1.17,
-        "averagePairwiseTicketDistancePct": 47
+        "averagePairwiseTicketDistancePct": 47,
+        "noBetPublications": 0
       }
     },
     "selectionDistribution": {
@@ -207,6 +212,27 @@
       }
     },
     "byTicketCount": {
+      "0": {
+        "settledPublications": 0,
+        "settledTickets": 0,
+        "averageTicketsPerPublication": 0,
+        "stakeCents": 0,
+        "returnCents": 0,
+        "netCents": 0,
+        "yieldPct": 0,
+        "returningPublications": 0,
+        "profitablePublications": 0,
+        "winningTickets": 0,
+        "winningTicketRatePct": 0,
+        "bestTicketAccuracyPct": 0,
+        "firstTicketAccuracyPct": 0,
+        "portfolioOutcomeCoveragePct": 0,
+        "additionalTicketsImprovedBestScorePublications": 0,
+        "additionalTicketsImprovedBestScoreRatePct": 0,
+        "averageBestScoreGainFromAdditionalTickets": 0,
+        "averagePairwiseTicketDistancePct": 0,
+        "noBetPublications": 0
+      },
       "1-3": {
         "settledPublications": 26,
         "settledTickets": 73,
@@ -225,7 +251,8 @@
         "additionalTicketsImprovedBestScorePublications": 9,
         "additionalTicketsImprovedBestScoreRatePct": 34.6,
         "averageBestScoreGainFromAdditionalTickets": 0.62,
-        "averagePairwiseTicketDistancePct": 54.3
+        "averagePairwiseTicketDistancePct": 54.3,
+        "noBetPublications": 0
       },
       "4-6": {
         "settledPublications": 7,
@@ -245,7 +272,8 @@
         "additionalTicketsImprovedBestScorePublications": 4,
         "additionalTicketsImprovedBestScoreRatePct": 57.1,
         "averageBestScoreGainFromAdditionalTickets": 0.86,
-        "averagePairwiseTicketDistancePct": 43.3
+        "averagePairwiseTicketDistancePct": 43.3,
+        "noBetPublications": 0
       },
       "7-10": {
         "settledPublications": 6,
@@ -265,7 +293,8 @@
         "additionalTicketsImprovedBestScorePublications": 5,
         "additionalTicketsImprovedBestScoreRatePct": 83.3,
         "averageBestScoreGainFromAdditionalTickets": 1.5,
-        "averagePairwiseTicketDistancePct": 40.6
+        "averagePairwiseTicketDistancePct": 40.6,
+        "noBetPublications": 0
       },
       "11+": {
         "settledPublications": 85,
@@ -285,7 +314,8 @@
         "additionalTicketsImprovedBestScorePublications": 63,
         "additionalTicketsImprovedBestScoreRatePct": 74.1,
         "averageBestScoreGainFromAdditionalTickets": 1.32,
-        "averagePairwiseTicketDistancePct": 48.6
+        "averagePairwiseTicketDistancePct": 48.6,
+        "noBetPublications": 0
       }
     },
     "payoutHistory": {
@@ -436,7 +466,12 @@
       "portfolioCoverageVsBestTicketGapPct": 23.8,
       "additionalTicketsImprovedBestScoreRatePct": 65.3,
       "averageBestScoreGainFromAdditionalTickets": 1.15,
-      "averagePairwiseTicketDistancePct": 49.1
+      "averagePairwiseTicketDistancePct": 49.1,
+      "netCents": -83800,
+      "yieldPct": -68.8,
+      "profitablePublicationRatePct": 6.5,
+      "averageTicketsPerPublication": 9.82,
+      "noBetPublications": 0
     }
   },
   "recent20": {
@@ -458,7 +493,8 @@
       "additionalTicketsImprovedBestScorePublications": 18,
       "additionalTicketsImprovedBestScoreRatePct": 90,
       "averageBestScoreGainFromAdditionalTickets": 1.65,
-      "averagePairwiseTicketDistancePct": 50.2
+      "averagePairwiseTicketDistancePct": 50.2,
+      "noBetPublications": 0
     },
     "selectionDistribution": {
       "officialResults": {
@@ -564,7 +600,34 @@
       "portfolioCoverageVsBestTicketGapPct": 29,
       "additionalTicketsImprovedBestScoreRatePct": 90,
       "averageBestScoreGainFromAdditionalTickets": 1.65,
-      "averagePairwiseTicketDistancePct": 50.2
+      "averagePairwiseTicketDistancePct": 50.2,
+      "netCents": -21440,
+      "yieldPct": -92.4,
+      "profitablePublicationRatePct": 0,
+      "averageTicketsPerPublication": 11.6,
+      "noBetPublications": 0
+    },
+    "ticketEconomics": {
+      "noBetPublications": 0,
+      "playedPublications": 20,
+      "firstTicket": {
+        "ticketCount": 20,
+        "stakeCents": 2000,
+        "returnCents": 690,
+        "netCents": -1310,
+        "yieldPct": -65.5,
+        "winningTickets": 2,
+        "winningTicketRatePct": 10
+      },
+      "additionalTickets": {
+        "ticketCount": 212,
+        "stakeCents": 21200,
+        "returnCents": 1070,
+        "netCents": -20130,
+        "yieldPct": -95,
+        "winningTickets": 5,
+        "winningTicketRatePct": 2.4
+      }
     }
   },
   "metricNotes": {
@@ -573,6 +636,8 @@
     "portfolioOutcomeCoveragePct": "Part des matchs pour lesquels au moins une combinaison publiée contenait le résultat officiel, indépendamment du fait que ces bons choix soient réunis sur une même combinaison.",
     "coverageGapPct": "Part du choix dans les combinaisons publiées moins sa part dans les résultats officiels. Une valeur négative signifie une sous-couverture historique.",
     "calibrationGapPct": "Taux de réussite réel moins probabilité moyenne annoncée du choix 1N2 le plus probable. Une valeur négative indique une surconfiance historique.",
-    "payoutHistory": "Historique descriptif des rapports officiels observés. Il sert de repère et ne prédit pas les futurs rapports FDJ."
+    "payoutHistory": "Historique descriptif des rapports officiels observés. Il sert de repère et ne prédit pas les futurs rapports FDJ.",
+    "ticketEconomics": "Sépare la rentabilité du premier ticket de celle des tickets ajoutés afin de mesurer le coût financier réel de la diversification.",
+    "noBetPublications": "Nombre de grilles analysées et publiées avec une décision explicite de ne pas miser."
   }
 }
