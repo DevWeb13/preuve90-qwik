@@ -1,0 +1,330 @@
+{
+  "id": "lf8-140-2026-10-12",
+  "formula": 8,
+  "gridNumber": 140,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+  "validationDeadline": "2026-10-12T18:25:00+02:00",
+  "publishedAt": "2026-10-11T06:52:15+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "La grille ne présente pas de signal de valeur financière suffisamment crédible pour justifier une mise : la FDJ affiche actuellement 0 % / 0 % / 0 % sur les huit rencontres, donc aucune répartition publique exploitable ne peut être comparée aux probabilités sportives. La mémoire v2 montre en outre un rendement récent de -86,7 %, un rendement LF8 historique de -62,7 % et -88,7 % sur les tickets supplémentaires. Sans avantage relatif observable sur la concentration du public, ajouter même un ticket reviendrait surtout à augmenter une mise dont la rentabilité marginale récente est très mauvaise."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Dijon",
+      "awayTeam": "Metz",
+      "competition": "Ligue 2 2026/27",
+      "startsAt": "2026-10-12T20:45:00+02:00",
+      "probabilities": {
+        "home": 38,
+        "draw": 34,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Dijon bénéficie du terrain et arrive avec une dynamique légèrement meilleure, mais Metz reste très proche au classement et les indicateurs récents convergent vers un match serré où le nul pèse lourd.",
+        "keyFactors": [
+          "Dijon a pris 8 points sur ses cinq derniers matchs de championnat visibles sur FotMob, contre 6 pour Metz.",
+          "Les deux équipes sont proches au classement et plusieurs modèles externes placent le nul parmi les issues les plus plausibles.",
+          "L'avantage du Stade Gaston-Gérard empêche de donner à Metz le statut de favori malgré une qualité globale comparable."
+        ],
+        "uncertainty": "L'écart entre les trois issues reste faible; la rencontre est l'une des plus indécises de la grille.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Dijon–Metz, forme et horaire",
+            "url": "https://www.fotmob.com/matches/metz-vs-dijon/2sn59z",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "SportyTrader — Dijon–Metz, forme et probabilités",
+            "url": "https://www.sportytrader.com/pronostics/dijon-fc-metz-378297/",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Coventry",
+      "awayTeam": "Newcastle",
+      "competition": "Premier League 2026/27",
+      "startsAt": "2026-10-12T21:00:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 28,
+        "away": 45
+      },
+      "analysis": {
+        "summary": "Newcastle reste favori grâce à une qualité d'effectif supérieure et une victoire avant la trêve, mais sa longue liste d'absents réduit nettement l'écart face à Coventry, qui vient enfin de gagner en Premier League.",
+        "keyFactors": [
+          "Coventry a stoppé une série de quatre défaites de championnat en battant Nottingham Forest 1-0.",
+          "Newcastle a gagné 2-1 contre Hull avant la trêve mais reste touché par plusieurs blessures importantes.",
+          "Des retours à l'entraînement existent côté Newcastle, sans effacer l'incertitude sur plusieurs cadres."
+        ],
+        "uncertainty": "Le 2 reste l'issue la plus probable, mais les absences de Newcastle et le réveil récent de Coventry augmentent nettement le risque de nul ou de surprise.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Coventry–Newcastle, horaire et compositions probables",
+            "url": "https://www.fotmob.com/en-GB/matches/coventry-city-vs-newcastle-united/2yooc8",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "Sports Mole — Coventry–Newcastle, forme et team news",
+            "url": "https://www.sportsmole.co.uk/football/newcastle-united/preview/coventry-vs-newcastle-prediction-team-news-lineups_606618.html",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "Coming Home Newcastle — état des blessés de Newcastle",
+            "url": "https://cominghomenewcastle.sbnation.com/newcastle-united-team-news/26303/matthias-jaissle-gets-timely-newcastle-boost-after-nine-player-injury-crisis",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Torino",
+      "awayTeam": "Udinese",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-12T20:45:00+02:00",
+      "probabilities": {
+        "home": 41,
+        "draw": 31,
+        "away": 28
+      },
+      "analysis": {
+        "summary": "Torino reçoit deux équipes au bilan identique de quatre points, mais Udinese arrive après trois défaites consécutives et avec une liste d'absents plus lourde; le 1 prend donc un léger avantage sans devenir une base forte.",
+        "keyFactors": [
+          "Torino et Udinese comptent chacun une victoire, un nul et trois défaites après cinq journées.",
+          "Udinese reste sur trois défaites de championnat et plusieurs joueurs offensifs ou défensifs sont indisponibles ou incertains.",
+          "Torino n'a pas encore gagné à domicile, ce qui maintient le nul à un niveau élevé."
+        ],
+        "uncertainty": "Le niveau récent des deux équipes reste médiocre et aucune ne possède assez de stabilité pour justifier une forte confiance.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Torino–Udinese, forme, absents et horaire",
+            "url": "https://www.fotmob.com/matches/udinese-vs-torino/2su8qu",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "Sports Mole — Torino–Udinese, preview et team news",
+            "url": "https://www.sportsmole.co.uk/football/torino/preview/torino-vs-udinese-prediction-team-news-lineups_606614.html",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Venezia FC",
+      "competition": "Serie A 2026/27",
+      "startsAt": "2026-10-12T18:30:00+02:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 21,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "Malgré trois défaites consécutives et plusieurs absents, Atalanta reste nettement au-dessus d'un Venezia qui a perdu ses cinq premiers matchs de Serie A. Le contexte à Bergame en fait le favori le plus solide de la grille.",
+        "keyFactors": [
+          "Venezia a perdu ses cinq premières rencontres de championnat.",
+          "Atalanta reste sur trois défaites mais possède une profondeur et un potentiel offensif supérieurs.",
+          "Les absences d'Atalanta empêchent de monter davantage la probabilité du 1, mais celles de Venezia ne rééquilibrent pas l'affiche."
+        ],
+        "uncertainty": "La mauvaise dynamique d'Atalanta crée un risque réel de nul; une victoire de Venezia reste toutefois nettement moins plausible.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Atalanta–Venezia, forme et horaire",
+            "url": "https://www.fotmob.com/matches/venezia-vs-atalanta/284hmb",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "La Gazzetta dello Sport — compositions probables et absents",
+            "url": "https://www.gazzetta.it/Calcio/prob_form/atalanta-venezia/2638172",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "Sports Mole — Atalanta–Venezia, contexte de forme",
+            "url": "https://www.sportsmole.co.uk/football/atalanta-bc/preview/atalanta-vs-venezia-prediction-team-news-lineups_606609.html",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Famalicao",
+      "awayTeam": "Alverca FC",
+      "competition": "Liga Portugal 2026/27",
+      "startsAt": "2026-10-12T21:15:00+02:00",
+      "probabilities": {
+        "home": 46,
+        "draw": 31,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Famalicão a enfin gagné avant la trêve avec un 4-0 convaincant et présente une défense récente plus solide. Alverca arrive néanmoins sur deux victoires consécutives, ce qui interdit d'en faire un simple outsider.",
+        "keyFactors": [
+          "Famalicão reste sur un 4-0 à Nacional après trois nuls consécutifs.",
+          "Alverca a remporté ses deux derniers matchs avant la trêve.",
+          "Famalicão n'a encaissé que quatre buts sur ses cinq derniers matchs, contre sept pour Alverca."
+        ],
+        "uncertainty": "Le 1 est légèrement prioritaire grâce au terrain et à la solidité récente, mais le nul reste central et la dynamique d'Alverca maintient le 2 crédible.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Famalicão–Alverca, forme, absents et horaire",
+            "url": "https://www.fotmob.com/en-GB/matches/famalicao-vs-alverca/12si29",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "Sports Mole — Famalicão–Alverca, preview et team news",
+            "url": "https://www.sportsmole.co.uk/football/alverca/preview/famalicao-vs-alverca-prediction-team-news-lineups_606649.html",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Tenerife",
+      "awayTeam": "Gérone",
+      "competition": "LaLiga2 2026/27",
+      "startsAt": "2026-10-12T21:00:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 29,
+        "away": 44
+      },
+      "analysis": {
+        "summary": "Gérone possède la meilleure dynamique récente avec trois victoires et un nul sur ses cinq derniers matchs, alors que Tenerife reste irrégulier et a subi deux lourdes défaites. Le 2 est favori mais les absences et incertitudes offensives de Gérone limitent l'écart.",
+        "keyFactors": [
+          "Gérone a gagné trois de ses cinq derniers matchs de championnat et n'en a perdu qu'un.",
+          "Tenerife a encaissé cinq buts à Castellón et trois à Córdoba dans sa séquence récente.",
+          "Gérone compte plusieurs joueurs incertains ou suspendus, dont des options offensives, ce qui renforce le poids du nul."
+        ],
+        "uncertainty": "Le terrain de Tenerife et les indisponibilités de Gérone empêchent de considérer le 2 comme une base forte.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Tenerife–Gérone, forme, absents et horaire",
+            "url": "https://www.fotmob.com/matches/girona-vs-tenerife/2k7mzv",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "El País — Tenerife–Gérone, horaire et compositions",
+            "url": "https://elpais.com/deportes/resultados/futbol/segunda/2026_2027/directo/regular-a-9-6a44993ebed9953/alineaciones/",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Real Oviedo",
+      "awayTeam": "Eibar",
+      "competition": "LaLiga2 2026/27",
+      "startsAt": "2026-10-12T18:30:00+02:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 26,
+        "away": 50
+      },
+      "analysis": {
+        "summary": "Eibar arrive avec la dynamique la plus nette de la grille: sept victoires consécutives et quinze buts marqués sur ses cinq derniers matchs, tandis qu'Oviedo alterne bons résultats et lourdes défaites avec plusieurs absents.",
+        "keyFactors": [
+          "Eibar a gagné ses sept derniers matchs et ses cinq derniers résultats affichés sont tous des victoires.",
+          "Eibar a marqué quinze buts sur ses cinq derniers matchs et est classé premier à l'extérieur dans les données FotMob.",
+          "Oviedo a plusieurs joueurs indisponibles et vient de perdre 4-1 à Eldense."
+        ],
+        "uncertainty": "La série d'Eibar justifie le 2 comme issue principale, mais un déplacement à Oviedo reste suffisamment difficile pour conserver un quart de probabilité au nul et au 1.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Real Oviedo–Eibar, forme, absents et horaire",
+            "url": "https://www.fotmob.com/matches/eibar-vs-real-oviedo/2egts9",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "SportsGambler — Real Oviedo–Eibar, lineups et analyse",
+            "url": "https://www.sportsgambler.com/betting-tips/football/real-oviedo-vs-eibar-prediction-lineups-odds-2026-10-12/",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Levante",
+      "awayTeam": "FC Séville",
+      "competition": "LaLiga 2026/27",
+      "startsAt": "2026-10-12T21:00:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 29,
+        "away": 44
+      },
+      "analysis": {
+        "summary": "Séville a mieux commencé la saison et occupe le haut du classement, tandis que Levante n'a gagné qu'une fois en six matchs et reste sur deux défaites. Le 2 prend l'avantage, sans écarter un nul dans un déplacement.",
+        "keyFactors": [
+          "Séville est cinquième avant cette journée alors que Levante est dix-septième.",
+          "Levante compte une victoire, deux nuls et trois défaites sur ses six premiers matchs.",
+          "Levante a plusieurs indisponibles signalés, alors qu'aucune absence majeure n'est rapportée côté Séville dans les sources consultées."
+        ],
+        "uncertainty": "Levante reste capable de produire un gros match à domicile, comme son 5-2 contre le Betis; le 2 est favori mais pas une base absolue.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°140",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/837",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "FotMob — Levante–Séville, compositions probables et absents",
+            "url": "https://www.fotmob.com/matches/sevilla-vs-levante/2cv0lv",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          },
+          {
+            "label": "Sports Mole — Levante–Séville, forme et classement",
+            "url": "https://www.sportsmole.co.uk/football/levante/preview/levante-vs-sevilla-prediction-team-news-lineups_606645.html",
+            "accessedAt": "2026-10-11T06:51:54+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
