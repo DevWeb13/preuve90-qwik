@@ -1,0 +1,322 @@
+{
+  "id": "lf7-128-2026-10-13",
+  "formula": 7,
+  "gridNumber": 128,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+  "validationDeadline": "2026-10-13T18:40:00+02:00",
+  "publishedAt": "2026-10-12T06:48:04.728+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Les scénarios des sept rencontres sont analysés, mais la FDJ affiche 0/0/0 sur chaque match, donc aucune répartition de choix exploitable pour rechercher un potentiel de rapport relatif suffisamment crédible. Les matchs Villarreal–Naples, Leipzig–PSV et Lens–Sporting sont serrés ; les favoris Arsenal, Barcelone et Inter ne suffisent pas à établir une rentabilité probable. La mémoire statistique v2 indique -86,6 % sur les vingt dernières publications réglées (net -199,20 €), -62,1 % historiquement pour les LF7, -65,5 % pour le premier ticket récent et -88,6 % pour les tickets supplémentaires. Faute de signal financier objectivement exploitable, aucune combinaison à 1 € virtuel n'est retenue."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Lille",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-13T21:00:00+02:00",
+      "probabilities": {
+        "home": 73,
+        "draw": 18,
+        "away": 9
+      },
+      "analysis": {
+        "summary": "Arsenal est nettement favori chez lui après sa victoire 1-0 à Naples avec un volume important d'occasions. Lille a cependant marqué deux fois contre le Betis et l'état physique de certains Gunners peut entraîner de la rotation.",
+        "keyFactors": [
+          "Arsenal a dominé à Naples en ouverture de la phase de ligue.",
+          "Lille a perdu 3-2 contre le Betis mais a montré une capacité à marquer.",
+          "Arsenal vient de gagner contre Leeds, tandis que des changements et des incertitudes physiques sont évoqués avant le rendez-vous européen."
+        ],
+        "uncertainty": "Les rotations après Leeds et la capacité offensive lilloise entretiennent la possibilité de nul, même si le 1 domine nettement.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°128",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel J2",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Arsenal–Lille, preview 11/10",
+            "url": "https://www.sportsmole.co.uk/football/arsenal/champions-league/preview/arsenal-vs-lille-prediction-team-news-lineups_606658.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — onze prévisionnel Arsenal, 11/10",
+            "url": "https://www.sportsmole.co.uk/football/arsenal/champions-league/predicted-lineups/will-gyokeres-guimaraes-start-predicted-arsenal-xi-vs-lille_606664.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Atl. Madrid",
+      "awayTeam": "Man. United",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-13T21:00:00+02:00",
+      "probabilities": {
+        "home": 56,
+        "draw": 26,
+        "away": 18
+      },
+      "analysis": {
+        "summary": "L'Atlético reçoit avec un avantage de forme et de terrain. Manchester United reste en difficulté en championnat et vient de faire 1-1 contre Tottenham malgré la supériorité numérique en fin de rencontre.",
+        "keyFactors": [
+          "L'Atlético vise un cinquième succès de rang d'après sa preview du 11 octobre.",
+          "Manchester United a concédé 1-1 à Tottenham à Old Trafford le 10 octobre.",
+          "Le Metropolitano et la meilleure dynamique placent l'équipe madrilène devant."
+        ],
+        "uncertainty": "United conserve des individualités capables de réussir une transition décisive ; le nul reste une alternative importante.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°128",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel J2",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Atlético–Manchester United, preview 11/10",
+            "url": "https://www.sportsmole.co.uk/football/atletico-madrid/champions-league/preview/atletico-vs-man-utd-prediction-team-news-lineups_606700.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "The Guardian — Manchester United–Tottenham, compte rendu 10/10",
+            "url": "https://www.theguardian.com/football/2026/oct/10/manchester-united-tottenham-premier-league-match-report",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Galatasaray",
+      "awayTeam": "FC Barcelone",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-13T21:00:00+02:00",
+      "probabilities": {
+        "home": 15,
+        "draw": 21,
+        "away": 64
+      },
+      "analysis": {
+        "summary": "Barcelone arrive avec un large avantage de forme, son succès 5-1 contre Feyenoord et une série positive en Liga. Galatasaray avait perdu 3-1 contre le Sporting, mais le déplacement à Istanbul garde une part de risque.",
+        "keyFactors": [
+          "Barcelone a gagné 5-1 sa première rencontre européenne.",
+          "Galatasaray a perdu 3-1 au Sporting après avoir ouvert le score.",
+          "L'avantage du Rams Park et plusieurs incertitudes d'effectifs incitent à ne pas surestimer le 2."
+        ],
+        "uncertainty": "L'atmosphère d'Istanbul et les absences possibles rendent le scénario de nul non négligeable.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°128",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel J2",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Galatasaray–Barcelona, preview 11/10",
+            "url": "https://www.sportsmole.co.uk/football/galatasaray/champions-league/preview/galatasaray-vs-barcelona-prediction-team-news-lineups_606695.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Football UEFA — Galatasaray–Barcelona, effectifs et forme",
+            "url": "https://www.football-uefa.com/match_preview/galatasaray-vs-barcelona-13-oct-2026/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Naples",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-13T21:00:00+02:00",
+      "probabilities": {
+        "home": 35,
+        "draw": 30,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Affiche équilibrée entre deux équipes battues lors de la première journée européenne. Villarreal a perdu 3-2 à Dortmund, Naples 1-0 contre Arsenal et aucun collectif ne présente une forme assez convaincante pour faire une base.",
+        "keyFactors": [
+          "Villarreal reste sur une longue série européenne sans victoire.",
+          "Naples n'a pas encore pris de points en phase de ligue et arrive aussi dans une dynamique mitigée.",
+          "L'avantage de la Cerámica compense l'avantage de qualité supposé de Naples."
+        ],
+        "uncertainty": "Les trois issues sont proches, et les besoins de points peuvent produire aussi bien une partie fermée qu'une rencontre ouverte.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°128",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel J2",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Villarreal–Napoli, preview 11/10",
+            "url": "https://www.sportsmole.co.uk/football/villarreal/champions-league/preview/villarreal-vs-napoli-prediction-team-news-lineups_606662.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "SSC Napoli — confirmation officielle du 13/10 à 21h",
+            "url": "https://sscnapoli.it/en/villarreal-napoli-arbitra-il-tedesco-siebert/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "PSV Eindhoven",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-13T21:00:00+02:00",
+      "probabilities": {
+        "home": 44,
+        "draw": 25,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Leipzig bénéficie du Red Bull Arena mais a chuté 4-1 à Como en Europe. Le PSV a accroché Shakhtar et conserve des ressources offensives pour rivaliser en déplacement.",
+        "keyFactors": [
+          "Leipzig a pris quatre buts lors de la première journée européenne.",
+          "Le PSV a fait match nul contre Shakhtar et sait marquer hors de ses bases.",
+          "Le modèle Sports Mole donne environ 44 % de 1 et 34 % de 2 : l'avantage local est modéré."
+        ],
+        "uncertainty": "Les absences et la fragilité défensive récente rendent le 2 et le nul crédibles ; le 1 ne peut pas être une base forte.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°128",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel J2",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Leipzig–PSV, preview 11/10",
+            "url": "https://www.sportsmole.co.uk/football/rb-leipzig/preview/rb-leipzig-vs-psv-prediction-team-news-lineups_606701.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Leipzig–PSV, probabilités statistiques",
+            "url": "https://www.sportsmole.co.uk/football/champions-league/rb-leipzig-vs-psv-eindhoven_game_259904.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Club Bruges",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-13T21:00:00+02:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 21,
+        "away": 11
+      },
+      "analysis": {
+        "summary": "L'Inter est favorite à San Siro avec un effectif supérieur, mais elle a été exposée en transitions face au Real Madrid. Bruges a aussi perdu sa première rencontre européenne tout en marquant deux buts contre Aston Villa.",
+        "keyFactors": [
+          "L'Inter s'est inclinée 2-1 sur la pelouse du Real Madrid.",
+          "Bruges a perdu 3-2 contre Aston Villa, mais a montré une capacité offensive.",
+          "Le terrain et les ressources de l'Inter en font l'un des favoris les plus solides de la grille."
+        ],
+        "uncertainty": "Une contre-attaque de Bruges ou un manque de finition milanais peut entraîner un nul ; le 1 n'est pas garanti.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°128",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel J2",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Inter–Club Brugge, preview 11/10",
+            "url": "https://www.sportsmole.co.uk/football/inter-milan/champions-league/preview/inter-milan-vs-brugge-prediction-team-news-lineups_606669.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Football UEFA — Inter–Club Brugge, forme et contexte",
+            "url": "https://football-uefa.com/match_preview/inter-vs-club-brugge-kv-13-oct-2026/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Lens",
+      "awayTeam": "Sporting",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-13T18:45:00+02:00",
+      "probabilities": {
+        "home": 32,
+        "draw": 27,
+        "away": 41
+      },
+      "analysis": {
+        "summary": "Sporting dispose d'un léger avantage de forme après sa victoire contre Galatasaray et son succès à Braga, mais Lens vient de battre Lyon et s'était imposé au Slavia Prague. À Bollaert, les trois résultats restent plausibles.",
+        "keyFactors": [
+          "Sporting a battu Galatasaray 3-1 en Ligue des champions et Braga 3-1 en championnat.",
+          "Lens a gagné 3-2 au Slavia Prague puis 2-1 contre Lyon le 9 octobre.",
+          "SportyTrader estime environ 33 % pour Lens, 26 % pour le nul et 41 % pour Sporting, confirmant un match ouvert."
+        ],
+        "uncertainty": "La forme de Sporting est meilleure, mais l'avantage de Bollaert et l'aptitude lensoise à se relancer entretiennent les trois issues.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF7 n°128",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4945",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel J2",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "UEFA — Lens–Sporting, stats de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02aa-21c5353076b7-d9f0987bbdbd-1000--ligue-des-champions-journee-2-les-stats-cles-et-ce-qu-il-fau/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "Sports Mole — Lens–Sporting, preview 11/10",
+            "url": "https://www.sportsmole.co.uk/football/lens/champions-league/preview/lens-vs-sporting-lisbon-prediction-team-news-lineups_606703.html",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          },
+          {
+            "label": "SportyTrader — Lens–Sporting, résultats et probabilités 11/10",
+            "url": "https://www.sportytrader.com/pronostics/lens-sporting-portugal-378433/",
+            "accessedAt": "2026-10-12T06:47:09+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
