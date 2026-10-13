@@ -1,0 +1,423 @@
+{
+  "id": "lf8-141-2026-10-14",
+  "formula": 8,
+  "gridNumber": 141,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+  "validationDeadline": "2026-10-14T18:40:00+02:00",
+  "publishedAt": "2026-10-13T06:03:23.896+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Les huit rencontres ont été évaluées sportivement et des scénarios cohérents examinés, mais les répartitions observées sur la liste officielle FDJ sont presque toutes extrêmes (100/0/0, 0/0/100 ou 50/50/0), ce qui suggère un échantillon initial insuffisant. Ces proportions ne permettent pas de chiffrer honnêtement le potentiel de rapport et ne doivent pas être assimilées à des probabilités de résultat. Manchester City–PSG, Betis–Porto, Shakhtar–AEK et Feyenoord–Como sont suffisamment incertains pour qu'un simple portefeuille de favoris présente une faible probabilité de gain au rang plein. La mémoire v2 indique un net récent de -187,20 € sur 20 publications (rendement -85,9 %), -62,7 % sur les LF8 historiques, -63,7 % sur les premiers tickets récents et -88,0 % sur les tickets supplémentaires. Sans avantage financier étayé à ce stade, zéro combinaison et zéro euro virtuel restent le choix prudent."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Man. City",
+      "awayTeam": "Paris SG",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T21:00:00+02:00",
+      "probabilities": {
+        "home": 44,
+        "draw": 24,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Manchester City reste très légèrement favori à l'Etihad après son succès 3-0 chez Liverpool, mais le PSG, tenant du titre européen, conserve une très forte probabilité de marquer et de prendre des points. L'écart sportif réel paraît beaucoup plus faible que le 100 % de choix publics sur City.",
+        "keyFactors": [
+          "Le modèle Opta de 10 000 simulations donne 44,1 % de victoire à City, 23,9 % de nul et 32 % au PSG.",
+          "City a battu Liverpool 3-0 le 11 octobre, mais les buts sont venus après l'exclusion d'un milieu de Liverpool.",
+          "Le PSG a gagné 6-1 contre le Slovan Bratislava lors de son entrée européenne et garde de fortes ressources offensives."
+        ],
+        "uncertainty": "Deux équipes de premier plan ; les transitions, les rotations et la fatigue après le week-end peuvent inverser le pronostic. L'échantillon FDJ 100/0/0 paraît insuffisant pour chiffrer le rapport.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Opta Analyst — Man City–PSG, simulation 12 octobre",
+            "url": "https://theanalyst.com/articles/man-city-vs-psg-prediction-champions-league-preview-10-2026",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Reuters — Liverpool 0-3 Manchester City, 11 octobre",
+            "url": "https://www.reuters.com/sports/soccer/man-city-silence-hostile-anfield-with-3-0-win-over-liverpool-2026-10-11/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lask Linz",
+      "awayTeam": "Liverpool",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T18:45:00+02:00",
+      "probabilities": {
+        "home": 18,
+        "draw": 24,
+        "away": 58
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 0,
+        "away": 100,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Liverpool conserve un avantage technique en Autriche malgré sa lourde défaite à Manchester City et une série de blessures offensives. Le LASK a perdu de peu son ouverture européenne et le 2 ne doit pas être interprété comme certain.",
+        "keyFactors": [
+          "Liverpool avait battu l'Atlético Madrid 2-1 lors de la première journée de Ligue des champions.",
+          "Liverpool a perdu 3-0 contre Manchester City le 11 octobre après une expulsion, avec une disponibilité incertaine d'Isak, Gakpo et Szoboszlai.",
+          "LASK a été battu 1-0 par l'AEK Athènes en ouverture ; le terrain à Linz et sa saison autrichienne le rendent capable de résistance."
+        ],
+        "uncertainty": "La liste des absents de Liverpool varie selon les avant-matchs ; le 100 % du public sur Liverpool surestime la certitude sportive.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — LASK–Liverpool, preview 12 octobre",
+            "url": "https://www.sportsmole.co.uk/football/lask-linz/champions-league/preview/lask-vs-liverpool-prediction-team-news-lineups_606769.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "talkSPORT — LASK–Liverpool, enjeux et blessés 12 octobre",
+            "url": "https://talksport.com/football/4639614/what-time-lask-liverpool-reds-winless-five-anfield/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Reuters — victoire de City à Liverpool",
+            "url": "https://www.reuters.com/sports/soccer/man-city-silence-hostile-anfield-with-3-0-win-over-liverpool-2026-10-11/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Betis Séville",
+      "awayTeam": "FC Porto",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T21:00:00+02:00",
+      "probabilities": {
+        "home": 47,
+        "draw": 28,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Le Betis part légèrement devant grâce à sa victoire à Lille et à son terrain, mais Porto reste une équipe solide sur la scène européenne et le match est bien plus équilibré que la répartition FDJ initiale.",
+        "keyFactors": [
+          "Le Betis a remporté sa première rencontre européenne 3-2 à Lille.",
+          "Porto a perdu 2-0 face à City lors de la première journée, sans que cette défaite prouve une infériorité marquée face au Betis.",
+          "Le contexte de reprise de C1 du Betis et la discipline généralement attendue de Porto rendent le nul important."
+        ],
+        "uncertainty": "Composition portugaise et disponibilité défensive à confirmer ; le 100/0/0 FDJ ne constitue pas une estimation fiable.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — Betis–Porto, forme et équipes 12 octobre",
+            "url": "https://www.sportsmole.co.uk/football/betis/champions-league/preview/betis-vs-porto-prediction-team-news-lineups_606779.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — programme de phase de ligue Real Betis–Porto",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-2176fe62fa75-93aa12e28c4c-1000--ligue-des-champions-le-calendrier-de-la-phase-de-ligue-par-e/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Fenerbahce",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T21:00:00+02:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 27,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 50,
+        "away": 0,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Aston Villa possède un avantage à Villa Park et une victoire européenne initiale à Bruges, mais son début en Premier League est irrégulier et Fenerbahçe peut profiter des absences possibles pour obtenir un point.",
+        "keyFactors": [
+          "Aston Villa s'est imposé 3-2 contre Club Bruges lors de son premier match de C1.",
+          "Villa a concédé 2-2 contre Brentford le week-end précédent et se situe seulement en milieu-bas du classement national.",
+          "Fenerbahçe a fait 1-1 contre Roma lors de sa première journée et dispose de joueurs expérimentés."
+        ],
+        "uncertainty": "Incertain sur certaines disponibilités défensives côté Villa ; le 50/50/0 FDJ illustre un échantillon de choix très faible.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — Aston Villa–Fenerbahçe, forme et absences 12 octobre",
+            "url": "https://www.sportsmole.co.uk/football/aston-villa/champions-league/preview/aston-villa-vs-fenerbahce-prediction-team-news-lineups_606758.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Football UEFA — Aston Villa–Fenerbahçe, résultats et effectifs",
+            "url": "https://www.football-uefa.com/match_preview/aston-villa-vs-fenerbahce-14-oct-2026/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Shakht.Donetsk",
+      "awayTeam": "AEK Athènes",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T21:00:00+02:00",
+      "probabilities": {
+        "home": 41,
+        "draw": 30,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Shakhtar est légèrement favori, mais son match délocalisé à Stamford Bridge réduit le bénéfice de recevoir. L'AEK a battu LASK et possède des chances proches de celles du club ukrainien.",
+        "keyFactors": [
+          "Le Shakhtar a obtenu 1-1 chez le PSV lors de la première journée.",
+          "L'AEK Athènes a gagné 1-0 contre LASK et se présente avec trois points européens.",
+          "Le Shakhtar joue sa rencontre dite à domicile à Londres, et non en Ukraine, ce qui tempère l'avantage local."
+        ],
+        "uncertainty": "Match très équilibré, avec peu de recul européen cette saison ; le 100 % FDJ pour Shakhtar est trop concentré pour être un signal fiable.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — Shakhtar–AEK, avant-match 12 octobre",
+            "url": "https://www.sportsmole.co.uk/football/shakhtar-donetsk/champions-league/preview/shakhtar-vs-aek-athens-prediction-team-news-lineups_606736.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "The Stats Zone — Shakhtar–AEK, contexte du terrain et forme 12 octobre",
+            "url": "https://www.thestatszone.com/shakhtar-donetsk-vs-aek-athens-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-229866",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Feyenoord",
+      "awayTeam": "Como 1907",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T18:45:00+02:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 29,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 0,
+        "away": 50,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Feyenoord a nettement réagi en championnat depuis son 5-1 subi à Barcelone et bénéficie de De Kuip. Como a impressionné contre Leipzig, mais le 0-0 contre Roma en Serie A illustre qu'il ne domine pas systématiquement.",
+        "keyFactors": [
+          "Feyenoord a battu AZ Alkmaar 2-0 le week-end et avait gagné plusieurs rencontres de championnat avant cela.",
+          "Como a battu Leipzig 4-1 pour sa première apparition en C1, puis a fait 0-0 contre Roma.",
+          "Le terrain de De Kuip est un avantage réel, malgré des absents défensifs possibles côté Feyenoord."
+        ],
+        "uncertainty": "La qualité offensive des deux équipes et leurs formes différentes selon les compétitions rendent l'affiche très serrée ; 50/0/50 FDJ trop instable.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — Feyenoord–Como, preview du 12 octobre",
+            "url": "https://www.sportsmole.co.uk/football/feyenoord/champions-league/preview/feyenoord-vs-como-prediction-team-news-lineups_606743.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "The Stats Zone — Feyenoord–Como, bilan récent",
+            "url": "https://www.thestatszone.com/feyenoord-vs-como-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-229799",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — fiche Feyenoord–Como et forme actuelle",
+            "url": "https://www.uefa.com/uefachampionsleague/match/2049584/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bodø/Glimt",
+      "awayTeam": "Dortmund",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T21:00:00+02:00",
+      "probabilities": {
+        "home": 26,
+        "draw": 26,
+        "away": 48
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Dortmund bénéficie d'une supériorité de niveau et a commencé sa campagne européenne par une victoire contre Villarreal. Bodø/Glimt conserve néanmoins un danger à Aspmyra malgré la lourde défaite au Bayern.",
+        "keyFactors": [
+          "Dortmund a battu Villarreal 3-2 lors de son premier match de C1.",
+          "Bodø/Glimt a perdu 5-0 au Bayern, sans que cela efface entièrement sa force habituelle à domicile.",
+          "Plusieurs indisponibilités sont mentionnées des deux côtés, dont une suspension en défense pour Bodø/Glimt."
+        ],
+        "uncertainty": "Le déplacement en Norvège peut peser sur Dortmund ; la répartition FDJ à 100 % sur Bodø/Glimt contredit le niveau sportif et peut refléter une très faible participation initiale.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — Bodø/Glimt–Dortmund, preview du 12 octobre",
+            "url": "https://www.sportsmole.co.uk/football/bodo-glimt/champions-league/preview/bodoglimt-vs-dortmund-prediction-team-news-lineups_606732.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "SportyTrader — Bodø/Glimt–Dortmund, absents et forme",
+            "url": "https://www.sportytrader.com/pronostics/bodo-glimt-borussia-dortmund-378611/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Real Madrid",
+      "competition": "UEFA Champions League 2026/27",
+      "startsAt": "2026-10-14T21:00:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 30,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 50,
+        "away": 0,
+        "accessedAt": "2026-10-13T06:01:58+02:00"
+      },
+      "analysis": {
+        "summary": "Le Real Madrid possède un léger avantage qualitatif, mais la Roma évolue à l'Olimpico et a résisté à Como malgré une expulsion. Les absences potentielles côté romain et plusieurs retours de suspension côté Real renforcent le 2.",
+        "keyFactors": [
+          "Le Real Madrid a remporté son ouverture européenne 2-1 contre l'Inter.",
+          "La Roma a fait 0-0 contre Como en étant réduite à dix après l'expulsion de Malen et compte des absents importants.",
+          "Le Real peut récupérer Camavinga, Güler et Bernardo Silva, indisponibles pour raisons disciplinaires lors du match contre l'Inter."
+        ],
+        "uncertainty": "Roma peut prendre des points à domicile si Madrid manque de maîtrise ; 50/50/0 FDJ n'offre pas de base de partage du public suffisamment stable.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°141, grille et répartition au moment de la consultation",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/838",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la deuxième journée",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-tout-le-calendrier-de-la-phas/",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — Roma–Real Madrid, preview 12 octobre",
+            "url": "https://www.sportsmole.co.uk/football/roma/champions-league/preview/roma-vs-real-madrid-prediction-team-news-lineups_606745.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Sports Mole — Onze possible du Real et retours de joueurs",
+            "url": "https://www.sportsmole.co.uk/football/real-madrid/champions-league/predicted-lineups/will-trent-keep-his-place-how-real-madrid-could-line-up-against-roma_606750.html",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          },
+          {
+            "label": "Chiesa di Totti — Como 0-0 Roma, bilan du match",
+            "url": "https://www.chiesaditotti.com/roma-matchday-coverage/43687/como-0-roma-0-match-ratings",
+            "accessedAt": "2026-10-13T06:01:58+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
