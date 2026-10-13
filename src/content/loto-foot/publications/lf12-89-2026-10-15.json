@@ -1,0 +1,589 @@
+{
+  "id": "lf12-89-2026-10-15",
+  "formula": 12,
+  "gridNumber": 89,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+  "validationDeadline": "2026-10-15T18:40:00+02:00",
+  "publishedAt": "2026-10-13T10:36:23+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "La grille LF12 n°89 a fait l'objet d'une analyse sportive sur douze rencontres et d'une confrontation aux sélections FDJ. Des écarts relatifs existent, en particulier sur Lech–Leverkusen, Salzbourg–Milan et Celta–Juventus, mais ces écarts ne permettent pas de calculer une espérance de gain positive : le pool et la répartition des combinaisons adverses restent inconnus. Les matchs Marseille–Olympiakos, Hoffenheim–Besiktas, Dinamo–Anderlecht, Union–Real Sociedad, Salzbourg–Milan et Lyon–Crystal Palace ajoutent une forte incertitude combinatoire. La mémoire v2 signale -187,20 € de net sur les vingt dernières publications (rendement -85,9 %), -81,1 % sur les LF12 historiques (aucune publication bénéficiaire sur 25) et -88 % sur les tickets supplémentaires récents. Sans scénario dont la valeur financière est suffisamment étayée pour compenser les mises virtuelles, décision de ne retenir aucun ticket et de préserver 0 € de mise."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Olympiakos",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 41,
+        "draw": 27,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 38,
+        "draw": 19,
+        "away": 43,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille bénéficie du Vélodrome, mais son effectif diminué et la forme moins convaincante des dernières semaines neutralisent une partie de cet avantage. Olympiakos reste une menace crédible après son succès européen inaugural.",
+        "keyFactors": [
+          "Les indisponibilités annoncées à Marseille concernent plusieurs milieux et attaquants, dont Gouiri, Harit et Kondogbia.",
+          "Forebet donne un léger avantage au club français, sans écart décisif (41/28/31).",
+          "La proportion FDJ sur Olympiakos est supérieure à notre estimation, contrairement au nul."
+        ],
+        "uncertainty": "Les compositions définitives et la disponibilité de certains cadres demeurent incertaines; l'écart entre les trois issues est limité.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "FotMob — Marseille–Olympiakos, effectifs et absences",
+            "url": "https://www.fotmob.com/fr/matches/marseille-vs-olympiacos/2gdvlz",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Marseille–Olympiakos, forme et projection",
+            "url": "https://www.forebet.com/en/football/matches/olympique-marseille-olympiacos-fc-2550361",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "OFI Crète",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 20,
+        "away": 12
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 9,
+        "away": 10,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Rennes reste nettement favori à domicile, mais son match nul inaugural contre Sturm Graz contraste avec le succès 2-0 de l'OFI sur Hoffenheim. L'opposition crétoise paraît plus résistante que le seul pourcentage de choix FDJ ne le suggère.",
+        "keyFactors": [
+          "Rennes a fait 0-0 lors de la première journée chez Sturm Graz.",
+          "L'OFI a battu Hoffenheim 2-0 en ouverture européenne.",
+          "Le facteur terrain et la qualité du groupe rennais justifient un favori, mais 81 % de choix publics surestiment la certitude."
+        ],
+        "uncertainty": "Une première confrontation entre les clubs et un OFI irrégulier selon les compétitions réduisent la fiabilité de l'écart exact.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Coteur — Rennes–OFI, aperçu du 12 octobre",
+            "url": "https://www.coteur.com/match/pronostic-rennes-ofi-crete-1606227",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Wincomparator — Rennes–OFI, cotes et statistiques",
+            "url": "https://www.wincomparator.com/fr-fr/pronostics/rennes-ofi-crete-8786969/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Benfica",
+      "awayTeam": "Celtic",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 75,
+        "draw": 19,
+        "away": 6,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Benfica est le favori à Lisbonne et a déjà remporté un match européen difficile contre Milan. Celtic a repris confiance en championnat face à Motherwell, mais son parcours récent reste irrégulier.",
+        "keyFactors": [
+          "Benfica a gagné 2-0 à Milan lors de la première journée.",
+          "Les projections de Forebet donnent Benfica favori, tout en laissant une place significative au nul.",
+          "Celtic vient de battre Motherwell 2-0, après une série négative."
+        ],
+        "uncertainty": "La dynamique récente de Celtic peut évoluer et ses choix tactiques à l'extérieur restent difficiles à prévoir.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Benfica–Celtic, statistiques et probabilités",
+            "url": "https://www.forebet.com/en/football/matches/sl-benfica-celtic-2550366",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "The Times — Celtic, victoire contre Motherwell",
+            "url": "https://www.thetimes.com/sport/scottish/article/celtic-duran-nygren-motherwell-live-match-result-score-h8hpn6zzv",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Sturm Graz",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 66,
+        "draw": 22,
+        "away": 12
+      },
+      "fdjSelectionDistribution": {
+        "home": 76,
+        "draw": 14,
+        "away": 10,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Bournemouth bénéficie d'un avantage de niveau et de terrain, tandis que Sturm Graz arrive avec des résultats plutôt solides à l'extérieur. Plusieurs absences côté anglais rendent la victoire moins acquise que ne l'indique la forte concentration FDJ.",
+        "keyFactors": [
+          "Bournemouth a remporté son ouverture européenne mais présente des blessures touchant notamment le milieu et l'attaque.",
+          "Sturm Graz a gagné trois de ses six derniers matchs selon le relevé Forebet.",
+          "La FDJ concentre 76 % des sélections sur Bournemouth, un signal public plutôt que probabilité calculée."
+        ],
+        "uncertainty": "L'ampleur exacte des rotations et la disponibilité des joueurs offensifs de Bournemouth seront mieux connues à l'approche du match.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Bournemouth–Sturm Graz, forme et absents",
+            "url": "https://www.forebet.com/en/football/matches/bournemouth-sturm-graz-2550363",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Unibet — Bournemouth–Sturm Graz, contexte et cotes",
+            "url": "https://www.unibet.fr/paris-sportifs/europa-league-bournemouth-sturmgraz",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hoffenheim",
+      "awayTeam": "Besiktas",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 33,
+        "draw": 28,
+        "away": 39
+      },
+      "fdjSelectionDistribution": {
+        "home": 36,
+        "draw": 32,
+        "away": 32,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Le Besiktas arrive avec une dynamique supérieure à Hoffenheim, qui a enchaîné les défaites en Bundesliga et perdu en ouverture européenne. Le terrain allemand et les performances irrégulières du club turc à l'extérieur empêchent de faire du 2 une certitude.",
+        "keyFactors": [
+          "Forebet relève cinq défaites d'Hoffenheim en sept rencontres de saison.",
+          "Besiktas a remporté six de ses sept récents matchs de championnat.",
+          "La victoire à l'extérieur reste légèrement plus probable, mais l'écart estimé est faible."
+        ],
+        "uncertainty": "Le jeu peut basculer sur un détail; le nul et un sursaut du club allemand sont loin d'être négligeables.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Hoffenheim–Besiktas, forme et projection",
+            "url": "https://www.forebet.com/en/football/matches/hoffenheim-besiktas-2550367",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "Anderlecht",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 43,
+        "draw": 28,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 46,
+        "draw": 32,
+        "away": 22,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Affiche équilibrée : le Dinamo s'appuie sur son bilan à domicile, mais Anderlecht affiche une bonne série en championnat et vient de perdre de peu contre Lyon en Europe. Les modèles externes divergent sensiblement, ce qui invite à réduire la confiance.",
+        "keyFactors": [
+          "Le Dinamo dispose d'une forte réussite à domicile cette saison selon Forebet.",
+          "Anderlecht a remporté dix de ses quinze derniers matchs, toutes compétitions confondues, selon Forebet.",
+          "Les simulations FootySim penchent pour Dinamo (48/28/24) alors que Forebet privilégie Anderlecht, signalant une forte incertitude."
+        ],
+        "uncertainty": "La divergence entre évaluations extérieures et le faible historique européen commun rendent cette affiche difficile à calibrer.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Dinamo Zagreb–Anderlecht, statistiques détaillées",
+            "url": "https://www.forebet.com/en/football/matches/dinamo-zagreb-anderlecht-2550360",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "FootySim — simulation Dinamo–Anderlecht",
+            "url": "https://stats.footysim.io/europa-league/2026-2027/match/102-dinamo-zagreb-vs-rsc-anderlecht/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Juventus Turin",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 28,
+        "away": 45
+      },
+      "fdjSelectionDistribution": {
+        "home": 17,
+        "draw": 29,
+        "away": 54,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "La Juventus conserve un avantage de qualité et de dynamique, mais la rencontre à Vigo et plusieurs incertitudes d'effectif réduisent le poids du favori italien. Le Celta n'est pas à écarter sur sa pelouse.",
+        "keyFactors": [
+          "La Juventus est favorite dans le modèle Forebet, qui lui accorde 44 % de victoire.",
+          "FotMob signale une suspension pour Lloyd Kelly côté Juventus.",
+          "Le Celta aborde le match avec une dynamique récente limitée; l'avantage du terrain maintient une chance crédible de surprise."
+        ],
+        "uncertainty": "La situation des joueurs déclarés incertains et la composition finale des deux équipes peuvent modifier sensiblement l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "FotMob — Celta–Juventus, absences et aperçu",
+            "url": "https://www.fotmob.com/matches/juventus-vs-celta-vigo/38nowk",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Celta Vigo–Juventus, projection",
+            "url": "https://www.forebet.com/en/football/matches/celta-vigo-juventus-2550362",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Saint-Gilloise",
+      "awayTeam": "Real Sociedad",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T18:45:00+02:00",
+      "probabilities": {
+        "home": 43,
+        "draw": 28,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 37,
+        "draw": 32,
+        "away": 31,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "L'Union Saint-Gilloise bénéficie d'une excellente série et reçoit une Real Sociedad dangereuse techniquement mais moins convaincante à l'extérieur. L'équilibre entre intensité belge et maîtrise espagnole laisse trois issues plausibles.",
+        "keyFactors": [
+          "L'Union reste invaincue depuis quatorze rencontres selon l'avant-match Forebet.",
+          "La Real Sociedad a rencontré des difficultés sur neuf de ses onze derniers déplacements.",
+          "Des incertitudes défensives concernent la Real Sociedad, notamment sur le côté droit."
+        ],
+        "uncertainty": "La forme de l'Union a été acquise face à une variété d'adversaires; la capacité espagnole à résister au pressing reste déterminante.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Union Saint-Gilloise–Real Sociedad, aperçu du 12 octobre",
+            "url": "https://www.forebet.com/en/football-match-previews/31280-union-saint-gilloise-vs-real-sociedad-form-surge-meets-european-nous",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Real Sociedad — prochaine rencontre officielle",
+            "url": "https://www.realsociedad.eus/fr/equipe/real-sociedad",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Lech Poznan",
+      "awayTeam": "Leverkusen",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T18:45:00+02:00",
+      "probabilities": {
+        "home": 22,
+        "draw": 25,
+        "away": 53
+      },
+      "fdjSelectionDistribution": {
+        "home": 7,
+        "draw": 8,
+        "away": 85,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Leverkusen est supérieur sur le papier et a bien démarré sa campagne européenne, tandis que Lech Poznan a lourdement chuté à Crystal Palace. Le déplacement en Pologne rend néanmoins 85 % de choix publics sur le 2 excessivement catégoriques.",
+        "keyFactors": [
+          "Leverkusen a battu Celje 2-0 lors de sa première journée européenne.",
+          "Lech Poznan a perdu 4-0 à Crystal Palace en ouverture.",
+          "Les champions de Pologne jouent chez eux et disposent d'une capacité de réaction, sans effacer l'avantage allemand."
+        ],
+        "uncertainty": "Un succès de Leverkusen est l'issue dominante, mais les incertitudes propres à un déplacement européen limitent son niveau de confiance.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Bundesliga.com — Lech Poznan–Leverkusen, aperçu du 12 octobre",
+            "url": "https://www.bundesliga.com/en/bundesliga/news/lech-poznan-bayer-leverkusen-live-europa-league-blog-preview-report-maza-quansah-39520",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Salzbourg",
+      "awayTeam": "Milan AC",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T18:45:00+02:00",
+      "probabilities": {
+        "home": 33,
+        "draw": 29,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 19,
+        "draw": 26,
+        "away": 55,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Milan dispose d'une supériorité individuelle, mais a débuté par une défaite contre Benfica et se montre peu tranchant à l'extérieur. Salzbourg arrive en forme et le duel semble sensiblement plus ouvert que la répartition FDJ ne le laisse paraître.",
+        "keyFactors": [
+          "Salzbourg a gagné quatre de ses six dernières rencontres, toutes compétitions confondues.",
+          "Milan a perdu son premier match européen contre Benfica et a concédé plusieurs nuls à l'extérieur.",
+          "Forebet rapproche les trois issues (30/32/38), ce qui soutient une victoire italienne seulement légèrement favorite."
+        ],
+        "uncertainty": "Plusieurs absences sont annoncées des deux côtés; leur incidence réelle dépendra des rotations et du onze titulaire.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Salzbourg–Milan, forme et analyse",
+            "url": "https://www.forebet.com/en/football/matches/rb-salzburg-milan-2550359",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "FotMob — Salzbourg–Milan, absences",
+            "url": "https://www.fotmob.com/fr/matches/milan-vs-salzburg/2uqs3x",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Lyon",
+      "awayTeam": "Crystal Palace",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T18:45:00+02:00",
+      "probabilities": {
+        "home": 43,
+        "draw": 28,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 25,
+        "away": 23,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Lyon possède un avantage à domicile après son succès 2-1 à Anderlecht, mais Crystal Palace arrive fort d'une victoire 4-0 contre Lech Poznan. Le retour de Pierre Sage face à son ancien club ajoute une dimension tactique importante.",
+        "keyFactors": [
+          "Les deux équipes ont gagné leur match européen d'ouverture.",
+          "Lyon reçoit au Groupama Stadium où sa dynamique récente est plutôt favorable.",
+          "Crystal Palace a démontré son efficacité contre Lech Poznan; le statut de favori lyonnais reste modéré."
+        ],
+        "uncertainty": "Les adaptations tactiques de Pierre Sage et l'intensité de Palace peuvent transformer un duel initialement équilibré.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "UEFA — aperçu officiel de la 2e journée de Ligue Europa (12 octobre 2026)",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02aa-21c6de347557-a53a4f1ec740-1000--europa-league-matchday-2-briefing-juventus-benfica-lyon-/",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "L'Équipe — Lyon–Crystal Palace, contexte de la compétition",
+            "url": "https://www.lequipe.fr/Football/Actualites/Reception-de-crystal-palace-deplacement-a-hoffenheim-la-suite-du-programme-de-l-ol-en-ligue-europa/1719226",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Forebet — Lyon–Crystal Palace, forme des équipes",
+            "url": "https://www.forebet.com/en/football/matches/lyon-crystal-palace-2550356",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "CSKA Sofia",
+      "awayTeam": "Monaco",
+      "competition": "UEFA Conference League 2026/27",
+      "startsAt": "2026-10-15T18:45:00+02:00",
+      "probabilities": {
+        "home": 19,
+        "draw": 24,
+        "away": 57
+      },
+      "fdjSelectionDistribution": {
+        "home": 14,
+        "draw": 13,
+        "away": 73,
+        "accessedAt": "2026-10-13T10:31:34+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco reste favori à Sofia grâce à sa profondeur d'effectif et à sa qualification européenne convaincante, mais le CSKA demeure invaincu récemment et accueille cette première journée de Conférence. L'écart ne justifie pas de traiter le 2 comme une certitude.",
+        "keyFactors": [
+          "Monaco s'est qualifié contre Gornik Zabrze sur un score cumulé de 7-3.",
+          "Le CSKA Sofia reste invaincu sur ses sept derniers matchs après son élimination en barrage d'Europa League.",
+          "Monaco vient d'être tenu en échec 2-2 par Toulouse; le déplacement et la dynamique locale tempèrent son statut de favori."
+        ],
+        "uncertainty": "Le CSKA peut défendre bas et exploiter son avantage du terrain; une rotation monégasque ou une efficacité offensive réduite rendraient le nul plus probable.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF12 n°89 et répartition des sélections",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/581",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "AS Monaco — présentation officielle du déplacement à Sofia",
+            "url": "https://www.asmonaco.com/fr/news/le-planning-des-rouge-et-blanc-avant-les-voyages-a-sofia-et-lorient",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          },
+          {
+            "label": "Sports Mole — CSKA Sofia–Monaco, aperçu du 13 octobre",
+            "url": "https://www.sportsmole.co.uk/football/cska-sofia/europa-conference-league/preview/cska-sofia-vs-monaco-prediction-team-news-lineups_606781.html",
+            "accessedAt": "2026-10-13T10:33:26+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
