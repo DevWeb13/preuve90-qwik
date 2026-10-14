@@ -1,0 +1,644 @@
+{
+  "id": "lf15-86-2026-10-17",
+  "formula": 15,
+  "gridNumber": 86,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2034",
+  "validationDeadline": "2026-10-17T20:40:00+02:00",
+  "publishedAt": "2026-10-14T10:11:24+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Quinze rencontres analysées sportivement. Les scénarios 1N2 restent incertains sur de nombreuses affiches (Le Havre–Auxerre, Paris FC–Rennes, Leeds–Manchester United, Leverkusen–Fribourg, Milan–Atalanta) et l'addition de favoris ne garantit pas un rang payé. Les distributions FDJ observées comportent des parts nulles pour des issues sportives plausibles et varient fortement, ce qui suggère un échantillon de parieurs trop faible pour en inférer de façon fiable la concurrence sur les tickets. Un écart entre probabilité sportive et part de sélections n'est pas une espérance de gain positive démontrée. La mémoire v2 indique -178,40 € de net récent (-87,5 %) sur 20 publications, -74,8 % pour LF15 historiques, -61,7 % pour les premiers tickets récents et -89,9 % pour les tickets supplémentaires. Les rapports passés étant incertains et la rentabilité marginale des tickets ajoutés très défavorable, aucune combinaison ne possède un fondement financier suffisamment solide. Décision explicite: skip, 0 combinaison, 0 € de mise virtuelle."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lille",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 53,
+        "draw": 26,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 46,
+        "away": 0,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Lille est favori à domicile, mais les absences défensives et la réaction possible de Brest réduisent l'écart.",
+        "keyFactors": [
+          "Lille reste dans le haut du classement malgré son revers contre Nice; Tiago Santos est indisponible après une grave blessure."
+        ],
+        "uncertainty": "Le onze défensif de Lille et les absents de Brest peuvent infléchir le match.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "FotMob — Lille–Brest, effectifs et forme",
+            "url": "https://www.fotmob.com/fr/matches/brest-vs-lille/2fo2ub",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Reuters — grave blessure de Tiago Santos",
+            "url": "https://www.reuters.com/sports/soccer/lille-consider-legal-action-after-defender-suffers-ruptured-acl-tackle-2026-10-13/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T20:45:00+02:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Troyes",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 24,
+        "draw": 27,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 23,
+        "away": 20,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Lens garde l'avantage sportif face à Troyes, dont le jeu défensif et les résultats récents sont préoccupants.",
+        "keyFactors": [
+          "Troyes reste sur une série de résultats négatifs; Lens vient de battre Lyon et domine globalement les confrontations récentes."
+        ],
+        "uncertainty": "La fatigue de Lens après l'Europe et une réaction troyenne peuvent redistribuer les issues.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Forebet — Troyes–Lens, forme et H2H",
+            "url": "https://www.forebet.com/fr/football-match-previews/31162-troyes-seek-redemption-as-lens-aim-to-extend-dominance-in-ligue-1-clash",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "ESTACWEB — avant-match Troyes–Lens",
+            "url": "https://www.estacweb.fr/fil-infos/avant-match-l-estac-veut-profiter-de-la-fatigue-europeenne-de-lens",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T20:45:00+02:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "Angers",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 31,
+        "draw": 28,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 57,
+        "away": 2,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille a davantage d'arguments individuels et l'historique des confrontations, mais sa dynamique actuelle et l'enchaînement européen limitent son statut de favori.",
+        "keyFactors": [
+          "Oddzone projette environ 44 % de victoire marseillaise et 30 % de succès angevin; Angers reçoit après un lourd revers à Brest."
+        ],
+        "uncertainty": "Rotations européennes, état physique du groupe et efficacité d'Angers à domicile.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Oddzone — Angers–Marseille, forme et cotes",
+            "url": "https://www.oddzone.fr/matchs/angers-marseille-2026-10-18/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 38,
+        "draw": 30,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 39,
+        "draw": 41,
+        "away": 20,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Rencontre serrée du bas de classement avec un léger avantage du terrain pour Le Havre, atténué par la forme récente d'Auxerre.",
+        "keyFactors": [
+          "Forebet estime 41/29/30 et les cotes Unibet indiquent un rapport très serré; Le Havre peine à prendre des points."
+        ],
+        "uncertainty": "La première ouverture du score et les absences rendent les trois issues crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Forebet — Le Havre–Auxerre, projections",
+            "url": "https://www.forebet.com/en/football/matches/le-havre-auxerre-2496243",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Unibet — Le Havre–Auxerre, cotes",
+            "url": "https://www.unibet.fr/paris-sportifs/ligue1-lehavre-auxerre",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T17:15:00+02:00"
+    },
+    {
+      "position": 5,
+      "homeTeam": "Lorient",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 23,
+        "draw": 29,
+        "away": 48
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 32,
+        "away": 68,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco se présente en favori après son bon départ en Ligue 1, sans être à l'abri au Moustoir.",
+        "keyFactors": [
+          "Les classements Sofascore placent Monaco en tête; Lorient conserve l'avantage du terrain et une capacité à accrocher les visiteurs."
+        ],
+        "uncertainty": "La récupération après les matchs européens et les choix d'effectif monégasques.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Sofascore — Lorient–Monaco, calendrier et classement",
+            "url": "https://www.sofascore.com/fr/football/match/lorient-as-monaco/dIsgI",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Sportytrader — Lorient–Monaco, forme et effectifs",
+            "url": "https://www.sportytrader.com/resultat-direct/lorient-monaco-8532689/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Lyon",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 56,
+        "draw": 24,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 3,
+        "draw": 45,
+        "away": 52,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Lyon est favori par sa meilleure attaque et sa solidité à domicile; Nice a récemment réagi mais connaît des difficultés en déplacement.",
+        "keyFactors": [
+          "Oddzone place Lyon autour de 56 %; Sports Mole souligne la bonne forme lyonnaise avant la défaite à Lens."
+        ],
+        "uncertainty": "Les rotations lyonnaises après l'Europe et la confiance de Nice après une victoire compliquent l'estimation.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Oddzone — Lyon–Nice, probabilités et forme",
+            "url": "https://www.oddzone.fr/matchs/lyon-nice-2026-10-18/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Sports Mole — Lyon–Nice, comparatif statistique",
+            "url": "https://www.sportsmole.co.uk/football/ligue-1/lyon-vs-nice_game_260373.html",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T20:45:00+02:00"
+    },
+    {
+      "position": 7,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 32,
+        "draw": 27,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 36,
+        "away": 43,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Rennes conserve un avantage mesuré, mais Paris FC est solide à Jean-Bouin et se situe près des Bretons au classement.",
+        "keyFactors": [
+          "Rennes sort d'une victoire 4-1 contre Auxerre; Forebet favorise Rennes à 46 %, mais reconnaît le bon bilan à domicile du Paris FC."
+        ],
+        "uncertainty": "La proximité de niveau et les adaptations offensives des deux équipes peuvent renforcer le nul.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Paris FC — match-center officiel du 18 octobre",
+            "url": "https://parisfc.fr/match-center/men/118516/2026-10-18/paris-fc-vs-rennes-ligue-1-mcdonalds/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Forebet — Paris FC–Rennes, analyse",
+            "url": "https://www.forebet.com/en/football-match-previews/31165-rennes-seek-to-extend-strong-start-against-resilient-paris-fc",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T17:15:00+02:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League 2026/27",
+      "probabilities": {
+        "home": 20,
+        "draw": 26,
+        "away": 54
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 61,
+        "away": 39,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Arsenal reste favori malgré un déplacement chez un Nottingham Forest en quête de rebond.",
+        "keyFactors": [
+          "Arsenal a battu Leeds 2-1 après avoir été mené; Forest a perdu 3-1 contre Crystal Palace; Sports Mole situe Arsenal proche de 54 %."
+        ],
+        "uncertainty": "L'évolution tactique sous Oliver Glasner et les blessures possibles côté Arsenal.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Sports Mole — Nottingham Forest–Arsenal, statistiques",
+            "url": "https://www.sportsmole.co.uk/football/premier-league/nottingham-forest-vs-arsenal_game_260343.html",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Reuters — Arsenal bat Leeds, 10 octobre",
+            "url": "https://www.reuters.com/sports/soccer/artetas-arsenal-survive-scare-see-off-feisty-leeds-2026-10-10/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "The Guardian — Palace bat Nottingham Forest",
+            "url": "https://www.theguardian.com/football/2026/oct/11/crystal-palace-nottingham-forest-premier-league-match-report",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Leeds United",
+      "awayTeam": "Manchester United",
+      "competition": "Premier League 2026/27",
+      "probabilities": {
+        "home": 38,
+        "draw": 30,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 41,
+        "away": 2,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Derby peu lisible où Leeds bénéficie d'Elland Road alors que United traverse une mauvaise série.",
+        "keyFactors": [
+          "Leeds a résisté à Arsenal avant de s'incliner 2-1; United a perdu 2-0 chez l'Atlético; Oddzone juge la double chance Leeds/nul plausible."
+        ],
+        "uncertainty": "La rotation de United après la Ligue des champions et l'intensité du derby peuvent inverser le favori.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Reuters — Arsenal–Leeds",
+            "url": "https://www.reuters.com/sports/soccer/artetas-arsenal-survive-scare-see-off-feisty-leeds-2026-10-10/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "The Guardian — Atlético–Manchester United",
+            "url": "https://www.theguardian.com/football/live/2026/oct/13/atletico-madrid-v-manchester-united-champions-league-live",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Oddzone — Leeds–Manchester United, cotes",
+            "url": "https://www.oddzone.fr/matchs/leeds-manchester-united-2026-10-18/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Brighton",
+      "awayTeam": "Crystal Palace",
+      "competition": "Premier League 2026/27",
+      "probabilities": {
+        "home": 54,
+        "draw": 25,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 63,
+        "draw": 32,
+        "away": 5,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Brighton est favori à domicile, mais Crystal Palace reste dangereux après son succès contre Forest.",
+        "keyFactors": [
+          "Brighton a gagné 2-0 contre Sunderland; Palace a gagné 3-1 contre Forest; Palace rejoue en Ligue Europa le 15 octobre."
+        ],
+        "uncertainty": "L'effet de la fatigue européenne de Crystal Palace et les compositions du derby.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Brighton — confirmation officielle de la date contre Palace",
+            "url": "https://www.brightonandhovealbion.com/media-article/new-date-for-crystal-palace-match-at-the-amex",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Oddzone — Brighton–Crystal Palace, projection",
+            "url": "https://www.oddzone.fr/matchs/brighton-crystal-palace-2026-10-18/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "The Guardian — Crystal Palace–Forest, compte rendu",
+            "url": "https://www.theguardian.com/football/2026/oct/11/crystal-palace-nottingham-forest-premier-league-match-report",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T15:00:00+02:00"
+    },
+    {
+      "position": 11,
+      "homeTeam": "Leverkusen",
+      "awayTeam": "Fribourg",
+      "competition": "Bundesliga 2026/27",
+      "probabilities": {
+        "home": 37,
+        "draw": 33,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 34,
+        "away": 14,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Affiche très ouverte entre un Leverkusen offensif à domicile et Fribourg invaincu et en tête de Bundesliga.",
+        "keyFactors": [
+          "Leverkusen a inscrit 14 buts en cinq journées; Fribourg affiche une défense solide; Forebet propose 32/35/33."
+        ],
+        "uncertainty": "Fatigue de Leverkusen après son déplacement européen et suspension côté Fribourg.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Forebet — Leverkusen–Fribourg, forme et compositions",
+            "url": "https://www.forebet.com/en/football-match-previews/31158-leverkusen-host-league-leading-freiburg-at-bayarena-stats-suggest-a-close-encounter",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A 2026/27",
+      "probabilities": {
+        "home": 47,
+        "draw": 29,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 35,
+        "draw": 63,
+        "away": 2,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Milan est légèrement favori mais le nul a un poids significatif dans cette opposition de Serie A.",
+        "keyFactors": [
+          "Oddzone relève deux victoires milanaises sur trois réceptions récentes et une mauvaise série de l'Atalanta."
+        ],
+        "uncertainty": "La récupération après les rencontres européennes et les compositions restent incertaines.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Oddzone — Milan–Atalanta, cotes et forme",
+            "url": "https://www.oddzone.fr/matchs/ac-milan-atalanta-2026-10-18/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Sky Sport — calendrier officiel Milan–Atalanta",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-7/milan-atalanta",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T18:00:00+02:00"
+    },
+    {
+      "position": 13,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Lazio Rome",
+      "competition": "Serie A 2026/27",
+      "probabilities": {
+        "home": 43,
+        "draw": 31,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 1,
+        "draw": 38,
+        "away": 61,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Juventus garde un léger avantage à domicile, sérieusement réduit par des absences et le match européen du jeudi.",
+        "keyFactors": [
+          "La Gazzetta présente plusieurs joueurs indisponibles à Turin; Juventus joue à Vigo le jeudi avant Lazio; les choix FDJ semblent peu représentatifs."
+        ],
+        "uncertainty": "La gravité réelle des absences et les rotations après Vigo pourraient déplacer le rapport de force.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Juventus — match-center et calendrier Serie A",
+            "url": "https://www.juventus.com/en/teams/first-team-men/matchroom/juventus-lazio-serie-a-2026-2027/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Gazzetta — Juventus–Lazio, compositions probables",
+            "url": "https://www.gazzetta.it/calcio/prob_form/juventus-lazio/2638185",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T20:45:00+02:00"
+    },
+    {
+      "position": 14,
+      "homeTeam": "Valence",
+      "awayTeam": "Athletic Bilbao",
+      "competition": "LaLiga 2026/27",
+      "probabilities": {
+        "home": 26,
+        "draw": 30,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 18,
+        "draw": 21,
+        "away": 61,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "L'Athletic Bilbao est favori contre Valence après sa meilleure série récente, sans certitude à Mestalla.",
+        "keyFactors": [
+          "Forebet situe Valence près de la relégation et l'Athletic sur quatre matchs sans défaite; plusieurs attaquants basques sont incertains."
+        ],
+        "uncertainty": "Réaction de Valence sous son nouvel entraîneur et disponibilité de Williams et Sancet.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Forebet — Valence–Athletic Bilbao, forme et absents",
+            "url": "https://www.forebet.com/en/football-match-previews/31311-valencia-seek-to-halt-slide-as-athletic-bilbao-arrive-with-unbeaten-run",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Séville",
+      "competition": "LaLiga 2026/27",
+      "probabilities": {
+        "home": 50,
+        "draw": 29,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 43,
+        "away": 36,
+        "accessedAt": "2026-10-14T10:11:24+02:00"
+      },
+      "analysis": {
+        "summary": "Le Real Madrid est favori au Bernabéu, mais ses absences et le bon niveau de Séville limitent son avantage.",
+        "keyFactors": [
+          "Le Real a battu Villarreal 1-0 avec une exclusion de Vinicius; Séville vient de faire 3-3 à Levante et se maintient en haut du classement."
+        ],
+        "uncertainty": "Confirmation de la sanction de Vinicius et disponibilité des joueurs cadres madrilènes.",
+        "sources": [
+          {
+            "label": "FDJ — Liste officielle ouverte LF15 n°86, répartition des choix (consultation du 14 octobre)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Forebet — Real Madrid–Séville, prévision 2026",
+            "url": "https://www.forebet.com/en/football-match-previews/31315-real-madrid-look-to-extend-dominance-as-sevilla-visit-the-bernabeu",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "Reuters — expulsion de Vinicius",
+            "url": "https://www.reuters.com/sports/soccer/reals-vinicius-apologises-after-red-card-hair-pull-against-villarreal-2026-10-10/",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          },
+          {
+            "label": "FotMob — Real Madrid–Séville, effectifs",
+            "url": "https://www.fotmob.com/fr/matches/sevilla-vs-real-madrid/2ddv45",
+            "accessedAt": "2026-10-14T10:11:24+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
