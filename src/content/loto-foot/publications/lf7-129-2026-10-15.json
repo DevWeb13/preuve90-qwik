@@ -1,0 +1,364 @@
+{
+  "id": "lf7-129-2026-10-15",
+  "formula": 7,
+  "gridNumber": 129,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+  "validationDeadline": "2026-10-15T20:55:00+02:00",
+  "publishedAt": "2026-10-14T06:01:33+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Un seul ticket virtuel de 1 € est retenu pour tester un scénario sportif cohérent, sans ajout de couverture. Benfica (70 % estimés contre 44 % de sélections FDJ), Bournemouth (58 % contre 36 %), Besiktas (37 % contre 8 %) et Juventus (43 % contre 24 %) sont des issues relativement sous-jouées ; ces écarts ne sont pas une espérance de gain. Le scénario privilégie Rennes, Benfica, Bournemouth, Marseille et Dinamo à domicile, Besiktas et Juventus à l'extérieur. La mémoire v2 montre un rendement LF7 historique de -62,1 %, un rendement récent de -87,5 % sur 20 publications et -89,9 % pour les tickets supplémentaires. Les rangs 6/7 et 7/7 ont historiquement des rapports médians respectifs de 16,10 € et 222 € sur 38 LF7 réglés, mais ces rapports varient fortement et ne prédisent pas ceux de cette grille. Le signal relatif et le faible coût rendent ce ticket unique expérimentalement défendable, sans garantir une rentabilité ; aucune variante supplémentaire n'est justifiée."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Olympiakos",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 28,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 36,
+        "draw": 28,
+        "away": 36,
+        "accessedAt": "2026-10-14T06:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille est légèrement favori au Vélodrome après sa victoire 2-0 à Troyes, qui a interrompu cinq défaites. Olympiakos présente néanmoins une dynamique plus régulière, ce qui limite la confiance dans le 1.",
+        "keyFactors": [
+          "Marseille a perdu 4-1 à Besiktas en ouverture européenne, mais a gagné 2-0 à Troyes.",
+          "Olympiakos a battu Jagiellonia 2-1 en Ligue Europa et Panathinaikos 1-0.",
+          "Højbjerg et Cornelius manquent à Marseille ; Weah est disponible en Europe. El Kaabi et d'autres joueurs sont absents de la liste européenne grecque."
+        ],
+        "uncertainty": "Marseille peut rebondir chez lui, mais la forme extérieure d'Olympiakos et les absences rendent le nul et le 2 crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°129, affiches et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Forebet — Marseille–Olympiakos, forme et absences",
+            "url": "https://www.forebet.com/en/football-match-previews/31288-marseille-vs-olympiacos-form-team-news-and-a-tight-edge-at-the-velodrome",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Eurosport — Marseille–Olympiakos, analyse et horaire",
+            "url": "https://www.eurosport.fr/paris-sportifs/pronostics/marseille-olympiacos-pronostics-conseils-et-cotes-ligue-europa/",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "OFI Crète",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 65,
+        "draw": 22,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 76,
+        "draw": 0,
+        "away": 24,
+        "accessedAt": "2026-10-14T06:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Rennes est favori à domicile après avoir battu Auxerre 4-1. L'OFI Crète a néanmoins surpris Hoffenheim 2-0 en Ligue Europa, ce qui impose de conserver une probabilité réelle de nul et de succès grec.",
+        "keyFactors": [
+          "Rennes vient de battre Auxerre 4-1 au Roazhon Park après son 0-0 européen à Sturm Graz.",
+          "OFI a battu Hoffenheim 2-0 puis perdu 3-0 contre AEK Athènes.",
+          "Rennes a un effectif plus profond et l'avantage du terrain ; la part FDJ de 0 % sur le nul n'est pas une probabilité sportive."
+        ],
+        "uncertainty": "L'OFI a déjà démontré une capacité à surprendre ; la distribution FDJ 76/0/24 semble peu robuste et n'élimine pas le nul.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°129, affiches et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Stade Rennais — calendrier officiel et Rennes–Auxerre",
+            "url": "https://www.staderennais.com/calendrier",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Sportytrader — Rennes–OFI, analyse et forme",
+            "url": "https://www.sportytrader.com/pronostics/rennes-ofi-crete-378929/",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Coteur — Rennes–OFI, première journée européenne",
+            "url": "https://www.coteur.com/match/pronostic-rennes-ofi-crete-1606227",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Benfica",
+      "awayTeam": "Celtic",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 70,
+        "draw": 20,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 24,
+        "away": 32,
+        "accessedAt": "2026-10-14T06:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Benfica est le favori le plus net de cette grille : victoire 2-0 à Milan puis 2-0 contre Vitória Guimarães, tandis que Celtic a perdu contre Ferencváros en ouverture européenne. Celtic a toutefois retrouvé un peu de confiance à Motherwell.",
+        "keyFactors": [
+          "Benfica a gagné 2-0 chez Milan en Ligue Europa et 2-0 contre Vitória Guimarães.",
+          "Celtic a perdu 3-1 contre Ferencváros avant de gagner 2-0 à Motherwell.",
+          "Cameron Carter-Vickers est indisponible en défense centrale écossaise ; Benfica dispose de plusieurs solutions offensives."
+        ],
+        "uncertainty": "Une réaction de Celtic reste possible ; le faible 44 % FDJ sur Benfica constitue un signal relatif, pas une promesse de rendement.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°129, affiches et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "FotMob — Benfica–Celtic, résultats récents et horaire",
+            "url": "https://www.fotmob.com/matches/benfica-vs-celtic/37i7qm",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "OddsIntel — Benfica–Celtic, avant-match du 13 octobre",
+            "url": "https://www.oddsintel.app/blog/benfica-vs-celtic-preview-2026-10-15",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "The Sun Ireland — Celtic, absence de Carter-Vickers",
+            "url": "https://www.thesun.ie/sport/17754390/liam-scales-celtic-prove-europa-league-lisbon/",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Sturm Graz",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 36,
+        "draw": 32,
+        "away": 32,
+        "accessedAt": "2026-10-14T06:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Bournemouth garde un avantage de niveau et reçoit pour la première fois en Europe après son succès 2-1 chez la Real Sociedad. Sa lourde défaite 5-1 contre Chelsea et ses blessures réduisent toutefois la confiance face à Sturm Graz.",
+        "keyFactors": [
+          "Bournemouth a gagné 2-1 chez la Real Sociedad, mais a perdu 5-1 contre Chelsea et n'a toujours pas gagné en championnat.",
+          "Sturm Graz a fait 0-0 contre Rennes, puis gagné 2-0 à Austria Vienne.",
+          "Alex Scott, Kluivert et plusieurs autres joueurs manquent à Bournemouth ; Sturm est aussi diminué, notamment par l'absence de Kiteishvili."
+        ],
+        "uncertainty": "La défense anglaise est fragile et Sturm Graz peut résister ; le nul demeure un risque important.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°129, affiches et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Sports Mole — Bournemouth–Sturm Graz, avant-match du 13 octobre",
+            "url": "https://www.sportsmole.co.uk/football/bournemouth/europa-league/preview/bournemouth-vs-sturm-graz-prediction-team-news-lineups_606756.html",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "BET.ax — Bournemouth–Sturm Graz, forme récente",
+            "url": "https://bet.ax/afc-bournemouth-vs-sk-sturm-graz-preview/",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Hoffenheim",
+      "awayTeam": "Besiktas",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 32,
+        "away": 8,
+        "accessedAt": "2026-10-14T06:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Besiktas possède un léger avantage de dynamique avec cinq victoires sur six et un succès 4-1 contre Marseille, tandis qu'Hoffenheim traverse une mauvaise période. Le marché donne pourtant Hoffenheim favori à domicile : le duel est très ouvert.",
+        "keyFactors": [
+          "Hoffenheim a perdu cinq de ses six derniers matchs, dont son ouverture européenne 0-2 contre OFI.",
+          "Besiktas a gagné cinq de ses six derniers matchs, notamment 4-1 contre Marseille.",
+          "Wimmer manque à Hoffenheim et Černý est incertain pour Besiktas ; les cotes de marché penchent davantage vers le 1 que la seule forme récente."
+        ],
+        "uncertainty": "Le 2 reste très loin d'être acquis ; l'avantage du terrain et les cotes de marché justifient une forte incertitude, malgré seulement 8 % de sélections FDJ sur Besiktas.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°129, affiches et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Forebet — Hoffenheim–Besiktas, analyse du 12 octobre",
+            "url": "https://www.forebet.com/en/football-match-previews/31294-form-clash-in-sinsheim-besiktas-surge-meets-hoffenheims-home-resilience",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Sportytrader — Hoffenheim–Besiktas, forme",
+            "url": "https://www.sportytrader.com/en/betting-tips/hoffenheim-besiktas-jk-379053/",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Unibet — Hoffenheim–Besiktas, cotes et horaire",
+            "url": "https://www.unibet.fr/paris-sportifs/europa-league-hoffenheim-besiktas",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "Anderlecht",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 28,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 16,
+        "away": 24,
+        "accessedAt": "2026-10-14T06:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Le Dinamo est légèrement favori au Maksimir grâce à sa réussite à domicile, mais Anderlecht arrive avec une dynamique solide et un parcours européen convaincant. Les trois issues restent suffisamment proches pour que le 60 % FDJ sur le 1 ne soit pas considéré comme un niveau de confiance.",
+        "keyFactors": [
+          "Dinamo a perdu 2-1 à Hajduk Split après un 0-0 européen contre Hapoel Beer-Sheva.",
+          "Anderlecht a gagné 2-1 au Cercle Brugge et n'a perdu que 2-1 contre Lyon en ouverture.",
+          "Dinamo a été invaincu lors de 19 de ses 20 dernières réceptions selon Forebet ; Anderlecht compte plusieurs absents en défense."
+        ],
+        "uncertainty": "Le terrain favorise le Dinamo, mais la forme européenne d'Anderlecht rend le nul et le 2 crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°129, affiches et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Forebet — Dinamo–Anderlecht, analyse du 12 octobre",
+            "url": "https://www.forebet.com/en/football-match-previews/31287-dinamo-zagrebs-home-punch-faces-anderlechts-european-rhythm-in-a-tight-europa-league-clash",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "FotMob — Dinamo–Anderlecht, forme récente",
+            "url": "https://www.fotmob.com/de/matches/anderlecht-vs-dinamo-zagreb/2x4hev",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Eurosport — Dinamo–Anderlecht, effectifs et horaire",
+            "url": "https://www.eurosport.fr/football/ligue-europa/2026-2027/gnk-dinamo-rsc-anderlecht_mtc21878895/live-lineup.shtml",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Juventus Turin",
+      "competition": "UEFA Europa League 2026/27",
+      "startsAt": "2026-10-15T21:00:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 28,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 44,
+        "away": 24,
+        "accessedAt": "2026-10-14T06:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "La Juventus conserve un avantage technique après sa victoire 5-0 contre NEC Nimègue, mais elle reste sur un nul contre Cagliari et compte de nombreux blessés. Le Celta joue à domicile et a concédé plusieurs nuls récents.",
+        "keyFactors": [
+          "Juventus a gagné 5-0 contre NEC en Ligue Europa puis fait 1-1 contre Cagliari.",
+          "Celta a perdu 0-1 contre Omonia malgré de nombreuses occasions et reste souvent difficile à battre.",
+          "Juventus doit composer sans Yıldız, Locatelli, Thuram, Boga et Grabara ; Celta manque notamment Starfelt et Miguel Román."
+        ],
+        "uncertainty": "Le 2 est plausible mais pas sûr : les absences italiennes et le terrain du Celta rendent aussi le 1 et le nul crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°129, affiches et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4946",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Forebet — Celta–Juventus, projection et forme",
+            "url": "https://www.forebet.com/en/football-match-previews/31289-juventus-carry-a-nine-match-europa-surge-into-vigo-test-against-celta",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "Gazzetta dello Sport — Juventus, blessures avant Vigo",
+            "url": "https://www.gazzetta.it/en/football/fantanews/12-10-2026/juve-injuries-bianconeri-players-unavailable-for-celta-clash_amp.shtml",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          },
+          {
+            "label": "FotMob — Celta–Juventus, horaire et absents",
+            "url": "https://www.fotmob.com/en-GB/matches/juventus-vs-celta-vigo/38nowk",
+            "accessedAt": "2026-10-14T06:01:33+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "lf7-129-principal",
+      "label": "Scénario principal — 5 domiciles, 2 extérieurs",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Choix sportifs les plus plausibles selon les estimations, avec des issues relativement peu sélectionnées par le public sur Benfica, Bournemouth, Besiktas et Juventus. Les risques sur Marseille, Hoffenheim–Besiktas et Dinamo–Anderlecht restent élevés. Une seule combinaison à 1 € virtuel ; aucune couverture supplémentaire ne justifie son coût."
+    }
+  ]
+}
