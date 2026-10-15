@@ -1,0 +1,419 @@
+{
+  "id": "lf8-142-2026-10-16",
+  "formula": 8,
+  "gridNumber": 142,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+  "validationDeadline": "2026-10-16T19:55:00+02:00",
+  "publishedAt": "2026-10-15T06:04:43+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "La LF8 n°142 comprend huit affiches très incertaines, avec de nombreux nuls plausibles en Ligue 2. Les scénarios cohérents les plus probables ont été confrontés aux répartitions FDJ observées, dont plusieurs parts extrêmes ou nulles sur des issues sportives plausibles. Ces répartitions varient entre la liste et la page détaillée et ne permettent pas de quantifier la concurrence sur les tickets ni une espérance de gain exacte. La mémoire v2 indique sur les vingt dernières publications -154,40 € de net (-85,8 %), -56,9 % sur les premiers tickets et -88,6 % sur les tickets supplémentaires. Le rendement historique LF8 est de -62,7 %. Les rapports historiques à sept et huit bonnes réponses ne suffisent pas à justifier financièrement un ticket de 1 € sur cette grille. Aucun scénario ne présente un avantage financier crédible: skip, zéro combinaison, mise virtuelle de 0 €."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 31,
+        "draw": 27,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 40,
+        "draw": 20,
+        "away": 40,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Toulouse est légèrement favori à la faveur de sa dynamique, mais Le Mans marque régulièrement et reçoit.",
+        "keyFactors": [
+          "Le Mans a perdu 3-1 contre le PSG et n'a pas réussi de clean sheet; Toulouse a remonté deux buts à Monaco (2-2).",
+          "Bourabaa manque au Mans; Tengstedt a été décisif sur les trois derniers matchs du TFC."
+        ],
+        "uncertainty": "Les retours possibles de Nicolaisen et Francis, ainsi que les compositions définitives, peuvent modifier les forces.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "RueDesJoueurs — analyse Le Mans–Toulouse, effectifs et cotes",
+            "url": "https://www.ruedesjoueurs.com/pronostic/le-mans-toulouse-5802957.html",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Unibet — Le Mans–Toulouse, marché et absences",
+            "url": "https://www.unibet.fr/paris-sportifs/ligue1-lemans-toulouse",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Reuters — PSG–Le Mans et Monaco–Toulouse, 10 octobre",
+            "url": "https://www.reuters.com/sports/soccer/psg-beat-le-mans-3-1-monaco-stay-top-despite-draw-2026-10-10/",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-16T20:45:00+02:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Annecy FC",
+      "awayTeam": "Nancy",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 41,
+        "draw": 29,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 0,
+        "away": 20,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Annecy possède un léger avantage à domicile; Nancy a le même total de points et une dynamique compétitive.",
+        "keyFactors": [
+          "Les deux équipes sont à 13 points après huit journées; Annecy vient de gagner à Dunkerque 1-0.",
+          "Nancy a battu Guingamp 1-0; les projections divergent (51/28/21 chez SoccerGhost contre 34/29/37 chez FootyMetrics)."
+        ],
+        "uncertainty": "La proximité sportive des deux équipes et la forte concentration FDJ sur Annecy rendent la valeur du signal public fragile.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FotMob — Annecy–Nancy, forme et calendrier",
+            "url": "https://www.fotmob.com/en-GB/matches/nancy-vs-annecy-fc/kxcbv0u",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FC Annecy — victoire à Dunkerque, source officielle",
+            "url": "https://www.fc-annecy.fr/match-center/saison-2026-2027/fiche-match/dunkerque-vs-annecy-2026-10-09?display=stream",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "SoccerGhost — Annecy–Nancy, modèle 1N2",
+            "url": "https://soccerghost.com/match/92497/annecy-vs-nancy",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FootyMetrics — Annecy–Nancy, modèle alternatif",
+            "url": "https://www.footymetrics.com/fixtures/35990208-ligue-2-annecy-nancy",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-16T20:00:00+02:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "Grenoble",
+      "awayTeam": "Boulogne",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 43,
+        "draw": 32,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 40,
+        "away": 0,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Grenoble a un léger avantage à domicile, mais Boulogne concède peu et obtient souvent le nul.",
+        "keyFactors": [
+          "Grenoble est 14e avec huit points après sa défaite à Montpellier (0-2); Boulogne est 16e avec six points.",
+          "Boulogne n'a marqué que trois fois sur cinq matchs récents; SoccerGhost estime 45/32/23."
+        ],
+        "uncertainty": "La faible efficacité des deux attaques augmente la plausibilité du nul.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FotMob — Grenoble–Boulogne, résultats et compositions",
+            "url": "https://www.fotmob.com/matches/boulogne-vs-grenoble/1mkclo",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "SoccerGhost — Grenoble–Boulogne, probabilités",
+            "url": "https://soccerghost.com/match/92495/grenoble-vs-boulogne",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Centre Presse — Grenoble–Boulogne, classement",
+            "url": "https://www.centrepresseaveyron.fr/sports/resultats-sportifs/football/ligue-2/rencontre/548074/grenoble-boulogne",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-16T20:00:00+02:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Guingamp",
+      "awayTeam": "Pau",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 40,
+        "draw": 28,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 40,
+        "away": 60,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Guingamp a l'avantage du Roudourou, mais Pau est mieux classé et reste dangereux.",
+        "keyFactors": [
+          "Guingamp a huit points et vient de perdre à Nancy; Pau a onze points après une victoire 3-2 contre Laval.",
+          "Les projections consultées sont proches (47/27/26 ou 42/27/32), sans favori écrasant."
+        ],
+        "uncertainty": "L'avantage du terrain est contrebalancé par la forme récente de Pau; les effectifs du jour sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Soccerway — Guingamp–Pau, classement et forme",
+            "url": "https://ie.soccerway.com/match/guingamp-QDfKl36E/pau-6NOhR4cm/",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FBref — Guingamp, calendrier et bilan",
+            "url": "https://fbref.com/en/squads/d41b5f53/2026-2027/matchlogs/c60/schedule/Guingamp-Scores-and-Fixtures-Ligue-2",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "prematchstats — Guingamp–Pau, statistiques et projection",
+            "url": "https://prematchstats.com/france/ligue-2/guingamp-vs-pau-fc-stats/16386011",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "MatchPulse — Guingamp–Pau, modèles combinés",
+            "url": "https://www.matchpulsestats.com/fr/match/1552497",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-16T20:00:00+02:00"
+    },
+    {
+      "position": 5,
+      "homeTeam": "Laval",
+      "awayTeam": "Clermont",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 37,
+        "draw": 34,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 0,
+        "away": 20,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Affiche très incertaine du bas de tableau: Laval reçoit mais reste fragile, Clermont ne gagne pas et accumule les nuls.",
+        "keyFactors": [
+          "Laval est dernier (1 victoire, 2 nuls, 5 défaites), Clermont avant-dernier (0 victoire, 6 nuls, 2 défaites).",
+          "Clermont est invaincu contre Laval sur leurs neuf dernières confrontations selon FotMob; modèles autour de 39/31/30."
+        ],
+        "uncertainty": "Le manque de confiance et la difficulté des deux équipes à gagner rendent le nul particulièrement plausible.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FotMob — Laval–Clermont, forme et face-à-face",
+            "url": "https://www.fotmob.com/en-GB/matches/laval-vs-clermont-foot/25sd5d",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "prematchstats — Laval–Clermont, classement et probabilités",
+            "url": "https://prematchstats.com/france/ligue-2/stade-lavallois-vs-clermont-foot-stats/16386007",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "SoccerGhost — Laval–Clermont, modèle de score",
+            "url": "https://soccerghost.com/match/92496/laval-vs-clermont-foot",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-16T20:00:00+02:00"
+    },
+    {
+      "position": 6,
+      "homeTeam": "Reims",
+      "awayTeam": "Dijon",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 43,
+        "draw": 31,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 20,
+        "draw": 60,
+        "away": 20,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Reims reste favori par son invincibilité mais Dijon est en confiance et les deux équipes concèdent des nuls.",
+        "keyFactors": [
+          "Reims est 4e, invaincu en huit journées (3 victoires, 5 nuls), mais n'a gagné qu'une fois à domicile.",
+          "Dijon est 7e et a battu Metz 4-2; Reims compte cinq absents annoncés."
+        ],
+        "uncertainty": "Les blessures rémoises et la dynamique offensive dijonnaise peuvent inverser le léger avantage local.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Morning Foot — Reims–Dijon, cinq absents et série d'invincibilité",
+            "url": "https://morning-foot.com/ligue-2/stade-de-reims-dijon-cinq-absents-usai/",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "1x2.expert — Reims–Dijon, classement et forme",
+            "url": "https://1x2.expert/fr/match/178768-reims-vs-dijon",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FotMob — Reims–Dijon, résultats récents",
+            "url": "https://www.fotmob.com/pt-BR/matches/dijon-vs-reims/37834i",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-16T20:00:00+02:00"
+    },
+    {
+      "position": 7,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Sassuolo",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 41,
+        "draw": 27,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 40,
+        "away": 60,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Frosinone dispose d'un léger avantage au Stadio Benito Stirpe, mais Sassuolo reste offensivement compétitif.",
+        "keyFactors": [
+          "Metis projette environ 40/28/33 et Fixture360 45/26/29, avec une faible différence entre les équipes.",
+          "Frosinone a pris dix points sur cinq matchs selon MatchMind; Sassuolo est plus irrégulier."
+        ],
+        "uncertainty": "Les compositions et blessures ne sont pas confirmées et la sélection FDJ n'est pas représentative de la force des équipes.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Metis — Frosinone–Sassuolo, probabilités et forme",
+            "url": "https://metisfootball.com/match/serie_a/frosinone-vs-sassuolo-2026-10-16",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Fixture360 — Frosinone–Sassuolo, analyse Poisson",
+            "url": "https://www.fixture360.com/en/football/italy/serie-a/frosinone-vs-sassuolo/1550151",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Eurosport — Frosinone–Sassuolo, horaire et effectifs",
+            "url": "https://www.eurosport.fr/football/serie-a/2026-2027/frosinone-sassuolo_mtc21874106/live-lineup.shtml",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "MatchMind — Frosinone–Sassuolo, forme récente",
+            "url": "https://www.matchmind.soccer/match/frosinone-sassuolo-2026-10-16",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-16T20:45:00+02:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "La Corogne",
+      "awayTeam": "Levante",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 45,
+        "draw": 28,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 20,
+        "draw": 0,
+        "away": 80,
+        "accessedAt": "2026-10-15T06:04:42+02:00"
+      },
+      "analysis": {
+        "summary": "Le Deportivo bénéficie du terrain et d'un meilleur classement, sans écarter un nul contre Levante.",
+        "keyFactors": [
+          "Le Deportivo est 8e avec dix points en huit matchs; Levante 17e avec six points en sept matchs.",
+          "Les projections divergent: Wincomparator 37/34/29, Fixture360 49/29/22 et Fulltime Stats 48/25/27."
+        ],
+        "uncertainty": "La suspension d'Amatucci et les absences du Deportivo réduisent la certitude de l'avantage local.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°142, matchs et répartition 1N2 consultés",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/839",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Wincomparator — Deportivo–Levante, forme et probabilités",
+            "url": "https://www.wincomparator.com/es-es/pronosticos/deportivo-la-coruna-levante-8586495/",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Fixture360 — Deportivo–Levante, projection 1N2",
+            "url": "https://www.fixture360.com/en/football/spain/la-liga/deportivo-la-coruna-vs-levante/1570415",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "FotMob — Deportivo–Levante, blessures et suspensions",
+            "url": "https://www.fotmob.com/en-GB/matches/levante-vs-deportivo-coruna/2sehb1",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          },
+          {
+            "label": "Fulltime Stats — Deportivo–Levante, classement",
+            "url": "https://fulltimestats.com/match/deportivo-la-coruna-vs-levante-2026-10-16",
+            "accessedAt": "2026-10-15T06:04:42+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
