@@ -1,0 +1,354 @@
+{
+  "id": "lf7-130-2026-10-18",
+  "formula": 7,
+  "gridNumber": 130,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4947",
+  "validationDeadline": "2026-10-18T17:10:00+02:00",
+  "publishedAt": "2026-10-16T14:08:10+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "L'analyse des sept rencontres et des scénarios compatibles avec les probabilités sportives confirme des favoris à Lyon, Madrid et Arsenal, mais les sélections des joueurs FDJ sont fortement concentrées sur ces favoris. Paris FC–Rennes, Le Havre–Auxerre, Juventus–Lazio et Lorient–Monaco comportent de forts risques de nul ou de surprise. Les écarts entre probabilité sportive estimée et part des sélections FDJ sont des signaux relatifs, pas une espérance de gain positive démontrée en l'absence de données sur le pool et les tickets adverses. La mémoire statistique v2 confirme -81,3 % de rendement sur les vingt dernières publications (-129,20 € nets), -60,9 % en historique LF7, -26 % sur les tickets principaux et -87 % sur les tickets supplémentaires récents. Les rapports observés restent indicatifs et ne justifient ni un premier ticket ni une diversification payante. Décision explicite : skip, zéro combinaison, zéro euro virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lyon",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 56,
+        "draw": 25,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 76,
+        "draw": 15,
+        "away": 9,
+        "accessedAt": "2026-10-16T14:08:09+02:00"
+      },
+      "analysis": {
+        "summary": "Lyon possède un avantage à domicile et reste plus régulier sur les six premières journées. Nice revient pourtant de deux succès consécutifs, ce qui impose de modérer la confiance dans le 1.",
+        "keyFactors": [
+          "Lyon est quatrième après sa première défaite à Lens, mais a réussi cinq matchs sans défaite auparavant.",
+          "Nice vient de battre Lille puis Strasbourg à domicile.",
+          "La Ligue 1 signale des indisponibilités dans les deux équipes, dont Openda et Ouedraogo côté OL, Abergel et Bombito côté Nice.",
+          "Lyon est sélectionné par 76 % du public FDJ, au-dessus de la probabilité sportive proposée."
+        ],
+        "uncertainty": "Le redressement de Nice et les absences peuvent sensiblement réduire l'avantage lyonnais.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes, LF7 n°130 et choix publics 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Ligue 1 — Lyon–Nice, forme, blessés et calendrier",
+            "url": "https://ligue1.com/fr/articles/l1_article_5931-",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "FotMob — Lyon–Nice, effectifs",
+            "url": "https://www.fotmob.com/fr/matches/lyon-vs-nice/364jld",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T20:45:00+02:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 35,
+        "draw": 29,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 42,
+        "draw": 28,
+        "away": 30,
+        "accessedAt": "2026-10-16T14:08:09+02:00"
+      },
+      "analysis": {
+        "summary": "Le match semble proche de l'équilibre entre un Paris FC cinquième et Rennes troisième. L'avantage du terrain parisien compense partiellement la bonne dynamique rennaise.",
+        "keyFactors": [
+          "Rennes a gagné quatre de ses cinq dernières rencontres de championnat.",
+          "Le PFC vient de subir une première défaite à Lorient après cinq matchs invaincus.",
+          "Rennes affronte l'OFI en Coupe d'Europe jeudi avant le déplacement.",
+          "Le calendrier officiel fixe la rencontre au dimanche 18 octobre à 17h15."
+        ],
+        "uncertainty": "La fraîcheur de Rennes et les effectifs disponibles, notamment le poste de gardien, peuvent déplacer un équilibre très fragile.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes, LF7 n°130 et choix publics 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Ligue 1 — Paris FC–Rennes, forme et absents",
+            "url": "https://ligue1.com/fr/articles/l1_article_5933-",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Paris FC — match-center officiel",
+            "url": "https://parisfc.fr/match-center/men/118516/2026-10-18/paris-fc-vs-rennes-ligue-1-mcdonalds/",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "FotMob — Paris FC–Rennes, indisponibles",
+            "url": "https://www.fotmob.com/fr/matches/paris-fc-vs-rennes/26fb7k",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T17:15:00+02:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 39,
+        "draw": 31,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 32,
+        "away": 24,
+        "accessedAt": "2026-10-16T14:08:09+02:00"
+      },
+      "analysis": {
+        "summary": "Affiche incertaine de bas de tableau : le Havre cherche sa première victoire de championnat et Auxerre souffre lors de ses déplacements. Le terrain donne un léger avantage au Havre.",
+        "keyFactors": [
+          "Le Havre reste sans victoire après six journées, avec quatre défaites et deux nuls.",
+          "Auxerre compte deux victoires mais a perdu ses trois déplacements de Ligue 1.",
+          "Le Havre a marqué peu à domicile, mais les confrontations passées l'avantagent.",
+          "Auxerre reste capable de marquer, notamment via Cameron Archer."
+        ],
+        "uncertainty": "Les attaques irrégulières et défenses fragiles rendent les trois scénarios proches.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes, LF7 n°130 et choix publics 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Forebet — Le Havre–Auxerre, forme et confrontations",
+            "url": "https://www.forebet.com/fr/football-match-previews/31167-le-havre-seek-breakthrough-against-inconsistent-auxerre-at-stade-oceane",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "FotMob — Le Havre–Auxerre, absences et match",
+            "url": "https://www.fotmob.com/fr/matches/auxerre-vs-le-havre/2s0psn",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Actu-AJA — forme d'Auxerre avant le Havre",
+            "url": "https://actu-aja.fr/le-havre-auxerre-avant-match-j7-2026-2027/",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T17:15:00+02:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Lorient",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1 2026/27",
+      "probabilities": {
+        "home": 25,
+        "draw": 27,
+        "away": 48
+      },
+      "fdjSelectionDistribution": {
+        "home": 17,
+        "draw": 25,
+        "away": 58,
+        "accessedAt": "2026-10-16T14:08:09+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco reste favori par sa qualité offensive et son classement, mais Lorient à domicile peut fermer les espaces et préserver une chance de résultat.",
+        "keyFactors": [
+          "Monaco est invaincu sur ses six premières journées et compte 14 points.",
+          "Les cotes de marché chez Sportytrader donnent Monaco favori, proche de la moitié des probabilités implicites après marge.",
+          "L'option du nul reste significative pour un déplacement au Moustoir.",
+          "Les 58 % de sélections publiques sur Monaco dépassent les 48 % estimés sportivement."
+        ],
+        "uncertainty": "Les rotations monégasques et la capacité lorientaise à contre-attaquer accentuent les risques.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes, LF7 n°130 et choix publics 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Sportytrader — Lorient–Monaco, cotes et affiche",
+            "url": "https://www.sportytrader.com/cotes/lorient-monaco-8532689/",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Sofascore — Lorient–Monaco, classement",
+            "url": "https://www.sofascore.com/fr/football/match/lorient-as-monaco/dIsgI",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Séville",
+      "competition": "LaLiga 2026/27",
+      "probabilities": {
+        "home": 72,
+        "draw": 17,
+        "away": 11
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 13,
+        "away": 7,
+        "accessedAt": "2026-10-16T14:08:09+02:00"
+      },
+      "analysis": {
+        "summary": "Le Real Madrid est nettement favori au Bernabéu, mais son effectif amoindri, avec Vinicius suspendu, laisse une petite chance au nul et à la surprise sévillane.",
+        "keyFactors": [
+          "LaLiga indique 18 points pour Madrid et 14 pour Séville après huit matchs.",
+          "Vinicius est suspendu quatre matchs, dont la réception de Séville, selon Reuters.",
+          "Madrid a marqué 19 buts cette saison, contre 13 pour Séville.",
+          "Le public FDJ choisit le Real à 80 %, soit plus que notre projection sportive prudente."
+        ],
+        "uncertainty": "L'absence de Vinicius et les autres blessures en attaque peuvent réduire le rendement offensif malgré l'avantage madrilène.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes, LF7 n°130 et choix publics 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Real Madrid — date officielle face à Séville",
+            "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-real-madrid-sevilla-se-jugara-el-domingo-18-de-octubre-a-las-21-00-h-16-09-2026",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "LaLiga — Real Madrid–Séville, statistiques comparées",
+            "url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-real-madrid-sevilla-fc-9",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Reuters — suspension de Vinicius du 14 octobre",
+            "url": "https://www.reuters.com/sports/soccer/real-madrids-vinicius-miss-clasico-after-four-game-suspension-2026-10-14/",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T21:00:00+02:00"
+    },
+    {
+      "position": 6,
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League 2026/27",
+      "probabilities": {
+        "home": 17,
+        "draw": 24,
+        "away": 59
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 15,
+        "away": 73,
+        "accessedAt": "2026-10-16T14:08:09+02:00"
+      },
+      "analysis": {
+        "summary": "Arsenal est favori au City Ground après un excellent début de saison, avec une projection Opta de 58,3 % de victoire à l'extérieur. Les précédents duels fermés à Forest justifient une part de nul non négligeable.",
+        "keyFactors": [
+          "Arsenal a gagné cinq de ses six matchs de championnat, alors que Forest ne compte que cinq points.",
+          "Les deux derniers matchs de Premier League sur ce terrain entre ces équipes se sont terminés 0-0.",
+          "Opta Analyst évalue la victoire d'Arsenal à 58,3 %.",
+          "Saliba et plusieurs joueurs d'Arsenal sont indisponibles ou incertains avant la rencontre."
+        ],
+        "uncertainty": "Des absences importantes, l'effet du terrain et le passé de matchs sans buts créent un risque de nul supérieur aux sélections publiques FDJ.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes, LF7 n°130 et choix publics 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Premier League — Nottingham Forest–Arsenal, calendrier et forme",
+            "url": "https://www.premierleague.com/en/match/2645263/nottingham-forest-vs-arsenal/overview",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Opta Analyst — projection du 16 octobre",
+            "url": "https://theanalyst.com/articles/nottingham-forest-vs-arsenal-prediction-premier-league-10-2026",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Sports Mole — blessés d'Arsenal",
+            "url": "https://www.sportsmole.co.uk/football/arsenal/injury-news/injuries-and-suspensions/hincapie-zubimendi-saliba-latest-arsenal-injury-suspension-list-vs-nottingham-forest_606941.html",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-18T17:30:00+02:00"
+    },
+    {
+      "position": 7,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Lazio Rome",
+      "competition": "Serie A 2026/27",
+      "probabilities": {
+        "home": 46,
+        "draw": 29,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 56,
+        "draw": 27,
+        "away": 17,
+        "accessedAt": "2026-10-16T14:08:09+02:00"
+      },
+      "analysis": {
+        "summary": "Juventus reste légèrement favorite chez elle mais rencontre une Lazio invaincue et co-leader du championnat. L'incertitude sur les absences et la récupération européenne rend cette affiche ouverte.",
+        "keyFactors": [
+          "La Lazio vient de battre Monza 3-1 et reste à hauteur de l'Inter en tête de Serie A.",
+          "La Juventus a concédé le nul à Cagliari 1-1.",
+          "Les compositions probables publiées le 16 octobre par la Gazzetta signalent des incertitudes d'effectif.",
+          "Le public FDJ choisit la Juventus à 56 %, contre une probabilité sportive de 46 % dans notre estimation."
+        ],
+        "uncertainty": "La Lazio possède des arguments pour le nul ou la victoire, la Juve pouvant être affaiblie par les indisponibilités et la fatigue.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes, LF7 n°130 et choix publics 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Juventus — match-center officiel Juventus–Lazio",
+            "url": "https://www.juventus.com/en/teams/first-team-men/matchroom/juventus-lazio-serie-a-2026-2027/",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "Reuters — Juventus et Lazio, forme récente",
+            "url": "https://www.reuters.com/sports/soccer/lazio-keep-pace-top-10-man-roma-earn-draw-como-milan-held-by-sassuolo-2026-10-11/",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          },
+          {
+            "label": "La Gazzetta — compositions probables du 16 octobre",
+            "url": "https://www.gazzetta.it/calcio/prob_form/juventus-lazio/2638185",
+            "accessedAt": "2026-10-16T14:08:09+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
