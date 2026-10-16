@@ -1,0 +1,537 @@
+{
+  "id": "lf12-90-2026-10-18",
+  "formula": 12,
+  "gridNumber": 90,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+  "validationDeadline": "2026-10-18T14:55:00+02:00",
+  "publishedAt": "2026-10-16T06:01:16+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Les douze matchs ont été analysés individuellement et les scénarios cohérents confrontés aux répartitions FDJ. Les parts FDJ sont très concentrées et parfois extrêmes (0 %, 69 %, 85 % ou 100 %), signalant probablement un échantillon précoce et instable: l'écart aux probabilités sportives n'est pas une espérance de gain exacte. Sur 26 règlements LF12, le rendement historique est de -81,1 % et aucune publication n'est rentable; les rangs neuf et dix bonnes réponses rapportent souvent peu. Sur les vingt dernières publications toutes formules, le net est de -129,20 € (-81,3 %), le rendement du premier ticket est de -26 % et celui des tickets supplémentaires de -87 %. Aucune combinaison ne démontre une chance crédible de résultat net positif compte tenu du coût virtuel de 1 € et de l'incertitude cumulée sur douze rencontres. Ajouter des variantes ne ferait qu'augmenter la couverture sans justification financière. Décision: skip, aucune combinaison, mise virtuelle 0 €."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lyon",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-18T20:45:00+02:00",
+      "probabilities": {
+        "home": 55,
+        "draw": 26,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 69,
+        "draw": 0,
+        "away": 31,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Lyon est favori chez lui grâce à un meilleur début de saison et à sa production offensive; Nice garde des chances de contre et de nul.",
+        "keyFactors": [
+          "Lyon est 4e après six journées, Nice 9e; Nice est moins convaincant à l'extérieur.",
+          "Le marché donne Lyon favori mais pas assuré de gagner."
+        ],
+        "uncertainty": "Le nul et les compositions définitives restent incertains; 0 % FDJ pour le nul ne signifie pas une probabilité nulle.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "L'Équipe — calendrier et résultats Ligue 1",
+            "url": "https://www.lequipe.fr/Football/ligue-1/page-calendrier-general/rennes/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Wincomparator — Lyon–Nice, forme et cotes",
+            "url": "https://www.wincomparator.com/fr-fr/pronostics/lyon-nice-8532690/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-18T17:15:00+02:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 28,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 69,
+        "draw": 0,
+        "away": 31,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Paris FC est légèrement favori à domicile, mais Rennes affiche une forme comparable et des arguments offensifs.",
+        "keyFactors": [
+          "Rennes vient de battre Auxerre 4-1; Paris FC et Rennes figurent dans le haut du tableau.",
+          "Le consensus des cotes donne un avantage réduit au Paris FC; Rennes a joué en Europa League le 15 octobre."
+        ],
+        "uncertainty": "Les rotations et la fatigue européenne rennaise sont inconnues; l'échantillon FDJ paraît limité.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Stade Rennais — calendrier officiel et Ligue Europa",
+            "url": "https://www.staderennais.com/calendrier",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "MARGE — Paris FC–Rennes, cotes corrigées de marge",
+            "url": "https://margepronos.com/pronostic/paris-fc-vs-rennes--27f7222d2abde93fc6e8d17b5b05b272",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-18T17:15:00+02:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 29,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 69,
+        "away": 31,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Le Havre a un petit avantage à domicile dans un duel de bas de tableau, mais Auxerre reste offensivement dangereux.",
+        "keyFactors": [
+          "Le Havre n'a que deux points après six matchs; Auxerre en compte six.",
+          "Le marché et Forebet donnent un léger avantage au Havre, sans écarter les autres issues.",
+          "Des absences sont annoncées dans les deux équipes."
+        ],
+        "uncertainty": "Les deux défenses sont fragiles; la part FDJ n'est pas représentative d'une probabilité.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Unibet — Le Havre–Auxerre, cotes et absences",
+            "url": "https://www.unibet.fr/paris-sportifs/ligue1-lehavre-auxerre",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Forebet — Le Havre–Auxerre, classement et projection",
+            "url": "https://www.forebet.com/fr/football-match-previews/31167-le-havre-seek-breakthrough-against-inconsistent-auxerre-at-stade-oceane",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Lorient",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-18T17:15:00+02:00",
+      "probabilities": {
+        "home": 26,
+        "draw": 25,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 38,
+        "away": 62,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco est favori grâce à son effectif et à son classement, mais Lorient peut exploiter son terrain.",
+        "keyFactors": [
+          "Monaco est leader avec 14 points après six matchs, Lorient en a huit.",
+          "Le marché donne Monaco favori proche d'une chance sur deux; Lorient a battu le Paris FC."
+        ],
+        "uncertainty": "La fatigue européenne et les compositions peuvent infléchir l'écart; la répartition FDJ est précoce.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Wincomparator — Lorient–Monaco, forme et probabilités",
+            "url": "https://www.wincomparator.com/fr-fr/pronostics/lorient-monaco-8532689/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Coteur — Lorient–Monaco, analyse du marché",
+            "url": "https://www.coteur.com/match/pronostic-lorient-monaco-1606600",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Séville",
+      "competition": "LaLiga",
+      "startsAt": "2026-10-18T21:00:00+02:00",
+      "probabilities": {
+        "home": 76,
+        "draw": 15,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 31,
+        "draw": 69,
+        "away": 0,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Le Real Madrid est très largement favori au Bernabéu face à Séville.",
+        "keyFactors": [
+          "Les cotes donnent autour de 75 à 79 % de chances au Real après retrait de marge.",
+          "La supériorité d'effectif et l'avantage domicile soutiennent le favori."
+        ],
+        "uncertainty": "Un nul ou un fait de match peut déjouer le pronostic; la FDJ affiche un partage contraire au marché, non fiable pour une valeur monétaire.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Match en Direct — Real Madrid–Séville, cotes 1N2",
+            "url": "https://www.matchendirect.fr/live-score/real-madrid-seville_7rd18hnvlmxll7j7gck3xm9ec.html?p=face-a-face",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "1x2.expert — Real Madrid–Séville, consensus 1N2",
+            "url": "https://1x2.expert/fr/match/178985-real-madrid-vs-fc-sevilla",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League",
+      "startsAt": "2026-10-18T17:30:00+02:00",
+      "probabilities": {
+        "home": 18,
+        "draw": 23,
+        "away": 59
+      },
+      "fdjSelectionDistribution": {
+        "home": 38,
+        "draw": 62,
+        "away": 0,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Arsenal est favori après un meilleur début de championnat, mais Forest peut verrouiller le jeu à domicile.",
+        "keyFactors": [
+          "Arsenal a 15 points après six journées contre cinq pour Forest et vient de battre Leeds puis Lille.",
+          "Forest a des blessés importants; Arsenal aussi compte quelques indisponibilités.",
+          "Les deux derniers duels de championnat à Nottingham se sont achevés sur 0-0."
+        ],
+        "uncertainty": "Le nul et les absences peuvent réduire l'avantage d'Arsenal; 0 % FDJ sur Arsenal ne signifie pas chance nulle.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Goal — Nottingham Forest–Arsenal, forme et absences",
+            "url": "https://www.goal.com/en/news/nottingham-forest-arsenal-premier-league-preview/blt7216503b04c1efa4",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Oddschecker — Nottingham Forest–Arsenal, marché 1N2",
+            "url": "https://www.oddschecker.com/football/english/premier-league/nottingham-forest-v-arsenal/winner",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Lazio Rome",
+      "competition": "Serie A",
+      "startsAt": "2026-10-18T20:45:00+02:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 26,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 31,
+        "draw": 69,
+        "away": 0,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "La Juventus reçoit en favorite du marché, mais la Lazio arrive avec une meilleure dynamique.",
+        "keyFactors": [
+          "Les cotes accordent à la Juventus environ 55 % de chances de victoire.",
+          "La Lazio est mieux classée et invaincue sur ses cinq derniers matchs; la Juventus a été irrégulière.",
+          "Les confrontations récentes incluent plusieurs nuls."
+        ],
+        "uncertainty": "La bonne forme de la Lazio augmente le risque d'un faux pas turinois; le nul à 69 % FDJ semble une part instable.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "StatsBet — Juventus–Lazio, cotes et forme",
+            "url": "https://statsbet.org/football/matches/juventus-vs-lazio-2026-10-18",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "OddAlerts — Juventus–Lazio, projection 1N2",
+            "url": "https://www.oddalerts.com/livescores/juventus-vs-lazio/11357-9295",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A",
+      "startsAt": "2026-10-18T18:00:00+02:00",
+      "probabilities": {
+        "home": 49,
+        "draw": 27,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 69,
+        "draw": 31,
+        "away": 0,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Le Milan AC est favori à domicile, mais Atalanta peut résister et le nul reste crédible.",
+        "keyFactors": [
+          "Milan est devant Atalanta au classement et a récemment battu Lecce 3-0.",
+          "Les marchés favorisent Milan, mais les modèles sont plus prudents et les confrontations passées sont équilibrées."
+        ],
+        "uncertainty": "Les onze de départ peuvent modifier la lecture; 0 % FDJ sur Atalanta est un signal de faible échantillon.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "StatsBet — Milan–Atalanta, cotes et confrontations",
+            "url": "https://statsbet.org/football/matches/ac-milan-vs-atalanta-2026-10-18",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Wincomparator — Milan–Atalanta, forme et projection",
+            "url": "https://www.wincomparator.com/predictions/ac-milan-atalanta-8522157/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Como 1907",
+      "competition": "Serie A",
+      "startsAt": "2026-10-18T15:00:00+02:00",
+      "probabilities": {
+        "home": 29,
+        "draw": 28,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 0,
+        "away": 100,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Como est légèrement favori sur la forme et le classement, mais Fiorentina peut réagir devant son public.",
+        "keyFactors": [
+          "Fiorentina est en bas du classement, Como dans la première moitié.",
+          "Le marché et les modèles privilégient Como; les confrontations passées ont été disputées."
+        ],
+        "uncertainty": "Fiorentina peut exploiter les espaces laissés par Como; 100 % de choix FDJ sur Como n'est pas un signal robuste.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "StatsBet — Fiorentina–Como, cotes et confrontations",
+            "url": "https://statsbet.org/football/matches/fiorentina-vs-como-2026-10-18",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "xgEdge — Fiorentina–Como, modèle de buts attendus",
+            "url": "https://www.xg-edge.com/serie-a/fiorentina-vs-como-2026-10-18",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Leverkusen",
+      "awayTeam": "Fribourg",
+      "competition": "Bundesliga",
+      "startsAt": "2026-10-18T15:30:00+02:00",
+      "probabilities": {
+        "home": 53,
+        "draw": 25,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 0,
+        "away": 100,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Leverkusen est favori à domicile selon le marché, mais Fribourg arrive avec une meilleure forme récente.",
+        "keyFactors": [
+          "Les cotes donnent environ 54 à 58 % à Leverkusen.",
+          "Fribourg a pris 13 points sur cinq matchs de Bundesliga contre dix pour Leverkusen et le devance au classement."
+        ],
+        "uncertainty": "La forme de Fribourg peut neutraliser l'avantage local; 100 % FDJ sur Fribourg ne vaut pas une probabilité de victoire.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Wetten.fm — Leverkusen–Freiburg, forme et cotes du 15 octobre",
+            "url": "https://wetten.fm/wett-tipps/leverkusen-freiburg-prognose-18-10-2026/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Oddschecker — Leverkusen–Freiburg, marché 1N2",
+            "url": "https://www.oddschecker.com/football/germany/bundesliga/bayer-leverkusen-v-sc-freiburg/winner",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Leeds Utd",
+      "awayTeam": "Man. United",
+      "competition": "Premier League",
+      "startsAt": "2026-10-18T15:00:00+02:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 28,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 85,
+        "away": 0,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Leeds possède une meilleure dynamique comptable que Manchester United et l'avantage d'Elland Road; le match reste très ouvert.",
+        "keyFactors": [
+          "Leeds a neuf points après six matchs, United six; Leeds a résisté longtemps à Arsenal.",
+          "United reste sur plusieurs matchs sans victoire mais possède des joueurs offensifs décisifs.",
+          "Les cotes donnent plutôt United favori, les modèles de forme penchent vers Leeds."
+        ],
+        "uncertainty": "Les trois issues restent plausibles; 85 % FDJ sur le nul paraît issu d'un échantillon très réduit.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Squawka — Leeds–Manchester United, forme et blessés",
+            "url": "https://www.squawka.com/us/news/premier-league/match-preview-leeds-vs-manchester-united-18-10-26-premier-league/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Oddsrun — Leeds–Manchester United, cotes 1N2",
+            "url": "https://oddsrun.com/match/football/gb/94/12071051/england-premier-league/leeds-vs-man-utd/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Angers",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-18T15:00:00+02:00",
+      "probabilities": {
+        "home": 30,
+        "draw": 27,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 54,
+        "away": 31,
+        "accessedAt": "2026-10-16T06:01:14+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille est favori grâce à son effectif mais Angers a mieux commencé la saison et reçoit.",
+        "keyFactors": [
+          "Marseille a gagné à Troyes 2-0, mais son bilan initial reste irrégulier.",
+          "Les cotes donnent Marseille devant, sans éliminer un nul ou une victoire d'Angers.",
+          "Plusieurs absences marseillaises sont signalées."
+        ],
+        "uncertainty": "Le contexte à l'extérieur et les effectifs incertains limitent la confiance; 54 % FDJ sur le nul n'est pas une probabilité sportive.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°90, rencontres et répartition 1N2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/582",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "Wincomparator — Angers–Marseille, forme et absences",
+            "url": "https://www.wincomparator.com/fr-fr/pronostics/angers-sco-marseille-8532685/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          },
+          {
+            "label": "PokerStars Sports — Angers–Marseille, cotes 1N2",
+            "url": "https://www.pokerstars.fr/sports/football/1/ligue-1-mcdonalds-r/55/angers-marseille/36100444/",
+            "accessedAt": "2026-10-16T06:01:14+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
