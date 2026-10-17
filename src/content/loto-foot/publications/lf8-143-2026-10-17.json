@@ -1,0 +1,381 @@
+{
+  "id": "lf8-143-2026-10-17",
+  "formula": 8,
+  "gridNumber": 143,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/840",
+  "validationDeadline": "2026-10-17T17:10:00+02:00",
+  "publishedAt": "2026-10-17T02:02:07+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Les favoris PSG, Lens, Lille, Bayern, Inter et Barcelone sont sportifs mais le public FDJ concentre 92 % sur Lens, 95 % sur Bayern et 86 % sur Barcelone. Les issues alternatives moins jouées n'ont pas une plausibilité suffisante pour garantir un potentiel de rapport supérieur ; les choix FDJ ne donnent pas le rapport futur. Newcastle–Aston Villa et Red Star–Saint-Étienne sont très incertains. La mémoire v2 indique -81,3 % sur les 20 dernières publications, -62,7 % en LF8 historique, -26 % pour les tickets principaux récents et -87 % pour les supplémentaires. Les rangs payés et rapports historiques ne prouvent pas une espérance positive sur cette grille. Aucun premier ticket ni ticket supplémentaire n'est financièrement assez justifié : skip, 0 combinaison, 0 € virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 14,
+        "draw": 20,
+        "away": 66
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 34,
+        "away": 51,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "Paris est favori grâce à sa série de succès et sa supériorité offensive, mais Strasbourg conserve une chance à la Meinau.",
+        "keyFactors": [
+          "PSG victorieux à Manchester City en milieu de semaine, avec un risque de fatigue.",
+          "Strasbourg a concédé lors de chaque journée et compte des absents importants.",
+          "Le nul est davantage sélectionné par le public FDJ que sa probabilité sportive estimée."
+        ],
+        "uncertainty": "Fatigue européenne du PSG et terrain strasbourgeois.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Top Mercato",
+            "url": "https://www.topmercato.com/2146863-pronostic-strasbourg-vs-psg-17-10-2026/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Eurosport",
+            "url": "https://www.eurosport.fr/paris-sportifs/pronostics/strasbourg-psg-pronostics-conseils-et-cotes-ligue-1/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T17:15:00+02:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Troyes",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 23,
+        "draw": 27,
+        "away": 50
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 8,
+        "away": 92,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "Lens est favori contre un Troyes en difficulté, mais son calendrier européen limite la certitude du 2.",
+        "keyFactors": [
+          "Troyes n'a pas encore gagné à domicile.",
+          "Lens vient de battre Lyon puis de perdre contre le Sporting en Europe.",
+          "La sélection FDJ sur Lens atteint 92 %, bien au-delà de l'estimation sportive."
+        ],
+        "uncertainty": "Le risque de rotation lensoise et la forte concentration FDJ réduisent la solidité du favori.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Eurosport",
+            "url": "https://www.eurosport.fr/paris-sportifs/pronostics/troyes-lens-pronostics-conseils-et-cotes-ligue-1/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "OddAlerts",
+            "url": "https://www.oddalerts.com/livescores/lens-vs-troyes/10148-7511",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T20:45:00+02:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lille",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 57,
+        "draw": 25,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 71,
+        "draw": 15,
+        "away": 14,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "Lille reste favori à domicile mais sa défaite européenne contre Arsenal et la bonne forme offensive de Brest tempèrent la projection.",
+        "keyFactors": [
+          "Lille est deuxième et invaincu chez lui.",
+          "Le LOSC a perdu 3-0 en Ligue des champions.",
+          "Brest vient de battre Angers 5-1.",
+          "Le 1 est plus joué à la FDJ que notre estimation."
+        ],
+        "uncertainty": "Fatigue du LOSC et défense brestoise diminuée.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Top Mercato",
+            "url": "https://www.topmercato.com/2146885-pronostic-lille-vs-brest-17-10-2026/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "OddAlerts",
+            "url": "https://www.oddalerts.com/livescores/brest-vs-losc-lille/8674-8035",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T20:45:00+02:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Red Star",
+      "awayTeam": "St Etienne",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 31,
+        "draw": 26,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 18,
+        "draw": 19,
+        "away": 63,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "Saint-Étienne possède un léger avantage offensif, mais ce choc entre les deux premiers de Ligue 2 reste très ouvert.",
+        "keyFactors": [
+          "Les Verts ont inscrit 21 buts en huit journées.",
+          "Le Red Star est deuxième et joue à domicile.",
+          "Les modèles donnent entre 38 et 49 % de chances de victoire stéphanoise.",
+          "La FDJ sursélectionne les Verts à 63 %."
+        ],
+        "uncertainty": "Écart de niveau limité et forte variabilité offensive.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Sportytrader",
+            "url": "https://www.sportytrader.com/pronostics/red-star-saint-etienne-379468/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "SoccerGhost",
+            "url": "https://soccerghost.com/match/92500/red-star-fc-93-vs-saint-etienne",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "RB Leipzig",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 76,
+        "draw": 14,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 95,
+        "draw": 5,
+        "away": 0,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "Bayern est largement favori à domicile, sans atteindre les 95 % de confiance affichés dans les sélections FDJ.",
+        "keyFactors": [
+          "Bayern vient de faire deux nuls de suite.",
+          "Musiala est absent et Neuer incertain.",
+          "Leipzig conserve un potentiel offensif important."
+        ],
+        "uncertainty": "État de Neuer, fatigue européenne et transitions de Leipzig.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/sports/soccer/bayern-are-close-their-best-despite-consecutive-draws-coach-kompany-2026-10-16/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Bavarian Football Works",
+            "url": "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/268725/bayern-munich-likely-without-jamal-musiala-vs-rb-leipzig-maybe-manuel-neuer-too",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Squawka",
+            "url": "https://www.squawka.com/en/news/bayern-munich-vs-rb-leipzig-predictions-betting-tips-17-10-26/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T18:30:00+02:00"
+    },
+    {
+      "position": 6,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Aston Villa",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 41,
+        "draw": 27,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 29,
+        "draw": 34,
+        "away": 37,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "Newcastle a un petit avantage à domicile, mais Aston Villa revient d'une victoire européenne 6-0 et peut l'emporter.",
+        "keyFactors": [
+          "Opta donne 40,9 % de chances à Newcastle contre 32,4 % à Villa.",
+          "Newcastle vient de perdre 4-1 à Coventry.",
+          "Villa a gagné 6-0 contre Fenerbahçe.",
+          "Les deux défenses sont vulnérables."
+        ],
+        "uncertainty": "Blessures, rythme européen de Villa et irrégularité des deux clubs.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Opta Analyst",
+            "url": "https://theanalyst.com/articles/newcastle-vs-aston-villa-prediction-premier-league-preview-10-2026",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Forebet",
+            "url": "https://www.forebet.com/en/football-match-previews/31301-newcastle-united-and-aston-villa-set-for-close-contest-at-st-james-park",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T18:30:00+02:00"
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bologne",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 19,
+        "draw": 25,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 7,
+        "draw": 28,
+        "away": 65,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "L'Inter est favori à Bologne grâce à son classement et sa forme, mais le nul reste une issue plausible.",
+        "keyFactors": [
+          "Inter compte 16 points en six journées contre cinq pour Bologne.",
+          "Bologne doit composer sans Orsolini.",
+          "Les modèles estiment le 2 autour de 50 à 60 %, contre 65 % de sélections FDJ."
+        ],
+        "uncertainty": "Match à l'extérieur et incertitude des compositions.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Diretta.it",
+            "url": "https://www.diretta.it/news/calcio-serie-a-bologna-inter-dove-vedere-la-partita-probabili-formazioni-e-quote/CfYzgsee/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "SoccerGhost",
+            "url": "https://soccerghost.com/match/18873/bologna-vs-inter",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T18:00:00+02:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Betis Séville",
+      "awayTeam": "FC Barcelone",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 21,
+        "draw": 20,
+        "away": 59
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 14,
+        "away": 86,
+        "accessedAt": "2026-10-17T02:02:07+02:00"
+      },
+      "analysis": {
+        "summary": "Barcelone est favori après une série de victoires, mais le Betis reste solide à domicile et représente un risque réel.",
+        "keyFactors": [
+          "Barcelone est leader et affiche une forte dynamique offensive.",
+          "Le Betis est invaincu lors de ses dernières réceptions de championnat.",
+          "Frenkie de Jong est susceptible de revenir dans le groupe.",
+          "Les 86 % de sélections FDJ sur Barcelone surestiment notre probabilité sportive."
+        ],
+        "uncertainty": "Le terrain, les rotations et la composition de Barcelone peuvent réduire l'écart.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 143, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Legalbet",
+            "url": "https://legalbet.com/game-center/real-betis-barcelona-17-10-2026/",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "SoccerGhost",
+            "url": "https://soccerghost.com/match/21326/real-betis-vs-barcelona",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          },
+          {
+            "label": "Barca Blaugranes",
+            "url": "https://www.barcablaugranes.com/barcelona-team-news/135255/hansi-flick-frenkie-de-jong-role-barcelona-return-real-betis",
+            "accessedAt": "2026-10-17T02:02:07+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-17T18:30:00+02:00"
+    }
+  ],
+  "tickets": []
+}
