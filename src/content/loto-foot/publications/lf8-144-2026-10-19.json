@@ -1,0 +1,371 @@
+{
+  "id": "lf8-144-2026-10-19",
+  "formula": 8,
+  "gridNumber": 144,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+  "validationDeadline": "2026-10-19T18:25:00+02:00",
+  "publishedAt": "2026-10-18T02:03:24+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Grille LF8 n°144 du 19 octobre: les scénarios les plus probables s'appuient sur Al Hilal et Braga à domicile, Tottenham malgré sa crise, et Torino/Montpellier à l'extérieur, mais Getafe–Rayo, Trabzonspor–Besiktas et Monza–Cagliari sont très incertains. La FDJ affiche uniquement 0 % / 0 % / 0 % pour les huit rencontres à la consultation: ces valeurs provisoires ne constituent pas une répartition valide des sélections et ne sont pas enregistrées dans fdjSelectionDistribution (somme nulle, incompatible avec la validation 99–101). Sans répartition exploitable, impossible de confronter les scénarios à la concentration réelle des autres joueurs et de déduire un potentiel de rapport fiable. Les rangs payés historiques LF8 (au moins 7/8, rapport médian observé de 50,85 € pour 7/8 et 856,50 € pour 8/8) ne prédisent pas les futurs rapports. La mémoire v2 indique -84,5 % sur les vingt derniers règlements (-115,80 €), -62,7 % pour les LF8 réglés, -53,1 % sur les premiers tickets récents et -87,8 % sur les tickets supplémentaires. Aucun scénario n'apporte une justification financière suffisamment robuste pour dépenser même 1 € virtuel; des tickets supplémentaires n'augmenteraient que la couverture. Décision skip: zéro combinaison, zéro euro de mise virtuelle."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Rodez",
+      "awayTeam": "Montpellier",
+      "competition": "Ligue 2 BKT 2026/27",
+      "probabilities": {
+        "home": 31,
+        "draw": 29,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Montpellier arrive mieux classé et plus solide défensivement, mais Rodez peut répondre à domicile malgré une défense friable. L'écart sportif est réel sans exclure le nul ni un sursaut ruthénois.",
+        "keyFactors": [
+          "Rodez occupe le bas du tableau et n'a plus gagné depuis cinq rencontres selon le suivi local, tandis que Montpellier se situe sur le podium.",
+          "Montpellier a été difficile à battre cette saison et encaisse relativement peu, mais marque moins régulièrement.",
+          "Les modèles consultés divergent: Sports Mole accorde 37,34 % à Rodez contre 35,9 % à Montpellier, PariFoot 30 % à Rodez et 40 % à Montpellier.",
+          "L'avantage du terrain et la fragilité défensive de Rodez se compensent partiellement."
+        ],
+        "uncertainty": "Les prévisions sont contradictoires sur le favori; absences annoncées et volatilité de l'attaque locale justifient un niveau de confiance modéré.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Rodez News — forme, classement et indisponibilités",
+            "url": "https://rodeznews.info/news/rodez-montpellier-ligue-preview-octobre-2026",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Sports Mole — Rodez–Montpellier, modèle de probabilités",
+            "url": "https://www.sportsmole.co.uk/football/ligue-2/rodez-af-vs-montpellier-hsc_game_260403.html",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "PariFoot — Rodez–Montpellier, tendances et pronostic",
+            "url": "https://www.parifoot.com/pronostics/rodez-vs-montpellier-2026-10-19/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-19T20:45:00+02:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Tottenham",
+      "awayTeam": "Coventry",
+      "competition": "Premier League 2026/27",
+      "probabilities": {
+        "home": 48,
+        "draw": 28,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Tottenham est favori à domicile selon les cotes, mais son début de saison catastrophique et plusieurs absences rendent Coventry compétitif après sa victoire 4-1 contre Newcastle.",
+        "keyFactors": [
+          "Tottenham est 19e avec trois points et toujours sans victoire après six journées; Coventry est 14e.",
+          "Coventry vient de battre Newcastle 4-1, un résultat important mais pas forcément reproductible à l'extérieur.",
+          "Le modèle xGstat donne 44 % Tottenham, 28 % nul, 28 % Coventry, contre une forte préférence pour les Spurs chez les bookmakers.",
+          "Pedro Porro, Xavi Simons, Kulusevski et d'autres sont signalés indisponibles côté Tottenham."
+        ],
+        "uncertainty": "Le potentiel intrinsèque de Tottenham peut être sous-estimé par sa forme, mais la fragilité de son effectif et la dynamique de Coventry interdisent une forte confiance dans le 1.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Zerozero — Tottenham–Coventry, forme et classement au 17 octobre",
+            "url": "https://www.zerozero.pt/noticias/tottenham-vs-coventry-city-antevisao-ausencias-e-onzes-provaveis-premier-league-19-10/1229939",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "FotMob — Tottenham–Coventry, absents et date",
+            "url": "https://www.fotmob.com/fr/matches/tottenham-hotspur-vs-coventry-city/2gn495",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "xGstat — Tottenham–Coventry, probabilités et xG",
+            "url": "https://www.xgstat.com/competitions/premier-league/2026-2027/matches/tottenham-hotspur-coventry-city-2026-10-19/preview",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Legalbet — Tottenham–Coventry, cotes et dynamique",
+            "url": "https://legalbet.uk/game-center/tottenham-hotspur-coventry-city-19-10-2026/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-19T21:00:00+02:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "Getafe",
+      "awayTeam": "Rayo Vallecano",
+      "competition": "LaLiga 2026/27",
+      "probabilities": {
+        "home": 33,
+        "draw": 32,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Derby madrilène presque équilibré. Getafe et Rayo comptent huit points, Rayo possède un léger avantage dans les cotes et la forme récente, mais le terrain de Getafe limite cet écart.",
+        "keyFactors": [
+          "Getafe est 14e et Rayo 13e, chacun avec huit points avant cette rencontre.",
+          "Les prix de marché corrigés de la marge sont proches de 33 % Getafe, 32 % nul, 36 % Rayo.",
+          "Getafe vient de perdre 0-3 contre Barcelone et de faire 1-1 en coupe d'Europe; Rayo reste sur un nul contre Osasuna.",
+          "La controverse autour du match interrompu de Rayo contre l'Athletic Bilbao crée un contexte particulier mais ne permet pas de prévoir l'issue."
+        ],
+        "uncertainty": "Équipes de niveau proche, calendrier européen de Getafe et incertitudes de forme; aucune des trois issues n'est clairement dominante.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Sports Pundit — Getafe–Rayo, cotes et classement",
+            "url": "https://sportspundit.com/soccer/matches/getafe-vs-rayo/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Football Nation — Getafe–Rayo, résultats récents et marché",
+            "url": "https://footballnation.eu/match/la-liga/2026/797782/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Golmetrico — Getafe–Rayo, statistiques et heure",
+            "url": "https://golmetrico.com/pronostico/laliga/getafe-vs-rayo-vallecano-2026-10-19/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-19T21:00:00+02:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Braga",
+      "awayTeam": "Gil Vicente",
+      "competition": "Liga Portugal 2026/27",
+      "probabilities": {
+        "home": 58,
+        "draw": 26,
+        "away": 16
+      },
+      "analysis": {
+        "summary": "Braga est nettement favori à domicile, malgré une forme récente irrégulière et des confrontations directes moins favorables qu'attendu contre Gil Vicente.",
+        "keyFactors": [
+          "Le marché 1N2 situe Braga autour de 58 à 60 % après correction de la marge.",
+          "Braga n'a gagné que deux de ses six derniers matchs dans la synthèse Wincomparator, Gil Vicente deux également.",
+          "Gil Vicente a remporté les deux dernières confrontations officielles recensées (février 2026 et septembre 2025).",
+          "Le terrain de Braga et son potentiel offensif donnent néanmoins une supériorité au club local."
+        ],
+        "uncertainty": "Les précédents duels favorables à Gil Vicente et la forme hésitante de Braga maintiennent un risque de nul ou de surprise.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "StatsBet — Braga–Gil Vicente, classements et confrontations",
+            "url": "https://statsbet.org/football/matches/sporting-braga-vs-gil-vicente-2026-10-19",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Wincomparator — Braga–Gil Vicente, forme et probabilité",
+            "url": "https://www.wincomparator.com/predictions/sporting-braga-gil-vicente-8872392/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "1x2.expert — Braga–Gil Vicente, consensus des cotes",
+            "url": "https://1x2.expert/en/match/176408-braga-vs-gil-vicente",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-19T21:15:00+02:00"
+    },
+    {
+      "position": 5,
+      "homeTeam": "Al Hilal",
+      "awayTeam": "Al Hazem",
+      "competition": "Saudi Pro League 2026/27",
+      "probabilities": {
+        "home": 85,
+        "draw": 11,
+        "away": 4
+      },
+      "analysis": {
+        "summary": "Al Hilal domine largement le rapport de forces à domicile face à Al Hazem, grâce à sa production offensive, sa meilleure défense et son historique direct. La probabilité du 1 reste très élevée mais non certaine.",
+        "keyFactors": [
+          "Al Hilal est dans les deux premières places du championnat, Al Hazem autour de la dixième.",
+          "Fox Sports recense 3,3 buts par match pour Al Hilal contre 1,1 pour Al Hazem.",
+          "Les modèles consultés donnent de 76 % à plus de 90 % de chances de victoire d'Al Hilal, avec des hypothèses différentes.",
+          "Al Hilal a remporté cinq des six dernières confrontations recensées par Statz, l'autre s'étant achevée sur un nul."
+        ],
+        "uncertainty": "Les modèles divergent sensiblement dans leur niveau de confiance et les rotations d'Al Hilal peuvent atténuer l'écart; ne pas traiter la victoire comme acquise.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Reuters — Al Hilal, forme récente et position en championnat",
+            "url": "https://www.reuters.com/sports/soccer/week-asian-football-2026-10-12/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "FOX Sports — Al Hilal–Al Hazem, statistiques des équipes",
+            "url": "https://www.foxsports.com/soccer/saudi-pro-league-al-hilal-vs-al-hazem-fc-oct-18-2026-game-boxscore-949546",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Statz — Al Hilal–Al Hazem, confrontations et projections",
+            "url": "https://statz.ai/h2h/al-hilal-vs-al-hazm/19778751",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "TheDatabetics — Al Hilal–Al Hazem, forme et projection",
+            "url": "https://thedatabetics.com/football-predictions/saudi-arabia-pro-league/al-hilal-saudi-fc-vs-al-hazm-19-october-2026/",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Trabzonspor",
+      "awayTeam": "Besiktas",
+      "competition": "Süper Lig 2026/27",
+      "probabilities": {
+        "home": 38,
+        "draw": 27,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Affiche très équilibrée entre Trabzonspor performant à domicile et Besiktas deuxième, plus régulier au classement. L'avantage du terrain rapproche les chances des deux clubs.",
+        "keyFactors": [
+          "Trabzonspor a gagné ses trois derniers matchs à domicile, dont un 4-0 contre Galatasaray, selon Forebet.",
+          "Besiktas a remporté cinq de ses six derniers matchs toutes compétitions confondues mais voyage moins bien.",
+          "Statz projette environ 37 % pour Trabzonspor, 25 % pour le nul et 38 % pour Besiktas.",
+          "Les six derniers duels comptent deux victoires de chaque côté et deux nuls."
+        ],
+        "uncertainty": "La force offensive des deux équipes et la différence domicile/extérieur rendent l'issue particulièrement incertaine.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Forebet — Trabzonspor–Besiktas, forme et avant-match",
+            "url": "https://www.forebet.com/en/football-match-previews/31335-trabzonspor-seek-home-advantage-as-besiktas-bring-vlahovic-firepower-to-papara-park",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Statz — Trabzonspor–Besiktas, projections et confrontations",
+            "url": "https://statz.ai/h2h/trabzonspor-vs-beikta/19746591",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "AC Monza",
+      "awayTeam": "Cagliari",
+      "competition": "Serie A 2026/27",
+      "probabilities": {
+        "home": 36,
+        "draw": 30,
+        "away": 34
+      },
+      "analysis": {
+        "summary": "Cagliari arrive quatrième avec une dynamique bien supérieure à celle de Monza, seizième, mais le marché accorde un léger avantage au terrain monzais. Les probabilités restent presque équilibrées.",
+        "keyFactors": [
+          "Cagliari compte 13 points après six journées contre quatre pour Monza, selon Eurosport.",
+          "Cagliari a remporté ses deux derniers duels contre Monza en Serie A.",
+          "Monza doit se passer de Lucchesi suspendu et de plusieurs joueurs blessés; Cagliari a également des indisponibilités.",
+          "Les cotes disponibles favorisent légèrement Monza malgré le meilleur début de saison de Cagliari."
+        ],
+        "uncertainty": "La contradiction entre dynamique sportive et prix de marché crée une grande incertitude; le niveau réel de Cagliari peut être sous-estimé.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Eurosport — Monza–Cagliari, forme, statistiques Opta et absents",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/monza-cagliari-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23346037/story.shtml",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Sky Sport — Monza–Cagliari, compositions probables et heure",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-7/monza-cagliari/formazioni",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Zona Pronostici — Monza–Cagliari, consensus 1N2",
+            "url": "https://zonapronostici.it/pronostici/monza-cagliari-2026-10-19",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-19T18:30:00+02:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Parme",
+      "awayTeam": "Torino",
+      "competition": "Serie A 2026/27",
+      "probabilities": {
+        "home": 30,
+        "draw": 30,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Torino est légèrement favori à l'extérieur face à un Parme en difficulté, mais le duel devrait rester serré avec un risque important de nul.",
+        "keyFactors": [
+          "Parme est dix-huitième avec quatre points, Torino douzième avec sept points.",
+          "Parme vient de perdre 0-3 contre l'Inter et n'a gagné qu'une fois lors de ses cinq derniers matchs.",
+          "Torino a battu Udinese 2-1 et fait 1-1 à Bologne récemment.",
+          "Le marché donne Torino autour de 39 à 48 % selon les modèles et bookmakers, avec une forte probabilité de match peu prolifique."
+        ],
+        "uncertainty": "Le jeu défensif, les résultats irréguliers des deux clubs et l'avantage du terrain pour Parme limitent la confiance dans le succès turinois.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°144, identité des rencontres et clôture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/841",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "StatsBet — Parme–Torino, forme, cotes et confrontations",
+            "url": "https://statsbet.org/football/matches/parma-vs-torino-2026-10-19",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Betbrain — Parme–Torino, contexte tactique et forme",
+            "url": "https://www.betbrain.com/football-predictions/ac-parma-vs-torino-fc-serie-a-19-10-2026",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          },
+          {
+            "label": "Zona Pronostici — Parme–Torino, classement et marché",
+            "url": "https://zonapronostici.it/pronostici/parma-torino-2026-10-19",
+            "accessedAt": "2026-10-18T02:03:22+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-19T20:45:00+02:00"
+    }
+  ],
+  "tickets": []
+}
