@@ -1,0 +1,636 @@
+{
+  "id": "lf15-87-2026-10-20",
+  "formula": 15,
+  "gridNumber": 87,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+  "validationDeadline": "2026-10-20T20:55:00+02:00",
+  "publishedAt": "2026-10-18T06:19:10+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Les quinze matchs de Ligue des champions ont été étudiés à partir du calendrier et des résultats UEFA des deux premières journées, des dernières formes, de l'avantage domicile et d'informations sportives récentes. Des favoris marqués existent, mais les rencontres Paris–Barcelone, Stuttgart–Atlético, Porto–PSV, Como–Manchester United, Betis–Feyenoord, Bayern–Arsenal, Bruges–Lens et Lille–Galatasaray ajoutent une incertitude majeure. La FDJ affiche 0/0/0 pour tous les matchs, chiffres non exploitables : aucune valeur relative des sélections ne peut être estimée. La mémoire v2 souligne une dégradation financière : 20 dernières publications -115,80 € nets, rendement -84,5 %, historique LF15 -74,8 %, premiers tickets récents -53,1 % et tickets additionnels -87,8 %. Les rapports passés des LF15 sont dispersés; sans répartition FDJ et sans distribution complète du pool, aucune combinaison ne présente un argument financier suffisamment crédible, même pour 1 € virtuel. En conséquence : skip, zéro ticket et zéro euro virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "FC Barcelone",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 40,
+        "draw": 25,
+        "away": 35
+      },
+      "analysis": {
+        "summary": "Affiche au sommet entre deux attaques en réussite. Le PSG vient de gagner 4-2 à Manchester City et 3-1 à Strasbourg ; Barcelone a battu Galatasaray 4-1 puis le Betis 5-2. Le terrain donne une très courte priorité à Paris.",
+        "keyFactors": [
+          "La victoire parisienne contre Manchester City souligne son potentiel contre les meilleurs.",
+          "Le Barça a remporté ses neuf premiers matchs de Liga et possède une attaque prolifique.",
+          "Paris a subi la blessure de Nuno Mendes à Strasbourg, ce qui accroît le doute sur l'effectif.",
+          "Le 1/N/2 est resserré, aucun favori absolu."
+        ],
+        "uncertainty": "Les dernières informations médicales et la disponibilité des titulaires peuvent changer la hiérarchie dans un duel offensif.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "psg",
+            "url": "https://www.reuters.com/sports/soccer/dembele-atones-penalty-miss-psg-win-strasbourg-2026-10-17/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "barca",
+            "url": "https://www.reuters.com/sports/soccer/barca-keep-perfect-laliga-record-with-five-goal-romp-betis-2026-10-17/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Villarreal",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 58,
+        "draw": 23,
+        "away": 19
+      },
+      "analysis": {
+        "summary": "Liverpool reste favori à Anfield après ses deux succès européens (2-1 contre l'Atlético et 6-3 à LASK). Villarreal vient pourtant de battre Naples 3-1 et possède des arguments offensifs sérieux.",
+        "keyFactors": [
+          "Liverpool a inscrit neuf buts en deux matchs de Ligue des champions.",
+          "Villarreal a battu Naples lors de la deuxième journée, signe de compétitivité continentale.",
+          "Liverpool a récemment perdu 3-0 contre Manchester City en championnat.",
+          "L'avantage du terrain et la densité du collectif favorisent Liverpool."
+        ],
+        "uncertainty": "Les concessions défensives de Liverpool face à LASK rendent le nul ou une surprise espagnole non négligeables.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "liv",
+            "url": "https://www.football-uefa.com/match_preview/liverpool-vs-villarreal-20-oct-2026/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "Atlético de Madrid",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 34,
+        "draw": 27,
+        "away": 39
+      },
+      "analysis": {
+        "summary": "Deux équipes solides se rencontrent : Stuttgart a gagné 3-0 à Bratislava, tandis que l'Atlético a dominé Manchester United 2-0 après un revers initial contre Liverpool. L'équipe espagnole n'est favorite que de peu.",
+        "keyFactors": [
+          "Le Stuttgart sort d'un succès 3-0 à l'extérieur en Ligue des champions.",
+          "L'Atlético a su contrôler Manchester United lors de la deuxième journée.",
+          "Stuttgart profite de l'accueil à domicile et peut imposer son rythme.",
+          "La discipline tactique et la qualité des transitions madrilènes font pencher légèrement vers le 2."
+        ],
+        "uncertainty": "La faible différence de niveau et les séquences défensives favorisent plusieurs scénarios de résultat.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "atleti",
+            "url": "https://fr.uefa.com/uefachampionsleague/clubs/50124--atletico/statistics/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Porto",
+      "awayTeam": "PSV Eindhoven",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 46,
+        "draw": 27,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Porto et PSV arrivent chacun d'une défaite européenne : 2-3 contre le Betis pour Porto, 0-1 à Leipzig pour PSV. Les deux équipes savent attaquer, mais leur manque de régularité en C1 augmente la part de nul.",
+        "keyFactors": [
+          "Porto reçoit après avoir marqué deux buts contre le Betis.",
+          "Le PSV avait partagé les points avec le Shakhtar (1-1) avant de s'incliner à Leipzig.",
+          "La forme nationale et les capacités de transition des deux clubs maintiennent une forte incertitude.",
+          "Le terrain du Dragão constitue un avantage raisonnable pour Porto."
+        ],
+        "uncertainty": "Le manque d'informations médicales récentes et la proximité des niveaux empêchent de dépasser une confiance modérée.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "porto",
+            "url": "https://www.football-uefa.com/match_preview/fc-porto-vs-psv-eindhoven-20-oct-2026/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "psv",
+            "url": "https://fr.uefa.com/uefachampionsleague/clubs/50062--psv/squad/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Naples",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 53,
+        "draw": 24,
+        "away": 23
+      },
+      "analysis": {
+        "summary": "Naples conserve l'avantage à domicile par sa qualité individuelle, mais ses deux défaites européennes face à Arsenal et Villarreal contrastent avec la victoire 1-0 de Bodø/Glimt contre Dortmund.",
+        "keyFactors": [
+          "Naples a perdu 0-1 contre Arsenal puis 1-3 contre Villarreal.",
+          "Bodø/Glimt a battu Dortmund 1-0 le 14 octobre et arrive en confiance.",
+          "Les Norvégiens ont été lourdement battus 5-0 par le Bayern lors de la première journée.",
+          "L'avantage du terrain napolitain reste significatif mais non décisif."
+        ],
+        "uncertainty": "Bodø peut surprendre grâce à sa discipline et sa confiance, tandis que Naples a démontré sa vulnérabilité face aux clubs bien organisés.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "bodo",
+            "url": "https://www.uefa.com/uefachampionsleague/clubs/59333--bodo-glimt/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 75,
+        "draw": 17,
+        "away": 8
+      },
+      "analysis": {
+        "summary": "La Roma reste nettement favorite à l'Olimpico malgré une défaite 3-4 contre le Real Madrid. Bratislava a perdu 0-3 contre Stuttgart et possède moins de références contre des adversaires de premier plan.",
+        "keyFactors": [
+          "Rome a inscrit trois buts au Real Madrid malgré sa défaite.",
+          "Le Slovan a cédé 0-3 à Stuttgart et occupe le bas du classement européen.",
+          "La qualité offensive romaine et l'avantage de l'Olimpico favorisent nettement le 1.",
+          "Les quatre buts encaissés par la Roma contre le Real révèlent une fragilité défensive."
+        ],
+        "uncertainty": "La faiblesse défensive romaine peut maintenir le score ouvert, mais l'issue extérieure reste peu probable.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "roma",
+            "url": "https://www.uefa.com/uefachampionsleague/match/2049592/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Manchester City",
+      "awayTeam": "AEK Athènes",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 82,
+        "draw": 12,
+        "away": 6
+      },
+      "analysis": {
+        "summary": "City dispose d'un avantage technique et offensif marqué au stade Etihad. Le club s'est remis d'un revers 2-4 face au PSG en battant Ipswich et en conservant un début de championnat parfait, même si plusieurs blessures sont surveillées.",
+        "keyFactors": [
+          "City avait gagné 2-0 à Porto en première journée mais perdu 2-4 contre Paris.",
+          "Sa victoire contre Ipswich le 17 octobre confirme la forme en championnat.",
+          "AEK reste compétitif nationalement mais a perdu 1-3 contre le Shakhtar à la deuxième journée.",
+          "Des inquiétudes existent sur la santé de plusieurs joueurs de City, notamment Haaland."
+        ],
+        "uncertainty": "Une rotation importante ou l'aggravation des blessures diminuerait la probabilité d'un large succès, sans effacer le statut de favori.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "city",
+            "url": "https://www.theguardian.com/football/2026/oct/17/manchester-city-ipswich-premier-league-match-report",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "city2",
+            "url": "https://www.football-uefa.com/match_preview/manchester-city-vs-aek-athens-fc-20-oct-2026/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Manchester United",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 41,
+        "draw": 28,
+        "away": 31
+      },
+      "analysis": {
+        "summary": "Como bénéficie de son terrain et d'une dynamique domestique globalement supérieure, alors que Manchester United a perdu 0-2 contre l'Atlético après avoir dominé Sabah 4-0. Duel beaucoup plus équilibré que ne le suggère la réputation des clubs.",
+        "keyFactors": [
+          "Como a perdu 2-3 à Feyenoord après son succès 4-1 contre Leipzig.",
+          "United a battu Sabah 4-0 puis cédé à l'Atlético 0-2.",
+          "Les modèles de marché analysés donnent Como autour de 42 % et United autour de 33 %.",
+          "La crise de résultats de United et les absences éventuelles renforcent le facteur domicile."
+        ],
+        "uncertainty": "Como manque de références dans la compétition, tandis que United peut se réveiller grâce à son expérience et à son effectif.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "como",
+            "url": "https://www.oddzone.fr/matchs/como-manchester-united-2026-10-21/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "manutd",
+            "url": "https://www.reuters.com/sports/soccer/martinez-slams-man-utd-hierarchy-after-atletico-defeat-2026-10-13/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Shakhtar Donetsk",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "L'Inter reste favorite à San Siro malgré deux défaites européennes dont une spectaculaire 3-4 contre Bruges. Le Shakhtar vient de battre l'AEK 3-1 et peut exploiter les failles défensives milanaises.",
+        "keyFactors": [
+          "L'Inter a perdu 2-1 à Madrid puis 4-3 à domicile contre Bruges.",
+          "Les Milanais demeurent offensivement productifs, comme le confirme leur 3-0 contre Parme.",
+          "Le Shakhtar a obtenu 1-1 au PSV puis battu l'AEK 3-1.",
+          "L'écart d'effectif et San Siro restent favorables aux Nerazzurri."
+        ],
+        "uncertainty": "Les sept buts encaissés par l'Inter en deux matchs européens et la solidité du Shakhtar imposent de limiter la confiance dans le 1.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "inter",
+            "url": "https://fr.uefa.com/uefachampionsleague/clubs/50138--inter/matches/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "shakhtar",
+            "url": "https://www.uefa.com/uefachampionsleague/clubs/52707--shakhtar/matches/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Sporting CP",
+      "awayTeam": "LASK Linz",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 74,
+        "draw": 17,
+        "away": 9
+      },
+      "analysis": {
+        "summary": "Le Sporting est très favori chez lui grâce à ses deux succès en C1, dont 2-0 à Lens. LASK a encaissé six buts contre Liverpool (3-6), ce qui rend son déplacement au Portugal particulièrement délicat.",
+        "keyFactors": [
+          "Sporting a battu Galatasaray 3-1 puis Lens 2-0 en Ligue des champions.",
+          "LASK s'est incliné 3-6 face à Liverpool à domicile.",
+          "Sporting affiche une défense européenne plus organisée, un but encaissé en deux matchs.",
+          "Le niveau de ses joueurs offensifs et l'avantage du terrain constituent des arguments majeurs."
+        ],
+        "uncertainty": "La variabilité des compositions et l'efficacité des transitions adverses laissent malgré tout une issue non victorieuse possible.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "sporting",
+            "url": "https://fr.uefa.com/uefachampionsleague/clubs/50149--sporting-cp/statistics/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Feyenoord",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 45,
+        "draw": 26,
+        "away": 29
+      },
+      "analysis": {
+        "summary": "Le Betis possède un léger avantage à Séville après sa victoire 3-2 contre Porto, mais Feyenoord vient de battre Como sur le même score. La lourde défaite du Betis 2-5 contre Barcelone nuance sa position de favori.",
+        "keyFactors": [
+          "Le Betis a battu Porto 3-2 lors de la deuxième journée.",
+          "Feyenoord a battu Como 3-2 après avoir perdu 1-5 contre Barcelone en ouverture.",
+          "Le Betis s'est incliné 2-5 face à Barcelone en championnat.",
+          "Les deux défenses concèdent des occasions, ce qui rend plausible une victoire de chaque camp."
+        ],
+        "uncertainty": "Incertaines rotations du Betis après le match contre le Barça et forme offensive néerlandaise très fluctuante.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "betis",
+            "url": "https://www.reuters.com/sports/soccer/barca-keep-perfect-laliga-record-with-five-goal-romp-betis-2026-10-17/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "fey",
+            "url": "https://www.uefa.com/uefachampionsleague/clubs/52749--feyenoord/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "RB Leipzig",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 64,
+        "draw": 21,
+        "away": 15
+      },
+      "analysis": {
+        "summary": "Le Real Madrid est favori au Bernabéu après ses deux succès européens, dont 4-3 contre la Roma. Leipzig a battu PSV 1-0 et reste capable de contrer, mais doit contenir la profondeur offensive madrilène.",
+        "keyFactors": [
+          "Le Real a gagné 2-1 contre l'Inter et 4-3 à Rome.",
+          "Leipzig a battu PSV 1-0 après une défaite en ouverture face à Como.",
+          "Madrid a encaissé trois buts contre Rome et montré des fragilités sur transition.",
+          "Les indisponibilités recensées par FotMob incluent Rodrygo et Mendy pour Madrid."
+        ],
+        "uncertainty": "Blessures offensives et défensives de Madrid, adversaire allemand plus solide après son succès européen.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "madrid",
+            "url": "https://www.fotmob.com/matches/real-madrid-vs-rb-leipzig/81hwp83",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Arsenal",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 47,
+        "draw": 26,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Grand duel entre deux formations de haut niveau. Le Bayern a concédé deux nuls consécutifs, dont 3-3 à Viking, tandis qu'Arsenal vient de battre Lille 3-0. Munich garde une courte avance à l'Allianz Arena.",
+        "keyFactors": [
+          "Le Bayern a battu Bodø 5-0, puis a concédé le nul 3-3 à Viking.",
+          "Arsenal a battu Lille 3-0 lors de la deuxième journée.",
+          "Kompany évoque un niveau de jeu toujours proche de l'optimum malgré les derniers nuls.",
+          "L'incertitude sur certains joueurs (dont Gnabry côté Bayern) et la force d'Arsenal empêchent toute certitude."
+        ],
+        "uncertainty": "Un duel tactique de très haut niveau peut basculer sur un détail, et le match nul reste significatif.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "bayern",
+            "url": "https://www.reuters.com/sports/soccer/bayern-are-close-their-best-despite-consecutive-draws-coach-kompany-2026-10-16/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "arsenal",
+            "url": "https://www.fotmob.com/fr/matches/bayern-munchen-vs-arsenal/36xjup",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Club Bruges",
+      "awayTeam": "Lens",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 48,
+        "draw": 27,
+        "away": 25
+      },
+      "analysis": {
+        "summary": "Bruges possède un léger avantage chez lui après un impressionnant succès 4-3 à l'Inter. Lens a été battu 0-2 par le Sporting et doit retrouver sa solidité, mais garde des armes offensives.",
+        "keyFactors": [
+          "Le Club Bruges a gagné 4-3 sur le terrain de l'Inter.",
+          "Lens a perdu 0-2 face au Sporting lors de la deuxième journée.",
+          "La rencontre aura lieu au stade Jan Breydel, confirmé par le RC Lens.",
+          "Certains joueurs de Bruges, dont Joel Ordóñez, restent incertains selon FotMob."
+        ],
+        "uncertainty": "Confrontation européenne sans précédent officiel entre les clubs, avec des effectifs susceptibles d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "brugge",
+            "url": "https://www.rclens.fr/fr/modalites-billetterie-club-brugge-rclens-champions-league-20261011",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "brugge2",
+            "url": "https://www.fotmob.com/matches/club-brugge-vs-lens/2dc1r3",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Lille",
+      "awayTeam": "Galatasaray",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 46,
+        "draw": 27,
+        "away": 27
+      },
+      "analysis": {
+        "summary": "Lille est légèrement favori à Pierre-Mauroy mais sort d'une défaite 0-3 à Arsenal et d'un nul 1-1 face à Brest. Galatasaray, battu 1-4 par Barcelone, reste dangereux grâce à ses talents offensifs.",
+        "keyFactors": [
+          "Lille a concédé 0-3 à Arsenal après avoir perdu 2-3 contre le Betis.",
+          "Galatasaray s'est incliné 1-4 contre Barcelone après un revers 1-3 au Sporting.",
+          "Lille bénéficie du stade Pierre-Mauroy et d'une meilleure organisation défensive chez lui.",
+          "Les absences possibles dans les deux camps limitent la précision de la projection."
+        ],
+        "uncertainty": "Les deux équipes cherchent leur premier point européen et peuvent jouer avec prudence, ce qui maintient un risque élevé de nul.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°87, affiche et ouverture",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2035",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels des journées 1 à 3",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "lille",
+            "url": "https://www.uefa.com/uefachampionsleague/match/2049605/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "lille2",
+            "url": "https://www.reuters.com/sports/soccer/dembele-atones-penalty-miss-psg-win-strasbourg-2026-10-17/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          },
+          {
+            "label": "gala",
+            "url": "https://football-uefa.com/match_preview/lille-vs-galatasaray-21-oct-2026/",
+            "accessedAt": "2026-10-18T06:19:10+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
