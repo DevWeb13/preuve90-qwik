@@ -1,0 +1,94 @@
+{
+  "id": "lf15-86-2026-10-17-result",
+  "publicationId": "lf15-86-2026-10-17",
+  "gridNumber": 86,
+  "settledAt": "2026-10-19T00:27:25+02:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2034",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N"
+    },
+    {
+      "position": 2,
+      "selection": "2"
+    },
+    {
+      "position": 3,
+      "selection": "2"
+    },
+    {
+      "position": 4,
+      "selection": "2"
+    },
+    {
+      "position": 5,
+      "selection": "1"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "1"
+    },
+    {
+      "position": 8,
+      "selection": "2"
+    },
+    {
+      "position": 9,
+      "selection": "N"
+    },
+    {
+      "position": 10,
+      "selection": "1"
+    },
+    {
+      "position": 11,
+      "selection": "1"
+    },
+    {
+      "position": 12,
+      "selection": "1"
+    },
+    {
+      "position": 13,
+      "selection": "2"
+    },
+    {
+      "position": 14,
+      "selection": "N"
+    },
+    {
+      "position": 15,
+      "selection": "1"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 15,
+      "amountCents": 16666700
+    },
+    {
+      "correctSelections": 14,
+      "amountCents": 183740
+    },
+    {
+      "correctSelections": 13,
+      "amountCents": 13890
+    },
+    {
+      "correctSelections": 12,
+      "amountCents": 1800
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°86",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2034",
+      "accessedAt": "2026-10-19T00:27:25+02:00"
+    }
+  ]
+}
