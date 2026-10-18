@@ -54,6 +54,16 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
 
    Traiter au maximum une grille complète par exécution afin d’éviter de commencer plusieurs analyses sans en terminer aucune. À date et heure de clôture identiques, traiter d’abord la grille contenant le moins de rencontres.
 
+   ### Réévaluation avant la première publication
+
+   Pour la grille prioritaire encore absente de l'inventaire, vérifier d'abord sa clôture officielle, l'heure actuelle en Europe/Paris et la disponibilité des informations FDJ et sportives. Ne jamais publier une grille après sa clôture.
+
+   - **Plus de 24 heures avant la clôture :** si les répartitions FDJ sont absentes ou inexploitables (par exemple `0/0/0`), semblent provisoires ou contradictoires, ou si des informations sportives déterminantes manquent, reporter la décision. Des pourcentages extrêmes ne sont pas automatiquement invalides ; apprécier leur fiabilité avec prudence. Ne créer ni publication, ni brouillon, ni décision `skip` définitive.
+   - Si les informations semblent suffisantes à plus de 24 heures, effectuer l'analyse complète. Une conclusion provisoire `skip` conduit à **reporter la publication** jusqu'aux dernières 24 heures, afin de réévaluer les nouvelles données. Un `bet` réellement justifié peut être publié plus tôt, avec toutes les validations habituelles.
+   - **Dans les 24 dernières heures :** refaire une consultation actualisée des sources et finaliser l'analyse complète, puis publier `bet` ou `skip` selon la stratégie v2. L'absence ou l'instabilité de la répartition FDJ ne suffit jamais, à elle seule, à imposer `skip` ou à reporter la publication : fonder la décision sur les données sportives disponibles, la mémoire statistique et les limites explicitement reconnues. Ne jamais imposer une mise minimale.
+   - Un report ne crée aucun état persistant : lors de l'exécution suivante, la grille reste absente d'`inventory.json` et doit être réexaminée suivant le même ordre de priorité. Si elle est reportée, terminer ce passage sans suivre les étapes d'écriture. Ne jamais modifier une publication existante, y compris une publication à 0 €.
+   - Distinguer le **report pour informations encore précoces** du **blocage** d'une analyse honnête ou de validation. Les motifs de blocage définis ci-dessous restent applicables, même dans les 24 dernières heures.
+
    Pour la grille prioritaire :
    - vérifier dans l’inventaire qu’une publication ayant la même formule et le même numéro n’existe pas déjà ;
    - effectuer pour chaque rencontre la recherche définie dans la section « Recherche » ;
@@ -142,6 +152,7 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - chaque publication créée, avec sa formule, son numéro, son chemin et le hash complet du commit ;
    - le nombre de matchs, la clôture, la décision `bet` ou `skip`, le nombre de combinaisons et la mise virtuelle totale ;
    - pour chaque rencontre, la liste exacte des sources réellement utilisées ;
+   - chaque grille reportée avant publication, avec sa clôture, le délai restant et la raison précise du report (distincte d'un blocage) ;
    - chaque grille bloquée et sa raison précise ;
    - l’état vérifié de la synchronisation de l’inventaire et des déploiements.
 
