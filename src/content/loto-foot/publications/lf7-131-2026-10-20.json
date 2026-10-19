@@ -1,0 +1,347 @@
+{
+  "id": "lf7-131-2026-10-20",
+  "formula": 7,
+  "gridNumber": 131,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4948",
+  "validationDeadline": "2026-10-20T18:40:00+02:00",
+  "publishedAt": "2026-10-19T22:19:48+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Les sept rencontres ont été réévaluées dans les dernières 24 heures avec le calendrier, les résultats et les absences UEFA du 19 octobre, une analyse statistique indépendante et les répartitions FDJ. Les favoris fortement surjoués (Liverpool 80 %, Porto 71 %, Roma 88 %, Fenerbahçe 76 %) comportent des risques réels, alors que PSG-Barcelone, Naples-Bodø/Glimt et Stuttgart-Atlético restent très ouverts. Les scénarios cohérents les plus plausibles et quelques alternatives sous-jouées ont été examinés, mais les écarts de choix FDJ ne prouvent pas la valeur monétaire ni le rapport futur. Les rapports médians LF7 (6/7 : 15,65 € ; 7/7 : 198 €) sont très dispersés et insuffisants pour démontrer un résultat net probablement positif de cette grille. Mémoire v2 : -82,8 % sur les 20 dernières publications réglées ; premiers tickets -58 % ; tickets ajoutés -85,5 % ; historique LF7 déficitaire. Un premier ticket de 1 € ne présente pas d'avantage financier suffisamment crédible et ajouter des variantes viserait surtout la couverture. Décision : skip, zéro combinaison, mise virtuelle 0 €, sans prétendre connaître l'espérance exacte."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "FC Barcelone",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 41,
+        "draw": 27,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 25,
+        "away": 34,
+        "accessedAt": "2026-10-19T22:17:56+02:00"
+      },
+      "analysis": {
+        "summary": "Deux attaques européennes en forme et une rencontre réellement ouverte au Parc des Princes : Paris a battu Manchester City 4-2 et Barcelone a gagné 4-1 à Galatasaray. Paris conserve un léger avantage à domicile.",
+        "keyFactors": [
+          "L'UEFA confirme le succès parisien 4-2 chez Manchester City et celui du Barça 4-1 à Galatasaray.",
+          "Nuno Mendes est annoncé absent pour Paris ; Christensen, Eric García et Koundé côté Barcelone.",
+          "L'analyse statistique indépendante d'Opta accorde environ 40 % de victoires à Paris, bien loin d'une certitude."
+        ],
+        "uncertainty": "Compositions définitives, disponibilité de Mayulu, adaptation des défenses et rythme offensif des deux équipes.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°131 et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — résultats et calendrier 2026/27",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — compositions probables et indisponibilités (19 octobre)",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21dd60778d8f-1ea14fd92256-1000--champions-league-predicted-line-ups-matchday-3-team-news-/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "Opta Analyst — prévision PSG-Barcelone",
+            "url": "https://theanalyst.com/articles/psg-vs-barcelona-prediction-champions-league-10-2026",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Villarreal",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 62,
+        "draw": 22,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 11,
+        "away": 9,
+        "accessedAt": "2026-10-19T22:17:56+02:00"
+      },
+      "analysis": {
+        "summary": "Liverpool possède l'avantage du terrain et a marqué six fois contre le LASK ; Villarreal a pourtant battu Naples 3-1 et demeure dangereux. L'écart entre favori sportif et choix FDJ est important.",
+        "keyFactors": [
+          "L'UEFA recense Liverpool vainqueur 6-3 au LASK et Villarreal vainqueur 3-1 de Naples.",
+          "Liverpool déplore notamment les absences de Frimpong et Szoboszlai, précisées par le club.",
+          "Les 80 % de choix 1 FDJ paraissent plus concentrés que notre probabilité sportive de 62 %."
+        ],
+        "uncertainty": "Réorganisation de Liverpool à cause des absences et faculté de Villarreal à exploiter les transitions.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°131 et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — résultats et calendrier 2026/27",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — compositions probables et indisponibilités (19 octobre)",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21dd60778d8f-1ea14fd92256-1000--champions-league-predicted-line-ups-matchday-3-team-news-/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "Liverpool FC — point médical Frimpong et Szoboszlai",
+            "url": "https://www.liverpoolfc.com/news/injury-news-jeremie-frimpong-dominik-szoboszlai-liverpool-fc",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "FC Porto",
+      "awayTeam": "PSV Eindhoven",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 50,
+        "draw": 27,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 71,
+        "draw": 16,
+        "away": 13,
+        "accessedAt": "2026-10-19T22:17:56+02:00"
+      },
+      "analysis": {
+        "summary": "Porto est légèrement favori au Dragão mais sa défaite 3-2 au Betis révèle des fragilités. Le PSV a perdu à Leipzig 1-0 et arrive avec plusieurs absents offensifs.",
+        "keyFactors": [
+          "Porto s'est incliné 3-2 sur le terrain du Real Betis lors de la précédente journée UEFA.",
+          "Le PSV a perdu 1-0 à Leipzig.",
+          "L'UEFA liste plusieurs absents au PSV, dont Pepi, Wanner et Sildillia ; Porto a moins d'absences annoncées."
+        ],
+        "uncertainty": "Réaction du PSV malgré son effectif réduit et capacité de Porto à transformer son avantage à domicile.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°131 et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — résultats et calendrier 2026/27",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — compositions probables et indisponibilités (19 octobre)",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21dd60778d8f-1ea14fd92256-1000--champions-league-predicted-line-ups-matchday-3-team-news-/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 75,
+        "draw": 17,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 88,
+        "draw": 7,
+        "away": 5,
+        "accessedAt": "2026-10-19T22:17:56+02:00"
+      },
+      "analysis": {
+        "summary": "La Roma dispose d'un avantage sportif net contre le Slovan, défait 3-0 par Stuttgart. Son revers 4-3 contre le Real Madrid et ses absences incitent à ne pas considérer le match comme acquis.",
+        "keyFactors": [
+          "Le Slovan a perdu 3-0 contre Stuttgart lors de la dernière journée UEFA.",
+          "La Roma a encaissé quatre buts face au Real Madrid après avoir mené.",
+          "L'UEFA annonce les absences de Cristante, Dybala et Koné ; Gasperini a confirmé la blessure de Dybala."
+        ],
+        "uncertainty": "Effectif remanié de la Roma, capacité de réaction mentale et rapport FDJ faible si le favori gagne massivement.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°131 et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — résultats et calendrier 2026/27",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — compositions probables et indisponibilités (19 octobre)",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21dd60778d8f-1ea14fd92256-1000--champions-league-predicted-line-ups-matchday-3-team-news-/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "Sky Sport — conférence de Gasperini",
+            "url": "https://sport.sky.it/calcio/champions-league/2026/10/19/roma-slovan-bratislava-gasperini-conferenza-video",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Fenerbahçe",
+      "awayTeam": "Slavia Prague",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 54,
+        "draw": 26,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 76,
+        "draw": 14,
+        "away": 10,
+        "accessedAt": "2026-10-19T22:17:56+02:00"
+      },
+      "analysis": {
+        "summary": "Fenerbahçe bénéficie du terrain et d'un effectif supérieur, mais la lourde défaite 6-0 à Aston Villa invite à tempérer le pronostic. Le Slavia a lui aussi perdu face à Sabah.",
+        "keyFactors": [
+          "Fenerbahçe a perdu 6-0 chez Aston Villa ; le Slavia a perdu 2-0 chez Sabah.",
+          "Asensio et Mert Müldür sont absents pour Fenerbahçe selon l'UEFA.",
+          "Plusieurs joueurs sont absents au Slavia, mais la part FDJ de 76 % sur le 1 paraît supérieure à notre estimation."
+        ],
+        "uncertainty": "Réaction de Fenerbahçe après son lourd revers, état moral des deux équipes et risques de nul.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°131 et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — résultats et calendrier 2026/27",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — compositions probables et indisponibilités (19 octobre)",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21dd60778d8f-1ea14fd92256-1000--champions-league-predicted-line-ups-matchday-3-team-news-/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "Sports Mole — Fenerbahçe-Slavia, avant-match",
+            "url": "https://www.sportsmole.co.uk/football/fenerbahce/champions-league/preview/fenerbahce-vs-slavia-prague-prediction-team-news-lineups_607168.html",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Naples",
+      "awayTeam": "Bodø/Glimt",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 44,
+        "draw": 28,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 19,
+        "away": 24,
+        "accessedAt": "2026-10-19T22:17:56+02:00"
+      },
+      "analysis": {
+        "summary": "Naples est favori seulement de peu à domicile après deux défaites en Ligue des champions, notamment contre Villarreal. Bodø/Glimt sort d'une victoire probante contre Dortmund.",
+        "keyFactors": [
+          "Naples a perdu 0-1 contre Arsenal et 1-3 contre Villarreal lors des deux premières journées.",
+          "Bodø/Glimt s'est relancé par une victoire 1-0 face à Borussia Dortmund.",
+          "L'UEFA annonce Neres, Vergara et Alisson Santos indisponibles pour Naples ; Bodø/Glimt compte aussi des absences."
+        ],
+        "uncertainty": "Résilience de Naples après son début européen raté et solidité extérieure de Bodø/Glimt.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°131 et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — résultats et calendrier 2026/27",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — compositions probables et indisponibilités (19 octobre)",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21dd60778d8f-1ea14fd92256-1000--champions-league-predicted-line-ups-matchday-3-team-news-/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — calendriers et résultats par équipe",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "Atlético de Madrid",
+      "competition": "UEFA Champions League 2026/27",
+      "probabilities": {
+        "home": 31,
+        "draw": 27,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 23,
+        "away": 56,
+        "accessedAt": "2026-10-19T22:17:56+02:00"
+      },
+      "analysis": {
+        "summary": "Atlético possède un avantage de qualité individuelle, mais Stuttgart reste sur deux succès européens, dont 3-0 chez le Slovan. Le résultat à domicile est plus ouvert que ne le suggère la majorité FDJ sur le 2.",
+        "keyFactors": [
+          "Stuttgart a gagné 3-1 contre Viking puis 3-0 à Bratislava.",
+          "L'Atlético a battu Manchester United 2-0 et aborde le déplacement en progrès.",
+          "L'UEFA annonce Koke et Romero absents côté Atlético et des incertitudes chez Stuttgart."
+        ],
+        "uncertainty": "Atout du terrain pour Stuttgart, transitions adverses et compositions définitives avec absences possibles.",
+        "sources": [
+          {
+            "label": "FDJ — Loto Foot 7 n°131 et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — résultats et calendrier 2026/27",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — compositions probables et indisponibilités (19 octobre)",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21dd60778d8f-1ea14fd92256-1000--champions-league-predicted-line-ups-matchday-3-team-news-/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          },
+          {
+            "label": "UEFA — faits et statistiques Stuttgart-Atlético",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02aa-21da4ff829ad-dd9a9b444802-1000--ligue-des-champions-journee-3-les-faits-et-stats-de-stuttgar/",
+            "accessedAt": "2026-10-19T22:17:56+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
