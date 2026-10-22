@@ -1,0 +1,357 @@
+{
+  "id": "lf7-132-2026-10-22",
+  "formula": 7,
+  "gridNumber": 132,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4949",
+  "validationDeadline": "2026-10-22T20:55:00+02:00",
+  "publishedAt": "2026-10-22T09:57:52+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Réévaluation complète de la LF7 n°132 dans ses dernières 24 heures, sur sept rencontres confirmées par la FDJ et l'UEFA. Les scénarios les plus probables combinent Lyon, Beşiktaş, Real Sociedad, Celtic, Bournemouth, Ajax et Monaco, mais plusieurs de ces issues sont déjà surjouées (Beşiktaş 57 %, Real Sociedad 59 %, Ajax 55 %, Monaco 59 %). Bournemouth à domicile (45 % sportifs contre 33 % FDJ) et le nul à Monaco (29 % contre 21 %) offrent des signaux de valeur relatifs, pas une espérance de gain mesurable. Le scénario 2-1-2-1-1-1-N ne représente qu'environ 0,30 % de probabilité d'obtenir 7/7 et 2,8 % pour exactement 6/7 selon nos estimations indépendantes, avant prise en compte de leurs incertitudes. Les médianes historiques LF7 (16,60 € à 6/7, 216 € à 7/7) ne sont pas des prévisions de rapports et ne suffisent pas à établir une rentabilité crédible, même en tenant compte de la moindre popularité du nul monégasque. Le rendement des 41 LF7 réglées est de -60,9 %, celui des 20 dernières publications toutes formules de -69,5 %, et les tickets additionnels récents ont perdu 74,1 % de leurs mises. La calibration historique montre une sous-estimation moyenne des favoris sans justifier une hausse mécanique. Aucun premier ticket n'est suffisamment justifié financièrement ; les variantes ajoutent surtout de la couverture. Décision finale skip, zéro ticket, zéro euro virtuel, sans imposer de mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Hoffenheim",
+      "awayTeam": "Lyon",
+      "competition": "UEFA Europa League",
+      "probabilities": {
+        "home": 29,
+        "draw": 27,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 29,
+        "draw": 22,
+        "away": 49,
+        "accessedAt": "2026-10-22T09:56:36+02:00"
+      },
+      "analysis": {
+        "summary": "Lyon présente une meilleure dynamique européenne et une meilleure forme récente, malgré l'avantage du terrain de Hoffenheim. Les deux équipes peuvent marquer et le nul reste significatif.",
+        "keyFactors": [
+          "Hoffenheim a perdu ses deux premières rencontres européennes (2-0 contre OFI puis 3-2 contre Beşiktaş).",
+          "Lyon a battu Anderlecht 2-1 puis Crystal Palace 3-2.",
+          "La baisse de forme de Kramarić et les fragilités défensives de Hoffenheim atténuent son avantage à domicile."
+        ],
+        "uncertainty": "La composition de Lyon, la réaction de Hoffenheim à domicile et la disponibilité de Kramarić peuvent faire évoluer l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes et répartitions LF7 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "Forebet — Hoffenheim–Lyon, forme et statistiques",
+            "url": "https://www.forebet.com/en/football-match-previews/31581-lyons-momentum-meets-hoffenheims-search-for-stability-in-the-europa-league",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "Die Welt — forme récente de Kramarić",
+            "url": "https://www.welt.de/regionales/baden-wuerttemberg/article6ad877062c40700de080035d/tsg-star-auf-formsuche-kramaric-muss-sich-empfehlen.html",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Beşiktaş",
+      "awayTeam": "Crystal Palace",
+      "competition": "UEFA Europa League",
+      "probabilities": {
+        "home": 51,
+        "draw": 25,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 18,
+        "away": 25,
+        "accessedAt": "2026-10-22T09:56:36+02:00"
+      },
+      "analysis": {
+        "summary": "Beşiktaş a remporté ses deux matchs européens, marque régulièrement et reçoit un Palace fragile défensivement. Les absences des deux côtés limitent cependant la confiance dans le 1.",
+        "keyFactors": [
+          "Beşiktaş a battu Marseille 4-1 et Hoffenheim 3-2 en Europe.",
+          "Crystal Palace vient de perdre 3-2 contre Lyon et 5-0 contre Brighton.",
+          "Rashica et Kökçü sont annoncés absents chez Beşiktaş ; Palace a plusieurs incertitudes défensives."
+        ],
+        "uncertainty": "Les choix défensifs de Palace et les rotations turques peuvent rééquilibrer la rencontre.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes et répartitions LF7 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "SportyTrader — Beşiktaş–Crystal Palace, effectifs et forme",
+            "url": "https://www.sportytrader.com/en/betting-tips/besiktas-jk-crystal-palace-380814/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "PreviaXI — Beşiktaş–Crystal Palace, avant-match",
+            "url": "https://previaxi.com/en/besiktas-vs-crystal-palace-preview-2026-10-22/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lillestrøm",
+      "awayTeam": "Real Sociedad",
+      "competition": "UEFA Europa League",
+      "probabilities": {
+        "home": 22,
+        "draw": 26,
+        "away": 52
+      },
+      "fdjSelectionDistribution": {
+        "home": 23,
+        "draw": 18,
+        "away": 59,
+        "accessedAt": "2026-10-22T09:56:36+02:00"
+      },
+      "analysis": {
+        "summary": "La Real Sociedad possède davantage de qualité individuelle, mais elle n'a pris qu'un point en deux rencontres européennes et se déplace chez un adversaire capable de résister.",
+        "keyFactors": [
+          "Lillestrøm a perdu 2-1 contre Torreense puis fait match nul 1-1 à Prague.",
+          "La Real Sociedad a perdu 2-1 contre Bournemouth puis fait 1-1 contre l'Union Saint-Gilloise.",
+          "Les deux équipes connaissent des indisponibilités, notamment défensives."
+        ],
+        "uncertainty": "Le déplacement norvégien, les absences côté basque et la forme offensive de la Real rendent le nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes et répartitions LF7 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "SoccerGhost — Lillestrøm–Real Sociedad, forme domicile/extérieur et absences",
+            "url": "https://soccerghost.com/match/23150/lillestrom-vs-real-sociedad",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "Betora — Lillestrøm–Real Sociedad, effectifs",
+            "url": "https://betora.app/prediction/world-uefa-europa-league/lillestrom-vs-real-sociedad",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Celtic",
+      "awayTeam": "Celta Vigo",
+      "competition": "UEFA Europa League",
+      "probabilities": {
+        "home": 44,
+        "draw": 28,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 45,
+        "draw": 26,
+        "away": 29,
+        "accessedAt": "2026-10-22T09:56:36+02:00"
+      },
+      "analysis": {
+        "summary": "Celtic s'est repris offensivement en championnat avec sept buts contre Hearts, mais reste fragile en Europe. Le Celta est privé de plusieurs options offensives et n'a toujours pas marqué de points européens.",
+        "keyFactors": [
+          "Celtic a perdu 3-1 contre Ferencváros et 4-1 contre Benfica en Europa League.",
+          "Celta a perdu 1-0 contre Omonia puis 2-1 contre Juventus.",
+          "Le Celtic sort d'un succès 7-1 contre Hearts ; Borja Iglesias et d'autres attaquants du Celta sont indisponibles."
+        ],
+        "uncertainty": "Le niveau défensif réel du Celtic et la capacité du Celta à compenser ses absences offensives sont incertains.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes et répartitions LF7 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "Yahoo Sports — Celtic–Celta, compositions et absences",
+            "url": "https://ca.sports.yahoo.com/news/preview-celtic-vs-celta-vigo-193500018.html",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "OddsNG — Celtic–Celta, analyse des absences et fins de match",
+            "url": "https://oddsng.com/match/celtic-celta-vigo-22-10-2026/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "AC Milan",
+      "competition": "UEFA Europa League",
+      "probabilities": {
+        "home": 45,
+        "draw": 27,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 33,
+        "draw": 25,
+        "away": 42,
+        "accessedAt": "2026-10-22T09:56:36+02:00"
+      },
+      "analysis": {
+        "summary": "Bournemouth a gagné ses deux rencontres européennes et se montre solide à domicile, tandis que Milan s'est relancé 4-0 à Salzbourg. Le public privilégie Milan alors que l'analyse sportive penche vers Bournemouth.",
+        "keyFactors": [
+          "Bournemouth a battu la Real Sociedad 2-1 puis Sturm Graz 3-0.",
+          "Milan a perdu contre Benfica puis battu Salzbourg 4-0.",
+          "Bournemouth est privé notamment d'Alex Scott et de Kroupi ; Milan doit composer avec les absences de Gabbia et Saelemaekers."
+        ],
+        "uncertainty": "L'effectif diminué de Bournemouth et la capacité offensive de Milan peuvent renverser l'avantage du terrain.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes et répartitions LF7 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels",
+            "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "PreviaXI — Bournemouth–Milan, forme européenne et indisponibilités",
+            "url": "https://previaxi.com/en/bournemouth-vs-ac-milan-preview-2026-10-22/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "TACTIX — Bournemouth–Milan, statistiques domicile/extérieur",
+            "url": "https://tactix.football/uefa-europa-league/bournemouth-vs-ac-milan-2026-10-22",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Ajax",
+      "awayTeam": "Atalanta",
+      "competition": "UEFA Conference League",
+      "probabilities": {
+        "home": 44,
+        "draw": 26,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 55,
+        "draw": 20,
+        "away": 25,
+        "accessedAt": "2026-10-22T09:56:36+02:00"
+      },
+      "analysis": {
+        "summary": "Ajax a perdu son entrée en Conference League mais vient de marquer cinq buts en championnat. Atalanta a battu Pafos et reste dangereuse malgré une défense diminuée. Les trois issues demeurent plausibles.",
+        "keyFactors": [
+          "Ajax a perdu 2-1 à Hajduk Split ; Atalanta a battu Pafos 3-1.",
+          "Ajax vient de gagner 5-2 à Groningen mais encaisse régulièrement.",
+          "Atalanta présente plusieurs défenseurs blessés ou incertains, Ajax a aussi des absences offensives et défensives."
+        ],
+        "uncertainty": "Les compositions défensives et la gestion de l'intensité peuvent provoquer un match très ouvert.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes et répartitions LF7 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels",
+            "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--202627-conference-league-all-the-league-phase-fixtures/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — fiche Ajax–Atalanta, dynamique et rencontre",
+            "url": "https://www.uefa.com/uefaconferenceleague/match/2050328/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "Yahoo Sports — Ajax–Atalanta, forme et indisponibilités",
+            "url": "https://staging-aws.sports.yahoo.com/articles/preview-ajax-vs-atalanta-team-195000055.html",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "FootyBets — Ajax–Atalanta, tendances et absences",
+            "url": "https://footybets.io/ajax-vs-atalanta-prediction-betting-tips-preview-october-2026/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Monaco",
+      "awayTeam": "Fribourg",
+      "competition": "UEFA Conference League",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 21,
+        "away": 20,
+        "accessedAt": "2026-10-22T09:56:36+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco bénéficie du terrain et de sa solidité à domicile, mais Fribourg affiche une forme comparable voire supérieure sur les dernières semaines. Le nul est nettement moins sélectionné par le public que la victoire monégasque.",
+        "keyFactors": [
+          "Monaco a battu CSKA Sofia 2-1 ; Fribourg a battu Jablonec 3-2 lors de la première journée.",
+          "Monaco reste difficile à battre à domicile, Fribourg a gagné quatre de ses six derniers matchs.",
+          "Le retour d'Ansu Fati aide Monaco ; des indisponibilités touchent les deux équipes."
+        ],
+        "uncertainty": "La bonne dynamique offensive de Fribourg, les rotations et la forme réelle de Monaco créent un risque significatif de nul ou de victoire extérieure.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes et répartitions LF7 n°132",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats officiels",
+            "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--202627-conference-league-all-the-league-phase-fixtures/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "Forebet — Monaco–Fribourg, forme et compositions",
+            "url": "https://www.forebet.com/en/football-match-previews/31635-perfect-starts-collide-monaco-and-freiburg-set-for-fine-margin-duel",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de Fribourg",
+            "url": "https://www.uefa.com/uefaconferenceleague/clubs/59880/matches/",
+            "accessedAt": "2026-10-22T09:56:36+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
