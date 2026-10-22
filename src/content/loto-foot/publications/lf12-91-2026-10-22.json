@@ -1,0 +1,537 @@
+{
+  "id": "lf12-91-2026-10-22",
+  "formula": 12,
+  "gridNumber": 91,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/583",
+  "validationDeadline": "2026-10-22T18:40:00+02:00",
+  "publishedAt": "2026-10-22T06:59:52+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse réactualisée des 12 rencontres à l'approche de la clôture à partir des résultats et calendriers UEFA, de la forme et des indisponibilités récentes, puis confrontation des scénarios aux choix FDJ. Leverkusen, Real Sociedad, Sunderland, Olympiakos et Juventus sont fortement sélectionnés ; des alternatives plausibles (Lillestrøm, Lech, Lyon, le nul sur plusieurs rencontres) existent, mais l'écart entre nos probabilités et les sélections des joueurs ne permet pas de calculer le rapport futur. Les rangs 9/12 et 10/12 historiquement payés rapportent une médiane de seulement 2,60 € et 13,90 € ; les rangs supérieurs sont très incertains. Sur 27 LF12 réglées, le rendement historique est de -81,1 % et aucune publication n'est profitable. Sur les vingt dernières publications toutes formules, rendement -69,5 %, ticket principal -30 % et tickets additionnels -74,1 %. La calibration récente suggère une sous-estimation moyenne des favoris, sans justifier de correction mécanique. Aucun scénario de premier ticket à 1 € ne présente à cette heure un argument financier assez crédible ; les variantes envisagées augmenteraient principalement la couverture. Décision explicite de ne pas engager de mise virtuelle : skip, zéro combinaison, zéro euro, sans prétendre mesurer une espérance exacte."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Hoffenheim",
+      "awayTeam": "Lyon",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 40,
+        "draw": 26,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 20,
+        "away": 30,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Hoffenheim bénéficie du terrain et reste légèrement favori sur le marché, mais a débuté l'Europa League sans point tandis que Lyon en possède six. Le rapport de forces paraît plus partagé que les choix FDJ.",
+        "keyFactors": [
+          "Hoffenheim a perdu ses deux premières rencontres européennes et Lyon a réalisé un départ nettement meilleur.",
+          "Wimmer, De Cat et Hajdari sont annoncés absents chez Hoffenheim ; Lyon compte notamment Openda et Tagliafico parmi ses blessés.",
+          "Le pronostic doit pondérer l'avantage du terrain par la dynamique européenne contradictoire."
+        ],
+        "uncertainty": "L'effet des absences offensives de Lyon et le retour possible de Bernardo rendent les variantes 1, N et 2 crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Top Mercato — Hoffenheim-Lyon, formes et absences",
+            "url": "https://www.topmercato.com/2147875-pronostic-hoffenheim-vs-lyon-22-10-2026/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Beşiktaş",
+      "awayTeam": "Crystal Palace",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 48,
+        "draw": 24,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 48,
+        "draw": 22,
+        "away": 30,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Beşiktaş arrive avec deux succès européens et une solide série à domicile. Palace a souffert défensivement lors de son lourd revers contre Brighton, mais possède des ressources offensives pour surprendre.",
+        "keyFactors": [
+          "Beşiktaş a gagné ses deux premières rencontres de la phase de ligue.",
+          "Crystal Palace a perdu 5-0 face à Brighton après sa défaite 3-2 à Lyon.",
+          "Rashica et Kökçü manquent côté turc ; plusieurs défenseurs ou gardiens de Palace sont incertains."
+        ],
+        "uncertainty": "Le soutien du public turc doit être mis en balance avec les rotations et la capacité de Palace à réagir.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Racing Post — Beşiktaş–Crystal Palace, forme et compositions",
+            "url": "https://www.racingpost.com/sport/football-tips/europa-league/besiktas-vs-crystal-palace-predictions-team-news-odds-betting-tips-bet-builder-aESPy8D0B0cj/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lillestrøm",
+      "awayTeam": "Real Sociedad",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 23,
+        "draw": 26,
+        "away": 51
+      },
+      "fdjSelectionDistribution": {
+        "home": 11,
+        "draw": 17,
+        "away": 72,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "La Real Sociedad est supérieure sur le papier, mais n'a pris qu'un point en deux matches européens, comme Lillestrøm. Le terrain norvégien et les absences basques diminuent la certitude d'une victoire extérieure.",
+        "keyFactors": [
+          "Les deux équipes n'ont obtenu qu'un point après deux journées.",
+          "Lillestrøm s'est imposé récemment 2-0 face à Sandefjord en championnat.",
+          "La Real Sociedad doit composer avec plusieurs absences signalées en défense et au milieu."
+        ],
+        "uncertainty": "Impact du déplacement en Norvège et efficacité offensive de la Real en l'absence de certains titulaires.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Sports Mole — Lillestrøm–Real Sociedad, avant-match",
+            "url": "https://www.sportsmole.co.uk/football/real-sociedad/europa-league/preview/lillestrom-vs-real-sociedad-prediction-team-news-lineups_607288.html",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Celtic",
+      "awayTeam": "Celta Vigo",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 45,
+        "draw": 27,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 37,
+        "draw": 25,
+        "away": 38,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Celtic reçoit une équipe du Celta très touchée par les absences et peut profiter de l'appui du Celtic Park, mais sa propre fragilité défensive rend le nul et une surprise crédibles.",
+        "keyFactors": [
+          "Les deux clubs ont perdu leurs deux premières rencontres de phase de ligue.",
+          "Celta compte notamment Iglesias et Starfelt parmi les indisponibles.",
+          "Celtic est privé de Carter-Vickers et doit composer avec un secteur défensif remanié."
+        ],
+        "uncertainty": "Les compositions définitives, notamment en défense, peuvent changer nettement l'équilibre de ce match.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "TNT Sports — Celtic–Celta, absences et avant-match",
+            "url": "https://www.tntsports.co.uk/betting/tips/celtic-vs-celta-vigo-prediction-tips-and-odds-22-10-26/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "AC Milan",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 46,
+        "draw": 26,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 22,
+        "away": 28,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Bournemouth présente une dynamique européenne positive, mais Milan reste dangereux offensivement. L'avantage du terrain penche légèrement pour Bournemouth, sans en faire un favori net.",
+        "keyFactors": [
+          "Bournemouth a remporté ses deux premiers matchs européens.",
+          "Milan vient d'afficher une bonne capacité offensive mais se déplace en Angleterre.",
+          "Alex Scott et Kroupi sont annoncés absents chez Bournemouth ; Gabbia et Saelemaekers chez Milan."
+        ],
+        "uncertainty": "Variations de forme des attaquants et état des défenses avec plusieurs indisponibilités.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "TNT Sports — Bournemouth–Milan, formes et compositions",
+            "url": "https://www.tntsports.co.uk/betting/tips/bournemouth-vs-ac-milan-prediction-tips-and-odds-22-10-26/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Ajax",
+      "awayTeam": "Atalanta",
+      "competition": "UEFA Conference League 2026/27",
+      "probabilities": {
+        "home": 44,
+        "draw": 25,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 48,
+        "draw": 24,
+        "away": 28,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Ajax a commencé par une défaite européenne contre Hajduk mais vient de gagner 5-2 à Groningen. Atalanta s'est imposé 3-1 face à Pafos ; l'affiche reste ouverte malgré un léger avantage à l'Ajax à domicile.",
+        "keyFactors": [
+          "L'UEFA relève la défaite initiale d'Ajax à Hajduk et le succès d'Atalanta sur Pafos.",
+          "Ajax s'est relancé par une victoire offensive 5-2 à Groningen.",
+          "Les deux effectifs comptent plusieurs indisponibles, particulièrement dans leurs secteurs défensifs."
+        ],
+        "uncertainty": "Le niveau de l'Atalanta à l'extérieur et les remaniements défensifs laissent trois issues significatives.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://www.uefa.com/uefaconferenceleague/news/02aa-21d752908682-ff3294f4d833-1000--conference-league-matchday-2-briefing-ajax-atalanta-brig/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Sports Mole — Ajax–Atalanta, avant-match",
+            "url": "https://www.sportsmole.co.uk/football/ajax/europa-conference-league/preview/ajax-vs-atalanta-prediction-team-news-lineups_607269.html",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Monaco",
+      "awayTeam": "Fribourg",
+      "competition": "UEFA Conference League 2026/27",
+      "probabilities": {
+        "home": 43,
+        "draw": 27,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 45,
+        "draw": 25,
+        "away": 30,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco et Fribourg ont tous deux gagné leur première rencontre de Conference League. La forme monégasque à domicile est solide, mais la récente dynamique offensive de Fribourg maintient l'équilibre.",
+        "keyFactors": [
+          "Monaco s'est imposé 4-1 face à Górnik Zabrze ; Fribourg a battu Jablonec 3-2.",
+          "La forme de Monaco en Ligue 1 est soutenue par ses récents succès sur Lens et Marseille.",
+          "Fribourg reste sur plusieurs rencontres prolifiques, mais Osterhage et d'autres joueurs sont annoncés indisponibles."
+        ],
+        "uncertainty": "Gestion des rotations monégasques, absences au milieu et capacité offensive de Fribourg.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://www.uefa.com/uefaconferenceleague/news/02aa-21d752908682-ff3294f4d833-1000--conference-league-matchday-2-briefing-ajax-atalanta-brig/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "FotMob — Monaco–Fribourg, résultats récents et absents",
+            "url": "https://www.fotmob.com/fr/matches/freiburg-vs-monaco/2qh5bb",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Lech Poznań",
+      "awayTeam": "Sunderland",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 27,
+        "draw": 26,
+        "away": 47
+      },
+      "fdjSelectionDistribution": {
+        "home": 17,
+        "draw": 21,
+        "away": 62,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Sunderland a bien commencé l'Europa League mais ses résultats domestiques sont nettement plus fragiles. Lech, dernier après deux journées, peut profiter de son terrain pour éviter une nouvelle défaite.",
+        "keyFactors": [
+          "Sunderland a pris six points européens, alors que Lech n'en compte aucun.",
+          "Sunderland a perdu cinq de ses sept premières rencontres de championnat selon l'avant-match.",
+          "Lech dispose du soutien de Poznań ; Sunderland compte des absences défensives et offensives."
+        ],
+        "uncertainty": "Écart entre forme européenne et forme nationale de Sunderland et réaction de Lech chez lui.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Sports Mole — Lech–Sunderland, avant-match",
+            "url": "https://www.sportsmole.co.uk/football/lech-poznan/europa-league/preview/lech-poznan-vs-sunderland-prediction-team-news-lineups_607275.html",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "OFI Crète",
+      "awayTeam": "Bayer Leverkusen",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 13,
+        "draw": 19,
+        "away": 68
+      },
+      "fdjSelectionDistribution": {
+        "home": 4,
+        "draw": 7,
+        "away": 89,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Leverkusen a remporté ses deux premières rencontres européennes sans encaisser. L'OFI reste capable d'exploiter sa pelouse, ayant battu Hoffenheim 2-0, mais l'écart de qualité est important.",
+        "keyFactors": [
+          "Leverkusen a battu Celje 2-0 et Lech Poznań 4-0.",
+          "L'OFI avait battu Hoffenheim 2-0 avant sa défaite à Rennes.",
+          "Schick traverse une bonne période, mais Leverkusen compte plusieurs absences et des rotations possibles."
+        ],
+        "uncertainty": "Rotation de Leverkusen, résistance de l'OFI en Crète et degré de concentration du public sur le 2.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Bundesliga — OFI–Leverkusen, forme européenne et effectifs",
+            "url": "https://www.bundesliga.com/en/bundesliga/news/ofi-crete-bayer-leverkusen-live-europa-league-blog-preview-report-maza-quansah-39582/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Olympiakos",
+      "awayTeam": "Sparta Prague",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 57,
+        "draw": 25,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 71,
+        "draw": 19,
+        "away": 10,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Olympiakos est en forme et a gagné 1-0 à Marseille. Le Sparta est lui aussi invaincu en Europe, ce qui tempère la forte préférence FDJ pour une victoire grecque.",
+        "keyFactors": [
+          "Olympiakos a gagné ses deux premiers matchs européens ; le Sparta compte quatre points et reste compétitif à l'extérieur.",
+          "La série défensive d'Olympiakos lui donne l'avantage du terrain.",
+          "Bailey et Fortounis sont signalés absents d'Olympiakos ; le Sparta présente des absences défensives."
+        ],
+        "uncertainty": "État des effectifs, absences offensives et résistance du Sparta dans un match serré.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Sports Mole — Olympiakos–Sparta Prague, analyse des deux équipes",
+            "url": "https://www.sportsmole.co.uk/football/olympiacos/europa-league/preview/olympiacos-vs-sparta-prague-prediction-team-news-lineups_607312.html",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Novasports — groupe de l'Olympiakos",
+            "url": "https://www.novasports.gr/sport/podosfairo/event/uefa-europa-league/article/15184226/olympiakos-xoris-mpeili-kontra-sti-sparta-pragas/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Rennes",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 58,
+        "draw": 24,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 21,
+        "away": 12,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "La Juventus a gagné ses deux premiers matchs d'Europa League, tandis que Rennes reste également invaincu. Le statut de favori italien reste cohérent, mais la victoire n'est pas automatique.",
+        "keyFactors": [
+          "Juventus a gagné 5-0 contre NEC puis 2-1 au Celta.",
+          "Rennes reste sur un succès européen et son attaque est productive.",
+          "Les deux équipes sont en forme européenne malgré des parcours de championnat différents."
+        ],
+        "uncertainty": "Choix de rotation à la Juventus et force de transition de Rennes à l'extérieur.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Sports Mole — Juventus–Rennes, forme et joueurs disponibles",
+            "url": "https://www.sportsmole.co.uk/football/juventus/europa-league/preview/juventus-vs-rennes-prediction-team-news-lineups_607298.html",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Sturm Graz",
+      "awayTeam": "Marseille",
+      "competition": "UEFA Europa League 2026/27",
+      "probabilities": {
+        "home": 30,
+        "draw": 28,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 25,
+        "draw": 24,
+        "away": 51,
+        "accessedAt": "2026-10-22T06:59:52+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille possède une légère supériorité sportive et vient de gagner 5-2 à Angers, mais a perdu ses deux premières rencontres européennes. Sturm Graz est également en difficulté en Europe malgré une victoire récente en championnat.",
+        "keyFactors": [
+          "Marseille a perdu 4-1 au Beşiktaş puis 1-0 contre Olympiakos.",
+          "Sturm Graz est resté muet en deux matchs européens, mais sort d'un succès 6-1 en championnat.",
+          "Sturm compte plusieurs joueurs blessés ; Marseille déplore les absences de Cornelius et potentiellement Højbjerg."
+        ],
+        "uncertainty": "Les deux équipes veulent réagir en Europe ; un nul demeure plausible malgré la préférence pour Marseille.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°91, grille et répartition des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "UEFA — calendrier officiel de la compétition",
+            "url": "https://fr.uefa.com/uefaeuropaleague/news/02a8-217720a96899-881b03afe0db-1000--ligue-europa-2026-27-calendrier-et-resultats/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          },
+          {
+            "label": "Top Mercato — Sturm Graz–Marseille, forme et effectifs",
+            "url": "https://www.topmercato.com/2147880-pronostics-sturm-graz-vs-marseille-22-10-2026/",
+            "accessedAt": "2026-10-22T06:59:52+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
