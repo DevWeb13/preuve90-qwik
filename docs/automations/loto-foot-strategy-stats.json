@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "purpose": "Mémoire statistique déterministe pour calibrer l'analyse, la décision de mise et la construction des combinaisons. La rentabilité est prioritaire sur la couverture.",
   "source": {
-    "publicationFiles": 146,
+    "publicationFiles": 147,
     "resultFiles": 143,
     "settledPublications": 143,
     "latestSettledAt": "2026-10-22T01:23:46+02:00"
