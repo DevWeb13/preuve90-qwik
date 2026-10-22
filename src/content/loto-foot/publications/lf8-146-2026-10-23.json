@@ -1,0 +1,410 @@
+{
+  "id": "lf8-146-2026-10-23",
+  "formula": 8,
+  "gridNumber": 146,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+  "validationDeadline": "2026-10-23T19:55:00+02:00",
+  "publishedAt": "2026-10-22T21:58:36+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "LF8 n°146 du 23 octobre : analyse actualisée des huit matchs dans les 24 dernières heures, confrontant forme, classements, absences et cotes aux répartitions FDJ relayées par un site tiers. La page FDJ officielle confirme la grille, mais une répartition actualisée n'a pas pu être extraite directement de cette page : les pourcentages proviennent de ProbWin, qui les attribue à la FDJ, et restent soumis à cette limite. Dunkerque à domicile (39 % estimés, 25 % sélectionnés) et les issues contraires aux favoris surjoués de Pau, Nancy et Torino montrent des signaux de valeur relative, pas une espérance de gain calculée. Les scénarios cohérents restent peu probables sur huit matchs ; aucune information fiable sur les combinaisons jouées par les autres joueurs ne permet de prévoir le partage des gains. La mémoire v2 compte 48 LF8 réglées à -62,7 % de rendement, dont les rapports médians sont 50,85 € pour 7/8 et 769,50 € pour 8/8, non prédictifs. Les vingt derniers règlements toutes formules ont un net de -39,60 € et un rendement de -69,5 % ; les premiers tickets ont rendu -30 % et les tickets supplémentaires -74,1 %. La calibration récente indique une sous-estimation moyenne des favoris, sans correction mécanique. Aucun premier ticket à 1 € ne présente d'argument financier suffisamment crédible, et les variantes ne feraient qu'augmenter la couverture. Décision définitive : skip, zéro combinaison, 0 € virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Brest",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 45,
+        "draw": 28,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 25,
+        "away": 21,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Brest dispose d'un léger avantage à domicile, mais les deux équipes affichent deux victoires, un nul et deux défaites sur cinq matchs. Nice reste sur sept déplacements sans victoire.",
+        "keyFactors": [
+          "Brest est 10e avec neuf points, Nice 13e avec huit.",
+          "Brest a partagé les points avec Lille ; Nice a perdu contre Lyon.",
+          "Nice n'a pas gagné sur ses sept derniers déplacements."
+        ],
+        "uncertainty": "La proximité des forces et les divergences de modèles entretiennent l'incertitude.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "1x2.expert — Brest–Nice, forme et données de marché",
+            "url": "https://1x2.expert/en/match/179119-brestois-vs-nice",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Forebet — Brest–Nice, forme et pronostic",
+            "url": "https://www.forebet.com/fr/football/matches/brest-nice-2496250",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Dunkerque",
+      "awayTeam": "Metz",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 39,
+        "draw": 28,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 25,
+        "draw": 32,
+        "away": 43,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Dunkerque a battu Nantes 3-2 et Saint-Étienne, mais encaisse régulièrement. Metz est mieux classé, tout en montrant de l'irrégularité à l'extérieur. Le 1 paraît relativement sous-sélectionné.",
+        "keyFactors": [
+          "Dunkerque a gagné à Nantes et battu Saint-Étienne, mais a perdu contre Pau et Annecy.",
+          "Dunkerque a encaissé au moins un but dans ses neuf premières rencontres.",
+          "Metz vient de battre Sochaux mais a perdu contre Dijon et le Red Star."
+        ],
+        "uncertainty": "Les absences messines et les groupes définitifs sont encore partiellement incertains.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Coteur — Dunkerque–Metz, forme et absences",
+            "url": "https://www.coteur.com/match/pronostic-dunkerque-metz-1611019",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "FotMob — Dunkerque–Metz, résultats récents",
+            "url": "https://www.fotmob.com/en-GB/matches/metz-vs-dunkerque/pppsm0",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Pau",
+      "awayTeam": "Grenoble",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 56,
+        "draw": 25,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 19,
+        "away": 14,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Pau est favori après trois victoires consécutives, tandis que Grenoble vient de perdre deux matchs sans marquer. L'avantage de Pau est déjà fortement sélectionné par le public.",
+        "keyFactors": [
+          "Pau a battu Guingamp 2-1 et Laval 3-2.",
+          "Grenoble a perdu 0-2 contre Boulogne puis Montpellier.",
+          "Benet et Saettel sont incertains à Pau, plusieurs absences de longue durée concernent Grenoble."
+        ],
+        "uncertainty": "Les absences paloises et la forte concentration FDJ sur le 1 diminuent la confiance financière.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Coteur — Pau–Grenoble, forme et effectifs",
+            "url": "https://www.coteur.com/match/pronostic-pau-grenoble-1610883",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "WinComparator — Pau–Grenoble, résultats récents",
+            "url": "https://www.wincomparator.com/fr-fr/pronostics/pau-fc-grenoble-foot-8532888/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Nancy",
+      "awayTeam": "Laval",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 54,
+        "draw": 25,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 68,
+        "draw": 17,
+        "away": 15,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Nancy, cinquième avec seize points, reçoit Laval, dernier avec six. Le favori domicile est crédible mais surjoué à 68 % par les joueurs FDJ.",
+        "keyFactors": [
+          "Nancy totalise seize points en neuf journées contre six pour Laval.",
+          "Nancy a gagné trois de ses cinq derniers matchs, Laval aucun.",
+          "Maggiotti est suspendu côté Laval et Samassa est incertain."
+        ],
+        "uncertainty": "Laval peut encore arracher un nul et les informations d'effectif ne sont pas définitives.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Coteur — Nancy–Laval, analyse et absents",
+            "url": "https://www.coteur.com/match/pronostic-nancy-laval-1610882",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "LiveFoot — Nancy–Laval, classement et contexte",
+            "url": "https://www.livefoot.fr/direct/ligue-2-france/match-nancy-vs-laval-d2aadc96",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Clermont",
+      "awayTeam": "Guingamp",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 32,
+        "draw": 34,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 34,
+        "draw": 36,
+        "away": 30,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Clermont a fait sept nuls en neuf rencontres et reste sans victoire. Guingamp est aussi en difficulté mais récupère des défenseurs ; le nul est une issue majeure dans un match très ouvert.",
+        "keyFactors": [
+          "Clermont compte sept nuls et deux défaites après neuf journées.",
+          "Clermont a mené 3-0 à Laval avant d'encaisser trois buts (3-3).",
+          "Guingamp récupère Gomis et Démouchy, mais reste privé de N'Landu et Ott."
+        ],
+        "uncertainty": "Les défenses instables et les changements de disponibilité rendent les trois issues plausibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Coteur — Clermont–Guingamp, forme et absences",
+            "url": "https://www.coteur.com/match/pronostic-clermont-foot-guingamp-1610881",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Eurosport — Clermont–Guingamp, classement",
+            "url": "https://www.eurosport.fr/football/ligue-2/2026-2027/clermont-foot-en-avant-guingamp_mtc21875337/live.shtml",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Sochaux",
+      "awayTeam": "Annecy FC",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 39,
+        "draw": 31,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 29,
+        "away": 27,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Sochaux et Annecy sont proches au classement. Les nombreux nuls de Sochaux et les résultats contrastés d'Annecy empêchent de dégager un favori net.",
+        "keyFactors": [
+          "Sochaux compte deux victoires et cinq nuls en neuf matchs.",
+          "Annecy compte quatre victoires mais aussi quatre défaites en neuf rencontres.",
+          "Lobry et Youssouf ont été signalés blessés à Sochaux ; Lajugie et Kashi avaient manqué un précédent match d'Annecy."
+        ],
+        "uncertainty": "Les statuts médicaux et les projections 1/N/2 divergent entre sources.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Coteur — Sochaux–Annecy, absences et confrontations",
+            "url": "https://www.coteur.com/match/pronostic-sochaux-annecy-fc-1611381",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "WinComparator — Sochaux–Annecy, forme et probabilités",
+            "url": "https://www.wincomparator.com/predictions/sochaux-annecy-fc-8532890/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Torino",
+      "awayTeam": "AC Monza",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 47,
+        "draw": 27,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 64,
+        "draw": 20,
+        "away": 16,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Torino arrive sur deux victoires mais Monza l'a battu en Coupe d'Italie. Le public FDJ sélectionne fortement le 1, davantage que ne le justifie l'écart sportif estimé.",
+        "keyFactors": [
+          "Torino a battu Udinese 2-1 puis Parme 3-0.",
+          "Monza n'a gagné aucun de ses quatre premiers déplacements en championnat.",
+          "Monza a battu Torino 1-0 à Turin en Coupe d'Italie le 1er septembre."
+        ],
+        "uncertainty": "Les compositions restent provisoires et l'effet des rotations peut peser.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "bet365 News — Torino–Monza, actualité et compositions",
+            "url": "https://news.bet365.it/it-it/article/cp-torino-monza-data-orario-probabili-formazioni-statistiche-precedenti-fantacalcio-dove-vederla-tv-streaming-infortunati-squalificati-arbitro/2026102209002757206",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Fulltime Stats — forme Torino",
+            "url": "https://fulltimestats.com/team/torino",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "SoccerPunter — Torino–Monza, forme et confrontations",
+            "url": "https://www.soccerpunter.com/h2h/Torino-vs-Monza/613/1628/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Ipswich",
+      "awayTeam": "Nottingham Forest",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 41,
+        "draw": 28,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 43,
+        "draw": 25,
+        "away": 32,
+        "accessedAt": "2026-10-22T21:58:35+02:00"
+      },
+      "analysis": {
+        "summary": "Ipswich a mieux commencé sa saison en points mais concède beaucoup de buts. Forest, mal classé, marque à l'extérieur et récupère Gibbs-White ainsi que Milenković, ce qui laisse un match très ouvert.",
+        "keyFactors": [
+          "Ipswich compte trois victoires et quatre défaites en sept journées.",
+          "Forest a marqué à chacun de ses déplacements, notamment à Liverpool et Aston Villa.",
+          "Gibbs-White et Milenković sont annoncés aptes ; Savona et Igor Jesus sont absents."
+        ],
+        "uncertainty": "L'état défensif d'Ipswich et les compositions de départ peuvent modifier le rapport de forces.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF8 n°146, ordre et équipes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/843",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "ProbWin — répartition des joueurs FDJ relayée, consultée le 22 octobre",
+            "url": "https://en.probwin.com/loto-foot/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "LiveScore — retour de Gibbs-White confirmé",
+            "url": "https://www.livescore.com/en/news/football/premier-league/oliver-glasner-morgan-gibbs-white-fit-for-ipswich-but-nottingham-forest-cant-depend-on-midfielder-football-muse/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "Victory Picks — Ipswich–Forest, formes et effectifs",
+            "url": "https://www.victorypicks.com/en/previews/ipswich-vs-nottingham-forest-october-23-2026-2314/",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          },
+          {
+            "label": "RotoWire — Ipswich–Forest, compositions probables",
+            "url": "https://www.rotowire.com/soccer/article/ipswich-town-vs-nottingham-forest-prediction-predicted-lineups-team-news-142334",
+            "accessedAt": "2026-10-22T21:58:35+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
