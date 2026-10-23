@@ -1,0 +1,647 @@
+{
+  "id": "lf15-88-2026-10-24",
+  "formula": 15,
+  "gridNumber": 88,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+  "validationDeadline": "2026-10-24T20:40:00+02:00",
+  "publishedAt": "2026-10-23T22:01:33+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "LF15 n°88 du 24 octobre 2026 (15 lignes FDJ dont PSG–Lyon affichée « Annulé »). La LFP a reporté PSG–Lyon au lundi 26 octobre à 20h30 ; la répartition 85/9/6 de cette ligne est historique et ne constitue plus un signal de valeur. Les quatorze autres rencontres ont été analysées sportivement avec leurs formes, absences, résultats récents et les répartitions FDJ. Plusieurs favoris sont surjoués relativement à nos probabilités : Marseille (87 % de 1 contre 65 % estimés), Bayern (84 % de 2 contre 58 %), Lazio (89 % de 1 contre 66 %), Inter (91 % de 1 contre 69 %), Atlético (90 % de 1 contre 70 %). Des alternatives sont plausibles mais elles se combinent sur une grille longue, et les écarts avec le public ne fournissent aucune espérance de gain mesurable sans distribution complète des mises. Le statut annulé de la première ligne peut modifier les rangs et rapports payés ; aucun gain futur ne peut être déduit des rapports historiques d'une LF15 normale. Mémoire v2 : 27 LF15 réglées, rendement -74,8 %, une seule publication profitable ; vingt dernières publications toutes formules : net -30,80 €, rendement -88 %, premiers tickets +0,20 € (échantillon de quatre), tickets supplémentaires -31 € pour 31 mises (rendement -100 %). Calibration récente : favoris sous-estimés en moyenne de 15,1 points, sans correction mécanique des probabilités individuelles. Les scénarios cohérents les plus plausibles et les alternatives moins jouées ne donnent pas de justification financière suffisamment crédible même pour un premier ticket à 1 € ; en ajouter augmenterait surtout la couverture. Décision définitive de ne pas miser virtuellement : zéro combinaison, zéro euro, sans prétendre que la probabilité d'un gain est nulle."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-26T20:30:00+01:00",
+      "probabilities": {
+        "home": 62,
+        "draw": 23,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 85,
+        "draw": 9,
+        "away": 6,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Le PSG et Lyon sont à égalité de points en tête du championnat. Sur le terrain, Paris conserve un avantage à domicile, mais la rencontre est officiellement reportée au lundi 26 octobre à 20h30. Surtout, la FDJ indique « Annulé » pour la ligne 1 de cette LF15 : les probabilités 1/N/2 sont uniquement une analyse sportive théorique du match reprogrammé, pas des probabilités de gain exploitables sur cette ligne neutralisée.",
+        "keyFactors": [
+          "La LFP a officialisé le déplacement du match du dimanche 25 au lundi 26 octobre à 20h30.",
+          "La page officielle FDJ affiche explicitement « Annulé » pour cette ligne, tout en laissant visible une ancienne répartition 85/9/6.",
+          "Les deux équipes totalisent 14 points après sept journées ; le PSG bénéficie du terrain mais Lyon a un bon début de saison."
+        ],
+        "uncertainty": "Le traitement exact de la ligne neutralisée et son effet sur les rapports de la grille ne sont pas établis à partir des données disponibles. Ne pas exploiter les anciennes sélections FDJ pour mesurer une valeur.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "LFP — report officiel PSG–Lyon",
+            "url": "https://www.lfp.fr/article/paris-saint-germain-olympique-lyonnais-decale-au-lundi-26-octobre-a-20-h30",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Radarfoot — forme et confrontations PSG–Lyon",
+            "url": "https://www.radarfoot.fr/matchs/1552800",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lens",
+      "awayTeam": "Paris FC",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 43,
+        "draw": 27,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 46,
+        "draw": 28,
+        "away": 26,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Lens a l'avantage de Bollaert, mais Paris FC est compétitif contre des équipes fortes et a gagné à Marseille. L'écart entre les équipes reste modéré, d'où une estimation équilibrée.",
+        "keyFactors": [
+          "Lens a battu Lyon 2-1 mais a perdu contre le Sporting CP et Monaco.",
+          "Paris FC a battu Strasbourg et Marseille et tenu Lyon en échec.",
+          "Lens compte plusieurs absences défensives ; Paris FC manque notamment Ikoné."
+        ],
+        "uncertainty": "Les absences en défense lensoise et la capacité de Paris FC à gagner à l'extérieur rendent les trois issues plausibles.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "FotMob — Lens–Paris FC, forme et indisponibles",
+            "url": "https://www.fotmob.com/nl/matches/paris-fc-vs-lens/1up0fk",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "OddAlerts — Lens–Paris FC, tendances",
+            "url": "https://www.oddalerts.com/livescores/lens-vs-paris/10148-7506",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Monaco",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 46,
+        "draw": 28,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 58,
+        "draw": 27,
+        "away": 15,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco a gagné 3-0 face à Fribourg en Europe, alors que Lille reste sur une défaite 4-2 contre Galatasaray. Le terrain et la dynamique récente favorisent Monaco, mais Lille a remporté plusieurs confrontations directes.",
+        "keyFactors": [
+          "Monaco sort d'un succès européen 3-0 contre Fribourg.",
+          "Lille a subi plusieurs défaites européennes et compte notamment Igamane, Tiago Santos et Ueda indisponibles.",
+          "Lille a gagné les trois dernières confrontations officielles contre Monaco."
+        ],
+        "uncertainty": "Fatigue européenne des deux équipes, rotations et absences offensives lilloises.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "FootballEdge — Monaco–Lille, forme et blessures",
+            "url": "https://footballedge.io/fr/matches/monaco-vs-lille-2026-10-25",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Radarfoot — Monaco–Lille, confrontations et classement",
+            "url": "https://radarfoot.fr/matchs/monaco-lille-1552797",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Rennes",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 54,
+        "draw": 25,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 68,
+        "draw": 19,
+        "away": 13,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Rennes a l'avantage de la forme et du terrain. Strasbourg dispose d'une attaque capable de marquer à l'extérieur, mais sa défense concède beaucoup et son effectif est diminué.",
+        "keyFactors": [
+          "Strasbourg a encaissé quinze buts sur sept journées selon l'avant-match.",
+          "Les absences annoncées concernent notamment Nanasi, Doukouré, Panichelli et Godo.",
+          "Rennes possède un historique de confrontations plutôt favorable sur les dix dernières rencontres."
+        ],
+        "uncertainty": "Les compositions de Strasbourg, encore provisoires, et l'efficacité offensive rennaise.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Betora — Rennes–Strasbourg, forme, blessures et confrontations",
+            "url": "https://betora.app/fr/pronostic/france-ligue-1/rennes-vs-strasbourg",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 48,
+        "draw": 27,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 66,
+        "draw": 21,
+        "away": 13,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Auxerre a gagné trois de ses quatre dernières rencontres de Ligue 1, dont un 3-1 au Havre. Le Mans est plus fragile mais conserve des possibilités de nul et de contre. La forte sélection FDJ pour Auxerre paraît supérieure à la probabilité sportive retenue.",
+        "keyFactors": [
+          "Auxerre a récemment battu Nice, Brest et Le Havre.",
+          "Le Mans reste sur une période plus difficile et évolue dans la partie basse du classement.",
+          "Auxerre est privé notamment d'Okoh, Dioussé, Labeau-Lascary et Fofana ; Le Mans d'au moins Bourabaa et Colas."
+        ],
+        "uncertainty": "Le nombre d'absents à Auxerre réduit la fiabilité du statut de favori.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Match en Direct — Auxerre–Le Mans, compositions et absences",
+            "url": "https://www-origin.matchendirect.fr/article/quelle-heure-et-sur-quelle-cha-ne-su-213105.html",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "LigaSports — Auxerre–Le Mans, forme récente",
+            "url": "https://www.ligassports.com/match_preview/auxerre-vs-le-mans-25-oct-2026/",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Angers",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 27,
+        "draw": 28,
+        "away": 45
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 30,
+        "away": 49,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Lorient arrive avec deux victoires 1-0 sur Monaco et Paris FC, alors qu'Angers a subi deux lourdes défaites (2-5 contre Marseille et 1-5 à Brest). Lorient est favori, mais le déplacement et les absences limitent la confiance.",
+        "keyFactors": [
+          "Angers a encaissé dix buts sur ses deux dernières rencontres.",
+          "Lorient vient de battre Monaco et Paris FC sans encaisser.",
+          "Lorient déplore plusieurs absents dont Fadiga, Bamba et Mbamba."
+        ],
+        "uncertainty": "Lorient doit composer avec plusieurs blessures et peut être moins tranchant à l'extérieur.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "FotMob — Angers–Lorient, forme, effectifs et confrontations",
+            "url": "https://www.fotmob.com/en-GB/matches/angers-vs-lorient/2c4nqw",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 65,
+        "draw": 22,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 87,
+        "draw": 8,
+        "away": 5,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille est favori au Vélodrome contre un Havre toujours sans victoire en sept journées, mais la récente défaite européenne à Sturm Graz et les rotations possibles empêchent de retenir les 87 % de sélection FDJ comme probabilité sportive.",
+        "keyFactors": [
+          "Marseille a battu Angers 5-2 puis perdu 0-1 à Sturm Graz en Europa League.",
+          "Le Havre reste sans victoire après sept journées et a perdu contre Auxerre et Lille.",
+          "Marseille a remporté les six dernières confrontations directes présentées par Radarfoot."
+        ],
+        "uncertainty": "Fatigue de Marseille après le déplacement européen et incertitudes de composition.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Sky Sports — Marseille–Le Havre, résultats récents",
+            "url": "https://www.skysports.com/football/marseille-vs-le-havre/stats/557064",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Radarfoot — Marseille–Le Havre, classements et effectifs",
+            "url": "https://radarfoot.fr/matchs/marseille-le-havre-1552796",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brighton Hove",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 47,
+        "draw": 26,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 20,
+        "away": 20,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Liverpool bénéficie d'Anfield et d'environ deux jours de récupération supplémentaires par rapport à Brighton, engagé en Europe jeudi. Les deux clubs ont des absents importants ; Brighton a montré qu'il pouvait battre Liverpool.",
+        "keyFactors": [
+          "Liverpool a gagné cinq de ses six derniers matchs toutes compétitions confondues selon l'avant-match.",
+          "Brighton a joué en Europe jeudi, après la rencontre européenne de Liverpool mardi.",
+          "Liverpool manque notamment Ekitike, Bradley, Frimpong et Szoboszlai ; Brighton manque notamment Mitoma et Minteh."
+        ],
+        "uncertainty": "Forme offensive de Brighton et profondeur de banc des deux clubs sous un calendrier dense.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Victory Picks — Liverpool–Brighton, forme, repos et blessures",
+            "url": "https://www.victorypicks.com/en/previews/liverpool-vs-brighton-october-25-2026-2436/",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Man. United",
+      "awayTeam": "Bournemouth",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 42,
+        "draw": 29,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 24,
+        "away": 19,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Manchester United peine à trouver de la constance et vient de perdre 4-1 contre Côme en Europe. Bournemouth a gagné contre Sunderland mais concède beaucoup à l'extérieur. Le terrain rend United légèrement favori, sans justifier une sélection publique de 57 %.",
+        "keyFactors": [
+          "United ne compte qu'une victoire après sept matchs de championnat et n'a pas encore conservé sa cage inviolée.",
+          "Bournemouth est invaincu sur les cinq dernières confrontations face à United.",
+          "United est diminué notamment par les absences de Šeško, Dorgu et Ugarte ; Bournemouth manque plusieurs joueurs."
+        ],
+        "uncertainty": "United reste fragile défensivement et Bournemouth a concédé neuf buts sur ses trois déplacements de championnat.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Goal — Manchester United–Bournemouth, forme et effectifs",
+            "url": "https://www.goal.com/en/news/manchester-united-afc-bournemouth-premier-league-preview/blta4ff2d987f58195b",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Fribourg",
+      "awayTeam": "Bayern Munich",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 19,
+        "draw": 23,
+        "away": 58
+      },
+      "fdjSelectionDistribution": {
+        "home": 6,
+        "draw": 10,
+        "away": 84,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Le Bayern mène le championnat et reste favori à Fribourg. Toutefois, Fribourg était invaincu avant sa courte défaite 2-1 à Leverkusen, et le Bayern compte des absences importantes, notamment Luis Díaz et Musiala. La part FDJ de 84 % sur le 2 est très concentrée.",
+        "keyFactors": [
+          "Fribourg a perdu 2-1 à Leverkusen après une série sans défaite.",
+          "Bayern est leader de Bundesliga et reste une équipe nettement supérieure sur le papier.",
+          "Luis Díaz et Jamal Musiala sont indisponibles ; Kimmich pourrait manquer le match pour une raison familiale."
+        ],
+        "uncertainty": "Absences offensives du Bayern et réorganisation de l'encadrement après l'hospitalisation de l'entraîneur Kompany ; Fribourg reste compétitif à domicile.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Reuters — défaite récente de Fribourg à Leverkusen",
+            "url": "https://www.reuters.com/sports/soccer/leverkusens-schick-strikes-end-freiburgs-unbeaten-run-2026-10-18/",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "FotMob — Fribourg–Bayern, blessures et rencontre",
+            "url": "https://www.fotmob.com/matches/freiburg-vs-bayern-munchen/2qet4e",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Reuters — situation médicale de l'entraîneur du Bayern",
+            "url": "https://www.reuters.com/sports/soccer/bayern-coach-kompany-taken-hospital-reports-2026-10-23/",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Lazio Rome",
+      "awayTeam": "Parme",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 66,
+        "draw": 23,
+        "away": 11
+      },
+      "fdjSelectionDistribution": {
+        "home": 89,
+        "draw": 7,
+        "away": 4,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "La Lazio, invaincue après sept journées avec 19 points, reçoit un Parme en difficulté et reste favorite. Les choix FDJ à 89 % sont néanmoins plus concentrés que l'estimation sportive, qui tient compte du nul possible.",
+        "keyFactors": [
+          "La Lazio a gagné 3-0 à la Juventus et compte six victoires en sept matchs de Serie A.",
+          "Parme a perdu 3-0 contre Torino et l'Inter lors de ses deux dernières sorties.",
+          "La Lazio est invaincue lors de ses dix dernières réceptions de Parme en Serie A selon les statistiques Opta citées par Eurosport."
+        ],
+        "uncertainty": "Absences des deux côtés et risque de match fermé malgré la supériorité de la Lazio.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Eurosport — Lazio–Parme, statistiques et compositions",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/lazio-parma-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23348194/story.shtml",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Sky Sports — Lazio–Parme, forme récente",
+            "url": "https://www.skysports.com/football/lazio-vs-parma/stats/556321",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Fiorentina",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 69,
+        "draw": 21,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 91,
+        "draw": 6,
+        "away": 3,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "L'Inter est favori à San Siro et reste sur une victoire européenne, alors que la Fiorentina est en bas de tableau. La forte concentration des joueurs sur le 1 réduit le signal de valeur relatif. L'Inter doit gérer les absences de Lautaro Martínez et plusieurs défenseurs.",
+        "keyFactors": [
+          "L'Inter sort d'un succès en Ligue des champions et veut confirmer en championnat.",
+          "La Fiorentina a du mal à obtenir des résultats et doit se déplacer à San Siro.",
+          "Lautaro Martínez, Pavard et Stones sont annoncés indisponibles ; des rotations sont attendues."
+        ],
+        "uncertainty": "Rotation après la Ligue des champions, notamment en attaque et au poste de gardien.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Tuttomercatoweb — Inter–Fiorentina, forme et onze probable",
+            "url": "https://www.tuttomercatoweb.com/probabili-formazioni/inter-fiorentina-probabili-formazioni-2286321",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Sky Sport Italia — Inter–Fiorentina, indisponibles",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-8/inter-fiorentina/formazioni",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Betis Séville",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 36,
+        "draw": 30,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 22,
+        "draw": 33,
+        "away": 45,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Le Celta est solide défensivement à domicile et a perdu peu de matchs malgré plusieurs nuls. Le Betis réalise un meilleur début de saison, mais sa récente défaite 5-2 à Barcelone et la suspension de Bernal rééquilibrent l'affiche.",
+        "keyFactors": [
+          "Le Celta a encaissé sept buts en neuf journées et compte plusieurs matchs nuls.",
+          "Le Betis a remporté six de ses neuf premières rencontres mais vient de perdre 5-2 face à Barcelone.",
+          "Le Celta est privé notamment d'Iglesias et Starfelt ; le Betis de Cucho Hernández et du suspendu Bernal."
+        ],
+        "uncertainty": "Les deux clubs ont disputé des rencontres européennes en semaine et la disponibilité de plusieurs attaquants reste incertaine.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Forebet — Celta–Betis, forme, absences et confrontations",
+            "url": "https://www.forebet.com/fr/football-match-previews/31537-celta-vigo-aim-to-upset-in-form-real-betis-in-balaidos-showdown",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "FotMob — Celta–Betis, blessés et calendrier",
+            "url": "https://www.fotmob.com/fr/matches/real-betis-vs-celta-vigo/2u1dbj",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Atl. Madrid",
+      "awayTeam": "La Corogne",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 70,
+        "draw": 20,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 90,
+        "draw": 7,
+        "away": 3,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "L'Atlético est très favori à domicile contre un Deportivo qui n'a pas gagné sur ses cinq dernières rencontres. Les absences de Koke, Romero et Cardoso imposent toutefois de modérer le pronostic par rapport aux 90 % de choix FDJ.",
+        "keyFactors": [
+          "Atlético a gagné quatre de ses cinq derniers matchs et concédé seulement trois buts.",
+          "Deportivo reste sur trois nuls et deux défaites, avec dix buts encaissés.",
+          "Koke, Cuti Romero et Cardoso sont forfaits pour l'Atlético selon la presse espagnole."
+        ],
+        "uncertainty": "Rotation après la Ligue des champions et absence de plusieurs titulaires au milieu.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "AS — Atlético, trois absents face au Deportivo",
+            "url": "https://as.com/futbol/primera/el-atletico-con-tres-bajas-para-recibir-al-deportivo-f202610-n/",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Victory Picks — Atlético–Deportivo, forme et résultats",
+            "url": "https://www.victorypicks.com/en/previews/atletico-madrid-vs-deportivo-la-coruna-october-24-2026-2407/",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 54,
+        "draw": 24,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 19,
+        "away": 20,
+        "accessedAt": "2026-10-23T22:01:33+02:00"
+      },
+      "analysis": {
+        "summary": "Barcelone a remporté ses neuf premiers matchs de Liga et possède un fort avantage au Camp Nou, mais le Real arrive sur quatre succès consécutifs toutes compétitions confondues. Le Clásico reste ouvert malgré l'avantage catalan.",
+        "keyFactors": [
+          "Barcelone a pris 27 points sur 27 en championnat, mais vient de perdre 4-2 contre le PSG en Ligue des champions.",
+          "Real Madrid reste sur quatre victoires, notamment 4-1 contre Leipzig.",
+          "Barcelone déplore la blessure de Dani Olmo et des soucis défensifs ; le Real est privé notamment de Vinícius suspendu."
+        ],
+        "uncertainty": "Match à haute variance, rivalité et absences ; les deux équipes disposent de plusieurs menaces offensives.",
+        "sources": [
+          {
+            "label": "FDJ — LF15 n°88, équipes, statut et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2036",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Sports Mole — Barcelone–Real Madrid, forme et effectifs",
+            "url": "https://www.sportsmole.co.uk/football/barcelona/el-clasico/preview/barcelona-vs-real-madrid-prediction-team-news-lineups_607543.html",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          },
+          {
+            "label": "Cadena SER — blessure de Dani Olmo avant le Clásico",
+            "url": "https://cadenaser.com/nacional/2026/10/21/dani-olmo-se-pierde-el-clasico-y-estara-un-mes-de-baja-cadena-ser/",
+            "accessedAt": "2026-10-23T22:01:33+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
