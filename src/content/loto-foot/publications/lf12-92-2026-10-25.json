@@ -1,0 +1,525 @@
+{
+  "id": "lf12-92-2026-10-25",
+  "formula": 12,
+  "gridNumber": 92,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+  "validationDeadline": "2026-10-25T14:55:00+01:00",
+  "publishedAt": "2026-10-24T18:01:00+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "LF12 n°92, réanalyse complète dans les dernières 24 heures. Marseille, Toulouse et Milan sont favoris plausibles mais fortement joués (87 %, 78 %, 67 % des choix FDJ). Bayern 80 % FDJ contre 52 % estimés malgré l'absence de Kompany, Kimmich et d'autres titulaires ; Liverpool 67 % FDJ contre 39 % estimés face à Brighton mieux classé ; Monaco 61 % FDJ contre 43 % estimés contre Lille à égalité de points. Les alternatives moins jouées sont sportivement possibles, mais le partage futur des gains est inconnu et aucun signal de valeur relative ne démontre une espérance positive. Les scénarios cohérents de douze résultats ont des probabilités de réussite intégrale très faibles. Mémoire v2 : 146 publications réglées, rendement historique LF12 -81,1 %, zéro publication LF12 profitable sur 28, vingt dernières publications -18,80 € (-81,7 %), tickets supplémentaires récents -20 € (-100 %). Calibration récente des favoris sous-estimés de 14,5 points prise en compte sans correction mécanique. Rapports médians historiques LF12 : 9/12 2,60 €, 10/12 14,05 €, 11/12 135,10 €, 12/12 5 363 € ; ces valeurs ne prédisent pas les gains de cette grille. Aucun premier ticket n'apporte de justification financière suffisamment convaincante pour viser un résultat net positif, et les tickets supplémentaires ne justifient pas leur coût marginal. Décision définitive skip, 0 combinaison, 0 € virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 67,
+        "draw": 22,
+        "away": 11
+      },
+      "fdjSelectionDistribution": {
+        "home": 87,
+        "draw": 8,
+        "away": 5,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille reçoit un Le Havre dernier et toujours sans victoire en championnat. L'avantage local est réel mais la récente défaite européenne de l'OM augmente l'incertitude.",
+        "keyFactors": [
+          "Marseille : 9 points en 7 matchs ; Le Havre : 2 points ; Marseille a joué jeudi en Ligue Europa."
+        ],
+        "uncertainty": "L'OM est irrégulier et peut subir la fatigue après son déplacement européen.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "B-Sport — forme et contexte OM–Le Havre",
+            "url": "https://b-sport.info/match/marseille-le-havre-2026-10-25/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "RTM — date et horaire officiels OM–Le Havre",
+            "url": "https://www.rtm.fr/actualites/match-om-le-havre-2",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-25T17:15:00+01:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 54,
+        "draw": 25,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 22,
+        "away": 13,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Rennes est favori chez lui face à Strasbourg, en difficulté et privé de plusieurs cadres. L'état du meilleur buteur rennais reste à surveiller.",
+        "keyFactors": [
+          "Rennes sixième ; Strasbourg sur une série de défaites ; Panichelli, Doukouré et Nanasi annoncés forfaits."
+        ],
+        "uncertainty": "Esteban Lepaul, touché à la cheville, est incertain ; sa disponibilité changerait la menace offensive rennaise.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "Top Mercato — Rennes–Strasbourg, forme et absences",
+            "url": "https://www.topmercato.com/2150741-pronostic-rennes-vs-strasbourg-25-10-2026/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Apex Football — Rennes–Strasbourg, compositions probables",
+            "url": "https://lite.apex-football.com/fr/news/3eadebde261024fr_fr",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-25T17:15:00+01:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 51,
+        "draw": 27,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 22,
+        "away": 11,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Auxerre vient de gagner au Havre mais reste vulnérable défensivement. Le Mans a perdu ses deux derniers matchs, sans être incapable de marquer.",
+        "keyFactors": [
+          "Auxerre 9 points contre 6 au Mans ; Auxerre a battu Le Havre 3-1 ; Le Mans reste sans clean sheet."
+        ],
+        "uncertainty": "Les absences en défense auxerroise et les possibilités offensives mancelles augmentent le risque de nul.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "LigaSports — Auxerre–Le Mans, dynamique récente",
+            "url": "https://www.ligassports.com/match_preview/auxerre-vs-le-mans-25-oct-2026/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Apex Football — Auxerre–Le Mans, effectifs",
+            "url": "https://lite.apex-football.com/fr/news/1738e03261024fr_fr",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-25T17:15:00+01:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Angers",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 28,
+        "draw": 28,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 30,
+        "away": 43,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Lorient arrive mieux classé et après deux succès marquants, mais Angers peut réagir à domicile. Le 2 est l'issue isolée la plus probable.",
+        "keyFactors": [
+          "Lorient 11 points contre 7 à Angers ; Lorient a battu Monaco 1-0 ; Angers vient de perdre 2-5 contre Marseille."
+        ],
+        "uncertainty": "Le terrain angevin et le risque de réaction après la lourde défaite rendent le match assez ouvert.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "Angers News — Angers–Lorient, contexte et calendrier",
+            "url": "https://www.angers-news.com/sport/football/angers-sco-lorient-ligue-1-journee-8/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "BeninWebTV — Angers–Lorient, résultats et classement",
+            "url": "https://sport.beninwebtv.com/match/angers-lorient-2026-10-25/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-25T17:15:00+01:00"
+    },
+    {
+      "position": 5,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 78,
+        "draw": 13,
+        "away": 9,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Toulouse est favori face à Troyes, qui a perdu cinq matchs consécutifs et encaisse beaucoup. Le 1 reste nettement plus probable sans être certain.",
+        "keyFactors": [
+          "Toulouse compte 9 points contre 4 à Troyes ; Troyes reste sur cinq défaites ; la LFP a reporté le match au dimanche 25 octobre 17h15."
+        ],
+        "uncertainty": "Les compositions restent à confirmer ; un match fermé peut laisser place au nul.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "Ligue 1 — report officiel Toulouse–Troyes",
+            "url": "https://ligue1.com/fr/articles/l1_article_5985-",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Radarfoot — Toulouse–Troyes, forme et absents",
+            "url": "https://radarfoot.fr/matchs/toulouse-estac-troyes-1552799",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-25T17:15:00+01:00"
+    },
+    {
+      "position": 6,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 53,
+        "draw": 25,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 58,
+        "draw": 21,
+        "away": 21,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Barcelone domine le classement et joue chez lui mais sa défense est affaiblie. Le Real reste compétitif et sort d'une victoire convaincante en Europe.",
+        "keyFactors": [
+          "Barcelone 27 points, Real 21 ; Koundé forfait ; le Real a battu Leipzig 4-1."
+        ],
+        "uncertainty": "La forte intensité du Clásico et les choix tactiques de dernière minute limitent la confiance dans le 1.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "Stadiro — Barcelone–Real, classement et forme",
+            "url": "https://stadiro.com/matches/spain/laliga/2026-10-25/barcelona-v-real-madrid/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Barca Blaugranes — forfait de Koundé",
+            "url": "https://www.barcablaugranes.com/barcelona-team-news/135988/hansi-flick-message-xavi-espart-barcelona-rule-jules-kounde-out-el-clasico",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Cadena SER — conférence de presse avant le Clásico",
+            "url": "https://cadenaser.com/nacional/2026/10/24/sigue-en-directo-la-rueda-de-prensa-de-jose-mourinho-previa-a-el-clasico-en-el-camp-nou-cadena-ser/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Udinese",
+      "awayTeam": "Milan AC",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 22,
+        "draw": 27,
+        "away": 51
+      },
+      "fdjSelectionDistribution": {
+        "home": 16,
+        "draw": 17,
+        "away": 67,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Milan est invaincu en championnat alors qu'Udinese reste sur cinq défaites. Le déplacement européen du Milan ajoute une incertitude de récupération.",
+        "keyFactors": [
+          "Milan 15 points et quatrième ; Udinese 4 points ; Milan battu en Ligue Europa jeudi."
+        ],
+        "uncertainty": "Le calendrier européen et les rotations peuvent réduire la supériorité milanaise.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "ScoutPicks — Udinese–Milan, forme et résultats",
+            "url": "https://scoutpicks.app/matches/serie-a-italia/udinese-vs-ac-milan-19713538",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Genius2Play — Udinese–Milan, contexte européen",
+            "url": "https://www.genius2play.com/en/football/news/udinese-vs-ac-milan-2026-10-25-prediction",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-25T20:45:00+01:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Fribourg",
+      "awayTeam": "Bayern Munich",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 23,
+        "draw": 25,
+        "away": 52
+      },
+      "fdjSelectionDistribution": {
+        "home": 8,
+        "draw": 12,
+        "away": 80,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Bayern reste favori mais se déplace chez le troisième avec un groupe très diminué et sans son entraîneur hospitalisé. La confiance du public FDJ paraît excessive.",
+        "keyFactors": [
+          "Fribourg 13 points, Bayern 14 ; Kompany absent ; Kimmich, Kim, Luis Díaz et Musiala annoncés indisponibles."
+        ],
+        "uncertainty": "L'impact des absences et du remplacement temporaire de l'entraîneur est difficile à quantifier.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "Bundesliga — communiqué sur Kompany",
+            "url": "https://www.bundesliga.com/en/bundesliga/news/bayern-munich-vincent-kompany-taken-to-hospital-collapse-39689",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Goal — absences du Bayern à Fribourg",
+            "url": "https://www.goal.com/en-in/news/depleted-squad-in-freiburg-bayern-munich-announce-another-absentee/blt43071e40318ec932",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "SportStatsAPI — Fribourg–Bayern, classement et forme",
+            "url": "https://sportstatsapi.com/matches/germany/bundesliga/2026-10-25/freiburg-v-bayern-munich/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Newcastle",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 36,
+        "draw": 30,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 34,
+        "draw": 31,
+        "away": 35,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Deux équipes en difficulté défensive et récemment battues se retrouvent. Aucun favori net ne se détache malgré le terrain de Palace.",
+        "keyFactors": [
+          "Palace vient de perdre 0-5 contre Brighton ; Newcastle a perdu contre Aston Villa et Coventry ; plusieurs absences défensives des deux côtés."
+        ],
+        "uncertainty": "Le statut de Henderson et les retours possibles en attaque peuvent renverser ce duel équilibré.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "Victory Picks — Palace–Newcastle, forme et compositions",
+            "url": "https://www.victorypicks.com/en/previews/crystal-palace-vs-newcastle-october-25-2026-2421/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "My Football Facts — Palace–Newcastle, xG et absences",
+            "url": "https://www.myfootballfacts.com/match-previews/crystal-palace-v-newcastle-preview-two-leaky-defences-meet-at-selhurst-park/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Manchester United",
+      "awayTeam": "Bournemouth",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 40,
+        "draw": 31,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 55,
+        "draw": 24,
+        "away": 21,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Manchester United est favori modéré à domicile mais sa forme est faible et Bournemouth lui réussit historiquement. Les choix FDJ sur le 1 sont trop concentrés pour le niveau d'incertitude.",
+        "keyFactors": [
+          "United 7 points en sept matchs ; Bournemouth 6 ; United sans victoire sur les six derniers face-à-face."
+        ],
+        "uncertainty": "Les nombreux blessés mancuniens et la difficulté des deux attaques rendent les trois issues plausibles.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "My Football Facts — United–Bournemouth, résultats et absences",
+            "url": "https://www.myfootballfacts.com/match-previews/man-utd-v-bournemouth-preview-winless-hosts-meet-a-side-that-has-not-lost-to-them-lately/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "Dave Sport — United–Bournemouth, effectifs",
+            "url": "https://dave.sport/news/man-utd-vs-bournemouth-preview/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brighton Hove",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 39,
+        "draw": 27,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 18,
+        "away": 15,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Liverpool bénéficie d'Anfield mais Brighton, troisième et très prolifique, est en meilleure forme. Les 67 % de choix FDJ pour Liverpool sont peu compatibles avec cette incertitude.",
+        "keyFactors": [
+          "Brighton 16 points contre 12 pour Liverpool ; Brighton a marqué 23 buts en sept journées ; Liverpool a plusieurs absents dont Szoboszlai et Frimpong."
+        ],
+        "uncertainty": "Le retour éventuel de joueurs offensifs et la force de Liverpool à domicile peuvent changer l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "My Football Facts — Liverpool–Brighton, forme et statistiques",
+            "url": "https://www.myfootballfacts.com/match-previews/liverpool-v-brighton-preview-free-scoring-visitors-head-to-anfield/",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "FotMob — Liverpool–Brighton, absences et résultats",
+            "url": "https://www.fotmob.com/en-GB/matches/liverpool-vs-brighton-hove-albion/2xtwfj",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Monaco",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 27,
+        "away": 12,
+        "accessedAt": "2026-10-24T17:58:41+02:00"
+      },
+      "analysis": {
+        "summary": "Monaco et Lille sont à égalité de points, ce qui rend la préférence marquée du public pour Monaco discutable. Le terrain et la victoire européenne de Monaco lui donnent néanmoins un léger avantage.",
+        "keyFactors": [
+          "Les deux équipes comptent 14 points ; Monaco a battu Fribourg 3-0 après avoir perdu à Lorient ; Lille sort d'une défaite contre Galatasaray."
+        ],
+        "uncertainty": "Les rotations européennes et les compositions définitives restent importantes ; Lille peut obtenir un résultat.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF12 n°92 : ordre, clôture et choix du public",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/584",
+            "accessedAt": "2026-10-24T17:58:41+02:00"
+          },
+          {
+            "label": "AS Monaco — fiche officielle Monaco–Lille",
+            "url": "https://www.asmonaco.com/fr/as-monaco-lille-osc",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          },
+          {
+            "label": "FotMob — Monaco–Lille, forme et effectifs",
+            "url": "https://www.fotmob.com/en-GB/matches/lille-vs-monaco/2tjj7j",
+            "accessedAt": "2026-10-24T17:59:00+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-25T15:00:00+01:00"
+    }
+  ],
+  "tickets": []
+}
