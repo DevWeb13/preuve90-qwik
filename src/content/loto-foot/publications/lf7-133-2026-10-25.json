@@ -1,0 +1,349 @@
+{
+  "id": "lf7-133-2026-10-25",
+  "formula": 7,
+  "gridNumber": 133,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+  "validationDeadline": "2026-10-25T17:10:00+01:00",
+  "publishedAt": "2026-10-24T21:57:44+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Analyse complète dans les dernières 24 heures de la LF7 n°133. Un seul ticket sportif et financièrement différencié est retenu : 1-1-1-2-1-N-1. Marseille, Rennes, Auxerre, Toulouse et Barcelone ont l'avantage sportif ; Lorient est plus solide qu'Angers (44 % de probabilité estimée contre 38 % de choix FDJ) ; le nul Fribourg–Bayern (25 % estimés contre 15 % de choix FDJ) est crédible avec les absences confirmées de Kimmich, Neuer, Kim, Díaz et Musiala et l'hospitalisation de Kompany. Sous hypothèse simplificatrice d'indépendance, le ticket a environ 0,69 % de probabilité de 7/7 et 5,51 % d'exactement 6/7 ; la concentration indicative des choix FDJ est d'environ 0,63 % par produit des répartitions, sans représenter le nombre réel de tickets identiques. Le pactole affiché de 100 000 € et les rapports historiques médians LF7 (15,90 € à 6/7, 198 € à 7/7) rendent un rapport intéressant plausible mais ne démontrent aucune espérance de gain positive : les rapports futurs et le partage sont inconnus. Le rendement historique LF7 (-60,9 %) et le rendement récent toutes formules (-81,7 %) imposent la prudence. Un seul ticket à 1 € virtuel est justifié comme scénario cohérent moins surjoué que les sept favoris ; aucun ajout n'est retenu, les tickets supplémentaires récents ayant perdu 100 % de leur mise. La réussite reste très incertaine, sans promesse de gain."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-25T17:15:00+01:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 21,
+        "away": 11
+      },
+      "fdjSelectionDistribution": {
+        "home": 79,
+        "draw": 13,
+        "away": 8,
+        "accessedAt": "2026-10-24T21:56:29+02:00"
+      },
+      "analysis": {
+        "summary": "Marseille est favori à domicile face au Havre, dernier et sans victoire après sept journées ; la fatigue européenne et la défense marseillaise limitent la confiance.",
+        "keyFactors": [
+          "L'OM reste sur deux succès en Ligue 1 et sept buts inscrits, mais a perdu jeudi en Europe.",
+          "Le Havre n'a gagné aucun match en sept journées et a perdu ses trois déplacements.",
+          "Gouiri a inscrit cinq buts ; Cornelius est forfait et plusieurs Havrais sont indisponibles."
+        ],
+        "uncertainty": "La fatigue européenne et les rotations marseillaises pourraient réduire l'écart.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°133 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Ligue 1 — calendrier officiel J8 et forme récente",
+            "url": "https://ligue1.com/fr/articles/l1_article_5983-ou-et-quand-regarder-le-multiplex-de-la-j8-ligue-1-2026-2027",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Top Mercato — OM–Le Havre, forme et absences",
+            "url": "https://www.topmercato.com/2150576-pronostic-marseille-vs-le-havre-25-10-2026/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-25T17:15:00+01:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 26,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 62,
+        "draw": 23,
+        "away": 15,
+        "accessedAt": "2026-10-24T21:56:29+02:00"
+      },
+      "analysis": {
+        "summary": "Rennes a un avantage à domicile contre Strasbourg, mais sort d'une rencontre européenne exigeante et doit gérer une possible fatigue.",
+        "keyFactors": [
+          "Rennes est invaincu chez lui en Ligue 1 (3 victoires, 1 nul).",
+          "Strasbourg reste sur trois défaites en championnat et encaisse beaucoup à l'extérieur.",
+          "Rennes a joué jeudi en Europe et Lepaul est incertain ; Strasbourg compte plusieurs absents."
+        ],
+        "uncertainty": "L'état de Lepaul et la fraîcheur rennaise peuvent modifier le rapport de force.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°133 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Ligue 1 — calendrier officiel J8 et forme récente",
+            "url": "https://ligue1.com/fr/articles/l1_article_5983-ou-et-quand-regarder-le-multiplex-de-la-j8-ligue-1-2026-2027",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Top Mercato — Rennes–Strasbourg, effectifs et fatigue",
+            "url": "https://www.topmercato.com/2150741-pronostic-rennes-vs-strasbourg-25-10-2026/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-25T17:15:00+01:00",
+      "probabilities": {
+        "home": 50,
+        "draw": 27,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 25,
+        "away": 16,
+        "accessedAt": "2026-10-24T21:56:29+02:00"
+      },
+      "analysis": {
+        "summary": "Auxerre a retrouvé une bonne dynamique et reçoit un promu en difficulté, mais sa défense perméable rend le nul et le succès visiteur possibles.",
+        "keyFactors": [
+          "Auxerre a pris neuf points sur douze et gagné ses deux derniers matchs à domicile.",
+          "Le Mans a perdu ses deux dernières rencontres et ne compte qu'un succès en sept journées.",
+          "L'AJA a encaissé dix-sept buts en sept matchs et les deux équipes ont plusieurs blessés."
+        ],
+        "uncertainty": "Match potentiellement ouvert ; les fragilités défensives d'Auxerre sont importantes.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°133 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Ligue 1 — calendrier officiel J8 et forme récente",
+            "url": "https://ligue1.com/fr/articles/l1_article_5983-ou-et-quand-regarder-le-multiplex-de-la-j8-ligue-1-2026-2027",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Top Mercato — Auxerre–Le Mans, forme et absences",
+            "url": "https://www.topmercato.com/2150639-pronostic-auxerre-vs-le-mans-25-10-2026/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Angers",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-25T17:15:00+01:00",
+      "probabilities": {
+        "home": 27,
+        "draw": 29,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 31,
+        "draw": 31,
+        "away": 38,
+        "accessedAt": "2026-10-24T21:56:29+02:00"
+      },
+      "analysis": {
+        "summary": "Lorient est légèrement favori grâce à sa meilleure défense et à sa dynamique ; Angers reste dangereux à domicile malgré une période défensive très difficile.",
+        "keyFactors": [
+          "Lorient vient de gagner deux fois 1-0 et n'a pas encaissé lors de ces rencontres.",
+          "Angers a encaissé dix buts sur ses deux derniers matchs.",
+          "Katseris est forfait côté Lorient ; Lefort peut revenir à Angers, mais d'autres joueurs sont incertains."
+        ],
+        "uncertainty": "Le retour de défenseurs angevins et les absences lorientaises peuvent resserrer l'écart.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°133 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Ligue 1 — calendrier officiel J8 et forme récente",
+            "url": "https://ligue1.com/fr/articles/l1_article_5983-ou-et-quand-regarder-le-multiplex-de-la-j8-ligue-1-2026-2027",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Top Mercato — Angers–Lorient, dynamique et effectifs",
+            "url": "https://www.topmercato.com/2150675-pronostic-angers-vs-lorient-25-10-2026/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "startsAt": "2026-10-25T17:15:00+01:00",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 73,
+        "draw": 16,
+        "away": 11,
+        "accessedAt": "2026-10-24T21:56:29+02:00"
+      },
+      "analysis": {
+        "summary": "Toulouse est favori face à Troyes, sur cinq défaites consécutives, mais ses résultats à domicile restent moins solides que sa forme générale.",
+        "keyFactors": [
+          "Toulouse est invaincu sur ses quatre dernières journées et a marqué au moins deux buts à chaque fois.",
+          "Troyes reste sur cinq défaites de suite et seize buts encaissés en sept matchs.",
+          "La rencontre a été déplacée au dimanche 25 octobre à 17h15 ; Toulouse n'a gagné qu'une de ses trois réceptions."
+        ],
+        "uncertainty": "La défense toulousaine concède régulièrement et peut laisser une chance à Troyes.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°133 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Ligue 1 — calendrier officiel J8 et forme récente",
+            "url": "https://ligue1.com/fr/articles/l1_article_5983-ou-et-quand-regarder-le-multiplex-de-la-j8-ligue-1-2026-2027",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Top Mercato — Toulouse–Troyes, calendrier et effectifs",
+            "url": "https://www.topmercato.com/2150536-pronostic-toulouse-vs-troyes-25-10-2026/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Fribourg",
+      "awayTeam": "Bayern Munich",
+      "competition": "Bundesliga",
+      "startsAt": "2026-10-25T17:30:00+01:00",
+      "probabilities": {
+        "home": 23,
+        "draw": 25,
+        "away": 52
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 15,
+        "away": 70,
+        "accessedAt": "2026-10-24T21:56:29+02:00"
+      },
+      "analysis": {
+        "summary": "Le Bayern reste favori, mais Fribourg est troisième et les absences majeures du Bayern augmentent les chances de résistance et de nul.",
+        "keyFactors": [
+          "Fribourg est troisième à un point du Bayern, leader, après six journées.",
+          "La Bundesliga confirme les absences de Neuer, Kimmich, Kim Min-jae, Luis Díaz et Musiala ; Kompany reste hospitalisé.",
+          "Le nul est sélectionné par 15 % du public FDJ contre 25 % de probabilité sportive estimée."
+        ],
+        "uncertainty": "Le Bayern peut rester dominant malgré ses absences ; les compositions définitives sont inconnues.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°133 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Bundesliga — Fribourg–Bayern, effectifs officiels",
+            "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/sport-club-freiburg-vs-fc-bayern-muenchen/liveticker/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Bulinews — absences à l'entraînement du Bayern",
+            "url": "https://bulinews.com/kimmich-and-neuer-miss-bayern-training-ahead-trip-freiburg",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "SportStatsAPI — Fribourg–Bayern, horaire et classement",
+            "url": "https://sportstatsapi.com/matches/germany/bundesliga/2026-10-25/freiburg-v-bayern-munich/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "startsAt": "2026-10-25T21:00:00+01:00",
+      "probabilities": {
+        "home": 53,
+        "draw": 25,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 24,
+        "away": 24,
+        "accessedAt": "2026-10-24T21:56:29+02:00"
+      },
+      "analysis": {
+        "summary": "Barcelone possède un léger avantage au Camp Nou avec neuf victoires en neuf matchs de Liga ; le Real reste dangereux malgré plusieurs absents.",
+        "keyFactors": [
+          "Barcelone a remporté ses neuf premières rencontres de Liga.",
+          "Le Real reste sur quatre succès toutes compétitions confondues mais Vinícius est suspendu et Rodrygo absent.",
+          "Barcelone sera privé d'Olmo, Christensen, Eric García et probablement Koundé."
+        ],
+        "uncertainty": "Le niveau offensif des deux équipes et les nombreuses absences défensives rendent le nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°133 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4950",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "LaLiga — calendrier officiel du FC Barcelone",
+            "url": "https://www.laliga.com/clubes/fc-barcelona/proximos-partidos",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Sports Mole — Barça–Real, dynamique et absences",
+            "url": "https://www.sportsmole.co.uk/football/barcelona/el-clasico/preview/barcelona-vs-real-madrid-prediction-team-news-lineups_607543.html",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          },
+          {
+            "label": "Top Mercato — Barça–Real, effectifs et statistiques",
+            "url": "https://www.topmercato.com/2150736-pronostic-barcelone-vs-real-madrid-25-10-2026/",
+            "accessedAt": "2026-10-24T21:56:29+02:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "lf7-133-t1",
+      "label": "Lorient et nul Fribourg–Bayern",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Cinq favoris sportifs à domicile, Lorient en meilleure dynamique qu'Angers et nul plausible à Fribourg face à un Bayern diminué. Le nul bavarois est relativement sous-joué (15 % FDJ contre 25 % estimés). Un seul ticket virtuel de 1 €, sans ajout de couverture non justifié."
+    }
+  ]
+}
