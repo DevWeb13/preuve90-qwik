@@ -1,0 +1,387 @@
+{
+  "id": "lf8-147-2026-10-24",
+  "formula": 8,
+  "gridNumber": 147,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+  "validationDeadline": "2026-10-24T17:55:00+02:00",
+  "publishedAt": "2026-10-24T02:03:58+02:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "LF8 n°147 : analyse complète des huit rencontres actualisée dans les 24 dernières heures. Les répartitions officielles de la fiche de grille (57/21/22, 87/9/4, 27/29/44, 86/8/6, 86/8/6, 27/27/46, 82/12/6, 77/8/15) diffèrent de celles parfois provisoires sur la liste générale : la fiche spécifique a été retenue. Les favoris Saint-Étienne, Lazio, Atlético, Dortmund et Chelsea sont très fortement choisis ; Lens est également davantage joué que ne le justifie notre estimation. Scénario sportif modal 1-1-2-1-1-2-1-1 : environ 0,72 % de probabilité estimée de 8/8, mais une forte concentration de choix FDJ ; scénario plus différencié 1-N-2-1-1-2-1-N : environ 0,11 % de 8/8 et 1,35 % de 7/8, trop incertain pour justifier une mise. Les écarts avec les choix FDJ signalent seulement un potentiel de rapport, pas une espérance positive démontrée. Mémoire v2 : 146 grilles réglées, LF8 historique à -62,7 %, 20 dernières à -18,80 € (-81,7 %), tickets additionnels récents à -20,00 € (-100 %) ; calibration des favoris sous-estimés de 14,5 points récemment sans correction mécanique. Rapports médians historiques LF8 de 52,20 € pour 7/8 et 807 € pour 8/8, non prédictifs du pool actuel. Aucun premier ticket ne présente une justification financière assez crédible au regard du partage inconnu des gains et de la faible probabilité de huit résultats corrects ; des tickets supplémentaires ne feraient qu'acheter de la couverture. Décision définitive : skip, zéro combinaison, 0 € virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lens",
+      "awayTeam": "Paris FC",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 42,
+        "draw": 27,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 21,
+        "away": 22,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "Lens garde l'avantage du terrain mais reste irrégulier (3 victoires, 1 nul, 3 défaites en Ligue 1), avec une défaite européenne 0-3 à Bruges. Le Paris FC, deuxième avec 14 points après sept journées, vient de battre Rennes 4-3 et possède des arguments offensifs : rencontre plus ouverte que les 57 % de choix FDJ sur Lens.",
+        "keyFactors": [
+          "Lens est 8e avec 10 points, Paris FC 2e avec 14 après sept journées.",
+          "Lens vient de jouer en Ligue des champions et a perdu 0-3 à Bruges ; Paris FC a battu Rennes 4-3.",
+          "Paris FC a récemment gagné à Marseille 3-2 ; Lens a battu Troyes 3-1 en championnat."
+        ],
+        "uncertainty": "Rotation après l'Europe, onze lensois et disponibilité d'Édouard incertains ; l'avantage historique de Lens ne garantit pas le résultat.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Paris FC — fiche officielle du match Lens–Paris FC",
+            "url": "https://parisfc.fr/match-center/men/118513/2026-10-24/lens-vs-paris-fc-ligue-1-mcdonalds/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Sky Sports — forme récente des deux clubs",
+            "url": "https://www.skysports.com/football/rc-lens-vs-paris-fc/stats/557063",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Legalbet — forme, absences et cotes Lens–Paris FC",
+            "url": "https://legalbet.com/game-center/lens-paris-24-10-2026/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-24T20:45:00+02:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Saint-Étienne",
+      "awayTeam": "Nantes",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 63,
+        "draw": 23,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 87,
+        "draw": 9,
+        "away": 4,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "Saint-Étienne est leader de Ligue 2 avec 22 points en neuf matchs contre huit pour Nantes. Sa dynamique offensive et l'avantage du terrain justifient le statut de favori, mais les absences stéphanoises et l'historique de nuls rendent les 87 % de choix FDJ excessivement concentrés.",
+        "keyFactors": [
+          "Saint-Étienne a remporté sept de ses neuf matchs, notamment 1-0 au Red Star et 2-0 contre Rodez.",
+          "Nantes a perdu 2-3 contre Dunkerque et peine à trouver de la régularité.",
+          "Larsonneur et Svetlin sont annoncés forfaits, tandis que Nantes est privé notamment de Tati et Mirbach ; sept derniers duels sans victoire stéphanoise."
+        ],
+        "uncertainty": "Les absences dans l'axe et au poste de gardien de Saint-Étienne peuvent peser ; les horaires publiés divergent, donc aucun startsAt n'est renseigné.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "SportyTrader — Saint-Étienne–Nantes, forme, classement et absences",
+            "url": "https://www.sportytrader.com/pronostics/saint-etienne-fc-nantes-381418/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Coteur — contexte et joueurs indisponibles Saint-Étienne–Nantes",
+            "url": "https://www.coteur.com/match/pronostic-saint-etienne-nantes-1611122",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Naples",
+      "awayTeam": "AS Rome",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 33,
+        "draw": 28,
+        "away": 39
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 29,
+        "away": 44,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "Duel serré de Serie A avec une légère préférence sportive pour la Roma au vu du marché et de la forme, malgré l'invincibilité de Naples sur ses huit dernières réceptions de la Roma en championnat. Les deux équipes ont des absents importants et la victoire extérieure n'est pas certaine.",
+        "keyFactors": [
+          "Sur cinq matchs récents : Naples 2 victoires, 1 nul et 2 défaites ; Roma 2 victoires, 2 nuls et 1 défaite.",
+          "Naples est invaincu sur ses huit derniers matchs à domicile en Serie A contre la Roma (4 victoires, 4 nuls).",
+          "Naples est privé notamment de Buongiorno et Neres ; Roma de Koné, Dybala, Svilar et Pellegrini selon la prévision d'effectif."
+        ],
+        "uncertainty": "Le derby est équilibré, les absences peuvent modifier les compositions ; les cotes du marché ne garantissent pas l'issue.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Eurosport Italie — Naples–Roma, statistiques et compositions probables",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/napoli-roma-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23348193/story.shtml",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Scommesse Calcio — Naples–Roma, forme et marché 1N2",
+            "url": "https://www.scommesse-calcio.it/pronostici/italia/serie-a/napoli-roma-24-ottobre-2026/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-24T18:00:00+02:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Lazio Rome",
+      "awayTeam": "Parme",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 68,
+        "draw": 21,
+        "away": 11
+      },
+      "fdjSelectionDistribution": {
+        "home": 86,
+        "draw": 8,
+        "away": 6,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "La Lazio réalise un excellent début de championnat (19 points en sept journées) et reste invaincue sur ses dix dernières réceptions de Parme en Serie A. Le 1 est sportivement le plus probable, mais les 86 % de choix FDJ le rendent très populaire.",
+        "keyFactors": [
+          "Lazio a pris 19 points sur 21 possibles en sept journées de Serie A.",
+          "La Lazio n'a pas perdu ses dix dernières réceptions de Parme en championnat (8 victoires, 2 nuls).",
+          "Gudmundsson manque à la Lazio ; Parme est privé notamment de Nicolussi Caviglia et Almqvist."
+        ],
+        "uncertainty": "Les forfaits et les rotations possibles laissent un risque de nul, sous-représenté dans les choix FDJ.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Eurosport Italie — Lazio–Parma, forme et absences",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/lazio-parma-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23348194/story.shtml",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Sky Sport Italia — Lazio–Parma, calendrier et compositions probables",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-8/lazio-parma",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-24T20:45:00+02:00"
+    },
+    {
+      "position": 5,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "La Corogne",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 86,
+        "draw": 8,
+        "away": 6,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "L'Atlético, deuxième de Liga et sur une série de victoires, reçoit un Deportivo moins régulier. Les marchés et les résultats récents favorisent nettement le 1, mais l'écart avec les 86 % de choix FDJ reste marqué.",
+        "keyFactors": [
+          "Atlético occupe la deuxième place avec 22 points après neuf journées et reste sur une série positive.",
+          "Le Deportivo alterne nuls et défaites, avec notamment un nul contre Levante et une défaite à la Real Sociedad.",
+          "Les marchés 1N2 placent généralement la victoire madrilène autour de 72 à 75 % après retrait de la marge."
+        ],
+        "uncertainty": "Les évaluations de modèles divergent sensiblement ; la forme et les compositions ne suppriment pas le risque d'un nul.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Victory Picks — Atlético–Deportivo, résultats et xG récents",
+            "url": "https://www.victorypicks.com/en/previews/atletico-madrid-vs-deportivo-la-coruna-october-24-2026-2407/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Oddschecker — marché 1N2 Atlético–Deportivo",
+            "url": "https://www.oddschecker.com/football/spain/la-liga-primera/atletico-madrid-v-deportivo-a-coruna/winner",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Oddbert — estimation 1N2 Atlético–Deportivo",
+            "url": "https://www.oddbert.com/en/match/atletico-madrid-deportivo-la-coruna-2026-10-24",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-24T21:00:00+02:00"
+    },
+    {
+      "position": 6,
+      "homeTeam": "CF Valence",
+      "awayTeam": "Villarreal",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 29,
+        "draw": 28,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 27,
+        "away": 46,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "Villarreal est légèrement favori sur la qualité collective et les résultats récents, mais arrive avec seulement deux jours de préparation après la Ligue des champions à Liverpool. Valence, à domicile, peut profiter de cette fatigue ; la rencontre reste ouverte.",
+        "keyFactors": [
+          "Villarreal n'a disposé que de deux séances d'entraînement après son déplacement européen à Liverpool.",
+          "Valence a plusieurs absences, notamment Foulquier, Copete, Diego López et Sadiq ; Villarreal surveille Romero et Saliba.",
+          "Les modèles et marchés situent la victoire de Villarreal autour de 44 à 46 %, avant ajustement pour le calendrier."
+        ],
+        "uncertainty": "La récupération physique de Villarreal et les rotations de dernière minute sont déterminantes ; Valence cherche sa première victoire à domicile.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "AS — Villarreal, fatigue et préparation après Liverpool",
+            "url": "https://as.com/futbol/el-villarreal-solo-trabajara-dos-dias-antes-de-medirse-al-valencia-f202610-n/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "BeSoccer — Valencia–Villarreal, absences et compositions",
+            "url": "https://es.besoccer.com/noticia/alineaciones-probables-valencia-villarreal-onces-bajas-dudas-1436347",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "PredictionPitch — probabilités et marché Valencia–Villarreal",
+            "url": "https://predictionpitch.com/fr/predictions/valencia-vs-villarreal-2026-10-24",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-24T18:30:00+02:00"
+    },
+    {
+      "position": 7,
+      "homeTeam": "Dortmund",
+      "awayTeam": "Eintracht Francfort",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 59,
+        "draw": 25,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 12,
+        "away": 6,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "Dortmund reste favori à domicile grâce à ses précédents et à sa puissance offensive, mais sort d'un 0-0 contre l'Union Berlin et doit gérer plusieurs absences. Francfort a battu Cologne après une lourde défaite à Leipzig ; les 82 % de choix FDJ sur Dortmund sont très concentrés.",
+        "keyFactors": [
+          "Dortmund a gagné ses trois dernières réceptions de Francfort ; Francfort reste fragile à l'extérieur.",
+          "Dortmund vient de faire 0-0 à l'Union Berlin ; Francfort a rebondi contre Cologne après une défaite 0-6 à Leipzig.",
+          "Emre Can, Konstantelias, Karetsas et Lerma sont indisponibles pour Dortmund ; Ngankam manque à Francfort."
+        ],
+        "uncertainty": "Les absences de Dortmund et la capacité de réaction de Francfort augmentent le risque de nul ; les projections sportives divergent.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Bulinews — Dortmund–Francfort, forme et blessures",
+            "url": "https://bulinews.com/borussia-dortmund-eintracht-frankfurt-preview-topspiel-iron-out-issues",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Forebet — Dortmund–Francfort, tendances à domicile et à l'extérieur",
+            "url": "https://www.forebet.com/en/football-match-previews/31435-borussia-dortmund-look-to-regain-momentum-as-eintracht-frankfurt-visit-signal-iduna-park",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-24T18:30:00+02:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Tottenham",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 56,
+        "draw": 24,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 77,
+        "draw": 8,
+        "away": 15,
+        "accessedAt": "2026-10-24T02:03:57+02:00"
+      },
+      "analysis": {
+        "summary": "Chelsea, quatrième avec 13 points en sept matchs, reçoit Tottenham, seizième avec six points. L'avantage à Stamford Bridge est net, mais Chelsea perd son gardien Emiliano Martínez et Tottenham récupère plusieurs joueurs ; le nul reste plausible malgré seulement 8 % de choix FDJ.",
+        "keyFactors": [
+          "Chelsea compte 4 victoires, 1 nul et 2 défaites ; Tottenham 1 victoire, 3 nuls et 3 défaites.",
+          "Tottenham n'a gagné qu'une de ses 36 dernières rencontres de championnat à Stamford Bridge.",
+          "Maddison est incertain et Udogie absent à Tottenham, mais Porro, Robertson et Marmoush sont disponibles ; Martínez est absent côté Chelsea."
+        ],
+        "uncertainty": "Les retours de Tottenham, les nombreuses absences et le gardien remplaçant de Chelsea peuvent modifier l'équilibre ; les compositions restent à confirmer.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF8 n°147 : identité, ordre, clôture et répartitions des choix",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/844",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Reuters — conférence de presse de Tottenham et effectif du 23 octobre",
+            "url": "https://www.reuters.com/sports/soccer/tottenhams-maddison-doubt-chelsea-clash-says-de-zerbi-2026-10-23/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "Football365 — Chelsea–Tottenham, effectifs et horaire",
+            "url": "https://www.football365.com/match-preview/chelsea-v-tottenham-prediction-preview-2026-27",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          },
+          {
+            "label": "PremierLeagueStat — Chelsea–Tottenham, classement et marché",
+            "url": "https://www.premierleaguestat.uk/match/chelsea-tottenham-2026-10-24/",
+            "accessedAt": "2026-10-24T02:03:57+02:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-24T18:30:00+02:00"
+    }
+  ],
+  "tickets": []
+}
