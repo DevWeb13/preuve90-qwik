@@ -1,0 +1,380 @@
+{
+  "id": "lf8-148-2026-10-26",
+  "formula": 8,
+  "gridNumber": 148,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+  "validationDeadline": "2026-10-26T18:55:00+01:00",
+  "publishedAt": "2026-10-25T20:59:02.683Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse complète et définitive de la LF8 n°148 dans les dernières 24 heures, avec répartitions FDJ actualisées. Les écarts importants sur PSG, Séville, Copenhague, Benfica et Galatasaray suggèrent des alternatives moins jouées, mais ne démontrent aucune rentabilité : les rapports futurs et leur partage sont inconnus. Le scénario réunissant les issues les plus probables n'offre qu'environ 0,30 % de chance d'obtenir 8/8 sous hypothèse d'indépendance et reste concentré sur des choix populaires ; les variantes plus différenciées réduisent encore la chance de réussite complète. La mémoire v2 montre -62,7 % de rendement sur 50 LF8 réglées, -61,8 % sur les 20 dernières publications réglées toutes formules et -100 % sur les neuf tickets supplémentaires récents. Les rapports médians historiques LF8 (50,85 € pour 7/8 et 769,50 € pour 8/8) ne sont pas des promesses de gain. Aucun premier ticket ne présente de justification financière suffisamment crédible ; aucune mise minimale n'est imposée, et aucun ticket supplémentaire n'est ajouté pour la seule couverture. Décision skip : zéro combinaison et zéro euro virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 58,
+        "draw": 24,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 75,
+        "draw": 15,
+        "away": 10,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Paris reste favori chez lui, mais le choc entre deux clubs à 14 points est plus serré que la sélection FDJ ne le suggère.",
+        "keyFactors": [
+          "Le PSG et Lyon comptent 14 points après sept journées ; le match a été déplacé au lundi.",
+          "Paris est privé notamment de Dembélé, Kvaratskhelia, Marquinhos et Nuno Mendes.",
+          "Lyon est aussi diminué et sort d'une défaite européenne contre Hoffenheim."
+        ],
+        "uncertainty": "Les onze titulaires ne sont pas encore confirmés et les absences pèsent des deux côtés.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "Ligue 1 — report officiel PSG–OL",
+            "url": "https://ligue1.com/fr/articles/l1_article_5994-psg-ol-decale-au-lundi-26-octobre-l1-2627",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "Paris United — compositions probables et absences du 25 octobre",
+            "url": "https://parisunited.fr/articles/psg-ol-compositions-probables-8e-journee-26-octobre/",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "Oddzone — indisponibilités PSG–OL",
+            "url": "https://www.oddzone.fr/matchs/paris-saint-germain-lyon-2026-10-26/",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-26T20:30:00+01:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Montpellier",
+      "awayTeam": "Red Star",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 44,
+        "draw": 30,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 55,
+        "draw": 28,
+        "away": 17,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Montpellier possède un léger avantage à domicile grâce à sa défense, mais le Red Star demeure un concurrent direct crédible.",
+        "keyFactors": [
+          "Montpellier est troisième avec une seule défaite après neuf journées.",
+          "Le Red Star a gagné quatre matchs de suite avant de perdre contre Saint-Étienne.",
+          "Hatchi est absent à Montpellier et Lemonnier au Red Star ; d'autres joueurs restent incertains."
+        ],
+        "uncertainty": "Les absences tardives et la qualité du Red Star à l'extérieur rendent le nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "Sportytrader — Montpellier–Red Star, forme, classement et effectifs",
+            "url": "https://www.sportytrader.com/pronostics/montpellier-red-star-382250/",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-26T20:45:00+01:00"
+    },
+    {
+      "position": 3,
+      "homeTeam": "Boulogne",
+      "awayTeam": "Reims",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 25,
+        "draw": 31,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 20,
+        "draw": 28,
+        "away": 52,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Reims est favori en déplacement, mais les nombreux nuls des deux équipes rendent le partage des points crédible.",
+        "keyFactors": [
+          "Boulogne n'a pas gagné ses quatre premiers matchs à domicile selon le relevé statistique consulté.",
+          "Reims reste invaincu sur quatre déplacements et est mieux classé.",
+          "La forme récente des deux équipes comporte plusieurs matchs nuls."
+        ],
+        "uncertainty": "La difficulté de transformer la supériorité de Reims en victoire reste notable.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "FotMob — Boulogne–Reims, forme et historique",
+            "url": "https://www.fotmob.com/en-GB/matches/boulogne-vs-reims/1mexwx",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "Prematchstats — statistiques domicile/extérieur",
+            "url": "https://prematchstats.com/france/ligue-2/us-boulogne-cote-dopale-vs-stade-de-reims-stats/577575539",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "Radarfoot — calendrier et classement Boulogne–Reims",
+            "url": "https://radarfoot.fr/matchs/boulogne-reims-1552504",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-26T20:45:00+01:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Séville",
+      "awayTeam": "Osasuna",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 73,
+        "draw": 16,
+        "away": 11,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Séville conserve l'avantage du terrain contre un Osasuna très faible à l'extérieur, mais sa défense est perméable.",
+        "keyFactors": [
+          "LaLiga classe Séville sixième avec 14 points et Osasuna dixième avec 11 points.",
+          "Osasuna a perdu ses trois derniers déplacements en encaissant quatorze buts.",
+          "Séville a marqué lors de ses neuf matchs de Liga, mais a encaissé seize buts et reste sur trois matchs sans victoire."
+        ],
+        "uncertainty": "Les absences et les fragilités défensives des deux équipes rendent 73 % de choix FDJ sur Séville très concentrés.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "LaLiga — fiche officielle Séville–Osasuna",
+            "url": "https://www.laliga.com/es-US/partido/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "The Stats Zone — forme et absences",
+            "url": "https://www.thestatszone.com/sevilla-vs-osasuna-preview-team-news-prediction-231641",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "BeSoccer — compositions et absents du 25 octobre",
+            "url": "https://es.besoccer.com/noticia/alineaciones-probables-sevilla-osasuna-onces-bajas-dudas-1436365",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "FC Andorra",
+      "awayTeam": "Burgos CF",
+      "competition": "LaLiga 2",
+      "probabilities": {
+        "home": 34,
+        "draw": 30,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 28,
+        "away": 31,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Match équilibré ; Burgos est mieux classé et défend mieux, mais son rendement extérieur reste limité.",
+        "keyFactors": [
+          "Andorra est dix-huitième avec dix points et a perdu trois de ses cinq réceptions.",
+          "Burgos est huitième avec dix-sept points, mais n'a pris que quatre points en quatre déplacements.",
+          "Alende et Domènech sont suspendus à Andorra ; González et Appin sont blessés côté Burgos."
+        ],
+        "uncertainty": "Les absences affectent les deux équipes et aucun résultat ne dépasse 36 % de probabilité estimée.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "Tipsters — Andorra–Burgos, absences et forme du 24 octobre",
+            "url": "https://tipsters.net/matches/soccer/25-10-2026-andorra-burgos-cf",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "AS — conférence de Sergio Francisco avant Andorra",
+            "url": "https://as.com/futbol/segunda/sergio-francisco-cada-vez-nos-acercamos-mas-al-burgos-que-queremos-ver-f202610-n/",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "FC Copenhague",
+      "awayTeam": "Odense",
+      "competition": "Superliga danoise",
+      "probabilities": {
+        "home": 65,
+        "draw": 22,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 10,
+        "away": 8,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Copenhague est nettement favori, mais sa victoire est extrêmement sélectionnée par le public FDJ.",
+        "keyFactors": [
+          "Copenhague est premier avec 25 points après onze journées, Odense septième avec treize.",
+          "Copenhague a gagné 5-0 à Odense le 6 septembre.",
+          "Odense progresse récemment, mais ses indicateurs défensifs sont moins bons."
+        ],
+        "uncertainty": "Les compositions restent inconnues et le favori peut concéder un nul malgré sa supériorité.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "MatchScan — Copenhague–Odense, classement et forme",
+            "url": "https://matchscan.co/en/match/superliga-dinamarca/fc-kobenhavn-vs-odense-bk-2026-10-26",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "Tifolab — xG, xGA et confrontations Copenhague–Odense",
+            "url": "https://www.tifolab.com/matches/1549041",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Santa Clara",
+      "awayTeam": "Benfica",
+      "competition": "Liga Portugal",
+      "probabilities": {
+        "home": 22,
+        "draw": 28,
+        "away": 50
+      },
+      "fdjSelectionDistribution": {
+        "home": 10,
+        "draw": 12,
+        "away": 78,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Benfica est favori grâce à son attaque, mais Santa Clara est invaincu et le déplacement aux Açores reste difficile.",
+        "keyFactors": [
+          "Santa Clara n'a pas encore perdu en championnat ; son entraîneur a été salué par Marco Silva.",
+          "Benfica reste sur trois succès depuis la trêve.",
+          "Marco Silva confirme les absences de Banjaqui, Barrenechea, Kaminski et Barreiro, mais Durán est disponible."
+        ],
+        "uncertainty": "Le retour de Durán renforce Benfica, sans annuler les risques liés à la solidité de Santa Clara.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "Benfica — conférence officielle avant Santa Clara, 25 octobre",
+            "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/25/futebol-marco-silva-antevisao-santa-clara-benfica-9-jornada-liga-betclic",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "Dia de Jogo — Durán disponible, quatre absents confirmés",
+            "url": "https://diadejogo.pt/noticias/marco-silva-sobre-duran-recuperou-rapidamente-2026-10-25",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "FotMob — forme Santa Clara–Benfica",
+            "url": "https://www.fotmob.com/en-GB/matches/santa-clara-vs-benfica/12a7ny",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-26T19:45:00+01:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Galatasaray",
+      "awayTeam": "Fenerbahce",
+      "competition": "Süper Lig turque",
+      "probabilities": {
+        "home": 42,
+        "draw": 29,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 27,
+        "away": 16,
+        "accessedAt": "2026-10-25T21:56:44+01:00"
+      },
+      "analysis": {
+        "summary": "Galatasaray est favori à domicile, mais le derby est ouvert face à l'attaque de Fenerbahçe.",
+        "keyFactors": [
+          "Galatasaray mène le championnat avec dix-neuf points, contre seize pour Fenerbahçe.",
+          "Osimhen est de retour et Torreira a purgé sa suspension ; Leão reste incertain.",
+          "Fenerbahçe doit composer sans Asensio et plusieurs défenseurs, mais conserve une attaque variée."
+        ],
+        "uncertainty": "Le derby présente une forte variance et les compositions définitives ne sont pas encore connues.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°148, grille officielle et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/845",
+            "accessedAt": "2026-10-25T21:56:44+01:00"
+          },
+          {
+            "label": "The Hard Tackle — derby du 25 octobre, forme et effectifs",
+            "url": "https://thehardtackle.com/round-up/2026/10/25/galatasaray-vs-fenerbahce-preview-prediction-probable-lineups-tactics-team-news-key-stats/",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          },
+          {
+            "label": "Forebet — Galatasaray–Fenerbahçe, scénarios et effectifs",
+            "url": "https://www.forebet.com/en/football-match-previews/31558-galatasaray-vs-fenerbahce-istanbul-rivals-meet-in-rams-park-title-test",
+            "accessedAt": "2026-10-25T21:57:26+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-10-26T19:30:00+01:00"
+    }
+  ],
+  "tickets": []
+}
