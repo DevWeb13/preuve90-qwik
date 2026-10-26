@@ -1,0 +1,534 @@
+{
+  "id": "lf12-93-2026-10-27",
+  "formula": 12,
+  "gridNumber": 93,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+  "validationDeadline": "2026-10-27T20:40:00+01:00",
+  "publishedAt": "2026-10-26T22:07:34+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse définitive dans les dernières 24 heures de la LF12 n°93, douze rencontres étudiées et répartitions FDJ actualisées. Les écarts sur Como, Dortmund, Gladbach, Elversberg, Arsenal et Juventus révèlent des choix publics concentrés mais ne démontrent pas une rentabilité : rapports futurs et partage du pool inconnus. Le scénario des douze issues les plus probables n'offre qu'environ 0,062 % de probabilité de 12/12 et 12,9 % d'atteindre au moins 9/12 sous hypothèse simplificatrice d'indépendance. Les rotations de coupe et le risque météo Fleetwood–Arsenal ajoutent de l'incertitude. La mémoire v2 indique -81,1 % de rendement sur 29 LF12 réglées, aucune publication LF12 profitable. Le +2,20 € net récent sur 20 publications toutes formules ne concerne que deux tickets engagés et ne démontre pas une amélioration robuste. Les rapports historiques médians LF12 (2,60 € pour 9/12, 14,20 € pour 10/12, 148,50 € pour 11/12 et 5 441 € pour 12/12) ne prédisent pas ceux de cette grille. Aucun premier ticket n'est suffisamment justifié financièrement ; les variantes n'ajouteraient que de la couverture coûteuse. Décision skip, zéro combinaison et zéro euro virtuel, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Torino",
+      "awayTeam": "Como 1907",
+      "competition": "Serie A",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 31,
+        "draw": 27,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 18,
+        "draw": 23,
+        "away": 59,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Como garde un léger avantage par sa dynamique et sa production offensive, mais Torino vient d'enchaîner trois victoires.",
+        "keyFactors": [
+          "Torino a battu Udinese, Parme et Monza.",
+          "Como a battu Sassuolo et la Fiorentina.",
+          "59 % de choix FDJ sur Como, contre 42 % de probabilité sportive estimée."
+        ],
+        "uncertainty": "Les absences et les compositions peuvent modifier l'équilibre; Torino joue chez lui.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "FotMob — forme et effectifs Torino–Como",
+            "url": "https://www.fotmob.com/en-GB/matches/torino-vs-como/3asep4",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Cagliari",
+      "competition": "Serie A",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 22,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 19,
+        "away": 7,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "La Roma est favorite grâce à sa défense et son historique favorable contre Cagliari, mais sa victoire n'est pas acquise.",
+        "keyFactors": [
+          "Roma invaincue en championnat et peu de buts encaissés.",
+          "Cagliari reste sur deux défaites sans marquer.",
+          "La Roma a remporté ses cinq dernières réceptions de Cagliari en championnat."
+        ],
+        "uncertainty": "Absences et rotation possible du onze romain.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "The Stats Zone — Roma–Cagliari, forme et confrontations",
+            "url": "https://www.thestatszone.com/roma-vs-cagliari-preview-team-news-prediction-232830",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "Sky Sport — calendrier Roma–Cagliari",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-9/roma-cagliari",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Dortmund",
+      "awayTeam": "Werder Brême",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 56,
+        "draw": 25,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 16,
+        "away": 10,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Dortmund reste favori à domicile, mais Werder est invaincu depuis cinq rencontres et le calendrier du BVB est chargé.",
+        "keyFactors": [
+          "Dortmund a battu Francfort et Sabah.",
+          "Werder reste sur cinq rencontres sans défaite et a obtenu un 2-2 face au BVB.",
+          "Sixième match compétitif du BVB en dix-neuf jours."
+        ],
+        "uncertainty": "Rotations et fatigue incertaines; les probabilités concernent le temps réglementaire et non la qualification.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Borussia Dortmund — conférence d'avant-match du 26 octobre",
+            "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/10/26/In-Form-Bremen-The-Next-Test-for-BVB.html",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "FotMob — Dortmund–Werder, forme",
+            "url": "https://www.fotmob.com/de/matches/werder-bremen-vs-borussia-dortmund/2tqnt6",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Cologne",
+      "awayTeam": "Union Berlin",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 42,
+        "draw": 30,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 24,
+        "away": 22,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Cologne bénéficie du terrain, mais sa difficulté à marquer et la défense retrouvée d'Union rendent le nul plausible.",
+        "keyFactors": [
+          "Cologne a fait 0-0 contre Schalke et reste muet sur ses deux dernières sorties.",
+          "Union n'a concédé qu'un but sur ses trois derniers matchs.",
+          "Plusieurs absences touchent l'attaque de Cologne."
+        ],
+        "uncertainty": "Le retour éventuel d'attaquants et les rotations de coupe sont déterminants.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Tipsters — Cologne–Union, forme et absences",
+            "url": "https://tipsters.net/matches/soccer/27-10-2026-cologne-union",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "M'Gladbach",
+      "awayTeam": "Karlsruhe",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 56,
+        "draw": 26,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 17,
+        "away": 9,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Gladbach est favori à domicile face à Karlsruhe, mais son irrégularité interdit de reprendre les 74 % du public.",
+        "keyFactors": [
+          "Gladbach vient de battre Stuttgart 3-2 après plusieurs défaites.",
+          "Karlsruhe a connu des difficultés défensives à l'extérieur.",
+          "Gladbach a éliminé Karlsruhe en coupe en 2025."
+        ],
+        "uncertainty": "La victoire récente de Gladbach ne garantit pas un redressement durable; rotations possibles.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Sportytrader — Gladbach–Karlsruhe, dynamique",
+            "url": "https://www.sportytrader.com/pronostics/borussia-monchengladbach-karlsruhe-sc-382401/",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "OddAlerts — Gladbach–Karlsruhe, données et tendances",
+            "url": "https://www.oddalerts.com/livescores/borussia-monchengladbach-vs-karlsruher-sc/4899-4358",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "SV Elversberg",
+      "awayTeam": "SV Darmstadt",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 55,
+        "draw": 26,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 72,
+        "draw": 17,
+        "away": 11,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Elversberg est favori contre Darmstadt, dernier de deuxième division, mais son revers récent réduit la confiance.",
+        "keyFactors": [
+          "Elversberg joue en Bundesliga et vient de perdre 0-4 à Leipzig.",
+          "Darmstadt est dernier de Bundesliga 2 et faible à l'extérieur.",
+          "Les entraîneurs ont évoqué l'intensité du duel à élimination directe."
+        ],
+        "uncertainty": "Darmstadt pourrait jouer plus offensivement en coupe; la forme d'Elversberg fluctue.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "WELT/dpa — conférences des entraîneurs du 26 octobre",
+            "url": "https://www.welt.de/regionales/hessen/article6adf6052c303dbdd29105e7a/darmstadt-und-elversberg-wollen-pokal-geschichte-schreiben.html",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "Sky Sports — Elversberg–Darmstadt, résultats récents",
+            "url": "https://www.skysports.com/football/sv-07-elversberg-vs-sv-darmstadt-98/578222",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bradford",
+      "awayTeam": "Peterborough",
+      "competition": "EFL Cup",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 53,
+        "draw": 27,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 62,
+        "draw": 22,
+        "away": 16,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Bradford est favori à domicile par sa défense, mais ses nuls récents et le potentiel offensif de Peterborough limitent l'écart.",
+        "keyFactors": [
+          "Bradford a fait trois 0-0 sur ses quatre derniers matchs de championnat.",
+          "Peterborough a encaissé quatre buts à Huddersfield mais battu Leicester en coupe.",
+          "La confrontation de coupe est confirmée par Bradford."
+        ],
+        "uncertainty": "Rotations et disponibilité des joueurs offensifs encore incertaines.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Sky Sports — Bradford–Peterborough, forme",
+            "url": "https://www.skysports.com/football/bradford-city-vs-peterborough-united/8860221330306805232",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "Bradford City AFC — affiche officielle",
+            "url": "https://www.bradfordcityafc.com/news/2026/september/24/prices-slashed-for-peterborough-cup-clash/",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Fleetwood Town",
+      "awayTeam": "Arsenal",
+      "competition": "EFL Cup",
+      "startsAt": "2026-10-27T21:00:00+01:00",
+      "probabilities": {
+        "home": 6,
+        "draw": 11,
+        "away": 83
+      },
+      "fdjSelectionDistribution": {
+        "home": 1,
+        "draw": 5,
+        "away": 94,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Arsenal est très largement favori malgré les rotations, mais les conditions météorologiques pourraient compromettre la tenue du match.",
+        "keyFactors": [
+          "Arsenal est invaincu sur ses cinq derniers matchs.",
+          "Fleetwood, club de League Two, a franchi trois tours de coupe sans encaisser.",
+          "Vent et pluies dans le Lancashire : inspection du terrain ou report possibles."
+        ],
+        "uncertainty": "La météo, la tenue du match et le onze remanié d'Arsenal restent incertains.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Eurosport — Fleetwood–Arsenal, forme et absences",
+            "url": "https://www.eurosport.fr/paris-sportifs/pronostics/fleetwood-arsenal-pronostics-conseils-et-cotes-carabao-cup/",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "TalkSport — risque météo du 26 octobre",
+            "url": "https://talksport.com/football/4667496/midweek-football-postponement-warnings-arsenal-fleetwood/",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Chelsea",
+      "competition": "EFL Cup",
+      "startsAt": "2026-10-28T21:00:00+01:00",
+      "probabilities": {
+        "home": 43,
+        "draw": 27,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 25,
+        "away": 34,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Liverpool possède un léger avantage à Anfield, mais les nombreuses absences des deux côtés et les rotations ouvrent les trois issues.",
+        "keyFactors": [
+          "Liverpool vient de battre Brighton 2-0.",
+          "Frimpong, Szoboszlai, Ekitiké et Bradley sont indisponibles.",
+          "Chelsea est également diminué et les deux équipes pourraient changer leur onze."
+        ],
+        "uncertainty": "Les compositions définitives de mercredi sont inconnues.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Evening Standard — Liverpool–Chelsea, effectifs du 26 octobre",
+            "url": "https://www.standard.co.uk/sport/football/liverpool-fc-xi-vs-chelsea-confirmed-team-news-predicted-lineup-injury-latest-2026-carabao-cup-b1302359.html",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "FotMob — Liverpool–Chelsea, calendrier et absences",
+            "url": "https://www.fotmob.com/en-GB/matches/chelsea-vs-liverpool/2f3vr7?player=172949",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Man. City",
+      "awayTeam": "Brighton Hove",
+      "competition": "EFL Cup",
+      "startsAt": "2026-10-28T20:30:00+01:00",
+      "probabilities": {
+        "home": 55,
+        "draw": 24,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 19,
+        "away": 20,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "City reste favori chez lui mais ses fragilités défensives et la rotation probable laissent des chances à Brighton.",
+        "keyFactors": [
+          "City vient de perdre 2-1 à Aston Villa.",
+          "City a encaissé neuf buts sur ses quatre dernières rencontres.",
+          "Brighton compte plusieurs blessés et Haaland pourrait être ménagé."
+        ],
+        "uncertainty": "Les compositions et les retours de blessure peuvent déplacer sensiblement les probabilités.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Sports Mole — City–Brighton, analyse du 26 octobre",
+            "url": "https://www.sportsmole.co.uk/football/man-city/league-cup/preview/man-city-vs-brighton-prediction-team-news-lineups_607717.html",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "Manchester City — calendrier officiel de coupe",
+            "url": "https://www.mancity.com/tickets/mens/carabao-cup",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Genoa",
+      "awayTeam": "Juventus Turin",
+      "competition": "Serie A",
+      "startsAt": "2026-10-28T20:45:00+01:00",
+      "probabilities": {
+        "home": 24,
+        "draw": 29,
+        "away": 47
+      },
+      "fdjSelectionDistribution": {
+        "home": 14,
+        "draw": 26,
+        "away": 60,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "La Juventus est favorite par son effectif et ses confrontations, mais Genoa est capable de résister à domicile.",
+        "keyFactors": [
+          "Juventus vient de battre Lecce 2-0 après une période irrégulière.",
+          "Genoa a battu Venezia et Fiorentina à domicile.",
+          "Juventus a gardé sa cage inviolée lors des cinq derniers duels de championnat contre Genoa."
+        ],
+        "uncertainty": "Absences à la Juventus et regain de forme de Genoa rendent le nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Sports Mole — Genoa–Juventus, analyse du 26 octobre",
+            "url": "https://www.sportsmole.co.uk/football/genoa/preview/genoa-vs-juventus-prediction-team-news-lineups_607716.html",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "FotMob — Genoa–Juventus, forme et effectifs",
+            "url": "https://www.fotmob.com/it/matches/juventus-vs-genoa/3chuqi",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Bologne",
+      "competition": "Serie A",
+      "startsAt": "2026-10-28T18:30:00+01:00",
+      "probabilities": {
+        "home": 61,
+        "draw": 25,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 22,
+        "away": 17,
+        "accessedAt": "2026-10-26T22:05:02+01:00"
+      },
+      "analysis": {
+        "summary": "Milan est favori à San Siro grâce à son invincibilité en championnat, mais Bologne vient de gagner et peut résister.",
+        "keyFactors": [
+          "Milan vient de gagner 2-0 à Udinese et reste invaincu.",
+          "Bologne vient de gagner 2-0 à Cagliari.",
+          "Milan est plus efficace à domicile et domine l'historique des confrontations."
+        ],
+        "uncertainty": "Le calendrier et la confiance retrouvée de Bologne peuvent resserrer la rencontre.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°93, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/585",
+            "accessedAt": "2026-10-26T22:05:02+01:00"
+          },
+          {
+            "label": "Scout Picks — Milan–Bologne, statistiques actualisées",
+            "url": "https://scoutpicks.app/matches/serie-a-italia/ac-milan-vs-bologna-19713534",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          },
+          {
+            "label": "The Stats Zone — Milan–Bologne, forme",
+            "url": "https://www.thestatszone.com/ac-milan-vs-bologna-preview-team-news-prediction-232883",
+            "accessedAt": "2026-10-26T22:04:45+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
