@@ -1,0 +1,322 @@
+{
+  "id": "lf7-134-2026-10-28",
+  "formula": 7,
+  "gridNumber": 134,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+  "validationDeadline": "2026-10-28T20:25:00+01:00",
+  "publishedAt": "2026-10-27T21:57:14+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse définitive de la LF7 n°134 dans les dernières 24 heures : sept rencontres identifiées sur la FDJ, recherches sportives actualisées le 27 octobre et probabilités indépendantes des choix du public. La grille comporte quatre matchs de Coupe de la Ligue à fortes incertitudes de rotation et trois rencontres plus ouvertes qu'indiqué par la concentration FDJ, notamment Juventus (60 % des choix contre 47 % estimés) et Naples (58 % contre 42 %). La mémoire v2 compte 151 règlements, un net historique de -868,60 € (-68,6 %) et un rendement LF7 de -61,0 % sur 43 grilles ; les 20 derniers règlements ne comprennent que deux tickets engagés, ce qui limite le signal positif récent. Le ticket des favoris sportifs est lui-même concentré chez les joueurs FDJ et ses rapports futurs sont inconnus ; les scénarios moins populaires restent trop incertains pour établir un avantage financier crédible. Les rapports historiques sont seulement indicatifs, sans espérance positive démontrée. Aucun premier ticket n'est suffisamment justifié, et des variantes ajouteraient un coût sans justification marginale. Décision skip, zéro combinaison et zéro euro virtuel, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Chelsea",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 46,
+        "draw": 28,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 48,
+        "draw": 22,
+        "away": 30,
+        "accessedAt": "2026-10-27T21:57:14+01:00"
+      },
+      "analysis": {
+        "summary": "Liverpool est légèrement favori à Anfield après quatre victoires consécutives, mais les rotations des deux équipes réduisent l'avantage.",
+        "keyFactors": [
+          "Liverpool a battu Brighton 2-0 ; Chelsea a perdu 0-2 contre Tottenham.",
+          "Chelsea est privé de Cole Palmer suspendu ; Liverpool compte plusieurs absences et pourrait ménager Wirtz et des titulaires.",
+          "La qualification en coupe ne doit pas être confondue avec le résultat après 90 minutes."
+        ],
+        "uncertainty": "Les onze de départ, en particulier l'attaque et le gardien de Liverpool, restent provisoires.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°134 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sports Mole — Liverpool–Chelsea, forme et absences",
+            "url": "https://www.sportsmole.co.uk/football/liverpool/league-cup/preview/liverpool-vs-chelsea-prediction-team-news-lineups_607729.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Evening Standard — Liverpool, rotations probables",
+            "url": "https://www.standard.co.uk/sport/football/liverpool-fc-xi-vs-chelsea-confirmed-team-news-predicted-lineup-injury-latest-2026-carabao-cup-b1302359.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Man. City",
+      "awayTeam": "Brighton Hove",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 56,
+        "draw": 24,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 20,
+        "away": 20,
+        "accessedAt": "2026-10-27T21:57:14+01:00"
+      },
+      "analysis": {
+        "summary": "Manchester City conserve un avantage à domicile, mais sa défense encaisse davantage et Brighton a les moyens de résister.",
+        "keyFactors": [
+          "City vient de perdre 1-2 contre Aston Villa et a encaissé neuf buts lors de ses quatre derniers matchs.",
+          "Brighton est troisième du championnat mais reste sur deux rencontres sans marquer.",
+          "Une rotation importante est possible, Haaland pouvant être ménagé avant le nouveau duel de championnat."
+        ],
+        "uncertainty": "Compositions non confirmées ; rotations des deux équipes et forme défensive de City.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°134 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sports Mole — City–Brighton, forme et effectifs",
+            "url": "https://www.sportsmole.co.uk/football/man-city/league-cup/preview/man-city-vs-brighton-prediction-team-news-lineups_607717.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Aston Villa",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 39,
+        "draw": 29,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 26,
+        "away": 33,
+        "accessedAt": "2026-10-27T21:57:14+01:00"
+      },
+      "analysis": {
+        "summary": "Bournemouth bénéficie du terrain, mais Aston Villa est en meilleure dynamique et possède une profondeur d'effectif intéressante.",
+        "keyFactors": [
+          "Bournemouth a récemment battu Manchester United ; Aston Villa vient de battre Manchester City.",
+          "Aston Villa est invaincu lors des sept dernières confrontations avec Bournemouth.",
+          "Les deux entraîneurs devraient faire tourner largement leur effectif."
+        ],
+        "uncertainty": "Les rotations peuvent modifier sensiblement l'équilibre de ce match de coupe.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°134 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sports Mole — Bournemouth–Aston Villa, forme et onze probables",
+            "url": "https://www.sportsmole.co.uk/football/aston-villa/league-cup/preview/bournemouth-vs-aston-villa-prediction-team-news-lineups_607724.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Ladbrokes — Bournemouth–Aston Villa, contexte et rotations",
+            "url": "https://www.ladbrokes.com/en/news/bournemouth-aston-villa-carabao-cup-predictions-tips-2026-10-28/",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Fulham",
+      "awayTeam": "Crystal Palace",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 44,
+        "draw": 30,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 53,
+        "draw": 24,
+        "away": 23,
+        "accessedAt": "2026-10-27T21:57:14+01:00"
+      },
+      "analysis": {
+        "summary": "Fulham arrive avec une meilleure dynamique récente, tandis que Crystal Palace souffre défensivement, mais les confrontations directes tempèrent l'avantage local.",
+        "keyFactors": [
+          "Fulham vient de gagner à Coventry et a remporté trois de ses cinq derniers matchs.",
+          "Palace a perdu 0-2 contre Newcastle après un revers 0-5 contre Brighton ; il a concédé 19 buts en huit journées de championnat.",
+          "Palace reste invaincu lors de ses neuf derniers déplacements à Fulham ; Sarr est incertain et Henderson pourrait revenir."
+        ],
+        "uncertainty": "Palace pourrait retrouver certains titulaires et les rotations en coupe restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°134 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sports Mole — Fulham–Palace, forme, H2H et absences",
+            "url": "https://www.sportsmole.co.uk/football/fulham/league-cup/preview/fulham-vs-crystal-palace-prediction-team-news-lineups_607720.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sports Mole — point médical Crystal Palace du 27 octobre",
+            "url": "https://www.sportsmole.co.uk/football/crystal-palace/league-cup/news/crystal-palace-star-struggling-with-injury-before-fulham-efl-cup-tie_607825.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Sunderland",
+      "awayTeam": "Brentford",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 29,
+        "draw": 28,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 26,
+        "away": 47,
+        "accessedAt": "2026-10-27T21:57:14+01:00"
+      },
+      "analysis": {
+        "summary": "Brentford est légèrement favori face à un Sunderland en difficulté en championnat mais capable de résister à domicile.",
+        "keyFactors": [
+          "Sunderland est dernier de Premier League après huit journées, avec une seule victoire ; son dernier match contre Leeds s'est terminé 0-0.",
+          "Les deux équipes ont fait 1-1 lors de leur confrontation de septembre ; Sunderland avait produit davantage d'occasions.",
+          "Brentford a marqué huit buts en deux tours de Coupe de la Ligue ; Rico Henry est forfait et Damsgaard joue diminué."
+        ],
+        "uncertainty": "Les rotations et la charge européenne de Sunderland peuvent peser sur les compositions.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°134 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Brentford FC — présentation officielle Sunderland–Brentford",
+            "url": "https://www.brentfordfc.com/en/news/match-previews-sunderland-v-brentford-carabao-cup-28-10-2026",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Brentford FC — blessure Rico Henry et nouvelles d'effectif",
+            "url": "https://www.brentfordfc.com/en/news/first-team-news-sunderland-v-brentford-carabao-cup-rico-henry-injury-mikkel-damsgaard",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Genoa",
+      "awayTeam": "Juventus Turin",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 25,
+        "draw": 28,
+        "away": 47
+      },
+      "fdjSelectionDistribution": {
+        "home": 14,
+        "draw": 26,
+        "away": 60,
+        "accessedAt": "2026-10-27T21:57:14+01:00"
+      },
+      "analysis": {
+        "summary": "La Juventus possède un avantage historique et technique, mais Genoa a retrouvé une bonne dynamique à domicile.",
+        "keyFactors": [
+          "Juventus a gagné 2-0 à Lecce et a remporté les cinq derniers matchs de Serie A contre Genoa sans encaisser.",
+          "Genoa a remporté deux de ses trois derniers matchs et ses deux dernières réceptions.",
+          "Juventus compte plusieurs absents importants dont Yildiz, Thuram et Locatelli."
+        ],
+        "uncertainty": "Les absences turinoises et la résistance de Genoa à domicile rendent la victoire extérieure moins certaine que la concentration FDJ.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°134 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Juventus FC — aperçu officiel du 27 octobre",
+            "url": "https://www.juventus.com/en/news/articles/preview-genoa-vs-juventus-28-10-26",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sky Sport — Genoa–Juventus, compositions probables",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-9/genoa-juventus/formazioni",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sports Mole — Genoa–Juventus, forme récente",
+            "url": "https://www.sportsmole.co.uk/football/genoa/preview/genoa-vs-juventus-prediction-team-news-lineups_607716.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "AC Monza",
+      "awayTeam": "Naples",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 29,
+        "draw": 29,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 19,
+        "draw": 23,
+        "away": 58,
+        "accessedAt": "2026-10-27T21:57:14+01:00"
+      },
+      "analysis": {
+        "summary": "Naples conserve un léger avantage offensif, mais ses difficultés à l'extérieur et la forme de Monza à domicile rendent le match ouvert.",
+        "keyFactors": [
+          "Naples a fait 3-3 contre la Roma et reste sans victoire à l'extérieur depuis plusieurs semaines.",
+          "Monza a pris six points sur neuf possibles à domicile et Gustavo Varela a marqué sept buts.",
+          "Naples est diminué en défense ; Allegri est suspendu de banc et des rotations restent possibles avant Juventus."
+        ],
+        "uncertainty": "Les compositions napolitaines diffèrent selon les sources ; Naples peut aussi exploiter sa qualité offensive supérieure.",
+        "sources": [
+          {
+            "label": "FDJ — fiche officielle LF7 n°134 et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4951",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sports Mole — Monza–Napoli, dynamique et absences",
+            "url": "https://www.sportsmole.co.uk/football/monza/preview/monza-vs-napoli-prediction-team-news-lineups_607725.html",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Sky Sport — Monza–Napoli, compositions probables",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-9/monza-napoli/formazioni",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          },
+          {
+            "label": "Eurosport — Monza–Napoli, confrontations et absences",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/monza-napoli-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23349509/story.shtml",
+            "accessedAt": "2026-10-27T21:57:14+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
