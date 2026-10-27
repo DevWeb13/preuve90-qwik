@@ -1,0 +1,628 @@
+{
+  "id": "lf15-89-2026-10-28",
+  "formula": 15,
+  "gridNumber": 89,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+  "validationDeadline": "2026-10-28T17:55:00+01:00",
+  "publishedAt": "2026-10-27T17:56:59+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse définitive de la LF15 n°89 dans les dernières 24 heures : quinze rencontres confirmées sur la liste FDJ et recherchées sportivement. Les probabilités sont indépendantes des choix FDJ et tiennent compte de la forme, des blessures, des rotations et de la calibration historique sans correction mécanique. Plusieurs favoris sont fortement concentrés chez les joueurs (City 83 %, Juventus 77 %, Naples 76 %, Milan 83 %, Inter 86 %, Leverkusen 91 %, Hoffenheim 78 %) mais les alternatives sous-jouées ne démontrent pas une espérance de gain positive. La mémoire v2 comprend 151 publications réglées, un net historique de -868,60 € (-68,6 %) et un rendement LF15 de -74,8 % sur 28 grilles, dont une seule profitable. Le net récent de +2,20 € repose sur deux tickets seulement. Les rapports futurs et le nombre de gagnants sont inconnus. Aucun premier ticket ne présente une justification financière suffisamment solide, et les variantes ajouteraient un coût sans rentabilité marginale crédible. Décision skip, zéro combinaison, zéro euro virtuel, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Chelsea",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 46,
+        "draw": 28,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 24,
+        "away": 11,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Liverpool reste légèrement favori à domicile, mais Chelsea peut résister.",
+        "keyFactors": [
+          "Liverpool a gagné 2-0 contre Brighton",
+          "Chelsea a perdu 0-2 contre Tottenham",
+          "Wirtz est incertain et Palmer suspendu."
+        ],
+        "uncertainty": "Rotations et disponibilité de Wirtz encore incertaines.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "dave.sport — informations sportives",
+            "url": "https://dave.sport/news/liverpool-vs-chelsea-predicted-lineups/",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "sports.yahoo.com — informations sportives",
+            "url": "https://sports.yahoo.com/articles/preview-liverpool-vs-chelsea-team-191500726.html",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Man. City",
+      "awayTeam": "Brighton Hove",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 57,
+        "draw": 24,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 83,
+        "draw": 11,
+        "away": 6,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "City est favori à domicile, avec un avantage réduit par les rotations.",
+        "keyFactors": [
+          "City a perdu 1-2 à Villa",
+          "Brighton a perdu 0-2 à Liverpool mais battu Palace 5-0."
+        ],
+        "uncertainty": "Les titulaires de coupe ne sont pas confirmés.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.ladbrokes.com — informations sportives",
+            "url": "https://www.ladbrokes.com/en/news/manchester-city-brighton-carabao-cup-predictions-2026-10-28/",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.fotmob.com — informations sportives",
+            "url": "https://www.fotmob.com/matches/manchester-city-vs-brighton-hove-albion/2vnwg2",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Aston Villa",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 37,
+        "draw": 27,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 29,
+        "draw": 29,
+        "away": 42,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Rencontre très équilibrée entre deux équipes en forme.",
+        "keyFactors": [
+          "Bournemouth vient de battre Manchester United 3-0",
+          "Villa a battu City 2-1 mais compte des blessés dont Wan-Bissaka et Onana."
+        ],
+        "uncertainty": "Les rotations des deux équipes peuvent changer le rapport de force.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "thefalse9.com — informations sportives",
+            "url": "https://thefalse9.com/2026/10/aston-villa-injury-news-vs-bournemouth.html",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "next.avfc.co.uk — informations sportives",
+            "url": "https://next.avfc.co.uk/news/2026/october/04/ticketing-afc-bournemouth-ticket-details/",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Fulham",
+      "awayTeam": "Crystal Palace",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 45,
+        "draw": 28,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 53,
+        "draw": 24,
+        "away": 23,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Fulham est légèrement favori, mais Palace a un historique favorable.",
+        "keyFactors": [
+          "Fulham vient de battre Coventry et Hull",
+          "Palace a perdu contre Newcastle et Brighton mais a gagné quatre des six derniers duels."
+        ],
+        "uncertainty": "Le poids des duels passés et les rotations restent incertains.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.myfootballfacts.com — informations sportives",
+            "url": "https://www.myfootballfacts.com/match/efl-cup-2026-27-fulham-vs-crystal-palace-2026-10-28/",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "foot.be — informations sportives",
+            "url": "https://foot.be/match/efl-carabao-cup/2026/812319/",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Sunderland",
+      "awayTeam": "Brentford",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 30,
+        "draw": 28,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 39,
+        "draw": 26,
+        "away": 35,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Brentford possède un léger avantage, surtout si Sunderland fait tourner.",
+        "keyFactors": [
+          "Sunderland n'a gagné qu'une de ses cinq dernières rencontres",
+          "un reportage de Brentford annonce une forte rotation de Sunderland."
+        ],
+        "uncertainty": "Le onze remanié de Sunderland reste inconnu.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.brentfordfc.com — informations sportives",
+            "url": "https://www.brentfordfc.com/en/news/analysis-sunderland-v-brentford-carabao-cup-28-10-2026",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "pre-prod.brentfordfc.com — informations sportives",
+            "url": "https://pre-prod.brentfordfc.com/en/matches/mens/sunderland-v-brentford-carabao-cup-20261028",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Genoa",
+      "awayTeam": "Juventus Turin",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 25,
+        "draw": 28,
+        "away": 47
+      },
+      "fdjSelectionDistribution": {
+        "home": 10,
+        "draw": 13,
+        "away": 77,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "La Juventus est favorite mais le public surjoue possiblement sa victoire.",
+        "keyFactors": [
+          "La Juventus a gardé sa cage inviolée lors des cinq derniers duels de championnat",
+          "Genoa joue à domicile."
+        ],
+        "uncertainty": "Le nul et les compositions restent des incertitudes importantes.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.juventus.com — informations sportives",
+            "url": "https://www.juventus.com/en/news/articles/preview-genoa-vs-juventus-28-10-26",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "AC Monza",
+      "awayTeam": "Naples",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 31,
+        "draw": 28,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 10,
+        "draw": 14,
+        "away": 76,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Naples est légèrement favori, Monza peut résister chez lui.",
+        "keyFactors": [
+          "Naples a marqué sept buts en deux rencontres avant de concéder 3-3 contre la Roma",
+          "Monza possède un bon bilan à domicile."
+        ],
+        "uncertainty": "La forme de Naples et les disponibilités d'effectif restent fluctuantes.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.sportsmole.co.uk — informations sportives",
+            "url": "https://www.sportsmole.co.uk/football/monza/preview/monza-vs-napoli-prediction-team-news-lineups_607725.html",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.forebet.com — informations sportives",
+            "url": "https://www.forebet.com/en/football-match-previews/31694-monza-face-resilient-napoli-in-u-power-stadium-battle",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Bologne",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 57,
+        "draw": 26,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 83,
+        "draw": 11,
+        "away": 6,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Milan est favori à San Siro mais Bologne est compétitif.",
+        "keyFactors": [
+          "Milan a gagné 2-0 à Udinese",
+          "Bologne a gagné 2-0 à Cagliari",
+          "83 % des choix FDJ vont au 1."
+        ],
+        "uncertainty": "L'enchaînement des matchs et les compositions limitent la confiance.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.goal.com — informations sportives",
+            "url": "https://www.goal.com/en/news/ac-milan-bologna-serie-a-preview/blt8bf854edff75c669",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.acmilan.com — informations sportives",
+            "url": "https://www.acmilan.com/en/news/articles/ticketing/2026-09-14/ac-milan-vs-bologna-midweek-fixture-at-san-siro",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Venezia FC",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 17,
+        "draw": 24,
+        "away": 59
+      },
+      "fdjSelectionDistribution": {
+        "home": 8,
+        "draw": 6,
+        "away": 86,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Inter reste nettement favori face à Venezia en difficulté.",
+        "keyFactors": [
+          "Inter est invaincu sur dix-huit rencontres de Serie A selon l'aperçu",
+          "Venezia n'a pris que trois points en huit matchs."
+        ],
+        "uncertainty": "Le changement d'entraîneur de Venezia et l'avantage du terrain réduisent la certitude.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.victorypicks.com — informations sportives",
+            "url": "https://www.victorypicks.com/en/previews/venezia-vs-inter-october-28-2026-2642/",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Leverkusen",
+      "awayTeam": "Nuremberg",
+      "competition": "Coupe d'Allemagne",
+      "probabilities": {
+        "home": 63,
+        "draw": 23,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 91,
+        "draw": 4,
+        "away": 5,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Leverkusen est favori mais le 91 % FDJ est très concentré.",
+        "keyFactors": [
+          "Leverkusen vient de perdre 0-3 contre Hoffenheim après plusieurs victoires",
+          "Nuremberg a perdu contre Kaiserslautern."
+        ],
+        "uncertainty": "Les rotations et le risque de nul sur 90 minutes sont significatifs.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.sportsmole.co.uk — informations sportives",
+            "url": "https://www.sportsmole.co.uk/football/dfb-pokal/bayer-leverkusen-vs-nuremberg_game_260623.html",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Paderborn",
+      "awayTeam": "Stuttgart",
+      "competition": "Coupe d'Allemagne",
+      "probabilities": {
+        "home": 27,
+        "draw": 26,
+        "away": 47
+      },
+      "fdjSelectionDistribution": {
+        "home": 14,
+        "draw": 15,
+        "away": 71,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Stuttgart a un avantage de niveau, Paderborn reste dangereux à domicile.",
+        "keyFactors": [
+          "Paderborn vient de gagner 1-0 contre Hambourg",
+          "Stuttgart a perdu 2-3 contre Gladbach mais a gagné leur dernier duel."
+        ],
+        "uncertainty": "Les rotations de coupe et la fatigue de Stuttgart restent incertaines.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.fotmob.com — informations sportives",
+            "url": "https://www.fotmob.com/en-GB/matches/paderborn-vs-vfb-stuttgart/2wfjs9",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Dynamo Dresden",
+      "awayTeam": "Schalke 04",
+      "competition": "Coupe d'Allemagne",
+      "probabilities": {
+        "home": 31,
+        "draw": 28,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 13,
+        "draw": 18,
+        "away": 69,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Schalke est légèrement favori dans un duel irrégulier.",
+        "keyFactors": [
+          "Dresde vient de perdre 0-3 à Kiel",
+          "Schalke a fait 0-0 à Cologne et n'a pas perdu les quatre derniers duels contre Dresde."
+        ],
+        "uncertainty": "Un match fermé et un nul sur 90 minutes restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "ontourfootball.com — informations sportives",
+            "url": "https://ontourfootball.com/fixtures/dynamo-dresden-vs-fc-schalke-04-2026-10-28",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.oddalerts.com — informations sportives",
+            "url": "https://www.oddalerts.com/livescores/dynamo-dresden-vs-schalke-04/4243-9278",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Hanovre",
+      "awayTeam": "Kaiserslautern",
+      "competition": "Coupe d'Allemagne",
+      "probabilities": {
+        "home": 34,
+        "draw": 28,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 62,
+        "draw": 20,
+        "away": 18,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Kaiserslautern bénéficie d'une meilleure dynamique que Hanovre.",
+        "keyFactors": [
+          "Hanovre est sans victoire depuis trois matchs",
+          "Kaiserslautern est invaincu depuis quatre et vient de gagner à Nuremberg."
+        ],
+        "uncertainty": "Le terrain de Hanovre et les rotations peuvent équilibrer le duel.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.sportsmole.co.uk — informations sportives",
+            "url": "https://www.sportsmole.co.uk/football/hannover/dfb-pokal/preview/hannover-vs-kaiserslautern-prediction-team-news-lineups_607767.html",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "ontourfootball.com — informations sportives",
+            "url": "https://ontourfootball.com/fixtures/hannover-96-vs-1-fc-kaiserslautern-2026-10-28",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "Hoffenheim",
+      "competition": "Coupe d'Allemagne",
+      "probabilities": {
+        "home": 29,
+        "draw": 27,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 11,
+        "draw": 11,
+        "away": 78,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Hoffenheim reste favori mais Kiel s'est récemment amélioré.",
+        "keyFactors": [
+          "Kiel a battu Dresde 3-0",
+          "Hoffenheim a battu Leverkusen 3-0 et reste sur trois victoires."
+        ],
+        "uncertainty": "Le terrain et les rotations de coupe peuvent réduire l'écart.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "betmines.com — informations sportives",
+            "url": "https://betmines.com/match-preview/holstein-kiel-vs-tsg-hoffenheim-prediction-match-preview-and-analysis-dfb-pokal-28-10-2026",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.oddalerts.com — informations sportives",
+            "url": "https://www.oddalerts.com/livescores/holstein-kiel-vs-tsg-hoffenheim/3992-6287",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Fribourg",
+      "awayTeam": "Wolfsburg",
+      "competition": "Coupe d'Allemagne",
+      "probabilities": {
+        "home": 52,
+        "draw": 27,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 77,
+        "draw": 13,
+        "away": 10,
+        "accessedAt": "2026-10-27T17:55:49+01:00"
+      },
+      "analysis": {
+        "summary": "Fribourg reste favori à domicile malgré une mauvaise série.",
+        "keyFactors": [
+          "Fribourg a perdu trois matchs de suite dont 1-3 contre le Bayern",
+          "Wolfsburg est en deuxième division mais montre une meilleure dynamique."
+        ],
+        "uncertainty": "La fragilité défensive de Fribourg augmente le risque de surprise.",
+        "sources": [
+          {
+            "label": "FDJ — grille officielle LF15 n°89",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2037",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.sportytrader.com — informations sportives",
+            "url": "https://www.sportytrader.com/en/betting-tips/freiburg-wolfsburg-382688/",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          },
+          {
+            "label": "www.oddalerts.com — informations sportives",
+            "url": "https://www.oddalerts.com/livescores/sc-freiburg-vs-vfl-wolfsburg/6464-6630",
+            "accessedAt": "2026-10-27T17:55:49+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
