@@ -1,0 +1,358 @@
+{
+  "id": "lf8-149-2026-10-27",
+  "formula": 8,
+  "gridNumber": 149,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+  "validationDeadline": "2026-10-27T20:40:00+01:00",
+  "publishedAt": "2026-10-27T06:02:21+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse définitive dans les dernières 24 heures de la LF8 n°149. Les huit rencontres sont identifiées et analysées avec des sources sportives récentes. Les répartitions FDJ de la fiche individuelle sont relevées; leur écart avec la liste générale sur certaines rencontres et les choix très concentrés (Roma 96 %, Gladbach 98 %, Elversberg 98 %, Bradford 96 %, Arsenal 96 %) invitent à la prudence. Les rencontres de coupe comportent des incertitudes de composition, et Fleetwood–Arsenal un risque de report météo. La combinaison des huit issues sportives les plus probables présente environ 0.91 % de chance de 8/8 et 6.16 % d'exactement 7/8 sous hypothèse simplificatrice d'indépendance. La mémoire v2 actualisée compte 151 publications réglées, -868,60 € net (-68,6 %) au total et -62,7 % sur 51 LF8; les 20 dernières ont +2,20 € net mais seulement deux tickets engagés. Les rapports médians LF8 de 49,50 € pour 7/8 et 732 € pour 8/8 ne prédisent pas les rapports futurs ni le nombre de gagnants. Les écarts entre probabilités et choix FDJ ne suffisent pas à établir une rentabilité. Aucun premier ticket n'est suffisamment justifié financièrement, et les variantes ajouteraient un coût sans valeur marginale démontrée. Décision skip, zéro combinaison et zéro euro virtuel, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Torino",
+      "awayTeam": "Como 1907",
+      "competition": "Serie A",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 32,
+        "draw": 27,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 28,
+        "away": 40,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Como garde un léger avantage sportif, mais Torino vient de gagner trois rencontres consécutives.",
+        "keyFactors": [
+          "Torino a gagné ses trois derniers matchs, dont 3-2 contre Monza.",
+          "Como est cinquième de Serie A et a remporté les trois derniers duels contre Torino.",
+          "Como a plusieurs absences et Torino bénéficie du terrain."
+        ],
+        "uncertainty": "Les compositions et les absences offensives de Como peuvent modifier un duel plus équilibré que les confrontations passées.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "The Stats Zone — Torino–Como, forme et historique",
+            "url": "https://www.thestatszone.com/torino-vs-como-preview-team-news-prediction-232824",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "Sky Sport — Torino–Como, compositions probables",
+            "url": "https://sport.sky.it/calcio/serie-a/2026/10/26/torino-como-probabili-formazioni-9-giornata",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Cagliari",
+      "competition": "Serie A",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 69,
+        "draw": 21,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 96,
+        "draw": 0,
+        "away": 4,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Roma est favorite à domicile, mais ses absences et la réussite de Cagliari à l'extérieur empêchent d'en faire une quasi-certitude.",
+        "keyFactors": [
+          "Roma est invaincue en championnat (5 victoires, 3 nuls) et vient de faire 3-3 à Naples.",
+          "Cagliari a perdu ses deux derniers matchs mais a gagné trois de ses quatre déplacements.",
+          "Svilar, Pellegrini et Koné sont signalés absents côté Roma; 96 % des choix FDJ portent sur le 1."
+        ],
+        "uncertainty": "Dybala reste incertain et le 0 % de choix FDJ sur le nul ne signifie pas une probabilité sportive nulle.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "The Cult of Calcio — Roma–Cagliari, forme et effectifs du 26 octobre",
+            "url": "https://cultofcalcio.com/serie-a-preview-roma-vs-cagliari-team-news-lineups-prediction/",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Dortmund",
+      "awayTeam": "Werder Brême",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 55,
+        "draw": 24,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 23,
+        "away": 23,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Dortmund est favori à domicile, mais le Werder est en forme et a remonté deux buts lors de leur récent 2-2.",
+        "keyFactors": [
+          "BVB a battu Francfort 1-0 et Sabah 2-1, mais joue son sixième match en dix-neuf jours.",
+          "Werder est sixième en Bundesliga et Füllkrug a marqué huit buts en sept matchs de championnat.",
+          "Bensebaini est suspendu et Karetsas absent; les trois derniers duels de coupe ont favorisé le Werder."
+        ],
+        "uncertainty": "Rotations et fatigue sont importantes; les probabilités concernent le temps réglementaire et non la qualification.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "Borussia Dortmund — avant-match officiel du 26 octobre",
+            "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/10/26/In-Form-Bremen-The-Next-Test-for-BVB.html",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "Bulinews — Dortmund–Werder, effectifs et forme",
+            "url": "https://bulinews.com/borussia-dortmund-werder-bremen-dfb-pokal-preview-team-news-and-predicted-lineups",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Cologne",
+      "awayTeam": "Union Berlin",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 40,
+        "draw": 31,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 33,
+        "draw": 30,
+        "away": 37,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Cologne profite du terrain mais peine offensivement; Union Berlin a retrouvé de la solidité et reste sur trois matchs sans défaite.",
+        "keyFactors": [
+          "Cologne vient de faire 0-0 contre Schalke et son entraîneur est sous pression.",
+          "Dallinga et Ache sont blessés, même si un retour d'Ache est envisagé.",
+          "Union a pris des points contre Dortmund et Augsbourg et défend mieux récemment."
+        ],
+        "uncertainty": "Les rotations de coupe et les disponibilités d'Ache et Uduokhai peuvent faire basculer ce duel serré.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "WELT/dpa — Cologne, forme et absences avant Union",
+            "url": "https://www.welt.de/regionales/nrw/article6adf5ab28e175153b6abfdb9/gegen-union-zaehlt-es-fuer-wagner-fc-coach-unter-druck.html",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "WELT/dpa — Union, dynamique avant Cologne",
+            "url": "https://www.welt.de/regionales/berlin/article6addb946247c1fa201305fb7/union-spuert-den-playoff-charakter-vor-koeln-doppelpack.html",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "M'Gladbach",
+      "awayTeam": "Karlsruhe",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 64,
+        "draw": 22,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 98,
+        "draw": 0,
+        "away": 2,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Gladbach est favori face à Karlsruhe en difficulté, mais sa récente série de défaites interdit de reprendre les 98 % de choix FDJ.",
+        "keyFactors": [
+          "Gladbach vient de battre Stuttgart 3-2 après six défaites consécutives.",
+          "Karlsruhe a perdu 6-1 à Magdebourg et cinq de ses sept derniers matchs.",
+          "Plusieurs absences et doutes affectent les lignes défensive et offensive de Gladbach."
+        ],
+        "uncertainty": "La réaction de Gladbach n'est pas encore durablement établie et les rotations de coupe restent incertaines.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "Sports Mole — Gladbach–Karlsruhe, forme et effectifs",
+            "url": "https://www.sportsmole.co.uk/football/borussia-monchengladbach/dfb-pokal/preview/borussia-mbach-vs-karlsruher-prediction-team-news-lineups_607683.html",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "SV Elversberg",
+      "awayTeam": "SV Darmstadt",
+      "competition": "Coupe d'Allemagne",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 26,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 98,
+        "draw": 0,
+        "away": 2,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Elversberg est favori chez lui, mais son récent revers et la détermination de Darmstadt rendent les 98 % de choix FDJ excessivement concentrés.",
+        "keyFactors": [
+          "Elversberg, promu en Bundesliga, vient de perdre 0-4 à Leipzig.",
+          "Darmstadt a tenu St. Pauli en échec 0-0 et annonce vouloir jouer pleinement la coupe.",
+          "Darmstadt annonce les absences de Marseiler, Nürnberger, Papela, Sickinger et Furukawa."
+        ],
+        "uncertainty": "Le pressing d'Elversberg, les compositions et le match à élimination directe laissent un risque significatif de nul.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "SV Elversberg — conférence d'avant-match du 26 octobre",
+            "url": "https://sv07elversberg.de/sve-moechte-mit-einzug-ins-achtelfinale-geschichte-schreiben/",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "SV Darmstadt — conférence et effectifs du 26 octobre",
+            "url": "https://www.sv98.de/anything-else-makes-no-sense/",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Bradford",
+      "awayTeam": "Peterborough",
+      "competition": "EFL Cup",
+      "startsAt": "2026-10-27T20:45:00+01:00",
+      "probabilities": {
+        "home": 53,
+        "draw": 27,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 96,
+        "draw": 4,
+        "away": 0,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Bradford est favori grâce à sa défense et son invincibilité, mais ses nuls récents rendent la victoire loin d'être certaine.",
+        "keyFactors": [
+          "Bradford est invaincu depuis onze matchs et n'a pas encaissé lors des quatre derniers en championnat.",
+          "Trois de ses quatre derniers matchs de championnat se sont terminés sur 0-0.",
+          "Peterborough traverse une mauvaise période et doit gérer plusieurs absences."
+        ],
+        "uncertainty": "Les rotations, l'attaque de Bradford et le scénario d'un match fermé peuvent favoriser un nul malgré 96 % de choix FDJ sur le 1.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "Sports Mole — Bradford–Peterborough, forme et effectifs",
+            "url": "https://www.sportsmole.co.uk/football/bradford-city/league-cup/preview/bradford-vs-peterborough-prediction-team-news-lineups_607674.html",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "Bradford City AFC — confirmation officielle du match",
+            "url": "https://www.bradfordcityafc.com/news/2026/september/24/prices-slashed-for-peterborough-cup-clash/",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Fleetwood Town",
+      "awayTeam": "Arsenal",
+      "competition": "EFL Cup",
+      "startsAt": "2026-10-27T21:00:00+01:00",
+      "probabilities": {
+        "home": 7,
+        "draw": 13,
+        "away": 80
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 4,
+        "away": 96,
+        "accessedAt": "2026-10-27T06:02:21+01:00"
+      },
+      "analysis": {
+        "summary": "Arsenal est très largement favori face au club de League Two malgré un onze remanié, mais les conditions météo peuvent perturber la rencontre.",
+        "keyFactors": [
+          "Arsenal est invaincu sur ses cinq dernières sorties et possède un effectif bien supérieur.",
+          "Fleetwood a franchi trois tours de coupe sans encaisser, mais reste dans le bas de League Two.",
+          "Saka et Saliba sont indisponibles; des rotations sont probables et une alerte météo pèse sur Fleetwood."
+        ],
+        "uncertainty": "Inspection du terrain ou report possible; rotations importantes et pelouse dégradée pourraient réduire la supériorité d'Arsenal.",
+        "sources": [
+          {
+            "label": "FDJ — LF8 n°149, rencontres, clôture et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/846",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "TNT Sports — Fleetwood–Arsenal, forme et onze probable",
+            "url": "https://www.tntsports.co.uk/betting/tips/fleetwood-town-vs-arsenal-prediction-tips-and-odds-27-10-26/",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          },
+          {
+            "label": "Tribal Football — météo et risque de report",
+            "url": "https://www.tribalfootball.com/article/soccer-efl-cup-arsenal-s-carabao-cup-clash-at-fleetwood-at-risk-over-weather-warning-ec7fb429-7232-45b4-834f-df1ed0e0ebfb",
+            "accessedAt": "2026-10-27T06:02:21+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
