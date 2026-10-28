@@ -1,0 +1,523 @@
+{
+  "id": "lf12-94-2026-10-29",
+  "formula": 12,
+  "gridNumber": 94,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+  "validationDeadline": "2026-10-29T18:25:00+01:00",
+  "publishedAt": "2026-10-28T22:00:03+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse définitive de la LF12 n°94 dans les dernières 24 heures, après réexamen des douze rencontres et des choix FDJ désormais exploitables. Les probabilités sportives ont été estimées indépendamment du public, puis confrontées à sa concentration et à la calibration v2. Des écarts de valeur relative existent, notamment pour les alternatives à Braga (71 % de choix 1 contre 48 % estimés), Metz (66 % contre 37 %), Villarreal (83 % contre 62 %) et Benfica (89 % contre 72 %), mais ils ne constituent pas une espérance de gain positive. La mémoire statistique comprend 152 grilles réglées, un résultat net global de -868,60 € (-68,6 %) et un rendement LF12 de -81,1 % sur 29 règlements, sans publication LF12 historiquement profitable. Sur les 20 dernières grilles, seulement deux tickets ont été engagés, pour un net de +2,20 €, échantillon insuffisant pour conclure à un avantage durable ; la calibration des favoris affiche un écart de +11,3 points sans correction mécanique. Le scénario des issues les plus probables ne présente qu'environ 8,7 % de chance d'obtenir au moins 9/12 sous l'hypothèse simplificatrice d'indépendance, avec des rapports futurs et la distribution des combinaisons adverses inconnus. Les variantes moins populaires sont sportivement possibles mais n'apportent pas de justification financière crédible pour un premier ticket ou un ticket supplémentaire à 1 €. Décision skip, zéro combinaison et zéro euro virtuel, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 39,
+        "draw": 29,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 40,
+        "draw": 25,
+        "away": 35,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Rencontre très ouverte entre deux équipes en difficulté, avec léger avantage du terrain à la Fiorentina mais des défenses fragilisées.",
+        "keyFactors": [
+          "La Fiorentina a perdu six de ses huit premiers matchs et n'a pas gagné ses sept dernières réceptions de Serie A.",
+          "L'Atalanta a encaissé quatre buts contre Frosinone et présente plusieurs absences en défense.",
+          "L'historique des déplacements de l'Atalanta à Florence est défavorable aux visiteurs."
+        ],
+        "uncertainty": "Les retours éventuels de Ranieri et Scalvini et les choix défensifs restent incertains.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sports Mole — forme, absences et onze probables",
+            "url": "https://www.sportsmole.co.uk/football/fiorentina/preview/fiorentina-vs-atalanta-prediction-team-news-lineups_607817.html",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Forebet — dynamique et composition probable",
+            "url": "https://www.forebet.com/en/football-match-previews/31697-fiorentina-seek-turnaround-as-atalanta-aim-to-build-momentum-in-florence-clash",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Lecce",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 69,
+        "draw": 15,
+        "away": 16,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Frosinone est favori à domicile grâce à une attaque productive et à un meilleur début de championnat, sans atteindre le niveau de confiance du public.",
+        "keyFactors": [
+          "Frosinone vient de marquer quatre buts contre l'Atalanta et a déjà inscrit de nombreux buts tôt dans les rencontres.",
+          "Lecce est privé du défenseur suspendu Gaspar et de plusieurs milieux et attaquants blessés.",
+          "Le match se déroule à Frosinone, mais la capacité de Lecce à exploiter les espaces reste réelle."
+        ],
+        "uncertainty": "Les changements possibles en défense de Lecce et la fatigue du calendrier de semaine peuvent peser.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sports Mole — Frosinone–Lecce, forme et absences",
+            "url": "https://www.sportsmole.co.uk/football/frosinone/preview/frosinone-vs-lecce-prediction-team-news-lineups_607792.html",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Everton",
+      "awayTeam": "Newcastle",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 47,
+        "draw": 25,
+        "away": 28,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Newcastle a un léger avantage sportif, mais le terrain d'Everton et les rotations de coupe rendent le 1N2 équilibré.",
+        "keyFactors": [
+          "Everton reste sur deux défaites 0-2 en championnat et peine à marquer.",
+          "Newcastle vient de gagner 2-0 contre Crystal Palace et a une solide expérience récente de cette coupe.",
+          "Everton pourrait manquer Branthwaite et Grealish ; Fernandez-Pardo et Miley sont incertains pour Newcastle.",
+          "La sélection concerne le résultat du match, pas seulement le club qualifié."
+        ],
+        "uncertainty": "Les compositions de coupe restent provisoires et les rotations peuvent déplacer sensiblement les probabilités.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sports Mole — Everton–Newcastle, aperçu et compositions",
+            "url": "https://www.sportsmole.co.uk/football/everton/league-cup/preview/everton-vs-newcastle-prediction-team-news-lineups_607782.html",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sports Mole — point médical Newcastle",
+            "url": "https://www.sportsmole.co.uk/football/newcastle-united/league-cup/news/jaissle-issues-fernandez-pardo-miley-newcastle-injury-update-before-everton-trip_607826.html",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Al Nassr",
+      "awayTeam": "Al Kholood",
+      "competition": "Saudi Pro League",
+      "probabilities": {
+        "home": 79,
+        "draw": 14,
+        "away": 7
+      },
+      "fdjSelectionDistribution": {
+        "home": 88,
+        "draw": 7,
+        "away": 5,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Al Nassr est nettement favori à domicile face à une équipe d'Al Kholood en mauvaise dynamique, mais le 88 % FDJ est très concentré.",
+        "keyFactors": [
+          "Al Nassr est deuxième avec 25 points en dix matchs et a remporté ses trois dernières rencontres de championnat.",
+          "Al Kholood est neuvième et reste sur quatre défaites consécutives.",
+          "Les confrontations récentes sont nettement favorables à Al Nassr ; son jeu offensif produit davantage d'occasions."
+        ],
+        "uncertainty": "Des absences offensives sont signalées à Al Nassr, et l'écart sportif ne supprime pas le risque d'un nul.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Flashscore — forme, classements et confrontations",
+            "url": "https://www.flashscore.com/match/football/al-kholood-Mqs1WbFK/al-nassr-h4I89ZuE/",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "FotMob — rencontre et effectif",
+            "url": "https://www.fotmob.com/it/matches/al-nassr-fc-vs-al-kholood/gv0d6tk6",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Braga",
+      "awayTeam": "Famalicao",
+      "competition": "Taça da Liga",
+      "probabilities": {
+        "home": 48,
+        "draw": 29,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 71,
+        "draw": 15,
+        "away": 14,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Braga possède un avantage modéré à domicile, mais Famalicao est suffisamment compétitif pour rendre la forte préférence FDJ pour Braga discutable.",
+        "keyFactors": [
+          "Braga vient de perdre à Nacional et a connu plusieurs revers récents, malgré une victoire européenne contre Gand.",
+          "Famalicao a remporté 4-0 son dernier déplacement à Rio Ave et reste capable de contrer.",
+          "En quart de finale de Coupe de la Ligue, les rotations et le résultat à 90 minutes comptent davantage que la seule qualification."
+        ],
+        "uncertainty": "Les titulaires des deux équipes ne sont pas confirmés ; les compositions de coupe sont une incertitude majeure.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Flashscore Portugal — Braga–Famalicao, effectifs et aperçu",
+            "url": "https://www.flashscore.pt/noticias/futebol-taca-da-liga-sc-braga-famalicao-onde-ver-antevisao-formacoes-provaveis-e-odds-taca-da-liga/zFl3pWNs/",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "FotMob — forme récente et calendrier",
+            "url": "https://www.fotmob.com/pt-PT/matches/famalicao-vs-braga/1658z5",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Benfica",
+      "awayTeam": "Gil Vicente",
+      "competition": "Taça da Liga",
+      "probabilities": {
+        "home": 72,
+        "draw": 19,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 89,
+        "draw": 6,
+        "away": 5,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Benfica reste très favori à domicile, mais le caractère éliminatoire et les possibles rotations réduisent la confiance par rapport au public.",
+        "keyFactors": [
+          "La Liga Portugal confirme un quart de finale de Coupe de la Ligue à l'Estadio da Luz.",
+          "Benfica a battu Gil Vicente 3-1 en championnat en septembre et possède un historique récent très favorable.",
+          "Gil Vicente peut créer une surprise si Benfica fait tourner ; une qualification éventuelle ne préjuge pas du résultat 1N2."
+        ],
+        "uncertainty": "Compositions de coupe encore provisoires et importance des éventuels changements dans l'attaque de Benfica.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Liga Portugal — fiche officielle de la rencontre de Coupe de la Ligue",
+            "url": "https://www.ligaportugal.pt/match/20262027/allianzcup/1/3",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Zerozero — confrontation de septembre et statistiques",
+            "url": "https://zerozero.dk/live-ao-minuto/2026-09-13-benfica-gil-vicente/12278011",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Espanyol",
+      "competition": "La Liga",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 83,
+        "draw": 10,
+        "away": 7,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Villarreal est favori à domicile face à un Espanyol en crise sportive et sans entraîneur stabilisé, mais le public le joue massivement.",
+        "keyFactors": [
+          "Villarreal vient de gagner contre Valence puis Manacor et a remporté ses sept dernières confrontations de championnat avec Espanyol.",
+          "Espanyol est dix-huitième, a perdu cinq de ses six derniers matchs et a été éliminé en coupe par Sestao.",
+          "Le départ de l'entraîneur Manolo Gonzalez crée une incertitude supplémentaire sur la réaction d'Espanyol."
+        ],
+        "uncertainty": "Réaction possible des joueurs après le changement d'entraîneur ; onze visiteur non stabilisé.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sports Mole — Villarreal–Espanyol, forme et effectifs",
+            "url": "https://www.sportsmole.co.uk/football/villarreal/preview/villarreal-vs-espanyol-prediction-team-news-lineups_607852.html",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Reuters — licenciement de Manolo Gonzalez",
+            "url": "https://www.reuters.com/sports/soccer/espanyol-sack-gonzalez-following-shock-sestao-defeat-2026-10-27/",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Nantes",
+      "awayTeam": "Clermont",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 46,
+        "draw": 30,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 17,
+        "away": 23,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Nantes a un avantage limité à domicile dans un duel de bas de tableau entre deux équipes peu convaincantes.",
+        "keyFactors": [
+          "Nantes est quinzième après dix matchs et vient de perdre à Saint-Etienne.",
+          "Clermont est dix-septième et reste sans victoire depuis dix rencontres, avec plusieurs nuls.",
+          "Les deux équipes encaissent régulièrement ; l'avantage du terrain ne garantit pas la victoire nantaise."
+        ],
+        "uncertainty": "Les compositions et le retour éventuel de Robinet ne sont pas suffisamment stabilisés.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "FotMob — Nantes–Clermont, forme et effectifs",
+            "url": "https://www.fotmob.com/matches/clermont-foot-vs-nantes/2pz8l5",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "PitchLab — classement et statistiques récentes",
+            "url": "https://pitchlabstats.com/match/2026-10-30-nantes-clermont",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Metz",
+      "awayTeam": "Pau",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 37,
+        "draw": 30,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 66,
+        "draw": 19,
+        "away": 15,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Metz ne possède qu'un léger avantage du terrain face à un Pau plus performant récemment ; les 66 % de choix FDJ sur Metz semblent excessifs.",
+        "keyFactors": [
+          "Metz est huitième avec 14 points et une victoire sur ses cinq dernières rencontres.",
+          "Pau est cinquième avec 17 points et quatre succès lors de ses cinq derniers matchs.",
+          "Metz n'a pas gagné les deux derniers duels de championnat recensés face à Pau."
+        ],
+        "uncertainty": "Les compositions et l'état des joueurs ne sont pas confirmés, et les séries de forme peuvent se retourner.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Stadiro — Metz–Pau, classement et forme",
+            "url": "https://stadiro.com/matches/france/ligue-2/2026-10-30/metz-v-pau-fc/",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "MatchScan — statistiques et dynamique",
+            "url": "https://matchscan.co/en/match/ligue-2/metz-vs-pau-fc-2026-10-30",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Nice",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 37,
+        "draw": 29,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 24,
+        "away": 44,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Nice et Rennes présentent un équilibre serré : Rennes est mieux classé mais Nice s'est redressé et reste solide à domicile.",
+        "keyFactors": [
+          "Nice a remporté trois de ses quatre derniers matchs de Ligue 1 et reste invaincu à domicile.",
+          "Rennes vient de battre Strasbourg 3-0 et occupe le haut du classement, mais ses déplacements sont moins convaincants.",
+          "Nice compte plusieurs absents et Clauss est incertain ; Lepaul reste incertain côté Rennes."
+        ],
+        "uncertainty": "Les absences et le contraste domicile/extérieur peuvent modifier l'équilibre, sans favori net.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sportytrader — Nice–Rennes, forme et absences",
+            "url": "https://www.sportytrader.com/pronostics/nice-rennes-383080/",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Reuters — victoire de Rennes contre Strasbourg",
+            "url": "https://www.reuters.com/sports/soccer/rennes-go-top-ligue-1-with-3-0-win-over-strasbourg-2026-10-25/",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Lille",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 46,
+        "draw": 33,
+        "away": 21,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Lille est légèrement favori dans un derby serré, mais Lens a retrouvé une bonne dynamique nationale.",
+        "keyFactors": [
+          "Lille reste solide à domicile contre Lens mais a fait deux nuls consécutifs en Ligue 1.",
+          "Lens a gagné trois rencontres de championnat d'affilée, tout en souffrant en Ligue des champions.",
+          "Lille sera privé du défenseur suspendu Nianzou et compte des absences offensives ; Lens présente également des incertitudes en défense."
+        ],
+        "uncertainty": "Le derby et les indisponibilités des deux équipes rendent l'écart de niveau fragile.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sports Mole — Lille–Lens, forme et effectifs",
+            "url": "https://www.sportsmole.co.uk/football/lille/preview/lille-vs-lens-prediction-team-news-lineups_607840.html",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Forebet — derby, forme et compositions",
+            "url": "https://www.forebet.com/en/football-match-previews/31797-lille-search-for-momentum-hosting-lens-in-derby-clash",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 12,
+        "draw": 19,
+        "away": 69
+      },
+      "fdjSelectionDistribution": {
+        "home": 9,
+        "draw": 4,
+        "away": 87,
+        "accessedAt": "2026-10-28T21:59:51+01:00"
+      },
+      "analysis": {
+        "summary": "Le PSG est largement favori contre le dernier du classement, mais les absences parisiennes et l'ampleur de la concentration FDJ limitent l'intérêt financier d'un ticket de favoris.",
+        "keyFactors": [
+          "Le Havre n'a pas encore gagné en Ligue 1 et n'a pris que deux points, avec une défense en grande difficulté.",
+          "Le PSG vient de battre Lyon et reste sur une longue série de victoires toutes compétitions confondues.",
+          "Dembélé, Marquinhos et Kvaratskhelia figurent parmi les absences parisiennes signalées."
+        ],
+        "uncertainty": "Rotations possibles du PSG et blessures offensives ; l'issue 2 reste la plus probable, sans certitude.",
+        "sources": [
+          {
+            "label": "FDJ — LF12 n°94, rencontres et choix 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/586",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          },
+          {
+            "label": "Sports Mole — Le Havre–PSG, dynamique et absences",
+            "url": "https://www.sportsmole.co.uk/football/le-havre/preview/le-havre-vs-psg-prediction-team-news-lineups_607838.html",
+            "accessedAt": "2026-10-28T21:59:51+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
