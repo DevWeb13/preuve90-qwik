@@ -1,0 +1,54 @@
+{
+  "id": "lf7-135-2026-10-29-result",
+  "publicationId": "lf7-135-2026-10-29",
+  "gridNumber": 135,
+  "settledAt": "2026-10-30T00:57:51+01:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "N"
+    },
+    {
+      "position": 2,
+      "selection": "1"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "1"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "N"
+    },
+    {
+      "position": 7,
+      "selection": "1"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 7,
+      "amountCents": 3700
+    },
+    {
+      "correctSelections": 6,
+      "amountCents": 530
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 7 n°135",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+      "accessedAt": "2026-10-30T00:57:51+01:00"
+    }
+  ]
+}
