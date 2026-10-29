@@ -1,0 +1,342 @@
+{
+  "id": "lf7-135-2026-10-29",
+  "formula": 7,
+  "gridNumber": 135,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+  "validationDeadline": "2026-10-29T18:25:00+01:00",
+  "publishedAt": "2026-10-29T01:56:27+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse définitive dans les dernières 24 heures : sept rencontres vérifiées sur la FDJ et analysées individuellement à partir de sources sportives actuelles. Al Nassr, Al Qadisiya et Benfica sont favoris, tandis que Fiorentina–Atalanta, Everton–Newcastle et Braga–Famalicão restent ouverts. Les répartitions FDJ LF7 ont fortement varié entre consultations, avec des valeurs extrêmes 100/0/0, et diffèrent de celles de la LF12 sur six rencontres communes : elles ne démontrent donc pas une sous-popularité financière fiable. Le scénario des issues sportives les plus probables (1-1-2-1-2-1-1) a environ 1,3 % de probabilité estimée de faire 7/7, sous hypothèse simplificatrice d'indépendance. La mémoire statistique v2 comporte 155 publications réglées, un net historique de -868,60 € (-68,6 %), un rendement LF7 de -61,0 % et un net de -1 € sur les 20 dernières publications avec un seul ticket joué. Les rapports historiques sont indicatifs et ne prédisent pas le rapport de cette grille. Aucun premier ticket ne dispose d'un avantage financier suffisamment crédible ; les variantes augmenteraient la mise de 1 € chacune sans justification marginale. Décision skip, zéro combinaison et zéro mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Atalanta",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 37,
+        "draw": 30,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 9,
+        "draw": 43,
+        "away": 48,
+        "accessedAt": "2026-10-29T01:56:27+01:00"
+      },
+      "analysis": {
+        "summary": "Match ouvert : Fiorentina et Atalanta restent toutes deux sur une mauvaise dynamique, notamment défensive.",
+        "keyFactors": [
+          "Fiorentina a perdu ses trois derniers matchs et n'a gagné aucune de ses sept dernières réceptions de Serie A.",
+          "Atalanta a perdu ses trois derniers déplacements et pris seulement quatre points sur les six dernières journées.",
+          "Défenses diminuées des deux côtés, notamment Pongracic et Ranieri pour la Viola, Hien, Kossounou et Bellanova pour l'Atalanta."
+        ],
+        "uncertainty": "Défenses remaniées et compositions provisoires : aucun favori solide.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Sky Sport — Fiorentina–Atalanta, blessures et compositions",
+            "url": "https://sport.sky.it/calcio/serie-a/2026/10/27/probabili-formazioni-serie-a-giornata-9-ultime-news",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Eurosport — Fiorentina–Atalanta, statistiques et forme",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/fiorentina-atalanta-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23349512/story.shtml",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Lecce",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 53,
+        "draw": 26,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-10-29T01:56:27+01:00"
+      },
+      "analysis": {
+        "summary": "Frosinone légèrement favori par sa production offensive et sa série à domicile, mais Lecce est compétitif en déplacement.",
+        "keyFactors": [
+          "Frosinone a remporté ses trois premières réceptions et inscrit 17 buts sur huit journées.",
+          "Lecce a gagné quatre de ses six derniers déplacements de Serie A.",
+          "Gaspar est suspendu côté Lecce et plusieurs joueurs restent indisponibles ; Frosinone envisage aussi des rotations."
+        ],
+        "uncertainty": "La forme extérieure de Lecce et les changements de onze limitent la confiance ; 100/0/0 FDJ ne constitue pas une estimation sportive.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Sky Sport — Frosinone–Lecce, effectifs et onze probables",
+            "url": "https://sport.sky.it/calcio/serie-a/2026/10/27/probabili-formazioni-serie-a-giornata-9-ultime-news",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Eurosport — Frosinone–Lecce, statistiques et forme",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/frosinone-lecce-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23349510/story.shtml",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Everton",
+      "awayTeam": "Newcastle",
+      "competition": "EFL Cup",
+      "probabilities": {
+        "home": 34,
+        "draw": 28,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 39,
+        "away": 4,
+        "accessedAt": "2026-10-29T01:56:27+01:00"
+      },
+      "analysis": {
+        "summary": "Newcastle très légèrement favori, mais Everton reçoit et les rotations de Coupe de la Ligue rendent la rencontre incertaine.",
+        "keyFactors": [
+          "Everton reste sur deux défaites 0-2 contre Chelsea et Arsenal ; Newcastle vient de gagner 2-0 à Crystal Palace.",
+          "Branthwaite est absent et Grealish incertain à Everton ; Newcastle surveille Miley et Fernandez-Pardo, avec Livramento absent.",
+          "Les deux clubs se retrouveront en championnat quatre jours plus tard ; seule l'issue à 90 minutes compte ici."
+        ],
+        "uncertainty": "Rotations et incertitudes médicales ; ne pas confondre résultat du match et qualification.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Sports Mole — Everton–Newcastle, analyse du 27 octobre",
+            "url": "https://www.sportsmole.co.uk/football/everton/league-cup/preview/everton-vs-newcastle-prediction-team-news-lineups_607782.html",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Everton FC — guide officiel du match du 29 octobre",
+            "url": "https://www.evertonfc.com/news/2026/october/28/matchday-guide-everton-v-newcastle-united/",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Al Nassr",
+      "awayTeam": "Al Kholood",
+      "competition": "Saudi Pro League",
+      "probabilities": {
+        "home": 79,
+        "draw": 14,
+        "away": 7
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-10-29T01:56:27+01:00"
+      },
+      "analysis": {
+        "summary": "Al Nassr nettement favori par la qualité de son effectif, sa dynamique et l'avantage du terrain.",
+        "keyFactors": [
+          "Al Nassr a remporté huit de ses dix premiers matchs de championnat et reste sur quatre victoires.",
+          "Al Kholood a perdu ses quatre derniers matchs, dont 0-3 contre Al Ettifaq.",
+          "Al Ghannam est absent et Coman et Simakan sont incertains côté Al Nassr."
+        ],
+        "uncertainty": "Les compositions restent provisoires ; le 100/0/0 FDJ paraît issu d'un échantillon très instable.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Khel Now — Al Nassr–Al Kholood, forme et blessures",
+            "url": "https://khelnow.com/football/al-nassr-vs-al-kholood-preview-saudi-pro-league-202610",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Flashscore — Al Nassr–Al Kholood, classement et forme",
+            "url": "https://www.flashscore.com/match/football/al-kholood-Mqs1WbFK/al-nassr-h4I89ZuE/",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Al Riyadh",
+      "awayTeam": "Al Qadisiya",
+      "competition": "Saudi Pro League",
+      "probabilities": {
+        "home": 15,
+        "draw": 21,
+        "away": 64
+      },
+      "fdjSelectionDistribution": {
+        "home": 13,
+        "draw": 4,
+        "away": 83,
+        "accessedAt": "2026-10-29T01:56:27+01:00"
+      },
+      "analysis": {
+        "summary": "Al Qadisiya est favori à l'extérieur grâce à son rendement offensif et sa meilleure position en championnat.",
+        "keyFactors": [
+          "Al Qadisiya est troisième avec 25 points, contre 12 pour Al Riyadh selon les données consultées.",
+          "Sur cinq déplacements répertoriés, Al Qadisiya marque en moyenne 2,60 buts et en encaisse 0,20.",
+          "Al Riyadh vient de battre Al Taawoun 2-1, mais a perdu trois de ses quatre derniers duels de championnat contre Al Qadisiya."
+        ],
+        "uncertainty": "Quelques classements et échantillons diffèrent selon les fournisseurs ; onze de départ non confirmé.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Scout Picks — Al Riyadh–Al Qadisiya, forme et statistiques",
+            "url": "https://scoutpicks.app/matches/liga-saudi/al-riyadh-vs-al-qadsiah-19778768",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "OddAlerts — Al Riyadh–Al Qadisiya, calendrier et confrontation",
+            "url": "https://www.oddalerts.com/livescores/al-qadsiah-vs-al-riyadh/4562-23267",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Braga",
+      "awayTeam": "Famalicao",
+      "competition": "Taça da Liga",
+      "probabilities": {
+        "home": 49,
+        "draw": 28,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 53,
+        "draw": 43,
+        "away": 4,
+        "accessedAt": "2026-10-29T01:56:27+01:00"
+      },
+      "analysis": {
+        "summary": "Braga conserve un léger avantage à domicile, malgré des difficultés récentes et un changement d'entraîneur des deux côtés.",
+        "keyFactors": [
+          "Braga n'a gagné qu'un de ses six derniers matchs et Franclim Carvalho a commencé par une défaite en championnat.",
+          "Famalicão a gagné 4-0 à Rio Ave sous son entraîneur intérimaire Ricardo Silva.",
+          "Braga a remporté 16 de ses 24 réceptions historiques de Famalicão mais aucune des trois dernières ; des rotations sont possibles."
+        ],
+        "uncertainty": "Nouveaux entraîneurs et rotations de coupe : le pronostic concerne les 90 minutes, pas la qualification.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Flashscore Portugal — Braga–Famalicão, entraîneurs, forme et compositions",
+            "url": "https://www.flashscore.pt/noticias/futebol-taca-da-liga-sc-braga-famalicao-onde-ver-antevisao-formacoes-provaveis-e-odds-taca-da-liga/zFl3pWNs/",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Benfica",
+      "awayTeam": "Gil Vicente",
+      "competition": "Taça da Liga",
+      "probabilities": {
+        "home": 73,
+        "draw": 18,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 56,
+        "draw": 35,
+        "away": 9,
+        "accessedAt": "2026-10-29T01:56:27+01:00"
+      },
+      "analysis": {
+        "summary": "Benfica est favori à la Luz, mais Gil Vicente est en bonne forme et la rotation en coupe est possible.",
+        "keyFactors": [
+          "Benfica reste sur quatre victoires consécutives et neuf succès de suite contre Gil Vicente.",
+          "Gil Vicente a gagné trois de ses cinq dernières rencontres.",
+          "Marco Silva pourrait changer plusieurs titulaires ; le résultat des 90 minutes reste distinct de la qualification."
+        ],
+        "uncertainty": "La rotation de Benfica et la bonne organisation de Gil Vicente peuvent resserrer le match.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°135",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4952",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          },
+          {
+            "label": "Observador — Benfica–Gil Vicente, forme, historique et onze probable",
+            "url": "https://observador.pt/prognosticos/prognostico-benfica-gil-vicente-29-10/",
+            "accessedAt": "2026-10-29T01:56:27+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
