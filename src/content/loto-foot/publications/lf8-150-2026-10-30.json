@@ -1,0 +1,405 @@
+{
+  "id": "lf8-150-2026-10-30",
+  "formula": 8,
+  "gridNumber": 150,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+  "validationDeadline": "2026-10-30T18:55:00+01:00",
+  "publishedAt": "2026-10-29T22:02:20+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse complète actualisée à moins de 24 heures de la clôture : les huit matchs et leurs répartitions FDJ ont été vérifiés sur les deux pages officielles, puis chaque rencontre analysée avec des sources sportives complémentaires. Le scénario central (1-2-2-1-2-1-1-1) n'atteint qu'environ 0,16 % de probabilité pour 8/8 et 1,82 % pour au moins 7/8 sous hypothèse simplificatrice d'indépendance. Le public FDJ est déjà concentré sur plusieurs mêmes issues, notamment PSG (80 %), Nantes (64 %) et Metz (49 %). Quelques écarts de valeur relative existent, notamment le nul ou la victoire de Clermont face à Nantes, mais ils portent sur des issues sportivement moins probables et ne prouvent pas un avantage de rapport. La mémoire v2 indique 155 publications réglées, -868,60 € de résultat net (-68,6 %), un rendement LF8 de -62,7 % et -1 € sur les 20 dernières publications (un seul ticket engagé). Les rapports LF8 historiques, notamment les médianes à 7/8 et 8/8, sont descriptifs et ne permettent pas de calculer le rapport futur de cette combinaison, dépendant du nombre de gagnants. Aucun premier ticket ne présente une justification financière suffisamment crédible ; les variantes à 1 € supplémentaire n'en apportent pas non plus. Décision skip définitive : zéro combinaison, zéro mise virtuelle, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lille",
+      "awayTeam": "Lens",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 39,
+        "draw": 29,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 37,
+        "draw": 29,
+        "away": 34,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Derby équilibré : Lille dispose d'une défense solide et de l'avantage du terrain, Lens d'une meilleure dynamique offensive récente.",
+        "keyFactors": [
+          "Lille est 3e avec 15 points et seulement six buts encaissés en huit matchs de Ligue 1.",
+          "Lens est 7e avec 13 points et trois succès consécutifs en championnat, mais concède régulièrement des occasions.",
+          "Le RC Lens confirme officiellement les absences d'Odsonne Édouard, Maik Nawrocki et Ismaëlo Ganiou ; Samson Baidoo est revenu."
+        ],
+        "uncertainty": "Derby à forte intensité ; la disponibilité des autres titulaires et le onze de départ peuvent déplacer légèrement l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "RC Lens — conférence officielle du 28 octobre, groupe et blessés",
+            "url": "https://www.rclens.fr/fr/conference-de-presse-losc-rclens-cahuzac-baidoo-20261028",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "Top Mercato — forme et analyse Lille–Lens du 29 octobre",
+            "url": "https://www.topmercato.com/2151534-pronostic-lille-vs-lens-30-10-2026/",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "Statz — données de forme, buts et classement Lille–Lens",
+            "url": "https://statz.ai/news/19715564-lille-vs-lens-predictions-betting-tips",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 9,
+        "draw": 15,
+        "away": 76
+      },
+      "fdjSelectionDistribution": {
+        "home": 8,
+        "draw": 12,
+        "away": 80,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Paris reste nettement favori malgré une infirmerie chargée, face à un Havre en grande difficulté au classement.",
+        "keyFactors": [
+          "Le Havre n'a pas gagné lors de ses huit premières rencontres et demeure dernier.",
+          "Le PSG reste sur une série de victoires, dont un succès 2-0 contre Lyon.",
+          "Dembélé, Marquinhos, Nuno Mendes et Kvaratskhelia sont indisponibles ; Godts est incertain et des rotations sont possibles avant la Ligue des champions."
+        ],
+        "uncertainty": "Les absences de cadres et la rotation parisienne réduisent légèrement la confiance sans inverser le rapport de forces.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "RueDesJoueurs — forme, effectifs et compositions probables Le Havre–PSG",
+            "url": "https://www.ruedesjoueurs.com/pronostic/le-havre-psg-5802973.html",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "VIPSG — point médical PSG du 29 octobre",
+            "url": "https://www.vipsg.fr/ligue1-psg/le-havre-psg-quatre-absents-majeurs-godts-incertain-le-point-sur-les-forfaits-299585/",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Nice",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 35,
+        "draw": 29,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 33,
+        "draw": 27,
+        "away": 40,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Rencontre très ouverte : Rennes est mieux classé et plus prolifique, mais Nice est en progrès et plusieurs absences pèsent sur les deux équipes.",
+        "keyFactors": [
+          "Rennes est 2e avec 16 points et 18 buts en huit matchs, contre 11 points et huit buts pour Nice.",
+          "Nice a remporté trois de ses quatre derniers matchs et bénéficie de l'avantage du terrain.",
+          "Nice est privé de plusieurs défenseurs ; Estéban Lepaul est annoncé forfait à Rennes et Brice Samba est incertain, avec des sources divergentes sur sa présence."
+        ],
+        "uncertainty": "Le forfait annoncé de Lepaul et le doute sur Samba diminuent la confiance dans un favori rennais ; les compositions ne sont pas officielles.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "Top Mercato — analyse et absences Nice–Rennes du 29 octobre",
+            "url": "https://www.topmercato.com/2151634-pronostic-nice-vs-rennes-30-10-2026/",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "FotMob — forme, blessés et compositions prévisionnelles Nice–Rennes",
+            "url": "https://www.fotmob.com/en-GB/matches/nice-vs-rennes/37bvse",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Nantes",
+      "awayTeam": "Clermont",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 64,
+        "draw": 23,
+        "away": 13,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Nantes est favori à domicile face à Clermont, mais ses résultats récents limitent la confiance malgré la défense fragile des visiteurs.",
+        "keyFactors": [
+          "Nantes est 15e avec huit points, deux défaites consécutives et seulement deux victoires en dix journées.",
+          "Clermont est 17e avec sept points et n'a pas gagné ses cinq derniers matchs ; son bilan défensif récent est préoccupant.",
+          "Les données d'occasions indiquent un avantage territorial nantais, mais la production offensive reste irrégulière."
+        ],
+        "uncertainty": "Nantes traverse aussi une mauvaise série et le nul reste crédible ; le marché est plus optimiste sur le 1 que l'analyse prudente retenue.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "Tifolab — statistiques xG et forme Nantes–Clermont",
+            "url": "https://www.tifolab.com/matches/1552518",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "Oddzone — classement, derniers matchs et modèle Nantes–Clermont",
+            "url": "https://www.oddzone.fr/matchs/nantes-clermont-foot-2026-10-30/",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Grenoble",
+      "awayTeam": "Dijon",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 29,
+        "draw": 30,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 29,
+        "draw": 31,
+        "away": 40,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Dijon a un léger avantage sportif face à Grenoble en difficulté, mais sa défense laisse des possibilités aux locaux.",
+        "keyFactors": [
+          "Grenoble est 16e avec huit points et trois défaites consécutives, sans victoire à domicile sur ses quatre premières réceptions.",
+          "Dijon est 9e avec 12 points, marque régulièrement et a remporté trois de ses cinq derniers matchs.",
+          "Dijon a encaissé 18 buts en dix journées ; le nul conserve une probabilité importante."
+        ],
+        "uncertainty": "Les deux défenses sont perméables et les onze officiels ne sont pas encore connus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "Stadiro — classement, forme et statistiques Grenoble–Dijon",
+            "url": "https://stadiro.com/matches/france/ligue-2/2026-10-30/grenoble-v-dijon/",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "OddAlerts — Grenoble–Dijon, statistiques et probabilités",
+            "url": "https://www.oddalerts.com/livescores/dijon-vs-grenoble-foot-38/5772-7496",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Metz",
+      "awayTeam": "Pau",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 41,
+        "draw": 29,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 49,
+        "draw": 23,
+        "away": 28,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Metz conserve un petit avantage du terrain, mais Pau arrive avec une meilleure dynamique et un classement supérieur.",
+        "keyFactors": [
+          "Metz est 8e avec 14 points et un bilan d'une victoire, deux nuls et deux défaites sur ses cinq dernières rencontres.",
+          "Pau est 5e avec 17 points et quatre victoires sur ses cinq derniers matchs.",
+          "Metz est performant à domicile et n'y a pas perdu sur une longue série ; Pau reste dangereux en contre-attaque."
+        ],
+        "uncertainty": "Les tendances de forme et le facteur domicile se compensent ; trois issues restent plausibles.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "1x2.expert — forme, classement et statistiques Metz–Pau",
+            "url": "https://1x2.expert/en/match/179419-metz-vs-pau",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "OddAlerts — Metz–Pau, probabilités et confrontation",
+            "url": "https://www.oddalerts.com/livescores/metz-vs-pau/8138-7504",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Laval",
+      "awayTeam": "Boulogne",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 37,
+        "draw": 30,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 38,
+        "draw": 30,
+        "away": 32,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Affiche de maintien très équilibrée : Laval reçoit mais Boulogne présente une meilleure forme récente.",
+        "keyFactors": [
+          "Laval est dernier avec six points après dix journées et reste sur une défaite à Nancy.",
+          "Boulogne est 13e avec dix points et a pris des points sur ses trois derniers matchs.",
+          "Laval compte plusieurs absents, mais récupère Maggiotti ; Boulogne dispose de son meilleur buteur Abdel Hbouch."
+        ],
+        "uncertainty": "Les compositions et plusieurs disponibilités restent prévisionnelles ; aucun favori net ne se dégage.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "RueDesJoueurs — forme, absences et onze probable Laval–Boulogne",
+            "url": "https://www.ruedesjoueurs.com/pronostic/laval-boulogne-5803302.html",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "OddAlerts — Laval–Boulogne, probabilités et confrontations",
+            "url": "https://www.oddalerts.com/livescores/boulogne-vs-laval/5720-5728",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Rodez",
+      "awayTeam": "Dunkerque",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 44,
+        "draw": 28,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 46,
+        "draw": 27,
+        "away": 27,
+        "accessedAt": "2026-10-29T22:00:22+01:00"
+      },
+      "analysis": {
+        "summary": "Rodez est légèrement favori à domicile après sa victoire à Dijon, mais Dunkerque peut exploiter les espaces d'une défense fragile.",
+        "keyFactors": [
+          "Rodez vient de s'imposer 2-1 à Dijon après plusieurs revers ; son avantage du terrain est modéré.",
+          "Dunkerque a récemment gagné 3-2 à Nantes puis fait 1-1 contre Metz.",
+          "Les deux équipes n'ont pas gardé leur cage inviolée sur une longue série et encaissent régulièrement."
+        ],
+        "uncertainty": "Les deux défenses sont vulnérables et la dynamique de Rodez reste instable ; nul et victoire extérieure demeurent crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, ordre et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF8 n°150",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/847",
+            "accessedAt": "2026-10-29T22:00:22+01:00"
+          },
+          {
+            "label": "FotMob — forme, effectifs et séries défensives Rodez–Dunkerque",
+            "url": "https://www.fotmob.com/matches/rodez-vs-dunkerque/lsi30j",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          },
+          {
+            "label": "RueDesJoueurs — analyse et probabilités Rodez–Dunkerque",
+            "url": "https://www.ruedesjoueurs.com/pronostic/rodez-dunkerque-5803307.html",
+            "accessedAt": "2026-10-29T22:01:37+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
