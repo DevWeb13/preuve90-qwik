@@ -1,0 +1,696 @@
+{
+  "id": "lf15-90-2026-10-31",
+  "formula": 15,
+  "gridNumber": 90,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+  "validationDeadline": "2026-10-31T20:40:00+01:00",
+  "publishedAt": "2026-10-30T21:57:12+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse complète actualisée dans les 24 dernières heures de la clôture : les quinze rencontres, leurs identités et les répartitions FDJ ont été vérifiées sur la liste et la fiche officielles, puis chaque match analysé avec des sources sportives complémentaires. Probabilités prudentes confrontées à la mémoire de calibration historique (+6 points d'écart récent entre précision observée et probabilité moyenne maximale, sans correction mécanique). Concentrations FDJ particulièrement fortes sur Barcelone (98 %), Real Madrid (95 %), Lazio (85 %) et Lyon (85 %) : les alternatives sont sportivement plausibles mais les écarts avec les choix du public ne prouvent pas une espérance de gain positive. Le scénario central de favoris par match n'atteint qu'environ 0.0017 % pour 15/15 et 1.36 % pour au moins 12/15 sous hypothèse simplificatrice d'indépendance, sans constituer une estimation des gains. Mémoire v2 : 156 publications réglées, -868,60 € de net (-68,6 %), rendement LF15 -74,8 %, et -1 € sur les vingt dernières publications (un ticket engagé). Les rapports historiques LF15 aux rangs 12 à 15 sont très variables ; les rapports futurs dépendent du nombre de gagnants et ne peuvent être inférés de la seule répartition FDJ. Aucun ticket initial ni variante à 1 € supplémentaire ne présente une justification financière suffisamment crédible pour viser un résultat net positif. Décision skip définitive : zéro combinaison, zéro mise virtuelle, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 53,
+        "draw": 25,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 20,
+        "away": 20,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Marseille retrouve de l'élan à domicile, mais Toulouse arrive invaincu sur six rencontres et peut sanctionner une défense marseillaise irrégulière.",
+        "keyFactors": [
+          "Marseille reste sur trois succès, dont un 4-3 contre Le Havre après avoir laissé revenir son adversaire.",
+          "Toulouse a enchaîné six rencontres sans défaite, avec un récent 0-0 contre Troyes.",
+          "Cornelius manque à Marseille ; Messali est annoncé absent à Toulouse."
+        ],
+        "uncertainty": "Les deux équipes sont en progrès ; la maîtrise défensive marseillaise et les compositions définitives restent incertaines.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Marseille–Toulouse",
+            "url": "https://www.thestatszone.com/marseille-vs-toulouse-preview-team-news-prediction-233262",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 36,
+        "draw": 29,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 40,
+        "draw": 28,
+        "away": 32,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Confrontation serrée : Paris FC a l'avantage du terrain, Monaco une défense solide mais une dynamique offensive mitigée.",
+        "keyFactors": [
+          "Paris FC vient de perdre 2-1 à Lens après un bon début de saison.",
+          "Monaco n'a remporté qu'un de ses cinq derniers matchs de championnat, mais encaisse peu.",
+          "Le Paris FC a plusieurs joueurs incertains ; Fati et Idumbo sont signalés indisponibles à Monaco."
+        ],
+        "uncertainty": "Les disponibilités de Koleosho, Matondo et des défenseurs parisiens peuvent faire varier l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Paris FC–Monaco",
+            "url": "https://www.thestatszone.com/paris-vs-monaco-preview-team-news-prediction-233266",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2 — Paris FC–Monaco",
+            "url": "https://www.ruedesjoueurs.com/pronostic/paris-fc-monaco-5802979.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 43,
+        "draw": 28,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 64,
+        "draw": 19,
+        "away": 17,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Strasbourg conserve un léger avantage à la Meinau, mais sa défense fragile et l'amélioration d'Auxerre rendent le favori public moins sûr qu'il n'y paraît.",
+        "keyFactors": [
+          "Strasbourg reste sur une défaite 3-0 à Rennes et a encaissé 18 buts lors de ses huit premiers matchs.",
+          "Auxerre s'est repris après un mauvais début et vient de faire 1-1 face au Mans.",
+          "Panichelli est absent côté Strasbourg ; Siwe et Senaya sont incertains côté Auxerre."
+        ],
+        "uncertainty": "Les deux blocs défensifs sont vulnérables ; la répartition FDJ favorise beaucoup plus Strasbourg que notre estimation.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Strasbourg–Auxerre",
+            "url": "https://www.thestatszone.com/strasbourg-vs-auxerre-preview-team-news-prediction-233264",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Lyon",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 64,
+        "draw": 22,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 85,
+        "draw": 11,
+        "away": 4,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Lyon est nettement favori à domicile malgré sa défaite contre le PSG ; Angers est irrégulier et dispose de moins d'arguments offensifs.",
+        "keyFactors": [
+          "Lyon reste dans la course au haut du tableau malgré un revers 2-0 contre Paris.",
+          "Angers n'a gagné que deux de ses huit premières rencontres et vient de faire 0-0 contre Lorient.",
+          "Lyon annonce notamment Sulc et Openda blessés, Nakamura suspendu ; Angers surveille plusieurs milieux."
+        ],
+        "uncertainty": "L'attaque lyonnaise amoindrie limite la confiance par rapport aux 85 % de choix FDJ sur le 1.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Lyon–Angers",
+            "url": "https://www.thestatszone.com/lyon-vs-angers-preview-team-news-prediction-233218",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 32,
+        "draw": 32,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 29,
+        "away": 30,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Deux promus en difficulté : Troyes reçoit mais Le Mans montre un peu plus de solidité récente et une meilleure capacité à créer des occasions.",
+        "keyFactors": [
+          "Troyes a subi cinq défaites d'affilée avant un 0-0 à Toulouse.",
+          "Le Mans n'a gagné qu'une fois en huit matchs mais a obtenu un nul à Auxerre.",
+          "Troyes compte notamment Ouzenadji et Koné absents ; Sidibé manque au Mans."
+        ],
+        "uncertainty": "Rencontre très équilibrée et faible échantillon de forme ; le nul reste aussi plausible que chaque victoire.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Troyes–Le Mans",
+            "url": "https://www.thestatszone.com/troyes-vs-le-mans-preview-team-news-prediction-233151",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 29,
+        "draw": 28,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 23,
+        "draw": 27,
+        "away": 50,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Inter possède une meilleure dynamique en championnat et une attaque plus régulière, mais le derby milanais et des absences majeures maintiennent une forte incertitude.",
+        "keyFactors": [
+          "Inter est en tête avec huit victoires et un nul en neuf rencontres.",
+          "Milan a perdu 4-2 contre Bologne après huit matchs de championnat sans défaite.",
+          "Milan doit composer avec plusieurs absences défensives ; Lautaro Martínez manque à l'Inter."
+        ],
+        "uncertainty": "Un derby peut neutraliser les écarts de forme ; l'absence de Lautaro et les défenses remaniées pèsent sur le pronostic.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Milan AC–Inter Milan",
+            "url": "https://www.thestatszone.com/ac-milan-vs-inter-milan-preview-team-news-prediction-233622",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Naples",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 36,
+        "draw": 29,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 43,
+        "draw": 30,
+        "away": 27,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Choc indécis : la Juventus a l'avantage du terrain mais reste en difficulté, tandis que Naples a montré des signes de reprise.",
+        "keyFactors": [
+          "Juventus vient de perdre 2-0 à Gênes et manque de confiance.",
+          "Naples a rebondi avec une victoire 4-1 à Monza.",
+          "Conceição, González et Yildiz sont signalés absents côté Juventus ; Lobotka et Spinazzola côté Naples."
+        ],
+        "uncertainty": "Les absences des deux côtés et l'irrégularité récente empêchent de dégager un favori net.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Juventus Turin–Naples",
+            "url": "https://www.thestatszone.com/juventus-vs-napoli-preview-team-news-prediction-233630",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Lazio Rome",
+      "awayTeam": "Cagliari",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 85,
+        "draw": 11,
+        "away": 4,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "La Lazio part largement favorite : elle est invaincue en championnat, marque beaucoup et accueille un Cagliari en nette baisse.",
+        "keyFactors": [
+          "Lazio est invaincue après neuf matchs et a battu Sassuolo 6-2.",
+          "Cagliari a perdu trois rencontres de suite et n'a plus battu la Lazio en championnat depuis 2013.",
+          "Marusic et Rovella sont revenus pour la Lazio ; Cagliari doit surveiller Winks et plusieurs absents."
+        ],
+        "uncertainty": "La Lazio reste très favorite, mais 85 % des choix FDJ sur le 1 réduisent son attrait relatif pour une grille à rapport partagé.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Lazio Rome–Cagliari",
+            "url": "https://www.sportsmole.co.uk/football/lazio/preview/lazio-vs-cagliari-prediction-team-news-lineups_608091.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Eintracht Francfort",
+      "awayTeam": "Hambourg",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 45,
+        "draw": 28,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 75,
+        "draw": 14,
+        "away": 11,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Francfort a un léger avantage à domicile, renforcé par son succès en coupe contre Hambourg, mais son classement et son rendement offensif restent médiocres.",
+        "keyFactors": [
+          "Francfort est 14e avec huit points après sept journées, Hambourg 11e avec neuf.",
+          "Francfort a battu Hambourg 3-1 en coupe cette semaine, mais n'a marqué qu'un but lors de ses trois derniers matchs de Bundesliga.",
+          "Hambourg est privé notamment de Vieira, Poulsen, Remberg et Capaldo ; sa forme à l'extérieur est faible."
+        ],
+        "uncertainty": "L'écart entre les 75 % de choix FDJ sur Francfort et notre probabilité reflète le risque d'un match serré ; la coupe récente ne garantit pas le résultat en championnat.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Eintracht Francfort–Hambourg",
+            "url": "https://www.sportsmole.co.uk/football/eintracht-frankfurt/preview/frankfurt-vs-hamburger-sv-prediction-team-news-lineups_608069.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2 — Eintracht Francfort–Hambourg",
+            "url": "https://stadiro.com/matches/germany/bundesliga/2026-11-01/eintracht-frankfurt-v-hamburger-sv/",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Athletic Bilbao",
+      "awayTeam": "Real Sociedad",
+      "competition": "La Liga",
+      "probabilities": {
+        "home": 39,
+        "draw": 29,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 47,
+        "draw": 27,
+        "away": 26,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Derby basque équilibré : l'Athletic est solide défensivement à San Mamés, la Real Sociedad arrive avec une excellente dynamique.",
+        "keyFactors": [
+          "Athletic a battu Getafe 4-0 puis Prat 6-1 en coupe.",
+          "Real Sociedad a remporté quatre rencontres de Liga de suite et occupe la cinquième place.",
+          "Le facteur domicile et la défense de Bilbao compensent en partie la forme supérieure des visiteurs."
+        ],
+        "uncertainty": "Derby historiquement disputé ; les compositions et la fatigue de coupe peuvent faire varier l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Athletic Bilbao–Real Sociedad",
+            "url": "https://www.sportsmole.co.uk/football/real-sociedad/preview/athletic-bilbao-vs-real-sociedad-prediction-team-news-lineups_608068.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2 — Athletic Bilbao–Real Sociedad",
+            "url": "https://www.fotmob.com/en-GB/matches/athletic-club-vs-real-sociedad/2cs4ea",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Getafe",
+      "awayTeam": "FC Séville",
+      "competition": "La Liga",
+      "probabilities": {
+        "home": 26,
+        "draw": 29,
+        "away": 45
+      },
+      "fdjSelectionDistribution": {
+        "home": 25,
+        "draw": 28,
+        "away": 47,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Séville dispose d'un avantage de forme et de production offensive, mais Getafe est difficile à battre à domicile et le nul reste important.",
+        "keyFactors": [
+          "Getafe n'a inscrit que cinq buts en dix matchs et reste sans victoire sur trois rencontres.",
+          "Séville a gagné 2-0 contre Osasuna et n'a perdu qu'une fois lors de ses cinq déplacements de Liga.",
+          "Mojica et Mario Martín sont suspendus à Getafe ; Séville n'a pas de nouvelle absence majeure signalée."
+        ],
+        "uncertainty": "Getafe n'a pas perdu à domicile en championnat cette saison et peut verrouiller le match ; confiance modérée sur le 2.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Getafe–FC Séville",
+            "url": "https://www.thestatszone.com/getafe-vs-sevilla-preview-team-news-prediction-233843",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Alaves",
+      "competition": "La Liga",
+      "probabilities": {
+        "home": 79,
+        "draw": 15,
+        "away": 6
+      },
+      "fdjSelectionDistribution": {
+        "home": 98,
+        "draw": 1,
+        "away": 1,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Barcelone reste très favori au Camp Nou malgré deux défaites récentes et une défense remaniée ; Alavés est toutefois suffisamment organisé pour rendre le nul non négligeable.",
+        "keyFactors": [
+          "Barcelone est leader avec 27 points après dix journées, mais vient de perdre contre le PSG et le Real Madrid.",
+          "Le modèle statistique Sports Mole situe la victoire barcelonaise autour de 78 %, nettement sous les 98 % de choix FDJ.",
+          "Koundé, Eric García, Christensen, Olmo, Espart et Bardghji sont annoncés absents."
+        ],
+        "uncertainty": "Plusieurs absences défensives augmentent le risque de nul ; les 98 % FDJ sont une concentration publique, pas une probabilité sportive.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — FC Barcelone–Alaves",
+            "url": "https://www.sportsmole.co.uk/football/barcelona/race-for-the-la-liga-title/preview/barcelona-vs-alaves-prediction-team-news-lineups_607884.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2 — FC Barcelone–Alaves",
+            "url": "https://www.sportsmole.co.uk/football/barcelona/race-for-the-la-liga-title/team-news/barcelona-vs-alaves-injury-suspension-list-predicted-xis_607935.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 3 — FC Barcelone–Alaves",
+            "url": "https://www.sportsmole.co.uk/football/la-liga/barcelona-vs-alaves_game_260873.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Santander",
+      "awayTeam": "Real Madrid",
+      "competition": "La Liga",
+      "probabilities": {
+        "home": 12,
+        "draw": 17,
+        "away": 71
+      },
+      "fdjSelectionDistribution": {
+        "home": 2,
+        "draw": 3,
+        "away": 95,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Real Madrid est favori grâce à cinq victoires consécutives et une supériorité offensive nette, mais le Racing est invaincu à domicile et peut résister.",
+        "keyFactors": [
+          "Real Madrid a gagné 2-1 à Barcelone et reste sur cinq succès toutes compétitions confondues.",
+          "Racing Santander a battu l'Espanyol 2-1 et vient de gagner en coupe ; Zabiri a inscrit huit buts en dix matchs de Liga.",
+          "Vinícius est suspendu, Rodrygo et Asencio indisponibles ; Courtois et Valverde sont attendus mais leurs états ont été surveillés."
+        ],
+        "uncertainty": "La probabilité de victoire madrilène est nettement inférieure aux 95 % de choix FDJ ; les effectifs et la solidité du Racing à domicile laissent des scénarios alternatifs plausibles.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Santander–Real Madrid",
+            "url": "https://www.sportsmole.co.uk/football/real-madrid/race-for-the-la-liga-title/preview/racing-vs-real-madrid-prediction-team-news-lineups_608064.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2 — Santander–Real Madrid",
+            "url": "https://www.fotmob.com/en-GB/matches/real-madrid-vs-racing-santander/2hejnl",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Fulham",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 48,
+        "draw": 27,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 18,
+        "away": 17,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Villa est favori à domicile après ses succès contre Newcastle et Manchester City, mais Fulham reste sur deux victoires de championnat et peut accrocher un résultat.",
+        "keyFactors": [
+          "Villa a pris dix points sur ses quatre derniers matchs de Premier League.",
+          "Fulham a gagné deux fois 1-0 contre Hull puis Coventry, tout en perdant en coupe.",
+          "Villa a été éliminé de la Coupe de la Ligue avec une équipe très remaniée ; Onana, Wan-Bissaka et Ruggeri sont annoncés absents."
+        ],
+        "uncertainty": "La forme récente des deux équipes rend les 65 % de choix FDJ sur Villa trop affirmatifs ; un nul demeure plausible.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Aston Villa–Fulham",
+            "url": "https://www.sportsmole.co.uk/football/aston-villa/preview/aston-villa-vs-fulham-prediction-team-news-lineups_607920.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2 — Aston Villa–Fulham",
+            "url": "https://www.sportsmole.co.uk/football/aston-villa/injury-news/injuries-and-suspensions/ruggeri-wan-bissaka-onana-latest-aston-villa-injury-list-for-fulham-clash_607924.html",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 35,
+        "draw": 28,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 29,
+        "away": 39,
+        "accessedAt": "2026-10-30T21:54:29+01:00"
+      },
+      "analysis": {
+        "summary": "Arsenal présente une meilleure forme globale et une défense très solide, mais Liverpool joue à Anfield et a remporté ses deux derniers matchs de championnat.",
+        "keyFactors": [
+          "Arsenal est deuxième avec 21 points, cinq buts encaissés et neuf victoires sur ses dix derniers matchs de championnat.",
+          "Liverpool vient de battre Brighton 2-0 et de passer en coupe aux tirs au but face à Chelsea.",
+          "Frimpong, Bradley et Ekitiké sont absents côté Liverpool ; Szoboszlai et Victor Muñoz restent incertains ; Saka et Saliba manquent à Arsenal."
+        ],
+        "uncertainty": "Les retours possibles de Szoboszlai et Muñoz et la disponibilité de Madueke peuvent modifier le rapport de forces ; aucune issue ne dépasse 40 %.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle, rencontres et répartition 1/N/2",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF15 n°90",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2038",
+            "accessedAt": "2026-10-30T21:54:29+01:00"
+          },
+          {
+            "label": "Analyse sportive 1 — Liverpool–Arsenal",
+            "url": "https://www.thestatszone.com/liverpool-vs-arsenal-preview-team-news-prediction-233691",
+            "accessedAt": "2026-10-30T21:55:45+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
