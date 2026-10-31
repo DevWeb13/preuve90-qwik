@@ -1,0 +1,430 @@
+{
+  "id": "lf8-151-2026-10-31",
+  "formula": 8,
+  "gridNumber": 151,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+  "validationDeadline": "2026-10-31T17:55:00+01:00",
+  "publishedAt": "2026-10-31T02:13:39+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse complète dans les 24 dernières heures, huit rencontres confirmées par la FDJ et analysées avec des sources sportives indépendantes. Plusieurs favoris sont très concentrés dans les choix FDJ (Saint-Étienne 79 % contre 50 % estimés, Roma 97 % contre 62 %, Betis 99 % contre 66 %, Villa 84 % contre 51 %). Les alternatives présentent un signal de valeur relative mais ne constituent pas une preuve de rentabilité. Le scénario central 2-2-2-2-1-1-1-1 a une probabilité estimée d'environ 0,68 % pour 8/8 et 5,54 % pour au moins 7/8 sous hypothèse simplificatrice d'indépendance. Mémoire v2 : 158 publications réglées, net historique -868,60 € (-68,6 %), rendement LF8 -62,7 %, net des 20 dernières -1 € (un ticket joué), calibration récente +5,2 points sans correction mécanique. Les rapports LF8 passés sont descriptifs et ne permettent pas de connaître les futurs gains, dépendant des autres gagnants. Aucun premier ticket ni ticket supplémentaire ne dispose d'une justification financière suffisamment crédible pour son coût de 1 €. Skip définitif, zéro combinaison et zéro mise virtuelle, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 22,
+        "draw": 34,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 25,
+        "draw": 32,
+        "away": 43,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "Le Mans légèrement favori grâce à une dynamique moins mauvaise ; nul très plausible.",
+        "keyFactors": [
+          "Troyes reste sans victoire sur six matchs et a peu marqué.",
+          "Le Mans est irrégulier mais a partagé les points à Auxerre.",
+          "Troyes encaisse beaucoup et plusieurs joueurs des deux clubs sont annoncés absents ou incertains."
+        ],
+        "uncertainty": "Les absences et les tendances défensives rendent le match ouvert.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "Forebet — forme et effectifs Troyes–Le Mans",
+            "url": "https://www.forebet.com/en/football-match-previews/31801-stalemate-anticipated-as-stuttering-troyes-host-resilient-le-mans-fc",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "MinutoLive — statistiques et absences Troyes–Le Mans",
+            "url": "https://minutolive.com/match/estac-troyes-vs-le-mans-2026-10-31",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Guingamp",
+      "awayTeam": "St Etienne",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 23,
+        "draw": 27,
+        "away": 50
+      },
+      "fdjSelectionDistribution": {
+        "home": 11,
+        "draw": 10,
+        "away": 79,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "Saint-Étienne est favori en raison de sa première place, mais Guingamp peut résister à domicile.",
+        "keyFactors": [
+          "Saint-Étienne est premier avec 25 points et 23 buts en dix matchs.",
+          "Guingamp vient de battre Clermont 2-0 après trois défaites.",
+          "Larsonneur est annoncé absent chez les Verts ; Guingamp est privé de N'Landu et compte d'autres incertains."
+        ],
+        "uncertainty": "Le public FDJ surestime peut-être le favori extérieur (79 %) ; les compositions restent prévisionnelles.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "OddAlerts — classement, probabilités et blessés",
+            "url": "https://www.oddalerts.com/livescores/guingamp-vs-saint-etienne/6538-8142",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Stadiro — classement et dynamique Guingamp–Saint-Étienne",
+            "url": "https://stadiro.com/matches/france/ligue-2/2026-10-31/guingamp-v-st-etienne/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Sport.fr — absences et compositions probables au 30 octobre",
+            "url": "https://www.sport.fr/football/ligue-2-compos-probables-pour-guingamp-saint-etienne-samedi-a-20h-avec-larsonneur-forfait-1495368.shtm",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 29,
+        "draw": 28,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 36,
+        "away": 52,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "L'Inter est plus régulière, mais le derby et ses absences empêchent de la considérer comme un favori écrasant.",
+        "keyFactors": [
+          "L'Inter est invaincue depuis 19 matchs de championnat et a gagné huit des neuf premiers.",
+          "Milan a perdu 4-2 contre Bologne mais remporté les deux derbies de championnat précédents.",
+          "Lautaro Martínez est indisponible côté Inter et Milan est affaibli par plusieurs blessures."
+        ],
+        "uncertainty": "Le derby peut échapper aux tendances statistiques et plusieurs retours restent incertains.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "Victory Picks — bilan, absences et confrontations Milan–Inter",
+            "url": "https://www.victorypicks.com/en/previews/ac-milan-vs-inter-october-31-2026-2780/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "FotMob — résultats récents Milan–Inter",
+            "url": "https://www.fotmob.com/nl/matches/milan-vs-inter/2g2t3o",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Goal.com — absence de Lautaro et effectif Inter",
+            "url": "https://www.goal.com/fr/listes/inter-lautaro-ne-sera-pas-retabli-pour-le-derby-le-point-sur-les-blesses-et-le-turnover-a-venise/blt3726a1c6921d0ef8",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Udinese",
+      "awayTeam": "AS Rome",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 15,
+        "draw": 23,
+        "away": 62
+      },
+      "fdjSelectionDistribution": {
+        "home": 1,
+        "draw": 2,
+        "away": 97,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "La Roma est nettement supérieure sur la forme, mais la victoire extérieure n'est pas une certitude.",
+        "keyFactors": [
+          "Udinese est 17e avec cinq points et sans victoire depuis sept rencontres.",
+          "Roma est 3e avec 21 points, marque beaucoup plus et vient de battre Cagliari 4-2.",
+          "La Roma compte plusieurs absents, dont Pellegrini, Koné, Svilar et Dybala ; Udinese a gagné le précédent duel à domicile."
+        ],
+        "uncertainty": "Les absences et le déplacement romain rendent nul ou surprise possibles malgré 97 % de choix FDJ sur le 2.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "PitchLab — classement, forme et blessés Udinese–Roma",
+            "url": "https://pitchlabstats.com/match/2026-10-31-udinese-roma",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "FootyPulse — probabilités alternatives et forme Udinese–Roma",
+            "url": "https://footypulse.org/matches/serie-a/udinese-vs-roma-2026-10-31",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Betis Séville",
+      "awayTeam": "Malaga",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 66,
+        "draw": 23,
+        "away": 11
+      },
+      "fdjSelectionDistribution": {
+        "home": 99,
+        "draw": 1,
+        "away": 0,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "Betis favori à domicile, mais les rotations et le nul restent plausibles.",
+        "keyFactors": [
+          "Le Betis bénéficie d'un effectif techniquement supérieur et du terrain à La Cartuja.",
+          "Antony revient ; Pellegrini pourrait faire tourner avant la Ligue des champions.",
+          "Malaga compte plusieurs indisponibles, dont Juan Cruz et Pablo Martínez ; Ángel Recio est incertain."
+        ],
+        "uncertainty": "La concentration FDJ extrême (99/1/0) n'est pas une preuve de résultat certain.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "Comuniate — compositions probables et rotations Betis–Malaga",
+            "url": "https://www.comuniate.com/noticias/38765/alineaciones-probables-del-betis-malaga-segun-la-prensa-las-dudas-de-pellegrini-y-funes-para-el-derbi-andaluz",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Cadena SER — situation médicale de Malaga au 30 octobre",
+            "url": "https://cadenaser.com/andalucia/2026/10/30/el-central-angel-recio-no-entrena-por-un-cuadro-viral-ser-malaga/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Alineaciones Hoy — effectifs et absents Betis–Malaga",
+            "url": "https://alineacioneshoy.es/laliga/real-betis-malaga-31-10-2026/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Fulham",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 51,
+        "draw": 27,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 84,
+        "draw": 11,
+        "away": 5,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "Villa légèrement favori grâce au terrain et à sa forme, mais Fulham peut obtenir un résultat.",
+        "keyFactors": [
+          "Villa est 9e avec 11 points et quatre victoires sur ses cinq derniers matchs.",
+          "Villa est privé d'Onana, Wan-Bissaka et Ruggeri.",
+          "Fulham compte Sessegnon suspendu et plusieurs retours incertains."
+        ],
+        "uncertainty": "Les absences de Villa et les compositions non officielles limitent la confiance dans un 1 surjoué à 84 %.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "Darbah — forme, classement et absences Aston Villa–Fulham",
+            "url": "https://darbah.com/en/match/aston-villa-vs-fulham-1557447/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Dave Sport — calendrier, blessures et forme Aston Villa–Fulham",
+            "url": "https://dave.sport/football/premier-league/2026-27/match/aston-villa-vs-fulham/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Goal.mu — compositions probables et indisponibles",
+            "url": "https://www.goal.mu/predictions/21730/aston-villa-vs-fulham-prediction-team-news-lineups-2026-10-31.html",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Tottenham",
+      "awayTeam": "Crystal Palace",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 58,
+        "draw": 35,
+        "away": 7,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "Tottenham retrouve une bonne dynamique et affronte un Palace fragile défensivement.",
+        "keyFactors": [
+          "Tottenham vient de gagner contre Coventry et Chelsea.",
+          "Palace est 17e et a encaissé 19 buts en huit journées.",
+          "Palace a toutefois gagné ses deux derniers déplacements de championnat chez Tottenham."
+        ],
+        "uncertainty": "Un derby londonien reste incertain malgré le favoritisme des Spurs.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "Football365 — forme et analyse Tottenham–Palace",
+            "url": "https://www.football365.com/match-preview/tottenham-v-crystal-palace-prediction-preview",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Goal.com — avant-match Tottenham–Palace du 28 octobre",
+            "url": "https://www.goal.com/en/news/tottenham-hotspur-crystal-palace-premier-league-preview/blt61c0df5ed927b7ec",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Forebet — statistiques Tottenham–Palace",
+            "url": "https://www.forebet.com/en/football-match-previews/31672-tottenham-set-for-capital-clash-with-crystal-palace-after-chelsea-boost",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Dortmund",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 63,
+        "draw": 22,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 68,
+        "draw": 14,
+        "away": 18,
+        "accessedAt": "2026-10-31T02:12:02+01:00"
+      },
+      "analysis": {
+        "summary": "Bayern favori à domicile par son attaque, mais Dortmund est invaincu et très solide derrière.",
+        "keyFactors": [
+          "Les deux équipes sont invaincues avec 17 points après sept journées.",
+          "Bayern a marqué 25 buts contre 12 à Dortmund, mais sera privé de Neuer, Musiala et Luis Díaz.",
+          "Dortmund n'a encaissé que quatre buts ; Karetsas pourrait revenir et Emre Can est absent."
+        ],
+        "uncertainty": "Les absences bavaroises et la défense du BVB rendent le nul crédible.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°151",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/848",
+            "accessedAt": "2026-10-31T02:12:02+01:00"
+          },
+          {
+            "label": "Top Mercato — forme, blessés et compositions Bayern–Dortmund",
+            "url": "https://www.topmercato.com/2151677-pronostic-bayern-munich-vs-borussia-dortmund-31-10-2026/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Reuters — déclaration de Kovac sur Karetsas",
+            "url": "https://www.reuters.com/sports/soccer/dortmunds-karetsas-could-be-fit-face-bayern-says-coach-kovac-2026-10-29/",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          },
+          {
+            "label": "Forebet — forme et analyse Bayern–Dortmund",
+            "url": "https://www.forebet.com/fr/football-match-previews/31704-bayern-munich-seek-to-extend-undefeated-streak-as-dortmund-visit-allianz-arena",
+            "accessedAt": "2026-10-31T02:12:38+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
