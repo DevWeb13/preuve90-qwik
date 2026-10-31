@@ -1,0 +1,592 @@
+{
+  "id": "lf12-95-2026-11-01",
+  "formula": 12,
+  "gridNumber": 95,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+  "validationDeadline": "2026-11-01T14:55:00+01:00",
+  "publishedAt": "2026-10-31T22:00:30.531+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse complète dans les dernières 24 heures sur les douze rencontres avec répartitions FDJ et sources sportives indépendantes. Scénario des issues les plus probables : environ 5,26 % d'au moins 9/12 et 0,0115 % de 12/12 sous hypothèse simplificatrice d'indépendance. Lyon (91 % de choix FDJ contre 62 % sportifs), Real Madrid (91 % contre 65 %), Francfort (74 % contre 47 %), Strasbourg (64 % contre 44 %) et Lazio (89 % contre 74 %) sont surconcentrés dans les choix FDJ. Les alternatives sportivement plausibles ont un potentiel de rapport relatif, pas une espérance de gain calculable sans distribution des tickets concurrents. Mémoire v2 : 158 publications réglées, résultat net -868,60 € (-68,6 %), rendement LF12 -81,1 %, 20 dernières -1,00 € sur un ticket, calibration récente +5,2 points sans correction mécanique. Les rapports historiques des rangs 9 à 12 sont très dispersés et ne prédisent pas le rapport futur. Aucune combinaison initiale ni variante ne présente une justification financière assez robuste pour engager 1 € virtuel : skip définitif, zéro ticket, zéro mise, sans minimum artificiel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 53,
+        "draw": 25,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 20,
+        "away": 13,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Marseille favori au Vélodrome après trois succès, mais Toulouse reste invaincu sur cinq journées.",
+        "keyFactors": [
+          "L'OM a marqué douze buts mais encaissé huit buts lors de ses trois dernières victoires.",
+          "Gouiri est disponible; Cornelius reste forfait.",
+          "Toulouse est invaincu depuis cinq journées et Messali est forfait."
+        ],
+        "uncertainty": "Défense marseillaise fragile et compositions non confirmées; le nul reste plausible.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Top Mercato — OM–Toulouse, 31 octobre",
+            "url": "https://www.topmercato.com/2152090-pronostic-marseille-vs-toulouse-01-11-2026/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Sport.fr — OM–Toulouse, 30 octobre",
+            "url": "https://www.sport.fr/football/ligue-1-compos-probables-pour-om-toulouse-dimanche-a-20h45-avec-un-gros-doute-autour-de-gouiri-1495417.shtm",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 35,
+        "draw": 29,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 36,
+        "draw": 30,
+        "away": 34,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Duel très équilibré entre Paris FC solide à domicile et Monaco légèrement supérieur sur le papier.",
+        "keyFactors": [
+          "Paris FC est invaincu à domicile.",
+          "Monaco n'a pas gagné en championnat en octobre et Fati et Idumbo sont absents.",
+          "Forepitch estime Paris 35 %, nul 28 %, Monaco 37 %."
+        ],
+        "uncertainty": "Plusieurs joueurs parisiens incertains, notamment Ikoné, Koleosho et Matondo.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Forepitch — Paris FC–Monaco, 31 octobre",
+            "url": "https://forepitch.com/fr/football/match/paris-fc-monaco-2026-11-01/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Sport.fr — Paris FC–Monaco, 30 octobre",
+            "url": "https://www.sport.fr/football/as-monaco-le-bvb-garde-un-oeil-sur-paris-brunner-1485987.shtm",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lyon",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 62,
+        "draw": 23,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 91,
+        "draw": 6,
+        "away": 3,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Lyon favori à domicile mais 91 % de choix FDJ sur le 1 semblent trop concentrés.",
+        "keyFactors": [
+          "Lyon est mieux classé et défend mieux qu'Angers.",
+          "Sulc, Openda et Tagliafico figurent parmi les absents lyonnais.",
+          "Angers a subi de lourdes défaites contre Brest et Marseille."
+        ],
+        "uncertainty": "Lyon est amoindri offensivement; le nul conserve une probabilité réelle.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "RueDesJoueurs — Lyon–Angers",
+            "url": "https://www.ruedesjoueurs.com/pronostic/lyon-angers-5802976.html",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Top Mercato — Lyon–Angers, 31 octobre",
+            "url": "https://www.topmercato.com/2151828-pronostic-lyon-vs-angers-01-11-2026/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 44,
+        "draw": 28,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 64,
+        "draw": 22,
+        "away": 14,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Strasbourg seulement légèrement favori après quatre défaites consécutives, face à un Auxerre en progrès.",
+        "keyFactors": [
+          "Strasbourg a concédé 18 buts en huit matchs et n'a aucun clean sheet.",
+          "Auxerre a pris des points dans quatre de ses cinq derniers matchs.",
+          "Panichelli est absent; plusieurs défenseurs auxerrois sont incertains."
+        ],
+        "uncertainty": "Les deux défenses sont fragiles et plusieurs titulaires restent incertains.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Sports Mole — Strasbourg–Auxerre, 30 octobre",
+            "url": "https://www.sportsmole.co.uk/football/strasbourg/preview/strasbourg-vs-auxerre-prediction-team-news-lineups_608034.html",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Forepitch — Strasbourg–Auxerre, 31 octobre",
+            "url": "https://forepitch.com/fr/football/match/strasbourg-auxerre-2026-11-01/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 33,
+        "draw": 25,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 34,
+        "draw": 32,
+        "away": 34,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Arsenal légèrement favori selon Opta, mais l'avantage d'Anfield équilibre cette affiche.",
+        "keyFactors": [
+          "Opta attribue 41,8 % de probabilité de victoire à Arsenal.",
+          "Arsenal n'a gagné aucun de ses treize derniers déplacements de championnat à Liverpool.",
+          "Plusieurs joueurs importants restent absents ou incertains."
+        ],
+        "uncertainty": "Compositions provisoires et forte variance entre deux équipes proches.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Opta Analyst — Liverpool–Arsenal, 30 octobre",
+            "url": "https://theanalyst.com/articles/liverpool-vs-arsenal-prediction-premier-league-preview-11-2026",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "This Is Anfield — effectifs, 31 octobre",
+            "url": "https://www.thisisanfield.com/2026/10/liverpool-vs-arsenal-team-news-likely-lineups-referee-tv-info/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Naples",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 35,
+        "draw": 30,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 32,
+        "away": 27,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Rencontre sans favori net entre deux équipes diminuées par les blessures.",
+        "keyFactors": [
+          "Sky Sport signale Yildiz, Thuram et Locatelli absents côté Juventus.",
+          "Naples doit composer sans Lobotka et plusieurs autres joueurs.",
+          "L'avantage du terrain turinois est compensé par les absences."
+        ],
+        "uncertainty": "Les compositions restent prévisionnelles; les trois issues sont crédibles.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Sky Sport Italia — Juventus–Naples, compositions",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-10/juventus-napoli/formazioni",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Juventus FC — bulletin médical Locatelli",
+            "url": "https://www.juventus.com/en/news/articles/medical-update-manuel-locatelli-and-jeremie-boga-08-09-26",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Santander",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 14,
+        "draw": 21,
+        "away": 65
+      },
+      "fdjSelectionDistribution": {
+        "home": 5,
+        "draw": 4,
+        "away": 91,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Real Madrid reste favori mais les 91 % de choix FDJ sur le 2 dépassent largement la certitude sportive.",
+        "keyFactors": [
+          "Le Real a convoqué Mbappé, Bellingham et Courtois le 31 octobre.",
+          "Valverde ne voyage pas, Vinícius est suspendu et Asencio indisponible.",
+          "Santander est invaincu à domicile."
+        ],
+        "uncertainty": "Effectif madrilène incomplet et Racing solide chez lui; le 2 n'est pas certain.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Real Madrid — convocation officielle, 31 octobre",
+            "url": "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/convocations/convocatoria-del-real-madrid-contra-el-racing-31-10-2026",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "AS — absence de Valverde, 31 octobre",
+            "url": "https://as.com/futbol/primera/valverde-seria-duda-para-el-racing-f202610-n/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Ath. Bilbao",
+      "awayTeam": "Real Sociedad",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 40,
+        "draw": 29,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 42,
+        "draw": 33,
+        "away": 25,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Derby basque équilibré avec petit avantage au terrain de Bilbao; la Real est en meilleure dynamique.",
+        "keyFactors": [
+          "Bilbao vient de battre Getafe 4-0 et retrouve Laporte.",
+          "La Real reste sur quatre victoires de championnat.",
+          "Guruzeta et Ruiz de Galarreta sont indisponibles; Sancet reste à surveiller."
+        ],
+        "uncertainty": "Retours et absences au milieu de Bilbao peuvent modifier le derby.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "RotoWire — derby basque, 29 octobre",
+            "url": "https://www.rotowire.com/soccer/article/athletic-club-vs-real-sociedad-prediction-predicted-lineups-team-news-144597",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FotMob — Athletic–Real Sociedad",
+            "url": "https://www.fotmob.com/en-GB/matches/athletic-club-vs-real-sociedad/2cs4ea",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Ein.Francfort",
+      "awayTeam": "Hambourg",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 47,
+        "draw": 28,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 16,
+        "away": 10,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Francfort légèrement favori à domicile et vainqueur 3-1 en coupe cette semaine, mais son championnat est irrégulier.",
+        "keyFactors": [
+          "Francfort compte huit points contre neuf pour Hambourg après sept journées.",
+          "Francfort a battu Hambourg 3-1 en coupe cette semaine.",
+          "Hambourg compte de nombreux blessés au milieu et en attaque."
+        ],
+        "uncertainty": "Francfort reste vulnérable défensivement; 74 % FDJ sur le 1 paraissent concentrés.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Victory Picks — Francfort–Hambourg, blessures",
+            "url": "https://www.victorypicks.com/en/previews/eintracht-frankfurt-vs-hamburger-sv-november-1-2026-2818/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FotMob — Francfort–Hambourg",
+            "url": "https://www.fotmob.com/fr/matches/hamburger-sv-vs-eintracht-frankfurt/36dd0a",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Union Berlin",
+      "awayTeam": "Cologne",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 36,
+        "draw": 30,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 30,
+        "away": 26,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Union a l'avantage du terrain, mais Cologne vient de l'écraser 5-0 en coupe; match très ouvert.",
+        "keyFactors": [
+          "Cologne a battu Union 5-0 en coupe le 27 octobre avec un doublé d'El Mala.",
+          "Union reste sur trois matchs sans défaite en championnat mais marque peu.",
+          "Uduokhai est suspendu à Union; Cologne souffre à l'extérieur en championnat."
+        ],
+        "uncertainty": "La coupe et la Bundesliga peuvent avoir des compositions différentes; le score 5-0 ne se répète pas mécaniquement.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "WELT/dpa — Cologne 5-0 Union, 27 octobre",
+            "url": "https://www.welt.de/regionales/berlin/article6ae119a6b1ddd5bf4bf73412/gala-auftritt-el-mala-fuehrt-koeln-ins-pokal-achtelfinale.html",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Statz — Union–Cologne, 30 octobre",
+            "url": "https://statz.ai/news/19735130-u-berlin-vs-koln-predictions-betting-tips",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Torino",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 46,
+        "draw": 27,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 26,
+        "away": 20,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Frosinone légèrement favori grâce à sa série à domicile, mais le Torino possède un historique favorable.",
+        "keyFactors": [
+          "Frosinone est sixième avec dix-sept points et a gagné ses quatre derniers matchs à domicile.",
+          "Torino est neuvième avec treize points et a marqué lors de ses cinq derniers matchs.",
+          "Frosinone n'a jamais battu Torino en Serie A selon Eurosport."
+        ],
+        "uncertainty": "Petit échantillon historique et absences côté Torino; rencontre moins déséquilibrée que les choix FDJ.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Eurosport — Frosinone–Torino, 30 octobre",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/frosinone-torino-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23350622/story.shtml",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Stadiro — Frosinone–Torino",
+            "url": "https://stadiro.com/matches/italy/serie-a/2026-11-01/frosinone-v-torino/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Lazio Rome",
+      "awayTeam": "Cagliari",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 74,
+        "draw": 18,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 89,
+        "draw": 7,
+        "away": 4,
+        "accessedAt": "2026-10-31T21:59:05+01:00"
+      },
+      "analysis": {
+        "summary": "Lazio largement favorite après un début de saison exceptionnel; Cagliari arrive en mauvaise forme.",
+        "keyFactors": [
+          "La Lazio a huit victoires et un nul après neuf journées, avec un récent 6-2 à Sassuolo.",
+          "Cagliari reste sur plusieurs défaites et gagne rarement chez la Lazio.",
+          "Gudmundsson manque à la Lazio; Rovella et Marusic sont incertains."
+        ],
+        "uncertainty": "Compositions et éventuelles rotations non confirmées; le 1 reste probable mais pas certain.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF12 n°95",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-12/587",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "Victory Picks — Lazio–Cagliari, absences",
+            "url": "https://www.victorypicks.com/en/previews/lazio-vs-cagliari-november-1-2026-2812/",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          },
+          {
+            "label": "FotMob — Lazio–Cagliari",
+            "url": "https://www.fotmob.com/en-GB/matches/cagliari-vs-lazio/2ersjb",
+            "accessedAt": "2026-10-31T21:59:05+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
