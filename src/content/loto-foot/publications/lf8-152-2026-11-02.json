@@ -1,0 +1,411 @@
+{
+  "id": "lf8-152-2026-11-02",
+  "formula": 8,
+  "gridNumber": 152,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+  "validationDeadline": "2026-11-02T18:25:00+01:00",
+  "publishedAt": "2026-11-01T22:00:39+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse sportive complète actualisée dans les dernières 24 heures, avec sources indépendantes et mémoire statistique v2. Le scénario des huit issues individuellement les plus probables atteint 0.157 % pour 8/8 et 1.76 % pour au moins 7/8 sous hypothèse simplificatrice d'indépendance. Reims (81 % FDJ contre 56 % sportifs), Atalanta (78 % contre 60 %), Red Star (59 % contre 37 %) et La Corogne (59 % contre 43 %) apparaissent surjoués; Nancy et les nuls offrent des signaux de valeur relative sans rentabilité démontrée. Mémoire v2 : 159 publications réglées, net -868,60 € (-68,6 %), rendement LF8 -62,7 %, vingt dernières -1 € (un seul ticket joué), calibration récente +4,8 points sans correction mécanique. Rapports LF8 historiques (médianes 7/8 50,85 €, 8/8 818 €) descriptifs, non prédictifs pour les scénarios spécifiques dépendant du nombre d'autres gagnants. Après examen de scénarios cohérents et de la concentration FDJ, aucun premier ticket ni ticket supplémentaire ne présente une justification financière suffisamment crédible pour son coût de 1 €. Skip définitif sans mise minimale, zéro combinaison et zéro mise virtuelle."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lorient",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 41,
+        "draw": 29,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 58,
+        "draw": 22,
+        "away": 20,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Lorient légèrement favori par sa défense, mais Brest a une attaque plus productive et ce derby reste équilibré.",
+        "keyFactors": [
+          "Lorient a cinq clean sheets en huit matchs, dont trois de suite.",
+          "Brest a marqué quatorze buts mais n'a pas encore gardé sa cage inviolée.",
+          "Katseris et Mbamba absents à Lorient; Chardonnet et Le Guen absents à Brest."
+        ],
+        "uncertainty": "Derby, disponibilité de plusieurs attaquants incertaine, compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Top Mercato — Lorient–Brest, 1er novembre",
+            "url": "https://www.topmercato.com/2152179-pronostic-lorient-vs-brest-02-11-2026/",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Alineaciones Hoy — Lorient–Brest, forme et onze",
+            "url": "https://alineacioneshoy.es/ligue-1/lorient-brest-02-11-2026/",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-11-02T20:45:00+01:00"
+    },
+    {
+      "position": 2,
+      "homeTeam": "Red Star",
+      "awayTeam": "Nancy",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 37,
+        "draw": 29,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 21,
+        "away": 20,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Nancy affiche une meilleure dynamique récente, mais l'avantage du terrain rend Red Star–Nancy indécis.",
+        "keyFactors": [
+          "Nancy a remporté ses quatre derniers matchs et devance le Red Star au classement.",
+          "Le Red Star a perdu ses deux dernières rencontres et joue à Bauer.",
+          "Durivaux est annoncé suspendu, plusieurs Franciliens indisponibles; Kandil est incertain à Nancy."
+        ],
+        "uncertainty": "Les informations d'effectif sont parfois divergentes; aucune issue ne dépasse 40 %.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "PenseBet — Red Star–Nancy, 1er novembre",
+            "url": "https://pensebet.com/pronostic-red-star-nancy-ligue-2-01-11-2026/",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Betora — Red Star–Nancy, forme et classement",
+            "url": "https://betora.app/fr/pronostic/france-ligue-2/nancy-vs-red-star-fc-93",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Reims",
+      "awayTeam": "Sochaux",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 56,
+        "draw": 26,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 11,
+        "away": 8,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Reims favori et invaincu en Ligue 2, mais sa fréquence élevée de nuls réduit la confiance dans une victoire sèche.",
+        "keyFactors": [
+          "Reims est invaincu après dix journées avec quatre victoires et six nuls.",
+          "Reims a inscrit vingt buts contre huit à Sochaux, qui reste sur deux défaites.",
+          "Le groupe officiel du 1er novembre inclut Daramy; Okumu, Gbane, Ibrahim, Sylla et Tia sont absents."
+        ],
+        "uncertainty": "Les six nuls de Reims et ses absences rendent la concentration FDJ sur le 1 excessive.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Stade de Reims — groupe officiel, 1er novembre",
+            "url": "https://www.stade-de-reims.com/sdr-fcsm-le-groupe-remois/",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "PenseBet — Reims–Sochaux, 1er novembre",
+            "url": "https://pensebet.com/pronostic-reims-sochaux-ligue-2-01-11-2026/",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-11-02T20:45:00+01:00"
+    },
+    {
+      "position": 4,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Everton",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 42,
+        "draw": 28,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 26,
+        "away": 20,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Newcastle légèrement favori chez lui, mais Everton vient de le battre 3-1 en coupe et reste compétitif.",
+        "keyFactors": [
+          "Everton a gagné la récente confrontation de coupe 3-1, avec des compositions susceptibles de changer.",
+          "Newcastle n'a gagné qu'un de ses quatre matchs de championnat à domicile.",
+          "Livramento est absent, Osula incertain; Branthwaite et Grealish restent à confirmer côté Everton."
+        ],
+        "uncertainty": "L'état des effectifs et les fragilités défensives de Newcastle laissent une forte variance.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "TNT Sports — Newcastle–Everton, 1er novembre",
+            "url": "https://www.tntsports.co.uk/betting/tips/newcastle-vs-everton-prediction-tips-and-odds-02-11-26/",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Football365 — Newcastle–Everton, 1er novembre",
+            "url": "https://www.football365.com/match-preview/newcastle-v-everton-prediction-preview",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-11-02T21:00:00+01:00"
+    },
+    {
+      "position": 5,
+      "homeTeam": "La Corogne",
+      "awayTeam": "Osasuna",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 43,
+        "draw": 29,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 24,
+        "away": 17,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Léger avantage au Deportivo à Riazor entre deux clubs comptant onze points chacun.",
+        "keyFactors": [
+          "Les deux équipes totalisent onze points après dix journées.",
+          "Osasuna a convoqué officiellement 23 joueurs le 1er novembre.",
+          "Del Castillo, Aimar et Herrando sont forfaits à Osasuna; plusieurs joueurs du Deportivo sont indisponibles."
+        ],
+        "uncertainty": "Compositions provisoires et absences offensives du Deportivo rendent le 1 incertain.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Osasuna — convocation officielle du 1er novembre",
+            "url": "https://www.osasuna.es/convocatoria-deporosasuna-2026/27",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Alineaciones Hoy — Deportivo–Osasuna, 1er novembre",
+            "url": "https://alineacioneshoy.es/laliga/deportivo-la-coruna-osasuna-02-11-2026/",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-11-02T21:00:00+01:00"
+    },
+    {
+      "position": 6,
+      "homeTeam": "Gil Vicente",
+      "awayTeam": "Guimaraes",
+      "competition": "Liga Portugal",
+      "probabilities": {
+        "home": 45,
+        "draw": 27,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 47,
+        "draw": 24,
+        "away": 29,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Gil Vicente légèrement favori chez lui par sa défense et la mauvaise série de déplacements de Vitória, mais match ouvert.",
+        "keyFactors": [
+          "La Liga Portugal confirme l'affiche et l'avantage du terrain.",
+          "Gil Vicente a quatorze points en neuf matchs et a encaissé sept buts.",
+          "Vitória a perdu ses quatre déplacements de championnat, mais possède un historique favorable face à Gil Vicente."
+        ],
+        "uncertainty": "Les séries sont courtes et les compositions définitives inconnues.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Liga Portugal — fiche officielle Gil Vicente–Vitória",
+            "url": "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/10/5",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "TheyScored — forme et défense, 1er novembre",
+            "url": "https://www.theyscored.com/football-predictions/portugal-primeira-liga/gil-vicente-vs-vitoria-guimaraes-prediction-02-november-2026_1523",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "OddAlerts — modèle et confrontations",
+            "url": "https://www.oddalerts.com/livescores/gil-vicente-vs-vitoria-guimaraes/10680-10341",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Fiorentina",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 38,
+        "draw": 29,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 28,
+        "away": 31,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Rencontre très ouverte; Sassuolo possède un petit avantage au terrain mais les deux effectifs sont diminués.",
+        "keyFactors": [
+          "Sassuolo a gagné quatre de ses cinq dernières réceptions de la Fiorentina en Serie A.",
+          "Thorstvedt suspendu, Boloca, Leysen et Koné indisponibles pour Sassuolo.",
+          "Pongračić, Ranieri, Parisi et Atta sont absents à la Fiorentina."
+        ],
+        "uncertainty": "Compositions provisoires et faible écart sportif entre les trois issues.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Eurosport / Opta — Sassuolo–Fiorentina",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/sassuolo-fiorentina-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23350631/story.shtml",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Sky Sport — compositions et suspendus",
+            "url": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-10/sassuolo-fiorentina/formazioni",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-11-02T18:30:00+01:00"
+    },
+    {
+      "position": 8,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Parme",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 60,
+        "draw": 24,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 78,
+        "draw": 12,
+        "away": 10,
+        "accessedAt": "2026-11-01T22:00:39+01:00"
+      },
+      "analysis": {
+        "summary": "Atalanta favorite sur son historique à domicile et la faiblesse de Parme à l'extérieur, mais fortement diminuée.",
+        "keyFactors": [
+          "Atalanta a gagné huit des dix dernières confrontations contre Parme en Serie A.",
+          "Parme reste sur six défaites consécutives à l'extérieur en Serie A.",
+          "Bellanova, Scamacca, Hien, Kossounou et plusieurs autres sont annoncés indisponibles côté Atalanta."
+        ],
+        "uncertainty": "L'effectif amoindri de l'Atalanta réduit la fiabilité du 1 malgré les 78 % de choix FDJ.",
+        "sources": [
+          {
+            "label": "FDJ — liste des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°152",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/849",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "Eurosport / Opta — Atalanta–Parme",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/atalanta-parma-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23350632/story.shtml",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          },
+          {
+            "label": "FotMob — forme et statistiques récentes",
+            "url": "https://www.fotmob.com/it/matches/atalanta-vs-parma/2w0b82",
+            "accessedAt": "2026-11-01T22:00:39+01:00"
+          }
+        ]
+      },
+      "startsAt": "2026-11-02T20:45:00+01:00"
+    }
+  ],
+  "tickets": []
+}
