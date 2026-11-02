@@ -1,0 +1,384 @@
+{
+  "id": "lf7-137-2026-11-03",
+  "formula": 7,
+  "gridNumber": 137,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+  "validationDeadline": "2026-11-03T20:55:00+01:00",
+  "publishedAt": "2026-11-02T22:04:20+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Décision financière définitive pour LF7 n°137 dans les 24 dernières heures, après consultation FDJ et recherches sportives par rencontre. Scénario des sept issues modales (2-1-1-2-1-2-1) : environ 0.72 % de 7/7 et 5.46 % d'exactement 6/7 sous hypothèse simplificatrice d'indépendance; ces chiffres ne sont pas une prévision de rapport. Les favoris PSG (79 % de choix FDJ contre 58 % estimés), LASK (74 % contre 62 %), Inter (54 % contre 38 %) et Barcelone (88 % contre 68 %) sont très concentrés dans les choix publics. Les scénarios alternatifs (Atlético, Feyenoord, nuls ou surprise de Villa) sont sportivement plausibles et parfois moins sélectionnés, mais le pool et la distribution des combinaisons des autres joueurs sont inconnus : impossible d'en déduire une espérance de gain positive. Mémoire v2 : 162 publications réglées, résultat net -868,60 € (-68,6 %), rendement LF7 -61,0 %, vingt dernières -1,00 € (un seul ticket joué), calibration récente +8,4 points de sous-confiance observée sans correction mécanique. Les rapports LF7 historiques (médianes 6/7 15,90 € et 7/7 198 €) sont descriptifs, non prédictifs et ne compensent pas l'incertitude sur la popularité réelle des scénarios. Aucun premier ticket, ni variante supplémentaire à 1 €, ne présente une justification suffisamment solide de résultat net positif. Skip sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Paris Saint-Germain",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-11-03T21:00:00+01:00",
+      "probabilities": {
+        "home": 20,
+        "draw": 22,
+        "away": 58
+      },
+      "fdjSelectionDistribution": {
+        "home": 11,
+        "draw": 10,
+        "away": 79,
+        "accessedAt": "2026-11-02T22:04:20+01:00"
+      },
+      "analysis": {
+        "summary": "Paris est favori grâce à ses résultats européens et sa puissance offensive, mais les absences dans son groupe et la capacité de Villarreal à marquer maintiennent une incertitude réelle.",
+        "keyFactors": [
+          "Le PSG a gagné ses trois premiers matchs européens et vient de battre Barcelone 4-2 à l'extérieur.",
+          "Villarreal a perdu 4-3 à Liverpool après avoir mené 2-0 et n'a pas gardé sa cage inviolée en Ligue des champions depuis 14 matchs.",
+          "Le groupe officiel parisien publié pour ce déplacement ne comprend pas plusieurs cadres habituels, notamment Dembélé, Kvaratskhelia et Marquinhos."
+        ],
+        "uncertainty": "Le PSG reste très sélectionné par le public FDJ (79 %) malgré ses absences; Villarreal peut marquer chez lui et la composition exacte reste inconnue.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°137",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "UEFA — faits et forme Villarreal–Paris, 29 octobre",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21f16182dd0c-26021440a631-1000--champions-league-matchday-4-villarreal-vs-paris-saint-ger/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "PSG — groupe officiel pour Villarreal, 2 novembre",
+            "url": "https://www.psg.fr/content/le-groupe-pour-villarreal-cf-paris-saint-germain-uefa-champions-league-20262027",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Bodø/Glimt",
+      "awayTeam": "Lille",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-11-03T21:00:00+01:00",
+      "probabilities": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 18,
+        "away": 17,
+        "accessedAt": "2026-11-02T22:04:20+01:00"
+      },
+      "analysis": {
+        "summary": "Bodø/Glimt possède un avantage à domicile en Ligue des champions, renforcé par la mauvaise série européenne de Lille, sans constituer un favori certain.",
+        "keyFactors": [
+          "Bodø/Glimt a remporté ses six derniers matchs européens à domicile, dont un succès 1-0 contre Dortmund cette saison.",
+          "Lille a perdu ses trois premiers matchs de la phase de ligue et reste sur cinq défaites européennes consécutives.",
+          "La pelouse synthétique et les conditions norvégiennes favorisent les habitudes locales; plusieurs absences ou suspensions sont signalées côté lillois."
+        ],
+        "uncertainty": "Le public FDJ joue Bodø/Glimt à 65 %; la forme domestique de Lille est moins mauvaise que sa forme européenne et les compositions ne sont pas définitives.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°137",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "UEFA — faits Bodø/Glimt–Lille, 29 octobre",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02aa-21f15816acc8-5877966688e5-1000--champions-league-matchday-4-bodo-glimt-vs-lille-facts/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "Ninety — effectifs et absences Bodø/Glimt–Lille",
+            "url": "https://the90fc.com/match/uefa.champions/401915384",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Atlético de Madrid",
+      "awayTeam": "Bayern Munich",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-11-03T21:00:00+01:00",
+      "probabilities": {
+        "home": 37,
+        "draw": 29,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 30,
+        "draw": 26,
+        "away": 44,
+        "accessedAt": "2026-11-02T22:04:20+01:00"
+      },
+      "analysis": {
+        "summary": "L'Atlético est très solide chez lui, tandis que les blessures offensives du Bayern rééquilibrent une affiche où les Allemands disposent néanmoins d'un potentiel offensif majeur.",
+        "keyFactors": [
+          "L'Atlético reste sur plusieurs victoires en championnat et a battu Manchester United 2-0 en Ligue des champions.",
+          "Le Bayern a marqué régulièrement mais concédé plusieurs buts récemment, notamment dans ses nuls européens.",
+          "Musiala, Luis Díaz, Gnabry et Saibari sont annoncés indisponibles; Neuer et Olise ont repris l'entraînement mais leur participation reste incertaine."
+        ],
+        "uncertainty": "Koke est signalé absent à l'Atlético; la disponibilité de Neuer et Olise peut déplacer les probabilités, et aucune issue ne domine clairement.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°137",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats de l'Atlético",
+            "url": "https://www.uefa.com/uefachampionsleague/clubs/50124/matches/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "ORF — nouvelles de l'effectif du Bayern, 2 novembre",
+            "url": "https://sport.orf.at/stories/3164382/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "LineupsToday — absences Atlético–Bayern",
+            "url": "https://lineupstoday.com/champions-league/atletico-madrid-bayern-munchen-03-11-2026/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Manchester United",
+      "awayTeam": "AS Rome",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-11-03T21:00:00+01:00",
+      "probabilities": {
+        "home": 33,
+        "draw": 29,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 35,
+        "draw": 24,
+        "away": 41,
+        "accessedAt": "2026-11-02T22:04:20+01:00"
+      },
+      "analysis": {
+        "summary": "La Roma possède une meilleure dynamique et un léger avantage sportif, mais Manchester United joue à Old Trafford et conserve des joueurs capables de renverser un match.",
+        "keyFactors": [
+          "Manchester United reste sur neuf rencontres sans victoire, avec une défense et une attaque en difficulté.",
+          "La Roma a davantage de points dans la phase de ligue et une meilleure dynamique offensive.",
+          "Luke Shaw, Rashford et Sesko sont annoncés absents côté United; Carrick reste sous pression et Lisandro Martínez devrait être disponible contre Rome."
+        ],
+        "uncertainty": "L'avantage du terrain, la pression sur United et les absences non totalement stabilisées de la Roma rendent l'issue incertaine.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°137",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "Reuters — conférence de Carrick et forme de United, 2 novembre",
+            "url": "https://www.reuters.com/sports/soccer/uniteds-carrick-brushes-off-questions-over-his-future-ahead-roma-clash-2026-11-02/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "The Guardian — effectif et contexte United–Roma, 2 novembre",
+            "url": "https://www.theguardian.com/football/2026/nov/02/michael-carrick-lisandro-martinez-manchester-united-roma-champions-league",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "UEFA — programme officiel du 3 novembre",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-phase-fixtures/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "LASK Linz",
+      "awayTeam": "Slovan Bratislava",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-11-03T21:00:00+01:00",
+      "probabilities": {
+        "home": 62,
+        "draw": 23,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 14,
+        "away": 12,
+        "accessedAt": "2026-11-02T22:04:20+01:00"
+      },
+      "analysis": {
+        "summary": "Le LASK est favori face à une équipe du Slovan en grande difficulté en Ligue des champions, mais sa défense poreuse limite la confiance.",
+        "keyFactors": [
+          "Le LASK a battu le Sporting 3-2 à l'extérieur, mais a encaissé six buts contre Liverpool et perdu ensuite contre Salzbourg.",
+          "Le Slovan a perdu ses trois matchs européens, avec très peu de production offensive et de nombreux buts encaissés.",
+          "Kalajdzic est annoncé de retour pour le LASK; plusieurs joueurs sont absents ou non qualifiés dans les deux équipes."
+        ],
+        "uncertainty": "Les données européennes reposent sur trois rencontres seulement; les 74 % de choix FDJ sur le LASK dépassent sensiblement notre probabilité estimée.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°137",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "UEFA — calendrier et résultats de la phase de ligue",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-phase-fixtures/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "My Football Facts — statistiques LASK–Slovan",
+            "url": "https://www.myfootballfacts.com/match/uefa-champions-league-2026-27-lask-vs-slovan-bratislava-2026-11-03/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "Sport.fr — compositions et indisponibilités, 2 novembre",
+            "url": "https://www.sport.fr/football/ligue-des-champions-compos-probables-pour-lask-slovan-bratislava-mardi-a-21h-avec-kalajdzic-de-retour-1496394.shtm",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Feyenoord",
+      "awayTeam": "Inter Milan",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-11-03T21:00:00+01:00",
+      "probabilities": {
+        "home": 34,
+        "draw": 28,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 23,
+        "draw": 23,
+        "away": 54,
+        "accessedAt": "2026-11-02T22:04:20+01:00"
+      },
+      "analysis": {
+        "summary": "Inter légèrement favori par sa qualité d'effectif, mais Feyenoord est solide à domicile et l'Inter compte plusieurs absences.",
+        "keyFactors": [
+          "Feyenoord est invaincu en Eredivisie après onze journées et a battu Como 3-2 chez lui en Ligue des champions.",
+          "L'Inter a gagné son premier match européen contre Shakhtar après deux défaites, et joue à Rotterdam.",
+          "Bastoni est suspendu côté Inter; Lautaro Martínez et plusieurs défenseurs sont signalés indisponibles ou incertains; Feyenoord a aussi des absents derrière."
+        ],
+        "uncertainty": "L'Inter est choisi à 54 % par le public contre 38 % estimés; la situation exacte des effectifs et l'intensité du De Kuip rendent le résultat ouvert.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°137",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "Inter — analyse officielle de Feyenoord, 2 novembre",
+            "url": "https://www.inter.it/en/news/analysis-opposition-feyenoord-inter-champions-league-2026-27",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "Inter — résultats et classement après trois journées",
+            "url": "https://www.inter.it/en/news/standings-league-phase-inter-fixtures-champions-league-26-27",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "Victory Picks — absences Feyenoord–Inter",
+            "url": "https://www.victorypicks.com/en/previews/feyenoord-vs-inter-november-3-2026-2955/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Aston Villa",
+      "competition": "UEFA Champions League",
+      "startsAt": "2026-11-03T21:00:00+01:00",
+      "probabilities": {
+        "home": 68,
+        "draw": 18,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 88,
+        "draw": 7,
+        "away": 5,
+        "accessedAt": "2026-11-02T22:04:20+01:00"
+      },
+      "analysis": {
+        "summary": "Barcelone est le favori sportif net à domicile, mais Aston Villa a remporté ses trois matchs européens et les absences défensives du Barça rendent les alternatives plausibles.",
+        "keyFactors": [
+          "Le modèle Opta donne environ 72 % de victoires à Barcelone avant le match; notre estimation est un peu plus prudente face aux absences.",
+          "Barcelone vient de battre Alavés 6-1 mais a perdu contre le PSG et le Real Madrid récemment.",
+          "Aston Villa a trois victoires en Ligue des champions; Koundé, Eric García et Christensen sont absents ou incertains côté Barça."
+        ],
+        "uncertainty": "Le public FDJ concentre 88 % des choix sur Barcelone; un nul ou une victoire anglaise reste possible, mais leurs faibles probabilités n'en font pas automatiquement de bons tickets.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FDJ — fiche officielle LF7 n°137",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4954",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "Opta Analyst — prévision Barcelone–Aston Villa, 2 novembre",
+            "url": "https://theanalyst.com/articles/barcelona-vs-aston-villa-prediction-champions-league-preview-11-2026",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "FotMob — forme et absences Barcelone–Aston Villa",
+            "url": "https://www.fotmob.com/matches/barcelona-vs-aston-villa/2y6ucv",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          },
+          {
+            "label": "UEFA — programme officiel du 3 novembre",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-phase-fixtures/",
+            "accessedAt": "2026-11-02T22:04:20+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
