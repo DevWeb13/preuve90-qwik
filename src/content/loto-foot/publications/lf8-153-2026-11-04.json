@@ -1,0 +1,377 @@
+{
+  "id": "lf8-153-2026-11-04",
+  "formula": 8,
+  "gridNumber": 153,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+  "validationDeadline": "2026-11-04T18:40:00+01:00",
+  "publishedAt": "2026-11-03T18:01:54+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Analyse actualisée des huit matchs à moins de 24 heures de la clôture. Les scénarios les plus plausibles sont très concentrés sur Arsenal, Real Madrid et Liverpool, tandis que Dortmund, Manchester City, Porto et PSV présentent des incertitudes importantes. Les répartitions FDJ signalent des alternatives sous-jouées (notamment Bruges, Betis, Leipzig et le nul à Porto), mais cet écart ne démontre aucun gain espéré positif. Mémoire statistique v2 : 163 publications réglées, net historique -868,60 € et rendement LF8 -62,7 %; sur les 20 dernières, un ticket de 1 € et aucun retour, calibration récente +6,8 points sans ajustement mécanique. Les rapports historiques LF8 (médianes 7/8 : 52,20 € et 8/8 : 829 €) ne prédisent pas les rapports futurs. Aucun premier ticket ni ajout n'offre de justification financière crédible à son coût de 1 €. Décision skip, sans mise minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lens",
+      "awayTeam": "Como 1907",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 31,
+        "draw": 28,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 30,
+        "draw": 26,
+        "away": 44,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Como arrive avec une meilleure dynamique européenne et offensive, mais Lens reste dangereux à Bollaert.",
+        "keyFactors": [
+          "Como a notamment battu Manchester United 4-1 et Lens reste sans but dans ses deux rencontres européennes récentes.",
+          "Lens bénéficie du terrain, tandis que Como a aussi perdu à Feyenoord."
+        ],
+        "uncertainty": "Effectifs annoncés variables selon les sources; écart modéré.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Football UEFA — Lens–Como, aperçu du 1er novembre",
+            "url": "https://www.football-uefa.com/match_preview/lens-vs-como-04-nov-2026/",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Dortmund",
+      "awayTeam": "Betis Séville",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 44,
+        "draw": 29,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 22,
+        "away": 17,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Dortmund léger favori à domicile, mais Betis possède une dynamique européenne solide.",
+        "keyFactors": [
+          "Dortmund a obtenu un nul au Bayern et sa défense reste parfois perméable.",
+          "Betis a battu Porto et Feyenoord en Europe, mais ces succès étaient à domicile."
+        ],
+        "uncertainty": "Le premier déplacement européen récent de Betis rend l'extrapolation incertaine.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Football UEFA — Dortmund–Betis, forme et rencontres",
+            "url": "https://www.football-uefa.com/match_preview/borussia-dortmund-vs-real-betis-04-nov-2026/",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Man. City",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 30,
+        "draw": 28,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 16,
+        "draw": 21,
+        "away": 63,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Manchester City reste favori sur la qualité individuelle, malgré un net regain de Leipzig et la mauvaise série anglaise.",
+        "keyFactors": [
+          "Leipzig vient de gagner trois fois de suite après deux lourdes défaites contre Bayern et Real.",
+          "City reste sur deux défaites et un nul, mais a battu AEK 5-1 en Ligue des champions."
+        ],
+        "uncertainty": "Les dynamiques de championnat et d'Europe divergent; compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Sky Sports — Leipzig–Manchester City, résultats récents",
+            "url": "https://www.skysports.com/football/rb-leipzig-vs-manchester-city/5019443955155717232",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Forebet — Leipzig–City, forme et effectifs",
+            "url": "https://www.forebet.com/en/football-match-previews/32019-margins-to-matter-in-leipzig-as-manchester-city-bring-away-authority",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "FC Porto",
+      "awayTeam": "Naples",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 35,
+        "draw": 30,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 49,
+        "draw": 28,
+        "away": 23,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Affiche très équilibrée, avec un Porto à domicile mais en grande difficulté européenne.",
+        "keyFactors": [
+          "Porto a perdu ses trois premières rencontres européennes, avec deux buts marqués.",
+          "Naples compte trois points, mais a lui aussi concédé sept buts."
+        ],
+        "uncertainty": "La forme nationale de Porto contraste avec ses résultats européens; faible avantage différentiel.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Stadiro — Porto–Napoli, classement et forme",
+            "url": "https://stadiro.com/matches/europe/champions-league/2026-11-04/fc-porto-v-napoli/",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "PSV Eindhoven",
+      "awayTeam": "Club Bruges",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 35,
+        "draw": 28,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 46,
+        "draw": 25,
+        "away": 29,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Rencontre ouverte; Bruges légèrement favori sur la forme, PSV garde un avantage à domicile.",
+        "keyFactors": [
+          "Bruges reste sur cinq victoires dont des succès contre Inter et Lens.",
+          "PSV a gagné à Porto mais manque de régularité offensive; son bilan à domicile reste meilleur."
+        ],
+        "uncertainty": "L'efficacité récente de Bruges peut régresser; défenses exposées.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Football UEFA — PSV–Club Brugge, résultats et effectifs",
+            "url": "https://www.football-uefa.com/match_preview/psv-eindhoven-vs-club-brugge-kv-04-nov-2026/",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Forebet — PSV–Brugge, statistiques récentes",
+            "url": "https://www.forebet.com/en/football-match-previews/32024-clinical-club-brugge-take-aim-at-possession-heavy-psv-as-fine-margins-loom-in-eindhoven",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Slavia Prague",
+      "awayTeam": "Arsenal",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 13,
+        "draw": 19,
+        "away": 68
+      },
+      "fdjSelectionDistribution": {
+        "home": 10,
+        "draw": 11,
+        "away": 79,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Arsenal favori net au vu de sa série européenne, sans négliger le terrain et les absences.",
+        "keyFactors": [
+          "Opta donne Arsenal vainqueur dans 69 % de ses simulations avant match.",
+          "Arsenal reste invaincu sur 18 matchs européens; Slavia sans victoire dans 22 rencontres de C1."
+        ],
+        "uncertainty": "Les indisponibilités et la résistance à domicile de Slavia empêchent toute certitude.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Opta Analyst — Slavia–Arsenal, analyse du 3 novembre",
+            "url": "https://theanalyst.com/articles/slavia-prague-vs-arsenal-prediction-champions-league-preview-11-2026",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Ninety — Slavia–Arsenal, absences",
+            "url": "https://the90fc.com/match/uefa.champions/401915381",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Fenerbahce",
+      "awayTeam": "Liverpool",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 20,
+        "draw": 24,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 13,
+        "draw": 22,
+        "away": 65,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Liverpool favori avec une attaque efficace en Europe; Fenerbahçe peut profiter de ses fragilités défensives.",
+        "keyFactors": [
+          "Liverpool a neuf points après trois matchs européens et douze buts inscrits.",
+          "Fenerbahçe n'a que deux points, mais Liverpool a encaissé sept buts en trois matchs."
+        ],
+        "uncertainty": "Liverpool a plusieurs absents annoncés et Fenerbahçe reste capable de marquer à domicile.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Stadiro — Fenerbahçe–Liverpool, classement et forme",
+            "url": "https://stadiro.com/matches/europe/champions-league/2026-11-04/fenerbahce-v-liverpool/",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Football UEFA — Fenerbahçe–Liverpool, effectifs et forme",
+            "url": "https://football-uefa.com/match_preview/fenerbahce-vs-liverpool-04-nov-2026/",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "AEK Athènes",
+      "awayTeam": "Real Madrid",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 13,
+        "draw": 20,
+        "away": 67
+      },
+      "fdjSelectionDistribution": {
+        "home": 9,
+        "draw": 11,
+        "away": 80,
+        "accessedAt": "2026-11-03T18:01:53+01:00"
+      },
+      "analysis": {
+        "summary": "Real Madrid grand favori après deux succès européens et une série positive, malgré le déplacement.",
+        "keyFactors": [
+          "Le Real a gagné ses cinq dernières rencontres listées, dont Barcelone et Leipzig.",
+          "AEK a subi deux lourdes défaites européennes mais marque beaucoup à domicile dans son championnat."
+        ],
+        "uncertainty": "Les absences madrilènes annoncées et la forte concentration FDJ sur le 2 limitent la valeur.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "FDJ — fiche LF8 n°153",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/850",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "Football UEFA — AEK–Real Madrid, forme et effectifs",
+            "url": "https://football-uefa.com/match_preview/aek-athens-fc-vs-real-madrid-04-nov-2026/",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          },
+          {
+            "label": "EagleEyeOdds — AEK–Real Madrid, analyse comparative",
+            "url": "https://eagleeyeodds.com/predictions/aek-athens-vs-real-madrid-prediction-2026-11-04",
+            "accessedAt": "2026-11-03T18:01:53+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
