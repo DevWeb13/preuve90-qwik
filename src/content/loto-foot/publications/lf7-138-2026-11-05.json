@@ -1,0 +1,315 @@
+{
+  "id": "lf7-138-2026-11-05",
+  "formula": 7,
+  "gridNumber": 138,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+  "validationDeadline": "2026-11-05T20:55:00+01:00",
+  "publishedAt": "2026-11-05T04:54:15.997+00:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "LF7 n°138 : les sept rencontres ont été analysées à moins de 24 heures de la clôture. Leverkusen, Juventus, Sunderland et Monaco sont très concentrés dans les choix du public FDJ, davantage que ne le justifient les probabilités sportives retenues; Celta–Union et Celtic–Besiktas restent équilibrés. Des alternatives moins jouées offrent des signaux relatifs, mais aucun scénario de premier ticket à 1 € ne démontre un potentiel financier assez crédible sans connaissance du pool et des rapports futurs. Mémoire v2 : 166 publications réglées, net historique -868,60 €, rendement LF7 -61 %, sur les 20 dernières un seul ticket joué et perdu; calibration récente +9 points, à interpréter avec prudence. Les scénarios cohérents et les rangs historiques 6/7 et 7/7 ne justifient pas financièrement une mise. Décision skip, sans combinaison minimale."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Leverkusen",
+      "awayTeam": "Marseille",
+      "competition": "Ligue Europa",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 72,
+        "draw": 13,
+        "away": 15,
+        "accessedAt": "2026-11-05T04:54:15.996+00:00"
+      },
+      "analysis": {
+        "summary": "Leverkusen est favori à domicile, mais Marseille dispose de solutions offensives capables de punir les transitions.",
+        "keyFactors": [
+          "Avantage du terrain allemand",
+          "Incertitudes sur les joueurs disponibles des deux équipes"
+        ],
+        "uncertainty": "Compositions et absences non définitives",
+        "sources": [
+          {
+            "label": "FDJ — grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "FDJ — LF7 n°138",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "Lineups Today — effectifs",
+            "url": "https://lineupstoday.com/europa-league/bayer-leverkusen-marseille-05-11-2026/",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "Tips.GG — absences",
+            "url": "https://tips.gg/article/bayer-04-leverkusen-vs-marseille-predicted-lineups-team-news-05-11-2026/",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "AZ Alkmaar",
+      "awayTeam": "Juventus Turin",
+      "competition": "Ligue Europa",
+      "probabilities": {
+        "home": 28,
+        "draw": 27,
+        "away": 45
+      },
+      "fdjSelectionDistribution": {
+        "home": 20,
+        "draw": 18,
+        "away": 62,
+        "accessedAt": "2026-11-05T04:54:15.996+00:00"
+      },
+      "analysis": {
+        "summary": "La Juventus a davantage de qualité individuelle, mais AZ à domicile reste capable de rivaliser.",
+        "keyFactors": [
+          "Juventus plus efficace dans ses dernières rencontres européennes",
+          "Résistance d'AZ à domicile et effectif turinois diminué"
+        ],
+        "uncertainty": "Absences et onze turinois incertains",
+        "sources": [
+          {
+            "label": "FDJ — grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "FDJ — LF7 n°138",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "Forebet — avant-match",
+            "url": "https://www.forebet.com/en/football-match-previews/32035-az-alkmaar-vs-juventus-control-vs-resilience-in-a-finely-poised-europa-league-clash",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Saint-Gilloise",
+      "competition": "Ligue Europa",
+      "probabilities": {
+        "home": 35,
+        "draw": 27,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 42,
+        "draw": 25,
+        "away": 33,
+        "accessedAt": "2026-11-05T04:54:15.996+00:00"
+      },
+      "analysis": {
+        "summary": "Rencontre équilibrée, Union Saint-Gilloise présentant une dynamique intéressante mais Celta recevant à Balaídos.",
+        "keyFactors": [
+          "Bonne dynamique récente des Belges",
+          "Avantage du terrain pour Celta"
+        ],
+        "uncertainty": "Comparaison de niveaux entre championnats et rotations incertaines",
+        "sources": [
+          {
+            "label": "FDJ — grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "FDJ — LF7 n°138",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "EagleEyeOdds — contexte et projection",
+            "url": "https://eagleeyeodds.com/predictions/celta-vigo-vs-union-st-gilloise-prediction-2026-11-05",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Celtic",
+      "awayTeam": "Besiktas",
+      "competition": "Ligue Europa",
+      "probabilities": {
+        "home": 32,
+        "draw": 25,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 37,
+        "draw": 25,
+        "away": 38,
+        "accessedAt": "2026-11-05T04:54:15.996+00:00"
+      },
+      "analysis": {
+        "summary": "Besiktas est invaincu en phase de ligue et Celtic a subi trois défaites; Celtic Park tempère l'avantage des visiteurs.",
+        "keyFactors": [
+          "Celtic a concédé neuf buts en trois rencontres européennes",
+          "Besiktas sept points en trois matchs et difficultés à l'extérieur"
+        ],
+        "uncertainty": "Plusieurs absences annoncées et possibles changements de titulaires",
+        "sources": [
+          {
+            "label": "FDJ — grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "FDJ — LF7 n°138",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "Sports Mole — analyse et absences",
+            "url": "https://www.sportsmole.co.uk/football/celtic/europa-league/preview/celtic-vs-besiktas-prediction-team-news-lineups_608326.html",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Sunderland",
+      "awayTeam": "Dinamo Zagreb",
+      "competition": "Ligue Europa",
+      "probabilities": {
+        "home": 57,
+        "draw": 25,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 68,
+        "draw": 16,
+        "away": 16,
+        "accessedAt": "2026-11-05T04:54:15.996+00:00"
+      },
+      "analysis": {
+        "summary": "Sunderland reste invaincu dans cette phase et joue à domicile; Dinamo peut réagir à son changement d'entraîneur.",
+        "keyFactors": [
+          "Sunderland deux victoires et un nul en Europe",
+          "Plusieurs absents à Sunderland et changement d'entraîneur au Dinamo"
+        ],
+        "uncertainty": "Réaction tactique du Dinamo et disponibilité des titulaires",
+        "sources": [
+          {
+            "label": "FDJ — grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "FDJ — LF7 n°138",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "Sport Grill — avant-match et blessés",
+            "url": "https://sportgrill.co.uk/2026/11/04/2026-27-uefa-europa-league-league-phase-sunderland-vs-dinamo-zagreb/",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Getafe",
+      "awayTeam": "Brighton Hove",
+      "competition": "Ligue Europa",
+      "probabilities": {
+        "home": 18,
+        "draw": 26,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 24,
+        "draw": 20,
+        "away": 56,
+        "accessedAt": "2026-11-05T04:54:15.996+00:00"
+      },
+      "analysis": {
+        "summary": "Brighton est favori, mais Getafe à domicile peut réduire les espaces et augmenter la probabilité du nul.",
+        "keyFactors": [
+          "Avantage technique et offensif présumé de Brighton",
+          "Capacité de Getafe à fermer le jeu chez lui"
+        ],
+        "uncertainty": "Compositions définitives et intensité du match inconnues",
+        "sources": [
+          {
+            "label": "FDJ — grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "FDJ — LF7 n°138",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "BetGolazo — aperçu de la rencontre",
+            "url": "https://betgolazo.net/match/getafe-vs-brighton-1636416",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Monaco",
+      "awayTeam": "Nordsjaelland",
+      "competition": "Ligue Europa Conférence",
+      "probabilities": {
+        "home": 62,
+        "draw": 22,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 7,
+        "away": 12,
+        "accessedAt": "2026-11-05T04:54:15.996+00:00"
+      },
+      "analysis": {
+        "summary": "Monaco bénéficie du terrain et d'un parcours européen solide, tandis que Nordsjælland présente une attaque productive.",
+        "keyFactors": [
+          "Monaco affiche quatre victoires européennes selon l'aperçu",
+          "Nordsjælland a inscrit vingt buts sur huit matchs dans la série recensée"
+        ],
+        "uncertainty": "Écart de niveau difficile à calibrer et compositions prévisionnelles",
+        "sources": [
+          {
+            "label": "FDJ — grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "FDJ — LF7 n°138",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-7/4955",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          },
+          {
+            "label": "StakeVista — forme et effectifs",
+            "url": "https://stakevista.com/conference-league/2026-27/monaco-fc-nordsjaelland",
+            "accessedAt": "2026-11-05T04:54:15.996+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
