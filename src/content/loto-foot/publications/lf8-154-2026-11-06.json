@@ -1,0 +1,373 @@
+{
+  "id": "lf8-154-2026-11-06",
+  "formula": 8,
+  "gridNumber": 154,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+  "validationDeadline": "2026-11-06T19:55:00+01:00",
+  "publishedAt": "2026-11-05T21:58:18+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Malgré plusieurs issues moins sélectionnées que leur probabilité sportive estimée (notamment Red Star et le nul à Séville), les huit matchs comportent trop d'incertitudes et le rapport futur demeure inconnu. L'historique LF8 affiche un rendement de -62,7 %, et le ticket principal récent a perdu 1 €. Aucun scénario ne présente de justification financière suffisamment crédible pour engager 1 € virtuel, sans confondre écart de sélection FDJ et espérance de gain."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Strasbourg",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 37,
+        "draw": 30,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 39,
+        "draw": 31,
+        "away": 30,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Deux équipes proches au classement, avec un avantage du terrain modéré pour Toulouse.",
+        "keyFactors": [
+          "Proximité des points au classement",
+          "incertitudes sur Messali, Baldé et Panichelli."
+        ],
+        "uncertainty": "Les listes d'indisponibles et les compositions restent évolutives.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Radarfoot",
+            "url": "https://www.radarfoot.fr/matchs/toulouse-strasbourg-1552817",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Dunkerque",
+      "awayTeam": "Guingamp",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 33,
+        "away": 35,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Affiche équilibrée avec un léger avantage à Guingamp, sans certitude forte.",
+        "keyFactors": [
+          "Historique direct partagé",
+          "modèles donnant un avantage extérieur variable."
+        ],
+        "uncertainty": "Les informations d'effectif restent peu documentées.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Cresus365",
+            "url": "https://cresus365.com/analyses/dunkerque-guingamp-6-novembre-2026/",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "OddAlerts",
+            "url": "https://www.oddalerts.com/livescores/dunkerque-vs-guingamp/7498-6538",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Dijon",
+      "awayTeam": "Red Star",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 32,
+        "draw": 27,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 37,
+        "draw": 30,
+        "away": 33,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Red Star dispose d'un léger avantage statistique malgré le déplacement.",
+        "keyFactors": [
+          "Meilleur classement du Red Star",
+          "quatre victoires extérieures en six déplacements rapportés",
+          "défense dijonnaise perméable."
+        ],
+        "uncertainty": "La forme récente est similaire et le nul reste plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Cresus365",
+            "url": "https://cresus365.com/analyses/dijon-red-star-6-novembre-2026/",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Nancy",
+      "awayTeam": "Sochaux",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 51,
+        "draw": 27,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 20,
+        "away": 15,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Nancy est favori, mais le public FDJ lui accorde un avantage plus marqué que plusieurs modèles sportifs.",
+        "keyFactors": [
+          "Dynamique favorable de Nancy",
+          "difficultés de Sochaux à l'extérieur",
+          "écart entre modèles."
+        ],
+        "uncertainty": "Probabilités des modèles assez dispersées, notamment sur le nul.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Betimate",
+            "url": "https://betimate.com/fr/news/previews/nancy-vs-sochaux-prediction-odds-betting-tips-11062026-2978004",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Footlab AI",
+            "url": "https://footlab.ai/fr/match/nancy-sochaux-1552528",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Stats de Soccer",
+            "url": "https://statsdesoccer.fr/match/nancy-sochaux-2026-11-06/",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Boulogne",
+      "awayTeam": "Annecy FC",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 33,
+        "draw": 31,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 31,
+        "away": 37,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Match particulièrement ouvert, avec une courte préférence pour Annecy.",
+        "keyFactors": [
+          "Boulogne peine à gagner chez lui",
+          "Annecy a de meilleurs résultats récents en déplacement",
+          "faibles écarts de forces."
+        ],
+        "uncertainty": "Les modèles divergent sur l'ampleur de l'avantage d'Annecy.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "BetAIPro",
+            "url": "https://www.betaipro.fr/pronostic/boulogne-annecy-2026-11-06",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "EagleEyeOdds",
+            "url": "https://eagleeyeodds.com/predictions/boulogne-vs-annecy-prediction-2026-11-06",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "SoccerGhost",
+            "url": "https://soccerghost.com/match/92527/boulogne-vs-annecy",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Grenoble",
+      "awayTeam": "Reims",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 22,
+        "draw": 27,
+        "away": 51
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 25,
+        "away": 54,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Reims paraît supérieur sur la forme et le classement, malgré le déplacement.",
+        "keyFactors": [
+          "Reims mieux classé",
+          "Grenoble en difficulté dans ses derniers résultats",
+          "rencontre officiellement programmée."
+        ],
+        "uncertainty": "Compositions non confirmées et données d'effectif limitées.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "FootBleu",
+            "url": "https://footbleu.com/match/grenoble-reims-06-11-2026-9482029/",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Billetterie officielle Reims",
+            "url": "https://billetterie.stade-de-reims.com/fr/sticker/131",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Ça joue où",
+            "url": "https://www.cajoueou.fr/matchs/c30e82ff-ec54-4a93-a7f5-3f6241368d14",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Montpellier",
+      "awayTeam": "Metz",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 52,
+        "draw": 27,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 24,
+        "away": 17,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Montpellier est favori grâce à sa dynamique et à sa solidité défensive.",
+        "keyFactors": [
+          "Série de victoires de Montpellier",
+          "Metz moins performant en déplacement",
+          "avantage Elo."
+        ],
+        "uncertainty": "Absences peu confirmées et dispersion des probabilités des modèles.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Forepitch",
+            "url": "https://forepitch.com/fr/football/match/montpellier-metz-2026-11-06/",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Fulltime Stats",
+            "url": "https://fulltimestats.com/match/montpellier-vs-metz-2026-11-06",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Footlab AI",
+            "url": "https://footlab.ai/fr/match/montpellier-metz-1552527",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "FC Séville",
+      "awayTeam": "Alaves",
+      "competition": "La Liga",
+      "probabilities": {
+        "home": 49,
+        "draw": 28,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 68,
+        "draw": 19,
+        "away": 13,
+        "accessedAt": "2026-11-05T21:58:18+01:00"
+      },
+      "analysis": {
+        "summary": "Séville est favori à domicile, mais ses difficultés défensives et ses absences réduisent la confiance.",
+        "keyFactors": [
+          "Trois victoires à domicile en cinq matchs",
+          "Alavés sans succès récent",
+          "suspension de Manu Bueno et autres indisponibilités rapportées."
+        ],
+        "uncertainty": "Sources divergentes sur Fofana et Romero; compositions provisoires.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/851",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Sports Mole",
+            "url": "https://www.sportsmole.co.uk/football/sevilla/preview/sevilla-vs-alaves-prediction-team-news-lineups_608392.html",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "Poznavach",
+            "url": "https://www.poznavach.com/en/football-predictions/sevilla-deportivo-alaves-prediction-06-11-2026",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          },
+          {
+            "label": "TheyScored",
+            "url": "https://www.theyscored.com/football-predictions/spain-la-liga/sevilla-vs-alaves-prediction-06-november-2026_1555",
+            "accessedAt": "2026-11-05T21:58:18+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
