@@ -1,0 +1,350 @@
+{
+  "id": "lf8-155-2026-11-07",
+  "formula": 8,
+  "gridNumber": 155,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/852",
+  "validationDeadline": "2026-11-07T18:25:00+01:00",
+  "publishedAt": "2026-11-07T02:02:04+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Huit matchs analysés, mais les écarts entre probabilités sportives et choix FDJ sont fragilisés par des répartitions provisoires (plusieurs 100/0/0 et détail FDJ à 0/0/0). Le rendement historique LF8 est de -62,7 % et le dernier ticket réglé a perdu 1 €. Les favoris fortement concentrés et plusieurs rencontres incertaines ne permettent pas de démontrer un scénario financier crédible à 1 € virtuel. Les rapports futurs restent inconnus; aucun ticket n'est ajouté uniquement pour la couverture."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Paris FC",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 29,
+        "draw": 28,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 25,
+        "away": 48,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "Paris FC mieux classé et défensivement plus solide, mais déplacement et effectifs incomplets.",
+        "keyFactors": [
+          "Paris FC quatrième contre Auxerre quatorzième",
+          "Auxerre a encaissé 23 buts en neuf rencontres",
+          "absences et retours encore contradictoires"
+        ],
+        "uncertainty": "Tuanzebe incertain; divergences sur le retour de Labeau-Lascary.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Radarfoot",
+            "url": "https://radarfoot.fr/matchs/auxerre-paris-fc-1552811",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Auxerre News",
+            "url": "https://auxerrenews.info/news/auxerre-labeau-lascary-retour-tuanzebe-incertain-paris-fc",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 77,
+        "draw": 15,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "PSG largement favori à domicile face à un Troyes mal classé, sans certitude absolue.",
+        "keyFactors": [
+          "PSG premier et Troyes seizième",
+          "supériorité collective du PSG",
+          "plusieurs indisponibles parisiens"
+        ],
+        "uncertainty": "Rotations possibles et absences dont Dembélé et Mendes; répartition FDJ extrême et provisoire.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Radarfoot",
+            "url": "https://www.radarfoot.fr/matchs/psg-estac-troyes-1552815",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Saint-Étienne",
+      "awayTeam": "Laval",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 67,
+        "draw": 21,
+        "away": 12
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "Saint-Étienne favori grâce à sa position de leader et aux difficultés de Laval en déplacement.",
+        "keyFactors": [
+          "25 points contre 9",
+          "Laval un point en cinq déplacements",
+          "Saint-Étienne reste sur une lourde défaite contre Guingamp"
+        ],
+        "uncertainty": "Onze de départ non confirmé; le dernier revers du favori invite à la prudence.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "FotMob",
+            "url": "https://www.fotmob.com/en-GB/matches/laval-vs-saint-etienne/2lc4g4",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Radarfoot",
+            "url": "https://radarfoot.fr/matchs/saint-etienne-laval-1552530",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Pau",
+      "awayTeam": "Nantes",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 41,
+        "draw": 29,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 77,
+        "draw": 9,
+        "away": 14,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "Pau affiche une dynamique récente supérieure, mais les modèles divergent fortement sur le favori.",
+        "keyFactors": [
+          "Pau a gagné ses cinq derniers matchs selon EagleEyeOdds",
+          "Nantes reste fragile à l'extérieur",
+          "les estimations publiées divergent entre Pau et Nantes"
+        ],
+        "uncertainty": "Désaccord marqué entre modèles et compositions encore provisoires.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "EagleEyeOdds",
+            "url": "https://eagleeyeodds.com/predictions/pau-vs-nantes-prediction-2026-11-07",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Betimate",
+            "url": "https://betimate.com/fr/news/previews/pau-vs-nantes-prediction-odds-betting-tips-11072026-2980362",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester City",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 15,
+        "draw": 22,
+        "away": 63
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 0,
+        "away": 100,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "Manchester City favori malgré deux défaites consécutives; Forest connaît une sévère inefficacité offensive à domicile.",
+        "keyFactors": [
+          "Forest sans but lors de ses quatre premiers matchs à domicile en championnat",
+          "City deuxième du classement",
+          "City vient de perdre deux matchs de championnat"
+        ],
+        "uncertainty": "City traverse un passage moins régulier; le football reste sujet à surprise.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Nottingham Forest FC",
+            "url": "https://www.nottinghamforest.co.uk/news/2026/november/06/forest-preview---forest-ready-to-take-on-man-city/",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Goal",
+            "url": "https://www.goal.com/en/news/nottingham-forest-manchester-city-premier-league-preview/blt58e6a662a280129b",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Stuttgart",
+      "awayTeam": "Werder Brême",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 38,
+        "draw": 28,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 23,
+        "away": 45,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "Affiche relativement équilibrée; Werder bénéficie d'une série d'invincibilité mais Stuttgart joue à domicile.",
+        "keyFactors": [
+          "Werder invaincu depuis sept matchs de Bundesliga",
+          "plusieurs absences annoncées dans les deux équipes",
+          "Füllkrug en forme selon l'avant-match"
+        ],
+        "uncertainty": "Les effectifs probables et la disponibilité de Prömel restent incertains.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Tipsters.net",
+            "url": "https://tipsters.net/matches/soccer/06-11-2026-stuttgart-werder-bremen",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "FootballProf",
+            "url": "https://www.footballprof.com/match_preview/vfb-stuttgart-vs-werder-bremen-07-nov-2026/",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "AS Rome",
+      "awayTeam": "Sassuolo",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 65,
+        "draw": 22,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "Roma favori grâce à sa dynamique domestique et aux faiblesses défensives de Sassuolo.",
+        "keyFactors": [
+          "Roma invaincue en Serie A",
+          "Sassuolo a perdu quatre rencontres de suite",
+          "Sassuolo reste vulnérable à l'extérieur"
+        ],
+        "uncertainty": "Roma sort d'une rencontre européenne éprouvante et compte plusieurs incertitudes dans l'effectif.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "SassuoloNews",
+            "url": "https://www.sassuolonews.net/news/roma-sassuolo-probabili-formazioni-aquilani-cambia-thorstvedt-torna-66948",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "Victory Picks",
+            "url": "https://www.victorypicks.com/en/previews/as-roma-vs-sassuolo-november-7-2026-3119/",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "CF Valence",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 12,
+        "draw": 21,
+        "away": 67
+      },
+      "fdjSelectionDistribution": {
+        "home": 13,
+        "draw": 14,
+        "away": 73,
+        "accessedAt": "2026-11-07T02:02:04+01:00"
+      },
+      "analysis": {
+        "summary": "Real Madrid favori à l'extérieur, avec un risque de résistance de Valence à domicile.",
+        "keyFactors": [
+          "Madrid nettement plus choisi par le public",
+          "Valence reçoit à domicile",
+          "Valence annonce trois absents dans son effectif probable"
+        ],
+        "uncertainty": "Informations d'effectif du Real moins étayées; probabilité extérieure prudente.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          },
+          {
+            "label": "TuAyudanteFantasy",
+            "url": "https://www.tuayudantefantasy.com/alineaciones/valencia",
+            "accessedAt": "2026-11-07T02:02:04+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
