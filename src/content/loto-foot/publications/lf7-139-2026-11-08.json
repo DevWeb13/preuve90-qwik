@@ -1,0 +1,275 @@
+{
+  "id": "lf7-139-2026-11-08",
+  "formula": 7,
+  "gridNumber": 139,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-08T14:55:00+01:00",
+  "publishedAt": "2026-11-07T17:55:22+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Sept rencontres étudiées avec sources sportives et répartition FDJ actualisée. Plusieurs résultats restent incertains (Lens–Marseille, Rennes–Lille, Atlético–Barcelone), tandis que Monaco et Nice sont fortement sélectionnés par le public. Les écarts de sélection ne démontrent pas une espérance de gain positive. Mémoire v2 : rendement LF7 historique -61 %, net global -868,60 €, un seul ticket joué sur les 20 derniers règlements et perdu. Aucun scénario à 1 € ne présente de justification financière suffisamment crédible au regard des rapports inconnus; aucune combinaison ajoutée pour la seule couverture."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Lens",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 39,
+        "draw": 28,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 39,
+        "draw": 24,
+        "away": 37,
+        "accessedAt": "2026-11-07T17:55:22+01:00"
+      },
+      "analysis": {
+        "summary": "Lens possède un avantage de terrain mais Marseille reste dangereux en transition; opposition équilibrée.",
+        "keyFactors": [
+          "Forme à domicile de Lens et résultats extérieurs de Marseille",
+          "Probabilités confrontées aux choix FDJ et à la calibration v2 sans ajustement mécanique"
+        ],
+        "uncertainty": "Compositions officielles non encore publiées; les probabilités restent estimatives et les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          },
+          {
+            "label": "Analyse sportive et informations d'avant-match",
+            "url": "https://www.unibet.fr/paris-sportifs/ligue1-lens-marseille",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 39,
+        "draw": 29,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 31,
+        "away": 25,
+        "accessedAt": "2026-11-07T17:55:22+01:00"
+      },
+      "analysis": {
+        "summary": "Rennes demeure solide à domicile mais Lille arrive avec une meilleure dynamique; match ouvert.",
+        "keyFactors": [
+          "Lepaul forfait côté Rennes; Ueda, Igamane et Santos absents côté Lille",
+          "Probabilités confrontées aux choix FDJ et à la calibration v2 sans ajustement mécanique"
+        ],
+        "uncertainty": "Compositions officielles non encore publiées; les probabilités restent estimatives et les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          },
+          {
+            "label": "Analyse sportive et informations d'avant-match",
+            "url": "https://www.ruedesjoueurs.com/pronostic/rennes-lille-5802988.html",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Brest",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 33,
+        "draw": 28,
+        "away": 39
+      },
+      "fdjSelectionDistribution": {
+        "home": 24,
+        "draw": 24,
+        "away": 52,
+        "accessedAt": "2026-11-07T17:55:22+01:00"
+      },
+      "analysis": {
+        "summary": "Lyon légèrement favori grâce à son niveau général, mais Brest reste compétitif à Francis-Le Blé.",
+        "keyFactors": [
+          "Formes récentes proches; Lyon favori modéré sur le marché",
+          "Probabilités confrontées aux choix FDJ et à la calibration v2 sans ajustement mécanique"
+        ],
+        "uncertainty": "Compositions officielles non encore publiées; les probabilités restent estimatives et les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          },
+          {
+            "label": "Analyse sportive et informations d'avant-match",
+            "url": "https://www.ruedesjoueurs.com/pronostic/brest-lyon-5802984.html",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Angers",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 27,
+        "draw": 29,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 19,
+        "draw": 20,
+        "away": 61,
+        "accessedAt": "2026-11-07T17:55:22+01:00"
+      },
+      "analysis": {
+        "summary": "Nice a davantage de potentiel offensif et une meilleure dynamique, malgré le déplacement.",
+        "keyFactors": [
+          "Nice vise une troisième victoire consécutive; Angers cherche à se relancer",
+          "Probabilités confrontées aux choix FDJ et à la calibration v2 sans ajustement mécanique"
+        ],
+        "uncertainty": "Compositions officielles non encore publiées; les probabilités restent estimatives et les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          },
+          {
+            "label": "Analyse sportive et informations d'avant-match",
+            "url": "https://www.ruedesjoueurs.com/pronostic/angers-nice-5802982.html",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 29,
+        "draw": 31,
+        "away": 40
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 28,
+        "away": 45,
+        "accessedAt": "2026-11-07T17:55:22+01:00"
+      },
+      "analysis": {
+        "summary": "Le Havre cherche sa première victoire et Lorient présente une dynamique plus favorable, mais le nul reste plausible.",
+        "keyFactors": [
+          "Le Havre dernier au classement; Lorient peut rejoindre la première moitié",
+          "Probabilités confrontées aux choix FDJ et à la calibration v2 sans ajustement mécanique"
+        ],
+        "uncertainty": "Compositions officielles non encore publiées; les probabilités restent estimatives et les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          },
+          {
+            "label": "Analyse sportive et informations d'avant-match",
+            "url": "https://www.ruedesjoueurs.com/pronostic/le-havre-lorient-5802985.html",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 21,
+        "draw": 25,
+        "away": 54
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 14,
+        "away": 74,
+        "accessedAt": "2026-11-07T17:55:22+01:00"
+      },
+      "analysis": {
+        "summary": "Monaco possède davantage de qualité individuelle mais le déplacement et sa forme irrégulière limitent la confiance.",
+        "keyFactors": [
+          "Monaco favori sur le marché, sans certitude de victoire à l'extérieur",
+          "Probabilités confrontées aux choix FDJ et à la calibration v2 sans ajustement mécanique"
+        ],
+        "uncertainty": "Compositions officielles non encore publiées; les probabilités restent estimatives et les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          },
+          {
+            "label": "Analyse sportive et informations d'avant-match",
+            "url": "https://www.ruedesjoueurs.com/pronostics/ligue-1-937873.html",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Atl. Madrid",
+      "awayTeam": "FC Barcelone",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 21,
+        "away": 58,
+        "accessedAt": "2026-11-07T17:55:22+01:00"
+      },
+      "analysis": {
+        "summary": "Duel de haut niveau: l'Atlético reçoit, tandis que Barcelone présente une attaque supérieure mais plusieurs absences.",
+        "keyFactors": [
+          "Romero absent côté Atlético; Koundé, Olmo et Rodri annoncés absents côté Barcelone",
+          "Probabilités confrontées aux choix FDJ et à la calibration v2 sans ajustement mécanique"
+        ],
+        "uncertainty": "Compositions officielles non encore publiées; les probabilités restent estimatives et les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ — liste officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          },
+          {
+            "label": "Analyse sportive et informations d'avant-match",
+            "url": "https://www.fotmob.com/fr/matches/barcelona-vs-atletico-madrid/2uc3ao",
+            "accessedAt": "2026-11-07T17:55:22+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
