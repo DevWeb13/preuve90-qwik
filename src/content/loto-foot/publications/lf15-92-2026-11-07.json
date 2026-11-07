@@ -1,0 +1,586 @@
+{
+  "id": "lf15-92-2026-11-07",
+  "formula": 15,
+  "gridNumber": 92,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2040",
+  "validationDeadline": "2026-11-07T20:55:00+01:00",
+  "publishedAt": "2026-11-07T05:53:54+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Quinze matchs analysés, plusieurs rencontres très ouvertes et des favoris fortement surjoués par le public FDJ. Les écarts de probabilité estimés ne prouvent aucune espérance de gain positive. Mémoire v2: 169 publications réglées, net historique -868,60 €, rendement LF15 -74,8 %. Les rapports futurs restent inconnus et aucun scénario de combinaison à 1 € ne présente une justification financière suffisamment crédible. Aucune combinaison artificielle pour augmenter la couverture."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Paris SG",
+      "awayTeam": "Troyes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 78,
+        "draw": 15,
+        "away": 7
+      },
+      "fdjSelectionDistribution": {
+        "home": 98,
+        "draw": 2,
+        "away": 0,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "PSG supérieur et leader face à Troyes en difficulté; effectif parisien amoindri.",
+        "keyFactors": [
+          "PSG supérieur et leader face à Troyes en difficulté",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/en-ca/news/soccer/rennes-vs-lille-lens-vs-marseille-ligue-1-matchweek-10-best-bets",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lens",
+      "awayTeam": "Marseille",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 36,
+        "draw": 28,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 22,
+        "away": 34,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Lens solide à domicile, Marseille sur quatre succès consécutifs; duel très ouvert.",
+        "keyFactors": [
+          "Lens solide à domicile, Marseille sur quatre succès consécutifs",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/en-ca/news/soccer/rennes-vs-lille-lens-vs-marseille-ligue-1-matchweek-10-best-bets",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Rennes",
+      "awayTeam": "Lille",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 35,
+        "draw": 29,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 47,
+        "draw": 25,
+        "away": 28,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Rennes efficace à domicile; Lille possède la meilleure défense et n'a perdu qu'une fois.",
+        "keyFactors": [
+          "Rennes efficace à domicile",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/en-ca/news/soccer/rennes-vs-lille-lens-vs-marseille-ligue-1-matchweek-10-best-bets",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Brest",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 37,
+        "draw": 29,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 34,
+        "draw": 26,
+        "away": 40,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Brest compétitif; Lyon moins convaincant à l'extérieur et mobilisé en Europe.",
+        "keyFactors": [
+          "Brest compétitif",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/en-ca/news/soccer/rennes-vs-lille-lens-vs-marseille-ligue-1-matchweek-10-best-bets",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Monaco",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 25,
+        "draw": 26,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 17,
+        "draw": 19,
+        "away": 64,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Monaco favori sur la qualité mais sans victoire depuis quatre journées et exposé à la fatigue européenne.",
+        "keyFactors": [
+          "Monaco favori sur la qualité mais sans victoire depuis quatre journées et exposé à la fatigue européenne.",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/en-ca/news/soccer/rennes-vs-lille-lens-vs-marseille-ligue-1-matchweek-10-best-bets",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Lorient",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 32,
+        "draw": 32,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 28,
+        "away": 40,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Deux attaques peu prolifiques, Le Havre sans victoire et Lorient peu efficace à l'extérieur.",
+        "keyFactors": [
+          "Deux attaques peu prolifiques, Le Havre sans victoire et Lorient peu efficace à l'extérieur.",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/en-ca/news/soccer/rennes-vs-lille-lens-vs-marseille-ligue-1-matchweek-10-best-bets",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Angers",
+      "awayTeam": "Nice",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 28,
+        "draw": 28,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 24,
+        "draw": 24,
+        "away": 52,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Nice en meilleure forme mais ses résultats à l'extérieur restent faibles; Angers peine à marquer.",
+        "keyFactors": [
+          "Nice en meilleure forme mais ses résultats à l'extérieur restent faibles",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/en-ca/news/soccer/rennes-vs-lille-lens-vs-marseille-ligue-1-matchweek-10-best-bets",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Liverpool",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 20,
+        "draw": 25,
+        "away": 55
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 18,
+        "away": 70,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Liverpool plus fort et mieux lancé; Mateta suspendu à Palace, Liverpool compte plusieurs blessés.",
+        "keyFactors": [
+          "Liverpool plus fort et mieux lancé",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Manchester United",
+      "awayTeam": "Aston Villa",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 36,
+        "draw": 29,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 48,
+        "draw": 23,
+        "away": 29,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "United en mauvaise série; Villa plus régulier; Martínez et Cash suspendus.",
+        "keyFactors": [
+          "United en mauvaise série",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Brighton",
+      "awayTeam": "Brentford",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 47,
+        "draw": 27,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 56,
+        "draw": 22,
+        "away": 22,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Brighton en forme avec cinq succès sur six mais plusieurs absences; Brentford irrégulier.",
+        "keyFactors": [
+          "Brighton en forme avec cinq succès sur six mais plusieurs absences",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Como 1907",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 49,
+        "draw": 27,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 55,
+        "draw": 21,
+        "away": 24,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Inter favori à domicile mais Como très solide défensivement avec huit buts encaissés.",
+        "keyFactors": [
+          "Inter favori à domicile mais Como très solide défensivement avec huit buts encaissés.",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/news/soccer/fiorentina-vs-juventus-napoli-vs-lazio-serie-a-week-11-odds",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Naples",
+      "awayTeam": "Lazio Rome",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 36,
+        "draw": 28,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 43,
+        "draw": 25,
+        "away": 32,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Lazio leader invaincu après dix matchs; Naples bénéficie du terrain, duel équilibré.",
+        "keyFactors": [
+          "Lazio leader invaincu après dix matchs",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/news/soccer/fiorentina-vs-juventus-napoli-vs-lazio-serie-a-week-11-odds",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Juventus Turin",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 23,
+        "draw": 27,
+        "away": 50
+      },
+      "fdjSelectionDistribution": {
+        "home": 25,
+        "draw": 25,
+        "away": 50,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Juventus plus solide défensivement, Fiorentina a encaissé 23 buts malgré un récent succès.",
+        "keyFactors": [
+          "Juventus plus solide défensivement, Fiorentina a encaissé 23 buts malgré un récent succès.",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://rg.org/news/soccer/fiorentina-vs-juventus-napoli-vs-lazio-serie-a-week-11-odds",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "CF Valence",
+      "awayTeam": "Real Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 13,
+        "draw": 22,
+        "away": 65
+      },
+      "fdjSelectionDistribution": {
+        "home": 2,
+        "draw": 8,
+        "away": 90,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Madrid sur une forte série de victoires, Valence mal classé; Vinícius suspendu.",
+        "keyFactors": [
+          "Madrid sur une forte série de victoires, Valence mal classé",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://www.flashscore.com/match/football/real-madrid-W8mj7MDD/valencia-CQeaytrD/",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Atl. Madrid",
+      "awayTeam": "FC Barcelone",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 31,
+        "draw": 27,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 23,
+        "draw": 18,
+        "away": 59,
+        "accessedAt": "2026-11-07T05:53:54+01:00"
+      },
+      "analysis": {
+        "summary": "Atlético sur sept succès de Liga et à domicile; Barcelone privé de Rodri, match serré.",
+        "keyFactors": [
+          "Atlético sur sept succès de Liga et à domicile",
+          "Données de forme, contexte domicile/extérieur et indisponibilités confrontés aux choix FDJ",
+          "Calibration historique v2 prise en compte sans correction mécanique"
+        ],
+        "uncertainty": "Compositions définitives non connues; estimations 1/N/2 indicatives, les rapports futurs sont inconnus.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          },
+          {
+            "label": "Analyse sportive de la rencontre",
+            "url": "https://www.reuters.com/sports/soccer/barcelonas-rodri-ruled-out-atletico-clash-with-hamstring-injury-2026-11-04/",
+            "accessedAt": "2026-11-07T05:53:54+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
