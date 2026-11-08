@@ -1,0 +1,350 @@
+{
+  "id": "lf8-156-2026-11-09",
+  "formula": 8,
+  "gridNumber": 156,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-09T18:55:00+01:00",
+  "publishedAt": "2026-11-08T21:55:42+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Huit rencontres analysées avec les répartitions FDJ et la mémoire statistique v2. Les signaux de sous-sélection de certaines issues, notamment Rubio Ñu, ne constituent pas une espérance de gain démontrée. Plusieurs matchs restent équilibrés, les compositions ne sont pas officielles et les rapports futurs sont inconnus. Sur 58 LF8 réglées, rendement de -62,7 %, et aucune mise sur les 20 dernières publications réglées. Aucun portefeuille de 1 € ou plus ne présente une justification financière suffisamment crédible; aucune combinaison ajoutée pour la seule couverture."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Sabadell",
+      "awayTeam": "Real Sociedad B",
+      "competition": "Segunda División",
+      "probabilities": {
+        "home": 49,
+        "draw": 29,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 40,
+        "draw": 19,
+        "away": 41,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "Sabadell est favori à domicile contre une réserve fragile défensivement, mais sa forme récente et l'absence de Gioacchini limitent la confiance.",
+        "keyFactors": [
+          "Real Sociedad B a encaissé 22 buts en douze matchs",
+          "Sabadell n'a pas gagné ses cinq dernières rencontres selon l'avant-match",
+          "Gioacchini annoncé absent"
+        ],
+        "uncertainty": "Compositions non officielles; modèles divergents.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "Oddschecker",
+            "url": "https://www.oddschecker.com/es/pronosticos/futbol/2026/noviembre/cng301-pronostico-sabadell-vs-real-sociedad-b-09-11-26",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "Foresportia",
+            "url": "https://www.foresportia.com/pronostic/laliga-2/ce-sabadell-fc-real-sociedad-b-2026-11-09/",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "FC Botosani",
+      "awayTeam": "Otelul Galati",
+      "competition": "SuperLiga Roumanie",
+      "probabilities": {
+        "home": 44,
+        "draw": 29,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 25,
+        "away": 15,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "Botosani bénéficie de son terrain et de meilleures statistiques à domicile, mais traverse trois défaites consécutives.",
+        "keyFactors": [
+          "Botosani 5 victoires sur ses dix derniers matchs à domicile",
+          "Otelul trois défaites consécutives en déplacement",
+          "Dernière confrontation terminée à 1-1"
+        ],
+        "uncertainty": "Forme récente défavorable aux locaux; pas d'onze officiel.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "SportsGambler",
+            "url": "https://www.sportsgambler.com/betting-tips/football/botosani-vs-otelul-galati-prediction-lineups-odds-2026-11-09/",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "APWin",
+            "url": "https://www.apwin.com/br/jogo/botosani-otelul-galati/cHSUda/",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Torreense",
+      "awayTeam": "Uniao Leiria",
+      "competition": "Liga Portugal 2",
+      "probabilities": {
+        "home": 46,
+        "draw": 27,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 20,
+        "away": 21,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "Torreense est légèrement favori à domicile, mais União de Leiria arrive avec une meilleure dynamique récente.",
+        "keyFactors": [
+          "Torreense une victoire sur cinq matchs",
+          "União de Leiria trois victoires sur cinq",
+          "Modèles proches de 44 à 48 % pour les locaux"
+        ],
+        "uncertainty": "Classements contradictoires entre sources; compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "BetPredictionTips",
+            "url": "https://betpredictiontips.com/matches/torreense-vs-uniao-de-leiria-5483",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "PassionPredict",
+            "url": "https://passionpredict.com/672582/torreense-vs-uniao-de-leiria",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Mushuc Runa",
+      "awayTeam": "Delfin SC",
+      "competition": "LigaPro Équateur",
+      "probabilities": {
+        "home": 53,
+        "draw": 26,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 43,
+        "draw": 24,
+        "away": 33,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "Mushuc Runa présente un avantage à domicile et un profil offensif supérieur, mais Delfín a remporté le dernier duel.",
+        "keyFactors": [
+          "APWin projette 1,43 xG pour Mushuc Runa",
+          "Delfín a gagné 3-2 la rencontre du 9 octobre",
+          "Marché favorisant Mushuc Runa"
+        ],
+        "uncertainty": "Sources principalement statistiques, sans composition officielle.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "APWin",
+            "url": "https://www.apwin.com/br/jogo/delfin-sc-mushuc-runa-sc/fagZfg/",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "Coteur",
+            "url": "https://www.coteur.com/cote/mushuc-runa-delfin-sc-1614732",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Tecnico Universitario",
+      "awayTeam": "Manta FC",
+      "competition": "LigaPro Équateur",
+      "probabilities": {
+        "home": 48,
+        "draw": 27,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 22,
+        "away": 28,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "Técnico Universitario possède l'avantage du terrain face à une équipe de Manta vulnérable à l'extérieur, malgré une forme récente contrastée.",
+        "keyFactors": [
+          "Manta a perdu onze de ses quinze déplacements selon les statistiques",
+          "Manta encaisse en déplacement depuis quatorze matchs",
+          "Manta a gagné le duel précédent 1-0"
+        ],
+        "uncertainty": "Différences de forme et de probabilités entre modèles; effectifs non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "HeroPredict",
+            "url": "https://heropredict.com/football/prediction/tecnico-universitario-vs-manta-fc/2026-11-09/1639835",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "PredictVantage",
+            "url": "https://predictvantage.com/match/38455-tecnico-universitario-vs-manta-fc-2026-11-09",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "San Lorenzo",
+      "awayTeam": "Rubio Nu",
+      "competition": "Division Profesional Paraguay",
+      "probabilities": {
+        "home": 29,
+        "draw": 29,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 16,
+        "away": 30,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "Rubio Ñu apparaît légèrement favori dans les modèles malgré son déplacement, alors que le public FDJ privilégie San Lorenzo.",
+        "keyFactors": [
+          "SoccerGhost estime Rubio Ñu à 39 %",
+          "Autre modèle estime Rubio Ñu à 49 %",
+          "Match possiblement fermé, score 0-1 ou 1-1 souvent projeté"
+        ],
+        "uncertainty": "Les modèles ne s'accordent pas précisément; onze de départ inconnu.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "SoccerGhost",
+            "url": "https://soccerghost.com/match/104767/club-sp-san-lorenzo-vs-rubio-nu",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "Jogos de Hoje",
+            "url": "https://jogosdehoje.eu.com/football/matches/2663968/san-lorenzo-vs-rubio-nu",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Sportivo Luqueno",
+      "awayTeam": "Club 2 de Mayo",
+      "competition": "Division Profesional Paraguay",
+      "probabilities": {
+        "home": 34,
+        "draw": 28,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 46,
+        "draw": 24,
+        "away": 30,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "2 de Mayo dispose d'un léger avantage statistique, mais la rencontre est équilibrée et le nul reste plausible.",
+        "keyFactors": [
+          "SoccerGhost estime 2 de Mayo à 39 %",
+          "Probabilité de nul estimée à 28 %",
+          "Score 1-1 présenté comme le plus probable"
+        ],
+        "uncertainty": "Source sportive indépendante limitée et effectifs non vérifiés.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "SoccerGhost",
+            "url": "https://soccerghost.com/match/104765/sportivo-luqueno-vs-2-de-mayo",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Junior FC",
+      "awayTeam": "Cucuta Deportivo",
+      "competition": "Liga BetPlay Colombie",
+      "probabilities": {
+        "home": 53,
+        "draw": 27,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 56,
+        "draw": 17,
+        "away": 27,
+        "accessedAt": "2026-11-08T21:55:42+01:00"
+      },
+      "analysis": {
+        "summary": "Junior est favori à domicile malgré un classement inférieur à celui de Cúcuta dans les données récentes.",
+        "keyFactors": [
+          "Junior 17e avec 16 points selon le tableau du 7 novembre",
+          "Cúcuta 10e avec 24 points",
+          "Projection indépendante de 55 % pour Junior"
+        ],
+        "uncertainty": "Contexte sportif paradoxal et composition non confirmée.",
+        "sources": [
+          {
+            "label": "FDJ - liste officielle des grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          },
+          {
+            "label": "Golmetrico",
+            "url": "https://golmetrico.com/pronostico/liga-betplay/junior-fc-vs-cucuta-deportivo-2026-11-08/",
+            "accessedAt": "2026-11-08T21:55:42+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
