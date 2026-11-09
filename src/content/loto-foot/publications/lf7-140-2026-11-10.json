@@ -1,0 +1,317 @@
+{
+  "id": "lf7-140-2026-11-10",
+  "formula": 7,
+  "gridNumber": 140,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-10T18:40:00+01:00",
+  "publishedAt": "2026-11-09T20:57:00.870Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Les sept affiches ont été analysées avec la mémoire statistique v2 (173 publications réglées, rendement LF7 -61 %, vingt dernières publications sans mise). Les favoris Lyon, Roma et Chelsea sont fortement choisis par le public FDJ; les rencontres PSG-Bayern, Benfica-Austria Wien et Inter-City présentent des incertitudes notables. Les écarts entre probabilités sportives et sélections FDJ ne permettent pas de démontrer une rentabilité des combinaisons, les rapports futurs étant inconnus. Aucune combinaison ne présente une justification financière assez crédible pour engager même 1 € virtuel."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Juventus Women",
+      "awayTeam": "OL Lyonnes",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 11,
+        "draw": 17,
+        "away": 72
+      },
+      "fdjSelectionDistribution": {
+        "home": 22,
+        "draw": 13,
+        "away": 65,
+        "accessedAt": "2026-11-09T20:56:59.870+00:00"
+      },
+      "analysis": {
+        "summary": "Lyon domine offensivement avec six buts contre Inter et sept contre Lens; la Juventus reste compétitive après ses victoires contre Austria Wien et Sassuolo.",
+        "keyFactors": [
+          "Lyon a battu Inter 6-0 et Lens 7-1",
+          "Juventus a battu Austria Wien 4-1 puis Sassuolo 2-1",
+          "Le précédent duel de 2025 s'est terminé 3-3"
+        ],
+        "uncertainty": "Les précédents nuls et l'avantage du terrain empêchent une certitude malgré l'écart de niveau.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Sky Sports - forme",
+            "url": "https://www.skysports.com/football/juventus-women-vs-olympiques-lyon-women/8851021547121416232",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "PlayerElo - forces des équipes",
+            "url": "https://women.playerelo.football/matches/juventus-w-vs-lyon-w-1638311",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Paris Saint-Germain Women",
+      "awayTeam": "Bayern Munich Women",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 36,
+        "draw": 28,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 41,
+        "draw": 24,
+        "away": 35,
+        "accessedAt": "2026-11-09T20:56:59.870+00:00"
+      },
+      "analysis": {
+        "summary": "Affiche équilibrée entre deux équipes proches au classement européen. Le PSG reste invaincu en Europe, mais le Bayern est également solide et doit composer avec plusieurs absences.",
+        "keyFactors": [
+          "PSG cinq points après trois matchs européens",
+          "Bayern privé notamment de Lena Oberdorf et Vanessa Gilles",
+          "Le PSG a concédé des nuls face au Real Madrid et Manchester City"
+        ],
+        "uncertainty": "Les compositions finales et l'impact exact des absences restent incertains.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Bayern Munich - avant-match officiel",
+            "url": "https://fcbayern.com/frauen/en/news/previews/2026/11/preview-paris-saint-german-fc-bayern-women-champions-league-matchday-4",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Real Madrid Women",
+      "awayTeam": "Paris FC Women",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 60,
+        "draw": 24,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 78,
+        "draw": 12,
+        "away": 10,
+        "accessedAt": "2026-11-09T20:56:59.870+00:00"
+      },
+      "analysis": {
+        "summary": "Le Real possède un avantage de terrain et deux victoires récentes en confrontation directe, mais ses trois nuls européens invitent à garder une probabilité de nul substantielle.",
+        "keyFactors": [
+          "Real Madrid trois nuls en trois matchs de Ligue des champions",
+          "Paris FC a fait 5-0 contre Montpellier le 6 novembre",
+          "Clara Matéo annoncée suspendue côté Paris FC"
+        ],
+        "uncertainty": "Le statut physique de Linda Caicedo et les compositions restent à confirmer.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Sky Sports - résultats récents",
+            "url": "https://www.skysports.com/football/real-madrid-women-vs-paris-fc-women/stats/578262",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Sports Mole - avant-match",
+            "url": "https://www.sportsmole.co.uk/football/real-madrid/women-champions-league/preview/real-madrid-vs-paris-prediction-team-news-lineups_608747.html",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Pensebet - absences",
+            "url": "https://pensebet.com/pronostic-real-madrid-paris-fc-ligue-des-champions-feminine-09-11-2026/",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "AS Roma Women",
+      "awayTeam": "Servette Women",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 76,
+        "draw": 15,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 8,
+        "away": 11,
+        "accessedAt": "2026-11-09T20:56:59.870+00:00"
+      },
+      "analysis": {
+        "summary": "La Roma enchaîne les victoires en championnat, mais ses résultats européens sont moins convaincants; Servette a battu Leuven 5-1 après de lourdes défaites.",
+        "keyFactors": [
+          "Roma a battu Como 4-0 et Juventus 5-2",
+          "Servette a battu Leuven 5-1 mais perdu 0-8 contre Lyon",
+          "Roma a perdu 0-2 contre Chelsea en Europe"
+        ],
+        "uncertainty": "Fatigue potentielle de Roma et volatilité des résultats de Servette.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Sky Sports - forme des deux équipes",
+            "url": "https://www.skysports.com/football/roma-women-vs-servette-genf-women/5016671673790298232",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Pagine Romaniste - conférence avant-match",
+            "url": "https://pagineromaniste.com/roma-femminile-servette-piovani-siamo-carichi-una-vittoria-sarebbe-fondamentale/",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Benfica Women",
+      "awayTeam": "Austria Wien Women",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 55,
+        "draw": 24,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 79,
+        "draw": 11,
+        "away": 10,
+        "accessedAt": "2026-11-09T20:56:59.870+00:00"
+      },
+      "analysis": {
+        "summary": "Benfica est favori à domicile, mais ses défaites contre Bayern et Arsenal contrastent avec sa victoire à Turin. Austria Wien a tenu Inter en échec et limité Chelsea à un but.",
+        "keyFactors": [
+          "Benfica a perdu 0-3 contre Bayern et Arsenal",
+          "Austria Wien a fait 1-1 contre Inter",
+          "Benfica compte une victoire européenne contre Juventus"
+        ],
+        "uncertainty": "Les comparaisons entre championnats et les compositions présentent une incertitude importante.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Sky Sports - forme européenne",
+            "url": "https://www.skysports.com/football/benfica-women-vs-austria-wien-women/stats/578265",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Soccerzz - avant-match et absences",
+            "url": "https://www.soccerzz.com/news/benfica-vs-austria-wien-team-news-lineups-predictions-women-champions-league-11-11/1257516",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "BK Häcken Women",
+      "awayTeam": "Chelsea Women",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 15,
+        "draw": 21,
+        "away": 64
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 10,
+        "away": 75,
+        "accessedAt": "2026-11-09T20:56:59.870+00:00"
+      },
+      "analysis": {
+        "summary": "Chelsea est nettement favorite sur la qualité et les résultats européens, mais Häcken a résisté au Paris FC et reste performante dans son championnat.",
+        "keyFactors": [
+          "Chelsea a battu Roma 2-0",
+          "Häcken a fait 1-1 contre Paris FC",
+          "Chelsea a concédé 1-1 contre Everton le 7 novembre"
+        ],
+        "uncertainty": "Häcken peut profiter du terrain et d'une éventuelle rotation anglaise.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Sky Sports - résultats récents",
+            "url": "https://www.skysports.com/football/bk-hacken-women-vs-chelsea-women/578259",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Sports Mole - avant-match",
+            "url": "https://www.sportsmole.co.uk/football/bk-hacken-women/women-champions-league/preview/bk-hacken-vs-chelsea-prediction-team-news-lineups_608723.html",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Inter Milan Women",
+      "awayTeam": "Manchester City Women",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 30,
+        "draw": 27,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 26,
+        "draw": 19,
+        "away": 55,
+        "accessedAt": "2026-11-09T20:56:59.870+00:00"
+      },
+      "analysis": {
+        "summary": "City domine son championnat mais a fait trois nuls en Ligue des champions. Inter est invaincu à domicile cette saison et a battu Milan 3-0, rendant le nul plausible.",
+        "keyFactors": [
+          "City reste sur neuf matchs sans défaite en championnat",
+          "City a fait trois nuls européens",
+          "Inter a battu Milan 3-0 et Häcken 1-0"
+        ],
+        "uncertainty": "La défense de City est affectée par l'absence de Greenwood; les onze restent non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ - grilles ouvertes",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "Inter - présentation officielle",
+            "url": "https://www.inter.it/en/news/champions-league-women-ahead-of-inter-manchester-city-guide-training",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          },
+          {
+            "label": "ManCityCore - absences et dynamique",
+            "url": "https://www.mancitycore.com/inter-man-city-women-preview-champions-league/",
+            "accessedAt": "2026-11-09T20:56:59.870+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
