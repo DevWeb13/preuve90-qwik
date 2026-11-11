@@ -59,12 +59,13 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    Pour la grille prioritaire encore absente de l'inventaire, vérifier d'abord sa clôture officielle, l'heure actuelle en Europe/Paris et la disponibilité des informations FDJ et sportives. Ne jamais publier une grille après sa clôture.
 
    - **Plus de 24 heures avant la clôture :** si les répartitions FDJ sont absentes ou inexploitables (par exemple `0/0/0`), semblent provisoires ou contradictoires, ou si des informations sportives déterminantes manquent, reporter la décision. Des pourcentages extrêmes ne sont pas automatiquement invalides ; apprécier leur fiabilité avec prudence. Ne créer ni publication, ni brouillon, ni décision `skip` définitive.
-   - Si les informations semblent suffisantes à plus de 24 heures, effectuer l'analyse complète. Une conclusion provisoire `skip` conduit à **reporter la publication** jusqu'aux dernières 24 heures, afin de réévaluer les nouvelles données. Un `bet` réellement justifié peut être publié plus tôt, avec toutes les validations habituelles.
+   - Si les informations semblent suffisantes à plus de 24 heures, effectuer l'analyse complète. Une conclusion provisoire `skip` conduit à **reporter la publication** jusqu'aux dernières 24 heures, afin de réévaluer les nouvelles données. Un `bet` expérimental, construit selon la stratégie v2 à partir d'une analyse sportive complète et honnête, peut être publié plus tôt avec toutes les validations habituelles. Ne pas exiger la preuve d'un gain financier futur pour autoriser une mise exclusivement virtuelle.
    - **Dans les 24 dernières heures :** refaire une consultation actualisée des sources et finaliser l'analyse complète, puis publier `bet` ou `skip` selon la stratégie v2. L'absence ou l'instabilité de la répartition FDJ ne suffit jamais, à elle seule, à imposer `skip` ou à reporter la publication : fonder la décision sur les données sportives disponibles, la mémoire statistique et les limites explicitement reconnues. Ne jamais imposer une mise minimale.
    - Un report ne crée aucun état persistant : lors de l'exécution suivante, la grille reste absente d'`inventory.json` et doit être réexaminée suivant le même ordre de priorité. Si elle est reportée, terminer ce passage sans suivre les étapes d'écriture. Ne jamais modifier une publication existante, y compris une publication à 0 €.
    - Distinguer le **report pour informations encore précoces** du **blocage** d'une analyse honnête ou de validation. Les motifs de blocage définis ci-dessous restent applicables, même dans les 24 dernières heures.
 
    Pour la grille prioritaire :
+   - consulter la mémoire statistique v2 lorsqu'elle existe et relever le nombre de dernières publications réglées sans ticket ; à partir de trois décisions `skip` consécutives, signaler clairement l'arrêt expérimental dans le rapport, même si l'exécution est reportée ou bloquée ;
    - vérifier dans l’inventaire qu’une publication ayant la même formule et le même numéro n’existe pas déjà ;
    - effectuer pour chaque rencontre la recherche définie dans la section « Recherche » ;
    - si l’identité d’une rencontre n’est pas confirmée ou si elle ne peut pas faire l’objet d’une analyse honnête, noter précisément la raison et ne rien publier pour cette grille pendant cette exécution ;
@@ -86,17 +87,19 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - les sources réellement utilisées.
 
    Prendre une décision de mise explicite dans `betDecision` :
-   - `action: "bet"` lorsqu’au moins une combinaison est retenue ;
-   - `action: "skip"` lorsqu’aucune combinaison n’est suffisamment justifiée financièrement ;
-   - fournir dans tous les cas une `rationale` claire et spécifique à la grille.
+   - `action: "bet"` lorsqu’au moins un ticket virtuel représente une hypothèse sportive défendable ; pour une grille complètement analysée, c'est le fonctionnement expérimental normal décrit dans la stratégie v2 ;
+   - `action: "skip"` uniquement dans le cas exceptionnel où aucune combinaison expérimentale n'est honnêtement défendable malgré une analyse complète, en expliquant pourquoi même un ticket témoin ne serait pas exploitable ;
+   - ne jamais utiliser la perte historique, l'incertitude sportive habituelle ou l'impossibilité de connaître les rapports futurs comme raison suffisante pour `skip` ;
+   - fournir dans tous les cas une `rationale` claire, spécifique à la grille, qui distingue hypothèse sportive, risque et décision.
 
    Produire zéro, une ou plusieurs combinaisons distinctes :
    - avec un identifiant, un libellé et une justification lorsqu’elles existent ;
    - contenant exactement un choix par rencontre ;
    - utilisant uniquement `1`, `N` ou `2` ;
-   - choisir librement le nombre de combinaisons à partir de l’analyse et de l’objectif de résultat net positif ;
+   - construire normalement un premier ticket témoin à partir des probabilités sportives, puis seulement des variantes distinctes et argumentées, dans les plafonds d'expérimentation de la stratégie v2 ;
+   - chercher à améliorer le résultat net **observé après règlement** sans exiger une espérance de gain prétendument démontrée avant la simulation ;
    - ne jamais ajouter une combinaison pour la seule raison qu’elle augmente la couverture ou le meilleur score historique ;
-   - autoriser une mise virtuelle totale de 0 € lorsqu’aucun ticket n’apporte une valeur financière suffisamment crédible.
+   - autoriser 0 € uniquement pour une décision `skip` exceptionnelle et justifiée, sans jamais forcer une publication lorsqu'une rencontre est bloquée.
 
    Chaque combinaison représente une mise virtuelle de 100 centimes.
 
@@ -154,7 +157,10 @@ Les règlements sont créés séparément par GitHub Actions à partir des résu
    - pour chaque rencontre, la liste exacte des sources réellement utilisées ;
    - chaque grille reportée avant publication, avec sa clôture, le délai restant et la raison précise du report (distincte d'un blocage) ;
    - chaque grille bloquée et sa raison précise ;
-   - l’état vérifié de la synchronisation de l’inventaire et des déploiements.
+   - l’état vérifié de la synchronisation de l’inventaire et des déploiements ;
+   - le diagnostic expérimental : nombres de grilles réglées sans ticket sur les 20 dernières, séquence de `skip` consécutifs si connue, coût virtuel de la grille, et bilan comparatif du ticket témoin rétrospectif lorsque la mémoire le contient ;
+   - une alerte explicite « ALERTE : EXPÉRIMENTATION À L'ARRÊT » dès trois `skip` consécutifs réglés, qualifiée de critique dès cinq, en tête du rapport, sans masquer un éventuel blocage ;
+   - en cas de `bet`, le raisonnement du ticket témoin principal et des variantes, leurs hypothèses et leurs risques, sans promesse de gain.
 
    Lorsqu’aucune écriture n’a été réalisée, expliquer brièvement pourquoi.
 
