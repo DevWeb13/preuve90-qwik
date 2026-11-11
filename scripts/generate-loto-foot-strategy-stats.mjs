@@ -400,6 +400,55 @@ function buildTicketEconomics(records) {
   };
 }
 
+// Contrôle de référence: un seul ticket composé du choix 1/N/2 le plus probable
+// selon la publication d'origine, évalué après règlement sans modifier les mises réelles.
+function buildTopPickCounterfactual(records) {
+  let hypotheticalReturnCents = 0;
+  let returningGrids = 0;
+  let profitableGrids = 0;
+  let correctSelectionsTotal = 0;
+
+  for (const record of records) {
+    const selections = publicationPositions(record.publication).map(
+      (match) => topPrediction(match).selection,
+    );
+    const correctSelections = countCorrect(
+      { id: "top-pick-counterfactual", selections },
+      record.officialSelections,
+    );
+    const payoutCents = payoutFor(record.result, correctSelections);
+    hypotheticalReturnCents += payoutCents;
+    returningGrids += Number(payoutCents > 0);
+    profitableGrids += Number(payoutCents > 100);
+    correctSelectionsTotal += correctSelections;
+  }
+
+  const hypotheticalStakeCents = records.length * 100;
+  return {
+    grids: records.length,
+    hypotheticalTickets: records.length,
+    hypotheticalStakeCents,
+    hypotheticalReturnCents,
+    hypotheticalNetCents: hypotheticalReturnCents - hypotheticalStakeCents,
+    hypotheticalYieldPct: percentage(
+      hypotheticalReturnCents - hypotheticalStakeCents,
+      hypotheticalStakeCents,
+    ),
+    returningGrids,
+    profitableGrids,
+    averageCorrectSelections: round(correctSelectionsTotal / Math.max(records.length, 1), 2),
+  };
+}
+
+function trailingNoBetStreak(records) {
+  let streak = 0;
+  for (let index = records.length - 1; index >= 0; index -= 1) {
+    if (records[index].publication.tickets.length > 0) break;
+    streak += 1;
+  }
+  return streak;
+}
+
 function buildPayoutHistory(records) {
   const formulas = [...new Set(records.map((record) => String(record.publication.formula)))].sort(
     (left, right) => Number(left) - Number(right),
@@ -480,6 +529,7 @@ function buildSignals(records) {
     ),
     averageTicketsPerPublication: summary.averageTicketsPerPublication,
     noBetPublications: summary.noBetPublications,
+    consecutiveNoBetPublications: trailingNoBetStreak(records),
   };
 }
 
@@ -518,6 +568,12 @@ const output = {
     byTicketCount: buildTicketBands(records),
     payoutHistory: buildPayoutHistory(records),
     strategySignals: buildSignals(records),
+    counterfactualTopPick: {
+      allSettled: buildTopPickCounterfactual(records),
+      skippedOnly: buildTopPickCounterfactual(
+        records.filter((record) => record.publication.tickets.length === 0),
+      ),
+    },
   },
   recent20: {
     summary: summarize(recentRecords),
@@ -525,6 +581,12 @@ const output = {
     calibration: buildCalibration(recentRecords),
     strategySignals: buildSignals(recentRecords),
     ticketEconomics: buildTicketEconomics(recentRecords),
+    counterfactualTopPick: {
+      allSettled: buildTopPickCounterfactual(recentRecords),
+      skippedOnly: buildTopPickCounterfactual(
+        recentRecords.filter((record) => record.publication.tickets.length === 0),
+      ),
+    },
   },
   metricNotes: {
     yieldPct: "(retours - mises) / mises, en pourcentage.",
@@ -542,6 +604,10 @@ const output = {
       "Sépare la rentabilité du premier ticket de celle des tickets ajoutés afin de mesurer le coût financier réel de la diversification.",
     noBetPublications:
       "Nombre de grilles analysées et publiées avec une décision explicite de ne pas miser.",
+    consecutiveNoBetPublications:
+      "Nombre de grilles réglées consécutives sans ticket en fin de période analysée. recent20 est limité à 20.",
+    counterfactualTopPick:
+      "Témoin rétrospectif purement hypothétique: un ticket à 1 euro par grille, composé des choix les plus probables au moment de la publication. Les retours sont évalués après résultat officiel; ces sommes ne sont jamais comptées dans les mises ou gains réellement simulés.",
   },
 };
 
