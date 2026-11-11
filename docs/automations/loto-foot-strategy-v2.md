@@ -1,71 +1,78 @@
-# Stratégie Loto Foot v2
+# Stratégie Loto Foot v2 - Laboratoire virtuel
 
-Ce document complète `docs/automations/preuve90.md` uniquement pour la méthode d'analyse, la calibration des probabilités et la décision de mise. Toutes les règles de sécurité, de validation, d'écriture, de branche, de planification et de rapport de `preuve90.md` restent prioritaires.
+Ce document complète `docs/automations/preuve90.md` uniquement pour l'analyse sportive, la calibration des probabilités et les combinaisons virtuelles. `preuve90.md` reste prioritaire pour la sécurité, les sources obligatoires, la validation, l'écriture, la branche, la planification et le rapport.
 
-## Objectif financier prioritaire
+## Mission et changement de logique
 
-L'objectif expérimental unique est d'améliorer le résultat net : retours officiels moins mises virtuelles.
+Preuve90 est une expérimentation ludique à mises exclusivement virtuelles. Son but est de tester des pronostics réellement publiés, observer leurs règlements, apprendre des erreurs et suivre le résultat net. Un rendement positif est une ambition mesurée après coup, **pas une preuve préalable exigée pour autoriser un ticket**.
 
-Le nombre de bonnes réponses, la couverture des issues et la diversité des combinaisons sont uniquement des indicateurs intermédiaires. Ils ne justifient jamais à eux seuls une mise supplémentaire.
+L'ancienne exigence de « justification financière suffisamment convaincante » a entraîné 20 publications réglées consécutives sans ticket (constat dans la mémoire au 11/11/2026). Ce n'est pas une stratégie de pronostic exploitable. **Ne plus transformer automatiquement l'incertitude normale d'un match, l'historique déficitaire ou l'impossibilité de connaître les rapports futurs en décision `skip`.**
 
-Une grille peut donc conduire à `0` combinaison et `0 €` de mise lorsque l'analyse ne fait apparaître aucune opportunité suffisamment convaincante. Il n'existe ni nombre minimal de tickets à jouer, ni cible implicite de 10 ou 12 tickets.
+La publication d'une grille correctement vérifiée doit normalement donner au moins un ticket expérimental. Les tickets sont des hypothèses sportives à confronter aux résultats, pas des recommandations de paris réels. Aucun rendement, gain ou avantage financier n'est garanti.
 
-## Mémoire statistique
+## Mémoire statistique et apprentissage
 
-Avant d'analyser une nouvelle grille, lire `docs/automations/loto-foot-strategy-stats.json` lorsqu'il existe.
+Avant chaque grille, lire `docs/automations/loto-foot-strategy-stats.json` lorsqu'il existe. La mémoire est régénérée **séparément** après les règlements par GitHub Actions ; ne pas la modifier dans l'exécution de publication.
 
-Ce fichier est une mémoire statistique déterministe construite à partir des publications et résultats déjà réglés. Il sert à corriger les biais de décision sans remplacer l'analyse sportive de la grille courante.
+Examiner dans cet ordre :
 
-S'il est absent, invalide ou momentanément en retard sur le dernier règlement, ne jamais bloquer une publication pour cette seule raison. Effectuer l'analyse normalement et signaler simplement que la mémoire statistique n'a pas pu être utilisée.
+1. `recent20.summary`, `recent20.strategySignals` et `allTime.strategySignals`, notamment `noBetPublications` et `consecutiveNoBetPublications` : repérer l'arrêt des expérimentations. Si `consecutiveNoBetPublications` est indisponible, utiliser `recent20.summary.noBetPublications` comme indicateur partiel sans en déduire un ordre exact.
+2. `recent20.ticketEconomics`, `allTime.summary`, `allTime.byFormula`, `allTime.byTicketCount` : mesurer le coût des tickets et la rentabilité réelle, avec taille d'échantillon. Le rendement d'une période sans ticket est **non calculable**, et non une réussite à 0 %.
+3. `recent20.calibration` et `allTime.calibration` : examiner l'écart entre probabilités annoncées et fréquences réalisées, par tranche suffisamment documentée. Ne pas confondre précision du favori et rentabilité des grilles.
+4. `allTime.payoutHistory` : situer les rangs payants et l'extrême dispersion des rapports sans prédire un rapport futur.
+5. `counterfactualTopPick` lorsque présent : comparer les publications réelles à un **témoin rétrospectif** composé, pour chaque grille, d'un seul ticket des issues les plus probables selon l'analyse initiale. `skippedOnly` indique ce qu'aurait donné ce témoin sur les grilles non jouées. Ce témoin est une simulation après règlement, **jamais une mise rétroactive ni une preuve de gain futur**.
+6. `selectionDistribution` et la diversité : diagnostics secondaires, pas des objectifs indépendants.
 
-Utiliser en priorité :
+Une ancienne perte virtuelle ne justifie ni de jouer à l'aveugle ni de ne plus jouer. Les anciennes combinaisons de 11 tickets ou plus ont été coûteuses : repartir sur de **petits portefeuilles explicables** et comparer les résultats.
 
-- `recent20.summary.netCents`, `recent20.summary.yieldPct` et `recent20.strategySignals` pour détecter une dérive financière récente ;
-- `recent20.ticketEconomics` pour comparer directement ce qu'ont coûté et rapporté le ticket principal et les tickets ajoutés ;
-- `allTime.summary`, `allTime.byFormula` et `allTime.byTicketCount` pour conserver le contexte long terme ;
-- `calibration` pour corriger une éventuelle surconfiance ou sous-confiance des probabilités annoncées ;
-- `payoutHistory` uniquement comme repère historique des rangs payés et des rapports observés ;
-- `selectionDistribution`, la couverture et la diversité seulement comme diagnostics secondaires, jamais comme objectifs financiers.
+## Analyse sportive et probabilités
 
-Ne jamais ajouter un ticket uniquement parce qu'il améliore `portfolioOutcomeCoveragePct`, `additionalTicketsImprovedBestScoreRatePct` ou la diversité.
+Effectuer pour chaque rencontre toutes les vérifications demandées par `preuve90.md` : identité des équipes, contexte de la compétition, forme récente, domicile/extérieur, absences vérifiées, enchaînement des matchs, motivation, rotations probables, scores aller/retour lorsqu'ils changent l'approche du match, et contradictions entre sources.
 
-## Analyse des rencontres
+Distinguer soigneusement les **faits sourcés**, les hypothèses et les informations non confirmées. Ne jamais inventer une composition, une blessure, une statistique ou une cote. La FDJ identifie les grilles et la répartition des joueurs, sans servir de source sportive unique.
 
-Continuer à effectuer la recherche complète demandée par `preuve90.md` pour chaque rencontre.
+Attribuer à chaque match des probabilités `1/N/2` entières totalisant 100. Réexaminer les probabilités au regard de la calibration historique et de la qualité des sources. Ne jamais appliquer mécaniquement le même correctif aux matchs ni ajuster après avoir vu leur résultat.
 
-Produire les probabilités `1/N/2` à partir des informations sportives actuelles, puis les confronter à la calibration historique. Une correction doit rester justifiée : ne jamais forcer mécaniquement les nouvelles probabilités à reproduire les fréquences passées.
+La répartition `fdjSelectionDistribution`, lorsqu'elle est affichée, compare notre analyse aux choix du public. Calculer les écarts issue par issue et, si pertinent, signaler une issue plausible sous-sélectionnée. **L'écart avec les choix du public n'est pas une probabilité de gain ni un calcul d'espérance de gain.** Une répartition FDJ absente, provisoire ou extrême ne suffit pas à décider `skip` dans les dernières 24 heures.
 
-Lorsque la FDJ affiche la répartition des choix des joueurs, la relever dans `fdjSelectionDistribution`. Comparer pour chaque issue notre probabilité sportive à sa part dans les choix FDJ. L'écart `probabilité estimée - part FDJ` est un signal de valeur relatif : il peut révéler une issue sous-jouée ou surjouée par le public, mais ce n'est pas une espérance de gain exacte.
+Pour les matchs aller/retour, pronostiquer le **résultat du match dans la grille**, pas la qualification finale. Les contraintes de score, la gestion d'une avance et les rotations peuvent faire diverger les deux.
 
-La concentration du public compte parce que les rapports dépendent du nombre de gagnants. À plausibilité sportive comparable, privilégier les scénarios moins surjoués peut améliorer le potentiel de rapport. Ne jamais choisir un outsider uniquement parce qu'il est peu joué : la plausibilité sportive reste obligatoire.
+## Construction des tickets - expérience reproductible
 
-Pour les doubles confrontations, analyser explicitement le résultat du match présent dans la grille, et non la seule probabilité de qualification. Tenir compte du score de l'aller, de l'équipe qui doit attaquer, de celle qui peut gérer, des rotations plausibles et du risque qu'une équipe perde le retour tout en se qualifiant.
+Pour toute grille dont l'identité et l'analyse peuvent être honnêtement confirmées :
 
-## Décision de mise et construction des combinaisons
+1. **Ticket témoin principal (T1)** : construire une combinaison avec l'issue sportive la plus probable à chaque position, en cas d'égalité départager par les arguments sourcés. C'est un repère stable, pas une prétention de rentabilité.
+2. **Scénario de valeur relative (facultatif)** : partir de T1, changer un petit nombre de rencontres réellement ouvertes en faveur d'issues sportivement plausibles et moins sélectionnées par le public. Expliquer les probabilités, la répartition FDJ utilisée, le risque supplémentaire et pourquoi cette hypothèse est distincte. Ne jamais choisir une issue à seule fin de faire un coup.
+3. **Scénario sportif alternatif (facultatif)** : couvrir une autre lecture argumentée d'un ou deux matchs incertains (nul tactique, rotation documentée, outsider crédible), sans quasi-clone ni variation purement aléatoire.
+4. Classer les candidats d'abord par plausibilité sportive, puis par intérêt expérimental distinct, puis par potentiel de rapport relatif **avec prudence**. Une approximation de la probabilité conjointe peut aider à comparer les tickets, mais l'indépendance des matchs n'est qu'une hypothèse simplificatrice.
+5. Ne publier que les variantes dont la justification est **spécifique à la grille**. Pour chaque ticket, conserver dans `rationale` la raison des choix importants, la différence avec T1 et ce qu'on cherche à tester. N'inventer aucun ratio ni seuil de rentabilité vérifié.
+6. Conserver le budget suivant pour permettre une comparaison dans le temps : LF7 et LF8, **1 à 3 tickets** normalement ; LF12 et LF15, **1 à 5 tickets** normalement. Chaque ticket vaut 1 € virtuel. Ce sont des **plafonds d'expérimentation**, jamais des cibles à remplir ; 1 ticket défendable vaut mieux que 5 variantes artificielles.
 
-Il n'existe aucun plafond arbitraire du nombre de combinaisons, mais chaque combinaison coûte 1 € virtuel.
+**Décision `bet` par défaut dès qu'une analyse sportive complète permet T1.** L'incertitude sportive ordinaire, le rendement historique négatif ou l'absence de démonstration d'espérance positive ne constituent pas des motifs de `skip` : ce sont précisément les risques à mesurer avec de l'argent fictif.
 
-Procéder dans cet ordre :
+**Décision `skip` exceptionnelle**, uniquement si, malgré une recherche menée jusqu'au bout, aucune combinaison même expérimentale ne peut être défendue honnêtement sur des données exploitables. Donner un motif concret lié à cette grille et expliquer pourquoi même T1 serait trompeur. Lorsque l'identité d'un match ne peut pas être confirmée ou qu'une analyse honnête est impossible, appliquer plutôt le **blocage sans publication** prévu dans `preuve90.md`. Avant 24 heures, appliquer le report prévu dans `preuve90.md`, sans `skip` définitif.
 
-1. Construire les scénarios cohérents les plus plausibles à partir des probabilités de tous les matchs.
-2. Confronter ces scénarios à la répartition FDJ lorsqu'elle est disponible et aux rapports historiques de la formule. Rechercher un compromis entre probabilité sportive et potentiel de rapport, sans prétendre connaître le rapport futur.
-3. Décider d'abord s'il existe une raison financière crédible de miser sur cette grille. Si ce n'est pas le cas, publier l'analyse avec `betDecision.action = "skip"`, aucune combinaison et une mise virtuelle de 0 €.
-4. Si une mise est justifiée, retenir le meilleur portefeuille initial avec `betDecision.action = "bet"`.
-5. Avant chaque ticket supplémentaire, demander explicitement : « Ce ticket améliore-t-il de manière crédible la probabilité d'un résultat net positif compte tenu de son coût de 1 € ? » Si la réponse repose seulement sur davantage de couverture, ne pas l'ajouter.
-6. Utiliser `recent20.ticketEconomics.additionalTickets` comme signal d'alerte. Si les tickets ajoutés ont récemment détruit de la valeur, exiger une justification actuelle particulièrement forte avant d'en ajouter.
-7. Éviter les quasi-clones. Une variante doit représenter un scénario financier et sportif réellement distinct, pas seulement augmenter artificiellement la couverture.
-8. Réévaluer après chaque ajout la mise totale, le rang payé historiquement nécessaire, le rapport historique indicatif, la concentration FDJ des choix concernés et la rentabilité marginale observée. Arrêter dès que le ticket suivant n'est plus justifié financièrement.
+Ne jamais jouer après la clôture, inventer des données, ajouter de mise réelle, créer des tickets en double ni réécrire les anciennes publications.
 
-Le nombre final peut être `0`, `1` ou davantage. Il découle de la grille courante ; il ne doit jamais être choisi pour reproduire le nombre de tickets des publications précédentes.
+## Journal d'hypothèses et comparaison après règlement
 
-## Prudence sur les rapports
+L'historique existant est constitué des publications JSON immuables et des résultats officiels. Ne pas créer un second journal manuel qui pourrait diverger de cet historique.
 
-Les rapports futurs sont inconnus avant le règlement. Les répartitions FDJ et les rapports historiques servent à estimer la valeur relative d'un scénario, pas à calculer une promesse de gain.
+Dans chaque nouvelle publication :
 
-Ne jamais appeler « espérance de gain positive » un simple écart entre nos probabilités et les choix FDJ. Tant qu'un calcul complet du pool et de la distribution des combinaisons des autres joueurs n'est pas disponible, parler uniquement de signal de valeur ou de potentiel de rapport.
+- `betDecision.rationale` explique le **mode expérimental**, le budget virtuel total, l'hypothèse principale et le risque le plus important ;
+- T1 est identifiable comme ticket témoin ; les autres tickets portent une justification falsifiable, pas une promesse ;
+- `matches[].analysis` explicite l'incertitude et conserve les sources datées ;
+- `methodVersion` reste `loto-foot-v1` pour la compatibilité des schémas.
 
-## Apprentissage continu
+Au règlement suivant, lire les statistiques déterministes. Comparer progressivement T1, les variantes, le témoin contrefactuel, les calibrations, les mises et les rapports réellement réglés. Ne jamais faire passer un gain exceptionnel ou une série de pertes pour une preuve sur un petit échantillon. Ne jamais utiliser le résultat d'une grille future dans sa prédiction passée.
 
-Après chaque nouveau règlement, la mémoire statistique est régénérée séparément par GitHub Actions. Le signal financier doit rester prioritaire : net, rendement, rentabilité des tickets ajoutés, puis seulement calibration, couverture et diversité.
+## Alerte anti-paralysie
 
-Conserver `loto-foot-v1` comme `methodVersion`. Les nouveaux champs sont optionnels pour assurer la compatibilité avec l'historique, mais les nouvelles publications doivent renseigner `betDecision` et `fdjSelectionDistribution` lorsque la FDJ affiche cette dernière.
+**Dès 3 publications réglées consécutives à `skip`**, signaler explicitement « ALERTE : EXPÉRIMENTATION À L'ARRÊT » dans le rapport avec la valeur observée. **À partir de 5**, classer l'alerte comme critique, examiner la cause des abstentions et expliquer pourquoi la stratégie n'a pas produit de ticket. Le diagnostic ne remplace pas la vérification de la grille courante, ni ne permet de forcer un pronostic infondé.
+
+À l'inverse, signaler une dérive de dépenses virtuelles ou une calibration faible sans bloquer automatiquement toute publication. L'alerte doit être **visible dans le rapport de la conversation**, y compris lorsque aucun fichier n'a été créé. Ne jamais prétendre avoir envoyé une notification push si son envoi n'a pas été vérifié.
+
+## Rappel sur les rapports FDJ
+
+Les rapports futurs et la distribution exacte des autres combinaisons sont inconnus. Les rapports passés, parts FDJ et écarts de probabilités sont des indications, non des garanties. Pour un ticket expérimental, présenter une **hypothèse sportive** et un **risque assumé**, pas une espérance financière prétendument démontrée.
