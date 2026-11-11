@@ -1,0 +1,718 @@
+{
+  "id": "lf15-93-2026-11-12",
+  "formula": 15,
+  "gridNumber": 93,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-12T17:55:00+01:00",
+  "publishedAt": "2026-11-11T21:59:12+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation exclusivement virtuelle à 3 € : T1 teste les issues sportives les plus probables, T2 les nuls sous-sélectionnés, T3 la résistance à domicile. L'historique négatif et les rapports futurs inconnus ne constituent pas un motif de skip. Risque majeur : 15 résultats à trouver et plusieurs rencontres très équilibrées; aucun gain n'est garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Italie",
+      "awayTeam": "France",
+      "competition": "UEFA Nations League 2026/27 - A1",
+      "probabilities": {
+        "home": 30,
+        "draw": 27,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 13,
+        "draw": 21,
+        "away": 66,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "La France possède un léger avantage de dynamique, mais le déplacement en Italie rend l'issue ouverte.",
+        "keyFactors": [
+          "France invaincue lors de ses quatre dernières sorties recensées; Italie deux victoires sur quatre.",
+          "Les projections de buts restent proches (1,34 contre 1,62); le nul demeure crédible."
+        ],
+        "uncertainty": "Le match nul ou une réaction italienne peut contredire le choix français.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-a-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Angleterre",
+      "awayTeam": "Croatie",
+      "competition": "UEFA Nations League 2026/27 - A3",
+      "probabilities": {
+        "home": 58,
+        "draw": 22,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 92,
+        "draw": 5,
+        "away": 3,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "L'Angleterre à domicile conserve un avantage sportif, sans justifier la confiance extrême du public.",
+        "keyFactors": [
+          "Trois victoires anglaises sur quatre matchs récents contre une victoire croate.",
+          "Le modèle anticipe une rencontre ouverte avec des occasions des deux côtés."
+        ],
+        "uncertainty": "La Croatie peut marquer et une rencontre très ouverte rend la victoire anglaise moins certaine.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-a-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Turquie",
+      "awayTeam": "Belgique",
+      "competition": "UEFA Nations League 2026/27 - A1",
+      "probabilities": {
+        "home": 20,
+        "draw": 23,
+        "away": 57
+      },
+      "fdjSelectionDistribution": {
+        "home": 16,
+        "draw": 19,
+        "away": 65,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "La Belgique arrive avec une meilleure dynamique et le retour de Jérémy Doku.",
+        "keyFactors": [
+          "La Turquie reste sur quatre défaites dans le bilan étudié; la Belgique sur deux victoires.",
+          "Reuters confirme le retour de Doku dans un groupe belge comprenant De Bruyne et Lukaku."
+        ],
+        "uncertainty": "L'avantage du terrain turc et la gestion des internationaux peuvent réduire l'écart.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-a-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Reuters - effectif Belgique",
+            "url": "https://www.reuters.com/sports/soccer/doku-back-boost-belgium-2026-11-06/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Monténégro",
+      "awayTeam": "Lettonie",
+      "competition": "UEFA Nations League 2026/27 - C2",
+      "probabilities": {
+        "home": 53,
+        "draw": 28,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 89,
+        "draw": 7,
+        "away": 4,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "Le Monténégro reste favori grâce à sa forme récente, mais le nul n'est pas négligeable.",
+        "keyFactors": [
+          "Monténégro invaincu sur quatre rencontres, trois victoires et un nul.",
+          "La Lettonie n'a remporté aucun de ses quatre derniers matchs selon le relevé consulté."
+        ],
+        "uncertainty": "La projection d'un score serré laisse une chance significative au nul.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-c-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Arménie",
+      "awayTeam": "Chypre",
+      "competition": "UEFA Nations League 2026/27 - C2",
+      "probabilities": {
+        "home": 32,
+        "draw": 30,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 48,
+        "draw": 27,
+        "away": 25,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "Chypre a une légère avance de forme, mais le déplacement en Arménie rend les trois résultats plausibles.",
+        "keyFactors": [
+          "Chypre a gagné deux de ses quatre derniers matchs, contre un pour l'Arménie.",
+          "Le modèle externe donne un avantage chypriote, tandis que le public FDJ favorise l'Arménie."
+        ],
+        "uncertainty": "Match très équilibré; aucune composition confirmée ne permet de trancher fortement.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-c-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Albanie",
+      "awayTeam": "Finlande",
+      "competition": "UEFA Nations League 2026/27 - C1",
+      "probabilities": {
+        "home": 40,
+        "draw": 30,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 53,
+        "draw": 24,
+        "away": 23,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "L'Albanie reçoit et dispose d'une bonne dynamique, malgré un adversaire finlandais compétitif.",
+        "keyFactors": [
+          "Trois victoires albanaises sur quatre matchs récents; Finlande deux sur quatre.",
+          "Le modèle externe favorise légèrement la Finlande, ce qui contredit la répartition FDJ et renforce l'incertitude."
+        ],
+        "uncertainty": "Le nul et le succès finlandais restent crédibles; le choix domicile est fragile.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-c-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "République tchèque",
+      "awayTeam": "Espagne",
+      "competition": "UEFA Nations League 2026/27 - A3",
+      "probabilities": {
+        "home": 11,
+        "draw": 20,
+        "away": 69
+      },
+      "fdjSelectionDistribution": {
+        "home": 2,
+        "draw": 4,
+        "away": 94,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "L'Espagne est favorite grâce à une série récente nettement supérieure.",
+        "keyFactors": [
+          "L'Espagne a gagné ses quatre derniers matchs recensés, la Tchéquie a perdu les quatre siens.",
+          "La répartition FDJ très concentrée sur l'Espagne ne signifie pas une certitude sportive."
+        ],
+        "uncertainty": "Un nul reste possible même face à un favori clair.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-a-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Saint-Marin",
+      "awayTeam": "Biélorussie",
+      "competition": "UEFA Nations League 2026/27 - C1",
+      "probabilities": {
+        "home": 9,
+        "draw": 17,
+        "away": 74
+      },
+      "fdjSelectionDistribution": {
+        "home": 4,
+        "draw": 4,
+        "away": 92,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "La Biélorussie est nettement favorite face à une équipe saint-marinaise en difficulté.",
+        "keyFactors": [
+          "Saint-Marin a perdu ses quatre derniers matchs recensés.",
+          "La Biélorussie a remporté deux de ses quatre derniers matchs; projection externe 77% à l'extérieur."
+        ],
+        "uncertainty": "Le football international réserve des surprises et le public surpondère le favori.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-c-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Moldavie",
+      "awayTeam": "Kazakhstan",
+      "competition": "UEFA Nations League 2026/27 - C3",
+      "probabilities": {
+        "home": 30,
+        "draw": 29,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 23,
+        "away": 17,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "Le Kazakhstan est légèrement favori dans une rencontre ouverte malgré sa série sans victoire.",
+        "keyFactors": [
+          "La Moldavie a gagné une fois en quatre rencontres; le Kazakhstan a deux nuls et deux défaites.",
+          "Le modèle donne un avantage extérieur, contrairement à la préférence FDJ pour la Moldavie."
+        ],
+        "uncertainty": "Les deux équipes présentent des faiblesses récentes; le nul et le domicile sont plausibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-c-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Luxembourg",
+      "awayTeam": "Estonie",
+      "competition": "UEFA Nations League 2026/27 - C4",
+      "probabilities": {
+        "home": 31,
+        "draw": 35,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 53,
+        "draw": 23,
+        "away": 24,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "Match très fermé et équilibré; le nul est un scénario sportif sérieux.",
+        "keyFactors": [
+          "L'Estonie reste invaincue sur quatre rencontres mais avec trois nuls.",
+          "La projection externe est de 1,80 but attendu au total, ce qui renforce le scénario d'un nul."
+        ],
+        "uncertainty": "La faible différence entre les trois issues interdit toute confiance élevée.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-c-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Écosse",
+      "awayTeam": "Macédoine du Nord",
+      "competition": "UEFA Nations League 2026/27 - B1",
+      "probabilities": {
+        "home": 55,
+        "draw": 27,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 92,
+        "draw": 5,
+        "away": 3,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "L'Écosse reçoit une Macédoine du Nord en mauvaise série et part favorite.",
+        "keyFactors": [
+          "La Macédoine du Nord a perdu ses quatre derniers matchs recensés.",
+          "L'Écosse n'a gagné qu'une fois sur quatre; l'avantage existe mais reste inférieur à la confiance FDJ."
+        ],
+        "uncertainty": "Une rencontre serrée et un nul restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-b-5-2026-11-13",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Bulgarie",
+      "awayTeam": "Islande",
+      "competition": "UEFA Nations League 2026/27 - C4",
+      "probabilities": {
+        "home": 22,
+        "draw": 27,
+        "away": 51
+      },
+      "fdjSelectionDistribution": {
+        "home": 30,
+        "draw": 25,
+        "away": 45,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "L'Islande présente une meilleure forme récente et part favorite à l'extérieur.",
+        "keyFactors": [
+          "Islande invaincue sur quatre rencontres, dont deux victoires.",
+          "La Bulgarie n'a gagné qu'une fois sur quatre; projection extérieure externe 55%."
+        ],
+        "uncertainty": "Le déplacement et le risque d'un match fermé rendent le nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-c-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Slovénie",
+      "awayTeam": "Suisse",
+      "competition": "UEFA Nations League 2026/27 - B1",
+      "probabilities": {
+        "home": 20,
+        "draw": 26,
+        "away": 54
+      },
+      "fdjSelectionDistribution": {
+        "home": 8,
+        "draw": 16,
+        "away": 76,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "La Suisse arrive en pleine confiance et reste favorite en Slovénie.",
+        "keyFactors": [
+          "La Suisse a remporté ses quatre derniers matchs recensés.",
+          "La Slovénie a deux victoires sur quatre et joue à domicile; la Suisse a remporté deux des trois confrontations récentes recensées."
+        ],
+        "uncertainty": "La Slovénie peut fermer le jeu; un nul est une alternative réaliste.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-b-5-2026-11-13",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Pays-Bas",
+      "awayTeam": "Grèce",
+      "competition": "UEFA Nations League 2026/27 - A2",
+      "probabilities": {
+        "home": 45,
+        "draw": 28,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 78,
+        "draw": 15,
+        "away": 7,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "Les Pays-Bas sont légèrement favoris à domicile, mais la Grèce est elle aussi invaincue récemment.",
+        "keyFactors": [
+          "Deux équipes invaincues sur leurs quatre derniers matchs, chacune avec deux victoires et deux nuls.",
+          "Projection de rencontre peu prolifique, avec un nul 1-1 comme score le plus probable du modèle externe."
+        ],
+        "uncertainty": "Le nul est plus probable que ne le suggère la répartition FDJ.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-a-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "Serbie",
+      "awayTeam": "Allemagne",
+      "competition": "UEFA Nations League 2026/27 - A2",
+      "probabilities": {
+        "home": 14,
+        "draw": 21,
+        "away": 65
+      },
+      "fdjSelectionDistribution": {
+        "home": 3,
+        "draw": 6,
+        "away": 91,
+        "accessedAt": "2026-11-11T21:58:50+01:00"
+      },
+      "analysis": {
+        "summary": "L'Allemagne possède un avantage net face à une Serbie en difficulté.",
+        "keyFactors": [
+          "La Serbie a perdu ses quatre derniers matchs recensés.",
+          "Le modèle externe favorise l'Allemagne à 68%, mais l'équipe allemande n'a gagné qu'une fois sur ses quatre derniers matchs."
+        ],
+        "uncertainty": "Le déplacement et la forme allemande inégale maintiennent une possibilité de nul.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          },
+          {
+            "label": "Predicted Edge - forme et modèle",
+            "url": "https://predictededge.com/news/nations-league-predictions-league-a-5-2026-11-12",
+            "accessedAt": "2026-11-11T21:58:50+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "T1 - Favoris sportifs (témoin)",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Ticket témoin reproductible : pour chaque rencontre, retenir l'issue à probabilité sportive estimée maximale. Tests clés : France à Milan, Chypre en Arménie, Kazakhstan en Moldavie et nul Luxembourg-Estonie. La probabilité d'obtenir tous les résultats est faible, même avec des favoris."
+    },
+    {
+      "id": "t2",
+      "label": "T2 - Nuls sous-sélectionnés",
+      "selections": [
+        "N",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "2",
+        "2",
+        "2",
+        "N",
+        "1",
+        "2",
+        "2",
+        "N",
+        "2"
+      ],
+      "rationale": "Hypothèse alternative de matchs fermés : remplacer France par nul en Italie, Chypre par nul en Arménie et Pays-Bas par nul contre la Grèce. Ces trois nuls sont sportivement plausibles (27%, 30%, 28%) et sous-sélectionnés par le public FDJ (21%, 27%, 15%). Plus risqué que T1."
+    },
+    {
+      "id": "t3",
+      "label": "T3 - Résistance à domicile",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "N",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Hypothèse distincte : avantage du terrain plus fort que les modèles pour Arménie et Moldavie. Deux changements face à T1, à 32% et 30% de probabilité estimée; cette variante explore l'erreur possible du modèle extérieur, sans prétendre une espérance positive."
+    }
+  ]
+}
