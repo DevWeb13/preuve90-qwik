@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "purpose": "Mémoire statistique déterministe pour calibrer l'analyse, la décision de mise et la construction des combinaisons. La rentabilité est prioritaire sur la couverture.",
   "source": {
-    "publicationFiles": 177,
+    "publicationFiles": 178,
     "resultFiles": 174,
     "settledPublications": 174,
     "latestSettledAt": "2026-11-10T13:42:15+01:00"
@@ -471,7 +471,32 @@
       "yieldPct": -68.6,
       "profitablePublicationRatePct": 5.7,
       "averageTicketsPerPublication": 7.28,
-      "noBetPublications": 44
+      "noBetPublications": 44,
+      "consecutiveNoBetPublications": 24
+    },
+    "counterfactualTopPick": {
+      "allSettled": {
+        "grids": 174,
+        "hypotheticalTickets": 174,
+        "hypotheticalStakeCents": 17400,
+        "hypotheticalReturnCents": 10470,
+        "hypotheticalNetCents": -6930,
+        "hypotheticalYieldPct": -39.8,
+        "returningGrids": 22,
+        "profitableGrids": 22,
+        "averageCorrectSelections": 5.58
+      },
+      "skippedOnly": {
+        "grids": 44,
+        "hypotheticalTickets": 44,
+        "hypotheticalStakeCents": 4400,
+        "hypotheticalReturnCents": 3860,
+        "hypotheticalNetCents": -540,
+        "hypotheticalYieldPct": -12.3,
+        "returningGrids": 5,
+        "profitableGrids": 5,
+        "averageCorrectSelections": 5.93
+      }
     }
   },
   "recent20": {
@@ -605,7 +630,8 @@
       "yieldPct": 0,
       "profitablePublicationRatePct": 0,
       "averageTicketsPerPublication": 0,
-      "noBetPublications": 20
+      "noBetPublications": 20,
+      "consecutiveNoBetPublications": 20
     },
     "ticketEconomics": {
       "noBetPublications": 20,
@@ -628,6 +654,30 @@
         "winningTickets": 0,
         "winningTicketRatePct": 0
       }
+    },
+    "counterfactualTopPick": {
+      "allSettled": {
+        "grids": 20,
+        "hypotheticalTickets": 20,
+        "hypotheticalStakeCents": 2000,
+        "hypotheticalReturnCents": 2800,
+        "hypotheticalNetCents": 800,
+        "hypotheticalYieldPct": 40,
+        "returningGrids": 3,
+        "profitableGrids": 3,
+        "averageCorrectSelections": 5.6
+      },
+      "skippedOnly": {
+        "grids": 20,
+        "hypotheticalTickets": 20,
+        "hypotheticalStakeCents": 2000,
+        "hypotheticalReturnCents": 2800,
+        "hypotheticalNetCents": 800,
+        "hypotheticalYieldPct": 40,
+        "returningGrids": 3,
+        "profitableGrids": 3,
+        "averageCorrectSelections": 5.6
+      }
     }
   },
   "metricNotes": {
@@ -638,6 +688,8 @@
     "calibrationGapPct": "Taux de réussite réel moins probabilité moyenne annoncée du choix 1N2 le plus probable. Une valeur négative indique une surconfiance historique.",
     "payoutHistory": "Historique descriptif des rapports officiels observés. Il sert de repère et ne prédit pas les futurs rapports FDJ.",
     "ticketEconomics": "Sépare la rentabilité du premier ticket de celle des tickets ajoutés afin de mesurer le coût financier réel de la diversification.",
-    "noBetPublications": "Nombre de grilles analysées et publiées avec une décision explicite de ne pas miser."
+    "noBetPublications": "Nombre de grilles analysées et publiées avec une décision explicite de ne pas miser.",
+    "consecutiveNoBetPublications": "Nombre de grilles réglées consécutives sans ticket en fin de période analysée. recent20 est limité à 20.",
+    "counterfactualTopPick": "Témoin rétrospectif purement hypothétique: un ticket à 1 euro par grille, composé des choix les plus probables au moment de la publication. Les retours sont évalués après résultat officiel; ces sommes ne sont jamais comptées dans les mises ou gains réellement simulés."
   }
 }
