@@ -1,0 +1,303 @@
+{
+  "id": "lf7-141-2026-11-12",
+  "formula": 7,
+  "gridNumber": 141,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-12T17:55:00+01:00",
+  "publishedAt": "2026-11-11T17:59:09+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "skip",
+    "rationale": "Aucune combinaison à 1 € ne dispose d'une justification financière suffisamment crédible. Quatre rencontres restent équilibrées et les favoris les plus fiables sont fortement joués. La mémoire v2 indique un rendement LF7 historique de -61 %; sans rapports futurs ni distribution des combinaisons adverses, les écarts FDJ ne prouvent aucune espérance positive."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Italie",
+      "awayTeam": "France",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 27,
+        "draw": 29,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 19,
+        "draw": 25,
+        "away": 56,
+        "accessedAt": "2026-11-11T17:59:06+01:00"
+      },
+      "analysis": {
+        "summary": "La France est légèrement favorite, mais l'Italie joue à Milan après un nul à l'aller.",
+        "keyFactors": [
+          "La France est légèrement favorite, mais l'Italie joue à Milan après un nul à l'aller."
+        ],
+        "uncertainty": "Avantage français modéré; nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.figc.it/en/national-teams/news/uefa-nations-league-italy-to-face-france-in-milan-on-12-november-as-the-azzurri-return-to-the-meazza-lw3kmp7p",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.gazzetta.it/en/football/national-team/24-07-2026/nations-league-italy-v-france-set-for-12th-november-milan.shtml",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Angleterre",
+      "awayTeam": "Croatie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 76,
+        "draw": 16,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 85,
+        "draw": 9,
+        "away": 6,
+        "accessedAt": "2026-11-11T17:59:06+01:00"
+      },
+      "analysis": {
+        "summary": "L'Angleterre a gagné l'aller 7-0 et reçoit à Wembley, malgré des absences défensives.",
+        "keyFactors": [
+          "L'Angleterre a gagné l'aller 7-0 et reçoit à Wembley, malgré des absences défensives."
+        ],
+        "uncertainty": "Réaction croate et rotations possibles.",
+        "sources": [
+          {
+            "label": "FDJ",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2026-27/nations-league/england-v-croatia-uefa-nations-league-thursday-12-november-2026-match-centre",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.reuters.com/sports/soccer/doubles-kane-saka-power-england-7-0-rout-croatia-2026-10-03/",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Turquie",
+      "awayTeam": "Belgique",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 29,
+        "draw": 27,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 22,
+        "draw": 24,
+        "away": 54,
+        "accessedAt": "2026-11-11T17:59:06+01:00"
+      },
+      "analysis": {
+        "summary": "La Belgique est techniquement favorite mais la Turquie reçoit et plusieurs disponibilités sont incertaines.",
+        "keyFactors": [
+          "La Belgique est techniquement favorite mais la Turquie reçoit et plusieurs disponibilités sont incertaines."
+        ],
+        "uncertainty": "Effectifs non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.711sports.be/en/football/nations-league-betting/turkey-belgium-prediction-12-november-2026",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.skysports.com/football-scores-fixtures/2026-11-12",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Monténégro",
+      "awayTeam": "Lettonie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 61,
+        "draw": 25,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 12,
+        "away": 8,
+        "accessedAt": "2026-11-11T17:59:06+01:00"
+      },
+      "analysis": {
+        "summary": "Le Monténégro a gagné l'aller 2-1 et reste en meilleure forme que la Lettonie.",
+        "keyFactors": [
+          "Le Monténégro a gagné l'aller 2-1 et reste en meilleure forme que la Lettonie."
+        ],
+        "uncertainty": "Risque de match fermé et nul.",
+        "sources": [
+          {
+            "label": "FDJ",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.skysports.com/football/montenegro-vs-latvia/554090",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.forebet.com/en/football-match-previews/32352-montenegro-eye-another-step-forward-against-latvia-in-tight-group-c-battle",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Arménie",
+      "awayTeam": "Chypre",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 36,
+        "draw": 30,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 28,
+        "away": 28,
+        "accessedAt": "2026-11-11T17:59:06+01:00"
+      },
+      "analysis": {
+        "summary": "L'Arménie reçoit, mais Chypre a une forme récente plus favorable; trois issues crédibles.",
+        "keyFactors": [
+          "L'Arménie reçoit, mais Chypre a une forme récente plus favorable; trois issues crédibles."
+        ],
+        "uncertainty": "Compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://statz.ai/h2h/armenia-vs-cyprus/19676759/lineups",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.skysports.com/football-scores-fixtures/2026-11-12",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Albanie",
+      "awayTeam": "Finlande",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 48,
+        "draw": 28,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 43,
+        "draw": 28,
+        "away": 29,
+        "accessedAt": "2026-11-11T17:59:06+01:00"
+      },
+      "analysis": {
+        "summary": "L'Albanie est solide à domicile mais a perdu l'aller 2-1 en Finlande.",
+        "keyFactors": [
+          "L'Albanie est solide à domicile mais a perdu l'aller 2-1 en Finlande."
+        ],
+        "uncertainty": "Absences et match équilibré.",
+        "sources": [
+          {
+            "label": "FDJ",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.thestatszone.com/albania-vs-finland-preview-prediction-2026-27-uefa-nations-league-league-c-237887",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.forebet.com/en/football-match-previews/32354-albania-seek-payback-against-finland-in-a-finely-poised-league-c-meeting",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "République tchèque",
+      "awayTeam": "Espagne",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 12,
+        "draw": 23,
+        "away": 65
+      },
+      "fdjSelectionDistribution": {
+        "home": 6,
+        "draw": 6,
+        "away": 88,
+        "accessedAt": "2026-11-11T17:59:06+01:00"
+      },
+      "analysis": {
+        "summary": "L'Espagne reste favorite malgré les forfaits annoncés de Yamal et Oyarzabal.",
+        "keyFactors": [
+          "L'Espagne reste favorite malgré les forfaits annoncés de Yamal et Oyarzabal."
+        ],
+        "uncertainty": "Rotation possible avant Angleterre.",
+        "sources": [
+          {
+            "label": "FDJ",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/doubles-kane-saka-power-england-7-0-rout-croatia-2026-10-03/",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://bdnews24.com/sport/k44f9ci53o",
+            "accessedAt": "2026-11-11T17:59:06+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": []
+}
