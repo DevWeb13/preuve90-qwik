@@ -1,0 +1,581 @@
+{
+  "id": "lf12-98-2026-11-13",
+  "formula": 12,
+  "gridNumber": 98,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-13T20:25:00+01:00",
+  "publishedAt": "2026-11-12T21:55:37+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience ludique strictement virtuelle de 3 € : T1 teste les favoris issus des probabilités sportives, T2 trois nuls dans des rencontres ouvertes, T3 deux nuls et une surprise à l'extérieur dans des rencontres serrées. Le risque majeur est l'accumulation de douze pronostics et l'incertitude des matchs amicaux; aucune rentabilité future n'est présumée."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Serbie",
+      "awayTeam": "Allemagne",
+      "competition": "Ligue des nations A2",
+      "probabilities": {
+        "home": 13,
+        "draw": 20,
+        "away": 67
+      },
+      "fdjSelectionDistribution": {
+        "home": 6,
+        "draw": 6,
+        "away": 88,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "L'Allemagne domine nettement les indicateurs de création d'occasions et avait gagné 2-0 à l'aller; la Serbie reste sans point.",
+        "keyFactors": [
+          "La Serbie a perdu quatre matchs de groupe; l'Allemagne n'a qu'une victoire en quatre rencontres malgré sa maîtrise territoriale."
+        ],
+        "uncertainty": "Les absences serbes et l'irrégularité offensive allemande rendent le déplacement moins certain que le public FDJ.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/serbia-vs-germany-preview-prediction-2026-27-uefa-nations-league-league-a-237913",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.forebet.com/en/football-match-previews/32356-serbia-look-to-steady-their-nations-league-campaign-against-a-possession-heavy-germany",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Pays-Bas",
+      "awayTeam": "Grèce",
+      "competition": "Ligue des nations A2",
+      "probabilities": {
+        "home": 50,
+        "draw": 29,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 77,
+        "draw": 15,
+        "away": 8,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "Les Pays-Bas ont l'avantage du terrain mais la Grèce reste invaincue, après un 2-2 à l'aller.",
+        "keyFactors": [
+          "Les deux sélections ont huit points; la Grèce a gagné en Allemagne; De Jong est annoncé de retour tandis que Van Dijk manque."
+        ],
+        "uncertainty": "Le nul est crédible dans ce duel direct; les informations sur les disponibilités divergent selon les sources.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/netherlands-vs-greece-preview-prediction-2026-27-uefa-nations-league-league-a-237909",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.fotmob.com/matches/greece-vs-netherlands/1f0uui",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 3",
+            "url": "https://news.7msport.com/news/newsdata/20261112/276228.shtml",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Slovénie",
+      "awayTeam": "Suisse",
+      "competition": "Ligue des nations B1",
+      "probabilities": {
+        "home": 19,
+        "draw": 29,
+        "away": 52
+      },
+      "fdjSelectionDistribution": {
+        "home": 8,
+        "draw": 16,
+        "away": 76,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "La Suisse a remporté ses quatre rencontres de groupe et avait battu la Slovénie 2-1 à l'aller.",
+        "keyFactors": [
+          "La Suisse a marqué onze fois et encaissé une seule fois en quatre matchs; la Slovénie reste solide à domicile; Xhaka est forfait."
+        ],
+        "uncertainty": "La Suisse a déjà assuré la promotion et pourrait faire tourner; le nul reste un risque.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/slovenia-vs-switzerland-preview-prediction-2026-27-uefa-nations-league-league-b-237917",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.fotmob.com/matches/slovenia-vs-switzerland/1aju89",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 3",
+            "url": "https://www.reuters.com/sports/soccer/xhaka-out-swiss-nations-league-squad-due-calf-injury-2026-11-09/",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Luxembourg",
+      "awayTeam": "Estonie",
+      "competition": "Ligue des nations C4",
+      "probabilities": {
+        "home": 32,
+        "draw": 35,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 45,
+        "draw": 28,
+        "away": 27,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "La rencontre oppose deux équipes proches; l'Estonie avait gagné l'aller 1-0 et reste difficile à battre.",
+        "keyFactors": [
+          "Le Luxembourg a perdu ses trois derniers matchs de groupe sans marquer; l'Estonie enchaîne les nuls et a concédé peu de buts."
+        ],
+        "uncertainty": "Le nul est retenu de justesse devant les victoires des deux camps; toute issue reste plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.fotmob.com/matches/luxembourg-vs-estonia/1msqp0",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.sportsmole.co.uk/football/luxembourg/uefa-nations-league/preview/luxembourg-vs-estonia-prediction-team-news-lineups_608892.html",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Bulgarie",
+      "awayTeam": "Islande",
+      "competition": "Ligue des nations C4",
+      "probabilities": {
+        "home": 22,
+        "draw": 29,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 23,
+        "away": 50,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "L'Islande mène son groupe, reste invaincue et a gagné l'aller 3-0.",
+        "keyFactors": [
+          "L'Islande n'a encaissé qu'un but en quatre rencontres; la Bulgarie doit gagner pour rester dans la course."
+        ],
+        "uncertainty": "L'Islande voyage et peut gérer un nul; les absences annoncées côté bulgare restent à pondérer.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/bulgaria-vs-iceland-preview-prediction-2026-27-uefa-nations-league-league-c-237903",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.poznavach.com/en/football-predictions/bulgaria-iceland-prediction-13-11-2026",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Slovaquie",
+      "awayTeam": "Îles Féroé",
+      "competition": "Ligue des nations C3",
+      "probabilities": {
+        "home": 69,
+        "draw": 24,
+        "away": 7
+      },
+      "fdjSelectionDistribution": {
+        "home": 90,
+        "draw": 7,
+        "away": 3,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "La Slovaquie est leader et forte à domicile; elle avait toutefois concédé un nul 1-1 à l'aller.",
+        "keyFactors": [
+          "Dix points en quatre matchs pour la Slovaquie; les Féroé ont fait quatre nuls sur quatre."
+        ],
+        "uncertainty": "L'absence annoncée de Lobotka et la propension des Féroé au nul tempèrent le statut de favori.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/slovakia-vs-faroe-islands-preview-prediction-2026-27-uefa-nations-league-league-c-237915",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.poznavach.com/en/football-predictions/slovakia-faroe-islands-prediction-13-11-2026",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Écosse",
+      "awayTeam": "Macédoine du Nord",
+      "competition": "Ligue des nations B1",
+      "probabilities": {
+        "home": 67,
+        "draw": 24,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 89,
+        "draw": 6,
+        "away": 5,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "L'Écosse avait gagné 2-0 à l'extérieur; la Macédoine du Nord a perdu ses quatre matchs sans marquer.",
+        "keyFactors": [
+          "L'Écosse doit gagner pour conserver une chance de promotion; McTominay et Tierney sont de retour dans le groupe."
+        ],
+        "uncertainty": "Les absences défensives écossaises et ses revers récents à domicile imposent de conserver une chance de nul.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/scotland-vs-north-macedonia-preview-prediction-2026-27-uefa-nations-league-league-b-237911",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.forebet.com/en/football-match-previews/32359-scotland-seek-control-as-north-macedonia-chase-a-response-numbers-point-to-a-tight-affair-at-hampden",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 3",
+            "url": "https://www.fotmob.com/en-GB/matches/north-macedonia-vs-scotland/2bly5b",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Andorre",
+      "awayTeam": "Gibraltar",
+      "competition": "Ligue des nations D1",
+      "probabilities": {
+        "home": 35,
+        "draw": 34,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 53,
+        "draw": 28,
+        "away": 19,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "Le 0-0 à l'aller et la faible production offensive des deux équipes favorisent une rencontre fermée.",
+        "keyFactors": [
+          "L'Andorre reste sans victoire; Gibraltar a fait deux nuls en deux rencontres de groupe et présente une meilleure série récente."
+        ],
+        "uncertainty": "Trois issues proches; l'avantage domicile de l'Andorre est fragile.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/andorra-vs-gibraltar-preview-prediction-2026-27-uefa-nations-league-league-d-237901",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://statz.ai/news/19676795-andorra-vs-gibraltar-predictions-betting-tips",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Liechtenstein",
+      "awayTeam": "Azerbaïdjan",
+      "competition": "Ligue des nations D2",
+      "probabilities": {
+        "home": 12,
+        "draw": 28,
+        "away": 60
+      },
+      "fdjSelectionDistribution": {
+        "home": 8,
+        "draw": 10,
+        "away": 82,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "L'Azerbaïdjan est en tête et invaincu, alors que le Liechtenstein peine à marquer.",
+        "keyFactors": [
+          "Le match aller s'est terminé 0-0 malgré la domination azérie; le Liechtenstein n'a pas marqué dans cette édition."
+        ],
+        "uncertainty": "Le manque d'efficacité de l'Azerbaïdjan et sa faible réussite à l'extérieur rendent le nul plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/liechtenstein-vs-azerbaijan-preview-prediction-2026-27-uefa-nations-league-league-d-237905",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.poznavach.com/en/football-predictions/liechtenstein-azerbaijan-prediction-13-11-2026",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "CD Leganés",
+      "awayTeam": "Burgos CF",
+      "competition": "LaLiga Hypermotion",
+      "probabilities": {
+        "home": 27,
+        "draw": 30,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 38,
+        "draw": 26,
+        "away": 36,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "Burgos arrive en meilleure forme en championnat et Leganés a concédé de nombreux buts récemment.",
+        "keyFactors": [
+          "Burgos compte plusieurs victoires récentes; Leganés a perdu contre Albacete et doit gérer une défense fragilisée."
+        ],
+        "uncertainty": "Les deux sources divergent sur certaines absences à Leganés; le nul est une alternative sérieuse.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.oddalerts.com/livescores/burgos-vs-leganes/10502-4277",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://deeppreviews.com/previews/leganes-vs-burgos-2026-11-13",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 3",
+            "url": "https://ezco.gg/football/match/leganes-vs-burgos-2026-11-13/",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Colombie",
+      "awayTeam": "Chili",
+      "competition": "Match amical international",
+      "probabilities": {
+        "home": 61,
+        "draw": 25,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 13,
+        "away": 5,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "La Colombie possède un avantage technique et un bilan favorable face au Chili, notamment le 4-0 de 2024.",
+        "keyFactors": [
+          "La Colombie est invaincue lors des cinq dernières confrontations citées; Arias est convoqué."
+        ],
+        "uncertainty": "L'absence annoncée de Luis Díaz et les rotations possibles en amical augmentent le risque de nul.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.victorypicks.com/en/previews/colombia-vs-chile-november-14-2026-3386/",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/06/convocacao-colombia-arias-palmeiras.ghtm",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Argentine",
+      "awayTeam": "Uruguay",
+      "competition": "Match amical international",
+      "probabilities": {
+        "home": 55,
+        "draw": 28,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 13,
+        "away": 6,
+        "accessedAt": "2026-11-12T21:55:37+01:00"
+      },
+      "analysis": {
+        "summary": "L'Argentine garde un avantage à domicile dans ce duel régional, mais l'Uruguay peut lui opposer une forte intensité.",
+        "keyFactors": [
+          "La rencontre est annoncée à Buenos Aires; l'absence de Messi et le doute autour du gardien Martínez réduisent la marge argentine."
+        ],
+        "uncertainty": "Les compositions et la motivation propres à un amical restent incertaines; le nul est une alternative.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartitions",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.riotimesonline.com/argentina-uruguay-friendly-november-2026/",
+            "accessedAt": "2026-11-12T21:55:37+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "T1 - témoin sportif",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Une seule issue la plus probable par rencontre selon les probabilités estimées et les sources vérifiées; base reproductible pour comparer les résultats."
+    },
+    {
+      "id": "t2",
+      "label": "T2 - scénarios de nul",
+      "selections": [
+        "2",
+        "N",
+        "2",
+        "N",
+        "2",
+        "N",
+        "1",
+        "N",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Diffère de T1 aux positions 2, 6 et 8 : nul Pays-Bas-Grèce (29 % contre 15 % FDJ), Slovaquie-Féroé (24 % contre 7 % FDJ, quatre nuls féroïens), Andorre-Gibraltar (34 % contre 28 % FDJ, 0-0 à l'aller). Risque supplémentaire de renoncer aux favoris."
+    },
+    {
+      "id": "t3",
+      "label": "T3 - résistance et nul",
+      "selections": [
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "N",
+        "1",
+        "N"
+      ],
+      "rationale": "Diffère de T1 aux positions 4, 10 et 12 : Estonie à l'extérieur (33 % contre 27 % FDJ, succès à l'aller), nul Leganés-Burgos (30 % contre 26 % FDJ, forme opposée) et nul Argentine-Uruguay (28 % contre 13 % FDJ, incertitude amicale). Risque de multiplier les surprises."
+    }
+  ]
+}
