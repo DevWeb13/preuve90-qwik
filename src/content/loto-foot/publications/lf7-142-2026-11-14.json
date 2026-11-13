@@ -1,0 +1,360 @@
+{
+  "id": "lf7-142-2026-11-14",
+  "formula": 7,
+  "gridNumber": 142,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-14T17:55:00+01:00",
+  "publishedAt": "2026-11-13T17:01:02.720Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation de 3 € virtuels : un ticket témoin des sept favoris sportifs, puis deux scénarios de nuls motivés par les confrontations précédentes et les absences. Le risque principal est la corrélation des erreurs sur les favoris et la forte incertitude sur certains effectifs; aucun gain n'est garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Portugal",
+      "awayTeam": "Danemark",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 73,
+        "draw": 13,
+        "away": 14,
+        "accessedAt": "2026-11-13T17:00:47.720Z"
+      },
+      "analysis": {
+        "summary": "Le Portugal a remporté ses quatre rencontres de groupe et reçoit, mais plusieurs absences réduisent sa profondeur; le Danemark possède une menace de transition avec Højlund.",
+        "keyFactors": [
+          "Quatre succès portugais en quatre journées",
+          "Ronaldo retraité; Leão et Cancelo indisponibles selon les avant-matchs",
+          "Danemark battu 4-2 à domicile à l'aller"
+        ],
+        "uncertainty": "Le nul reste crédible si le Portugal gère sa première place; disponibilité de Dorgu contradictoire.",
+        "sources": [
+          {
+            "label": "FDJ - grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.rotowire.com/soccer/article/portugal-vs-denmark-prediction-predicted-lineups-team-news-146286",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-harry-kane-set-for-en/",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Norvège",
+      "awayTeam": "Pays de Galles",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 55,
+        "draw": 24,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 79,
+        "draw": 13,
+        "away": 8,
+        "accessedAt": "2026-11-13T17:00:47.720Z"
+      },
+      "analysis": {
+        "summary": "La Norvège reçoit avec Haaland et le retour de Sørloth, mais le pays de Galles a gagné leur confrontation précédente.",
+        "keyFactors": [
+          "Sørloth rappelé par la fédération norvégienne",
+          "Haaland et Ødegaard avaient manqué une séance, disponibilité à suivre",
+          "Le pays de Galles a gagné 2-1 à l'aller"
+        ],
+        "uncertainty": "Condition physique des leaders norvégiens et réaction galloise.",
+        "sources": [
+          {
+            "label": "FDJ - grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.fotball.no/landslag/norge-a-herrer/2026/herrelandslagets-tropp-til-nations-league-kamper/",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.fotmob.com/en-GB/matches/wales-vs-norway/1oqabn",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Autriche",
+      "awayTeam": "République d'Irlande",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 48,
+        "draw": 28,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 21,
+        "away": 14,
+        "accessedAt": "2026-11-13T17:00:47.720Z"
+      },
+      "analysis": {
+        "summary": "L'Autriche conserve un avantage à domicile par son pressing collectif, mais plusieurs absences au milieu et sur les côtés resserrent le duel.",
+        "keyFactors": [
+          "Schlager et Prass annoncés forfaits",
+          "Baumgartner de retour",
+          "L'Irlande s'appuie notamment sur les buts de Troy Parrott"
+        ],
+        "uncertainty": "Risque d'un nul contre une Irlande disciplinée; onze autrichien non confirmé.",
+        "sources": [
+          {
+            "label": "FDJ - grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thesun.ie/sport/17912120/ralf-rangnick-austria-players-ireland-heimir-hallgrimsson/",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-harry-kane-set-for-en/",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Irlande du Nord",
+      "awayTeam": "Ukraine",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 46,
+        "draw": 31,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 23,
+        "away": 25,
+        "accessedAt": "2026-11-13T17:00:47.720Z"
+      },
+      "analysis": {
+        "summary": "L'Irlande du Nord n'a pas encaissé de but en quatre journées et a battu l'Ukraine 3-0 à l'aller, mais plusieurs défenseurs sont indisponibles.",
+        "keyFactors": [
+          "Quatre clean sheets en phase de groupe",
+          "Succès 3-0 à l'aller",
+          "Absences annoncées de Ballard, Bradley et Toal"
+        ],
+        "uncertainty": "Match potentiellement fermé; les absences défensives peuvent modifier l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ - grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.forebet.com/en/football-match-previews/32372-northern-irelands-steel-meets-ukraines-control-in-a-tight-group-b2-rematch",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-harry-kane-set-for-en/",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Géorgie",
+      "awayTeam": "Hongrie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 28,
+        "draw": 29,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 27,
+        "draw": 28,
+        "away": 45,
+        "accessedAt": "2026-11-13T17:00:47.720Z"
+      },
+      "analysis": {
+        "summary": "La Hongrie a gagné ses deux dernières rencontres de groupe, dont l'aller face à la Géorgie; la Géorgie bénéficie du terrain et de joueurs offensifs dangereux.",
+        "keyFactors": [
+          "Hongrie victorieuse 1-0 à l'aller",
+          "Retour annoncé de Sallai et Varga dans le groupe hongrois",
+          "Géorgie moins régulière récemment"
+        ],
+        "uncertainty": "La Géorgie peut rendre le match serré à domicile; compositions incertaines.",
+        "sources": [
+          {
+            "label": "FDJ - grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.origo.hu/sport/sport-futball/2026/11/magyar-valogatott-nemzetek-ligaja-marco-rossi",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.atlasgoal.com/en/matches/georgia-af-1104-vs-hungary-af-769-nations-league-2026-11-14",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Roumanie",
+      "awayTeam": "Pologne",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 24,
+        "draw": 26,
+        "away": 50
+      },
+      "fdjSelectionDistribution": {
+        "home": 26,
+        "draw": 22,
+        "away": 52,
+        "accessedAt": "2026-11-13T17:00:47.720Z"
+      },
+      "analysis": {
+        "summary": "La Pologne a gagné 6-0 à l'aller avec un triplé de Lewandowski; la Roumanie retrouve son terrain mais perd plusieurs milieux importants.",
+        "keyFactors": [
+          "Défaite roumaine 6-0 à Varsovie",
+          "Stanciu et Mihăilă forfaits; Marin suspendu selon l'avant-match",
+          "La Pologne reste irrégulière à l'extérieur"
+        ],
+        "uncertainty": "La Pologne n'est pas aussi dominante hors de ses bases; un nul reste possible.",
+        "sources": [
+          {
+            "label": "FDJ - grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.forebet.com/en/football-match-previews/32370-romania-vs-poland-can-hagis-side-steady-after-the-warsaw-shock",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-harry-kane-set-for-en/",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Suède",
+      "awayTeam": "Bosnie-Herzégovine",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 60,
+        "draw": 24,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 75,
+        "draw": 14,
+        "away": 11,
+        "accessedAt": "2026-11-13T17:00:47.720Z"
+      },
+      "analysis": {
+        "summary": "La Suède mène son groupe et reçoit avec Gyökeres en forme; la Bosnie a tenu le nul 1-1 à l'aller et joue encore la promotion.",
+        "keyFactors": [
+          "Gyökeres sur une série de sept matchs de Nations League avec but",
+          "Suède en tête avec deux points d'avance",
+          "Match aller terminé sur un nul 1-1"
+        ],
+        "uncertainty": "Pression de la promotion et retour possible de joueurs suédois; nul tactique plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-harry-kane-set-for-en/",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.football-ecology.org/en/football-news/sweden-vs-bosnia-herzegovina-nations-league-preview",
+            "accessedAt": "2026-11-13T17:00:47.720Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Issues les plus probables pour chaque rencontre selon l'analyse sportive. Risque de nuls dans les rencontres 3, 4 et 7 et d'un faux pas norvégien."
+    },
+    {
+      "id": "T2",
+      "label": "Scénario nuls défensifs",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "N",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Teste les nuls Autriche-Irlande (28 % contre 21 % FDJ) et Irlande du Nord-Ukraine (31 % contre 23 % FDJ), en raison des absences et du profil fermé. Deux choix moins probables augmentent le risque."
+    },
+    {
+      "id": "T3",
+      "label": "Résistance galloise et bosnienne",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "2",
+        "N"
+      ],
+      "rationale": "Teste le nul Norvège-Galles (24 % contre 13 % FDJ) après le succès gallois à l'aller, et le nul Suède-Bosnie (24 % contre 14 % FDJ) après le 1-1 aller. Variantes distinctes, risque d'écarter deux favoris à domicile."
+    }
+  ]
+}
