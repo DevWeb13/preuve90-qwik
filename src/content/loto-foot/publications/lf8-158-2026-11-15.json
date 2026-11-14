@@ -1,0 +1,406 @@
+{
+  "id": "lf8-158-2026-11-15",
+  "formula": 8,
+  "gridNumber": 158,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-15T14:55:00+01:00",
+  "publishedAt": "2026-11-14T17:02:31.595Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Laboratoire de 3 € exclusivement virtuels : T1 mesure les favoris sportifs, T2 teste deux nuls tactiques et T3 deux alternatives fondées sur les résultats récents. Risque principal : plusieurs duels équilibrés et des compositions finales encore inconnues; aucun rendement promis."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "France",
+      "awayTeam": "Turquie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 73,
+        "draw": 19,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 90,
+        "draw": 6,
+        "away": 4,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "La France reste favorite à domicile après sa victoire 1-0 en Turquie à l'aller, mais l'absence de Mbappé contre l'Italie et sa disponibilité incertaine pour dimanche limitent la certitude.",
+        "keyFactors": [
+          "Victoire 1-0 à l'aller",
+          "Mbappé absent contre l'Italie",
+          "Turquie toujours dangereuse en transition."
+        ],
+        "uncertainty": "Statut de Mbappé et rotations après le match contre l'Italie non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/mbappe-out-frances-nations-league-fixture-2026-11-11/",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.reuters.com/sports/soccer/frances-mbappe-forced-off-with-apparent-knee-injury-turkey-clash-2026-09-25/",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Espagne",
+      "awayTeam": "Angleterre",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 49,
+        "draw": 28,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 57,
+        "draw": 26,
+        "away": 17,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "L'Espagne reste invaincue et a gagné 3-2 à Wembley; l'Angleterre a remporté ses quatre dernières rencontres et doit attaquer pour dépasser l'Espagne en tête du groupe.",
+        "keyFactors": [
+          "Espagne 15 points, Angleterre 12",
+          "nul suffisant aux Espagnols",
+          "Yamal incertain selon les avant-matchs."
+        ],
+        "uncertainty": "L'Angleterre peut imposer un rythme élevé; effectifs définitifs et disponibilité de Yamal incertains.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.theguardian.com/football/2026/nov/13/no-one-is-unbeatable-tuchel-eager-for-england-to-impose-style-on-spain",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.sportsmole.co.uk/football/spain/uefa-nations-league/preview/spain-vs-england-prediction-team-news-lineups_609045.html",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Chypre",
+      "awayTeam": "Monténégro",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 28,
+        "draw": 29,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 26,
+        "draw": 30,
+        "away": 44,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "Le Monténégro a gagné 2-1 à l'aller et reste invaincu sur ses cinq rencontres de groupe; Chypre progresse à domicile et a tenu l'Arménie en échec jeudi.",
+        "keyFactors": [
+          "Monténégro 2-1 Lettonie jeudi",
+          "Chypre 1-1 Arménie",
+          "promotion encore en jeu."
+        ],
+        "uncertainty": "Le terrain chypriote et l'enchaînement de matchs rapprochent les probabilités; compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.uefa.com/news-media/mediaservices/informationkits/competitions/uefanationsleague/2027/match/2047903/printmatchpresskits/",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.skysports.com/football/cyprus-vs-montenegro/554114",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Lettonie",
+      "awayTeam": "Arménie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 31,
+        "draw": 30,
+        "away": 39
+      },
+      "fdjSelectionDistribution": {
+        "home": 28,
+        "draw": 27,
+        "away": 45,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "L'Arménie a gagné 2-0 à l'aller et possède un léger avantage de forme; la Lettonie reçoit et pourrait ralentir une rencontre à faible total de buts.",
+        "keyFactors": [
+          "Lettonie sans victoire dans ses dernières rencontres",
+          "Arménie 1-1 Chypre jeudi",
+          "précédent 2-0 pour l'Arménie."
+        ],
+        "uncertainty": "Nul plausible dans un match peu prolifique; aucune absence déterminante confirmée.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://scorewave.live/en/articles/weekly-soccer-uefa-nations-league-2026-w46",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://matchoptic.com/club/1092",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Finlande",
+      "awayTeam": "Saint-Marin",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 86,
+        "draw": 10,
+        "away": 4
+      },
+      "fdjSelectionDistribution": {
+        "home": 92,
+        "draw": 5,
+        "away": 3,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "La Finlande a dominé Saint-Marin 7-0 à l'aller; Saint-Marin a perdu ses cinq rencontres de groupe et encaissé 18 buts.",
+        "keyFactors": [
+          "Sept buts finlandais à l'aller",
+          "Finlande troisième à 7 points",
+          "Saint-Marin dernier à zéro point."
+        ],
+        "uncertainty": "Rotation possible et motivation réduite de la Finlande; les onze ne sont pas confirmés.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://stadiro.com/matches/europe/uefa-nations-league/2026-11-15/finland-v-san-marino/",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.sportytrader.com/en/betting-tips/finland-san-marino-387507/",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Biélorussie",
+      "awayTeam": "Albanie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 34,
+        "draw": 31,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 35,
+        "draw": 27,
+        "away": 38,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "L'Albanie a gagné 2-0 à l'aller et vient de battre la Finlande; la Biélorussie a aussi gagné jeudi et conserve une défense solide.",
+        "keyFactors": [
+          "Albanie 2-0 Finlande",
+          "Biélorussie 2-0 Saint-Marin",
+          "Albanie 2-0 Biélorussie à l'aller."
+        ],
+        "uncertainty": "Rencontre très ouverte entre deux équipes en forme; lieu neutre et onze non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.skysports.com/football/belarus-vs-albania/554111",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://scorewave.live/en/articles/weekly-soccer-uefa-nations-league-2026-w46",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Croatie",
+      "awayTeam": "République tchèque",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 57,
+        "draw": 26,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 79,
+        "draw": 13,
+        "away": 8,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "La Croatie a gagné 2-1 à Prague et reçoit une équipe tchèque toujours sans victoire; les deux défenses ont cependant été fragiles.",
+        "keyFactors": [
+          "Croatie 2-1 à l'aller",
+          "République tchèque cinq défaites en cinq matchs",
+          "enjeu de maintien dans la Ligue A."
+        ],
+        "uncertainty": "Absences croates signalées dans les avant-matchs et fatigue après Wembley; défense croate fragile.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://deeppreviews.com/previews/croatia-vs-czechia-2026-11-15",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://balonario.com/en/match/2026-11-15-croatia-czechia/",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Belgique",
+      "awayTeam": "Italie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 39,
+        "draw": 28,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 40,
+        "draw": 28,
+        "away": 32,
+        "accessedAt": "2026-11-14T17:02:31.595Z"
+      },
+      "analysis": {
+        "summary": "La Belgique a gagné 2-0 en Italie à l'aller, mais l'Italie reste première et vient de battre la France 3-1; le duel pour la qualification est serré.",
+        "keyFactors": [
+          "Belgique 2-1 Turquie",
+          "Italie 3-1 France",
+          "Lukaku annoncé incertain ou absent."
+        ],
+        "uncertainty": "Risque élevé de nul, disponibilité de Lukaku incertaine, deux équipes avec trois jours de récupération.",
+        "sources": [
+          {
+            "label": "FDJ - grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.fotmob.com/en/matches/italy-vs-belgium/28qbqd",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.sportsmole.co.uk/football/belgium/uefa-nations-league/preview/belgium-vs-italy-prediction-team-news-lineups_609039.html",
+            "accessedAt": "2026-11-14T17:02:31.595Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Sélection des issues de probabilité sportive maximale, sauf Belgique-Italie où l'avantage belge demeure faible (39 %). Hypothèse principale : la supériorité des favoris à domicile; risques : Espagne-Angleterre et Biélorussie-Albanie très ouverts."
+    },
+    {
+      "id": "T2",
+      "label": "Nuls tactiques",
+      "selections": [
+        "1",
+        "N",
+        "2",
+        "2",
+        "1",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Teste le nul Espagne-Angleterre (28 %), qui suffit à l'Espagne pour garder la tête, et le nul Biélorussie-Albanie (31 %), deux défenses en forme. Deux hypothèses spécifiques moins populaires que les choix dominants FDJ, mais plus risquées que T1."
+    },
+    {
+      "id": "T3",
+      "label": "Résistance des locaux et Italie",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2"
+      ],
+      "rationale": "Teste la résistance de Chypre à domicile (nul 29 %) et le succès italien (33 %) après le 3-1 contre la France; l'Italie doit protéger sa première place. Ces deux changements exposent à la dynamique du Monténégro et à la victoire belge à l'aller."
+    }
+  ]
+}
