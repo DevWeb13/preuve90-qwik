@@ -1,0 +1,613 @@
+{
+  "id": "lf15-94-2026-11-14",
+  "formula": 15,
+  "gridNumber": 94,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-14T17:55:00+01:00",
+  "publishedAt": "2026-11-14T00:59:44.599Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Laboratoire de pronostics exclusivement virtuels, budget 3 euros. T1 teste les issues sportives dominantes de l'analyse des quinze matchs. T2 explore la solidité défensive de l'Irlande du Nord et l'équilibre Belgique-Italie; T3 teste l'incertitude Lettonie-Arménie et un nul Espagne-Angleterre déjà qualifiés. Risque principal: la corrélation des erreurs sur une grille de quinze matchs, les rotations et les huit rencontres disputées après la clôture de validation. Aucun gain n'est présumé."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Portugal",
+      "awayTeam": "Danemark",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 68,
+        "draw": 19,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 86,
+        "draw": 9,
+        "away": 5,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "Portugal a gagné 4-2 au Danemark et reste invaincu après quatre rencontres; Ramos et Félix ont marqué trois buts chacun.",
+        "keyFactors": [
+          "Portugal a gagné 4-2 au Danemark et reste invaincu après quatre rencontres; Ramos et Félix ont marqué trois buts chacun.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Le Danemark, porté par Højlund, peut exploiter les transitions malgré le désavantage du déplacement. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "UEFA, avant-match journée 5",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-portugal-host-denmark/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Norvège",
+      "awayTeam": "Pays de Galles",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 64,
+        "draw": 21,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 83,
+        "draw": 10,
+        "away": 7,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "Haaland et Ødegaard animent l'attaque norvégienne; la Norvège reçoit après une défaite 1-2 à Cardiff.",
+        "keyFactors": [
+          "Haaland et Ødegaard animent l'attaque norvégienne; la Norvège reçoit après une défaite 1-2 à Cardiff.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Le pays de Galles a déjà battu la Norvège et récupère Harry Wilson; le retour d'Alexander Sørloth ajoute une inconnue de rotation. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "UEFA, avant-match journée 5",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-portugal-host-denmark/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Autriche",
+      "awayTeam": "République d'Irlande",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 55,
+        "draw": 26,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 75,
+        "draw": 17,
+        "away": 8,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "L'Autriche a remporté ses deux rencontres à domicile de septembre; le match aller en Irlande s'est terminé 2-2.",
+        "keyFactors": [
+          "L'Autriche a remporté ses deux rencontres à domicile de septembre; le match aller en Irlande s'est terminé 2-2.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "L'Irlande a marqué quatre de ses six buts grâce à Troy Parrott; disponibilité de plusieurs Autrichiens à confirmer. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "UEFA, avant-match journée 5",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-portugal-host-denmark/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Irlande du Nord",
+      "awayTeam": "Ukraine",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 44,
+        "draw": 32,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 19,
+        "away": 20,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "L'Irlande du Nord n'avait concédé aucun but lors des quatre premières journées et a gagné 3-0 en Ukraine.",
+        "keyFactors": [
+          "L'Irlande du Nord n'avait concédé aucun but lors des quatre premières journées et a gagné 3-0 en Ukraine.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Le profil défensif favorise aussi le nul; l'Ukraine peut réagir après sa défaite à domicile. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "UEFA, avant-match journée 5",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-portugal-host-denmark/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Géorgie",
+      "awayTeam": "Hongrie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 28,
+        "draw": 30,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 20,
+        "draw": 30,
+        "away": 50,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "La Hongrie a gagné 1-0 le premier duel et reste dans la course en groupe B2.",
+        "keyFactors": [
+          "La Hongrie a gagné 1-0 le premier duel et reste dans la course en groupe B2.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "La Géorgie reçoit et avait tenu l'Ukraine en échec; scénario serré possible. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Roumanie",
+      "awayTeam": "Pologne",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 20,
+        "draw": 24,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 18,
+        "away": 67,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "La Pologne a gagné 6-0 le précédent duel et dispose de Lewandowski, auteur d'un triplé lors de cette rencontre.",
+        "keyFactors": [
+          "La Pologne a gagné 6-0 le précédent duel et dispose de Lewandowski, auteur d'un triplé lors de cette rencontre.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "La Roumanie reçoit mais son bilan de groupe est fragile; le nul reste plausible. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "UEFA, avant-match journée 5",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-portugal-host-denmark/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Suède",
+      "awayTeam": "Bosnie-Herzégovine",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 55,
+        "draw": 25,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 83,
+        "draw": 11,
+        "away": 6,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "La Suède a gagné ses matchs contre la Roumanie et la Pologne; Gyökeres marque régulièrement.",
+        "keyFactors": [
+          "La Suède a gagné ses matchs contre la Roumanie et la Pologne; Gyökeres marque régulièrement.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "La Bosnie a tenu la Suède en échec 1-1 au match aller et n'a pas perdu contre la Pologne. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "UEFA, avant-match journée 5",
+            "url": "https://www.uefa.com/uefanationsleague/news/02ab-220793bfb8a3-00d5842942af-1000--uefa-nations-league-matchday-5-preview-portugal-host-denmark/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Chypre",
+      "awayTeam": "Monténégro",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 26,
+        "draw": 28,
+        "away": 46
+      },
+      "fdjSelectionDistribution": {
+        "home": 24,
+        "draw": 30,
+        "away": 46,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "Le Monténégro a gagné 2-1 à l'aller et vient de battre la Lettonie 2-1; la dynamique favorise les visiteurs.",
+        "keyFactors": [
+          "Le Monténégro a gagné 2-1 à l'aller et vient de battre la Lettonie 2-1; la dynamique favorise les visiteurs.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Chypre a battu l'Arménie et la Lettonie à domicile, rendant le nul ou la victoire locale crédibles. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Lettonie",
+      "awayTeam": "Arménie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 36,
+        "draw": 30,
+        "away": 34
+      },
+      "fdjSelectionDistribution": {
+        "home": 33,
+        "draw": 25,
+        "away": 42,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "L'Arménie a remporté le match aller 2-0, mais la Lettonie reçoit et a obtenu un nul contre Chypre.",
+        "keyFactors": [
+          "L'Arménie a remporté le match aller 2-0, mais la Lettonie reçoit et a obtenu un nul contre Chypre.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Les deux équipes ont des résultats irréguliers; match ouvert sans favori solide. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Biélorussie",
+      "awayTeam": "Albanie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 32,
+        "draw": 29,
+        "away": 39
+      },
+      "fdjSelectionDistribution": {
+        "home": 42,
+        "draw": 26,
+        "away": 32,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "L'Albanie a gagné 2-0 à l'aller et vient de battre la Finlande; la Biélorussie reste sur des succès contre Saint-Marin et Finlande.",
+        "keyFactors": [
+          "L'Albanie a gagné 2-0 à l'aller et vient de battre la Finlande; la Biélorussie reste sur des succès contre Saint-Marin et Finlande.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Le terrain et les rotations restent incertains; la répartition publique favorise au contraire la Biélorussie. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Finlande",
+      "awayTeam": "Saint-Marin",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 88,
+        "draw": 8,
+        "away": 4
+      },
+      "fdjSelectionDistribution": {
+        "home": 94,
+        "draw": 3,
+        "away": 3,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "La Finlande a gagné 7-0 à Saint-Marin et retrouve un adversaire qui a perdu ses cinq premiers matchs.",
+        "keyFactors": [
+          "La Finlande a gagné 7-0 à Saint-Marin et retrouve un adversaire qui a perdu ses cinq premiers matchs.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "La Finlande vient de perdre contre l'Albanie, mais l'écart de niveau demeure net. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Croatie",
+      "awayTeam": "République tchèque",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 59,
+        "draw": 25,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 84,
+        "draw": 11,
+        "away": 5,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "La Croatie a gagné 2-1 en Tchéquie; la Tchéquie reste sans victoire après cinq matchs.",
+        "keyFactors": [
+          "La Croatie a gagné 2-1 en Tchéquie; la Tchéquie reste sans victoire après cinq matchs.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "La Croatie a subi plusieurs lourdes défaites contre l'Angleterre et l'Espagne; la confiance défensive est limitée. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "Reuters, résultats journée 5",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Belgique",
+      "awayTeam": "Italie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 35,
+        "draw": 30,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 42,
+        "draw": 27,
+        "away": 31,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "La Belgique a gagné 2-0 en Italie en septembre et vient de battre la Turquie; l'Italie a dominé la France 3-1.",
+        "keyFactors": [
+          "La Belgique a gagné 2-0 en Italie en septembre et vient de battre la Turquie; l'Italie a dominé la France 3-1.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Rencontre équilibrée entre équipes en course pour les quarts; une rotation après jeudi est possible. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "Reuters, résultats journée 5",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Espagne",
+      "awayTeam": "Angleterre",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 53,
+        "draw": 26,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 68,
+        "draw": 18,
+        "away": 14,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "L'Espagne a remporté ses cinq premiers matchs et gagné 3-2 en Angleterre; l'Angleterre a gagné 2-1 contre la Croatie jeudi.",
+        "keyFactors": [
+          "L'Espagne a remporté ses cinq premiers matchs et gagné 3-2 en Angleterre; l'Angleterre a gagné 2-1 contre la Croatie jeudi.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "Les deux équipes sont qualifiées, donc la rotation peut réduire l'avantage espagnol. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "Reuters, résultats journée 5",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "France",
+      "awayTeam": "Turquie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 65,
+        "draw": 23,
+        "away": 12
+      },
+      "fdjSelectionDistribution": {
+        "home": 91,
+        "draw": 5,
+        "away": 4,
+        "accessedAt": "2026-11-14T00:59:44.599+00:00"
+      },
+      "analysis": {
+        "summary": "La France a gagné 1-0 en Turquie et reste bien placée pour les quarts malgré la défaite 1-3 en Italie.",
+        "keyFactors": [
+          "La France a gagné 1-0 en Turquie et reste bien placée pour les quarts malgré la défaite 1-3 en Italie.",
+          "Domicile/extérieur et résultats de la phase de groupes pris en compte; comparaison aux choix FDJ."
+        ],
+        "uncertainty": "La défaite en Italie et les incertitudes physiques de Mbappé/Koundé fragilisent la projection; la Turquie reste dangereuse en transition. Les compositions finales et toutes les absences ne sont pas confirmées; les probabilités sont des estimations subjectives.",
+        "sources": [
+          {
+            "label": "UEFA, calendrier et résultats 2026/27",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-and-resul/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          },
+          {
+            "label": "Reuters, résultats journée 5",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-14T00:59:44.599+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "label": "T1 - témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Issue estimée la plus probable sur chacun des quinze matchs, sans modification artificielle; témoin reproductible pour comparer les variantes."
+    },
+    {
+      "id": "t2",
+      "label": "T2 - nuls défensifs",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "1"
+      ],
+      "rationale": "Remplace le 1 en Irlande du Nord-Ukraine par N (32 % contre 44 % pour 1) car les quatre premiers matchs nord-irlandais étaient sans but encaissé; remplace le 1 en Belgique-Italie par N (30 % contre 35 %) dans un duel de deux équipes performantes, dont le résultat peut être influencé par les rotations. Deux hypothèses sportives distinctes et plus risquées."
+    },
+    {
+      "id": "t3",
+      "label": "T3 - égalités disputées",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Remplace le 1 en Lettonie-Arménie par N (30 % contre 36 %) vu la faible différence de niveau et le précédent nul letton contre Chypre; remplace le 1 en Espagne-Angleterre par N (26 % contre 53 %) puisque les deux équipes sont déjà qualifiées et pourraient gérer l'effectif. Risque accru face au favori espagnol."
+    }
+  ]
+}
