@@ -1,0 +1,650 @@
+{
+  "id": "lf12-99-2026-11-15",
+  "formula": 12,
+  "gridNumber": 99,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-15T20:40:00+01:00",
+  "publishedAt": "2026-11-15T02:00:45+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience de 3 € exclusivement virtuels. T1 suit les issues sportives les plus probables; T2 explore trois nuls ou inversions plausibles dans des matchs ouverts; T3 teste l'Italie, le nul à Gibraltar et la résistance écossaise. Risque élevé sur douze matchs, notamment les rotations des équipes déjà qualifiées; aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "France",
+      "awayTeam": "Turquie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 70,
+        "draw": 21,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 93,
+        "draw": 4,
+        "away": 3,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "La France reste nettement favorite à domicile mais vient de perdre 3-1 en Italie; la Turquie a perdu contre la Belgique et reste dangereuse en transition.",
+        "keyFactors": [
+          "Avantage du terrain français",
+          "France et Italie à dix points avant cette dernière journée",
+          "Disponibilité de Mbappé incertaine"
+        ],
+        "uncertainty": "L'état physique de Mbappé et les rotations ne sont pas confirmés.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.lemonde.fr/en/sports/article/2026/11/13/italy-3-1-france-zidane-s-first-defeat-plunges-les-bleus-into-doubt_6779599_9.html",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Espagne",
+      "awayTeam": "Angleterre",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 49,
+        "draw": 29,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 23,
+        "away": 16,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "L'Espagne a gagné ses cinq matchs et n'a besoin que d'un nul pour terminer première; l'Angleterre est déjà qualifiée mais doit gagner pour prendre la tête.",
+        "keyFactors": [
+          "Espagne invaincue en cinq journées",
+          "Angleterre victorieuse de la Croatie 2-1",
+          "Match aller gagné 3-2 par l'Espagne"
+        ],
+        "uncertainty": "Rotations possibles dans deux équipes déjà qualifiées.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://talksport.com/football/4705922/where-watch-spain-england-tv-channel-live-stream/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Belgique",
+      "awayTeam": "Italie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 38,
+        "draw": 29,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 38,
+        "draw": 28,
+        "away": 34,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "La Belgique reste crédible à domicile après son succès contre la Turquie; l'Italie arrive avec une victoire 3-1 sur la France et une forte dynamique.",
+        "keyFactors": [
+          "Belgique 2-1 Turquie",
+          "Italie 3-1 France",
+          "Duel de qualification dans le groupe A1"
+        ],
+        "uncertainty": "L'écart entre les trois issues est réduit et les compositions restent ouvertes.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.theguardian.com/football/2026/nov/12/nations-league-italy-france-spain-czechia",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Croatie",
+      "awayTeam": "République tchèque",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 59,
+        "draw": 25,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 84,
+        "draw": 10,
+        "away": 6,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "La Croatie conserve l'avantage à domicile contre des Tchèques toujours sans victoire; elle a toutefois perdu 2-1 en Angleterre.",
+        "keyFactors": [
+          "République tchèque battue 2-0 par l'Espagne",
+          "Croatie battue 2-1 à Wembley",
+          "Fatigue et rotations possibles"
+        ],
+        "uncertainty": "La Croatie peut être moins dominante que ne l'indique le public FDJ.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/italy-seal-dominant-win-over-france-kane-sets-england-appearance-record-2026-11-12/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.theguardian.com/football/2026/nov/12/nations-league-italy-france-spain-czechia",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Estonie",
+      "awayTeam": "Bulgarie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 47,
+        "draw": 31,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 21,
+        "away": 18,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "L'Estonie est solide défensivement et a gagné 1-0 au Luxembourg; la Bulgarie vient de subir un 0-5 face à l'Islande.",
+        "keyFactors": [
+          "Estonie 1-0 Luxembourg",
+          "Bulgarie 0-5 Islande",
+          "Match aller terminé 0-0"
+        ],
+        "uncertainty": "Un nouveau nul reste plausible dans une confrontation historiquement serrée.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.skysports.com/football/estonia-vs-bulgaria/554119",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.fotmob.com/matches/luxembourg-vs-estonia/1msqp0",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Îles Féroé",
+      "awayTeam": "Moldavie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 43,
+        "draw": 32,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 26,
+        "away": 42,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "Les Féroé restent sur plusieurs nuls, notamment 2-2 en Slovaquie; la Moldavie vient de battre le Kazakhstan 2-1.",
+        "keyFactors": [
+          "Féroé 2-2 Slovaquie",
+          "Moldavie 2-1 Kazakhstan",
+          "Féroé-Moldavie 1-1 à l'aller"
+        ],
+        "uncertainty": "Les nuls fréquents des Féroé rendent le 1 moins assuré malgré le terrain.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://football-stats.co.uk/match/faroe-islands-moldova-2026-11-16/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.fotmob.com/matches/kazakhstan-vs-slovakia/2bndvk",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Gibraltar",
+      "awayTeam": "Malte",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 24,
+        "draw": 30,
+        "away": 46
+      },
+      "fdjSelectionDistribution": {
+        "home": 24,
+        "draw": 21,
+        "away": 55,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "Malte est invaincue en Ligue D et a déjà assuré la première place; Gibraltar a perdu 2-0 en Andorre mais avait arraché 1-1 à Malte.",
+        "keyFactors": [
+          "Malte déjà première du groupe",
+          "Gibraltar battu en Andorre",
+          "Match aller 1-1"
+        ],
+        "uncertainty": "Motivation et rotations maltaises peuvent réduire l'avantage théorique des visiteurs.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.sportsmole.co.uk/football/gibraltar/preview/gibraltar-vs-malta-prediction-team-news-lineups_609101.html",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.maltafootball.com/2026/10/15/malta-in-the-2026-nations-league-it-all-comes-down-to-gibraltar/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Macédoine du Nord",
+      "awayTeam": "Slovénie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 18,
+        "draw": 26,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 13,
+        "away": 75,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "La Slovénie a battu la Macédoine du Nord 2-0 à l'aller et a tenu la Suisse en échec; les Macédoniens viennent de perdre en Écosse.",
+        "keyFactors": [
+          "Slovénie 0-0 Suisse",
+          "Écosse 2-1 Macédoine du Nord",
+          "Slovénie 2-0 à l'aller"
+        ],
+        "uncertainty": "Avantage extérieur exposé à une réaction macédonienne à domicile.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.fotmob.com/en-GB/matches/slovenia-vs-north-macedonia/1mqxn8",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.theguardian.com/football/live/2026/nov/13/scotland-v-north-macedonia-nations-league-live",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Kazakhstan",
+      "awayTeam": "Slovaquie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 19,
+        "draw": 25,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 13,
+        "away": 72,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "La Slovaquie est promue malgré son 2-2 contre les Féroé; le Kazakhstan a perdu 2-1 en Moldavie et avait perdu l'aller 2-1.",
+        "keyFactors": [
+          "Slovaquie promue",
+          "Kazakhstan 1-2 Moldavie",
+          "Slovaquie 2-1 Kazakhstan à l'aller"
+        ],
+        "uncertainty": "La promotion déjà acquise peut entraîner une rotation slovaque.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.fotmob.com/matches/kazakhstan-vs-slovakia/2bndvk",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.reuters.com/sports/soccer/reijnders-hat-trick-fires-dutch-7-0-rout-greece-germany-beat-serbia-2026-11-13/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Grèce",
+      "awayTeam": "Serbie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 53,
+        "draw": 26,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 10,
+        "away": 8,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "La Grèce doit réagir après une lourde défaite 0-7 aux Pays-Bas; la Serbie a perdu 1-3 contre l'Allemagne et a terminé à neuf.",
+        "keyFactors": [
+          "Grèce 0-7 Pays-Bas",
+          "Serbie 1-3 Allemagne",
+          "Deux expulsions serbes vendredi"
+        ],
+        "uncertainty": "L'ampleur de la défaite grecque rend sa réaction incertaine malgré l'avantage du terrain.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/reijnders-hat-trick-fires-dutch-7-0-rout-greece-germany-beat-serbia-2026-11-13/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://generationzidane.fr/match/grece-serbie-16-novembre-2026/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Suisse",
+      "awayTeam": "Écosse",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 57,
+        "draw": 26,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 12,
+        "away": 8,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "La Suisse est déjà promue, invaincue et avait battu l'Écosse 3-0 à l'aller; l'Écosse reste motivée par la course aux barrages.",
+        "keyFactors": [
+          "Suisse 0-0 Slovénie",
+          "Écosse 2-1 Macédoine du Nord",
+          "Suisse 3-0 Écosse à l'aller"
+        ],
+        "uncertainty": "Qualification suisse acquise et rotation possible; motivation écossaise supérieure.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.fotmob.com/matches/switzerland-vs-scotland/1wx88q",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://bet.ax/switzerland-vs-scotland-preview/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Allemagne",
+      "awayTeam": "Pays-Bas",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 36,
+        "draw": 27,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 25,
+        "away": 23,
+        "accessedAt": "2026-11-15T02:00:45+01:00"
+      },
+      "analysis": {
+        "summary": "L'Allemagne vient de gagner 3-1 en Serbie mais les Pays-Bas ont dominé la Grèce 7-0 et mènent le groupe.",
+        "keyFactors": [
+          "Allemagne 3-1 Serbie",
+          "Pays-Bas 7-0 Grèce",
+          "Frenkie de Jong annoncé forfait"
+        ],
+        "uncertainty": "Match de très haut niveau; les trois issues restent proches malgré l'absence de De Jong.",
+        "sources": [
+          {
+            "label": "FDJ - grille officielle et répartition",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "UEFA - calendrier officiel",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/reijnders-hat-trick-fires-dutch-7-0-rout-greece-germany-beat-serbia-2026-11-13/",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.barcablaugranes.com/barcelona-internationals/137993/netherlands-confirm-de-jong-ruled-out-of-germany-clash",
+            "accessedAt": "2026-11-15T02:00:45+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Une issue de probabilité maximale par rencontre. Repère reproductible, non promesse de rentabilité; fragilité principale: Belgique-Italie et Allemagne-Pays-Bas très ouverts."
+    },
+    {
+      "id": "T2",
+      "label": "Nuls et Allemagne",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Remplace Espagne-Angleterre par N (29 %, FDJ 23 %), Féroé-Moldavie par N (32 %, FDJ 26 %) et Pays-Bas en Allemagne par 1 (36 %, FDJ 52 %). Teste le poids du contexte tactique et de l'absence de De Jong, au risque de perdre trois choix T1."
+    },
+    {
+      "id": "T3",
+      "label": "Italie, Gibraltar et Écosse",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "N",
+        "2",
+        "2",
+        "1",
+        "N",
+        "2"
+      ],
+      "rationale": "Teste l'Italie en Belgique (33 %, FDJ 34 %), le nul Gibraltar-Malte (30 %, FDJ 21 %) puisque Malte est déjà première, et le nul Suisse-Écosse (26 %, FDJ 12 %) avec une Suisse promue. Scénario moins probable que T1."
+    }
+  ]
+}
