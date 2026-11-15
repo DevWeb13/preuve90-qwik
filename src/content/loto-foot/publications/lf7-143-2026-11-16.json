@@ -1,0 +1,370 @@
+{
+  "id": "lf7-143-2026-11-16",
+  "formula": 7,
+  "gridNumber": 143,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-16T17:55:00+01:00",
+  "publishedAt": "2026-11-15T16:55:34.342Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation de 3 € virtuels. T1 sert de témoin des favoris sportifs; T2 confronte deux nuls tactiques aux résultats; T3 teste un nul estonien moins sélectionné. Le risque principal est la combinaison d'incertitudes sur Allemagne-Pays-Bas, Gibraltar-Malte et Estonie-Bulgarie. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Allemagne",
+      "awayTeam": "Pays-Bas",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 42,
+        "draw": 29,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 61,
+        "draw": 20,
+        "away": 19,
+        "accessedAt": "2026-11-15T16:55:34.342Z"
+      },
+      "analysis": {
+        "summary": "L'Allemagne a battu la Serbie 3-1, mais les Pays-Bas restent invaincus après un succès 7-0 contre la Grèce. Les Néerlandais peuvent assurer la première place avec un nul.",
+        "keyFactors": [
+          "Victoire allemande 3-1 en Serbie",
+          "Pays-Bas 7-0 Grèce",
+          "Frenkie de Jong annoncé forfait"
+        ],
+        "uncertainty": "Le nul est crédible et les rotations néerlandaises ne sont pas confirmées. Compositions définitives non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Bundesliga, avant-match du 14 novembre",
+            "url": "https://www.bundesliga.com/en/bundesliga/news/germany-netherlands-uefa-nations-league-klopp-wirtz-39995",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Sky Sports, résultats et forme",
+            "url": "https://www.skysports.com/football/germany-vs-netherlands/554121",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Barça Blaugranes, forfait De Jong",
+            "url": "https://www.barcablaugranes.com/barcelona-internationals/137993/netherlands-confirm-de-jong-ruled-out-of-germany-clash",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Gibraltar",
+      "awayTeam": "Malte",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 27,
+        "draw": 31,
+        "away": 42
+      },
+      "fdjSelectionDistribution": {
+        "home": 37,
+        "draw": 24,
+        "away": 39,
+        "accessedAt": "2026-11-15T16:55:34.342Z"
+      },
+      "analysis": {
+        "summary": "Malte est invaincue dans son groupe et a tenu Gibraltar en échec 1-1 à l'aller. Gibraltar doit gagner pour terminer deuxième, ce qui peut ouvrir le match.",
+        "keyFactors": [
+          "Malte première et invaincue",
+          "Gibraltar battu 2-0 par Andorre",
+          "Match aller 1-1"
+        ],
+        "uncertainty": "La motivation de Gibraltar et le risque de rotation de Malte, déjà première, rendent le nul plausible. Compositions définitives non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "The Stats Zone, avant-match du 14 novembre",
+            "url": "https://www.thestatszone.com/gibraltar-vs-malta-preview-prediction-2026-27-uefa-nations-league-league-d-239182",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Scores24, enjeux du 16 novembre",
+            "url": "https://scores24.live/en/articles/weekly-predictions/uefa-nations-league-16-11-2026",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Grèce",
+      "awayTeam": "Serbie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 56,
+        "draw": 15,
+        "away": 29,
+        "accessedAt": "2026-11-15T16:55:34.342Z"
+      },
+      "analysis": {
+        "summary": "La Grèce conserve un enjeu de qualification malgré sa lourde défaite 7-0 aux Pays-Bas. La Serbie a perdu ses cinq matchs et terminé à neuf contre l'Allemagne.",
+        "keyFactors": [
+          "Grèce victorieuse 2-1 à l'aller",
+          "Serbie cinq défaites en cinq matchs",
+          "Serbie affectée par des suspensions après deux expulsions"
+        ],
+        "uncertainty": "La réaction grecque après le 7-0 et les choix de composition restent incertains. Compositions définitives non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "The Stats Zone, avant-match du 14 novembre",
+            "url": "https://www.thestatszone.com/greece-vs-serbia-preview-prediction-2026-27-uefa-nations-league-league-a-239184",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Reuters, résultats du 13 novembre",
+            "url": "https://www.reuters.com/sports/soccer/reijnders-hat-trick-fires-dutch-7-0-rout-greece-germany-beat-serbia-2026-11-13/",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Macédoine du Nord",
+      "awayTeam": "Slovénie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 17,
+        "draw": 26,
+        "away": 57
+      },
+      "fdjSelectionDistribution": {
+        "home": 24,
+        "draw": 23,
+        "away": 53,
+        "accessedAt": "2026-11-15T16:55:34.342Z"
+      },
+      "analysis": {
+        "summary": "La Slovénie peut sécuriser la deuxième place en gagnant. La Macédoine du Nord a perdu ses cinq matchs de groupe et encaissé douze buts.",
+        "keyFactors": [
+          "Slovénie victorieuse 2-0 à l'aller",
+          "Macédoine du Nord zéro point",
+          "Slovénie 0-0 Suisse lors de la dernière journée"
+        ],
+        "uncertainty": "La Slovénie a historiquement fait plusieurs nuls lors de ses dernières journées et peut manquer d'efficacité. Compositions définitives non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "The Stats Zone, avant-match du 14 novembre",
+            "url": "https://www.thestatszone.com/north-macedonia-vs-slovenia-preview-prediction-2026-27-uefa-nations-league-league-b-239186",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Matchcalendar, forme et face-à-face",
+            "url": "https://matchcalendar.football/competition/uefa-nations-league/match/north-macedonia-vs-slovenia/",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Islande",
+      "awayTeam": "Luxembourg",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 78,
+        "draw": 15,
+        "away": 7
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 10,
+        "away": 8,
+        "accessedAt": "2026-11-15T16:55:34.342Z"
+      },
+      "analysis": {
+        "summary": "L'Islande est invaincue et vient de gagner 5-0 en Bulgarie; elle a battu le Luxembourg 3-0 à l'aller. Une victoire lui garantit la première place.",
+        "keyFactors": [
+          "Islande 11 points en cinq rencontres",
+          "Luxembourg quatre défaites consécutives sans marquer",
+          "Succès islandais 3-0 à l'aller"
+        ],
+        "uncertainty": "Une gestion prudente du classement ou des rotations islandaises pourraient réduire l'écart. Compositions définitives non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "The Stats Zone, avant-match du 14 novembre",
+            "url": "https://www.thestatszone.com/iceland-vs-luxembourg-preview-prediction-2026-27-uefa-nations-league-league-c-239168",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Sky Sports, forme actualisée",
+            "url": "https://www.skysports.com/football/iceland-vs-luxembourg/8485763090134654232",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Estonie",
+      "awayTeam": "Bulgarie",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 54,
+        "draw": 30,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 55,
+        "draw": 20,
+        "away": 25,
+        "accessedAt": "2026-11-15T16:55:34.342Z"
+      },
+      "analysis": {
+        "summary": "L'Estonie reste invaincue et a gagné 1-0 au Luxembourg, tandis que la Bulgarie a subi un 0-5 contre l'Islande. Le match aller s'est terminé sur un nul.",
+        "keyFactors": [
+          "Estonie deuxième après cinq journées",
+          "Bulgarie battue 5-0 par l'Islande",
+          "Absences estoniennes signalées avant la trêve"
+        ],
+        "uncertainty": "Les absences offensives estoniennes et la tendance aux matchs serrés rendent le nul important. Compositions définitives non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Sports Mole, avant-match du 14 novembre",
+            "url": "https://www.sportsmole.co.uk/football/estonia/uefa-nations-league/preview/estonia-vs-bulgaria-prediction-team-news-lineups_609090.html",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Reflect.ee, effectif estonien du 10 novembre",
+            "url": "https://en.reflect.ee/article/estonias-national-football-team-prepares-for-final-nations-league-matches-in-lux-bc6c40",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Bulgarian Football, résultats du 13 novembre",
+            "url": "https://en.bulgarian-football.com/natsionalen-otbor/liga-na-natsiite-2027.html",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Suisse",
+      "awayTeam": "Écosse",
+      "competition": "UEFA Nations League",
+      "probabilities": {
+        "home": 59,
+        "draw": 25,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 72,
+        "draw": 12,
+        "away": 16,
+        "accessedAt": "2026-11-15T16:55:34.342Z"
+      },
+      "analysis": {
+        "summary": "La Suisse est invaincue et a gagné 3-0 en Écosse à l'aller. Déjà assurée de terminer première, elle affronte une Écosse qui doit gagner et espérer un faux pas slovène.",
+        "keyFactors": [
+          "Suisse quatre victoires et un nul",
+          "Suisse 3-0 Écosse à l'aller",
+          "Écosse victorieuse 2-1 de la Macédoine du Nord"
+        ],
+        "uncertainty": "La Suisse peut faire tourner son équipe puisque sa première place est acquise; le nul est plausible. Compositions définitives non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "The Stats Zone, avant-match du 14 novembre",
+            "url": "https://www.thestatszone.com/switzerland-vs-scotland-preview-prediction-2026-27-uefa-nations-league-league-a-239188",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          },
+          {
+            "label": "Scorewave, forme récente",
+            "url": "https://scorewave.live/en/articles/weekly-soccer-uefa-nations-league-2026-w47",
+            "accessedAt": "2026-11-15T16:55:34.342Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Les sept issues sportives les plus probables, selon les probabilités établies avant la clôture. Hypothèse principale: favoris grecs, slovènes, islandais, estoniens et suisses; l'Allemagne bénéficie du domicile et de l'absence de De Jong, Malte de sa meilleure forme. Risques: Allemagne-Pays-Bas et Gibraltar-Malte sont ouverts."
+    },
+    {
+      "id": "T2",
+      "label": "Nuls de fin de groupe",
+      "selections": [
+        "N",
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Teste les nuls Allemagne-Pays-Bas (29 %, contre 20 % de choix FDJ), qui suffit aux Néerlandais pour finir premiers, et Gibraltar-Malte (31 %, contre 24 % FDJ), Malte étant déjà première. Deux alternatives sportives à T1, mais probabilité conjointe plus faible."
+    },
+    {
+      "id": "T3",
+      "label": "Nul défensif estonien",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Teste le nul Estonie-Bulgarie (30 %, contre 20 % de choix FDJ) après le 0-0 à l'aller, avec plusieurs absences offensives estoniennes signalées. Conserve les six autres choix de T1; risque d'une victoire estonienne malgré la résistance bulgare."
+    }
+  ]
+}
