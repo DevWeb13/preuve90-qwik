@@ -1,0 +1,94 @@
+{
+  "id": "lf15-94-2026-11-14-result",
+  "publicationId": "lf15-94-2026-11-14",
+  "gridNumber": 94,
+  "settledAt": "2026-11-15T23:52:27+01:00",
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2042",
+  "matches": [
+    {
+      "position": 1,
+      "selection": "2"
+    },
+    {
+      "position": 2,
+      "selection": "1"
+    },
+    {
+      "position": 3,
+      "selection": "1"
+    },
+    {
+      "position": 4,
+      "selection": "1"
+    },
+    {
+      "position": 5,
+      "selection": "2"
+    },
+    {
+      "position": 6,
+      "selection": "1"
+    },
+    {
+      "position": 7,
+      "selection": "1"
+    },
+    {
+      "position": 8,
+      "selection": "2"
+    },
+    {
+      "position": 9,
+      "selection": "N"
+    },
+    {
+      "position": 10,
+      "selection": "2"
+    },
+    {
+      "position": 11,
+      "selection": "1"
+    },
+    {
+      "position": 12,
+      "selection": "1"
+    },
+    {
+      "position": 13,
+      "selection": "1"
+    },
+    {
+      "position": 14,
+      "selection": "2"
+    },
+    {
+      "position": 15,
+      "selection": "1"
+    }
+  ],
+  "payouts": [
+    {
+      "correctSelections": 15,
+      "amountCents": 10940900
+    },
+    {
+      "correctSelections": 14,
+      "amountCents": 237840
+    },
+    {
+      "correctSelections": 13,
+      "amountCents": 13210
+    },
+    {
+      "correctSelections": 12,
+      "amountCents": 1250
+    }
+  ],
+  "sources": [
+    {
+      "label": "FDJ - Résultats et rapports officiels Loto Foot 15 n°94",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-15/2042",
+      "accessedAt": "2026-11-15T23:52:27+01:00"
+    }
+  ]
+}
