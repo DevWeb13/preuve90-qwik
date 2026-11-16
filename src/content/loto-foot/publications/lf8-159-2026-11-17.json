@@ -1,0 +1,380 @@
+{
+  "id": "lf8-159-2026-11-17",
+  "formula": 8,
+  "gridNumber": 159,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+  "validationDeadline": "2026-11-17T20:40:00+01:00",
+  "publishedAt": "2026-11-16T17:00:43.919Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience exclusivement virtuelle: deux tickets de 1 €, soit 2 € fictifs. T1 mesure le choix sportif majoritaire; T2 teste le nul hongrois et la réaction polonaise. Risques: rotations non confirmées, enjeux tactiques et matchs serrés. Aucun gain attendu ou garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Pays de Galles",
+      "awayTeam": "Portugal",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 19,
+        "draw": 27,
+        "away": 54
+      },
+      "fdjSelectionDistribution": {
+        "home": 17,
+        "draw": 13,
+        "away": 70,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "Portugal a gagné 1-0 à l'aller, mais vient de perdre 4-1 contre le Danemark; le pays de Galles a perdu 3-1 en Norvège.",
+        "keyFactors": [
+          "Portugal reste supérieur sur la campagne (12 points), même après sa défaite; le pays de Galles est dernier du groupe."
+        ],
+        "uncertainty": "Portugal déjà assuré d'une place en quarts, rotations possibles; réaction galloise à domicile non exclue.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Reuters, Portugal-Danemark et Norvège-Galles",
+            "url": "https://www.reuters.com/sports/soccer/denmark-thrash-portugal-4-1-night-ronaldo-tributes-2026-11-14/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Bosnie-Herzégovine",
+      "awayTeam": "Roumanie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 52,
+        "draw": 26,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 20,
+        "away": 21,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "La Bosnie a gagné 4-2 en Roumanie, mais s'est inclinée 3-2 en Suède; la Roumanie a battu la Pologne 2-1.",
+        "keyFactors": [
+          "L'avantage du terrain et le précédent succès direct soutiennent la Bosnie."
+        ],
+        "uncertainty": "La victoire roumaine récente rend le nul et une surprise plausibles; effectifs finaux non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Hongrie",
+      "awayTeam": "Irlande du Nord",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 42,
+        "draw": 31,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 22,
+        "away": 26,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "Hongrie victorieuse 2-0 en Géorgie; Irlande du Nord victorieuse 1-0 contre l'Ukraine, toujours solide défensivement.",
+        "keyFactors": [
+          "L'avantage domicile hongrois se heurte à la défense nord-irlandaise; match de classement serré."
+        ],
+        "uncertainty": "Le nul tactique est crédible; les rotations et compositions restent non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Scores24, analyse des enjeux et formes récentes",
+            "url": "https://scores24.live/en/articles/weekly-predictions/uefa-nations-league-17-11-2026",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Israël",
+      "awayTeam": "Autriche",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 17,
+        "draw": 27,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 16,
+        "draw": 15,
+        "away": 69,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "Israël a fait 0-0 au Kosovo; l'Autriche a battu l'Irlande 1-0 et assuré sa promotion.",
+        "keyFactors": [
+          "L'Autriche a montré une meilleure régularité sur les cinq premières journées."
+        ],
+        "uncertainty": "La qualification acquise peut provoquer des rotations; le nul reste plausible.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Scores24, analyse des enjeux et formes récentes",
+            "url": "https://scores24.live/en/articles/weekly-predictions/uefa-nations-league-17-11-2026",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "République d'Irlande",
+      "awayTeam": "Kosovo",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 42,
+        "draw": 30,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 17,
+        "away": 16,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "L'Irlande doit gagner pour accéder aux barrages; Kosovo, vainqueur 1-0 à l'aller, peut se satisfaire d'un nul.",
+        "keyFactors": [
+          "Avantage domicile et nécessité de gagner pour l'Irlande; Troy Parrott a marqué quatre des six buts irlandais de la campagne."
+        ],
+        "uncertainty": "Nathan Collins est forfait sur blessure au genou, fragilisant la défense; le Kosovo a un intérêt tactique à fermer le match.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Presse irlandaise, forfait confirmé de Nathan Collins",
+            "url": "https://www.thesun.ie/sport/17924800/heimir-hallgrimsson-ireland-nathan-collins-kosovo-game-injury/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Scores24, analyse des enjeux et formes récentes",
+            "url": "https://scores24.live/en/articles/weekly-predictions/uefa-nations-league-17-11-2026",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Ukraine",
+      "awayTeam": "Géorgie",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 45,
+        "draw": 30,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 73,
+        "draw": 18,
+        "away": 9,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "Ukraine battue 1-0 en Irlande du Nord et Géorgie battue 2-0 par la Hongrie; les deux équipes traversent une mauvaise séquence.",
+        "keyFactors": [
+          "Ukraine légèrement favorite sur la qualité générale et le contexte de groupe; la Géorgie n'a marqué qu'une fois en cinq matchs."
+        ],
+        "uncertainty": "La méforme ukrainienne rend le nul crédible; compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Scores24, analyse des enjeux et formes récentes",
+            "url": "https://scores24.live/en/articles/weekly-predictions/uefa-nations-league-17-11-2026",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Pologne",
+      "awayTeam": "Suède",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 34,
+        "draw": 27,
+        "away": 39
+      },
+      "fdjSelectionDistribution": {
+        "home": 39,
+        "draw": 24,
+        "away": 37,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "La Pologne vient de perdre 2-1 en Roumanie; la Suède a battu la Bosnie 3-2 et avait gagné 3-1 contre la Pologne à l'aller.",
+        "keyFactors": [
+          "Forme récente et précédent direct légèrement favorables à la Suède; Gyökeres constitue une menace offensive."
+        ],
+        "uncertainty": "La Pologne à domicile peut réagir et rendre le résultat très ouvert.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Scores24, analyse des enjeux et formes récentes",
+            "url": "https://scores24.live/en/articles/weekly-predictions/uefa-nations-league-17-11-2026",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Danemark",
+      "awayTeam": "Norvège",
+      "competition": "UEFA Nations League 2026/27",
+      "probabilities": {
+        "home": 44,
+        "draw": 27,
+        "away": 29
+      },
+      "fdjSelectionDistribution": {
+        "home": 37,
+        "draw": 29,
+        "away": 34,
+        "accessedAt": "2026-11-16T17:00:43.919Z"
+      },
+      "analysis": {
+        "summary": "Le Danemark vient de gagner 4-1 au Portugal et la Norvège 3-1 contre le pays de Galles; la Norvège avait gagné 3-2 à l'aller.",
+        "keyFactors": [
+          "L'élan danois et le terrain favorisent légèrement le Danemark; le nul pourrait convenir à son classement."
+        ],
+        "uncertainty": "Haaland et les transitions norvégiennes représentent un risque majeur; match ouvert.",
+        "sources": [
+          {
+            "label": "FDJ, grille officielle et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/loto-foot/loto-foot-8/856",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "UEFA, résultats et calendrier par équipe",
+            "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Reuters, Portugal-Danemark et Norvège-Galles",
+            "url": "https://www.reuters.com/sports/soccer/denmark-thrash-portugal-4-1-night-ronaldo-tributes-2026-11-14/",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          },
+          {
+            "label": "Scores24, analyse des enjeux et formes récentes",
+            "url": "https://scores24.live/en/articles/weekly-predictions/uefa-nations-league-17-11-2026",
+            "accessedAt": "2026-11-16T17:00:43.919Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Issues les plus probables selon l'analyse sportive, sans extrapolation de rentabilité. Risques principaux: Hongrie-Irlande du Nord, Pologne-Suède et Danemark-Norvège."
+    },
+    {
+      "id": "T2",
+      "label": "Nul hongrois et réaction polonaise",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Variante ciblée: nul Hongrie-Irlande du Nord (31 %, contre 22 % des choix FDJ), défendable face à une défense nord-irlandaise solide; victoire de la Pologne (34 %, contre 39 % des choix FDJ) à domicile malgré l'avantage récent suédois. Risque supérieur à T1 et aucun rendement garanti."
+    }
+  ]
+}
