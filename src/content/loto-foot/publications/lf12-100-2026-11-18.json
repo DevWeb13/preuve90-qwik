@@ -1,0 +1,571 @@
+{
+  "id": "lf12-100-2026-11-18",
+  "formula": 12,
+  "gridNumber": 100,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-18T18:40:00+01:00",
+  "publishedAt": "2026-11-17T21:59:21+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience strictement virtuelle de 2 €: T1 sert de témoin sportif des douze issues les plus probables; T2 teste deux nuls brésiliens plausibles et moins choisis par le public. Risques principaux: rencontres brésiliennes ouvertes, rotations et compositions non confirmées, notamment après la trêve internationale. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Chelsea F",
+      "awayTeam": "Paris SG F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 60,
+        "draw": 24,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 75,
+        "draw": 13,
+        "away": 12,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      },
+      "analysis": {
+        "summary": "Chelsea arrive en tête de WSL après son succès 1-0 contre Manchester City; Paris a perdu 1-2 face au Bayern mais reste dangereux à l'extérieur.",
+        "keyFactors": [
+          "Chelsea a battu Manchester City 1-0 le 14 novembre",
+          "Chelsea a fait 0-0 à Häcken en Ligue des champions",
+          "Paris a obtenu un nul 1-1 chez Manchester City"
+        ],
+        "uncertainty": "La défense parisienne peut résister et les compositions ne sont pas confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UEFA, avant-match J5",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02ab-220ff9af21a9-748c51d8b995-1000--women-s-champions-league-matchday-5-preview-chelsea-vs-pa/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Reuters, Chelsea-Manchester City",
+            "url": "https://www.reuters.com/sports/soccer/chelsea-hand-champions-man-city-first-wsl-defeat-this-season-go-top-2026-11-14/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Häcken F",
+      "awayTeam": "Manchester City F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 13,
+        "draw": 20,
+        "away": 67
+      },
+      "fdjSelectionDistribution": {
+        "home": 9,
+        "draw": 12,
+        "away": 79,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      },
+      "analysis": {
+        "summary": "City possède davantage de puissance offensive et a gagné 4-1 à l'Inter, tandis que Häcken n'a pas encore gagné en phase de ligue européenne.",
+        "keyFactors": [
+          "City a gagné 4-1 sur le terrain de l'Inter",
+          "Häcken a tenu Chelsea en échec 0-0",
+          "City a perdu 0-1 contre Chelsea en championnat"
+        ],
+        "uncertainty": "Le terrain suédois et la résistance récente de Häcken peuvent limiter City; onze de départ non confirmé.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Manchester City, présentation officielle",
+            "url": "https://www.mancity.com/news/womens/hacken-v-city-uwcl-match-preview-2627-63930335",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "SportyTrader, forme européenne",
+            "url": "https://www.sportytrader.com/pronostics/kopparbergs-goteborg-fc-f-manchester-city-f-388009/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Real Madrid F",
+      "awayTeam": "Inter Milan F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 65,
+        "draw": 22,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 88,
+        "draw": 6,
+        "away": 6,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      },
+      "analysis": {
+        "summary": "Madrid a dominé Paris FC 3-0 et reste invaincu sur ses quatre dernières rencontres européennes; l'Inter a subi de lourdes défaites contre Lyon et City.",
+        "keyFactors": [
+          "Real Madrid 3-0 Paris FC le 10 novembre",
+          "Inter 1-4 Manchester City le 10 novembre",
+          "Real Madrid 3-3 Badalona en championnat le 14 novembre"
+        ],
+        "uncertainty": "Madrid concède aussi des occasions et le nul reste plausible; aucune composition confirmée.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UEFA, calendrier et résultats",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02a9-21848dfb62c3-1313bc23426c-1000--2026-27-womens-champions-league-all-the-league-phase-fixtu/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Sky Sports, forme des deux équipes",
+            "url": "https://www.skysports.com/football/real-madrid-women-vs-inter-milan-women/stats/578271",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Coritiba",
+      "awayTeam": "Santos",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 28,
+        "draw": 31,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 24,
+        "away": 61,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      },
+      "analysis": {
+        "summary": "Santos est mieux classé et possède une attaque plus productive, mais Coritiba joue à domicile et avait gagné le premier duel; l'écart sportif reste modéré.",
+        "keyFactors": [
+          "Santos 47 points contre 42 pour Coritiba selon le relevé du 11 novembre",
+          "Coritiba une seule victoire sur ses cinq derniers matchs",
+          "Coritiba a remporté le match aller 3-0 selon l'avant-match"
+        ],
+        "uncertainty": "Forme des équipes médiocre et calendrier brésilien serré; absences individuelles non solidement confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "FootballEdge, avant-match et classement au 11 novembre",
+            "url": "https://footballedge.io/en/previews/coritiba-vs-santos-2026-11-18",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "BetMines, forme et confrontations",
+            "url": "https://betmines.com/match-preview/coritiba-vs-santos-prediction-match-preview-and-analysis-serie-a-18-11-2026",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Corinthians",
+      "awayTeam": "Botafogo",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 39,
+        "draw": 30,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 15,
+        "away": 20,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      },
+      "analysis": {
+        "summary": "Le domicile et la nécessité de points favorisent légèrement Corinthians, mais la suspension de Yuri Alberto réduit son potentiel offensif; Botafogo peut obtenir un résultat.",
+        "keyFactors": [
+          "Corinthians lutte pour sortir de la zone de relégation selon le classement consulté",
+          "Botafogo est 12e avec 42 points selon l'avant-match",
+          "Yuri Alberto suspendu pour deux matchs selon UOL le 17 novembre"
+        ],
+        "uncertainty": "Attaque locale affaiblie et sources divergentes sur d'autres absences; trois issues proches.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Antes do Apito, classement et forme",
+            "url": "https://antesdoapito.com/jogo/BRA/corinthians-x-botafogo",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UOL, suspension de Yuri Alberto",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/17/seedorf-encara-problema-que-custou-cargo-de-fernando-diniz-no-corinthians.ghtm",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Palmeiras",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 36,
+        "draw": 32,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 39,
+        "draw": 27,
+        "away": 34,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      },
+      "analysis": {
+        "summary": "Cruzeiro reste solide au Mineirão mais son secteur défensif est diminué; Palmeiras est invaincu sur une longue séquence et plusieurs internationaux sont incertains.",
+        "keyFactors": [
+          "Cruzeiro quatre victoires de championnat consécutives selon DeepPreviews",
+          "Jonathan Jesus suspendu et João Marcelo blessé",
+          "Gustavo Gómez indisponible et autres internationaux de Palmeiras en retour de sélection incertain"
+        ],
+        "uncertainty": "Les disponibilités de dernière minute et la fatigue internationale rendent le duel particulièrement ouvert.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Globo ge, effectif de Cruzeiro",
+            "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/12/reforcos-base-e-desfalques-veja-as-opcoes-do-cruzeiro-para-enfrentar-o-palmeiras.ghtml",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "DeepPreviews, forme et enjeux",
+            "url": "https://deeppreviews.com/previews/cruzeiro-vs-palmeiras-2026-11-18",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UOL, retours internationaux de Palmeiras",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/16/joanna-de-assis-palmeiras-tem-voos-fretados-para-giay-flaco-e-arias.ghtm",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Flamengo",
+      "awayTeam": "Athletico PR",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 73,
+        "draw": 18,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 86,
+        "draw": 8,
+        "away": 6,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      },
+      "analysis": {
+        "summary": "Flamengo est premier, en meilleure forme et performant à domicile; Athletico PR reste capable d'un résultat mais concède plus de buts.",
+        "keyFactors": [
+          "Flamengo 76 points, Athletico PR 54 selon l'avant-match",
+          "Flamengo invaincu sur ses cinq dernières rencontres recensées",
+          "Retours de Paquetá et Alex Sandro envisagés mais non garantis"
+        ],
+        "uncertainty": "Rotation après trêve internationale et retours médicaux non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "LivescoresTips, forme et statistiques",
+            "url": "https://www.livescorestips.com/match/flamengo-vs-atletico-paranaense/2026-11-18",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Globo ge, état médical Flamengo",
+            "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/06/flamengo-trabalha-para-esvaziar-dm-na-data-fifa-e-pode-ter-paqueta-e-alex-sandro-contra-o-athletico-pr.ghtml",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "homeTeam": "Gremio",
+      "awayTeam": "Bahia Salvador",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 34,
+        "draw": 30,
+        "away": 36
+      },
+      "analysis": {
+        "summary": "Match ouvert: avantage du terrain pour Grêmio mais plusieurs absences annoncées, tandis que Bahia paraît moins diminué.",
+        "keyFactors": [
+          "Grêmio reçoit à domicile",
+          "Kannemann et Villasanti annoncés suspendus; Pavón et d'autres joueurs signalés blessés par une source d'avant-match",
+          "Bahia dispose d'un effectif annoncé moins affecté"
+        ],
+        "uncertainty": "Liste des indisponibilités issue d'une seule synthèse et non de feuilles de match officielles.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "OptimaGoal, avant-match et absences",
+            "url": "https://optimagoal.com/brasileirao-serie-a/gremio-vs-bahia-2026-11-18/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      },
+      "position": 8,
+      "fdjSelectionDistribution": {
+        "home": 42,
+        "draw": 24,
+        "away": 34,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      }
+    },
+    {
+      "homeTeam": "Remo PA",
+      "awayTeam": "Chapecoense SC",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "analysis": {
+        "summary": "Remo favori à domicile face à Chapecoense, dernière du classement et en difficulté défensive.",
+        "keyFactors": [
+          "Chapecoense 20e, 21 points après 34 rencontres selon l'avant-match",
+          "Chapecoense a encaissé 70 buts sur 34 rencontres",
+          "Défaite 0-2 de Chapecoense contre Vasco le 14 novembre"
+        ],
+        "uncertainty": "Sources contradictoires sur les absences; compositions officielles non publiées.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Rodada do Fut, forme et classement",
+            "url": "https://rodadadofut.com.br/remo-x-chapecoense-onde-assistir-horario-e-escalacoes",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Footi, derniers onze disponibles",
+            "url": "https://footi.com.br/jogadores/2026-11-18-remo-x-chapecoense",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      },
+      "position": 9,
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 14,
+        "away": 12,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      }
+    },
+    {
+      "homeTeam": "Benfica F",
+      "awayTeam": "AS Rome F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 48,
+        "draw": 28,
+        "away": 24
+      },
+      "analysis": {
+        "summary": "Benfica bénéficie du terrain et d'un succès européen récent contre Austria Wien, mais la Roma conserve une expérience continentale.",
+        "keyFactors": [
+          "Benfica a battu Austria Wien 3-1 le 12 novembre",
+          "Benfica a déjà gagné 2-1 à la Juventus cette saison",
+          "Roma a battu Servette 2-1 le 10 novembre"
+        ],
+        "uncertainty": "Première confrontation directe; absences et onze de départ non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UEFA, avant-match Benfica-Roma",
+            "url": "https://fr.uefa.com/womenschampionsleague/news/02ab-22101a56a238-8512dd1a354f-1000--ligue-des-champions-feminine-journee-5-les-faits-et-stats-/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UEFA, résultats 2026-27",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02a9-21848dfb62c3-1313bc23426c-1000--2026-27-womens-champions-league-all-the-league-phase-fixtu/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      },
+      "position": 10,
+      "fdjSelectionDistribution": {
+        "home": 58,
+        "draw": 19,
+        "away": 23,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      }
+    },
+    {
+      "homeTeam": "Paris FC F",
+      "awayTeam": "HB Koge F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 63,
+        "draw": 23,
+        "away": 14
+      },
+      "analysis": {
+        "summary": "Paris FC favori à domicile mais sans victoire européenne cette saison; Køge a déjà accroché OH Leuven.",
+        "keyFactors": [
+          "Paris FC a fait nul 2-2 contre Arsenal et 1-1 contre Häcken",
+          "Køge a perdu 0-8 contre Barcelone mais a fait 1-1 à OH Leuven",
+          "Paris FC a perdu 0-3 chez le Real Madrid"
+        ],
+        "uncertainty": "Les deux équipes ont connu des difficultés en phase de ligue; composition non confirmée.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UEFA, fiche et forme Paris-Køge",
+            "url": "https://www.uefa.com/news-media/mediaservices/informationkits/competitions/womenschampionsleague/2027/match/2050572/printmatchpresskits/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "Paris FC, fiche de match",
+            "url": "https://parisfc.fr/en/match-center/women/126598/2026-11-19/paris-fc-vs-koge-uefa-womens-champions-league/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      },
+      "position": 11,
+      "fdjSelectionDistribution": {
+        "home": 85,
+        "draw": 8,
+        "away": 7,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      }
+    },
+    {
+      "homeTeam": "Arsenal F",
+      "awayTeam": "Lyon F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 31,
+        "draw": 29,
+        "away": 40
+      },
+      "analysis": {
+        "summary": "Lyon a un avantage historique et une forme européenne solide, mais Arsenal reste capable de rivaliser à domicile.",
+        "keyFactors": [
+          "Lyon a gagné huit des douze confrontations précédentes",
+          "Lyon a battu Juventus 6-0 le 11 novembre",
+          "Arsenal a fait nul 1-1 contre London City Lionesses le 15 novembre"
+        ],
+        "uncertainty": "Confrontation de très haut niveau avec forte variabilité; effectifs non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ, grille et répartition des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "UEFA, avant-match Arsenal-Lyon",
+            "url": "https://fr.uefa.com/womenschampionsleague/news/02ab-221010b8ce35-5cdd3504638d-1000--ligue-des-champions-feminine-journee-5-les-faits-et-stats-d/",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          },
+          {
+            "label": "The Guardian, Arsenal-London City le 15 novembre",
+            "url": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
+            "accessedAt": "2026-11-17T21:59:21+01:00"
+          }
+        ]
+      },
+      "position": 12,
+      "fdjSelectionDistribution": {
+        "home": 26,
+        "draw": 17,
+        "away": 57,
+        "accessedAt": "2026-11-17T21:59:21+01:00"
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Issues les plus probables selon l'analyse des douze rencontres. Chelsea, Manchester City, Real Madrid, Flamengo, Remo et Paris FC portent les choix les plus solides; les rencontres brésiliennes Grêmio-Bahia, Cruzeiro-Palmeiras et Arsenal-Lyon restent incertaines. Hypothèse témoin, sans garantie de gain."
+    },
+    {
+      "id": "T2",
+      "label": "Nuls tactiques brésiliens",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Variante argumentée: nul Coritiba-Santos (31 % estimés contre 24 % FDJ) et nul Cruzeiro-Palmeiras (32 % contre 27 % FDJ). La forme irrégulière, les absences et les retours internationaux soutiennent ces scénarios, au prix d'une probabilité conjointe plus faible."
+    }
+  ]
+}
