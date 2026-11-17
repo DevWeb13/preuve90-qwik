@@ -1,0 +1,351 @@
+{
+  "id": "lf7-144-2026-11-18",
+  "formula": 7,
+  "gridNumber": 144,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-18T18:40:00+01:00",
+  "publishedAt": "2026-11-17T10:00:44+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience de 2 € virtuels: T1 teste les favoris sportifs Chelsea, Manchester City, Real Madrid, Santos, Corinthians, Cruzeiro et Flamengo; T2 teste les nuls à Coritiba et Cruzeiro, deux matchs serrés. Risque majeur: forme irrégulière des équipes brésiliennes, absences et rotations non confirmées. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Chelsea F",
+      "awayTeam": "Paris SG F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 60,
+        "draw": 24,
+        "away": 16
+      },
+      "fdjSelectionDistribution": {
+        "home": 69,
+        "draw": 15,
+        "away": 16,
+        "accessedAt": "2026-11-17T10:00:44+01:00"
+      },
+      "analysis": {
+        "summary": "Chelsea arrive en tête de WSL après son succès 1-0 contre Manchester City; Paris a perdu 1-2 face au Bayern mais reste dangereux à l'extérieur.",
+        "keyFactors": [
+          "Chelsea a battu Manchester City 1-0 le 14 novembre",
+          "Chelsea a fait 0-0 à Häcken en Ligue des champions",
+          "Paris a obtenu un nul 1-1 chez Manchester City"
+        ],
+        "uncertainty": "La défense parisienne peut résister et les compositions ne sont pas confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "UEFA, avant-match J5",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02ab-220ff9af21a9-748c51d8b995-1000--women-s-champions-league-matchday-5-preview-chelsea-vs-pa/",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "Reuters, Chelsea-Manchester City",
+            "url": "https://www.reuters.com/sports/soccer/chelsea-hand-champions-man-city-first-wsl-defeat-this-season-go-top-2026-11-14/",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Häcken F",
+      "awayTeam": "Manchester City F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 13,
+        "draw": 20,
+        "away": 67
+      },
+      "fdjSelectionDistribution": {
+        "home": 15,
+        "draw": 14,
+        "away": 71,
+        "accessedAt": "2026-11-17T10:00:44+01:00"
+      },
+      "analysis": {
+        "summary": "City possède davantage de puissance offensive et a gagné 4-1 à l'Inter, tandis que Häcken n'a pas encore gagné en phase de ligue européenne.",
+        "keyFactors": [
+          "City a gagné 4-1 sur le terrain de l'Inter",
+          "Häcken a tenu Chelsea en échec 0-0",
+          "City a perdu 0-1 contre Chelsea en championnat"
+        ],
+        "uncertainty": "Le terrain suédois et la résistance récente de Häcken peuvent limiter City; onze de départ non confirmé.",
+        "sources": [
+          {
+            "label": "FDJ, grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "Manchester City, présentation officielle",
+            "url": "https://www.mancity.com/news/womens/hacken-v-city-uwcl-match-preview-2627-63930335",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "SportyTrader, forme européenne",
+            "url": "https://www.sportytrader.com/pronostics/kopparbergs-goteborg-fc-f-manchester-city-f-388009/",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Real Madrid F",
+      "awayTeam": "Inter Milan F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 65,
+        "draw": 22,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 10,
+        "away": 10,
+        "accessedAt": "2026-11-17T10:00:44+01:00"
+      },
+      "analysis": {
+        "summary": "Madrid a dominé Paris FC 3-0 et reste invaincu sur ses quatre dernières rencontres européennes; l'Inter a subi de lourdes défaites contre Lyon et City.",
+        "keyFactors": [
+          "Real Madrid 3-0 Paris FC le 10 novembre",
+          "Inter 1-4 Manchester City le 10 novembre",
+          "Real Madrid 3-3 Badalona en championnat le 14 novembre"
+        ],
+        "uncertainty": "Madrid concède aussi des occasions et le nul reste plausible; aucune composition confirmée.",
+        "sources": [
+          {
+            "label": "FDJ, grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "UEFA, calendrier et résultats",
+            "url": "https://www.uefa.com/womenschampionsleague/news/02a9-21848dfb62c3-1313bc23426c-1000--2026-27-womens-champions-league-all-the-league-phase-fixtu/",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "Sky Sports, forme des deux équipes",
+            "url": "https://www.skysports.com/football/real-madrid-women-vs-inter-milan-women/stats/578271",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Coritiba",
+      "awayTeam": "Santos",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 28,
+        "draw": 31,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 31,
+        "away": 48,
+        "accessedAt": "2026-11-17T10:00:44+01:00"
+      },
+      "analysis": {
+        "summary": "Santos est mieux classé et possède une attaque plus productive, mais Coritiba joue à domicile et avait gagné le premier duel; l'écart sportif reste modéré.",
+        "keyFactors": [
+          "Santos 47 points contre 42 pour Coritiba selon le relevé du 11 novembre",
+          "Coritiba une seule victoire sur ses cinq derniers matchs",
+          "Coritiba a remporté le match aller 3-0 selon l'avant-match"
+        ],
+        "uncertainty": "Forme des équipes médiocre et calendrier brésilien serré; absences individuelles non solidement confirmées.",
+        "sources": [
+          {
+            "label": "FDJ, grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "FootballEdge, avant-match et classement au 11 novembre",
+            "url": "https://footballedge.io/en/previews/coritiba-vs-santos-2026-11-18",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "BetMines, forme et confrontations",
+            "url": "https://betmines.com/match-preview/coritiba-vs-santos-prediction-match-preview-and-analysis-serie-a-18-11-2026",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Corinthians",
+      "awayTeam": "Botafogo",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 39,
+        "draw": 30,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 48,
+        "draw": 24,
+        "away": 28,
+        "accessedAt": "2026-11-17T10:00:44+01:00"
+      },
+      "analysis": {
+        "summary": "Le domicile et la nécessité de points favorisent légèrement Corinthians, mais la suspension de Yuri Alberto réduit son potentiel offensif; Botafogo peut obtenir un résultat.",
+        "keyFactors": [
+          "Corinthians lutte pour sortir de la zone de relégation selon le classement consulté",
+          "Botafogo est 12e avec 42 points selon l'avant-match",
+          "Yuri Alberto suspendu pour deux matchs selon UOL le 17 novembre"
+        ],
+        "uncertainty": "Attaque locale affaiblie et sources divergentes sur d'autres absences; trois issues proches.",
+        "sources": [
+          {
+            "label": "FDJ, grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "Antes do Apito, classement et forme",
+            "url": "https://antesdoapito.com/jogo/BRA/corinthians-x-botafogo",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "UOL, suspension de Yuri Alberto",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/17/seedorf-encara-problema-que-custou-cargo-de-fernando-diniz-no-corinthians.ghtm",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Palmeiras",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 36,
+        "draw": 32,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 38,
+        "draw": 30,
+        "away": 32,
+        "accessedAt": "2026-11-17T10:00:44+01:00"
+      },
+      "analysis": {
+        "summary": "Cruzeiro reste solide au Mineirão mais son secteur défensif est diminué; Palmeiras est invaincu sur une longue séquence et plusieurs internationaux sont incertains.",
+        "keyFactors": [
+          "Cruzeiro quatre victoires de championnat consécutives selon DeepPreviews",
+          "Jonathan Jesus suspendu et João Marcelo blessé",
+          "Gustavo Gómez indisponible et autres internationaux de Palmeiras en retour de sélection incertain"
+        ],
+        "uncertainty": "Les disponibilités de dernière minute et la fatigue internationale rendent le duel particulièrement ouvert.",
+        "sources": [
+          {
+            "label": "FDJ, grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "Globo ge, effectif de Cruzeiro",
+            "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/12/reforcos-base-e-desfalques-veja-as-opcoes-do-cruzeiro-para-enfrentar-o-palmeiras.ghtml",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "DeepPreviews, forme et enjeux",
+            "url": "https://deeppreviews.com/previews/cruzeiro-vs-palmeiras-2026-11-18",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "UOL, retours internationaux de Palmeiras",
+            "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/16/joanna-de-assis-palmeiras-tem-voos-fretados-para-giay-flaco-e-arias.ghtm",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Flamengo",
+      "awayTeam": "Athletico PR",
+      "competition": "Brazil Série A",
+      "probabilities": {
+        "home": 73,
+        "draw": 18,
+        "away": 9
+      },
+      "fdjSelectionDistribution": {
+        "home": 85,
+        "draw": 9,
+        "away": 6,
+        "accessedAt": "2026-11-17T10:00:44+01:00"
+      },
+      "analysis": {
+        "summary": "Flamengo est premier, en meilleure forme et performant à domicile; Athletico PR reste capable d'un résultat mais concède plus de buts.",
+        "keyFactors": [
+          "Flamengo 76 points, Athletico PR 54 selon l'avant-match",
+          "Flamengo invaincu sur ses cinq dernières rencontres recensées",
+          "Retours de Paquetá et Alex Sandro envisagés mais non garantis"
+        ],
+        "uncertainty": "Rotation après trêve internationale et retours médicaux non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ, grille et choix des joueurs",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "LivescoresTips, forme et statistiques",
+            "url": "https://www.livescorestips.com/match/flamengo-vs-atletico-paranaense/2026-11-18",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          },
+          {
+            "label": "Globo ge, état médical Flamengo",
+            "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/06/flamengo-trabalha-para-esvaziar-dm-na-data-fifa-e-pode-ter-paqueta-e-alex-sandro-contra-o-athletico-pr.ghtml",
+            "accessedAt": "2026-11-17T10:00:44+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Issue la plus probable à chacune des sept positions. Chelsea, City, Real et Flamengo constituent les favoris les plus nets; Santos à l'extérieur, Corinthians sans Yuri Alberto et Cruzeiro face à Palmeiras sont les trois choix les plus fragiles."
+    },
+    {
+      "id": "T2",
+      "label": "Nuls brésiliens",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "N",
+        "1"
+      ],
+      "rationale": "Variante sportive de T1: nul Coritiba-Santos (31 % contre 31 % FDJ), compte tenu de la forme irrégulière des deux équipes; nul Cruzeiro-Palmeiras (32 % contre 30 % FDJ), du fait des absences défensives de Cruzeiro et des internationaux incertains de Palmeiras. Deux alternatives argumentées, probabilité conjointe inférieure à T1."
+    }
+  ]
+}
