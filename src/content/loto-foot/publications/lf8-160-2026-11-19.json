@@ -1,0 +1,405 @@
+{
+  "id": "lf8-160-2026-11-19",
+  "formula": 8,
+  "gridNumber": 160,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-20T19:55:00+01:00",
+  "publishedAt": "2026-11-19T18:01:37+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience de deux tickets exclusivement virtuels (2 €): T1 sélectionne l'issue sportive la plus probable des huit matchs, T2 teste le nul Metz-Boulogne, cohérent avec les sept nuls de Boulogne en douze journées et moins choisi par le public (19 %). Risques majeurs: derby de maintien Troyes-Le Havre, forme de Pau et résistance de Boulogne. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Havre",
+      "competition": "Ligue 1",
+      "startsAt": "2026-11-20T20:45:00+01:00",
+      "probabilities": {
+        "home": 44,
+        "draw": 30,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 53,
+        "draw": 25,
+        "away": 22,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Troyes reçoit le dernier, Le Havre, après une défaite serrée au PSG. Le Havre a perdu ses cinq derniers matchs; match de maintien tendu et faible attaque troyenne.",
+        "keyFactors": [
+          "Troyes 17e (8 pts), Le Havre 18e (2 pts)",
+          "Le Havre cinq défaites de suite et plusieurs indisponibilités signalées"
+        ],
+        "uncertainty": "Listes d'absences contradictoires entre plateformes; un nul reste plausible.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "ESTAC",
+            "url": "https://www.estac.fr/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "RotaScore",
+            "url": "https://www.rotascore.com/fr/match/troyes-havre-athletic-club/ednm9whwlvj7ryo",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "MPG Stats",
+            "url": "https://www.mpgstats.fr/match/18823/Ligue-1-2026-2027-J11-ESTAC-Troyes-vs-Le-Havre-AC",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Red Star",
+      "awayTeam": "Pau",
+      "competition": "Ligue 2",
+      "startsAt": "2026-11-20T20:00:00+01:00",
+      "probabilities": {
+        "home": 30,
+        "draw": 29,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 45,
+        "draw": 22,
+        "away": 33,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Pau affiche un meilleur classement et une dynamique de championnat supérieure; Red Star a perdu plusieurs rencontres récentes mais reçoit.",
+        "keyFactors": [
+          "Pau 5e avec 20 points contre Red Star 8e avec 17",
+          "Red Star quatre défaites consécutives de championnat selon le relevé récent; Pau plus solide défensivement"
+        ],
+        "uncertainty": "La victoire de coupe du Red Star et les retours de trêve peuvent modifier la dynamique; absences peu documentées.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Red Star FC",
+            "url": "https://www.redstar.fr/2026-10-22/billetterie/votre-place-pour-red-star-fc-pau-3/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "FootKop",
+            "url": "https://footkop.fr/ligue-2/matchs/2026-11-20-red-star-pau",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Cresus365",
+            "url": "https://cresus365.com/analyses/red-star-pau-20-novembre-2026/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Guingamp",
+      "awayTeam": "Rodez",
+      "competition": "Ligue 2",
+      "startsAt": "2026-11-20T20:00:00+01:00",
+      "probabilities": {
+        "home": 45,
+        "draw": 28,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 59,
+        "draw": 26,
+        "away": 15,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Guingamp légèrement favori à domicile face à un Rodez fragile derrière, mais les deux équipes restent irrégulières.",
+        "keyFactors": [
+          "Guingamp 11e, Rodez 13e; Guingamp trois victoires à domicile sur six",
+          "Rodez a encaissé 23 buts en 12 matchs; Guingamp privé de Kielt selon l'avant-match"
+        ],
+        "uncertainty": "Rodez a récemment gagné deux matchs; compositions probables et absences non officielles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Sport.fr",
+            "url": "https://www.sport.fr/football/ligue-2-compos-probables-pour-guingamp-rodez-vendredi-a-20h-sans-kielt-mais-avec-bokangu-1502902.shtm",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Cresus365",
+            "url": "https://cresus365.com/analyses/guingamp-rodez-20-novembre-2026/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Annecy FC",
+      "awayTeam": "Clermont",
+      "competition": "Ligue 2",
+      "startsAt": "2026-11-20T20:00:00+01:00",
+      "probabilities": {
+        "home": 41,
+        "draw": 32,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 23,
+        "away": 17,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Annecy possède l'avantage du terrain mais Clermont a retrouvé de la confiance avec son premier succès en championnat; confrontation plus ouverte que la répartition FDJ.",
+        "keyFactors": [
+          "Annecy 9e avec 16 points, Clermont 15e avec 11",
+          "Clermont reste sans victoire à l'extérieur avec quatre nuls en cinq déplacements"
+        ],
+        "uncertainty": "Annecy a subi deux défaites sans marquer en championnat; retours de joueurs et onze final incertains.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Clermont Foot officiel",
+            "url": "https://www.clermontfoot.com/calendrier",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Le Mag Annecy",
+            "url": "https://le-mag-annecy.fr/annecy-clermont-ligue-2-20-novembre/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "RotaScore",
+            "url": "https://www.rotascore.com/fr/match/annecy-clermont/318q66hxdn96qo9",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Metz",
+      "awayTeam": "Boulogne",
+      "competition": "Ligue 2",
+      "startsAt": "2026-11-20T20:00:00+01:00",
+      "probabilities": {
+        "home": 47,
+        "draw": 31,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 66,
+        "draw": 19,
+        "away": 15,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Metz marque davantage et dispose d'un avantage à Saint-Symphorien, mais Boulogne concède peu et a fait sept nuls en douze matchs.",
+        "keyFactors": [
+          "Metz 7e (17 pts), Boulogne 12e (13 pts)",
+          "Metz 20 buts marqués en 12 rencontres; Boulogne seulement 8 encaissés et 7 nuls"
+        ],
+        "uncertainty": "Le profil défensif de Boulogne renforce le scénario nul; effectifs de dernière minute non confirmés.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Cresus365",
+            "url": "https://cresus365.com/analyses/metz-boulogne-20-novembre-2026/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "AI Match 24",
+            "url": "https://aimatch24.net/match/metz-vs-boulogne-2026-11-20-1552534",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Nancy",
+      "awayTeam": "Dijon",
+      "competition": "Ligue 2",
+      "startsAt": "2026-11-20T20:00:00+01:00",
+      "probabilities": {
+        "home": 52,
+        "draw": 27,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 64,
+        "draw": 20,
+        "away": 16,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Nancy est deuxième avec cinq victoires de championnat de suite et meilleure défense; Dijon est sixième et possède une attaque productive.",
+        "keyFactors": [
+          "Nancy 25 points, 9 buts encaissés en 12 journées; Dijon 18 points et 21 buts marqués",
+          "Nancy reste sur cinq succès de championnat; absences annoncées dans les deux camps par Sport.fr"
+        ],
+        "uncertainty": "Les listes d'absences sont contradictoires entre sources; Dijon a gagné deux de ses derniers matchs.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Sport.fr",
+            "url": "https://www.sport.fr/football/ligue-2-compos-probables-pour-nancy-dijon-vendredi-a-20h-avec-housni-face-a-julio-tavares-1502904.shtm",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "RotaScore",
+            "url": "https://www.rotascore.com/fr/match/nancy-dijon/jw2r09hkd7e3rz8",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Cresus365",
+            "url": "https://cresus365.com/analyses/nancy-dijon-20-novembre-2026/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Athletic Bilbao",
+      "awayTeam": "Espanyol",
+      "competition": "LaLiga",
+      "startsAt": "2026-11-20T21:00:00+01:00",
+      "probabilities": {
+        "home": 54,
+        "draw": 27,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 19,
+        "away": 14,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Bilbao affiche une bonne forme et reste invaincu lors de ses cinq derniers matchs à domicile; Espanyol souffre davantage en déplacement.",
+        "keyFactors": [
+          "Athletic 7e, Espanyol 13e; Athletic 3 victoires et 2 nuls sur ses 5 derniers matchs à domicile",
+          "Dani Vivian, Guruzeta et Sannadi annoncés absents; Kike García indisponible côté Espanyol"
+        ],
+        "uncertainty": "Absences importantes et deux confrontations récentes remportées par Espanyol; compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Tipstop",
+            "url": "https://tipstop.co/en/match/football/5868132/athletic-club-vs-espanyol",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Victory Picks",
+            "url": "https://www.victorypicks.com/en/previews/athletic-club-vs-espanyol-november-20-2026-3699/",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "Cologne",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 76,
+        "draw": 16,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 88,
+        "draw": 7,
+        "away": 5,
+        "accessedAt": "2026-11-19T18:01:37+01:00"
+      },
+      "analysis": {
+        "summary": "Bayern favori marqué à domicile, avec une longue série d'invincibilité; Cologne reste sur quatre rencontres sans victoire.",
+        "keyFactors": [
+          "Bayern invaincu depuis 24 matchs de Bundesliga selon l'avant-match",
+          "Cologne n'a marqué que deux fois lors de ses quatre derniers matchs de Bundesliga; Davies et Gnabry signalés absents"
+        ],
+        "uncertainty": "Rotation possible au retour de trêve et effectif bavarois incomplet; large favori ne signifie pas certitude.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          },
+          {
+            "label": "Khel Now",
+            "url": "https://khelnow.com/football/bayern-munich-vs-fc-koln-preview-bundesliga-202611",
+            "accessedAt": "2026-11-19T18:01:37+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Choix de la probabilité sportive maximale à chaque rencontre. Pau préféré au Red Star malgré l'avantage du terrain; Bayern favori net; matchs de Ligue 2 plus incertains, notamment Annecy-Clermont et Metz-Boulogne."
+    },
+    {
+      "id": "T2",
+      "label": "Nul défensif Metz-Boulogne",
+      "selections": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1"
+      ],
+      "rationale": "Seule variante du témoin: nul Metz-Boulogne estimé à 31 % contre 19 % de choix FDJ. Boulogne a fait sept nuls en douze matchs et n'a encaissé que huit buts. Hypothèse moins probable que la victoire de Metz mais sportivement argumentée."
+    }
+  ]
+}
