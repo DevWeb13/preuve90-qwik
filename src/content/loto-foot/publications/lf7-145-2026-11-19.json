@@ -1,0 +1,339 @@
+{
+  "id": "lf7-145-2026-11-19",
+  "formula": 7,
+  "gridNumber": 145,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-19T20:55:00+01:00",
+  "publishedAt": "2026-11-19T01:56:01+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation exclusivement virtuelle de deux tickets (2 €): témoin des favoris sportifs et variante sur le nul Orlando-Cincinnati. Hypothèse principale: avantage lyonnais et supériorité relative des équipes mieux classées; risques: résultats serrés au Brésil et matches éliminatoires MLS. Aucun rendement garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Arsenal F",
+      "awayTeam": "Lyon F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 30,
+        "draw": 27,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 32,
+        "draw": 18,
+        "away": 50,
+        "accessedAt": "2026-11-19T01:56:01+01:00"
+      },
+      "analysis": {
+        "summary": "Lyon invaincu en phase de ligue, attaque très productive et avantage historique; Arsenal résiste en Europe mais souffre davantage en championnat.",
+        "keyFactors": [
+          "Lyon: 20 buts marqués et aucun encaissé sur quatre rencontres européennes selon l'avant-match",
+          "Arsenal reste invaincu en phase de ligue, ce qui tempère l'avantage lyonnais"
+        ],
+        "uncertainty": "Les absences et compositions définitives restent à confirmer.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "UEFA",
+            "url": "https://fr.uefa.com/womenschampionsleague/news/02ab-221010b8ce35-5cdd3504638d-1000--ligue-des-champions-feminine-journee-5-les-faits-et-stats-d/",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "Femgol",
+            "url": "https://femgol.com/en/womens-champions-league/article/arsenal-ol-lyonnes-womens-champions-league-matchday-5-preview/",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Benfica F",
+      "awayTeam": "AS Rome F",
+      "competition": "UEFA Women's Champions League",
+      "probabilities": {
+        "home": 47,
+        "draw": 27,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 16,
+        "away": 32,
+        "accessedAt": "2026-11-19T01:56:01+01:00"
+      },
+      "analysis": {
+        "summary": "Benfica possède l'avantage du terrain et six points européens contre quatre pour la Roma; confrontation inédite, avec deux équipes en forme.",
+        "keyFactors": [
+          "Benfica: six points en quatre journées, Roma: quatre",
+          "Premier duel direct; la Roma a récemment enchaîné plusieurs victoires"
+        ],
+        "uncertainty": "Lieu exact du match contradictoire selon les sources secondaires et compositions non confirmées.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "UEFA",
+            "url": "https://fr.uefa.com/womenschampionsleague/news/02ab-22101a56a238-8512dd1a354f-1000--ligue-des-champions-feminine-journee-5-les-faits-et-stats-/",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "RotaScore",
+            "url": "https://www.rotascore.com/pt-PT/match/benfica-w-roma-w/dj2ryoh7vywnq1z",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Vasco da Gama",
+      "awayTeam": "Internacional",
+      "competition": "Brasileirão Série A",
+      "probabilities": {
+        "home": 51,
+        "draw": 27,
+        "away": 22
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 10,
+        "away": 8,
+        "accessedAt": "2026-11-19T01:56:01+01:00"
+      },
+      "analysis": {
+        "summary": "Vasco reste sur deux victoires et reçoit un Internacional proche de la zone rouge, mais l'écart sportif est moins écrasant que la répartition du public.",
+        "keyFactors": [
+          "Vasco 11e avec 44 points, Internacional 16e avec 38",
+          "Vasco a l'avantage du terrain à São Januário"
+        ],
+        "uncertainty": "Motivation forte de l'Inter pour le maintien; compositions seulement probables.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "Lance!",
+            "url": "https://www.lance.com.br/onde-assistir/vasco-x-internacional-onde-assistir-horario-e-escalacoes.html",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "Rodada do Fut",
+            "url": "https://rodadadofut.com.br/vasco-da-gama-x-internacional-onde-assistir-horario-e-escalacoes",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Vitória BA",
+      "awayTeam": "Red Bull Bragantino",
+      "competition": "Brasileirão Série A",
+      "probabilities": {
+        "home": 31,
+        "draw": 29,
+        "away": 40
+      },
+      "fdjSelectionDistribution": {
+        "home": 34,
+        "draw": 18,
+        "away": 48,
+        "accessedAt": "2026-11-19T01:56:01+01:00"
+      },
+      "analysis": {
+        "summary": "Bragantino montre une meilleure dynamique offensive, tandis que Vitória joue à domicile dans une lutte serrée pour le maintien.",
+        "keyFactors": [
+          "Bragantino vient notamment de battre Santos et Chapecoense",
+          "Vitória a subi une défaite 0-3 contre Fluminense et reste proche de la zone rouge"
+        ],
+        "uncertainty": "Des absences probables des deux côtés et une forte incertitude liée à l'enjeu du maintien.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "oGol",
+            "url": "https://www.ogol.com.br/noticias/vitoria-x-red-bull-bragantino-horario-escalacoes-e-onde-assistir-brasileirao-19-11/1262331",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "FotMob",
+            "url": "https://www.fotmob.com/pt-PT/matches/vitoria-vs-rb-bragantino/361n8ye",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "São Paulo",
+      "awayTeam": "Fluminense",
+      "competition": "Brasileirão Série A",
+      "probabilities": {
+        "home": 31,
+        "draw": 30,
+        "away": 39
+      },
+      "fdjSelectionDistribution": {
+        "home": 34,
+        "draw": 18,
+        "away": 48,
+        "accessedAt": "2026-11-19T01:56:01+01:00"
+      },
+      "analysis": {
+        "summary": "Fluminense quatrième et récemment vainqueur à Vitória semble légèrement favori; São Paulo reste dangereux chez lui mais doit composer avec plusieurs suspensions.",
+        "keyFactors": [
+          "Fluminense 57 points contre 44 à São Paulo",
+          "Luciano, Newton et Ferreirinha suspendus côté São Paulo; avantage historique du MorumBIS"
+        ],
+        "uncertainty": "Le retour de trêve et les compositions peuvent modifier l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "Lance!",
+            "url": "https://www.lance.com.br/onde-assistir/sao-paulo-x-fluminense-onde-assistir-horario-e-escalacoes.html",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "São Paulo FC",
+            "url": "https://www.saopaulofc.net/na-retomada-do-brasileirao-apos-a-data-fifa-tricolor-recebe-o-fluminense/",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Seattle Sounders",
+      "awayTeam": "Real Salt Lake",
+      "competition": "MLS Wild Card",
+      "probabilities": {
+        "home": 56,
+        "draw": 25,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 10,
+        "away": 8,
+        "accessedAt": "2026-11-19T01:56:01+01:00"
+      },
+      "analysis": {
+        "summary": "Seattle reçoit après une victoire 2-1 contre LAFC et bénéficie de l'expérience des phases finales; RSL a aussi gagné son dernier match et reste dangereux.",
+        "keyFactors": [
+          "Seattle a gagné l'avantage du terrain en battant LAFC",
+          "RSL privé de Diego Luna et de Zavier Gozo; Seattle privé de Jordan Morris selon l'avant-match"
+        ],
+        "uncertainty": "Match éliminatoire, pronostic sur les 90 minutes uniquement, sans tirs au but.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "MLS",
+            "url": "https://www.mlssoccer.com/playoffs/2026/news/audi-2026-mls-cup-playoffs-round-one-wild-card-matchups",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "SoccerGuidely",
+            "url": "https://soccerguidely.com/soccer-competitions/mls-major-league-soccer/mls-wild-card-2026-preview/",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Orlando City",
+      "awayTeam": "FC Cincinnati",
+      "competition": "MLS Wild Card",
+      "probabilities": {
+        "home": 47,
+        "draw": 27,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 82,
+        "draw": 10,
+        "away": 8,
+        "accessedAt": "2026-11-19T01:56:01+01:00"
+      },
+      "analysis": {
+        "summary": "Orlando reçoit avec Griezmann et Ojeda, mais Cincinnati possède une attaque productive portée par Evander et Denkey; l'écart paraît plus faible que le choix du public.",
+        "keyFactors": [
+          "Orlando est 8e à l'Est, Cincinnati 9e",
+          "Cincinnati compte des absences défensives; ses deux joueurs offensifs principaux restent décisifs"
+        ],
+        "uncertainty": "Match couperet et compositions non confirmées; les tirs au but ne déterminent pas l'issue 1N2.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "MLS playoffs",
+            "url": "https://www.mlssoccer.com/playoffs/2026/news/wild-card-format-key-info-audi-2026-mls-cup-playoffs",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          },
+          {
+            "label": "MLS Communications",
+            "url": "https://www.mlssoccer.com/news/audi-2026-mls-cup-playoffs-field-set-and-wild-card-match-schedule-announced",
+            "accessedAt": "2026-11-19T01:56:01+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Choix de l'issue sportive la plus probable à chacune des sept positions: Lyon et Fluminense à l'extérieur, Benfica, Vasco, Seattle et Orlando à domicile, Bragantino à l'extérieur. Risques dominants: Benfica-Roma et Orlando-Cincinnati, rencontres ouvertes."
+    },
+    {
+      "id": "T2",
+      "label": "Nul tactique Orlando",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "N"
+      ],
+      "rationale": "Variante d'un seul match: nul Orlando-Cincinnati à 27 % estimés contre 10 % de choix FDJ. L'attaque de Cincinnati et l'incertitude d'un match à élimination directe rendent ce scénario défendable mais moins probable que T1; pronostic limité aux 90 minutes."
+    }
+  ]
+}
