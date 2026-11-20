@@ -1,0 +1,623 @@
+{
+  "id": "lf15-96-2026-11-20",
+  "formula": 15,
+  "gridNumber": 96,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-21T20:40:00+01:00",
+  "publishedAt": "2026-11-20T20:54:01.883Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation exclusivement virtuelle de 3 €: T1 témoin des issues sportives maximales, T2 teste le nul Lens-Toulouse (30 % contre 21 % FDJ), T3 le nul du derby Lorient-Rennes (31 % contre 29 % FDJ). Incertitude habituelle et aucune promesse de gain."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 12,
+        "away": 7,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Marseille cinq succès consécutifs, Le Mans sans victoire à l'extérieur; rotations encore incertaines.",
+        "keyFactors": [
+          "Marseille cinq succès consécutifs, Le Mans sans victoire à l'extérieur"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://sportnewsafrica.com/actualites/calendrier-ligue-1-programme-et-horaires-du-week-end-20-22-novembre-2026/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lille",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 49,
+        "draw": 28,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 45,
+        "draw": 30,
+        "away": 25,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Lille deuxième et invaincu à domicile; Lyon cinquième et irrégulier en déplacement; affiche serrée.",
+        "keyFactors": [
+          "Lille deuxième et invaincu à domicile"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://sportnewsafrica.com/actualites/calendrier-ligue-1-programme-et-horaires-du-week-end-20-22-novembre-2026/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lens",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 43,
+        "draw": 30,
+        "away": 27
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 21,
+        "away": 19,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Égalité de points; Lens deux défaites récentes et Toulouse trois nuls en cinq déplacements; avantage du terrain limité.",
+        "keyFactors": [
+          "Égalité de points"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://sportnewsafrica.com/actualites/calendrier-ligue-1-programme-et-horaires-du-week-end-20-22-novembre-2026/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 65,
+        "draw": 23,
+        "away": 12
+      },
+      "fdjSelectionDistribution": {
+        "home": 86,
+        "draw": 10,
+        "away": 4,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Paris FC troisième et invaincu à domicile; Angers seizième sans victoire sur ses cinq derniers matchs.",
+        "keyFactors": [
+          "Paris FC troisième et invaincu à domicile"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://sportnewsafrica.com/actualites/calendrier-ligue-1-programme-et-horaires-du-week-end-20-22-novembre-2026/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Lorient",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 36,
+        "draw": 31,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 31,
+        "draw": 29,
+        "away": 40,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Derby entre huitième et dixième séparés d'un point; Lorient meilleure forme récente, Rennes plus irrégulier.",
+        "keyFactors": [
+          "Derby entre huitième et dixième séparés d'un point"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://sportnewsafrica.com/actualites/calendrier-ligue-1-programme-et-horaires-du-week-end-20-22-novembre-2026/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Monaco",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 54,
+        "draw": 27,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 12,
+        "away": 7,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Monaco septième et invaincu chez lui, mais sans victoire sur cinq matchs; Auxerre quatre défaites en cinq déplacements.",
+        "keyFactors": [
+          "Monaco septième et invaincu chez lui, mais sans victoire sur cinq matchs"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://sportnewsafrica.com/actualites/calendrier-ligue-1-programme-et-horaires-du-week-end-20-22-novembre-2026/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 39,
+        "draw": 29,
+        "away": 32
+      },
+      "fdjSelectionDistribution": {
+        "home": 45,
+        "draw": 26,
+        "away": 29,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Strasbourg quatre défaites sur cinq; Brest trois victoires sur cinq, avantage du terrain contre dynamique adverse.",
+        "keyFactors": [
+          "Strasbourg quatre défaites sur cinq"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://sportnewsafrica.com/actualites/calendrier-ligue-1-programme-et-horaires-du-week-end-20-22-novembre-2026/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 21,
+        "draw": 26,
+        "away": 53
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 17,
+        "away": 71,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Inter deuxième avec 28 points, Atalanta douzième avec 14; Inter invaincu sur huit confrontations récentes de Serie A.",
+        "keyFactors": [
+          "Inter deuxième avec 28 points, Atalanta douzième avec 14"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.inter.it/en/news/guide-atalanta-inter-serie-a-2026-27",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Frosinone",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 76,
+        "draw": 14,
+        "away": 10,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Milan sort d'un succès à Genoa; Frosinone neuf buts encaissés en cinq déplacements; cadres milanais incertains.",
+        "keyFactors": [
+          "Milan sort d'un succès à Genoa"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.agimeg.it/milan-frosinone-serie-a-2026-pronostico/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Hull City",
+      "awayTeam": "Brighton Hove",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 17,
+        "draw": 25,
+        "away": 58
+      },
+      "fdjSelectionDistribution": {
+        "home": 9,
+        "draw": 18,
+        "away": 73,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Brighton deuxième, meilleure attaque avec 26 buts en dix matchs; Hull treizième mais invaincu à domicile.",
+        "keyFactors": [
+          "Brighton deuxième, meilleure attaque avec 26 buts en dix matchs"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.reuters.com/sports/soccer/huerzeler-keeps-brighton-grounded-amid-growing-title-buzz-2026-11-20/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Man. United",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 66,
+        "draw": 19,
+        "away": 15,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Liverpool quatrième et dix points devant United dix-huitième; premier match de Pochettino à United, derby imprévisible.",
+        "keyFactors": [
+          "Liverpool quatrième et dix points devant United dix-huitième"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.premierleague.com/en/news/4764492/ten-key-questions-for-liverpool-v-man-utd-and-all-matchweek-11-fixtures-in-2026-27-premier-league-season/",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Santander",
+      "awayTeam": "Real Sociedad",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 29,
+        "draw": 27,
+        "away": 44
+      },
+      "fdjSelectionDistribution": {
+        "home": 24,
+        "draw": 23,
+        "away": 53,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Sociedad cinquième et quatre succès sur cinq, Racing dixième et 30 buts encaissés en douze journées; absences côté Sociedad.",
+        "keyFactors": [
+          "Sociedad cinquième et quatre succès sur cinq, Racing dixième et 30 buts encaissés en douze journées"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.forebet.com/en/football-match-previews/32219-real-sociedad-travel-to-racing-santander-eyeing-three-points-in-la-liga-showdown",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 13,
+      "homeTeam": "Getafe",
+      "awayTeam": "Atl. Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 22,
+        "draw": 29,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 8,
+        "draw": 17,
+        "away": 75,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Atlético troisième et quatre victoires extérieures consécutives; Getafe invaincu sur huit réceptions; Lookman annoncé blessé.",
+        "keyFactors": [
+          "Atlético troisième et quatre victoires extérieures consécutives"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.aupaatleti.com/briefing/2026-11-20",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 14,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Celta Vigo",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 77,
+        "draw": 16,
+        "away": 7
+      },
+      "fdjSelectionDistribution": {
+        "home": 95,
+        "draw": 4,
+        "away": 1,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Real cinq victoires de Liga consécutives et cinq succès à domicile; Celta trois matchs sans victoire et attaque extérieure faible.",
+        "keyFactors": [
+          "Real cinq victoires de Liga consécutives et cinq succès à domicile"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.thestatszone.com/real-madrid-vs-celta-vigo-preview-team-news-prediction-240217",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 15,
+      "homeTeam": "FC Barcelone",
+      "awayTeam": "Villarreal",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 76,
+        "draw": 16,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 93,
+        "draw": 5,
+        "away": 2,
+        "accessedAt": "2026-11-20T20:54:01.883Z"
+      },
+      "analysis": {
+        "summary": "Barcelone leader, onze victoires sur douze et 48 buts; Villarreal huitième et irrégulier, plusieurs absences possibles.",
+        "keyFactors": [
+          "Barcelone leader, onze victoires sur douze et 48 buts"
+        ],
+        "uncertainty": "Compositions définitives et retours de sélection pas tous confirmés; les scénarios alternatifs restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ - grille ouverte",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          },
+          {
+            "label": "Analyse sportive indépendante",
+            "url": "https://www.forebet.com/en/football-match-previews/32218-barcelona-set-to-continue-stellar-la-liga-form-against-villarreal",
+            "accessedAt": "2026-11-20T20:54:01.883Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Issue estimée la plus probable à chaque rencontre. Marseille, Paris FC, Inter, Brighton, Real et Barcelone favoris; risque de surprises sur les matchs serrés et Monaco en méforme."
+    },
+    {
+      "id": "T2",
+      "label": "Nul Lens-Toulouse",
+      "selections": [
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Seule différence avec T1: nul au match 3, estimé à 30 % contre 21 % FDJ. Les clubs ont autant de points et Toulouse compte trois nuls en cinq déplacements; hypothèse moins probable que Lens gagnant."
+    },
+    {
+      "id": "T3",
+      "label": "Nul Lorient-Rennes",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Seule différence avec T1: nul au match 5, estimé à 31 % contre 29 % FDJ. Derby équilibré, un point entre les équipes; risque de sous-estimer la forme de Lorient."
+    }
+  ]
+}
