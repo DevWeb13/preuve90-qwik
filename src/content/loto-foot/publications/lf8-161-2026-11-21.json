@@ -1,0 +1,375 @@
+{
+  "id": "lf8-161-2026-11-21",
+  "formula": 8,
+  "gridNumber": 161,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-21T17:10:00+01:00",
+  "publishedAt": "2026-11-21T00:59:21.315Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience exclusivement virtuelle de 2 €. T1 est le témoin des issues sportives les plus probables. T2 teste le nul Lens-Toulouse (30 % contre 2 % de choix FDJ, chiffres possiblement provisoires). Incertitudes habituelles de compositions et de forme, aucun gain promis."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Nice",
+      "awayTeam": "Paris SG",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 20,
+        "draw": 24,
+        "away": 56
+      },
+      "fdjSelectionDistribution": {
+        "home": 18,
+        "draw": 22,
+        "away": 60,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "PSG leader et cinq victoires de suite, Nice sixième et en forte forme; les retours de blessure parisiens et la trêve limitent la confiance.",
+        "keyFactors": [
+          "PSG leader et cinq victoires de suite, Nice sixième et en forte forme; les retours de blessure parisiens et la trêve limitent la confiance."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://www.radarfoot.fr/matchs/1552824",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://www.psg.fr/content/luis-enrique-beaucoup-de-belles-rencontres-qui-nous-attendent-nice-paris-ligue-1-2026-2027",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lille",
+      "awayTeam": "Lyon",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 45,
+        "draw": 29,
+        "away": 26
+      },
+      "fdjSelectionDistribution": {
+        "home": 90,
+        "draw": 9,
+        "away": 1,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "Lille deuxième et défense solide; Lyon cinquième, également compact, plusieurs absences annoncées. Match plus équilibré que les choix FDJ.",
+        "keyFactors": [
+          "Lille deuxième et défense solide; Lyon cinquième, également compact, plusieurs absences annoncées. Match plus équilibré que les choix FDJ."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://totalodds.co.uk/news/ligue-1-matchweek-11-preview-2026-27",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://kickoffhour.com/football/ligue-1/injuries/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Lens",
+      "awayTeam": "Toulouse",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 40,
+        "draw": 30,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 90,
+        "draw": 2,
+        "away": 8,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "Lens et Toulouse à égalité de points; Lens sort de deux défaites, Toulouse a battu Strasbourg. Nul crédible malgré les choix FDJ.",
+        "keyFactors": [
+          "Lens et Toulouse à égalité de points; Lens sort de deux défaites, Toulouse a battu Strasbourg. Nul crédible malgré les choix FDJ."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://www.thestatszone.com/lens-vs-toulouse-preview-team-news-prediction-240257",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://kickoffhour.com/football/ligue-1/injuries/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Monaco",
+      "awayTeam": "Auxerre",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 52,
+        "draw": 28,
+        "away": 20
+      },
+      "fdjSelectionDistribution": {
+        "home": 52,
+        "draw": 24,
+        "away": 24,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "Monaco reste favori chez lui contre Auxerre, mais traverse une série sans victoire et compte des absents importants.",
+        "keyFactors": [
+          "Monaco reste favori chez lui contre Auxerre, mais traverse une série sans victoire et compte des absents importants."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://www.reuters.com/sports/soccer/lyon-paris-fc-win-while-marseille-continue-improve-2026-11-01/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://kickoffhour.com/football/ligue-1/injuries/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Brest",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 40,
+        "draw": 30,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 86,
+        "draw": 2,
+        "away": 12,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "Strasbourg irrégulier reçoit Brest qui a récemment battu Lyon. L'avantage du terrain est limité par la dynamique adverse.",
+        "keyFactors": [
+          "Strasbourg irrégulier reçoit Brest qui a récemment battu Lyon. L'avantage du terrain est limité par la dynamique adverse."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://www.reuters.com/sports/soccer/lyon-paris-fc-win-while-marseille-continue-improve-2026-11-01/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://kickoffhour.com/football/ligue-1/injuries/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Reims",
+      "awayTeam": "St Etienne",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 31,
+        "draw": 29,
+        "away": 40
+      },
+      "fdjSelectionDistribution": {
+        "home": 35,
+        "draw": 16,
+        "away": 49,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "Saint-Etienne leader se déplace chez Reims quatrième. Reims a quatre blessés et Saint-Etienne est privé de son gardien Larsonneur.",
+        "keyFactors": [
+          "Saint-Etienne leader se déplace chez Reims quatrième. Reims a quatre blessés et Saint-Etienne est privé de son gardien Larsonneur."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://www.stade-de-reims.com/sdr-asse-le-groupe-remois-2/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://www.foot-sur7.fr/795973-sdr-asse-lequipe-de-reims-compte-aussi-des-absents",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Arsenal",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 25,
+        "draw": 28,
+        "away": 47
+      },
+      "fdjSelectionDistribution": {
+        "home": 23,
+        "draw": 34,
+        "away": 43,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "Arsenal leader et cinq victoires consécutives, Newcastle douzième. Arsenal privé de Saka et Zubimendi, Saliba apte; terrain difficile.",
+        "keyFactors": [
+          "Arsenal leader et cinq victoires consécutives, Newcastle douzième. Arsenal privé de Saka et Zubimendi, Saliba apte; terrain difficile."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://www.reuters.com/sports/soccer/saliba-fit-arsenals-newcastle-trip-zubimendi-out-with-injured-hamstring-2026-11-20/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://premierleaguenewsnow.com/2026/11/21/newcastle-arsenal-preview-bruno-guimaraes-jaissle/",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Celta Vigo",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 75,
+        "draw": 17,
+        "away": 8
+      },
+      "fdjSelectionDistribution": {
+        "home": 44,
+        "draw": 32,
+        "away": 24,
+        "accessedAt": "2026-11-21T00:59:21.315Z"
+      },
+      "analysis": {
+        "summary": "Real Madrid sur huit succès de suite, Celta onzième avec sept nuls en douze rencontres. Avantage net au Bernabeu, mais nul possible.",
+        "keyFactors": [
+          "Real Madrid sur huit succès de suite, Celta onzième avec sept nuls en douze rencontres. Avantage net au Bernabeu, mais nul possible."
+        ],
+        "uncertainty": "Compositions définitives et états physiques après trêve non tous confirmés; répartition FDJ susceptible d'évoluer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Analyse sportive",
+            "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/previas/real-madrid-celta-a-por-la-novena-victoria-consecutiva-en-el-regreso-a-la-liga-21-11-2026",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          },
+          {
+            "label": "Source sportive complémentaire",
+            "url": "https://www.thestatszone.com/real-madrid-vs-celta-vigo-preview-team-news-prediction-240217",
+            "accessedAt": "2026-11-21T00:59:21.315Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Choix maximal des probabilités sportives pour les huit matchs. Paris, Arsenal et Real favoris; risque sur Lens, Strasbourg et Reims."
+    },
+    {
+      "id": "T2",
+      "label": "Nul Lens-Toulouse",
+      "selections": [
+        "2",
+        "1",
+        "N",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1"
+      ],
+      "rationale": "Nul Lens-Toulouse plausible à 30 % contre 2 % de choix FDJ, dans un duel de clubs à égalité de points; variante moins probable et chiffres FDJ potentiellement provisoires."
+    }
+  ]
+}
