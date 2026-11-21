@@ -1,0 +1,341 @@
+{
+  "id": "lf7-146-2026-11-21",
+  "formula": 7,
+  "gridNumber": 146,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-22T14:55:00+01:00",
+  "publishedAt": "2026-11-21T12:58:28.591Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation exclusivement virtuelle de 2 €. T1 est le témoin des sept issues les plus probables. T2 teste le nul du derby Lorient-Rennes (31 % estimés, 33 % de sélections FDJ), sans avantage public présumé. Risques principaux: derby serré, blessures, rotations et effet du changement d'entraîneur à United. Aucun gain promis."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 84,
+        "draw": 10,
+        "away": 6,
+        "accessedAt": "2026-11-21T12:58:28.591Z"
+      },
+      "analysis": {
+        "summary": "Marseille en série de cinq victoires; Le Mans en difficulté. Emerson et Cornelius absents, internationaux de retour.",
+        "keyFactors": [
+          "Forme marseillaise",
+          "Avantage du terrain",
+          "Absents en défense"
+        ],
+        "uncertainty": "Compositions et états physiques définitifs non confirmés après trêve; probabilités expérimentales, non garanties.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://infra-of.madeinfoot.com/infos/article-om-bruno-genesio-retrouve-ses-internationaux-deux-absents-a-l-entrainement-avant-la-reception-du-mans-fc-546369.html",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lorient",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 38,
+        "draw": 31,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 30,
+        "draw": 33,
+        "away": 37,
+        "accessedAt": "2026-11-21T12:58:28.591Z"
+      },
+      "analysis": {
+        "summary": "Derby serré entre Lorient (15 points) et Rennes (16). Lorient plus solide défensivement, Rennes plus offensif mais vulnérable.",
+        "keyFactors": [
+          "Derby régional",
+          "Défense lorientaise",
+          "Rennes attaque mais encaisse beaucoup"
+        ],
+        "uncertainty": "Compositions et états physiques définitifs non confirmés après trêve; probabilités expérimentales, non garanties.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.radarfoot.fr/matchs/lorient-rennes-1552821",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.mpgstats.fr/match/18817/Ligue-1-2026-2027-J11-FC-Lorient-vs-Stade-Rennais-FC",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 12,
+        "away": 7,
+        "accessedAt": "2026-11-21T12:58:28.591Z"
+      },
+      "analysis": {
+        "summary": "Paris FC troisième reçoit Angers seizième. Avantage à domicile, Ikoné en reprise et Camara incertain.",
+        "keyFactors": [
+          "Paris FC troisième",
+          "Angers seizième",
+          "Retours de blessure incertains"
+        ],
+        "uncertainty": "Compositions et états physiques définitifs non confirmés après trêve; probabilités expérimentales, non garanties.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://parisfc.fr/match-center/men/118504/2026-11-22/paris-fc-vs-angers-ligue-1-mcdonalds/",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.sport.fr/football/fc-lorient-linfirmerie-degarnit-la-defense-avant-le-derby-1502014.shtm",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 24,
+        "draw": 27,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 16,
+        "draw": 24,
+        "away": 60,
+        "accessedAt": "2026-11-21T12:58:28.591Z"
+      },
+      "analysis": {
+        "summary": "Inter favorite mais privée de Bonny, Stankovic et Lautaro; Atalanta espère plusieurs retours, défense encore diminuée.",
+        "keyFactors": [
+          "Inter favorite",
+          "Absences offensives de l'Inter",
+          "Retours possibles à l'Atalanta"
+        ],
+        "uncertainty": "Compositions et états physiques définitifs non confirmés après trêve; probabilités expérimentales, non garanties.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://sempreinter.com/2026/11/16/kossounou-joins-atalantas-on-pitch-returnees-as-inter-visit-bergamo-on-november-22/",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.fcinternews.it/l-avversario/atalanta-sorridere-recuperi-inter-1022786",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Frosinone",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 60,
+        "draw": 25,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 77,
+        "draw": 15,
+        "away": 8,
+        "accessedAt": "2026-11-21T12:58:28.591Z"
+      },
+      "analysis": {
+        "summary": "Milan quatrième, Frosinone sixième. Maignan proche du retour, Pavlovic incertain et plusieurs absents milanais; Raimondo absent à Frosinone.",
+        "keyFactors": [
+          "Milan favori à domicile",
+          "Frosinone sixième",
+          "Blessures et rotations milanaises"
+        ],
+        "uncertainty": "Compositions et états physiques définitifs non confirmés après trêve; probabilités expérimentales, non garanties.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.tuttomercatoweb.com/probabili-formazioni/milan-frosinone-probabili-formazioni-pulisic-cisse-scalpita-birligea-titolare-2295635",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://milanmagazine.it/calcio/articolo/sky-milan-le-ultime-verso-il-frosinone-pavlovic-si-allena-parzialmente-in-gruppo-19-11-2026",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Getafe",
+      "awayTeam": "Atl. Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 22,
+        "draw": 29,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 18,
+        "away": 70,
+        "accessedAt": "2026-11-21T12:58:28.591Z"
+      },
+      "analysis": {
+        "summary": "Atlético troisième et quatre succès de suite à l'extérieur, Getafe invaincu à domicile et solide défensivement.",
+        "keyFactors": [
+          "Getafe invaincu chez lui",
+          "Atlético efficace à l'extérieur",
+          "Rencontre possiblement fermée"
+        ],
+        "uncertainty": "Compositions et états physiques définitifs non confirmés après trêve; probabilités expérimentales, non garanties.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.thestatszone.com/getafe-vs-atletico-madrid-preview-team-news-prediction-240418",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.aupaatleti.com/briefing/2026-11-20",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Man. United",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 57,
+        "draw": 26,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 60,
+        "draw": 24,
+        "away": 16,
+        "accessedAt": "2026-11-21T12:58:28.591Z"
+      },
+      "analysis": {
+        "summary": "Liverpool quatrième et six victoires sur huit matchs, United dix-huitième avec nouvel entraîneur; Liverpool n'a gagné qu'un de cinq matchs de championnat à Anfield.",
+        "keyFactors": [
+          "United en difficulté",
+          "Liverpool favori",
+          "Effet nouvel entraîneur et Anfield irrégulier"
+        ],
+        "uncertainty": "Compositions et états physiques définitifs non confirmés après trêve; probabilités expérimentales, non garanties.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.reuters.com/sports/soccer/liverpools-iraola-wary-unknown-united-under-pochettino-2026-11-20/",
+            "accessedAt": "2026-11-21T12:58:28.591Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Issues sportives maximales: Marseille, Lorient, Paris FC, Inter, Milan, Atlético, Liverpool. Risque particulier sur le derby et le déplacement de l'Inter."
+    },
+    {
+      "id": "T2",
+      "label": "Nul du derby breton",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1"
+      ],
+      "rationale": "Une seule modification par rapport à T1: nul Lorient-Rennes, plausible à 31 % avec un point d'écart au classement. Hypothèse tactique alternative plus risquée, sans avantage de sélection FDJ (33 %)."
+    }
+  ]
+}
