@@ -1,0 +1,566 @@
+{
+  "id": "lf12-101-2026-11-21",
+  "formula": 12,
+  "gridNumber": 101,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-22T14:55:00+01:00",
+  "publishedAt": "2026-11-21T16:58:03.759Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation virtuelle de 3 €, sans pari réel. T1 témoin des douze issues les plus probables; T2 teste le nul du derby Lorient-Rennes; T3 teste le nul Getafe-Atlético, relativement moins sélectionné par le public. Risques: derby, rotations après trêve, blessures et incertitudes des favoris à l'extérieur. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Mans",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 89,
+        "draw": 7,
+        "away": 4,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Marseille a gagné cinq matchs de championnat de suite, contre un Mans sans victoire sur cinq rencontres. Emerson et Cornelius sont forfaits.",
+        "keyFactors": [
+          "Avantage domicile et dynamique offensive"
+        ],
+        "uncertainty": "Le Mans obtient régulièrement des nuls; retour des internationaux à gérer.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.mpgstats.fr/match/18818/Ligue-1-2026-2027-J11-Olympique-de-Marseille-vs-Le-Mans-FC",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://infra-of.madeinfoot.com/infos/article-om-bruno-genesio-retrouve-ses-internationaux-deux-absents-a-l-entrainement-avant-la-reception-du-mans-fc-546369.html",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Lorient",
+      "awayTeam": "Rennes",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 38,
+        "draw": 31,
+        "away": 31
+      },
+      "fdjSelectionDistribution": {
+        "home": 31,
+        "draw": 32,
+        "away": 37,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Lorient a concédé seulement huit buts en dix journées et domine récemment ce derby. Rennes reste proche au classement mais plus irrégulier.",
+        "keyFactors": [
+          "Solidité lorientaise et antécédents directs"
+        ],
+        "uncertainty": "Derby très ouvert; absences et retour de Lepaul encore discutés.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/lorient-vs-rennes-preview-team-news-prediction-240434",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://kickoffhour.com/football/ligue-1/injuries/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Angers",
+      "competition": "Ligue 1",
+      "probabilities": {
+        "home": 64,
+        "draw": 23,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 86,
+        "draw": 9,
+        "away": 5,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Paris FC est nettement mieux classé et reçoit Angers, privé de Lefort suspendu. Paris compte aussi plusieurs indisponibles.",
+        "keyFactors": [
+          "Avantage parisien à domicile"
+        ],
+        "uncertainty": "Effectif parisien diminué, incertitudes sur les retours.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://parisfc.fr/match-center/men/118504/2026-11-22/paris-fc-vs-angers-ligue-1-mcdonalds/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.mpgstats.fr/match/18821/Ligue-1-2026-2027-J11-Paris-FC-vs-Angers-SCO",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Inter Milan",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 23,
+        "draw": 27,
+        "away": 50
+      },
+      "fdjSelectionDistribution": {
+        "home": 11,
+        "draw": 22,
+        "away": 67,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Inter deuxième et nettement plus performante, mais plusieurs attaquants reviennent de blessure. Atalanta récupère progressivement des éléments.",
+        "keyFactors": [
+          "Inter supérieure sur la saison et dans les confrontations directes"
+        ],
+        "uncertainty": "Statuts de Lautaro et Thuram évolutifs, calendrier européen.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/atalanta-vs-inter-milan-preview-team-news-prediction-240402",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/probabili-formazioni-12a-giornata-serie-a-202627-titolari-indisponibili-squalificati-consigli-dubbi-ultime-sulle-scelte-in-ottica-fantacalcio_sto23356688/story.shtml",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Milan AC",
+      "awayTeam": "Frosinone",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 60,
+        "draw": 25,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 80,
+        "draw": 13,
+        "away": 7,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Milan quatrième contre Frosinone sixième. Maignan disponible, mais défense milanaise diminuée; Frosinone privé de Raimondo.",
+        "keyFactors": [
+          "Avantage San Siro et historique des confrontations"
+        ],
+        "uncertainty": "Pavlovic incertain, Frosinone mieux classé qu'un outsider ordinaire.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.eurosport.it/calcio/serie-a/2026-2027/milan-frosinone-probabili-formazioni-statistiche-quando-e-dove-vederla_sto23356682/story.shtml",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.tuttomercatoweb.com/probabili-formazioni/milan-frosinone-probabili-formazioni-pulisic-cisse-scalpita-birligea-titolare-2295635",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Getafe",
+      "awayTeam": "Atl. Madrid",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 22,
+        "draw": 29,
+        "away": 49
+      },
+      "fdjSelectionDistribution": {
+        "home": 9,
+        "draw": 17,
+        "away": 74,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Atlético a remporté ses quatre derniers déplacements de championnat, mais Getafe est invaincu sur ses huit derniers matchs de championnat à domicile.",
+        "keyFactors": [
+          "Forme extérieure de l'Atlético"
+        ],
+        "uncertainty": "Getafe très résistant à domicile; Pubill incertain.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.aupaatleti.com/briefing/2026-11-20",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.aupaatleti.com/briefing/2026-11-17",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Man. United",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 57,
+        "draw": 26,
+        "away": 17
+      },
+      "fdjSelectionDistribution": {
+        "home": 65,
+        "draw": 22,
+        "away": 13,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Liverpool quatrième, United dix-huitième. Van Dijk et Frimpong pourraient revenir; Pochettino débute à la tête de United.",
+        "keyFactors": [
+          "Différence de forme et avantage Anfield"
+        ],
+        "uncertainty": "Derby historique et effet du nouvel entraîneur, retours non tous garantis.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://premierleaguenewsnow.com/2026/11/21/liverpool-man-united-preview-pochettino-iraola/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.razonysaber.com/en/2026/sports/liverpool-man-utd-preview-november-22-2026/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Hull City",
+      "awayTeam": "Brighton Hove",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 19,
+        "draw": 26,
+        "away": 55
+      },
+      "fdjSelectionDistribution": {
+        "home": 11,
+        "draw": 19,
+        "away": 70,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Brighton deuxième et très performant au pressing. Hull treizième reste invaincu à domicile, avec plusieurs nuls.",
+        "keyFactors": [
+          "Meilleure dynamique de Brighton"
+        ],
+        "uncertainty": "Hull résiste chez lui et Brighton n'a jamais gagné au MKM Stadium.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.football365.com/match-preview/hull-vs-brighton-prediction-preview",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.razonysaber.com/en/2026/sports/hull-city-brighton-preview-november-22-2026/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Werder Brême",
+      "awayTeam": "Hambourg",
+      "competition": "Bundesliga",
+      "probabilities": {
+        "home": 52,
+        "draw": 27,
+        "away": 21
+      },
+      "fdjSelectionDistribution": {
+        "home": 73,
+        "draw": 16,
+        "away": 11,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Werder sixième et invaincu en quatre matchs à domicile; Hambourg onzième et fragile en déplacement. Derby historiquement disputé.",
+        "keyFactors": [
+          "Avantage domicile et faiblesse extérieure du HSV"
+        ],
+        "uncertainty": "Derby, blessures des milieux du HSV et incertitudes à Brême.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.thestatszone.com/werder-bremen-vs-hamburg-preview-team-news-prediction-240624",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://tipsters.net/matches/soccer/20-11-2026-werder-bremen-hamburger",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Bologne",
+      "awayTeam": "Udinese",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 65,
+        "draw": 23,
+        "away": 12
+      },
+      "fdjSelectionDistribution": {
+        "home": 81,
+        "draw": 12,
+        "away": 7,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Bologne reste sur quatre succès de suite; Udinese est dernier et sans victoire depuis neuf rencontres.",
+        "keyFactors": [
+          "Dynamique et domicile de Bologne"
+        ],
+        "uncertainty": "Plusieurs blessés des deux côtés et possible rotation.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://stadiro.com/news/serie-a/bologna-seek-fifth-straight-win-as-udinese-face-nine-match-drought/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.spaziocalcio.it/calcio-italiano/serie-a/palladino-presenta-bologna-udinese-dubbi-a-sinistra-e-fiducia-a-odgaard/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Osasuna",
+      "awayTeam": "Malaga",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 55,
+        "draw": 27,
+        "away": 18
+      },
+      "fdjSelectionDistribution": {
+        "home": 71,
+        "draw": 21,
+        "away": 8,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Osasuna quinzième reçoit Málaga dernier, encore sans victoire en Liga. Le terrain d'El Sadar favorise les locaux.",
+        "keyFactors": [
+          "Difficultés défensives de Málaga et avantage terrain"
+        ],
+        "uncertainty": "Osasuna irrégulier, plusieurs incertitudes d'effectif.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://optimagoal.com/laliga/osasuna-vs-malaga-2026-11-22/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://ligaura.com/match_preview/osasuna-vs-malaga-22-nov-2026/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Santander",
+      "awayTeam": "Real Sociedad",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 28,
+        "draw": 29,
+        "away": 43
+      },
+      "fdjSelectionDistribution": {
+        "home": 18,
+        "draw": 27,
+        "away": 55,
+        "accessedAt": "2026-11-21T16:58:03.757Z"
+      },
+      "analysis": {
+        "summary": "Real Sociedad cinquième et en bonne forme contre Santander dixième. Les deux équipes perdent des titulaires; la Sociedad a un match européen jeudi.",
+        "keyFactors": [
+          "Meilleure forme de la Sociedad"
+        ],
+        "uncertainty": "Barrenetxea absent, Racing difficile à manœuvrer à domicile.",
+        "sources": [
+          {
+            "label": "FDJ officielle",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://deeppreviews.com/previews/racing-santander-vs-real-sociedad-2026-11-22",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://previaxi.com/en/match/racing-santander-vs-real-sociedad-1570459/",
+            "accessedAt": "2026-11-21T16:58:03.757Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Un choix par match correspondant à la probabilité sportive maximale. Marseille, Paris FC, Brighton et Bologne constituent des appuis, mais le derby breton, Getafe et Santander restent risqués."
+    },
+    {
+      "id": "T2",
+      "label": "Nul du derby breton",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Variante de T1 avec Lorient-Rennes N (31 % estimés contre 32 % des choix FDJ), plutôt que Lorient 1 (38 %). Test d'un derby fermé, risque d'une victoire lorientaise."
+    },
+    {
+      "id": "T3",
+      "label": "Nul Getafe-Atlético",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "rationale": "Variante distincte de T1 avec Getafe-Atlético N (29 % estimés contre 17 % FDJ) plutôt que 2 (49 %). Test de la résistance à domicile de Getafe, risque de sous-estimer la forme extérieure de l'Atlético."
+    }
+  ]
+}
