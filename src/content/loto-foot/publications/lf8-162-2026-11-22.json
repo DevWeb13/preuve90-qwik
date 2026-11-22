@@ -1,0 +1,404 @@
+{
+  "id": "lf8-162-2026-11-22",
+  "formula": 8,
+  "gridNumber": 162,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-23T18:55:00+01:00",
+  "publishedAt": "2026-11-22T21:03:09.028Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérience exclusivement virtuelle de 3 €. T1 fixe les huit issues sportives les plus probables; T2 teste Dunkerque en déplacement, T3 le nul Monza-Fiorentina. Risques principaux: deux affiches presque équilibrées, blessures et compositions non définitives. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Nantes",
+      "awayTeam": "Grenoble",
+      "competition": "Ligue 2",
+      "startsAt": "2026-11-23T20:45:00+01:00",
+      "probabilities": {
+        "home": 62,
+        "draw": 24,
+        "away": 14
+      },
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 13,
+        "away": 13,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Nantes reçoit Grenoble après décalage officiel de deux jours. Le GF38 sort d'une qualification en Coupe de France, avec une longue pause de championnat.",
+        "keyFactors": [
+          "Avantage du terrain nantais",
+          "report confirmé",
+          "Grenoble a adapté sa préparation"
+        ],
+        "uncertainty": "Forme récente nantaise et compositions non totalement établies",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://gf38.fr/fc-nantes-gf38-la-rencontre-reprogrammee-au-lundi-23-novembre-a-20h45/",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.ledauphine.com/sport/2026/11/16/gf38-vers-un-report-du-deplacement-a-nantes",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Sochaux",
+      "awayTeam": "Dunkerque",
+      "competition": "Ligue 2",
+      "startsAt": "2026-11-23T20:45:00+01:00",
+      "probabilities": {
+        "home": 36,
+        "draw": 29,
+        "away": 35
+      },
+      "fdjSelectionDistribution": {
+        "home": 54,
+        "draw": 22,
+        "away": 24,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Dunkerque arrive après une victoire 3-0 contre Guingamp, Sochaux bénéficie de son terrain. Rencontre plus équilibrée que la répartition du public.",
+        "keyFactors": [
+          "Dunkerque a gagné son dernier match de championnat",
+          "terrain de Sochaux",
+          "reprise après trêve"
+        ],
+        "uncertainty": "Niveau exact de Sochaux et choix de onze restent incertains",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.usldunkerque.com/fcsmusld-lavant-match-en-5-points/",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Brentford",
+      "awayTeam": "Everton",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 51,
+        "draw": 23,
+        "away": 26,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Brentford reçoit Everton avec plusieurs absences majeures, dont Igor Thiago suspendu, Collins et Hickey blessés. Everton arrive sur une série positive.",
+        "keyFactors": [
+          "Thiago suspendu",
+          "défense de Brentford diminuée",
+          "Everton trois succès récents toutes compétitions"
+        ],
+        "uncertainty": "Impact des remplaçants et forme après trêve",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.brentfordfc.com/en/news/match-previews-brentford-v-everton-premier-league-23-11-2026",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://premierleaguenewsnow.com/2026/11/21/brentford-everton-team-news-collins-hickey-grealish/",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Levante",
+      "awayTeam": "Elche",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 43,
+        "draw": 32,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 51,
+        "draw": 32,
+        "away": 17,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Derby régional entre deux équipes de bas de tableau séparées d'un point. Levante a gagné ses deux rencontres victorieuses à domicile, Elche arrive après deux défaites sans marquer.",
+        "keyFactors": [
+          "Levante sans absence signalée",
+          "Lemar de retour pour Elche",
+          "trois absences chez les visiteurs"
+        ],
+        "uncertainty": "Derby à forte variance et compositions non définitives",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.sportsmole.co.uk/football/levante/preview/levante-vs-elche-prediction-team-news-lineups_609589.html",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.deportesvalencia.com/futbol/levante-elche-previa-derbi-lunes-23-lemar-castro/",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Ceuta",
+      "awayTeam": "Almeria",
+      "competition": "LaLiga 2",
+      "probabilities": {
+        "home": 17,
+        "draw": 23,
+        "away": 60
+      },
+      "fdjSelectionDistribution": {
+        "home": 13,
+        "draw": 15,
+        "away": 72,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Almería est deuxième avec 32 points et onze rencontres invaincues, Ceuta dernier avec cinq points et six défaites consécutives. Le nouvel entraîneur de Ceuta peut apporter une réaction.",
+        "keyFactors": [
+          "Écart de 27 points",
+          "Almería récupère plusieurs joueurs",
+          "Ceuta sous nouvel entraîneur"
+        ],
+        "uncertainty": "Effet du changement d'entraîneur et avantage du terrain ceutí",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.infobae.com/espana/agencias/2026/11/22/el-colista-busca-estrenar-en-casa-el-efecto-lobera-y-el-almeria-aferrarse-al-liderato/",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.diariodealmeria.es/ud-almeria/ceuta-almeria-horario-ver-tv_0_2008548008.html",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Hammarby",
+      "awayTeam": "IFK Göteborg",
+      "competition": "Allsvenskan",
+      "probabilities": {
+        "home": 68,
+        "draw": 20,
+        "away": 12
+      },
+      "fdjSelectionDistribution": {
+        "home": 56,
+        "draw": 23,
+        "away": 21,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Hammarby en tête, cinq victoires consécutives, Göteborg sans victoire depuis six rencontres. Forte dynamique locale et antécédents favorables.",
+        "keyFactors": [
+          "Hammarby cinq succès de suite",
+          "Göteborg sans victoire sur six",
+          "avantage domicile"
+        ],
+        "uncertainty": "Formations et disponibilité de certains internationaux non confirmées",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.rotascore.com/en/match/hammarby-goteborg/x7lm7phj30xzm2w",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.sportsgambler.com/betting-tips/football/hammarby-vs-ifk-goteborg-prediction-lineups-odds-2026-11-23/",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Brøndby",
+      "awayTeam": "Midtjylland",
+      "competition": "Superliga danoise",
+      "probabilities": {
+        "home": 34,
+        "draw": 28,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 43,
+        "draw": 25,
+        "away": 32,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Midtjylland est mieux classé, mais Brøndby dispose d'un avantage à domicile. Les informations de séries récentes divergent selon les sources, ce qui impose une faible confiance.",
+        "keyFactors": [
+          "Midtjylland deuxième",
+          "Brøndby cinquième",
+          "blessures signalées des deux côtés"
+        ],
+        "uncertainty": "Contradictions de forme entre agrégateurs et compositions incertaines",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://darbah.com/en/match/brondby-vs-fc-midtjylland-1549059/",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.viasport.no/fotball/kamp/1549059",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "AC Monza",
+      "awayTeam": "Fiorentina",
+      "competition": "Serie A",
+      "startsAt": "2026-11-23T20:45:00+01:00",
+      "probabilities": {
+        "home": 30,
+        "draw": 30,
+        "away": 40
+      },
+      "fdjSelectionDistribution": {
+        "home": 21,
+        "draw": 23,
+        "away": 56,
+        "accessedAt": "2026-11-22T21:03:08.028Z"
+      },
+      "analysis": {
+        "summary": "Affiche de maintien, plus ouverte que ne le suggère la répartition FDJ. Monza récupère Pessina et Ziółkowski, Fiorentina pourrait reconduire sa structure récente.",
+        "keyFactors": [
+          "Retours au Monza",
+          "Fiorentina favorite modérée",
+          "enjeux de maintien"
+        ],
+        "uncertainty": "Maye et Folorunsho incertains au Monza, plusieurs postes disputés chez la Fiorentina",
+        "sources": [
+          {
+            "label": "FDJ officielle (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://sport.sky.it/calcio/serie-a/2026/11/22/monza-fiorentina-probabili-formazioni-12-giornata",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.tuttomercatoweb.com/probabili-formazioni/monza-fiorentina-probabili-formazioni-varela-intoccabile-vanoli-conferma-4-2-3-1-2295639",
+            "accessedAt": "2026-11-22T21:03:08.028Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ],
+      "rationale": "Issues maximales selon l'analyse: Nantes, Sochaux (de justesse), Everton, Levante, Almería, Hammarby, Midtjylland, Fiorentina. Risques principaux: Sochaux-Dunkerque quasi équilibré et derby danois."
+    },
+    {
+      "id": "T2",
+      "label": "Dunkerque, hypothèse de forme",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "2"
+      ],
+      "rationale": "Par rapport à T1, Dunkerque remplace Sochaux: 35 % contre 36 % pour Sochaux, tandis que le public ne retient Dunkerque qu'à 24 %. Teste la dynamique après victoire 3-0; risque du déplacement."
+    },
+    {
+      "id": "T3",
+      "label": "Nul Monza-Fiorentina",
+      "selections": [
+        "1",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "N"
+      ],
+      "rationale": "Par rapport à T1, teste un nul à Monza (30 % estimés contre 23 % de choix FDJ), dans une rencontre de maintien où les retours de Monza peuvent resserrer le match. Risque: supériorité technique de la Fiorentina."
+    }
+  ]
+}
