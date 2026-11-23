@@ -1,0 +1,559 @@
+{
+  "id": "lf12-102-2026-11-23",
+  "formula": 12,
+  "gridNumber": 102,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-23T20:40:00+01:00",
+  "publishedAt": "2026-11-23T06:01:21+01:00",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Simulation strictement virtuelle de 3 €: témoin T1 fondé sur les probabilités sportives, variante T2 sur la puissance offensive de West Ham malgré sa mauvaise forme, variante T3 sur le nul Monza-Fiorentina. Risques: matchs serrés, compositions non confirmées et répartition FDJ parfois extrême. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "Nantes",
+      "awayTeam": "Grenoble",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 60,
+        "draw": 25,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 83,
+        "draw": 0,
+        "away": 17,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Nantes est favori à domicile malgré sa position basse; Grenoble reste fragile à l'extérieur. Report du match confirmé.",
+        "keyFactors": [
+          "Écart de forme récent",
+          "terrain nantais"
+        ],
+        "uncertainty": "Un match de maintien peut rester fermé",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://gf38.fr/fc-nantes-gf38-la-rencontre-reprogrammee-au-lundi-23-novembre-a-20h45/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.feedinco.com/blog/upcoming-football-matches",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Sochaux",
+      "awayTeam": "Dunkerque",
+      "competition": "Ligue 2",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 33,
+        "draw": 17,
+        "away": 50,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Sochaux reste en difficulté après plusieurs revers; Dunkerque présente une dynamique plus favorable, mais se déplace.",
+        "keyFactors": [
+          "Série récente de Sochaux",
+          "forme de Dunkerque"
+        ],
+        "uncertainty": "La faiblesse de l'écart rend le nul et le succès local plausibles",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.usldunkerque.com/fcsmusld-lavant-match-en-5-points/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://pronalgo.fr/pronostics/2026-11-23",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "AC Monza",
+      "awayTeam": "Fiorentina",
+      "competition": "Serie A",
+      "probabilities": {
+        "home": 29,
+        "draw": 30,
+        "away": 41
+      },
+      "fdjSelectionDistribution": {
+        "home": 17,
+        "draw": 33,
+        "away": 50,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "La Fiorentina dispose d'un léger avantage de qualité; Monza joue chez lui avec des retours annoncés.",
+        "keyFactors": [
+          "Fiorentina favorite modérée",
+          "retours au Monza"
+        ],
+        "uncertainty": "Un nul reste très plausible dans cette confrontation de maintien",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://sport.sky.it/calcio/serie-a/2026/11/22/monza-fiorentina-probabili-formazioni-12-giornata",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.tuttomercatoweb.com/probabili-formazioni/monza-fiorentina-probabili-formazioni-varela-intoccabile-vanoli-conferma-4-2-3-1-2295639",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Levante",
+      "awayTeam": "Elche",
+      "competition": "LaLiga",
+      "probabilities": {
+        "home": 43,
+        "draw": 32,
+        "away": 25
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 0,
+        "away": 33,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Derby entre équipes proches au classement; avantage modéré de Levante à domicile.",
+        "keyFactors": [
+          "Terrain de Levante",
+          "difficultés offensives récentes d'Elche"
+        ],
+        "uncertainty": "Derby et compositions encore non définitives",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.sportsmole.co.uk/football/levante/preview/levante-vs-elche-prediction-team-news-lineups_609589.html",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Brentford",
+      "awayTeam": "Everton",
+      "competition": "Premier League",
+      "probabilities": {
+        "home": 34,
+        "draw": 29,
+        "away": 37
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 33,
+        "away": 17,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Everton a une dynamique favorable et Brentford est pénalisé par des indisponibilités annoncées.",
+        "keyFactors": [
+          "Absence de Thiago",
+          "forme d'Everton"
+        ],
+        "uncertainty": "Avantage du terrain de Brentford et incertitude sur les remplaçants",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.brentfordfc.com/en/news/match-previews-brentford-v-everton-premier-league-23-11-2026",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Portsmouth",
+      "awayTeam": "West Ham",
+      "competition": "Championship",
+      "probabilities": {
+        "home": 37,
+        "draw": 27,
+        "away": 36
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 0,
+        "away": 50,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Portsmouth est en meilleure forme récente, West Ham possède une attaque plus productive malgré cinq matchs sans victoire.",
+        "keyFactors": [
+          "Portsmouth 2 victoires sur 5",
+          "West Ham 0 sur 5",
+          "avantage offensif visiteur"
+        ],
+        "uncertainty": "Sources et modèles divergent sur le favori; nombreuses absences locales",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.sportsmole.co.uk/football/portsmouth/preview/portsmouth-vs-west-ham-prediction-team-news-lineups_609617.html",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://previaxi.com/en/portsmouth-vs-west-ham-preview-2026-11-24/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Sheffield Utd",
+      "awayTeam": "Southampton",
+      "competition": "Championship",
+      "probabilities": {
+        "home": 38,
+        "draw": 29,
+        "away": 33
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 33,
+        "away": 17,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Sheffield United crée des occasions et bénéficie de son terrain; Southampton possède une défense solide mais une attaque irrégulière.",
+        "keyFactors": [
+          "Production xG locale",
+          "défense de Southampton"
+        ],
+        "uncertainty": "Les absences et le onze final peuvent déplacer un duel équilibré",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.thepundit.io/championship-2026-2027/matches/19728968/regular-season/sheffield-united-vs-southampton/november-24-2026",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 8,
+      "homeTeam": "Norwich",
+      "awayTeam": "Queens Park R.",
+      "competition": "Championship",
+      "probabilities": {
+        "home": 49,
+        "draw": 27,
+        "away": 24
+      },
+      "fdjSelectionDistribution": {
+        "home": 67,
+        "draw": 33,
+        "away": 0,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Norwich reste sur cinq victoires consécutives et 17 buts; QPR résiste bien à l'extérieur.",
+        "keyFactors": [
+          "Série de Norwich",
+          "QPR invaincu sur trois rencontres"
+        ],
+        "uncertainty": "La solidité extérieure de QPR peut neutraliser le favori",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://previaxi.com/en/norwich-vs-qpr-preview-2026-11-24/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 9,
+      "homeTeam": "Middlesbrough",
+      "awayTeam": "Swansea",
+      "competition": "Championship",
+      "probabilities": {
+        "home": 57,
+        "draw": 24,
+        "away": 19
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Middlesbrough domine le classement et reste invaincu à domicile; Swansea présente une forme moins régulière.",
+        "keyFactors": [
+          "Invincibilité locale en huit matchs",
+          "écart au classement"
+        ],
+        "uncertainty": "Swansea peut exploiter les transitions et surprendre",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.myfootballfacts.com/match/efl-championship-2026-27-middlesbrough-vs-swansea-2026-11-24/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://football-today.co.uk/match/middlesbrough-vs-swansea-1563278",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 10,
+      "homeTeam": "Bristol City",
+      "awayTeam": "Wrexham",
+      "competition": "Championship",
+      "probabilities": {
+        "home": 33,
+        "draw": 29,
+        "away": 38
+      },
+      "fdjSelectionDistribution": {
+        "home": 50,
+        "draw": 33,
+        "away": 17,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Bristol City traverse une série négative; Wrexham vient de gagner à Lincoln, mais ses absences rendent le déplacement délicat.",
+        "keyFactors": [
+          "Bristol a perdu ses trois derniers",
+          "Wrexham a gagné son dernier match"
+        ],
+        "uncertainty": "Blessures annoncées de plusieurs joueurs de Wrexham et avantage local",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.skysports.com/football/bristol-city-vs-wrexham/stats/560690",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://previaxi.com/en/bristol-city-vs-wrexham-preview-2026-11-24/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 11,
+      "homeTeam": "Bodø/Glimt",
+      "awayTeam": "Lask Linz",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 45,
+        "draw": 27,
+        "away": 28
+      },
+      "fdjSelectionDistribution": {
+        "home": 100,
+        "draw": 0,
+        "away": 0,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Bodø/Glimt a l'avantage du terrain et des résultats européens compétitifs; LASK est offensivement productif.",
+        "keyFactors": [
+          "Bodø a tenu Lille en échec",
+          "LASK marque régulièrement"
+        ],
+        "uncertainty": "Compositions prévisionnelles contradictoires selon les sites",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://www.football-uefa.com/match_preview/bodoglimt-vs-lask-linz-24-nov-2026/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.sportsgambler.com/betting-tips/football/bodo-glimt-vs-lask-prediction-lineups-odds-2026-11-24/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    },
+    {
+      "position": 12,
+      "homeTeam": "Galatasaray",
+      "awayTeam": "Aston Villa",
+      "competition": "Ligue des champions",
+      "probabilities": {
+        "home": 43,
+        "draw": 27,
+        "away": 30
+      },
+      "fdjSelectionDistribution": {
+        "home": 0,
+        "draw": 0,
+        "away": 100,
+        "accessedAt": "2026-11-23T06:01:21+01:00"
+      },
+      "analysis": {
+        "summary": "Galatasaray arrive avec cinq succès consécutifs, Villa possède un meilleur bilan européen mais n'a pas gagné depuis cinq matchs.",
+        "keyFactors": [
+          "Dynamique locale",
+          "Villa 6e européen contre Galatasaray 18e"
+        ],
+        "uncertainty": "Villa reste dangereux offensivement et les indisponibilités sont contradictoires",
+        "sources": [
+          {
+            "label": "FDJ officielle (grille et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 1",
+            "url": "https://fr.uefa.com/uefachampionsleague/news/02ab-221d83ceddc6-2c42c0c23fd6-1000--ligue-des-champions-journee-5-les-faits-et-stats-de-galatasa/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          },
+          {
+            "label": "Source sportive 2",
+            "url": "https://www.razonysaber.com/en/2026/sports/galatasaray-aston-villa-preview-champions-league-november-24-2026/",
+            "accessedAt": "2026-11-23T06:01:21+01:00"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Choix le plus probable à chaque match selon l'analyse. Les principaux risques sont Sochaux-Dunkerque, Portsmouth-West Ham et Sheffield United-Southampton."
+    },
+    {
+      "id": "T2",
+      "label": "West Ham offensif",
+      "selections": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Par rapport à T1, West Ham gagne à Portsmouth (36 % contre 37 % pour Portsmouth), malgré sa mauvaise série: teste sa supériorité offensive et son historique favorable. Risque: forme actuelle défavorable."
+    },
+    {
+      "id": "T3",
+      "label": "Nul Monza-Fiorentina",
+      "selections": [
+        "1",
+        "2",
+        "N",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Par rapport à T1, nul à Monza (30 % contre 33 % de sélections FDJ); teste une rencontre fermée entre équipes sous pression. Risque: avantage technique de la Fiorentina."
+    }
+  ]
+}
