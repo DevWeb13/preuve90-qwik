@@ -1,0 +1,331 @@
+{
+  "id": "lf7-147-2026-11-23",
+  "formula": 7,
+  "gridNumber": 147,
+  "officialUrl": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+  "validationDeadline": "2026-11-24T20:55:00+01:00",
+  "publishedAt": "2026-11-23T21:02:25.248Z",
+  "methodVersion": "loto-foot-v1",
+  "betDecision": {
+    "action": "bet",
+    "rationale": "Expérimentation exclusivement virtuelle de 2 €: T1 témoin des favoris sportifs et T2 nul Arsenal-Dortmund pour tester un scénario plausible moins choisi par le public. Risque principal: incertitudes sur les effectifs et variabilité européenne. Aucun gain garanti."
+  },
+  "matches": [
+    {
+      "position": 1,
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Lens",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 63,
+        "draw": 22,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 74,
+        "draw": 14,
+        "away": 12,
+        "accessedAt": "2026-11-23T21:02:25.248Z"
+      },
+      "analysis": {
+        "summary": "Leipzig est plus solide récemment à domicile; Lens a subi de lourdes défaites européennes, notamment face à Como et Bruges.",
+        "keyFactors": [
+          "Leipzig a battu Augsbourg 5-2",
+          "Lens a encaissé neuf buts face à Como",
+          "Les indisponibilités signalées varient selon les sources"
+        ],
+        "uncertainty": "Les blessures et la capacité de Lens à réagir restent incertaines.",
+        "sources": [
+          {
+            "label": "FDJ (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.fotmob.com/en-GB/matches/lens-vs-rb-leipzig/81cw95c",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.football-uefa.com/match_preview/rb-leipzig-vs-lens-24-nov-2026/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 2,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Dortmund",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 49,
+        "draw": 28,
+        "away": 23
+      },
+      "fdjSelectionDistribution": {
+        "home": 62,
+        "draw": 23,
+        "away": 15,
+        "accessedAt": "2026-11-23T21:02:25.248Z"
+      },
+      "analysis": {
+        "summary": "Les deux équipes ont une bonne dynamique récente; Arsenal bénéficie du terrain mais Dortmund est un adversaire européen crédible.",
+        "keyFactors": [
+          "Arsenal a gagné quatre de ses cinq derniers matchs dans la source consultée",
+          "Dortmund a également gagné quatre de ses cinq derniers matchs",
+          "L'avantage du terrain favorise Arsenal"
+        ],
+        "uncertainty": "Les compositions et absences ne sont pas définitivement confirmées.",
+        "sources": [
+          {
+            "label": "FDJ (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://football-uefa.com/match_preview/arsenal-vs-borussia-dortmund-24-nov-2026/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 3,
+      "homeTeam": "Como 1907",
+      "awayTeam": "AEK Athènes",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 62,
+        "draw": 23,
+        "away": 15
+      },
+      "fdjSelectionDistribution": {
+        "home": 79,
+        "draw": 12,
+        "away": 9,
+        "accessedAt": "2026-11-23T21:02:25.248Z"
+      },
+      "analysis": {
+        "summary": "Como arrive après une victoire européenne spectaculaire à Lens; l'AEK marque mais concède régulièrement face à des adversaires relevés.",
+        "keyFactors": [
+          "Como a gagné 9-1 à Lens en Europe",
+          "AEK a perdu 3-2 contre le Real Madrid",
+          "Plusieurs indisponibilités sont signalées à Como"
+        ],
+        "uncertainty": "La fiabilité et l'impact des absences annoncées à Como restent difficiles à confirmer.",
+        "sources": [
+          {
+            "label": "FDJ (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.football-uefa.com/match_preview/como-vs-aek-athens-fc-24-nov-2026/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 4,
+      "homeTeam": "Feyenoord",
+      "awayTeam": "FC Porto",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 24,
+        "draw": 26,
+        "away": 50
+      },
+      "fdjSelectionDistribution": {
+        "home": 28,
+        "draw": 25,
+        "away": 47,
+        "accessedAt": "2026-11-23T21:02:25.248Z"
+      },
+      "analysis": {
+        "summary": "Porto possède une dynamique récente supérieure et une défense plus stable, alors que Feyenoord traverse une série sans victoire.",
+        "keyFactors": [
+          "Porto a gagné ses cinq derniers matchs relevés",
+          "Feyenoord n'a gagné aucun de ses cinq derniers matchs relevés",
+          "Le déplacement à De Kuip reste un risque"
+        ],
+        "uncertainty": "La capacité de Feyenoord à rebondir à domicile et les rotations restent incertaines.",
+        "sources": [
+          {
+            "label": "FDJ (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.football-uefa.com/match_preview/feyenoord-vs-fc-porto-24-nov-2026/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "homeTeam": "Slovan Bratislava",
+      "awayTeam": "Betis Séville",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 12,
+        "draw": 20,
+        "away": 68
+      },
+      "fdjSelectionDistribution": {
+        "home": 12,
+        "draw": 18,
+        "away": 70,
+        "accessedAt": "2026-11-23T21:02:25.248Z"
+      },
+      "analysis": {
+        "summary": "Betis est mieux classé en Europe et possède une meilleure dynamique; le Slovan a subi plusieurs lourdes défaites européennes.",
+        "keyFactors": [
+          "Slovan a perdu 4-0 contre LASK",
+          "Betis a battu Elche 2-0",
+          "Slovan conserve un avantage de terrain"
+        ],
+        "uncertainty": "Une réaction à domicile ou des rotations du Betis restent possibles.",
+        "sources": [
+          {
+            "label": "FDJ (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.football-uefa.com/match_preview/slovan-bratislava-vs-real-betis-24-nov-2026/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.victorypicks.com/en/previews/slovan-bratislava-vs-real-betis-november-24-2026-3985/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 6,
+      "homeTeam": "Man. City",
+      "awayTeam": "Naples",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 66,
+        "draw": 21,
+        "away": 13
+      },
+      "fdjSelectionDistribution": {
+        "home": 72,
+        "draw": 17,
+        "away": 11,
+        "accessedAt": "2026-11-23T21:02:25.248Z"
+      },
+      "analysis": {
+        "summary": "City bénéficie du terrain et Naples traverse une période européenne délicate, avec une absence importante annoncée dans les buts.",
+        "keyFactors": [
+          "Naples a perdu 4-1 à Porto",
+          "Le gardien Alex Meret est annoncé blessé par une source récente",
+          "City reçoit à l'Etihad"
+        ],
+        "uncertainty": "La confirmation des titulaires et la gestion du calendrier peuvent modifier l'équilibre.",
+        "sources": [
+          {
+            "label": "FDJ (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.mancitycore.com/man-city-napoli-allegri-crisis-meret-injury/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.football-uefa.com/match_preview/manchester-city-vs-napoli-24-nov-2026/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          }
+        ]
+      }
+    },
+    {
+      "position": 7,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "PSV Eindhoven",
+      "competition": "UEFA Champions League",
+      "probabilities": {
+        "home": 72,
+        "draw": 18,
+        "away": 10
+      },
+      "fdjSelectionDistribution": {
+        "home": 85,
+        "draw": 7,
+        "away": 8,
+        "accessedAt": "2026-11-23T21:02:25.248Z"
+      },
+      "analysis": {
+        "summary": "Le Real est favori à domicile grâce à sa dynamique européenne; le PSV marque beaucoup aux Pays-Bas et reste dangereux en transition.",
+        "keyFactors": [
+          "UEFA confirme un historique favorable du Real à domicile contre le PSV",
+          "Le Real affiche une longue série de victoires",
+          "PSV a gagné à Porto en Europe"
+        ],
+        "uncertainty": "Les absences potentielles et l'efficacité offensive du PSV peuvent réduire l'écart.",
+        "sources": [
+          {
+            "label": "FDJ (identité et répartition)",
+            "url": "https://www.pointdevente.parionssport.fdj.fr/grilles/ouvertes/loto-foot",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 1",
+            "url": "https://www.uefa.com/uefachampionsleague/news/02ab-221d8198f3f5-d0e4938cae8c-1000--champions-league-matchday-5-real-madrid-vs-psv-eindhoven-/",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          },
+          {
+            "label": "Analyse sportive 2",
+            "url": "https://www.goal.com/en/news/real-madrid-psv-eindhoven-uefa-champions-league-preview/blt163d22a33154f060",
+            "accessedAt": "2026-11-23T21:02:25.248Z"
+          }
+        ]
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "label": "Témoin sportif",
+      "selections": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Sélection des issues maximales selon les probabilités sportives: Leipzig, Arsenal, Como, Porto, Betis, City et Real. Risque: opposition Dortmund, déplacement de Porto et capacité offensive du PSV."
+    },
+    {
+      "id": "T2",
+      "label": "Nul Arsenal-Dortmund",
+      "selections": [
+        "1",
+        "N",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "rationale": "Teste un nul tactique à Arsenal, estimé à 28 % contre 23 % de choix FDJ; les deux équipes affichent une bonne forme. Risque: avantage domicile et qualité offensive d'Arsenal."
+    }
+  ]
+}
